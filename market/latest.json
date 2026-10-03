@@ -1,5 +1,5 @@
 {
- "fetched_kst": "2026-10-03 20:02",
+ "fetched_kst": "2026-10-03 20:05",
  "items": {
   "sp500": null,
   "nasdaq": null,
@@ -40,5 +40,45 @@
    "src": "미 재무부 일별 확정치"
   },
   "foreign_kospi": null
+ },
+ "errors": {
+  "yahoo ^GSPC": "HTTP Error 429: Too Many Requests",
+  "stooq ^spx": "could not convert string to float: 'e.encode(c+n))'",
+  "yahoo ^IXIC": "HTTP Error 429: Too Many Requests",
+  "stooq ^ndq": "could not convert string to float: 'e.encode(c+n))'",
+  "yahoo ^DJI": "HTTP Error 429: Too Many Requests",
+  "stooq ^dji": "could not convert string to float: 'e.encode(c+n))'",
+  "yahoo ^VIX": "HTTP Error 429: Too Many Requests",
+  "stooq vi.f": "could not convert string to float: 'e.encode(c+n))'",
+  "yahoo ^TNX": "HTTP Error 429: Too Many Requests",
+  "stooq 10yusy.b": "could not convert string to float: 'e.encode(c+n))'",
+  "yahoo ^TYX": "HTTP Error 429: Too Many Requests",
+  "stooq 30yusy.b": "could not convert string to float: 'e.encode(c+n))'",
+  "yahoo 2YY=F": "HTTP Error 429: Too Many Requests",
+  "stooq 2yusy.b": "could not convert string to float: 'e.encode(c+n))'",
+  "yahoo KRW=X": "HTTP Error 429: Too Many Requests",
+  "stooq usdkrw": "could not convert string to float: 'e.encode(c+n))'",
+  "yahoo DX-Y.NYB": "HTTP Error 429: Too Many Requests",
+  "stooq usd_i": "could not convert string to float: 'e.encode(c+n))'",
+  "yahoo CL=F": "HTTP Error 429: Too Many Requests",
+  "stooq cl.f": "could not convert string to float: 'e.encode(c+n))'",
+  "yahoo BZ=F": "HTTP Error 429: Too Many Requests",
+  "stooq cb.f": "could not convert string to float: 'e.encode(c+n))'",
+  "yahoo GC=F": "HTTP Error 429: Too Many Requests",
+  "stooq gc.f": "could not convert string to float: 'e.encode(c+n))'",
+  "yahoo ^KS11": "HTTP Error 429: Too Many Requests",
+  "stooq ^kospi": "could not convert string to float: 'e.encode(c+n))'",
+  "yahoo ^KQ11": "HTTP Error 429: Too Many Requests",
+  "yahoo 005930.KS": "HTTP Error 429: Too Many Requests",
+  "yahoo 000660.KS": "HTTP Error 429: Too Many Requests",
+  "yahoo MU": "HTTP Error 429: Too Many Requests",
+  "stooq mu.us": "could not convert string to float: 'e.encode(c+n))'",
+  "yahoo NVDA": "HTTP Error 429: Too Many Requests",
+  "stooq nvda.us": "could not convert string to float: 'e.encode(c+n))'",
+  "yahoo KBE": "HTTP Error 429: Too Many Requests",
+  "stooq kbe.us": "could not convert string to float: 'e.encode(c+n))'",
+  "yahoo TLT": "HTTP Error 429: Too Many Requests",
+  "stooq tlt.us": "could not convert string to float: 'e.encode(c+n))'",
+  "naver foreign": "HTTP Error 410: 410"
  }
 }
