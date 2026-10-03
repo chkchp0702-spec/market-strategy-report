@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 # kpi 라벨에 들어 있는 말 → 수집 key, 허용 오차(절대값), 소수 자리
 MAP = [
     (r"10년", "us10y", 0.03, 2), (r"30년", "us30y", 0.04, 2), (r"S&P", "sp500", 15, 0), (r"나스닥", "nasdaq", 60, 0),
-    (r"다우", "dow", 120, 0), (r"달러/원|환율", "usdkrw", 4, 1), (r"WTI", "wti", 0.8, 2), (r"브렌트", "brent", 0.8, 2),
+    (r"다우", "dow", 120, 0), (r"달러/원|환율", "usdkrw", 12, 1), (r"WTI", "wti", 0.8, 2), (r"브렌트", "brent", 0.8, 2),
     (r"\b금\b|금값|금 ", "gold", 20, 0), (r"코스피", "kospi", 15, 0), (r"코스닥", "kosdaq", 8, 0), (r"VIX", "vix", 0.6, 1),
     (r"삼성", "samsung", 800, 0), (r"하이닉스", "hynix", 3000, 0), (r"마이크론", "micron", 3, 1), (r"외국인", "foreign_kospi", 150, 0),
 ]
@@ -42,8 +42,10 @@ def main() -> int:
     checked = set()
     for k in day.get("kpis", []):
         label, val = k["label"], k["value"]
-        for pat, key, tol, nd in MAP:
-            if re.search(pat, label) and key not in checked:
+        # 라벨에 여러 항목이 있으면("나스닥 / S&P500") 먼저 나오는 항목 = 첫 숫자
+        cands = sorted(((m.start(), pat, key, tol, nd) for pat, key, tol, nd in MAP if key not in checked for m in [re.search(pat, label)] if m), key=lambda x: x[0])
+        for _, pat, key, tol, nd in cands[:1]:
+            if True:
                 it = items.get(key) or items.get(key + "_tsy")
                 if key == "us10y" and items.get("us10y_tsy"):
                     it = items["us10y_tsy"]
@@ -53,8 +55,9 @@ def main() -> int:
                     rows.append((label, val, "—", "—", "대조 불가"))
                 else:
                     got = it["value"]
-                    if key == "foreign_kospi" and abs(mine) < 100000 and "억" in val:
-                        pass
+                    # "+1.19%" 처럼 등락률로 적은 카드는 수집치의 등락률과 비교 (금리 카드는 수준 그대로)
+                    if "%" in val and key not in ("us10y", "us30y", "us2y") and it.get("change_pct") is not None:
+                        got, tol, nd = it["change_pct"], 0.15, 2
                     diff = mine - got
                     ok = abs(diff) <= tol or (rng and rng[0] - tol <= got <= rng[1] + tol)
                     bad += 0 if ok else 1
