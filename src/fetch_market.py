@@ -107,13 +107,17 @@ def cnbc(symbol: str) -> dict | None:
     if not code:
         return None
     url = ("https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols="
-           f"{urllib.parse.quote(code)}&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json")
+           f"{urllib.parse.quote(code)}&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=0&output=json")
     try:
         q = json.loads(_get(url))["FormattedQuoteResult"]["FormattedQuote"][0]
         if q.get("code") not in (0, "0", None) or "last" not in q:
             ERRORS[f"cnbc {code}"] = str(q.get("name") or q)[:120]
             return None
-        f = lambda k: float(str(q.get(k, "")).replace(",", "").replace("%", "") or "nan")
+        def f(k):
+            v = str(q.get(k, "")).replace(",", "").replace("%", "").strip()
+            if v.upper() in ("UNCH", ""):
+                return 0.0 if k != "last" else float("nan")
+            return float(v)
         c1, ch = f("last"), f("change")
         import math
         if math.isnan(c1):
@@ -177,6 +181,20 @@ def naver_index(code: str = "KOSPI") -> dict | None:
         return None
 
 
+def naver_stock(code6: str, name: str) -> dict | None:
+    """네이버 모바일 API: 개별 종목 일별 종가 (삼성전자·하이닉스)."""
+    url = f"https://m.stock.naver.com/api/stock/{code6}/price?pageSize=25&page=1"
+    try:
+        rows = json.loads(_get(url, headers={"Referer": "https://m.stock.naver.com/"}))
+        closes = [(r["localTradedAt"], float(r["closePrice"].replace(",", ""))) for r in reversed(rows)]
+        (d0, c0), (d1, c1) = closes[-2], closes[-1]
+        return {"value": c1, "prev": c0, "change": c1 - c0, "change_pct": (c1 / c0 - 1) * 100, "asof_utc": d1,
+                "asof_kst": d1[5:] + " 종가", "market_state": "CLOSED", "src": f"네이버 금융 {name}", "history": closes}
+    except Exception as e:
+        ERRORS[f"naver {code6}"] = str(e)[:200]
+        return None
+
+
 def naver_foreign(code: str = "KOSPI") -> dict | None:
     """코스피 투자자별 매매동향(억원) — 네이버 모바일 API. 그날 것 하나만 주므로 history.csv 에 매일 쌓는다."""
     url = f"https://m.stock.naver.com/api/index/{code}/trend"
@@ -219,6 +237,8 @@ def main() -> int:
         r = yahoo(sym)
         if not r and key in ("kospi", "kosdaq"):
             r = naver_index(key.upper())
+        if not r and key in ("samsung", "hynix"):
+            r = naver_stock(sym.split(".")[0], name)
         if r:
             for d, c in r.pop("history"):
                 hist_rows.setdefault(d, {})[key] = c
