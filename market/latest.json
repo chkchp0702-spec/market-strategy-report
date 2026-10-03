@@ -1,5 +1,5 @@
 {
- "fetched_kst": "2026-10-03 20:09",
+ "fetched_kst": "2026-10-03 20:11",
  "items": {
   "sp500": {
    "value": 7722.72,
@@ -78,7 +78,17 @@
    "src": "CNBC US2Y",
    "name": "미 2년 금리(선물)"
   },
-  "usdkrw": null,
+  "usdkrw": {
+   "value": 1342.5,
+   "prev": 1342.5,
+   "change": 0.0,
+   "change_pct": 0.0,
+   "asof_utc": "2026-10-02T16:59:00.000-0400",
+   "asof_kst": "4:59 PM EDT",
+   "market_state": "REG_MKT",
+   "src": "CNBC KRW=",
+   "name": "달러/원"
+  },
   "dxy": {
    "value": 101.92,
    "prev": 102.1,
@@ -101,7 +111,17 @@
    "src": "CNBC @CL.1",
    "name": "WTI"
   },
-  "brent": null,
+  "brent": {
+   "value": 102.25,
+   "prev": 102.25,
+   "change": 0.0,
+   "change_pct": 0.0,
+   "asof_utc": "2026-10-03T06:00:00.000+0100",
+   "asof_kst": "6:00 AM BST",
+   "market_state": "REG_MKT",
+   "src": "CNBC @LCO.1",
+   "name": "브렌트"
+  },
   "gold": {
    "value": 4172.1,
    "prev": 4202.3,
@@ -135,8 +155,28 @@
    "src": "CNBC .KQ11",
    "name": "코스닥"
   },
-  "samsung": null,
-  "hynix": null,
+  "samsung": {
+   "value": 276000.0,
+   "prev": 274500.0,
+   "change": 1500.0,
+   "change_pct": 0.55,
+   "asof_utc": "2026-10-02",
+   "asof_kst": "10-02 종가",
+   "market_state": "CLOSED",
+   "src": "네이버 금융 삼성전자",
+   "name": "삼성전자"
+  },
+  "hynix": {
+   "value": 1842000.0,
+   "prev": 1828000.0,
+   "change": 14000.0,
+   "change_pct": 0.77,
+   "asof_utc": "2026-10-02",
+   "asof_kst": "10-02 종가",
+   "market_state": "CLOSED",
+   "src": "네이버 금융 SK하이닉스",
+   "name": "SK하이닉스"
+  },
   "micron": {
    "value": 1074.89,
    "prev": 1097.39,
@@ -218,11 +258,9 @@
   "yahoo ^TYX": "HTTP Error 429: Too Many Requests",
   "yahoo 2YY=F": "HTTP Error 429: Too Many Requests",
   "yahoo KRW=X": "HTTP Error 429: Too Many Requests",
-  "cnbc KRW=": "could not convert string to float: 'UNCH'",
   "yahoo DX-Y.NYB": "HTTP Error 429: Too Many Requests",
   "yahoo CL=F": "HTTP Error 429: Too Many Requests",
   "yahoo BZ=F": "HTTP Error 429: Too Many Requests",
-  "cnbc @LCO.1": "could not convert string to float: 'UNCH'",
   "yahoo GC=F": "HTTP Error 429: Too Many Requests",
   "yahoo ^KS11": "HTTP Error 429: Too Many Requests",
   "yahoo ^KQ11": "HTTP Error 429: Too Many Requests",
