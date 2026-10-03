@@ -1,0 +1,43 @@
+name: fetch-market
+
+# 시세·RSS 자동 수집 + 조건 발동 알림(Issue).
+# - 매일 07:00 KST (22:00 UTC) : 아침 리포트용 확정치
+# - 한국 장중(09~16 KST = 00~07 UTC) 매시간, 미국 장중(22:30~05 KST = 13:30~20 UTC) 매시간 : 조건 감시
+on:
+  schedule:
+    - cron: "0 22 * * *"
+    - cron: "0 0-7 * * 1-5"
+    - cron: "30 13-20 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: fetch-market
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Fetch market data + RSS
+        run: python -m src.fetch_market
+      - name: Check conditions → Issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python -m src.alerts --issue
+      - name: Commit
+        run: |
+          git config user.name "report-bot"
+          git config user.email "report-bot@users.noreply.github.com"
+          git add market feeds alerts
+          git diff --cached --quiet || git commit -m "fetch: $(TZ=Asia/Seoul date '+%m/%d %H:%M') KST"
+          git pull --rebase origin main || true
+          git push
