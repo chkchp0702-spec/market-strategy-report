@@ -1,0 +1,44 @@
+{
+ "fetched_kst": "2026-10-03 20:02",
+ "items": {
+  "sp500": null,
+  "nasdaq": null,
+  "dow": null,
+  "vix": null,
+  "us10y": null,
+  "us30y": null,
+  "us2y": null,
+  "usdkrw": null,
+  "dxy": null,
+  "wti": null,
+  "brent": null,
+  "gold": null,
+  "kospi": null,
+  "kosdaq": null,
+  "samsung": null,
+  "hynix": null,
+  "micron": null,
+  "nvidia": null,
+  "kbe": null,
+  "tlt": null,
+  "us2y_tsy": {
+   "name": "미 2년 금리(선물) (재무부 확정)",
+   "value": 4.83,
+   "date": "2026-10-02",
+   "src": "미 재무부 일별 확정치"
+  },
+  "us10y_tsy": {
+   "name": "미 10년 금리 (재무부 확정)",
+   "value": 5.28,
+   "date": "2026-10-02",
+   "src": "미 재무부 일별 확정치"
+  },
+  "us30y_tsy": {
+   "name": "미 30년 금리 (재무부 확정)",
+   "value": 5.63,
+   "date": "2026-10-02",
+   "src": "미 재무부 일별 확정치"
+  },
+  "foreign_kospi": null
+ }
+}
