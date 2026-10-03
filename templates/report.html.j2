@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>{{ css }}</style>
+</head><body>
+{% set foot = "시황리포트 · " ~ d.date.replace("-", ".") ~ " " ~ d.edition_label ~ " · 전체본" %}
+
+<!-- ===== 1 오늘 한눈에 ===== -->
+<section class="page">
+ <div class="hd"><h1>오늘 한눈에</h1><div class="d">시황리포트 · <b>{{ d.date.replace("-", ".") }} ({{ d.weekday }}) {{ d.edition_label }}</b> · {{ d.basis }}</div></div>
+
+ <div class="grade">
+ {% for g in d.yesterday_grades %}
+  <div class="g {{ g.cls }}"><b>{{ g.title }}</b><span class="mark">{{ g.mark }}</span> {{ g.text }}</div>
+ {% endfor %}
+ </div>
+
+ <div class="one"><div class="k">오늘의 한 줄</div><p>{{ d.one_liner | safe }}</p></div>
+
+ {% for row in [d.kpis[:4], d.kpis[4:8]] %}
+ <div class="g4" {% if not loop.first %}style="margin-top:8px"{% endif %}>
+ {% for k in row %}
+  <div class="kpi {{ k.cls }}"><div class="l">{{ k.label }}</div><div class="v" {% if k.small %}style="font-size:15pt"{% endif %}>{{ k.value }}</div><div class="c {{ k.change_cls or '' }}">{{ k.change }}</div><div class="s">그래서? {{ k.so }}</div><div class="src">{{ k.src }}</div></div>
+ {% endfor %}
+ </div>
+ {% endfor %}
+
+ <div class="g2" style="margin-top:7px">
+  <div class="box"><h3>오늘 내 포트폴리오</h3>
+   <div style="margin:3px 0 7px">{% for b in d.decision.badges %}<span class="badge {{ 'chg' if not loop.first }}" {% if not loop.first %}style="font-size:10.5pt;margin-left:6px"{% endif %}>{{ b }}</span>{% endfor %}</div>
+   <ul class="b">{% for r in d.decision.reasons %}<li>{{ r | safe }}</li>{% endfor %}</ul>
+  </div>
+  <div class="box cream"><h3>체크할 것 3개</h3>
+   <ul class="b">{% for c in d.checks %}<li>{{ c | safe }}</li>{% endfor %}</ul>
+  </div>
+ </div>
+ <div class="foot"><span>{{ foot }}</span><span>1 / 6</span></div>
+</section>
+
+<!-- ===== 2 무슨 일이 있었나 ===== -->
+<section class="page">
+ <div class="hd"><h1>무슨 일이 있었나</h1><div class="d">핵심 이야기 · 고정 그림 2개 · 반대 의견</div></div>
+ <div class="h2">{{ d.story.title }}</div>
+ <p class="lead">{{ d.story.lead | safe }}</p>
+
+ <div class="g2">
+  <div class="box"><h3>고정 그림 ① 외국인 코스피 순매수 (억원) — 장부 {{ charts.foreign_n }}일치</h3>{{ charts.foreign_svg | safe }}<div class="note">{{ charts.foreign_cap }}</div></div>
+  <div class="box"><h3>고정 그림 ② 미국 10년 국채금리 (%) — 장부 {{ charts.us10y_n }}일치</h3>{{ charts.us10y_svg | safe }}<div class="note">{{ charts.us10y_cap }}</div></div>
+ </div>
+
+ <div class="g2" style="margin-top:9px">
+  <div class="box"><h3>{{ d.story.korea_title }}</h3><div class="story">{% for p in d.story.korea %}<p>{{ p | safe }}</p>{% endfor %}</div></div>
+  <div class="box pale"><h3>반대 의견 — 같은 크기로</h3><ul class="b">{% for c in d.counter %}<li>{{ c | safe }}</li>{% endfor %}</ul></div>
+ </div>
+ <div class="foot"><span>{{ foot }}</span><span>2 / 6</span></div>
+</section>
+
+<!-- ===== 3 전략가 패널 ===== -->
+<section class="page">
+ <div class="hd"><h1>전략가 패널 {{ panel_rows | length }}명</h1><div class="d">오늘 새 발언 <b>{{ d.panel_new_count }}명 / {{ panel_rows | length }}명</b> · 10/2부터 집계 · 빈칸은 발언 없음</div></div>
+ <table class="panel">
+  <tr><th style="width:18px">#</th><th style="width:118px">누구</th><th>① 금리 꼭대기인가</th><th>② AI 이익 계속되나</th><th>③ 한국 살 때인가</th><th style="width:56px">오늘</th><th style="width:34px">누적</th></tr>
+ {% for sec in panel_groups %}
+  <tr class="sec"><td colspan="7">{{ sec.title }}</td></tr>
+  {% for r in sec.rows %}
+  <tr><td>{{ r.n }}</td><td>{% if r.is_new or r.verdict %}<b>{{ r.name }}</b>{% else %}{{ r.name }}{% endif %}</td>
+   {% for q in ['q1','q2','q3'] %}<td class="{{ '' if r.is_new else 'g' }}">{% if r[q] %}{{ r[q] }}{% if r.qdate %} ({{ r.qdate }}){% endif %}{% else %}—{% endif %}</td>{% endfor %}
+   <td>{% if r.verdict == 'win' %}<span class="pt g">득점</span> {% elif r.verdict == 'loss' %}<span class="pt r">실점</span> {% endif %}{{ r.today | replace('득점 — ', '') | replace('실점 — ', '') | replace('득점', '') | replace('실점', '') }}</td>
+   <td>{{ r.cum }}</td></tr>
+  {% endfor %}
+ {% endfor %}
+ </table>
+ <div class="sum">{% for s in d.panel_summary %}<div class="c">{{ s | safe }}</div>{% endfor %}</div>
+ <div class="note" style="margin-top:3px;font-size:7pt">출처: {{ d.panel_sources }}</div>
+ <div class="foot"><span>{{ foot }}</span><span>3 / 6</span></div>
+</section>
+
+<!-- ===== 4 대결 · 발언 · 성적표 ===== -->
+<section class="page">
+ <div class="hd"><h1>오늘의 대결 · 발언 · 내 성적표</h1><div class="d">1:1 대결 1 · 발언 · 패널 밖 판정 · 성적표</div></div>
+ <div class="box" style="margin-bottom:9px"><h3>오늘의 1:1 대결 — {{ d.duel.title }}</h3>
+  <div class="vsbox">
+   <div><b style="color:var(--dn)">{{ d.duel.left_name }}</b><br>{{ d.duel.left_text }}<br><span class="note">판정 숫자: {{ d.duel.left_rule }}</span></div>
+   <div class="m">vs</div>
+   <div><b style="color:var(--up)">{{ d.duel.right_name }}</b><br>{{ d.duel.right_text }}<br><span class="note">판정 숫자: {{ d.duel.right_rule }}</span></div>
+  </div>
+  <div style="background:var(--cream);border-radius:6px;padding:5px 9px;margin-top:6px;font-size:9.2pt">{{ d.duel.verdict | safe }}</div>
+ </div>
+ <div class="g2">
+  <div>{% for q in d.quotes[:2] %}<div class="q {{ q.cls }}"><div class="who">{{ q.who }}</div><div class="said">{{ q.said }}</div><div class="so">{{ q.so | safe }}</div></div>{% endfor %}</div>
+  <div>{% for q in d.quotes[2:4] %}<div class="q {{ q.cls }}"><div class="who">{{ q.who }}</div><div class="said">{{ q.said }}</div><div class="so">{{ q.so | safe }}</div></div>{% endfor %}</div>
+ </div>
+ <div class="g2" style="margin-top:9px">
+  <div class="box"><h3>패널 밖 진행 중 판정</h3>
+   <table><tr><th>누가</th><th>주장</th><th>오늘</th><th style="width:40px">누적</th></tr>
+   {% for o in outside_rows %}<tr><td {% if o.name == '나' %}style="background:var(--cream)"{% endif %}><b>{{ o.name }}</b></td><td {% if o.name == '나' %}style="background:var(--cream)"{% endif %}>{{ o.claim }}</td><td {% if o.name == '나' %}style="background:var(--cream)"{% endif %}>{% if o.verdict == 'win' %}<span class="pt g">득점</span> {% elif o.verdict == 'loss' %}<span class="pt r">실점</span> {% endif %}{{ o.today | replace('득점 — ', '') | replace('실점 — ', '') }}</td><td {% if o.name == '나' %}style="background:var(--cream)"{% endif %}>{{ o.win }}:{{ o.loss }}</td></tr>{% endfor %}
+   </table>
+  </div>
+  <div class="box"><h3>내 성적표 — 어제 쓴 것 채점</h3>
+   <table><tr><th>어제 쓴 것</th><th>결과</th><th style="width:42px">판정</th></tr>
+   {% for s in d.scorecard_today %}<tr><td>{{ s.wrote }}</td><td>{{ s.result }}</td><td><span class="pt {{ {'맞음':'g','틀림':'r'}.get(s.verdict,'n') }}">{{ s.verdict }}</span></td></tr>{% endfor %}
+   </table>
+   <div class="note" style="margin-top:3px">누적 (10/2~): {{ scorecard_total }}</div>
+  </div>
+ </div>
+ <div class="foot"><span>{{ foot }}</span><span>4 / 6</span></div>
+</section>
+
+<!-- ===== 5 내 포트폴리오 ===== -->
+<section class="page">
+ <div class="hd"><h1>내 포트폴리오 — 배분과 실제 종목</h1><div class="d">{{ d.decision.badges | join(' · ') }}</div></div>
+ <div class="box"><h3>배분표</h3>
+  <table style="font-size:7.7pt">
+   <tr><th style="width:36px">비중</th><th style="width:72px">무엇</th><th>실제로 담는 것</th><th>어제 본 것</th><th style="width:50px">판정</th><th style="width:140px">바꿀 조건</th></tr>
+   {% for a in alloc_rows %}<tr><td><b>{{ a.pct }}%</b></td><td>{{ a.name }}</td><td>{{ a.instruments }}</td><td>{{ a.seen }}</td><td class="{{ a.verdict_cls }}">{{ a.verdict }}</td><td>{{ a.rule }}</td></tr>{% endfor %}
+  </table>
+  <div class="note" style="margin-top:3px">{{ d.allocation_note }}</div>
+ </div>
+ <div class="g2" style="margin-top:7px">
+  <div class="box"><h3>경우의 수 — 확률</h3>
+   {% for s in led.scenarios %}
+   <div class="alloc"><span>{{ s.pct }}%</span><div class="t"><div class="f" style="width:{{ s.pct }}%;background:{{ s.color }}"></div></div><span class="n">{{ s.code }} {{ d.scenario_delta.get(s.code, '') }}</span></div>
+   <div style="font-size:8.4pt;color:#3d4756;margin:-2px 0 4px 66px">{{ s.label }} — {{ d.scenario_desc.get(s.code, '') }}</div>
+   {% endfor %}
+   <div style="background:var(--cream);border-radius:6px;padding:4px 8px;margin-top:5px;font-size:8.6pt">{{ d.scenario_rule_note | safe }}</div>
+  </div>
+  <div>
+   <div class="box" style="margin-bottom:7px"><h3>세 시장이 각각 무슨 말을 하나</h3>
+    <table><tr><th>시장</th><th>어제 한 말</th><th style="width:64px">방향</th></tr>
+    {% for t in d.triangle %}<tr><td><b>{{ t.market }}</b></td><td>{{ t.said }}</td><td class="{{ t.dir_cls }}">{{ t.dir }}</td></tr>{% endfor %}</table>
+    <div style="background:var(--cream);border-radius:6px;padding:4px 8px;margin-top:5px;font-size:8.6pt">{{ d.triangle_note | safe }}</div>
+   </div>
+   <div class="box"><h3>축 후보</h3>
+    <table><tr><th>후보</th><th>어제 신호</th><th>승격 조건</th></tr>
+    {% for c in led.candidates if d.candidates_signal.get(c.name) %}<tr><td><b>{{ c.name }}</b> <span class="tag {{ c.tag_cls }}">{{ c.tag }}</span></td><td>{{ d.candidates_signal.get(c.name, '') }}</td><td>{{ c.cond }}</td></tr>{% endfor %}
+    </table>
+   </div>
+  </div>
+ </div>
+ <div class="foot"><span>{{ foot }}</span><span>5 / 6</span></div>
+</section>
+
+<!-- ===== 6 앞으로 볼 것 ===== -->
+<section class="page">
+ <div class="hd"><h1>앞으로 볼 것</h1><div class="d">일정 · 틀렸다는 신호 · 점검표</div></div>
+ <div class="g2">
+  <div class="box"><h3>일정 (한국시간)</h3>
+   <table><tr><th style="width:76px">언제</th><th>무엇</th><th>결과에 따라</th></tr>
+   {% for s in d.schedule[:6] %}<tr><td class="nw"><b>{{ s.when }}</b></td><td>{{ s.what | safe }}</td><td>{{ s.then }}</td></tr>{% endfor %}</table>
+  </div>
+  <div class="box"><h3>이렇게 되면 내 판단이 틀린 것</h3>
+   <table><tr><th>내 주장</th><th>틀렸다는 신호</th><th style="width:62px">거리</th></tr>
+   {% for f in d.falsify %}<tr><td><b>{{ f.claim }}</b></td><td>{{ f.signal }}</td><td class="nw">{{ f.dist }}</td></tr>{% endfor %}</table>
+  </div>
+ </div>
+ <div class="box" style="margin-top:7px"><h3>점검표 — 비중 바꾸는 조건</h3>
+  <table style="font-size:8pt"><tr><th>조건</th><th>지금 수치</th><th style="width:58px">상태</th><th>발동하면</th></tr>
+  {% for c in led.conditions %}<tr><td>{{ c.cond }}</td><td>{% if c.count is defined %}<b>{{ c.count }}/{{ c.of }}</b> · {% endif %}{{ c.now }}</td><td class="{{ 'up' if c.state == '발동' else '' }}">{{ c.state }}</td><td>{{ c.then }}</td></tr>{% endfor %}
+  </table>
+ </div>
+ <div class="box" style="margin-top:7px"><h3>못 찾은 것 · 출처 · 유의사항</h3>
+  <div class="note" style="font-size:7.1pt;line-height:1.4"><b>못 찾은 것:</b> {{ d.missing }}<br><b>출처:</b> {{ d.sources }} · 장부: ledger/ledger.json<br><b>유의사항</b> — 정보 제공 목적이며 투자자문이 아님. 비중·확률·조건·패널 채점은 모두 작성자의 판단이며 객관적 기준이 아님. 종목·ETF는 지수 대용의 예시이며 매수 추천이 아님. 출처별 수치가 다른 항목은 범위로 표기. 패널 "침묵"은 발언을 찾지 못한 것이지 입장이 없다는 뜻이 아님. 해외 자산은 환율에 따라 손익이 달라짐. 과거 성과는 미래 수익을 보장하지 않으며 원금 손실이 발생할 수 있음. 투자 판단과 결과의 책임은 투자자 본인에게 있음.</div>
+ </div>
+ <div class="foot"><span>{{ foot }}</span><span>6 / 6</span></div>
+</section>
+</body></html>

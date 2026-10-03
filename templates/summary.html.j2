@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>{{ css }}
+.page{padding:8mm 13mm 8mm}
+.grade{margin-bottom:7px}.grade .g{padding:4px 8px;font-size:8.3pt;line-height:1.3}
+.hd{padding-bottom:5px;margin-bottom:8px}.hd h1{font-size:19pt}.hd .d{font-size:10pt}
+.one{padding:7px 12px;margin-bottom:6px}.one p{font-size:10.5pt;line-height:1.35}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.kpi{padding:5px 8px}.kpi .v{font-size:15pt;line-height:1.15}.kpi .l{font-size:8.6pt}.kpi .c{font-size:9pt}
+.kpi .s{font-size:7.9pt;color:#3d4756;line-height:1.28;margin-top:2px;border-top:1px dashed var(--line);padding-top:2px}
+h2{font-size:10.5pt;font-weight:900;color:var(--navy);margin:5px 0 2px}
+ul.s{list-style:none}ul.s li{position:relative;padding-left:14px;margin-bottom:1px;font-size:8.8pt;line-height:1.32}
+ul.s li:before{content:"";position:absolute;left:0;top:8px;width:6px;height:6px;border-radius:50%;background:var(--navy)}
+.pf{display:flex;align-items:center;gap:10px;margin:2px 0 4px;font-size:9pt}
+.bar{display:flex;height:18px;border-radius:5px;overflow:hidden;margin:5px 0 2px}
+.bar div{color:#fff;font-size:8.5pt;font-weight:700;display:flex;align-items:center;justify-content:center;white-space:nowrap}
+.cream2{background:var(--cream);border-radius:9px;padding:6px 11px;margin-top:5px}.cream2 h2{margin-top:0;color:#8a5a00}.cream2 li:before{background:var(--warn)}
+.sfoot{position:absolute;left:13mm;right:13mm;bottom:5mm;font-size:7pt;color:#8a93a1;line-height:1.4;border-top:1px solid var(--line);padding-top:4px}
+.qq{border-left:4px solid #2c5fa0;background:#f3f5f8;border-radius:0 7px 7px 0;padding:5px 10px}.qq.g{border-left-color:#1f7a4d}
+.qq .t{font-size:9pt;font-weight:800;color:#13294b}.qq .b{font-size:8.5pt;margin:2px 0;line-height:1.35}
+</style></head><body>
+{% set s = d.summary %}
+{% set colors = ['#13294b','#2c5fa0','#1f7a4d','#5b3f93','#c8372d','#d98a1a','#6f93c9','#9aa6b4'] %}
+<div class="page">
+ <div class="hd"><h1>시황 요약 — 한 쪽</h1><div class="d"><b>{{ d.date.replace("-", ".") }} ({{ d.weekday }}) {{ d.edition_label }}</b> · {{ d.basis }}</div></div>
+
+ <div class="grade">{% for g in d.yesterday_grades %}<div class="g {{ g.cls }}"><b>{{ g.title | replace('어제 예고 ','') }}</b>{{ g.mark }} · {{ g.text.split('.')[0] }}</div>{% endfor %}</div>
+
+ <div class="one"><div class="k">오늘의 한 줄</div><p>{{ d.one_liner | safe }}</p></div>
+
+ <div class="g3">
+ {% for i in s.kpis_pick %}{% set k = d.kpis[i] %}
+  <div class="kpi {{ k.cls }}"><div class="l">{{ k.label }}</div><div class="v" {% if k.small %}style="font-size:13.5pt"{% endif %}>{{ k.value }}</div><div class="c {{ k.change_cls or '' }}">{{ k.change }}</div><div class="s">{{ k.so }}</div></div>
+ {% endfor %}
+ </div>
+
+ <h2>무슨 일이 있었나 — 세 줄</h2>
+ <ul class="s">{% for l in s.three_lines %}<li>{{ l | safe }}</li>{% endfor %}</ul>
+
+ <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:6px">
+  <div class="qq"><div class="t">패널 {{ panel_n }}명 — 오늘 새 발언 {{ d.panel_new_count }}명 · 다수 의견</div><div class="b">{{ s.panel_line | safe }}</div></div>
+  <div class="qq g"><div class="t">오늘의 1:1 대결</div><div class="b">{{ s.duel_line | safe }}</div></div>
+ </div>
+
+ <h2>내 포트폴리오</h2>
+ <div class="pf"><span class="badge" style="white-space:nowrap;font-size:12pt">{{ d.decision.badges | join(' · ') }}</span><span>{{ s.decision_line | safe }}</span></div>
+ <div class="bar">{% for a in led.allocation %}<div style="width:{{ a.pct }}%;background:{{ colors[loop.index0] }}">{% if a.pct >= 10 %}{{ a.name.split(' ')[0].split('·')[0] }} {{ a.pct }}{% elif a.pct >= 6 %}{{ a.name }}{% endif %}</div>{% endfor %}</div>
+ <div style="font-size:8.8pt;color:var(--mute)">{% for a in led.allocation if a.pct < 10 %}{{ a.name }} {{ a.pct }} · {% endfor %}경우의 수: {% for sc in led.scenarios %}{{ sc.label | replace(' 경우','') | replace('되는','') | replace('가 ','') }} {{ sc.pct }}{% if not loop.last %} · {% endif %}{% endfor %}</div>
+ <div style="font-size:8pt;color:#3d4756;margin-top:3px;line-height:1.35"><b>실제로 담는 것:</b> {{ s.instruments_line }} &nbsp;<span style="color:#d98a1a;font-weight:700">관찰:</span> {{ s.watch_line }}</div>
+
+ <div class="cream2"><h2>볼 것 3개</h2><ul class="s">{% for c in d.checks %}<li>{{ c | safe }}</li>{% endfor %}</ul></div>
+
+ <div class="sfoot">출처: {{ d.sources }} · 전체본 6쪽에 패널표·배분표·점검표<br>유의사항: 정보 제공 목적이며 투자자문이 아님 · 비중·확률·조건·채점은 작성자 판단 · 종목·ETF는 예시이며 매수 추천 아님 · 출처별로 다른 수치는 범위 표기 · 원금 손실 가능 · 투자 판단의 책임은 본인에게 있음</div>
+</div></body></html>

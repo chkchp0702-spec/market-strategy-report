@@ -1,0 +1,53 @@
+name: build-report
+
+# data/YYYY-MM-DD.json 을 push 하면 PDF 2개 + 카톡 텍스트를 만들어 reports/ 에 커밋하고,
+# 장부(ledger/ledger.json)에 그날 줄을 반영한다.
+on:
+  push:
+    paths:
+      - "data/*.json"
+      - "templates/**"
+      - "src/**"
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "data 파일 (예: data/2026-10-06.json)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Pick data file
+        id: pick
+        run: |
+          if [ -n "${{ github.event.inputs.day }}" ]; then
+            echo "day=${{ github.event.inputs.day }}" >> $GITHUB_OUTPUT
+          else
+            echo "day=$(ls data/20*.json | sort | tail -1)" >> $GITHUB_OUTPUT
+          fi
+      - name: Build + commit ledger
+        run: python -m src.build_report "${{ steps.pick.outputs.day }}" --commit
+      - name: Commit outputs
+        run: |
+          git config user.name "report-bot"
+          git config user.email "report-bot@users.noreply.github.com"
+          git add reports ledger
+          git diff --cached --quiet || git commit -m "build: $(basename ${{ steps.pick.outputs.day }} .json)"
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: report-pdfs
+          path: reports/**/*.pdf

@@ -1,0 +1,107 @@
+"""시황리포트 빌더.
+
+사용법:
+  python -m src.build_report data/2026-10-03.json            # PDF 2개 + 카톡 텍스트 생성
+  python -m src.build_report data/2026-10-03.json --commit   # + 장부(ledger.json)에 그날 줄 반영
+
+출력:
+  reports/<date>_<edition>/Market_Strategy_Report_<date>_<ed>.pdf   (전체본 6쪽)
+  reports/<date>_<edition>/Market_Strategy_Summary_<date>_<ed>.pdf  (요약본 1쪽)
+  reports/<date>_<edition>/kakao.txt                               (카톡 붙여넣기용)
+  reports/<date>_<edition>/*.html                                   (원본)
+
+규칙 (RULES.md):
+  - 누적·카운트·그림은 장부에서만 온다.
+  - 전체본은 정확히 6쪽, 요약본은 정확히 1쪽. 어떤 쪽도 푸터를 넘으면 빌드 실패.
+"""
+from __future__ import annotations
+import argparse, json, sys
+from pathlib import Path
+from jinja2 import Environment, FileSystemLoader, select_autoescape
+
+from . import ledger as L
+from .charts import foreign_flow_svg, us10y_svg
+from .render import html_to_pdf, check_overflow
+from .kakao_text import kakao_text
+
+ROOT = Path(__file__).resolve().parent.parent
+TPL = ROOT / "templates"
+OUT = ROOT / "reports"
+MARGIN_PX = 40  # 푸터 위 최소 여유
+
+
+def build(day_path: Path, commit: bool = False, strict: bool = True) -> Path:
+    d = json.loads(day_path.read_text(encoding="utf-8"))
+    led = L.load()
+
+    # ---- 장부에서 파생되는 것들 ----
+    foreign_svg, foreign_cap = foreign_flow_svg(led["series"]["foreign_kospi"])
+    band = next(c for c in led["conditions"] if c["id"] == "us10y_band20")
+    us_svg, us_cap = us10y_svg(led["series"]["us10y"], count=f'{band["count"]}/{band["of"]}')
+    charts = {
+        "foreign_svg": foreign_svg, "foreign_cap": foreign_cap, "foreign_n": min(len(led["series"]["foreign_kospi"]), 20),
+        "us10y_svg": us_svg, "us10y_cap": us_cap, "us10y_n": min(len(led["series"]["us10y"]), 20),
+    }
+    panel_rows = L.panel_view(led, d.get("panel_today", []))
+    panel_groups = L.group_rows(panel_rows)
+    omap = {o["name"]: o for o in d.get("outside_today", [])}
+    outside_rows = [{**o, **omap.get(o["name"], {})} for o in led["outside_panel"]]
+    # 성적표 누적 = 장부 + 오늘(아직 commit 전이면 더해서 보여줌)
+    sc_rows = list(led["scorecard"])
+    if d["date"] not in led.get("_applied", []):
+        sc_rows += [{"date": d["date"], **r} for r in d.get("scorecard_today", [])]
+    scorecard_total = L.totals_line(L.scorecard_totals(sc_rows))
+    alloc_rows = [{**a, **s} for a, s in zip(led["allocation"], d["allocation_seen"])]
+
+    css = (TPL / "base.css").read_text(encoding="utf-8")
+    env = Environment(loader=FileSystemLoader(str(TPL)), autoescape=select_autoescape(default=False))
+    ctx = dict(d=d, led=led, css=css, charts=charts, panel_rows=panel_rows, panel_groups=panel_groups,
+               outside_rows=outside_rows, scorecard_total=scorecard_total, alloc_rows=alloc_rows,
+               panel_n=len(panel_rows))
+
+    tag = f'{d["date"]}_{d["edition"]}'
+    out = OUT / tag
+    out.mkdir(parents=True, exist_ok=True)
+    stem_r = f'Market_Strategy_Report_{d["date"].replace("-", "_")}_{d["edition"]}'
+    stem_s = f'Market_Strategy_Summary_{d["date"].replace("-", "_")}_{d["edition"]}'
+
+    html_r = env.get_template("report.html.j2").render(**ctx)
+    html_s = env.get_template("summary.html.j2").render(**ctx)
+    (out / f"{stem_r}.html").write_text(html_r, encoding="utf-8")
+    (out / f"{stem_s}.html").write_text(html_s, encoding="utf-8")
+
+    ok = True
+    for stem, pages in ((stem_r, 6), (stem_s, 1)):
+        pdf = out / f"{stem}.pdf"
+        res = html_to_pdf(out / f"{stem}.html", pdf)
+        bad = check_overflow(res, pages, MARGIN_PX)
+        print(f"[{stem}] pages={len(res)} " + " ".join(f"p{i}:{m - b:+d}px" for i, b, m in res))
+        if bad:
+            ok = False
+            for i, b, m in bad:
+                print(f"  !! page {i}: content bottom {b} vs footer {m} (여유 {m-b}px < {MARGIN_PX})", file=sys.stderr)
+
+    (out / "kakao.txt").write_text(kakao_text(d), encoding="utf-8")
+
+    if not ok and strict:
+        print("빌드 실패: 넘침. data 파일의 글을 줄이거나 템플릿을 조정하세요.", file=sys.stderr)
+        sys.exit(2)
+
+    if commit:
+        L.save(L.commit(led, d))
+        print(f"장부 갱신: ledger/ledger.json ({d['date']})")
+    print(f"완료 → {out}")
+    return out
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("day", help="data/YYYY-MM-DD.json")
+    ap.add_argument("--commit", action="store_true", help="장부에 그날 줄 반영")
+    ap.add_argument("--no-strict", action="store_true", help="넘침이 있어도 PDF를 남긴다")
+    a = ap.parse_args()
+    build(Path(a.day), commit=a.commit, strict=not a.no_strict)
+
+
+if __name__ == "__main__":
+    main()
