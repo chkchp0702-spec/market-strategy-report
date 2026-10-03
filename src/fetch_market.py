@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 MK = ROOT / "market"
 FEEDS = ROOT / "feeds"
 KST = timezone(timedelta(hours=9))
+ERRORS: dict[str, str] = {}
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
       "Accept": "*/*"}
 
@@ -72,7 +73,34 @@ def yahoo(symbol: str) -> dict | None:
             err = e
             time.sleep(1)
     print(f"  yahoo {symbol}: 실패 ({err})", file=sys.stderr)
-    return None
+    ERRORS[f"yahoo {symbol}"] = str(err)[:200]
+    return stooq(symbol)
+
+
+STOOQ = {"^GSPC": "^spx", "^IXIC": "^ndq", "^DJI": "^dji", "^TNX": "10yusy.b", "^TYX": "30yusy.b", "2YY=F": "2yusy.b",
+         "KRW=X": "usdkrw", "DX-Y.NYB": "usd_i", "CL=F": "cl.f", "BZ=F": "cb.f", "GC=F": "gc.f", "^KS11": "^kospi",
+         "MU": "mu.us", "NVDA": "nvda.us", "KBE": "kbe.us", "TLT": "tlt.us", "^VIX": "vi.f"}
+
+
+def stooq(symbol: str) -> dict | None:
+    """Yahoo 가 막힐 때 2차: stooq.com 일별 CSV."""
+    code = STOOQ.get(symbol)
+    if not code:
+        return None
+    url = f"https://stooq.com/q/d/l/?s={urllib.parse.quote(code)}&i=d"
+    try:
+        txt = _get(url).decode("utf-8", "ignore").strip().splitlines()
+        rows = [r.split(",") for r in txt[1:] if r.count(",") >= 4]
+        closes = [(r[0], float(r[4])) for r in rows[-25:] if r[4] not in ("", "N/D")]
+        if len(closes) < 2:
+            ERRORS[f"stooq {code}"] = f"rows={len(rows)}"
+            return None
+        (d0, c0), (d1, c1) = closes[-2], closes[-1]
+        return {"value": c1, "prev": c0, "change": c1 - c0, "change_pct": (c1 / c0 - 1) * 100, "asof_utc": d1,
+                "asof_kst": d1[5:] + " 종가", "market_state": "CLOSED", "src": f"stooq {code}", "history": closes}
+    except Exception as e:
+        ERRORS[f"stooq {code}"] = str(e)[:200]
+        return None
 
 
 def treasury() -> dict:
@@ -87,7 +115,7 @@ def treasury() -> dict:
         try:
             root = ET.fromstring(_get(url))
         except Exception as e:
-            print(f"  treasury {m}: 실패 ({e})", file=sys.stderr)
+            print(f"  treasury {m}: 실패 ({e})", file=sys.stderr); ERRORS[f"treasury {m}"] = str(e)[:200]
             continue
         ns = {"a": "http://www.w3.org/2005/Atom", "m": "http://schemas.microsoft.com/ado/2007/08/dataservices/metadata",
               "d": "http://schemas.microsoft.com/ado/2007/08/dataservices"}
@@ -116,7 +144,7 @@ def naver_foreign() -> dict | None:
     try:
         html = _get(url).decode("euc-kr", "ignore")
     except Exception as e:
-        print(f"  naver foreign: 실패 ({e})", file=sys.stderr)
+        print(f"  naver foreign: 실패 ({e})", file=sys.stderr); ERRORS["naver foreign"] = str(e)[:200]
         return None
     rows = []
     for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S):
@@ -140,7 +168,7 @@ def naver_rss(blog_id: str = "james_lee_advisors") -> list[dict]:
     try:
         root = ET.fromstring(_get(url))
     except Exception as e:
-        print(f"  rss {blog_id}: 실패 ({e})", file=sys.stderr)
+        print(f"  rss {blog_id}: 실패 ({e})", file=sys.stderr); ERRORS[f"rss {blog_id}"] = str(e)[:200]
         return []
     items = []
     for it in root.iter("item"):
@@ -194,6 +222,7 @@ def main() -> int:
                                  "posts": posts}, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"  새 글 {len(new)}개")
 
+    latest["errors"] = ERRORS
     (MK / "latest.json").write_text(json.dumps(latest, ensure_ascii=False, indent=1), encoding="utf-8")
 
     # history.csv 병합 (있는 값만 덮어씀)
