@@ -46,15 +46,34 @@ TICKERS = {
 }
 
 
-def _get(url: str, timeout: int = 20) -> bytes:
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
+import http.cookiejar
+_CJ = http.cookiejar.CookieJar()
+_OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(_CJ))
+_YAHOO_READY = False
+
+
+def _get(url: str, timeout: int = 20, headers: dict | None = None) -> bytes:
+    req = urllib.request.Request(url, headers={**UA, **(headers or {})})
+    with _OPENER.open(req, timeout=timeout) as r:
         return r.read()
 
 
+def _yahoo_warmup():
+    """Yahoo 는 쿠키 없이 데이터센터 IP 로 부르면 429. fc.yahoo.com 을 한 번 방문해 쿠키를 받는다."""
+    global _YAHOO_READY
+    if _YAHOO_READY:
+        return
+    try:
+        _OPENER.open(urllib.request.Request("https://fc.yahoo.com", headers=UA), timeout=15)
+    except Exception:
+        pass  # 404 가 정상 — 쿠키만 받으면 된다
+    _YAHOO_READY = True
+
+
 def yahoo(symbol: str) -> dict | None:
+    _yahoo_warmup()
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(symbol)}?range=1mo&interval=1d"
-    for host in ("query1", "query2"):
+    for host in ("query2", "query1"):
         try:
             j = json.loads(_get(url.replace("query1", host)))
             res = j["chart"]["result"][0]
@@ -74,32 +93,38 @@ def yahoo(symbol: str) -> dict | None:
             time.sleep(1)
     print(f"  yahoo {symbol}: 실패 ({err})", file=sys.stderr)
     ERRORS[f"yahoo {symbol}"] = str(err)[:200]
-    return stooq(symbol)
+    return cnbc(symbol)
 
 
-STOOQ = {"^GSPC": "^spx", "^IXIC": "^ndq", "^DJI": "^dji", "^TNX": "10yusy.b", "^TYX": "30yusy.b", "2YY=F": "2yusy.b",
-         "KRW=X": "usdkrw", "DX-Y.NYB": "usd_i", "CL=F": "cl.f", "BZ=F": "cb.f", "GC=F": "gc.f", "^KS11": "^kospi",
-         "MU": "mu.us", "NVDA": "nvda.us", "KBE": "kbe.us", "TLT": "tlt.us", "^VIX": "vi.f"}
+CNBC = {"^GSPC": ".SPX", "^IXIC": ".IXIC", "^DJI": ".DJI", "^VIX": ".VIX", "^TNX": "US10Y", "^TYX": "US30Y", "2YY=F": "US2Y",
+        "KRW=X": "KRW=", "DX-Y.NYB": ".DXY", "CL=F": "@CL.1", "BZ=F": "@LCO.1", "GC=F": "@GC.1", "^KS11": ".KS11", "^KQ11": ".KQ11",
+        "MU": "MU", "NVDA": "NVDA", "KBE": "KBE", "TLT": "TLT", "005930.KS": "005930-KR", "000660.KS": "000660-KR"}
 
 
-def stooq(symbol: str) -> dict | None:
-    """Yahoo 가 막힐 때 2차: stooq.com 일별 CSV."""
-    code = STOOQ.get(symbol)
+def cnbc(symbol: str) -> dict | None:
+    """Yahoo 가 막힐 때 2차: CNBC 시세 API (전일 대비 포함, 이력 없음)."""
+    code = CNBC.get(symbol)
     if not code:
         return None
-    url = f"https://stooq.com/q/d/l/?s={urllib.parse.quote(code)}&i=d"
+    url = ("https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols="
+           f"{urllib.parse.quote(code)}&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json")
     try:
-        txt = _get(url).decode("utf-8", "ignore").strip().splitlines()
-        rows = [r.split(",") for r in txt[1:] if r.count(",") >= 4]
-        closes = [(r[0], float(r[4])) for r in rows[-25:] if r[4] not in ("", "N/D")]
-        if len(closes) < 2:
-            ERRORS[f"stooq {code}"] = f"rows={len(rows)}"
+        q = json.loads(_get(url))["FormattedQuoteResult"]["FormattedQuote"][0]
+        if q.get("code") not in (0, "0", None) or "last" not in q:
+            ERRORS[f"cnbc {code}"] = str(q.get("name") or q)[:120]
             return None
-        (d0, c0), (d1, c1) = closes[-2], closes[-1]
-        return {"value": c1, "prev": c0, "change": c1 - c0, "change_pct": (c1 / c0 - 1) * 100, "asof_utc": d1,
-                "asof_kst": d1[5:] + " 종가", "market_state": "CLOSED", "src": f"stooq {code}", "history": closes}
+        f = lambda k: float(str(q.get(k, "")).replace(",", "").replace("%", "") or "nan")
+        c1, ch = f("last"), f("change")
+        import math
+        if math.isnan(c1):
+            return None
+        pct = f("change_pct")
+        return {"value": c1, "prev": (c1 - ch) if not math.isnan(ch) else None, "change": ch if not math.isnan(ch) else None,
+                "change_pct": pct if not math.isnan(pct) else None, "asof_utc": q.get("last_time", ""),
+                "asof_kst": q.get("last_timedate", ""), "market_state": q.get("curmktstatus"), "src": f"CNBC {code}",
+                "history": [(str(q.get("last_time", ""))[:10], c1)]}
     except Exception as e:
-        ERRORS[f"stooq {code}"] = str(e)[:200]
+        ERRORS[f"cnbc {code}"] = str(e)[:200]
         return None
 
 
@@ -138,29 +163,33 @@ def treasury() -> dict:
     return out
 
 
-def naver_foreign() -> dict | None:
-    """코스피 외국인 순매수(억원). 네이버 금융 투자자별 매매동향. 막히면 None."""
-    url = "https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate=&sosok=01"
+def naver_index(code: str = "KOSPI") -> dict | None:
+    """네이버 모바일 API: 지수 일별 종가 (코스피·코스닥). Yahoo 가 안 될 때 2차."""
+    url = f"https://m.stock.naver.com/api/index/{code}/price?pageSize=25&page=1"
     try:
-        html = _get(url).decode("euc-kr", "ignore")
+        rows = json.loads(_get(url, headers={"Referer": "https://m.stock.naver.com/"}))
+        closes = [(r["localTradedAt"], float(r["closePrice"].replace(",", ""))) for r in reversed(rows)]
+        (d0, c0), (d1, c1) = closes[-2], closes[-1]
+        return {"value": c1, "prev": c0, "change": c1 - c0, "change_pct": (c1 / c0 - 1) * 100, "asof_utc": d1,
+                "asof_kst": d1[5:] + " 종가", "market_state": "CLOSED", "src": f"네이버 금융 {code}", "history": closes}
     except Exception as e:
-        print(f"  naver foreign: 실패 ({e})", file=sys.stderr); ERRORS["naver foreign"] = str(e)[:200]
+        ERRORS[f"naver {code}"] = str(e)[:200]
         return None
-    rows = []
-    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S):
-        tds = [re.sub(r"<[^>]+>", "", t).strip().replace(",", "") for t in re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)]
-        if len(tds) >= 4 and re.match(r"\d{2}\.\d{2}\.\d{2}", tds[0]):
-            try:
-                y = "20" + tds[0][:2]
-                rows.append({"date": f"{y}-{tds[0][3:5]}-{tds[0][6:8]}", "individual": int(tds[1]), "foreign": int(tds[2]), "institution": int(tds[3])})
-            except ValueError:
-                pass
-    if not rows:
+
+
+def naver_foreign(code: str = "KOSPI") -> dict | None:
+    """코스피 투자자별 매매동향(억원) — 네이버 모바일 API. 그날 것 하나만 주므로 history.csv 에 매일 쌓는다."""
+    url = f"https://m.stock.naver.com/api/index/{code}/trend"
+    try:
+        j = json.loads(_get(url, headers={"Referer": "https://m.stock.naver.com/"}))
+        bd = j["bizdate"]
+        d = f"{bd[:4]}-{bd[4:6]}-{bd[6:8]}"
+        f = lambda k: int(str(j[k]).replace(",", "").replace("+", ""))
+        return {"value": f("foreignValue"), "individual": f("personalValue"), "institution": f("institutionalValue"),
+                "date": d, "unit": "억원", "src": "네이버 금융 투자자별 매매동향(코스피)", "history": [(d, f("foreignValue"))]}
+    except Exception as e:
+        ERRORS["naver foreign"] = str(e)[:200]
         return None
-    rows.sort(key=lambda r: r["date"])
-    last = rows[-1]
-    return {"value": last["foreign"], "date": last["date"], "unit": "억원", "src": "네이버 금융 투자자별 매매동향(코스피)",
-            "history": [(r["date"], r["foreign"]) for r in rows[-30:]]}
 
 
 def naver_rss(blog_id: str = "james_lee_advisors") -> list[dict]:
@@ -188,6 +217,8 @@ def main() -> int:
     print("Yahoo…")
     for key, (sym, name, nd) in TICKERS.items():
         r = yahoo(sym)
+        if not r and key in ("kospi", "kosdaq"):
+            r = naver_index(key.upper())
         if r:
             for d, c in r.pop("history"):
                 hist_rows.setdefault(d, {})[key] = c
