@@ -99,7 +99,7 @@
    <table><tr><th>어제 쓴 것</th><th>결과</th><th style="width:42px">판정</th></tr>
    {% for s in d.scorecard_today %}<tr><td>{{ s.wrote }}</td><td>{{ s.result }}</td><td><span class="pt {{ {'맞음':'g','틀림':'r'}.get(s.verdict,'n') }}">{{ s.verdict }}</span></td></tr>{% endfor %}
    </table>
-   <div class="note" style="margin-top:3px">누적 (10/2~): {{ scorecard_total }}</div>
+   <div class="note" style="margin-top:3px">누적 (10/2~): {{ scorecard_total }}{% if cal.n %} · {{ cal.line }}{% endif %}</div>
   </div>
  </div>
  <div class="foot"><span>{{ foot }}</span><span>4 / 6</span></div>

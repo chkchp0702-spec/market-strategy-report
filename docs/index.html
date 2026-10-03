@@ -1,0 +1,114 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>시황 대시보드</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;800&family=IBM+Plex+Sans:wght@600;700&display=swap">
+<style>
+/* 레이아웃: 한 열, 위에서 아래로 '오늘 → 그림 → 포트폴리오 → 사람들 → 기록'. 숫자는 표 정렬. */
+:root{--bg:#f6f4ef;--card:#fffdf8;--fg:#1c2230;--mute:#6b7280;--line:#e3ded3;--navy:#13294b;--navy2:#2c5fa0;
+ --up:#c8372d;--dn:#2457b5;--ok:#1f7a4d;--warn:#d98a1a;--cream:#fbf3df;--chip:#eef2f8;
+ --f-body:"Noto Sans KR",-apple-system,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;--f-num:"IBM Plex Sans","Noto Sans KR",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161f;--card:#1a2030;--fg:#e8eaf0;--mute:#9aa3b5;--line:#2a3345;--navy:#dfe6f5;--navy2:#8db0e8;--up:#ff6b5e;--dn:#6fa4ff;--ok:#4fc08a;--warn:#f0b052;--cream:#2a2614;--chip:#232b3c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12161f;--card:#1a2030;--fg:#e8eaf0;--mute:#9aa3b5;--line:#2a3345;--navy:#dfe6f5;--navy2:#8db0e8;--up:#ff6b5e;--dn:#6fa4ff;--ok:#4fc08a;--warn:#f0b052;--cream:#2a2614;--chip:#232b3c;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:720px;margin:0 auto;padding-block:14px 48px;padding-inline:16px}
+h1{font-size:22px;margin:0;color:var(--navy);letter-spacing:-.01em}.sub{color:var(--mute);font-size:13px;margin-top:2px}
+h2{font-size:15px;margin:22px 0 8px;color:var(--navy);text-transform:uppercase;letter-spacing:.04em;font-weight:800}
+.grades{display:flex;flex-direction:column;gap:6px;margin-top:12px}
+.g{border-radius:8px;padding:8px 10px;font-size:13.5px;background:var(--chip);border-left:5px solid var(--mute)}
+.g.ok{border-left-color:var(--ok)}.g.no{border-left-color:var(--up)}.g.hold{border-left-color:var(--warn)}
+.one{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-top:12px;font-size:16px;font-weight:600;line-height:1.45}
+.one em{font-style:normal;color:var(--up)}
+.kpis{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}@media(min-width:520px){.kpis{grid-template-columns:repeat(3,1fr)}}
+.k{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:9px 11px;min-width:0}
+.k .l{font-size:12px;color:var(--mute)}.k .v{font-family:var(--f-num);font-size:21px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.2}
+.k .c{font-size:12.5px;font-variant-numeric:tabular-nums}.k .s{font-size:12px;color:var(--fg);opacity:.85;margin-top:4px;border-top:1px dashed var(--line);padding-top:4px}
+.up{color:var(--up)}.dn{color:var(--dn)}.wn{color:var(--warn)}
+.chart{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 10px 6px;margin-bottom:8px}
+.chart svg{width:100%;height:auto;display:block}.chart .cap{font-size:12px;color:var(--mute);margin-top:4px}
+.badge{display:inline-block;background:var(--navy);color:#fff;border-radius:6px;padding:3px 9px;font-weight:800;font-size:13px;margin-right:6px}
+.bar{display:flex;height:22px;border-radius:6px;overflow:hidden;margin:8px 0 4px}.bar div{color:#fff;font-size:11.5px;font-weight:700;display:flex;align-items:center;justify-content:center;white-space:nowrap;overflow:hidden}
+table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}th,td{padding:5px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-size:11.5px;color:var(--mute);font-weight:700;text-transform:uppercase;letter-spacing:.03em}td.n,th.n{text-align:right;white-space:nowrap}
+.tw{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:4px 8px}
+.pill{display:inline-block;border-radius:999px;padding:1px 8px;font-size:11.5px;font-weight:700;background:var(--chip)}
+.pill.on{background:var(--up);color:#fff}.pill.half{background:var(--warn);color:#fff}.pill.off{color:var(--mute)}
+ul.s{margin:0;padding-left:18px}ul.s li{margin-bottom:4px;font-size:13.5px}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px;margin-top:8px}summary{cursor:pointer;font-weight:700;font-size:14px}
+.links a{display:block;padding:7px 0;border-bottom:1px solid var(--line);color:var(--navy2);text-decoration:none;font-size:14px}
+.foot{margin-top:28px;font-size:11.5px;color:var(--mute);line-height:1.5;border-top:1px solid var(--line);padding-top:8px}
+.live{font-size:12px;color:var(--mute)}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--navy2);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head><body><div class="wrap"><h1>시황 대시보드</h1><div class="sub"><b>2026.10.03 (토) 휴장판</b> · 미국 10/2 마감 · 한국 10/2 마감 · 다음 한국장 10/6(화)</div>
+<div class="grades"><div class="g no"><b>① 외국인이 사는가</b> ✗ · 안 샀습니다</div><div class="g no"><b>② 고용 4.1%↓ + 15만↑이면 「경기 식음」 15→10</b> ✗ 반대로 · +2</div><div class="g ok"><b>③ 10년 금리 5.30 종가면 B 5→0</b> ✓ 미발동 · 5</div></div>
+<div class="one">미국 일자리가 <em>예상의 3분의 1(+2.9만)</em>만 늘고 실업률은 4.2%로 올랐습니다. 10월 인상은 사실상 물 건너갔는데(확률 16~24%), <em>10년 금리는 5.28%로 오히려 올랐습니다.</em> 주식은 나스닥 +1.2%로 반겼습니다. 코스피는 7,003으로 7,000을 되찾았지만 외국인은 6일째 팔았습니다. <em>연휴 3일, 바꾸는 건 확률 하나뿐입니다.</em></div>
+<h2>숫자</h2><div class="kpis">
+<div class="k"><div class="l">미국 9월 일자리</div><div class="v dn">+2.9만</div><div class="c dn">예상 +8.4~9만 · 실업률 4.2%</div><div class="s">7·8월도 6만 깎였습니다. 경기가 식는 신호가 처음 숫자로 나왔습니다.</div></div>
+<div class="k"><div class="l">미국 10년 국채금리</div><div class="v wn">5.28%</div><div class="c ">+0.04%p · 범위 5.25~5.28</div><div class="s">고용이 약하면 내려야 하는데 올랐습니다. 금리를 움직이는 건 경기가 아니라 국채 공급입니다.</div></div>
+<div class="k"><div class="l">나스닥 / S&amp;P500</div><div class="v up">+1.19% / +0.73%</div><div class="c ">27,191 / 7,723 · 엔비디아 장중 신고가</div><div class="s">&quot;인상 없음&quot;에 기술주가 뛰었습니다. 주간으로는 나스닥만 +0.6%, S&amp;P −0.3%.</div></div>
+<div class="k"><div class="l">코스피 (10/2 확정)</div><div class="v up">7,004</div><div class="c up">+32p · +0.46%</div><div class="s">5일 만에 7,000 회복. 기관(+3,781억)이 받쳤고 에너지(S-Oil +11%)가 끌었습니다.</div></div>
+<div class="k"><div class="l">외국인 · 코스피</div><div class="v dn">−1,334억</div><div class="c dn">6일 연속 · 하이닉스 −1,272억</div><div class="s">매도 규모는 줄었지만(9/29 −2.9조 → 어제 −0.13조) 방향은 안 바뀌었습니다.</div></div>
+<div class="k"><div class="l">CAPE (실러 주가배수)</div><div class="v ">41.1배</div><div class="c ">2000년 닷컴 고점 43.8배</div><div class="s">금리 5.3%에 주가배수 41배. 둘 다 역사적 끝자락입니다. 이익이 증명해야 하는 구간.</div></div>
+</div>
+<h2>그림 둘</h2><div class="chart"><svg viewBox="0 0 340 170" width="100%" style="display:block"><line x1="48" y1="20.0" x2="330" y2="20.0" stroke="#cfd5de"/><text x="44" y="23.0" font-size="9" fill="#8a93a1" text-anchor="end">0</text><line x1="48" y1="61.4" x2="330" y2="61.4" stroke="#eef1f5"/><text x="44" y="64.4" font-size="9" fill="#8a93a1" text-anchor="end">−1조</text><line x1="48" y1="102.8" x2="330" y2="102.8" stroke="#eef1f5"/><text x="44" y="105.8" font-size="9" fill="#8a93a1" text-anchor="end">−2조</text><rect x="63.2" y="20.0" width="40.0" height="120.0" rx="2" fill="#2c5fa0"/><text x="83.2" y="152" font-size="9" font-weight="700" fill="#13294b" text-anchor="middle">9/29</text><text x="83.2" y="164" font-size="8.5" font-weight="700" fill="#2c5fa0" text-anchor="middle">−2.9조</text><rect x="133.8" y="20.0" width="40.0" height="94.1" rx="2" fill="#2c5fa0"/><text x="153.8" y="152" font-size="9" font-weight="700" fill="#13294b" text-anchor="middle">9/30</text><text x="153.8" y="164" font-size="8.5" font-weight="700" fill="#2c5fa0" text-anchor="middle">−2.27조</text><rect x="204.2" y="20.0" width="40.0" height="22.6" rx="2" fill="#2c5fa0"/><text x="224.2" y="152" font-size="9" font-weight="700" fill="#13294b" text-anchor="middle">10/1</text><text x="224.2" y="164" font-size="8.5" font-weight="700" fill="#2c5fa0" text-anchor="middle">−0.55조</text><rect x="274.8" y="20.0" width="40.0" height="5.5" rx="2" fill="#2c5fa0"/><text x="294.8" y="152" font-size="9" font-weight="700" fill="#13294b" text-anchor="middle">10/2</text><text x="294.8" y="164" font-size="8.5" font-weight="700" fill="#2c5fa0" text-anchor="middle">−0.13조</text><polyline points="83.2,140.0 153.8,114.1 224.2,42.6 294.8,25.5" fill="none" stroke="#c8372d" stroke-width="2" stroke-dasharray="4 3"/><text x="330" y="17.5" font-size="8.5" fill="#c8372d" font-weight="700" text-anchor="end">매도 줄어드는 중</text></svg><div class="cap">4일 누적 −5.86조. 20일 그림은 장부에 데이터가 쌓이는 대로 채워집니다 (지금 4/20).</div></div><div class="chart"><svg viewBox="0 0 340 170" width="100%" style="display:block"><rect x="48" y="26.0" width="282" height="72.0" fill="#fdf3e7"/><line x1="48" y1="26.0" x2="330" y2="26.0" stroke="#e8c9a0"/><text x="44" y="29.0" font-size="9" fill="#8a93a1" text-anchor="end">5.30</text><line x1="48" y1="62.0" x2="330" y2="62.0" stroke="#eef1f5"/><text x="44" y="65.0" font-size="9" fill="#8a93a1" text-anchor="end">5.15</text><line x1="48" y1="98.0" x2="330" y2="98.0" stroke="#e8c9a0"/><text x="44" y="101.0" font-size="9" fill="#8a93a1" text-anchor="end">5.00</text><line x1="48" y1="122.0" x2="330" y2="122.0" stroke="#eef1f5"/><text x="44" y="125.0" font-size="9" fill="#8a93a1" text-anchor="end">4.90</text><line x1="48" y1="26.0" x2="330" y2="26.0" stroke="#c8372d" stroke-dasharray="4 3" stroke-width="1.3"/><text x="328" y="22.0" font-size="8.5" fill="#c8372d" text-anchor="end" font-weight="700">5.30 = B 기각선</text><text x="52" y="94.0" font-size="8" fill="#b06f0e">5.0~5.3 띠 (20일이면 현금 40%) · 지금 8/20</text><polyline points="76.2,54.8 132.6,33.2 189.0,26.5 245.4,38.0 301.8,30.8" fill="none" stroke="#13294b" stroke-width="2.5"/><circle cx="76.2" cy="54.8" r="3.5" fill="#13294b"/><text x="76.2" y="150" font-size="9" font-weight="700" fill="#13294b" text-anchor="middle">9/25</text><text x="76.2" y="163" font-size="9" font-weight="700" fill="#13294b" text-anchor="middle">5.18</text><circle cx="132.6" cy="33.2" r="3.5" fill="#13294b"/><text x="132.6" y="150" font-size="9" font-weight="700" fill="#13294b" text-anchor="middle">9/29</text><text x="132.6" y="163" font-size="9" font-weight="700" fill="#13294b" text-anchor="middle">5.27</text><circle cx="189.0" cy="26.5" r="3.5" fill="#13294b"/><text x="189.0" y="150" font-size="9" font-weight="700" fill="#13294b" text-anchor="middle">9/30</text><text x="189.0" y="163" font-size="9" font-weight="700" fill="#13294b" text-anchor="middle">5.3</text><circle cx="245.4" cy="38.0" r="3.5" fill="#13294b"/><text x="245.4" y="150" font-size="9" font-weight="700" fill="#13294b" text-anchor="middle">10/1</text><text x="245.4" y="163" font-size="9" font-weight="700" fill="#13294b" text-anchor="middle">5.25*</text><circle cx="301.8" cy="30.8" r="4" fill="#c8372d"/><text x="301.8" y="150" font-size="9" font-weight="700" fill="#13294b" text-anchor="middle">10/2</text><text x="301.8" y="163" font-size="9" font-weight="700" fill="#c8372d" text-anchor="middle">5.28*</text></svg><div class="cap">*표시는 출처별 범위(10/1 5.23~5.33 · 10/2 5.25~5.28), 중간값 표시. 미 재무부 공식치로 교체 예정. 5.30 선 아래에 5일째.</div></div>
+<h2>내 포트폴리오</h2><div><span class="badge">비중 안 바꿈</span><span class="badge">확률만 바꿈</span> <span style="font-size:13.5px">「경기 식음」 15→20 · 「금리 더 오름」 50→45. 고용 +2.9만은 규칙과 정반대라 올리는 규칙을 오늘 새로 적음.</span></div>
+<div class="bar"><div style="width:26%;background:#13294b" title="현금·단기채">현금 26</div><div style="width:20%;background:#2c5fa0" title="전력·인프라">전력 20</div><div style="width:13%;background:#1f7a4d" title="에너지">에너지 13</div><div style="width:11%;background:#5b3f93" title="금융">금융 11</div><div style="width:10%;background:#c8372d" title="반도체 (HBM)">반도체 10</div><div style="width:11%;background:#d98a1a" title="금">금 11</div><div style="width:6%;background:#6f93c9" title="광통신">6</div><div style="width:3%;background:#9aa6b4" title="AI 소프트웨어"></div></div>
+<div class="live">현금·단기채 26 · 전력·인프라 20 · 에너지 13 · 금융 11 · 반도체 (HBM) 10 · 금 11 · 광통신 6 · AI 소프트웨어 3</div>
+<div style="margin-top:8px;font-size:13.5px"><b>경우의 수:</b> 금리가 더 오르는 경우 <b>45%</b> · AI 실적이 금리를 이기는 경우 <b>30%</b> · 경기가 식는 경우 <b>20%</b> · 금리만 안정되는 경우 <b>5%</b></div>
+<div style="font-size:13px;margin-top:6px"><b>담는 것:</b> 현금 TIGER CD금리(499660)·우량회사채(438330) · 전력 TIGER 글로벌AI전력인프라(491010)·GEV · 에너지 XLE(국내 참고 S-Oil·SK이노베이션) · 금융 KBWB · 반도체 TIGER 반도체TOP10(396500)·SK하이닉스·MU · 금 TIGER KRX금현물·GLD · 광통신 GLW·COHR·LITE · SW CRWD·PANW·NOW</div>
+<h2>비중 바꾸는 조건</h2><div class="tw"><table><tr><th>조건</th><th>상태</th><th>그러면</th></tr>
+<tr><td>미 10년 5.0~5.3% 20거래일 지속<div class="live">10/2 5.25~5.28</div></td><td><span class="pill half">진행 중 8/20</span></td><td>현금 26→40 · SW 3→0</td></tr>
+<tr><td>미 10년 5.30% 이상 종가<div class="live">5.28 · 0.02 차이</div></td><td><span class="pill off">미발동</span></td><td>금리만 안정 5→0</td></tr>
+<tr><td>외국인 복귀 = 달러/원 1,370↓ + 코스피 외국인 순매수 2일 연속<div class="live">환율 ✓ 1,351.4 · 6일 연속 매도</div></td><td><span class="pill half">절반 0/2</span></td><td>한국 비중 확대 검토</td></tr>
+<tr><td>마이크론 −5% + 나스닥 26,500↓<div class="live">나스닥 27,191</div></td><td><span class="pill off">미발동</span></td><td>반도체 10→7</td></tr>
+<tr><td>브렌트 95$↓<div class="live">102.25 · G7 1억 배럴 방출</div></td><td><span class="pill off">미발동</span></td><td>에너지 13→10</td></tr>
+<tr><td>미 은행지수 −2% 이틀 연속<div class="live">10/1 −2.4 · 10/2 미확인</div></td><td><span class="pill half">진행 중 1/2</span></td><td>금융 11→9</td></tr>
+<tr><td>30년 5.5%↑ 상태에서 금 2주 하락<div class="live">10/2 금 −0.7~0.9%</div></td><td><span class="pill half">시험 5일차 2:3</span></td><td>금 11→8</td></tr>
+<tr><td>코스피 6,500<div class="live">여유 +7.8% (7,004)</div></td><td><span class="pill off">미발동</span></td><td>한국 전량 정리</td></tr>
+<tr><td>미 고용 +5만↓ + 실업률↑ (신규 10/3)<div class="live">+2.9만 · 4.2% → 10/3 적용</div></td><td><span class="pill on">발동</span></td><td>C +5 · A −5</td></tr>
+<tr><td>미 고용 +15만↑ + 실업률 4.1↓ (신규 10/3)<div class="live">—</div></td><td><span class="pill off">미발동</span></td><td>C −5 · A +5</td></tr>
+</table></div>
+<h2>전략가 적중률</h2><div class="tw"><table><tr><th>#</th><th>이름</th><th class="n">맞:틀</th><th class="n">적중</th></tr>
+<tr><td>12</td><td>에드 야데니<div class="live">독립·채권·거시·리테일</div></td><td class="n">2:0</td><td class="n"><b>100%</b></td></tr>
+<tr><td>21</td><td>비둘기: 제퍼슨·윌리엄스·워시<div class="live">연준</div></td><td class="n">2:0</td><td class="n"><b>100%</b></td></tr>
+<tr><td>30</td><td>한투 김대준<div class="live">한국</div></td><td class="n">1:0</td><td class="n"><b>100%</b></td></tr>
+<tr><td>17</td><td>브리지워터<div class="live">하우스뷰</div></td><td class="n">0:2</td><td class="n"><b>0%</b></td></tr>
+<tr><td>16</td><td>찰스슈왑 (피터슨)<div class="live">독립·채권·거시·리테일</div></td><td class="n">0:1</td><td class="n"><b>0%</b></td></tr>
+<tr><td>28</td><td>대신 이경민<div class="live">한국</div></td><td class="n">0:1</td><td class="n"><b>0%</b></td></tr>
+</table></div>
+<details><summary>패널 31명 전체 — 세 질문 입장</summary><div style="overflow-x:auto"><table><tr><th>#</th><th>이름</th><th>① 금리 꼭대기</th><th>② AI 이익</th><th>③ 한국</th><th class="n">맞:틀</th></tr>
+<tr><td>1</td><td>SocGen 마니쉬 카브라<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>2</td><td>BMO 브라이언 벨스키<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>3</td><td>HSBC 미국전략<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>4</td><td>BofA 사비타 수브라마니안<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>5</td><td>도이체 빈키 차다<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>6</td><td>웰스파고 미국전략<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>7</td><td>오펜하이머 존 스톨츠퍼스<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>8</td><td>모건스탠리 마이크 윌슨<div class="live">9월</div></td><td>—</td><td>명목 성장이 주식 헤지</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>9</td><td>골드만 미국전략<div class="live">5/27</div></td><td>—</td><td>2026 목표 8,000</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>10</td><td>JP모건 라코스-부하스<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>11</td><td>씨티 스콧 크로너트<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>12</td><td>에드 야데니<div class="live">9월</div></td><td>아니다 — 금리가 멀티플 누름</td><td>—</td><td>—</td><td class="n">2:0</td></tr>
+<tr><td>13</td><td>톰 리 (펀드스트랫)<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>14</td><td>제프리 군드라흐 (더블라인)<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>15</td><td>모하메드 엘에리언<div class="live">10/2</div></td><td>10월은 &quot;확실히 동결&quot;</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>16</td><td>찰스슈왑 (피터슨)<div class="live">9월</div></td><td>5%가 천장</td><td>—</td><td>—</td><td class="n">0:1</td></tr>
+<tr><td>17</td><td>브리지워터<div class="live">9월</div></td><td>—</td><td>AI 이미 반영</td><td>—</td><td class="n">0:2</td></tr>
+<tr><td>18</td><td>블랙록 BII<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>19</td><td>핌코<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>20</td><td>매파: 콜린스·슈미드<div class="live">10/2</div></td><td>아니다 — &quot;물가 너무 오래 높았다&quot; &quot;약속 못 지켰다&quot;</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>21</td><td>비둘기: 제퍼슨·윌리엄스·워시<div class="live">10/2</div></td><td>근처 — 윌리엄스 &quot;한 번 더는 연말&quot; · 워시 &quot;고용에 해 끼칠 필요 없다&quot;</td><td>—</td><td>—</td><td class="n">2:0</td></tr>
+<tr><td>22</td><td>KB 이은택<div class="live">8/18</div></td><td>경고선 — 10년 5.0~5.3 돌파 시 자금 이탈</td><td>이익 성장이 핵심</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>23</td><td>KB 하인환<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>24</td><td>신한 김성환<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>25</td><td>하나 김경환<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>26</td><td>메리츠 윤여삼<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>27</td><td>신한 하건형<div class="live"></div></td><td>—</td><td>—</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>28</td><td>대신 이경민<div class="live">10월</div></td><td>—</td><td>—</td><td>1차 7,600</td><td class="n">0:1</td></tr>
+<tr><td>29</td><td>키움 한지영<div class="live">9월</div></td><td>—</td><td>AI 주도력 회복</td><td>—</td><td class="n">0:0</td></tr>
+<tr><td>30</td><td>한투 김대준<div class="live">9월</div></td><td>—</td><td>—</td><td>체력 충분</td><td class="n">1:0</td></tr>
+<tr><td>31</td><td>James Lee (독립)<div class="live">10/2</div></td><td>판단 안 함 — 1966~81년식 급등 구간과 닮음</td><td>조건부 예 — 높은 기대를 이익으로 증명해야 하는 구간</td><td>—</td><td class="n">0:0</td></tr>
+</table></div></details>
+<h2>내 성적표</h2><div style="font-size:14px"><b>누적 (10/2~):</b> 맞음 4 · 틀림 3 · 반반 2 · 보류 1</div><div style="font-size:13px;margin-top:4px">확률 채점 — 아직 자료 없음</div>
+<details><summary>최근 판정</summary><ul class="s"><li>[10-03] 올리는 조건을 규칙에 안 적음 → 고용 약세에 쓸 규칙 없었음 <b>틀림</b></li><li>[10-03] &quot;HBM만 — 하이닉스&quot; → 외국인 하이닉스 −1,272억 <b>틀림</b></li><li>[10-03] &quot;경기 식음 15 · 고용이 판정&quot; → +2.9만 — 방향 맞음, 폭 못 봄 <b>반반</b></li><li>[10-03] &quot;반등이 되돌림이면 6,838 아래&quot; → 7,004 <b>맞음</b></li><li>[10-03] &quot;금리는 혼자 오른다&quot; (독립) → 고용 약세에도 10년 +4bp <b>맞음</b></li><li>[10-02] 경기 식음 15로 올림 (9/29) → 실업수당 19.7만 · ISM 54.5 <b>보류</b></li></ul></details>
+<h2>다음에 볼 것 <span class="live">2026-10-03 HOL에서 예고</span></h2><ul class="s"><li>10/6(화) 한국 개장 — 외국인 순매수 여부 (사면 복귀 1/2 · 또 팔면 7일째) <span class="pill">45%</span></li><li>10/6 밤 미 10년 금리 종가 — 5.30↑면 「금리만 안정」 5→0 / 5.20↓면 &quot;금리 혼자 오름&quot; 틀림 <span class="pill">40%</span></li><li>10/7~8 삼성전자 3분기 잠정실적 — 반도체 장비 축 승격 판정 · 외국인 복귀 계기 <span class="pill">60%</span></li></ul>
+<h2>리포트 PDF</h2><div class="links"><a href="https://github.com/chkchp0702-spec/market-strategy-report/blob/main/reports/2026-10-03_HOL/Market_Strategy_Report_2026_10_03_HOL.pdf">2026-10-03_HOL · 전체본</a><a href="https://github.com/chkchp0702-spec/market-strategy-report/blob/main/reports/2026-10-03_HOL/Market_Strategy_Summary_2026_10_03_HOL.pdf">2026-10-03_HOL · 요약</a><a href="https://github.com/chkchp0702-spec/market-strategy-report/blob/main/reports/2026-10-02_AM/Market_Strategy_Report_2026_10_02_AM.pdf">2026-10-02_AM · 전체본</a><a href="https://github.com/chkchp0702-spec/market-strategy-report/blob/main/reports/2026-10-02_AM/Market_Strategy_Summary_2026_10_02_AM.pdf">2026-10-02_AM · 요약</a></div>
+<div class="foot">출처: 아주경제·인포스탁데일리·뉴스1·파이어뱃(한국 10/2 마감) · 뉴스핌·글로벌이코노믹·한양경제(미국 10/2 마감) · CNBC·Yahoo Finance·BLS(9월 고용) · TradingEconomics(10년·금·브렌트) · Yahoo(엘에리언·연준 발언) · 이투데이(이은택) · 다음(김민규) · James Lee Advisors 10/2 Letter(캡처)<br>정보 제공 목적이며 투자자문이 아님 · 비중·확률·조건·채점은 작성자 판단 · 종목·ETF는 예시이며 매수 추천 아님 · 원금 손실 가능 · 투자 판단의 책임은 본인에게 있음<br>갱신 2026-10-03 20:00 KST · 자동 생성 (src/build_dashboard.py)</div></div></body></html>

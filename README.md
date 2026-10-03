@@ -108,3 +108,20 @@ sudo apt-get install -y fonts-noto-cjk
 ## 유의사항
 
 정보 제공 목적이며 투자자문이 아님 · 비중·확률·조건·채점은 작성자 판단 · 종목·ETF는 예시이며 매수 추천 아님 · 원금 손실 가능.
+
+## 대시보드 (휴대폰 한 장)
+- `python -m src.build_dashboard` → `docs/index.html`(GitHub Pages용) + `docs/artifact.html`(Claude 아티팩트 본문)
+- 매일 아침 예약 작업이 다시 만들어 `docs/ARTIFACT_URL.txt`에 적힌 Claude 아티팩트 주소로 다시 올린다 (주소는 그대로).
+- GitHub Pages 를 켜면(Settings → Pages → main, /docs) `https://chkchp0702-spec.github.io/market-strategy-report/` 로도 열린다. 비공개 저장소는 요금제에 따라 막힐 수 있다.
+
+## 자동 수집·알림 (`.github/workflows/fetch.yml`)
+- `src/fetch_market.py`: Yahoo Finance(지수·금리·환율·원자재·종목), 미 재무부(10년·30년 확정치), 네이버 금융(외국인 순매수, 되면), James Lee 블로그 RSS → `market/latest.json`, `market/history.csv`, `feeds/james_lee.json`
+- 매일 07:00 KST + 한국·미국 장중 매시간. 못 받은 값은 null — 숫자를 만들지 않는다.
+- `src/alerts.py`: 10년 5.30↑/5.20↓ · 브렌트 95↓ · 코스피 6,500 · 마이크론 −5%+나스닥 · 은행 ETF −2% · 외국인 순매수 전환/2일 · 금+30년 · VIX 30 → **GitHub Issue** 로 알림(휴대폰 GitHub 앱 알림). 같은 조건은 하루 한 번(`alerts/state.json`).
+
+## 채점·순위·회고
+- `data → forecasts_p`: 「볼 것 3개」각각의 확률. 다음 리포트 채점과 짝지어 `ledger.calibration` 에 쌓이고 브라이어 점수·구간별 적중이 4쪽 성적표와 대시보드에 나온다.
+- `--rerank`: 매월 첫 리포트에서 패널을 그룹 안 적중률 순으로 재정렬 (판정 2건 이상), `ledger.panel_rank_history` 기록.
+- `python -m src.review weekly --date <일요일>`: 지난 7일 집계(`reviews/weekly_*.md/json`) — 일요일 **주간판(WK)** 본문 재료.
+- `python -m src.review monthly --month YYYY-MM`: 틀린 것만 모은 회고 골격(`reviews/YYYY-MM.md`). 「왜 틀렸나」는 사람이 채우고, 고친 규칙은 RULES.md 이력에 적는다.
+- `python -m src.verify data/YYYY-MM-DD.json`: 입력 숫자를 자동 수집치와 대조해 어긋난 것을 표로 낸다.

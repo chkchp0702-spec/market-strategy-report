@@ -98,8 +98,12 @@ def commit(led: dict, day: dict) -> dict:
         if not any(x["date"] == item["date"] for x in ser):
             ser.append(item)
             ser.sort(key=lambda x: x["date"])
-    # 어제 예고 → 다음 리포트 채점용
-    led["forecasts"] = {"from": f"{date} {day['edition']}", "items": [_strip(c) for c in day.get("checks", [])]}
+    # 확률 채점: 어제 예고의 p 와 오늘 채점을 짝지어 쌓는다 (forecasts 를 덮어쓰기 전에)
+    from .scoring import record_calibration
+    record_calibration(led, day)
+    # 어제 예고 → 다음 리포트 채점용 (+ 각 예고의 확률 p)
+    led["forecasts"] = {"from": f"{date} {day['edition']}", "items": [_strip(c) for c in day.get("checks", [])],
+                        "p": day.get("forecasts_p") or []}
     led["updated"] = date
     applied.append(date)
     return led

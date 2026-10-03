@@ -23,6 +23,7 @@ from . import ledger as L
 from .charts import foreign_flow_svg, us10y_svg
 from .render import html_to_pdf, check_overflow
 from .kakao_text import kakao_text
+from .scoring import calibration_stats, rerank_panel, leaderboard
 
 ROOT = Path(__file__).resolve().parent.parent
 TPL = ROOT / "templates"
@@ -30,9 +31,16 @@ OUT = ROOT / "reports"
 MARGIN_PX = 40  # 푸터 위 최소 여유
 
 
-def build(day_path: Path, commit: bool = False, strict: bool = True) -> Path:
+def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: bool = False) -> Path:
     d = json.loads(day_path.read_text(encoding="utf-8"))
     led = L.load()
+    if rerank and d["date"] not in led.get("_applied", []):
+        moves = rerank_panel(led, d["date"])
+        print(f"패널 재정렬: {len(moves)}명 이동 " + " · ".join(f'{m["name"]} {m["from"]}→{m["to"]}' for m in moves[:8]))
+        if commit:
+            L.save(led)
+    cal = calibration_stats(led)
+    board = leaderboard(led)
 
     # ---- 장부에서 파생되는 것들 ----
     foreign_svg, foreign_cap = foreign_flow_svg(led["series"]["foreign_kospi"])
@@ -57,7 +65,7 @@ def build(day_path: Path, commit: bool = False, strict: bool = True) -> Path:
     env = Environment(loader=FileSystemLoader(str(TPL)), autoescape=select_autoescape(default=False))
     ctx = dict(d=d, led=led, css=css, charts=charts, panel_rows=panel_rows, panel_groups=panel_groups,
                outside_rows=outside_rows, scorecard_total=scorecard_total, alloc_rows=alloc_rows,
-               panel_n=len(panel_rows))
+               panel_n=len(panel_rows), cal=cal, board=board)
 
     tag = f'{d["date"]}_{d["edition"]}'
     out = OUT / tag
@@ -99,8 +107,9 @@ def main():
     ap.add_argument("day", help="data/YYYY-MM-DD.json")
     ap.add_argument("--commit", action="store_true", help="장부에 그날 줄 반영")
     ap.add_argument("--no-strict", action="store_true", help="넘침이 있어도 PDF를 남긴다")
+    ap.add_argument("--rerank", action="store_true", help="패널을 적중률 순으로 재정렬 (매월 첫 리포트)")
     a = ap.parse_args()
-    build(Path(a.day), commit=a.commit, strict=not a.no_strict)
+    build(Path(a.day), commit=a.commit, strict=not a.no_strict, rerank=a.rerank)
 
 
 if __name__ == "__main__":
