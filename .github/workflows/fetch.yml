@@ -5,7 +5,7 @@ name: fetch-market
 # - 한국 장중(09~16 KST = 00~07 UTC) 매시간, 미국 장중(22:30~05 KST = 13:30~20 UTC) 매시간 : 조건 감시
 on:
   schedule:
-    - cron: "0 22 * * *"
+    - cron: "15 21 * * *"    # KST 06:15 (시황 8시 전 게시용)
     - cron: "0 0-7 * * 1-5"
     - cron: "30 13-20 * * 1-5"
   workflow_dispatch:
