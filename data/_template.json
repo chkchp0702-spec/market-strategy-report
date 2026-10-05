@@ -13,6 +13,25 @@
   }
  ],
  "one_liner": "",
+ "kick": {
+  "title": "",
+  "so": "",
+  "why": "",
+  "rows": [
+   {
+    "label": "",
+    "text": "",
+    "dir": -1
+   },
+   {
+    "label": "",
+    "text": "",
+    "dir": 1,
+    "hi": true
+   }
+  ],
+  "none": false
+ },
  "kpis": [
   {
    "cls": "",
@@ -172,7 +191,7 @@
    ""
   ]
  },
- "_how": "날짜별 입력 파일. 2026-10-03.json을 보고 같은 칸을 채운다. 누적 점수·조건 카운트·20일 그림은 적지 않는다(장부가 계산). 패널은 panel_today에 '오늘 새 발언/판정이 있는 사람만' n으로 적는다. verdict는 win/loss 중 하나 또는 생략. forecasts_p: checks 3개 각각이 \"그렇게 될\" 확률(0~1). 다음 리포트 채점과 짝지어 확률 채점에 쓴다.",
+ "_how": "날짜별 입력 파일. 2026-10-03.json을 보고 같은 칸을 채운다. 누적 점수·조건 카운트·20일 그림은 적지 않는다(장부가 계산). 패널은 panel_today에 '오늘 새 발언/판정이 있는 사람만' n으로 적는다. verdict는 win/loss 중 하나 또는 생략. forecasts_p: checks 3개 각각이 \"그렇게 될\" 확률(0~1). 다음 리포트 채점과 짝지어 확률 채점에 쓴다. kick: 오늘의 킥 = 기대와 실제가 엇갈린 숫자 하나(title, 숫자 포함) + 그래서?(so) + 2~3문장 설명(why) + 그림 줄 rows(label·text·dir ±1·엇갈린 쪽 hi). 두 흐름이 갈라지는 그림이면 rows 대신 lines {labels, a:{name,vals}, b:{name,vals}}. `python -m src.kick` 후보를 먼저 본다. 엇갈림이 없으면 {none:true, why:'이유'}.",
  "forecasts_p": [
   0.5,
   0.5,

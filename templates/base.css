@@ -103,3 +103,20 @@ td.nw{white-space:nowrap}
 .tag.x{background:#9aa6b4}.tag.o{background:var(--warn)}.tag.r{background:var(--up)}
 .vsbox{display:grid;grid-template-columns:1fr 30px 1fr;gap:6px;align-items:start;font-size:9.2pt}
 .vsbox .m{text-align:center;font-weight:900;color:var(--mute);font-size:12pt;padding-top:4px}
+.one .kick{margin-top:6px;padding-top:6px;border-top:1px solid rgba(255,255,255,.18);font-size:10pt;line-height:1.4;color:#fff}
+.one .kick b{color:#ffc65c;margin-right:4px}
+.one .kick .so{color:#c9d6ea;font-weight:600}
+.box.onepic{border:2px solid var(--warn);margin-bottom:8px}
+.box.onepic h3{color:#8a5a00}
+.box.onepic{padding:8px 11px}
+.box.onepic h3{margin-bottom:4px}
+.op-g{display:grid;grid-template-columns:1.15fr 1fr;gap:12px;align-items:center}
+.op-c svg{width:100%;height:auto;display:block}
+.op-t{font-size:9.3pt;line-height:1.45;color:#2b3442}
+.op-so{margin-top:5px;font-weight:800;color:#8a5a00}
+.one p{line-height:1.42;font-size:12pt}
+.one{padding:10px 16px 11px}
+.kpi{padding:7px 9px 8px}
+.kpi .v{font-size:18pt;line-height:1.15}
+.grade .g{line-height:1.32}
+.kpi .s{line-height:1.33}

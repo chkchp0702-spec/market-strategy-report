@@ -14,7 +14,8 @@
  {% endfor %}
  </div>
 
- <div class="one"><div class="k">오늘의 한 줄</div><p>{{ d.one_liner | safe }}</p></div>
+ <div class="one"><div class="k">오늘의 한 줄</div><p>{{ d.one_liner | safe }}</p>
+ {% if d.kick %}<div class="kick">{% if d.kick.none %}<b>⚡ 킥</b> 오늘은 킥 없음 — {{ d.kick.why | safe }}{% else %}<b>⚡ 킥</b> {{ d.kick.title | safe }} <span class="so">→ {{ d.kick.so | safe }}</span>{% endif %}</div>{% endif %}</div>
 
  {% for row in [d.kpis[:4], d.kpis[4:8]] %}
  <div class="g4" {% if not loop.first %}style="margin-top:8px"{% endif %}>
@@ -39,6 +40,9 @@
 <!-- ===== 2 무슨 일이 있었나 ===== -->
 <section class="page">
  <div class="hd"><h1>무슨 일이 있었나</h1><div class="d">핵심 이야기 · 고정 그림 2개 · 반대 의견</div></div>
+ {% if d.kick and not d.kick.none and charts.kick_svg %}
+ <div class="box onepic"><h3>⚡ 오늘의 한 장 — {{ d.kick.title | safe }}</h3><div class="op-g"><div class="op-c">{{ charts.kick_svg | safe }}</div><div class="op-t">{{ d.kick.why | safe }}<div class="op-so">→ {{ d.kick.so | safe }}</div></div></div></div>
+ {% endif %}
  <div class="h2">{{ d.story.title }}</div>
  <p class="lead">{{ d.story.lead | safe }}</p>
 

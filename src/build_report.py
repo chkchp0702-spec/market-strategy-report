@@ -20,7 +20,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from . import ledger as L
-from .charts import foreign_flow_svg, us10y_svg
+from .charts import foreign_flow_svg, us10y_svg, kick_svg
 from .render import html_to_pdf, check_overflow
 from .kakao_text import kakao_text
 from .scoring import calibration_stats, rerank_panel, leaderboard
@@ -49,6 +49,7 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
     charts = {
         "foreign_svg": foreign_svg, "foreign_cap": foreign_cap, "foreign_n": min(len(led["series"]["foreign_kospi"]), 20),
         "us10y_svg": us_svg, "us10y_cap": us_cap, "us10y_n": min(len(led["series"]["us10y"]), 20),
+        "kick_svg": kick_svg(d.get("kick") or {}),
     }
     panel_rows = L.panel_view(led, d.get("panel_today", []))
     panel_groups = L.group_rows(panel_rows)

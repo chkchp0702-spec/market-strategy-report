@@ -119,3 +119,54 @@ def us10y_svg(series: list[dict], days: int = 20, band=(5.0, 5.3), line=5.30, co
     below = sum(1 for v in vals if v < line)
     cap += f"{line:.2f} 선 아래에 {below}일째."
     return svg, cap
+
+
+def kick_svg(kick: dict) -> str:
+    """오늘의 한 장 — 엇갈림 그림.
+    kick.rows = [{label, text, dir(+1/-1), hi}]  : 기대와 다르게 움직인 것(hi)을 강조한 화살표 줄
+    kick.lines = {labels:[...], a:{name, vals}, b:{name, vals}} : 두 흐름(시작=100으로 맞춤)이 갈라지는 그림
+    """
+    if not kick:
+        return ""
+    if kick.get("lines"):
+        L_ = kick["lines"]
+        a, b, labs = L_["a"], L_["b"], L_.get("labels", [])
+        def norm(v):
+            v = [x for x in v]
+            return [x / v[0] * 100 if v and v[0] else x for x in v]
+        va, vb = norm(a["vals"]), norm(b["vals"])
+        allv = va + vb
+        lo, hi = min(allv), max(allv)
+        span = (hi - lo) or 1
+        W, H, Lp, Rp, T, B = 340, 120, 34, 330, 14, 100
+        n = max(len(va), len(vb))
+        x = lambda i: Lp + (Rp - Lp) * i / max(1, n - 1)
+        y = lambda v: T + (hi - v) / span * (B - T)
+        def path(vs):
+            return " ".join(f"{x(i):.1f},{y(v):.1f}" for i, v in enumerate(vs))
+        g = [f'<line x1="{Lp}" y1="{y(100):.1f}" x2="{Rp}" y2="{y(100):.1f}" stroke="#cfd5de" stroke-dasharray="3 3"/>' if lo <= 100 <= hi else ""]
+        g.append(f'<polyline points="{path(va)}" fill="none" stroke="{NAVY}" stroke-width="2.2"/>')
+        g.append(f'<polyline points="{path(vb)}" fill="none" stroke="{RED}" stroke-width="2.2"/>')
+        g.append(f'<text x="{Lp}" y="{H - 4}" font-size="8.5" fill="{MUTE}">{labs[0] if labs else ""}</text><text x="{Rp}" y="{H - 4}" font-size="8.5" fill="{MUTE}" text-anchor="end">{labs[-1] if labs else ""}</text>')
+        g.append(f'<rect x="{Lp}" y="2" width="9" height="3" fill="{NAVY}"/><text x="{Lp + 12}" y="8" font-size="8.5" fill="{NAVY}">{a["name"]}</text>')
+        g.append(f'<rect x="{Lp + 150}" y="2" width="9" height="3" fill="{RED}"/><text x="{Lp + 162}" y="8" font-size="8.5" fill="{RED}">{b["name"]}</text>')
+        return f'<svg viewBox="0 0 {W} {H}" style="width:100%;height:auto">{"".join(g)}</svg>'
+    rows = kick.get("rows") or []
+    if not rows:
+        return ""
+    W, rh = 340, 26
+    H = rh * len(rows) + 4
+    g = []
+    for i, r in enumerate(rows):
+        yy = 2 + i * rh
+        up = (r.get("dir") or 0) > 0
+        col = RED if up else BLUE
+        hi = r.get("hi")
+        if hi:
+            g.append(f'<rect x="0" y="{yy}" width="{W}" height="{rh - 3}" rx="6" fill="#fff4e0" stroke="{WARN}"/>')
+        g.append(f'<text x="10" y="{yy + 16}" font-size="10" font-weight="{800 if hi else 600}" fill="{NAVY}">{r["label"]}</text>')
+        g.append(f'<text x="200" y="{yy + 17}" font-size="13" font-weight="900" fill="{col}" text-anchor="middle">{"▲" if up else "▼"}</text>')
+        g.append(f'<text x="{W - 10}" y="{yy + 16}" font-size="10.5" font-weight="800" fill="{col}" text-anchor="end">{r["text"]}</text>')
+        if hi:
+            g.append(f'<text x="235" y="{yy + 16}" font-size="8.5" font-weight="800" fill="{WARN}">← 엇갈림</text>')
+    return f'<svg viewBox="0 0 {W} {H}" style="width:100%;height:auto">{"".join(g)}</svg>'
