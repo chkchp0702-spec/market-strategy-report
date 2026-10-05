@@ -117,7 +117,10 @@ def us10y_svg(series: list[dict], days: int = 20, band=(5.0, 5.3), line=5.30, co
     ranges = [p for p in pts if p.get("range")]
     cap = ("*표시는 출처별 범위(" + " · ".join(f'{_md(p["date"])} {p["range"]}' for p in ranges) + "), 중간값 표시. 미 재무부 공식치로 교체 예정. " if ranges else "")
     below = sum(1 for v in vals if v < line)
-    cap += f"{line:.2f} 선 아래에 {below}일째."
+    if vals and vals[-1] >= line:
+        cap += f"{line:.2f} 선 위로 올라섬(마지막 {vals[-1]:.2f}) · 그 전 {below}일은 아래."
+    else:
+        cap += f"{line:.2f} 선 아래에 {below}일째."
     return svg, cap
 
 
