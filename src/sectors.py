@@ -49,13 +49,15 @@ UNIVERSE = [
     ("ARKK", "혁신 성장", "테마", ["TSLA", "ROKU"]), ("IWM", "소형주", "테마", []), ("MTUM", "모멘텀", "테마", []),
 ]
 REF = "SPY"
+LOG: list[str] = []
 
 
 def hist(sym: str, rng: str = "1y") -> list[tuple[str, float]]:
     """Yahoo 일봉 종가 [(날짜, 종가)] — 실패하면 []"""
     _yahoo_warmup()
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(sym)}?range={rng}&interval=1d"
-    for host in ("query2", "query1"):
+    err = None
+    for k, host in enumerate(("query2", "query1", "query2", "query1")):
         try:
             j = json.loads(_get(url.replace("query1", host)))
             res = j["chart"]["result"][0]
@@ -63,9 +65,11 @@ def hist(sym: str, rng: str = "1y") -> list[tuple[str, float]]:
             out = [(datetime.fromtimestamp(t, tz=timezone.utc).astimezone(KST).strftime("%Y-%m-%d"), c)
                    for t, c in zip(res["timestamp"], q["close"]) if c is not None]
             return out
-        except Exception:
-            time.sleep(0.8)
-    print(f"  {sym}: 실패", file=sys.stderr)
+        except Exception as e:
+            err = e
+            time.sleep(1.5 * (k + 1))                       # 야후가 막으면(429) 조금씩 더 기다렸다 다시
+    print(f"  {sym}: 실패 ({err})", file=sys.stderr)
+    LOG.append(f"{sym}: {str(err)[:120]}")
     return []
 
 
@@ -132,6 +136,7 @@ def main() -> int:
     ref = hist(REF)
     if not ref:
         print("SPY 실패 — 중단", file=sys.stderr)
+        (ROOT / "market" / "sectors_log.txt").write_text("\n".join(LOG), encoding="utf-8")
         return 1
     rs = stats(ref, ref)
     rows, leaders_needed = [], set()
@@ -216,6 +221,7 @@ def main() -> int:
            "sectors_rank": [r["sym"] for r in sorted(sects, key=lambda r: -(r.get("r5") or -99))],
            "risers": [r["sym"] for r in risers], "fallers": [r["sym"] for r in fallers],
            "notes": notes, "kick": kick[:4], "compass": compass()}
+    out["errors"] = LOG[:40]
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"섹터·테마 {len(rows)}개 · 대장주 {len(lead)}개 → {OUT}")
     for n in notes:
@@ -226,4 +232,10 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        code = main()
+    except Exception as e:                               # 어떤 실패든 이유를 파일로 남김 (Actions 로그를 못 볼 때 대비)
+        import traceback
+        (ROOT / "market" / "sectors_log.txt").write_text(traceback.format_exc() + "\n" + "\n".join(LOG), encoding="utf-8")
+        raise
+    sys.exit(code)
