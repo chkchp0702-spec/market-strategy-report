@@ -73,6 +73,30 @@ def hist(sym: str, rng: str = "1y") -> list[tuple[str, float]]:
     return []
 
 
+BULK: dict[str, list[tuple[str, float]]] = {}
+
+
+def bulk(syms: list[str], period: str = "1y") -> None:
+    """yfinance 로 한꺼번에 받기 (요청 수가 적어 야후 429를 덜 맞음). 실패하면 하나씩(hist) 받는다."""
+    try:
+        import yfinance as yf
+        df = yf.download(syms, period=period, interval="1d", group_by="ticker", auto_adjust=False, progress=False, threads=True)
+        for s_ in syms:
+            try:
+                ser = df[s_]["Close"].dropna()
+                BULK[s_] = [(d.strftime("%Y-%m-%d"), float(v)) for d, v in ser.items()]
+            except Exception:
+                pass
+        print(f"  yfinance 묶음 {len(BULK)}/{len(syms)}")
+    except Exception as e:
+        LOG.append(f"yfinance: {str(e)[:120]}")
+
+
+def get_hist(sym: str, rng: str = "1y") -> list[tuple[str, float]]:
+    h = BULK.get(sym)
+    return h if h and len(h) > 5 else hist(sym, rng)
+
+
 def ret(c: list[float], n: int, end: int = 0) -> float | None:
     """끝에서 end일 앞 기준, n일 수익률(%)"""
     i = len(c) - 1 - end
@@ -133,7 +157,8 @@ def pct(v):
 
 
 def main() -> int:
-    ref = hist(REF)
+    bulk([REF] + [u[0] for u in UNIVERSE] + sorted({t for u in UNIVERSE for t in u[3]}))
+    ref = get_hist(REF)
     if not ref:
         print("SPY 실패 — 중단", file=sys.stderr)
         (ROOT / "market" / "sectors_log.txt").write_text("\n".join(LOG), encoding="utf-8")
@@ -141,7 +166,7 @@ def main() -> int:
     rs = stats(ref, ref)
     rows, leaders_needed = [], set()
     for sym, name, kind, leads in UNIVERSE:
-        s = stats(hist(sym), ref)
+        s = stats(get_hist(sym), ref)
         if not s:
             continue
         s.update({"sym": sym, "name": name, "kind": kind, "leaders": leads})
@@ -150,7 +175,8 @@ def main() -> int:
                 s[f"rs{k}"] = round(s[f"r{k}"] - rs[f"r{k}"], 2)
         rows.append(s)
         leaders_needed.update(leads)
-        time.sleep(0.15)
+        if sym not in BULK:
+            time.sleep(0.6)
     # 순위 (5일 상대강도) 지금 vs 5일 전
     rows.sort(key=lambda x: -(x.get("r5") if x.get("r5") is not None else -99))
     for i, r in enumerate(rows):
@@ -162,11 +188,12 @@ def main() -> int:
     # 대장주 5일 성적
     lead = {}
     for t in sorted(leaders_needed):
-        h = hist(t, "3mo")
+        h = get_hist(t, "3mo")
         if len(h) > 6:
             c = [x for _, x in h]
             lead[t] = {"r1": ret(c, 1), "r5": ret(c, 5), "r20": ret(c, 20) if len(c) > 21 else None}
-        time.sleep(0.1)
+        if t not in BULK:
+            time.sleep(0.4)
     for r in rows:
         r["lead"] = sorted([dict(t=t, **lead[t]) for t in r["leaders"] if t in lead], key=lambda x: -(x["r5"] or -99))
         del r["leaders"]
