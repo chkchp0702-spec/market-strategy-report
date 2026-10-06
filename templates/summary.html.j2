@@ -22,7 +22,7 @@ ul.s li:before{content:"";position:absolute;left:0;top:8px;width:6px;height:6px;
 {% set s = d.summary %}
 {% set colors = ['#13294b','#2c5fa0','#1f7a4d','#5b3f93','#c8372d','#d98a1a','#6f93c9','#9aa6b4'] %}
 <div class="page">
- <div class="hd"><h1>시황 요약 — 한 쪽</h1><div class="d"><b>{{ d.date.replace("-", ".") }} ({{ d.weekday }}) {{ d.edition_label }}</b> · {{ d.basis }}</div></div>
+ <div class="hd"><div class="d"><b>{{ d.date.replace("-", ".") }} ({{ d.weekday }}) {{ d.edition_label }}</b> · {{ d.basis }}</div></div>
 
  <div class="grade">{% for g in d.yesterday_grades %}<div class="g {{ g.cls }}"><b>{{ g.title | replace('어제 예고 ','') }}</b>{{ g.mark }} · {{ g.text.split('.')[0] }}</div>{% endfor %}</div>
 

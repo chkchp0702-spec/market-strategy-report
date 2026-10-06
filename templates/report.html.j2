@@ -4,9 +4,9 @@
 </head><body>
 {% set foot = "시황리포트 · " ~ d.date.replace("-", ".") ~ " " ~ d.edition_label ~ " · 전체본" %}
 
-<!-- ===== 1 오늘 한눈에 ===== -->
+<!-- ===== 1 오늘 한 눈에 ===== -->
 <section class="page">
- <div class="hd"><h1>오늘 한눈에</h1><div class="d">시황리포트 · <b>{{ d.date.replace("-", ".") }} ({{ d.weekday }}) {{ d.edition_label }}</b> · {{ d.basis }}</div></div>
+ <div class="hd"><h1 style="word-break:keep-all;flex-shrink:0;margin-right:12px">오늘 <span style="white-space:nowrap">한 눈에</span></h1><div class="d">시황리포트 · <b>{{ d.date.replace("-", ".") }} ({{ d.weekday }}) {{ d.edition_label }}</b> · {{ d.basis }}</div></div>
 
  <div class="grade">
  {% for g in d.yesterday_grades %}
