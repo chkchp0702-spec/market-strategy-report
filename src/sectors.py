@@ -73,6 +73,50 @@ def hist(sym: str, rng: str = "1y") -> list[tuple[str, float]]:
     return []
 
 
+MEMBERS = {  # 테마 → (미국 관련주, [(한국 코드, 이름)]) — 앱에서 테마를 누르면 보조 창에 나옴
+ "XLK": (["NVDA","AAPL","MSFT","AVGO","ORCL","AMD","CRM","CSCO"], []),
+ "XLC": (["META","GOOGL","NFLX","TMUS","DIS"], [("035420.KS","NAVER"),("035720.KS","카카오")]),
+ "XLY": (["AMZN","TSLA","HD","MCD","BKNG","NKE"], [("005380.KS","현대차"),("000270.KS","기아")]),
+ "XLF": (["BRK-B","JPM","V","MA","BAC","GS"], [("105560.KS","KB금융"),("055550.KS","신한지주"),("086790.KS","하나금융지주")]),
+ "XLV": (["LLY","UNH","JNJ","ABBV","MRK","ISRG"], [("207940.KS","삼성바이오로직스"),("068270.KS","셀트리온")]),
+ "XLI": (["GE","CAT","RTX","UBER","HON","ETN"], [("012450.KS","한화에어로스페이스"),("267260.KS","HD현대일렉트릭")]),
+ "XLE": (["XOM","CVX","COP","EOG","SLB"], [("096770.KS","SK이노베이션"),("010950.KS","S-Oil")]),
+ "XLB": (["LIN","SHW","FCX","NEM","NUE"], [("005490.KS","POSCO홀딩스"),("010130.KS","고려아연")]),
+ "XLU": (["NEE","SO","CEG","VST","DUK"], [("015760.KS","한국전력")]),
+ "XLRE": (["PLD","AMT","EQIX","WELL","O"], []),
+ "XLP": (["WMT","COST","PG","KO","PEP"], [("097950.KS","CJ제일제당"),("271560.KS","오리온")]),
+ "IGV": (["MSFT","ORCL","CRM","NOW","PLTR","ADBE","INTU","SNOW","WDAY","ADSK","APP","DDOG"], [("012510.KS","더존비즈온"),("018260.KS","삼성에스디에스"),("035420.KS","NAVER"),("035720.KS","카카오"),("030520.KQ","한글과컴퓨터"),("053800.KQ","안랩")]),
+ "SMH": (["NVDA","TSM","AVGO","AMD","MU","ASML","QCOM","AMAT","LRCX","KLAC","ARM","INTC"], [("005930.KS","삼성전자"),("000660.KS","SK하이닉스"),("042700.KS","한미반도체"),("403870.KQ","HPSP"),("036930.KQ","주성엔지니어링"),("058470.KQ","리노공업")]),
+ "CIBR": (["PANW","CRWD","FTNT","ZS","NET","OKTA","S","CYBR","CHKP","QLYS","TENB"], [("053800.KQ","안랩"),("263860.KQ","지니언스"),("042510.KQ","라온시큐어"),("150900.KQ","파수"),("067920.KQ","이글루코퍼레이션"),("136540.KQ","윈스")]),
+ "SKYY": (["SNOW","DDOG","MDB","NET","NOW","CRM","ORCL","AMZN","MSFT","GOOGL","TEAM","HUBS"], [("012510.KS","더존비즈온"),("018260.KS","삼성에스디에스"),("093320.KQ","케이아이엔엑스"),("181710.KS","NHN")]),
+ "BOTZ": (["NVDA","ISRG","TER","SYM","ROK"], [("454910.KS","두산로보틱스"),("277810.KQ","레인보우로보틱스"),("108490.KQ","로보티즈"),("090360.KQ","로보스타")]),
+ "IGM": (["META","GOOGL","AMZN","NFLX","AAPL","MSFT","NVDA"], [("035420.KS","NAVER"),("035720.KS","카카오")]),
+ "XBI": (["VRTX","REGN","ALNY","INSM","EXAS","SRPT","MRNA"], [("207940.KS","삼성바이오로직스"),("068270.KS","셀트리온"),("196170.KQ","알테오젠"),("028300.KQ","HLB")]),
+ "IHI": (["ISRG","SYK","BSX","ABT","MDT","EW"], [("214150.KQ","클래시스"),("328130.KQ","루닛")]),
+ "KRE": (["ZION","CFG","KEY","RF","HBAN","FITB"], [("105560.KS","KB금융"),("055550.KS","신한지주"),("086790.KS","하나금융지주")]),
+ "KBE": (["JPM","BAC","WFC","C","USB","PNC"], [("105560.KS","KB금융"),("055550.KS","신한지주"),("086790.KS","하나금융지주")]),
+ "IAI": (["GS","MS","SCHW","HOOD","IBKR","CME"], [("039490.KS","키움증권"),("006800.KS","미래에셋증권"),("016360.KS","삼성증권")]),
+ "ITB": (["DHI","LEN","PHM","NVR","TOL"], [("000720.KS","현대건설"),("375500.KS","DL이앤씨"),("006360.KS","GS건설")]),
+ "XRT": (["WMT","COST","AMZN","TGT","ANF"], [("139480.KS","이마트"),("023530.KS","롯데쇼핑")]),
+ "IYT": (["UBER","UNP","FDX","UPS","ODFL","DAL"], [("086280.KS","현대글로비스"),("000120.KS","CJ대한통운")]),
+ "JETS": (["DAL","UAL","AAL","LUV"], [("003490.KS","대한항공"),("272450.KS","진에어")]),
+ "ITA": (["RTX","LMT","NOC","GD","GE","BA","LHX"], [("012450.KS","한화에어로스페이스"),("079550.KS","LIG넥스원"),("064350.KS","현대로템"),("047810.KS","한국항공우주")]),
+ "PAVE": (["ETN","PWR","URI","VMC","MLM"], [("267260.KS","HD현대일렉트릭"),("298040.KS","효성중공업")]),
+ "GRID": (["ETN","PWR","VRT","GEV","HUBB"], [("267260.KS","HD현대일렉트릭"),("298040.KS","효성중공업"),("010120.KS","LS ELECTRIC"),("103590.KS","일진전기")]),
+ "NLR": (["CEG","VST","OKLO","SMR","CCJ","BWXT"], [("034020.KS","두산에너빌리티"),("052690.KS","한전기술"),("051600.KS","한전KPS"),("083650.KQ","비에이치아이")]),
+ "URA": (["CCJ","UEC","NXE","DNN"], [("034020.KS","두산에너빌리티")]),
+ "TAN": (["FSLR","ENPH","NXT","RUN","SEDG"], [("009830.KS","한화솔루션"),("112610.KS","씨에스윈드")]),
+ "LIT": (["ALB","SQM","TSLA"], [("373220.KS","LG에너지솔루션"),("006400.KS","삼성SDI"),("247540.KQ","에코프로비엠"),("003670.KS","포스코퓨처엠")]),
+ "XME": (["FCX","NUE","STLD","AA","CLF"], [("005490.KS","POSCO홀딩스"),("010130.KS","고려아연")]),
+ "COPX": (["FCX","SCCO","TECK"], [("010130.KS","고려아연"),("103140.KS","풍산")]),
+ "GDX": (["NEM","AEM","GOLD","WPM","FNV"], []),
+ "XOP": (["XOM","COP","EOG","DVN","OXY"], [("096770.KS","SK이노베이션"),("010950.KS","S-Oil")]),
+ "IBIT": (["COIN","MSTR","MARA","RIOT","HOOD"], []),
+ "ARKK": (["TSLA","ROKU","COIN","PLTR","SHOP","CRSP"], []),
+ "IWM": ([], []), "MTUM": ([], []),
+}
+
+
 BULK: dict[str, list[tuple[str, float]]] = {}
 
 
@@ -157,7 +201,7 @@ def pct(v):
 
 
 def main() -> int:
-    bulk([REF] + [u[0] for u in UNIVERSE] + sorted({t for u in UNIVERSE for t in u[3]}))
+    bulk([REF] + [u[0] for u in UNIVERSE] + sorted({t for u in UNIVERSE for t in u[3]} | {t for v in MEMBERS.values() for t in v[0]} | {k for v in MEMBERS.values() for k, _ in v[1]}))
     ref = get_hist(REF)
     if not ref:
         print("SPY 실패 — 중단", file=sys.stderr)
@@ -197,6 +241,14 @@ def main() -> int:
     for r in rows:
         r["lead"] = sorted([dict(t=t, **lead[t]) for t in r["leaders"] if t in lead], key=lambda x: -(x["r5"] or -99))
         del r["leaders"]
+        us, kr = MEMBERS.get(r["sym"], ([], []))
+        def one(t):
+            h = BULK.get(t) or []
+            c = [x for _, x in h]
+            return {"r1": ret(c, 1), "r5": ret(c, 5), "r20": ret(c, 20)} if len(c) > 6 else None
+        mu = [dict(t=t, **one(t)) for t in us if one(t)]
+        mk = [dict(t=t, n=n, **one(t)) for t, n in kr if one(t)]
+        r["members"] = {"us": sorted(mu, key=lambda x: -(x["r5"] or -99)), "kr": sorted(mk, key=lambda x: -(x["r5"] or -99))}
 
     themes = [r for r in rows if r["kind"] == "테마"]
     sects = [r for r in rows if r["kind"] == "섹터"]
