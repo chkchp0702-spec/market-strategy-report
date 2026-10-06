@@ -1,200 +1,209 @@
 {
- "date": "",
- "weekday": "",
- "edition": "",
- "edition_label": "",
- "basis": "",
- "yesterday_grades": [
-  {
-   "title": "",
-   "mark": "",
-   "cls": "",
-   "text": ""
-  }
- ],
- "one_liner": "",
- "kick": {
-  "title": "",
-  "so": "",
-  "why": "",
-  "rows": [
-   {
-    "label": "",
-    "text": "",
-    "dir": -1
-   },
-   {
-    "label": "",
-    "text": "",
-    "dir": 1,
-    "hi": true
-   }
+  "date": "",
+  "weekday": "",
+  "edition": "",
+  "edition_label": "",
+  "basis": "",
+  "yesterday_grades": [
+    {
+      "title": "",
+      "mark": "",
+      "cls": "",
+      "text": ""
+    }
   ],
-  "none": false
- },
- "kpis": [
-  {
-   "cls": "",
-   "label": "",
-   "value": "",
-   "change": "",
-   "change_cls": "",
-   "so": "",
-   "src": ""
-  }
- ],
- "decision": {
-  "badges": [
-   ""
+  "one_liner": "",
+  "kick": {
+    "title": "",
+    "so": "",
+    "why": "",
+    "rows": [
+      {
+        "label": "",
+        "text": "",
+        "dir": -1
+      },
+      {
+        "label": "",
+        "text": "",
+        "dir": 1,
+        "hi": true
+      }
+    ],
+    "none": false
+  },
+  "leaders": {
+    "title": "주도 테마 한 문장 — 숫자 넣기 (예: 미국 소프트웨어(IGV) 5일 +5.2% · 20일 +11.5%, 6일 연속 S&P보다 강함)",
+    "short": "요약본용 짧은 버전 (60자 안)",
+    "so": "그래서 무엇을 하나 — 배분·후보·피할 것과 연결",
+    "why": "왜 오르나/내리나 1~2문장 (실적·뉴스·금리 등 출처 있는 이유)",
+    "korea": [
+      "한국 연결 종목·업종 1~2줄 (실제 오늘 숫자 확인)"
+    ]
+  },
+  "kpis": [
+    {
+      "cls": "",
+      "label": "",
+      "value": "",
+      "change": "",
+      "change_cls": "",
+      "so": "",
+      "src": ""
+    }
   ],
-  "reasons": [
-   ""
+  "decision": {
+    "badges": [
+      ""
+    ],
+    "reasons": [
+      ""
+    ]
+  },
+  "checks": [
+    ""
+  ],
+  "story": {
+    "title": "",
+    "lead": "",
+    "korea_title": "",
+    "korea": [
+      ""
+    ]
+  },
+  "counter": [
+    ""
+  ],
+  "panel_today": [
+    {
+      "n": 8,
+      "today": ""
+    }
+  ],
+  "panel_new_count": 9,
+  "panel_summary": [
+    ""
+  ],
+  "panel_sources": "",
+  "duel": {
+    "title": "",
+    "left_name": "",
+    "left_text": "",
+    "left_rule": "",
+    "right_name": "",
+    "right_text": "",
+    "right_rule": "",
+    "verdict": ""
+  },
+  "quotes": [
+    {
+      "cls": "",
+      "who": "",
+      "said": "",
+      "so": ""
+    }
+  ],
+  "outside_today": [
+    {
+      "name": "",
+      "today": "",
+      "verdict": ""
+    }
+  ],
+  "scorecard_today": [
+    {
+      "wrote": "",
+      "result": "",
+      "verdict": ""
+    }
+  ],
+  "allocation_seen": [
+    {
+      "seen": "",
+      "verdict": "",
+      "verdict_cls": "",
+      "rule": ""
+    }
+  ],
+  "allocation_note": "",
+  "scenario_desc": {
+    "A": "",
+    "B2": "",
+    "C": "",
+    "B": ""
+  },
+  "scenario_delta": {
+    "A": "",
+    "C": ""
+  },
+  "scenario_rule_note": "",
+  "triangle": [
+    {
+      "market": "",
+      "said": "",
+      "dir": "",
+      "dir_cls": ""
+    }
+  ],
+  "triangle_note": "",
+  "candidates_signal": {
+    "반도체 장비": "",
+    "정유 국내": "",
+    "피할 것: 장기채": ""
+  },
+  "schedule": [
+    {
+      "when": "",
+      "what": "",
+      "then": ""
+    }
+  ],
+  "falsify": [
+    {
+      "claim": "",
+      "signal": "",
+      "dist": ""
+    }
+  ],
+  "missing": "",
+  "sources": "",
+  "ledger_commit": {
+    "series_add": {
+      "foreign_kospi": {
+        "date": "",
+        "value": -1334,
+        "src": ""
+      },
+      "us10y": {
+        "date": "",
+        "value": 5.28,
+        "src": "",
+        "range": ""
+      }
+    }
+  },
+  "summary": {
+    "kpis_pick": [
+      0
+    ],
+    "three_lines": [
+      ""
+    ],
+    "panel_line": "",
+    "duel_line": "",
+    "decision_line": "",
+    "instruments_line": "",
+    "watch_line": ""
+  },
+  "kakao": {
+    "lines": [
+      ""
+    ]
+  },
+  "_how": "날짜별 입력 파일. 2026-10-03.json을 보고 같은 칸을 채운다. 누적 점수·조건 카운트·20일 그림은 적지 않는다(장부가 계산). 패널은 panel_today에 '오늘 새 발언/판정이 있는 사람만' n으로 적는다. verdict는 win/loss 중 하나 또는 생략. forecasts_p: checks 3개 각각이 \"그렇게 될\" 확률(0~1). 다음 리포트 채점과 짝지어 확률 채점에 쓴다. kick: 오늘의 킥 = 기대와 실제가 엇갈린 숫자 하나(title, 숫자 포함) + 그래서?(so) + 2~3문장 설명(why) + 그림 줄 rows(label·text·dir ±1·엇갈린 쪽 hi). 두 흐름이 갈라지는 그림이면 rows 대신 lines {labels, a:{name,vals}, b:{name,vals}}. `python -m src.kick` 후보를 먼저 본다. 엇갈림이 없으면 {none:true, why:'이유'}.",
+  "forecasts_p": [
+    0.5,
+    0.5,
+    0.5
   ]
- },
- "checks": [
-  ""
- ],
- "story": {
-  "title": "",
-  "lead": "",
-  "korea_title": "",
-  "korea": [
-   ""
-  ]
- },
- "counter": [
-  ""
- ],
- "panel_today": [
-  {
-   "n": 8,
-   "today": ""
-  }
- ],
- "panel_new_count": 9,
- "panel_summary": [
-  ""
- ],
- "panel_sources": "",
- "duel": {
-  "title": "",
-  "left_name": "",
-  "left_text": "",
-  "left_rule": "",
-  "right_name": "",
-  "right_text": "",
-  "right_rule": "",
-  "verdict": ""
- },
- "quotes": [
-  {
-   "cls": "",
-   "who": "",
-   "said": "",
-   "so": ""
-  }
- ],
- "outside_today": [
-  {
-   "name": "",
-   "today": "",
-   "verdict": ""
-  }
- ],
- "scorecard_today": [
-  {
-   "wrote": "",
-   "result": "",
-   "verdict": ""
-  }
- ],
- "allocation_seen": [
-  {
-   "seen": "",
-   "verdict": "",
-   "verdict_cls": "",
-   "rule": ""
-  }
- ],
- "allocation_note": "",
- "scenario_desc": {
-  "A": "",
-  "B2": "",
-  "C": "",
-  "B": ""
- },
- "scenario_delta": {
-  "A": "",
-  "C": ""
- },
- "scenario_rule_note": "",
- "triangle": [
-  {
-   "market": "",
-   "said": "",
-   "dir": "",
-   "dir_cls": ""
-  }
- ],
- "triangle_note": "",
- "candidates_signal": {
-  "반도체 장비": "",
-  "정유 국내": "",
-  "피할 것: 장기채": ""
- },
- "schedule": [
-  {
-   "when": "",
-   "what": "",
-   "then": ""
-  }
- ],
- "falsify": [
-  {
-   "claim": "",
-   "signal": "",
-   "dist": ""
-  }
- ],
- "missing": "",
- "sources": "",
- "ledger_commit": {
-  "series_add": {
-   "foreign_kospi": {
-    "date": "",
-    "value": -1334,
-    "src": ""
-   },
-   "us10y": {
-    "date": "",
-    "value": 5.28,
-    "src": "",
-    "range": ""
-   }
-  }
- },
- "summary": {
-  "kpis_pick": [
-   0
-  ],
-  "three_lines": [
-   ""
-  ],
-  "panel_line": "",
-  "duel_line": "",
-  "decision_line": "",
-  "instruments_line": "",
-  "watch_line": ""
- },
- "kakao": {
-  "lines": [
-   ""
-  ]
- },
- "_how": "날짜별 입력 파일. 2026-10-03.json을 보고 같은 칸을 채운다. 누적 점수·조건 카운트·20일 그림은 적지 않는다(장부가 계산). 패널은 panel_today에 '오늘 새 발언/판정이 있는 사람만' n으로 적는다. verdict는 win/loss 중 하나 또는 생략. forecasts_p: checks 3개 각각이 \"그렇게 될\" 확률(0~1). 다음 리포트 채점과 짝지어 확률 채점에 쓴다. kick: 오늘의 킥 = 기대와 실제가 엇갈린 숫자 하나(title, 숫자 포함) + 그래서?(so) + 2~3문장 설명(why) + 그림 줄 rows(label·text·dir ±1·엇갈린 쪽 hi). 두 흐름이 갈라지는 그림이면 rows 대신 lines {labels, a:{name,vals}, b:{name,vals}}. `python -m src.kick` 후보를 먼저 본다. 엇갈림이 없으면 {none:true, why:'이유'}.",
- "forecasts_p": [
-  0.5,
-  0.5,
-  0.5
- ]
 }

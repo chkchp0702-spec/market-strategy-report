@@ -5,14 +5,14 @@
   python -m src.build_report data/2026-10-03.json --commit   # + 장부(ledger.json)에 그날 줄 반영
 
 출력:
-  reports/<date>_<edition>/Market_Strategy_Report_<date>_<ed>.pdf   (전체본 6쪽)
+  reports/<date>_<edition>/Market_Strategy_Report_<date>_<ed>.pdf   (전체본 7쪽 — 2쪽 = 🔥 섹터·테마 레이더)
   reports/<date>_<edition>/Market_Strategy_Summary_<date>_<ed>.pdf  (요약본 1쪽)
   reports/<date>_<edition>/kakao.txt                               (카톡 붙여넣기용)
   reports/<date>_<edition>/*.html                                   (원본)
 
 규칙 (RULES.md):
   - 누적·카운트·그림은 장부에서만 온다.
-  - 전체본은 정확히 6쪽, 요약본은 정확히 1쪽. 어떤 쪽도 푸터를 넘으면 빌드 실패.
+  - 전체본은 정확히 7쪽, 요약본은 정확히 1쪽. 어떤 쪽도 푸터를 넘으면 빌드 실패.
 """
 from __future__ import annotations
 import argparse, json, sys
@@ -20,7 +20,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from . import ledger as L
-from .charts import foreign_flow_svg, us10y_svg, kick_svg
+from .charts import foreign_flow_svg, us10y_svg, kick_svg, sectors_svg
 from .render import html_to_pdf, check_overflow
 from .kakao_text import kakao_text
 from .scoring import calibration_stats, rerank_panel, leaderboard
@@ -51,6 +51,12 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
         "us10y_svg": us_svg, "us10y_cap": us_cap, "us10y_n": min(len(led["series"]["us10y"]), 20),
         "kick_svg": kick_svg(d.get("kick") or {}),
     }
+    # 🔥 섹터·테마 레이더 (src/sectors.py 가 아침마다 market/sectors.json 을 만든다)
+    try:
+        sec = json.loads((ROOT / "market" / "sectors.json").read_text(encoding="utf-8"))
+    except Exception:
+        sec = {}
+    charts["sectors_svg"] = sectors_svg(sec)
     panel_rows = L.panel_view(led, d.get("panel_today", []))
     panel_groups = L.group_rows(panel_rows)
     omap = {o["name"]: o for o in d.get("outside_today", [])}
@@ -66,7 +72,7 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
     env = Environment(loader=FileSystemLoader(str(TPL)), autoescape=select_autoescape(default=False))
     ctx = dict(d=d, led=led, css=css, charts=charts, panel_rows=panel_rows, panel_groups=panel_groups,
                outside_rows=outside_rows, scorecard_total=scorecard_total, alloc_rows=alloc_rows,
-               panel_n=len(panel_rows), cal=cal, board=board)
+               panel_n=len(panel_rows), cal=cal, board=board, sec=sec)
 
     tag = f'{d["date"]}_{d["edition"]}'
     out = OUT / tag
@@ -80,7 +86,7 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
     (out / f"{stem_s}.html").write_text(html_s, encoding="utf-8")
 
     ok = True
-    for stem, pages in ((stem_r, 6), (stem_s, 1)):
+    for stem, pages in ((stem_r, 7), (stem_s, 1)):
         pdf = out / f"{stem}.pdf"
         res = html_to_pdf(out / f"{stem}.html", pdf)
         bad = check_overflow(res, pages, MARGIN_PX)

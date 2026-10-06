@@ -153,6 +153,13 @@ def candidates():
         if n >= 5:
             add(0.5 + n / 5, f"{nm} {n}{unit} 연속", [{"label": nm, "text": f"{n}{unit}째", "dir": -1 if key == "foreign_kospi" else 1, "hi": True}],
                 "하루 뉴스가 아니라 흐름 — 끊기는 날이 판정일", kind="streak")
+    # 🔥 섹터·테마 엇갈림 (src/sectors.py) — 소프트웨어 vs 반도체처럼 같은 묶음 안에서 갈라진 돈의 흐름
+    try:
+        sec = json.loads((ROOT / "market" / "sectors.json").read_text(encoding="utf-8"))
+        for k in (sec.get("kick") or [])[:3]:
+            add(min(k["score"] / 3, 3.5), k["title"], k["rows"], "돈이 어디로 옮겨 가나 — 주도 테마 쪽 비중·후보 점검", kind="sector")
+    except Exception:
+        pass
     out.sort(key=lambda x: -x["score"])
     return out
 

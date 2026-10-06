@@ -173,3 +173,48 @@ def kick_svg(kick: dict) -> str:
         if hi:
             g.append(f'<text x="235" y="{yy + 16}" font-size="8.5" font-weight="800" fill="{WARN}">← 엇갈림</text>')
     return f'<svg viewBox="0 0 {W} {H}" style="width:100%;height:auto">{"".join(g)}</svg>'
+
+
+def sectors_svg(sec: dict, n_top: int = 8, n_bot: int = 4) -> str:
+    """🔥 미국 섹터·테마 레이더 — 5일 수익률 막대(빨강 오름/파랑 내림) + 20일 + S&P보다 강한 연속 일수.
+    위 = 지금 가장 강한 테마, 아래 = 돈이 빠진 테마. 회색 점선 = S&P500 5일."""
+    if not sec or not sec.get("rows"):
+        return ""
+    by = {r["sym"]: r for r in sec["rows"]}
+    top = [by[s] for s in sec.get("hot", [])[:n_top] if s in by]
+    if len(top) < n_top:   # 테마가 모자라면 5일 순으로 채움
+        top += [r for r in sec["rows"] if r not in top][:n_top - len(top)]
+    bot = [by[s] for s in sec.get("cold", [])[:n_bot] if s in by and by[s] not in top]
+    rows = top + [None] + bot
+    vals = [abs(r["r5"]) for r in top + bot if r and r.get("r5") is not None] + [abs(sec["spy"].get("r5") or 0)]
+    mx = max(vals + [1])
+    W, rh, L0, Z, R0 = 340, 17, 92, 175, 300
+    H = rh * len(rows) + 22
+    sc = lambda v: (v / mx) * (R0 - Z - 8)
+    g = [f'<text x="{L0}" y="10" font-size="8" fill="{MUTE}">5일 수익률</text>',
+         f'<text x="{W - 2}" y="10" font-size="8" fill="{MUTE}" text-anchor="end">20일 · 연속</text>']
+    spy5 = sec["spy"].get("r5") or 0
+    xs = Z + sc(spy5)
+    g.append(f'<line x1="{xs:.1f}" y1="14" x2="{xs:.1f}" y2="{H - 4}" stroke="#9aa3b2" stroke-dasharray="2 2"/>')
+    g.append(f'<text x="{xs:.1f}" y="{H - 1}" font-size="7.5" fill="{MUTE}" text-anchor="middle">S&amp;P {spy5:+.1f}%</text>')
+    g.append(f'<line x1="{Z}" y1="14" x2="{Z}" y2="{H - 10}" stroke="#cfd5de"/>')
+    for i, r in enumerate(rows):
+        yy = 16 + i * rh
+        if r is None:
+            g.append(f'<text x="4" y="{yy + 11}" font-size="7.5" fill="{MUTE}">— 돈이 빠진 곳 —</text>')
+            continue
+        v = r.get("r5") or 0
+        col = RED if v >= 0 else BLUE
+        w = sc(abs(v))
+        x0 = Z if v >= 0 else Z - w
+        hot = r in top[:3]
+        g.append(f'<text x="4" y="{yy + 11}" font-size="8.6" font-weight="{800 if hot else 600}" fill="{NAVY}">{r["name"]}</text>')
+        g.append(f'<text x="{L0 - 4}" y="{yy + 11}" font-size="7" fill="{MUTE}" text-anchor="end">{r["sym"]}</text>')
+        g.append(f'<rect x="{x0:.1f}" y="{yy + 3}" width="{max(w, 1):.1f}" height="{rh - 6}" rx="2" fill="{col}" opacity="{0.95 if hot else 0.7}"/>')
+        tx = (x0 + w + 3) if v >= 0 else (x0 - 3)
+        g.append(f'<text x="{tx:.1f}" y="{yy + 11}" font-size="8" font-weight="800" fill="{col}" text-anchor="{"start" if v >= 0 else "end"}">{v:+.1f}</text>')
+        r20 = r.get("r20")
+        st = r.get("streak", 0)
+        g.append(f'<text x="{W - 2}" y="{yy + 11}" font-size="7.8" fill="{RED if (r20 or 0) >= 0 else BLUE}" text-anchor="end">{"" if r20 is None else f"{r20:+.0f}%"}'
+                 f'<tspan fill="{WARN}" font-weight="800">{f" 🔥{st}일" if st >= 3 else ""}</tspan></text>')
+    return f'<svg viewBox="0 0 {W} {H}" style="width:100%;height:auto">{"".join(g)}</svg>'

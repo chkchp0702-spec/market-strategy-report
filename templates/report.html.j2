@@ -34,7 +34,47 @@
    <ul class="b">{% for c in d.checks %}<li>{{ c | safe }}</li>{% endfor %}</ul>
   </div>
  </div>
- <div class="foot"><span>{{ foot }}</span><span>1 / 6</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>1 / 7</span></div>
+</section>
+
+<!-- ===== 2 지금 돈이 몰리는 곳 (섹터·테마 레이더, 10/6) ===== -->
+{% set S = sec or {} %}{% set L = d.leaders or {} %}
+<section class="page">
+ <div class="hd"><h1>🔥 지금 돈이 몰리는 곳</h1><div class="d">미국 섹터 11 + 테마 {{ (S.rows|default([])|length) - 11 if S.rows else 0 }}개 · 한국 업종 · {{ S.asof|default('') }} 종가 기준 · S&amp;P500 대비</div></div>
+ <div class="one" style="margin-bottom:8px"><div class="k">오늘의 주도 테마</div>
+  <p>{{ (L.title or (S.notes[0] if S.notes else "섹터 자료 없음")) | safe }}</p>
+  {% if L.so %}<div class="kick"><b>🔥 그래서</b> {{ L.so | safe }}</div>{% endif %}
+ </div>
+ <div class="g2">
+  <div class="box"><h3>미국 섹터·테마 5일 성적 (위 = 강한 곳)</h3>{{ charts.sectors_svg | safe }}
+   <div class="note">막대 = 5일 수익률 · 오른쪽 = 20일 · 🔥N일 = S&amp;P500보다 강한 날 연속. ETF 종가(Yahoo).</div></div>
+  <div class="box"><h3>주도 테마 TOP 5 — 대장주까지</h3>
+   <table><tr><th>테마</th><th>5일</th><th>20일</th><th>S&amp;P 대비 20일</th><th>고점까지</th></tr>
+   {% for sym in (S.hot or [])[:5] %}{% set r = (S.rows | selectattr("sym", "equalto", sym) | list)[0] %}
+    <tr><td class="nw"><b>{{ r.name }}</b> <span class="src">{{ r.sym }}</span>{% if r.streak >= 3 %} <span class="tag">🔥{{ r.streak }}일</span>{% endif %}</td>
+     <td class="{{ 'up' if (r.r5 or 0) >= 0 else 'dn' }}">{{ '%+.1f' % r.r5 if r.r5 is not none else '–' }}%</td>
+     <td class="{{ 'up' if (r.r20 or 0) >= 0 else 'dn' }}">{{ '%+.1f' % r.r20 if r.r20 is not none else '–' }}%</td>
+     <td>{{ '%+.1f' % r.rs20 if r.rs20 is not none else '–' }}%p</td><td>{{ '%+.1f' % r.off_hi }}%</td></tr>
+    {% if r.lead %}<tr><td colspan="5" class="src" style="padding-top:0">대장주 {% for x in r.lead[:4] %}{{ x.t }} <b class="{{ 'up' if (x.r5 or 0) >= 0 else 'dn' }}">{{ '%+.1f' % x.r5 if x.r5 is not none else '–' }}%</b>{{ ' · ' if not loop.last }}{% endfor %} (5일)</td></tr>{% endif %}
+   {% endfor %}
+   </table>
+   {% if L.why %}<div class="note" style="margin-top:6px">{{ L.why | safe }}</div>{% endif %}
+  </div>
+ </div>
+ <div class="g2" style="margin-top:8px">
+  <div class="box pale"><h3>⬆️ 새로 뜬 곳 · 🧊 돈이 빠진 곳</h3>
+   <ul class="b">
+   {% for sym in (S.risers or [])[:3] %}{% set r = (S.rows | selectattr("sym", "equalto", sym) | list)[0] %}<li>⬆️ <b>{{ r.name }}</b> ({{ r.sym }}) 5일 순위 {{ r.rank_prev }}→{{ r.rank }}위 · 5일 <span class="up">{{ '%+.1f' % r.r5 }}%</span></li>{% endfor %}
+   {% for sym in (S.cold or [])[:3] %}{% set r = (S.rows | selectattr("sym", "equalto", sym) | list)[0] %}<li>🧊 <b>{{ r.name }}</b> ({{ r.sym }}) 5일 <span class="{{ 'up' if (r.r5 or 0) >= 0 else 'dn' }}">{{ '%+.1f' % r.r5 }}%</span> · 20일 {{ '%+.1f' % (r.r20 or 0) }}%</li>{% endfor %}
+   {% for t in (S.compass.US.strong if S.compass and S.compass.US else [])[:2] %}<li>🇺🇸 종목 전체 기준 강한 업종: <b>{{ t.name }}</b> 5일 {{ '%+.1f' % (t.r5 or 0) }}%{% if t.lead %} — {{ t.lead[0].n }}{% endif %}</li>{% endfor %}
+   </ul></div>
+  <div class="box cream"><h3>🇰🇷 한국은? — 연결고리</h3>
+   <ul class="b">
+   {% for k in (L.korea or []) %}<li>{{ k | safe }}</li>{% endfor %}
+   {% for t in (S.compass.KR.strong if S.compass and S.compass.KR else [])[:(4 - (L.korea or [])|length) if (L.korea or [])|length < 4 else 0] %}<li>한국 강한 업종 <b>{{ t.name }}</b> 하루 {{ '%+.1f' % (t.r1 or 0) }}% · 5일 {{ '%+.1f' % (t.r5 or 0) }}%{% if t.lead %} — {% for x in t.lead[:2] %}{{ x.n }}{{ ', ' if not loop.last }}{% endfor %}{% endif %}</li>{% endfor %}
+   </ul></div>
+ </div>
+ <div class="foot"><span>{{ foot }}</span><span>2 / 7</span></div>
 </section>
 
 <!-- ===== 2 무슨 일이 있었나 ===== -->
@@ -55,7 +95,7 @@
   <div class="box"><h3>{{ d.story.korea_title }}</h3><div class="story">{% for p in d.story.korea %}<p>{{ p | safe }}</p>{% endfor %}</div></div>
   <div class="box pale"><h3>반대 의견 — 같은 크기로</h3><ul class="b">{% for c in d.counter %}<li>{{ c | safe }}</li>{% endfor %}</ul></div>
  </div>
- <div class="foot"><span>{{ foot }}</span><span>2 / 6</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>3 / 7</span></div>
 </section>
 
 <!-- ===== 3 전략가 패널 ===== -->
@@ -75,7 +115,7 @@
  </table>
  <div class="sum">{% for s in d.panel_summary %}<div class="c">{{ s | safe }}</div>{% endfor %}</div>
  <div class="note" style="margin-top:3px;font-size:7pt">출처: {{ d.panel_sources }}</div>
- <div class="foot"><span>{{ foot }}</span><span>3 / 6</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>4 / 7</span></div>
 </section>
 
 <!-- ===== 4 대결 · 발언 · 성적표 ===== -->
@@ -106,7 +146,7 @@
    <div class="note" style="margin-top:3px">누적 (10/2~): {{ scorecard_total }}{% if cal.n %} · {{ cal.line }}{% endif %}</div>
   </div>
  </div>
- <div class="foot"><span>{{ foot }}</span><span>4 / 6</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>5 / 7</span></div>
 </section>
 
 <!-- ===== 5 내 포트폴리오 ===== -->
@@ -140,7 +180,7 @@
    </div>
   </div>
  </div>
- <div class="foot"><span>{{ foot }}</span><span>5 / 6</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>6 / 7</span></div>
 </section>
 
 <!-- ===== 6 앞으로 볼 것 ===== -->
@@ -164,6 +204,6 @@
  <div class="box" style="margin-top:7px"><h3>못 찾은 것 · 출처 · 유의사항</h3>
   <div class="note" style="font-size:7.1pt;line-height:1.4"><b>못 찾은 것:</b> {{ d.missing }}<br><b>출처:</b> {{ d.sources }} · 장부: ledger/ledger.json<br><b>유의사항</b> — 정보 제공 목적이며 투자자문이 아님. 비중·확률·조건·패널 채점은 모두 작성자의 판단이며 객관적 기준이 아님. 종목·ETF는 지수 대용의 예시이며 매수 추천이 아님. 출처별 수치가 다른 항목은 범위로 표기. 패널 "침묵"은 발언을 찾지 못한 것이지 입장이 없다는 뜻이 아님. 해외 자산은 환율에 따라 손익이 달라짐. 과거 성과는 미래 수익을 보장하지 않으며 원금 손실이 발생할 수 있음. 투자 판단과 결과의 책임은 투자자 본인에게 있음.</div>
  </div>
- <div class="foot"><span>{{ foot }}</span><span>6 / 6</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>7 / 7</span></div>
 </section>
 </body></html>

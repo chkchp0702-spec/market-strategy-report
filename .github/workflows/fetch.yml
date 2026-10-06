@@ -28,6 +28,11 @@ jobs:
           python-version: "3.11"
       - name: Fetch market data + RSS
         run: python -m src.fetch_market
+      - name: 🔥 섹터·테마 레이더 (아침 수집 때만 — 리포트 2쪽·킥 후보)
+        continue-on-error: true
+        run: |
+          H=$(TZ=Asia/Seoul date +%H)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || { [ "$H" -ge 5 ] && [ "$H" -le 8 ]; }; then python -m src.sectors; else echo "아침이 아니라 건너뜀"; fi
       - name: Check conditions → Issue
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

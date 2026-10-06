@@ -1,0 +1,229 @@
+"""🔥 주도 섹터·테마 레이더 — 「지금 돈이 어디로 몰리나」를 매일 아침 자동으로 계산한다.
+
+왜: 리포트가 거시(금리·환율·지수)만 보다 보니, 미국 소프트웨어처럼 며칠째 시장을 이끄는 테마를 놓쳤다(10/6 사용자 지적).
+무엇을:
+  ① 미국 섹터 11개 + 테마 ETF 약 30개 — 1·5·20·60일 수익률, S&P500 대비(상대강도), S&P보다 강한 날 연속 일수,
+     52주 고점까지 거리, 50·200일선 위/아래, 5일 전 대비 순위 변화(새로 뜬 곳 / 밀려난 곳), 테마별 대장주 5일 성적
+  ② 종목 전체 기준 업종 강약 (CH Investing 나침반 compass.json — 미국·한국 업종 r1·r5, 끌어올린 종목)
+  ③ 자동 문장 후보 (리포트 작성 단계가 고르고 다듬는다) + 킥 후보용 엇갈림 (src/kick.py 가 읽음)
+출력: market/sectors.json
+  python -m src.sectors
+"""
+from __future__ import annotations
+
+import json
+import sys
+import time
+import urllib.parse
+import urllib.request
+from datetime import datetime, timezone
+from pathlib import Path
+
+from .fetch_market import _get, _yahoo_warmup, KST
+
+ROOT = Path(__file__).resolve().parent.parent
+OUT = ROOT / "market" / "sectors.json"
+COMPASS = "https://raw.githubusercontent.com/chkchp0702-spec/daily-app/opdata/compass.json"
+
+# (티커, 이름, 종류, 대장주) — 종류: 섹터 / 테마
+UNIVERSE = [
+    ("XLK", "기술", "섹터", []), ("XLC", "통신·미디어", "섹터", []), ("XLY", "경기소비재", "섹터", []),
+    ("XLF", "금융", "섹터", []), ("XLV", "헬스케어", "섹터", []), ("XLI", "산업재", "섹터", []),
+    ("XLE", "에너지", "섹터", []), ("XLB", "소재", "섹터", []), ("XLU", "유틸리티", "섹터", []),
+    ("XLRE", "부동산", "섹터", []), ("XLP", "필수소비재", "섹터", []),
+    ("IGV", "소프트웨어", "테마", ["MSFT", "ORCL", "CRM", "NOW", "PLTR", "ADBE", "INTU", "SNOW"]),
+    ("SMH", "반도체", "테마", ["NVDA", "TSM", "AVGO", "AMD", "MU", "ASML"]),
+    ("CIBR", "사이버보안", "테마", ["PANW", "CRWD", "FTNT", "ZS", "NET"]),
+    ("SKYY", "클라우드", "테마", ["DDOG", "MDB", "NET", "SNOW"]),
+    ("BOTZ", "로봇·AI", "테마", ["ISRG", "ABBNY"]),
+    ("IGM", "빅테크·인터넷", "테마", ["META", "GOOGL", "AMZN", "NFLX"]),
+    ("XBI", "바이오", "테마", []), ("IHI", "의료기기", "테마", ["ISRG", "SYK", "BSX"]),
+    ("KRE", "지역은행", "테마", []), ("KBE", "은행", "테마", ["JPM", "BAC", "WFC"]), ("IAI", "증권·거래소", "테마", ["GS", "MS", "SCHW", "HOOD"]),
+    ("ITB", "주택건설", "테마", ["DHI", "LEN"]), ("XRT", "소매", "테마", []), ("IYT", "운송", "테마", ["UBER", "UNP", "FDX"]),
+    ("JETS", "항공", "테마", []), ("ITA", "방산·우주", "테마", ["RTX", "LMT", "NOC", "GE"]),
+    ("PAVE", "인프라·건설", "테마", ["ETN", "PWR", "URI"]), ("GRID", "전력망", "테마", ["ETN", "PWR", "VRT", "GEV"]),
+    ("NLR", "원전", "테마", ["CEG", "VST", "OKLO", "SMR"]), ("URA", "우라늄", "테마", ["CCJ"]),
+    ("TAN", "태양광", "테마", ["FSLR", "ENPH"]), ("LIT", "2차전지·리튬", "테마", ["ALB"]),
+    ("XME", "금속·광산", "테마", ["FCX", "NUE"]), ("COPX", "구리", "테마", ["FCX", "SCCO"]), ("GDX", "금광", "테마", ["NEM", "AEM"]),
+    ("XOP", "석유 개발", "테마", ["XOM", "COP"]), ("IBIT", "비트코인", "테마", ["COIN", "MSTR"]),
+    ("ARKK", "혁신 성장", "테마", ["TSLA", "ROKU"]), ("IWM", "소형주", "테마", []), ("MTUM", "모멘텀", "테마", []),
+]
+REF = "SPY"
+
+
+def hist(sym: str, rng: str = "1y") -> list[tuple[str, float]]:
+    """Yahoo 일봉 종가 [(날짜, 종가)] — 실패하면 []"""
+    _yahoo_warmup()
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(sym)}?range={rng}&interval=1d"
+    for host in ("query2", "query1"):
+        try:
+            j = json.loads(_get(url.replace("query1", host)))
+            res = j["chart"]["result"][0]
+            q = res["indicators"]["quote"][0]
+            out = [(datetime.fromtimestamp(t, tz=timezone.utc).astimezone(KST).strftime("%Y-%m-%d"), c)
+                   for t, c in zip(res["timestamp"], q["close"]) if c is not None]
+            return out
+        except Exception:
+            time.sleep(0.8)
+    print(f"  {sym}: 실패", file=sys.stderr)
+    return []
+
+
+def ret(c: list[float], n: int, end: int = 0) -> float | None:
+    """끝에서 end일 앞 기준, n일 수익률(%)"""
+    i = len(c) - 1 - end
+    if i - n < 0:
+        return None
+    return round((c[i] / c[i - n] - 1) * 100, 2)
+
+
+def stats(h: list[tuple[str, float]], ref: list[tuple[str, float]]) -> dict | None:
+    if len(h) < 30:
+        return None
+    rd = dict(ref)
+    common = [(d, c) for d, c in h if d in rd]
+    c = [x for _, x in h]
+    out = {"asof": h[-1][0], "last": round(c[-1], 2)}
+    for n in (1, 5, 20, 60):
+        out[f"r{n}"] = ret(c, n)
+    out["r5_prev"] = ret(c, 5, 5)                    # 5일 전 기준 5일 수익률 (순위 변화용)
+    # S&P 보다 강한 날 연속 (하루 수익률 비교)
+    st = 0
+    for i in range(len(common) - 1, 0, -1):
+        a = common[i][1] / common[i - 1][1] - 1
+        b = rd[common[i][0]] / rd[common[i - 1][0]] - 1
+        if a > b:
+            st += 1
+        else:
+            break
+    out["streak"] = st
+    hi = max(c[-252:])
+    out["off_hi"] = round((c[-1] / hi - 1) * 100, 2)        # 52주 고점까지 (%)
+    ma = lambda n: sum(c[-n:]) / n if len(c) >= n else None
+    m50, m200 = ma(50), ma(200)
+    out["above50"] = bool(m50 and c[-1] > m50)
+    out["above200"] = bool(m200 and c[-1] > m200)
+    return out
+
+
+def compass() -> dict:
+    try:
+        with urllib.request.urlopen(COMPASS, timeout=25) as r:
+            j = json.loads(r.read().decode("utf-8"))
+        res = {}
+        for mk in ("US", "KR"):
+            m = (j.get("markets") or {}).get(mk) or {}
+            pick = lambda L: [{"name": x.get("name"), "r1": x.get("r1"), "r5": x.get("r5"), "n": x.get("n"),
+                               "lead": [{"n": y.get("n"), "s": y.get("s"), "r1": y.get("r1"), "r5": y.get("r5")} for y in (x.get("lead") or x.get("hot") or [])[:3]]}
+                              for x in (L or [])[:8]]
+            res[mk] = {"date": m.get("date"), "strong": pick(m.get("strong")), "weak": pick(m.get("weak")),
+                       "sectors": [{"name": s.get("name"), "r1": s.get("r1"), "r5": s.get("r5"), "r20": s.get("r20")} for s in (m.get("sectors") or [])]}
+        return res
+    except Exception as e:
+        print("  나침반 실패", e, file=sys.stderr)
+        return {}
+
+
+def pct(v):
+    return "–" if v is None else f"{v:+.1f}%"
+
+
+def main() -> int:
+    ref = hist(REF)
+    if not ref:
+        print("SPY 실패 — 중단", file=sys.stderr)
+        return 1
+    rs = stats(ref, ref)
+    rows, leaders_needed = [], set()
+    for sym, name, kind, leads in UNIVERSE:
+        s = stats(hist(sym), ref)
+        if not s:
+            continue
+        s.update({"sym": sym, "name": name, "kind": kind, "leaders": leads})
+        for k in (5, 20, 60):
+            if s.get(f"r{k}") is not None and rs.get(f"r{k}") is not None:
+                s[f"rs{k}"] = round(s[f"r{k}"] - rs[f"r{k}"], 2)
+        rows.append(s)
+        leaders_needed.update(leads)
+        time.sleep(0.15)
+    # 순위 (5일 상대강도) 지금 vs 5일 전
+    rows.sort(key=lambda x: -(x.get("r5") if x.get("r5") is not None else -99))
+    for i, r in enumerate(rows):
+        r["rank"] = i + 1
+    prev = sorted(rows, key=lambda x: -(x.get("r5_prev") if x.get("r5_prev") is not None else -99))
+    for i, r in enumerate(prev):
+        r["rank_prev"] = i + 1
+        r["rank_chg"] = r["rank_prev"] - r["rank"]           # + = 올라옴
+    # 대장주 5일 성적
+    lead = {}
+    for t in sorted(leaders_needed):
+        h = hist(t, "3mo")
+        if len(h) > 6:
+            c = [x for _, x in h]
+            lead[t] = {"r1": ret(c, 1), "r5": ret(c, 5), "r20": ret(c, 20) if len(c) > 21 else None}
+        time.sleep(0.1)
+    for r in rows:
+        r["lead"] = sorted([dict(t=t, **lead[t]) for t in r["leaders"] if t in lead], key=lambda x: -(x["r5"] or -99))
+        del r["leaders"]
+
+    themes = [r for r in rows if r["kind"] == "테마"]
+    sects = [r for r in rows if r["kind"] == "섹터"]
+    key = lambda r: (r.get("rs20") or 0) * 0.5 + (r.get("rs5") or 0) + r.get("streak", 0) * 0.3
+    hot = sorted(themes, key=key, reverse=True)
+    cold = sorted(themes, key=key)
+    risers = sorted([r for r in rows if r.get("rank_chg", 0) >= 8], key=lambda r: -r["rank_chg"])[:4]
+    fallers = sorted([r for r in rows if r.get("rank_chg", 0) <= -8], key=lambda r: r["rank_chg"])[:4]
+
+    # 자동 문장 후보 — 작성 단계가 고르고 숫자를 다시 확인한다
+    notes = []
+    for r in hot[:3]:
+        bits = [f"5일 {pct(r['r5'])}", f"20일 {pct(r['r20'])}", f"S&P보다 20일 {pct(r.get('rs20'))}"]
+        if r["streak"] >= 3:
+            bits.append(f"{r['streak']}일 연속 S&P보다 강함")
+        if r["off_hi"] is not None and r["off_hi"] > -3:
+            bits.append(f"52주 고점 {pct(r['off_hi'])}")
+        ld = ", ".join(f"{x['t']} {pct(x['r5'])}" for x in r["lead"][:3])
+        notes.append(f"🔥 {r['name']}({r['sym']}) " + " · ".join(bits) + (f" — 대장주 {ld}" if ld else ""))
+    for r in risers[:2]:
+        notes.append(f"⬆️ 새로 뜬 곳: {r['name']}({r['sym']}) 5일 순위 {r['rank_prev']}→{r['rank']}위 ({pct(r['r5'])})")
+    for r in cold[:2]:
+        notes.append(f"🧊 돈이 빠진 곳: {r['name']}({r['sym']}) 5일 {pct(r['r5'])} · 20일 {pct(r['r20'])}")
+
+    # 킥 후보: 같은 큰 묶음 안에서 갈라진 것 (소프트웨어 vs 반도체 등) · 섹터 1등과 꼴등
+    by = {r["sym"]: r for r in rows}
+    pairs = [("IGV", "SMH", "소프트웨어 vs 반도체"), ("XLK", "XLE", "기술 vs 에너지"), ("IWM", "SPY", "소형주 vs S&P"),
+             ("KRE", "XLF", "지역은행 vs 금융"), ("GDX", "IBIT", "금광 vs 비트코인"), ("XLY", "XLP", "경기소비재 vs 필수소비재"),
+             ("CIBR", "IGV", "사이버보안 vs 소프트웨어"), ("NLR", "XLU", "원전 vs 유틸리티")]
+    kick = []
+    for a, b, lab in pairs:
+        A, B = by.get(a), (by.get(b) if b != "SPY" else dict(rs, sym="SPY", name="S&P500"))
+        if not A or not B or A.get("r5") is None or B.get("r5") is None:
+            continue
+        gap5 = A["r5"] - B["r5"]
+        gap20 = (A.get("r20") or 0) - (B.get("r20") or 0)
+        if abs(gap5) >= 3 or abs(gap20) >= 6:
+            w, l = (A, B) if gap5 > 0 else (B, A)
+            kick.append({"score": round(abs(gap5) + abs(gap20) / 2, 1), "label": lab,
+                         "title": f"{w.get('name')} 5일 {pct(w['r5'])} vs {l.get('name')} {pct(l['r5'])} — 5일 차이 {abs(gap5):.1f}%p, 20일 {abs(gap20):.1f}%p",
+                         "rows": [{"label": f"{w.get('name')} ({w.get('sym')}) 5일", "text": pct(w["r5"]), "dir": 1 if w["r5"] > 0 else -1, "hi": True},
+                                  {"label": f"{l.get('name')} ({l.get('sym')}) 5일", "text": pct(l["r5"]), "dir": 1 if l["r5"] > 0 else -1},
+                                  {"label": f"{w.get('name')} 20일", "text": pct(w.get("r20")), "dir": 1 if (w.get("r20") or 0) > 0 else -1},
+                                  {"label": f"{l.get('name')} 20일", "text": pct(l.get("r20")), "dir": 1 if (l.get("r20") or 0) > 0 else -1}]})
+    kick.sort(key=lambda x: -x["score"])
+
+    out = {"fetched_kst": datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "asof": rs["asof"], "spy": rs,
+           "rows": rows, "hot": [r["sym"] for r in hot[:6]], "cold": [r["sym"] for r in cold[:4]],
+           "sectors_rank": [r["sym"] for r in sorted(sects, key=lambda r: -(r.get("r5") or -99))],
+           "risers": [r["sym"] for r in risers], "fallers": [r["sym"] for r in fallers],
+           "notes": notes, "kick": kick[:4], "compass": compass()}
+    OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"섹터·테마 {len(rows)}개 · 대장주 {len(lead)}개 → {OUT}")
+    for n in notes:
+        print(" ", n)
+    for k in kick[:3]:
+        print("  ⚡", k["title"])
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
