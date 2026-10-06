@@ -208,6 +208,7 @@ def main() -> int:
 
     # 자동 문장 후보 — 작성 단계가 고르고 숫자를 다시 확인한다
     notes = []
+    by_ = {r["sym"]: r for r in rows}
     for r in hot[:3]:
         bits = [f"5일 {pct(r['r5'])}", f"20일 {pct(r['r20'])}", f"S&P보다 20일 {pct(r.get('rs20'))}"]
         if r["streak"] >= 3:
@@ -216,6 +217,25 @@ def main() -> int:
             bits.append(f"52주 고점 {pct(r['off_hi'])}")
         ld = ", ".join(f"{x['t']} {pct(x['r5'])}" for x in r["lead"][:3])
         notes.append(f"🔥 {r['name']}({r['sym']}) " + " · ".join(bits) + (f" — 대장주 {ld}" if ld else ""))
+    # 계열 묶음: 같은 흐름이 여러 ETF에 나뉘어 있을 때 (예: 소프트웨어 = IGV·CIBR·SKYY)
+    FAM = [("소프트웨어 계열", ["IGV", "CIBR", "SKYY"]), ("반도체·AI 하드웨어", ["SMH", "BOTZ"]), ("빅테크", ["IGM", "XLC"]),
+           ("원전·우라늄·전력", ["NLR", "URA", "GRID", "XLU"]), ("금융", ["XLF", "KBE", "KRE", "IAI"]), ("원자재·금", ["XME", "COPX", "GDX"]),
+           ("에너지", ["XLE", "XOP"]), ("방산·인프라", ["ITA", "PAVE"]), ("경기민감 소비", ["XLY", "XRT", "ITB", "JETS"])]
+    fam = []
+    for nm, ss in FAM:
+        R = [by_[x] for x in ss if x in by_ and by_[x].get("r5") is not None]
+        if len(R) < 2:
+            continue
+        a5 = sum(r["r5"] for r in R) / len(R); a20 = sum((r.get("r20") or 0) for r in R) / len(R)
+        fam.append({"name": nm, "syms": [r["sym"] for r in R], "r5": round(a5, 2), "r20": round(a20, 2), "rs5": round(a5 - (rs.get("r5") or 0), 2),
+                    "all_up": all(r["r5"] > 0 for r in R), "best": max(R, key=lambda r: r["r5"])["sym"]})
+    fam.sort(key=lambda f: -(f["rs5"] + f["r20"] / 4))
+    for f in fam[:1]:
+        if f["rs5"] > 1.5:
+            notes.insert(0, f"🔥 {f['name']} 전체가 강함 — {'·'.join(f['syms'])} 평균 5일 {pct(f['r5'])} · 20일 {pct(f['r20'])} (S&P보다 5일 {pct(f['rs5'])}p){' · 모두 오름' if f['all_up'] else ''}")
+    for f in fam[-1:]:
+        if f["rs5"] < -1.5:
+            notes.append(f"🧊 {f['name']} 전체가 약함 — 평균 5일 {pct(f['r5'])} · 20일 {pct(f['r20'])}")
     for r in risers[:2]:
         notes.append(f"⬆️ 새로 뜬 곳: {r['name']}({r['sym']}) 5일 순위 {r['rank_prev']}→{r['rank']}위 ({pct(r['r5'])})")
     for r in cold[:2]:
@@ -247,7 +267,7 @@ def main() -> int:
            "rows": rows, "hot": [r["sym"] for r in hot[:6]], "cold": [r["sym"] for r in cold[:4]],
            "sectors_rank": [r["sym"] for r in sorted(sects, key=lambda r: -(r.get("r5") or -99))],
            "risers": [r["sym"] for r in risers], "fallers": [r["sym"] for r in fallers],
-           "notes": notes, "kick": kick[:4], "compass": compass()}
+           "notes": notes, "families": fam, "kick": kick[:4], "compass": compass()}
     out["errors"] = LOG[:40]
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"섹터·테마 {len(rows)}개 · 대장주 {len(lead)}개 → {OUT}")

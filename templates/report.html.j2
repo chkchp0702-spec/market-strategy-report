@@ -64,6 +64,7 @@
  <div class="g2" style="margin-top:8px">
   <div class="box pale"><h3>⬆️ 새로 뜬 곳 · 🧊 돈이 빠진 곳</h3>
    <ul class="b">
+   {% for f in (S.families or [])[:1] %}<li>🧩 <b>{{ f.name }}</b> ({{ f.syms|join('·') }}) 평균 5일 <span class="{{ 'up' if f.r5 >= 0 else 'dn' }}">{{ '%+.1f' % f.r5 }}%</span> · 20일 {{ '%+.1f' % f.r20 }}%{{ ' · 모두 오름' if f.all_up }}</li>{% endfor %}
    {% for sym in (S.risers or [])[:3] %}{% set r = (S.rows | selectattr("sym", "equalto", sym) | list)[0] %}<li>⬆️ <b>{{ r.name }}</b> ({{ r.sym }}) 5일 순위 {{ r.rank_prev }}→{{ r.rank }}위 · 5일 <span class="up">{{ '%+.1f' % r.r5 }}%</span></li>{% endfor %}
    {% for sym in (S.cold or [])[:3] %}{% set r = (S.rows | selectattr("sym", "equalto", sym) | list)[0] %}<li>🧊 <b>{{ r.name }}</b> ({{ r.sym }}) 5일 <span class="{{ 'up' if (r.r5 or 0) >= 0 else 'dn' }}">{{ '%+.1f' % r.r5 }}%</span> · 20일 {{ '%+.1f' % (r.r20 or 0) }}%</li>{% endfor %}
    {% for t in (S.compass.US.strong if S.compass and S.compass.US else [])[:2] %}<li>🇺🇸 종목 전체 기준 강한 업종: <b>{{ t.name }}</b> 5일 {{ '%+.1f' % (t.r5 or 0) }}%{% if t.lead %} — {{ t.lead[0].n }}{% endif %}</li>{% endfor %}
