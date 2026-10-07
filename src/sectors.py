@@ -175,6 +175,9 @@ def stats(h: list[tuple[str, float]], ref: list[tuple[str, float]]) -> dict | No
     m50, m200 = ma(50), ma(200)
     out["above50"] = bool(m50 and c[-1] > m50)
     out["above200"] = bool(m200 and c[-1] > m200)
+    m5, m20 = ma(5), ma(20)
+    out["ma5"] = round(m5, 2) if m5 else None          # 🎯 오늘의 집중: "이게 깨지면" 기준선
+    out["ma20"] = round(m20, 2) if m20 else None
     return out
 
 

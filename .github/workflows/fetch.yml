@@ -32,7 +32,7 @@ jobs:
         continue-on-error: true
         run: |
           H=$(TZ=Asia/Seoul date +%H)
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || { [ "$H" -ge 5 ] && [ "$H" -le 8 ]; }; then pip install -q yfinance pandas && python -m src.sectors; else echo "아침이 아니라 건너뜀"; fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || { [ "$H" -ge 5 ] && [ "$H" -le 8 ]; }; then pip install -q yfinance pandas && python -m src.sectors && python -m src.focus; else echo "아침이 아니라 건너뜀"; fi
       - name: Check conditions → Issue
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

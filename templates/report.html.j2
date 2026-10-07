@@ -37,44 +37,55 @@
  <div class="foot"><span>{{ foot }}</span><span>1 / 7</span></div>
 </section>
 
-<!-- ===== 2 지금 돈이 몰리는 곳 (섹터·테마 레이더, 10/6) ===== -->
-{% set S = sec or {} %}{% set L = d.leaders or {} %}
-<section class="page">
- <div class="hd"><h1>🔥 지금 돈이 몰리는 곳</h1><div class="d">미국 섹터 11 + 테마 {{ (S.rows|default([])|length) - 11 if S.rows else 0 }}개 · 한국 업종 · {{ S.asof|default('') }} 종가 기준 · S&amp;P500 대비</div></div>
- <div class="one" style="margin-bottom:8px"><div class="k">오늘의 주도 테마</div>
-  <p>{{ (L.title or (S.notes[0] if S.notes else "섹터 자료 없음")) | safe }}</p>
-  {% if L.so %}<div class="kick"><b>🔥 그래서</b> {{ L.so | safe }}</div>{% endif %}
+<!-- ===== 2 🎯 오늘의 집중 (돈의 길 → 담는 법 → 행동, 10/7) ===== -->
+{% set S = sec or {} %}{% set L = d.leaders or {} %}{% set FO = focus or {} %}{% set FW = (d.focus or {}).why or {} %}
+{% macro pc(v) %}{% if v is none %}–{% else %}<span class="{{ 'up' if v >= 0 else 'dn' }}">{{ '%+.1f' % v }}%</span>{% endif %}{% endmacro %}
+{% macro actg(a) %}<span class="tag {{ 'r' if a == '추격 금지' else ('o' if a == '눌림 대기' else ('g' if '★' in a else 'x')) }}">{{ a }}</span>{% endmacro %}
+<section class="page fz">
+ <style>.fz .g2 table td,.fz .g2 table th{padding:1px 4px!important;font-size:8.1pt;line-height:1.35}.fz .fc td{font-size:8pt;line-height:1.4;padding:3px 5px}.fz .etf{font-size:8.3pt;line-height:1.55}.fz ul.b li{font-size:8.6pt;line-height:1.4;margin:1px 0}</style>
+ <div class="hd"><h1>🎯 오늘의 집중</h1><div class="d">돈의 길 → 담는 법 → 오늘의 행동 · {{ S.asof|default('') }} 종가 · 숫자는 자동 계산(Yahoo·나침반), 이유는 기사</div></div>
+ <div class="one" style="margin-bottom:8px"><div class="k">오늘 돈이 몰리는 곳</div>
+  <p>{{ (L.title or (S.notes[0] if S.notes else "자료 없음")) | safe }}</p>
+  {% if L.so %}<div class="kick"><b>🎯 그래서</b> {{ L.so | safe }}</div>{% endif %}
+ </div>
+ <div class="box pale" style="margin-bottom:8px;padding:7px 10px"><h3 style="margin-bottom:3px">① 돈의 길 — 5개 시장 (1주 지수 + 1달 + 오른 종목 비율)</h3>
+  <table class="fc"><tr>{% for c in (FO.countries or []) %}<td style="width:20%;vertical-align:top;{{ 'background:#fff3dc;' if loop.first else '' }}">
+   <b>{{ c.flag }} {{ c.name }}</b>{% if c.label %} <span class="tag {{ 'r' if loop.first else 'b' }}">{{ c.label }}</span>{% endif %}<br>
+   <span class="src">{{ c.ix }} 1주 </span>{{ pc(c.chg5) }} <span class="src">1달</span> {{ pc(c.chg20) }}<br>
+   <span class="src">{{ c.regime }} · 오른 종목 {{ c.breadth10 }}%</span>
+   {% for h in (c.hot or [])[:1] %}<div class="src" style="color:#334">▲ <b>{{ h.name }}</b> {{ pc(h.r1) }}{% if h.lead %} — {{ h.lead[0].n }}{% endif %}</div>{% endfor %}
+  </td>{% endfor %}</tr></table>
  </div>
  <div class="g2">
-  <div class="box"><h3>미국 섹터·테마 5일 성적 (위 = 강한 곳)</h3>{{ charts.sectors_svg | safe }}
-   <div class="note">막대 = 5일 수익률 · 오른쪽 = 20일 · 🔥N일 = S&amp;P500보다 강한 날 연속. ETF 종가(Yahoo).</div></div>
-  <div class="box"><h3>주도 테마 TOP 5 — 대장주까지</h3>
-   <table><tr><th>테마</th><th>5일</th><th>20일</th><th>S&amp;P 대비 20일</th><th>고점까지</th></tr>
-   {% for sym in (S.hot or [])[:5] %}{% set r = (S.rows | selectattr("sym", "equalto", sym) | list)[0] %}
-    <tr><td class="nw"><b>{{ r.name }}</b> <span class="src">{{ r.sym }}</span>{% if r.streak >= 3 %} <span class="tag">🔥{{ r.streak }}일</span>{% endif %}</td>
-     <td class="{{ 'up' if (r.r5 or 0) >= 0 else 'dn' }}">{{ '%+.1f' % r.r5 if r.r5 is not none else '–' }}%</td>
-     <td class="{{ 'up' if (r.r20 or 0) >= 0 else 'dn' }}">{{ '%+.1f' % r.r20 if r.r20 is not none else '–' }}%</td>
-     <td>{{ '%+.1f' % r.rs20 if r.rs20 is not none else '–' }}%p</td><td>{{ '%+.1f' % r.off_hi }}%</td></tr>
-    {% if r.lead %}<tr><td colspan="5" class="src" style="padding-top:0">대장주 {% for x in r.lead[:4] %}{{ x.t }} <b class="{{ 'up' if (x.r5 or 0) >= 0 else 'dn' }}">{{ '%+.1f' % x.r5 if x.r5 is not none else '–' }}%</b>{{ ' · ' if not loop.last }}{% endfor %} (5일)</td></tr>{% endif %}
-   {% endfor %}
+ {% for t in (FO.themes or [])[:2] %}
+  <div class="box{{ ' cream' if loop.first else '' }}"><h3>{{ '②' if loop.first else '③' }} {{ t.name }} <span class="src">{{ t.sym }}</span>{% if t.streak and t.streak >= 3 %} <span class="tag r">🔥{{ t.streak }}일</span>{% endif %}</h3>
+   <div style="font-size:8.6pt">5일 {{ pc(t.r5) }} · 20일 {{ pc(t.r20) }} · S&amp;P 대비 20일 {{ '%+.1f' % t.rs20 if t.rs20 is not none else '–' }}%p</div>
+   <div class="note" style="margin:2px 0 4px;color:#334">{{ (FW[t.sym] if FW[t.sym] else (L.why if loop.first and L.why else t.why_auto)) | safe }}</div>
+   <div class="etf"><b style="color:var(--navy)">ETF</b> 🇺🇸 <b>{{ t.sym }}</b> {{ pc(t.etf_us.r5) }} {{ actg(t.etf_us.act) }}
+   {% for x in t.etf_kr[:2] %}<br>🇰🇷 <b>{{ x.name }}</b> {{ pc(x.r5) if x.r5 is defined else '' }} {{ actg(x.act) }}{% endfor %}</div>
+   <div style="font-size:8.3pt;font-weight:800;color:var(--navy);margin-top:3px">종목 <span class="src">★ = 우리 컵·갭·매집에도 걸림 · 5일</span></div>
+   <table>
+   {% for x in (t.us[:4] + t.kr[:4]) %}<tr><td class="nw">{{ '🇺🇸' if x.mkt == 'US' else '🇰🇷' }} {{ x.name[:11] }}{% if x.star %} <b style="color:#c47a00">★{{ x.star }}</b>{% endif %}</td><td>{{ pc(x.r5) }}</td><td>{{ actg(x.act) }}</td></tr>{% endfor %}
    </table>
-   {% if L.why %}<div class="note" style="margin-top:6px">{{ L.why | safe }}</div>{% endif %}
+   {% if t.stop %}<div class="note" style="margin-top:4px">⛔ <b>이게 깨지면</b> {{ t.stop }}</div>{% endif %}
   </div>
+ {% endfor %}
  </div>
  <div class="g2" style="margin-top:8px">
-  <div class="box pale"><h3>⬆️ 새로 뜬 곳 · 🧊 돈이 빠진 곳</h3>
+  <div class="box pale"><h3>🧊 돈이 빠지는 곳 · 🇰🇷 한국 연결</h3>
    <ul class="b">
-   {% for f in (S.families or [])[:1] %}<li>🧩 <b>{{ f.name }}</b> ({{ f.syms|join('·') }}) 평균 5일 <span class="{{ 'up' if f.r5 >= 0 else 'dn' }}">{{ '%+.1f' % f.r5 }}%</span> · 20일 {{ '%+.1f' % f.r20 }}%{{ ' · 모두 오름' if f.all_up }}</li>{% endfor %}
-   {% for sym in (S.risers or [])[:3] %}{% set r = (S.rows | selectattr("sym", "equalto", sym) | list)[0] %}<li>⬆️ <b>{{ r.name }}</b> ({{ r.sym }}) 5일 순위 {{ r.rank_prev }}→{{ r.rank }}위 · 5일 <span class="up">{{ '%+.1f' % r.r5 }}%</span></li>{% endfor %}
-   {% for sym in (S.cold or [])[:3] %}{% set r = (S.rows | selectattr("sym", "equalto", sym) | list)[0] %}<li>🧊 <b>{{ r.name }}</b> ({{ r.sym }}) 5일 <span class="{{ 'up' if (r.r5 or 0) >= 0 else 'dn' }}">{{ '%+.1f' % r.r5 }}%</span> · 20일 {{ '%+.1f' % (r.r20 or 0) }}%</li>{% endfor %}
-   {% for t in (S.compass.US.strong if S.compass and S.compass.US else [])[:2] %}<li>🇺🇸 종목 전체 기준 강한 업종: <b>{{ t.name }}</b> 5일 {{ '%+.1f' % (t.r5 or 0) }}%{% if t.lead %} — {{ t.lead[0].n }}{% endif %}</li>{% endfor %}
+   {% for a in (FO.avoid or [])[:2] %}<li>🧊 <b>{{ a.name }}</b> ({{ a.sym }}) 5일 {{ pc(a.r5) }} · 20일 {{ pc(a.r20) }} </li>{% endfor %}
+   {% for k in (L.korea or [])[:1] %}<li>{{ k | safe }}</li>{% endfor %}
    </ul></div>
-  <div class="box cream"><h3>🇰🇷 한국은? — 연결고리</h3>
-   <ul class="b">
-   {% for k in (L.korea or []) %}<li>{{ k | safe }}</li>{% endfor %}
-   {% for t in (S.compass.KR.strong if S.compass and S.compass.KR else [])[:(4 - (L.korea or [])|length) if (L.korea or [])|length < 4 else 0] %}<li>한국 강한 업종 <b>{{ t.name }}</b> 하루 {{ '%+.1f' % (t.r1 or 0) }}% · 5일 {{ '%+.1f' % (t.r5 or 0) }}%{% if t.lead %} — {% for x in t.lead[:2] %}{{ x.n }}{{ ', ' if not loop.last }}{% endfor %}{% endif %}</li>{% endfor %}
-   </ul></div>
+  {% set SC = FO.score or {} %}
+  <div class="box"><h3>📒 집중 성적표 <span class="src">고른 테마 ETF, 5거래일 뒤 S&amp;P500 대비</span></h3>
+   {% if SC.n %}<div style="font-size:9pt;margin-bottom:3px">지금까지 <b>{{ SC.hit }}/{{ SC.n }}</b> 이김 · 평균 S&amp;P 대비 {{ pc(SC.avg_ex) }}</div>
+   <table>{% for e in SC.recent[:4] %}<tr><td>{{ e.asof[5:] }}</td><td><b>{{ e.name }}</b> {{ e.sym }}</td><td>{{ pc(e.res) }}</td><td>S&amp;P {{ pc(e.spy_res) }}</td><td>{{ '✓' if e.ex > 0 else '✗' }}</td></tr>{% endfor %}</table>
+   {% else %}<div class="note">10/7부터 기록 시작 — 5거래일 뒤부터 채점이 쌓여요.</div>{% endif %}
+   {% if SC.open %}<div class="note" style="margin-top:3px">채점 대기: {% for e in SC.open %}{{ e.asof[5:] }} {{ e.name }}{{ ' · ' if not loop.last }}{% endfor %}</div>{% endif %}
+  </div>
  </div>
+ <div class="note" style="margin-top:6px">행동 표시: <b>★ 관심</b> = 테마도 맞고 차트 자리도 좋음 · <b>관심</b> = 테마 안 · <b>눌림 대기</b> = 5일 +15% 넘게 올라 쉬는 걸 기다림 · <b>추격 금지</b> = 하루 +8% 넘게 급등. 매수 권유가 아니라 오늘 볼 곳을 좁히는 표예요.</div>
  <div class="foot"><span>{{ foot }}</span><span>2 / 7</span></div>
 </section>
 

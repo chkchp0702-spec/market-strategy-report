@@ -57,6 +57,11 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
     except Exception:
         sec = {}
     charts["sectors_svg"] = sectors_svg(sec)
+    # 🎯 오늘의 집중 (src/focus.py → market/focus.json)
+    try:
+        focus = json.loads((ROOT / "market" / "focus.json").read_text(encoding="utf-8"))
+    except Exception:
+        focus = {}
     panel_rows = L.panel_view(led, d.get("panel_today", []))
     panel_groups = L.group_rows(panel_rows)
     omap = {o["name"]: o for o in d.get("outside_today", [])}
@@ -72,7 +77,7 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
     env = Environment(loader=FileSystemLoader(str(TPL)), autoescape=select_autoescape(default=False))
     ctx = dict(d=d, led=led, css=css, charts=charts, panel_rows=panel_rows, panel_groups=panel_groups,
                outside_rows=outside_rows, scorecard_total=scorecard_total, alloc_rows=alloc_rows,
-               panel_n=len(panel_rows), cal=cal, board=board, sec=sec)
+               panel_n=len(panel_rows), cal=cal, board=board, sec=sec, focus=focus)
 
     tag = f'{d["date"]}_{d["edition"]}'
     out = OUT / tag
