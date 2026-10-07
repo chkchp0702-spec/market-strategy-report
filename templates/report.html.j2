@@ -68,10 +68,10 @@
    {% if t.stage %}<div style="margin:1px 0 3px"><span class="tag {{ t.stage.c }}">{{ {'초입':'🌱','주도':'🚀','과열':'🔥','꺾임':'🍂'}[t.stage.s] }} {{ t.stage.s }}</span> <b style="font-size:8.6pt">{{ t.stage.do }}</b></div>{% endif %}
    <div style="font-size:8.6pt">5일 {{ pc(t.r5) }} · 20일 {{ pc(t.r20) }} · S&amp;P 대비 20일 {{ '%+.1f' % t.rs20 if t.rs20 is not none else '–' }}%p</div>
    {% if t.flow %}{% set L2 = t.flow.rs %}{% set mn = L2|min %}{% set mx = L2|max %}{% set rg = (mx - mn) if mx > mn else 1 %}
-   <div style="display:flex;align-items:center;gap:6px;font-size:8pt;margin-top:2px"><svg width="96" height="22" viewBox="0 0 96 22"><polyline fill="none" stroke="{{ '#d64545' if L2[-1] >= 0 else '#2f6fd6' }}" stroke-width="1.6" points="{% for v in L2 %}{{ (loop.index0 * 95 / (L2|length - 1))|round(1) }},{{ (20 - (v - mn) / rg * 18)|round(1) }} {% endfor %}"/></svg>
-    <span>💧 <b>{{ t.flow.lab }}</b> · S&amp;P 대비 20일 흐름 {{ pc(L2[-1]) }} · 거래대금 {{ t.flow.dv }}배</span></div>{% endif %}
+   <div style="display:flex;align-items:center;gap:6px;font-size:8pt;margin-top:2px"><svg width="70" height="18" viewBox="0 0 96 22" preserveAspectRatio="none"><polyline fill="none" stroke="{{ '#d64545' if L2[-1] >= 0 else '#2f6fd6' }}" stroke-width="1.6" points="{% for v in L2 %}{{ (loop.index0 * 95 / (L2|length - 1))|round(1) }},{{ (20 - (v - mn) / rg * 18)|round(1) }} {% endfor %}"/></svg>
+    <span style="white-space:nowrap">💧 <b>{{ t.flow.lab }}</b> · 대비 {{ pc(L2[-1]) }} · 거래 {{ t.flow.dv }}배</span></div>{% endif %}
    {% if t.lag %}<div class="note" style="color:#334">🔗 {{ t.lag.txt }}{% if t.lag.today %} — <b>{{ t.lag.today }}</b>{% endif %}</div>{% endif %}
-   <div class="note" style="margin:2px 0 4px;color:#334">{{ (FW[t.sym] if FW[t.sym] else (L.why if loop.first and L.why else t.why_auto)) | safe }}</div>
+   <div class="note" style="margin:2px 0 4px;color:#334;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden">{{ (FW[t.sym] if FW[t.sym] else (L.why if loop.first and L.why else t.why_auto)) | safe }}</div>
    <div class="etf"><b style="color:var(--navy)">ETF</b> 🇺🇸 <b>{{ t.sym }}</b> {{ pc(t.etf_us.r5) }} {{ actg(t.etf_us.act) }}
    {% for x in t.etf_kr[:2] %}<br>🇰🇷 <b>{{ x.name }}</b> {{ pc(x.r5) if x.r5 is defined else '' }} {{ actg(x.act) }}{% endfor %}</div>
    <div style="font-size:8.3pt;font-weight:800;color:var(--navy);margin-top:3px">종목 <span class="src">★ = 우리 컵·갭·매집에도 걸림 · 5일</span></div>
@@ -87,7 +87,7 @@
  <div class="box pale" style="margin-top:8px"><h3>🧊 돈이 빠지는 곳 · 🇰🇷 한국 연결</h3>
   <ul class="b">
   {% for a in (FO.avoid or [])[:2] %}<li>🧊 <b>{{ a.name }}</b> ({{ a.sym }}) 5일 {{ pc(a.r5) }} · 20일 {{ pc(a.r20) }}</li>{% endfor %}
-  {% for k in (L.korea or [])[:1] %}<li>{{ k | safe }}</li>{% endfor %}
+  {% for k in (L.korea or [])[:1] %}<li style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">{{ k | safe }}</li>{% endfor %}
   </ul></div>
  {% if SC.bad or (d.edition == 'WK' and SC.week) %}
  <div class="box" style="margin-top:8px;border-color:#f0c6c2;background:#fdf1ef"><h3>{% if SC.bad %}⚠️ 집중 성적이 나빠요 — 최근 5번 중 3번 이상 S&amp;P에 짐{% else %}🗓️ 이번 주 집중 회고 — 고른 테마 5거래일 뒤 vs S&amp;P{% endif %}</h3>
@@ -95,7 +95,7 @@
  {% else %}
  <div class="note" style="margin-top:5px">📒 집중 성적 {% if SC.n %}<b>{{ SC.hit }}/{{ SC.n }}</b> (5거래일 뒤 S&amp;P 대비 평균 {{ pc(SC.avg_ex) }}){% else %}— 10/7부터 기록, 5거래일 뒤부터 채점{% endif %}</div>
  {% endif %}
- <div class="note" style="margin-top:6px">행동 표시: <b>★ 관심</b> = 테마도 맞고 차트 자리도 좋음 · <b>관심</b> = 테마 안 · <b>눌림 대기</b> = 5일 +15% 넘게 올라 쉬는 걸 기다림 · <b>추격 금지</b> = 하루 +8% 넘게 급등. 매수 권유가 아니라 오늘 볼 곳을 좁히는 표예요.</div>
+ <div class="note" style="margin-top:4px">단계 🌱초입=모아가기 · 🚀주도=눌림 매수 · 🔥과열=추격 금지 · 🍂꺾임=끝났나? / ★관심=테마+차트 자리 · 눌림 대기=5일 +15%↑ · 추격 금지=하루 +8%↑ · 자리=컵 기준가·갭 시가·20일선까지. 매수 권유 아님.</div>
  <div class="foot"><span>{{ foot }}</span><span>2 / 7</span></div>
 </section>
 
