@@ -70,29 +70,43 @@ def history(tickers, period="6mo"):
 
 
 def supply_kr(code):
-    """네이버 외국인·기관 일별 순매매량 → 5일 합(주)"""
+    """외국인·기관 최근 5거래일 순매매량 합(주). ① 네이버 모바일 API ② 네이버 금융 표"""
     c6 = code.split(".")[0]
-    try:
+    try:   # ① m.stock.naver.com
+        import json as _j
+        j = _j.loads(_get(f"https://m.stock.naver.com/api/stock/{c6}/trend?pageSize=10", ref="https://m.stock.naver.com/"))
+        rows = j if isinstance(j, list) else (j.get("trends") or j.get("result") or [])
+        frg = org = 0
+        n = 0
+        for r in rows[:5]:
+            f = _f(r.get("foreignerPureBuyQuant")); o = _f(r.get("organPureBuyQuant"))
+            if f is None and o is None:
+                continue
+            frg += f or 0; org += o or 0; n += 1
+        if n >= 3:
+            return {"frg": int(frg), "org": int(org), "n": n}
+        DEBUG.append(f"수급API {c6} 모양: {str(j)[:120]}")
+    except Exception as e:
+        DEBUG.append(f"수급API 실패 {c6} {str(e)[:50]}")
+    try:   # ② finance.naver.com 표
         x = _get(f"https://finance.naver.com/item/frgn.naver?code={c6}", enc="euc-kr", ref="https://finance.naver.com/")
-        rows = re.findall(r'<tr[^>]*onMouseOver[^>]*>(.*?)</tr>', x, re.S)
         org = frg = 0
         n = 0
-        for tr in rows:
-            tds = [re.sub(r"<[^>]+>|\s|&nbsp;", "", t) for t in re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)]
+        for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", x, re.S | re.I):
+            tds = [re.sub(r"<[^>]+>|\s|&nbsp;", "", t) for t in re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S | re.I)]
             if len(tds) >= 7 and re.match(r"\d{4}\.\d{2}\.\d{2}", tds[0]):
                 o, f = _f(tds[5]), _f(tds[6])
                 if o is None or f is None:
                     continue
-                org += o
-                frg += f
-                n += 1
+                org += o; frg += f; n += 1
                 if n == 5:
                     break
         if n >= 3:
             return {"frg": int(frg), "org": int(org), "n": n}
-        DEBUG.append(f"수급 표 없음 {c6}")
+        snip = re.sub(r"\s+", " ", x[:80])
+        DEBUG.append(f"수급표 {c6} 길이 {len(x)} 앞: {snip}")
     except Exception as e:
-        DEBUG.append(f"수급 실패 {c6} {str(e)[:50]}")
+        DEBUG.append(f"수급표 실패 {c6} {str(e)[:50]}")
     return None
 
 
