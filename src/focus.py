@@ -208,7 +208,16 @@ def main() -> int:
                        "streak": r.get("streak"), "off_hi": r.get("off_hi"), "last": last, "ma5": m5, "ma20": m20,
                        "etf_us": {"t": r["sym"], "r1": r.get("r1"), "r5": r.get("r5"), "act": act(r.get("r1"), r.get("r5"), False)},
                        "etf_kr": [{"t": c, "name": n, **krq.get(c, {}), "act": act(krq.get(c, {}).get("r1"), krq.get(c, {}).get("r5"), False)} for c, n in KR_ETF.get(r["sym"], [])],
-                       "us": us, "kr": kr, "stop": stop, "why_auto": " · ".join(why)})
+                       "us": us, "kr": kr, "stop": stop, "why_auto": " · ".join(why),
+                       "_kr_all": [x["t"] for x in (mem.get("kr") or [])][:8]})
+    # ①②③④⑥ 강화 (흐름 선·단계·시차·자리·수급)
+    try:
+        from .focus_plus import enrich, DEBUG
+        enrich(themes)
+    except Exception as e:
+        DEBUG = [f"강화 실패 {e}"]
+        for t in themes:
+            t.pop("_kr_all", None)
     avoid = [{"sym": s_, "name": rows[s_]["name"], "r5": rows[s_].get("r5"), "r20": rows[s_].get("r20")} for s_ in (S.get("cold") or [])[:3] if s_ in rows]
     # ── 4) 성적 장부: 5거래일(≈7일) 지난 픽 채점
     today = dt.datetime.now(KST).strftime("%Y-%m-%d")
@@ -226,14 +235,20 @@ def main() -> int:
     if spy.get("last"):
         for t in themes:
             if not any(e["asof"] == asof and e["sym"] == t["sym"] for e in log):
-                log.append({"date": today, "asof": asof, "sym": t["sym"], "name": t["name"], "last": t["last"], "spy": spy["last"], "res": None})
+                log.append({"date": today, "asof": asof, "sym": t["sym"], "name": t["name"], "last": t["last"], "spy": spy["last"], "res": None,
+                            "stage": (t.get("stage") or {}).get("s")})
     log = log[-200:]
     LOG.write_text(json.dumps(log, ensure_ascii=False, indent=0), encoding="utf-8")
     g = [e for e in log if e.get("res") is not None]
-    score = {"n": len(g), "hit": sum(1 for e in g if e["ex"] > 0), "avg_ex": round(sum(e["ex"] for e in g) / len(g), 2) if g else None,
+    from .focus_plus import lesson
+    for e in g:
+        e["lesson"] = lesson(e)
+    last5 = g[-5:]
+    bad = len(last5) >= 3 and sum(1 for e in last5 if e["ex"] <= 0) >= 3      # 최근 5번 중 3번 이상 S&P에 짐 → 크게 보여 줌
+    score = {"bad": bad, "week": g[-10:][::-1], "n": len(g), "hit": sum(1 for e in g if e["ex"] > 0), "avg_ex": round(sum(e["ex"] for e in g) / len(g), 2) if g else None,
              "recent": g[-5:][::-1], "open": [e for e in log if e.get("res") is None][-4:]}
     out = {"asof": asof, "built_kst": dt.datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "spy": spy,
-           "countries": countries, "themes": themes, "avoid": avoid, "score": score}
+           "countries": countries, "themes": themes, "avoid": avoid, "score": score, "debug": DEBUG[:30]}
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"집중: {' / '.join(t['name'] for t in themes)} · 나라 1위 {countries[0]['name'] if countries else '-'} · 성적 {score['hit']}/{score['n']}")
     return 0
