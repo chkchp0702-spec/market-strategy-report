@@ -55,19 +55,25 @@ def clean(x: str) -> str:
 
 # ---------- 네이버 블로그 ----------
 def blog_body(bid: str, log: str) -> tuple[str, list[str]]:
-    """모바일 글 보기에서 본문 글자 + 그림 몇 장"""
-    x = get(f"https://m.blog.naver.com/PostView.naver?blogId={bid}&logNo={log}", ref="https://m.blog.naver.com/")
-    m = re.search(r'<div class="se-main-container">(.*?)<div class="(?:comment_area|post_footer|wrap_postdata)', x, re.S)
-    part = m.group(1) if m else ""
-    if not part:
-        m = re.search(r'id="postViewArea"[^>]*>(.*?)</div>\s*</div>', x, re.S)
-        part = m.group(1) if m else ""
-    paras = re.findall(r'<p class="se-text-paragraph[^"]*"[^>]*>(.*?)</p>', part, re.S)
-    txt = "\n".join(t for t in (clean(p) for p in paras) if t) if paras else clean(part)
-    imgs = []
-    for u in re.findall(r'data-lazy-src="([^"]+)"', part)[:4]:
-        imgs.append(html.unescape(u).split("?")[0] + "?type=w773")
-    return txt, imgs
+    """글 보기 페이지에서 본문 글자 + 그림 몇 장 (모바일 → PC 순서로 시도)"""
+    for url, ref in ((f"https://m.blog.naver.com/PostView.naver?blogId={bid}&logNo={log}", "https://m.blog.naver.com/"),
+                     (f"https://blog.naver.com/PostView.naver?blogId={bid}&logNo={log}&redirect=Dlog&widgetTypeCall=true", "https://blog.naver.com/")):
+        try:
+            x = get(url, ref=ref)
+        except Exception as e:
+            DEBUG.append(f"{bid} 글보기 실패 {str(e)[:50]}")
+            continue
+        paras = re.findall(r'<p class="se-text-paragraph[^"]*"[^>]*>(.*?)</p>', x, re.S)
+        txt = "\n".join(t for t in (clean(p) for p in paras) if t)
+        if not txt:
+            m = re.search(r'id="postViewArea"[^>]*>(.*?)<div class="post_footer', x, re.S)
+            txt = clean(m.group(1)) if m else ""
+        if len(txt) > 80:
+            imgs = [html.unescape(u).split("?")[0] + "?type=w773" for u in re.findall(r'data-lazy-src="(https://[^"]+)"', x)[:4]]
+            return txt, imgs
+        head = re.sub(r"\s+", " ", x[:60])
+        DEBUG.append(f"{bid} 글보기 길이 {len(x)} se:{'se-main-container' in x} 앞:{head}")
+    return "", []
 
 
 def blog(bid: str) -> list[dict]:
@@ -101,10 +107,8 @@ def blog_fill(items: list[dict], bid: str, prev: dict):
         try:
             txt, imgs = blog_body(bid, it["id"].split("/")[1])
             n += 1
-            if len(txt) > len(it["text"]) * .8 and len(txt) > 80:
+            if len(txt) > 80:
                 it.update({"text": txt[:6000], "imgs": imgs, "full": 1})
-            else:
-                DEBUG.append(f"{bid} 본문 짧음 {len(txt)}")
         except Exception as e:
             DEBUG.append(f"{bid} 본문 실패 {str(e)[:60]}")
 
