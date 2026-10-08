@@ -1,0 +1,33 @@
+name: my-feed
+
+# 📰 내 피드 — 네이버 블로그 + 텔레그램 채널 (매시간 · 아침 리포트 전 05:40 KST 꼭)
+on:
+  schedule:
+    - cron: "40 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: my-feed
+  cancel-in-progress: false
+
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 블로그·텔레그램 모으기
+        run: python -m src.feeds
+      - name: Commit
+        run: |
+          git config user.name "report-bot"
+          git config user.email "report-bot@users.noreply.github.com"
+          git add feeds/my_feed.json
+          git diff --cached --quiet && exit 0
+          git commit -m "feed: $(TZ=Asia/Seoul date '+%m/%d %H:%M') KST"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
