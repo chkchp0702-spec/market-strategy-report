@@ -100,6 +100,8 @@ def blog_fill(items: list[dict], bid: str, prev: dict):
     for it in items:
         old = prev.get(it["id"])
         if old and old.get("full"):
+            if old["text"].startswith(it["title"]):
+                old["text"] = old["text"][len(it["title"]):].lstrip(" .\n")
             it.update({"text": old["text"], "imgs": old.get("imgs", []), "full": 1})
             continue
         if n >= 8:
@@ -107,6 +109,8 @@ def blog_fill(items: list[dict], bid: str, prev: dict):
         try:
             txt, imgs = blog_body(bid, it["id"].split("/")[1])
             n += 1
+            if txt.startswith(it["title"]):
+                txt = txt[len(it["title"]):].lstrip(" .\n")
             if len(txt) > 80:
                 it.update({"text": txt[:6000], "imgs": imgs, "full": 1})
         except Exception as e:
