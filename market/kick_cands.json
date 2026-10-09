@@ -2234,6 +2234,26 @@
 "src": "cup",
 "score": 63.3,
 "lv": 18.89
+},
+"042510.KQ|2026-10-09|lead": {
+"code": "042510.KQ",
+"name": "라온시큐어",
+"mkt": "KR",
+"d": "2026-10-09",
+"src": "lead",
+"score": 67.9,
+"theme": "사이버보안",
+"note": "CIBR +3.6% → D+1 상관 0.37"
+},
+"263860.KQ|2026-10-09|lead": {
+"code": "263860.KQ",
+"name": "지니언스",
+"mkt": "KR",
+"d": "2026-10-09",
+"src": "lead",
+"score": 67.9,
+"theme": "사이버보안",
+"note": "CIBR +3.6% → D+1 상관 0.37"
 }
 },
 "sent": [
@@ -2242,23 +2262,22 @@
 ],
 "whale": [
 "ALAB",
+"AMZN",
+"AZN",
 "CDW",
-"CPNG",
+"CLF",
 "CSX",
 "DKS",
+"FCX",
+"FIGR",
 "GOOGL",
 "INSM",
 "META",
-"MPC",
-"MRVL",
-"MU",
 "NAMS",
 "ORCL",
-"RVMD",
-"SNDK",
+"ROIV",
 "SNOW",
-"STM",
-"VST",
-"ZYME"
+"STOK",
+"VST"
 ]
 }
