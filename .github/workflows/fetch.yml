@@ -33,6 +33,9 @@ jobs:
         run: |
           H=$(TZ=Asia/Seoul date +%H)
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] || { [ "$H" -ge 5 ] && [ "$H" -le 8 ]; }; then pip install -q yfinance pandas && python -m src.sectors && python -m src.focus; else echo "아침이 아니라 건너뜀"; fi
+      - name: 💼 포트 (시황대로 투자했다면)
+        continue-on-error: true
+        run: pip install -q yfinance pandas && python -m src.port
       - name: Check conditions → Issue
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

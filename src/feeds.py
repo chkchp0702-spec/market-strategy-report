@@ -28,6 +28,9 @@ SOURCES = [
     ("tg", "egzion", "이그전 (이은택의 그림 전략)", "KB증권 리서치 전략"),
     ("tg", "HANAchina", "하나 중국/신흥국 전략", "하나증권 김경환"),
     ("tg", "globalmktinsight", "미래에셋증권 시황", "미래에셋 김석환"),
+    ("tg", "YeouidoStory2", "여의도스토리", "뉴스·증권사 리포트·글로벌 경제"),
+    ("tg", "sunstudy1111", "선진짱 주식공부방", "종목·시황 공부"),
+    ("tg", "kwusa", "키움증권 미국주식 톡톡", "키움 미국주식 리서치"),
 ]
 UA = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 Mobile/15E148 Safari/604.1",
       "Accept-Language": "ko-KR,ko;q=0.9"}
