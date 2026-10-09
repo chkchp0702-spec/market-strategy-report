@@ -2207,6 +2207,33 @@
 "src": "focus",
 "score": 60,
 "note": "🧠 선제: 사이버보안 주도 테마 + 컵 기준가 217.19 직전(−0.17%) — 돌파 확인 시"
+},
+"THC|2026-10-09": {
+"code": "THC",
+"name": "Tenet Healthcare Corporation Common St",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "cup",
+"score": 36.7,
+"lv": 262.94
+},
+"CGAU|2026-10-09": {
+"code": "CGAU",
+"name": "Centerra Gold Inc. Common Shares",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "cup_eye",
+"score": 31.9,
+"lv": 22.32
+},
+"IAG|2026-10-09": {
+"code": "IAG",
+"name": "Iamgold Corporation Ordinary Shares",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "cup",
+"score": 63.3,
+"lv": 18.89
 }
 },
 "sent": [
