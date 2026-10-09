@@ -44,5 +44,51 @@
    }
   ],
   "why": "장부 시작 배분표"
+ },
+ {
+  "date": "2026-10-10",
+  "alloc": [
+   {
+    "pct": 26,
+    "name": "현금·단기채",
+    "instruments": "TIGER CD금리 499660 · 우량회사채 438330 / SGOV"
+   },
+   {
+    "pct": 20,
+    "name": "전력·인프라",
+    "instruments": "TIGER 글로벌AI전력인프라 491010 · RISE AI전력인프라 0101N0 · RISE 글로벌원자력 442320 / GEV · XLU"
+   },
+   {
+    "pct": 13,
+    "name": "에너지",
+    "instruments": "XLE / 국내 참고 S-Oil 010950 · SK이노베이션 096770"
+   },
+   {
+    "pct": 8,
+    "name": "금융",
+    "instruments": "KBWB / 국내 금융은 피할 목록"
+   },
+   {
+    "pct": 10,
+    "name": "반도체 (HBM)",
+    "instruments": "TIGER 반도체TOP10 396500 · SK하이닉스 000660 / TIGER 미국필라델피아반도체 381180 · MU"
+   },
+   {
+    "pct": 11,
+    "name": "금",
+    "instruments": "TIGER KRX금현물 0072R0 / GLD"
+   },
+   {
+    "pct": 6,
+    "name": "광통신",
+    "instruments": "GLW · COHR · LITE"
+   },
+   {
+    "pct": 6,
+    "name": "AI 소프트웨어",
+    "instruments": "TIGER 글로벌AI사이버보안 418670 / CIBR · CRWD · PANW · ZS · NOW"
+   }
+  ],
+  "why": "금융 11→8% · AI 소프트웨어 3→6%"
  }
 ]
