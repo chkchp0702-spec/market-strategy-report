@@ -30,7 +30,8 @@ RAW = "https://raw.githubusercontent.com/chkchp0702-spec/daily-app/main/"
 PARAMS = ROOT / "market" / "kick_params.json"      # 엣지 연구(주간)가 고치는 손잡이
 _DEF = {"sleeve": 0.15, "slots": 5, "stop": -0.05, "take": 0.15, "time_d": 15, "time_min": 0.03, "brake": -0.06, "brake_d": 10, "max_new": 2, "reentry": 10,
         "pri": {"focus": 40, "cup_eye": 25, "lead": 20, "cup": 10, "accum": 10, "whale": 8, "gap": 0}, "whale_bonus": 10, "off": [],
-        "lead_min": 1.5, "lead_cor": 0.3, "adaptive": True}
+        "lead_min": 1.5, "lead_cor": 0.3, "adaptive": True,
+        "cup_min_handle": 0, "cup_min_rs": 0, "cup_mkts": [], "gap_min": 0, "gap_max": 100, "gap_max_vol": 1000}
 try:
     _P = {**_DEF, **json.loads(PARAMS.read_text(encoding="utf-8"))}
 except Exception:
@@ -65,6 +66,8 @@ def collect(now):
         P = get_json("archive/x/perf_cup.json")
         for x in P.get("signals", []):
             if x.get("brk") and x.get("brkd"):
+                if (x.get("f_handle") or 0) < _P["cup_min_handle"] or (x.get("f_rs") or 0) < _P["cup_min_rs"] or (_P["cup_mkts"] and x.get("mkt") not in _P["cup_mkts"]):
+                    continue                                   # 엣지 연구 필터 (brain/edge.md)
                 k = f"{x['code']}|{x['brkd']}"
                 if k not in cands:
                     src = "cup_eye" if x["code"] in eye else "cup"
@@ -76,7 +79,7 @@ def collect(now):
         G = get_json("archive/x/perf_gap.json")
         seen = {v["code"] for v in cands.values() if v["src"] == "gap"}
         for x in sorted(G.get("signals", []), key=lambda x: x.get("d0", "")):
-            if x.get("gtype") == "돌파 갭" and not x.get("filled") and x["code"] not in seen:
+            if x.get("gtype") == "돌파 갭" and not x.get("filled") and x["code"] not in seen and _P["gap_min"] <= (x.get("gap") or 0) < _P["gap_max"] and (x.get("vol") or 0) < _P["gap_max_vol"]:
                 seen.add(x["code"])
                 cands[f"{x['code']}|{x['d0']}"] = {"code": x["code"], "name": x.get("name") or x["code"], "mkt": x.get("mkt"), "d": x["d0"],
                                                    "src": "gap", "score": x.get("score") or 0, "lv": x.get("fill_lvl")}

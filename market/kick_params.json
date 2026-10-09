@@ -1,4 +1,33 @@
-{"_doc": "⚡ 킥 슬리브 손잡이 — 주간 엣지 연구가 장부 성적을 근거로 고친다. 고친 이유는 brain/edge.md 에.",
- "sleeve": 0.15, "slots": 5, "stop": -0.05, "take": 0.15, "time_d": 15, "time_min": 0.03, "brake": -0.06, "brake_d": 10, "max_new": 2, "reentry": 10,
- "pri": {"focus": 40, "cup_eye": 25, "lead": 20, "cup": 10, "accum": 10, "whale": 8, "gap": 0},
- "whale_bonus": 10, "off": [], "lead_min": 1.5, "lead_cor": 0.3, "adaptive": true}
+{
+ "_doc": "⚡ 킥 슬리브 손잡이 — 주간 엣지 연구가 장부 성적을 근거로 고친다. 고친 이유는 brain/edge.md 에.",
+ "sleeve": 0.15,
+ "slots": 5,
+ "stop": -0.05,
+ "take": 0.15,
+ "time_d": 15,
+ "time_min": 0.03,
+ "brake": -0.06,
+ "brake_d": 10,
+ "max_new": 2,
+ "reentry": 10,
+ "pri": {
+  "focus": 40,
+  "cup_eye": 25,
+  "lead": 20,
+  "cup": 10,
+  "accum": 10,
+  "whale": 8,
+  "gap": 0
+ },
+ "whale_bonus": 10,
+ "off": [],
+ "lead_min": 1.5,
+ "lead_cor": 0.3,
+ "adaptive": true,
+ "cup_min_handle": 4,
+ "cup_min_rs": 50,
+ "cup_mkts": [],
+ "gap_min": 4,
+ "gap_max": 8,
+ "gap_max_vol": 6
+}
