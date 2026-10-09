@@ -1,6 +1,6 @@
 {
- "last_review": "2026-10-09 20:35",
- "summary": "새 글 10(쓴 것 5). 루멘텀 CEO '광학 부품 2029년까지 완판'(HANAchina/70140·Bloomberg)에 LITE 프리마켓 +4%·COHR +3% — AI 이익 논지 강화. 미 선물 나스닥 +0.74%·10년 5.23·브렌트 ~103(Yahoo). 다음 주 CPI 근원 0.24% 둔화 전망(70137).",
+ "last_review": "2026-10-09 21:40",
+ "summary": "새 글 0(19:52 수집 이후 없음). 미 선물 나스닥 +0.74%·S&P +0.35%, 10년 5.23, 브렌트 ~103, 금 4,201(Yahoo live) — 20:35와 같은 그림. 새 사실: 애플 아이폰 18 Pro 부품 주문 15~20% 축소·AAPL 프리마켓 −1.5%, 스페이스X 주파수 인수로 TMUS·VZ −6%(stocktwits 04:38 ET).",
  "regime": "중립",
  "theses": [
   {
@@ -17,7 +17,7 @@
    "why": "삼성 3Q26P 영업이익 107.4조(컨센 104조 상회, meritz/44784) · TSMC 9월 매출 +54.7% YoY · 대만 9월 수출 872억$ +60.9%(HANAchina/70098, 70100) · 루멘텀 '광학 부품 2029년까지 완판, 수요 부족 70%'(HANAchina/70140, https://www.bloomberg.com/news/articles/2026-10-09/nvidia-backed-lumentum-sees-opto-parts-capacity-sold-out-to-2029) · 중국 AI CapEx 상향(70138)",
    "breaks": "MU −5% + 나스닥 26,500↓ (장부 mu_drop) 또는 TSMC 10/15 실적·가이던스 실망",
    "since": "2026-10-09",
-   "check": "10/8 MU −4.79% 로 조건 근접 — 다음 장 확인"
+   "check": "10/8 MU −4.79% 로 조건 근접 — 10/9 프리마켓 MU·NVDA +1%대 반등(stocktwits) · 미국장 종가 확인"
   },
   {
    "t": "다음 약한 고리는 AI 차입(크레딧) — 빅테크 채권·CDS 스트레스가 커진다",
@@ -45,8 +45,8 @@
   },
   {
    "t": "애플 수요 둔화 — 한국 아이폰 부품주는 10/12 개장 때 뒤늦게 반영된다",
-   "conf": 0.5,
-   "why": "닛케이 '애플 iPhone 18 Pro 주문 축소'(HANAchina/70131, https://money.usnews.com/investing/news/articles/2026-10-09/apple-cuts-iphone-18-pro-orders-due-to-soft-demand-nikkei-asia-reports) · AAPL 프리마켓 하락(https://www.tradingview.com/news/stocktwits:a56351503094b:0-is-iphone-18-pro-demand-slowing-apple-reportedly-cuts-october-component-orders-stock-slips-premarket/) · IDC 3Q PC 출하 −20.1%(HANAchina/70123)",
+   "conf": 0.55,
+   "why": "닛케이 '애플 iPhone 18 Pro 주문 축소'(HANAchina/70131, https://money.usnews.com/investing/news/articles/2026-10-09/apple-cuts-iphone-18-pro-orders-due-to-soft-demand-nikkei-asia-reports) · AAPL 프리마켓 하락(https://www.tradingview.com/news/stocktwits:a56351503094b:0-is-iphone-18-pro-demand-slowing-apple-reportedly-cuts-october-component-orders-stock-slips-premarket/) · IDC 3Q PC 출하 −20.1%(HANAchina/70123) · 축소 폭 15~20%, AAPL 프리마켓 −1.5%(https://stocktwits.com/news-articles/markets/equity/why-are-nasdaq-futures-surging-premarket-spcx-asts-aapl-tmus-vz-nvda-mu-lite-stocks-in-focus/cZD6jb4RBVM)",
    "breaks": "애플 부인·공급망 반박 보도 또는 10/12 LG이노텍 시가 보합 이상",
    "since": "2026-10-09",
    "check": "10/12 09:00 LG이노텍 시가"
