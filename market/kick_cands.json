@@ -1,2237 +1,2237 @@
 {
- "cands": {
-  "9505.T|2026-10-09": {
-   "code": "9505.T",
-   "name": "TSE9505",
-   "mkt": "JP",
-   "d": "2026-10-09",
-   "src": "cup_eye",
-   "score": 77.8,
-   "lv": 1071.07
-  },
-  "3994.T|2026-10-09": {
-   "code": "3994.T",
-   "name": "TSE3994",
-   "mkt": "JP",
-   "d": "2026-10-09",
-   "src": "cup_eye",
-   "score": 52.0,
-   "lv": 6590.58
-  },
-  "4613.T|2026-10-08": {
-   "code": "4613.T",
-   "name": "TSE4613",
-   "mkt": "JP",
-   "d": "2026-10-08",
-   "src": "cup_eye",
-   "score": 52.0,
-   "lv": 2667.16
-  },
-  "4373.T|2026-10-08": {
-   "code": "4373.T",
-   "name": "SIMPLEX HLDGS INC",
-   "mkt": "JP",
-   "d": "2026-10-08",
-   "src": "cup",
-   "score": 49.2,
-   "lv": 1159.16
-  },
-  "4417.T|2026-10-08": {
-   "code": "4417.T",
-   "name": "GLOBAL SECURITY EXPERTS INC",
-   "mkt": "JP",
-   "d": "2026-10-08",
-   "src": "cup_eye",
-   "score": 49.0,
-   "lv": 5935.93
-  },
-  "8074.T|2026-10-07": {
-   "code": "8074.T",
-   "name": "YUASA CO LTD",
-   "mkt": "JP",
-   "d": "2026-10-07",
-   "src": "cup_eye",
-   "score": 78.3,
-   "lv": 6136.13
-  },
-  "000500.KS|2026-10-07": {
-   "code": "000500.KS",
-   "name": "가온전선",
-   "mkt": "KR",
-   "d": "2026-10-07",
-   "src": "cup_eye",
-   "score": 71.5,
-   "lv": 349849.5
-  },
-  "005830.KS|2026-10-07": {
-   "code": "005830.KS",
-   "name": "DB손해보험",
-   "mkt": "KR",
-   "d": "2026-10-07",
-   "src": "cup",
-   "score": 60.6,
-   "lv": 166866.7
-  },
-  "603980.SS|2026-10-08": {
-   "code": "603980.SS",
-   "name": "吉华集团",
-   "mkt": "CN",
-   "d": "2026-10-08",
-   "src": "cup",
-   "score": 56.3,
-   "lv": 8.97
-  },
-  "S|2026-10-07": {
-   "code": "S",
-   "name": "SentinelOne, Inc. Class A Common Stock",
-   "mkt": "US",
-   "d": "2026-10-07",
-   "src": "cup_eye",
-   "score": 55.9,
-   "lv": 24.28
-  },
-  "SIG|2026-10-07": {
-   "code": "SIG",
-   "name": "Signet Jewelers Limited Common Shares",
-   "mkt": "US",
-   "d": "2026-10-07",
-   "src": "cup",
-   "score": 52.7,
-   "lv": 103.59
-  },
-  "2315.HK|2026-10-07": {
-   "code": "2315.HK",
-   "name": "BIOCYTOGEN-B",
-   "mkt": "HK",
-   "d": "2026-10-07",
-   "src": "cup",
-   "score": 44.8,
-   "lv": 75.38
-  },
-  "222800.KQ|2026-10-07": {
-   "code": "222800.KQ",
-   "name": "심텍",
-   "mkt": "KR",
-   "d": "2026-10-07",
-   "src": "cup",
-   "score": 41.7,
-   "lv": 156756.6
-  },
-  "SIBN|2026-10-07": {
-   "code": "SIBN",
-   "name": "SI-BONE, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-07",
-   "src": "cup",
-   "score": 40.6,
-   "lv": 18.15
-  },
-  "EQNR|2026-10-06": {
-   "code": "EQNR",
-   "name": "Equinor ASA",
-   "mkt": "US",
-   "d": "2026-10-06",
-   "src": "cup_eye",
-   "score": 63.5,
-   "lv": 41.67
-  },
-  "064760.KQ|2026-10-06": {
-   "code": "064760.KQ",
-   "name": "티씨케이",
-   "mkt": "KR",
-   "d": "2026-10-06",
-   "src": "cup_eye",
-   "score": 58.1,
-   "lv": 279779.5
-  },
-  "LIND|2026-10-06": {
-   "code": "LIND",
-   "name": "Lindblad Expeditions Holdings Inc.  - ",
-   "mkt": "US",
-   "d": "2026-10-06",
-   "src": "cup_eye",
-   "score": 54.9,
-   "lv": 35.03
-  },
-  "002708.SZ|2026-10-08": {
-   "code": "002708.SZ",
-   "name": "光洋股份",
-   "mkt": "CN",
-   "d": "2026-10-08",
-   "src": "cup_eye",
-   "score": 54.6,
-   "lv": 16.52
-  },
-  "036930.KQ|2026-10-06": {
-   "code": "036930.KQ",
-   "name": "주성엔지니어링",
-   "mkt": "KR",
-   "d": "2026-10-06",
-   "src": "cup_eye",
-   "score": 53.0,
-   "lv": 239739.5
-  },
-  "403870.KQ|2026-10-06": {
-   "code": "403870.KQ",
-   "name": "HPSP",
-   "mkt": "KR",
-   "d": "2026-10-06",
-   "src": "cup_eye",
-   "score": 52.3,
-   "lv": 67867.8
-  },
-  "200470.KQ|2026-10-08": {
-   "code": "200470.KQ",
-   "name": "에이팩트",
-   "mkt": "KR",
-   "d": "2026-10-08",
-   "src": "cup_eye",
-   "score": 49.7,
-   "lv": 10490.48
-  },
-  "NVDA|2026-10-06": {
-   "code": "NVDA",
-   "name": "NVIDIA Corporation - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-06",
-   "src": "cup_eye",
-   "score": 29.1,
-   "lv": 232.51
-  },
-  "4021.T|2026-10-06": {
-   "code": "4021.T",
-   "name": "NISSAN CHEMICAL CORPORATION",
-   "mkt": "JP",
-   "d": "2026-10-06",
-   "src": "cup_eye",
-   "score": 28.7,
-   "lv": 8715.71
-  },
-  "UMC|2026-10-06": {
-   "code": "UMC",
-   "name": "United Microelectronics Corporation (N",
-   "mkt": "US",
-   "d": "2026-10-06",
-   "src": "cup_eye",
-   "score": 22.8,
-   "lv": 22.72
-  },
-  "8237.T|2026-10-06": {
-   "code": "8237.T",
-   "name": "TSE8237",
-   "mkt": "JP",
-   "d": "2026-10-06",
-   "src": "cup",
-   "score": 74.3,
-   "lv": 2252.25
-  },
-  "USFD|2026-10-05": {
-   "code": "USFD",
-   "name": "US Foods Holding Corp. Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 72.4,
-   "lv": 94.89
-  },
-  "RHP|2026-10-05": {
-   "code": "RHP",
-   "name": "Ryman Hospitality Properties, Inc. (RE",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 70.4,
-   "lv": 102.53
-  },
-  "Q|2026-10-05": {
-   "code": "Q",
-   "name": "Qnity Electronics, Inc. Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 70.3,
-   "lv": 132.62
-  },
-  "7513.T|2026-10-05": {
-   "code": "7513.T",
-   "name": "KOJIMA CO LTD",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 69.6,
-   "lv": 1360.36
-  },
-  "UFPT|2026-10-05": {
-   "code": "UFPT",
-   "name": "UFP Technologies, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 69.5,
-   "lv": 275.48
-  },
-  "CVSA|2026-10-05": {
-   "code": "CVSA",
-   "name": "Covista Inc. Common Shares",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 69.2,
-   "lv": 117.62
-  },
-  "7267.T|2026-10-05": {
-   "code": "7267.T",
-   "name": "HONDA MOTOR CO",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 68.7,
-   "lv": 1605.6
-  },
-  "PARR|2026-10-05": {
-   "code": "PARR",
-   "name": "Par Pacific Holdings, Inc.  Common Sto",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 68.3,
-   "lv": 68.84
-  },
-  "7826.T|2026-10-05": {
-   "code": "7826.T",
-   "name": "TSE7826",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 67.7,
-   "lv": 8948.94
-  },
-  "600792.SS|2026-10-08": {
-   "code": "600792.SS",
-   "name": "云煤能源",
-   "mkt": "CN",
-   "d": "2026-10-08",
-   "src": "cup",
-   "score": 67.5,
-   "lv": 4.78
-  },
-  "002493.SZ|2026-10-08": {
-   "code": "002493.SZ",
-   "name": "荣盛石化",
-   "mkt": "CN",
-   "d": "2026-10-08",
-   "src": "cup",
-   "score": 67.1,
-   "lv": 13.86
-  },
-  "TENB|2026-10-06": {
-   "code": "TENB",
-   "name": "Tenable Holdings, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-06",
-   "src": "cup",
-   "score": 66.3,
-   "lv": 39.47
-  },
-  "PENG|2026-10-07": {
-   "code": "PENG",
-   "name": "Penguin Solutions, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-07",
-   "src": "cup",
-   "score": 66.0,
-   "lv": 65.82
-  },
-  "144960.KQ|2026-10-06": {
-   "code": "144960.KQ",
-   "name": "뉴파워프라즈마",
-   "mkt": "KR",
-   "d": "2026-10-06",
-   "src": "cup",
-   "score": 65.6,
-   "lv": 13413.4
-  },
-  "HTFL|2026-10-05": {
-   "code": "HTFL",
-   "name": "Heartflow, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 65.6,
-   "lv": 51.24
-  },
-  "RVTY|2026-10-05": {
-   "code": "RVTY",
-   "name": "Revvity, Inc. Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 49.2,
-   "lv": 106.86
-  },
-  "RDVT|2026-10-05": {
-   "code": "RDVT",
-   "name": "Red Violet, Inc. - Common Stock ",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 65.5,
-   "lv": 59.44
-  },
-  "AUGO|2026-10-05": {
-   "code": "AUGO",
-   "name": "Aura Minerals Inc. - Common Shares",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 65.4,
-   "lv": 79.02
-  },
-  "ATRC|2026-10-05": {
-   "code": "ATRC",
-   "name": "AtriCure, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 64.9,
-   "lv": 43.22
-  },
-  "2359.HK|2026-10-05": {
-   "code": "2359.HK",
-   "name": "WUXI APPTEC",
-   "mkt": "HK",
-   "d": "2026-10-05",
-   "src": "cup_eye",
-   "score": 64.8,
-   "lv": 211.61
-  },
-  "HUM|2026-10-05": {
-   "code": "HUM",
-   "name": "Humana Inc. Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 64.8,
-   "lv": 308.81
-  },
-  "LXFR|2026-10-05": {
-   "code": "LXFR",
-   "name": "Luxfer Holdings PLC Ordinary Shares",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 64.6,
-   "lv": 15.5
-  },
-  "VICR|2026-10-05": {
-   "code": "VICR",
-   "name": "Vicor Corporation - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 63.7,
-   "lv": 285.73
-  },
-  "VEEV|2026-10-05": {
-   "code": "VEEV",
-   "name": "Veeva Systems Inc. Class A Common Stoc",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 63.6,
-   "lv": 253.73
-  },
-  "IQV|2026-10-05": {
-   "code": "IQV",
-   "name": "IQVIA Holdings, Inc. Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 63.5,
-   "lv": 251.61
-  },
-  "QLYS|2026-10-05": {
-   "code": "QLYS",
-   "name": "Qualys, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 63.1,
-   "lv": 164.33
-  },
-  "0939.HK|2026-10-05": {
-   "code": "0939.HK",
-   "name": "CCB",
-   "mkt": "HK",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 63.0,
-   "lv": 7.9
-  },
-  "NTNX|2026-10-05": {
-   "code": "NTNX",
-   "name": "Nutanix, Inc. - Class A Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 62.5,
-   "lv": 68.87
-  },
-  "CNC|2026-10-05": {
-   "code": "CNC",
-   "name": "Centene Corporation Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 62.5,
-   "lv": 54.67
-  },
-  "1258.HK|2026-10-05": {
-   "code": "1258.HK",
-   "name": "CHINFMINING",
-   "mkt": "HK",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 62.4,
-   "lv": 15.11
-  },
-  "CEVA|2026-10-05": {
-   "code": "CEVA",
-   "name": "CEVA, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 62.3,
-   "lv": 36.51
-  },
-  "HPE|2026-10-05": {
-   "code": "HPE",
-   "name": "Hewlett Packard Enterprise Company Com",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 62.0,
-   "lv": 64.31
-  },
-  "FTRE|2026-10-05": {
-   "code": "FTRE",
-   "name": "Fortrea Holdings Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 61.8,
-   "lv": 17.57
-  },
-  "2160.T|2026-10-05": {
-   "code": "2160.T",
-   "name": "TSE2160",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 60.9,
-   "lv": 2922.92
-  },
-  "RGEN|2026-10-05": {
-   "code": "RGEN",
-   "name": "Repligen Corporation - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 60.4,
-   "lv": 168.37
-  },
-  "ANF|2026-10-05": {
-   "code": "ANF",
-   "name": "Abercrombie & Fitch Company Common Sto",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 60.3,
-   "lv": 133.24
-  },
-  "URBN|2026-10-05": {
-   "code": "URBN",
-   "name": "Urban Outfitters, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 60.3,
-   "lv": 63.27
-  },
-  "FORM|2026-10-05": {
-   "code": "FORM",
-   "name": "FormFactor, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 60.1,
-   "lv": 131.61
-  },
-  "601918.SS|2026-10-08": {
-   "code": "601918.SS",
-   "name": "新集能源",
-   "mkt": "CN",
-   "d": "2026-10-08",
-   "src": "cup",
-   "score": 59.7,
-   "lv": 9.12
-  },
-  "9722.T|2026-10-05": {
-   "code": "9722.T",
-   "name": "TSE9722",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 59.5,
-   "lv": 2384.38
-  },
-  "OSCR|2026-10-05": {
-   "code": "OSCR",
-   "name": "Oscar Health, Inc. Class A Common Stoc",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 58.8,
-   "lv": 24.3
-  },
-  "ELV|2026-10-05": {
-   "code": "ELV",
-   "name": "Elevance Health, Inc. Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 58.7,
-   "lv": 377.23
-  },
-  "8035.T|2026-10-05": {
-   "code": "8035.T",
-   "name": "TSE8035",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 58.3,
-   "lv": 12612.6
-  },
-  "PRCH|2026-10-06": {
-   "code": "PRCH",
-   "name": "Porch Group, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-06",
-   "src": "cup_eye",
-   "score": 57.0,
-   "lv": 17.61
-  },
-  "6638.T|2026-10-05": {
-   "code": "6638.T",
-   "name": "TSE6638",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "cup",
-   "score": 50.6,
-   "lv": 1895.89
-  },
-  "SN|2026-10-05": {
-   "code": "SN",
-   "name": "SharkNinja, Inc. Ordinary Shares",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup_eye",
-   "score": 72.7,
-   "lv": 185.18
-  },
-  "3399.T|2026-10-02": {
-   "code": "3399.T",
-   "name": "MARUCHIYO YAMAOKA CORP",
-   "mkt": "JP",
-   "d": "2026-10-02",
-   "src": "cup",
-   "score": 79.3,
-   "lv": 3773.77
-  },
-  "603127.SS|2026-10-08": {
-   "code": "603127.SS",
-   "name": "昭衍新药",
-   "mkt": "CN",
-   "d": "2026-10-08",
-   "src": "cup",
-   "score": 77.1,
-   "lv": 40.42
-  },
-  "002815.SZ|2026-10-08": {
-   "code": "002815.SZ",
-   "name": "崇达技术",
-   "mkt": "CN",
-   "d": "2026-10-08",
-   "src": "cup",
-   "score": 76.9,
-   "lv": 18.89
-  },
-  "RS|2026-10-02": {
-   "code": "RS",
-   "name": "Reliance, Inc. Common Stock",
-   "mkt": "US",
-   "d": "2026-10-02",
-   "src": "cup",
-   "score": 76.7,
-   "lv": 365.36
-  },
-  "HPQ|2026-10-02": {
-   "code": "HPQ",
-   "name": "HP Inc. Common Stock",
-   "mkt": "US",
-   "d": "2026-10-02",
-   "src": "cup",
-   "score": 76.1,
-   "lv": 29.15
-  },
-  "EMBJ|2026-10-02": {
-   "code": "EMBJ",
-   "name": "Embraer S.A. Common Stock",
-   "mkt": "US",
-   "d": "2026-10-02",
-   "src": "cup",
-   "score": 75.3,
-   "lv": 67.63
-  },
-  "ALNT|2026-10-02": {
-   "code": "ALNT",
-   "name": "Allient Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-02",
-   "src": "cup",
-   "score": 75.3,
-   "lv": 91.2
-  },
-  "002246.SZ|2026-10-08": {
-   "code": "002246.SZ",
-   "name": "北化股份",
-   "mkt": "CN",
-   "d": "2026-10-08",
-   "src": "cup",
-   "score": 75.3,
-   "lv": 20.88
-  },
-  "SJM|2026-10-05": {
-   "code": "SJM",
-   "name": "The J.M. Smucker Company Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "cup_eye",
-   "score": 74.8,
-   "lv": 117.42
-  },
-  "PH|2026-10-02": {
-   "code": "PH",
-   "name": "Parker-Hannifin Corporation Common Sto",
-   "mkt": "US",
-   "d": "2026-10-02",
-   "src": "cup",
-   "score": 74.7,
-   "lv": 965.94
-  },
-  "6364.T|2026-10-02": {
-   "code": "6364.T",
-   "name": "TSE6364",
-   "mkt": "JP",
-   "d": "2026-10-02",
-   "src": "cup",
-   "score": 74.0,
-   "lv": 2267.26
-  },
-  "TMP|2026-10-02": {
-   "code": "TMP",
-   "name": "Tompkins Financial Corporation Common ",
-   "mkt": "US",
-   "d": "2026-10-02",
-   "src": "cup",
-   "score": 73.7,
-   "lv": 86.46
-  },
-  "OKTA|2026-10-02": {
-   "code": "OKTA",
-   "name": "Okta, Inc. - Class A Common Stock",
-   "mkt": "US",
-   "d": "2026-10-02",
-   "src": "cup",
-   "score": 72.7,
-   "lv": 153.35
-  },
-  "TECK|2026-10-02": {
-   "code": "TECK",
-   "name": "Teck Resources Ltd Ordinary Shares",
-   "mkt": "US",
-   "d": "2026-10-02",
-   "src": "cup_eye",
-   "score": 71.7,
-   "lv": 67.87
-  },
-  "000810.KS|2026-10-02": {
-   "code": "000810.KS",
-   "name": "삼성화재",
-   "mkt": "KR",
-   "d": "2026-10-02",
-   "src": "cup",
-   "score": 71.6,
-   "lv": 592592.0
-  },
-  "CDNS|2026-10-02": {
-   "code": "CDNS",
-   "name": "Cadence Design Systems, Inc. - Common ",
-   "mkt": "US",
-   "d": "2026-10-02",
-   "src": "cup",
-   "score": 71.5,
-   "lv": 331.14
-  },
-  "9706.T|2026-10-09": {
-   "code": "9706.T",
-   "name": "JAPAN AIRPORT TERMINAL CO",
-   "mkt": "JP",
-   "d": "2026-10-09",
-   "src": "cup",
-   "score": 71.3,
-   "lv": 5530.52
-  },
-  "265740.KQ|2026-10-07": {
-   "code": "265740.KQ",
-   "name": "엔에프씨",
-   "mkt": "KR",
-   "d": "2026-10-07",
-   "src": "cup",
-   "score": 70.9,
-   "lv": 7647.64
-  },
-  "8411.T|2026-10-02": {
-   "code": "8411.T",
-   "name": "TSE8411",
-   "mkt": "JP",
-   "d": "2026-10-02",
-   "src": "cup",
-   "score": 70.7,
-   "lv": 7535.53
-  },
-  "HAFN|2026-10-02": {
-   "code": "HAFN",
-   "name": "Hafnia Limited Common Shares",
-   "mkt": "US",
-   "d": "2026-10-02",
-   "src": "cup",
-   "score": 70.6,
-   "lv": 9.07
-  },
-  "446540.KQ|2026-10-01": {
-   "code": "446540.KQ",
-   "name": "메가터치",
-   "mkt": "KR",
-   "d": "2026-10-01",
-   "src": "cup_eye",
-   "score": 70.9,
-   "lv": 11000.99
-  },
-  "8157.T|2026-09-30": {
-   "code": "8157.T",
-   "name": "TSE8157",
-   "mkt": "JP",
-   "d": "2026-09-30",
-   "src": "cup",
-   "score": 87.1,
-   "lv": 4204.2
-  },
-  "9511.T|2026-09-30": {
-   "code": "9511.T",
-   "name": "TSE9511",
-   "mkt": "JP",
-   "d": "2026-09-30",
-   "src": "cup",
-   "score": 87.0,
-   "lv": 1087.09
-  },
-  "5985.T|2026-10-02": {
-   "code": "5985.T",
-   "name": "SUNCALL CORP",
-   "mkt": "JP",
-   "d": "2026-10-02",
-   "src": "cup_eye",
-   "score": 83.7,
-   "lv": 2579.58
-  },
-  "219130.KQ|2026-09-30": {
-   "code": "219130.KQ",
-   "name": "타이거일렉",
-   "mkt": "KR",
-   "d": "2026-09-30",
-   "src": "cup",
-   "score": 79.0,
-   "lv": 87987.9
-  },
-  "7942.T|2026-09-29": {
-   "code": "7942.T",
-   "name": "TSE7942",
-   "mkt": "JP",
-   "d": "2026-09-29",
-   "src": "cup",
-   "score": 85.0,
-   "lv": 2936.93
-  },
-  "0998.HK|2026-09-29": {
-   "code": "0998.HK",
-   "name": "CITIC BANK",
-   "mkt": "HK",
-   "d": "2026-09-29",
-   "src": "cup",
-   "score": 85.7,
-   "lv": 8.61
-  },
-  "1735.HK|2026-09-29": {
-   "code": "1735.HK",
-   "name": "CENTRAL NEW EGY",
-   "mkt": "HK",
-   "d": "2026-09-29",
-   "src": "cup",
-   "score": 71.0,
-   "lv": 11.38
-  },
-  "3105.T|2026-10-02": {
-   "code": "3105.T",
-   "name": "NISSHINBO HOLDINGS INC",
-   "mkt": "JP",
-   "d": "2026-10-02",
-   "src": "cup",
-   "score": 83.3,
-   "lv": 2696.69
-  },
-  "8154.T|2026-09-28": {
-   "code": "8154.T",
-   "name": "KAGA ELECTRONICS CO",
-   "mkt": "JP",
-   "d": "2026-09-28",
-   "src": "cup",
-   "score": 47.3,
-   "lv": 5195.19
-  },
-  "6277.T|2026-09-28": {
-   "code": "6277.T",
-   "name": "HOSOKAWA MICRON CORP",
-   "mkt": "JP",
-   "d": "2026-09-28",
-   "src": "cup",
-   "score": 84.0,
-   "lv": 6326.32
-  },
-  "603893.SS|2026-09-28": {
-   "code": "603893.SS",
-   "name": "瑞芯微",
-   "mkt": "CN",
-   "d": "2026-09-28",
-   "src": "cup",
-   "score": 85.0,
-   "lv": 214.1
-  },
-  "600641.SS|2026-09-28": {
-   "code": "600641.SS",
-   "name": "先导基电",
-   "mkt": "CN",
-   "d": "2026-09-28",
-   "src": "cup_eye",
-   "score": 69.6,
-   "lv": 51.04
-  },
-  "2962.T|2026-09-25": {
-   "code": "2962.T",
-   "name": "TECNISCO LTD",
-   "mkt": "JP",
-   "d": "2026-09-25",
-   "src": "cup",
-   "score": 74.0,
-   "lv": 2269.27
-  },
-  "GRAL|2026-09-25": {
-   "code": "GRAL",
-   "name": "GRAIL, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-09-25",
-   "src": "cup",
-   "score": 60.3,
-   "lv": 115.88
-  },
-  "603991.SS|2026-09-24": {
-   "code": "603991.SS",
-   "name": "领先股份",
-   "mkt": "CN",
-   "d": "2026-09-24",
-   "src": "cup_eye",
-   "score": 69.6,
-   "lv": 184.09
-  },
-  "P|2026-09-24": {
-   "code": "P",
-   "name": "Everpure, Inc. Class A common stock",
-   "mkt": "US",
-   "d": "2026-09-24",
-   "src": "cup",
-   "score": 86.0,
-   "lv": 113.91
-  },
-  "2451.HK|2026-09-23": {
-   "code": "2451.HK",
-   "name": "LUYUAN GP HLDG",
-   "mkt": "HK",
-   "d": "2026-09-23",
-   "src": "cup",
-   "score": 85.0,
-   "lv": 16.18
-  },
-  "064290.KQ|2026-09-22": {
-   "code": "064290.KQ",
-   "name": "인텍플러스",
-   "mkt": "KR",
-   "d": "2026-09-22",
-   "src": "cup",
-   "score": 61.1,
-   "lv": 50250.2
-  },
-  "META|2026-09-22": {
-   "code": "META",
-   "name": "Meta Platforms, Inc. - Class A Common ",
-   "mkt": "US",
-   "d": "2026-09-22",
-   "src": "cup",
-   "score": 63.6,
-   "lv": 686.0
-  },
-  "000500.KS|2026-09-21": {
-   "code": "000500.KS",
-   "name": "가온전선",
-   "mkt": "KR",
-   "d": "2026-09-21",
-   "src": "cup_eye",
-   "score": 78.3,
-   "lv": 326326.0
-  },
-  "DDS|2026-09-18": {
-   "code": "DDS",
-   "name": "Dillard's, Inc. Common Stock",
-   "mkt": "US",
-   "d": "2026-09-18",
-   "src": "cup",
-   "score": 90.8,
-   "lv": 631.41
-  },
-  "8001.T|2026-09-18": {
-   "code": "8001.T",
-   "name": "ITOCHU CORP",
-   "mkt": "JP",
-   "d": "2026-09-18",
-   "src": "cup",
-   "score": 85.0,
-   "lv": 2288.79
-  },
-  "001216.SZ|2026-09-18": {
-   "code": "001216.SZ",
-   "name": "华瓷股份",
-   "mkt": "CN",
-   "d": "2026-09-18",
-   "src": "cup",
-   "score": 85.0,
-   "lv": 19.02
-  },
-  "001368.SZ|2026-09-18": {
-   "code": "001368.SZ",
-   "name": "通达创智",
-   "mkt": "CN",
-   "d": "2026-09-18",
-   "src": "cup",
-   "score": 80.0,
-   "lv": 31.0
-  },
-  "SMTC|2026-09-18": {
-   "code": "SMTC",
-   "name": "Semtech Corporation - Common Stock",
-   "mkt": "US",
-   "d": "2026-09-18",
-   "src": "cup",
-   "score": 58.9,
-   "lv": 169.17
-  },
-  "8624.T|2026-09-17": {
-   "code": "8624.T",
-   "name": "TSE8624",
-   "mkt": "JP",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 91.0,
-   "lv": 1573.57
-  },
-  "6349.T|2026-09-17": {
-   "code": "6349.T",
-   "name": "TSE6349",
-   "mkt": "JP",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 91.0,
-   "lv": 1819.82
-  },
-  "9889.T|2026-09-17": {
-   "code": "9889.T",
-   "name": "JBCC HOLDINGS INC",
-   "mkt": "JP",
-   "d": "2026-09-17",
-   "src": "cup_eye",
-   "score": 90.0,
-   "lv": 1693.69
-  },
-  "UBSI|2026-09-17": {
-   "code": "UBSI",
-   "name": "United Bankshares, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 90.0,
-   "lv": 45.98
-  },
-  "9621.T|2026-09-17": {
-   "code": "9621.T",
-   "name": "TSE9621",
-   "mkt": "JP",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 90.0,
-   "lv": 3203.2
-  },
-  "2124.T|2026-09-17": {
-   "code": "2124.T",
-   "name": "TSE2124",
-   "mkt": "JP",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 90.0,
-   "lv": 1025.02
-  },
-  "PR|2026-09-17": {
-   "code": "PR",
-   "name": "Permian Resources Corporation Class A ",
-   "mkt": "US",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 90.0,
-   "lv": 22.7
-  },
-  "SLDE|2026-09-17": {
-   "code": "SLDE",
-   "name": "Slide Insurance Holdings, Inc. - Commo",
-   "mkt": "US",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 87.1,
-   "lv": 20.19
-  },
-  "WTS|2026-09-17": {
-   "code": "WTS",
-   "name": "Watts Water Technologies, Inc. Class A",
-   "mkt": "US",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 87.0,
-   "lv": 345.52
-  },
-  "7537.T|2026-09-17": {
-   "code": "7537.T",
-   "name": "TSE7537",
-   "mkt": "JP",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 87.0,
-   "lv": 1667.67
-  },
-  "2212.T|2026-09-17": {
-   "code": "2212.T",
-   "name": "TSE2212",
-   "mkt": "JP",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 86.0,
-   "lv": 3656.65
-  },
-  "1671.T|2026-09-17": {
-   "code": "1671.T",
-   "name": "TSE1671",
-   "mkt": "JP",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 86.0,
-   "lv": 5639.63
-  },
-  "1699.T|2026-09-17": {
-   "code": "1699.T",
-   "name": "TSE1699",
-   "mkt": "JP",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 86.0,
-   "lv": 674.27
-  },
-  "002258.SZ|2026-09-17": {
-   "code": "002258.SZ",
-   "name": "利尔化学",
-   "mkt": "CN",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 85.0,
-   "lv": 15.26
-  },
-  "5975.T|2026-09-17": {
-   "code": "5975.T",
-   "name": "TSE5975",
-   "mkt": "JP",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 85.0,
-   "lv": 3018.02
-  },
-  "002870.SZ|2026-09-17": {
-   "code": "002870.SZ",
-   "name": "香山股份",
-   "mkt": "CN",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 85.0,
-   "lv": 43.51
-  },
-  "3036.T|2026-09-17": {
-   "code": "3036.T",
-   "name": "TSE3036",
-   "mkt": "JP",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 85.0,
-   "lv": 2886.88
-  },
-  "2510.HK|2026-09-17": {
-   "code": "2510.HK",
-   "name": "TS LINES",
-   "mkt": "HK",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 85.0,
-   "lv": 10.87
-  },
-  "8622.T|2026-09-17": {
-   "code": "8622.T",
-   "name": "TSE8622",
-   "mkt": "JP",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 85.0,
-   "lv": 775.77
-  },
-  "2782.T|2026-09-17": {
-   "code": "2782.T",
-   "name": "TSE2782",
-   "mkt": "JP",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 85.0,
-   "lv": 4309.3
-  },
-  "600428.SS|2026-09-17": {
-   "code": "600428.SS",
-   "name": "中远海特",
-   "mkt": "CN",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 85.0,
-   "lv": 10.08
-  },
-  "603132.SS|2026-09-17": {
-   "code": "603132.SS",
-   "name": "金徽股份",
-   "mkt": "CN",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 84.8,
-   "lv": 17.87
-  },
-  "PANW|2026-09-30": {
-   "code": "PANW",
-   "name": "Palo Alto Networks, Inc. - Common Stoc",
-   "mkt": "US",
-   "d": "2026-09-30",
-   "src": "cup_eye",
-   "score": 84.6,
-   "lv": 399.28
-  },
-  "CNQ|2026-09-17": {
-   "code": "CNQ",
-   "name": "Canadian Natural Resources Limited Com",
-   "mkt": "US",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 84.4,
-   "lv": 49.8
-  },
-  "KNSA|2026-09-17": {
-   "code": "KNSA",
-   "name": "Kiniksa Pharmaceuticals International,",
-   "mkt": "US",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 84.0,
-   "lv": 59.93
-  },
-  "600222.SS|2026-09-22": {
-   "code": "600222.SS",
-   "name": "太龙药业",
-   "mkt": "CN",
-   "d": "2026-09-22",
-   "src": "cup",
-   "score": 83.7,
-   "lv": 8.29
-  },
-  "6198.HK|2026-09-17": {
-   "code": "6198.HK",
-   "name": "QINGDAO PORT",
-   "mkt": "HK",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 91.0,
-   "lv": 7.6
-  },
-  "301132.SZ|2026-09-17": {
-   "code": "301132.SZ",
-   "name": "满坤科技",
-   "mkt": "CN",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 78.8,
-   "lv": 58.76
-  },
-  "FEIM|2026-09-17": {
-   "code": "FEIM",
-   "name": "Frequency Electronics, Inc. - Common S",
-   "mkt": "US",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 79.0,
-   "lv": 80.68
-  },
-  "131290.KQ|2026-09-28": {
-   "code": "131290.KQ",
-   "name": "티에스이",
-   "mkt": "KR",
-   "d": "2026-09-28",
-   "src": "cup",
-   "score": 67.9,
-   "lv": 294294.0
-  },
-  "003033.SZ|2026-09-17": {
-   "code": "003033.SZ",
-   "name": "征和工业",
-   "mkt": "CN",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 62.0,
-   "lv": 77.96
-  },
-  "301183.SZ|2026-09-17": {
-   "code": "301183.SZ",
-   "name": "东田微",
-   "mkt": "CN",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 52.4,
-   "lv": 269.15
-  },
-  "4258.T|2026-09-17": {
-   "code": "4258.T",
-   "name": "AMIYA CORP",
-   "mkt": "JP",
-   "d": "2026-09-17",
-   "src": "cup",
-   "score": 58.0,
-   "lv": 5045.04
-  },
-  "6904.T|2026-10-05": {
-   "code": "6904.T",
-   "name": "TSE6904",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 92.8,
-   "lv": 512.0
-  },
-  "6523.T|2026-10-05": {
-   "code": "6523.T",
-   "name": "TSE6523",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 73.8,
-   "lv": 1189.0
-  },
-  "2285.HK|2026-10-05": {
-   "code": "2285.HK",
-   "name": "CHERVON",
-   "mkt": "HK",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 73.6,
-   "lv": 22.5
-  },
-  "488280.KQ|2026-10-05": {
-   "code": "488280.KQ",
-   "name": "에스투더블유",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 71.6,
-   "lv": 11830.0
-  },
-  "6185.HK|2026-10-05": {
-   "code": "6185.HK",
-   "name": "CANSINOBIO",
-   "mkt": "HK",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 70.4,
-   "lv": 26.08
-  },
-  "7613.T|2026-10-05": {
-   "code": "7613.T",
-   "name": "TSE7613",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 70.4,
-   "lv": 1463.0
-  },
-  "6258.T|2026-10-05": {
-   "code": "6258.T",
-   "name": "TSE6258",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 70.2,
-   "lv": 3295.0
-  },
-  "600664.SS|2026-10-05": {
-   "code": "600664.SS",
-   "name": "哈药股份",
-   "mkt": "CN",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 69.6,
-   "lv": 3.42
-  },
-  "1112.HK|2026-10-05": {
-   "code": "1112.HK",
-   "name": "H&H INTL HLDG",
-   "mkt": "HK",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 69.2,
-   "lv": 16.38
-  },
-  "4417.T|2026-10-05": {
-   "code": "4417.T",
-   "name": "GLOBAL SECURITY EXPERTS INC",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 68.4,
-   "lv": 5060.0
-  },
-  "4919.T|2026-10-05": {
-   "code": "4919.T",
-   "name": "MILBON CO LTD",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 67.0,
-   "lv": 2960.0
-  },
-  "6027.T|2026-10-05": {
-   "code": "6027.T",
-   "name": "TSE6027",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 66.6,
-   "lv": 2650.0
-  },
-  "PYPL|2026-10-05": {
-   "code": "PYPL",
-   "name": "PayPal Holdings, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 66.4,
-   "lv": 51.87
-  },
-  "6814.T|2026-10-05": {
-   "code": "6814.T",
-   "name": "TSE6814",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 66.2,
-   "lv": 6980.0
-  },
-  "2371.T|2026-10-05": {
-   "code": "2371.T",
-   "name": "KAKAKU.COM. INC",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 66.0,
-   "lv": 3740.0
-  },
-  "601665.SS|2026-10-05": {
-   "code": "601665.SS",
-   "name": "齐鲁银行",
-   "mkt": "CN",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 66.0,
-   "lv": 6.65
-  },
-  "382900.KQ|2026-10-05": {
-   "code": "382900.KQ",
-   "name": "범한퓨얼셀",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 65.8,
-   "lv": 20550.0
-  },
-  "6508.T|2026-10-05": {
-   "code": "6508.T",
-   "name": "TSE6508",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 65.0,
-   "lv": 9860.0
-  },
-  "7609.T|2026-10-05": {
-   "code": "7609.T",
-   "name": "TSE7609",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 64.8,
-   "lv": 3795.0
-  },
-  "SNPS|2026-10-05": {
-   "code": "SNPS",
-   "name": "Synopsys, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 64.2,
-   "lv": 464.98
-  },
-  "6952.T|2026-10-05": {
-   "code": "6952.T",
-   "name": "TSE6952",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 62.6,
-   "lv": 1998.0
-  },
-  "4704.T|2026-10-05": {
-   "code": "4704.T",
-   "name": "TSE4704",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 61.6,
-   "lv": 6100.0
-  },
-  "010950.KS|2026-10-05": {
-   "code": "010950.KS",
-   "name": "S-Oil",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 61.0,
-   "lv": 116900.0
-  },
-  "SYNA|2026-10-05": {
-   "code": "SYNA",
-   "name": "Synaptics Incorporated - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 60.8,
-   "lv": 113.36
-  },
-  "6337.T|2026-10-05": {
-   "code": "6337.T",
-   "name": "TSE6337",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 60.8,
-   "lv": 2884.0
-  },
-  "011790.KS|2026-10-05": {
-   "code": "011790.KS",
-   "name": "SKC",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 60.4,
-   "lv": 93700.0
-  },
-  "ARM|2026-10-05": {
-   "code": "ARM",
-   "name": "Arm Holdings plc - American Depositary",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 59.6,
-   "lv": 287.15
-  },
-  "019170.KS|2026-10-05": {
-   "code": "019170.KS",
-   "name": "신풍제약",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 59.6,
-   "lv": 9020.0
-  },
-  "6918.T|2026-10-05": {
-   "code": "6918.T",
-   "name": "AVAL DATA CORPORATION",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 59.6,
-   "lv": 3625.0
-  },
-  "ACA|2026-10-05": {
-   "code": "ACA",
-   "name": "Arcosa, Inc. Common Stock ",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 59.6,
-   "lv": 137.76
-  },
-  "2244.T|2026-10-05": {
-   "code": "2244.T",
-   "name": "TSE2244",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 59.2,
-   "lv": 3712.0
-  },
-  "079900.KS|2026-10-05": {
-   "code": "079900.KS",
-   "name": "전진건설로봇",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 59.2,
-   "lv": 36300.0
-  },
-  "328130.KQ|2026-10-05": {
-   "code": "328130.KQ",
-   "name": "루닛",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 58.8,
-   "lv": 10500.0
-  },
-  "OMER|2026-10-05": {
-   "code": "OMER",
-   "name": "Omeros Corporation - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 58.6,
-   "lv": 10.7
-  },
-  "BWIN|2026-10-05": {
-   "code": "BWIN",
-   "name": "The Baldwin Insurance Group, Inc. - Cl",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 58.6,
-   "lv": 21.57
-  },
-  "7733.T|2026-10-05": {
-   "code": "7733.T",
-   "name": "OLYMPUS CORPORATION",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 58.4,
-   "lv": 1920.5
-  },
-  "6869.T|2026-10-05": {
-   "code": "6869.T",
-   "name": "SYSMEX CORP",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 58.2,
-   "lv": 1689.0
-  },
-  "7846.T|2026-10-05": {
-   "code": "7846.T",
-   "name": "PILOT CORP(NEW).PORSCHE INN.",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 58.0,
-   "lv": 1862.5
-  },
-  "394800.KQ|2026-10-05": {
-   "code": "394800.KQ",
-   "name": "쓰리빌리언",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 57.2,
-   "lv": 5530.0
-  },
-  "KB|2026-10-05": {
-   "code": "KB",
-   "name": "KB Financial Group Inc",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 57.0,
-   "lv": 119.71
-  },
-  "9449.T|2026-10-05": {
-   "code": "9449.T",
-   "name": "TSE9449",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 56.8,
-   "lv": 3720.0
-  },
-  "PSNL|2026-10-05": {
-   "code": "PSNL",
-   "name": "Personalis, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 56.6,
-   "lv": 14.81
-  },
-  "2492.T|2026-10-05": {
-   "code": "2492.T",
-   "name": "INFOMART CORPORATION",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 55.8,
-   "lv": 624.0
-  },
-  "020120.KS|2026-10-05": {
-   "code": "020120.KS",
-   "name": "키다리스튜디오",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 55.0,
-   "lv": 4065.0
-  },
-  "128940.KS|2026-10-05": {
-   "code": "128940.KS",
-   "name": "한미약품",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 54.8,
-   "lv": 430000.0
-  },
-  "DFDV|2026-10-05": {
-   "code": "DFDV",
-   "name": "DeFi Development Corp. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 54.8,
-   "lv": 3.44
-  },
-  "LXP|2026-10-05": {
-   "code": "LXP",
-   "name": "LXP Industrial Trust Common Stock (Mar",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 54.4,
-   "lv": 59.0
-  },
-  "PUBM|2026-10-05": {
-   "code": "PUBM",
-   "name": "PubMatic, Inc. - Class A Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 54.2,
-   "lv": 17.88
-  },
-  "000823.SZ|2026-10-05": {
-   "code": "000823.SZ",
-   "name": "超声电子",
-   "mkt": "CN",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 53.8,
-   "lv": 16.04
-  },
-  "079650.KQ|2026-10-05": {
-   "code": "079650.KQ",
-   "name": "서산",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 53.8,
-   "lv": 1272.0
-  },
-  "229640.KS|2026-10-05": {
-   "code": "229640.KS",
-   "name": "LS에코에너지",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 53.6,
-   "lv": 51900.0
-  },
-  "181710.KS|2026-10-05": {
-   "code": "181710.KS",
-   "name": "NHN",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 53.4,
-   "lv": 46050.0
-  },
-  "LILAK|2026-10-05": {
-   "code": "LILAK",
-   "name": "Liberty Latin America Ltd. - Class C C",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 53.4,
-   "lv": 6.09
-  },
-  "ON|2026-10-05": {
-   "code": "ON",
-   "name": "ON Semiconductor Corporation - Common ",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 53.2,
-   "lv": 80.46
-  },
-  "241710.KQ|2026-10-05": {
-   "code": "241710.KQ",
-   "name": "코스메카코리아",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 53.2,
-   "lv": 99700.0
-  },
-  "2343.HK|2026-10-05": {
-   "code": "2343.HK",
-   "name": "PACIFIC BASIN",
-   "mkt": "HK",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 53.2,
-   "lv": 3.4
-  },
-  "002303.SZ|2026-10-05": {
-   "code": "002303.SZ",
-   "name": "美盈森",
-   "mkt": "CN",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 53.2,
-   "lv": 3.92
-  },
-  "2607.T|2026-10-05": {
-   "code": "2607.T",
-   "name": "FUJI OIL CO LTD",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 52.6,
-   "lv": 4212.0
-  },
-  "4483.T|2026-10-05": {
-   "code": "4483.T",
-   "name": "TSE4483",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 52.2,
-   "lv": 3350.0
-  },
-  "1093.HK|2026-10-05": {
-   "code": "1093.HK",
-   "name": "CSPC PHARMA",
-   "mkt": "HK",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 52.0,
-   "lv": 9.22
-  },
-  "8418.T|2026-10-05": {
-   "code": "8418.T",
-   "name": "YAMAGUCHI FINANCIAL GROUP IN",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 51.6,
-   "lv": 3307.0
-  },
-  "2869.T|2026-10-05": {
-   "code": "2869.T",
-   "name": "TSE2869",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 51.0,
-   "lv": 3091.0
-  },
-  "088350.KS|2026-10-05": {
-   "code": "088350.KS",
-   "name": "한화생명",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 51.0,
-   "lv": 4930.0
-  },
-  "001210.KS|2026-10-05": {
-   "code": "001210.KS",
-   "name": "금호전기",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 49.8,
-   "lv": 3320.0
-  },
-  "420770.KQ|2026-10-05": {
-   "code": "420770.KQ",
-   "name": "기가비스",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 49.6,
-   "lv": 114200.0
-  },
-  "6490.T|2026-10-05": {
-   "code": "6490.T",
-   "name": "TSE6490",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 49.4,
-   "lv": 11130.0
-  },
-  "FIRY|2026-10-05": {
-   "code": "FIRY",
-   "name": "Firy Inc. Class A Common Stock",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 49.4,
-   "lv": 10.74
-  },
-  "1699.T|2026-10-05": {
-   "code": "1699.T",
-   "name": "TSE1699",
-   "mkt": "JP",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 49.2,
-   "lv": 682.0
-  },
-  "025980.KQ|2026-10-05": {
-   "code": "025980.KQ",
-   "name": "아난티",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 49.2,
-   "lv": 4070.0
-  },
-  "SENEA|2026-10-05": {
-   "code": "SENEA",
-   "name": "Seneca Foods Corp. - Class A Common St",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 49.2,
-   "lv": 152.98
-  },
-  "TRLV|2026-10-05": {
-   "code": "TRLV",
-   "name": "Trulieve Cannabis Corp. Subordinate Vo",
-   "mkt": "US",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 49.2,
-   "lv": 10.1
-  },
-  "603991.SS|2026-10-05": {
-   "code": "603991.SS",
-   "name": "领先股份",
-   "mkt": "CN",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 48.8,
-   "lv": 130.51
-  },
-  "457370.KQ|2026-10-05": {
-   "code": "457370.KQ",
-   "name": "한켐",
-   "mkt": "KR",
-   "d": "2026-10-05",
-   "src": "gap",
-   "score": 48.8,
-   "lv": 9890.0
-  },
-  "XP|2026-10-06": {
-   "code": "XP",
-   "name": "XP Inc. - Class A Common Stock",
-   "mkt": "US",
-   "d": "2026-10-06",
-   "src": "gap",
-   "score": 73.2,
-   "lv": 21.72
-  },
-  "INTR|2026-10-06": {
-   "code": "INTR",
-   "name": "Inter & Co. Inc. - Class A Common Shar",
-   "mkt": "US",
-   "d": "2026-10-06",
-   "src": "gap",
-   "score": 64.8,
-   "lv": 6.1
-  },
-  "7630.T|2026-10-07": {
-   "code": "7630.T",
-   "name": "ICHIBANYA CO LTD",
-   "mkt": "JP",
-   "d": "2026-10-07",
-   "src": "gap",
-   "score": 68.2,
-   "lv": 972.0
-  },
-  "089010.KQ|2026-10-08": {
-   "code": "089010.KQ",
-   "name": "켐트로닉스",
-   "mkt": "KR",
-   "d": "2026-10-08",
-   "src": "gap",
-   "score": 68.0,
-   "lv": 24300.0
-  },
-  "4849.T|2026-10-08": {
-   "code": "4849.T",
-   "name": "TSE4849",
-   "mkt": "JP",
-   "d": "2026-10-08",
-   "src": "gap",
-   "score": 45.2,
-   "lv": 1344.0
-  },
-  "ZS|2026-10-08": {
-   "code": "ZS",
-   "name": "지스케일러",
-   "mkt": "US",
-   "d": "2026-10-08",
-   "src": "focus",
-   "score": 70,
-   "theme": "사이버보안"
-  },
-  "TGT|2026-10-08": {
-   "code": "TGT",
-   "name": "Target Corporation Common Stock",
-   "mkt": "US",
-   "d": "2026-10-08",
-   "src": "cup",
-   "score": 54.4,
-   "lv": 133.23
-  },
-  "CBRL|2026-10-08": {
-   "code": "CBRL",
-   "name": "Cracker Barrel Old Country Store, Inc.",
-   "mkt": "US",
-   "d": "2026-10-08",
-   "src": "cup_eye",
-   "score": 47.1,
-   "lv": 55.68
-  },
-  "MSFT|2026-10-08": {
-   "code": "MSFT",
-   "name": "Microsoft Corporation - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-08",
-   "src": "cup_eye",
-   "score": 39.3,
-   "lv": 499.94
-  },
-  "DAR|2026-10-08": {
-   "code": "DAR",
-   "name": "Darling Ingredients Inc. Common Stock",
-   "mkt": "US",
-   "d": "2026-10-08",
-   "src": "cup_eye",
-   "score": 38.3,
-   "lv": 61.57
-  },
-  "MEOH|2026-10-08": {
-   "code": "MEOH",
-   "name": "Methanex Corporation - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-08",
-   "src": "cup_eye",
-   "score": 36.2,
-   "lv": 61.43
-  },
-  "FOX|2026-10-08": {
-   "code": "FOX",
-   "name": "Fox Corporation - Class B Common Stock",
-   "mkt": "US",
-   "d": "2026-10-08",
-   "src": "cup",
-   "score": 66.1,
-   "lv": 57.24
-  },
-  "3498.T|2026-10-09": {
-   "code": "3498.T",
-   "name": "TSE3498",
-   "mkt": "JP",
-   "d": "2026-10-09",
-   "src": "cup",
-   "score": 64.4,
-   "lv": 8078.07
-  },
-  "EXPE|2026-10-08": {
-   "code": "EXPE",
-   "name": "Expedia Group, Inc. - Common Stock",
-   "mkt": "US",
-   "d": "2026-10-08",
-   "src": "cup",
-   "score": 72.2,
-   "lv": 270.78
-  },
-  "HGTY|2026-10-06": {
-   "code": "HGTY",
-   "name": "Hagerty, Inc. Class A Common Stock",
-   "mkt": "US",
-   "d": "2026-10-06",
-   "src": "accum",
-   "score": 91.0,
-   "lv": 14.17
-  },
-  "002349.SZ|2026-10-03": {
-   "code": "002349.SZ",
-   "name": "精华制药",
-   "mkt": "CN",
-   "d": "2026-10-03",
-   "src": "accum",
-   "score": 73.0,
-   "lv": 9.26
-  },
-  "ALAB|2026-10-09|whale": {
-   "code": "ALAB",
-   "name": "ALAB",
-   "mkt": "US",
-   "d": "2026-10-09",
-   "src": "whale",
-   "score": 40
-  },
-  "VST|2026-10-09|whale": {
-   "code": "VST",
-   "name": "VST",
-   "mkt": "US",
-   "d": "2026-10-09",
-   "src": "whale",
-   "score": 40
-  },
-  "META|2026-10-09|whale": {
-   "code": "META",
-   "name": "META",
-   "mkt": "US",
-   "d": "2026-10-09",
-   "src": "whale",
-   "score": 40
-  },
-  "CDW|2026-10-09|whale": {
-   "code": "CDW",
-   "name": "CDW",
-   "mkt": "US",
-   "d": "2026-10-09",
-   "src": "whale",
-   "score": 40
-  },
-  "CSX|2026-10-09|whale": {
-   "code": "CSX",
-   "name": "CSX",
-   "mkt": "US",
-   "d": "2026-10-09",
-   "src": "whale",
-   "score": 40
-  },
-  "GOOGL|2026-10-09|whale": {
-   "code": "GOOGL",
-   "name": "GOOGL",
-   "mkt": "US",
-   "d": "2026-10-09",
-   "src": "whale",
-   "score": 40
-  },
-  "ZS|2026-10-09|brain": {
-   "code": "ZS",
-   "name": "Zscaler",
-   "mkt": "US",
-   "d": "2026-10-09",
-   "src": "focus",
-   "score": 60,
-   "note": "🧠 선제: 사이버보안 주도 테마 + 컵 기준가 217.19 직전(−0.17%) — 돌파 확인 시"
-  }
- },
- "sent": [
-  "2026-10-08|사기|ZS",
-  "2026-10-08|팔기|TECK"
- ],
- "whale": [
-  "ALAB",
-  "CDW",
-  "CPNG",
-  "CSX",
-  "DKS",
-  "GOOGL",
-  "INSM",
-  "META",
-  "MPC",
-  "MRVL",
-  "MU",
-  "NAMS",
-  "ORCL",
-  "RVMD",
-  "SNDK",
-  "SNOW",
-  "STM",
-  "VST",
-  "ZYME"
- ]
+"cands": {
+"9505.T|2026-10-09": {
+"code": "9505.T",
+"name": "TSE9505",
+"mkt": "JP",
+"d": "2026-10-09",
+"src": "cup_eye",
+"score": 77.8,
+"lv": 1071.07
+},
+"3994.T|2026-10-09": {
+"code": "3994.T",
+"name": "TSE3994",
+"mkt": "JP",
+"d": "2026-10-09",
+"src": "cup_eye",
+"score": 52.0,
+"lv": 6590.58
+},
+"4613.T|2026-10-08": {
+"code": "4613.T",
+"name": "TSE4613",
+"mkt": "JP",
+"d": "2026-10-08",
+"src": "cup_eye",
+"score": 52.0,
+"lv": 2667.16
+},
+"4373.T|2026-10-08": {
+"code": "4373.T",
+"name": "SIMPLEX HLDGS INC",
+"mkt": "JP",
+"d": "2026-10-08",
+"src": "cup",
+"score": 49.2,
+"lv": 1159.16
+},
+"4417.T|2026-10-08": {
+"code": "4417.T",
+"name": "GLOBAL SECURITY EXPERTS INC",
+"mkt": "JP",
+"d": "2026-10-08",
+"src": "cup_eye",
+"score": 49.0,
+"lv": 5935.93
+},
+"8074.T|2026-10-07": {
+"code": "8074.T",
+"name": "YUASA CO LTD",
+"mkt": "JP",
+"d": "2026-10-07",
+"src": "cup_eye",
+"score": 78.3,
+"lv": 6136.13
+},
+"000500.KS|2026-10-07": {
+"code": "000500.KS",
+"name": "가온전선",
+"mkt": "KR",
+"d": "2026-10-07",
+"src": "cup_eye",
+"score": 71.5,
+"lv": 349849.5
+},
+"005830.KS|2026-10-07": {
+"code": "005830.KS",
+"name": "DB손해보험",
+"mkt": "KR",
+"d": "2026-10-07",
+"src": "cup",
+"score": 60.6,
+"lv": 166866.7
+},
+"603980.SS|2026-10-08": {
+"code": "603980.SS",
+"name": "吉华集团",
+"mkt": "CN",
+"d": "2026-10-08",
+"src": "cup",
+"score": 56.3,
+"lv": 8.97
+},
+"S|2026-10-07": {
+"code": "S",
+"name": "SentinelOne, Inc. Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "cup_eye",
+"score": 55.9,
+"lv": 24.28
+},
+"SIG|2026-10-07": {
+"code": "SIG",
+"name": "Signet Jewelers Limited Common Shares",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "cup",
+"score": 52.7,
+"lv": 103.59
+},
+"2315.HK|2026-10-07": {
+"code": "2315.HK",
+"name": "BIOCYTOGEN-B",
+"mkt": "HK",
+"d": "2026-10-07",
+"src": "cup",
+"score": 44.8,
+"lv": 75.38
+},
+"222800.KQ|2026-10-07": {
+"code": "222800.KQ",
+"name": "심텍",
+"mkt": "KR",
+"d": "2026-10-07",
+"src": "cup",
+"score": 41.7,
+"lv": 156756.6
+},
+"SIBN|2026-10-07": {
+"code": "SIBN",
+"name": "SI-BONE, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "cup",
+"score": 40.6,
+"lv": 18.15
+},
+"EQNR|2026-10-06": {
+"code": "EQNR",
+"name": "Equinor ASA",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "cup_eye",
+"score": 63.5,
+"lv": 41.67
+},
+"064760.KQ|2026-10-06": {
+"code": "064760.KQ",
+"name": "티씨케이",
+"mkt": "KR",
+"d": "2026-10-06",
+"src": "cup_eye",
+"score": 58.1,
+"lv": 279779.5
+},
+"LIND|2026-10-06": {
+"code": "LIND",
+"name": "Lindblad Expeditions Holdings Inc.  - ",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "cup_eye",
+"score": 54.9,
+"lv": 35.03
+},
+"002708.SZ|2026-10-08": {
+"code": "002708.SZ",
+"name": "光洋股份",
+"mkt": "CN",
+"d": "2026-10-08",
+"src": "cup_eye",
+"score": 54.6,
+"lv": 16.52
+},
+"036930.KQ|2026-10-06": {
+"code": "036930.KQ",
+"name": "주성엔지니어링",
+"mkt": "KR",
+"d": "2026-10-06",
+"src": "cup_eye",
+"score": 53.0,
+"lv": 239739.5
+},
+"403870.KQ|2026-10-06": {
+"code": "403870.KQ",
+"name": "HPSP",
+"mkt": "KR",
+"d": "2026-10-06",
+"src": "cup_eye",
+"score": 52.3,
+"lv": 67867.8
+},
+"200470.KQ|2026-10-08": {
+"code": "200470.KQ",
+"name": "에이팩트",
+"mkt": "KR",
+"d": "2026-10-08",
+"src": "cup_eye",
+"score": 49.7,
+"lv": 10490.48
+},
+"NVDA|2026-10-06": {
+"code": "NVDA",
+"name": "NVIDIA Corporation - Common Stock",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "cup_eye",
+"score": 29.1,
+"lv": 232.51
+},
+"4021.T|2026-10-06": {
+"code": "4021.T",
+"name": "NISSAN CHEMICAL CORPORATION",
+"mkt": "JP",
+"d": "2026-10-06",
+"src": "cup_eye",
+"score": 28.7,
+"lv": 8715.71
+},
+"UMC|2026-10-06": {
+"code": "UMC",
+"name": "United Microelectronics Corporation (N",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "cup_eye",
+"score": 22.8,
+"lv": 22.72
+},
+"8237.T|2026-10-06": {
+"code": "8237.T",
+"name": "TSE8237",
+"mkt": "JP",
+"d": "2026-10-06",
+"src": "cup",
+"score": 74.3,
+"lv": 2252.25
+},
+"USFD|2026-10-05": {
+"code": "USFD",
+"name": "US Foods Holding Corp. Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 72.4,
+"lv": 94.89
+},
+"RHP|2026-10-05": {
+"code": "RHP",
+"name": "Ryman Hospitality Properties, Inc. (RE",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 70.4,
+"lv": 102.53
+},
+"Q|2026-10-05": {
+"code": "Q",
+"name": "Qnity Electronics, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 70.3,
+"lv": 132.62
+},
+"7513.T|2026-10-05": {
+"code": "7513.T",
+"name": "KOJIMA CO LTD",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "cup",
+"score": 69.6,
+"lv": 1360.36
+},
+"UFPT|2026-10-05": {
+"code": "UFPT",
+"name": "UFP Technologies, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 69.5,
+"lv": 275.48
+},
+"CVSA|2026-10-05": {
+"code": "CVSA",
+"name": "Covista Inc. Common Shares",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 69.2,
+"lv": 117.62
+},
+"7267.T|2026-10-05": {
+"code": "7267.T",
+"name": "HONDA MOTOR CO",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "cup",
+"score": 68.7,
+"lv": 1605.6
+},
+"PARR|2026-10-05": {
+"code": "PARR",
+"name": "Par Pacific Holdings, Inc.  Common Sto",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 68.3,
+"lv": 68.84
+},
+"7826.T|2026-10-05": {
+"code": "7826.T",
+"name": "TSE7826",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "cup",
+"score": 67.7,
+"lv": 8948.94
+},
+"600792.SS|2026-10-08": {
+"code": "600792.SS",
+"name": "云煤能源",
+"mkt": "CN",
+"d": "2026-10-08",
+"src": "cup",
+"score": 67.5,
+"lv": 4.78
+},
+"002493.SZ|2026-10-08": {
+"code": "002493.SZ",
+"name": "荣盛石化",
+"mkt": "CN",
+"d": "2026-10-08",
+"src": "cup",
+"score": 67.1,
+"lv": 13.86
+},
+"TENB|2026-10-06": {
+"code": "TENB",
+"name": "Tenable Holdings, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "cup",
+"score": 66.3,
+"lv": 39.47
+},
+"PENG|2026-10-07": {
+"code": "PENG",
+"name": "Penguin Solutions, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "cup",
+"score": 66.0,
+"lv": 65.82
+},
+"144960.KQ|2026-10-06": {
+"code": "144960.KQ",
+"name": "뉴파워프라즈마",
+"mkt": "KR",
+"d": "2026-10-06",
+"src": "cup",
+"score": 65.6,
+"lv": 13413.4
+},
+"HTFL|2026-10-05": {
+"code": "HTFL",
+"name": "Heartflow, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 65.6,
+"lv": 51.24
+},
+"RVTY|2026-10-05": {
+"code": "RVTY",
+"name": "Revvity, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 49.2,
+"lv": 106.86
+},
+"RDVT|2026-10-05": {
+"code": "RDVT",
+"name": "Red Violet, Inc. - Common Stock ",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 65.5,
+"lv": 59.44
+},
+"AUGO|2026-10-05": {
+"code": "AUGO",
+"name": "Aura Minerals Inc. - Common Shares",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 65.4,
+"lv": 79.02
+},
+"ATRC|2026-10-05": {
+"code": "ATRC",
+"name": "AtriCure, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 64.9,
+"lv": 43.22
+},
+"2359.HK|2026-10-05": {
+"code": "2359.HK",
+"name": "WUXI APPTEC",
+"mkt": "HK",
+"d": "2026-10-05",
+"src": "cup_eye",
+"score": 64.8,
+"lv": 211.61
+},
+"HUM|2026-10-05": {
+"code": "HUM",
+"name": "Humana Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 64.8,
+"lv": 308.81
+},
+"LXFR|2026-10-05": {
+"code": "LXFR",
+"name": "Luxfer Holdings PLC Ordinary Shares",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 64.6,
+"lv": 15.5
+},
+"VICR|2026-10-05": {
+"code": "VICR",
+"name": "Vicor Corporation - Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 63.7,
+"lv": 285.73
+},
+"VEEV|2026-10-05": {
+"code": "VEEV",
+"name": "Veeva Systems Inc. Class A Common Stoc",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 63.6,
+"lv": 253.73
+},
+"IQV|2026-10-05": {
+"code": "IQV",
+"name": "IQVIA Holdings, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 63.5,
+"lv": 251.61
+},
+"QLYS|2026-10-05": {
+"code": "QLYS",
+"name": "Qualys, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 63.1,
+"lv": 164.33
+},
+"0939.HK|2026-10-05": {
+"code": "0939.HK",
+"name": "CCB",
+"mkt": "HK",
+"d": "2026-10-05",
+"src": "cup",
+"score": 63.0,
+"lv": 7.9
+},
+"NTNX|2026-10-05": {
+"code": "NTNX",
+"name": "Nutanix, Inc. - Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 62.5,
+"lv": 68.87
+},
+"CNC|2026-10-05": {
+"code": "CNC",
+"name": "Centene Corporation Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 62.5,
+"lv": 54.67
+},
+"1258.HK|2026-10-05": {
+"code": "1258.HK",
+"name": "CHINFMINING",
+"mkt": "HK",
+"d": "2026-10-05",
+"src": "cup",
+"score": 62.4,
+"lv": 15.11
+},
+"CEVA|2026-10-05": {
+"code": "CEVA",
+"name": "CEVA, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 62.3,
+"lv": 36.51
+},
+"HPE|2026-10-05": {
+"code": "HPE",
+"name": "Hewlett Packard Enterprise Company Com",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 62.0,
+"lv": 64.31
+},
+"FTRE|2026-10-05": {
+"code": "FTRE",
+"name": "Fortrea Holdings Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 61.8,
+"lv": 17.57
+},
+"2160.T|2026-10-05": {
+"code": "2160.T",
+"name": "TSE2160",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "cup",
+"score": 60.9,
+"lv": 2922.92
+},
+"RGEN|2026-10-05": {
+"code": "RGEN",
+"name": "Repligen Corporation - Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 60.4,
+"lv": 168.37
+},
+"ANF|2026-10-05": {
+"code": "ANF",
+"name": "Abercrombie & Fitch Company Common Sto",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 60.3,
+"lv": 133.24
+},
+"URBN|2026-10-05": {
+"code": "URBN",
+"name": "Urban Outfitters, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 60.3,
+"lv": 63.27
+},
+"FORM|2026-10-05": {
+"code": "FORM",
+"name": "FormFactor, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 60.1,
+"lv": 131.61
+},
+"601918.SS|2026-10-08": {
+"code": "601918.SS",
+"name": "新集能源",
+"mkt": "CN",
+"d": "2026-10-08",
+"src": "cup",
+"score": 59.7,
+"lv": 9.12
+},
+"9722.T|2026-10-05": {
+"code": "9722.T",
+"name": "TSE9722",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "cup",
+"score": 59.5,
+"lv": 2384.38
+},
+"OSCR|2026-10-05": {
+"code": "OSCR",
+"name": "Oscar Health, Inc. Class A Common Stoc",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 58.8,
+"lv": 24.3
+},
+"ELV|2026-10-05": {
+"code": "ELV",
+"name": "Elevance Health, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup",
+"score": 58.7,
+"lv": 377.23
+},
+"8035.T|2026-10-05": {
+"code": "8035.T",
+"name": "TSE8035",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "cup",
+"score": 58.3,
+"lv": 12612.6
+},
+"PRCH|2026-10-06": {
+"code": "PRCH",
+"name": "Porch Group, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "cup_eye",
+"score": 57.0,
+"lv": 17.61
+},
+"6638.T|2026-10-05": {
+"code": "6638.T",
+"name": "TSE6638",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "cup",
+"score": 50.6,
+"lv": 1895.89
+},
+"SN|2026-10-05": {
+"code": "SN",
+"name": "SharkNinja, Inc. Ordinary Shares",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup_eye",
+"score": 72.7,
+"lv": 185.18
+},
+"3399.T|2026-10-02": {
+"code": "3399.T",
+"name": "MARUCHIYO YAMAOKA CORP",
+"mkt": "JP",
+"d": "2026-10-02",
+"src": "cup",
+"score": 79.3,
+"lv": 3773.77
+},
+"603127.SS|2026-10-08": {
+"code": "603127.SS",
+"name": "昭衍新药",
+"mkt": "CN",
+"d": "2026-10-08",
+"src": "cup",
+"score": 77.1,
+"lv": 40.42
+},
+"002815.SZ|2026-10-08": {
+"code": "002815.SZ",
+"name": "崇达技术",
+"mkt": "CN",
+"d": "2026-10-08",
+"src": "cup",
+"score": 76.9,
+"lv": 18.89
+},
+"RS|2026-10-02": {
+"code": "RS",
+"name": "Reliance, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-02",
+"src": "cup",
+"score": 76.7,
+"lv": 365.36
+},
+"HPQ|2026-10-02": {
+"code": "HPQ",
+"name": "HP Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-02",
+"src": "cup",
+"score": 76.1,
+"lv": 29.15
+},
+"EMBJ|2026-10-02": {
+"code": "EMBJ",
+"name": "Embraer S.A. Common Stock",
+"mkt": "US",
+"d": "2026-10-02",
+"src": "cup",
+"score": 75.3,
+"lv": 67.63
+},
+"ALNT|2026-10-02": {
+"code": "ALNT",
+"name": "Allient Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-02",
+"src": "cup",
+"score": 75.3,
+"lv": 91.2
+},
+"002246.SZ|2026-10-08": {
+"code": "002246.SZ",
+"name": "北化股份",
+"mkt": "CN",
+"d": "2026-10-08",
+"src": "cup",
+"score": 75.3,
+"lv": 20.88
+},
+"SJM|2026-10-05": {
+"code": "SJM",
+"name": "The J.M. Smucker Company Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "cup_eye",
+"score": 74.8,
+"lv": 117.42
+},
+"PH|2026-10-02": {
+"code": "PH",
+"name": "Parker-Hannifin Corporation Common Sto",
+"mkt": "US",
+"d": "2026-10-02",
+"src": "cup",
+"score": 74.7,
+"lv": 965.94
+},
+"6364.T|2026-10-02": {
+"code": "6364.T",
+"name": "TSE6364",
+"mkt": "JP",
+"d": "2026-10-02",
+"src": "cup",
+"score": 74.0,
+"lv": 2267.26
+},
+"TMP|2026-10-02": {
+"code": "TMP",
+"name": "Tompkins Financial Corporation Common ",
+"mkt": "US",
+"d": "2026-10-02",
+"src": "cup",
+"score": 73.7,
+"lv": 86.46
+},
+"OKTA|2026-10-02": {
+"code": "OKTA",
+"name": "Okta, Inc. - Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-02",
+"src": "cup",
+"score": 72.7,
+"lv": 153.35
+},
+"TECK|2026-10-02": {
+"code": "TECK",
+"name": "Teck Resources Ltd Ordinary Shares",
+"mkt": "US",
+"d": "2026-10-02",
+"src": "cup_eye",
+"score": 71.7,
+"lv": 67.87
+},
+"000810.KS|2026-10-02": {
+"code": "000810.KS",
+"name": "삼성화재",
+"mkt": "KR",
+"d": "2026-10-02",
+"src": "cup",
+"score": 71.6,
+"lv": 592592.0
+},
+"CDNS|2026-10-02": {
+"code": "CDNS",
+"name": "Cadence Design Systems, Inc. - Common ",
+"mkt": "US",
+"d": "2026-10-02",
+"src": "cup",
+"score": 71.5,
+"lv": 331.14
+},
+"9706.T|2026-10-09": {
+"code": "9706.T",
+"name": "JAPAN AIRPORT TERMINAL CO",
+"mkt": "JP",
+"d": "2026-10-09",
+"src": "cup",
+"score": 71.3,
+"lv": 5530.52
+},
+"265740.KQ|2026-10-07": {
+"code": "265740.KQ",
+"name": "엔에프씨",
+"mkt": "KR",
+"d": "2026-10-07",
+"src": "cup",
+"score": 70.9,
+"lv": 7647.64
+},
+"8411.T|2026-10-02": {
+"code": "8411.T",
+"name": "TSE8411",
+"mkt": "JP",
+"d": "2026-10-02",
+"src": "cup",
+"score": 70.7,
+"lv": 7535.53
+},
+"HAFN|2026-10-02": {
+"code": "HAFN",
+"name": "Hafnia Limited Common Shares",
+"mkt": "US",
+"d": "2026-10-02",
+"src": "cup",
+"score": 70.6,
+"lv": 9.07
+},
+"446540.KQ|2026-10-01": {
+"code": "446540.KQ",
+"name": "메가터치",
+"mkt": "KR",
+"d": "2026-10-01",
+"src": "cup_eye",
+"score": 70.9,
+"lv": 11000.99
+},
+"8157.T|2026-09-30": {
+"code": "8157.T",
+"name": "TSE8157",
+"mkt": "JP",
+"d": "2026-09-30",
+"src": "cup",
+"score": 87.1,
+"lv": 4204.2
+},
+"9511.T|2026-09-30": {
+"code": "9511.T",
+"name": "TSE9511",
+"mkt": "JP",
+"d": "2026-09-30",
+"src": "cup",
+"score": 87.0,
+"lv": 1087.09
+},
+"5985.T|2026-10-02": {
+"code": "5985.T",
+"name": "SUNCALL CORP",
+"mkt": "JP",
+"d": "2026-10-02",
+"src": "cup_eye",
+"score": 83.7,
+"lv": 2579.58
+},
+"219130.KQ|2026-09-30": {
+"code": "219130.KQ",
+"name": "타이거일렉",
+"mkt": "KR",
+"d": "2026-09-30",
+"src": "cup",
+"score": 79.0,
+"lv": 87987.9
+},
+"7942.T|2026-09-29": {
+"code": "7942.T",
+"name": "TSE7942",
+"mkt": "JP",
+"d": "2026-09-29",
+"src": "cup",
+"score": 85.0,
+"lv": 2936.93
+},
+"0998.HK|2026-09-29": {
+"code": "0998.HK",
+"name": "CITIC BANK",
+"mkt": "HK",
+"d": "2026-09-29",
+"src": "cup",
+"score": 85.7,
+"lv": 8.61
+},
+"1735.HK|2026-09-29": {
+"code": "1735.HK",
+"name": "CENTRAL NEW EGY",
+"mkt": "HK",
+"d": "2026-09-29",
+"src": "cup",
+"score": 71.0,
+"lv": 11.38
+},
+"3105.T|2026-10-02": {
+"code": "3105.T",
+"name": "NISSHINBO HOLDINGS INC",
+"mkt": "JP",
+"d": "2026-10-02",
+"src": "cup",
+"score": 83.3,
+"lv": 2696.69
+},
+"8154.T|2026-09-28": {
+"code": "8154.T",
+"name": "KAGA ELECTRONICS CO",
+"mkt": "JP",
+"d": "2026-09-28",
+"src": "cup",
+"score": 47.3,
+"lv": 5195.19
+},
+"6277.T|2026-09-28": {
+"code": "6277.T",
+"name": "HOSOKAWA MICRON CORP",
+"mkt": "JP",
+"d": "2026-09-28",
+"src": "cup",
+"score": 84.0,
+"lv": 6326.32
+},
+"603893.SS|2026-09-28": {
+"code": "603893.SS",
+"name": "瑞芯微",
+"mkt": "CN",
+"d": "2026-09-28",
+"src": "cup",
+"score": 85.0,
+"lv": 214.1
+},
+"600641.SS|2026-09-28": {
+"code": "600641.SS",
+"name": "先导基电",
+"mkt": "CN",
+"d": "2026-09-28",
+"src": "cup_eye",
+"score": 69.6,
+"lv": 51.04
+},
+"2962.T|2026-09-25": {
+"code": "2962.T",
+"name": "TECNISCO LTD",
+"mkt": "JP",
+"d": "2026-09-25",
+"src": "cup",
+"score": 74.0,
+"lv": 2269.27
+},
+"GRAL|2026-09-25": {
+"code": "GRAL",
+"name": "GRAIL, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-09-25",
+"src": "cup",
+"score": 60.3,
+"lv": 115.88
+},
+"603991.SS|2026-09-24": {
+"code": "603991.SS",
+"name": "领先股份",
+"mkt": "CN",
+"d": "2026-09-24",
+"src": "cup_eye",
+"score": 69.6,
+"lv": 184.09
+},
+"P|2026-09-24": {
+"code": "P",
+"name": "Everpure, Inc. Class A common stock",
+"mkt": "US",
+"d": "2026-09-24",
+"src": "cup",
+"score": 86.0,
+"lv": 113.91
+},
+"2451.HK|2026-09-23": {
+"code": "2451.HK",
+"name": "LUYUAN GP HLDG",
+"mkt": "HK",
+"d": "2026-09-23",
+"src": "cup",
+"score": 85.0,
+"lv": 16.18
+},
+"064290.KQ|2026-09-22": {
+"code": "064290.KQ",
+"name": "인텍플러스",
+"mkt": "KR",
+"d": "2026-09-22",
+"src": "cup",
+"score": 61.1,
+"lv": 50250.2
+},
+"META|2026-09-22": {
+"code": "META",
+"name": "Meta Platforms, Inc. - Class A Common ",
+"mkt": "US",
+"d": "2026-09-22",
+"src": "cup",
+"score": 63.6,
+"lv": 686.0
+},
+"000500.KS|2026-09-21": {
+"code": "000500.KS",
+"name": "가온전선",
+"mkt": "KR",
+"d": "2026-09-21",
+"src": "cup_eye",
+"score": 78.3,
+"lv": 326326.0
+},
+"DDS|2026-09-18": {
+"code": "DDS",
+"name": "Dillard's, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-09-18",
+"src": "cup",
+"score": 90.8,
+"lv": 631.41
+},
+"8001.T|2026-09-18": {
+"code": "8001.T",
+"name": "ITOCHU CORP",
+"mkt": "JP",
+"d": "2026-09-18",
+"src": "cup",
+"score": 85.0,
+"lv": 2288.79
+},
+"001216.SZ|2026-09-18": {
+"code": "001216.SZ",
+"name": "华瓷股份",
+"mkt": "CN",
+"d": "2026-09-18",
+"src": "cup",
+"score": 85.0,
+"lv": 19.02
+},
+"001368.SZ|2026-09-18": {
+"code": "001368.SZ",
+"name": "通达创智",
+"mkt": "CN",
+"d": "2026-09-18",
+"src": "cup",
+"score": 80.0,
+"lv": 31.0
+},
+"SMTC|2026-09-18": {
+"code": "SMTC",
+"name": "Semtech Corporation - Common Stock",
+"mkt": "US",
+"d": "2026-09-18",
+"src": "cup",
+"score": 58.9,
+"lv": 169.17
+},
+"8624.T|2026-09-17": {
+"code": "8624.T",
+"name": "TSE8624",
+"mkt": "JP",
+"d": "2026-09-17",
+"src": "cup",
+"score": 91.0,
+"lv": 1573.57
+},
+"6349.T|2026-09-17": {
+"code": "6349.T",
+"name": "TSE6349",
+"mkt": "JP",
+"d": "2026-09-17",
+"src": "cup",
+"score": 91.0,
+"lv": 1819.82
+},
+"9889.T|2026-09-17": {
+"code": "9889.T",
+"name": "JBCC HOLDINGS INC",
+"mkt": "JP",
+"d": "2026-09-17",
+"src": "cup_eye",
+"score": 90.0,
+"lv": 1693.69
+},
+"UBSI|2026-09-17": {
+"code": "UBSI",
+"name": "United Bankshares, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-09-17",
+"src": "cup",
+"score": 90.0,
+"lv": 45.98
+},
+"9621.T|2026-09-17": {
+"code": "9621.T",
+"name": "TSE9621",
+"mkt": "JP",
+"d": "2026-09-17",
+"src": "cup",
+"score": 90.0,
+"lv": 3203.2
+},
+"2124.T|2026-09-17": {
+"code": "2124.T",
+"name": "TSE2124",
+"mkt": "JP",
+"d": "2026-09-17",
+"src": "cup",
+"score": 90.0,
+"lv": 1025.02
+},
+"PR|2026-09-17": {
+"code": "PR",
+"name": "Permian Resources Corporation Class A ",
+"mkt": "US",
+"d": "2026-09-17",
+"src": "cup",
+"score": 90.0,
+"lv": 22.7
+},
+"SLDE|2026-09-17": {
+"code": "SLDE",
+"name": "Slide Insurance Holdings, Inc. - Commo",
+"mkt": "US",
+"d": "2026-09-17",
+"src": "cup",
+"score": 87.1,
+"lv": 20.19
+},
+"WTS|2026-09-17": {
+"code": "WTS",
+"name": "Watts Water Technologies, Inc. Class A",
+"mkt": "US",
+"d": "2026-09-17",
+"src": "cup",
+"score": 87.0,
+"lv": 345.52
+},
+"7537.T|2026-09-17": {
+"code": "7537.T",
+"name": "TSE7537",
+"mkt": "JP",
+"d": "2026-09-17",
+"src": "cup",
+"score": 87.0,
+"lv": 1667.67
+},
+"2212.T|2026-09-17": {
+"code": "2212.T",
+"name": "TSE2212",
+"mkt": "JP",
+"d": "2026-09-17",
+"src": "cup",
+"score": 86.0,
+"lv": 3656.65
+},
+"1671.T|2026-09-17": {
+"code": "1671.T",
+"name": "TSE1671",
+"mkt": "JP",
+"d": "2026-09-17",
+"src": "cup",
+"score": 86.0,
+"lv": 5639.63
+},
+"1699.T|2026-09-17": {
+"code": "1699.T",
+"name": "TSE1699",
+"mkt": "JP",
+"d": "2026-09-17",
+"src": "cup",
+"score": 86.0,
+"lv": 674.27
+},
+"002258.SZ|2026-09-17": {
+"code": "002258.SZ",
+"name": "利尔化学",
+"mkt": "CN",
+"d": "2026-09-17",
+"src": "cup",
+"score": 85.0,
+"lv": 15.26
+},
+"5975.T|2026-09-17": {
+"code": "5975.T",
+"name": "TSE5975",
+"mkt": "JP",
+"d": "2026-09-17",
+"src": "cup",
+"score": 85.0,
+"lv": 3018.02
+},
+"002870.SZ|2026-09-17": {
+"code": "002870.SZ",
+"name": "香山股份",
+"mkt": "CN",
+"d": "2026-09-17",
+"src": "cup",
+"score": 85.0,
+"lv": 43.51
+},
+"3036.T|2026-09-17": {
+"code": "3036.T",
+"name": "TSE3036",
+"mkt": "JP",
+"d": "2026-09-17",
+"src": "cup",
+"score": 85.0,
+"lv": 2886.88
+},
+"2510.HK|2026-09-17": {
+"code": "2510.HK",
+"name": "TS LINES",
+"mkt": "HK",
+"d": "2026-09-17",
+"src": "cup",
+"score": 85.0,
+"lv": 10.87
+},
+"8622.T|2026-09-17": {
+"code": "8622.T",
+"name": "TSE8622",
+"mkt": "JP",
+"d": "2026-09-17",
+"src": "cup",
+"score": 85.0,
+"lv": 775.77
+},
+"2782.T|2026-09-17": {
+"code": "2782.T",
+"name": "TSE2782",
+"mkt": "JP",
+"d": "2026-09-17",
+"src": "cup",
+"score": 85.0,
+"lv": 4309.3
+},
+"600428.SS|2026-09-17": {
+"code": "600428.SS",
+"name": "中远海特",
+"mkt": "CN",
+"d": "2026-09-17",
+"src": "cup",
+"score": 85.0,
+"lv": 10.08
+},
+"603132.SS|2026-09-17": {
+"code": "603132.SS",
+"name": "金徽股份",
+"mkt": "CN",
+"d": "2026-09-17",
+"src": "cup",
+"score": 84.8,
+"lv": 17.87
+},
+"PANW|2026-09-30": {
+"code": "PANW",
+"name": "Palo Alto Networks, Inc. - Common Stoc",
+"mkt": "US",
+"d": "2026-09-30",
+"src": "cup_eye",
+"score": 84.6,
+"lv": 399.28
+},
+"CNQ|2026-09-17": {
+"code": "CNQ",
+"name": "Canadian Natural Resources Limited Com",
+"mkt": "US",
+"d": "2026-09-17",
+"src": "cup",
+"score": 84.4,
+"lv": 49.8
+},
+"KNSA|2026-09-17": {
+"code": "KNSA",
+"name": "Kiniksa Pharmaceuticals International,",
+"mkt": "US",
+"d": "2026-09-17",
+"src": "cup",
+"score": 84.0,
+"lv": 59.93
+},
+"600222.SS|2026-09-22": {
+"code": "600222.SS",
+"name": "太龙药业",
+"mkt": "CN",
+"d": "2026-09-22",
+"src": "cup",
+"score": 83.7,
+"lv": 8.29
+},
+"6198.HK|2026-09-17": {
+"code": "6198.HK",
+"name": "QINGDAO PORT",
+"mkt": "HK",
+"d": "2026-09-17",
+"src": "cup",
+"score": 91.0,
+"lv": 7.6
+},
+"301132.SZ|2026-09-17": {
+"code": "301132.SZ",
+"name": "满坤科技",
+"mkt": "CN",
+"d": "2026-09-17",
+"src": "cup",
+"score": 78.8,
+"lv": 58.76
+},
+"FEIM|2026-09-17": {
+"code": "FEIM",
+"name": "Frequency Electronics, Inc. - Common S",
+"mkt": "US",
+"d": "2026-09-17",
+"src": "cup",
+"score": 79.0,
+"lv": 80.68
+},
+"131290.KQ|2026-09-28": {
+"code": "131290.KQ",
+"name": "티에스이",
+"mkt": "KR",
+"d": "2026-09-28",
+"src": "cup",
+"score": 67.9,
+"lv": 294294.0
+},
+"003033.SZ|2026-09-17": {
+"code": "003033.SZ",
+"name": "征和工业",
+"mkt": "CN",
+"d": "2026-09-17",
+"src": "cup",
+"score": 62.0,
+"lv": 77.96
+},
+"301183.SZ|2026-09-17": {
+"code": "301183.SZ",
+"name": "东田微",
+"mkt": "CN",
+"d": "2026-09-17",
+"src": "cup",
+"score": 52.4,
+"lv": 269.15
+},
+"4258.T|2026-09-17": {
+"code": "4258.T",
+"name": "AMIYA CORP",
+"mkt": "JP",
+"d": "2026-09-17",
+"src": "cup",
+"score": 58.0,
+"lv": 5045.04
+},
+"6904.T|2026-10-05": {
+"code": "6904.T",
+"name": "TSE6904",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 92.8,
+"lv": 512.0
+},
+"6523.T|2026-10-05": {
+"code": "6523.T",
+"name": "TSE6523",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 73.8,
+"lv": 1189.0
+},
+"2285.HK|2026-10-05": {
+"code": "2285.HK",
+"name": "CHERVON",
+"mkt": "HK",
+"d": "2026-10-05",
+"src": "gap",
+"score": 73.6,
+"lv": 22.5
+},
+"488280.KQ|2026-10-05": {
+"code": "488280.KQ",
+"name": "에스투더블유",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 71.6,
+"lv": 11830.0
+},
+"6185.HK|2026-10-05": {
+"code": "6185.HK",
+"name": "CANSINOBIO",
+"mkt": "HK",
+"d": "2026-10-05",
+"src": "gap",
+"score": 70.4,
+"lv": 26.08
+},
+"7613.T|2026-10-05": {
+"code": "7613.T",
+"name": "TSE7613",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 70.4,
+"lv": 1463.0
+},
+"6258.T|2026-10-05": {
+"code": "6258.T",
+"name": "TSE6258",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 70.2,
+"lv": 3295.0
+},
+"600664.SS|2026-10-05": {
+"code": "600664.SS",
+"name": "哈药股份",
+"mkt": "CN",
+"d": "2026-10-05",
+"src": "gap",
+"score": 69.6,
+"lv": 3.42
+},
+"1112.HK|2026-10-05": {
+"code": "1112.HK",
+"name": "H&H INTL HLDG",
+"mkt": "HK",
+"d": "2026-10-05",
+"src": "gap",
+"score": 69.2,
+"lv": 16.38
+},
+"4417.T|2026-10-05": {
+"code": "4417.T",
+"name": "GLOBAL SECURITY EXPERTS INC",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 68.4,
+"lv": 5060.0
+},
+"4919.T|2026-10-05": {
+"code": "4919.T",
+"name": "MILBON CO LTD",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 67.0,
+"lv": 2960.0
+},
+"6027.T|2026-10-05": {
+"code": "6027.T",
+"name": "TSE6027",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 66.6,
+"lv": 2650.0
+},
+"PYPL|2026-10-05": {
+"code": "PYPL",
+"name": "PayPal Holdings, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 66.4,
+"lv": 51.87
+},
+"6814.T|2026-10-05": {
+"code": "6814.T",
+"name": "TSE6814",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 66.2,
+"lv": 6980.0
+},
+"2371.T|2026-10-05": {
+"code": "2371.T",
+"name": "KAKAKU.COM. INC",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 66.0,
+"lv": 3740.0
+},
+"601665.SS|2026-10-05": {
+"code": "601665.SS",
+"name": "齐鲁银行",
+"mkt": "CN",
+"d": "2026-10-05",
+"src": "gap",
+"score": 66.0,
+"lv": 6.65
+},
+"382900.KQ|2026-10-05": {
+"code": "382900.KQ",
+"name": "범한퓨얼셀",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 65.8,
+"lv": 20550.0
+},
+"6508.T|2026-10-05": {
+"code": "6508.T",
+"name": "TSE6508",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 65.0,
+"lv": 9860.0
+},
+"7609.T|2026-10-05": {
+"code": "7609.T",
+"name": "TSE7609",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 64.8,
+"lv": 3795.0
+},
+"SNPS|2026-10-05": {
+"code": "SNPS",
+"name": "Synopsys, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 64.2,
+"lv": 464.98
+},
+"6952.T|2026-10-05": {
+"code": "6952.T",
+"name": "TSE6952",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 62.6,
+"lv": 1998.0
+},
+"4704.T|2026-10-05": {
+"code": "4704.T",
+"name": "TSE4704",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 61.6,
+"lv": 6100.0
+},
+"010950.KS|2026-10-05": {
+"code": "010950.KS",
+"name": "S-Oil",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 61.0,
+"lv": 116900.0
+},
+"SYNA|2026-10-05": {
+"code": "SYNA",
+"name": "Synaptics Incorporated - Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 60.8,
+"lv": 113.36
+},
+"6337.T|2026-10-05": {
+"code": "6337.T",
+"name": "TSE6337",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 60.8,
+"lv": 2884.0
+},
+"011790.KS|2026-10-05": {
+"code": "011790.KS",
+"name": "SKC",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 60.4,
+"lv": 93700.0
+},
+"ARM|2026-10-05": {
+"code": "ARM",
+"name": "Arm Holdings plc - American Depositary",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 59.6,
+"lv": 287.15
+},
+"019170.KS|2026-10-05": {
+"code": "019170.KS",
+"name": "신풍제약",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 59.6,
+"lv": 9020.0
+},
+"6918.T|2026-10-05": {
+"code": "6918.T",
+"name": "AVAL DATA CORPORATION",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 59.6,
+"lv": 3625.0
+},
+"ACA|2026-10-05": {
+"code": "ACA",
+"name": "Arcosa, Inc. Common Stock ",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 59.6,
+"lv": 137.76
+},
+"2244.T|2026-10-05": {
+"code": "2244.T",
+"name": "TSE2244",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 59.2,
+"lv": 3712.0
+},
+"079900.KS|2026-10-05": {
+"code": "079900.KS",
+"name": "전진건설로봇",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 59.2,
+"lv": 36300.0
+},
+"328130.KQ|2026-10-05": {
+"code": "328130.KQ",
+"name": "루닛",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 58.8,
+"lv": 10500.0
+},
+"OMER|2026-10-05": {
+"code": "OMER",
+"name": "Omeros Corporation - Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 58.6,
+"lv": 10.7
+},
+"BWIN|2026-10-05": {
+"code": "BWIN",
+"name": "The Baldwin Insurance Group, Inc. - Cl",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 58.6,
+"lv": 21.57
+},
+"7733.T|2026-10-05": {
+"code": "7733.T",
+"name": "OLYMPUS CORPORATION",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 58.4,
+"lv": 1920.5
+},
+"6869.T|2026-10-05": {
+"code": "6869.T",
+"name": "SYSMEX CORP",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 58.2,
+"lv": 1689.0
+},
+"7846.T|2026-10-05": {
+"code": "7846.T",
+"name": "PILOT CORP(NEW).PORSCHE INN.",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 58.0,
+"lv": 1862.5
+},
+"394800.KQ|2026-10-05": {
+"code": "394800.KQ",
+"name": "쓰리빌리언",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 57.2,
+"lv": 5530.0
+},
+"KB|2026-10-05": {
+"code": "KB",
+"name": "KB Financial Group Inc",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 57.0,
+"lv": 119.71
+},
+"9449.T|2026-10-05": {
+"code": "9449.T",
+"name": "TSE9449",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 56.8,
+"lv": 3720.0
+},
+"PSNL|2026-10-05": {
+"code": "PSNL",
+"name": "Personalis, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 56.6,
+"lv": 14.81
+},
+"2492.T|2026-10-05": {
+"code": "2492.T",
+"name": "INFOMART CORPORATION",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 55.8,
+"lv": 624.0
+},
+"020120.KS|2026-10-05": {
+"code": "020120.KS",
+"name": "키다리스튜디오",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 55.0,
+"lv": 4065.0
+},
+"128940.KS|2026-10-05": {
+"code": "128940.KS",
+"name": "한미약품",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 54.8,
+"lv": 430000.0
+},
+"DFDV|2026-10-05": {
+"code": "DFDV",
+"name": "DeFi Development Corp. - Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 54.8,
+"lv": 3.44
+},
+"LXP|2026-10-05": {
+"code": "LXP",
+"name": "LXP Industrial Trust Common Stock (Mar",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 54.4,
+"lv": 59.0
+},
+"PUBM|2026-10-05": {
+"code": "PUBM",
+"name": "PubMatic, Inc. - Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 54.2,
+"lv": 17.88
+},
+"000823.SZ|2026-10-05": {
+"code": "000823.SZ",
+"name": "超声电子",
+"mkt": "CN",
+"d": "2026-10-05",
+"src": "gap",
+"score": 53.8,
+"lv": 16.04
+},
+"079650.KQ|2026-10-05": {
+"code": "079650.KQ",
+"name": "서산",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 53.8,
+"lv": 1272.0
+},
+"229640.KS|2026-10-05": {
+"code": "229640.KS",
+"name": "LS에코에너지",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 53.6,
+"lv": 51900.0
+},
+"181710.KS|2026-10-05": {
+"code": "181710.KS",
+"name": "NHN",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 53.4,
+"lv": 46050.0
+},
+"LILAK|2026-10-05": {
+"code": "LILAK",
+"name": "Liberty Latin America Ltd. - Class C C",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 53.4,
+"lv": 6.09
+},
+"ON|2026-10-05": {
+"code": "ON",
+"name": "ON Semiconductor Corporation - Common ",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 53.2,
+"lv": 80.46
+},
+"241710.KQ|2026-10-05": {
+"code": "241710.KQ",
+"name": "코스메카코리아",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 53.2,
+"lv": 99700.0
+},
+"2343.HK|2026-10-05": {
+"code": "2343.HK",
+"name": "PACIFIC BASIN",
+"mkt": "HK",
+"d": "2026-10-05",
+"src": "gap",
+"score": 53.2,
+"lv": 3.4
+},
+"002303.SZ|2026-10-05": {
+"code": "002303.SZ",
+"name": "美盈森",
+"mkt": "CN",
+"d": "2026-10-05",
+"src": "gap",
+"score": 53.2,
+"lv": 3.92
+},
+"2607.T|2026-10-05": {
+"code": "2607.T",
+"name": "FUJI OIL CO LTD",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 52.6,
+"lv": 4212.0
+},
+"4483.T|2026-10-05": {
+"code": "4483.T",
+"name": "TSE4483",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 52.2,
+"lv": 3350.0
+},
+"1093.HK|2026-10-05": {
+"code": "1093.HK",
+"name": "CSPC PHARMA",
+"mkt": "HK",
+"d": "2026-10-05",
+"src": "gap",
+"score": 52.0,
+"lv": 9.22
+},
+"8418.T|2026-10-05": {
+"code": "8418.T",
+"name": "YAMAGUCHI FINANCIAL GROUP IN",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 51.6,
+"lv": 3307.0
+},
+"2869.T|2026-10-05": {
+"code": "2869.T",
+"name": "TSE2869",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 51.0,
+"lv": 3091.0
+},
+"088350.KS|2026-10-05": {
+"code": "088350.KS",
+"name": "한화생명",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 51.0,
+"lv": 4930.0
+},
+"001210.KS|2026-10-05": {
+"code": "001210.KS",
+"name": "금호전기",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 49.8,
+"lv": 3320.0
+},
+"420770.KQ|2026-10-05": {
+"code": "420770.KQ",
+"name": "기가비스",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 49.6,
+"lv": 114200.0
+},
+"6490.T|2026-10-05": {
+"code": "6490.T",
+"name": "TSE6490",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 49.4,
+"lv": 11130.0
+},
+"FIRY|2026-10-05": {
+"code": "FIRY",
+"name": "Firy Inc. Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 49.4,
+"lv": 10.74
+},
+"1699.T|2026-10-05": {
+"code": "1699.T",
+"name": "TSE1699",
+"mkt": "JP",
+"d": "2026-10-05",
+"src": "gap",
+"score": 49.2,
+"lv": 682.0
+},
+"025980.KQ|2026-10-05": {
+"code": "025980.KQ",
+"name": "아난티",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 49.2,
+"lv": 4070.0
+},
+"SENEA|2026-10-05": {
+"code": "SENEA",
+"name": "Seneca Foods Corp. - Class A Common St",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 49.2,
+"lv": 152.98
+},
+"TRLV|2026-10-05": {
+"code": "TRLV",
+"name": "Trulieve Cannabis Corp. Subordinate Vo",
+"mkt": "US",
+"d": "2026-10-05",
+"src": "gap",
+"score": 49.2,
+"lv": 10.1
+},
+"603991.SS|2026-10-05": {
+"code": "603991.SS",
+"name": "领先股份",
+"mkt": "CN",
+"d": "2026-10-05",
+"src": "gap",
+"score": 48.8,
+"lv": 130.51
+},
+"457370.KQ|2026-10-05": {
+"code": "457370.KQ",
+"name": "한켐",
+"mkt": "KR",
+"d": "2026-10-05",
+"src": "gap",
+"score": 48.8,
+"lv": 9890.0
+},
+"XP|2026-10-06": {
+"code": "XP",
+"name": "XP Inc. - Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "gap",
+"score": 73.2,
+"lv": 21.72
+},
+"INTR|2026-10-06": {
+"code": "INTR",
+"name": "Inter & Co. Inc. - Class A Common Shar",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "gap",
+"score": 64.8,
+"lv": 6.1
+},
+"7630.T|2026-10-07": {
+"code": "7630.T",
+"name": "ICHIBANYA CO LTD",
+"mkt": "JP",
+"d": "2026-10-07",
+"src": "gap",
+"score": 68.2,
+"lv": 972.0
+},
+"089010.KQ|2026-10-08": {
+"code": "089010.KQ",
+"name": "켐트로닉스",
+"mkt": "KR",
+"d": "2026-10-08",
+"src": "gap",
+"score": 68.0,
+"lv": 24300.0
+},
+"4849.T|2026-10-08": {
+"code": "4849.T",
+"name": "TSE4849",
+"mkt": "JP",
+"d": "2026-10-08",
+"src": "gap",
+"score": 45.2,
+"lv": 1344.0
+},
+"ZS|2026-10-08": {
+"code": "ZS",
+"name": "지스케일러",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "focus",
+"score": 70,
+"theme": "사이버보안"
+},
+"TGT|2026-10-08": {
+"code": "TGT",
+"name": "Target Corporation Common Stock",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "cup",
+"score": 54.4,
+"lv": 133.23
+},
+"CBRL|2026-10-08": {
+"code": "CBRL",
+"name": "Cracker Barrel Old Country Store, Inc.",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "cup_eye",
+"score": 47.1,
+"lv": 55.68
+},
+"MSFT|2026-10-08": {
+"code": "MSFT",
+"name": "Microsoft Corporation - Common Stock",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "cup_eye",
+"score": 39.3,
+"lv": 499.94
+},
+"DAR|2026-10-08": {
+"code": "DAR",
+"name": "Darling Ingredients Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "cup_eye",
+"score": 38.3,
+"lv": 61.57
+},
+"MEOH|2026-10-08": {
+"code": "MEOH",
+"name": "Methanex Corporation - Common Stock",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "cup_eye",
+"score": 36.2,
+"lv": 61.43
+},
+"FOX|2026-10-08": {
+"code": "FOX",
+"name": "Fox Corporation - Class B Common Stock",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "cup",
+"score": 66.1,
+"lv": 57.24
+},
+"3498.T|2026-10-09": {
+"code": "3498.T",
+"name": "TSE3498",
+"mkt": "JP",
+"d": "2026-10-09",
+"src": "cup",
+"score": 64.4,
+"lv": 8078.07
+},
+"EXPE|2026-10-08": {
+"code": "EXPE",
+"name": "Expedia Group, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "cup",
+"score": 72.2,
+"lv": 270.78
+},
+"HGTY|2026-10-06": {
+"code": "HGTY",
+"name": "Hagerty, Inc. Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "accum",
+"score": 91.0,
+"lv": 14.17
+},
+"002349.SZ|2026-10-03": {
+"code": "002349.SZ",
+"name": "精华制药",
+"mkt": "CN",
+"d": "2026-10-03",
+"src": "accum",
+"score": 73.0,
+"lv": 9.26
+},
+"ALAB|2026-10-09|whale": {
+"code": "ALAB",
+"name": "ALAB",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "whale",
+"score": 40
+},
+"VST|2026-10-09|whale": {
+"code": "VST",
+"name": "VST",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "whale",
+"score": 40
+},
+"META|2026-10-09|whale": {
+"code": "META",
+"name": "META",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "whale",
+"score": 40
+},
+"CDW|2026-10-09|whale": {
+"code": "CDW",
+"name": "CDW",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "whale",
+"score": 40
+},
+"CSX|2026-10-09|whale": {
+"code": "CSX",
+"name": "CSX",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "whale",
+"score": 40
+},
+"GOOGL|2026-10-09|whale": {
+"code": "GOOGL",
+"name": "GOOGL",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "whale",
+"score": 40
+},
+"ZS|2026-10-09|brain": {
+"code": "ZS",
+"name": "Zscaler",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "focus",
+"score": 60,
+"note": "🧠 선제: 사이버보안 주도 테마 + 컵 기준가 217.19 직전(−0.17%) — 돌파 확인 시"
+}
+},
+"sent": [
+"2026-10-08|사기|ZS",
+"2026-10-08|팔기|TECK"
+],
+"whale": [
+"ALAB",
+"CDW",
+"CPNG",
+"CSX",
+"DKS",
+"GOOGL",
+"INSM",
+"META",
+"MPC",
+"MRVL",
+"MU",
+"NAMS",
+"ORCL",
+"RVMD",
+"SNDK",
+"SNOW",
+"STM",
+"VST",
+"ZYME"
+]
 }
