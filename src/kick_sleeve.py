@@ -269,7 +269,7 @@ def main() -> int:
                  "paused": pause_until >= len(D) - 1},
         "rules": {"sleeve": SLEEVE, "slots": SLOTS, "stop": STOP, "take": TAKE, "time": TIME_D, "brake": BRAKE},
         "note": "킥 포트 = 기본 포트에서 현금 15%p 를 ⚡ 킥 슬리브로. 슬리브는 우리 스캐너가 「확인한 순간」(컵 기준가 돌파·돌파 갭·🎯 집중 돌파)에만 3%씩 들어가고 규칙대로 나옴. "
-                "10/9 이전은 같은 규칙으로 되짚은 계산(그때 눈 검사 기록이 없어 컵은 점수 순). 현지 통화 기준·수수료 제외. 매수 추천 아님.",
+                "10/9 이전은 같은 규칙으로 되짚은 계산(눈 검사는 10/9 결과를 썼으니 실전보다 조금 유리할 수 있음 — 10/10부터는 실시간 기록). 현지 통화 기준·수수료 제외. 매수 추천 아님.",
     }
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     # 오늘 새로 사고판 것 알림 (한 번만)
