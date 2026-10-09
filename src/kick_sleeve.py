@@ -27,12 +27,21 @@ PORT = ROOT / "market" / "port.json"
 CANDS = ROOT / "market" / "kick_cands.json"
 OUT = ROOT / "market" / "kick.json"
 RAW = "https://raw.githubusercontent.com/chkchp0702-spec/daily-app/main/"
-SLEEVE = 0.15
-SLOTS = 5
-STOP, TAKE, TIME_D, TIME_MIN = -0.05, 0.15, 15, 0.03
-BRAKE, BRAKE_D, MAX_NEW, REENTRY = -0.06, 10, 2, 10
-PRI = {"focus": 40, "cup_eye": 25, "cup": 10, "gap": 0}
-SRC_NAME = {"focus": "🎯 집중 돌파", "cup_eye": "☕ 컵 돌파(눈 검사 통과)", "cup": "☕ 컵 돌파", "gap": "📈 돌파 갭"}
+PARAMS = ROOT / "market" / "kick_params.json"      # 엣지 연구(주간)가 고치는 손잡이
+_DEF = {"sleeve": 0.15, "slots": 5, "stop": -0.05, "take": 0.15, "time_d": 15, "time_min": 0.03, "brake": -0.06, "brake_d": 10, "max_new": 2, "reentry": 10,
+        "pri": {"focus": 40, "cup_eye": 25, "lead": 20, "cup": 10, "accum": 10, "whale": 8, "gap": 0}, "whale_bonus": 10, "off": [],
+        "lead_min": 1.5, "lead_cor": 0.3, "adaptive": True}
+try:
+    _P = {**_DEF, **json.loads(PARAMS.read_text(encoding="utf-8"))}
+except Exception:
+    _P = dict(_DEF)
+SLEEVE, SLOTS = _P["sleeve"], _P["slots"]
+STOP, TAKE, TIME_D, TIME_MIN = _P["stop"], _P["take"], _P["time_d"], _P["time_min"]
+BRAKE, BRAKE_D, MAX_NEW, REENTRY = _P["brake"], _P["brake_d"], _P["max_new"], _P["reentry"]
+PRI = {**_DEF["pri"], **_P.get("pri", {})}
+OFF = set(_P.get("off", []))
+SRC_NAME = {"focus": "🎯 집중 돌파", "cup_eye": "☕ 컵 돌파(눈 검사 통과)", "cup": "☕ 컵 돌파", "gap": "📈 돌파 갭",
+            "lead": "🔗 미국→한국 선행", "accum": "🤫 매집 박스 돌파", "whale": "🐋 고래 큰손 매수"}
 
 
 def get_json(path):
@@ -88,12 +97,41 @@ def collect(now):
                 cands[k] = {"code": code, "name": a.get("name") or code, "mkt": "US" if us else "KR", "d": day, "src": "focus", "score": 70, "theme": a.get("theme")}
     except Exception as e:
         print("집중 실패", e)
+    try:   # 🤫 조용한 매집 → 20일 박스 돌파
+        A = get_json("archive/x/perf_accum.json")
+        for x in A.get("signals", []):
+            if x.get("abrk") and x.get("abd") is not None:
+                d = (dt.date.fromisoformat(x["d0"]) + dt.timedelta(days=int(x["abd"]))).isoformat() if x.get("d0") else None
+                k = f"{x['code']}|{d}"
+                if d and k not in cands:
+                    cands[k] = {"code": x["code"], "name": x.get("name") or x["code"], "mkt": x.get("mkt"), "d": d, "src": "accum", "score": x.get("score") or 0, "lv": x.get("box")}
+    except Exception as e:
+        print("매집 실패", e)
+    try:   # 🔗 미국 테마 ETF 가 뛰면 한국 연결주는 D+k 에 따라옴 (focus.json lag) → 다음 한국 거래일 종가에 진입
+        F = json.loads((ROOT / "market" / "focus.json").read_text(encoding="utf-8"))
+        asof = F.get("asof") or now.strftime("%Y-%m-%d")
+        for t in F.get("themes", []):
+            lg, r1 = t.get("lag") or {}, t.get("r1") or 0
+            if r1 >= _P["lead_min"] and (lg.get("cor") or 0) >= _P["lead_cor"] and (t.get("stage") or {}).get("s") in ("초입", "주도"):
+                for x in t.get("kr", [])[:2]:
+                    if x.get("act") == "추격 금지":
+                        continue
+                    k = f"{x['t']}|{asof}|lead"
+                    if k not in cands:
+                        cands[k] = {"code": x["t"], "name": x.get("name") or x["t"], "mkt": "KR", "d": asof, "src": "lead", "score": 50 + r1 * 5,
+                                    "theme": t["name"], "note": f"{t['sym']} {r1:+.1f}% → D+{lg.get('k')} 상관 {lg.get('cor')}"}
+    except Exception as e:
+        print("선행 실패", e)
     for back in range(6):                       # 🐋 최근 고래 신호 (TOP10 · 큰손 매수)
         day = (now - dt.timedelta(days=back)).strftime("%Y-%m-%d")
         try:
             W = get_json(f"archive/whale/{day}/data.json").get("signals", {})
             for k in ("top10", "big", "mov"):
                 whale |= set(W.get(k) or [])
+            for tkr in (W.get("big") or [])[:6]:      # 🐋 큰손이 새로 크게 산 종목 — 그 자체로 후보
+                k = f"{tkr}|{day}|whale"
+                if k not in cands and not any(v["code"] == tkr and v["src"] == "whale" and v["d"] >= (now - dt.timedelta(days=20)).strftime("%Y-%m-%d") for v in cands.values()):
+                    cands[k] = {"code": tkr, "name": tkr, "mkt": "US", "d": day, "src": "whale", "score": 40}
             break
         except Exception:
             continue
@@ -108,7 +146,18 @@ def main() -> int:
     P = json.loads(PORT.read_text(encoding="utf-8"))
     START = P["start"]
     C = collect(now)
-    cands = [v for v in C["cands"].values() if v["d"] >= START]
+    cands = [v for v in C["cands"].values() if v["d"] >= START and v["src"] not in OFF]
+    ADAPT = {}
+    try:   # 우리 장부에서 배운 신호별 성적 → 가중치 (거래 5건 이상부터)
+        prev = json.loads(OUT.read_text(encoding="utf-8"))
+        by = {}
+        for t in prev.get("closed_all") or prev.get("closed", []):
+            by.setdefault(t["src"], []).append(t["r"])
+        for src, rs in by.items():
+            if len(rs) >= 5 and _P.get("adaptive"):
+                ADAPT[src] = {"n": len(rs), "avg": round(sum(rs) / len(rs), 2), "win": round(sum(1 for r in rs if r > 0) / len(rs) * 100), "adj": round(max(-20, min(20, sum(rs) / len(rs) * 2)), 1)}
+    except Exception:
+        pass
     whale = set(C.get("whale", []))
     import yfinance as yf
     tick = sorted({c["code"] for c in cands} | {"SGOV", "SPY"})
@@ -148,7 +197,7 @@ def main() -> int:
             continue                                 # 그 날 종가가 없으면(휴장 등) 건너뜀
         tgt = next((x for x in D if x >= sd), None)
         if tgt:
-            pr = PRI[c["src"]] + c["score"] + (10 if c["code"] in whale else 0)
+            pr = PRI.get(c["src"], 0) + c["score"] + (_P["whale_bonus"] if c["code"] in whale else 0) + (ADAPT.get(c["src"], {}).get("adj", 0))
             by_day.setdefault(tgt, []).append({**c, "pr": round(pr, 1), "whale": c["code"] in whale})
 
     cash, pos, closed, events = 1.0, [], [], []
@@ -224,7 +273,7 @@ def main() -> int:
                 cash -= cost
                 pos.append({"code": c["code"], "name": c["name"], "mkt": c.get("mkt"), "src": c["src"], "d0": d, "entry": e, "sh": cost / e, "cost": cost,
                             "held": 0, "max": e, "last": e, "half": False, "realized": 0.0, "pr": c["pr"], "whale": c.get("whale")})
-                events.append({"d": d, "k": "사기", "code": c["code"], "name": c["name"], "src": SRC_NAME[c["src"]], "px": round(e, 4)})
+                events.append({"d": d, "k": "사기", "code": c["code"], "name": c["name"], "src": SRC_NAME.get(c["src"], c["src"]), "px": round(e, 4), "note": c.get("note")})
         total = cash + sum(p["sh"] * (px(p["code"], d) or p["entry"]) for p in pos)
         if i > 0:
             val.append(total)
@@ -247,6 +296,8 @@ def main() -> int:
         kick.append(kick[-1] * (1 + rb - SLEEVE * rg + SLEEVE * rs))
         lastv = sv.get(d1, lastv)
         sleeve_line.append(round((lastv - 1) * 100, 2))
+    for t in closed:
+        t["src_name"] = SRC_NAME.get(t["src"], t["src"])
     trades = closed
     wins = [t for t in trades if t["r"] > 0]
     loss = [t for t in trades if t["r"] <= 0]
@@ -255,19 +306,21 @@ def main() -> int:
     openp = []
     for p in pos:
         c = px(p["code"], last_d) or p["entry"]
-        openp.append({"code": p["code"], "name": p["name"], "mkt": p.get("mkt"), "src": SRC_NAME[p["src"]], "d0": p["d0"], "entry": round(p["entry"], 4),
+        openp.append({"code": p["code"], "name": p["name"], "mkt": p.get("mkt"), "src": SRC_NAME.get(p["src"], p["src"]), "d0": p["d0"], "entry": round(p["entry"], 4),
                       "now": round(c, 4), "r": round((c / p["entry"] - 1) * 100, 2), "days": p["held"], "half": p["half"], "whale": p.get("whale"),
                       "stop": round(p["entry"] * (1 + STOP), 4), "take": round(p["entry"] * (1 + TAKE), 4), "w": round(p["sh"] * c / val[-1] * SLEEVE * 100, 2)})
     out = {
         "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "asof": last_d,
         "dates": pdates, "base": [round((b - 1) * 100, 2) for b in base], "kick": [round((k - 1) * 100, 2) for k in kick],
         "sleeve": round((val[-1] - 1) * 100, 2), "sleeve_line": sleeve_line,
-        "open": openp, "closed": trades[::-1][:40], "events": events[::-1][:40],
+        "open": openp, "closed": trades[::-1][:40], "closed_all": [{"src": t["src"], "r": t["r"], "d1": t["d1"]} for t in trades], "events": events[::-1][:40],
         "stat": {"base": round((base[-1] - 1) * 100, 2), "kick": round((kick[-1] - 1) * 100, 2), "spy": P["stat"]["spy"],
                  "trades": len(trades), "win": round(len(wins) / len(trades) * 100) if trades else None,
                  "avg_win": avg(wins), "avg_loss": avg(loss), "avg": avg(trades), "slots": f"{len(pos)}/{SLOTS}",
                  "paused": pause_until >= len(D) - 1},
-        "rules": {"sleeve": SLEEVE, "slots": SLOTS, "stop": STOP, "take": TAKE, "time": TIME_D, "brake": BRAKE},
+        "rules": {"sleeve": SLEEVE, "slots": SLOTS, "stop": STOP, "take": TAKE, "time": TIME_D, "brake": BRAKE, "off": sorted(OFF)},
+        "by_src": {SRC_NAME.get(k, k): v for k, v in ADAPT.items()},
+        "src_names": SRC_NAME,
         "note": "킥 포트 = 기본 포트에서 현금 15%p 를 ⚡ 킥 슬리브로. 슬리브는 우리 스캐너가 「확인한 순간」(컵 기준가 돌파·돌파 갭·🎯 집중 돌파)에만 3%씩 들어가고 규칙대로 나옴. "
                 "10/9 이전은 같은 규칙으로 되짚은 계산(눈 검사는 10/9 결과를 썼으니 실전보다 조금 유리할 수 있음 — 10/10부터는 실시간 기록). 현지 통화 기준·수수료 제외. 매수 추천 아님.",
     }
