@@ -1,6 +1,6 @@
 {
- "last_review": "2026-10-09 22:46",
- "summary": "새 글 0(my_feed 19:52 이후 없음, 재수집 요청). 미국 개장 직전: 브렌트 103.2(−1.1%)·WTI 90.9·금 4,210(+1.3%), AAPL 프리 −2.2%·TMUS −7.5%·AAOI +7.5%·DAL −4%(실적 미스·연료비). ZS 프리마켓 221.60(+2.2%)으로 컵 기준가 217.19 위 — 선제 #1 돌파 확인 단계.",
+ "last_review": "2026-10-09 23:40",
+ "summary": "새 글 7(22:35 수집분). 미국장 개장: S&P +0.24%·나스닥 +0.31%·다우 +0.26%(09:46 ET), 10년 5.25~5.26(24년 고점 부근), 금 4,215(+1.4%), 브렌트 −1%대·100 위. 애플 주문 축소 원인이 메모리 가격 급등(kwusa/61132) — 부품주 논지 보강. ZS·COHR 장중값은 미확인.",
  "regime": "중립",
  "theses": [
   {
@@ -9,7 +9,7 @@
    "why": "월러 '추가 인상 필요, 2027 초 인상 경로'(HANAchina/70076) · FOMC 의사록 다수 추가 인상 지지(tradingeconomics) · ISM 가격 77.9/74.0(james_lee/224434161285) · 10년 5.227(latest.json)",
    "breaks": "10년 5.00% 아래 종가 또는 근원물가 둔화 확인",
    "since": "2026-10-09",
-   "check": "장부 us10y_band20 11/20일차 · 10/14 주 CPI 근원 전월비 0.24% 전망(바클레이즈·MS, HANAchina/70137) — 둔화 확인 시 conf 하향"
+   "check": "10년 5.25~5.26 장중(Yahoo live 09:46 ET, 24년 고점 부근) · us10y_band20 11/20 · 10/14 주 CPI"
   },
   {
    "t": "AI 이익은 진짜다 — 반도체 칸의 문제는 실적이 아니라 금리·밸류",
@@ -45,11 +45,11 @@
   },
   {
    "t": "애플 수요 둔화 — 한국 아이폰 부품주는 10/12 개장 때 뒤늦게 반영된다",
-   "conf": 0.55,
-   "why": "닛케이 '애플 iPhone 18 Pro 주문 축소'(HANAchina/70131, https://money.usnews.com/investing/news/articles/2026-10-09/apple-cuts-iphone-18-pro-orders-due-to-soft-demand-nikkei-asia-reports) · AAPL 프리마켓 하락(https://www.tradingview.com/news/stocktwits:a56351503094b:0-is-iphone-18-pro-demand-slowing-apple-reportedly-cuts-october-component-orders-stock-slips-premarket/) · IDC 3Q PC 출하 −20.1%(HANAchina/70123) · 축소 폭 15~20%, AAPL 프리마켓 −1.5%(https://stocktwits.com/news-articles/markets/equity/why-are-nasdaq-futures-surging-premarket-spcx-asts-aapl-tmus-vz-nvda-mu-lite-stocks-in-focus/cZD6jb4RBVM)",
+   "conf": 0.6,
+   "why": "닛케이 '애플 iPhone 18 Pro 주문 축소'(HANAchina/70131, https://money.usnews.com/investing/news/articles/2026-10-09/apple-cuts-iphone-18-pro-orders-due-to-soft-demand-nikkei-asia-reports) · AAPL 프리마켓 하락(https://www.tradingview.com/news/stocktwits:a56351503094b:0-is-iphone-18-pro-demand-slowing-apple-reportedly-cuts-october-component-orders-stock-slips-premarket/) · IDC 3Q PC 출하 −20.1%(HANAchina/70123) · 축소 폭 15~20%, AAPL 프리마켓 −1.5%(https://stocktwits.com/news-articles/markets/equity/why-are-nasdaq-futures-surging-premarket-spcx-asts-aapl-tmus-vz-nvda-mu-lite-stocks-in-focus/cZD6jb4RBVM) · 축소 원인은 메모리 가격 급등→아이폰 가격 인상→수요 타격, 주문 15~20%↓(kwusa/61132)",
    "breaks": "애플 부인·공급망 반박 보도 또는 10/12 LG이노텍 시가 보합 이상",
    "since": "2026-10-09",
-   "check": "AAPL 프리 −2.23%(thestreet 08:27 ET) · 10/12 09:00 LG이노텍 시가"
+   "check": "AAPL 장중 확인 · 10/12 09:00 LG이노텍 시가"
   }
  ],
  "watch": [
@@ -57,7 +57,7 @@
   "10/12(월) 한국 재개: 코스피 6,500 손절선(여유 1.9%)·외국인 10일째 매도 여부",
   "브렌트 100 아래 안착 여부(95 아래면 에너지 13→10) · 킥 EQNR 손절 40.86",
   "미 10년 10/9 종가 5.20 아래 → us10y_530 되돌림 검토 / 5.30 위 → 현금 쪽 (17:30 5.24) · 금 4,200 유지(4,215)",
-  "ZS 10/9 종가 217.19 위 유지(프리 221.60, 손절 206) · COHR 10/9 시가 · 418670 10/12 시가 · 10/12 시가: LG이노텍(내림)·S-Oil(오름)"
+  "ZS 10/9 종가 217.19 위 유지(손절 206) · COHR 10/9 시가·종가 · CAT 10/9 종가(새 bet 기준) · 10/12 시가: LG이노텍(내림)·S-Oil·418670(오름)"
  ],
  "port_ideas": [
   {
@@ -92,11 +92,11 @@
   }
  ],
  "scorecard": {
-  "made": 6,
+  "made": 7,
   "right": 0,
   "wrong": 0,
   "bets": {
-   "made": 5,
+   "made": 6,
    "win": 0,
    "loss": 0,
    "avg": null
@@ -194,6 +194,25 @@
    "status": "열림",
    "res": null,
    "note": "10/9 미국장 CIBR 종가 확인 전이라 확신 중간 — kick_cands 미등록(오늘 1건 ZS 사용)"
+  },
+  {
+   "id": "20261009-23",
+   "made": "2026-10-09 23:40",
+   "kind": "종목",
+   "t": "CAT",
+   "name": "캐터필러",
+   "dir": "오름",
+   "entry": null,
+   "entry_rule": "10/9 미국 종가로 확정(장중값 확인 불가)",
+   "target": "entry +6%",
+   "stop": "entry −4%",
+   "horizon": "2주",
+   "why": "10/7 미 정부 농기계·유통 반경쟁 조사 발표로 하루 −6% — 실제 조치 없음·농기계 매출 비중 작음, JPM '데이터센터 건설 장기 호황 최대 수혜'(kwusa/61133, 배런스)",
+   "edge": "시장은 '규제 조사'로 일괄 매도했지만 실적 동력(데이터센터 발전기·건설)과 무관한 사업부 이슈 — 증권사 판단과 가격 괴리",
+   "src": "피드",
+   "status": "열림",
+   "res": null,
+   "note": "스캐너 신호 겹침 없음 — 확신 중간, kick_cands 미등록"
   }
  ]
 }
