@@ -2060,6 +2060,78 @@
 "src": "focus",
 "score": 70,
 "theme": "사이버보안"
+},
+"TGT|2026-10-08": {
+"code": "TGT",
+"name": "Target Corporation Common Stock",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "cup",
+"score": 54.4,
+"lv": 133.23
+},
+"CBRL|2026-10-08": {
+"code": "CBRL",
+"name": "Cracker Barrel Old Country Store, Inc.",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "cup_eye",
+"score": 47.1,
+"lv": 55.68
+},
+"MSFT|2026-10-08": {
+"code": "MSFT",
+"name": "Microsoft Corporation - Common Stock",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "cup_eye",
+"score": 39.3,
+"lv": 499.94
+},
+"DAR|2026-10-08": {
+"code": "DAR",
+"name": "Darling Ingredients Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "cup_eye",
+"score": 38.3,
+"lv": 61.57
+},
+"MEOH|2026-10-08": {
+"code": "MEOH",
+"name": "Methanex Corporation - Common Stock",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "cup_eye",
+"score": 36.2,
+"lv": 61.43
+},
+"FOX|2026-10-08": {
+"code": "FOX",
+"name": "Fox Corporation - Class B Common Stock",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "cup",
+"score": 66.1,
+"lv": 57.24
+},
+"3498.T|2026-10-09": {
+"code": "3498.T",
+"name": "TSE3498",
+"mkt": "JP",
+"d": "2026-10-09",
+"src": "cup",
+"score": 64.4,
+"lv": 8078.07
+},
+"EXPE|2026-10-08": {
+"code": "EXPE",
+"name": "Expedia Group, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "cup",
+"score": 72.2,
+"lv": 270.78
 }
 },
 "sent": [
