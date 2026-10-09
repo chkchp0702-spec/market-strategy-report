@@ -89,7 +89,7 @@ def main() -> int:
         for a in e["alloc"]:
             tick |= set(us_of(a["name"], a["instruments"]))
     kr_codes = {k["code"] for a in log[-1]["alloc"] for k in kr_of(a["instruments"]) if k["code"].isdigit()}
-    start = (dt.date.fromisoformat(START) - dt.timedelta(days=10)).isoformat()
+    start = (dt.date.fromisoformat(START) - dt.timedelta(days=70)).isoformat()   # 20일 신호 계산용 여유
     df = yf.download(sorted(tick) + [c + ".KS" for c in kr_codes], start=start, interval="1d", auto_adjust=True, progress=False,
                      group_by="ticker", threads=True)
     C = {}
