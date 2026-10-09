@@ -2132,6 +2132,72 @@
 "src": "cup",
 "score": 72.2,
 "lv": 270.78
+},
+"HGTY|2026-10-06": {
+"code": "HGTY",
+"name": "Hagerty, Inc. Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "accum",
+"score": 91.0,
+"lv": 14.17
+},
+"002349.SZ|2026-10-03": {
+"code": "002349.SZ",
+"name": "精华制药",
+"mkt": "CN",
+"d": "2026-10-03",
+"src": "accum",
+"score": 73.0,
+"lv": 9.26
+},
+"ALAB|2026-10-09|whale": {
+"code": "ALAB",
+"name": "ALAB",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "whale",
+"score": 40
+},
+"VST|2026-10-09|whale": {
+"code": "VST",
+"name": "VST",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "whale",
+"score": 40
+},
+"META|2026-10-09|whale": {
+"code": "META",
+"name": "META",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "whale",
+"score": 40
+},
+"CDW|2026-10-09|whale": {
+"code": "CDW",
+"name": "CDW",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "whale",
+"score": 40
+},
+"CSX|2026-10-09|whale": {
+"code": "CSX",
+"name": "CSX",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "whale",
+"score": 40
+},
+"GOOGL|2026-10-09|whale": {
+"code": "GOOGL",
+"name": "GOOGL",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "whale",
+"score": 40
 }
 },
 "sent": [
