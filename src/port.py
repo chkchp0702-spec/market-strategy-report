@@ -162,7 +162,23 @@ def main() -> int:
             s = C.get(k["code"] + ".KS")
             if s is not None and len(s):
                 k["px"] = round(float(s.iloc[-1]))
-        hold.append({"name": a["name"], "pct": a["pct"], "instruments": a["instruments"],
+        chk = []
+        for t in us:
+            sr = C.get(t)
+            if sr is None or len(sr) < 25:
+                continue
+            last = float(sr.iloc[-1]); m20 = float(sr.iloc[-20:].mean())
+            r5 = (last / float(sr.iloc[-6]) - 1) * 100; r20 = (last / float(sr.iloc[-21]) - 1) * 100
+            spy = C["SPY"]; s5 = (float(spy.iloc[-1]) / float(spy.iloc[-6]) - 1) * 100; s20 = (float(spy.iloc[-1]) / float(spy.iloc[-21]) - 1) * 100
+            chk.append({"t": t, "r5": round(r5, 2), "r20": round(r20, 2), "rs5": round(r5 - s5, 2), "rs20": round(r20 - s20, 2), "above20": last >= m20})
+        sig = ""
+        if chk:
+            a20 = sum(1 for c in chk if c["above20"]) / len(chk)
+            rs20 = sum(c["rs20"] for c in chk) / len(chk); rs5 = sum(c["rs5"] for c in chk) / len(chk)
+            sig = ("약함 — 20일선 아래·S&P보다 약함 → 줄일 후보" if a20 < .5 and rs20 < -2 else
+                   "강함 — S&P보다 강하고 20일선 위 → 유지·늘릴 후보" if a20 >= .5 and rs20 > 2 and rs5 > -1 else
+                   "꺾이는 중 — 5일 약세 → 지켜보기" if rs5 < -3 else "보통")
+        hold.append({"name": a["name"], "pct": a["pct"], "instruments": a["instruments"], "check": chk, "sig": sig,
                      "us": [{"t": t, "px": round(float(C[t].iloc[-1]), 2) if t in C else None,
                              "r1": round((ret(t, cal[-2], cal[-1]) or 0) * 100, 2) if t in C and len(cal) > 1 else None,
                              "since": round((ret(t, cal[0], cal[-1]) or 0) * 100, 2) if t in C else None} for t in us],

@@ -25,12 +25,16 @@ SOURCES = [
     ("blog", "james_lee_advisors", "James Lee Advisors", "거시경제 Letter"),
     ("blog", "tosoha1", "이것 또한 지나가리라", "농구천재"),
     ("blog", "pillion21", "알바트로스의 파생 이야기", "알바트로스 · 파생·수급"),
+    ("blog", "jeunkim", "피우스의 책도둑 & 매거진", "피우스 · 시장·경제 공부"),
+    ("blog", "pokara61", "포카라의 실전투자", "포카라 · 증권·경제"),
     ("tg", "egzion", "이그전 (이은택의 그림 전략)", "KB증권 리서치 전략"),
     ("tg", "HANAchina", "하나 중국/신흥국 전략", "하나증권 김경환"),
     ("tg", "globalmktinsight", "미래에셋증권 시황", "미래에셋 김석환"),
     ("tg", "YeouidoStory2", "여의도스토리", "뉴스·증권사 리포트·글로벌 경제"),
     ("tg", "sunstudy1111", "선진짱 주식공부방", "종목·시황 공부"),
     ("tg", "kwusa", "키움증권 미국주식 톡톡", "키움 미국주식 리서치"),
+    ("tg", "kimu_nim", "김현석 (자본주의 바이어스)", "김현석 · 글로벌 시장"),
+    ("tg", "meritz_research", "메리츠증권 리서치", "메리츠 리서치센터"),
 ]
 UA = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 Mobile/15E148 Safari/604.1",
       "Accept-Language": "ko-KR,ko;q=0.9"}
