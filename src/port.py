@@ -230,7 +230,25 @@ def main() -> int:
             sig = ("약함 — 20일선 아래·S&P보다 약함 → 줄일 후보" if a20 < .5 and rs20 < -2 else
                    "강함 — S&P보다 강하고 20일선 위 → 유지·늘릴 후보" if a20 >= .5 and rs20 > 2 and rs5 > -1 else
                    "꺾이는 중 — 5일 약세 → 지켜보기" if rs5 < -3 else "보통")
-        hold.append({"name": a["name"], "pct": a["pct"], "instruments": a["instruments"], "check": chk, "sig": sig,
+        # 🌏 고른 상품 vs 원래 미국 상품 — 고른 날부터 누가 더 벌었나 (매일 채점 → 지면 되돌릴 근거)
+        pvs = None
+        if a.get("picks"):
+            since = None
+            for e_ in reversed(log):
+                m_ = next((x for x in e_["alloc"] if x["name"] == a["name"]), None)
+                if not m_ or m_.get("picks") != a.get("picks"):
+                    break
+                since = e_["date"]
+            base_t = us_of(a["name"], a["instruments"], None)
+            i0 = next((i for i, d in enumerate(cal) if d.strftime("%Y-%m-%d") >= (since or "9999")), None)
+            if i0 is None or i0 == 0:
+                pvs = {"since": since, "base": base_t, "pending": True}
+            else:
+                avg = lambda ts: (lambda v: round(sum(v) / len(v) * 100, 2) if v else None)([x for x in (ret(t, cal[i0 - 1], cal[-1]) for t in ts) if x is not None])
+                rp, rb = avg(a["picks"]), avg(base_t)
+                pvs = {"since": since, "base": base_t, "pick": rp, "base_r": rb, "edge": round(rp - rb, 2) if rp is not None and rb is not None else None,
+                       "days": len(cal) - i0}
+        hold.append({"name": a["name"], "pct": a["pct"], "instruments": a["instruments"], "check": chk, "sig": sig, "pick_vs": pvs,
                      "picks": a.get("picks"), "why_picks": a.get("why_picks"),
                      "us": [{"t": t, "name": PNAME.get(t), "px": round(float(C[t].iloc[-1]), 2) if t in C else None, "cur": CURN.get(sfx(t), "달러"),
                              "krw": (round(float(C[t].iloc[-1]) * (fx / float(C[FXT[sfx(t)]].iloc[-1]) if sfx(t) and FXT[sfx(t)] in C else fx)))
