@@ -5,7 +5,7 @@
   → 후보가 아니라 「확인된 순간」에만 들어간다.
 
   규칙
-  · 자리 5개, 한 자리 = 슬리브의 20% (= 포트의 3%). 빈 자리는 현금(SGOV).
+  · 자리 5개, 한 자리 = 슬리브의 20% (10/10부터 돌파 9% → 포트의 1.8%). 빈 자리는 현금(SGOV).
   · 들어가는 신호 (우선순위): ① 🎯 집중 ★종목 기준가 돌파(장중 알림)  ② 눈 검사 통과 컵의 기준가 돌파  ③ 그 밖의 컵 돌파  ④ 돌파 갭(메우지 않음)
     점수 + 고래 TOP10 겹치면 +10. 하루 새로 들어가는 건 최대 2개, 같은 종목 중복 없음, 판 지 10거래일 안 된 종목 재진입 없음.
   · 들어가는 값: 신호가 뜬 날 종가.
@@ -13,6 +13,14 @@
   · 브레이크: 슬리브가 시작 대비 −6% 아래면 10거래일 새 진입 멈춤.
   · 수익률은 각 종목 현지 통화 기준(환율 제외), 수수료·세금 제외.
   → market/kick.json (앱 💼 포트 탭 「기본 vs 킥」 비교) · 새로 사고판 날 ntfy chkchp-ch-kick 알림
+
+  🐋 고래 바스켓 (10/10 사용자: "S&P500 을 이기는 게 쉽지 않은데 고래는 이기잖아. 킥에 고래도 좀 반영")
+  · 근거(whale40 13F 큰 신규 포지션 2025Q2~2026Q2, 160종목 vs S&P): 하나씩은 반반(중앙 초과 ≈ 0)이지만 같은 비중 바스켓은
+    바이오 전문 펀드를 빼면 매 분기 S&P 를 이김 — 1개월 5/5 분기(+2.8%p) · 3개월 4/4(+3.9%p) · 6개월 3/3(+10.0%p). 바이오 펀드 것은 6개월 −16.7%p.
+    → 이기는 힘은 「몇 개의 큰 승자」에서 나온다. 그래서 돌파 칸의 −5% 손절·15일 시간 손절을 쓰지 않는다(큰 승자를 잘라 버림).
+  · 규칙: 최신 13F 분기(분기 끝 +46일 = 공시 마감 뒤)의 큰 신규 포지션 중 바이오 전문 펀드만 산 것·ETF·미국 밖 티커를 빼고,
+    여러 고래가 산 것 → 포트 비중 큰 것 순으로 최대 10종목을 같은 비중으로 사서 다음 분기 목록이 나올 때까지 들고 간다.
+    한 종목이 −30% 면 그것만 현금으로(사고 대비). 킥 15% = ⚡ 돌파 9% + 🐋 고래 6% (kick_params 의 sleeve·whale_sleeve).
 """
 from __future__ import annotations
 import datetime as dt
@@ -31,12 +39,52 @@ PARAMS = ROOT / "market" / "kick_params.json"      # 엣지 연구(주간)가 �
 _DEF = {"sleeve": 0.15, "slots": 5, "stop": -0.05, "take": 0.15, "time_d": 15, "time_min": 0.03, "brake": -0.06, "brake_d": 10, "max_new": 2, "reentry": 10,
         "pri": {"focus": 40, "cup_eye": 25, "lead": 20, "cup": 10, "accum": 10, "whale": 8, "gap": 0}, "whale_bonus": 10, "off": [],
         "lead_min": 1.5, "lead_cor": 0.3, "adaptive": True,
-        "gap_fill_exit": True, "cup_min_handle": 0, "cup_min_rs": 0, "cup_mkts": [], "gap_min": 0, "gap_max": 100, "gap_max_vol": 1000}
+        "gap_fill_exit": True, "cup_min_handle": 0, "cup_min_rs": 0, "cup_mkts": [], "gap_min": 0, "gap_max": 100, "gap_max_vol": 1000,
+        "whale_sleeve": 0.0, "whale_n": 10, "whale_stop": -0.30}
 try:
     _P = {**_DEF, **json.loads(PARAMS.read_text(encoding="utf-8"))}
 except Exception:
     _P = dict(_DEF)
 SLEEVE, SLOTS = _P["sleeve"], _P["slots"]
+WS, WN, WSTOP = _P["whale_sleeve"], _P["whale_n"], _P["whale_stop"]
+WHALE_RAW = "https://raw.githubusercontent.com/chkchp0702-spec/whale40/main/data/signals.json"
+BIO = {"EcoR1 Capital", "Baker Bros. Advisors", "BVF", "Perceptive Advisors", "Deep Track Capital", "Avoro Capital Advisors", "Vivo Capital",
+       "OrbiMed Advisors", "RA Capital Management", "Cormorant Asset Management", "Rock Springs Capital", "Commodore Capital", "Logos Global Management",
+       "Great Point Partners", "Venrock Healthcare Capital Partners", "Janus Henderson Biotech", "Boxer Capital", "Farallon Biotech"}
+NOT_STOCK = {"SPY", "QQQ", "IWM", "DIA", "VOO", "IVV", "RSP", "XLF", "XLP", "XLI", "XLE", "XLK", "XLV", "XLU", "XLY", "XLB", "XLC", "XLRE", "IGV", "SMH",
+             "SOXX", "GDX", "GDXJ", "GLD", "SLV", "TLT", "IEF", "HYG", "LQD", "EWZ", "EWJ", "EWY", "FXI", "KWEB", "EEM", "EFA", "VEA", "VWO", "ARKK", "XBI",
+             "IBB", "SPUU", "TQQQ", "SQQQ", "UVXY", "VXX", "NONE"}
+QEND = {"Q1": "-03-31", "Q2": "-06-30", "Q3": "-09-30", "Q4": "-12-31"}
+
+
+def whale_lists():
+    """분기 → (목록 공개일, [종목]) — whale40 의 13F 큰 신규 포지션"""
+    try:
+        with urllib.request.urlopen(urllib.request.Request(WHALE_RAW, headers={"User-Agent": "ch-kick"}), timeout=40) as r:
+            sig = json.loads(r.read().decode("utf-8"))
+    except Exception as e:
+        print("고래 목록 실패", e)
+        return []
+    out = []
+    for q, d in sig.items():
+        try:
+            qq, yy = q.split()
+            avail = (dt.date.fromisoformat(yy + QEND[qq]) + dt.timedelta(days=46)).isoformat()
+        except Exception:
+            continue
+        rows = []
+        for t, v in d.items():
+            if t in NOT_STOCK or "." in t or not t.isalpha():
+                continue
+            by = v.get("by") or []
+            if by and all(b in BIO for b in by):
+                continue                      # 바이오 전문 펀드만 산 것은 뺀다 (6개월 −16.7%p)
+            if max(v.get("w") or [0]) >= 50:
+                continue                      # 한 종목 몰빵 공시(특수 상황)
+            rows.append({"t": t, "n": v.get("n", 1), "w": round(max(v.get("w") or [0]), 2), "by": by[:3]})
+        rows.sort(key=lambda x: (-x["n"], -x["w"]))
+        out.append((avail, q, rows))
+    return sorted(out)
 STOP, TAKE, TIME_D, TIME_MIN = _P["stop"], _P["take"], _P["time_d"], _P["time_min"]
 BRAKE, BRAKE_D, MAX_NEW, REENTRY = _P["brake"], _P["brake_d"], _P["max_new"], _P["reentry"]
 PRI = {**_DEF["pri"], **_P.get("pri", {})}
@@ -163,7 +211,8 @@ def main() -> int:
         pass
     whale = set(C.get("whale", []))
     import yfinance as yf
-    tick = sorted({c["code"] for c in cands} | {"SGOV", "SPY"})
+    WL = whale_lists() if WS > 0 else []
+    tick = sorted({c["code"] for c in cands} | {"SGOV", "SPY"} | {r["t"] for _, _, rows in WL for r in rows[:WN * 2]})
     start = (dt.date.fromisoformat(START) - dt.timedelta(days=45)).isoformat()
     df = yf.download(tick, start=start, interval="1d", auto_adjust=True, progress=False, group_by="ticker", threads=True)
     CL = {}
@@ -285,6 +334,36 @@ def main() -> int:
         else:
             val[0] = total
 
+    # 🐋 고래 바스켓 — 분기마다 같은 비중으로 사서 다음 목록까지 들고 감 (−30% 사고 대비만)
+    wval, wbask, wq, wev = [1.0], [], None, []
+    wv = 1.0
+    for i, d in enumerate(D):
+        cur = [x for x in WL if x[0] <= d]
+        if cur and (wq is None or cur[-1][1] != wq):
+            q, rows = cur[-1][1], cur[-1][2]
+            pick = [r for r in rows if r["t"] in CL and px(r["t"], d)][:WN]
+            if pick:
+                old = {b["t"] for b in wbask}
+                wbask = [{**r, "d0": d, "entry": px(r["t"], d), "on": True, "exit": None} for r in pick]
+                wq = q
+                wev.append({"d": d, "k": "고래 바스켓 교체" if old else "고래 바스켓 시작", "q": q, "in": [b["t"] for b in wbask if b["t"] not in old],
+                            "out": sorted(old - {b["t"] for b in wbask})})
+                wbase = wv
+        if wbask:
+            parts = []
+            for b in wbask:
+                c = px(b["t"], d) or b["entry"]
+                if b["on"] and c / b["entry"] - 1 <= WSTOP:
+                    b["on"], b["exit"] = False, c
+                    wev.append({"d": d, "k": "고래 −30% 정리", "t": b["t"]})
+                parts.append((b["exit"] if not b["on"] else c) / b["entry"])
+            wv = wbase * sum(parts) / len(parts)
+        if i > 0:
+            wval.append(wv)
+        else:
+            wval[0] = wv
+    wsv = dict(zip(D, wval))
+
     # 기본 포트 vs 킥 포트 (같은 날짜 줄)
     pdates, pnav = P["dates"], P["nav"]
     base = [1 + v / 100 for v in pnav]
@@ -298,7 +377,8 @@ def main() -> int:
         rb = base[j] / base[j - 1] - 1
         rs = (sv.get(d1, sv.get(d0, 1.0)) / sv.get(d0, 1.0) - 1) if d0 in sv else (sv.get(d1, 1.0) - 1)
         rg = (sg[d1] / sg[d0] - 1) if sg.get(d0) and sg.get(d1) else 0
-        kick.append(kick[-1] * (1 + rb - SLEEVE * rg + SLEEVE * rs))
+        rw = (wsv.get(d1, wsv.get(d0, 1.0)) / wsv.get(d0, 1.0) - 1) if d0 in wsv else 0.0
+        kick.append(kick[-1] * (1 + rb - (SLEEVE + WS) * rg + SLEEVE * rs + WS * rw))
         lastv = sv.get(d1, lastv)
         sleeve_line.append(round((lastv - 1) * 100, 2))
     for t in closed:
@@ -319,14 +399,20 @@ def main() -> int:
         "dates": pdates, "base": [round((b - 1) * 100, 2) for b in base], "kick": [round((k - 1) * 100, 2) for k in kick],
         "sleeve": round((val[-1] - 1) * 100, 2), "sleeve_line": sleeve_line,
         "open": openp, "closed": trades[::-1][:40], "closed_all": [{"src": t["src"], "r": t["r"], "d1": t["d1"]} for t in trades], "events": events[::-1][:40],
-        "stat": {"base": round((base[-1] - 1) * 100, 2), "kick": round((kick[-1] - 1) * 100, 2), "spy": P["stat"]["spy"],
+        "stat": {"base": round((base[-1] - 1) * 100, 2), "kick": round((kick[-1] - 1) * 100, 2), "spy": P["stat"]["spy"], "whale": round((wval[-1] - 1) * 100, 2) if WS > 0 else None,
                  "trades": len(trades), "win": round(len(wins) / len(trades) * 100) if trades else None,
                  "avg_win": avg(wins), "avg_loss": avg(loss), "avg": avg(trades), "slots": f"{len(pos)}/{SLOTS}",
                  "paused": pause_until >= len(D) - 1},
-        "rules": {"sleeve": SLEEVE, "slots": SLOTS, "stop": STOP, "take": TAKE, "time": TIME_D, "brake": BRAKE, "off": sorted(OFF)},
+        "rules": {"sleeve": SLEEVE, "slots": SLOTS, "stop": STOP, "take": TAKE, "time": TIME_D, "brake": BRAKE, "off": sorted(OFF), "whale_sleeve": WS, "whale_n": WN},
+        "whale": {"q": wq, "ret": round((wval[-1] - 1) * 100, 2), "line": [round((wsv.get(x, 1.0) - 1) * 100, 2) for x in pdates], "sleeve": WS,
+                  "rows": [{"t": b["t"], "n": b["n"], "w13f": b["w"], "by": b["by"], "d0": b["d0"], "entry": round(b["entry"], 4),
+                            "now": round(px(b["t"], last_d) or b["entry"], 4), "r": round(((b["exit"] if not b["on"] else (px(b["t"], last_d) or b["entry"])) / b["entry"] - 1) * 100, 2),
+                            "on": b["on"], "w": round(WS * 100 / max(1, len(wbask)), 2)} for b in wbask],
+                  "events": wev[::-1][:10],
+                  "why": "13F 큰 신규 포지션 같은 비중 바스켓은 바이오 펀드를 빼면 매 분기 S&P 를 이김(1개월 5/5 +2.8%p · 3개월 4/4 +3.9%p · 6개월 3/3 +10.0%p, 2025Q2~2026Q2). 하나씩은 반반이라 바스켓으로만, 큰 승자를 자르지 않게 분기 동안 들고 감."} if WS > 0 else None,
         "by_src": {SRC_NAME.get(k, k): v for k, v in ADAPT.items()},
         "src_names": SRC_NAME,
-        "note": "킥 포트 = 기본 포트에서 현금 15%p 를 ⚡ 킥 슬리브로. 슬리브는 우리 스캐너가 「확인한 순간」(컵 기준가 돌파·돌파 갭·🎯 집중 돌파)에만 3%씩 들어가고 규칙대로 나옴. "
+        "note": f"킥 포트 = 기본 포트에서 현금 {round((SLEEVE + WS) * 100)}%p 를 ⚡ 돌파 {round(SLEEVE * 100)}% + 🐋 고래 바스켓 {round(WS * 100)}% 로. 슬리브는 우리 스캐너가 「확인한 순간」(컵 기준가 돌파·돌파 갭·🎯 집중 돌파)에만 " + f"{round(SLEEVE / SLOTS * 100, 1)}%씩 들어가고 규칙대로 나옴. 고래 바스켓은 분기마다 13F 큰 신규 포지션을 같은 비중으로 들고 감. "
                 "10/9 이전은 같은 규칙으로 되짚은 계산(눈 검사는 10/9 결과를 썼으니 실전보다 조금 유리할 수 있음 — 10/10부터는 실시간 기록). 현지 통화 기준·수수료 제외. 매수 추천 아님.",
     }
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

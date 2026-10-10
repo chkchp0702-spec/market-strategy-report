@@ -1,6 +1,6 @@
 {
  "_doc": "⚡ 킥 슬리브 손잡이 — 주간 엣지 연구가 장부 성적을 근거로 고친다. 고친 이유는 brain/edge.md 에.",
- "sleeve": 0.15,
+ "sleeve": 0.09,
  "slots": 5,
  "stop": -0.05,
  "take": 0.15,
@@ -30,5 +30,9 @@
  "gap_min": 4,
  "gap_max": 8,
  "gap_max_vol": 6,
- "gap_fill_exit": true
+ "gap_fill_exit": true,
+ "whale_sleeve": 0.06,
+ "whale_n": 10,
+ "whale_stop": -0.3,
+ "_whale": "10/10 사용자 「킥에 고래도」 → 킥 15% = ⚡ 돌파 9% + 🐋 고래 바스켓 6%. 근거: 13F 큰 신규(바이오 펀드 제외) 같은 비중 바스켓이 매 분기 S&P 이김(3개월 4/4 +3.9%p, 6개월 3/3 +10.0%p)"
 }
