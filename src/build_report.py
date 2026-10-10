@@ -15,7 +15,7 @@
   - 전체본은 정확히 7쪽, 요약본은 정확히 1쪽. 어떤 쪽도 푸터를 넘으면 빌드 실패.
 """
 from __future__ import annotations
-import argparse, json, sys
+import argparse, json, re, sys
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
@@ -72,11 +72,23 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
         sc_rows += [{"date": d["date"], **r} for r in d.get("scorecard_today", [])]
     scorecard_total = L.totals_line(L.scorecard_totals(sc_rows))
     alloc_rows = [{**a, **s} for a, s in zip(led["allocation"], d["allocation_seen"])]
+    # ⚡ 킥 포함 자산 배분 (10/10 사용자: "시황에 킥 자산배분 넣고") — market/kick.json
+    kick_alloc = None
+    try:
+        K = json.loads((ROOT / "market" / "kick.json").read_text(encoding="utf-8"))
+        kw = round(sum(o.get("w") or 0 for o in K.get("open", [])), 1)
+        cash = next((a["pct"] for a in led["allocation"] if "현금" in a["name"]), None)
+        short = lambda x: re.sub(r",? (Inc\.?|Corp\.?|Corporation|Company|Ltd\.?|plc|CORP)\b.*$|( Common Stock| Ordinary Shares).*$", "", str(x or ""), flags=re.I)
+        kick_alloc = {"kw": kw, "cash": cash, "cash_k": round(cash - kw, 1) if cash is not None else None, "stat": K.get("stat", {}),
+                      "open": [{"name": short(o.get("name")), "code": o.get("code"), "w": round(o.get("w") or 0, 1), "r": o.get("r"),
+                                "src": re.sub(r"\(.*\)", "", str(o.get("src") or "")).strip()} for o in K.get("open", [])]}
+    except Exception:
+        pass
 
     css = (TPL / "base.css").read_text(encoding="utf-8")
     env = Environment(loader=FileSystemLoader(str(TPL)), autoescape=select_autoescape(default=False))
     ctx = dict(d=d, led=led, css=css, charts=charts, panel_rows=panel_rows, panel_groups=panel_groups,
-               outside_rows=outside_rows, scorecard_total=scorecard_total, alloc_rows=alloc_rows,
+               outside_rows=outside_rows, scorecard_total=scorecard_total, alloc_rows=alloc_rows, kick_alloc=kick_alloc,
                panel_n=len(panel_rows), cal=cal, board=board, sec=sec, focus=focus)
 
     tag = f'{d["date"]}_{d["edition"]}'

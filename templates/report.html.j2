@@ -175,11 +175,14 @@
 <section class="page">
  <div class="hd"><h1>내 포트폴리오 — 배분과 실제 종목</h1><div class="d">{{ d.decision.badges | join(' · ') }}</div></div>
  <div class="box"><h3>배분표</h3>
-  <table style="font-size:7.7pt">
-   <tr><th style="width:36px">비중</th><th style="width:72px">무엇</th><th>실제로 담는 것</th><th>어제 본 것</th><th style="width:50px">판정</th><th style="width:140px">바꿀 조건</th></tr>
+  <table class="altb" style="font-size:7.5pt">
+   <tr><th style="width:36px">비중</th><th style="width:72px">무엇</th><th>실제로 담는 것</th><th>어제 본 것</th><th style="width:62px">판정</th><th style="width:132px">바꿀 조건</th></tr>
    {% for a in alloc_rows %}<tr><td><b>{{ a.pct }}%</b></td><td>{{ a.name }}</td><td>{{ a.instruments }}</td><td>{{ a.seen }}</td><td class="{{ a.verdict_cls }}">{{ a.verdict }}</td><td>{{ a.rule }}</td></tr>{% endfor %}
   </table>
   <div class="note" style="margin-top:3px">{{ d.allocation_note }}</div>
+  {% if kick_alloc %}<div style="margin-top:2px;background:#fff1f0;border-left:3px solid #e0524b;border-radius:4px;padding:2px 6px;font-size:7.3pt;line-height:1.25">
+   <b>⚡ 킥 포함 배분</b> — 현금 {{ kick_alloc.cash }}→{{ kick_alloc.cash_k }}% · 킥 슬리브 {{ kick_alloc.kw }}%{% if kick_alloc.open %} = {% for o in kick_alloc.open %}{{ o.name }} {{ o.w }}%({{ '%+.1f' % o.r if o.r is not none else '–' }}%){% if not loop.last %} · {% endif %}{% endfor %}{% endif %}
+   · 누적 💼 기본 {{ '%+.2f' % kick_alloc.stat.base }}% · ⚡ 킥 {{ '%+.2f' % kick_alloc.stat.kick }}% · S&P {{ '%+.2f' % kick_alloc.stat.spy }}%</div>{% endif %}
  </div>
  <div class="g2" style="margin-top:7px">
   <div class="box"><h3>경우의 수 — 확률</h3>
