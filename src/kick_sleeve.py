@@ -96,6 +96,35 @@ SRC_NAME = {"focus": "🎯 집중 돌파", "cup_eye": "☕ 컵 돌파(눈 검사
             "lead": "🔗 미국→한국 선행", "accum": "🤫 매집 박스 돌파", "whale": "🐋 고래 큰손 매수"}
 
 
+# ✅ 성과가 확인된 신호만 킥에 들어온다 (10/10 사용자: "고래·컵·갭·조용한 매집이 성과 확인된 것만 자연스럽게, 킥 포트는 하나만")
+#    기준: 우리 장부(market/edge.json)에서 표본 20건 이상 · 손익비 1.5 이상. 고래는 13F 바스켓 검증(매 분기 S&P 이김).
+#    아직 아닌 신호는 「⏳ 대기」— 표본이 차면 다음 계산부터 저절로 들어온다. 🎯 집중·🔗 선행은 사용자 목록 밖이라 넣지 않는다.
+TAG = {"cup_eye": "☕", "cup": "☕", "gap": "📈", "accum": "🤫", "whale": "🐋", "focus": "🎯", "lead": "🔗"}
+KICK_SRCS = ["cup_eye", "cup", "gap", "accum", "whale"]
+PROOF_N, PROOF_PF = 20, 1.5
+
+
+def proof():
+    """신호별 성과 확인 — {src: {n, pf, avg, on, why}}"""
+    try:
+        E = json.loads((ROOT / "market" / "edge.json").read_text(encoding="utf-8"))
+    except Exception:
+        E = {}
+    g = lambda *ks: (lambda d: d if isinstance(d, dict) else {})(__import__("functools").reduce(lambda a, k: (a or {}).get(k) if isinstance(a, dict) else None, ks, E))
+    st = {"cup": g("cup", "brk_now"), "gap": g("gap", "돌파_by_size", "4-8%"), "accum": g("accum", "brk")}
+    out = {}
+    for k, v in st.items():
+        n, pf = v.get("n") or 0, v.get("pf") or 0
+        on = n >= PROOF_N and pf >= PROOF_PF
+        out[k] = {"n": n, "pf": round(pf, 2) if pf < 100 else None, "avg": v.get("avg"), "on": on,
+                  "why": (f"확인됨 — {n}건 · 평균 {v.get('avg'):+.1f}% · 손익비 {pf:.1f}" if on else f"⏳ 대기 — 돌파 표본 {n}/{PROOF_N}건" + (f" · 손익비 {pf:.1f}" if n and pf < 100 else ""))}
+    out["cup_eye"] = out["cup"]
+    out["whale"] = {"n": 160, "pf": None, "avg": None, "on": True, "why": "확인됨 — 13F 큰 신규 바스켓이 매 분기 S&P 이김(3개월 4/4 +3.9%p · 6개월 3/3 +10.0%p)"}
+    for k in ("focus", "lead"):
+        out[k] = {"n": 0, "on": False, "why": "킥 대상 아님(사용자 목록: 고래·컵·갭·매집)"}
+    return out
+
+
 def get_json(path):
     with urllib.request.urlopen(urllib.request.Request(RAW + path, headers={"User-Agent": "ch-kick"}), timeout=40) as r:
         return json.loads(r.read().decode("utf-8"))
@@ -200,7 +229,12 @@ def main() -> int:
     P = json.loads(PORT.read_text(encoding="utf-8"))
     START = P["start"]
     C = collect(now)
-    cands = [v for v in C["cands"].values() if v["d"] >= START and v["src"] not in OFF]
+    PROOF = proof()
+    cands = [v for v in C["cands"].values() if v["d"] >= START and v["src"] not in OFF and v["src"] in KICK_SRCS and PROOF.get(v["src"], {}).get("on")]
+    recent_sig = {}                                    # 종목 → 최근 신호 이모티콘 (고래 종목에도 ☕·📈·🤫 표시)
+    for v in C["cands"].values():
+        if v["src"] in TAG and v["d"] >= (now - dt.timedelta(days=30)).strftime("%Y-%m-%d"):
+            recent_sig.setdefault(v["code"], set()).add(TAG[v["src"]])
     ADAPT = {}
     try:   # 우리 장부에서 배운 신호별 성적 → 가중치 (거래 5건 이상부터)
         prev = json.loads(OUT.read_text(encoding="utf-8"))
@@ -397,8 +431,29 @@ def main() -> int:
         openp.append({"code": p["code"], "name": p["name"], "mkt": p.get("mkt"), "src": SRC_NAME.get(p["src"], p["src"]), "d0": p["d0"], "entry": round(p["entry"], 4),
                       "now": round(c, 4), "r": round((c / p["entry"] - 1) * 100, 2), "days": p["held"], "half": p["half"], "whale": p.get("whale"),
                       "stop": round(p["entry"] * (1 + STOP), 4), "take": round(p["entry"] * (1 + TAKE), 4), "w": round(p["sh"] * c / val[-1] * SLEEVE * 100, 2)})
+    # ⚡ 하나의 킥 포트 — 돌파로 들어온 것 + 고래 바스켓을 한 목록으로, 종목마다 어디서 왔는지 작은 이모티콘
+    wset = {b["t"] for b in wbask if b["on"]}
+    hold = []
+    for o in openp:
+        tg = TAG.get(next((k for k, v in SRC_NAME.items() if v == o["src"]), ""), "")
+        tags = [tg] if tg else []
+        if o["code"] in wset or o.get("whale"):
+            tags.append("🐋")
+        hold.append({"code": o["code"], "name": o["name"], "tags": "".join(dict.fromkeys(tags)), "w": o["w"], "r": o["r"], "d0": o["d0"], "entry": o["entry"],
+                     "now": o["now"], "kind": "돌파", "rule": f"손절 {o['stop']:g} · +15% 절반", "half": o["half"]})
+    for b in wbask:
+        if not b["on"]:
+            continue
+        tags = ["🐋"] + sorted(recent_sig.get(b["t"], set()) - {"🐋", "🎯", "🔗"})
+        nowp = px(b["t"], last_d) or b["entry"]
+        hold.append({"code": b["t"], "name": b["t"], "tags": "".join(tags), "w": round(WS * 100 / max(1, len(wbask)), 2), "r": round((nowp / b["entry"] - 1) * 100, 2),
+                     "d0": b["d0"], "entry": round(b["entry"], 4), "now": round(nowp, 4), "kind": "고래", "rule": "분기 보유 · −30%만 정리",
+                     "by": b["by"][:2], "half": False})
+    hold.sort(key=lambda h: -h["r"])
     out = {
         "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "asof": last_d,
+        "hold": hold, "proof": {k: v for k, v in PROOF.items() if k in ("whale", "cup", "gap", "accum")},
+        "tags": {"🐋": "고래 13F 큰 신규", "☕": "컵 돌파", "📈": "돌파 갭", "🤫": "조용한 매집 돌파"},
         "dates": pdates, "base": [round((b - 1) * 100, 2) for b in base], "kick": [round((k - 1) * 100, 2) for k in kick],
         "sleeve": round((val[-1] - 1) * 100, 2), "sleeve_line": sleeve_line,
         "open": openp, "closed": trades[::-1][:40], "closed_all": [{"src": t["src"], "r": t["r"], "d1": t["d1"]} for t in trades], "events": events[::-1][:40],
@@ -415,8 +470,9 @@ def main() -> int:
                   "why": "13F 큰 신규 포지션 같은 비중 바스켓은 바이오 펀드를 빼면 매 분기 S&P 를 이김(1개월 5/5 +2.8%p · 3개월 4/4 +3.9%p · 6개월 3/3 +10.0%p, 2025Q2~2026Q2). 하나씩은 반반이라 바스켓으로만, 큰 승자를 자르지 않게 분기 동안 들고 감."} if WS > 0 else None,
         "by_src": {SRC_NAME.get(k, k): v for k, v in ADAPT.items()},
         "src_names": SRC_NAME,
-        "note": f"킥 포트 = 기본 포트에서 현금 {round((SLEEVE + WS) * 100)}%p 를 ⚡ 돌파 {round(SLEEVE * 100)}% + 🐋 고래 바스켓 {round(WS * 100)}% 로. 슬리브는 우리 스캐너가 「확인한 순간」(컵 기준가 돌파·돌파 갭·🎯 집중 돌파)에만 " + f"{round(SLEEVE / SLOTS * 100, 1)}%씩 들어가고 규칙대로 나옴. 고래 바스켓은 분기마다 13F 큰 신규 포지션을 같은 비중으로 들고 감. "
-                "10/9 이전은 같은 규칙으로 되짚은 계산(눈 검사는 10/9 결과를 썼으니 실전보다 조금 유리할 수 있음 — 10/10부터는 실시간 기록). 현지 통화 기준·수수료 제외. 매수 추천 아님.",
+        "note": f"⚡ 킥 포트 = 기본 포트에서 현금 {round((SLEEVE + WS) * 100)}%p 를 떼어 「성과가 확인된 신호」(🐋 고래 · ☕ 컵 · 📈 갭 · 🤫 매집 — 표본 20건↑·손익비 1.5↑)에만 담은 것. "
+                f"☕📈🤫 돌파는 확인된 순간 {round(SLEEVE / SLOTS * 100, 1)}%씩(−5% 손절 · +15% 절반 익절), 🐋 고래는 13F 큰 신규를 같은 비중으로 분기 동안(−30%만 정리). "
+                "아직 확인 안 된 신호는 표본이 차면 저절로 들어온다. 10/9 이전은 같은 규칙으로 되짚은 계산. 현지 통화 기준·수수료 제외. 매수 추천 아님.",
     }
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     # 오늘 새로 사고판 것 알림 (한 번만)
