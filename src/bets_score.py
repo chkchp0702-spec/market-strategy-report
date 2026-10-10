@@ -39,7 +39,9 @@ def entry_plan(b: dict, year: int) -> tuple[dt.date | None, str]:
         m = re.search(r"entry\s*=\s*([^.·—]*)", str(b.get("note") or ""))
         rule = m.group(1) if m else ""
     m = re.search(r"(\d{1,2})/(\d{1,2})", rule)
-    kind = "close" if "종가" in rule else "open"
+    # 시가/종가는 날짜 바로 뒤 첫 말로 정한다 ('10/12 시가로 확정(… 10/8 종가 미확인)' → 시가)
+    k = re.search(r"시가|종가", rule[m.end():] if m else rule)
+    kind = "close" if k and k.group(0) == "종가" else "open"
     if m:
         try:
             return dt.date(year, int(m.group(1)), int(m.group(2))), kind
