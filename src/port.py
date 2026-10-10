@@ -99,10 +99,11 @@ def update_log(now) -> list[dict]:
     if not log:
         log = [{"date": START, "alloc": alloc, "why": "장부 시작 배분표"}]
     elif sig(log[-1]["alloc"]) != sig(alloc):
-        old = {x["name"]: x["pct"] for x in log[-1]["alloc"]}
+        ref = log[-2] if log[-1]["date"] == today and len(log) > 1 else log[-1]   # 같은 날 두 번 바뀌면 전날 기준으로 이유를 다시 씀(앞 변경 이유가 지워지지 않게)
+        old = {x["name"]: x["pct"] for x in ref["alloc"]}
         ch = [f"{x['name']} {old.get(x['name'], 0)}→{x['pct']}%" for x in alloc if old.get(x["name"]) != x["pct"]]
         ch += [f"{n} {p}→0%" for n, p in old.items() if n not in {x["name"] for x in alloc}]
-        op = {x["name"]: x.get("picks") for x in log[-1]["alloc"]}
+        op = {x["name"]: x.get("picks") for x in ref["alloc"]}
         ch += [f"{x['name']} 상품 {'·'.join(op.get(x['name']) or ['기본'])} → {'·'.join(x['picks'])}" + (f" ({x['why_picks']})" if x.get("why_picks") else "")
                for x in alloc if x.get("picks") and x.get("picks") != op.get(x["name"])]
         entry = {"date": today, "alloc": alloc, "why": " · ".join(ch)}
