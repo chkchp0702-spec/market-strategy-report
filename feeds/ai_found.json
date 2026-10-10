@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "블룸버그: 데이터센터 기대주의 300억$ IPO 꿈, 48시간 만에 무산 — Nscale 미완공 데이터센터가 350억$ 상장 논리 약화",
+   "url": "https://www.theinformation.com/articles/nscales-unbuilt-data-centers-undercut-35-billion-ipo-pitch",
+   "press": "The Information / Bloomberg",
+   "at": "2026-10-10 13:40",
+   "why": "AI 차입(크레딧) 약한 고리 논지 — 데이터센터 자금 조달 창구가 닫히기 시작한 신호, 광통신·반도체 칸 리스크",
+   "summary": "데이터센터 IPO 수요 급랭(블룸버그 10/9 'Data Center Darling's $30 Billion IPO Dream Crushed in 48 Hours'). Nscale 은 아직 짓지 않은 데이터센터를 근거로 350억$ 상장 추진. 도이체방크 사라보스 'AI 붕괴로 채권 쏠림 위험이 과소평가'(블룸버그 10/9)와 같은 방향."
+  },
+  {
+   "title": "초대형 유조선 운임 폭등 — 미국→중국 원유 운송비 배럴당 41달러, 60년 만의 최고",
+   "url": "https://www.freightwaves.com/news/supertanker-rates-stratospheric-as-market-goes-bonkers",
+   "press": "FreightWaves / 하나증권 중국 텔레그램",
+   "at": "2026-10-10 13:40",
+   "why": "에너지 칸·정유주 — 운임이 정제마진을 잠식(정유 bets 위험), 유조선 선주는 수혜",
+   "summary": "VLCC 연환산 운임 920만$→7,700만$(8배+), 원유 운송비 배럴당 41$(유가 절반 수준), 중고 유조선 가격 사상 최고(HANAchina/70176). 호르무즈 운송 능력 부족·환적 증가로 항차 길어짐. FreightWaves 기사 게시일 미확인."
+  },
+  {
    "title": "딜러들, 베선트의 '금리 누르기' 국채 발행 조정 주시",
    "url": "https://news.bloomberglaw.com/capital-markets/dealers-on-watch-for-any-bessent-debt-sale-move-to-temper-yields",
    "press": "Bloomberg",
@@ -49,5 +65,5 @@
    "summary": "중간선거 앞두고 디젤 가격 인하 행정명령 준비 보도. 날짜 미확인."
   }
  ],
- "at": "2026-10-10 11:40"
+ "at": "2026-10-10 13:40"
 }
