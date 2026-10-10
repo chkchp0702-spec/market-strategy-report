@@ -12,6 +12,11 @@ import json
 import re
 import sys
 from pathlib import Path
+try:
+    from src.global_peers import THEMES as _TH
+    PNAME = {t: n for T in _TH for t, n in T["us"] + T["peers"]}
+except Exception:
+    PNAME = {}
 
 KST = dt.timezone(dt.timedelta(hours=9))
 ROOT = Path(__file__).resolve().parent.parent
@@ -217,7 +222,7 @@ def main() -> int:
                    "꺾이는 중 — 5일 약세 → 지켜보기" if rs5 < -3 else "보통")
         hold.append({"name": a["name"], "pct": a["pct"], "instruments": a["instruments"], "check": chk, "sig": sig,
                      "picks": a.get("picks"), "why_picks": a.get("why_picks"),
-                     "us": [{"t": t, "px": round(float(C[t].iloc[-1]), 2) if t in C else None, "cur": CURN.get(sfx(t), "달러"),
+                     "us": [{"t": t, "name": PNAME.get(t), "px": round(float(C[t].iloc[-1]), 2) if t in C else None, "cur": CURN.get(sfx(t), "달러"),
                              "krw": (round(float(C[t].iloc[-1]) * (fx / float(C[FXT[sfx(t)]].iloc[-1]) if sfx(t) and FXT[sfx(t)] in C else fx)))
                                     if t in C and fx else None,
                              "r1": round((ret(t, cal[-2], cal[-1]) or 0) * 100, 2) if t in C and len(cal) > 1 else None,
