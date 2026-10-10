@@ -1,5 +1,5 @@
 {
- "fetched_kst": "2026-10-10 08:23",
+ "fetched_kst": "2026-10-10 09:47",
  "items": {
   "sp500": {
    "value": 7811.54,
@@ -79,12 +79,12 @@
    "name": "미 2년 금리(선물)"
   },
   "usdkrw": {
-   "value": 1340.5,
+   "value": 1338.9,
    "prev": 1340.5,
-   "change": 0.0,
-   "change_pct": 0.0,
-   "asof_utc": "2026-10-09",
-   "asof_kst": "10/09/26 EDT",
+   "change": -1.5,
+   "change_pct": -0.11,
+   "asof_utc": "2026-10-09T20:01:05.000-0400",
+   "asof_kst": "8:01 PM EDT",
    "market_state": "REG_MKT",
    "src": "CNBC KRW=",
    "name": "달러/원"
@@ -204,8 +204,8 @@
    "prev": 63.55,
    "change": -0.42,
    "change_pct": -0.66,
-   "asof_utc": "2026-10-09T18:30:00.003-0400",
-   "asof_kst": "6:30 PM EDT",
+   "asof_utc": "2026-10-09T20:00:00.181-0400",
+   "asof_kst": "8:00 PM EDT",
    "market_state": "REG_MKT",
    "src": "CNBC KBE",
    "name": "미 은행 ETF(KBE)"
