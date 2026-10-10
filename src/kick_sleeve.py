@@ -118,6 +118,13 @@ def proof():
         on = n >= PROOF_N and pf >= PROOF_PF
         out[k] = {"n": n, "pf": round(pf, 2) if pf < 100 else None, "avg": v.get("avg"), "on": on,
                   "why": (f"확인됨 — {n}건 · 평균 {v.get('avg'):+.1f}% · 손익비 {pf:.1f}" if on else f"⏳ 대기 — 돌파 표본 {n}/{PROOF_N}건" + (f" · 손익비 {pf:.1f}" if n and pf < 100 else ""))}
+    try:   # 👻 그림자 채점이 표본 20↑·손익비 1.5↑면 그 신호도 확인된 것으로 (장부 표본이 부족한 매집 등)
+        SS = json.loads((ROOT / "market" / "kick.json").read_text(encoding="utf-8")).get("shadow_stat", {})
+        for k, v in SS.items():
+            if k in out and not out[k]["on"] and (v.get("n") or 0) >= PROOF_N and (v.get("pf") or 0) >= PROOF_PF:
+                out[k].update({"on": True, "why": f"확인됨(그림자 채점) — {v['n']}건 · 평균 {v['avg']:+.1f}% · 손익비 {v['pf']:.1f}"})
+    except Exception:
+        pass
     out["cup_eye"] = out["cup"]
     out["whale"] = {"n": 160, "pf": None, "avg": None, "on": True, "why": "확인됨 — 13F 큰 신규 바스켓이 매 분기 S&P 이김(3개월 4/4 +3.9%p · 6개월 3/3 +10.0%p)"}
     for k in ("focus", "lead"):
@@ -230,7 +237,9 @@ def main() -> int:
     START = P["start"]
     C = collect(now)
     PROOF = proof()
-    cands = [v for v in C["cands"].values() if v["d"] >= START and v["src"] not in OFF and v["src"] in KICK_SRCS and PROOF.get(v["src"], {}).get("on")]
+    allc = [v for v in C["cands"].values() if v["d"] >= START and v["src"] not in OFF]
+    shadow_c = [v for v in allc if not (v["src"] in KICK_SRCS and PROOF.get(v["src"], {}).get("on"))]   # 아직 못 들어오는 신호 → 그림자 채점
+    cands = [v for v in allc if v not in shadow_c]
     recent_sig = {}                                    # 종목 → 최근 신호 이모티콘 (고래 종목에도 ☕·📈·🤫 표시)
     for v in C["cands"].values():
         if v["src"] in TAG and v["d"] >= (now - dt.timedelta(days=30)).strftime("%Y-%m-%d"):
@@ -249,7 +258,7 @@ def main() -> int:
     whale = set(C.get("whale", []))
     import yfinance as yf
     WL = whale_lists() if WS > 0 else []
-    tick = sorted({c["code"] for c in cands} | {"SGOV", "SPY"} | {r["t"] for _, _, rows in WL for r in rows[:WN * 2]})
+    tick = sorted({c["code"] for c in cands + shadow_c} | {"SGOV", "SPY"} | {r["t"] for _, _, rows in WL for r in rows[:WN * 2]})
     start = (dt.date.fromisoformat(START) - dt.timedelta(days=45)).isoformat()
     df = yf.download(tick, start=start, interval="1d", auto_adjust=True, progress=False, group_by="ticker", threads=True)
     CL = {}
@@ -371,6 +380,38 @@ def main() -> int:
         else:
             val[0] = total
 
+    # 👻 그림자 채점 — 킥에 못 들어온 신호도 「들어갔다면」을 같은 규칙으로 계산해 쌓는다. 표본 20↑·손익비 1.5↑면 다음부터 진짜로 들어옴.
+    SH = json.loads(OUT.read_text(encoding="utf-8")).get("shadow_log", {}) if OUT.exists() else {}
+    for c in shadow_c:
+        key = f"{c['code']}|{c['d']}|{c['src']}"
+        s_ = CL.get(c["code"])
+        if s_ is None:
+            continue
+        ds = [x for x in s_.index if x.strftime("%Y-%m-%d") >= c["d"]]
+        if len(ds) < 2:
+            continue
+        e0 = float(s_[ds[0]]); r, half, mx = None, False, e0
+        for k_, x in enumerate(ds[1:], 1):
+            p_ = float(s_[x]); mx = max(mx, p_)
+            if p_ / e0 - 1 <= STOP:
+                r = STOP * 100 if not half else (TAKE / 2 + (p_ / e0 - 1) / 2) * 100; break
+            if not half and p_ / e0 - 1 >= TAKE:
+                half = True
+            if k_ >= TIME_D and mx / e0 - 1 < TIME_MIN:
+                r = (p_ / e0 - 1) * 100; break
+        done = r is not None or len(ds) - 1 >= TIME_D
+        if r is None:
+            last = float(s_[ds[-1]]); r = ((TAKE / 2 + (last / e0 - 1) / 2) if half else (last / e0 - 1)) * 100
+        SH[key] = {"src": c["src"], "code": c["code"], "d": c["d"], "r": round(r, 2), "done": done}
+    shadow = {}
+    for v in SH.values():
+        shadow.setdefault(v["src"], []).append(v["r"])
+    shadow_stat = {}
+    for k_, rs in shadow.items():
+        g_, l_ = sum(x for x in rs if x > 0), -sum(x for x in rs if x < 0)
+        shadow_stat[k_] = {"n": len(rs), "avg": round(sum(rs) / len(rs), 2), "win": round(sum(1 for x in rs if x > 0) / len(rs) * 100),
+                           "pf": round(g_ / l_, 2) if l_ > 0 else None, "tag": TAG.get(k_, "")}
+
     # 🐋 고래 바스켓 — 분기마다 같은 비중으로 사서 다음 목록까지 들고 감 (−30% 사고 대비만)
     wval, wbask, wq, wev = [1.0], [], None, []
     wv = 1.0
@@ -453,6 +494,7 @@ def main() -> int:
     out = {
         "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "asof": last_d,
         "hold": hold, "proof": {k: v for k, v in PROOF.items() if k in ("whale", "cup", "gap", "accum")},
+        "shadow_stat": shadow_stat, "shadow_log": SH,
         "tags": {"🐋": "고래 13F 큰 신규", "☕": "컵 돌파", "📈": "돌파 갭", "🤫": "조용한 매집 돌파"},
         "dates": pdates, "base": [round((b - 1) * 100, 2) for b in base], "kick": [round((k - 1) * 100, 2) for k in kick],
         "sleeve": round((val[-1] - 1) * 100, 2), "sleeve_line": sleeve_line,
