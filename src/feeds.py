@@ -59,7 +59,47 @@ NEWS = [
     ("bbg_econ", "Bloomberg Economics", "블룸버그 RSS", "https://feeds.bloomberg.com/economics/news.rss"),
     ("gn_bbg", "News · Bloomberg 전체", "Google News (bloomberg.com)", GN.format(q="site:bloomberg.com+when:1d", hl="en-US", gl="US", lang="en")),
     ("gn_kr_bbg", "뉴스 · 블룸버그 인용", "구글 뉴스 검색 (한국 언론이 전한 블룸버그)", GN.format(q=_up.quote("블룸버그+when:1d", safe="+:"), hl="ko", gl="KR", lang="ko")),
+    # ── 10/10 사용자: "블룸버그뿐만 아니라 모든 걸 다" — 받을 수 있는 주요 언론·공식 기관 전부 ──
+    # (id, 이름, 설명, url, 대체 도메인) — RSS 가 막히거나 0개면 구글뉴스 site:도메인 으로 대신 받음
+    # 미국·글로벌 언론
+    ("reuters", "Reuters 비즈니스·시장", "구글뉴스 site:reuters.com", GN.format(q="site:reuters.com+(markets+OR+business+OR+stocks)+when:1d", hl="en-US", gl="US", lang="en")),
+    ("wsj_mkt", "WSJ Markets", "언론사 RSS", "https://feeds.a.dj.com/rss/RSSMarketsMain.xml", "wsj.com"),
+    ("wsj_biz", "WSJ Business", "언론사 RSS", "https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml", "wsj.com"),
+    ("wsj_tech", "WSJ Tech", "언론사 RSS", "https://feeds.a.dj.com/rss/RSSWSJD.xml", "wsj.com"),
+    ("ft_mkt", "Financial Times Markets", "언론사 RSS", "https://www.ft.com/markets?format=rss", "ft.com"),
+    ("ft_co", "Financial Times Companies", "언론사 RSS", "https://www.ft.com/companies?format=rss", "ft.com"),
+    ("mw_top", "MarketWatch", "언론사 RSS", "https://feeds.content.dowjones.io/public/rss/mw_topstories", "marketwatch.com"),
+    ("mw_pulse", "MarketWatch 실시간", "언론사 RSS", "https://feeds.content.dowjones.io/public/rss/mw_marketpulse", "marketwatch.com"),
+    ("barrons", "Barron's", "구글뉴스 site:barrons.com", GN.format(q="site:barrons.com+when:1d", hl="en-US", gl="US", lang="en")),
+    ("sa_news", "Seeking Alpha 시장 뉴스", "언론사 RSS", "https://seekingalpha.com/market_currents.xml", "seekingalpha.com"),
+    ("investing_en", "Investing.com 증시", "언론사 RSS", "https://www.investing.com/rss/news_25.rss", "investing.com"),
+    ("axios_mkt", "Axios Markets", "구글뉴스 site:axios.com", GN.format(q="site:axios.com+(markets+OR+economy+OR+business)+when:1d", hl="en-US", gl="US", lang="en")),
+    ("gn_us_tech", "News · 반도체·AI(영문)", "Google News", GN.format(q="semiconductor+OR+HBM+OR+Nvidia+OR+%22AI+data+center%22+OR+optical+module+when:1d", hl="en-US", gl="US", lang="en")),
+    ("gn_us_ib", "News · 월가 IB 전략", "Google News", GN.format(q="Goldman+Sachs+OR+%22Morgan+Stanley%22+OR+JPMorgan+OR+BlackRock+strategist+outlook+when:1d", hl="en-US", gl="US", lang="en")),
+    # 아시아 (일본·중국·홍콩)
+    ("nikkei_asia", "Nikkei Asia", "언론사 RSS", "https://asia.nikkei.com/rss/feed/nar", "asia.nikkei.com"),
+    ("scmp_biz", "SCMP 비즈니스", "언론사 RSS", "https://www.scmp.com/rss/92/feed", "scmp.com"),
+    ("caixin", "Caixin Global", "구글뉴스 site:caixinglobal.com", GN.format(q="site:caixinglobal.com+when:1d", hl="en-US", gl="US", lang="en")),
+    ("gn_jp", "ニュース · 일본 증시", "Google News 일본", GN.format(q="%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87+OR+%E6%A0%AA%E5%BC%8F%E5%B8%82%E5%A0%B4+OR+%E5%8D%8A%E5%B0%8E%E4%BD%93+when:1d", hl="ja", gl="JP", lang="ja")),
+    ("gn_hk", "新聞 · 홍콩·중국 증시", "Google News 홍콩", GN.format(q="%E6%B8%AF%E8%82%A1+OR+%E6%81%92%E6%8C%87+OR+A%E8%82%A1+OR+%E5%8D%8A%E5%B0%8E%E9%AB%94+when:1d", hl="zh-HK", gl="HK", lang="zh-Hant")),
+    # 공식 기관·통계
+    ("fed", "미 연준 발표", "공식 RSS", "https://www.federalreserve.gov/feeds/press_all.xml", "federalreserve.gov"),
+    ("ecb", "유럽중앙은행 발표", "공식 RSS", "https://www.ecb.europa.eu/rss/press.html", "ecb.europa.eu"),
+    ("eia", "미 에너지정보청(EIA)", "공식 RSS", "https://www.eia.gov/rss/todayinenergy.xml", "eia.gov"),
+    ("gn_kr_bok", "뉴스 · 한국은행·정부 경제 발표", "구글 뉴스 검색", GN.format(q=_up.quote("한국은행+OR+기획재정부+OR+산업통상자원부+수출+OR+금융위원회+when:1d", safe="+:"), hl="ko", gl="KR", lang="ko")),
+    # 한국 언론
+    ("yna_eco", "연합뉴스 경제", "언론사 RSS", "https://www.yna.co.kr/rss/economy.xml", "yna.co.kr"),
+    ("yna_mkt", "연합뉴스 마켓", "언론사 RSS", "https://www.yna.co.kr/rss/market.xml", "yna.co.kr"),
+    ("einfomax", "연합인포맥스", "구글뉴스 site:news.einfomax.co.kr", GN.format(q="site:news.einfomax.co.kr+when:1d", hl="ko", gl="KR", lang="ko")),
+    ("edaily", "이데일리 증권", "언론사 RSS", "http://rss.edaily.co.kr/stock_news.xml", "edaily.co.kr"),
+    ("sedaily", "서울경제 증권", "언론사 RSS", "https://www.sedaily.com/RSS/Stock", "sedaily.com"),
+    ("mt_stock", "머니투데이 증권", "언론사 RSS", "https://rss.mt.co.kr/mt_news_stock.xml", "mt.co.kr"),
+    ("chosunbiz", "조선비즈 증권", "구글뉴스 site:biz.chosun.com", GN.format(q="site:biz.chosun.com+when:1d", hl="ko", gl="KR", lang="ko")),
+    ("newspim", "뉴스핌", "구글뉴스 site:newspim.com", GN.format(q="site:newspim.com+when:1d", hl="ko", gl="KR", lang="ko")),
+    ("thebell", "더벨(자본시장)", "구글뉴스 site:thebell.co.kr", GN.format(q="site:thebell.co.kr+when:1d", hl="ko", gl="KR", lang="ko")),
+    ("gn_kr_global", "뉴스 · 해외 증시(한글)", "구글 뉴스 검색", GN.format(q=_up.quote("뉴욕증시+OR+나스닥+OR+엔비디아+OR+일본증시+OR+중국증시+OR+홍콩증시+when:1d", safe="+:"), hl="ko", gl="KR", lang="ko")),
 ]
+OLD_NEWS = {"gn_kr_mkt", "gn_kr_macro", "gn_kr_sector", "gn_kr_strat", "gn_us_mkt", "gn_us_fed", "hankyung", "mk", "cnbc", "yahoo", "cnbc_top", "investing_kr"}
 FIN = re.compile(r"주|증시|코스피|코스닥|지수|금리|환율|달러|채권|국채|연준|Fed|물가|경기|경제|수출|실적|매출|이익|투자|펀드|ETF|반도체|HBM|AI|전력|조선|방산|원전|배터리|IPO|공모|상장|외국인|기관|목표가|리포트|전략|시장|무역|관세|유가|원유|금값|비트|증권|은행|M&A|인수|합병")
 AI_FOUND = ROOT / "feeds" / "ai_found.json"     # 🧠 매시간 두뇌가 웹에서 찾아 넣는 글
 UA = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 Mobile/15E148 Safari/604.1",
@@ -249,17 +289,26 @@ def main() -> int:
     # 🌐 뉴스 (출처마다 30개, 2일)
     ncut = (now - dt.timedelta(days=2)).strftime("%Y-%m-%d")
     seen_t = set()
-    for sid, name, who, url in NEWS:
+    for row in NEWS:
+        sid, name, who, url = row[:4]
+        alt = row[4] if len(row) > 4 else None
         ok, got = True, []
         try:
-            got = rss(url)
+            got = rss(url, 30 if len(NEWS) < 20 or sid in OLD_NEWS else 20)
         except Exception as e:
             ok = False
             DEBUG.append(f"news {sid} 실패 {str(e)[:80]}")
+        if not got and alt:                               # RSS 가 막히면 구글뉴스 site: 로 대신
+            try:
+                got = rss(GN.format(q=f"site:{alt}+when:1d", hl="ko" if alt.endswith(".kr") else "en-US",
+                                    gl="KR" if alt.endswith(".kr") else "US", lang="ko" if alt.endswith(".kr") else "en"), 20)
+                ok = True; who = who + " → 구글뉴스로 대신"
+            except Exception as e:
+                DEBUG.append(f"news {sid} 대체도 실패 {str(e)[:60]}")
         if not got:
             got = [i for i in old.values() if i.get("src") == sid]
         for i in got:
-            if sid.startswith("gn_kr") and not FIN.search(i["title"]):
+            if (sid.startswith("gn_kr") or sid in ("yna_eco", "chosunbiz", "newspim")) and not FIN.search(i["title"]):
                 continue                                   # 사건·사고 같은 잡음 거르기
             k = re.sub(r"\W+", "", i["title"])[:40]
             if k in seen_t or (i["at"] and i["at"][:10] < ncut):
