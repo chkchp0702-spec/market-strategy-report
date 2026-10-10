@@ -181,7 +181,7 @@
   </table>
   <div class="note" style="margin-top:3px">{{ d.allocation_note }}</div>
   {% if kick_alloc %}<div style="margin-top:2px;background:#fff1f0;border-left:3px solid #e0524b;border-radius:4px;padding:2px 6px;font-size:7.3pt;line-height:1.25">
-   <b>⚡ 킥 포함 배분</b> — 현금 {{ kick_alloc.cash }}→{{ kick_alloc.cash_k }}% {% if kick_alloc.bw %}· 🐋 고래 바스켓 {{ kick_alloc.bw }}%({{ kick_alloc.wq }} 13F 큰 신규 {{ kick_alloc.wn }}종목 {{ '%+.1f' % kick_alloc.wret }}% · {{ kick_alloc.wtop }}…) · ⚡ 돌파 {{ kick_alloc.dw }}%{% else %}· 킥 슬리브 {{ kick_alloc.kw }}%{% endif %}{% if kick_alloc.open %} = {% for o in kick_alloc.open %}{{ o.name }} {{ o.w }}%({{ '%+.1f' % o.r if o.r is not none else '–' }}%){% if not loop.last %} · {% endif %}{% endfor %}{% endif %}
+   <b>⚡ 킥 포함 배분</b> — 현금 {{ kick_alloc.cash }}→{{ kick_alloc.cash_k }}% · ⚡ 킥 {{ kick_alloc.kw }}%(성과 확인된 신호만 · 🐋고래 ☕컵 📈갭 🤫매집){% if kick_alloc.open %} = {% for o in kick_alloc.open %}{{ o.name }} {{ o.w }}%({{ '%+.1f' % o.r if o.r is not none else '–' }}%){% if not loop.last %} · {% endif %}{% endfor %}{% endif %}
    · 누적 💼 기본 {{ '%+.2f' % kick_alloc.stat.base }}% · ⚡ 킥 {{ '%+.2f' % kick_alloc.stat.kick }}% · S&P {{ '%+.2f' % kick_alloc.stat.spy }}%</div>{% endif %}
  </div>
  <div class="g2" style="margin-top:7px">

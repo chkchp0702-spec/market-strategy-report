@@ -82,12 +82,11 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
         kick_alloc = {"kw": kw, "cash": cash, "cash_k": round(cash - kw, 1) if cash is not None else None, "stat": K.get("stat", {}),
                       "open": [{"name": short(o.get("name")), "code": o.get("code"), "w": round(o.get("w") or 0, 1), "r": o.get("r"),
                                 "src": re.sub(r"\(.*\)", "", str(o.get("src") or "")).strip()} for o in K.get("open", [])]}
-        W = K.get("whale") or {}
-        wr = [r for r in W.get("rows", []) if r.get("on")]
-        if wr:
-            bw = round(sum(r.get("w") or 0 for r in wr), 1)
-            kick_alloc.update({"bw": bw, "dw": kw, "kw": round(kw + bw, 1), "cash_k": round(cash - kw - bw, 1) if cash is not None else None,
-                               "wq": W.get("q"), "wret": W.get("ret"), "wn": len(wr), "wtop": ", ".join(r["t"] for r in wr[:6])})
+        H = K.get("hold") or []
+        if H:
+            kw = round(sum(h.get("w") or 0 for h in H), 1)
+            kick_alloc.update({"kw": kw, "cash_k": round(cash - kw, 1) if cash is not None else None,
+                               "open": [{"name": (h.get("tags") or "") + short(h.get("name")), "w": round(h.get("w") or 0, 1), "r": h.get("r")} for h in H]})
     except Exception:
         pass
 
