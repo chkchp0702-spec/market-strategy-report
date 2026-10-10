@@ -53,6 +53,12 @@ NEWS = [
     ("yahoo", "Yahoo Finance", "언론사 RSS", "https://feeds.finance.yahoo.com/rss/2.0/headline?s=%5EGSPC,%5EIXIC,%5EDJI,NVDA,AAPL&region=US&lang=en-US"),
     ("cnbc_top", "CNBC Top News", "언론사 RSS", "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"),
     ("investing_kr", "인베스팅닷컴 뉴스", "언론사 RSS", "https://kr.investing.com/rss/news.rss"),
+    # 블룸버그 (10/10 사용자: "피드에 블룸버그 뉴스도 들어가고 있니?") — 본문은 유료라 제목·요약까지
+    ("bbg_mkt", "Bloomberg Markets", "블룸버그 RSS", "https://feeds.bloomberg.com/markets/news.rss"),
+    ("bbg_tech", "Bloomberg Technology", "블룸버그 RSS", "https://feeds.bloomberg.com/technology/news.rss"),
+    ("bbg_econ", "Bloomberg Economics", "블룸버그 RSS", "https://feeds.bloomberg.com/economics/news.rss"),
+    ("gn_bbg", "News · Bloomberg 전체", "Google News (bloomberg.com)", GN.format(q="site:bloomberg.com+when:1d", hl="en-US", gl="US", lang="en")),
+    ("gn_kr_bbg", "뉴스 · 블룸버그 인용", "구글 뉴스 검색 (한국 언론이 전한 블룸버그)", GN.format(q=_up.quote("블룸버그+when:1d", safe="+:"), hl="ko", gl="KR", lang="ko")),
 ]
 FIN = re.compile(r"주|증시|코스피|코스닥|지수|금리|환율|달러|채권|국채|연준|Fed|물가|경기|경제|수출|실적|매출|이익|투자|펀드|ETF|반도체|HBM|AI|전력|조선|방산|원전|배터리|IPO|공모|상장|외국인|기관|목표가|리포트|전략|시장|무역|관세|유가|원유|금값|비트|증권|은행|M&A|인수|합병")
 AI_FOUND = ROOT / "feeds" / "ai_found.json"     # 🧠 매시간 두뇌가 웹에서 찾아 넣는 글
