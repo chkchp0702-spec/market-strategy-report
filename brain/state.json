@@ -1,6 +1,6 @@
 {
- "last_review": "2026-10-10 21:40",
- "summary": "주말 휴장 — 10/9 S&P 7,811.5 신고가·VIX 14.84 평온 vs 미 10년 5.24%·프랑스 10년 2002년 이후 최고권의 채권 스트레스 괴리. 메모리는 삼성 사상 최대 이익에도 주가 정체, 마이크론 대만 노조 파업 권한 확보가 새 변수. 다음 주 은행 실적·CPI(10/14~15)·TSMC(10/15)가 판정. 중립.",
+ "last_review": "2026-10-10 22:40",
+ "summary": "주말 휴장 — 10/9 다우 +0.8%·S&P 신고가, 유가 100$·장기금리 24년 최고권에도 월가는 다음 주 실적에 기댄다. 새 변수는 애플 아이폰18 Pro 주문 축소(닛케이·로이터)와 FT 'AI 차입 둔화' — 10/12 한국 개장 때 부품주·AI 하드웨어 반응이 첫 시험. 중립.",
  "regime": "중립",
  "theses": [
   {
@@ -25,7 +25,7 @@
    "why": "Oracle 5년 CDS 244bp, NVDA 81bp(7월 45bp), SpaceX 400억$·브로드컴 500억$ 조달(HANAchina/70067, 70108) · 오픈AI 9월말 연환산 매출 ~500억$로 700억$ 전망 밑돎(HANAchina/70114) · 데이터센터 300억$ IPO 48시간 만에 무산(블룸버그 10/9, Nscale https://www.theinformation.com/articles/nscales-unbuilt-data-centers-undercut-35-billion-ipo-pitch) · 버라이즌·AT&T 채권 약세(SpaceX 무선, 블룸버그 10/9)",
    "breaks": "AI 대형사 채권 발행이 무난히 소화되고 CDS 하락",
    "since": "2026-10-09",
-   "check": "10/10 16:35: 보강 — 오픈AI 매출 전망 200억$ 축소 보도로 중국 A주 AI 하드웨어 급락(gn_us_tech, https://cryptobriefing.com/openai-annualized-revenue-20-billion-gap/) · 슈퍼마이크로 협력사 25억$ AI 서버 밀수 유죄(yahoo) — 수요 '질' 의심 확대. 10/10 13:40: 강화(0.5→0.55) — 데이터센터 IPO 무산, CDS 새 숫자는 없음"
+   "check": "10/10 22:40: 보강 — FT 'AI 차입 둔화, 기록적 채권 발행 뒤 투자자 경계'(https://www.ft.com/content/9c13d40e-d2b2-45d5-921c-a68cd4b308f9) · 반대: AWS CEO '거품 아직 아님'(yahoo). CDS 새 숫자 없음. 10/10 16:35: 보강 — 오픈AI 매출 전망 200억$ 축소 보도로 중국 A주 AI 하드웨어 급락(gn_us_tech, https://cryptobriefing.com/openai-annualized-revenue-20-billion-gap/) · 슈퍼마이크로 협력사 25억$ AI 서버 밀수 유죄(yahoo) — 수요 '질' 의심 확대. 10/10 13:40: 강화(0.5→0.55) — 데이터센터 IPO 무산, CDS 새 숫자는 없음"
   },
   {
    "t": "한국은 외국인 복귀 전까지 반도체 실적과 따로 논다 — 비중 확대 금지",
@@ -41,14 +41,14 @@
    "why": "닛케이 '애플 iPhone 18 Pro 주문 축소'(HANAchina/70131, https://money.usnews.com/investing/news/articles/2026-10-09/apple-cuts-iphone-18-pro-orders-due-to-soft-demand-nikkei-asia-reports) · AAPL 프리마켓 하락(https://www.tradingview.com/news/stocktwits:a56351503094b:0-is-iphone-18-pro-demand-slowing-apple-reportedly-cuts-october-component-orders-stock-slips-premarket/) · IDC 3Q PC 출하 −20.1%(HANAchina/70123) · 축소 폭 15~20%, AAPL 프리마켓 −1.5%(https://stocktwits.com/news-articles/markets/equity/why-are-nasdaq-futures-surging-premarket-spcx-asts-aapl-tmus-vz-nvda-mu-lite-stocks-in-focus/cZD6jb4RBVM) · 축소 원인은 메모리 가격 급등→아이폰 가격 인상→수요 타격, 주문 15~20%↓(kwusa/61132)",
    "breaks": "애플 부인·공급망 반박 보도 또는 10/12 LG이노텍 시가 보합 이상",
    "since": "2026-10-09",
-   "check": "10/10 채점: 미국은 맞음(AAPL 개장 전 −2.3%·SWKS −6.4%), 한국 10/12 LG이노텍 시가 판정 — 아직"
+   "check": "10/10 22:40: 강화 — 로이터 '애플, 수요 부진에 아이폰18 Pro 주문 축소'(닛케이 아시아 인용, reuters 10/10) · sammyfans 9/18 '아이폰 Duo가 Pro 수요 잠식'. 한국 휴장(10/9 한글날)으로 10/12 첫 반영. 10/10 채점: 미국은 맞음(AAPL 개장 전 −2.3%·SWKS −6.4%), 한국 10/12 LG이노텍 시가 판정 — 아직"
   }
  ],
  "watch": [
   "10/12(월) 한국 재개: 코스피 6,500 손절선·외국인 10일째 매도 여부 · 소부장 과열(리노공업 5일 +19.8%, bet 058470 내림 −6%/+4%)",
   "브렌트 104.5 — 이란 호르무즈 밖 유조선 공격(FT 10/10)·허리케인 이사이아스 2등급 걸프 상륙(EIA) vs 러 경유 30만톤 합의 · 95 아래면 에너지 13→10",
   "미 10년 5.242 — 5.20 아래면 us10y_530 되돌림 / 5.30 위면 현금 쪽 · 금 4,220·GLD 384.6: 10/12 쿡 해임 재시도 반응(GLD bet 400/375) · TLT 10/12 시가(bet 기준, +4%/−2.5%) · 11/4 리펀딩: 씨티 '장기물 축소·20년물 중단 가능' — 발표 시 10년 −10bp 이상이면 고금리 논지 0.7→0.6 · 유럽 은행(EUFN) 10/12 시가·프랑스 10년물 — 스프레드 확대 지속 시 금융 칸 8→6 검토 · 유로 1.10(씨티 하회 전망)·기간 프리미엄 90bp — 더 오르면 고PER 성장주 주의",
-  "6103.T 10/13 시가(기준) · ZS 226.5(목표 234·손절 206) · COHR 318.5 기준(손절 302.6, 장중 311.6) · CAT 10/9 종가(기준) · 10/12 시가: 삼성전기(오름)·LG이노텍(내림)·S-Oil·418670·SK하이닉스(오름) · IAG 10/9 종가(기준, 컵 18.89) · 9505.T 10/13 시가(컵 1,071) · 9706.T 10/13 시가(컵 71.3) · 207940.KS 10/12 시가(10/8 1,219,000) · MRVL 10/12 시가(기준, +8%/−5%) · MU 10/12 시가(기준, 내림 −6%/+4%) — 대만 노조 실제 파업 공지 여부",
+  "6103.T 10/13 시가(기준) · ZS 226.5(목표 234·손절 206) · COHR 318.5 기준(손절 302.6, 장중 311.6) · CAT 10/9 종가(기준) · 10/12 시가: 삼성전기(오름)·LG이노텍(내림, bet #25 기준)·S-Oil·418670·SK하이닉스(오름) · IAG 10/9 종가(기준, 컵 18.89) · 9505.T 10/13 시가(컵 1,071) · 9706.T 10/13 시가(컵 71.3) · 207940.KS 10/12 시가(10/8 1,219,000) · MRVL 10/12 시가(기준, +8%/−5%) · MU 10/12 시가(기준, 내림 −6%/+4%) — 대만 노조 실제 파업 공지 여부",
   "VIX 14.84 → 18 위면 신규 킥 크기 절반(bet ^VIX, 손절 13.5) · 외환보유액 9월 기록 vs 10/12 외국인 수급"
  ],
  "port_ideas": [
@@ -100,7 +100,7 @@
   "right": 0,
   "wrong": 1,
   "bets": {
-   "made": 24,
+   "made": 25,
    "win": 0,
    "loss": 0,
    "avg": null
@@ -550,6 +550,24 @@
    "status": "대기",
    "res": null,
    "theme": "메모리(헤지)"
+  },
+  {
+   "id": "20261010-22",
+   "made": "2026-10-10 22:40",
+   "kind": "종목",
+   "t": "011070.KS",
+   "name": "LG이노텍",
+   "dir": "내림",
+   "entry": null,
+   "target": "entry −5%",
+   "stop": "entry +3%",
+   "horizon": "1주",
+   "why": "로이터 '애플 아이폰18 Pro 주문 축소, 수요 부진'(닛케이 아시아 인용, reuters 피드 10/10) · 한국은 10/9 휴장·주말이라 10/12 시가가 첫 반영 · #18(공급망 반박으로 정리) 뒤 두 번째 독립 출처",
+   "edge": "한국 연휴로 애플 주문 축소가 아직 국내 가격에 안 들어감",
+   "src": "뉴스",
+   "status": "대기",
+   "res": null,
+   "theme": "애플 공급망"
   }
  ],
  "skips": [
