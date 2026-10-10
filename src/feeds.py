@@ -54,6 +54,7 @@ NEWS = [
     ("cnbc_top", "CNBC Top News", "언론사 RSS", "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"),
     ("investing_kr", "인베스팅닷컴 뉴스", "언론사 RSS", "https://kr.investing.com/rss/news.rss"),
 ]
+FIN = re.compile(r"주|증시|코스피|코스닥|지수|금리|환율|달러|채권|국채|연준|Fed|물가|경기|경제|수출|실적|매출|이익|투자|펀드|ETF|반도체|HBM|AI|전력|조선|방산|원전|배터리|IPO|공모|상장|외국인|기관|목표가|리포트|전략|시장|무역|관세|유가|원유|금값|비트|증권|은행|M&A|인수|합병")
 AI_FOUND = ROOT / "feeds" / "ai_found.json"     # 🧠 매시간 두뇌가 웹에서 찾아 넣는 글
 UA = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 Mobile/15E148 Safari/604.1",
       "Accept-Language": "ko-KR,ko;q=0.9"}
@@ -252,6 +253,8 @@ def main() -> int:
         if not got:
             got = [i for i in old.values() if i.get("src") == sid]
         for i in got:
+            if sid.startswith("gn_kr") and not FIN.search(i["title"]):
+                continue                                   # 사건·사고 같은 잡음 거르기
             k = re.sub(r"\W+", "", i["title"])[:40]
             if k in seen_t or (i["at"] and i["at"][:10] < ncut):
                 continue
