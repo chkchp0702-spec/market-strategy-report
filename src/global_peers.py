@@ -20,13 +20,43 @@ KST = dt.timezone(dt.timedelta(hours=9))
 
 # 테마: 미국 기준 ETF · 포트 칸 이름(같으면 그 칸의 대안) · 나라별 동종주 (야후 티커, 이름)
 THEMES = [
-    {"k": "semi_eq", "name": "반도체 장비·테스트", "etf": "SOXX", "bucket": "반도체", "us": [("AMAT", "어플라이드"), ("LRCX", "램리서치"), ("KLAC", "KLA"), ("TER", "테라다인")],
+    # ── 반도체·AI 하드웨어 (10/10 사용자: "대만 종목은 빼고, 중국·홍콩 종목 중 반도체·반도체 장비·AI 인프라·PCB·광통신·광모듈·MLCC 다 찾아서 비교") ──
+    {"k": "semi_chip", "name": "반도체 칩·메모리·AI칩", "etf": "SOXX", "bucket": "반도체",
+     "us": [("NVDA", "엔비디아"), ("AVGO", "브로드컴"), ("MU", "마이크론"), ("AMD", "AMD")],
+     "peers": [("000660.KS", "SK하이닉스"), ("005930.KS", "삼성전자"), ("285A.T", "키옥시아"),
+               ("0981.HK", "SMIC(중신국제)"), ("688981.SS", "SMIC A주"), ("1347.HK", "화홍반도체"), ("688347.SS", "화홍반도체 A주"),
+               ("688256.SS", "캠브리콘(寒武纪)"), ("688041.SS", "하이곤(海光信息)"), ("688008.SS", "몬타주(澜起科技)"),
+               ("603986.SS", "기가디바이스(兆易创新)"), ("603501.SS", "옴니비전(豪威集团)"), ("688521.SS", "베리실리콘(芯原)"),
+               ("600584.SS", "JCET(长电科技)"), ("002156.SZ", "퉁푸마이크로(通富微电)"), ("1385.HK", "상하이푸단"), ("688126.SS", "NSIG(沪硅产业)")]},
+    {"k": "semi_eq", "name": "반도체 장비·테스트", "etf": "SOXX", "bucket": "반도체",
+     "us": [("AMAT", "어플라이드"), ("LRCX", "램리서치"), ("KLAC", "KLA"), ("TER", "테라다인")],
      "peers": [("6857.T", "어드밴테스트"), ("8035.T", "도쿄일렉트론"), ("6146.T", "디스코"), ("6920.T", "레이저텍"), ("7735.T", "스크린HD"),
-               ("042700.KS", "한미반도체"), ("036930.KQ", "주성엔지니어링"), ("000660.KS", "SK하이닉스"), ("2330.TW", "TSMC"),
-               ("002371.SZ", "북방화창"), ("688012.SS", "중미반도체"), ("0981.HK", "SMIC")]},
-    {"k": "pcb_optic", "name": "PCB·기판·광통신", "etf": "GLW", "bucket": "광통신", "us": [("COHR", "코히런트"), ("LITE", "루멘텀"), ("TTMI", "TTM")],
-     "peers": [("002913.SZ", "아오스캉테크(奧士康)"), ("002463.SZ", "후뎬(沪电)"), ("300308.SZ", "중지쉬촹(이노라이트)"), ("300502.SZ", "신이성(이옵토링크)"),
-               ("2383.TW", "대만광전(EMC)"), ("4062.T", "이비덴"), ("007660.KS", "이수페타시스"), ("353200.KQ", "대덕전자")]},
+               ("042700.KS", "한미반도체"), ("036930.KQ", "주성엔지니어링"),
+               ("002371.SZ", "나우라(北方华创)"), ("688012.SS", "AMEC(中微公司)"), ("688072.SS", "피오테크(拓荆科技)"),
+               ("688120.SS", "화하이칭커(华海清科)"), ("688082.SS", "ACM상하이(盛美上海)"), ("688037.SS", "킹세미(芯源微)"),
+               ("300604.SZ", "창촨커지(长川科技·테스트)"), ("0522.HK", "ASMPT")]},
+    {"k": "ai_infra", "name": "AI 서버·데이터센터 인프라", "etf": ["SMCI", "DELL", "VRT", "ANET", "CLS"], "bucket": None,
+     "us": [("VRT", "버티브"), ("ANET", "아리스타"), ("CLS", "셀레스티카"), ("DELL", "델")],
+     "peers": [("601138.SS", "폭스콘인더스트리얼(工业富联)"), ("000977.SZ", "인스퍼(浪潮信息)"), ("603019.SS", "슈광(中科曙光)"),
+               ("000938.SZ", "유니스플렌더(紫光股份)"), ("002837.SZ", "인비크(英维克·액체냉각)"), ("0763.HK", "ZTE H"), ("0992.HK", "레노버"),
+               ("5803.T", "후지쿠라"), ("6501.T", "히타치")]},
+    {"k": "optic", "name": "광통신·광모듈", "etf": ["COHR", "LITE", "FN", "CIEN", "AAOI"], "bucket": "광통신",
+     "us": [("LITE", "루멘텀"), ("COHR", "코히런트"), ("FN", "패브리넷"), ("CIEN", "시에나")],
+     "peers": [("300308.SZ", "이노라이트(中际旭创)"), ("300502.SZ", "이옵토링크(新易盛)"), ("300394.SZ", "TFC(天孚通信)"),
+               ("002281.SZ", "액셀링크(光迅科技)"), ("688498.SS", "위안제(源杰科技·레이저칩)"), ("300570.SZ", "T&S(太辰光)"),
+               ("000988.SZ", "HG테크(华工科技)"), ("600487.SS", "헝퉁광전(亨通光电)"), ("600522.SS", "중톈커지(中天科技)"),
+               ("601869.SS", "YOFC(长飞光纤) A주"), ("6869.HK", "YOFC(长飞光纤) H주"), ("5803.T", "후지쿠라"), ("5801.T", "후루카와전기")]},
+    {"k": "pcb", "name": "PCB·기판·CCL", "etf": ["TTMI", "SANM", "JBL"], "bucket": "광통신",
+     "us": [("TTMI", "TTM")],
+     "peers": [("002463.SZ", "후뎬(沪电股份)"), ("300476.SZ", "빅토리자이언트(胜宏科技)"), ("002916.SZ", "선난서킷(深南电路)"),
+               ("600183.SS", "성이커지(生益科技·CCL)"), ("688183.SS", "성이전자(生益电子)"), ("002913.SZ", "아오스캉테크(奥士康)"),
+               ("603228.SS", "킨웡(景旺电子)"), ("002938.SZ", "아바리(鹏鼎控股)"), ("1888.HK", "킹보드라미네이트(建滔积层板)"),
+               ("0148.HK", "킹보드홀딩스(建滔集团)"), ("4062.T", "이비덴"), ("007660.KS", "이수페타시스"), ("353200.KQ", "대덕전자")]},
+    {"k": "mlcc", "name": "MLCC·수동부품", "etf": "SOXX", "bucket": None,
+     "us": [("VSH", "비샤이"), ("APH", "암페놀")],
+     "peers": [("6981.T", "무라타"), ("6762.T", "TDK"), ("6976.T", "다이요유덴"), ("009150.KS", "삼성전기"),
+               ("000636.SZ", "펑화가오커(风华高科)"), ("300408.SZ", "산환그룹(三环集团)"), ("603678.SS", "훠쥐전자(火炬电子)"),
+               ("603267.SS", "훙위안전자(鸿远电子)"), ("300285.SZ", "궈츠소재(国瓷材料)"), ("002138.SZ", "선러드(顺络电子)")]},
     {"k": "power", "name": "전력·인프라", "etf": "XLU", "bucket": "전력", "us": [("GEV", "GE버노바"), ("VRT", "버티브"), ("ETN", "이튼")],
      "peers": [("6501.T", "히타치"), ("6503.T", "미쓰비시전기"), ("267260.KS", "HD현대일렉트릭"), ("298040.KS", "효성중공업"), ("010120.KS", "LS ELECTRIC"),
                ("600406.SS", "국전남서(NARI)"), ("1072.HK", "동방전기")]},
@@ -41,9 +71,19 @@ THEMES = [
     {"k": "defense_ship", "name": "방산·조선", "etf": "ITA", "bucket": None, "us": [("LMT", "록히드"), ("NOC", "노스롭")],
      "peers": [("012450.KS", "한화에어로스페이스"), ("329180.KS", "HD현대중공업"), ("042660.KS", "한화오션"), ("7011.T", "미쓰비시중공업"), ("7012.T", "가와사키중공업")]},
 ]
-FX = {".T": "JPY=X", ".KS": "KRW=X", ".KQ": "KRW=X", ".SS": "CNY=X", ".SZ": "CNY=X", ".HK": "HKD=X", ".TW": "TWD=X"}
-CUR = {".T": "엔", ".KS": "원", ".KQ": "원", ".SS": "위안", ".SZ": "위안", ".HK": "홍콩달러", ".TW": "대만달러"}
-MKT = {".T": "JP", ".KS": "KR", ".KQ": "KR", ".SS": "CN", ".SZ": "CN", ".HK": "HK", ".TW": "TW"}
+FX = {".T": "JPY=X", ".KS": "KRW=X", ".KQ": "KRW=X", ".SS": "CNY=X", ".SZ": "CNY=X", ".HK": "HKD=X"}
+CUR = {".T": "엔", ".KS": "원", ".KQ": "원", ".SS": "위안", ".SZ": "위안", ".HK": "홍콩달러"}
+MKT = {".T": "JP", ".KS": "KR", ".KQ": "KR", ".SS": "CN", ".SZ": "CN", ".HK": "HK"}
+
+
+def buyable(t):
+    """한국 개인이 살 수 있나 — 후강퉁·선강퉁에서 창업판(300·301)·과창판(688·689)은 기관 전문투자자만 (HKEX 안내)"""
+    c = t.split(".")[0]
+    if t.endswith(".SZ") and c[:3] in ("300", "301"):
+        return False, "창업판 — 한국 개인 매매 불가(기관만)"
+    if t.endswith(".SS") and c[:3] in ("688", "689"):
+        return False, "과창판 — 한국 개인 매매 불가(기관만)"
+    return True, ""
 
 
 def suf(t):
@@ -58,7 +98,7 @@ def main() -> int:
     import pandas as pd
     tick = set(FX.values())
     for T in THEMES:
-        tick.add(T["etf"])
+        tick |= set(T["etf"]) if isinstance(T["etf"], list) else {T["etf"]}
         tick |= {t for t, _ in T["us"] + T["peers"]}
     df = yf.download(sorted(tick), period="1y", interval="1d", auto_adjust=True, progress=False, group_by="ticker", threads=True)
     C = {}
@@ -69,6 +109,13 @@ def main() -> int:
                 C[t] = s
         except Exception:
             pass
+
+    # 미국 기준이 ETF 가 아니라 대표 종목 묶음이면 같은 비중 평균 지수로 만든다 (광모듈·AI 서버·PCB 는 딱 맞는 ETF 가 없음)
+    for T in THEMES:
+        if isinstance(T["etf"], list):
+            ss = [C[t] / C[t].iloc[0] for t in T["etf"] if t in C]
+            if ss:
+                C["BASKET:" + T["k"]] = pd.concat(ss, axis=1).ffill().dropna().mean(axis=1) * 100
 
     def usd(t):
         s = C.get(t)
@@ -101,9 +148,10 @@ def main() -> int:
         out["rr"] = round(out["r3"] / v3 * 100 / 100, 2) if out["r3"] is not None and v3 else None     # 3개월 수익 ÷ 연변동성
         return out
 
-    res = {"at": dt.datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "note": "달러 기준 수익률(환율 반영) · 판단 재료이며 매수 추천 아님", "themes": []}
+    res = {"at": dt.datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "note": "달러 기준 수익률(환율 반영) · 대만 제외(10/10) · 창업판(300)·과창판(688)은 비교만, 한국 개인은 후강퉁·선강퉁으로 못 삼 · 판단 재료이며 매수 추천 아님", "themes": []}
     for T in THEMES:
-        e = m(T["etf"])
+        bk = isinstance(T["etf"], list)
+        e = m("BASKET:" + T["k"] if bk else T["etf"])
         if not e:
             continue
         rows = []
@@ -112,7 +160,8 @@ def main() -> int:
             if not x:
                 continue
             sx = suf(t)
-            x.update({"t": t, "name": nm, "mkt": MKT.get(sx, "US"), "cur": CUR.get(sx, "달러"),
+            ok_buy, why_no = buyable(t)
+            x.update({"t": t, "name": nm, "mkt": MKT.get(sx, "US"), "cur": CUR.get(sx, "달러"), **({} if ok_buy else {"nobuy": why_no}),
                       "ex3": round(x["r3"] - e["r3"], 2) if x["r3"] is not None else None,
                       "ex1": round(x["r1"] - e["r1"], 2) if x["r1"] is not None else None})
             # 종합 점수: 초과 수익(3·1개월) + 위험 대비 수익 + 추세 + 꾸준함 − 과열·낙폭
@@ -121,16 +170,20 @@ def main() -> int:
             x["score"] = round(sc, 1)
             cand = (x["mkt"] != "US" and (x["ex3"] or -99) >= 10 and (x["ex1"] or -99) > 0 and x["ma50"]
                     and (x["rr"] or 0) >= (e["rr"] or 0) and (x["r1"] or 0) < 35)
-            x["verdict"] = "편입 후보" if cand else ("과열 — 눌림 대기" if (x["r1"] or 0) >= 35 and (x["ex3"] or 0) >= 10 else
+            if cand and not ok_buy:
+                x["verdict"] = "강함 — 개인 매매 불가"
+            else:
+              x["verdict"] = "편입 후보" if cand else ("과열 — 눌림 대기" if (x["r1"] or 0) >= 35 and (x["ex3"] or 0) >= 10 else
                                                 ("미국보다 강함" if (x["ex3"] or 0) > 0 and x["ma50"] else ("약함" if not x["ma50"] else "비슷")))
             rows.append(x)
         rows.sort(key=lambda r: -r["score"])
         best_non_us = next((r for r in rows if r["mkt"] != "US"), None)
         best_us = next((r for r in rows if r["mkt"] == "US"), None)
-        res["themes"].append({"k": T["k"], "name": T["name"], "bucket": T["bucket"], "etf": {"t": T["etf"], **e}, "rows": rows,
+        res["themes"].append({"k": T["k"], "name": T["name"], "bucket": T["bucket"],
+                              "etf": {"t": ("미국 " + "·".join(T["etf"]) + " 평균") if bk else T["etf"], **e}, "rows": rows,
                               "cands": [r["t"] for r in rows if r["verdict"] == "편입 후보"][:3],
                               "lead": {"non_us": best_non_us and best_non_us["t"], "us": best_us and best_us["t"]}})
-        print(f"{T['name']}: ETF {T['etf']} 3M {e['r3']:+.1f}% · 후보 {res['themes'][-1]['cands']} · 1위 {rows[0]['name'] if rows else '-'}")
+        print(f"{T['name']}: 기준 {res['themes'][-1]['etf']['t']} 3M {e['r3']:+.1f}% · 후보 {res['themes'][-1]['cands']} · 1위 {rows[0]['name'] if rows else '-'}")
     OUT.write_text(json.dumps(res, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     return 0
 
