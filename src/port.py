@@ -37,7 +37,21 @@ BENCH_GROUP = {"S&P500": "미국", "나스닥100": "미국", "다우": "미국",
                "주식60·채권40": "자산배분"}
 
 
-def us_of(name: str, inst: str) -> list[str]:
+FXT = {".T": "JPY=X", ".KS": "KRW=X", ".KQ": "KRW=X", ".SS": "CNY=X", ".SZ": "CNY=X", ".HK": "HKD=X", ".TW": "TWD=X"}
+CURN = {".T": "엔", ".KS": "원", ".KQ": "원", ".SS": "위안", ".SZ": "위안", ".HK": "홍콩달러", ".TW": "대만달러"}
+
+
+def sfx(t: str) -> str:
+    for k in FXT:
+        if t.endswith(k):
+            return k
+    return ""
+
+
+def us_of(name: str, inst: str, picks: list | None = None) -> list[str]:
+    """성적 계산·따라하기 상품. 장부 allocation 에 picks 가 있으면 그대로(미국 밖 종목도 가능 — 🌏 글로벌 동종주 비교로 고름)"""
+    if picks:
+        return list(picks)
     for k, v in US_PICK:
         if k in name and v:
             return v
@@ -59,12 +73,13 @@ def kr_of(inst: str) -> list[dict]:
 
 def update_log(now) -> list[dict]:
     L = json.loads(LEDGER.read_text(encoding="utf-8"))
-    alloc = [{"pct": a["pct"], "name": a["name"], "instruments": a.get("instruments", "")} for a in L.get("allocation", [])]
+    alloc = [{"pct": a["pct"], "name": a["name"], "instruments": a.get("instruments", ""), **({"picks": a["picks"]} if a.get("picks") else {}),
+              **({"why_picks": a["why_picks"]} if a.get("why_picks") else {})} for a in L.get("allocation", [])]
     try:
         log = json.loads(LOG.read_text(encoding="utf-8"))
     except Exception:
         log = []
-    sig = lambda a: [(x["pct"], x["name"]) for x in a]
+    sig = lambda a: [(x["pct"], x["name"], tuple(x.get("picks") or [])) for x in a]
     today = now.strftime("%Y-%m-%d")
     if not log:
         log = [{"date": START, "alloc": alloc, "why": "장부 시작 배분표"}]
@@ -72,6 +87,9 @@ def update_log(now) -> list[dict]:
         old = {x["name"]: x["pct"] for x in log[-1]["alloc"]}
         ch = [f"{x['name']} {old.get(x['name'], 0)}→{x['pct']}%" for x in alloc if old.get(x["name"]) != x["pct"]]
         ch += [f"{n} {p}→0%" for n, p in old.items() if n not in {x["name"] for x in alloc}]
+        op = {x["name"]: x.get("picks") for x in log[-1]["alloc"]}
+        ch += [f"{x['name']} 상품 {'·'.join(op.get(x['name']) or ['기본'])} → {'·'.join(x['picks'])}" + (f" ({x['why_picks']})" if x.get("why_picks") else "")
+               for x in alloc if x.get("picks") and x.get("picks") != op.get(x["name"])]
         entry = {"date": today, "alloc": alloc, "why": " · ".join(ch)}
         if log[-1]["date"] == today:
             log[-1] = entry
@@ -92,7 +110,8 @@ def main() -> int:
     tick = set(BENCH) | {"KRW=X"}
     for e in log:
         for a in e["alloc"]:
-            tick |= set(us_of(a["name"], a["instruments"]))
+            tick |= set(us_of(a["name"], a["instruments"], a.get("picks")))
+    tick |= {FXT[sfx(t)] for t in list(tick) if sfx(t)}
     kr_codes = {k["code"] for a in log[-1]["alloc"] for k in kr_of(a["instruments"]) if k["code"].isdigit()}
     start = (dt.date.fromisoformat(START) - dt.timedelta(days=70)).isoformat()   # 20일 신호 계산용 여유
     df = yf.download(sorted(tick) + [c + ".KS" for c in kr_codes], start=start, interval="1d", auto_adjust=True, progress=False,
@@ -111,8 +130,21 @@ def main() -> int:
     base_i = list(C["SPY"].index).index(days[0]) - 1      # START 전날 종가 = 출발점
     cal = list(C["SPY"].index)[base_i:]
 
-    def ret(t, d0, d1):
+    USD = {}
+
+    def usd(t):
+        """미국 밖 종목은 달러로 바꾼 값 (환율까지 반영)"""
+        if t in USD:
+            return USD[t]
         s = C.get(t)
+        if s is not None and sfx(t):
+            fx = C.get(FXT[sfx(t)])
+            s = (s / fx.reindex(s.index, method="ffill")).dropna() if fx is not None else None
+        USD[t] = s
+        return s
+
+    def ret(t, d0, d1):
+        s = usd(t)
         if s is None:
             return None
         a = s[s.index <= d0]
@@ -137,7 +169,7 @@ def main() -> int:
         e = alloc_on(d1)
         r_tot, parts = 0.0, {}
         for a in e["alloc"]:
-            us = us_of(a["name"], a["instruments"])
+            us = us_of(a["name"], a["instruments"], a.get("picks"))
             rs = [x for x in (ret(t, d0, d1) for t in us) if x is not None]
             r = sum(rs) / len(rs) if rs else 0.0
             c = a["pct"] / 100 * r
@@ -161,7 +193,7 @@ def main() -> int:
     cur = log[-1]
     hold = []
     for a in cur["alloc"]:
-        us = us_of(a["name"], a["instruments"])
+        us = us_of(a["name"], a["instruments"], a.get("picks"))
         kr = kr_of(a["instruments"])
         for k in kr:
             s = C.get(k["code"] + ".KS")
@@ -169,7 +201,7 @@ def main() -> int:
                 k["px"] = round(float(s.iloc[-1]))
         chk = []
         for t in us:
-            sr = C.get(t)
+            sr = usd(t)
             if sr is None or len(sr) < 25:
                 continue
             last = float(sr.iloc[-1]); m20 = float(sr.iloc[-20:].mean())
@@ -184,7 +216,10 @@ def main() -> int:
                    "강함 — S&P보다 강하고 20일선 위 → 유지·늘릴 후보" if a20 >= .5 and rs20 > 2 and rs5 > -1 else
                    "꺾이는 중 — 5일 약세 → 지켜보기" if rs5 < -3 else "보통")
         hold.append({"name": a["name"], "pct": a["pct"], "instruments": a["instruments"], "check": chk, "sig": sig,
-                     "us": [{"t": t, "px": round(float(C[t].iloc[-1]), 2) if t in C else None,
+                     "picks": a.get("picks"), "why_picks": a.get("why_picks"),
+                     "us": [{"t": t, "px": round(float(C[t].iloc[-1]), 2) if t in C else None, "cur": CURN.get(sfx(t), "달러"),
+                             "krw": (round(float(C[t].iloc[-1]) * (fx / float(C[FXT[sfx(t)]].iloc[-1]) if sfx(t) and FXT[sfx(t)] in C else fx)))
+                                    if t in C and fx else None,
                              "r1": round((ret(t, cal[-2], cal[-1]) or 0) * 100, 2) if t in C and len(cal) > 1 else None,
                              "since": round((ret(t, cal[0], cal[-1]) or 0) * 100, 2) if t in C else None} for t in us],
                      "kr": kr, "contrib": round(contrib.get(a["name"], 0) * 100, 2)})
