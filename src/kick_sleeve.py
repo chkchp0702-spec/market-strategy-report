@@ -143,6 +143,11 @@ def proof():
     return out
 
 
+def short(x):
+    import re as _re
+    return _re.sub(r",? (Inc\.?|Corp\.?|Corporation|Company|Ltd\.?|plc|CORP|N\.V\.|S\.A\.|ASA)\b.*$|( Common Stock| Ordinary Shares).*$", "", str(x or ""), flags=_re.I).strip()
+
+
 def get_json(path):
     with urllib.request.urlopen(urllib.request.Request(RAW + path, headers={"User-Agent": "ch-kick"}), timeout=40) as r:
         return json.loads(r.read().decode("utf-8"))
@@ -537,11 +542,20 @@ def main() -> int:
     today_ev = [e for e in events if e["d"] == last_d and e["k"] in ("사기", "팔기", "절반 정리")]
     new = [e for e in today_ev if f"{e['d']}|{e['k']}|{e.get('code')}" not in sent]
     if new and now.strftime("%Y-%m-%d") >= "2026-10-10":
-        msg = " · ".join(f"{e['k']} {e['name']}" + (f" {e['r']:+.1f}%" if e.get("r") is not None else "") for e in new)
+        # ⑨ 알림에 「그래서 뭘 하나」 한 줄: 무엇을 · 몇 % · 손절가 (10/10 앱 업그레이드)
+        def line(e):
+            sk = next((k for k, v in SRC_NAME.items() if v == e.get("src")), "")
+            if e["k"] == "사기":
+                w = SLEEVE / SLOTS * 100 * (0.5 if PROOF.get(sk, {}).get("trial") else 1)
+                return f"🟢 사기 {TAG.get(sk, '')}{short(e['name'])} 포트의 {w:.1f}% · 손절 {e['px'] * (1 + STOP):,.4g}"
+            if e["k"] == "절반 정리":
+                return f"🟡 절반 팔기 {short(e['name'])} {e['r']:+.1f}% · 나머지는 20일선까지"
+            return f"🔴 팔기 {short(e['name'])} {e['r']:+.1f}% ({e.get('why', '')})"
+        msg = "\n".join(line(e) for e in new)
         try:
             urllib.request.urlopen(urllib.request.Request("https://ntfy.sh/", data=json.dumps({
-                "topic": "chkchp-ch-kick", "title": "⚡ 킥 슬리브", "message": msg[:300],
-                "click": "https://chkchp0702-spec.github.io/daily-app/#port", "tags": ["zap"]}).encode(),
+                "topic": "chkchp-ch-kick", "title": f"⚡ 킥 {len(new)}건 — 오늘 할 일", "message": msg[:400],
+                "click": "https://chkchp0702-spec.github.io/daily-app/#port~pokick", "tags": ["zap"]}).encode(),
                 headers={"Content-Type": "application/json"}), timeout=15).read()
         except Exception as e:
             print("알림 실패", e)

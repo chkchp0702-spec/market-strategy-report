@@ -114,6 +114,20 @@ def update_log(now) -> list[dict]:
             log.append(entry)
     else:
         log[-1]["alloc"] = alloc          # 상품 글자만 바뀐 경우 최신으로
+    # ⑨ 비중·상품이 바뀐 날 알림 한 번 — 「무엇을 얼마나」 + 따라하기로 바로 (10/10 앱 업그레이드)
+    e = log[-1]
+    if e["date"] == today and not e.get("notified") and len(log) > 1:
+        msg = e.get("why", "")
+        msg = re.sub(r"\s*\([^()]*\)", "", msg)[:300]          # 괄호 근거는 앱에서
+        try:
+            import urllib.request
+            urllib.request.urlopen(urllib.request.Request("https://ntfy.sh/", data=json.dumps({
+                "topic": "chkchp-ch-report", "title": "💼 포트 비중 바꿈 — 오늘 맞춰 두기", "message": msg + "\n→ 따라하기에서 주 수 확인",
+                "click": "https://chkchp0702-spec.github.io/daily-app/#port~pofollow", "tags": ["briefcase"]}).encode(),
+                headers={"Content-Type": "application/json"}), timeout=15).read()
+            e["notified"] = True
+        except Exception as ex:
+            print("알림 실패", ex)
     LOG.write_text(json.dumps(log, ensure_ascii=False, indent=1), encoding="utf-8")
     return log
 
