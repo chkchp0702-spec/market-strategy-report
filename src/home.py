@@ -120,7 +120,8 @@ def main() -> int:
     dt_ = []
     for k, v in (LR.get("types") or {}).items():
         dt_.append({"k": k, "n": v.get("n_all"), "avg": v.get("avg_all"), "slots": {s: {"st": r.get("st"), "n": r.get("n"), "avg": r.get("avg")} for s, r in (v.get("slots") or {}).items()}})
-    S.append({"k": "danta", "ic": "🧪", "t": "단타 — 유형별", "n": sum(x["n"] or 0 for x in dt_), "rows": dt_, "note": f"쌓인 1분 자료 {LR.get('n_days', 0)}일 + 실제 알람 · 비용 0.3% 뺌"})
+    if False:   # 10/10 사용자: 「단타는 성적표에서 빼고」 — 단타 성적은 ⚡ 단타 탭의 🧪 표에만
+      S.append({"k": "danta", "ic": "🧪", "t": "단타 — 유형별", "n": sum(x["n"] or 0 for x in dt_), "rows": dt_, "note": f"쌓인 1분 자료 {LR.get('n_days', 0)}일 + 실제 알람 · 비용 0.3% 뺌"})
     pv = [{"name": h["name"], "picks": h.get("picks"), **(h.get("pick_vs") or {})} for h in P.get("hold", []) if h.get("pick_vs")]
     pw = [x for x in pv if x.get("edge") is not None]
     S.append({"k": "picks", "ic": "🌏", "t": "해외 상품 vs 원래 미국 상품", "n": len(pw), "win": sum(1 for x in pw if x["edge"] >= 0), "loss": sum(1 for x in pw if x["edge"] < 0),
@@ -138,9 +139,7 @@ def main() -> int:
     for x in sig:
         if (x.get("n") or 0) >= 10 and x.get("pf"):
             (good if x["pf"] >= 1.5 else bad if x["pf"] < 1 else []).append(f"{x['tag']} {KN.get(x['k'], x['k'])} 손익비 {x['pf']}")
-    for x in dt_:
-        if (x.get("n") or 0) >= 15 and x.get("avg") is not None:
-            (good if x["avg"] > 0.2 else bad if x["avg"] < -0.3 else []).append(f"단타 {x['k']} {x['avg']:+.2f}%")
+    # 단타는 성적표에서 뺌 (10/10 사용자)
     scores = {"at": home["at"], "rows": S, "good": good[:6], "bad": bad[:6]}
     home["scores"] = {"good": good[:3], "bad": bad[:3]}
 
