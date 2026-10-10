@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "AI 서버 붐에 '전자산업의 쌀' MLCC 사상 최대 공급난",
+   "url": "https://www.scmp.com/tech/tech-trends/article/3365353/ai-server-boom-fuels-record-supply-crunch-rice-electronics",
+   "press": "SCMP",
+   "at": "2026-10-10 18:45",
+   "why": "AI 하드웨어 병목이 수동부품으로 — 삼성전기 bet(#21)·반도체 칸 이익 논지",
+   "summary": "AI 서버 수요로 MLCC 공급이 사상 최대로 빠듯해졌다는 보도. 세부 숫자는 원문 확인(미확인)."
+  },
+  {
+   "title": "삼성전기, AI 서버용 MLCC 2억1,600만달러 공급 계약",
+   "url": "https://www.koreajoongangdaily.com/business/samsung-electromechanics-snags-216-million-ai-server-capacitor-supply-dealnbsp/12907147",
+   "press": "코리아중앙데일리",
+   "at": "2026-10-10 18:45",
+   "why": "삼성전기 bet(#21) 근거 — AI 서버 수주가 숫자로 확인되는지",
+   "summary": "삼성전기가 AI 서버용 커패시터(MLCC) 2.16억$ 공급 계약 체결(제목 기준). 앞서 12.6억$ 계약 보도도 있음(코리아중앙)."
+  },
+  {
+   "title": "한경: 'AI 수주' 쌓였는데 전력기기 빅3 주가는 찬바람",
+   "url": "https://www.hankyung.com/article/2026100929181",
+   "press": "한국경제",
+   "at": "2026-10-09 18:00",
+   "why": "AI 인프라 안 순환 — 전력기기 식고 MLCC·기판으로 관심 이동 여부",
+   "summary": "수주는 쌓였지만 전력기기 빅3 주가 부진(제목 기준, 세부 숫자 미확인)."
+  },
+  {
    "title": "TrendForce: ASML, 성숙 DUV 장비 최대 10% 가격 인상 추진 — TSMC 반발",
    "url": "https://www.trendforce.com/news/2026/07/16/news-asml-reportedly-seeks-higher-tool-prices-as-tsmc-pushes-back-mature-duv-tools-could-see-10-hike/",
    "press": "TrendForce",
