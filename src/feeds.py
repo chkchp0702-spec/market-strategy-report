@@ -63,13 +63,10 @@ NEWS = [
     # (id, 이름, 설명, url, 대체 도메인) — RSS 가 막히거나 0개면 구글뉴스 site:도메인 으로 대신 받음
     # 미국·글로벌 언론
     ("reuters", "Reuters 비즈니스·시장", "구글뉴스 site:reuters.com", GN.format(q="site:reuters.com+(markets+OR+business+OR+stocks)+when:1d", hl="en-US", gl="US", lang="en")),
-    ("wsj_mkt", "WSJ Markets", "언론사 RSS", "https://feeds.a.dj.com/rss/RSSMarketsMain.xml", "wsj.com"),
-    ("wsj_biz", "WSJ Business", "언론사 RSS", "https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml", "wsj.com"),
-    ("wsj_tech", "WSJ Tech", "언론사 RSS", "https://feeds.a.dj.com/rss/RSSWSJD.xml", "wsj.com"),
+    ("wsj", "Wall Street Journal", "구글뉴스 site:wsj.com", GN.format(q="site:wsj.com+(markets+OR+business+OR+economy+OR+tech)+when:1d", hl="en-US", gl="US", lang="en")),
     ("ft_mkt", "Financial Times Markets", "언론사 RSS", "https://www.ft.com/markets?format=rss", "ft.com"),
     ("ft_co", "Financial Times Companies", "언론사 RSS", "https://www.ft.com/companies?format=rss", "ft.com"),
     ("mw_top", "MarketWatch", "언론사 RSS", "https://feeds.content.dowjones.io/public/rss/mw_topstories", "marketwatch.com"),
-    ("mw_pulse", "MarketWatch 실시간", "언론사 RSS", "https://feeds.content.dowjones.io/public/rss/mw_marketpulse", "marketwatch.com"),
     ("barrons", "Barron's", "구글뉴스 site:barrons.com", GN.format(q="site:barrons.com+when:1d", hl="en-US", gl="US", lang="en")),
     ("sa_news", "Seeking Alpha 시장 뉴스", "언론사 RSS", "https://seekingalpha.com/market_currents.xml", "seekingalpha.com"),
     ("investing_en", "Investing.com 증시", "언론사 RSS", "https://www.investing.com/rss/news_25.rss", "investing.com"),
