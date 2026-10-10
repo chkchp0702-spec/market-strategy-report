@@ -1,6 +1,6 @@
 {
- "last_review": "2026-10-10 16:35",
- "summary": "주말 휴장 — 10/9 S&P 7,811.5 신고가지만 좁은 상승. 유럽 쪽 균열이 커진다: 유럽 은행주 채권금리 급등에 −8%, 분데스방크 인사가 '부채위기 위험 크게 높아짐'. 미시간 기대인플레 4.7%·브렌트 104.5로 금리 하방은 막혀 있다. 중립.",
+ "last_review": "2026-10-10 17:40",
+ "summary": "주말 휴장 — 10/9 S&P 7,811.5 신고가, 미 10년 5.24%. 유럽 고부채국 국채 스트레스가 이어지는 가운데 AI 공급망은 가격 인상(ASML 부품 +10%)·ASIC 가이던스 상향(GUC 4Q QoQ +35~40%)으로 이익 쪽 신호가 계속 강하다. 미국 AI 서버 전원장치 337조사는 대만 전원 업체 리스크. 중립.",
  "regime": "중립",
  "theses": [
   {
@@ -14,7 +14,7 @@
   {
    "t": "AI 이익은 진짜다 — 반도체 칸의 문제는 실적이 아니라 금리·밸류",
    "conf": 0.65,
-   "why": "삼성 3Q26P 영업이익 107.4조(컨센 104조 상회, meritz/44784) · TSMC 9월 매출 +54.7% YoY · 대만 9월 수출 872억$ +60.9%(HANAchina/70098, 70100) · 루멘텀 '광학 부품 2029년까지 완판, 수요 부족 70%'(HANAchina/70140, https://www.bloomberg.com/news/articles/2026-10-09/nvidia-backed-lumentum-sees-opto-parts-capacity-sold-out-to-2029) · 중국 AI CapEx 상향(70138)",
+   "why": "삼성 3Q26P 영업이익 107.4조(컨센 104조 상회, meritz/44784) · TSMC 9월 매출 +54.7% YoY · 대만 9월 수출 872억$ +60.9%(HANAchina/70098, 70100) · 루멘텀 '광학 부품 2029년까지 완판, 수요 부족 70%'(HANAchina/70140, https://www.bloomberg.com/news/articles/2026-10-09/nvidia-backed-lumentum-sees-opto-parts-capacity-sold-out-to-2029) · 중국 AI CapEx 상향(70138) · 10/10 ASML 부품 +10% 수용·GUC 4Q QoQ +35~40%(HANAchina/70181·70182)",
    "breaks": "MU −5% + 나스닥 26,500↓ (장부 mu_drop) 또는 TSMC 10/15 실적·가이던스 실망",
    "since": "2026-10-09",
    "check": "10/10 15:45: 보강 — 일본 공작기계 9월 수주 +60%·잔액 1조엔(HANAchina/70178), 번스타인 'TSMC 가격 인상·메모리·ASIC 주도'(智通財經), 스미토모베이클라이트 반도체 패키징재 100억엔 증산. 반대: 중국 광칩주 미 규제 우려 급락(gn_us_tech). TSMC 10/15"
@@ -100,7 +100,7 @@
   "right": 0,
   "wrong": 1,
   "bets": {
-   "made": 19,
+   "made": 20,
    "win": 0,
    "loss": 0,
    "avg": null
@@ -389,8 +389,8 @@
    "why": "씨티 '재무부 11/4 리펀딩에서 20·30년물 회차별 30억$씩 축소·20년물 취소 가능, 단기채로 대체'(HANAchina/70175) · 딜러들 '베선트의 금리 누르기 발행 조정' 주시(https://news.bloomberglaw.com/capital-markets/dealers-on-watch-for-any-bessent-debt-sale-move-to-temper-yields) · 10년 5.242 밴드 상단",
    "edge": "시장은 고금리 논지(무살렘·핌코 6%)에 쏠려 있는데, 장기물 공급 축소는 기간 프리미엄을 직접 깎는 재료 — 주말 나온 씨티 전망이라 월요일 가격 미반영",
    "src": "거시",
-   "status": "열림",
-   "res": null,
+   "status": "닫힘",
+   "res": "미진입 정리 ±0 (한도 10, 고금리 논지와 상충)",
    "note": "entry = 10/12 미국 시가. 고금리 논지(#1)의 헤지 성격 — CPI 10/14~15 이 위험"
   },
   {
@@ -461,6 +461,23 @@
    "why": "유럽 은행주 채권금리 급등에 8% 하락(investing_en/블룸버그 10/10) · 분데스방크 '유럽 부채위기 위험 크게 높아짐, 최근 채권 매도는 분명한 경고'(bbg_econ 10/10) · EU 은행 한 달 −7%(https://en.ilsole24ore.com/art/stock-market-government-bonds-eu-banks-down-7-per-cent-in-a-month-AJ8TF6WB) · 프랑스 국채 변동(gn_kr_macro)",
    "edge": "주말에 중앙은행 인사가 '위기' 단어를 썼다 — 월요일 시가에 국채 스프레드·은행 추가 매도가 덜 반영됐을 수 있다(이미 −8%라 되돌림 위험 큼)",
    "src": "뉴스",
+   "status": "열림",
+   "res": null
+  },
+  {
+   "id": "20261010-17",
+   "made": "2026-10-10 17:40",
+   "kind": "종목",
+   "t": "3443.TW",
+   "name": "글로벌유니칩(GUC)",
+   "dir": "오름",
+   "entry": null,
+   "target": "entry +8%",
+   "stop": "entry −5%",
+   "horizon": "1주",
+   "why": "HANAchina/70182 대만경제일보: AI ASIC 수요로 4분기 매출 QoQ +35~40% 전망 · HANAchina/70181 ASML 부품 10% 인상 수용(장비·설계 공급자 가격 결정력) · 대만 국경일 연휴 뒤 10/12 첫 거래",
+   "edge": "연휴 중 나온 4분기 가이던스 상향을 대만 시장은 아직 거래하지 못했다(이미 신고가권이라 되돌림 위험)",
+   "src": "피드",
    "status": "열림",
    "res": null
   }
