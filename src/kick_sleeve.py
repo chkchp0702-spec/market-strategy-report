@@ -112,7 +112,8 @@ def proof():
     except Exception:
         E = {}
     g = lambda *ks: (lambda d: d if isinstance(d, dict) else {})(__import__("functools").reduce(lambda a, k: (a or {}).get(k) if isinstance(a, dict) else None, ks, E))
-    st = {"cup": g("cup", "brk_now"), "gap": g("gap", "돌파_by_size", "4-8%"), "accum": g("accum", "brk")}
+    # 10/10: 컵은 피벗 기준(brk_now)이면 돌파일 점프가 섞여 부풀려짐 → 돌파일 종가 기준·킥 필터 적용 성적(brk_real_kick)
+    st = {"cup": g("cup", "brk_real_kick") or g("cup", "brk_now"), "gap": g("gap", "돌파_by_size", "4-8%"), "accum": g("accum", "brk")}
     wide = {"accum": g("accum", "all")}          # 돌파만으로 표본이 적으면 신호 전체 성적으로 시험 편입 판단
     out = {}
     for k, v in st.items():
@@ -165,6 +166,9 @@ def collect(now):
             if x.get("brk") and x.get("brkd"):
                 if (x.get("f_handle") or 0) < _P["cup_min_handle"] or (x.get("f_rs") or 0) < _P["cup_min_rs"] or (_P["cup_mkts"] and x.get("mkt") not in _P["cup_mkts"]):
                     continue                                   # 엣지 연구 필터 (brain/edge.md)
+                _bp, _bi = x.get("bpath") or [], x.get("bpi")
+                if _bi is not None and _bi < len(_bp) and _bp[_bi] >= _P.get("cup_max_ext", 999):
+                    continue                                   # 10/10: 돌파일 종가가 피벗 +12% 넘게 뜬 「늦은」 돌파는 산 뒤 평균 −0.6%·손익비 0.7
                 k = f"{x['code']}|{x['brkd']}"
                 if k not in cands:
                     src = "cup_eye" if x["code"] in eye else "cup"

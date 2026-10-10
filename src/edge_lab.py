@@ -15,8 +15,16 @@ RAW = "https://raw.githubusercontent.com/chkchp0702-spec/daily-app/main/"
 
 
 def gj(path):
-    with urllib.request.urlopen(urllib.request.Request(RAW + path, headers={"User-Agent": "ch-edge"}), timeout=40) as r:
-        return json.loads(r.read().decode())
+    """raw 가 막힌 환경(예약 세션 프록시)에서는 DAILY_APP_DIR(daily-app 클론)에서 읽는다"""
+    import os
+    try:
+        with urllib.request.urlopen(urllib.request.Request(RAW + path, headers={"User-Agent": "ch-edge"}), timeout=40) as r:
+            return json.loads(r.read().decode())
+    except Exception:
+        loc = os.environ.get("DAILY_APP_DIR")
+        if not loc:
+            raise
+        return json.loads((Path(loc) / path).read_text(encoding="utf-8"))
 
 
 def stat(v):
@@ -47,6 +55,30 @@ def main():
                     "brk_by_depth": cut(brk, "f_depth", [(0, 20, "얕음<20"), (20, 35, "20-35"), (35, 100, "깊음35+")]),
                     "brk_by_handle": cut(brk, "f_handle", [(0, 4, "손잡이<4일"), (4, 10, "4-10일"), (10, 100, "10일+")]),
                     "brk_status": {k: sum(1 for x in brk if x.get("bst") == k) for k in ("진행", "성공", "실패")}}
+        # 10/10 엣지 연구: bnow 는 「피벗」 기준이라 돌파 당일 점프(중앙 +4.5%)까지 들어가 부풀려진다.
+        # 킥은 돌파일 「종가」에 사므로 실제로 먹을 수 있는 수익 = 돌파일 종가 → 지금 (bpath[bpi] → bpath[-1]).
+        def real(x):
+            p, i = x.get("bpath"), x.get("bpi")
+            if not p or i is None or i >= len(p):
+                return None
+            return round(((1 + p[-1] / 100) / (1 + p[i] / 100) - 1) * 100, 2)
+
+        def ext(x):
+            p, i = x.get("bpath"), x.get("bpi")
+            return p[i] if p and i is not None and i < len(p) else None
+        try:
+            KP = json.loads((ROOT / "market" / "kick_params.json").read_text(encoding="utf-8"))
+        except Exception:
+            KP = {}
+        for x in brk:
+            x["_real"], x["_ext"] = real(x), ext(x)
+        kf = [x for x in brk if (x.get("f_handle") or 0) >= KP.get("cup_min_handle", 0) and (x.get("f_rs") or 0) >= KP.get("cup_min_rs", 0)
+              and (not KP.get("cup_mkts") or x.get("mkt") in KP["cup_mkts"]) and x["_ext"] is not None and x["_ext"] < KP.get("cup_max_ext", 999)]
+        E["cup"].update({"brk_real": stat([x["_real"] for x in brk]),
+                         "brk_real_by_ext": {lab: stat([x["_real"] for x in brk if x["_ext"] is not None and lo <= x["_ext"] < hi])
+                                             for lo, hi, lab in [(-99, 3, "피벗+3%미만"), (3, 7, "3-7%"), (7, 12, "7-12%"), (12, 999, "12%+")]},
+                         "brk_real_by_mkt": {m: stat([x["_real"] for x in brk if x.get("mkt") == m]) for m in ("US", "KR", "JP", "CN", "HK")},
+                         "brk_real_kick": stat([x["_real"] for x in kf])})
     except Exception as e:
         E["cup_err"] = str(e)[:80]
     try:
