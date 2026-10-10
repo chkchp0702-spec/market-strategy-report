@@ -1,6 +1,6 @@
 {
- "last_review": "2026-10-11 07:35",
- "summary": "주말 휴장 — 코스피는 삼성 107조 실적에도 주간 −5%대로 대만·일본 AI 랠리에서 소외, 돈은 대형 반도체에서 소부장(한 달 +11%)으로 옮겨갔다. 미 ITC가 AI 서버 전력공급 시스템 337조사(폭스콘·델타·콴타 등)를 열어 AI 하드웨어 공급망에 법적 변수가 생겼고, 다음 주 CPI·미 대형은행·TSMC 실적이 시험대. 중립.",
+ "last_review": "2026-10-11 08:40",
+ "summary": "주말 휴장 — 금요일 S&P 신고가 마감 뒤 토요일에 후티의 리야드 공항 재공격(12명 사망)과 허리케인 아이자이아스 걸프 상륙(생산 셧인)이 겹쳐 월요일 유가 상방 압력. 트럼프의 쿡 연준 이사 해임 재추진은 연준 독립성 할인(금 우호). 다음 주 CPI(14일, 전월 +0.6% 예상)·미 대형은행(13~14일)·TSMC(15일)가 시험대. 중립.",
  "regime": "중립",
  "theses": [
   {
@@ -46,7 +46,7 @@
  ],
  "watch": [
   "10/12(월) 한국 재개: 코스피 6,500 손절선·외국인 10일째 매도 여부 · 소부장 과열(리노공업 5일 +19.8%, bet 058470 내림 −6%/+4%) · 10/12 시가 전 대기 bets 확신순 정리(열린 9+대기 10 → 10개)",
-  "브렌트 104.5 — 카타르 앞바다 유조선 피격(oilprice 10/10, 걸프 깊숙이 한 달 만)·이란 호르무즈 밖 공격(FT) vs 러 경유 30만톤·푸틴 이란 종전안 전달(cnbc) · 95 아래면 에너지 13→10 · VLO 10/12 시가(bet 기준)",
+  "브렌트 104.5·WTI 91.85(10/9 종가) — 주말 후티 리야드 재공격·허리케인 아이자이아스 걸프 셧인 → 10/12 시가 갭 확인(USO bet 기준) · 95 아래면 에너지 13→10",
   "미 10년 5.242 — 주말 '10월 인상 기대 후퇴'·고용 하향 수정 반영 여부: 5.15 아래면 bet ^TNX 이김·고금리 0.7→0.6 / 5.30 위면 현금 쪽 · 금 4,220·GLD 384.6(bet 400/375) · 11/4 리펀딩 · EUFN 10/12 시가 · 기간 프리미엄 90bp",
   "6103.T 10/13 시가(기준, 수주잔고 사상 최고 보강) · ZS 216.8 기준(목표 234·손절 206) · CAT 800.47·VST 161.48·IAG 18.8(10/9 종가 진입) · 10/12 시가: 삼성전기·삼성바이오·대한항공·LG이노텍 · 1211.HK 10/12 시가(bet 내림 −6%/+4%) · 012330 현대모비스: 3Q 영업익 +17% 전망·4Q 로봇 액추에이터(einfomax 10/10) — 스캐너 겹치면 bet · VIX 14.84→18 위면 신규 킥 절반(bet ^VIX) · 2308.TW 델타 10/12 대만 시가(bet 내림 −5%/+3.5%, ITC 337 조사) — 원고가 바이코(VICR)면 VICR 오름 별도 검토",
   "KBE 63.13 기준(목표 66.3·손절 60.9) — 10/13~14 JPM·GS 등 실적의 순이자이익·트레이딩 수수료, 커브(10년−2년) +45bp 유지 여부"
@@ -100,7 +100,7 @@
   "right": 0,
   "wrong": 1,
   "bets": {
-   "made": 29,
+   "made": 30,
    "win": 0,
    "loss": 1,
    "avg": -5.0
@@ -583,8 +583,8 @@
    "why": "노무라 '구조적 정제유 부족, 디젤 스프레드가 금리 변동성 좌우'(HANAchina/70186, https://wallstreetcn.com/articles/3783332) · 걸프 깊숙이 유조선 피격(https://oilprice.com/Latest-Energy-News/World-News/First-Deep-Gulf-Tanker-Attack-in-Nearly-a-Month-Hits-Vessel-off-Qatar.html, WSJ 'Tanker Attacks Push Deeper Into Gulf') · 기준 10/12 시가 · 보강: 리야드 공항 일주일 새 여러 차례 피격(cnbc 10/10, AP 10/8 후티 주장) — 걸프 공급 위험 지속",
    "edge": "시장은 러시아 경유 30만톤 합의를 '디젤 해소'로 읽지만 미국 하루 디젤 소비보다 작은 양 — 정제마진 부족은 원유보다 덜 반영",
    "src": "뉴스",
-   "status": "대기",
-   "res": null,
+   "status": "닫힘",
+   "res": "미진입 정리 ±0 — 허리케인 아이자이아스 걸프 상륙·생산 셧인(EIA 10/9, argus) → 걸프 정제소 가동 중단 위험으로 논지 모호, 원유 직접(USO #20261011-08)로 교체(승패 집계 제외)",
    "theme": "에너지·정제"
   },
   {
@@ -633,7 +633,7 @@
    "target": "entry −6%",
    "stop": "entry +4%",
    "horizon": "1주",
-   "why": "중국 9월 승용차 소매 −24%(sa_news 피드 10/11; CPCA 9/1~27 −29% https://chinaevhome.com/2026/09/30/china-passenger-car-retail-falls-29-in-sept-1-27-as-market-weakness-persists/) · EU 중국 하이브리드 수입 절반 감축 계획(gn_bbg 피드 10/11, https://www.newsquawk.com/headlines/the-eu-is-preparing-a-temporary-import-cap-on-chinese-hybrid-cars)",
+   "why": "중국 9월 승용차 소매 −24%(sa_news 피드 10/11; CPCA 9/1~27 −29% https://chinaevhome.com/2026/09/30/china-passenger-car-retail-falls-29-in-sept-1-27-as-market-weakness-persists/) · EU 중국 하이브리드 수입 절반 감축 계획(gn_bbg 피드 10/11, https://www.newsquawk.com/headlines/the-eu-is-preparing-a-temporary-import-cap-on-chinese-hybrid-cars) · 10/11 보강: EU, 중국산 하이브리드차 수입 절반 감축 조치 계획(gn_bbg 피드 10/11)",
    "edge": "내수 급감(월간 확정치)과 수출 출구(EU 하이브리드) 규제가 같은 주말에 겹침 — 홍콩 10/12 시가 전, 둘을 함께 넣은 가격은 아직 없음",
    "src": "뉴스",
    "status": "대기",
@@ -672,6 +672,25 @@
    "src": "뉴스",
    "status": "대기",
    "res": null
+  },
+  {
+   "id": "20261011-08",
+   "made": "2026-10-11 08:40",
+   "kind": "ETF",
+   "t": "USO",
+   "name": "US Oil Fund(WTI)",
+   "dir": "오름",
+   "entry": null,
+   "entry_note": "10/12(월) 미국 시가로 확정",
+   "target": "entry +6%",
+   "stop": "entry −4%",
+   "horizon": "1주",
+   "why": "주말 공급 충격 두 개가 금요일 종가(WTI 91.85, kimu_nim/46498) 뒤에 겹침: 후티 리야드 공항 재공격 12명 사망·309명 부상(HANAchina/70194, wsj 피드 10/11) + 허리케인 아이자이아스(올해 첫 허리케인, 2024 헬렌 이후 최대) 걸프 상륙·생산 셧인(https://www.eia.gov/todayinenergy/detail.php?id=68284, https://www.argusmedia.com/en/news-and-insights/latest-market-news/2888293-hurricane-heads-for-us-gulf-coast-causing-shut-ins)",
+   "edge": "토요일 상륙·공격 — 월요일 원유 시가 전엔 가격에 없음. 셧인 규모(배럴)는 미확인",
+   "src": "뉴스",
+   "status": "대기",
+   "res": null,
+   "note": "대한항공 내림(#20261010-13)과 같은 방향 논지. 스캐너 겹침 없음 → kick_cands 미등록. 셧인이 작으면 월요일 시가 갭 소진 위험(01:35 아이디어로 시가·종가 두 번 채점)"
   }
  ],
  "skips": [
