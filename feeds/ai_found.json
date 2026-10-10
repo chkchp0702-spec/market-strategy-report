@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "마이크론 대만 타오위안 노조, 상여금 분쟁으로 파업 권한 확보",
+   "url": "https://evertiq.com/design/2026-10-07-micron-workers-in-taiwan-vote-to-authorise-strike",
+   "press": "Evertiq(로이터 인용)",
+   "at": "2026-10-10 21:40",
+   "why": "메모리 공급 차질 가능성 — SK하이닉스 bet·반도체 칸, MU 내림 bet #24 근거",
+   "summary": "마이크론 대만 타오위안 공장 노조가 상여금(이익 공유) 분쟁으로 파업 찬성 의결(10/7). 주말 미국 개장 전 뉴스도 '마이크론 파업'을 주목 변수로 꼽음(gn_kr_sector). 실제 파업 여부·규모는 미확인."
+  },
+  {
+   "title": "엔비디아, 추론 칩 경쟁사 d-Matrix 와 손잡아 — GPU 생태계 확장",
+   "url": "https://thenextweb.com/news/nvidia-d-matrix-joint-inference-chip-system",
+   "press": "The Next Web",
+   "at": "2026-10-10 21:40",
+   "why": "추론 전용 칩 확산 — ASIC·메모리 대역폭 수요(AI 이익 논지·MRVL·GUC bets)",
+   "summary": "엔비디아가 추론 칩 스타트업 d-Matrix 와 공동 시스템·투자 계획(gn_kr_global 10/10). 경쟁 대신 흡수 — 추론 시장에서 ASIC·저지연 메모리 비중 확대 신호. 투자 금액은 미확인."
+  },
+  {
+   "title": "메모리주 부진, 사야 할 때인가 — NYSE 스페셜리스트 제이 우즈",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/buy-dip-memory-stocks-tech-145109105.html",
+   "press": "Yahoo Finance/CNBC",
+   "at": "2026-10-10 21:40",
+   "why": "메모리주 심리 바닥 신호 vs 마이크론 노사 리스크 — 반도체 칸·000660 bet",
+   "summary": "메모리주가 'malaise(침체)' 국면이라며 매수 기회로 평가(CNBC 10/9). 삼성 3Q 영업이익 107.4조 사상 최대에도 주가 정체(gn_kr_sector '왜 못 오르나')와 같은 괴리."
+  },
+  {
    "title": "채권 변동성 vs 주식 VIX — 시장 신호 읽기",
    "url": "https://journalarta.com/en/2026/10/07/vix-bond-volatility-market-signal/",
    "press": "Journal Arta",
