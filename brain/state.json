@@ -1,6 +1,6 @@
 {
- "last_review": "2026-10-11 05:36",
- "summary": "주말 휴장 — S&P 신고가 주간(4월 이후 최강) 뒤 반도체만 AI 매출 의심으로 반락. 다음 주는 CPI·미 대형은행 실적·TSMC 가 시험대이고, 금리 인상 논쟁이 다시 커지는 가운데 브렌트 104달러대 유가 부담이 겹쳐 있다. 한국은 경상수지 흑자 기록 속에 파킹형 ETF로 대기자금이 쌓임. 중립.",
+ "last_review": "2026-10-11 06:35",
+ "summary": "주말 휴장 — 코스피는 삼성 107조 실적에도 주간 −5%대로 대만(+14%)·일본(+7%) AI 랠리에서 소외됐고, 외국인 삼전 지분은 46%대로 금융위기 수준까지 내려와 있다. 다음 주 CPI·미 대형은행·TSMC 실적이 금리 논쟁과 반도체 반등의 시험대. 중립.",
  "regime": "중립",
  "theses": [
   {
@@ -495,8 +495,8 @@
    "why": "한경 10/9 '이왕섭 팀장: AI 인프라 다음 주도주는 CPU·기판·MLCC'(https://www.hankyung.com/article/2026100929121) · 겔싱어 '하드웨어 황금기'(HANAchina/70184) · AI 서버 MLCC 공급 부족(SCMP https://www.scmp.com/tech/tech-trends/article/3365353/ai-server-boom-fuels-record-supply-crunch-rice-electronics) · 삼성전기 AI 서버 MLCC 공급 계약(코리아중앙 https://www.koreajoongangdaily.com/business/samsung-electromechanics-snags-216-million-ai-server-capacitor-supply-dealnbsp/12907147)",
    "edge": "AI 병목이 메모리→광통신→수동부품으로 옮겨가는 '다음 칸' — 주말 전략가 발언이 10/12 시가 전, 전력기기는 이미 식는 중(순환)",
    "src": "뉴스",
-   "status": "대기",
-   "res": null
+   "status": "닫힘",
+   "res": "미진입 정리 ±0 — 대기 상한·AI 하드웨어 괴리 경보(SMH 내림 #20261011-02와 상충)(승패 집계 제외)"
   },
   {
    "id": "20261010-19",
