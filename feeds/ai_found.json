@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "AI 기업 채권 발행, 금리 상승에도 오히려 늘어 — SpaceX·브로드컴 대형 조달 예고",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-10/ai-issuers-are-upending-longstanding-safety-valve-credit-weekly",
+   "press": "Bloomberg",
+   "at": "2026-10-11 04:00",
+   "why": "🧠 'AI 크레딧이 다음 약한 고리' 논지(0.55) 핵심 근거 — 반도체·AI 하드웨어 칸 밸류 부담",
+   "summary": "금리가 오르면 보통 발행이 줄지만 올해 테크 기업은 반대로 늘림. SpaceX·브로드컴 대형 조달 논의가 공급 부담 우려를 키움."
+  },
+  {
+   "title": "엔비디아, '오픈' 모델 스타트업 Reflection AI 인수 협상",
+   "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1",
+   "press": "Financial Times",
+   "at": "2026-10-11 03:42",
+   "why": "엔비디아가 모델 쪽까지 수직 확장 — AI 매출 의심 국면에서 수요 자체 창출 시도, NVDA·반도체 칸 해석",
+   "summary": "FT 보도, 인수 협상 단계(가격 미확인). Reflection AI 는 엔비디아가 투자한 오픈 웨이트 모델 회사."
+  },
+  {
    "title": "중국 9월 1~27일 승용차 소매 −29%, 시장 약세 지속(CPCA)",
    "url": "https://chinaevhome.com/2026/09/30/china-passenger-car-retail-falls-29-in-sept-1-27-as-market-weakness-persists/",
    "press": "ChinaEVHome",
