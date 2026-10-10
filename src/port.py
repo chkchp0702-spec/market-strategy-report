@@ -29,7 +29,12 @@ US_PICK = [
 ]
 NOT_TICKER = {"TIGER", "RISE", "KODEX", "ACE", "SOL", "PLUS", "KRX", "CD", "AI", "HBM", "ETF", "KIS", "TOP", "S", "KB",
               "HANARO", "KBSTAR", "ARIRANG", "KOSEF", "NH", "SK", "LG", "OIL"}
-BENCH = {"SPY": "S&P500", "^KS11": "코스피", "AOR": "주식60·채권40"}
+BENCH = {"SPY": "S&P500", "^KS11": "코스피", "AOR": "주식60·채권40",
+         "QQQ": "나스닥100", "DIA": "다우", "^KQ11": "코스닥", "ACWI": "MSCI 전세계", "URTH": "MSCI 선진국", "EEM": "MSCI 신흥국",
+         "^N225": "니케이225", "^HSI": "항셍", "000300.SS": "중국 CSI300"}
+BENCH_GROUP = {"S&P500": "미국", "나스닥100": "미국", "다우": "미국", "코스피": "한국", "코스닥": "한국",
+               "MSCI 전세계": "MSCI", "MSCI 선진국": "MSCI", "MSCI 신흥국": "MSCI", "니케이225": "아시아", "항셍": "아시아", "중국 CSI300": "아시아",
+               "주식60·채권40": "자산배분"}
 
 
 def us_of(name: str, inst: str) -> list[str]:
@@ -188,6 +193,8 @@ def main() -> int:
         "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "asof": cal[-1].strftime("%Y-%m-%d"), "fx": round(fx, 1) if fx else None,
         "dates": series_d, "nav": [round((v - 1) * 100, 2) for v in nav],
         "bench": {BENCH[k]: [round((v - 1) * 100, 2) for v in bn[k]] for k in BENCH},
+        "bench_meta": [{"name": BENCH[k], "t": k, "group": BENCH_GROUP.get(BENCH[k], ""), "ret": round((bn[k][-1] - 1) * 100, 2),
+                        "ok": k in C} for k in BENCH],
         "stat": {"ret": round((nav[-1] - 1) * 100, 2), "spy": round((bn["SPY"][-1] - 1) * 100, 2),
                  "kospi": round((bn["^KS11"][-1] - 1) * 100, 2), "mix": round((bn["AOR"][-1] - 1) * 100, 2),
                  "mdd": round(mdd * 100, 2), "days": len(cal) - 1,
