@@ -38,18 +38,20 @@ SOURCES = [
 ]
 # 🌐 미리 정한 피드 밖의 뉴스·전략·경제 글 (10/10 사용자: "피드에 없는 뉴스·자료·전략·경제·주식 글도 다 검색해서 넣어")
 GN = "https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={gl}:{lang}"
+import urllib.parse as _up
 NEWS = [
     # id, 이름, 설명, url
-    ("gn_kr_mkt", "뉴스 · 국내 증시", "구글 뉴스 검색", GN.format(q="코스피+OR+코스닥+OR+증시+when:1d", hl="ko", gl="KR", lang="ko")),
-    ("gn_kr_macro", "뉴스 · 금리·환율·경제", "구글 뉴스 검색", GN.format(q="금리+OR+환율+OR+연준+OR+물가+OR+경기+when:1d", hl="ko", gl="KR", lang="ko")),
-    ("gn_kr_sector", "뉴스 · 반도체·AI·업종", "구글 뉴스 검색", GN.format(q="반도체+OR+HBM+OR+AI+OR+전력+OR+조선+주가+when:1d", hl="ko", gl="KR", lang="ko")),
-    ("gn_kr_strat", "뉴스 · 증권사 전략·리포트", "구글 뉴스 검색", GN.format(q="증권사+전략+OR+목표주가+OR+리포트+OR+투자전략+when:1d", hl="ko", gl="KR", lang="ko")),
+    ("gn_kr_mkt", "뉴스 · 국내 증시", "구글 뉴스 검색", GN.format(q=_up.quote("코스피+OR+코스닥+OR+증시+when:1d", safe="+:"), hl="ko", gl="KR", lang="ko")),
+    ("gn_kr_macro", "뉴스 · 금리·환율·경제", "구글 뉴스 검색", GN.format(q=_up.quote("금리+OR+환율+OR+연준+OR+물가+OR+경기+when:1d", safe="+:"), hl="ko", gl="KR", lang="ko")),
+    ("gn_kr_sector", "뉴스 · 반도체·AI·업종", "구글 뉴스 검색", GN.format(q=_up.quote("반도체+OR+HBM+OR+AI+OR+전력+OR+조선+주가+when:1d", safe="+:"), hl="ko", gl="KR", lang="ko")),
+    ("gn_kr_strat", "뉴스 · 증권사 전략·리포트", "구글 뉴스 검색", GN.format(q=_up.quote("증권사+전략+OR+목표주가+OR+리포트+OR+투자전략+when:1d", safe="+:"), hl="ko", gl="KR", lang="ko")),
     ("gn_us_mkt", "News · US markets", "Google News", GN.format(q="stock+market+OR+S%26P+500+OR+Nasdaq+OR+Treasury+yields+when:1d", hl="en-US", gl="US", lang="en")),
     ("gn_us_fed", "News · Fed·macro", "Google News", GN.format(q="Federal+Reserve+OR+inflation+OR+jobs+report+OR+earnings+when:1d", hl="en-US", gl="US", lang="en")),
     ("hankyung", "한국경제 증권", "언론사 RSS", "https://www.hankyung.com/feed/finance"),
     ("mk", "매일경제 증권", "언론사 RSS", "https://www.mk.co.kr/rss/50200011/"),
     ("cnbc", "CNBC Markets", "언론사 RSS", "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258"),
-    ("yahoo", "Yahoo Finance", "언론사 RSS", "https://finance.yahoo.com/news/rssindex"),
+    ("yahoo", "Yahoo Finance", "언론사 RSS", "https://feeds.finance.yahoo.com/rss/2.0/headline?s=%5EGSPC,%5EIXIC,%5EDJI,NVDA,AAPL&region=US&lang=en-US"),
+    ("cnbc_top", "CNBC Top News", "언론사 RSS", "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"),
     ("investing_kr", "인베스팅닷컴 뉴스", "언론사 RSS", "https://kr.investing.com/rss/news.rss"),
 ]
 AI_FOUND = ROOT / "feeds" / "ai_found.json"     # 🧠 매시간 두뇌가 웹에서 찾아 넣는 글
@@ -191,6 +193,8 @@ def rss(url: str, n: int = 30) -> list[dict]:
             at = parsedate_to_datetime((it.findtext("pubDate") or "").strip()).astimezone(KST)
         except Exception:
             at = dt.datetime.now(KST)
+        if at > dt.datetime.now(KST) + dt.timedelta(minutes=10):     # 한국 언론 RSS 가 KST 를 GMT 로 표시하는 경우
+            at -= dt.timedelta(hours=9)
         title = clean(it.findtext("title") or "")
         srcname = clean(it.findtext("source") or "")
         if srcname and title.endswith(" - " + srcname):
