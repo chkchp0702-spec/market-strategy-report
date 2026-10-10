@@ -1,6 +1,6 @@
 {
- "last_review": "2026-10-10 23:40",
- "summary": "주말 휴장 — 10/9 다우 +0.8%·S&P 신고가, 달러 4주 연속 강세. 주말 사이 카타르 앞바다 유조선 피격(걸프 깊숙이 한 달 만)과 노무라 '디젤 부족=금리 변동성' 경고로 유가·금리 쪽 위험이 다시 커졌고, 중국 CXMT 서버 DDR5 진입 예고는 메모리 쪽 새 변수. 코스피 주간 −5.39% 뒤 10/12 개장이 첫 시험. 중립.",
+ "last_review": "2026-10-11 00:40",
+ "summary": "주말 휴장 — 10/9 다우 +0.8%·S&P 신고가. 리야드 공항이 일주일 새 다시 피격(후티)·카타르 앞바다 유조선 피격으로 걸프 위험이 겹쳤고, JP모건 운용은 '고금리 = 우량 채권 세대 기회'를 말한다. 일본 공작기계 수주잔고 사상 최고(AI). 코스피 주간 −5.39% 뒤 10/12 개장이 첫 시험. 중립.",
  "regime": "중립",
  "theses": [
   {
@@ -48,7 +48,7 @@
   "10/12(월) 한국 재개: 코스피 6,500 손절선·외국인 10일째 매도 여부 · 소부장 과열(리노공업 5일 +19.8%, bet 058470 내림 −6%/+4%)",
   "브렌트 104.5 — 카타르 앞바다 유조선 피격(oilprice 10/10, 걸프 깊숙이 한 달 만)·이란 호르무즈 밖 공격(FT) vs 러 경유 30만톤·푸틴 이란 종전안 전달(cnbc) · 95 아래면 에너지 13→10 · VLO 10/12 시가(bet 기준)",
   "미 10년 5.242 — 5.20 아래면 us10y_530 되돌림 / 5.30 위면 현금 쪽 · 금 4,220·GLD 384.6: 10/12 쿡 해임 재시도 반응(GLD bet 400/375) · TLT 10/12 시가(bet 기준, +4%/−2.5%) · 11/4 리펀딩: 씨티 '장기물 축소·20년물 중단 가능' — 발표 시 10년 −10bp 이상이면 고금리 논지 0.7→0.6 · 유럽 은행(EUFN) 10/12 시가·프랑스 10년물 — 스프레드 확대 지속 시 금융 칸 8→6 검토 · 유로 1.10(씨티 하회 전망)·기간 프리미엄 90bp — 더 오르면 고PER 성장주 주의",
-  "6103.T 10/13 시가(기준) · ZS 226.5(목표 234·손절 206) · COHR 318.5 기준(손절 302.6, 장중 311.6) · CAT 10/9 종가(기준) · 10/12 시가: 삼성전기(오름)·LG이노텍(내림, bet #25 기준)·S-Oil·418670·SK하이닉스(오름) · IAG 10/9 종가(기준, 컵 18.89) · 9505.T 10/13 시가(컵 1,071) · 9706.T 10/13 시가(컵 71.3) · 207940.KS 10/12 시가(10/8 1,219,000) · MRVL 10/12 시가(기준, +8%/−5%) · MU 10/12 시가(기준, 내림 −6%/+4%) — 대만 노조 실제 파업 공지 여부",
+  "6103.T 10/13 시가(기준, 수주잔고 사상 최고 보강) · ZS 216.8 기준(목표 234·손절 206) · CAT 800.47·VST 161.48·IAG 18.8(10/9 종가 진입) · 10/12 시가: 삼성전기·삼성바이오·대한항공·LG이노텍",
   "VIX 14.84 → 18 위면 신규 킥 크기 절반(bet ^VIX, 손절 13.5) · 외환보유액 9월 기록 vs 10/12 외국인 수급"
  ],
  "port_ideas": [
@@ -100,10 +100,10 @@
   "right": 0,
   "wrong": 1,
   "bets": {
-   "made": 25,
+   "made": 26,
    "win": 0,
-   "loss": 0,
-   "avg": null
+   "loss": 1,
+   "avg": -5.0
   }
  },
  "bets": [
@@ -178,8 +178,8 @@
    "why": "루멘텀 CEO '광학 부품 2029년까지 완판, 일부 수요 부족 70%'(HANAchina/70140 · Bloomberg 2026-10-09) — 업계 공급 부족 확인. COHR 은 10/8 −9.63%·5일 −5.28%로 광통신 칸 중 가장 많이 빠짐(market/port.json)",
    "edge": "시장은 '루멘텀 개별 호재'로 읽음(LITE +4% vs COHR +3%) — 증설 3~5년 걸리는 업계 공급 부족이면 가장 눌린 동종 COHR 가 더 크게 되돌림",
    "src": "피드",
-   "status": "열림",
-   "res": null,
+   "status": "닫힘",
+   "res": "짐 -5.0% (손절 닿음 10/9)",
    "note": "스캐너 신호 겹침 없음 — 확신 중간, kick_cands 미등록",
    "last": "10/9 종가 312.62(시가 318.50 대비 −1.8%, 손절 302.58 위) market/port.json"
   },
@@ -228,7 +228,7 @@
    "t": "VST",
    "name": "비스트라",
    "dir": "오름",
-   "entry": null,
+   "entry": 161.48,
    "entry_rule": "10/9 미국 종가로 확정(장중값 확인 불가)",
    "target": "entry +8%",
    "stop": "entry −5%",
@@ -236,7 +236,7 @@
    "why": "미국 주도 업종 '독립 전력 생산자' r5 +17.29%(market/focus.json US hot) 안에서 VST 10/8 r1 −6.35%(market/sectors.json XLU members) 눌림 · 같은 날 고래 매집 신호(market/kick_cands.json VST|2026-10-09|whale) · AI 전력 수요 근거: 루멘텀 2029 완판(HANAchina/70140)·JPM 데이터센터 건설 호황(kwusa/61133)",
    "edge": "하루 −6%를 '주도주 끝'으로 읽은 매도를 고래 수급이 받았다 — 주도 업종 첫 눌림은 아직 가격에 반등이 안 들어감",
    "src": "스캐너",
-   "status": "대기",
+   "status": "열림",
    "res": null,
    "note": "고금리 논지(0.7)가 유틸리티 역풍 — 확신 중간. VST 는 이미 kick_cands 에 whale 로 있어 중복 등록 안 함 · 10/10 🔧 자가 업그레이드: 한도 10 에 밀려 채점 없이 닫혔던 것을 「대기」로 되살림 — entry 는 market/bets_score.json 이 시세로 정함",
    "last": "10/9 r1 +3.42%(market/sectors.json) — 종가 절대값 미확인, entry 미확정"
@@ -248,7 +248,7 @@
    "t": "IAG",
    "name": "아이앰골드",
    "dir": "오름",
-   "entry": null,
+   "entry": 18.8,
    "entry_rule": "10/9 미국 종가로 확정(컵 기준가 18.89 — 장중값 확인 불가)",
    "target": "entry +8%",
    "stop": "entry −5%",
@@ -256,7 +256,7 @@
    "why": "10/9 컵 돌파 신호(market/kick_cands.json IAG|2026-10-09 cup, score 63.3) + 같은 날 금 4,222(+1.57%)·GLD +1.63%(market/latest.json, port.json) · 동종 CGAU 도 컵(눈 검사)",
    "edge": "금이 VIX 하락(14.85)·10년 5.24 고금리 속에서도 오름 = 공포 매수가 아닌 구조적 수요 — 금광주 레버리지는 아직 컵 돌파 첫날",
    "src": "스캐너",
-   "status": "대기",
+   "status": "열림",
    "res": null,
    "note": "IAG 는 이미 kick_cands 에 cup 으로 있어 중복 등록 안 함 · 고금리 역풍, 확신 중간 · 10/10 🔧 자가 업그레이드: 한도 10 에 밀려 채점 없이 닫혔던 것을 「대기」로 되살림 — entry 는 market/bets_score.json 이 시세로 정함"
   },
@@ -286,7 +286,7 @@
    "t": "CAT",
    "name": "캐터필러",
    "dir": "오름",
-   "entry": null,
+   "entry": 800.47,
    "entry_rule": "10/9 미국 종가로 확정(장중값 확인 불가)",
    "target": "entry +6%",
    "stop": "entry −4%",
@@ -294,7 +294,7 @@
    "why": "10/7 미 정부 농기계·유통 반경쟁 조사 발표로 하루 −6% — 실제 조치 없음·농기계 매출 비중 작음, JPM '데이터센터 건설 장기 호황 최대 수혜'(kwusa/61133, 배런스)",
    "edge": "시장은 '규제 조사'로 일괄 매도했지만 실적 동력(데이터센터 발전기·건설)과 무관한 사업부 이슈 — 증권사 판단과 가격 괴리",
    "src": "피드",
-   "status": "대기",
+   "status": "열림",
    "res": null,
    "note": "스캐너 신호 겹침 없음 — 확신 중간, kick_cands 미등록 · 10/10 🔧 자가 업그레이드: 한도 10 에 밀려 채점 없이 닫혔던 것을 「대기」로 되살림 — entry 는 market/bets_score.json 이 시세로 정함",
    "last": "10/9 r1 +0.54%(market/sectors.json) — 종가 절대값 미확인, entry 미확정"
@@ -441,10 +441,10 @@
    "target": "entry +7%",
    "stop": "entry −4%",
    "horizon": "2주",
-   "why": "일본공작기계공업회 9월 수주 속보 2,232억엔 +60% YoY·15개월 연속 증가, 8월 말 미출하 잔액 1조엔 사상 최고(HANAchina/70178 · 닛케이아시아 'Japan machine tool order backlog hits all-time high on AI demand' · https://www.jmtba.or.jp/english/wjmtbap/wp-content/uploads/2026/09/JMTBA-NOTES-2026-08.pdf). entry = 10/13 도쿄 시가",
+   "why": "일본공작기계공업회 9월 수주 속보 2,232억엔 +60% YoY·15개월 연속 증가, 8월 말 미출하 잔액 1조엔 사상 최고(HANAchina/70178 · 닛케이아시아 'Japan machine tool order backlog hits all-time high on AI demand' · https://www.jmtba.or.jp/english/wjmtbap/wp-content/uploads/2026/09/JMTBA-NOTES-2026-08.pdf). entry = 10/13 도쿄 시가 · 보강: 닛케이 10/10 「일본 공작기계 수주잔고 AI 수요로 사상 최고」(nikkei_asia)",
    "edge": "수주 속보가 10/9 도쿄 장 마감 뒤 나왔고 10/12 체육의날 휴장 — 10/13 첫 반영. 반도체 장비·데이터센터발 수주가 공작기계로 번지는 2차 수혜는 아직 소외",
    "src": "선행지표",
-   "status": "열림",
+   "status": "대기",
    "res": null
   },
   {
@@ -461,7 +461,7 @@
    "why": "유럽 은행주 채권금리 급등에 8% 하락(investing_en/블룸버그 10/10) · 분데스방크 '유럽 부채위기 위험 크게 높아짐, 최근 채권 매도는 분명한 경고'(bbg_econ 10/10) · EU 은행 한 달 −7%(https://en.ilsole24ore.com/art/stock-market-government-bonds-eu-banks-down-7-per-cent-in-a-month-AJ8TF6WB) · 프랑스 국채 변동(gn_kr_macro)",
    "edge": "주말에 중앙은행 인사가 '위기' 단어를 썼다 — 월요일 시가에 국채 스프레드·은행 추가 매도가 덜 반영됐을 수 있다(이미 −8%라 되돌림 위험 큼)",
    "src": "뉴스",
-   "status": "열림",
+   "status": "대기",
    "res": null
   },
   {
@@ -478,7 +478,7 @@
    "why": "HANAchina/70182 대만경제일보: AI ASIC 수요로 4분기 매출 QoQ +35~40% 전망 · HANAchina/70181 ASML 부품 10% 인상 수용(장비·설계 공급자 가격 결정력) · 대만 국경일 연휴 뒤 10/12 첫 거래",
    "edge": "연휴 중 나온 4분기 가이던스 상향을 대만 시장은 아직 거래하지 못했다(이미 신고가권이라 되돌림 위험)",
    "src": "피드",
-   "status": "열림",
+   "status": "대기",
    "res": null
   },
   {
@@ -495,7 +495,7 @@
    "why": "한경 10/9 '이왕섭 팀장: AI 인프라 다음 주도주는 CPU·기판·MLCC'(https://www.hankyung.com/article/2026100929121) · 겔싱어 '하드웨어 황금기'(HANAchina/70184) · AI 서버 MLCC 공급 부족(SCMP https://www.scmp.com/tech/tech-trends/article/3365353/ai-server-boom-fuels-record-supply-crunch-rice-electronics) · 삼성전기 AI 서버 MLCC 공급 계약(코리아중앙 https://www.koreajoongangdaily.com/business/samsung-electromechanics-snags-216-million-ai-server-capacitor-supply-dealnbsp/12907147)",
    "edge": "AI 병목이 메모리→광통신→수동부품으로 옮겨가는 '다음 칸' — 주말 전략가 발언이 10/12 시가 전, 전력기기는 이미 식는 중(순환)",
    "src": "뉴스",
-   "status": "열림",
+   "status": "대기",
    "res": null
   },
   {
@@ -580,7 +580,7 @@
    "target": "entry +6%",
    "stop": "entry −4%",
    "horizon": "2주",
-   "why": "노무라 '구조적 정제유 부족, 디젤 스프레드가 금리 변동성 좌우'(HANAchina/70186, https://wallstreetcn.com/articles/3783332) · 걸프 깊숙이 유조선 피격(https://oilprice.com/Latest-Energy-News/World-News/First-Deep-Gulf-Tanker-Attack-in-Nearly-a-Month-Hits-Vessel-off-Qatar.html, WSJ 'Tanker Attacks Push Deeper Into Gulf') · 기준 10/12 시가",
+   "why": "노무라 '구조적 정제유 부족, 디젤 스프레드가 금리 변동성 좌우'(HANAchina/70186, https://wallstreetcn.com/articles/3783332) · 걸프 깊숙이 유조선 피격(https://oilprice.com/Latest-Energy-News/World-News/First-Deep-Gulf-Tanker-Attack-in-Nearly-a-Month-Hits-Vessel-off-Qatar.html, WSJ 'Tanker Attacks Push Deeper Into Gulf') · 기준 10/12 시가 · 보강: 리야드 공항 일주일 새 여러 차례 피격(cnbc 10/10, AP 10/8 후티 주장) — 걸프 공급 위험 지속",
    "edge": "시장은 러시아 경유 30만톤 합의를 '디젤 해소'로 읽지만 미국 하루 디젤 소비보다 작은 양 — 정제마진 부족은 원유보다 덜 반영",
    "src": "뉴스",
    "status": "대기",
