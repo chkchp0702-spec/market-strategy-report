@@ -29,5 +29,6 @@
  "cup_mkts": [],
  "gap_min": 4,
  "gap_max": 8,
- "gap_max_vol": 6
+ "gap_max_vol": 6,
+ "gap_fill_exit": true
 }

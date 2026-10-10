@@ -31,7 +31,7 @@ PARAMS = ROOT / "market" / "kick_params.json"      # 엣지 연구(주간)가 �
 _DEF = {"sleeve": 0.15, "slots": 5, "stop": -0.05, "take": 0.15, "time_d": 15, "time_min": 0.03, "brake": -0.06, "brake_d": 10, "max_new": 2, "reentry": 10,
         "pri": {"focus": 40, "cup_eye": 25, "lead": 20, "cup": 10, "accum": 10, "whale": 8, "gap": 0}, "whale_bonus": 10, "off": [],
         "lead_min": 1.5, "lead_cor": 0.3, "adaptive": True,
-        "cup_min_handle": 0, "cup_min_rs": 0, "cup_mkts": [], "gap_min": 0, "gap_max": 100, "gap_max_vol": 1000}
+        "gap_fill_exit": True, "cup_min_handle": 0, "cup_min_rs": 0, "cup_mkts": [], "gap_min": 0, "gap_max": 100, "gap_max_vol": 1000}
 try:
     _P = {**_DEF, **json.loads(PARAMS.read_text(encoding="utf-8"))}
 except Exception:
@@ -225,6 +225,8 @@ def main() -> int:
             why = None
             if r <= STOP:
                 why = "손절 −5%"
+            elif _P.get("gap_fill_exit") and p["src"] == "gap" and p.get("lv") and c < p["lv"]:
+                why = "갭 메움 (메운 갭은 평균 −1.3%)"
             elif not p["half"] and r >= TAKE:
                 cash += p["sh"] / 2 * c
                 p["sh"] /= 2
@@ -274,7 +276,7 @@ def main() -> int:
                 if cost <= 0:
                     break
                 cash -= cost
-                pos.append({"code": c["code"], "name": c["name"], "mkt": c.get("mkt"), "src": c["src"], "d0": d, "entry": e, "sh": cost / e, "cost": cost,
+                pos.append({"code": c["code"], "name": c["name"], "mkt": c.get("mkt"), "src": c["src"], "d0": d, "entry": e, "sh": cost / e, "cost": cost, "lv": c.get("lv"),
                             "held": 0, "max": e, "last": e, "half": False, "realized": 0.0, "pr": c["pr"], "whale": c.get("whale")})
                 events.append({"d": d, "k": "사기", "code": c["code"], "name": c["name"], "src": SRC_NAME.get(c["src"], c["src"]), "px": round(e, 4), "note": c.get("note")})
         total = cash + sum(p["sh"] * (px(p["code"], d) or p["entry"]) for p in pos)
