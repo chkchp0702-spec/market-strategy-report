@@ -17,6 +17,7 @@ KST = dt.timezone(dt.timedelta(hours=9))
 ROOT = Path(__file__).resolve().parent.parent
 M = ROOT / "market"
 RAW_SS = "https://raw.githubusercontent.com/chkchp0702-spec/stock-screener/main/"
+KN = {"cup": "컵 돌파", "gap": "돌파 갭", "accum": "매집", "whale": "고래", "focus": "집중", "lead": "선행"}
 TAG = {"cup_eye": "☕", "cup": "☕", "gap": "📈", "accum": "🤫", "whale": "🐋", "focus": "🎯", "lead": "🔗"}
 
 
@@ -89,7 +90,9 @@ def main() -> int:
                                                                if all(r.get("st") in ("관찰", "닫힘") for r in (v.get("slots") or {}).values())]}
     home = {"at": now.strftime("%Y-%m-%d %H:%M"), "port": port, "kick": kick_h, "focus": foc,
             "brain": {"summary": B.get("summary"), "regime": B.get("regime"), "at": B.get("last_review"),
-                      "open": sum(1 for b in B.get("bets", []) if b.get("status") == "열림"), "ideas": (B.get("port_ideas") or [])[:2]},
+                      "open": sum(1 for b in B.get("bets", []) if b.get("status") == "열림"),
+                      "ideas": [f"{x.get('칸') or x.get('box', '')} {x.get('제안') or x.get('idea', '')}".strip() for x in
+                                sorted(B.get("port_ideas") or [], key=lambda x: str(x.get("제안", "")).startswith("유지"))[:3] if isinstance(x, dict)]},
             "danta": danta}
 
     # ── 📊 성적표 ──
@@ -134,7 +137,7 @@ def main() -> int:
     good, bad = [], []
     for x in sig:
         if (x.get("n") or 0) >= 10 and x.get("pf"):
-            (good if x["pf"] >= 1.5 else bad if x["pf"] < 1 else []).append(f"{x['tag']} {x['k']} 손익비 {x['pf']}")
+            (good if x["pf"] >= 1.5 else bad if x["pf"] < 1 else []).append(f"{x['tag']} {KN.get(x['k'], x['k'])} 손익비 {x['pf']}")
     for x in dt_:
         if (x.get("n") or 0) >= 15 and x.get("avg") is not None:
             (good if x["avg"] > 0.2 else bad if x["avg"] < -0.3 else []).append(f"단타 {x['k']} {x['avg']:+.2f}%")
