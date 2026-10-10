@@ -61,7 +61,7 @@ def us_of(name: str, inst: str, picks: list | None = None) -> list[str]:
     for k, v in US_PICK:
         if k in name and v:
             return v
-    toks = re.findall(r"(?<![A-Za-z0-9])([A-Z]{2,5})(?![A-Za-z0-9])", inst)
+    toks = re.findall(r"(?<![A-Za-z0-9.])([A-Z]{2,5})(?![A-Za-z0-9.])", inst)   # 2383.TW 의 TW 같은 거래소 꼬리는 빼기
     out = []
     for t in toks:
         if t not in NOT_TICKER and t not in out:
