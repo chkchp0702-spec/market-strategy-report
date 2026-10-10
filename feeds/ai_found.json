@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "딜러들, 베선트의 '금리 누르기' 국채 발행 조정 주시",
+   "url": "https://finance.yahoo.com/news/dealers-watch-bessent-debt-sale-110001915.html",
+   "press": "블룸버그(야후)",
+   "at": "2026-10-10 19:40",
+   "why": "현금·단기채 칸·고금리 논지 — 11월 리펀딩에서 장기물 축소 시 장기 금리 상단이 눌린다",
+   "summary": "재무부가 장기물 공급을 줄이고 단기물(T-bill)을 늘려 금리를 누를지 딜러들이 주시. 씨티는 20년물 발행 중단 가능성까지 거론(kimu_nim/46458)."
+  },
+  {
+   "title": "베선트의 부채 전략, 11월 국채 차입 계획에 시선 집중",
+   "url": "https://cryptobriefing.com/bessent-treasury-twist-wall-street-borrowing/",
+   "press": "Crypto Briefing",
+   "at": "2026-10-10 19:40",
+   "why": "채권·금 칸 — '재무부판 오퍼레이션 트위스트' 확대 여부가 10년 5.2% 밴드를 깰 수 있는 변수",
+   "summary": "월가가 재무부의 단기물 확대·바이백 확대(8월 장기물 바이백 2배)를 '트위스트'로 보고 11월 계획을 워게임. 장기물 축소 시 커브 평탄화 압력."
+  },
+  {
    "title": "AI 서버 붐에 '전자산업의 쌀' MLCC 사상 최대 공급난",
    "url": "https://www.scmp.com/tech/tech-trends/article/3365353/ai-server-boom-fuels-record-supply-crunch-rice-electronics",
    "press": "SCMP",
