@@ -36,6 +36,23 @@ SOURCES = [
     ("tg", "kimu_nim", "김현석 (자본주의 바이어스)", "김현석 · 글로벌 시장"),
     ("tg", "meritz_research", "메리츠증권 리서치", "메리츠 리서치센터"),
 ]
+# 🌐 미리 정한 피드 밖의 뉴스·전략·경제 글 (10/10 사용자: "피드에 없는 뉴스·자료·전략·경제·주식 글도 다 검색해서 넣어")
+GN = "https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={gl}:{lang}"
+NEWS = [
+    # id, 이름, 설명, url
+    ("gn_kr_mkt", "뉴스 · 국내 증시", "구글 뉴스 검색", GN.format(q="코스피+OR+코스닥+OR+증시+when:1d", hl="ko", gl="KR", lang="ko")),
+    ("gn_kr_macro", "뉴스 · 금리·환율·경제", "구글 뉴스 검색", GN.format(q="금리+OR+환율+OR+연준+OR+물가+OR+경기+when:1d", hl="ko", gl="KR", lang="ko")),
+    ("gn_kr_sector", "뉴스 · 반도체·AI·업종", "구글 뉴스 검색", GN.format(q="반도체+OR+HBM+OR+AI+OR+전력+OR+조선+주가+when:1d", hl="ko", gl="KR", lang="ko")),
+    ("gn_kr_strat", "뉴스 · 증권사 전략·리포트", "구글 뉴스 검색", GN.format(q="증권사+전략+OR+목표주가+OR+리포트+OR+투자전략+when:1d", hl="ko", gl="KR", lang="ko")),
+    ("gn_us_mkt", "News · US markets", "Google News", GN.format(q="stock+market+OR+S%26P+500+OR+Nasdaq+OR+Treasury+yields+when:1d", hl="en-US", gl="US", lang="en")),
+    ("gn_us_fed", "News · Fed·macro", "Google News", GN.format(q="Federal+Reserve+OR+inflation+OR+jobs+report+OR+earnings+when:1d", hl="en-US", gl="US", lang="en")),
+    ("hankyung", "한국경제 증권", "언론사 RSS", "https://www.hankyung.com/feed/finance"),
+    ("mk", "매일경제 증권", "언론사 RSS", "https://www.mk.co.kr/rss/50200011/"),
+    ("cnbc", "CNBC Markets", "언론사 RSS", "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258"),
+    ("yahoo", "Yahoo Finance", "언론사 RSS", "https://finance.yahoo.com/news/rssindex"),
+    ("investing_kr", "인베스팅닷컴 뉴스", "언론사 RSS", "https://kr.investing.com/rss/news.rss"),
+]
+AI_FOUND = ROOT / "feeds" / "ai_found.json"     # 🧠 매시간 두뇌가 웹에서 찾아 넣는 글
 UA = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 Mobile/15E148 Safari/604.1",
       "Accept-Language": "ko-KR,ko;q=0.9"}
 KEEP_DAYS = 7
@@ -165,6 +182,27 @@ def tg(ch: str, pages: int = 3) -> list[dict]:
     return out
 
 
+def rss(url: str, n: int = 30) -> list[dict]:
+    root = ET.fromstring(get(url).encode("utf-8"))
+    out = []
+    for it in list(root.iter("item"))[:n]:
+        link = (it.findtext("link") or "").strip()
+        try:
+            at = parsedate_to_datetime((it.findtext("pubDate") or "").strip()).astimezone(KST)
+        except Exception:
+            at = dt.datetime.now(KST)
+        title = clean(it.findtext("title") or "")
+        srcname = clean(it.findtext("source") or "")
+        if srcname and title.endswith(" - " + srcname):
+            title = title[: -len(srcname) - 3]
+        desc = clean(it.findtext("description") or "")
+        if desc.startswith(title[:20]):
+            desc = ""
+        out.append({"id": "n/" + re.sub(r"\W+", "", link)[-60:], "title": title[:160], "at": at.strftime("%Y-%m-%d %H:%M"), "link": link,
+                    "text": (title + ("\n" + desc if desc else ""))[:900], "imgs": [], "press": srcname, "full": 0})
+    return out
+
+
 def main() -> int:
     now = dt.datetime.now(KST)
     try:
@@ -197,6 +235,40 @@ def main() -> int:
         srcs.append({"id": sid, "kind": kind, "name": name, "who": who, "ok": ok, "n": n,
                      "url": f"https://m.blog.naver.com/{sid}" if kind == "blog" else f"https://t.me/s/{sid}"})
         print(f"  {name}: {'성공' if ok else '실패'} · {n}개")
+    # 🌐 뉴스 (출처마다 30개, 2일)
+    ncut = (now - dt.timedelta(days=2)).strftime("%Y-%m-%d")
+    seen_t = set()
+    for sid, name, who, url in NEWS:
+        ok, got = True, []
+        try:
+            got = rss(url)
+        except Exception as e:
+            ok = False
+            DEBUG.append(f"news {sid} 실패 {str(e)[:80]}")
+        if not got:
+            got = [i for i in old.values() if i.get("src") == sid]
+        for i in got:
+            k = re.sub(r"\W+", "", i["title"])[:40]
+            if k in seen_t or (i["at"] and i["at"][:10] < ncut):
+                continue
+            seen_t.add(k)
+            i.update({"src": sid, "kind": "news", "name": name})
+            o = old.get(i["id"])
+            i["first"] = (o or {}).get("first") or now.strftime("%Y-%m-%d %H:%M")
+            items[i["id"]] = i
+        srcs.append({"id": sid, "kind": "news", "name": name, "who": who, "ok": ok, "n": sum(1 for i in items.values() if i["src"] == sid), "url": url})
+    # 🧠 두뇌가 찾은 글
+    try:
+        for a in json.loads(AI_FOUND.read_text(encoding="utf-8")).get("items", []):
+            if (a.get("at") or "")[:10] < cut:
+                continue
+            iid = "ai/" + re.sub(r"\W+", "", a.get("url", a.get("title", "")))[-60:]
+            items[iid] = {"id": iid, "title": a.get("title", "")[:160], "at": a.get("at", ""), "link": a.get("url", ""), "text": (a.get("title", "") + "\n" + a.get("why", "") + ("\n" + a["summary"] if a.get("summary") else ""))[:1500],
+                          "imgs": [], "press": a.get("press", ""), "src": "ai_found", "kind": "ai", "name": "🧠 AI가 찾은 글", "first": (old.get(iid) or {}).get("first") or a.get("at") or now.strftime("%Y-%m-%d %H:%M"), "full": 1}
+        srcs.append({"id": "ai_found", "kind": "ai", "name": "🧠 AI가 찾은 글", "who": "매시간 두뇌가 웹 검색으로 찾은 중요한 글", "ok": True,
+                     "n": sum(1 for i in items.values() if i["src"] == "ai_found"), "url": ""})
+    except Exception:
+        pass
     lst = sorted(items.values(), key=lambda i: i.get("at") or i["first"], reverse=True)
     per = {}
     keep = []

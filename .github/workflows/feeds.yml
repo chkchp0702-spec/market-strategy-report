@@ -1,13 +1,19 @@
 name: my-feed
 
-# 📰 내 피드 — 네이버 블로그 + 텔레그램 채널 (매시간 · 아침 리포트 전 05:40 KST 꼭)
+# 📰 내 피드 — 블로그·텔레그램·뉴스를 15분마다 (6시간 깨어 있다가 다음 교대를 스스로 켬)
+#   GitHub 예약(schedule)이 몇 시간씩 빠져서 피드가 멈추던 문제(10/10 「재수집 요청」) 해결: 이어달리기.
 on:
   schedule:
-    - cron: "40 * * * *"
+    - cron: "40 */3 * * *"      # 예비 — 이어달리기가 끊겼을 때만 새로 시작
   workflow_dispatch:
+    inputs:
+      once:
+        description: "한 번만 (yes)"
+        default: "no"
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: my-feed
@@ -16,18 +22,39 @@ concurrency:
 jobs:
   feed:
     runs-on: ubuntu-latest
+    timeout-minutes: 370
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: 블로그·텔레그램 모으기
-        run: python -m src.feeds
-      - name: Commit
+      - name: 다른 피드 교대가 이미 돌면 끝
+        id: dup
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(gh api "repos/${{ github.repository }}/actions/workflows/feeds.yml/runs?status=in_progress&per_page=5" --jq "[.workflow_runs[] | select(.id != ${{ github.run_id }})] | length")
+          echo "other=$n" >> $GITHUB_OUTPUT
+      - name: 15분마다 모으기 (약 5시간 50분)
+        if: steps.dup.outputs.other == '0'
         run: |
           git config user.name "report-bot"
           git config user.email "report-bot@users.noreply.github.com"
-          git add feeds/my_feed.json
-          git diff --cached --quiet && exit 0
-          git commit -m "feed: $(TZ=Asia/Seoul date '+%m/%d %H:%M') KST"
-          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
+          end=$(( $(date +%s) + 21000 ))
+          [ "${{ github.event.inputs.once }}" = "yes" ] && end=0
+          while :; do
+            git pull -q --rebase origin main || true
+            python -m src.feeds || true
+            git add feeds/my_feed.json
+            if ! git diff --cached --quiet; then
+              git commit -q -m "feed: $(TZ=Asia/Seoul date '+%m/%d %H:%M') KST"
+              for i in 1 2 3; do git pull -q --rebase origin main && git push -q && break; sleep 5; done
+            fi
+            [ $(date +%s) -ge $end ] && break
+            sleep 900
+          done
+      - name: 다음 교대 켜기
+        if: steps.dup.outputs.other == '0' && github.event.inputs.once != 'yes'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST repos/${{ github.repository }}/actions/workflows/feeds.yml/dispatches -f ref=main || true
