@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "뉴욕 연준: 관세 가격 인상은 최대 1년에 걸쳐 나타난다",
+   "url": "https://www.axios.com/2026/10/07/trump-tariffs-fed-inflation-prices",
+   "press": "Axios",
+   "at": "2026-10-10 11:40",
+   "why": "고금리 장기화 논지(현금·단기채 칸) — 관세 물가가 아직 다 반영 안 됨",
+   "summary": "뉴욕 연준 연구: 관세 가격 전가가 완전히 드러나기까지 최대 1년. 10/10 뉴욕 연준 '생활 품목 물가는 관세 탓'(gn_us_fed)과 같은 흐름 — 10/14~15 CPI 전 금리 하방 제한."
+  },
+  {
+   "title": "고점서 36% 빠진 삼성전기, AI 서버 MLCC 수주 누적 3.9조",
+   "url": "https://www.mk.co.kr/news/stock/12172221",
+   "press": "매일경제",
+   "at": "2026-10-10 11:40",
+   "why": "반도체 칸·애플 축소 논지 — 애플 부품주 중 AI 서버 MLCC 로 매출이 옮겨간 종목",
+   "summary": "글로벌 대형사와 AI 서버용 MLCC 공급 계약, 올해 누적 수주 약 3조9천억 원. 주가는 고점 대비 −36%."
+  },
+  {
    "title": "번스타인 '도시바발 HDD 매도는 찻잔 속 태풍' — WD +7%·시게이트 +5%",
    "url": "https://247wallst.com/investing/2026/10/05/western-digital-jumps-7-seagate-climbs-5-as-bernstein-calls-toshiba-selloff-a-storm-in-a-teacup-sandisk-inches-higher/",
    "press": "247 Wall St",
@@ -16,5 +32,6 @@
    "why": "러시아 디젤 공급 합의와 겹치는 연료 가격 정책 — 에너지 칸·S-Oil 정제마진 bet 위험",
    "summary": "중간선거 앞두고 디젤 가격 인하 행정명령 준비 보도. 날짜 미확인."
   }
- ]
+ ],
+ "at": "2026-10-10 11:40"
 }
