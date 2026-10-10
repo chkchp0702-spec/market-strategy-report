@@ -102,6 +102,7 @@ SRC_NAME = {"focus": "🎯 집중 돌파", "cup_eye": "☕ 컵 돌파(눈 검사
 TAG = {"cup_eye": "☕", "cup": "☕", "gap": "📈", "accum": "🤫", "whale": "🐋", "focus": "🎯", "lead": "🔗"}
 KICK_SRCS = ["cup_eye", "cup", "gap", "accum", "whale"]
 PROOF_N, PROOF_PF = 20, 1.5
+TRIAL_N = 10          # 🧪 시험 편입: 표본 10건↑·손익비 1.5↑ 이면 절반 크기로 먼저 (10/10 — 매집처럼 사용자가 원한 신호가 표본을 못 쌓는 문제)
 
 
 def proof():
@@ -112,17 +113,26 @@ def proof():
         E = {}
     g = lambda *ks: (lambda d: d if isinstance(d, dict) else {})(__import__("functools").reduce(lambda a, k: (a or {}).get(k) if isinstance(a, dict) else None, ks, E))
     st = {"cup": g("cup", "brk_now"), "gap": g("gap", "돌파_by_size", "4-8%"), "accum": g("accum", "brk")}
+    wide = {"accum": g("accum", "all")}          # 돌파만으로 표본이 적으면 신호 전체 성적으로 시험 편입 판단
     out = {}
     for k, v in st.items():
         n, pf = v.get("n") or 0, v.get("pf") or 0
         on = n >= PROOF_N and pf >= PROOF_PF
-        out[k] = {"n": n, "pf": round(pf, 2) if pf < 100 else None, "avg": v.get("avg"), "on": on,
-                  "why": (f"확인됨 — {n}건 · 평균 {v.get('avg'):+.1f}% · 손익비 {pf:.1f}" if on else f"⏳ 대기 — 돌파 표본 {n}/{PROOF_N}건" + (f" · 손익비 {pf:.1f}" if n and pf < 100 else ""))}
+        tri = False
+        if not on and k in wide:
+            w_ = wide[k]; wn, wpf = w_.get("n") or 0, w_.get("pf") or 0
+            tri = wn >= TRIAL_N and wpf >= PROOF_PF
+        out[k] = {"n": n, "pf": round(pf, 2) if pf < 100 else None, "avg": v.get("avg"), "on": on or tri, "trial": tri,
+                  "why": (f"확인됨 — {n}건 · 평균 {v.get('avg'):+.1f}% · 손익비 {pf:.1f}" if on else
+                          (f"🧪 시험 편입(절반 크기) — 신호 전체 {wide[k].get('n')}건 · 평균 {wide[k].get('avg'):+.1f}% · 손익비 {wide[k].get('pf'):.1f}, 돌파 표본 {n}/{PROOF_N}건 차면 정식" if tri else
+                           f"⏳ 대기 — 돌파 표본 {n}/{PROOF_N}건" + (f" · 손익비 {pf:.1f}" if n and pf < 100 else "")))}
     try:   # 👻 그림자 채점이 표본 20↑·손익비 1.5↑면 그 신호도 확인된 것으로 (장부 표본이 부족한 매집 등)
         SS = json.loads((ROOT / "market" / "kick.json").read_text(encoding="utf-8")).get("shadow_stat", {})
         for k, v in SS.items():
-            if k in out and not out[k]["on"] and (v.get("n") or 0) >= PROOF_N and (v.get("pf") or 0) >= PROOF_PF:
-                out[k].update({"on": True, "why": f"확인됨(그림자 채점) — {v['n']}건 · 평균 {v['avg']:+.1f}% · 손익비 {v['pf']:.1f}"})
+            if k in out and (not out[k]["on"] or out[k].get("trial")) and (v.get("n") or 0) >= PROOF_N and (v.get("pf") or 0) >= PROOF_PF:
+                out[k].update({"on": True, "trial": False, "why": f"확인됨(그림자 채점) — {v['n']}건 · 평균 {v['avg']:+.1f}% · 손익비 {v['pf']:.1f}"})
+            elif k in out and not out[k]["on"] and k in KICK_SRCS and (v.get("n") or 0) >= TRIAL_N and (v.get("pf") or 0) >= PROOF_PF:
+                out[k].update({"on": True, "trial": True, "why": f"🧪 시험 편입(그림자 채점) — {v['n']}건 · 평균 {v['avg']:+.1f}% · 손익비 {v['pf']:.1f}"})
     except Exception:
         pass
     out["cup_eye"] = out["cup"]
@@ -365,7 +375,7 @@ def main() -> int:
                 e = px(c["code"], c["d"]) or px(c["code"], d)
                 if not e:
                     continue
-                cost = total / SLOTS
+                cost = total / SLOTS * (0.5 if PROOF.get(c["src"], {}).get("trial") else 1.0)
                 if cost > cash:
                     cost = cash
                 if cost <= 0:
@@ -476,12 +486,13 @@ def main() -> int:
     wset = {b["t"] for b in wbask if b["on"]}
     hold = []
     for o in openp:
-        tg = TAG.get(next((k for k, v in SRC_NAME.items() if v == o["src"]), ""), "")
+        sk = next((k for k, v in SRC_NAME.items() if v == o["src"]), "")
+        tg = TAG.get(sk, "")
         tags = [tg] if tg else []
         if o["code"] in wset or o.get("whale"):
             tags.append("🐋")
         hold.append({"code": o["code"], "name": o["name"], "tags": "".join(dict.fromkeys(tags)), "w": o["w"], "r": o["r"], "d0": o["d0"], "entry": o["entry"],
-                     "now": o["now"], "kind": "돌파", "rule": f"손절 {o['stop']:g} · +15% 절반", "half": o["half"]})
+                     "now": o["now"], "kind": "돌파", "rule": ("🧪 시험 편입(절반 크기) · " if PROOF.get(sk, {}).get("trial") else "") + f"손절 {o['stop']:g} · +15% 절반", "half": o["half"]})
     for b in wbask:
         if not b["on"]:
             continue
