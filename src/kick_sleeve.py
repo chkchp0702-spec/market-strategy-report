@@ -53,7 +53,10 @@ BIO = {"EcoR1 Capital", "Baker Bros. Advisors", "BVF", "Perceptive Advisors", "D
        "Great Point Partners", "Venrock Healthcare Capital Partners", "Janus Henderson Biotech", "Boxer Capital", "Farallon Biotech"}
 NOT_STOCK = {"SPY", "QQQ", "IWM", "DIA", "VOO", "IVV", "RSP", "XLF", "XLP", "XLI", "XLE", "XLK", "XLV", "XLU", "XLY", "XLB", "XLC", "XLRE", "IGV", "SMH",
              "SOXX", "GDX", "GDXJ", "GLD", "SLV", "TLT", "IEF", "HYG", "LQD", "EWZ", "EWJ", "EWY", "FXI", "KWEB", "EEM", "EFA", "VEA", "VWO", "ARKK", "XBI",
-             "IBB", "SPUU", "TQQQ", "SQQQ", "UVXY", "VXX", "NONE"}
+             "IBB", "SPUU", "TQQQ", "SQQQ", "UVXY", "VXX", "NONE", "IHI", "ITA", "KRE", "KBE", "KBWB", "XME", "XHB", "XRT", "XOP", "IYR", "VNQ",
+             "SCHD", "JEPI", "JEPQ", "BITO", "IBIT", "FBTC", "ETHA", "URA", "COPX", "SIL", "SILJ", "USO", "UNG", "DBC", "IAU", "SGOV", "BIL", "SHY",
+             "MDY", "IJH", "IJR", "VTI", "VUG", "VTV", "QQQM", "SPLG", "TNA", "TZA", "LABU", "SOXL", "SPXL", "UPRO", "TMF", "GDXU", "ARKG", "ARKW",
+             "CIBR", "HACK", "BOTZ", "AIQ", "ICLN", "TAN", "LIT", "NLR", "PAVE", "IGM", "VGT", "FDN", "SKYY", "CLOU", "MCHI", "INDA", "EWT", "EWG"}
 QEND = {"Q1": "-03-31", "Q2": "-06-30", "Q3": "-09-30", "Q4": "-12-31"}
 
 
