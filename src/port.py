@@ -42,6 +42,7 @@ BENCH_GROUP = {"S&P500": "미국", "나스닥100": "미국", "다우": "미국",
                "주식60·채권40": "자산배분"}
 
 
+BFX = {"^KS11": "KRW=X", "^KQ11": "KRW=X", "^N225": "JPY=X", "^HSI": "HKD=X"}   # 지수 → 달러 환산용 환율
 FXT = {".T": "JPY=X", ".KS": "KRW=X", ".KQ": "KRW=X", ".SS": "CNY=X", ".SZ": "CNY=X", ".HK": "HKD=X", ".TW": "TWD=X"}
 CURN = {".T": "엔", ".KS": "원", ".KQ": "원", ".SS": "위안", ".SZ": "위안", ".HK": "홍콩달러", ".TW": "대만달러"}
 
@@ -84,6 +85,15 @@ def update_log(now) -> list[dict]:
         log = json.loads(LOG.read_text(encoding="utf-8"))
     except Exception:
         log = []
+    # 🌏 고른 상품(picks)은 리포트가 칸을 다시 쓸 때 빠뜨려도 이어진다 — 바꾸려면 picks 를 새로 적고, 기본으로 돌리려면 "picks": ["기본"]
+    if log:
+        prevp = {x["name"]: (x.get("picks"), x.get("why_picks")) for x in log[-1]["alloc"]}
+        for a in alloc:
+            if a.get("picks") == ["기본"]:
+                a.pop("picks"); a.pop("why_picks", None)
+            elif not a.get("picks") and prevp.get(a["name"], (None,))[0]:
+                a["picks"], wp = prevp[a["name"]]
+                if wp: a["why_picks"] = wp
     sig = lambda a: [(x["pct"], x["name"], tuple(x.get("picks") or [])) for x in a]
     today = now.strftime("%Y-%m-%d")
     if not log:
@@ -116,7 +126,7 @@ def main() -> int:
     for e in log:
         for a in e["alloc"]:
             tick |= set(us_of(a["name"], a["instruments"], a.get("picks")))
-    tick |= {FXT[sfx(t)] for t in list(tick) if sfx(t)}
+    tick |= {FXT[sfx(t)] for t in list(tick) if sfx(t)} | set(BFX.values())
     kr_codes = {k["code"] for a in log[-1]["alloc"] for k in kr_of(a["instruments"]) if k["code"].isdigit()}
     start = (dt.date.fromisoformat(START) - dt.timedelta(days=70)).isoformat()   # 20일 신호 계산용 여유
     df = yf.download(sorted(tick) + [c + ".KS" for c in kr_codes], start=start, interval="1d", auto_adjust=True, progress=False,
@@ -142,14 +152,14 @@ def main() -> int:
         if t in USD:
             return USD[t]
         s = C.get(t)
-        if s is not None and sfx(t):
-            fx = C.get(FXT[sfx(t)])
+        if s is not None and (sfx(t) or t in BFX):
+            fx = C.get(BFX.get(t) or FXT[sfx(t)])
             s = (s / fx.reindex(s.index, method="ffill")).dropna() if fx is not None else None
         USD[t] = s
         return s
 
-    def ret(t, d0, d1):
-        s = usd(t)
+    def ret(t, d0, d1, local=False):
+        s = C.get(t) if local else usd(t)
         if s is None:
             return None
         a = s[s.index <= d0]
@@ -234,7 +244,10 @@ def main() -> int:
         "dates": series_d, "nav": [round((v - 1) * 100, 2) for v in nav],
         "bench": {BENCH[k]: [round((v - 1) * 100, 2) for v in bn[k]] for k in BENCH},
         "bench_meta": [{"name": BENCH[k], "t": k, "group": BENCH_GROUP.get(BENCH[k], ""), "ret": round((bn[k][-1] - 1) * 100, 2),
+                        "local": (round((ret(k, cal[0], cal[-1], True) or 0) * 100, 2) if (sfx(k) or k in BFX) and k in C else None),
+                        "r1": round((ret(k, cal[-2], cal[-1]) or 0) * 100, 2) if k in C and len(cal) > 1 else None,
                         "ok": k in C} for k in BENCH],
+        "bench_fx": "달러 기준(포트와 같은 통화) · local = 현지 통화 수익률",
         "stat": {"ret": round((nav[-1] - 1) * 100, 2), "spy": round((bn["SPY"][-1] - 1) * 100, 2),
                  "kospi": round((bn["^KS11"][-1] - 1) * 100, 2), "mix": round((bn["AOR"][-1] - 1) * 100, 2),
                  "mdd": round(mdd * 100, 2), "days": len(cal) - 1,
@@ -243,7 +256,7 @@ def main() -> int:
                  "worst": min(daily, key=lambda x: x["r"]) if daily else None},
         "daily": daily[-30:], "hold": hold, "changes": [{"date": e["date"], "why": e.get("why", "")} for e in log][::-1],
         "prev": prev, "miss": miss,
-        "note": "리포트 배분표를 그대로 따랐다면의 계산. 매일 비중 유지 가정 · 수수료·세금·환율 제외 · 미국 대표 상품 종가 기준. 매수 추천 아님.",
+        "note": "리포트 배분표를 그대로 따랐다면의 계산. 매일 비중 유지 가정 · 수수료·세금 제외 · 달러 기준(미국 밖 종목·지수는 환율 반영). 매수 추천 아님.",
     }
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"포트 {out['stat']['ret']:+.2f}% vs S&P {out['stat']['spy']:+.2f}% · {out['stat']['days']}거래일 · 빠진 시세 {miss}")
