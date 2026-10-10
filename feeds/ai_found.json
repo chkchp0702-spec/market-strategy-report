@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "연준 인사들, 10월 금리 인상에 기울지 않아",
+   "url": "https://www.nst.com.my/amp/business/economy/2026/10/1545927/fed-policymakers-lean-against-october-rate-hike",
+   "press": "뉴스트레이츠타임스(로이터 전재 추정)",
+   "at": "2026-10-11 01:30",
+   "why": "현금·단기채 칸·고금리 논지의 단기 반대 신호 — 10/12 미 10년 bet(^TNX 내림) 근거",
+   "summary": "10월 FOMC 추가 인상에 신중론 확산. 시장 인상 확률 후퇴. 정확한 확률 숫자는 미확인."
+  },
+  {
+   "title": "미 고용 증가분 80만 명 이상 하향 수정 — 노동시장 생각보다 약해",
+   "url": "https://shrm.org/topics-tools/news/talent-acquisition/us-employment-gains-revised-down-over-800k-jobs",
+   "press": "SHRM",
+   "at": "2026-10-11 01:30",
+   "why": "연준 추가 인상 경로를 약하게 만드는 숫자 — 금리·성장주 킥 크기와 연결",
+   "summary": "고용 증가분 80만 명+ 하향 수정. 피드(gn_us_fed 10/11) 같은 주제, 수정 기준 시점은 미확인."
+  },
+  {
    "title": "후티, 리야드 공항 재공격 주장 — 공항 폐쇄·대피",
    "url": "https://www.timesofisrael.com/houthis-claim-new-attack-against-airport-in-riyadh-as-airlines-suspend-flights/amp/",
    "press": "Times of Israel(AP)",
