@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "트럼프 '러시아, 디젤 수백만 톤 공급'… 미국, 러 디젤 제재 2027년 4월까지 유예",
+   "url": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow",
+   "press": "MercoPress",
+   "at": "2026-10-12 07:45",
+   "why": "에너지 칸·정제마진 — 원유가 아닌 디젤 크랙을 누르는 재료(VLO 내림 대기 근거)",
+   "summary": "총 약 480만t(즉시 30만t·11월 50만t·이후 100만t·추가 300만t). 미 디젤 갤런당 6.27달러(9/22 사상 최고 뒤). 발표 뒤 디젤 선물 −4.3%."
+  },
+  {
+   "title": "트럼프 '러·우 에너지 휴전' 주장 — 젤렌스키 '못 봤지만 지지'",
+   "url": "https://www.cbc.ca/news/world/kyiv-pushes-back-trump-call-for-new-ukraine-president-after-diesel-deal-9.7377471",
+   "press": "CBC",
+   "at": "2026-10-12 07:45",
+   "why": "9/15에도 같은 주장이 있었으나 정유소 공격 지속 — 재료 신뢰도 낮음, 원유보다 러 디젤 수출 회복 쪽 변수",
+   "summary": "트럼프 10/11 '러·우가 에너지 시설 공격 중단에 합의' 주장. 우크라이나는 문서를 못 봤다고 반응. 미 선물 소폭 강세(yahoo)."
+  },
+  {
+   "title": "트럼프 '러시아 디젤 산업 통제 잃어' — 정유소 드론 공격 여파 (9/21)",
+   "url": "https://www.roic.ai/news/trump-says-russia-has-lost-control-of-diesel-industry-as-refinery-strikes-bite-09-21-2026",
+   "press": "ROIC",
+   "at": "2026-10-12 07:45",
+   "why": "9월 '에너지 휴전' 주장 뒤에도 공격이 이어졌다는 반례 — 이번 휴전 주장 할인 근거",
+   "summary": "9월 우크라이나 드론 공격으로 러 주요 디젤 정유소 절반이 감산(newsquawk). 그 공백이 세계 디젤 크랙 급등의 원인."
+  },
+  {
    "title": "선박들 호르무즈서 '잠수(식별장치 끔)'… 혁명수비대와 숨바꼭질",
    "url": "https://gulfnews.com/amp/story/world%2Fmena%2Fships-go-dark-in-hormuz-as-irgc-spurs-high-stakes-hide-and-seek-at-sea-1.500538548",
    "press": "Gulf News",
@@ -615,31 +639,7 @@
    "at": "2026-10-09 18:00",
    "why": "AI 인프라 안 순환 — 전력기기 식고 MLCC·기판으로 관심 이동 여부",
    "summary": "수주는 쌓였지만 전력기기 빅3 주가 부진(제목 기준, 세부 숫자 미확인)."
-  },
-  {
-   "title": "TrendForce: ASML, 성숙 DUV 장비 최대 10% 가격 인상 추진 — TSMC 반발",
-   "url": "https://www.trendforce.com/news/2026/07/16/news-asml-reportedly-seeks-higher-tool-prices-as-tsmc-pushes-back-mature-duv-tools-could-see-10-hike/",
-   "press": "TrendForce",
-   "at": "2026-10-10 17:40",
-   "why": "10/10 'ASML 부품 10% 인상, 삼성·하이닉스 수용' 속보의 배경 — 반도체 칸 원가·장비 공급자 가격 결정력",
-   "summary": "7월 보도: ASML 이 성숙 DUV 장비 가격을 최대 10% 올리려 하고 TSMC 가 반발. 10/10 중국 언론은 부품 가격 10% 인상을 한국 메모리 2사가 수용했다고 전함(미확인)."
-  },
-  {
-   "title": "GUC, AI 수요로 CPU 추정치 상향 속 사상 최고가",
-   "url": "https://cryptobriefing.com/guc-all-time-high-ai-cpu-demand/",
-   "press": "Crypto Briefing",
-   "at": "2026-10-10 17:40",
-   "why": "⚡ 선제 #20 GUC 오름의 반대 근거 — 이미 신고가권, 기대가 얼마나 반영됐나 점검",
-   "summary": "GUC(3443.TW) 사상 최고가 기사(게재일 미확인). 10/10 대만경제일보는 4분기 매출 QoQ +35~40% 전망."
-  },
-  {
-   "title": "이탈리아 솔레24오레: 유럽 은행주, 국채금리 상승에 한 달 −7%",
-   "url": "https://en.ilsole24ore.com/art/stock-market-government-bonds-eu-banks-down-7-per-cent-in-a-month-AJ8TF6WB",
-   "press": "Il Sole 24 Ore",
-   "at": "2026-10-10 16:35",
-   "why": "금융 칸(11→8 채택) 추가 축소 여부·EUFN 내림 bet 근거",
-   "summary": "유럽 은행주가 국채 매도와 스프레드 확대에 한 달 약 7% 하락. 블룸버그는 주간 −8%로 보도, 분데스방크 인사는 '부채위기 위험 크게 높아짐'."
   }
  ],
- "at": "2026-10-12 01:40"
+ "at": "2026-10-12 07:45"
 }
