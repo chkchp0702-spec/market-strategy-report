@@ -27,6 +27,7 @@ START = "2026-10-02"        # 장부 집계 시작일 (첫 배분표)
 
 # 칸 이름에 이 말이 있으면 → 성적 계산·따라하기용 미국 상품 (없으면 instruments 에서 미국 티커를 읽음)
 US_PICK = [
+    ("S&P500", ["SPY"]), ("나스닥", ["QQQ"]),       # 💼 C안 코어 (10/11)
     ("현금", ["SGOV"]), ("단기채", ["SGOV"]),
     ("전력", ["XLU", "GEV"]), ("인프라", ["XLU", "GEV"]), ("원자력", ["NLR"]),
     ("에너지", ["XLE"]), ("금융", ["KBWB"]), ("반도체", ["SOXX"]), ("금", ["GLD"]),
@@ -107,7 +108,8 @@ def update_log(now) -> list[dict]:
         op = {x["name"]: x.get("picks") for x in ref["alloc"]}
         ch += [f"{x['name']} 상품 {'·'.join(op.get(x['name']) or ['기본'])} → {'·'.join(x['picks'])}" + (f" ({x['why_picks']})" if x.get("why_picks") else "")
                for x in alloc if x.get("picks") and x.get("picks") != op.get(x["name"])]
-        entry = {"date": today, "alloc": alloc, "why": " · ".join(ch)}
+        cn = L.get("change_note") or {}          # 리포트·사람이 남긴 「왜 바꿨나」 한 줄 (그날만)
+        entry = {"date": today, "alloc": alloc, "why": ((cn.get("why") + " — ") if cn.get("date") == today and cn.get("why") else "") + " · ".join(ch)}
         if log[-1]["date"] == today:
             log[-1] = entry
         else:
@@ -142,6 +144,12 @@ def main() -> int:
     for e in log:
         for a in e["alloc"]:
             tick |= set(us_of(a["name"], a["instruments"], a.get("picks")))
+    try:   # 🧭 섹터 의견 그림자 채점용 (10/11 C안)
+        VIEWS = json.loads(LEDGER.read_text(encoding="utf-8")).get("sector_views") or {}
+    except Exception:
+        VIEWS = {}
+    for a in VIEWS.get("views") or []:
+        tick |= set(us_of(a["name"], a["instruments"], a.get("picks")))
     tick |= {FXT[sfx(t)] for t in list(tick) if sfx(t)} | set(BFX.values())
     kr_codes = {k["code"] for a in log[-1]["alloc"] for k in kr_of(a["instruments"]) if k["code"].isdigit()}
     start = (dt.date.fromisoformat(START) - dt.timedelta(days=400)).isoformat()   # 20일 신호 + 🧪 규칙(200일선·6개월 수익) 계산용 여유
@@ -366,8 +374,29 @@ def main() -> int:
                     " ".join(x for k, x in (("cash", f"① 현금 = 국면 「{qd_now}」 → {cash_t}%"), ("tilt", "③ S&P 대비 3·6개월 강한 칸 ×1.25 · 약한 칸 ×0.75"),
                                              ("brake", "④ 200일선 아래 칸 0 · 50일선 아래이면서 S&P보다 약한 칸 ½")) if k in USE) +
                     " · 검증에서 효과가 없던 규칙은 꺼 둠(market/rules_bt.json). 💼 기본 포트는 리포트 배분표 그대로(대조군)."}
+    # 🧭 섹터 의견 그림자 — 리포트 섹터 판단(배분표 밖)이 같은 기간 코어(S&P½+나스닥½)보다 나았나
+    views = None
+    if VIEWS.get("views"):
+        vs = VIEWS.get("since") or START
+        di = [d for d in cal if d.strftime("%Y-%m-%d") >= vs]
+        if len(di) >= 1:
+            d0v = cal[cal.index(di[0]) - 1] if cal.index(di[0]) > 0 else di[0]
+            tw = sum(a["pct"] for a in VIEWS["views"]) or 1
+            vrows, vr = [], 0.0
+            for a in VIEWS["views"]:
+                ts = us_of(a["name"], a["instruments"], a.get("picks"))
+                rs = [x for x in (ret(t, d0v, cal[-1]) for t in ts) if x is not None]
+                r = sum(rs) / len(rs) if rs else 0.0
+                vr += a["pct"] / tw * r
+                vrows.append({"name": a["name"], "pct": a["pct"], "ret": round(r * 100, 2), "t": ts})
+            core = ((ret("SPY", d0v, cal[-1]) or 0) + (ret("QQQ", d0v, cal[-1]) or 0)) / 2
+            views = {"since": vs, "days": len(di), "ret": round(vr * 100, 2), "core": round(core * 100, 2), "edge": round((vr - core) * 100, 2),
+                     "rows": sorted(vrows, key=lambda x: -x["ret"]),
+                     "note": "리포트의 섹터 판단을 돈 없이 따라간 성적(같은 비율). 8주 넘게 코어를 이기면 배분 칸으로 되살리는 것을 검토한다(주식 칸의 절반까지)."}
+        else:
+            views = {"since": vs, "days": 0, "pending": True, "rows": [{"name": a["name"], "pct": a["pct"]} for a in VIEWS["views"]]}
     out = {
-        "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "asof": cal[-1].strftime("%Y-%m-%d"), "fx": round(fx, 1) if fx else None,
+        "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "views": views, "asof": cal[-1].strftime("%Y-%m-%d"), "fx": round(fx, 1) if fx else None,
         "dates": series_d, "nav": [round((v - 1) * 100, 2) for v in nav],
         "bench": {BENCH[k]: [round((v - 1) * 100, 2) for v in bn[k]] for k in BENCH},
         "bench_meta": [{"name": BENCH[k], "t": k, "group": BENCH_GROUP.get(BENCH[k], ""), "ret": round((bn[k][-1] - 1) * 100, 2),
