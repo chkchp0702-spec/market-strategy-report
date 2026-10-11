@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "메리츠 '원익IPS: CAPEX 사이클이 실적으로 확인되는 국면' — 3Q 영업익 583억(+112%) 전망",
+   "url": "https://t.me/s/meritz_research",
+   "press": "메리츠증권(텔레그램)",
+   "at": "2026-10-12 08:21",
+   "why": "⚡ 선제 #20261012-08 원익IPS 근거 · 반도체 소부장 칸",
+   "summary": "3Q26E 매출 3,425억(+28% YoY)·영업익 583억(+112%, OPM 17%). 하닉 3Q OP 80.1조 서프라이즈 예상(같은 날 메리츠 김선우)과 함께 메모리 이익→설비투자 연결."
+  },
+  {
+   "title": "셀트리온 3분기 영업익 5,100억원…69.2%↑ 역대 최대, 컨센 부합",
+   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800004",
+   "press": "DART 공시",
+   "at": "2026-10-12 07:46",
+   "why": "바이오 대형주 실적 시즌 첫 숫자 — '부합'이라 서프라이즈 드리프트 기대 낮음",
+   "summary": "매출 1.5조(컨센 1.46조 +2%), 영업익 5,100억(컨센 5,141억 −1%). 전 거래일 종가 179,000원(−2.45%)."
+  },
+  {
+   "title": "앤트로픽, 아이렌(IREN)과 클라우드 계약…데이터센터 확보 속도전",
+   "url": "https://www.yna.co.kr/",
+   "press": "연합뉴스",
+   "at": "2026-10-12 08:21",
+   "why": "네오클라우드 수요 반박 근거 → CRWV 내림 대기 취소",
+   "summary": "AI 연구사가 네오클라우드 용량을 계속 계약 — '빚으로 버티는 층' 논지와 반대 방향 숫자. 계약 규모는 미확인."
+  },
+  {
    "title": "트럼프 '러시아, 디젤 수백만 톤 공급'… 미국, 러 디젤 제재 2027년 4월까지 유예",
    "url": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow",
    "press": "MercoPress",
@@ -615,30 +639,6 @@
    "at": "2026-10-10 19:40",
    "why": "채권·금 칸 — '재무부판 오퍼레이션 트위스트' 확대 여부가 10년 5.2% 밴드를 깰 수 있는 변수",
    "summary": "월가가 재무부의 단기물 확대·바이백 확대(8월 장기물 바이백 2배)를 '트위스트'로 보고 11월 계획을 워게임. 장기물 축소 시 커브 평탄화 압력."
-  },
-  {
-   "title": "AI 서버 붐에 '전자산업의 쌀' MLCC 사상 최대 공급난",
-   "url": "https://www.scmp.com/tech/tech-trends/article/3365353/ai-server-boom-fuels-record-supply-crunch-rice-electronics",
-   "press": "SCMP",
-   "at": "2026-10-10 18:45",
-   "why": "AI 하드웨어 병목이 수동부품으로 — 삼성전기 bet(#21)·반도체 칸 이익 논지",
-   "summary": "AI 서버 수요로 MLCC 공급이 사상 최대로 빠듯해졌다는 보도. 세부 숫자는 원문 확인(미확인)."
-  },
-  {
-   "title": "삼성전기, AI 서버용 MLCC 2억1,600만달러 공급 계약",
-   "url": "https://www.koreajoongangdaily.com/business/samsung-electromechanics-snags-216-million-ai-server-capacitor-supply-dealnbsp/12907147",
-   "press": "코리아중앙데일리",
-   "at": "2026-10-10 18:45",
-   "why": "삼성전기 bet(#21) 근거 — AI 서버 수주가 숫자로 확인되는지",
-   "summary": "삼성전기가 AI 서버용 커패시터(MLCC) 2.16억$ 공급 계약 체결(제목 기준). 앞서 12.6억$ 계약 보도도 있음(코리아중앙)."
-  },
-  {
-   "title": "한경: 'AI 수주' 쌓였는데 전력기기 빅3 주가는 찬바람",
-   "url": "https://www.hankyung.com/article/2026100929181",
-   "press": "한국경제",
-   "at": "2026-10-09 18:00",
-   "why": "AI 인프라 안 순환 — 전력기기 식고 MLCC·기판으로 관심 이동 여부",
-   "summary": "수주는 쌓였지만 전력기기 빅3 주가 부진(제목 기준, 세부 숫자 미확인)."
   }
  ],
  "at": "2026-10-12 07:45"
