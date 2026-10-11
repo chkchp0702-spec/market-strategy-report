@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "레이저텍 사장 '수주 나빠질 요소 없다' — 강세 근거가 보이기 시작",
+   "url": "https://toyokeizai.net/articles/-/847558",
+   "press": "도요케이자이",
+   "at": "2026-10-12 05:40",
+   "why": "반도체 칸·소부장 — 일본 10/12 휴장으로 장비주 반응이 10/13로 밀림(레이저텍 대기 bet)",
+   "summary": "EUV 마스크 검사장비 1위 레이저텍 경영진의 수주 낙관 발언. 같은 날 국내 '대형주 주춤 사이 소부장 강세, 글로벌 설비투자 확대 기대'(gn_kr_sector). 본문 숫자는 유료라 미확인."
+  },
+  {
+   "title": "트럼프, 이란 제안 거부 — '중간선거 뒤 폭격 재개' 예상 보도",
+   "url": "https://abcnews4.com/news/nation-world/trump-rejects-iran-proposal-expects-renewed-bombing-after-midterms-report-ceasefire-war-conflict-attacks-strait-of-hormuz-gasoline-gas-prices-crude-oil-nuclear-weapon-midterm-elections-vote-voting-polls-politics-president-donald-trump",
+   "press": "ABC News 4(Sinclair)",
+   "at": "2026-10-12 05:40",
+   "why": "에너지 칸·유가 bet(BNO 대기) — 중간선거(11/3) 뒤 걸프 위험 재점화 시점 표시",
+   "summary": "보도 날짜 미확인. 같은 시각 미 재무 '중간선거 전 이란과 교전 없다'(einfomax 10/12)·이란 안보수장 '미 제안 불충분'(einfomax 10/12)과 함께 보면 11월 초까지는 협상, 이후 위험↑ 구도."
+  },
+  {
    "title": "LG엔솔 3분기 영업익 7,560억원…ESS 효과에 567% 폭증",
    "url": "https://biz.sbs.co.kr/amp/article/20000338892",
    "press": "SBS Biz",
@@ -623,22 +639,6 @@
    "at": "2026-10-10 16:35",
    "why": "에너지 칸·정유 마진 — 미 정부의 디젤 가격 개입 강도",
    "summary": "면세용 염색 디젤을 트럭에 한시 허용해 디젤 공급을 늘리려는 조치. 러시아 경유 공급 합의와 함께 정제마진 하방 압력."
-  },
-  {
-   "title": "일본공작기계공업회 월간 노트(8월): 수주·잔액 통계",
-   "url": "https://www.jmtba.or.jp/english/wjmtbap/wp-content/uploads/2026/09/JMTBA-NOTES-2026-08.pdf",
-   "press": "JMTBA",
-   "at": "2026-10-10 15:45",
-   "why": "AI 수요가 공작기계로 번지는지 — 선제 bet 6103.T 오쿠마 근거, 반도체 칸 2차 수혜",
-   "summary": "8월 말 미출하 수주 잔액 1조엔 돌파(사상 최고, HANAchina/70178 인용). 9월 속보 수주 2,232억엔 +60% YoY, 15개월 연속 증가."
-  },
-  {
-   "title": "일본 공작기계 수주 2026년 2조엔 전망 — 반도체·데이터센터 수요",
-   "url": "https://mreport.co.th/en/news/trend-and-innovation/140-japan-machine-tool-orders-2026-semiconductor-data-center",
-   "press": "mreport",
-   "at": "2026-10-10 15:45",
-   "why": "공작기계 업황 연간 전망 — 6103.T bet 의 지속성 확인용",
-   "summary": "JMTBA 2026년 수주 전망 2조엔. 반도체 장비·데이터센터 냉각·전력 설비 수요가 견인(세부 숫자는 원문 확인)."
   }
  ],
  "at": "2026-10-12 01:40"
