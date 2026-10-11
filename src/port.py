@@ -144,7 +144,7 @@ def main() -> int:
             tick |= set(us_of(a["name"], a["instruments"], a.get("picks")))
     tick |= {FXT[sfx(t)] for t in list(tick) if sfx(t)} | set(BFX.values())
     kr_codes = {k["code"] for a in log[-1]["alloc"] for k in kr_of(a["instruments"]) if k["code"].isdigit()}
-    start = (dt.date.fromisoformat(START) - dt.timedelta(days=70)).isoformat()   # 20일 신호 계산용 여유
+    start = (dt.date.fromisoformat(START) - dt.timedelta(days=400)).isoformat()   # 20일 신호 + 🧪 규칙(200일선·6개월 수익) 계산용 여유
     df = yf.download(sorted(tick) + [c + ".KS" for c in kr_codes], start=start, interval="1d", auto_adjust=True, progress=False,
                      group_by="ticker", threads=True)
     C = {}
@@ -192,6 +192,42 @@ def main() -> int:
                 cur = e
         return cur
 
+    # 🧪 킥 포트 규칙 (src/rules7.py) — 10/12부터, 전날 종가까지 자료로 칸 비중을 다시 정함
+    from src.rules7 import RULE_FROM, rule_weights, stats_of, quad as _quad, is_cash
+    try:
+        _kp = json.loads((ROOT / "market" / "kick_params.json").read_text(encoding="utf-8"))
+    except Exception:
+        _kp = {}
+    USE = tuple(_kp.get("rules_use", ["cash", "tilt", "brake"]))
+    REG = []
+    try:
+        import urllib.request as _u
+        _R = json.loads(_u.urlopen("https://raw.githubusercontent.com/chkchp0702-spec/daily-app/main/archive/x/regime.json", timeout=30).read())
+        REG = sorted({r[0]: (r[1], r[2]) for r in (_R.get("hist") or []) + (_R.get("daily") or []) if len(r) >= 3}.items())
+    except Exception as e_:
+        print("국면 못 받음", e_)
+
+    def quad_on(ds):
+        x = [v for d, v in REG if d <= ds]
+        return _quad(*x[-1]) if x else None
+
+    def rules_on(e, d0):
+        ds = d0.strftime("%Y-%m-%d")
+        spy = C["SPY"][C["SPY"].index <= d0]
+        st = {}
+        for a in e["alloc"]:
+            if is_cash(a["name"]):
+                continue
+            ss = []
+            for t in us_of(a["name"], a["instruments"], a.get("picks")):
+                s_ = usd(t)
+                if s_ is not None:
+                    ss.append(s_[s_.index <= d0])
+            st[a["name"]] = stats_of(ss, spy)
+        qd = quad_on(ds)
+        return rule_weights([(a["name"], a["pct"]) for a in e["alloc"]], st, qd, USE) + (qd, st)
+
+    nav_rule = [1.0]
     nav, bn = [1.0], {k: [1.0] for k in BENCH}
     contrib, series_d = {}, [cal[0].strftime("%Y-%m-%d")]
     daily = []
@@ -208,6 +244,16 @@ def main() -> int:
             parts[a["name"]] = c
             contrib[a["name"]] = contrib.get(a["name"], 0) + c * nav[-1]
         nav.append(nav[-1] * (1 + r_tot))
+        if d1.strftime("%Y-%m-%d") >= RULE_FROM:
+            rw = rules_on(e, d0)[0]
+            rr = 0.0
+            for a in e["alloc"]:
+                us = us_of(a["name"], a["instruments"], a.get("picks"))
+                rs = [x for x in (ret(t, d0, d1) for t in us) if x is not None]
+                rr += rw.get(a["name"], a["pct"]) / 100 * (sum(rs) / len(rs) if rs else 0.0)
+            nav_rule.append(nav_rule[-1] * (1 + rr))
+        else:
+            nav_rule.append(nav_rule[-1] * (1 + r_tot))
         for k in BENCH:
             r = ret(k, d0, d1)
             bn[k].append(bn[k][-1] * (1 + (r or 0)))
@@ -273,6 +319,12 @@ def main() -> int:
                              "since": round((ret(t, cal[0], cal[-1]) or 0) * 100, 2) if t in C else None} for t in us],
                      "kr": kr, "contrib": round(contrib.get(a["name"], 0) * 100, 2)})
     prev = log[-2]["alloc"] if len(log) > 1 else None
+    rw_now, why_now, cash_t, qd_now, st_now = rules_on(log[-1], cal[-1])     # 다음 거래일에 쓸 킥 포트 기본 비중
+    rule = {"from": RULE_FROM, "use": list(USE), "quad": qd_now, "cash": cash_t, "nav": [round((v - 1) * 100, 2) for v in nav_rule],
+            "now": rw_now, "why": why_now,
+            "mom": {n: round(v["mom"] * 100, 1) for n, v in st_now.items() if v},
+            "note": f"⚡ 킥 포트의 기본 칸은 {RULE_FROM}부터 규칙대로: ① 현금 = 국면 「{qd_now}」 → {cash_t}% ③ S&P 대비 3·6개월 강한 칸 ×1.25 · 약한 칸 ×0.75 "
+                    "④ 200일선 아래 칸 0 · 50일선 아래이면서 S&P보다 약한 칸 ½ (덜어낸 만큼 현금). 💼 기본 포트는 리포트 배분표 그대로(대조군)."}
     out = {
         "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "asof": cal[-1].strftime("%Y-%m-%d"), "fx": round(fx, 1) if fx else None,
         "dates": series_d, "nav": [round((v - 1) * 100, 2) for v in nav],
@@ -289,7 +341,7 @@ def main() -> int:
                  "best": max(daily, key=lambda x: x["r"]) if daily else None,
                  "worst": min(daily, key=lambda x: x["r"]) if daily else None},
         "daily": daily[-30:], "hold": hold, "changes": [{"date": e["date"], "why": e.get("why", "")} for e in log][::-1],
-        "prev": prev, "miss": miss,
+        "prev": prev, "miss": miss, "rule": rule,
         "note": "리포트 배분표를 그대로 따랐다면의 계산. 매일 비중 유지 가정 · 수수료·세금 제외 · 달러 기준(미국 밖 종목·지수는 환율 반영). 매수 추천 아님.",
     }
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

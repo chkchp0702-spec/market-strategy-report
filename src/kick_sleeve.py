@@ -92,15 +92,15 @@ STOP, TAKE, TIME_D, TIME_MIN = _P["stop"], _P["take"], _P["time_d"], _P["time_mi
 BRAKE, BRAKE_D, MAX_NEW, REENTRY = _P["brake"], _P["brake_d"], _P["max_new"], _P["reentry"]
 PRI = {**_DEF["pri"], **_P.get("pri", {})}
 OFF = set(_P.get("off", []))
-SRC_NAME = {"focus": "🎯 집중 돌파", "cup_eye": "☕ 컵 돌파(눈 검사 통과)", "cup": "☕ 컵 돌파", "gap": "📈 돌파 갭",
+SRC_NAME = {"earn": "📊 실적 갭", "focus": "🎯 집중 돌파", "cup_eye": "☕ 컵 돌파(눈 검사 통과)", "cup": "☕ 컵 돌파", "gap": "📈 돌파 갭",
             "lead": "🔗 미국→한국 선행", "accum": "🤫 매집 박스 돌파", "whale": "🐋 고래 큰손 매수"}
 
 
 # ✅ 성과가 확인된 신호만 킥에 들어온다 (10/10 사용자: "고래·컵·갭·조용한 매집이 성과 확인된 것만 자연스럽게, 킥 포트는 하나만")
 #    기준: 우리 장부(market/edge.json)에서 표본 20건 이상 · 손익비 1.5 이상. 고래는 13F 바스켓 검증(매 분기 S&P 이김).
 #    아직 아닌 신호는 「⏳ 대기」— 표본이 차면 다음 계산부터 저절로 들어온다. 🎯 집중·🔗 선행은 사용자 목록 밖이라 넣지 않는다.
-TAG = {"cup_eye": "☕", "cup": "☕", "gap": "📈", "accum": "🤫", "whale": "🐋", "focus": "🎯", "lead": "🔗"}
-KICK_SRCS = ["cup_eye", "cup", "gap", "accum", "whale"]
+TAG = {"cup_eye": "☕", "cup": "☕", "gap": "📈", "accum": "🤫", "whale": "🐋", "focus": "🎯", "lead": "🔗", "earn": "📊"}
+KICK_SRCS = ["cup_eye", "cup", "gap", "accum", "whale", "earn"]   # 📊 실적 갭(10/11): 우리 장부 5일 평균 −0.4%(53건)라 그림자 채점으로 먼저 확인
 PROOF_N, PROOF_PF = 20, 1.5
 TRIAL_N = 10          # 🧪 시험 편입: 표본 10건↑·손익비 1.5↑ 이면 절반 크기로 먼저 (10/10 — 매집처럼 사용자가 원한 신호가 표본을 못 쌓는 문제)
 
@@ -137,6 +137,19 @@ def proof():
     except Exception:
         pass
     out["cup_eye"] = out["cup"]
+    if "earn" not in out or not out["earn"].get("on"):
+        sse = {}
+        try:
+            sse = json.loads((ROOT / "market" / "kick.json").read_text(encoding="utf-8")).get("shadow_stat", {}).get("earn", {})
+        except Exception:
+            pass
+        out["earn"] = {"n": sse.get("n") or 0, "pf": sse.get("pf"), "avg": sse.get("avg"), "on": False, "trial": False,
+                       "why": f"⏳ 그림자 채점 중 — 실적 발표가 만든 갭 {sse.get('n') or 0}/{PROOF_N}건 (10건·손익비 1.5↑면 절반 크기 시험, 20건이면 정식)"}
+        n_, pf_ = sse.get("n") or 0, sse.get("pf") or 0
+        if n_ >= PROOF_N and pf_ >= PROOF_PF:
+            out["earn"].update({"on": True, "why": f"확인됨(그림자 채점) — {n_}건 · 평균 {sse.get('avg'):+.1f}% · 손익비 {pf_:.1f}"})
+        elif n_ >= TRIAL_N and pf_ >= PROOF_PF:
+            out["earn"].update({"on": True, "trial": True, "why": f"🧪 시험 편입(그림자 채점) — {n_}건 · 평균 {sse.get('avg'):+.1f}% · 손익비 {pf_:.1f}"})
     out["whale"] = {"n": 160, "pf": None, "avg": None, "on": True, "why": "확인됨 — 13F 큰 신규 바스켓이 매 분기 S&P 이김(3개월 4/4 +3.9%p · 6개월 3/3 +10.0%p)"}
     for k in ("focus", "lead"):
         out[k] = {"n": 0, "on": False, "why": "킥 대상 아님(사용자 목록: 고래·컵·갭·매집)"}
@@ -189,6 +202,10 @@ def collect(now):
                 seen.add(x["code"])
                 cands[f"{x['code']}|{x['d0']}"] = {"code": x["code"], "name": x.get("name") or x["code"], "mkt": x.get("mkt"), "d": x["d0"],
                                                    "src": "gap", "score": x.get("score") or 0, "lv": x.get("fill_lvl")}
+        for x in sorted(G.get("signals", []), key=lambda x: x.get("d0", "")):   # 📊 실적 갭 (메우지 않은 것)
+            if x.get("gtype") == "실적 갭" and not x.get("filled") and f"{x['code']}|{x['d0']}|e" not in cands:
+                cands[f"{x['code']}|{x['d0']}|e"] = {"code": x["code"], "name": x.get("name") or x["code"], "mkt": x.get("mkt"), "d": x["d0"],
+                                                      "src": "earn", "score": x.get("score") or 0, "lv": x.get("fill_lvl")}
     except Exception as e:
         print("갭 실패", e)
     try:
@@ -469,9 +486,20 @@ def main() -> int:
     kick = [1.0]
     sleeve_line = [0.0]
     lastv = 1.0
+    RULE = P.get("rule") or {}
+    RF, WS2 = RULE.get("from", "9999"), _P.get("whale_sleeve2", WS)
+    rbase = [1 + v / 100 for v in RULE["nav"]] if RULE.get("nav") and len(RULE["nav"]) == len(pdates) else None
     for j in range(1, len(pdates)):
         d0, d1 = pdates[j - 1], pdates[j]
         rb = base[j] / base[j - 1] - 1
+        if rbase and d1 >= RF:      # 🧪 10/12부터: 기본 칸은 규칙 비중 · 🐋 고래 10% · 킥 전체(돌파 9% + 고래 10%)만큼 기본을 줄임
+            rbr = rbase[j] / rbase[j - 1] - 1
+            rs_ = (sv.get(d1, sv.get(d0, 1.0)) / sv.get(d0, 1.0) - 1) if d0 in sv else (sv.get(d1, 1.0) - 1)
+            rw_ = (wsv.get(d1, wsv.get(d0, 1.0)) / wsv.get(d0, 1.0) - 1) if d0 in wsv else 0.0
+            kick.append(kick[-1] * (1 + (1 - SLEEVE - WS2) * rbr + SLEEVE * rs_ + WS2 * rw_))
+            lastv = sv.get(d1, lastv)
+            sleeve_line.append(round((lastv - 1) * 100, 2))
+            continue
         rs = (sv.get(d1, sv.get(d0, 1.0)) / sv.get(d0, 1.0) - 1) if d0 in sv else (sv.get(d1, 1.0) - 1)
         rg = (sg[d1] / sg[d0] - 1) if sg.get(d0) and sg.get(d1) else 0
         rw = (wsv.get(d1, wsv.get(d0, 1.0)) / wsv.get(d0, 1.0) - 1) if d0 in wsv else 0.0
@@ -492,6 +520,7 @@ def main() -> int:
                       "now": round(c, 4), "r": round((c / p["entry"] - 1) * 100, 2), "days": p["held"], "half": p["half"], "whale": p.get("whale"),
                       "stop": round(p["entry"] * (1 + STOP), 4), "take": round(p["entry"] * (1 + TAKE), 4), "w": round(p["sh"] * c / val[-1] * SLEEVE * 100, 2)})
     # ⚡ 하나의 킥 포트 — 돌파로 들어온 것 + 고래 바스켓을 한 목록으로, 종목마다 어디서 왔는지 작은 이모티콘
+    WSN = WS2 if (now.strftime("%Y-%m-%d") >= RF or last_d >= RF) else WS     # 지금 고래 칸 크기
     wset = {b["t"] for b in wbask if b["on"]}
     hold = []
     for o in openp:
@@ -507,15 +536,16 @@ def main() -> int:
             continue
         tags = ["🐋"] + sorted(recent_sig.get(b["t"], set()) - {"🐋", "🎯", "🔗"})
         nowp = px(b["t"], last_d) or b["entry"]
-        hold.append({"code": b["t"], "name": b["t"], "tags": "".join(tags), "w": round(WS * 100 / max(1, len(wbask)), 2), "r": round((nowp / b["entry"] - 1) * 100, 2),
+        hold.append({"code": b["t"], "name": b["t"], "tags": "".join(tags), "w": round(WSN * 100 / max(1, len(wbask)), 2), "r": round((nowp / b["entry"] - 1) * 100, 2),
                      "d0": b["d0"], "entry": round(b["entry"], 4), "now": round(nowp, 4), "kind": "고래", "rule": "분기 보유 · −30%만 정리",
                      "by": b["by"][:2], "half": False})
     hold.sort(key=lambda h: -h["r"])
     out = {
         "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "asof": last_d,
-        "hold": hold, "proof": {k: v for k, v in PROOF.items() if k in ("whale", "cup", "gap", "accum")},
+        "hold": hold, "proof": {k: v for k, v in PROOF.items() if k in ("whale", "cup", "gap", "accum", "earn")},
+        "rule": {"from": RF, "whale_sleeve": WS2, "base_now": RULE.get("now"), "why": RULE.get("why"), "quad": RULE.get("quad"), "cash": RULE.get("cash"), "use": RULE.get("use")},
         "shadow_stat": shadow_stat, "shadow_log": SH,
-        "tags": {"🐋": "고래 13F 큰 신규", "☕": "컵 돌파", "📈": "돌파 갭", "🤫": "조용한 매집 돌파"},
+        "tags": {"🐋": "고래 13F 큰 신규", "☕": "컵 돌파", "📈": "돌파 갭", "🤫": "조용한 매집 돌파", "📊": "실적 갭"},
         "dates": pdates, "base": [round((b - 1) * 100, 2) for b in base], "kick": [round((k - 1) * 100, 2) for k in kick],
         "sleeve": round((val[-1] - 1) * 100, 2), "sleeve_line": sleeve_line,
         "open": openp, "closed": trades[::-1][:40], "closed_all": [{"src": t["src"], "r": t["r"], "d1": t["d1"]} for t in trades], "events": events[::-1][:40],
@@ -523,16 +553,17 @@ def main() -> int:
                  "trades": len(trades), "win": round(len(wins) / len(trades) * 100) if trades else None,
                  "avg_win": avg(wins), "avg_loss": avg(loss), "avg": avg(trades), "slots": f"{len(pos)}/{SLOTS}",
                  "paused": pause_until >= len(D) - 1},
-        "rules": {"sleeve": SLEEVE, "slots": SLOTS, "stop": STOP, "take": TAKE, "time": TIME_D, "brake": BRAKE, "off": sorted(OFF), "whale_sleeve": WS, "whale_n": WN},
-        "whale": {"q": wq, "ret": round((wval[-1] - 1) * 100, 2), "line": [round((wsv.get(x, 1.0) - 1) * 100, 2) for x in pdates], "sleeve": WS,
+        "rules": {"sleeve": SLEEVE, "slots": SLOTS, "stop": STOP, "take": TAKE, "time": TIME_D, "brake": BRAKE, "off": sorted(OFF), "whale_sleeve": WSN, "whale_n": WN},
+        "whale": {"q": wq, "ret": round((wval[-1] - 1) * 100, 2), "line": [round((wsv.get(x, 1.0) - 1) * 100, 2) for x in pdates], "sleeve": WSN,
                   "rows": [{"t": b["t"], "n": b["n"], "w13f": b["w"], "by": b["by"], "d0": b["d0"], "entry": round(b["entry"], 4),
                             "now": round(px(b["t"], last_d) or b["entry"], 4), "r": round(((b["exit"] if not b["on"] else (px(b["t"], last_d) or b["entry"])) / b["entry"] - 1) * 100, 2),
-                            "on": b["on"], "w": round(WS * 100 / max(1, len(wbask)), 2)} for b in wbask],
+                            "on": b["on"], "w": round(WSN * 100 / max(1, len(wbask)), 2)} for b in wbask],
                   "events": wev[::-1][:10],
                   "why": "13F 큰 신규 포지션 같은 비중 바스켓은 바이오 펀드를 빼면 매 분기 S&P 를 이김(1개월 5/5 +2.8%p · 3개월 4/4 +3.9%p · 6개월 3/3 +10.0%p, 2025Q2~2026Q2). 하나씩은 반반이라 바스켓으로만, 큰 승자를 자르지 않게 분기 동안 들고 감."} if WS > 0 else None,
         "by_src": {SRC_NAME.get(k, k): v for k, v in ADAPT.items()},
         "src_names": SRC_NAME,
-        "note": f"⚡ 킥 포트 = 기본 포트에서 현금 {round((SLEEVE + WS) * 100)}%p 를 떼어 「성과가 확인된 신호」(🐋 고래 · ☕ 컵 · 📈 갭 · 🤫 매집 — 표본 20건↑·손익비 1.5↑)에만 담은 것. "
+        "note": (f"🧪 {RF}부터 킥 포트 = 규칙을 적용한 기본 칸 {round((1 - SLEEVE - WS2) * 100)}% (① 국면 현금 ③ 강한 칸 기울이기 ④ 추세 브레이크) + 돌파 {round(SLEEVE * 100)}% + 🐋 고래 {round(WS2 * 100)}%. 💼 기본 포트(리포트 그대로)와 S&P500을 같이 놓고 이기는지 본다. " if last_d >= RF else "") +
+                f"⚡ 킥 포트 = 기본 포트에서 현금 {round((SLEEVE + WS) * 100)}%p 를 떼어 「성과가 확인된 신호」(🐋 고래 · ☕ 컵 · 📈 갭 · 🤫 매집 — 표본 20건↑·손익비 1.5↑)에만 담은 것. "
                 f"☕📈🤫 돌파는 확인된 순간 {round(SLEEVE / SLOTS * 100, 1)}%씩(−5% 손절 · +15% 절반 익절), 🐋 고래는 13F 큰 신규를 같은 비중으로 분기 동안(−30%만 정리). "
                 "아직 확인 안 된 신호는 표본이 차면 저절로 들어온다. 10/9 이전은 같은 규칙으로 되짚은 계산. 현지 통화 기준·수수료 제외. 매수 추천 아님.",
     }
