@@ -260,6 +260,45 @@ def main() -> int:
         series_d.append(d1.strftime("%Y-%m-%d"))
         daily.append({"d": d1.strftime("%Y-%m-%d"), "r": round(r_tot * 100, 2), "spy": round((ret("SPY", d0, d1) or 0) * 100, 2)})
 
+    # 🧾 정직 버전 (10/11): 매일 비중을 맞춘다는 가정 대신 「주 1회(그 주 첫 거래일) + 배분표가 바뀐 날」에만 맞추고,
+    #    그 사이엔 비중이 흘러가게 둔다. 맞출 때마다 사고판 양(턴오버) × 0.1% 를 비용으로 뺀다. 기존 nav·rule 은 그대로.
+    TC = 0.001
+
+    def honest_nav(target_of):
+        hv, w, prev_sig, wk = [1.0], None, None, None
+        for i in range(1, len(cal)):
+            d0, d1 = cal[i - 1], cal[i]
+            e = alloc_on(d1)
+            tw = target_of(e, d0, d1)                       # {칸: 비중(0~1)} · 나머지는 수익 0 현금
+            sig_ = tuple(sorted(tw.items()))
+            iw = d1.isocalendar()[:2]
+            v = hv[-1]
+            if w is None or sig_ != prev_sig or iw != wk:
+                cur = w or {}
+                turn = sum(abs(tw.get(k, 0) - cur.get(k, 0)) for k in set(tw) | set(cur))
+                v *= 1 - turn * TC
+                w = dict(tw)
+                prev_sig, wk = sig_, iw
+            rr = {}
+            for a in e["alloc"]:
+                us = us_of(a["name"], a["instruments"], a.get("picks"))
+                rs = [x for x in (ret(t, d0, d1) for t in us) if x is not None]
+                rr[a["name"]] = sum(rs) / len(rs) if rs else 0.0
+            g = sum(w.get(k, 0) * rr.get(k, 0.0) for k in w)
+            hv.append(v * (1 + g))
+            tot = 1 + g
+            w = {k: w[k] * (1 + rr.get(k, 0.0)) / tot for k in w}
+        return hv
+
+    nav_h = honest_nav(lambda e, d0, d1: {a["name"]: a["pct"] / 100 for a in e["alloc"]})
+    def rule_target(e, d0, d1):
+        if d1.strftime("%Y-%m-%d") < RULE_FROM:
+            return {a["name"]: a["pct"] / 100 for a in e["alloc"]}
+        rw = rules_on(e, d0, (d1 - pd.Timedelta(days=1)).strftime("%Y-%m-%d"))[0]
+        return {a["name"]: rw.get(a["name"], a["pct"]) / 100 for a in e["alloc"]}     # 위 nav_rule 과 같은 비중
+
+    nav_rule_h = honest_nav(rule_target)
+
     peak, mdd = 1.0, 0.0
     for v in nav:
         peak = max(peak, v)
@@ -338,10 +377,13 @@ def main() -> int:
         "bench_fx": "달러 기준(포트와 같은 통화) · local = 현지 통화 수익률",
         "stat": {"ret": round((nav[-1] - 1) * 100, 2), "spy": round((bn["SPY"][-1] - 1) * 100, 2),
                  "kospi": round((bn["^KS11"][-1] - 1) * 100, 2), "mix": round((bn["AOR"][-1] - 1) * 100, 2),
-                 "mdd": round(mdd * 100, 2), "days": len(cal) - 1,
+                 "mdd": round(mdd * 100, 2), "days": len(cal) - 1, "base_honest": round((nav_h[-1] - 1) * 100, 2),
                  "win": sum(1 for x in daily if x["r"] > x["spy"]),
                  "best": max(daily, key=lambda x: x["r"]) if daily else None,
                  "worst": min(daily, key=lambda x: x["r"]) if daily else None},
+        "honest": {"base": round((nav_h[-1] - 1) * 100, 2), "line": [round((v - 1) * 100, 2) for v in nav_h],
+                   "rule": round((nav_rule_h[-1] - 1) * 100, 2), "rule_line": [round((v - 1) * 100, 2) for v in nav_rule_h],
+                   "note": "정직 계산 — 매일이 아니라 주 1회(+배분표 바뀐 날)만 비중을 맞추고, 맞출 때마다 사고판 양 × 0.1% 비용을 뺌. 세금·환전 비용은 별도."},
         "daily": daily[-30:], "hold": hold, "changes": [{"date": e["date"], "why": e.get("why", "")} for e in log][::-1],
         "prev": prev, "miss": miss, "rule": rule,
         "note": "리포트 배분표를 그대로 따랐다면의 계산. 매일 비중 유지 가정 · 수수료·세금 제외 · 달러 기준(미국 밖 종목·지수는 환율 반영). 매수 추천 아님.",

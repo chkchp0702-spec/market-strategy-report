@@ -64,6 +64,7 @@ def main() -> int:
         "d1": last.get("r"), "d1_spy": last.get("spy"), "d1_date": last.get("d"),
         "d1_kick": round(((1 + kd[-1] / 100) / (1 + kd[-2] / 100) - 1) * 100, 2) if len(kd) > 1 else None,
         "beat_base": sum(1 for m in bm if base is not None and base >= m["ret"]), "beat_kick": sum(1 for m in bm if kick is not None and kick >= m["ret"]),
+        "base_honest": (P.get("stat") or {}).get("base_honest"), "kick_honest": (K.get("honest") or {}).get("ret"),   # 🧾 정직(다음 날 진입·비용·주간 리밸런싱)
         "n_bench": len(bm), "nav": P.get("nav", [])[-30:], "kick_line": kd[-30:], "spy_line": (P.get("bench", {}).get("S&P500") or [])[-30:],
         "change": (P.get("changes") or [{}])[0] if (P.get("changes") or [{}])[0].get("date", "") >= (now - dt.timedelta(days=3)).strftime("%Y-%m-%d") else None,
         "weak": [h["name"] for h in P.get("hold", []) if str(h.get("sig", "")).startswith("약함")],
@@ -129,11 +130,15 @@ def main() -> int:
     ks = K.get("stat") or {}
     sig = []
     for k, v in (K.get("proof") or {}).items():
-        sig.append({"k": k, "tag": TAG.get(k, ""), "on": v.get("on"), "trial": v.get("trial"), "n": v.get("n"), "pf": v.get("pf"), "avg": v.get("avg"), "why": v.get("why")})
+        h_ = v.get("honest") or {}
+        sig.append({"k": k, "tag": TAG.get(k, ""), "on": v.get("on"), "trial": v.get("trial"), "n": v.get("n"), "pf": v.get("pf"), "avg": v.get("avg"), "why": v.get("why"),
+                    "h_n": h_.get("n"), "h_avg": h_.get("avg"), "h_pf": h_.get("pf"), "h_basis": h_.get("basis"),
+                    "h_oos": h_.get("oos"), "h_insample": h_.get("insample"), "fixed": v.get("fixed"), "why_note": v.get("why_note")})
     for k, v in (K.get("shadow_stat") or {}).items():
         sig.append({"k": k, "tag": v.get("tag", TAG.get(k, "")), "shadow": True, "n": v.get("n"), "pf": v.get("pf"), "avg": v.get("avg"), "win": v.get("win")})
     S.append({"k": "kick", "ic": "⚡", "t": "킥 — 신호별", "n": ks.get("trades"), "win": None, "rate": ks.get("win"), "avg": ks.get("avg"),
-              "note": f"킥 {ks.get('kick', 0):+.2f}% vs 기본 {ks.get('base', 0):+.2f}% · S&P {ks.get('spy', 0):+.2f}%", "sig": sig})
+              "note": f"킥 {ks.get('kick', 0):+.2f}% vs 기본 {ks.get('base', 0):+.2f}% · S&P {ks.get('spy', 0):+.2f}%", "sig": sig,
+              "honest_ret": (K.get("honest") or {}).get("ret"), "honest_note": (K.get("honest") or {}).get("note")})
     dt_ = []
     for k, v in (LR.get("types") or {}).items():
         dt_.append({"k": k, "n": v.get("n_all"), "avg": v.get("avg_all"), "slots": {s: {"st": r.get("st"), "n": r.get("n"), "avg": r.get("avg")} for s, r in (v.get("slots") or {}).items()}})

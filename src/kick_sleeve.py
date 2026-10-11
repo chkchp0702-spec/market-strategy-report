@@ -114,6 +114,7 @@ def proof():
     g = lambda *ks: (lambda d: d if isinstance(d, dict) else {})(__import__("functools").reduce(lambda a, k: (a or {}).get(k) if isinstance(a, dict) else None, ks, E))
     # 10/10: 컵은 피벗 기준(brk_now)이면 돌파일 점프가 섞여 부풀려짐 → 돌파일 종가 기준·킥 필터 적용 성적(brk_real_kick)
     st = {"cup": g("cup", "brk_real_kick") or g("cup", "brk_now"), "gap": g("gap", "돌파_by_size", "4-8%"), "accum": g("accum", "brk")}
+    hon = {"cup": g("cup", "honest"), "gap": g("gap", "honest"), "accum": g("accum", "honest")}   # 🧾 정직(다음 날 진입·비용·뒤 절반) — 판정에는 안 씀, 옆에 보여 주기만
     wide = {"accum": g("accum", "all")}          # 돌파만으로 표본이 적으면 신호 전체 성적으로 시험 편입 판단
     out = {}
     for k, v in st.items():
@@ -136,6 +137,11 @@ def proof():
                 out[k].update({"on": True, "trial": True, "why": f"🧪 시험 편입(그림자 채점) — {v['n']}건 · 평균 {v['avg']:+.1f}% · 손익비 {v['pf']:.1f}"})
     except Exception:
         pass
+    for k, h in hon.items():
+        if k in out:
+            o_ = h.get("oos") or {}
+            out[k]["honest"] = {"n": h.get("n") or 0, "avg": h.get("avg"), "pf": h.get("pf"), "win": h.get("win"), "basis": h.get("basis"),
+                                "insample": h.get("insample"), "oos": {"n": o_.get("n"), "avg": o_.get("avg"), "pf": o_.get("pf")} if o_ else None}
     out["cup_eye"] = out["cup"]
     if "earn" not in out or not out["earn"].get("on"):
         sse = {}
@@ -150,7 +156,8 @@ def proof():
             out["earn"].update({"on": True, "why": f"확인됨(그림자 채점) — {n_}건 · 평균 {sse.get('avg'):+.1f}% · 손익비 {pf_:.1f}"})
         elif n_ >= TRIAL_N and pf_ >= PROOF_PF:
             out["earn"].update({"on": True, "trial": True, "why": f"🧪 시험 편입(그림자 채점) — {n_}건 · 평균 {sse.get('avg'):+.1f}% · 손익비 {pf_:.1f}"})
-    out["whale"] = {"n": 160, "pf": None, "avg": None, "on": True, "why": "확인됨 — 13F 큰 신규 바스켓이 매 분기 S&P 이김(3개월 4/4 +3.9%p · 6개월 3/3 +10.0%p)"}
+    out["whale"] = {"n": 160, "pf": None, "avg": None, "on": True, "why": "확인됨 — 13F 큰 신규 바스켓이 매 분기 S&P 이김(3개월 4/4 +3.9%p · 6개월 3/3 +10.0%p)",
+                    "fixed": True, "why_note": "4분기 표본 · 코드에 고정된 판정"}
     for k in ("focus", "lead"):
         out[k] = {"n": 0, "on": False, "why": "킥 대상 아님(사용자 목록: 고래·컵·갭·매집)"}
     return out
@@ -320,101 +327,119 @@ def main() -> int:
         a = s[s.index.strftime("%Y-%m-%d") <= d] if s is not None else []
         return float(a.iloc[-20:].mean()) if len(a) >= 20 else None
 
-    # 신호 날짜 → 그 날 또는 다음 미국 거래일로 묶음
-    by_day = {}
-    for c in cands:
-        if c["code"] not in CL:
-            continue
-        sd = c["d"]
-        own = CL[c["code"]]
-        if not len(own[own.index.strftime("%Y-%m-%d") == sd]):
-            continue                                 # 그 날 종가가 없으면(휴장 등) 건너뜀
-        tgt = next((x for x in D if x >= sd), None)
-        if tgt:
-            pr = PRI.get(c["src"], 0) + c["score"] + (_P["whale_bonus"] if c["code"] in whale else 0) + (ADAPT.get(c["src"], {}).get("adj", 0))
-            by_day.setdefault(tgt, []).append({**c, "pr": round(pr, 1), "whale": c["code"] in whale})
+    def by_day_of(honest_):
+        """신호 날짜 → 그 날 또는 다음 미국 거래일로 묶음.
+        정직(honest_): 신호는 장 마감 뒤에 나오므로 그 종목의 「다음 거래일」 종가에 산다 (그 날 이후 첫 미국 거래일에 묶음)."""
+        out_ = {}
+        for c in cands:
+            if c["code"] not in CL:
+                continue
+            sd = c["d"]
+            own = CL[c["code"]]
+            ods = own.index.strftime("%Y-%m-%d")
+            if not len(own[ods == sd]):
+                continue                                 # 그 날 종가가 없으면(휴장 등) 건너뜀
+            ed = sd
+            if honest_:
+                nxt = [x for x in ods if x > sd]
+                if not nxt:
+                    continue                             # 다음 날 종가가 아직 없음 → 아직 못 삼
+                ed = nxt[0]
+            tgt = next((x for x in D if x >= ed), None)
+            if tgt:
+                pr = PRI.get(c["src"], 0) + c["score"] + (_P["whale_bonus"] if c["code"] in whale else 0) + (ADAPT.get(c["src"], {}).get("adj", 0))
+                out_.setdefault(tgt, []).append({**c, "pr": round(pr, 1), "whale": c["code"] in whale, "ed": ed})
+        return out_
 
-    cash, pos, closed, events = 1.0, [], [], []
-    val, peak, pause_until = [1.0], 1.0, -1
-    last_exit = {}
-    prev = START
-    for i, d in enumerate(D):
-        # 현금 이자 (SGOV)
-        if i > 0:
-            a, b = px("SGOV", D[i - 1]), px("SGOV", d)
-            if a and b:
-                cash *= b / a
-        # 들고 있는 것 점검 (들어간 다음 날부터)
-        for p in list(pos):
-            p["held"] += 1
-            c = px(p["code"], d)
-            if c is None:
-                continue
-            p["last"] = c
-            p["max"] = max(p["max"], c)
-            r = c / p["entry"] - 1
-            why = None
-            if r <= STOP:
-                why = "손절 −5%"
-            elif _P.get("gap_fill_exit") and p["src"] == "gap" and p.get("lv") and c < p["lv"]:
-                why = "갭 메움 (메운 갭은 평균 −1.3%)"
-            elif not p["half"] and r >= TAKE:
-                cash += p["sh"] / 2 * c
-                p["sh"] /= 2
-                p["half"] = True
-                p["realized"] += (c / p["entry"] - 1) * p["cost"] / 2
-                events.append({"d": d, "k": "절반 정리", "code": p["code"], "name": p["name"], "r": round(r * 100, 1)})
-                continue
-            elif p["half"]:
-                m = ma20(p["code"], d)
-                if m and c < m:
-                    why = "20일선 이탈 (나머지 정리)"
-            elif p["held"] >= TIME_D and p["max"] / p["entry"] - 1 < TIME_MIN:
-                why = "시간 손절 (15일 +3% 못 넘음)"
-            if why:
-                cash += p["sh"] * c
-                rr = (p["realized"] + (c / p["entry"] - 1) * (p["cost"] / 2 if p["half"] else p["cost"])) / p["cost"]
-                closed.append({**{k: p[k] for k in ("code", "name", "src", "d0", "entry", "mkt")}, "d1": d, "exit": round(c, 4), "r": round(rr * 100, 2),
-                               "days": p["held"], "why": why})
-                events.append({"d": d, "k": "팔기", "code": p["code"], "name": p["name"], "r": round(rr * 100, 1), "why": why})
-                last_exit[p["code"]] = i
-                pos.remove(p)
-        total = cash + sum(p["sh"] * (px(p["code"], d) or p["entry"]) for p in pos)
-        peak = max(peak, total)
-        if total - 1 <= BRAKE and pause_until < i:
-            pause_until = i + BRAKE_D
-            events.append({"d": d, "k": "브레이크", "why": f"슬리브 {round((total - 1) * 100, 1)}% → {BRAKE_D}거래일 새 진입 멈춤"})
-        # 새로 들어가기
-        if i > pause_until:
-            free = SLOTS - len(pos)
-            held = {p["code"] for p in pos}
-            pick = []
-            for c in sorted(by_day.get(d, []), key=lambda x: -x["pr"]):
-                if len(pick) >= min(free, MAX_NEW):
-                    break
-                if c["code"] in held or c["code"] in {x["code"] for x in pick}:
+    def simulate(honest_=False):
+        """돌파 슬리브 되짚기. honest_=True 면 다음 날 종가 진입 + 사고팔 때 비용(왕복 0.5% · 한국 0.45%의 절반씩)."""
+        by_day = by_day_of(honest_)
+        fee = (lambda m: (0.0045 if m == "KR" else 0.005) / 2) if honest_ else (lambda m: 0.0)
+        cash, pos, closed, events = 1.0, [], [], []
+        val, peak, pause_until = [1.0], 1.0, -1
+        last_exit = {}
+        prev = START
+        for i, d in enumerate(D):
+            # 현금 이자 (SGOV)
+            if i > 0:
+                a, b = px("SGOV", D[i - 1]), px("SGOV", d)
+                if a and b:
+                    cash *= b / a
+            # 들고 있는 것 점검 (들어간 다음 날부터)
+            for p in list(pos):
+                p["held"] += 1
+                c = px(p["code"], d)
+                if c is None:
                     continue
-                if c["code"] in last_exit and i - last_exit[c["code"]] < REENTRY:
+                p["last"] = c
+                p["max"] = max(p["max"], c)
+                r = c / p["entry"] - 1
+                why = None
+                if r <= STOP:
+                    why = "손절 −5%"
+                elif _P.get("gap_fill_exit") and p["src"] == "gap" and p.get("lv") and c < p["lv"]:
+                    why = "갭 메움 (메운 갭은 평균 −1.3%)"
+                elif not p["half"] and r >= TAKE:
+                    cash += p["sh"] / 2 * c * (1 - fee(p.get("mkt")))
+                    p["sh"] /= 2
+                    p["half"] = True
+                    p["realized"] += (c / p["entry"] - 1) * p["cost"] / 2
+                    events.append({"d": d, "k": "절반 정리", "code": p["code"], "name": p["name"], "r": round(r * 100, 1)})
                     continue
-                pick.append(c)
-            for c in pick:
-                e = px(c["code"], c["d"]) or px(c["code"], d)
-                if not e:
-                    continue
-                cost = total / SLOTS * (0.5 if PROOF.get(c["src"], {}).get("trial") else 1.0)
-                if cost > cash:
-                    cost = cash
-                if cost <= 0:
-                    break
-                cash -= cost
-                pos.append({"code": c["code"], "name": c["name"], "mkt": c.get("mkt"), "src": c["src"], "d0": d, "entry": e, "sh": cost / e, "cost": cost, "lv": c.get("lv"),
-                            "held": 0, "max": e, "last": e, "half": False, "realized": 0.0, "pr": c["pr"], "whale": c.get("whale")})
-                events.append({"d": d, "k": "사기", "code": c["code"], "name": c["name"], "src": SRC_NAME.get(c["src"], c["src"]), "px": round(e, 4), "note": c.get("note")})
-        total = cash + sum(p["sh"] * (px(p["code"], d) or p["entry"]) for p in pos)
-        if i > 0:
-            val.append(total)
-        else:
-            val[0] = total
+                elif p["half"]:
+                    m = ma20(p["code"], d)
+                    if m and c < m:
+                        why = "20일선 이탈 (나머지 정리)"
+                elif p["held"] >= TIME_D and p["max"] / p["entry"] - 1 < TIME_MIN:
+                    why = "시간 손절 (15일 +3% 못 넘음)"
+                if why:
+                    cash += p["sh"] * c * (1 - fee(p.get("mkt")))
+                    rr = (p["realized"] + (c / p["entry"] - 1) * (p["cost"] / 2 if p["half"] else p["cost"])) / p["cost"]
+                    closed.append({**{k: p[k] for k in ("code", "name", "src", "d0", "entry", "mkt")}, "d1": d, "exit": round(c, 4), "r": round(rr * 100, 2),
+                                   "days": p["held"], "why": why})
+                    events.append({"d": d, "k": "팔기", "code": p["code"], "name": p["name"], "r": round(rr * 100, 1), "why": why})
+                    last_exit[p["code"]] = i
+                    pos.remove(p)
+            total = cash + sum(p["sh"] * (px(p["code"], d) or p["entry"]) for p in pos)
+            peak = max(peak, total)
+            if total - 1 <= BRAKE and pause_until < i:
+                pause_until = i + BRAKE_D
+                events.append({"d": d, "k": "브레이크", "why": f"슬리브 {round((total - 1) * 100, 1)}% → {BRAKE_D}거래일 새 진입 멈춤"})
+            # 새로 들어가기
+            if i > pause_until:
+                free = SLOTS - len(pos)
+                held = {p["code"] for p in pos}
+                pick = []
+                for c in sorted(by_day.get(d, []), key=lambda x: -x["pr"]):
+                    if len(pick) >= min(free, MAX_NEW):
+                        break
+                    if c["code"] in held or c["code"] in {x["code"] for x in pick}:
+                        continue
+                    if c["code"] in last_exit and i - last_exit[c["code"]] < REENTRY:
+                        continue
+                    pick.append(c)
+                for c in pick:
+                    e = px(c["code"], c["ed"]) or px(c["code"], d)
+                    if not e:
+                        continue
+                    cost = total / SLOTS * (0.5 if PROOF.get(c["src"], {}).get("trial") else 1.0)
+                    if cost > cash:
+                        cost = cash
+                    if cost <= 0:
+                        break
+                    cash -= cost
+                    pos.append({"code": c["code"], "name": c["name"], "mkt": c.get("mkt"), "src": c["src"], "d0": d, "entry": e, "sh": cost * (1 - fee(c.get("mkt"))) / e, "cost": cost, "lv": c.get("lv"),
+                                "held": 0, "max": e, "last": e, "half": False, "realized": 0.0, "pr": c["pr"], "whale": c.get("whale")})
+                    events.append({"d": d, "k": "사기", "code": c["code"], "name": c["name"], "src": SRC_NAME.get(c["src"], c["src"]), "px": round(e, 4), "note": c.get("note")})
+            total = cash + sum(p["sh"] * (px(p["code"], d) or p["entry"]) for p in pos)
+            if i > 0:
+                val.append(total)
+            else:
+                val[0] = total
+        return val, closed, events, pos, pause_until
+
+    val, closed, events, pos, pause_until = simulate(False)
+    hval, hclosed = simulate(True)[:2]
 
     # 👻 그림자 채점 — 킥에 못 들어온 신호도 「들어갔다면」을 같은 규칙으로 계산해 쌓는다. 표본 20↑·손익비 1.5↑면 다음부터 진짜로 들어옴.
     SH = json.loads(OUT.read_text(encoding="utf-8")).get("shadow_log", {}) if OUT.exists() else {}
@@ -449,7 +474,7 @@ def main() -> int:
                            "pf": round(g_ / l_, 2) if l_ > 0 else None, "tag": TAG.get(k_, "")}
 
     # 🐋 고래 바스켓 — 분기마다 같은 비중으로 사서 다음 목록까지 들고 감 (−30% 사고 대비만)
-    wval, wbask, wq, wev = [1.0], [], None, []
+    wval, wbask, wq, wev, wsw = [1.0], [], None, [], []
     wv = 1.0
     for i, d in enumerate(D):
         cur = [x for x in WL if x[0] <= d]
@@ -460,6 +485,7 @@ def main() -> int:
                 old = {b["t"] for b in wbask}
                 wbask = [{**r, "d0": d, "entry": px(r["t"], d), "on": True, "exit": None} for r in pick]
                 wq = q
+                wsw.append(d)
                 wev.append({"d": d, "k": "고래 바스켓 교체" if old else "고래 바스켓 시작", "q": q, "in": [b["t"] for b in wbask if b["t"] not in old],
                             "out": sorted(old - {b["t"] for b in wbask})})
                 wbase = wv
@@ -483,29 +509,44 @@ def main() -> int:
     base = [1 + v / 100 for v in pnav]
     sv = dict(zip(D, val))
     sg = {d: px("SGOV", d) for d in pdates}
-    kick = [1.0]
-    sleeve_line = [0.0]
-    lastv = 1.0
     RULE = P.get("rule") or {}
     RF, WS2 = RULE.get("from", "9999"), _P.get("whale_sleeve2", WS)
     rbase = [1 + v / 100 for v in RULE["nav"]] if RULE.get("nav") and len(RULE["nav"]) == len(pdates) else None
-    for j in range(1, len(pdates)):
-        d0, d1 = pdates[j - 1], pdates[j]
-        rb = base[j] / base[j - 1] - 1
-        if rbase and d1 >= RF:      # 🧪 10/12부터: 기본 칸은 규칙 비중 · 🐋 고래 10% · 킥 전체(돌파 9% + 고래 10%)만큼 기본을 줄임
-            rbr = rbase[j] / rbase[j - 1] - 1
-            rs_ = (sv.get(d1, sv.get(d0, 1.0)) / sv.get(d0, 1.0) - 1) if d0 in sv else (sv.get(d1, 1.0) - 1)
-            rw_ = (wsv.get(d1, wsv.get(d0, 1.0)) / wsv.get(d0, 1.0) - 1) if d0 in wsv else 0.0
-            kick.append(kick[-1] * (1 + (1 - SLEEVE - WS2) * rbr + SLEEVE * rs_ + WS2 * rw_))
+
+    def combine(sv, wsv, base=base, rbase=rbase):
+        kick = [1.0]
+        sleeve_line = [0.0]
+        lastv = 1.0
+        for j in range(1, len(pdates)):
+            d0, d1 = pdates[j - 1], pdates[j]
+            rb = base[j] / base[j - 1] - 1
+            if rbase and d1 >= RF:      # 🧪 10/12부터: 기본 칸은 규칙 비중 · 🐋 고래 10% · 킥 전체(돌파 9% + 고래 10%)만큼 기본을 줄임
+                rbr = rbase[j] / rbase[j - 1] - 1
+                rs_ = (sv.get(d1, sv.get(d0, 1.0)) / sv.get(d0, 1.0) - 1) if d0 in sv else (sv.get(d1, 1.0) - 1)
+                rw_ = (wsv.get(d1, wsv.get(d0, 1.0)) / wsv.get(d0, 1.0) - 1) if d0 in wsv else 0.0
+                kick.append(kick[-1] * (1 + (1 - SLEEVE - WS2) * rbr + SLEEVE * rs_ + WS2 * rw_))
+                lastv = sv.get(d1, lastv)
+                sleeve_line.append(round((lastv - 1) * 100, 2))
+                continue
+            rs = (sv.get(d1, sv.get(d0, 1.0)) / sv.get(d0, 1.0) - 1) if d0 in sv else (sv.get(d1, 1.0) - 1)
+            rg = (sg[d1] / sg[d0] - 1) if sg.get(d0) and sg.get(d1) else 0
+            rw = (wsv.get(d1, wsv.get(d0, 1.0)) / wsv.get(d0, 1.0) - 1) if d0 in wsv else 0.0
+            kick.append(kick[-1] * (1 + rb - (SLEEVE + WS) * rg + SLEEVE * rs + WS * rw))
             lastv = sv.get(d1, lastv)
             sleeve_line.append(round((lastv - 1) * 100, 2))
-            continue
-        rs = (sv.get(d1, sv.get(d0, 1.0)) / sv.get(d0, 1.0) - 1) if d0 in sv else (sv.get(d1, 1.0) - 1)
-        rg = (sg[d1] / sg[d0] - 1) if sg.get(d0) and sg.get(d1) else 0
-        rw = (wsv.get(d1, wsv.get(d0, 1.0)) / wsv.get(d0, 1.0) - 1) if d0 in wsv else 0.0
-        kick.append(kick[-1] * (1 + rb - (SLEEVE + WS) * rg + SLEEVE * rs + WS * rw))
-        lastv = sv.get(d1, lastv)
-        sleeve_line.append(round((lastv - 1) * 100, 2))
+        return kick, sleeve_line
+
+    kick, sleeve_line = combine(sv, wsv)
+    # 🧾 정직 버전: 돌파 칸은 다음 날 종가 진입 + 비용, 고래 바스켓은 바꿀 때마다 왕복 0.5% (기본 칸 비용은 port.json base_honest 쪽)
+    hwv, hw_ = {}, 1.0
+    for x, v in zip(D, wval):
+        if x in wsw:
+            hw_ *= 1 - (0.0025 if x == wsw[0] else 0.005)     # 처음엔 사기만(편도), 교체 땐 팔고 사기(왕복)
+        hwv[x] = v * hw_
+    PH = P.get("honest") or {}
+    hb = [1 + v / 100 for v in PH["line"]] if len(PH.get("line") or []) == len(pdates) else base
+    hrb = ([1 + v / 100 for v in PH["rule_line"]] if len(PH.get("rule_line") or []) == len(pdates) else rbase) if rbase else None
+    hkick, hsleeve_line = combine(dict(zip(D, hval)), hwv, hb, hrb)
     for t in closed:
         t["src_name"] = SRC_NAME.get(t["src"], t["src"])
     trades = closed
@@ -548,6 +589,11 @@ def main() -> int:
         "tags": {"🐋": "고래 13F 큰 신규", "☕": "컵 돌파", "📈": "돌파 갭", "🤫": "조용한 매집 돌파", "📊": "실적 갭"},
         "dates": pdates, "base": [round((b - 1) * 100, 2) for b in base], "kick": [round((k - 1) * 100, 2) for k in kick],
         "sleeve": round((val[-1] - 1) * 100, 2), "sleeve_line": sleeve_line,
+        "honest": {"line": [round((k - 1) * 100, 2) for k in hkick], "ret": round((hkick[-1] - 1) * 100, 2),
+                   "sleeve": round((hval[-1] - 1) * 100, 2), "sleeve_line": hsleeve_line, "trades": len(hclosed),
+                   "avg": round(sum(t["r"] for t in hclosed) / len(hclosed), 2) if hclosed else None,
+                   "note": "정직 계산 — 신호는 장 마감 뒤에 나오므로 돌파 칸은 다음 거래일 종가에 사고, 사고팔 때마다 비용(왕복 0.5% · 한국 0.45%, 환전 포함)을 뺌. "
+                           "🐋 고래 바스켓은 교체 때 비용을 뺌. 기본 칸은 위 숫자 그대로(주간 리밸런싱 비용은 💼 포트의 base_honest). 판정·켜고 끄기에는 쓰지 않음."},
         "open": openp, "closed": trades[::-1][:40], "closed_all": [{"src": t["src"], "r": t["r"], "d1": t["d1"]} for t in trades], "events": events[::-1][:40],
         "stat": {"base": round((base[-1] - 1) * 100, 2), "kick": round((kick[-1] - 1) * 100, 2), "spy": P["stat"]["spy"], "whale": round((wval[-1] - 1) * 100, 2) if WS > 0 else None,
                  "trades": len(trades), "win": round(len(wins) / len(trades) * 100) if trades else None,

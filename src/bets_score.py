@@ -113,9 +113,13 @@ def judge(b: dict, bars: list[dict], year: int) -> dict:
         hit_s = stp is not None and ((x["l"] <= stp) if up else (x["h"] >= stp))
         hit_t = tgt is not None and ((x["h"] >= tgt) if up else (x["l"] <= tgt))
         if hit_s:
-            r = sign * (stp / entry - 1) * 100
+            # 시가가 이미 손절가를 넘어 갭으로 열렸으면 손절가가 아니라 시가에 팔린다 (10/11 정직 채점)
+            o_ = x.get("o")
+            gap_ = bool(o_) and ((o_ < stp) if up else (o_ > stp))
+            fill = o_ if gap_ else stp
+            r = sign * (fill / entry - 1) * 100
             return {**out, "st": "닫힘", "win": False, "r": round(r, 2), "d1": x["d"].isoformat(),
-                    "res": f"짐 {r:+.1f}% (손절 닿음 {x['d'].month}/{x['d'].day})"}
+                    "res": f"짐 {r:+.1f}% ({'갭 손절 · 시가' if gap_ else '손절 닿음'} {x['d'].month}/{x['d'].day})"}
         if hit_t:
             r = sign * (tgt / entry - 1) * 100
             return {**out, "st": "닫힘", "win": True, "r": round(r, 2), "d1": x["d"].isoformat(),
