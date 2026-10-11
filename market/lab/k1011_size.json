@@ -1,0 +1,719 @@
+{
+ "at": "2026-10-11 23:44",
+ "from": "2008-07-01",
+ "to": "2026-10-09",
+ "spy": {
+  "is": {
+   "cagr": 9.03,
+   "vol": 21.4,
+   "mdd": -47.2,
+   "sharpe": 0.51,
+   "ex": 0.0,
+   "win12": 0,
+   "beat_years": 0,
+   "years": 9
+  },
+  "oos": {
+   "cagr": 15.33,
+   "vol": 18.1,
+   "mdd": -33.7,
+   "sharpe": 0.88,
+   "ex": 0.0,
+   "win12": 0,
+   "beat_years": 0,
+   "years": 10
+  }
+ },
+ "current": {
+  "sg": 0.19,
+  "sr": 0.19,
+  "is": {
+   "cagr": 9.96,
+   "vol": 14.2,
+   "mdd": -25.5,
+   "sharpe": 0.74,
+   "ex": 0.93,
+   "win12": 31,
+   "beat_years": 2,
+   "years": 9,
+   "turn": 220
+  },
+  "oos": {
+   "cagr": 16.47,
+   "vol": 14.9,
+   "mdd": -21.7,
+   "sharpe": 1.1,
+   "ex": 1.14,
+   "win12": 52,
+   "beat_years": 5,
+   "years": 10,
+   "turn": 245
+  }
+ },
+ "best": {
+  "sg": 0.25,
+  "sr": 0.25,
+  "is": {
+   "cagr": 9.75,
+   "vol": 13.8,
+   "mdd": -23.9,
+   "sharpe": 0.75,
+   "ex": 0.72,
+   "win12": 27,
+   "beat_years": 3,
+   "years": 9,
+   "turn": 262
+  },
+  "oos": {
+   "cagr": 16.15,
+   "vol": 14.4,
+   "mdd": -20.6,
+   "sharpe": 1.11,
+   "ex": 0.83,
+   "win12": 51,
+   "beat_years": 6,
+   "years": 10,
+   "turn": 297
+  }
+ },
+ "check": {
+  "beat": true,
+  "mdd": true,
+  "sharpe": true
+ },
+ "shake_ok": false,
+ "verdict": "➖ 애매",
+ "shake": [
+  {
+   "what": "크기 ×0.8",
+   "sg": 0.2,
+   "sr": 0.2,
+   "oos": {
+    "cagr": 16.42,
+    "vol": 14.8,
+    "mdd": -21.5,
+    "sharpe": 1.1,
+    "ex": 1.09,
+    "win12": 52,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 253
+   }
+  },
+  {
+   "what": "크기 ×1.2",
+   "sg": 0.3,
+   "sr": 0.3,
+   "oos": {
+    "cagr": 15.88,
+    "vol": 14.1,
+    "mdd": -19.8,
+    "sharpe": 1.12,
+    "ex": 0.56,
+    "win12": 49,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 341
+   }
+  },
+  {
+   "what": "손절 −4%",
+   "sg": 0.25,
+   "sr": 0.25,
+   "oos": {
+    "cagr": 15.59,
+    "vol": 14.4,
+    "mdd": -23.0,
+    "sharpe": 1.08,
+    "ex": 0.26,
+    "win12": 47,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 306
+   }
+  },
+  {
+   "what": "손절 −6%",
+   "sg": 0.25,
+   "sr": 0.25,
+   "oos": {
+    "cagr": 15.57,
+    "vol": 14.6,
+    "mdd": -21.6,
+    "sharpe": 1.07,
+    "ex": 0.24,
+    "win12": 43,
+    "beat_years": 4,
+    "years": 10,
+    "turn": 299
+   }
+  },
+  {
+   "what": "익절 +12%",
+   "sg": 0.25,
+   "sr": 0.25,
+   "oos": {
+    "cagr": 14.88,
+    "vol": 14.3,
+    "mdd": -21.2,
+    "sharpe": 1.04,
+    "ex": -0.44,
+    "win12": 42,
+    "beat_years": 4,
+    "years": 10,
+    "turn": 349
+   }
+  },
+  {
+   "what": "익절 +18%",
+   "sg": 0.25,
+   "sr": 0.25,
+   "oos": {
+    "cagr": 15.53,
+    "vol": 14.5,
+    "mdd": -21.3,
+    "sharpe": 1.07,
+    "ex": 0.21,
+    "win12": 46,
+    "beat_years": 6,
+    "years": 10,
+    "turn": 259
+   }
+  }
+ ],
+ "grid": [
+  {
+   "sg": 0,
+   "sr": 0,
+   "is": {
+    "cagr": 10.59,
+    "vol": 15.8,
+    "mdd": -30.5,
+    "sharpe": 0.72,
+    "ex": 1.57,
+    "win12": 50,
+    "beat_years": 2,
+    "years": 9,
+    "turn": 87
+   },
+   "oos": {
+    "cagr": 17.45,
+    "vol": 16.5,
+    "mdd": -26.3,
+    "sharpe": 1.06,
+    "ex": 2.13,
+    "win12": 65,
+    "beat_years": 7,
+    "years": 10,
+    "turn": 79
+   }
+  },
+  {
+   "sg": 0.05,
+   "sr": 0.0,
+   "is": {
+    "cagr": 10.47,
+    "vol": 15.7,
+    "mdd": -30.5,
+    "sharpe": 0.71,
+    "ex": 1.45,
+    "win12": 47,
+    "beat_years": 2,
+    "years": 9,
+    "turn": 121
+   },
+   "oos": {
+    "cagr": 17.27,
+    "vol": 16.2,
+    "mdd": -25.8,
+    "sharpe": 1.07,
+    "ex": 1.94,
+    "win12": 62,
+    "beat_years": 7,
+    "years": 10,
+    "turn": 121
+   }
+  },
+  {
+   "sg": 0.05,
+   "sr": 0.025,
+   "is": {
+    "cagr": 10.45,
+    "vol": 15.5,
+    "mdd": -29.9,
+    "sharpe": 0.72,
+    "ex": 1.43,
+    "win12": 45,
+    "beat_years": 2,
+    "years": 9,
+    "turn": 121
+   },
+   "oos": {
+    "cagr": 17.23,
+    "vol": 16.1,
+    "mdd": -25.4,
+    "sharpe": 1.07,
+    "ex": 1.91,
+    "win12": 61,
+    "beat_years": 7,
+    "years": 10,
+    "turn": 122
+   }
+  },
+  {
+   "sg": 0.05,
+   "sr": 0.05,
+   "is": {
+    "cagr": 10.43,
+    "vol": 15.3,
+    "mdd": -29.2,
+    "sharpe": 0.72,
+    "ex": 1.4,
+    "win12": 44,
+    "beat_years": 2,
+    "years": 9,
+    "turn": 122
+   },
+   "oos": {
+    "cagr": 17.2,
+    "vol": 16.0,
+    "mdd": -25.1,
+    "sharpe": 1.07,
+    "ex": 1.87,
+    "win12": 60,
+    "beat_years": 7,
+    "years": 10,
+    "turn": 123
+   }
+  },
+  {
+   "sg": 0.1,
+   "sr": 0.0,
+   "is": {
+    "cagr": 10.35,
+    "vol": 15.6,
+    "mdd": -30.5,
+    "sharpe": 0.71,
+    "ex": 1.32,
+    "win12": 44,
+    "beat_years": 2,
+    "years": 9,
+    "turn": 155
+   },
+   "oos": {
+    "cagr": 17.08,
+    "vol": 16.0,
+    "mdd": -25.2,
+    "sharpe": 1.07,
+    "ex": 1.75,
+    "win12": 59,
+    "beat_years": 6,
+    "years": 10,
+    "turn": 163
+   }
+  },
+  {
+   "sg": 0.1,
+   "sr": 0.05,
+   "is": {
+    "cagr": 10.31,
+    "vol": 15.3,
+    "mdd": -29.2,
+    "sharpe": 0.72,
+    "ex": 1.28,
+    "win12": 42,
+    "beat_years": 2,
+    "years": 9,
+    "turn": 156
+   },
+   "oos": {
+    "cagr": 17.01,
+    "vol": 15.8,
+    "mdd": -24.5,
+    "sharpe": 1.08,
+    "ex": 1.69,
+    "win12": 58,
+    "beat_years": 6,
+    "years": 10,
+    "turn": 165
+   }
+  },
+  {
+   "sg": 0.1,
+   "sr": 0.1,
+   "is": {
+    "cagr": 10.27,
+    "vol": 14.9,
+    "mdd": -27.9,
+    "sharpe": 0.73,
+    "ex": 1.24,
+    "win12": 39,
+    "beat_years": 2,
+    "years": 9,
+    "turn": 157
+   },
+   "oos": {
+    "cagr": 16.94,
+    "vol": 15.6,
+    "mdd": -23.9,
+    "sharpe": 1.08,
+    "ex": 1.62,
+    "win12": 56,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 166
+   }
+  },
+  {
+   "sg": 0.15,
+   "sr": 0.0,
+   "is": {
+    "cagr": 10.23,
+    "vol": 15.5,
+    "mdd": -30.5,
+    "sharpe": 0.71,
+    "ex": 1.2,
+    "win12": 42,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 189
+   },
+   "oos": {
+    "cagr": 16.89,
+    "vol": 15.8,
+    "mdd": -24.6,
+    "sharpe": 1.07,
+    "ex": 1.56,
+    "win12": 58,
+    "beat_years": 6,
+    "years": 10,
+    "turn": 205
+   }
+  },
+  {
+   "sg": 0.15,
+   "sr": 0.075,
+   "is": {
+    "cagr": 10.17,
+    "vol": 15.0,
+    "mdd": -28.6,
+    "sharpe": 0.72,
+    "ex": 1.14,
+    "win12": 38,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 190
+   },
+   "oos": {
+    "cagr": 16.79,
+    "vol": 15.5,
+    "mdd": -23.6,
+    "sharpe": 1.08,
+    "ex": 1.46,
+    "win12": 56,
+    "beat_years": 6,
+    "years": 10,
+    "turn": 207
+   }
+  },
+  {
+   "sg": 0.15,
+   "sr": 0.15,
+   "is": {
+    "cagr": 10.1,
+    "vol": 14.5,
+    "mdd": -26.6,
+    "sharpe": 0.74,
+    "ex": 1.07,
+    "win12": 35,
+    "beat_years": 2,
+    "years": 9,
+    "turn": 192
+   },
+   "oos": {
+    "cagr": 16.68,
+    "vol": 15.2,
+    "mdd": -22.6,
+    "sharpe": 1.09,
+    "ex": 1.36,
+    "win12": 53,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 210
+   }
+  },
+  {
+   "sg": 0.2,
+   "sr": 0.0,
+   "is": {
+    "cagr": 10.11,
+    "vol": 15.4,
+    "mdd": -30.5,
+    "sharpe": 0.7,
+    "ex": 1.08,
+    "win12": 40,
+    "beat_years": 4,
+    "years": 9,
+    "turn": 223
+   },
+   "oos": {
+    "cagr": 16.7,
+    "vol": 15.6,
+    "mdd": -24.2,
+    "sharpe": 1.07,
+    "ex": 1.37,
+    "win12": 57,
+    "beat_years": 6,
+    "years": 10,
+    "turn": 246
+   }
+  },
+  {
+   "sg": 0.2,
+   "sr": 0.1,
+   "is": {
+    "cagr": 10.02,
+    "vol": 14.8,
+    "mdd": -27.9,
+    "sharpe": 0.72,
+    "ex": 0.99,
+    "win12": 35,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 225
+   },
+   "oos": {
+    "cagr": 16.56,
+    "vol": 15.2,
+    "mdd": -22.9,
+    "sharpe": 1.09,
+    "ex": 1.24,
+    "win12": 55,
+    "beat_years": 6,
+    "years": 10,
+    "turn": 250
+   }
+  },
+  {
+   "sg": 0.2,
+   "sr": 0.2,
+   "is": {
+    "cagr": 9.92,
+    "vol": 14.1,
+    "mdd": -25.2,
+    "sharpe": 0.74,
+    "ex": 0.9,
+    "win12": 30,
+    "beat_years": 2,
+    "years": 9,
+    "turn": 227
+   },
+   "oos": {
+    "cagr": 16.42,
+    "vol": 14.8,
+    "mdd": -21.5,
+    "sharpe": 1.1,
+    "ex": 1.09,
+    "win12": 52,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 253
+   }
+  },
+  {
+   "sg": 0.25,
+   "sr": 0.0,
+   "is": {
+    "cagr": 9.98,
+    "vol": 15.4,
+    "mdd": -30.5,
+    "sharpe": 0.7,
+    "ex": 0.95,
+    "win12": 39,
+    "beat_years": 4,
+    "years": 9,
+    "turn": 257
+   },
+   "oos": {
+    "cagr": 16.51,
+    "vol": 15.4,
+    "mdd": -23.9,
+    "sharpe": 1.07,
+    "ex": 1.18,
+    "win12": 56,
+    "beat_years": 6,
+    "years": 10,
+    "turn": 288
+   }
+  },
+  {
+   "sg": 0.25,
+   "sr": 0.125,
+   "is": {
+    "cagr": 9.87,
+    "vol": 14.5,
+    "mdd": -27.3,
+    "sharpe": 0.72,
+    "ex": 0.85,
+    "win12": 32,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 260
+   },
+   "oos": {
+    "cagr": 16.33,
+    "vol": 14.9,
+    "mdd": -22.2,
+    "sharpe": 1.09,
+    "ex": 1.01,
+    "win12": 54,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 293
+   }
+  },
+  {
+   "sg": 0.25,
+   "sr": 0.25,
+   "is": {
+    "cagr": 9.75,
+    "vol": 13.8,
+    "mdd": -23.9,
+    "sharpe": 0.75,
+    "ex": 0.72,
+    "win12": 27,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 262
+   },
+   "oos": {
+    "cagr": 16.15,
+    "vol": 14.4,
+    "mdd": -20.6,
+    "sharpe": 1.11,
+    "ex": 0.83,
+    "win12": 51,
+    "beat_years": 6,
+    "years": 10,
+    "turn": 297
+   }
+  },
+  {
+   "sg": 0.3,
+   "sr": 0.0,
+   "is": {
+    "cagr": 9.85,
+    "vol": 15.3,
+    "mdd": -30.5,
+    "sharpe": 0.69,
+    "ex": 0.83,
+    "win12": 37,
+    "beat_years": 4,
+    "years": 9,
+    "turn": 291
+   },
+   "oos": {
+    "cagr": 16.31,
+    "vol": 15.2,
+    "mdd": -23.6,
+    "sharpe": 1.07,
+    "ex": 0.98,
+    "win12": 54,
+    "beat_years": 6,
+    "years": 10,
+    "turn": 330
+   }
+  },
+  {
+   "sg": 0.3,
+   "sr": 0.15,
+   "is": {
+    "cagr": 9.72,
+    "vol": 14.3,
+    "mdd": -26.6,
+    "sharpe": 0.72,
+    "ex": 0.7,
+    "win12": 30,
+    "beat_years": 4,
+    "years": 9,
+    "turn": 294
+   },
+   "oos": {
+    "cagr": 16.1,
+    "vol": 14.6,
+    "mdd": -21.5,
+    "sharpe": 1.1,
+    "ex": 0.78,
+    "win12": 53,
+    "beat_years": 6,
+    "years": 10,
+    "turn": 335
+   }
+  },
+  {
+   "sg": 0.3,
+   "sr": 0.3,
+   "is": {
+    "cagr": 9.57,
+    "vol": 13.4,
+    "mdd": -22.5,
+    "sharpe": 0.75,
+    "ex": 0.54,
+    "win12": 24,
+    "beat_years": 2,
+    "years": 9,
+    "turn": 297
+   },
+   "oos": {
+    "cagr": 15.88,
+    "vol": 14.1,
+    "mdd": -19.8,
+    "sharpe": 1.12,
+    "ex": 0.56,
+    "win12": 49,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 341
+   }
+  }
+ ],
+ "kick_only": {
+  "is": {
+   "cagr": 6.68,
+   "vol": 11.3,
+   "mdd": -16.3,
+   "sharpe": 0.63,
+   "ex": -2.35,
+   "win12": 30,
+   "beat_years": 5,
+   "years": 9,
+   "turn": 788
+  },
+  "oos": {
+   "cagr": 11.8,
+   "vol": 12.1,
+   "mdd": -16.4,
+   "sharpe": 0.98,
+   "ex": -3.53,
+   "win12": 36,
+   "beat_years": 3,
+   "years": 10,
+   "turn": 951
+  }
+ },
+ "trades": {
+  "is": {
+   "n": 172,
+   "avg": 2.2,
+   "win": 48,
+   "pf": 2.26
+  },
+  "oos": {
+   "n": 229,
+   "avg": 2.56,
+   "win": 48,
+   "pf": 2.13
+  }
+ },
+ "note": "킥 신호 대신 섹터·테마 ETF 52주 신고가 돌파 · 기본 = C안 뼈대 · 앞 2008-07~2016 고르기 / 뒤 2017~ 시험 · 회전율×0.1% 비용 · 고래 바스켓·실적 갭·컵 등 실제 신호는 역사 없음 · 매수 추천 아님"
+}
