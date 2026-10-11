@@ -1,55 +1,63 @@
 {
- "date": "2026-10-11",
- "read": 938,
+ "date": "2026-10-12",
+ "read": 593,
  "items": [
   {
-   "id": "HANAchina/70186",
-   "why": "⚡ 킥 — 노무라 「10종목이 S&P 상승의 70%·85% 이미 조정」, 포트가 S&P에 진 이유"
+   "id": "kimu_nim/46530",
+   "why": "⚡ 킥 — 미 러시아 디젤 수입 허용·두바이 108.5·정제마진 37.1$ (하나 윤재성), 미국 안 기름값만 눌림"
   },
   {
-   "id": "HANAchina/70177",
-   "why": "⚡ 킥·숫자 카드 — S&P 신고가인데 50일선 위 종목 30%(FXStreet 25%와 범위)"
+   "id": "HANAchina/70207",
+   "why": "⚡ 킥·3쪽 발언 — 골드만 「브렌트 위험 프리미엄 $22, 재고 6.6억 배럴 감소」"
   },
   {
-   "id": "HANAchina/70148",
-   "why": "5쪽 발언 — BofA 하트넷 「채권이 버블 끝낼 것」·MMF 1,664억$ 유입, 현금 26 유지 근거"
+   "id": "kimu_nim/46542",
+   "why": "2쪽 무슨 일이 있었나 — 리야드 공항 하루 만에 또 피격(킥의 「미사일」 쪽)"
   },
   {
-   "id": "kimu_nim/46460",
-   "why": "5쪽 발언·브렌트 카드 — JP모건 「기름 부족 아닌 운송 부족」, 에너지 13 유지"
+   "id": "n/1pcFQ5RnFaVXpfYUxWRG1acC1mYnR6d3ZtdXpxbTBBUFJkcU9ock1wbXcoc5",
+   "why": "2쪽 — 걸프 증시 하락(로이터)"
   },
   {
-   "id": "kimu_nim/46458",
-   "why": "5쪽 발언 — 씨티 「재무부 장기물 축소」 11/4, 금리 상단 재료"
+   "id": "n/tsSWxkcDBVU1ZBb3ZKUmd2V0FKejhMOUJkOGFYazRBSjZWTmRRLTNQRWMoc5",
+   "why": "1쪽 금리 카드·반대 의견 — 월러 매파 전환"
   },
   {
-   "id": "kimu_nim/46461",
-   "why": "7쪽 일정 — 10/12~16 주간 캘린더(CPI 근원 0.2% 예상)"
+   "id": "n/tMks5Qzh6dGNkRkRLcUQ3NkZicmtXeDdiYVNDV2RVa1dLc2FWYmlHQ3ZYoc5",
+   "why": "2쪽 — 대법원, 리사 쿡 해임 일단 막음"
   },
   {
-   "id": "egzion/6448",
-   "why": "패널 22 KB 이은택 새 발언 「장기금리 하락이 더 두렵다」"
+   "id": "HANAchina/70209",
+   "why": "3쪽 발언 — 골드만 「사실상 AI 하나의 거래」, C안 코어로 간 이유"
   },
   {
-   "id": "pokara61/224435616746",
-   "why": "3쪽 한국 — 삼성 107.4조인데 증가율 +185→+56→+20%로 꺾임"
+   "id": "n/3SUNJb3lTdkl4NENvTWVwamNVY2pRZmxieE4xR1ZYNDNfLXRqV1VOWVV3oc5",
+   "why": "🎯 집중 이유 — 골드만 「AI 거래가 하드웨어→애플리케이션으로」"
   },
   {
-   "id": "globalmktinsight/7671",
-   "why": "3쪽 한국 — 55조 자사주 매입 막바지"
+   "id": "n/DBZcHduMHNIQWtBc0dfWHAwLTBxMXpHUUstVEhpdF9Yd01KZFZILWRYZwoc5",
+   "why": "🔥 한국 연결 — 미 은행 보안 인력이 한국의 47배"
   },
   {
-   "id": "jeunkim/224433827753",
-   "why": "2쪽 🎯 CIBR 이유 — 「AI 에이전트=최대 보안 위험」에 사이버 사상 최고"
+   "id": "kimu_nim/46535",
+   "why": "3쪽 발언 — 하나 반도체 「메모리 가격 예상 상회·LPDDR 부족 최심」, 🧭 반도체 10 유지"
   },
   {
-   "id": "HANAchina/70156",
-   "why": "2쪽 🎯 CIBR 이유 — 백악관 AI 보안 사고 보고 의무화"
+   "id": "kimu_nim/46550",
+   "why": "2쪽 한국 — 삼성 외국인 지분율 46%·17년여 만 최저"
   },
   {
-   "id": "HANAchina/70181",
-   "why": "1쪽 판단·반대 의견 — ASML 부품 10% 인상 삼성·하이닉스 수용(반도체 유지 근거)"
+   "id": "kimu_nim/46544",
+   "why": "2쪽 한국 — 코스피 두 달 박스권, 올해 가장 긴 횡보"
+  },
+  {
+   "id": "n/VhNGZHTWI0MTlvRUo0OGdHckc5VXBMc0xlbFM2bmJyeUJrNF93RFhaYWcoc5",
+   "why": "2쪽 한국 — 개인 3분기 코스피 5.6조 매도·미국 10.2조 매수"
+  },
+  {
+   "id": "HANAchina/70206",
+   "why": "🧠 애플 논지 채점 — 아이폰 듀오 주문 30% 확대(수요 둔화 반박 보도)"
   }
  ],
- "skip": "정치·생활·부동산 잡담(김현석 채널) 30여 · 링크만(여의도스토리) 15 · 투자 교양 번역(피우스) 10 · 일반 뉴스 헤드라인은 🧠 두뇌가 이미 걸러 둔 것 확인 · 중복 속보 다수"
+ "skip": "중복 속보(같은 기사 여러 채널) 약 80 · 내부자 소액 매매·스포츠·사건사고·부동산 잡담 약 200 · 오늘 이야기와 무관(일본 신문 구독률·화장품 용기 등) 약 250 · 날짜 지난 기사 재유통(Williams 확률·'다우 3월 이후 최악') 확인 후 버림"
 }
