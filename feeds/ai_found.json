@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "트럼프 '러시아·우크라이나 에너지 휴전 합의' 발표 — 9월 15일에도 같은 주장, 며칠 만에 무산",
+   "url": "https://www.newsweek.com/trumps-russia-ukraine-energy-truce-already-run-out-gas-12461493",
+   "press": "Newsweek",
+   "at": "2026-10-12 00:35",
+   "why": "에너지 칸(SK이노베이션)·S-Oil 내림 대기 bet — 정유소 공격 중단이면 디젤 크랙 하락, 단 전례상 지속성 의문",
+   "summary": "트럼프 10/11 '양측 에너지 시설 공격 중단 합의' 발표(Reuters·Bloomberg). 9/15에도 '에너지 휴전' 주장했으나 공격 재개로 무산(Newsweek). 트럼프는 디젤 가격을 이유로 우크라에 러 정유소 공격 중단을 압박해 왔음(Kyiv Independent)."
+  },
+  {
+   "title": "골드만삭스 '2027년 미국 주식 발행 6천억 달러, 감당 가능한 수준'",
+   "url": "https://seekingalpha.com/news/4596652-equity-supply-looks-manageable-at-600b-goldman-sachs-says",
+   "press": "Seeking Alpha",
+   "at": "2026-10-12 00:35",
+   "why": "미국 주식 칸 수급 — AI 상장(오픈AI·스페이스X 등) 물량 부담 vs 자사주 매입",
+   "summary": "골드만 2027년 미 주식 발행 6천억 달러 전망(AI 투자 자금 수요). 자사주 매입이 발행을 상쇄해 '감당 가능' 판단. 미 회사채도 올해 1.69조 달러 발행(gn_kr_bbg)."
+  },
+  {
    "title": "사우디 연합군 후티 목표 82곳 타격·카타르 앞바다 유조선 피격·이란-오만 호르무즈 안전 항로 좌표 합의",
    "url": "https://gulfnews.com/world/mena/us-iran-war-saudi-led-coalition-strikes-82-houthi-targets-after-airport-attacks-tanker-hit-off-qatar-iran-oman-agree-hormuz-routes-as-brent-stays-above-100-1.500702560",
    "press": "Gulf News",
@@ -623,14 +639,6 @@
    "at": "2026-10-05 00:00",
    "why": "AI 저장장치(HDD) 공급 경쟁 우려 매도를 IB가 '과도'로 판정 — 반도체·메모리 칸 수요 논지 보강",
    "summary": "TDK 헤드 사업 인수 경쟁 보도로 HDD주 급락 후 번스타인 반박에 WD +7%·시게이트 +5% 반등(기사 제목 기준)."
-  },
-  {
-   "title": "트럼프, 미국 디젤 가격 낮추는 행정명령 준비 — 폴리티코",
-   "url": "https://news.liga.net/en/politics/news/trump-preparing-executive-order-to-lower-diesel-prices-in-the-us-politico",
-   "press": "LIGA.net(폴리티코 인용)",
-   "at": "2026-10-10 10:30",
-   "why": "러시아 디젤 공급 합의와 겹치는 연료 가격 정책 — 에너지 칸·S-Oil 정제마진 bet 위험",
-   "summary": "중간선거 앞두고 디젤 가격 인하 행정명령 준비 보도. 날짜 미확인."
   }
  ],
  "at": "2026-10-11 11:40"
