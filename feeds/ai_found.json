@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "미 ITC 337 조사 공고 — 원고 바이코, 피소 20개사(델타·폭스콘·콴타·MPS·인피니언 등)",
+   "url": "https://www.usitc.gov/sites/default/files/secretary/fed_reg_notices/337/dn_3936_notice09092026sgl.pdf",
+   "press": "USITC",
+   "at": "2026-10-11 09:50",
+   "why": "AI 서버 전력 공급망 법적 변수 — bet 2308.TW 내림·VICR 오름(대기) 근거",
+   "summary": "9/9 바이코가 수직 전력공급 시스템 특허로 제소(Docket 3936). 피소: 델타일렉트로닉스·인피니언·럭스셰어·모놀리식파워·플렉스·셀레스티카·콴타·폭스콘(혼하이·FII)·인그라시스. 10/9 조사 개시."
+  },
+  {
+   "title": "허리케인 아이자이아스 2등급 — 걸프 원유 63% 셧인, 디젤 재고 1982년 이후 계절 최저",
+   "url": "https://www.insurancebusinessmag.com/us/news/catastrophe/isaias-hits-category-2-as-diesel-concerns-mount-and-gulf-energy-insurance-risks-come-into-focus-592871.aspx",
+   "press": "Insurance Business",
+   "at": "2026-10-11 09:50",
+   "why": "에너지 칸·USO 오름 bet·대한항공 내림 bet의 공급 충격 규모 확인",
+   "summary": "걸프 원유 하루 약 128만 배럴(63%)·가스 57% 셧인. 경로 인근 정제능력 약 50만 b/d(셰브론 파스카굴라 35.6만 가동 중). 디젤 평균 $6.199(10/5, 전년比 +$2.49), 재고는 계절 최저."
+  },
+  {
    "title": "허리케인, 미 걸프 연안으로 — 생산 셧인 발생 (아르거스)",
    "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2888293-hurricane-heads-for-us-gulf-coast-causing-shut-ins",
    "press": "Argus Media",
@@ -401,5 +417,5 @@
    "summary": "중간선거 앞두고 디젤 가격 인하 행정명령 준비 보도. 날짜 미확인."
   }
  ],
- "at": "2026-10-10 13:40"
+ "at": "2026-10-11 09:50"
 }
