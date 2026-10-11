@@ -1,0 +1,32 @@
+name: lab
+# 🌙 킥 포트 밤 연구 실험실 — 밤 연구 세션이 src/lab/*.py 를 써서 여기로 돌림 (세션에서는 야후 접속이 막혀 있음)
+on:
+  workflow_dispatch:
+    inputs:
+      script:
+        description: "돌릴 실험 (예: src/lab/k1013_trend.py)"
+        required: true
+permissions:
+  contents: write
+concurrency:
+  group: push-${{ github.repository }}-lab
+  cancel-in-progress: false
+jobs:
+  lab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yfinance pandas numpy
+      - name: 실험
+        run: |
+          case "${{ inputs.script }}" in src/lab/*.py) ;; *) echo "src/lab/ 안의 .py 만"; exit 1;; esac
+          python "${{ inputs.script }}" 2>&1 | tee market/lab/_last_log.txt
+      - name: 저장
+        if: always()
+        run: |
+          git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
+          bash scripts/push.sh "lab $(TZ=Asia/Seoul date '+%F %H:%M') ${{ inputs.script }}" market/lab
