@@ -211,8 +211,8 @@ def main() -> int:
         x = [v for d, v in REG if d <= ds]
         return _quad(*x[-1]) if x else None
 
-    def rules_on(e, d0):
-        ds = d0.strftime("%Y-%m-%d")
+    def rules_on(e, d0, qds=None):
+        ds = qds or d0.strftime("%Y-%m-%d")      # 국면은 그 날 전까지 나온 것 (가격 판단은 d0 종가까지)
         spy = C["SPY"][C["SPY"].index <= d0]
         st = {}
         for a in e["alloc"]:
@@ -245,7 +245,7 @@ def main() -> int:
             contrib[a["name"]] = contrib.get(a["name"], 0) + c * nav[-1]
         nav.append(nav[-1] * (1 + r_tot))
         if d1.strftime("%Y-%m-%d") >= RULE_FROM:
-            rw = rules_on(e, d0)[0]
+            rw = rules_on(e, d0, (d1 - pd.Timedelta(days=1)).strftime("%Y-%m-%d"))[0]
             rr = 0.0
             for a in e["alloc"]:
                 us = us_of(a["name"], a["instruments"], a.get("picks"))
@@ -319,12 +319,14 @@ def main() -> int:
                              "since": round((ret(t, cal[0], cal[-1]) or 0) * 100, 2) if t in C else None} for t in us],
                      "kr": kr, "contrib": round(contrib.get(a["name"], 0) * 100, 2)})
     prev = log[-2]["alloc"] if len(log) > 1 else None
-    rw_now, why_now, cash_t, qd_now, st_now = rules_on(log[-1], cal[-1])     # 다음 거래일에 쓸 킥 포트 기본 비중
+    rw_now, why_now, cash_t, qd_now, st_now = rules_on(log[-1], cal[-1], now.strftime("%Y-%m-%d"))     # 다음 거래일에 쓸 킥 포트 기본 비중 (국면은 오늘 것)
     rule = {"from": RULE_FROM, "use": list(USE), "quad": qd_now, "cash": cash_t, "nav": [round((v - 1) * 100, 2) for v in nav_rule],
             "now": rw_now, "why": why_now,
             "mom": {n: round(v["mom"] * 100, 1) for n, v in st_now.items() if v},
-            "note": f"⚡ 킥 포트의 기본 칸은 {RULE_FROM}부터 규칙대로: ① 현금 = 국면 「{qd_now}」 → {cash_t}% ③ S&P 대비 3·6개월 강한 칸 ×1.25 · 약한 칸 ×0.75 "
-                    "④ 200일선 아래 칸 0 · 50일선 아래이면서 S&P보다 약한 칸 ½ (덜어낸 만큼 현금). 💼 기본 포트는 리포트 배분표 그대로(대조군)."}
+            "note": f"⚡ 킥 포트의 기본 칸은 {RULE_FROM}부터 검증을 통과한 규칙대로: " +
+                    " ".join(x for k, x in (("cash", f"① 현금 = 국면 「{qd_now}」 → {cash_t}%"), ("tilt", "③ S&P 대비 3·6개월 강한 칸 ×1.25 · 약한 칸 ×0.75"),
+                                             ("brake", "④ 200일선 아래 칸 0 · 50일선 아래이면서 S&P보다 약한 칸 ½")) if k in USE) +
+                    " · 검증에서 효과가 없던 규칙은 꺼 둠(market/rules_bt.json). 💼 기본 포트는 리포트 배분표 그대로(대조군)."}
     out = {
         "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "asof": cal[-1].strftime("%Y-%m-%d"), "fx": round(fx, 1) if fx else None,
         "dates": series_d, "nav": [round((v - 1) * 100, 2) for v in nav],
