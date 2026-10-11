@@ -24,6 +24,7 @@ jobs:
       - name: 실험
         run: |
           case "${{ inputs.script }}" in src/lab/*.py) ;; *) echo "src/lab/ 안의 .py 만"; exit 1;; esac
+          mkdir -p market/lab
           python "${{ inputs.script }}" 2>&1 | tee market/lab/_last_log.txt
       - name: 저장
         if: always()
