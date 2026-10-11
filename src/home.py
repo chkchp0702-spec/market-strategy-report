@@ -48,6 +48,7 @@ def norm(code: str) -> str:
 def main() -> int:
     now = dt.datetime.now(KST)
     P, K, F = rj(M / "port.json"), rj(M / "kick.json"), rj(M / "focus.json")
+    CN = rj(M / "conc.json")        # 🎯 집중 포트 (10/11)
     B, BS, L = rj(ROOT / "brain" / "state.json"), rj(M / "bets_score.json"), rj(ROOT / "ledger" / "ledger.json")
     KC = rj(M / "kick_cands.json")
     LR = json.loads(web(RAW_SS + "data/learned.json") or "{}")
@@ -69,6 +70,10 @@ def main() -> int:
         "change": (P.get("changes") or [{}])[0] if (P.get("changes") or [{}])[0].get("date", "") >= (now - dt.timedelta(days=3)).strftime("%Y-%m-%d") else None,
         "weak": [h["name"] for h in P.get("hold", []) if str(h.get("sig", "")).startswith("약함")],
         "strong": [h["name"] for h in P.get("hold", []) if str(h.get("sig", "")).startswith("강함")],
+        "conc": CN.get("ret"), "conc_line": (CN.get("nav") or [])[-30:], "conc_d1": CN.get("d1"),
+        "conc_up": (CN.get("regime") or {}).get("up"), "conc_gap": (CN.get("regime") or {}).get("gap"),
+        "conc_now": [{"name": x.get("name"), "pct": x.get("pct")} for x in (CN.get("now") or [])],
+        "beat_conc": sum(1 for m in bm if CN.get("ret") is not None and CN["ret"] >= m["ret"]),
     }
     # ── ⚡ 킥 오늘(마지막 거래일) 사고판 것 ──
     asof = K.get("asof")
