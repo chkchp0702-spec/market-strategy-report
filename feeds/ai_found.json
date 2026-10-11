@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "IDC: 3분기 세계 PC 출하 6,270만 대, 전년 대비 −20.1% — 메모리 가격 급등이 수요 위축",
+   "url": "https://aiweekly.co/alerts/idc-q3-pc-shipments-plunge-201-yoy-to-627m-units-as-ai-data-center-costs-choke",
+   "press": "AI Weekly(IDC 인용)",
+   "at": "2026-10-11 19:34",
+   "why": "하이닉스 bet·반도체 칸 — 메모리 가격 강세의 2차 피해(PC 제조사) · HPQ 내림 대기 bet",
+   "summary": "IDC 3Q26 PC 출하 6,270만 대(−20.1%), 2023년 1분기 이후 최대 감소. AI 데이터센터발 메모리 가격 상승이 소비자 PC 수요를 누름. HP·델·레노버 타격 큼."
+  },
+  {
+   "title": "D.A. 데이비슨, 마이크론 목표주가 3,000달러로 상향(2,100→3,000) — 'PER 6배'",
+   "url": "https://investinglive.com/stocks/micron-could-triple-to-3-000-says-d-a-davidson-as-stock-trades-at-six-times-earnings/",
+   "press": "investingLive",
+   "at": "2026-10-11 19:34",
+   "why": "SK하이닉스 열림 bet·삼성전자 — 미 메모리 재평가 vs 한국 메모리 지연(마이크론 +12% 때 삼전닉스 1% 미만)",
+   "summary": "DA Davidson 목표 3,000달러, 현재가 대비 약 +176%, 매수 유지(10/7). 근거: AI발 메모리 수요 장기 지속, 이익 대비 6배 수준 밸류에이션."
+  },
+  {
    "title": "이란 '호르무즈서 유조선 기뢰 접촉 폭발' 주장 — 미 중부사령부는 '드론이 타격'",
    "url": "https://investinglive.com/commodities/oil-catch-up-iran-says-tanker-hit-mine-in-hormuz-centcom-says-drone-struck-it-instead/",
    "press": "investingLive",
