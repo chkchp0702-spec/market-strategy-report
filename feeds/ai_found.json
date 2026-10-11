@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "후티, 리야드 공항 연쇄 공격 — 사우디 '3명 사망'(10/7~9), 10/11 추가 공격(블룸버그)",
+   "url": "https://www.aljazeera.com/news/2026/10/9/saudi-arabia-reopens-riyadh-airport-after-houthi-attack-kills-three",
+   "press": "Al Jazeera",
+   "at": "2026-10-12 01:40",
+   "why": "에너지 칸·유가 프리미엄 — 러-우 '에너지 휴전'과 반대로 걸프 산유국 본토 위험은 커지는 중(S-Oil 내림 대기 취소 근거)",
+   "summary": "10/7 사우디 공항 공격 3명 사망·36명 부상, 10/9 리야드 공항 재개장. 블룸버그 10/11 '리야드 주 공항 추가 공격' 보도."
+  },
+  {
+   "title": "월러 연준 이사, 금리 쪽 판단 바꿔 — 강한 소비에 2026년 인상 가능성 시사",
+   "url": "https://cryptobriefing.com/feds-waller-sees-strong-us-spending-hints-at-2026-rate-hike-possibility/",
+   "press": "Crypto Briefing",
+   "at": "2026-10-12 01:40",
+   "why": "^TNX 10년 금리 내림 bet(5.242→5.15, 손절 5.30)·고금리 칸 — 비둘기 쪽이던 월러의 매파 전환은 CPI(10/14) 앞 금리 하방 막음",
+   "summary": "월러 '미국 소비 강함', 인플레 기대 우려 속 인상 가능성 열어둠(원문 수치 미확인). 피드 gn_us_fed 제목 'Waller pivots on interest-rate bet'."
+  },
+  {
+   "title": "블룸버그 '뜨거웠던 AI 매매, 한국 증시는 매수자 찾기 힘들어' — 반면 국내 소부장 한 달 수익률 1위",
+   "url": "https://news.bloomberglaw.com/artificial-intelligence/the-ai-trade-may-be-reaching-a-juncture-time-to-pick-winners",
+   "press": "Bloomberg",
+   "at": "2026-10-12 01:40",
+   "why": "하이닉스 bet·삼성전자 대기 — 대형 메모리 소외, 수급은 장비·소재로 이동(10/12 첫 거래에서 확인)",
+   "summary": "블룸버그 10/11 제목 'Once-Hot AI Trade Leaves Korean Stocks Struggling for Buyers'(본문 미확인). 조선비즈 '삼전닉스 주춤했지만 소부장 선전에 한 달 반도체 수익률 1위'."
+  },
+  {
    "title": "트럼프 '러시아·우크라이나 에너지 휴전 합의' 발표 — 9월 15일에도 같은 주장, 며칠 만에 무산",
    "url": "https://www.newsweek.com/trumps-russia-ukraine-energy-truce-already-run-out-gas-12461493",
    "press": "Newsweek",
@@ -615,31 +639,7 @@
    "at": "2026-10-10 12:35",
    "why": "다음 주 판정 일정 — CPI 가 고금리 논지·TLT·GLD bet 을 가르고, 은행 실적이 크레딧 논지 확인",
    "summary": "대형 은행 실적으로 3분기 실적 시즌 시작, 같은 주 CPI 발표. (세부 숫자 미확인)"
-  },
-  {
-   "title": "뉴욕 연준: 관세 가격 인상은 최대 1년에 걸쳐 나타난다",
-   "url": "https://www.axios.com/2026/10/07/trump-tariffs-fed-inflation-prices",
-   "press": "Axios",
-   "at": "2026-10-10 11:40",
-   "why": "고금리 장기화 논지(현금·단기채 칸) — 관세 물가가 아직 다 반영 안 됨",
-   "summary": "뉴욕 연준 연구: 관세 가격 전가가 완전히 드러나기까지 최대 1년. 10/10 뉴욕 연준 '생활 품목 물가는 관세 탓'(gn_us_fed)과 같은 흐름 — 10/14~15 CPI 전 금리 하방 제한."
-  },
-  {
-   "title": "고점서 36% 빠진 삼성전기, AI 서버 MLCC 수주 누적 3.9조",
-   "url": "https://www.mk.co.kr/news/stock/12172221",
-   "press": "매일경제",
-   "at": "2026-10-10 11:40",
-   "why": "반도체 칸·애플 축소 논지 — 애플 부품주 중 AI 서버 MLCC 로 매출이 옮겨간 종목",
-   "summary": "글로벌 대형사와 AI 서버용 MLCC 공급 계약, 올해 누적 수주 약 3조9천억 원. 주가는 고점 대비 −36%."
-  },
-  {
-   "title": "번스타인 '도시바발 HDD 매도는 찻잔 속 태풍' — WD +7%·시게이트 +5%",
-   "url": "https://247wallst.com/investing/2026/10/05/western-digital-jumps-7-seagate-climbs-5-as-bernstein-calls-toshiba-selloff-a-storm-in-a-teacup-sandisk-inches-higher/",
-   "press": "247 Wall St",
-   "at": "2026-10-05 00:00",
-   "why": "AI 저장장치(HDD) 공급 경쟁 우려 매도를 IB가 '과도'로 판정 — 반도체·메모리 칸 수요 논지 보강",
-   "summary": "TDK 헤드 사업 인수 경쟁 보도로 HDD주 급락 후 번스타인 반박에 WD +7%·시게이트 +5% 반등(기사 제목 기준)."
   }
  ],
- "at": "2026-10-11 11:40"
+ "at": "2026-10-12 01:40"
 }
