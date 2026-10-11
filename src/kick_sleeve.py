@@ -520,7 +520,7 @@ def main() -> int:
                       "now": round(c, 4), "r": round((c / p["entry"] - 1) * 100, 2), "days": p["held"], "half": p["half"], "whale": p.get("whale"),
                       "stop": round(p["entry"] * (1 + STOP), 4), "take": round(p["entry"] * (1 + TAKE), 4), "w": round(p["sh"] * c / val[-1] * SLEEVE * 100, 2)})
     # ⚡ 하나의 킥 포트 — 돌파로 들어온 것 + 고래 바스켓을 한 목록으로, 종목마다 어디서 왔는지 작은 이모티콘
-    WSN = WS2 if (now.strftime("%Y-%m-%d") >= RF or last_d >= RF) else WS     # 지금 고래 칸 크기
+    WSN = WS2 if rbase else WS     # 지금(다음 거래일에) 들고 갈 고래 칸 크기 — 규칙이 켜져 있으면 10%
     wset = {b["t"] for b in wbask if b["on"]}
     hold = []
     for o in openp:
