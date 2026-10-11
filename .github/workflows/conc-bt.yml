@@ -20,7 +20,8 @@ jobs:
           python-version: "3.12"
       - run: pip install -q yfinance pandas numpy
       - run: python src/conc_bt.py
+      - run: python src/base_bt.py
       - name: 저장
         run: |
           git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
-          bash scripts/push.sh "conc-bt $(TZ=Asia/Seoul date '+%F %H:%M')" market/conc_bt.json
+          bash scripts/push.sh "conc-bt $(TZ=Asia/Seoul date '+%F %H:%M')" market/conc_bt.json market/base_bt.json
