@@ -96,6 +96,7 @@ NEWS = [
     ("thebell", "더벨(자본시장)", "구글뉴스 site:thebell.co.kr", GN.format(q="site:thebell.co.kr+when:1d", hl="ko", gl="KR", lang="ko")),
     ("gn_kr_global", "뉴스 · 해외 증시(한글)", "구글 뉴스 검색", GN.format(q=_up.quote("뉴욕증시+OR+나스닥+OR+엔비디아+OR+일본증시+OR+중국증시+OR+홍콩증시+when:1d", safe="+:"), hl="ko", gl="KR", lang="ko")),
 ]
+SLOW = {"fed", "ecb", "eia"}   # 🔧 10/11 공식 기관은 며칠에 한 번 발표 → 2일 창이면 주말에 0개(건강검진 「0개 피드」) — 7일 유지
 OLD_NEWS = {"gn_kr_mkt", "gn_kr_macro", "gn_kr_sector", "gn_kr_strat", "gn_us_mkt", "gn_us_fed", "hankyung", "mk", "cnbc", "yahoo", "cnbc_top", "investing_kr"}
 FIN = re.compile(r"주|증시|코스피|코스닥|지수|금리|환율|달러|채권|국채|연준|Fed|물가|경기|경제|수출|실적|매출|이익|투자|펀드|ETF|반도체|HBM|AI|전력|조선|방산|원전|배터리|IPO|공모|상장|외국인|기관|목표가|리포트|전략|시장|무역|관세|유가|원유|금값|비트|증권|은행|M&A|인수|합병")
 AI_FOUND = ROOT / "feeds" / "ai_found.json"     # 🧠 매시간 두뇌가 웹에서 찾아 넣는 글
@@ -297,7 +298,7 @@ def main() -> int:
             DEBUG.append(f"news {sid} 실패 {str(e)[:80]}")
         if not got and alt:                               # RSS 가 막히면 구글뉴스 site: 로 대신
             try:
-                got = rss(GN.format(q=f"site:{alt}+when:1d", hl="ko" if alt.endswith(".kr") else "en-US",
+                got = rss(GN.format(q=f"site:{alt}+when:{7 if sid in SLOW else 1}d", hl="ko" if alt.endswith(".kr") else "en-US",
                                     gl="KR" if alt.endswith(".kr") else "US", lang="ko" if alt.endswith(".kr") else "en"), 20)
                 ok = True; who = who + " → 구글뉴스로 대신"
             except Exception as e:
@@ -308,7 +309,7 @@ def main() -> int:
             if (sid.startswith("gn_kr") or sid in ("yna_eco", "chosunbiz", "newspim")) and not FIN.search(i["title"]):
                 continue                                   # 사건·사고 같은 잡음 거르기
             k = re.sub(r"\W+", "", i["title"])[:40]
-            if k in seen_t or (i["at"] and i["at"][:10] < ncut):
+            if k in seen_t or (i["at"] and i["at"][:10] < (cut if sid in SLOW else ncut)):
                 continue
             seen_t.add(k)
             i.update({"src": sid, "kind": "news", "name": name})
