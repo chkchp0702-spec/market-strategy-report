@@ -183,6 +183,106 @@ def simulate(C, univ, spy, bil, reg, k, mode, off, reb, mom, start, end, conv=Fa
     return pd.Series(nav, index=dates), round(turn_sum / yrs * 100)
 
 
+# =============================== 2차: 「벌 때 벌기」를 노출(주식 비중·배수)로 — 상승장이면 더 싣고, 아니면 줄임
+BORROW = 0.005   # 빌린 돈에 T-bill 위로 연 0.5% (레버리지 ETF·신용 비용 근사)
+
+
+def sim_exp(C, reg, on: dict, off: dict, start, end, sat=0.0, sat_k=3, sat_univ=None, reb="W"):
+    """on/off: {티커: 비중} (BIL 음수 = 빌림). sat>0 이면 상승장일 때 그만큼을 모멘텀 상위 sat_k 위성으로(on 비중은 1-sat 로 줄임)."""
+    univ = list(sat_univ or [])
+    cols = sorted(set(list(on) + list(off) + ["SPY", "BIL"] + univ))
+    ci = {c: i for i, c in enumerate(cols)}
+    P = C[cols]
+    R = P.pct_change().fillna(0.0).values
+    idx = C.index
+    sel = np.where((idx >= pd.Timestamp(start)) & (idx <= pd.Timestamp(end)))[0]
+    regv = reg.reindex(idx).fillna(False).values.astype(bool)
+    keys = idx.isocalendar().week.values if reb == "W" else idx.month.values
+    if univ:
+        M = momentum(C[univ], "mix").values; ma = C[univ].rolling(200).mean().values; px = C[univ].values
+    w = np.zeros(len(cols)); w[ci["SPY"]] = 1.0
+    nav = np.empty(len(sel)); val = 1.0; pend = None; last_key = None; last_up = None; turn = 0.0
+    for j, i in enumerate(sel):
+        if j > 0:
+            r = R[i]
+            val *= 1 + float(w @ r)
+            b = -w[ci["BIL"]] if w[ci["BIL"]] < 0 else 0.0
+            val *= 1 - b * BORROW / 252
+            gw = w * (1 + r); s_ = gw.sum()
+            if s_ > 0:
+                w = gw / s_
+        if pend is not None:
+            t = float(np.abs(pend - w).sum()); turn += t; val *= 1 - t * COST; w = pend; pend = None
+        nav[j] = val
+        up = bool(regv[i])
+        kk = keys[i]
+        if kk == last_key and up == last_up:
+            continue
+        last_key, last_up = kk, up
+        nw = np.zeros(len(cols))
+        if up:
+            base = 1.0 - (sat if univ else 0.0)
+            for c, x in on.items():
+                nw[ci[c]] += x * base
+            if univ and sat > 0:
+                m = M[i]; ok = (~np.isnan(m)) & (~np.isnan(ma[i])) & (px[i] > ma[i]); cand = np.where(ok)[0]
+                if len(cand):
+                    order = cand[np.argsort(-m[cand])][:sat_k]
+                    for o in order:
+                        nw[ci[univ[o]]] += sat / len(order)
+                else:
+                    nw[ci["SPY"]] += sat
+        else:
+            for c, x in off.items():
+                nw[ci[c]] += x
+        pend = nw
+    dates = idx[sel]
+    yrs = max(0.5, (dates[-1] - dates[0]).days / 365.25)
+    return pd.Series(nav, index=dates), round(turn / yrs * 100)
+
+
+EXP = [   # (키, 이름, on, off, sat, sat_k)
+    ("cur", "지금 포트 닮은꼴 — 늘 섹터 같은 비중 74% + 현금 26%", None, None, 0, 0),
+    ("e100", "상승장 S&P 100% · 아니면 S&P 50%+현금 50%", {"SPY": 1.0}, {"SPY": 0.5, "BIL": 0.5}, 0, 0),
+    ("e130", "상승장 S&P 1.3배 · 아니면 S&P 50%", {"SPY": 1.3, "BIL": -0.3}, {"SPY": 0.5, "BIL": 0.5}, 0, 0),
+    ("e150", "상승장 S&P 1.5배 · 아니면 S&P 50%", {"SPY": 1.5, "BIL": -0.5}, {"SPY": 0.5, "BIL": 0.5}, 0, 0),
+    ("e130o", "상승장 S&P 1.3배 · 아니면 S&P 100%(줄이지 않음)", {"SPY": 1.3, "BIL": -0.3}, {"SPY": 1.0}, 0, 0),
+    ("qqq", "상승장 나스닥100 100% · 아니면 S&P 50%", {"QQQ": 1.0}, {"SPY": 0.5, "BIL": 0.5}, 0, 0),
+    ("sat20", "상승장 S&P 80% + 강한 테마 3개 20% · 아니면 S&P 50%", {"SPY": 1.0}, {"SPY": 0.5, "BIL": 0.5}, 0.2, 3),
+    ("sat30", "상승장 S&P 70% + 강한 테마 3개 30% · 아니면 S&P 50%", {"SPY": 1.0}, {"SPY": 0.5, "BIL": 0.5}, 0.3, 3),
+    ("sat20l", "상승장 S&P 1.2배 + 강한 테마 3개 20% · 아니면 S&P 50%", {"SPY": 1.2, "BIL": -0.2}, {"SPY": 0.5, "BIL": 0.5}, 0.2, 3),
+]
+
+
+def exposure(C, R, spy, end, out):
+    theme_u = [t for t in SECT + THEME if t in C.columns and t not in ("QQQ", "GLD")]
+    rows = []
+    for rk in ("A", "B", "C"):
+        for key, lab, on, off, sat, sk in EXP:
+            if key == "cur" and rk != "A":
+                continue
+            per = {}
+            for nm, a, b in (("is", START, IS_END), ("oos", OOS_START, end), ("full", START, end)):
+                if key == "cur":
+                    reg = pd.Series(True, index=C.index)
+                    on_ = {t: 0.74 / len(SECT) for t in SECT}; on_["BIL"] = 0.26
+                    nav, t = sim_exp(C, reg, on_, on_, a, b, reb="M")
+                else:
+                    nav, t = sim_exp(C, R[rk], on, off, a, b, sat=sat, sat_k=sk, sat_univ=theme_u if sat else None)
+                st_ = stats(nav, spy)
+                per[nm] = {x: st_.get(x) for x in ("cagr", "ex", "mdd", "sharpe", "win12", "beat_years", "years")}
+                per[nm]["turn"] = t
+                if nm == "full":
+                    per["yr"] = st_.get("yr")
+                    per["line"] = [round(float(x), 4) for x in nav.iloc[::21].values]
+            rows.append({"k": key, "reg": rk if key != "cur" else "-", "lab": lab, **per})
+    out["exposure"] = {"rows": rows, "spy_line": [round(float(x), 4) for x in (spy[START:] / spy[START:].iloc[0]).iloc[::21].values],
+                       "note": "레버리지는 빌린 돈에 T-bill+연 0.5% · 상승장 판정 바뀔 때와 매주 비중 맞춤 · 다음 날 체결 · 회전율×0.1%",
+                       "warn": "나스닥100(QQQ)은 지금 아는 승자라 유리하게 나올 수 있음 — 뒤 기간(2017~) 숫자로만 판단"}
+    # 코스피에 같은 판정: 상승장 코스피 100%/1.3배 · 아니면 50%
+    print("exposure", json.dumps([{k: r[k] for k in ("k", "reg")} | {"oos": r["oos"], "full": {x: r["full"][x] for x in ("cagr", "ex", "mdd", "sharpe")}} for r in rows], ensure_ascii=False))
+
+
 def main() -> int:
     import yfinance as yf
     tick = sorted(set(SECT + THEME + ["SPY", "BIL", "^KS11", "^GSPC"]))
@@ -260,6 +360,7 @@ def main() -> int:
         okk = [t for t in M.index if C[t].iloc[-1] > ma[t]]
         res[uk]["now_top"] = [{"t": t, "name": NAMES.get(t, t), "mom": round(float(M[t]) * 100, 1)} for t in M[okk].sort_values(ascending=False).index[:5]]
     out["res"] = res
+    exposure(C, R, spy, end, out)
     out["spy"] = {"is": stats(spy[START:IS_END]), "oos": stats(spy[OOS_START:]), "full": stats(spy[START:])}
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(json.dumps({k: out[k] for k in ("regime", "now", "spy")}, ensure_ascii=False, indent=1)[:5000])
