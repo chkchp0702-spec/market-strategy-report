@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "선박들 호르무즈서 '잠수(식별장치 끔)'… 혁명수비대와 숨바꼭질",
+   "url": "https://gulfnews.com/amp/story/world%2Fmena%2Fships-go-dark-in-hormuz-as-irgc-spurs-high-stakes-hide-and-seek-at-sea-1.500538548",
+   "press": "Gulf News",
+   "at": "2026-10-12 06:35",
+   "why": "10/12 IRGC '식별장치 끈 선박=적대 목표' 발표의 배경 — 에너지 칸·LIG넥스원 대기 bet 유가 갭 조건과 직결",
+   "summary": "선박들이 나포·공격을 피하려 AIS를 끄고 통항 — IRGC 발표(CCTV, 10/12)로 이 우회로가 막히면 통항량 추가 감소 위험. 기사 작성일 미확인."
+  },
+  {
+   "title": "S&P 500 이익 호황에 채권시장이 보내는 경고",
+   "url": "https://finance.yahoo.com/markets/article/the-sp-500s-earnings-boom-is-facing-a-bond-market-warning-chart-of-the-day-100000591.html",
+   "press": "Yahoo Finance",
+   "at": "2026-10-12 06:35",
+   "why": "이익수익률 < 10년 금리(ERP 음수) — 고금리 논지·AI 소프트웨어 칸 밸류 부담과 이어짐",
+   "summary": "10년 5%대에서 S&P 이익수익률이 국채금리 아래로 — 실적 호황에도 밸류 상단이 막히는 구조. 구체 수치·작성일은 원문 확인 필요(미확인)."
+  },
+  {
    "title": "레이저텍 사장 '수주 나빠질 요소 없다' — 강세 근거가 보이기 시작",
    "url": "https://toyokeizai.net/articles/-/847558",
    "press": "도요케이자이",
@@ -623,22 +639,6 @@
    "at": "2026-10-10 16:35",
    "why": "금융 칸(11→8 채택) 추가 축소 여부·EUFN 내림 bet 근거",
    "summary": "유럽 은행주가 국채 매도와 스프레드 확대에 한 달 약 7% 하락. 블룸버그는 주간 −8%로 보도, 분데스방크 인사는 '부채위기 위험 크게 높아짐'."
-  },
-  {
-   "title": "오픈AI 매출 주장에 붙은 200억$ 물음표 — AI 성장 스토리 점검",
-   "url": "https://cryptobriefing.com/openai-annualized-revenue-20-billion-gap/",
-   "press": "Crypto Briefing",
-   "at": "2026-10-10 16:35",
-   "why": "AI 크레딧 논지(0.55)·광통신·반도체 칸 수요의 질",
-   "summary": "FT 보도: 오픈AI 9월말 연환산 매출 약 500억$로 시장에 돌던 700억$보다 200억$ 낮음. 중국 A주 AI 하드웨어주 급락으로 이어짐."
-  },
-  {
-   "title": "트럼프, 트럭용 '염색 디젤' 한시 허용 — 연료비 낮추기",
-   "url": "https://weartv.com/news/nation-world/trump-temporarily-allows-dyed-diesel-for-truckers-in-attempt-to-lower-fuel-costs-senate-russia-ukraine",
-   "press": "Sinclair/WEAR",
-   "at": "2026-10-10 16:35",
-   "why": "에너지 칸·정유 마진 — 미 정부의 디젤 가격 개입 강도",
-   "summary": "면세용 염색 디젤을 트럭에 한시 허용해 디젤 공급을 늘리려는 조치. 러시아 경유 공급 합의와 함께 정제마진 하방 압력."
   }
  ],
  "at": "2026-10-12 01:40"
