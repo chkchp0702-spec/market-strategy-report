@@ -180,8 +180,9 @@
    {% for a in alloc_rows %}<tr><td><b>{{ a.pct }}%</b></td><td>{{ a.name }}</td><td>{{ a.instruments }}</td><td>{{ a.seen }}</td><td class="{{ a.verdict_cls }}">{{ a.verdict }}</td><td>{{ a.rule }}</td></tr>{% endfor %}
   </table>
   <div class="note" style="margin-top:3px">{{ d.allocation_note }}</div>
+  {% if views_line %}<div class="note" style="margin-top:2px">🧭 섹터 의견(돈 밖 · 코어 대비 그림자 채점): {{ views_line }}</div>{% endif %}
   {% if kick_alloc %}<div style="margin-top:2px;background:#fff1f0;border-left:3px solid #e0524b;border-radius:4px;padding:2px 6px;font-size:7.3pt;line-height:1.25">
-   <b>⚡ 킥 포함 배분</b> — 현금 {{ kick_alloc.cash }}→{{ kick_alloc.cash_k }}% · ⚡ 킥 {{ kick_alloc.kw }}%(성과 확인된 신호만 · 🐋고래 ☕컵 📈갭 🤫매집){% if kick_alloc.open %} = {% for o in kick_alloc.open %}{{ o.name }} {{ o.w }}%({{ '%+.1f' % o.r if o.r is not none else '–' }}%){% if not loop.last %} · {% endif %}{% endfor %}{% endif %}
+   <b>⚡ 킥 포함 배분</b> — {% if kick_alloc.cash_k is not none and kick_alloc.cash_k >= 0 %}현금 {{ kick_alloc.cash }}→{{ kick_alloc.cash_k }}%{% else %}기본 칸에서 덜어냄{% endif %} · ⚡ 킥 {{ kick_alloc.kw }}%(성과 확인된 신호만 · 🐋고래 ☕컵 📈갭 🤫매집){% if kick_alloc.open %} = {% for o in kick_alloc.open %}{{ o.name }} {{ o.w }}%({{ '%+.1f' % o.r if o.r is not none else '–' }}%){% if not loop.last %} · {% endif %}{% endfor %}{% endif %}
    · 누적 💼 기본 {{ '%+.2f' % kick_alloc.stat.base }}% · ⚡ 킥 {{ '%+.2f' % kick_alloc.stat.kick }}% · S&P {{ '%+.2f' % kick_alloc.stat.spy }}%</div>{% endif %}
  </div>
  <div class="g2" style="margin-top:7px">

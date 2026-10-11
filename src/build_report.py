@@ -71,7 +71,11 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
     if d["date"] not in led.get("_applied", []):
         sc_rows += [{"date": d["date"], **r} for r in d.get("scorecard_today", [])]
     scorecard_total = L.totals_line(L.scorecard_totals(sc_rows))
-    alloc_rows = [{**a, **s} for a, s in zip(led["allocation"], d["allocation_seen"])]
+    seen = d.get("allocation_seen") or []
+    # 10/11: 배분표 칸이 바뀐 날 옛 data 를 다시 그리면 「어제 본 것」이 엉뚱한 칸에 붙음 → 칸 수가 다르면 비움
+    alloc_rows = [{**a, **s} for a, s in zip(led["allocation"], seen)] if len(seen) == len(led["allocation"]) else [dict(a) for a in led["allocation"]]
+    sv = led.get("sector_views") or {}
+    views_line = " · ".join(f'{v["name"]} {v["pct"]}' for v in sv.get("views") or [])
     # ⚡ 킥 포함 자산 배분 (10/10 사용자: "시황에 킥 자산배분 넣고") — market/kick.json
     kick_alloc = None
     try:
@@ -93,7 +97,7 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
     css = (TPL / "base.css").read_text(encoding="utf-8")
     env = Environment(loader=FileSystemLoader(str(TPL)), autoescape=select_autoescape(default=False))
     ctx = dict(d=d, led=led, css=css, charts=charts, panel_rows=panel_rows, panel_groups=panel_groups,
-               outside_rows=outside_rows, scorecard_total=scorecard_total, alloc_rows=alloc_rows, kick_alloc=kick_alloc,
+               outside_rows=outside_rows, scorecard_total=scorecard_total, alloc_rows=alloc_rows, kick_alloc=kick_alloc, views_line=views_line,
                panel_n=len(panel_rows), cal=cal, board=board, sec=sec, focus=focus)
 
     tag = f'{d["date"]}_{d["edition"]}'
