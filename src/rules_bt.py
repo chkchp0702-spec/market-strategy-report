@@ -19,8 +19,8 @@ OUT = ROOT / "market" / "rules_bt.json"
 ASSETS = ["XLB", "XLE", "XLF", "XLI", "XLK", "XLP", "XLU", "XLV", "XLY", "GLD"]
 NAMES = {"XLB": "소재", "XLE": "에너지", "XLF": "금융", "XLI": "산업재", "XLK": "기술", "XLP": "필수소비재", "XLU": "유틸리티", "XLV": "헬스케어", "XLY": "임의소비재", "GLD": "금"}
 START = "2008-07-01"
-STRATS = [("same", "같은 비중 (현금 10%)", ()), ("cash", "① 국면 현금", ("cash",)), ("tilt", "③ 칸 기울이기", ("tilt",)),
-          ("brake", "④ 추세 브레이크", ("brake",)), ("tb", "③+④", ("tilt", "brake")), ("all", "①+③+④ (킥 포트 규칙)", ("cash", "tilt", "brake"))]
+STRATS = [("same", "같은 비중 (현금 10%)", ()), ("cash", "① 국면 현금 · 킥 포트에 켬", ("cash",)), ("tilt", "③ 칸 기울이기", ("tilt",)),
+          ("brake", "④ 추세 브레이크", ("brake",)), ("tb", "③+④", ("tilt", "brake")), ("all", "①+③+④ 전부", ("cash", "tilt", "brake"))]
 
 
 def main() -> int:
