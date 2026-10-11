@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아, GDDR7 메모리 원가 상승으로 RTX 5090 가격 인상 준비",
+   "url": "https://mp1st.com/news/nvidia-preparing-rtx-5090-price-increase",
+   "press": "MP1st",
+   "at": "2026-10-11 20:34",
+   "why": "메모리 원가 급등이 GPU 완제품 가격으로 전가 — 반도체 칸·하이닉스 bet·삼성전자 대기 bet",
+   "summary": "GDDR7 메모리 원가 상승을 이유로 RTX 5090 가격 인상 준비 보도. 중국 언론은 AMD GDDR6 인상·RTX 5090 생산 중단 가능성까지 전함(HANAchina/70226). 세부 인상폭 미확인."
+  },
+  {
+   "title": "RTX 50 슈퍼 출시 지연 — 3GB GDDR7 모듈 가격이 2GB의 3배",
+   "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-50-super-gpus-are-reportedly-ready-but-stuck-in-limbo-due-to-excessive-gddr7-pricing-3gb-gddr7-module-costs-triple-the-price-of-2gb",
+   "press": "Tom's Hardware",
+   "at": "2026-10-11 20:34",
+   "why": "그래픽 D램 공급자 가격 결정력 — 삼성전자·하이닉스, 반대편 GPU 보드·PC OEM(HPQ 내림 대기)",
+   "summary": "3GB GDDR7 모듈 원가가 2GB 의 약 3배로 RTX 50 슈퍼 출시가 묶였다는 보도. 게시 시점 미확인."
+  },
+  {
    "title": "IDC: 3분기 세계 PC 출하 6,270만 대, 전년 대비 −20.1% — 메모리 가격 급등이 수요 위축",
    "url": "https://aiweekly.co/alerts/idc-q3-pc-shipments-plunge-201-yoy-to-627m-units-as-ai-data-center-costs-choke",
    "press": "AI Weekly(IDC 인용)",
