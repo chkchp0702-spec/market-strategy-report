@@ -45,11 +45,7 @@ jobs:
           while :; do
             git pull -q --rebase origin main || true
             python -m src.feeds || true
-            git add feeds/my_feed.json
-            if ! git diff --cached --quiet; then
-              git commit -q -m "feed: $(TZ=Asia/Seoul date '+%m/%d %H:%M') KST"
-              for i in 1 2 3; do git pull -q --rebase origin main && git push -q && break; sleep 5; done
-            fi
+            bash scripts/push.sh "feed: $(TZ=Asia/Seoul date '+%m/%d %H:%M') KST" feeds/my_feed.json || true
             [ $(date +%s) -ge $end ] && break
             sleep 900
           done
