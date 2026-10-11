@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "키움증권 \"삼성E&A 3분기 영업익 2,760억, 컨센 2,481억 상회\" — 목표가 73,000원",
+   "url": "https://stockhub.kr/news/news_31a0cb4e60aa",
+   "press": "stockhub(키움증권 리포트)",
+   "at": "2026-10-11 10:45",
+   "why": "선제 bet 028050 삼성E&A 근거 — 실적 발표 전 컨센 상향 여지, 반도체 공장 수주 얹힘(einfomax 10/11)",
+   "summary": "3Q 영업익 2,760억 전망(+56.3% YoY), 컨센 2,481억 대비 +11%. 중동 분쟁·원화 강세 부담은 선물환으로 상쇄. 대형 수주 시 연간 가이던스 상향 가능."
+  },
+  {
+   "title": "펭귄솔루션스, 사상 최대 분기·FY27 가이던스 상향에 +13% — 메모리 매출 3배",
+   "url": "https://www.tikr.com/blog/penguin-solutions-soars-13-on-record-quarter-and-raised-outlook-the-proof-is-in-the-results",
+   "press": "TIKR",
+   "at": "2026-10-11 10:45",
+   "why": "반도체 칸 'AI 이익은 진짜' 논지 보강 — AI 서버용 메모리 수요",
+   "summary": "4Q 매출 5.67억$(+68%, 예상 5.21억$), EPS 1.00$(예상 0.77$). 통합 메모리 매출 3.41억$(전년 1.32억$). FY27 EPS 가이던스 4.45$(이전 컨센 3.38$)."
+  },
+  {
+   "title": "유가 100달러 부근 유지시킬 새 위험: 걸프 허리케인 + 후티 공격 + 이란 긴장",
+   "url": "https://investinglive.com/commodities/add-a-new-risk-to-keep-oil-near-100-gulf-hurricane-joins-houthi-strikes-and-iran-tensions/",
+   "press": "investingLive",
+   "at": "2026-10-11 10:45",
+   "why": "에너지 칸·USO 오름 bet(대기) — 월요일 시가 갭 근거",
+   "summary": "걸프 허리케인이 후티의 사우디 공격·이란 긴장에 더해져 유가를 100달러 근처에 붙잡는 위험 요인으로 작용(브렌트 104.5, 10/9 종가)."
+  },
+  {
    "title": "미 ITC 337 조사 공고 — 원고 바이코, 피소 20개사(델타·폭스콘·콴타·MPS·인피니언 등)",
    "url": "https://www.usitc.gov/sites/default/files/secretary/fed_reg_notices/337/dn_3936_notice09092026sgl.pdf",
    "press": "USITC",
