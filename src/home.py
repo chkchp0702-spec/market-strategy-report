@@ -105,6 +105,23 @@ def main() -> int:
     S.append({"k": "report", "ic": "🌐", "t": "시황리포트 예고·킥", "n": len(sc), "win": cnt.get("맞음", 0), "loss": cnt.get("틀림", 0),
               "rate": round(cnt.get("맞음", 0) / graded * 100) if graded else None, "note": " · ".join(f"{k} {v}" for k, v in cnt.items()),
               "recent": [{"d": r.get("date"), "t": r.get("wrote"), "v": r.get("verdict")} for r in sc[-4:]][::-1]})
+    # 🎯 확률 채점 (10/11 규칙 ⑥): 예고마다 적은 확률이 맞았나 + 분야별 — 「잘 맞히는 분야 · 확률 65%↑」일 때만 비중을 바꾼다 (RULES 1-J)
+    try:
+        from src.scoring import calibration_stats
+        cs_ = calibration_stats(L)
+        CAT = [("금리", ("금리", "10년", "CPI", "연준", "국채")), ("수급", ("외국인", "기관", "순매수")), ("유가·원자재", ("브렌트", "유가", "WTI", "금 ")),
+               ("지수", ("코스피", "S&P", "나스닥", "지수")), ("업종·종목", ("ETF", "반도체", "SW", "CIBR", "418670", "업종"))]
+        bycat = {}
+        for c in [x for x in L.get("calibration", []) if x.get("outcome") is not None]:
+            k = next((nm for nm, kws in CAT if any(w in (c.get("text") or "") for w in kws)), "기타")
+            b_ = bycat.setdefault(k, {"n": 0, "hit": 0, "bs": 0.0})
+            b_["n"] += 1; b_["hit"] += c["outcome"]; b_["bs"] += (c["p"] - c["outcome"]) ** 2
+        cats = [{"k": k, "n": v["n"], "rate": round(v["hit"] / v["n"] * 100), "brier": round(v["bs"] / v["n"], 2),
+                 "ok": v["n"] >= 5 and v["bs"] / v["n"] <= 0.2} for k, v in sorted(bycat.items(), key=lambda kv: -kv[1]["n"])]
+        S[-1]["cal"] = {"n": cs_.get("n"), "brier": cs_.get("brier"), "tone": cs_.get("tone"), "buckets": cs_.get("buckets"), "cats": cats,
+                        "gate": "비중 변경은 확률 65%↑ + 그 분야 채점 5건↑·브라이어 0.20↓일 때만 (아직 아니면 「검토」로만 적음)"}
+    except Exception as e_:
+        print("확률 채점 실패", e_)
     bsum = BS.get("sum") or {}
     bw, bl = bsum.get("win", 0), bsum.get("loss", 0)
     S.append({"k": "bets", "ic": "🧠", "t": "두뇌 선제 아이디어", "n": bw + bl, "win": bw, "loss": bl, "rate": round(bw / (bw + bl) * 100) if bw + bl else None,
