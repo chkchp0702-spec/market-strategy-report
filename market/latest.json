@@ -1,5 +1,5 @@
 {
- "fetched_kst": "2026-10-11 09:13",
+ "fetched_kst": "2026-10-11 15:11",
  "items": {
   "sp500": {
    "value": 7811.54,
@@ -105,8 +105,8 @@
    "prev": 91.49,
    "change": 0.17,
    "change_pct": 0.19,
-   "asof_utc": "2026-10-10T18:22:19.000-0400",
-   "asof_kst": "6:22 PM EDT",
+   "asof_utc": "2026-10-10",
+   "asof_kst": "10/10/26 EDT",
    "market_state": "REG_MKT",
    "src": "CNBC @CL.1",
    "name": "WTI"
@@ -116,8 +116,8 @@
    "prev": 104.72,
    "change": 0.0,
    "change_pct": 0.0,
-   "asof_utc": "2026-10-10T06:00:00.000+0100",
-   "asof_kst": "6:00 AM BST",
+   "asof_utc": "2026-10-10",
+   "asof_kst": "10/10/26 BST",
    "market_state": "REG_MKT",
    "src": "CNBC @LCO.1",
    "name": "브렌트"
@@ -127,8 +127,8 @@
    "prev": 4157.0,
    "change": 63.3,
    "change_pct": 1.52,
-   "asof_utc": "2026-10-10T19:12:11.000-0400",
-   "asof_kst": "7:12 PM EDT",
+   "asof_utc": "2026-10-10",
+   "asof_kst": "10/10/26 EDT",
    "market_state": "REG_MKT",
    "src": "CNBC @GC.1",
    "name": "금"
