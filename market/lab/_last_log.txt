@@ -1,18 +1,14 @@
-Traceback (most recent call last):
-  File "/home/runner/work/market-strategy-report/market-strategy-report/src/lab/k1012_exits.py", line 185, in <module>
-    main()
-  File "/home/runner/work/market-strategy-report/market-strategy-report/src/lab/k1012_exits.py", line 166, in main
-    rank_cor = float(pd.Series([g["is"]["sharpe"] for g in grid]).corr(pd.Series([g["oos"]["sharpe"] for g in grid]), method="spearman"))
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/core/series.py", line 2774, in corr
-    result = nanops.nancorr(
-             ^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/core/nanops.py", line 87, in _f
-    return f(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/core/nanops.py", line 1655, in nancorr
-    f = get_corr_func(method)
-        ^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/core/nanops.py", line 1670, in get_corr_func
-    from scipy.stats import spearmanr
-ModuleNotFoundError: No module named 'scipy'
+SPY {'cagr': np.float64(15.3), 'vol': np.float64(18.1), 'mdd': np.float64(-33.7), 'sharpe': np.float64(0.88), 'ex': np.float64(0.0), 'win12': 0, 'beat_years': 0, 'years': 10}
+현재 -0.05 0.15 15 0.74 {'cagr': np.float64(16.41), 'vol': np.float64(14.9), 'mdd': np.float64(-21.7), 'sharpe': np.float64(1.1), 'ex': np.float64(1.1), 'win12': 52, 'beat_years': 5, 'years': 10, 'turn': 245} {'n': 229, 'avg': 2.56, 'win': 48, 'pf': np.float64(2.13)}
+고른 -0.15 0.15 20 0.78 {'cagr': np.float64(16.63), 'vol': np.float64(15.5), 'mdd': np.float64(-24.0), 'sharpe': np.float64(1.07), 'ex': np.float64(1.32), 'win12': 62, 'beat_years': 7, 'years': 10, 'turn': 155} {'n': 113, 'avg': 5.53, 'win': 65, 'pf': np.float64(2.62)}
+고원 {'n': 18, 'is_sharpe': 0.737, 'oos_sharpe': 1.066, 'oos_cagr': 16.38} 순위상관 -0.03
+stop [{'v': -0.03, 'is': 0.729, 'oos': 1.041}, {'v': -0.04, 'is': 0.731, 'oos': 1.041}, {'v': -0.05, 'is': 0.739, 'oos': 1.046}, {'v': -0.07, 'is': 0.734, 'oos': 1.055}, {'v': -0.1, 'is': 0.73, 'oos': 1.05}, {'v': -0.15, 'is': 0.733, 'oos': 1.039}]
+take [{'v': 0.1, 'is': 0.724, 'oos': 1.049}, {'v': 0.12, 'is': 0.725, 'oos': 1.059}, {'v': 0.15, 'is': 0.737, 'oos': 1.058}, {'v': 0.2, 'is': 0.728, 'oos': 1.058}, {'v': 0.25, 'is': 0.745, 'oos': 1.047}, {'v': 1.0, 'is': 0.736, 'oos': 1.001}]
+time_d [{'v': 10, 'is': 0.73, 'oos': 1.034}, {'v': 15, 'is': 0.722, 'oos': 1.051}, {'v': 20, 'is': 0.739, 'oos': 1.047}, {'v': 30, 'is': 0.737, 'oos': 1.047}, {'v': 999, 'is': 0.735, 'oos': 1.048}]
+stop ×0.8 -0.12 0.15 20 16.21 -24.2 1.05
+stop ×1.2 -0.18 0.15 20 16.96 -24.6 1.07
+take ×0.8 -0.15 0.12 20 16.36 -23.4 1.07
+take ×1.2 -0.15 0.18 20 15.68 -24.1 1.02
+time_d ×0.8 -0.15 0.15 16 16.42 -24.1 1.05
+time_d ×1.2 -0.15 0.15 24 16.74 -23.4 1.07
+➖ 애매 {'beat': True, 'mdd': True, 'sharpe': False} False
