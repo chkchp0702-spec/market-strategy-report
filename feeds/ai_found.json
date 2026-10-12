@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "클리블랜드 연은 해맥 '연준은 이미 금리를 올리고 있어야, 한 번으론 부족'",
+   "url": "https://investinglive.com/central-banks/icymi-cleveland-fed-s-hammack-says-fed-should-already-be-raising-rates-more-than-one-hike-needed/",
+   "press": "investingLive",
+   "at": "2026-10-13 06:35",
+   "why": "고금리 장기화 논지(0.72)·^TNX 내림 bet(#20261011-01)에 불리한 재료 — 14일 CPI 앞 매파 톤",
+   "summary": "2026 투표권자 해맥: 인플레 고착 위험, 금리를 소폭·자주 조정하는 편이 낫다(피드 gn_kr_macro 10/13 같은 발언). 숫자 세부는 원문 확인 필요."
+  },
+  {
+   "title": "로이터 분석: 채권시장이 더 험해질 네 가지 신호",
+   "url": "https://www.bnnbloomberg.ca/investing/2026/10/09/four-signs-it-is-about-to-get-uglier-in-the-bond-market-reuters-analysis/",
+   "press": "BNN Bloomberg(Reuters)",
+   "at": "2026-10-13 06:35",
+   "why": "10년 5.24%·30년 5.6% 국면 — 금리 칸·^TNX bet·성장주 밸류 부담과 직결",
+   "summary": "10/09 로이터 분석. 10/13 피드엔 '금리 급등이 모기지 헤지 매도를 불러 채권 압력 가중'(reuters) 후속. 세부 숫자 미확인."
+  },
+  {
    "title": "후티, 리야드 공항 등 사우디 3곳 타격 주장(미확인) — 브렌트 100달러대 프리미엄 유지",
    "url": "https://investinglive.com/commodities/houthis-claim-strikes-on-three-saudi-sites-including-riyadh-airport-unconfirmed/",
    "press": "investingLive",
@@ -623,22 +639,6 @@
    "at": "2026-10-11 22:34",
    "why": "현금·단기채 칸과 ^TNX bet — 10/12 미 국채 거래 없음, 금리 판정은 10/13부터",
    "summary": "10/12(월) 미 증시는 정상 개장, 채권시장은 휴장. 10/14 CPI 전 금리 신호는 화요일 하루뿐."
-  },
-  {
-   "title": "애플 쿡 CEO 중국 방문, 아이폰 판매 감소 속 공급사 면담",
-   "url": "https://www.asiafinancial.com/apple-ceo-cook-in-china-meets-suppliers-amid-falling-iphone-sales",
-   "press": "Asia Financial",
-   "at": "2026-10-11 22:34",
-   "why": "'애플 수요 둔화 → 한국 아이폰 부품주' 논지(0.5) 확인용 — 10/12 한국 시가 반응",
-   "summary": "쿡 CEO가 중국에서 공급사를 만남. 제목 기준 아이폰 판매 감소, 감소 폭 숫자는 미확인."
-  },
-  {
-   "title": "트럼프, 미국 중간선거 전 이란 추가 공격 배제 — '생산적 대화' 언급",
-   "url": "https://www.al-monitor.com/originals/2026/10/trump-rules-out-new-iran-attack-us-midterm-elections",
-   "press": "Al-Monitor",
-   "at": "2026-10-11 21:34",
-   "why": "유가·금·VIX 열린/대기 bet(USO·GLD·^VIX) 꼬리 위험 축소 쪽 재료 — 후티 대응 합류 검토와 엇갈림",
-   "summary": "10/9 트럼프가 중간선거 전 이란 신규 공격을 배제. WSJ 는 이후 유가 '안정' 보도. 10/11엔 사우디의 후티 대응 합류 '검토' 발언(CNBC)으로 방향 엇갈림."
   }
  ],
  "at": "2026-10-13 04:45"
