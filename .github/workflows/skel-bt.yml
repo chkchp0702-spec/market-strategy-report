@@ -1,0 +1,29 @@
+name: skel-bt
+# 🦴 뼈대 규칙 검증 (src/skel_bt.py — 변동성 맞춤 비중 · 금 조건부) — 수동 · 스크립트가 바뀌어 push 될 때 · 매주 일요일 아침
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [src/skel_bt.py, .github/workflows/skel-bt.yml]
+  schedule:
+    - cron: "50 22 * * 6"   # KST 일 07:50
+permissions:
+  contents: write
+concurrency:
+  group: push-${{ github.repository }}-${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  bt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yfinance pandas numpy
+      - run: python src/skel_bt.py
+      - name: 저장
+        run: |
+          git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
+          bash scripts/push.sh "skel-bt $(TZ=Asia/Seoul date '+%F %H:%M')" market/skel_bt.json
