@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "외국인 1.5조 매도에 코스피 3% 급락…23거래일 만에 장중 6400대",
+   "url": "https://www.etoday.co.kr/news/view/2634647",
+   "press": "이투데이",
+   "at": "2026-10-12 13:05",
+   "why": "한국 칸 '따로 놀기' 논지·하닉·삼성 bet 손절 근접 — 원인이 옵션 만기·ETF 리밸런싱(기계적 수급)이라는 점",
+   "summary": "코스피 6,421(−3.09%), 외국인 −1조5,170억. 삼성 −3.63%·하닉 −3.87%. 운송 +2.58%·음식료 +0.72% vs 기계 −6.06%·건설 −4.18%."
+  },
+  {
+   "title": "중국 CXMT 메모리 개발 진전에 삼성·SK하이닉스 하락",
+   "url": "https://www.investing.com/news/stock-market-news/samsung-sk-hynix-shares-drop-as-chinas-cxmt-flags-progress-in-memory-development-4943096",
+   "press": "Investing.com",
+   "at": "2026-10-12 10:04",
+   "why": "반도체 칸·하닉/삼성 bet 의 새 위험 — 중국 메모리 기술 추격",
+   "summary": "CXMT 4F²(수직 게이트) D램 설계 진전, 2026년 말 DDR5 서버 RDIMM 출시 계획(사양 미공개). 삼성 −3.6% 252,500·하닉 −3.4% 1,624,000·CXMT −3.1%."
+  },
+  {
    "title": "코스피 4일째 하락 6,420선, 외국인 현물·선물 동반 매도…삼성 외국인 지분 18년 9개월 최저",
    "url": "https://finance.biggo.com/news/c4e32d70-ef89-49e5-b7ce-c4145fd82560",
    "press": "BigGo Finance",
@@ -623,22 +639,6 @@
    "at": "2026-10-11 02:40",
    "why": "AI 하드웨어 칸·SK하이닉스 오름 bet·SMH 내림 bet(페어) 근거",
    "summary": "반도체 ETF 10월 5일 연속 상승 뒤 10/9 주까지 반락. FT: OpenAI 9월 말 연환산 매출 약 500억 달러, 시장에 알려진 약 700억 달러보다 낮음."
-  },
-  {
-   "title": "EU·중국, 10월 시한 앞두고 무역 재균형 협상 막바지",
-   "url": "https://news.bloombergtax.com/states-of-play/eu-and-china-agree-on-october-deadline-to-reset-trade-relations",
-   "press": "블룸버그 택스",
-   "at": "2026-10-11 02:40",
-   "why": "유럽 금융·자동차(EUFN 내림 대기 bet), 포르쉐 9개월 인도 −16%(wsj) 과 이어짐",
-   "summary": "EU가 대중 무역 불균형에 10월 '가시적 결과' 시한 설정, 수입 쿼터까지 요구(euronews 9/28). 결렬 시 보복관세 위험. 구체 조치 숫자 미확인."
-  },
-  {
-   "title": "연준 인사들, 10월 금리 인상에 기울지 않아",
-   "url": "https://www.nst.com.my/amp/business/economy/2026/10/1545927/fed-policymakers-lean-against-october-rate-hike",
-   "press": "뉴스트레이츠타임스(로이터 전재 추정)",
-   "at": "2026-10-11 01:30",
-   "why": "현금·단기채 칸·고금리 논지의 단기 반대 신호 — 10/12 미 10년 bet(^TNX 내림) 근거",
-   "summary": "10월 FOMC 추가 인상에 신중론 확산. 시장 인상 확률 후퇴. 정확한 확률 숫자는 미확인."
   }
  ],
  "at": "2026-10-12 13:35"
