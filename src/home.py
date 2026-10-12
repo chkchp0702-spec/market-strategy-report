@@ -17,8 +17,8 @@ KST = dt.timezone(dt.timedelta(hours=9))
 ROOT = Path(__file__).resolve().parent.parent
 M = ROOT / "market"
 RAW_SS = "https://raw.githubusercontent.com/chkchp0702-spec/stock-screener/main/"
-KN = {"cup": "컵 돌파", "gap": "돌파 갭", "accum": "매집", "whale": "고래", "focus": "집중", "lead": "선행"}
-TAG = {"cup_eye": "☕", "cup": "☕", "gap": "📈", "accum": "🤫", "whale": "🐋", "focus": "🎯", "lead": "🔗"}
+KN = {"cup": "컵 돌파", "gap": "돌파 갭", "accum": "매집", "whale": "고래", "focus": "집중", "lead": "선행", "nh52": "신고가", "pead": "실적 표류", "dip": "급락 반등", "trend": "추세", "earn": "실적 갭"}
+TAG = {"cup_eye": "☕", "cup": "☕", "gap": "📈", "accum": "🤫", "whale": "🐋", "focus": "🎯", "lead": "🔗", "nh52": "🏔", "pead": "📊", "dip": "🩹", "trend": "🧭", "earn": "📊"}
 
 
 def rj(p, d=None):
