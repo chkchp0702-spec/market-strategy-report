@@ -163,7 +163,7 @@ def main():
     for key, vals in (("stop", STOPS), ("take", TAKES), ("time_d", TIMES)):
         axis[key] = [{"v": v, "is": round(float(np.mean([g["is"]["sharpe"] for g in grid if g[key] == v])), 3),
                       "oos": round(float(np.mean([g["oos"]["sharpe"] for g in grid if g[key] == v])), 3)} for v in vals]
-    rank_cor = float(pd.Series([g["is"]["sharpe"] for g in grid]).corr(pd.Series([g["oos"]["sharpe"] for g in grid]), method="spearman"))
+    rank_cor = float(pd.Series([g["is"]["sharpe"] for g in grid]).rank().corr(pd.Series([g["oos"]["sharpe"] for g in grid]).rank()))
     out = {"at": dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).strftime("%Y-%m-%d %H:%M"), "from": START, "to": END,
            "size": SIZE, "spy": spy_row, "current": cur, "best": best, "check": chk, "shake_ok": shake_ok, "verdict": verdict,
            "plateau": plateau, "axis": axis, "is_oos_rank_cor": round(rank_cor, 2), "shake": shake,
