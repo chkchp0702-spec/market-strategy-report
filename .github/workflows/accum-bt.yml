@@ -1,0 +1,70 @@
+name: accum-bt
+# 🔬 조용한 매집 과거 검증 (src/accum_bt.py) — 수동 또는 스크립트가 바뀌어 push 될 때
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [src/accum_bt.py, .github/workflows/accum-bt.yml]
+permissions:
+  contents: write
+concurrency:
+  group: push-${{ github.repository }}-${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    strategy:
+      fail-fast: false
+      matrix:
+        mkt: [KR, US, JP, HK, CN]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yfinance pandas numpy lxml requests
+      - run: python src/accum_bt.py fetch ${{ matrix.mkt }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: accum-${{ matrix.mkt }}
+          path: out/
+          if-no-files-found: warn
+  merge:
+    needs: fetch
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q pandas numpy
+      - uses: actions/download-artifact@v4
+        with:
+          path: out/
+          pattern: accum-*
+          merge-multiple: true
+      - run: ls -la out/
+      - run: python src/accum_bt.py stats
+      - name: 원자료 묶기 (로컬 분석용, 너무 크면 생략)
+        run: |
+          mkdir -p market/lab
+          python - <<'EOF'
+          import glob, os, pandas as pd
+          fs = sorted(glob.glob("out/accum_rows_*.csv.gz"))
+          df = pd.concat([pd.read_csv(f, dtype={"tk": str}) for f in fs], ignore_index=True)
+          df.to_csv("market/lab/accum_rows.csv.gz", index=False, compression="gzip")
+          sz = os.path.getsize("market/lab/accum_rows.csv.gz")
+          print("rows", len(df), "bytes", sz)
+          if sz > 20e6:
+              os.remove("market/lab/accum_rows.csv.gz")
+          EOF
+      - name: 저장
+        run: |
+          git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
+          f="market/accum_bt.json"; [ -f market/lab/accum_rows.csv.gz ] && f="$f market/lab/accum_rows.csv.gz"
+          IFS=' ' read -ra FS <<< "$f"
+          bash scripts/push.sh "accum-bt $(TZ=Asia/Seoul date '+%F %H:%M')" "${FS[@]}"
