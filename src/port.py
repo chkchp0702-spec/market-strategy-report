@@ -219,6 +219,25 @@ def main() -> int:
         x = [v for d, v in REG if d <= ds]
         return _quad(*x[-1]) if x else None
 
+    # 🎯 판정 (10/12) — S&P500(SPY) 200일선 위 · 바뀐 상태가 3거래일 이어져야 인정 (conc_port.py 와 같은 규칙)
+    _spy = C["SPY"]
+    _raw = (_spy > _spy.rolling(200).mean()).fillna(False).values
+    _st, _cur, _run = [], bool(_raw[0]), 0
+    for v in _raw:
+        v = bool(v)
+        if v != _cur:
+            _run += 1
+            if _run >= 3:
+                _cur, _run = v, 0
+        else:
+            _run = 0
+        _st.append(_cur)
+    UPREG = dict(zip(_spy.index, _st))
+
+    def up_on(d0):
+        ks = [k for k in UPREG if k <= d0]
+        return UPREG[ks[-1]] if ks else None
+
     def rules_on(e, d0, qds=None):
         ds = qds or d0.strftime("%Y-%m-%d")      # 국면은 그 날 전까지 나온 것 (가격 판단은 d0 종가까지)
         spy = C["SPY"][C["SPY"].index <= d0]
@@ -232,7 +251,8 @@ def main() -> int:
                 if s_ is not None:
                     ss.append(s_[s_.index <= d0])
             st[a["name"]] = stats_of(ss, spy)
-        qd = quad_on(ds)
+        u = up_on(d0)
+        qd = ("🟢 상승장" if u else "🔴 상승장 아님") if u is not None else quad_on(ds)
         return rule_weights([(a["name"], a["pct"]) for a in e["alloc"]], st, qd, USE) + (qd, st)
 
     nav_rule = [1.0]
@@ -371,7 +391,7 @@ def main() -> int:
             "now": rw_now, "why": why_now,
             "mom": {n: round(v["mom"] * 100, 1) for n, v in st_now.items() if v},
             "note": f"⚡ 킥 포트의 기본 칸은 {RULE_FROM}부터 검증을 통과한 규칙대로: " +
-                    " ".join(x for k, x in (("cash", f"① 현금 = 국면 「{qd_now}」 → {cash_t}%"), ("tilt", "③ S&P 대비 3·6개월 강한 칸 ×1.25 · 약한 칸 ×0.75"),
+                    " ".join(x for k, x in (("cash", f"① 현금 = 🎯 판정 「{qd_now}」(S&P500 200일선) → {cash_t}%"), ("tilt", "③ S&P 대비 3·6개월 강한 칸 ×1.25 · 약한 칸 ×0.75"),
                                              ("brake", "④ 200일선 아래 칸 0 · 50일선 아래이면서 S&P보다 약한 칸 ½")) if k in USE) +
                     " · 검증에서 효과가 없던 규칙은 꺼 둠(market/rules_bt.json). 💼 기본 포트는 리포트 배분표 그대로(대조군)."}
     # 🧭 섹터 의견 그림자 — 리포트 섹터 판단(배분표 밖)이 같은 기간 코어(S&P½+나스닥½)보다 나았나
