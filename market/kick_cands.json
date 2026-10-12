@@ -2902,6 +2902,22 @@
 "src": "cup_eye",
 "score": 59.8,
 "lv": 164864.7
+},
+"HUM|2026-10-09|nh52": {
+"code": "HUM",
+"name": "HUM",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "nh52",
+"score": 71.2
+},
+"HUM|2026-10-09|pead": {
+"code": "HUM",
+"name": "HUM",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "pead",
+"score": 71.2
 }
 },
 "sent": [
