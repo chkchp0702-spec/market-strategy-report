@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "아이폰 조립사들 9월 매출 사상 최대",
+   "url": "https://www.mobileworldlive.com/apple/iphone-assemblers-report-record-september-sales/",
+   "press": "Mobile World Live",
+   "at": "2026-10-12 16:35",
+   "why": "애플 수요 둔화 논지·비에이치 내림 bet 반박 — 한국 아이폰 부품주",
+   "summary": "폭스콘·페가트론 등 9월 매출 사상 최대. 하나증권: 페가트론 9월 2,147.5억 대만달러(YoY +86.9%), GB300 서버+신형 스마트폰 동시 반영."
+  },
+  {
+   "title": "연준 의사록: 다수 위원 '연내 추가 인상 적절', 시기는 열어둬",
+   "url": "https://political.org/2026/10/07/fed-minutes-show-most-officials-see-another-rate-hike-as-likely-this-year-deepening-rift-with-trump/",
+   "press": "political.org (Barron's 같은 내용)",
+   "at": "2026-10-12 16:35",
+   "why": "고금리 장기화 논지·현금·단기채 칸·^TNX 내림 bet 위험 — 10/14 CPI 전",
+   "summary": "9월 FOMC 의사록, 대부분 위원이 올해 한 번 더 인상 가능성. 시기는 데이터 의존."
+  },
+  {
    "title": "코스피, 외국인 매도에 6400선 위협…코스닥도 4% 하락",
    "url": "https://www.newspim.com/news/view/20261012000985",
    "press": "뉴스핌",
@@ -623,22 +639,6 @@
    "at": "2026-10-11 04:00",
    "why": "🧠 'AI 크레딧이 다음 약한 고리' 논지(0.55) 핵심 근거 — 반도체·AI 하드웨어 칸 밸류 부담",
    "summary": "금리가 오르면 보통 발행이 줄지만 올해 테크 기업은 반대로 늘림. SpaceX·브로드컴 대형 조달 논의가 공급 부담 우려를 키움."
-  },
-  {
-   "title": "엔비디아, '오픈' 모델 스타트업 Reflection AI 인수 협상",
-   "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a?syn-25a6b1a6=1",
-   "press": "Financial Times",
-   "at": "2026-10-11 03:42",
-   "why": "엔비디아가 모델 쪽까지 수직 확장 — AI 매출 의심 국면에서 수요 자체 창출 시도, NVDA·반도체 칸 해석",
-   "summary": "FT 보도, 인수 협상 단계(가격 미확인). Reflection AI 는 엔비디아가 투자한 오픈 웨이트 모델 회사."
-  },
-  {
-   "title": "중국 9월 1~27일 승용차 소매 −29%, 시장 약세 지속(CPCA)",
-   "url": "https://chinaevhome.com/2026/09/30/china-passenger-car-retail-falls-29-in-sept-1-27-as-market-weakness-persists/",
-   "press": "ChinaEVHome",
-   "at": "2026-10-11 03:35",
-   "why": "BYD 내림 bet(1211.HK)·중국 내수 — 9월 전체 −24%(sa_news) 확정치와 이어짐",
-   "summary": "CPCA 9/1~27 승용차 소매 전년 대비 −29%. 9/1~20 −22%(gasgoo)에서 월말로 갈수록 더 약해짐. 9월 전체 −24%는 sa_news 10/11 보도."
   }
  ],
  "at": "2026-10-12 13:35"
