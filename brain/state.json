@@ -1,12 +1,12 @@
 {
- "last_review": "2026-10-12 23:35",
- "summary": "미 증시 은행 실적·CPI 앞 혼조(다우 +0.5%, 나스닥 −0.4%), 브렌트 $106대 유지. MS가 'HBM은 부족, 5년치 확보'라 밝히고 마이크론은 자사주 한도를 $35bn로 올려 — 중국 D램 추격 우려와 반대 재료가 쌓임. 중립(약세 쪽).",
+ "last_review": "2026-10-13 00:35",
+ "summary": "미 증시는 국채금리 24년 고점·CPI(14일)·은행 실적(13일) 앞 혼조, 마이크론·샌디스크는 중국 CXMT 추격 우려로 약세. 코스피는 10/12 −2%로 6,500 아래, 원·달러 1,332원 2년 저점. 중립(약세 쪽).",
  "regime": "중립",
  "theses": [
   {
    "t": "고금리 장기화 — 미 10년 5.0~5.3% 밴드가 이어지고 현금·단기채가 계속 이긴다",
-   "conf": 0.7,
-   "why": "월러 '추가 인상 필요, 2027 초 인상 경로'(HANAchina/70076) · FOMC 의사록 다수 추가 인상 지지(tradingeconomics) · ISM 가격 77.9/74.0(james_lee/224434161285) · 10년 5.227(latest.json) · 무살렘 '추가 인상 필요'(gn_kr_macro 10/10) · 핌코 '10년 6%' 경고(머니투데이 10/10) · 뉴욕 연준 '관세 가격 전가 최대 1년'(axios 10/7) · 신현송 한은 총재 국감 '추가 인상, 물가 추이가 가장 중요'(gn 10/12) · ISM 서비스 지불가격 74(james_lee 10/12)",
+   "conf": 0.72,
+   "why": "월러 '추가 인상 필요, 2027 초 인상 경로'(HANAchina/70076) · FOMC 의사록 다수 추가 인상 지지(tradingeconomics) · ISM 가격 77.9/74.0(james_lee/224434161285) · 10년 5.227(latest.json) · 무살렘 '추가 인상 필요'(gn_kr_macro 10/10) · 핌코 '10년 6%' 경고(머니투데이 10/10) · 뉴욕 연준 '관세 가격 전가 최대 1년'(axios 10/7) · 신현송 한은 총재 국감 '추가 인상, 물가 추이가 가장 중요'(gn 10/12) · ISM 서비스 지불가격 74(james_lee 10/12) · 10/12 미 국채금리 24년 고점 시험·모기지 금리 7주 연속 상승(bbg_mkt)",
    "breaks": "10년 5.00% 아래 종가 또는 근원물가 둔화 확인",
    "since": "2026-10-09",
    "check": "10/12 21:35: 유지 0.7 — 모건스탠리 전략가 '채권시장이 이미 120bp 인상 효과'(gn_us_ib)는 반대 변수(장기금리 고점론), OPEC 26년 수요 증가 40만bpd로 하향(reuters)은 유가 하방. 판정 10/14 CPI. 10/12 18:35: 유지 0.7 — 바클레이스 '27년 S&P EPS 성장의 약 70%가 반도체·하드웨어, 반도체 EPS 15% 하향에도 지수 두 자릿수 이익 성장'(HANAchina/70284) · 키움 '30년물 2002년 이후 최고, 반도체 추세 전환은 12월 인상 전망 약화가 전제'(kwusa/61144). 판정 10/14 CPI. 10/12 17:35: 유지 0.7(미국) — 국내는 반대 신호: 신현송 '22일 인상 여부 원점서 재검토'(gn_kr_macro 10/12 17:19)·외국인 3년 국채선물 역대 2번째 순매수·국고 10년 −8.9bp(gn_kr_macro 16:50·17:10). 미 10년 판정은 10/13 재개·10/14 CPI. 10/12 13:35: 유지 0.7 — 한은 '추가 인상 검토'·트레이더 6개월 50bp 인상 확률 70%(HANAchina/70269) = 국내도 인상 경로, 반면 블룸버그 '연준 인상 베팅 완화로 구리↑'(bbg_mkt 10/12)는 반대 변수. 10/14 CPI 판정. 10/12 12:35: 유지 0.7 — 국내 국고채 3년 장중 3.943% 하락(yna_eco)·MUFG '미 장기금리 고점 뒤 되돌림 가능'(gn_kr_macro)은 반대 변수, 한은 '물가 상당기간 목표 상회'는 논지 쪽. 10/14 CPI 판정. 10/12 10:45: 유지 0.7 — 한은 신현송 '물가 상당 기간 목표 상회, 추가 인상 시기·속도 결정'(gn_kr_bok 10/12 국감) · 핌코 '10년 6% 가능'(kimu_nim/46651, 조선비즈) — 국내도 인상 경로. 10/12 07:45: 유지 0.7 — 연합 월가프리뷰 '국채금리 5.2% 부담'·'9월 CPI 물가 가속 예상'(gn_us_fed) · 베선트 '재무부 바이백 2024년부터 해왔다'(einfomax 4438582) = 장기물 상단 억제 의지는 반대 변수. 10/12 아침판 채점: 아직 — 새 금리 종가 없음(주말·오늘 채권 휴장). 월러 인상 가능성 열어둠·CPI 휘발유 압력은 논지 쪽. 판정 10/13·10/14 CPI. ※ 💼 뼈대는 C안 🟢(현금 0) — 이 논지는 🧭 의견·킥 재료로만 씀. 10/12 06:35: 유지 0.7 — 'S&P 이익수익률 10년 금리 하회'(gn_us_mkt 10/12)·'美 국채시장 14일 CPI 주목, 9월 물가 상승폭 확대 전망'(gn_kr_macro) · 국내 국채 '4% 턱밑'(gn_kr_macro). 10/12 05:40: 유지 0.7 — 이란 안보수장 '미 제안 일부만 수용, 불충분'(einfomax 10/12)·후티 사우디 공격 '확전 위험'(gn_bbg) = 유가 하방 막힘. 피드 'Dow 3월 이후 최악'(gn_us_mkt, stocktwits)은 10/9 다우 +0.83%(latest.json)와 맞지 않아 과거 기사 재유통으로 판단. 10/12 02:35: 유지 0.7 — '美 9월 CPI +0.6% 전망, 휘발유가 물가 자극'(gn_kr_macro 10/12) · FT '리야드 공항 미사일 뒤 석유 대표들 에너지 회의 철수' = 유가 하방 막힘. 10/14 CPI 판정. 10/11 23:35: 유지 0.7 — 피드 'Williams 발언 뒤 10월 인상 확률 붕괴'는 9/30 기사 재유통(FedWatch 74.6→49.4%, https://www.hellenicshippingnews.com/fed-rate-hike-bets-for-oct-fall-sharply-on-soft-data-dovish-comments/) — 새 정보 아님. JPM 전략가 '주식은 5% 금리 무시, AI가 규칙 바꿔'(gn_us_mkt) vs 'ERP 소멸'(gn_us_mkt). 10/11 22:34: 유지 0.7 — 10/12 미 채권 휴장(https://investinglive.com/stock-market-update/us-stocks-open-but-bond-market-shut-for-columbus-day-what-traders-need-to-know/) → 첫 금리 판정은 10/13, ^TNX bet 채점도 10/13부터 · WSJ '주택 매도자 가격 인하 시작, 건설사엔 악재'(wsj 피드 10/11) = 고금리의 실물 전가. 10/11 20:34: 유지 0.7 — 새 숫자 없음, 10/14 CPI 대기. 10/11 13:35: 유지 0.7 — 9월 CPI 헤드라인 3.7% 예상(Continuum, HANAchina/70203)·트럼프 리사 쿡 해임 재추진(gn_kr_macro) = 연준 독립성 우려는 기간 프리미엄↑ 쪽. 10/11 11:40: 유지 0.7 — 증권사 발행어음 연 4~5% 특판(gn_kr_strat)·변동금리 가계대출 57.3%(gn_kr_macro) = 국내 고금리 체감 확산. 10/11 10:45: 유지 0.7 — 국내 예금금리 4% 육박·은행 수신 경쟁(gn_kr_mkt) · 증권사 3Q 눈높이 하향 '금리 상방 압력'(gn_kr_macro). 10/11 아침 주간판 채점: 아직 — 주간 10년 5.28→5.24(−"
@@ -37,8 +37,8 @@
   },
   {
    "t": "애플 수요 둔화 — 한국 아이폰 부품주는 10/12 개장 때 뒤늦게 반영된다",
-   "conf": 0.4,
-   "why": "닛케이 '애플 iPhone 18 Pro 주문 축소'(HANAchina/70131, https://money.usnews.com/investing/news/articles/2026-10-09/apple-cuts-iphone-18-pro-orders-due-to-soft-demand-nikkei-asia-reports) · AAPL 프리마켓 하락(https://www.tradingview.com/news/stocktwits:a56351503094b:0-is-iphone-18-pro-demand-slowing-apple-reportedly-cuts-october-component-orders-stock-slips-premarket/) · IDC 3Q PC 출하 −20.1%(HANAchina/70123) · 축소 폭 15~20%, AAPL 프리마켓 −1.5%(https://stocktwits.com/news-articles/markets/equity/why-are-nasdaq-futures-surging-premarket-spcx-asts-aapl-tmus-vz-nvda-mu-lite-stocks-in-focus/cZD6jb4RBVM) · 축소 원인은 메모리 가격 급등→아이폰 가격 인상→수요 타격, 주문 15~20%↓(kwusa/61132) · 반박: 애플 COO 폭스콘 방문 '아이폰 듀오 생산 확대 중'(HANAchina/70272 10/12) · 16:35 반박: 페가트론 9월 매출 YoY +86.9%(kimu_nim/46673)·아이폰 조립사 9월 최대(mobileworldlive) → 0.45→0.35",
+   "conf": 0.35,
+   "why": "닛케이 '애플 iPhone 18 Pro 주문 축소'(HANAchina/70131, https://money.usnews.com/investing/news/articles/2026-10-09/apple-cuts-iphone-18-pro-orders-due-to-soft-demand-nikkei-asia-reports) · AAPL 프리마켓 하락(https://www.tradingview.com/news/stocktwits:a56351503094b:0-is-iphone-18-pro-demand-slowing-apple-reportedly-cuts-october-component-orders-stock-slips-premarket/) · IDC 3Q PC 출하 −20.1%(HANAchina/70123) · 축소 폭 15~20%, AAPL 프리마켓 −1.5%(https://stocktwits.com/news-articles/markets/equity/why-are-nasdaq-futures-surging-premarket-spcx-asts-aapl-tmus-vz-nvda-mu-lite-stocks-in-focus/cZD6jb4RBVM) · 축소 원인은 메모리 가격 급등→아이폰 가격 인상→수요 타격, 주문 15~20%↓(kwusa/61132) · 반박: 애플 COO 폭스콘 방문 '아이폰 듀오 생산 확대 중'(HANAchina/70272 10/12) · 16:35 반박: 페가트론 9월 매출 YoY +86.9%(kimu_nim/46673)·아이폰 조립사 9월 최대(mobileworldlive) → 0.45→0.35 · 반박: 아이폰 Duo 주문 +30% 보도(sa_news 10/12, 원문 미확인)",
    "breaks": "애플 부인·공급망 반박 보도 또는 10/12 LG이노텍 시가 보합 이상",
    "since": "2026-10-09",
    "check": "10/12 23:35: 0.35→0.4 — 3Q 글로벌 스마트폰 출하 −20%(yahoo 피드) · LG이노텍 10/12 −16%(kimu_nim/46671) = '뒤늦은 반영'은 이미 시작. 10/12 11:45: 방향 맞음 — LG이노텍 10/12 장중 508,000 −11.19%(https://www.topstarnews.net/news/articleView.html?idxno=16244381)·'LG이노텍 10% 급락에 손절'(mk 10/12). 급락 원인이 애플 수요 때문인지는 미확인(메모리 약세·외국인 매도 동반) → 0.5 유지, 반쪽 채점(맞음 1). 다음: 비에이치 등 2차 부품주가 덜 빠졌으면 10/13 따라잡기 확인. 10/12 09:40: 판정 대기 — LG이노텍 시가 데이터 미확보(bets_score 미추적). 10/12 아침판 채점: 흔들림(아직) — 「아이폰 듀오 주문 30% 확대·18 프로 총량 유지」(udn via 하나 10/11) = 반박 보도 일부. 오늘 LG이노텍 시가로 판정. 10/11 22:34: 유지 0.5 — 쿡 CEO 중국 방문·공급사 면담 '아이폰 판매 감소 속'(asiafinancial, scmp 피드 '신형 아이폰 수요 엇갈린 신호') — 판매 숫자 미확인. 10/12 한국 시가에서 부품주 반응 확인. 10/11 아침 주간판 채점: 아직 — 공급망 반박(전체 주문 안정, HANAchina/70180)·아이폰 듀오 사전예약 201만(여의도스토리 10/10)이 반대 증거. 10/12 LG이노텍 시가 판정. 10/10 22:40: 강화 — 로이터 '애플, 수요 부진에 아이폰18 Pro 주문 축소'(닛케이 아시아 인용, reuters 10/10) · sammyfans 9/18 '아이폰 Duo가 Pro 수요 잠식'. 한국 휴장(10/9 한글날)으로 10/12 첫 반영. 10/10 채점: 미국은 맞음(AAPL 개장 전 −2.3%·SWKS −6.4%), 한국 10/12 LG이노텍 시가 판정 — 아직 · 10/11 14:35: 약화 0.65→0.5 — 공급망 '아이폰 듀오 주문 +30%, 18 Pro −10~15%·Pro Max +10~15%로 총 주문 유지·믹스 개선'(HANAchina/70206, udn money/9806938). 축소는 Pro 단일 모델 얘기일 가능성 — 10/12 LG이노텍 시가로 판정"
@@ -1264,7 +1264,7 @@
    "target": "entry +5%",
    "stop": "entry −3%",
    "horizon": "1주",
-   "why": "MarketWatch '소형주 수년 만의 최장 연패, CPI를 노릴 가장 좋은 수단'(mw_top 10/12) · 블룸버그 '9월 CPI 휘발유로 헤드라인↑, 근원 둔화'(gn_us_fed 10/12) · 모건스탠리 전략가 '채권시장이 이미 연준 인상 120bp를 해냄'(gn_us_ib 10/12) — 진입은 10/12 미 종가, 0.5배",
+   "why": "MarketWatch '소형주 수년 만의 최장 연패, CPI를 노릴 가장 좋은 수단'(mw_top 10/12) · 블룸버그 '9월 CPI 휘발유로 헤드라인↑, 근원 둔화'(gn_us_fed 10/12) · 모건스탠리 전략가 '채권시장이 이미 연준 인상 120bp를 해냄'(gn_us_ib 10/12) — 진입은 10/12 미 종가, 0.5배 · 금리 24년 고점 시험(substack 10/12) — 10y 5.3%↑ 마감이면 진입 보류",
    "edge": "시장은 CPI 헤드라인(휘발유)을 두려워하지만 금리 민감·과매도 소형주는 근원 둔화만 확인돼도 가장 크게 되돌림 — ^TNX 내림 bet 과 같은 방향의 주식 표현",
    "src": "뉴스",
    "status": "대기",
@@ -1282,7 +1282,7 @@
    "target": "entry +7%",
    "stop": "entry −4%",
    "horizon": "1주",
-   "why": "마이크로소프트 '자체 Maia 칩을 추론에 주로 쓰겠다'(cnbc 피드 10/12) · Maia 300 수십만 개 생산 목표(https://www.techzine.eu/news/infrastructure/143518/microsoft-aims-to-produce-hundreds-of-thousands-of-maia-300-ai-chips/) · Maia 200 HBM3E는 SK하이닉스 단독 공급 보도(https://trendforce.com/news/2026/01/27/news-microsoft-unveils-maia-200-ai-chip-on-tsmc-3nm-sk-hynix-reportedly-sole-hbm3e-supplier) · 10/12 하이닉스 −4.8%(CXMT 진전·외국인 −2.0조, latest.json) · 10/12 MS AI칩 책임자 'HBM은 부족, 5년치 공급 확보'(https://en.sedaily.com/international/2026/10/12/microsoft-ai-chip-chief-says-hbm-is-scarce-secures-supply)",
+   "why": "마이크로소프트 '자체 Maia 칩을 추론에 주로 쓰겠다'(cnbc 피드 10/12) · Maia 300 수십만 개 생산 목표(https://www.techzine.eu/news/infrastructure/143518/microsoft-aims-to-produce-hundreds-of-thousands-of-maia-300-ai-chips/) · Maia 200 HBM3E는 SK하이닉스 단독 공급 보도(https://trendforce.com/news/2026/01/27/news-microsoft-unveils-maia-200-ai-chip-on-tsmc-3nm-sk-hynix-reportedly-sole-hbm3e-supplier) · 10/12 하이닉스 −4.8%(CXMT 진전·외국인 −2.0조, latest.json) · 10/12 MS AI칩 책임자 'HBM은 부족, 5년치 공급 확보'(https://en.sedaily.com/international/2026/10/12/microsoft-ai-chip-chief-says-hbm-is-scarce-secures-supply) · 10/12 밤 MU·샌디스크 CXMT 우려로 하락(barrons·fool) — 시가 갭 −2%↓면 보류 기준 유지",
    "edge": "시장은 중국 CXMT 추격으로 팔았지만 같은 날 나온 MS 자체칩 확대는 HBM 고객이 엔비디아 밖으로 넓어진다는 뜻 — 3Q 실적 발표 전 급락분 되돌림",
    "src": "뉴스",
    "status": "대기",
@@ -1300,7 +1300,7 @@
    "target": "entry +7%",
    "stop": "entry −4%",
    "horizon": "1주",
-   "why": "10/12 CXMT 차세대 D램 진전에 약세(barrons 피드) · 같은 날 이사회 자사주 한도 $35.16bn 상향(https://www.investing.com/news/stock-market-news/micron-board-raises-buyback-ceiling-to-3516bn-4944713) · MS AI칩 책임자 'HBM 부족, 5년치 공급 확보'(https://en.sedaily.com/international/2026/10/12/microsoft-ai-chip-chief-says-hbm-is-scarce-secures-supply)",
+   "why": "10/12 CXMT 차세대 D램 진전에 약세(barrons 피드) · 같은 날 이사회 자사주 한도 $35.16bn 상향(https://www.investing.com/news/stock-market-news/micron-board-raises-buyback-ceiling-to-3516bn-4944713) · MS AI칩 책임자 'HBM 부족, 5년치 공급 확보'(https://en.sedaily.com/international/2026/10/12/microsoft-ai-chip-chief-says-hbm-is-scarce-secures-supply) · 10/12 밤 MU·샌디스크 CXMT 우려로 하락(barrons·fool) — 시가 갭 −2%↓면 보류 기준 유지",
    "edge": "시장은 중국 범용 D램 추격으로 팔았지만 큰 고객이 HBM을 5년 단위로 잠그는 중 — 부족 품목 쪽 이익은 안 흔들림. 하이닉스 #20261012-22 와 짝(미·한 같은 재료) — 21:35 '중국 사유 하락은 길게 간다' 가설의 반대 시험",
    "src": "뉴스",
    "status": "대기",
