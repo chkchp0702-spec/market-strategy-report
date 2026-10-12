@@ -10,6 +10,7 @@
 from __future__ import annotations
 import datetime as dt
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -57,6 +58,19 @@ def main() -> int:
     ks = C["^KS11"].dropna()
     C = C.drop(columns=["^KS11"]).dropna(subset=["^GSPC", "SPY", "QQQ"]).ffill()
     g = C["^GSPC"]
+    # 🦴 변동성 맞춤(공격형) — 10/12 사용자 결정 · src/rules7.py VOL_ROLES["conc"] · 2026-10-13부터(소급 없음)
+    sys.path.insert(0, str(ROOT))
+    from src.rules7 import VOL_FROM, VOL_ROLES, held_scale_line
+    VP = VOL_ROLES["conc"]
+    VL, HS = held_scale_line(C["SPY"], C["QQQ"], VP)
+    act = lambda d: (d + pd.offsets.BDay(1)).strftime("%Y-%m-%d") >= VOL_FROM      # 그날 종가 판단이 쓰일 다음 거래일이 시작일 이후인가
+    sc_at = lambda d: (float(HS[HS.index <= d].iloc[-1]) if act(d) and len(HS[HS.index <= d]) else 1.0)
+
+    def tw(up_, sc):
+        b_ = ON if up_ else OFF
+        w_ = {"SPY": b_["SPY"] * sc, "QQQ": b_["QQQ"] * sc}
+        w_["BIL"] = 1 - w_["SPY"] - w_["QQQ"]
+        return w_
     ma200, ma50 = g.rolling(200).mean(), g.rolling(50).mean()
     raw = (g > ma200).fillna(False)
     reg = pd.Series(sticky(raw.values), index=C.index)
@@ -76,7 +90,8 @@ def main() -> int:
     A3 = ("SPY", "QQQ", "BIL")
     p0 = C.index[C.index.get_loc(cal[0]) - 1]
     last_up = bool(reg.loc[p0])
-    w = dict(ON if last_up else OFF)
+    last_sc = sc_at(p0)
+    w = tw(last_up, last_sc)
     val, turn, wk = 1 - COST, 1.0, p0.isocalendar()[1]
     events = [{"d": cal[0].strftime("%Y-%m-%d"), "k": "시작", "up": last_up}]
     nav = []
@@ -88,18 +103,28 @@ def main() -> int:
         w = {t: v / s_ for t, v in gw.items()}
         nav.append(round((val - 1) * 100, 2))
         up_now = bool(reg.loc[d])          # 오늘 종가 판정 → 다음 거래일부터
-        if up_now != last_up or d.isocalendar()[1] != wk:
-            nt = ON if up_now else OFF
+        sc_now = sc_at(d)
+        if up_now != last_up or d.isocalendar()[1] != wk or sc_now != last_sc:
+            nt = tw(up_now, sc_now)
             t_ = sum(abs(nt.get(t, 0) - w.get(t, 0)) for t in A3)
             turn += t_; val *= 1 - t_ * COST; w = dict(nt)
             if up_now != last_up:
                 events.append({"d": d.strftime("%Y-%m-%d"), "k": "판정 바뀜", "up": up_now})
-            wk, last_up = d.isocalendar()[1], up_now
+            if sc_now != last_sc:
+                events.append({"d": d.strftime("%Y-%m-%d"), "k": f"🦴 변동성 맞춤 주식 {round(last_sc * 100)}→{round(sc_now * 100)}%", "up": up_now})
+            wk, last_up, last_sc = d.isocalendar()[1], up_now, sc_now
     spy = [round((float(C.loc[d, "SPY"]) / float(C.loc[p0, "SPY"]) - 1) * 100, 2) for d in cal]
     qqq = [round((float(C.loc[d, "QQQ"]) / float(C.loc[p0, "QQQ"]) - 1) * 100, 2) for d in cal]
 
     up = bool(reg.iloc[-1])
-    tgt = ON if up else OFF
+    sc_last = sc_at(C.index[-1])
+    tgt = {t: x for t, x in tw(up, sc_last).items() if x > 0.004}
+    vnow = float(VL.iloc[-1])
+    vol_rule = {"on": True, "active": act(C.index[-1]), "role": VP["role"], "lb": VP["lb"], "vol20": round(vnow * 100, 1), "target": VP["target"],
+                "floor": round(VP["floor"] * 100), "eq_scale": round(sc_last * 100), "eq_w": round((tgt.get("SPY", 0) + tgt.get("QQQ", 0)) * 100, 1),
+                "raw_scale": round(min(1.0, max(VP["floor"], VP["target"] / 100 / vnow)) * 100), "band": 5, "from": VOL_FROM,
+                "asof": C.index[-1].strftime("%Y-%m-%d"),
+                "note": f"주식 × min(1, 목표 {VP['target']}% ÷ S&P½+나스닥½ {VP['lb']}일 변동성), 아래 한도 {round(VP['floor'] * 100)}% · 5%p 넘게 바뀔 때만 · 덜어낸 만큼 현금 · 레버리지 없음"}
     gap = float(g.iloc[-1] / ma200.iloc[-1] - 1) * 100
     P, K = rj(M / "port.json"), rj(M / "kick.json")
     BT = rj(M / "conc_bt.json")
@@ -118,6 +143,7 @@ def main() -> int:
         "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "asof": cal[-1].strftime("%Y-%m-%d") if cal else None,
         "rule": {"title": "🎯 집중 포트", "judge": "S&P500 200일선 위 · 3거래일 확인",
                  "on": "🟢 상승장 → S&P500 50% + 나스닥100 50% (주식 100%)", "off": "🔴 아니면 → S&P500 25% + 나스닥100 25% + 현금 50%",
+                 "vol": f"🦴 변동성 맞춤(공격형, {VOL_FROM}부터): 주식 × min(1, {VP['target']}% ÷ {VP['lb']}일 변동성) · 아래 한도 {round(VP['floor'] * 100)}% → 덜어낸 만큼 현금",
                  "how": "판정은 그날 종가 · 다음 거래일부터 · 매주 + 판정 바뀐 날 비중 맞춤 · 사고판 양 × 0.1% 비용 · 레버리지 없음"},
         "regime": {"up": up, "since": since, "spx": round(float(g.iloc[-1]), 1), "ma200": round(float(ma200.iloc[-1]), 1),
                    "ma50": round(float(ma50.iloc[-1]), 1), "gap": round(gap, 1),
@@ -130,7 +156,7 @@ def main() -> int:
         "ret": nav[-1] if nav else None, "spy_ret": spy[-1] if spy else None, "qqq_ret": qqq[-1] if qqq else None,
         "d1": round(((1 + nav[-1] / 100) / (1 + nav[-2] / 100) - 1) * 100, 2) if len(nav) > 1 else None,
         "base": (P.get("stat") or {}).get("ret"), "kick": (K.get("stat") or {}).get("kick"),
-        "turn": round(turn * 100), "events": events[::-1][:10], "bt": bt,
+        "turn": round(turn * 100), "events": events[::-1][:10], "bt": bt, "vol_rule": vol_rule,
         "note": "검증한 규칙을 그대로 따랐다면의 계산(비용 포함·달러 기준). 매수 추천 아님.",
     }
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

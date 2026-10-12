@@ -19,9 +19,25 @@ TILT_UP, TILT_DN = 1.25, 0.75
 #   덜어낸 만큼 현금·단기채 칸 · 배율은 5%p 넘게 바뀔 때만 따라감(hold_band) · 2026-10-13(다음 거래일)부터, 그 전 성적은 소급 안 함
 VOL_FROM = "2026-10-13"
 VOL_BAND = 0.05
-VOL_ROLES = {"base": {"role": "방어형", "lb": 20, "target": 15, "floor": 0.5},
-             "kick": {"role": "중간", "lb": 20, "target": 18, "floor": 0.6},
-             "conc": {"role": "공격형", "lb": 20, "target": 22, "floor": 0.8}}
+# 앞 기간(2008-07~2016)에서만 고름 (market/skel_bt.json roles): 기본 = 낙폭 최소(CAGR 손해 2%p 이내) · 킥 = 샤프 1등 · 집중 = 낙폭 3%p↑ 줄인 것 중 CAGR 손해 최소
+VOL_ROLES = {"base": {"role": "방어형", "lb": 20, "target": 15, "floor": 0.3},
+             "kick": {"role": "중간", "lb": 20, "target": 18, "floor": 0.5},
+             "conc": {"role": "공격형", "lb": 20, "target": 22, "floor": 0.7}}
+
+
+def vol_line(spy, qqq, lb):
+    """S&P500½+나스닥100½ 하루 수익의 lb일 실현 변동성(연율, 소수) — pandas Series"""
+    r = 0.5 * spy.pct_change() + 0.5 * qqq.pct_change()
+    return r.rolling(lb).std() * (252 ** 0.5)
+
+
+def held_scale_line(spy, qqq, p):
+    """→ (변동성 Series, 밴드 걸린 배율 Series) · p = VOL_ROLES[...]"""
+    import pandas as pd
+    idx = spy.index.intersection(qqq.index)
+    v = vol_line(spy.reindex(idx), qqq.reindex(idx), p["lb"])
+    raw = [raw_scale(x, p["target"], p["floor"]) for x in v.values]
+    return v, pd.Series(hold_band(raw), index=idx)
 
 
 def raw_scale(vol, target, floor):
@@ -95,7 +111,7 @@ def stats_of(series_list, spy):
             "below50": sum(r[2] for r in rows) / len(rows) > 0.5, "below200": sum(r[3] for r in rows) / len(rows) > 0.5}
 
 
-def rule_weights(alloc, stats, qd, use=("cash", "tilt", "brake")):
+def rule_weights(alloc, stats, qd, use=("cash", "tilt", "brake"), vol_scale=None):
     """alloc: [(이름, 비중%)] · stats: 이름 → stats_of 결과 · qd: 국면 이름 → ({이름: 새 비중}, {이름: 이유}, 현금 목표)"""
     cash_names = [n for n, _ in alloc if is_cash(n)]
     eq = [(n, p) for n, p in alloc if not is_cash(n)]
@@ -124,11 +140,18 @@ def rule_weights(alloc, stats, qd, use=("cash", "tilt", "brake")):
                 freed += w[n] * (1 - f)
                 w[n] *= f
                 why[n] = ("🛑 200일선 아래 → 0" if f == 0 else "⚠️ 50일선 아래·S&P보다 약함 → ½") + (" · " + why[n] if n in why else "")
+    vfreed = 0.0
+    if "vol" in use and vol_scale is not None and vol_scale < 1:
+        for n in list(w):
+            if is_gold(n):
+                continue
+            vfreed += w[n] * (1 - vol_scale)
+            w[n] *= vol_scale
     out = {n: round(v, 1) for n, v in w.items()}
     cash_total = round(100 - sum(out.values()), 1)
     if cash_names:
         out[cash_names[0]] = cash_total
         for n in cash_names[1:]:
             out[n] = 0.0
-        why[cash_names[0]] = f"국면 「{qd}」 → 현금 {T}%" + (f" + 브레이크로 덜어낸 {freed:.1f}%p" if freed > 0.05 else "")
+        why[cash_names[0]] = f"국면 「{qd}」 → 현금 {T}%" + (f" + 브레이크로 덜어낸 {freed:.1f}%p" if freed > 0.05 else "") + (f" + 🦴 변동성 맞춤으로 덜어낸 {vfreed:.1f}%p (주식 칸 ×{vol_scale:.2f})" if vfreed > 0.05 else "")
     return out, why, T

@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [src/skel_bt.py, .github/workflows/skel-bt.yml]
+    paths: [src/skel_bt.py, src/rules7.py, .github/workflows/skel-bt.yml]
   schedule:
     - cron: "50 22 * * 6"   # KST 일 07:50
 permissions:

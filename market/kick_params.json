@@ -45,12 +45,19 @@
  "_ext": "10/10 엣지: cup_max_ext=12 — 돌파일 종가가 피벗+12%↑인 늦은 컵 돌파는 산 뒤 n24 평균 −0.6%·pf 0.72 (brain/edge.md)",
  "whale_sleeve2": 0.1,
  "rules_use": [
-  "cash"
+  "cash",
+  "vol"
  ],
  "_rules_doc": "10/12부터: 🐋 고래 6→10%(whale_sleeve2) · 기본 칸은 src/rules7.py 규칙 중 검증 통과한 것만(rules_use) — 10/11 검증(2008~): ① 국면 현금 ✅(샤프 0.64→0.72·최대낙폭 −38.5→−26.8%) · ③ 기울이기 ➖(효과 없음) · ④ 추세 브레이크 ➖(낙폭은 줄지만 연 수익 10.4→5.9%·회전 1000%) → ①만 켬 · 📊 실적 갭은 그림자 채점부터",
  "_cash_regime": "10/12 사용자 「ㅇㅇ」: ① 현금을 국면 신호판 사분면 → 🎯 판정(S&P500 200일선 위·3일 확인)으로. 🟢 0% / 🔴 26%. 근거 src/base_bt.py(2017~ 상승장 현금 10%p = 연 약 −0.6%p)",
  "_accum_off": "10/12 사용자 결정: 🤫 조용한 매집은 참고용으로 낮춤 → 킥 후보에서 뺌. 근거 brain/accum_lab.md — 2012~2019·2020~ 두 기간 모두 지수·아무 종목보다 못함(지금 규칙 40일 초과 −1.85%/−2.19%, 변형 21개도 시험 기간 통과 없음). 다시 켜려면 새 규칙이 시험 기간 n≥100·초과수익 플러스여야 함",
  "trend_sleeve": 0.05,
  "trend_from": "2026-10-13",
- "_ideas": "10/12 새 아이디어 4개 (src/kick_ideas_bt.py → market/kick_ideas_bt.json · brain/kick_ideas_lab.md): 판정 ✅/🧪 인 것만 킥에 들어옴(🧪 절반). 🏔 nh52·📊 pead·🩹 dip 은 돌파 칸 자리(검증한 출구 그대로), 🧭 trend 는 기본 칸에서 trend_sleeve(5%) 떼어 내는 따로 칸(trend_from 부터). 신호는 매일 market/kick_ideas_live.json"
+ "_ideas": "10/12 새 아이디어 4개 (src/kick_ideas_bt.py → market/kick_ideas_bt.json · brain/kick_ideas_lab.md): 판정 ✅/🧪 인 것만 킥에 들어옴(🧪 절반). 🏔 nh52·📊 pead·🩹 dip 은 돌파 칸 자리(검증한 출구 그대로), 🧭 trend 는 기본 칸에서 trend_sleeve(5%) 떼어 내는 따로 칸(trend_from 부터). 신호는 매일 market/kick_ideas_live.json",
+ "vol": {
+  "lb": 20,
+  "target": 18,
+  "floor": 0.5
+ },
+ "_vol": "10/12 사용자 결정 「변동성 맞춤도 넣어. 늘 방어도 중요해. 기본·킥·집중에 따라 다르게」 → 킥 기본 칸 = 중간형: 주식 칸 × min(1, 18% ÷ S&P½+나스닥½ 20일 변동성), 아래 한도 50%, 5%p 넘게 바뀔 때만, 2026-10-13부터(소급 없음). 앞 기간(2008-07~2016) 샤프 1등으로 고름 — 근거 brain/skel_lab.md · market/skel_bt.json roles.kick"
 }

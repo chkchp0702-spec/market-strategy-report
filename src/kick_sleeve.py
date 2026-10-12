@@ -781,6 +781,7 @@ def main() -> int:
         "trend": ({"sleeve": TS, "from": TF, "rule": (TB.get("pick") or {}).get("rule"), "line": [round((tsv[x] / tsv[TF0] - 1) * 100, 2) if (tsv and TF0 and x >= TF0 and x in tsv) else 0.0 for x in pdates],
                    "open": t_open, "trades": t_tr[-10:]} if TS > 0 else None),
         "rule": {"from": RF, "whale_sleeve": WS2, "base_now": RULE.get("now"), "why": RULE.get("why"), "quad": RULE.get("quad"), "cash": RULE.get("cash"), "use": RULE.get("use")},
+        "vol_rule": RULE.get("vol_rule"),   # 🦴 변동성 맞춤(중간형) 오늘 상태 — port.py 가 계산
         "shadow_stat": shadow_stat, "shadow_log": SH,
         "tags": {"🐋": "고래 13F 큰 신규", "☕": "컵 돌파", "📈": "돌파 갭", "🤫": "조용한 매집 돌파", "📊": "실적 갭 · 실적 표류",
                  "🏔": "거래량 동반 52주 신고가", "🩹": "상승장 급락 반등", "🧭": "자산 추세"},

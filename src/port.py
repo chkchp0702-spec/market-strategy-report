@@ -238,7 +238,38 @@ def main() -> int:
         ks = [k for k in UPREG if k <= d0]
         return UPREG[ks[-1]] if ks else None
 
-    def rules_on(e, d0, qds=None):
+    # 🦴 변동성 맞춤 비중 (10/12 사용자 결정) — 💼 기본 = 방어형 · ⚡ 킥 기본 칸 = 중간 (src/rules7.py VOL_ROLES · 검증 src/skel_bt.py)
+    from src.rules7 import VOL_FROM, VOL_ROLES, held_scale_line, is_gold
+    VP_BASE = dict(VOL_ROLES["base"])
+    VP_KICK = {**VOL_ROLES["kick"], **(_kp.get("vol") or {})}
+    _vb, _hb = held_scale_line(C["SPY"], C["QQQ"], VP_BASE)
+    _vk, _hk = held_scale_line(C["SPY"], C["QQQ"], VP_KICK)
+
+    def scale_at(H, d0):
+        s_ = H[H.index <= d0]
+        return float(s_.iloc[-1]) if len(s_) else 1.0
+
+    def vol_on(d1):
+        return d1.strftime("%Y-%m-%d") >= VOL_FROM
+
+    def base_w(e, d0, d1):
+        """💼 기본 포트 그날 비중 — 배분표(장부) × 변동성 맞춤 (주식 칸만, 덜어낸 만큼 현금·단기채 칸)"""
+        w = {a["name"]: float(a["pct"]) for a in e["alloc"]}
+        if not vol_on(d1):
+            return w
+        sc = scale_at(_hb, d0)
+        freed = 0.0
+        for a in e["alloc"]:
+            if is_cash(a["name"]) or is_gold(a["name"]):
+                continue
+            freed += w[a["name"]] * (1 - sc)
+            w[a["name"]] *= sc
+        cn = [a["name"] for a in e["alloc"] if is_cash(a["name"])]
+        if cn:
+            w[cn[0]] += freed
+        return w
+
+    def rules_on(e, d0, qds=None, vol=False):
         ds = qds or d0.strftime("%Y-%m-%d")      # 국면은 그 날 전까지 나온 것 (가격 판단은 d0 종가까지)
         spy = C["SPY"][C["SPY"].index <= d0]
         st = {}
@@ -253,7 +284,7 @@ def main() -> int:
             st[a["name"]] = stats_of(ss, spy)
         u = up_on(d0)
         qd = ("🟢 상승장" if u else "🔴 상승장 아님") if u is not None else quad_on(ds)
-        return rule_weights([(a["name"], a["pct"]) for a in e["alloc"]], st, qd, USE) + (qd, st)
+        return rule_weights([(a["name"], a["pct"]) for a in e["alloc"]], st, qd, USE, scale_at(_hk, d0) if (vol and "vol" in USE) else None) + (qd, st)
 
     nav_rule = [1.0]
     nav, bn = [1.0], {k: [1.0] for k in BENCH}
@@ -262,18 +293,19 @@ def main() -> int:
     for i in range(1, len(cal)):
         d0, d1 = cal[i - 1], cal[i]
         e = alloc_on(d1)
+        bw = base_w(e, d0, d1)
         r_tot, parts = 0.0, {}
         for a in e["alloc"]:
             us = us_of(a["name"], a["instruments"], a.get("picks"))
             rs = [x for x in (ret(t, d0, d1) for t in us) if x is not None]
             r = sum(rs) / len(rs) if rs else 0.0
-            c = a["pct"] / 100 * r
+            c = bw.get(a["name"], a["pct"]) / 100 * r
             r_tot += c
             parts[a["name"]] = c
             contrib[a["name"]] = contrib.get(a["name"], 0) + c * nav[-1]
         nav.append(nav[-1] * (1 + r_tot))
         if d1.strftime("%Y-%m-%d") >= RULE_FROM:
-            rw = rules_on(e, d0, (d1 - pd.Timedelta(days=1)).strftime("%Y-%m-%d"))[0]
+            rw = rules_on(e, d0, (d1 - pd.Timedelta(days=1)).strftime("%Y-%m-%d"), vol_on(d1))[0]
             rr = 0.0
             for a in e["alloc"]:
                 us = us_of(a["name"], a["instruments"], a.get("picks"))
@@ -318,11 +350,11 @@ def main() -> int:
             w = {k: w[k] * (1 + rr.get(k, 0.0)) / tot for k in w}
         return hv
 
-    nav_h = honest_nav(lambda e, d0, d1: {a["name"]: a["pct"] / 100 for a in e["alloc"]})
+    nav_h = honest_nav(lambda e, d0, d1: {k: v / 100 for k, v in base_w(e, d0, d1).items()})
     def rule_target(e, d0, d1):
         if d1.strftime("%Y-%m-%d") < RULE_FROM:
             return {a["name"]: a["pct"] / 100 for a in e["alloc"]}
-        rw = rules_on(e, d0, (d1 - pd.Timedelta(days=1)).strftime("%Y-%m-%d"))[0]
+        rw = rules_on(e, d0, (d1 - pd.Timedelta(days=1)).strftime("%Y-%m-%d"), vol_on(d1))[0]
         return {a["name"]: rw.get(a["name"], a["pct"]) / 100 for a in e["alloc"]}     # 위 nav_rule 과 같은 비중
 
     nav_rule_h = honest_nav(rule_target)
@@ -333,8 +365,10 @@ def main() -> int:
         mdd = min(mdd, v / peak - 1)
     fx = float(C["KRW=X"].iloc[-1]) if "KRW=X" in C else None
 
-    # 지금 담을 것 (따라하기)
+    # 지금 담을 것 (따라하기) — 다음 거래일 비중 (💼 변동성 맞춤 반영)
     cur = log[-1]
+    nxt = cal[-1] + pd.offsets.BDay(1)
+    bw_now = base_w(cur, cal[-1], nxt)
     hold = []
     for a in cur["alloc"]:
         us = us_of(a["name"], a["instruments"], a.get("picks"))
@@ -377,7 +411,7 @@ def main() -> int:
                 rp, rb = avg(a["picks"]), avg(base_t)
                 pvs = {"since": since, "base": base_t, "pick": rp, "base_r": rb, "edge": round(rp - rb, 2) if rp is not None and rb is not None else None,
                        "days": len(cal) - i0}
-        hold.append({"name": a["name"], "pct": a["pct"], "instruments": a["instruments"], "check": chk, "sig": sig, "pick_vs": pvs,
+        hold.append({"name": a["name"], "pct": round(bw_now.get(a["name"], a["pct"]), 1), "pct_base": a["pct"], "instruments": a["instruments"], "check": chk, "sig": sig, "pick_vs": pvs,
                      "picks": a.get("picks"), "why_picks": a.get("why_picks"),
                      "us": [{"t": t, "name": PNAME.get(t), "px": round(float(C[t].iloc[-1]), 2) if t in C else None, "cur": CURN.get(sfx(t), "달러"),
                              "krw": (round(float(C[t].iloc[-1]) * (fx / float(C[FXT[sfx(t)]].iloc[-1]) if sfx(t) and FXT[sfx(t)] in C else fx)))
@@ -386,13 +420,14 @@ def main() -> int:
                              "since": round((ret(t, cal[0], cal[-1]) or 0) * 100, 2) if t in C else None} for t in us],
                      "kr": kr, "contrib": round(contrib.get(a["name"], 0) * 100, 2)})
     prev = log[-2]["alloc"] if len(log) > 1 else None
-    rw_now, why_now, cash_t, qd_now, st_now = rules_on(log[-1], cal[-1], now.strftime("%Y-%m-%d"))     # 다음 거래일에 쓸 킥 포트 기본 비중 (국면은 오늘 것)
+    rw_now, why_now, cash_t, qd_now, st_now = rules_on(log[-1], cal[-1], now.strftime("%Y-%m-%d"), vol_on(nxt))     # 다음 거래일에 쓸 킥 포트 기본 비중 (국면은 오늘 것)
     rule = {"from": RULE_FROM, "use": list(USE), "quad": qd_now, "cash": cash_t, "nav": [round((v - 1) * 100, 2) for v in nav_rule],
             "now": rw_now, "why": why_now,
             "mom": {n: round(v["mom"] * 100, 1) for n, v in st_now.items() if v},
             "note": f"⚡ 킥 포트의 기본 칸은 {RULE_FROM}부터 검증을 통과한 규칙대로: " +
                     " ".join(x for k, x in (("cash", f"① 현금 = 🎯 판정 「{qd_now}」(S&P500 200일선) → {cash_t}%"), ("tilt", "③ S&P 대비 3·6개월 강한 칸 ×1.25 · 약한 칸 ×0.75"),
-                                             ("brake", "④ 200일선 아래 칸 0 · 50일선 아래이면서 S&P보다 약한 칸 ½")) if k in USE) +
+                                             ("brake", "④ 200일선 아래 칸 0 · 50일선 아래이면서 S&P보다 약한 칸 ½"),
+                                             ("vol", f"🦴 변동성 맞춤({VP_KICK['role']}) 주식 칸 × min(1, {VP_KICK['target']}% ÷ {VP_KICK['lb']}일 변동성)·아래 한도 {round(VP_KICK['floor'] * 100)}% ({VOL_FROM}부터)")) if k in USE) +
                     " · 검증에서 효과가 없던 규칙은 꺼 둠(market/rules_bt.json). 💼 기본 포트는 리포트 배분표 그대로(대조군)."}
     # 🧭 섹터 의견 그림자 — 리포트 섹터 판단(배분표 밖)이 같은 기간 코어(S&P½+나스닥½)보다 나았나
     views = None
@@ -415,8 +450,37 @@ def main() -> int:
                      "note": "리포트의 섹터 판단을 돈 없이 따라간 성적(같은 비율). 8주 넘게 코어를 이기면 배분 칸으로 되살리는 것을 검토한다(주식 칸의 절반까지)."}
         else:
             views = {"since": vs, "days": 0, "pending": True, "rows": [{"name": a["name"], "pct": a["pct"]} for a in VIEWS["views"]]}
+    def vol_state(V, H, P_, role_key, eq_base):
+        on_ = vol_on(nxt)
+        sc = scale_at(H, cal[-1]) if on_ else 1.0
+        return {"on": True, "active": on_, "role": P_["role"], "lb": P_["lb"], f"vol{P_['lb']}": round(float(V.iloc[-1]) * 100, 1), "vol20": round(float(vol_line_(20).iloc[-1]) * 100, 1),
+                "target": P_["target"], "floor": round(P_["floor"] * 100), "eq_scale": round(sc * 100), "eq_w": round(eq_base * sc, 1),
+                "raw_scale": round(min(1.0, max(P_["floor"], P_["target"] / 100 / float(V.iloc[-1]))) * 100), "band": 5, "from": VOL_FROM, "asof": cal[-1].strftime("%Y-%m-%d"),
+                "note": f"주식 칸 × min(1, 목표 {P_['target']}% ÷ S&P½+나스닥½ {P_['lb']}일 변동성), 아래 한도 {round(P_['floor'] * 100)}% · 5%p 넘게 바뀔 때만 · 덜어낸 만큼 현금·단기채 · 레버리지 없음"}
+
+    from src.rules7 import vol_line as _vl
+    vol_line_ = lambda lb: _vl(C["SPY"], C["QQQ"], lb)
+    eq_base_b = sum(a["pct"] for a in cur["alloc"] if not is_cash(a["name"]) and not is_gold(a["name"]))
+    vol_rule = vol_state(_vb, _hb, VP_BASE, "base", eq_base_b)
+    rule["vol_rule"] = {**vol_state(_vk, _hk, VP_KICK, "kick", eq_base_b), "on": "vol" in USE,
+                        "eq_w": round(sum(v for k, v in rw_now.items() if not is_cash(k) and not is_gold(k)), 1)}
+    # 🔁 변동성 맞춤으로 💼 비중이 바뀐 날 (5%p 넘게 바뀔 때만 생김) — 앱 「비중 바뀐 날」에 같이 보임
+    vchg = []
+    prev_sc = 1.0
+    for i in range(1, len(cal) + 1):
+        d0 = cal[i - 1]
+        d1 = cal[i] if i < len(cal) else nxt
+        if not vol_on(d1):
+            continue
+        sc = scale_at(_hb, d0)
+        if abs(sc - prev_sc) > 1e-9:
+            vchg.append({"date": d1.strftime("%Y-%m-%d"), "why": f"🦴 변동성 맞춤(방어형): 주식 칸 {eq_base_b * prev_sc:.1f}→{eq_base_b * sc:.1f}% "
+                         f"(S&P½+나스닥½ {VP_BASE['lb']}일 변동성 {float(_vb[_vb.index <= d0].iloc[-1]) * 100:.1f}% · 목표 {VP_BASE['target']}%) — 나머지는 현금·단기채"
+                         + (" · 다음 거래일부터" if i == len(cal) else ""), "vol": True})
+        prev_sc = sc
+    changes = sorted([{"date": e["date"], "why": e.get("why", "")} for e in log] + vchg, key=lambda x: x["date"], reverse=True)
     out = {
-        "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "views": views, "asof": cal[-1].strftime("%Y-%m-%d"), "fx": round(fx, 1) if fx else None,
+        "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "views": views, "vol_rule": vol_rule, "asof": cal[-1].strftime("%Y-%m-%d"), "fx": round(fx, 1) if fx else None,
         "dates": series_d, "nav": [round((v - 1) * 100, 2) for v in nav],
         "bench": {BENCH[k]: [round((v - 1) * 100, 2) for v in bn[k]] for k in BENCH},
         "bench_meta": [{"name": BENCH[k], "t": k, "group": BENCH_GROUP.get(BENCH[k], ""), "ret": round((bn[k][-1] - 1) * 100, 2),
@@ -433,9 +497,9 @@ def main() -> int:
         "honest": {"base": round((nav_h[-1] - 1) * 100, 2), "line": [round((v - 1) * 100, 2) for v in nav_h],
                    "rule": round((nav_rule_h[-1] - 1) * 100, 2), "rule_line": [round((v - 1) * 100, 2) for v in nav_rule_h],
                    "note": "정직 계산 — 매일이 아니라 주 1회(+배분표 바뀐 날)만 비중을 맞추고, 맞출 때마다 사고판 양 × 0.1% 비용을 뺌. 세금·환전 비용은 별도."},
-        "daily": daily[-30:], "hold": hold, "changes": [{"date": e["date"], "why": e.get("why", "")} for e in log][::-1],
+        "daily": daily[-30:], "hold": hold, "changes": changes,
         "prev": prev, "miss": miss, "rule": rule,
-        "note": "리포트 배분표를 그대로 따랐다면의 계산. 매일 비중 유지 가정 · 수수료·세금 제외 · 달러 기준(미국 밖 종목·지수는 환율 반영). 매수 추천 아님.",
+        "note": "리포트 배분표를 그대로 따랐다면의 계산(2026-10-13부터 🦴 변동성 맞춤 방어형 반영 — vol_rule). 매일 비중 유지 가정 · 수수료·세금 제외 · 달러 기준(미국 밖 종목·지수는 환율 반영). 매수 추천 아님.",
     }
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"포트 {out['stat']['ret']:+.2f}% vs S&P {out['stat']['spy']:+.2f}% · {out['stat']['days']}거래일 · 빠진 시세 {miss}")
