@@ -38,7 +38,7 @@ DEF_COST = 0.005
 TIME_BUDGET = 38 * 60   # 시세 받기에 쓸 최대 시간(초)
 
 A = dict(win=20, base=60, volx_min=3.0, chg_lo=-5.0, chg_hi=3.0, days2x_min=10, off52_max=40.0, show_min=55)
-HZ = (20, 40, 60)
+HZ = (5, 10, 20, 40, 60)
 
 
 # ───────────────────────────── 검출 (scan.yaml 그대로) ─────────────────────────────
@@ -201,7 +201,7 @@ def fwd(c: np.ndarray, ix: np.ndarray, e: int, cost: float, pre: str) -> dict:
             r = c[e + k] / c[e] - 1
             o[f"{pre}r{k}"] = round((r - cost) * 100, 2)
             if ix[e] > 0 and ix[e + k] > 0:
-                o[f"{pre}x{k}"] = round((r - (ix[e + k] / ix[e] - 1)) * 100, 2)
+                o[f"{pre}x{k}"] = round((r - cost - (ix[e + k] / ix[e] - 1)) * 100, 2)
     if e + 60 < n:
         for nm, kind in (("s8", "stop"), ("tr", "trail")):
             pk, ex = c[e], e + 60
@@ -214,7 +214,7 @@ def fwd(c: np.ndarray, ix: np.ndarray, e: int, cost: float, pre: str) -> dict:
             r = c[ex] / c[e] - 1
             o[f"{pre}{nm}"] = round((r - cost) * 100, 2)
             if ix[e] > 0 and ix[ex] > 0:
-                o[f"{pre}{nm}x"] = round((r - (ix[ex] / ix[e] - 1)) * 100, 2)
+                o[f"{pre}{nm}x"] = round((r - cost - (ix[ex] / ix[e] - 1)) * 100, 2)
             o[f"{pre}{nm}d"] = ex - e
     return o
 
@@ -238,6 +238,7 @@ def fetch(m: str):
     i200 = idx.rolling(200).mean()
     reg = (idx > i200).astype(float).where(i200.notna())
     rows = []
+    CTRL, SURGE = [], []
     W, B = A["win"], A["base"]
     for t, d in data.items():
         o, h, l, c, v = (d[x].to_numpy(float) for x in ("open", "high", "low", "close", "volume"))
@@ -252,11 +253,36 @@ def fetch(m: str):
         with np.errstate(divide="ignore", invalid="ignore"):
             vx = mw / mb
             ch = (c / np.roll(c, W) - 1) * 100
+        ixa = idx.reindex(dates).ffill().to_numpy(float)
+        # ── 비교군: (A) 아무 날 아무 종목(같은 가격·거래대금 하한, 10거래일마다 하나), (B) 거래량 폭증+가격 급등, (C) 거래량 폭증+가격 급락
+        with np.errstate(divide="ignore", invalid="ignore"):
+            adv = pd.Series(c * v).rolling(50).mean().to_numpy()
+            liq = (adv >= minvol) & (c >= minp) & (np.arange(n) >= 149)
+            fx = {}
+            for k in (20, 40, 60):
+                e = np.arange(n) + 1
+                ok = e + k < n
+                rr = np.full(n, np.nan); ii = np.full(n, np.nan)
+                rr[ok] = c[e[ok] + k] / c[e[ok]] - 1
+                ii[ok] = ixa[e[ok] + k] / ixa[e[ok]] - 1
+                fx[k] = ((rr - cost) * 100, (rr - cost - ii) * 100)
+        dnum = dates.year * 10000 + dates.month * 100 + dates.day
+        for ti in np.where(liq & (np.arange(n) % 10 == 0))[0]:
+            CTRL.append((dnum[ti], fx[20][1][ti], fx[40][1][ti], fx[60][1][ti], fx[20][0][ti], fx[40][0][ti], fx[60][0][ti]))
+        for kind, msk in (("up", ch > 10), ("dn", ch < -10)):
+            last_k = -10 ** 9
+            for ti in np.where(liq & (vx >= 3) & msk)[0]:
+                if ti - last_k < 20:
+                    continue
+                bv = np.mean(v[ti - 79:ti - 19])
+                if bv <= 0 or np.sum(v[ti - 19:ti + 1] >= 2 * bv) < 10:
+                    continue
+                last_k = ti
+                SURGE.append((kind, t, dnum[ti], fx[20][1][ti], fx[40][1][ti], fx[60][1][ti], fx[40][0][ti]))
         cand = np.where((vx >= A["volx_min"] * 0.999) & (ch >= A["chg_lo"] - 0.01) & (ch <= A["chg_hi"] + 0.01))[0]
         cand = cand[cand >= 149]
         if not len(cand):
             continue
-        ixa = idx.reindex(dates).ffill().to_numpy(float)
         rga = reg.reindex(dates).ffill().to_numpy(float)
         ma50 = pd.Series(c).rolling(50).mean().to_numpy()
         ma200 = pd.Series(c).rolling(200).mean().to_numpy()
@@ -297,6 +323,10 @@ def fetch(m: str):
             rows.append(r)
     df = pd.DataFrame(rows)
     df.to_csv(OUTD / f"accum_rows_{m}.csv.gz", index=False, compression="gzip")
+    np.save(OUTD / f"accum_ctrl_{m}.npy", np.array(CTRL, dtype=np.float64).reshape(-1, 7))
+    pd.DataFrame(SURGE, columns=["kind", "tk", "d", "x20", "x40", "x60", "r40"]).assign(mkt=m).to_csv(
+        OUTD / f"accum_surge_{m}.csv.gz", index=False, compression="gzip")
+    log["ctrl_n"], log["surge_n"] = len(CTRL), len(SURGE)
     log["raw_rows"] = len(df)
     log["sec"] = round(time.time() - t0)
     log["last_date"] = str(closes.index.max().date()) if len(closes) else None
@@ -437,6 +467,28 @@ def stats():
         b = dedupe(d[d["score"] >= 55])
         out["diag"][pn]["year"] = {str(y): {"n": int(len(g)), "x40": pstats(g["x40"]).get("avg"), "r40": pstats(g["r40"]).get("avg")}
                                    for y, g in b.groupby(b["date"].str[:4])}
+    # 비교군
+    out["controls"] = {}
+    ctrl = {}
+    for f in sorted(OUTD.glob("accum_ctrl_*.npy")):
+        ctrl[f.stem.split("_")[-1]] = np.load(f)
+    sg = [pd.read_csv(f, dtype={"tk": str}) for f in sorted(OUTD.glob("accum_surge_*.csv.gz"))]
+    sg = pd.concat(sg, ignore_index=True) if sg else pd.DataFrame()
+    rng_ = {"IS": (20120101, 20191231), "OOS": (20200101, 99999999)}
+    for pn, (a, b) in rng_.items():
+        oc = {}
+        for m in mk + ["ALL"]:
+            arr = np.concatenate(list(ctrl.values())) if m == "ALL" else ctrl.get(m, np.zeros((0, 7)))
+            arr = arr[(arr[:, 0] >= a) & (arr[:, 0] <= b)] if len(arr) else arr
+            cm = {"random": {f"x{k}": pstats(pd.Series(arr[:, i])) for i, k in ((1, 20), (2, 40), (3, 60))}}
+            cm["random"]["r40"] = pstats(pd.Series(arr[:, 5])) if len(arr) else {"n": 0}
+            if len(sg):
+                s2 = sg[(sg["d"] >= a) & (sg["d"] <= b) & ((sg["mkt"] == m) | (m == "ALL"))]
+                for kd in ("up", "dn"):
+                    g = s2[s2["kind"] == kd]
+                    cm["surge_" + kd] = {"x20": pstats(g["x20"]), "x40": pstats(g["x40"]), "x60": pstats(g["x60"]), "r40": pstats(g["r40"])}
+            oc[m] = cm
+        out["controls"][pn] = oc
     RES.parent.mkdir(exist_ok=True)
     json.dump(out, open(RES, "w"), ensure_ascii=False, indent=1, default=lambda x: None if isinstance(x, float) and math.isnan(x) else x)
     print("rows", len(df), {m: int((df["mkt"] == m).sum()) for m in mk})
