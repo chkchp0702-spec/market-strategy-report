@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "골드만 전략가, 실적 근거로 글로벌 주식 단기 '긍정' 전환",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-12/goldman-strategists-upgrade-global-stocks-on-earnings-boost",
+   "press": "블룸버그",
+   "at": "2026-10-12 18:03",
+   "why": "코스피 급락일과 반대 신호 — KODEX 200 오름 대기(#20261012-15)·포트 뼈대 주식 비중 근거",
+   "summary": "골드만 전략가들이 사상 최고 부근에서도 강한 실적을 이유로 글로벌 주식 단기 전망을 긍정으로 올림. 마켓워치도 '연말까지 강세 전환, 시장이 전반적으로 싸졌다'고 전함."
+  },
+  {
+   "title": "중국, 신에너지차 수출 VAT 환급률 13%→9% 인하",
+   "url": "https://wallstreetcn.com/articles/3783438",
+   "press": "월스트리트견문(하나 중국 텔레그램)",
+   "at": "2026-10-12 18:19",
+   "why": "중국 EV 수출 원가 상승 → 유럽 시장 한국 완성차(기아·현대) 상대 수혜 — 🧠 기아 오름 대기(#20261012-18)",
+   "summary": "중국 재정부가 신에너지차 수출 부가세 환급률을 4%p 낮춤. 같은 날 EU-중국 합의로 중국산 하이브리드 수출에 새 제한 보도(인베스팅)."
+  },
+  {
+   "title": "바클레이스: 반도체 이익 전망 15% 하향돼도 S&P 500 이익은 두 자릿수 성장",
+   "url": "https://wallstreetcn.com/articles/3783431",
+   "press": "월스트리트견문(하나 중국 텔레그램)",
+   "at": "2026-10-12 18:03",
+   "why": "반도체(HBM) 칸 10% 리스크 — 27년 EPS 성장 70%가 반도체·하드웨어에 쏠림, 기관은 비중 축소 중",
+   "summary": "27회계연도 S&P EPS 성장의 약 70%를 반도체·기술 하드웨어가 기여 예상. 반도체 EPS 15% 하향에도 지수 이익은 두 자릿수 유지, 다만 다른 업종으로 번지면 장기 추세 수준으로 둔화."
+  },
+  {
    "title": "골드만 \"한국 저평가 비AI주 주목…배당 4% 넘는 케이뱅크·컴투스\"",
    "url": "https://www.hankyung.com/article/202610126711i",
    "press": "한국경제",
@@ -615,31 +639,7 @@
    "at": "2026-10-11 08:40",
    "why": "10/10 재공격(12명 사망·309명 부상, 사우디 민간항공청) 전 1차 공격 때 유가 반응 — 월요일 갭 크기 가늠, 대한항공 내림·USO 오름",
    "summary": "10/8 1차 공격 때 리야드 공항 폐쇄·유가 상승. 10/10 재공격으로 킹 칼리드 공항 운영 일시 중단. 1차 때 유가 상승 폭 숫자는 미확인."
-  },
-  {
-   "title": "美 ITC, 바이코 특허 침해 전력모듈·미허가 컴퓨팅 시스템 수입금지 (337-TA-1370 선례)",
-   "url": "https://macaubusiness.com/itc-bars-importation-of-power-modules-and-unlicensed-computing-systems-that-infringe-vicor-patents/",
-   "press": "Macau Business",
-   "at": "2026-10-11 07:35",
-   "why": "10/9 새 AI 서버 전력공급 337조사(델타·폭스콘·콴타 등)의 결말을 가늠할 선례 — bet 2308.TW 내림",
-   "summary": "이전 사건에서 ITC가 바이코 특허 침해 전력모듈과 이를 쓴 컴퓨팅 시스템 수입을 금지. 새 조사 원고는 미확인."
-  },
-  {
-   "title": "인텔 올해 3배 올랐지만 골드만삭스는 더 나은 반도체 3종목 제시",
-   "url": "https://stocktwits.com/news-articles/markets/equity/intc-stock-has-more-than-tripled-this-year-but-goldman-sachs-names-3-better-chip-bets/cZ1cKfJR7gQ",
-   "press": "Stocktwits",
-   "at": "2026-10-11 07:35",
-   "why": "반도체 칸·SMH 내림 대기 bet — IB가 반도체 안에서 종목 갈아타기를 권하는 국면(칸 비중보다 종목 선택)",
-   "summary": "INTC 연초 대비 3배 이상. 골드만이 꼽은 3종목 이름은 미확인(본문 미열람)."
-  },
-  {
-   "title": "외국인, 삼성전자 지분율 46.7%…금융위기 이후 최저치 근접",
-   "url": "https://biz.sbs.co.kr/amp/article/20000326333",
-   "press": "SBS Biz",
-   "at": "2026-10-11 06:35",
-   "why": "10/11 연합 '46%대' 보도와 비교 — 7월에 이미 같은 수준, 지분율 '수준'보다 '방향 전환'이 신호(SK하이닉스 bet·반도체 칸)",
-   "summary": "7월 외국인 삼전 지분율 46.7%로 금융위기 이후 최저 근접(제목 기준). 10월에도 46%대 — 3개월째 바닥권 유지."
   }
  ],
- "at": "2026-10-12 13:35"
+ "at": "2026-10-12 18:35"
 }
