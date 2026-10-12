@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "원·달러 환율 장중 1,333.2원…2년 만에 최저",
+   "url": "https://biz.sbs.co.kr/article/20000339354",
+   "press": "SBS Biz",
+   "at": "2026-10-12 11:40",
+   "why": "외국인 매도에도 원화 강세 — 항공(대한항공 대기 bet)·외국인 복귀 조건",
+   "summary": "10/12 장중 1,333.2원, 약 2년 만에 최저. 반도체 수출 호조(10월 1~10일 수출 +102%)가 배경으로 거론."
+  },
+  {
+   "title": "SK하이닉스 10월 12일 장중 1,635,000원(−2.74%)",
+   "url": "https://www.joongangenews.com/news/articleView.html?idxno=554043",
+   "press": "중앙이코노미뉴스",
+   "at": "2026-10-12 12:10",
+   "why": "하닉 오름 bet(손절 1,614,000) 점검용 장중 값",
+   "summary": "장중 1,635,000원 −2.74%. 외국인 5일째 순매도 속 반도체 약세."
+  },
+  {
+   "title": "셀트리온 3분기 영업이익 5,100억원 '분기 최대'(+69%)",
+   "url": "https://www.fnnews.com/news/202610120852355669",
+   "press": "파이낸셜뉴스",
+   "at": "2026-10-12 08:52",
+   "why": "외국인 매도장 속 실적 서프라이즈 후보 — 역행 강세 필터 대상",
+   "summary": "3Q 매출 1조5천억·영업익 5,100억(전년비 +69%), 창사 첫 5천억 돌파. 컨센서스 대비 여부 미확인."
+  },
+  {
    "title": "LG이노텍, 10월 12일 장중 508,000원 11.19% 하락",
    "url": "https://www.topstarnews.net/news/articleView.html?idxno=16244381",
    "press": "톱스타뉴스",
@@ -615,31 +639,7 @@
    "at": "2026-10-10 23:40",
    "why": "에너지 칸 유지 근거·대한항공 내림 bet·VLO 정제 bet 과 이어짐",
    "summary": "호르무즈 밖이던 공격이 걸프 안쪽 카타르 앞바다까지. 유가 100$ 재돌파 보도(idnfinancials). 피해 규모 미확인."
-  },
-  {
-   "title": "노무라 맥엘리곳: S&P 상승 70%가 10종목, 디젤발 새 충격 경계",
-   "url": "https://wallstreetcn.com/articles/3783332",
-   "press": "월스트리트견문(하나중국 요약)",
-   "at": "2026-10-10 23:40",
-   "why": "고금리 논지·AI 쏠림 위험 — 지수 왜곡과 디젤 스프레드=금리 변동성",
-   "summary": "구성 종목 85% 이미 조정, 6개 중 1개는 반토막. 상관관계 2007·2018 직전 수준. 위험 둘: 오픈AI 매출 충격, 정제유 부족."
-  },
-  {
-   "title": "델타, 기록 매출에도 연료비로 이익 가이던스 하향",
-   "url": "https://www.tipranks.com/news/delta-air-lines-nysedal-slips-after-cutting-earning-projections",
-   "press": "TipRanks(배런스 동일 보도)",
-   "at": "2026-10-10 23:40",
-   "why": "대한항공(003490) 내림 bet 근거 — 유가 100$ 의 항공 마진 압박 확인",
-   "summary": "델타 3Q 매출 사상 최대지만 연료비로 이익 전망 축소, 운항 축소·수수료 인상. 수치는 원문 확인 필요."
-  },
-  {
-   "title": "애플, 수요 부진에 아이폰18 Pro 주문 축소 — 닛케이 아시아",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcWxvbWdzenJKeF9PdGppTmNVeTQySGx4dzNaREdmbktzZzVUc3UtZVdXRUVxT1d6eDA0MGE5UGYxRi1rbXdEYW96ZVRRWXUtS3BialZSa0l0dWVKQzhNVVVfRUlfWk4zM2g1anhLUmpmaUg5VWR3eHcybnJsVE8yVFJWZTl4ZnpQa2xWUm1wN2k4X2llWWVoTHZoRjBnVmkwYjBzdE5ON0VSalY4ZVVrUmVGTkRsUVNHWERuZFV4Z3ZXVlgxekFr?oc=5",
-   "press": "로이터(닛케이 아시아 인용)",
-   "at": "2026-10-10 22:40",
-   "why": "애플 수요 둔화 논지 — 한국 아이폰 부품주(LG이노텍 bet #25) 10/12 첫 반영",
-   "summary": "애플이 수요 부진으로 아이폰18 Pro 부품 주문을 줄였다는 닛케이 아시아 보도를 로이터가 전함. 축소 폭 숫자는 미확인. 9월에도 '아이폰 Duo가 Pro 수요 잠식' 보도(sammyfans 9/18)."
   }
  ],
- "at": "2026-10-12 11:45"
+ "at": "2026-10-12 12:35"
 }
