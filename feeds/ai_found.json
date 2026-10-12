@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "MS AI칩 책임자 'HBM은 부족, 5년치 공급 확보'",
+   "url": "https://en.sedaily.com/international/2026/10/12/microsoft-ai-chip-chief-says-hbm-is-scarce-secures-supply",
+   "press": "서울경제(영문)",
+   "at": "2026-10-12 23:35",
+   "why": "반도체 칸·하이닉스 대기(#20261012-22)·MU 대기(#20261012-23) — 큰 고객의 HBM 장기 확보 = 공급 부족 지속",
+   "summary": "MS 자체칩(Maia) 책임자가 HBM을 '부족 품목'으로 보고 5년 앞까지 공급을 잠갔다고 언급. 같은 날 Maia 300 수십만 개 생산 목표 보도."
+  },
+  {
+   "title": "마이크론 이사회, 자사주 매입 한도 351.6억 달러로 상향",
+   "url": "https://www.investing.com/news/stock-market-news/micron-board-raises-buyback-ceiling-to-3516bn-4944713",
+   "press": "Investing.com",
+   "at": "2026-10-12 23:35",
+   "why": "반도체 칸 — CXMT 악재로 빠진 날 회사가 내놓은 반대 재료(MU 대기)",
+   "summary": "자사주 한도 $35.16bn. 10/12 중국 CXMT 차세대 D램 진전 보도로 마이크론 약세(barrons)."
+  },
+  {
+   "title": "3분기 글로벌 스마트폰 출하 20% 감소",
+   "url": "https://finance.yahoo.com/technology/articles/global-smartphone-shipments-drop-20-135924375.html",
+   "press": "Yahoo Finance",
+   "at": "2026-10-12 23:35",
+   "why": "'애플 수요 둔화' 논지(0.35)·한국 폰 부품주 — 메모리 값 급등이 완제품 수요를 깎는 중",
+   "summary": "3Q 출하 −20%. IDC는 앞서 메모리 가격 급등으로 2026년 역대 최대 감소를 전망(https://finance.yahoo.com/news/smartphone-market-set-biggest-ever-191934291.html)."
+  },
+  {
    "title": "마이크로소프트, Maia 300 AI칩 수십만 개 생산 추진",
    "url": "https://www.techzine.eu/news/infrastructure/143518/microsoft-aims-to-produce-hundreds-of-thousands-of-maia-300-ai-chips/",
    "press": "Techzine",
@@ -615,30 +639,6 @@
    "at": "2026-10-11 17:45",
    "why": "후티 공격 뒤 원유 선물 첫 반응 — 월요일 에너지 칸·USO 대기",
    "summary": "후티 리야드 공격 뒤 원유 선물 상승 출발(기사 날짜·폭 미확인 — 이번 주말 건인지 확인 필요)."
-  },
-  {
-   "title": "트럼프, 이란 재공습 검토…사우디 리야드 공항 공격으로 12명 사망",
-   "url": "https://www.investing.com/news/economy-news/trump-weighs-renewed-iran-strikes-as-saudi-airport-attack-kills-12-4942483",
-   "press": "Investing.com",
-   "at": "2026-10-11 16:35",
-   "why": "에너지 칸·USO 대기 bet·금 칸 — 금요일 종가 이후 나온 지정학 소식, 월요일 유가·금 갭",
-   "summary": "킹칼리드 공항 공격 12명 사망·309명 부상(사우디 민항청). 트럼프, 중간선거 전엔 배제했던 대이란 재공습 검토·후티 공습 합류 가능. 금요일 종가 브렌트 104.42·WTI 91.66·금 4,220.3(+1.5%)."
-  },
-  {
-   "title": "리야드 공항 공격 12명 사망·309명 부상 — 이번 주 3번째, 사우디 예멘 지상전 개시",
-   "url": "https://www.thenationalnews.com/news/us/2026/10/11/saudi-airport-attack-houthis/",
-   "press": "The National",
-   "at": "2026-10-11 16:35",
-   "why": "에너지 칸 — 바브엘만데브 해협 근처 교전, 홍해 해운·유가 위험",
-   "summary": "후티 공격 이번 주 3번째(앞서 4명 사망). 사우디 연합 지상 공세로 홍해 모카항 탈환 주장. 항공편 260편 취소·219편 지연. 트럼프 '용납 못 해, 합류 검토'."
-  },
-  {
-   "title": "골드만삭스: 글로벌 석유 재고 한계, 유가 위험 프리미엄 배럴당 22달러 — 기록상 두 번째",
-   "url": "https://wallstreetcn.com/articles/3783356",
-   "press": "华尔街见闻(HANAchina 경유)",
-   "at": "2026-10-11 15:20",
-   "why": "에너지 칸·USO 대기 bet — 위험 프리미엄이 이미 꼭대기 근처라 상방·급락 양쪽 꼬리가 커짐",
-   "summary": "9월 브렌트 위험 프리미엄 $22/배럴(비OECD 재고 반영, 역대 2위). 3월 이후 글로벌 재고 약 6.6억 배럴 감소. 비톨: 호르무즈 중단 시 $200 가능."
   }
  ],
  "at": "2026-10-12 18:35"
