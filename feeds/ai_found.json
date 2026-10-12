@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "뉴욕증시 혼조 출발 — 리야드 공항 공격에 브렌트 106달러 돌파, 은행 실적 앞둬",
+   "url": "https://rollingout.com/2026/10/12/wall-street-stock-mixed-open-oil-106/",
+   "press": "Rolling Out",
+   "at": "2026-10-13 01:30",
+   "why": "💼 에너지 칸 상단·KBE bet(#20261012-20)·고금리 논지와 연결",
+   "summary": "10/12 개장 다우 +0.18% 51,747·S&P +0.05% 7,816·나스닥 −0.05%. 브렌트 106달러 위(약 2주 고점). 채권시장 콜럼버스데이 휴장, JPM·GS·WFC·C 13일 실적."
+  },
+  {
+   "title": "MS, 내년 자체 AI칩 Maia 300 기가와트급 배치 — 토큰/MW 40% 향상 목표",
+   "url": "https://wallstreetcn.com/articles/3783460",
+   "press": "월스트리트견문(블룸버그 인용)",
+   "at": "2026-10-13 01:30",
+   "why": "AI 이익 논지·광통신 칸(이수페타시스 선제 #20261013-01)·엔비디아 의존도",
+   "summary": "MS 차세대 Maia 300 내년 기가와트 규모 배치, 메가와트당 토큰 처리량 GPU 대비 +40%. 외부 임대보다 내부 AI 서비스 우선 — 추론 비용·엔비디아 의존 축소."
+  },
+  {
    "title": "주식 앞 세 겹 위협 — 은행 실적·CPI·24년 만의 국채금리 고점",
    "url": "https://stockchartistry.substack.com/p/stocks-face-a-triple-threat-bank",
    "press": "Stock Chartistry(서브스택)",
@@ -623,22 +639,6 @@
    "at": "2026-10-11 18:35",
    "why": "에너지 칸·USO 대기 bet·GLD·^VIX 열림 bet — 월요일 유가 갭 방향",
    "summary": "이란 혁명수비대: 호르무즈 해협에서 유조선이 기뢰에 닿아 폭발. 미 중부사령부: 기뢰가 아니라 드론 타격. 같은 날 미군은 오만만에서 파나마 선적 화물선 추진계통을 정밀유도무기로 타격(한 달여 만에 처음, wallstreetcn 3783372)."
-  },
-  {
-   "title": "사우디, 후티와의 싸움에서 요격미사일 바닥 — 동맹국에 방공 지원 요청",
-   "url": "https://scmp.com/news/world/middle-east/article/3367777/saudis-seek-allies-help-missile-defences-run-low-fight-houthis",
-   "press": "SCMP(AP)",
-   "at": "2026-10-11 18:35",
-   "why": "한국 방산(LIG넥스원 천궁-II 사우디 기존 고객) — LIG넥스원 대기 bet #20261011-18",
-   "summary": "사우디 관리들 '요격미사일 재고 부족', 프랑스·영국·파키스탄·이집트에 방공체계 배치 요청. 미국도 자체 재고 고갈 압박. 후티는 이번 주 사우디 공항 공격(12명 사망)."
-  },
-  {
-   "title": "칠레 센티넬라 구리광산 노조 709명 파업 돌입(안토파가스타)",
-   "url": "https://www.miningweekly.com/article/workers-at-chiles-centinela-copper-mine-strike-after-talks-fail-2026-10-07",
-   "press": "Mining Weekly",
-   "at": "2026-10-11 17:45",
-   "why": "구리 사상 최고 근접 구간의 공급 차질 — FCX 대기 bet·원자재 칸",
-   "summary": "10/7 조정 결렬 뒤 709명 파업 시작. 회사는 2026 생산 전망 유지(SMM). 도이체는 LME 2Q27 목표 22,050달러로 상향, 금요일 구리 약 14,622달러."
   }
  ],
  "at": "2026-10-12 18:35"
