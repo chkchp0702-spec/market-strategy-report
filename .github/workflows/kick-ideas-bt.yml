@@ -1,0 +1,78 @@
+name: kick-ideas-bt
+# ⚡ 킥 새 아이디어 4개 과거 검증 (src/kick_ideas_bt.py) — 수동 또는 스크립트가 바뀌어 push 될 때
+#   6 🏔 거래량 동반 52주 신고가 · 7 📊 실적 뒤 표류(좁힌) · 8 🩹 상승장 급락 되돌림 · 10 🧭 자산 추세
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [src/kick_ideas_bt.py, .github/workflows/kick-ideas-bt.yml]
+permissions:
+  contents: write
+concurrency:
+  group: push-${{ github.repository }}-${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    strategy:
+      fail-fast: false
+      matrix:
+        mkt: [US, KR, JP]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yfinance pandas numpy lxml requests
+      - run: python src/kick_ideas_bt.py fetch ${{ matrix.mkt }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ki-${{ matrix.mkt }}
+          path: out/
+          if-no-files-found: warn
+  macro:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yfinance pandas numpy
+      - run: python src/kick_ideas_bt.py macro
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ki-macro
+          path: out/
+          if-no-files-found: warn
+  merge:
+    needs: [fetch, macro]
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yfinance pandas numpy lxml requests
+      - uses: actions/download-artifact@v4
+        with:
+          path: out/
+          pattern: ki-*
+          merge-multiple: true
+      - run: ls -la out/
+      - run: python src/kick_ideas_bt.py stats
+      - name: 오늘 신호 (고른 규칙 그대로)
+        continue-on-error: true
+        timeout-minutes: 25
+        run: python src/kick_ideas_bt.py live
+      - name: 저장
+        run: |
+          git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
+          fs="market/kick_ideas_bt.json"; [ -f market/kick_ideas_live.json ] && fs="$fs market/kick_ideas_live.json"
+          IFS=' ' read -ra FS <<< "$fs"
+          bash scripts/push.sh "kick-ideas-bt $(TZ=Asia/Seoul date '+%F %H:%M')" "${FS[@]}"
