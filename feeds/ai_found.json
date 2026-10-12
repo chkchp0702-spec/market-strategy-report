@@ -1,6 +1,38 @@
 {
  "items": [
   {
+   "title": "모건스탠리: 미 CCC 신용 스프레드 1,000bp 돌파·은행주 33년 만의 극심한 과매도",
+   "url": "https://wallstreetcn.com/articles/3783423",
+   "press": "월스트리트견문(하나 중국 경유)",
+   "at": "2026-10-12 20:35",
+   "why": "금융 칸 축소 논지 vs 은행주 반등 — 13일 은행 실적이 분수령, KBE 선제 bet 근거",
+   "summary": "CCC 스프레드 1,000bp 돌파(2023년 이후 최대 확대). 은행주 RSI–S&P 격차 33년 만 최대. 지수는 최고치 −0.2%, 10년 금리 5.30%(2002년 이후 최고)."
+  },
+  {
+   "title": "EU 하이브리드 수입 상한에 중국 리튬 선물 10% 급락",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-12/chinese-lithium-slumps-10-after-eu-deal-slashes-hybrid-exports",
+   "press": "Bloomberg",
+   "at": "2026-10-12 20:30",
+   "why": "삼성SDI 오름 bet·배터리 칸 — 리튬 급락은 양극재 재고 손실, 유럽 내 중국 경쟁 축소는 한국 셀·완성차에 호재",
+   "summary": "EU-중국 합의로 중국산 하이브리드 EU 수입 연 35만대 상한(yna 10/12). 중국 리튬 선물 하루 −10%."
+  },
+  {
+   "title": "중국의 75억 달러 규모 EU 하이브리드 수출 붐, 새 상한에 직면",
+   "url": "https://kelo.com/2026/10/12/chinas-7-5-billion-eu-hybrid-boom-faces-new-curbs-under-china-eu-deal/",
+   "press": "KELO(AP 계열 배포)",
+   "at": "2026-10-12 20:30",
+   "why": "기아 대기 bet — 유럽 하이브리드 시장에서 중국 물량 상한 = 한국 완성차 반사 수혜 가능",
+   "summary": "중국의 EU 하이브리드 수출 규모 약 75억 달러. 합의로 물량 상한 도입(세부 수치는 원문 확인 필요)."
+  },
+  {
+   "title": "골드만, AI 메모리 벽 해결할 고성능 낸드 수혜주 3곳 제시",
+   "url": "https://www.investing.com/news/stock-market-news/goldman-names-3-to-benefit-as-highperformance-nand-tackles-ais-memory-wall-4943949",
+   "press": "Investing.com",
+   "at": "2026-10-12 20:20",
+   "why": "반도체 칸·원익IPS 대기 — HBF(고대역 낸드) 테마. 종목명은 원문 미확인",
+   "summary": "골드만이 고성능 낸드(HBF)를 AI 메모리 병목 해법으로 보고 수혜주 3곳 제시. 세 종목·목표가는 미확인."
+  },
+  {
    "title": "후티 리야드 공항 공습으로 글로벌 항공업 악재 겹쳐",
    "url": "https://www.benzinga.com/markets/commodities/26/10/62289687/global-airline-industrys-woes-go-from-bad-to-worse-with-deadly-houthi-strikes-on-riyadh-airport",
    "press": "Benzinga",
@@ -607,38 +639,6 @@
    "at": "2026-10-11 13:35",
    "why": "반도체 칸·하이닉스 오름 bet(1,681,000) — 자사주 종료·외국인 매도 속 실적 눈높이 확인",
    "summary": "3Q 매출 95.8조·영업익 75.1조(OPM 78.4%) · D램 영업익 59.2조·낸드 15.9조 · 2026 주주환원 최소 90조 추정"
-  },
-  {
-   "title": "애플 공급사 럭스셰어, 바이코 특허 관련 미 ITC 조사 피소 공시 — '중대한 영향 없음'",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-11/apple-supplier-luxshare-expects-no-material-impact-from-us-probe",
-   "press": "Bloomberg",
-   "at": "2026-10-11 11:38",
-   "why": "⚡ VICR 바이코 오름 bet(대기) — 원고 바이코의 337조사 범위가 애플 공급망 대형사까지 공식 확인",
-   "summary": "럭스셰어가 10/10 공시: 데이터센터 전력 기술 관련 바이코의 특허 침해 주장으로 미 특허 조사 대상. 회사는 실적 영향 제한 주장."
-  },
-  {
-   "title": "트럼프, 우크라이나에 '러시아 정유공장 공격 중단' 공개 요구… 하루 전 러시아산 디젤 제재 완화·공급 협정",
-   "url": "https://wallstreetcn.com/articles/3783348",
-   "press": "월스트리트견문",
-   "at": "2026-10-11 11:30",
-   "why": "에너지 칸·USO bet — 디젤(정제마진) 공급 완화 신호, 원유 상방 논지엔 상충 변수",
-   "summary": "트럼프 '젤렌스키는 즉시 멈춰야, 새 대통령 필요' 발언. 미국은 하루 전 러시아산 디젤 제재 완화·공급 협정 체결."
-  },
-  {
-   "title": "키움증권 \"삼성E&A 3분기 영업익 2,760억, 컨센 2,481억 상회\" — 목표가 73,000원",
-   "url": "https://stockhub.kr/news/news_31a0cb4e60aa",
-   "press": "stockhub(키움증권 리포트)",
-   "at": "2026-10-11 10:45",
-   "why": "선제 bet 028050 삼성E&A 근거 — 실적 발표 전 컨센 상향 여지, 반도체 공장 수주 얹힘(einfomax 10/11)",
-   "summary": "3Q 영업익 2,760억 전망(+56.3% YoY), 컨센 2,481억 대비 +11%. 중동 분쟁·원화 강세 부담은 선물환으로 상쇄. 대형 수주 시 연간 가이던스 상향 가능."
-  },
-  {
-   "title": "펭귄솔루션스, 사상 최대 분기·FY27 가이던스 상향에 +13% — 메모리 매출 3배",
-   "url": "https://www.tikr.com/blog/penguin-solutions-soars-13-on-record-quarter-and-raised-outlook-the-proof-is-in-the-results",
-   "press": "TIKR",
-   "at": "2026-10-11 10:45",
-   "why": "반도체 칸 'AI 이익은 진짜' 논지 보강 — AI 서버용 메모리 수요",
-   "summary": "4Q 매출 5.67억$(+68%, 예상 5.21억$), EPS 1.00$(예상 0.77$). 통합 메모리 매출 3.41억$(전년 1.32억$). FY27 EPS 가이던스 4.45$(이전 컨센 3.38$)."
   }
  ],
  "at": "2026-10-12 18:35"
