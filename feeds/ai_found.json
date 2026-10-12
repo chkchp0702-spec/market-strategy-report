@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "후티, 리야드 공항 등 사우디 3곳 타격 주장(미확인) — 브렌트 100달러대 프리미엄 유지",
+   "url": "https://investinglive.com/commodities/houthis-claim-strikes-on-three-saudi-sites-including-riyadh-airport-unconfirmed/",
+   "press": "investingLive",
+   "at": "2026-10-13 05:40",
+   "why": "S-Oil 선제 bet(#20261013-05)·유가 105달러 → 정유·인플레(CPI) 논지",
+   "summary": "킹칼리드(리야드)·아브하 공항·카미스무샤이트 공군기지 공격 주장, 사우디 확인 없음. 지잔·나즈란 공항 피격 3명 부상. '실제 물량보다 헤드라인 리스크' 평가"
+  },
+  {
+   "title": "후티, 리야드 아람코 시설 미사일·드론 공격 주장 — 정유소 화염 위성 확인",
+   "url": "https://ground.news/article/12358a54-6f74-4e6b-8bc6-11f8def8378b",
+   "press": "Ground News(AFP 인용)",
+   "at": "2026-10-13 05:40",
+   "why": "중동 공급 리스크가 10월 내내 이어지는 근거 — 정유·에너지 칸, 고금리 논지(유가→물가)",
+   "summary": "10/3 공격 주장, 아람코·사우디 당국 피해 미확인. 이후 브렌트 106달러 돌파. 리야드 공항 연쇄 공격 보도"
+  },
+  {
+   "title": "(선례) CXMT 상장 날 미 메모리주 급락 — SOX −2.23%·샌디스크 −11%·하이닉스 ADR −7.5%",
+   "url": "https://www.tmgm.com/en/analysis/market-news/cxmt-ipo-memory-chip-selloff",
+   "press": "TMGM",
+   "at": "2026-10-13 05:40",
+   "why": "10/12 밤 'CXMT 굴기 반도체 투매'(SOX −2.67%)의 7/27 선례 — 메모리 대형주 진입 시점 판단",
+   "summary": "7/27 CXMT 상장 첫날 +466%, 시총 3.28조 위안. CXMT DRAM 가격 경쟁사보다 5~10% 낮음. 2분기 DRAM 계약가 +58~63%(트렌드포스)"
+  },
+  {
    "title": "JP모건 3분기 실적 프리뷰 — 컨센 매출 508억$·EPS 5.86$, 연간 NII 1,055억$ 가이던스",
    "url": "https://www.hudson-labs.com/research/jpmorgan-q3-2026-earnings-preview-revenue-guidance-outlook",
    "press": "Hudson Labs",
@@ -15,14 +39,6 @@
    "at": "2026-10-13 04:40",
    "why": "고금리 논지의 깨짐 조건(근원 둔화)과 직결 — ^TNX bet·현금·단기채 칸",
    "summary": "9월 CPI(14일) 헤드라인 m/m +0.6%(전월 0.4)·연 3.6%, 근원 m/m +0.2%(전월 0.3)·연 2.5%. JPM Q3 EPS 5.90$(+16.4%)·매출 513억$(+8.8%)"
-  },
-  {
-   "title": "다이먼 '기업 차입자들, 신용의 진짜 비용을 곧 알게 될 것'",
-   "url": "https://www.thewealthadvisor.com/article/jamie-dimon-says-corporate-borrowers-are-about-find-out-what-credit-really-costs",
-   "press": "The Wealth Advisor",
-   "at": "2026-10-06 00:00",
-   "why": "13일 JPM 실적 앞 은행 칸(KBE·KB금융 bet)·소형주(IWM 대기 취소 근거)와 이어짐",
-   "summary": "'시장은 더 요구할 것' — 스프레드 확대·조건 강화. 만기 임박·현금흐름 약한·차환 의존 기업 조달비용 상승. 신용시장 기능은 유지되나 가격이 오른다(구체 수치 없음)."
   },
   {
    "title": "골드만, 글로벌 주식 3개월 '비중확대' 상향 — 아시아·미국 선호, 유럽 비중축소, 국채도 12개월 비중확대",
@@ -623,22 +639,6 @@
    "at": "2026-10-11 21:34",
    "why": "유가·금·VIX 열린/대기 bet(USO·GLD·^VIX) 꼬리 위험 축소 쪽 재료 — 후티 대응 합류 검토와 엇갈림",
    "summary": "10/9 트럼프가 중간선거 전 이란 신규 공격을 배제. WSJ 는 이후 유가 '안정' 보도. 10/11엔 사우디의 후티 대응 합류 '검토' 발언(CNBC)으로 방향 엇갈림."
-  },
-  {
-   "title": "유가, 트럼프 '선거 전 이란 공습 없음'에 급락",
-   "url": "https://oilprice.com/Energy/Oil-Prices/Oil-Prices-Plunge-as-Trump-Rules-Out-Iran-Strikes-Before-Midterms.amp.html",
-   "press": "OilPrice",
-   "at": "2026-10-11 21:34",
-   "why": "원유 대기 bet(USO) 진입 여부 판단 — 지정학 프리미엄이 정치 일정에 묶여 있음",
-   "summary": "트럼프 발언 직후 유가 급락 보도(낙폭 숫자 미확인). 이후 걸프 상선 피격·리야드 공항 공격으로 다시 긴장."
-  },
-  {
-   "title": "엔비디아, GDDR7 메모리 원가 상승으로 RTX 5090 가격 인상 준비",
-   "url": "https://mp1st.com/news/nvidia-preparing-rtx-5090-price-increase",
-   "press": "MP1st",
-   "at": "2026-10-11 20:34",
-   "why": "메모리 원가 급등이 GPU 완제품 가격으로 전가 — 반도체 칸·하이닉스 bet·삼성전자 대기 bet",
-   "summary": "GDDR7 메모리 원가 상승을 이유로 RTX 5090 가격 인상 준비 보도. 중국 언론은 AMD GDDR6 인상·RTX 5090 생산 중단 가능성까지 전함(HANAchina/70226). 세부 인상폭 미확인."
   }
  ],
  "at": "2026-10-13 04:45"
