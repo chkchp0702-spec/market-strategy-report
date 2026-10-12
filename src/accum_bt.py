@@ -354,7 +354,8 @@ def pstats(x: pd.Series) -> dict:
     if len(x) == 0:
         return {"n": 0}
     pos, neg = x[x > 0].sum(), -x[x < 0].sum()
-    return {"n": int(len(x)), "avg": round(float(x.mean()), 2), "med": round(float(x.median()), 2),
+    return {"n": int(len(x)), "avg": round(float(x.mean()), 2), "avg_w": round(float(x.clip(-100, 300).mean()), 2),
+            "glitch": int((x.abs() > 1000).sum()), "med": round(float(x.median()), 2),
             "win": round(float((x > 0).mean()) * 100, 1), "pf": round(float(pos / neg), 2) if neg > 0 else None,
             "p10": round(float(x.quantile(0.1)), 1)}
 
@@ -419,7 +420,7 @@ def stats():
     out = {"made": dt.datetime.now(KST).strftime("%F %H:%M"),
            "rule": {"params": A, "entry": "신호 다음 거래일 종가", "cost": "왕복 0.5% (한국 0.45%)",
                     "is": f"{IS_START}~{IS_END}", "oos": f"{OOS_START}~", "dedupe": "같은 종목 20거래일 안 재신호 무시",
-                    "exits": "r/x=고정 20·40·60일(수익/지수초과), s8=−8% 손절·60일 한도, tr=고점대비 −15% 추적·60일 한도"},
+                    "avg_w": "평균을 −100%~+300% 로 자른 값 (시세 오류 한두 개가 평균을 망치는 것 방지)", "exits": "r/x=고정 20·40·60일(수익/지수초과), s8=−8% 손절·60일 한도, tr=고점대비 −15% 추적·60일 한도"},
            "logs": logs, "raw_rows": int(len(df)), "variants": {}, "by_market": {}, "diag": {}}
     V = variants()
     mk = sorted(df["mkt"].unique())
