@@ -14,6 +14,36 @@ CASH_BY_QUAD = {"상승 국면": 5, "시장 우위": 5, "경기 속 조정": 10,
 CASH_BY_QUAD.update({"🟢 상승장": 0, "🔴 상승장 아님": 26})
 TILT_UP, TILT_DN = 1.25, 0.75
 
+# 🦴 변동성 맞춤 비중 (10/12 사용자 결정: "변동성 맞춤도 넣어. 늘 방어도 중요해. 기본·킥·집중에 따라 다르게") — 검증 src/skel_bt.py roles
+#   주식 칸(금·현금 빼고) × 배율, 배율 = min(1, 목표 ÷ S&P500½+나스닥100½ 의 최근 lb일 실현 변동성(연율)), 아래 한도 floor · 1배 넘게 안 실음
+#   덜어낸 만큼 현금·단기채 칸 · 배율은 5%p 넘게 바뀔 때만 따라감(hold_band) · 2026-10-13(다음 거래일)부터, 그 전 성적은 소급 안 함
+VOL_FROM = "2026-10-13"
+VOL_BAND = 0.05
+VOL_ROLES = {"base": {"role": "방어형", "lb": 20, "target": 15, "floor": 0.5},
+             "kick": {"role": "중간", "lb": 20, "target": 18, "floor": 0.6},
+             "conc": {"role": "공격형", "lb": 20, "target": 22, "floor": 0.8}}
+
+
+def raw_scale(vol, target, floor):
+    """vol: 연율 소수(0.14) · target: % 숫자(15) → 배율 0~1"""
+    if vol is None or vol != vol or vol <= 0:
+        return 1.0
+    return max(floor, min(1.0, target / 100 / vol))
+
+
+def hold_band(vals, band=VOL_BAND):
+    """배율 줄 → 5%p 넘게 바뀔 때만 따라가는 줄 (잦은 매매 막기)"""
+    out, cur = [], None
+    for v in vals:
+        if cur is None or abs(v - cur) >= band - 1e-9:
+            cur = v
+        out.append(cur)
+    return out
+
+
+def is_gold(name: str) -> bool:
+    return name.strip() == "금" or name.startswith("금 ") or "금현물" in name
+
 
 def quad(c, t):
     """daily-app regime.py 의 quad 와 같은 경계"""

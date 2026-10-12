@@ -35,6 +35,7 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src.conc_bt import stats, regimes, START, IS_END, OOS_START, KST   # noqa: E402
+from src.rules7 import hold_band, VOL_BAND, VOL_ROLES   # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "market" / "skel_bt.json"
@@ -50,6 +51,15 @@ SKEL_LAB = {"C_static": "💼 기본 C안 그대로", "C_reg": "⚡ 킥 기본 �
 VOL_GRID = list(itertools.product([20, 60], [12, 15, 18], [0.3, 0.5]))
 GOLD_GRID = [("fix", 0, None), ("fix", 5, None), ("fix", 10, None)] + [("rule", g, f) for g in (5, 10, 15) for f in ("eq", "cash")]
 BAND = 0.10
+# 🦴 역할별 변동성 맞춤 (10/12 사용자 결정 「기본·킥·집중에 따라 다르게」) — 앞 기간에서만 고름, 실제 운용과 같은 5%p 밴드
+ROLES = {
+    "base": {"skel": "C_static", "role": "방어형", "grid": list(itertools.product([20, 60], [12, 15, 18], [0.3, 0.4, 0.5, 0.6])),
+             "how": "앞 기간 최대낙폭이 가장 얕은 것 (앞 기간 CAGR 손해 2%p 이내)"},
+    "kick": {"skel": "C_reg", "role": "중간", "grid": list(itertools.product([20, 60], [15, 18, 20], [0.5, 0.6, 0.7])),
+             "how": "앞 기간 샤프 1등"},
+    "conc": {"skel": "conc", "role": "공격형", "grid": list(itertools.product([20, 60], [20, 22, 25], [0.7, 0.8])),
+             "how": "앞 기간 최대낙폭을 3%p 이상 줄인 것 중 앞 기간 CAGR 손해가 가장 작은 것"},
+}
 
 
 def sticky(s: pd.Series, k=3) -> pd.Series:
@@ -91,7 +101,7 @@ def target(skel, up, gold_on, scale, gold_cfg):
     return np.array([e / 2, e / 2, g_, 1 - e - g_])
 
 
-def simulate(C, R, regv, goldv, scale_arr, skel, gold_cfg, start, end):
+def simulate(C, R, regv, goldv, scale_arr, skel, gold_cfg, start, end, band=None):
     idx = C.index
     sel = np.where((idx >= pd.Timestamp(start)) & (idx <= pd.Timestamp(end)))[0]
     wk = idx.isocalendar().week.values
@@ -112,7 +122,7 @@ def simulate(C, R, regv, goldv, scale_arr, skel, gold_cfg, start, end):
         up, go, sc = bool(regv[i]), bool(goldv[i]), float(scale_arr[i])
         nt = target(skel, up, go, sc, gold_cfg)
         eqs.append(nt[0] + nt[1])
-        if wk[i] != last[0] or up != last[1] or (gold_cfg and gold_cfg[0] == "rule" and go != last[2]) or abs(nt[0] + nt[1] - last[3]) > BAND:
+        if wk[i] != last[0] or up != last[1] or (gold_cfg and gold_cfg[0] == "rule" and go != last[2]) or abs(nt[0] + nt[1] - last[3]) > (BAND if band is None else band):
             pend = nt
             last = (wk[i], up, go, nt[0] + nt[1])
     dates = idx[sel]
@@ -226,6 +236,39 @@ def main() -> int:
             b, bn = run(skel)
             combo[skel] = {"vol": pv["vol"], "gold": pg["gold"], "is": o["is"], "oos": o["oos"],
                            "verdict": judge(o["oos"], b["oos"], n["oos"], bn["oos"])}
+    # 🦴 역할별 고르기 (앞 기간만) — 배율은 실제 운용처럼 5%p 넘게 바뀔 때만 따라감
+    roles = {}
+    for rk, RD in ROLES.items():
+        sk = RD["skel"]
+        b_is = simulate(C, R, regv, goldv, ones, sk, None, START, IS_END)[0]
+        b_oos = simulate(C, R, regv, goldv, ones, sk, None, OOS_START, end)[0]
+        bs = {"is": summ(b_is, spy), "oos": summ(b_oos, spy)}
+        cand = []
+        for lb, tg, fl in RD["grid"]:
+            raw = np.clip(tg / 100 / RV[lb].bfill().values, fl, 1.0)
+            held = np.array(hold_band(list(raw), VOL_BAND))
+            o = {"lb": lb, "target": tg, "floor": fl}
+            for nm, a, b_ in PER:
+                nav, t, eqm = simulate(C, R, regv, goldv, held, sk, None, a, b_, band=0.0)
+                o[nm] = summ(nav, spy); o[nm]["turn"] = t; o[nm]["eq_avg"] = eqm
+            cand.append(o)
+        bi = bs["is"]
+        if rk == "base":
+            ok = [c for c in cand if c["is"]["cagr"] >= bi["cagr"] - 2.0]
+            pick = max(ok, key=lambda c: (c["is"]["mdd"], c["is"]["sharpe"])) if ok else None
+        elif rk == "kick":
+            pick = max(cand, key=lambda c: (c["is"]["sharpe"], c["is"]["mdd"]))
+        else:
+            ok = [c for c in cand if c["is"]["mdd"] >= bi["mdd"] + 3] or [c for c in cand if c["is"]["mdd"] > bi["mdd"]]
+            pick = max(ok, key=lambda c: (c["is"]["cagr"], c["is"]["mdd"])) if ok else None
+        live = VOL_ROLES.get(rk)
+        live_row = next((c for c in cand if live and c["lb"] == live["lb"] and c["target"] == live["target"] and abs(c["floor"] - live["floor"]) < 1e-9), None)
+        roles[rk] = {"skel": sk, "role": RD["role"], "how": RD["how"], "base": bs, "pick": pick, "live": live, "live_row": live_row,
+                     "cand": [{k: c[k] for k in ("lb", "target", "floor")} | {nm: {x: c[nm][x] for x in ("cagr", "mdd", "sharpe", "worst_yr", "turn", "eq_avg")} for nm in ("is", "oos")} for c in cand]}
+        if pick:
+            print("ROLE", rk, sk, "pick", pick["lb"], pick["target"], pick["floor"],
+                  "| base IS", bi["cagr"], bi["sharpe"], bi["mdd"], "OOS", bs["oos"]["cagr"], bs["oos"]["sharpe"], bs["oos"]["mdd"],
+                  "| pick IS", pick["is"]["cagr"], pick["is"]["sharpe"], pick["is"]["mdd"], "OOS", pick["oos"]["cagr"], pick["oos"]["sharpe"], pick["oos"]["mdd"], "turn", pick["oos"]["turn"])
     # 오늘 상태
     now = {"date": str(end.date()), "up": bool(reg.iloc[-1]),
            "vol20": round(float(RV[20].iloc[-1]) * 100, 1), "vol60": round(float(RV[60].iloc[-1]) * 100, 1),
@@ -233,7 +276,7 @@ def main() -> int:
            "gld_gap": round(float(C["GLD"].iloc[-1] / C["GLD"].rolling(200).mean().iloc[-1] - 1) * 100, 1),
            "gold_on": bool(gold_on.iloc[-1])}
     out = {"at": dt.datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "to": str(end.date()), "is": [START, IS_END], "oos": [OOS_START, str(end.date())],
-           "skel_lab": SKEL_LAB, "vol_grid": VOL_GRID, "gold_grid": GOLD_GRID, "families": fam, "combo": combo, "now": now,
+           "skel_lab": SKEL_LAB, "vol_grid": VOL_GRID, "gold_grid": GOLD_GRID, "families": fam, "combo": combo, "roles": roles, "now": now,
            "spy": {nm: summ(spy[a:b] / spy[a:b].iloc[0], spy) for nm, a, b in PER},
            "rows": rows,
            "rule": "고르기: 앞 기간 CAGR ≥ 기준−1.0%p 중 앞 기간 샤프 1등 · 채택: 시험 기간 (샤프 +0.05↑ & 해마다 한 해 빼도 샤프 우위) 또는 (낙폭 3%p↑ 개선 & 기준 −10%↓ 해 중 2개 해 이상 2%p↑ 덜 빠짐 & 3%p 넘게 더 빠진 해 없음), 그리고 CAGR −0.5%p 이내",
