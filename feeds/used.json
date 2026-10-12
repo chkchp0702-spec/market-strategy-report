@@ -1,63 +1,39 @@
 {
- "date": "2026-10-12",
- "read": 593,
+ "date": "2026-10-13",
+ "read": 75,
  "items": [
   {
-   "id": "kimu_nim/46530",
-   "why": "⚡ 킥 — 미 러시아 디젤 수입 허용·두바이 108.5·정제마진 37.1$ (하나 윤재성), 미국 안 기름값만 눌림"
+   "id": "kimu_nim/46668",
+   "why": "⚡ 킥 — 대신 이경민: 반도체 수출 +170.9%·외국인 국채선물 +3.16조 (숫자 카드·패널 28)"
   },
   {
-   "id": "HANAchina/70207",
-   "why": "⚡ 킥·3쪽 발언 — 골드만 「브렌트 위험 프리미엄 $22, 재고 6.6억 배럴 감소」"
+   "id": "globalmktinsight/7675",
+   "why": "숫자 카드(환율 2년 만 최저)·🔥 해운 HMM·팬오션·VLCC 운임 (2쪽 한국 연결)"
   },
   {
-   "id": "kimu_nim/46542",
-   "why": "2쪽 무슨 일이 있었나 — 리야드 공항 하루 만에 또 피격(킥의 「미사일」 쪽)"
+   "id": "kimu_nim/46671",
+   "why": "한국 마감 숫자 검산(코스피·외국인 −20,186억·삼성·하닉)"
   },
   {
-   "id": "n/1pcFQ5RnFaVXpfYUxWRG1acC1mYnR6d3ZtdXpxbTBBUFJkcU9ock1wbXcoc5",
-   "why": "2쪽 — 걸프 증시 하락(로이터)"
+   "id": "kimu_nim/46664",
+   "why": "패널 29 키움 한지영 「국내 고유 요인·이틀 급락 과도」 (3쪽·4쪽)"
   },
   {
-   "id": "n/tsSWxkcDBVU1ZBb3ZKUmd2V0FKejhMOUJkOGFYazRBSjZWTmRRLTNQRWMoc5",
-   "why": "1쪽 금리 카드·반대 의견 — 월러 매파 전환"
+   "id": "HANAchina/70297",
+   "why": "패널 8 모건스탠리 윌슨 「채권이 연준 대신 긴축」·은행 실적 신호 → 예고 ③"
   },
   {
-   "id": "n/tMks5Qzh6dGNkRkRLcUQ3NkZicmtXeDdiYVNDV2RVa1dLc2FWYmlHQ3ZYoc5",
-   "why": "2쪽 — 대법원, 리사 쿡 해임 일단 막음"
+   "id": "HANAchina/70288",
+   "why": "5쪽 발언 — CCC 스프레드 1,000bp·은행주 과매도 (🧠 AI 크레딧 논지)"
   },
   {
-   "id": "HANAchina/70209",
-   "why": "3쪽 발언 — 골드만 「사실상 AI 하나의 거래」, C안 코어로 간 이유"
+   "id": "james_lee_advisors/224439072957",
+   "why": "패널 31 James Lee 10/12 레터 — 고금리 고착·은행 수혜 공식 깨짐"
   },
   {
-   "id": "n/3SUNJb3lTdkl4NENvTWVwamNVY2pRZmxieE4xR1ZYNDNfLXRqV1VOWVV3oc5",
-   "why": "🎯 집중 이유 — 골드만 「AI 거래가 하드웨어→애플리케이션으로」"
-  },
-  {
-   "id": "n/DBZcHduMHNIQWtBc0dfWHAwLTBxMXpHUUstVEhpdF9Yd01KZFZILWRYZwoc5",
-   "why": "🔥 한국 연결 — 미 은행 보안 인력이 한국의 47배"
-  },
-  {
-   "id": "kimu_nim/46535",
-   "why": "3쪽 발언 — 하나 반도체 「메모리 가격 예상 상회·LPDDR 부족 최심」, 🧭 반도체 10 유지"
-  },
-  {
-   "id": "kimu_nim/46550",
-   "why": "2쪽 한국 — 삼성 외국인 지분율 46%·17년여 만 최저"
-  },
-  {
-   "id": "kimu_nim/46544",
-   "why": "2쪽 한국 — 코스피 두 달 박스권, 올해 가장 긴 횡보"
-  },
-  {
-   "id": "n/VhNGZHTWI0MTlvRUo0OGdHckc5VXBMc0xlbFM2bmJyeUJrNF93RFhaYWcoc5",
-   "why": "2쪽 한국 — 개인 3분기 코스피 5.6조 매도·미국 10.2조 매수"
-  },
-  {
-   "id": "HANAchina/70206",
-   "why": "🧠 애플 논지 채점 — 아이폰 듀오 주문 30% 확대(수요 둔화 반박 보도)"
+   "id": "kwusa/61144",
+   "why": "7쪽 이번 주 일정(은행 실적·CPI·TSMC·옵션 만기)"
   }
  ],
- "skip": "중복 속보(같은 기사 여러 채널) 약 80 · 내부자 소액 매매·스포츠·사건사고·부동산 잡담 약 200 · 오늘 이야기와 무관(일본 신문 구독률·화장품 용기 등) 약 250 · 날짜 지난 기사 재유통(Williams 확률·'다우 3월 이후 최악') 확인 후 버림"
+ "skip": "내 피드 75개 중 8개 반영 · 안 씀: 링크만 있는 글·중복 속보 약 25 · 오늘 이야기와 무관(바이오 공시·중국 자동차·인도 물가·개별 종목 분석) 약 40 · 뉴스 피드 제목 약 780개는 훑어서 사실 확인용으로만"
 }

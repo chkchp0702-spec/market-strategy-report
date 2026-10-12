@@ -39,12 +39,21 @@ def panel_view(led: dict, today: list[dict]) -> list[dict]:
         # 오늘 판정은 '미리보기' — commit 시 장부에 반영됨. 장부가 이미 반영된 뒤 재빌드해도 중복되지 않도록
         # 오늘 verdict 를 장부에 적용했는지는 led['_applied'] 에 날짜로 기록.
         last = dict(p.get("last", {}))
-        if t.get("new_quote"):
-            last.update(t["new_quote"])
+        old_date = last.get("date", "")
+        nq = t.get("new_quote") or {}
+        if nq:
+            last.update(nq)
+        # 칸마다 발언 날짜 — 새 발언 칸은 새 날짜, 안 바뀐 칸은 예전 날짜(q?_date 가 있으면 그것)
+        qdates = {}
+        for q in ("q1", "q2", "q3"):
+            if q in nq:
+                qdates[q] = nq.get("date", "")
+            else:
+                qdates[q] = last.get(q + "_date") or old_date
         rows.append({
             **p, "last": last,
             "q1": last.get("q1", ""), "q2": last.get("q2", ""), "q3": last.get("q3", ""),
-            "qdate": last.get("date", ""),
+            "qdate": last.get("date", ""), "qdates": qdates,
             "today": t.get("today", ""), "verdict": t.get("verdict", ""),
             "is_new": bool(t.get("new_quote")),
             "cum": f"{win}:{loss}",
@@ -80,7 +89,13 @@ def commit(led: dict, day: dict) -> dict:
         elif t.get("verdict") == "loss":
             p["loss"] += 1
         if t.get("new_quote"):
-            p["last"] = {**p.get("last", {}), **t["new_quote"]}
+            old = dict(p.get("last", {}))
+            for q in ("q1", "q2", "q3"):
+                if q in old and q not in t["new_quote"] and not old.get(q + "_date"):
+                    old[q + "_date"] = old.get("date", "")
+                if q in t["new_quote"]:
+                    old.pop(q + "_date", None)
+            p["last"] = {**old, **t["new_quote"]}
     # 패널 밖
     omap = {o["name"]: o for o in day.get("outside_today", [])}
     for o in led["outside_panel"]:

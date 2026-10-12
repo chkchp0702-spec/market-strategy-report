@@ -129,7 +129,7 @@
   <tr class="sec"><td colspan="7">{{ sec.title }}</td></tr>
   {% for r in sec.rows %}
   <tr><td>{{ r.n }}</td><td>{% if r.is_new or r.verdict %}<b>{{ r.name }}</b>{% else %}{{ r.name }}{% endif %}</td>
-   {% for q in ['q1','q2','q3'] %}<td class="{{ '' if r.is_new else 'g' }}">{% if r[q] %}{{ r[q] }}{% if r.qdate %} ({{ r.qdate }}){% endif %}{% else %}—{% endif %}</td>{% endfor %}
+   {% for q in ['q1','q2','q3'] %}<td class="{{ '' if r.is_new else 'g' }}">{% if r[q] %}{{ r[q] }}{% set qd = (r.qdates[q] if r.qdates is defined and r.qdates else r.qdate) %}{% if qd %} ({{ qd }}){% endif %}{% else %}—{% endif %}</td>{% endfor %}
    <td>{% if r.verdict == 'win' %}<span class="pt g">득점</span> {% elif r.verdict == 'loss' %}<span class="pt r">실점</span> {% endif %}{{ r.today | replace('득점 — ', '') | replace('실점 — ', '') | replace('득점', '') | replace('실점', '') }}</td>
    <td>{{ r.cum }}</td></tr>
   {% endfor %}
