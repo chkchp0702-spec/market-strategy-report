@@ -1,0 +1,30 @@
+name: data-pull
+# 🧰 시세 받기 도구 — 수동 실행만. 결과는 커밋하지 않고 artifact 로만 (7일 보관)
+on:
+  workflow_dispatch:
+    inputs:
+      tickers:
+        description: "쉼표로 구분한 야후 티커"
+        required: true
+      start:
+        description: "시작일 YYYY-MM-DD"
+        required: true
+        default: "2000-01-01"
+permissions:
+  contents: read
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yfinance pandas
+      - run: python tools/data_pull.py "${{ github.event.inputs.tickers }}" "${{ github.event.inputs.start }}" out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: data
+          path: out
+          retention-days: 7
