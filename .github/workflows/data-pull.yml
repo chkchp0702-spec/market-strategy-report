@@ -1,5 +1,5 @@
 name: data-pull
-# 🧰 시세 받기 도구 — 수동 실행만. 결과는 커밋하지 않고 artifact 로만 (7일 보관)
+# 🧰 시세 받기 도구 — 수동 실행만. 결과는 main 에 커밋하지 않고 덮어쓰는 datapull 브랜치(커밋 1개)로
 on:
   workflow_dispatch:
     inputs:
@@ -11,7 +11,7 @@ on:
         required: true
         default: "2000-01-01"
 permissions:
-  contents: read
+  contents: write
 jobs:
   pull:
     runs-on: ubuntu-latest
@@ -23,8 +23,10 @@ jobs:
           python-version: "3.12"
       - run: pip install -q yfinance pandas
       - run: python tools/data_pull.py "${{ github.event.inputs.tickers }}" "${{ github.event.inputs.start }}" out
-      - uses: actions/upload-artifact@v4
-        with:
-          name: data
-          path: out
-          retention-days: 7
+      - name: datapull 브랜치에 덮어쓰기
+        run: |
+          cd out
+          git init -q -b datapull
+          git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
+          git add -A && git commit -qm "data-pull $(date -u +%F)"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" datapull
