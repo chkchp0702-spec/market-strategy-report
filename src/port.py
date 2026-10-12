@@ -428,7 +428,7 @@ def main() -> int:
                     " ".join(x for k, x in (("cash", f"① 현금 = 🎯 판정 「{qd_now}」(S&P500 200일선) → {cash_t}%"), ("tilt", "③ S&P 대비 3·6개월 강한 칸 ×1.25 · 약한 칸 ×0.75"),
                                              ("brake", "④ 200일선 아래 칸 0 · 50일선 아래이면서 S&P보다 약한 칸 ½"),
                                              ("vol", f"🦴 변동성 맞춤({VP_KICK['role']}) 주식 칸 × min(1, {VP_KICK['target']}% ÷ {VP_KICK['lb']}일 변동성)·아래 한도 {round(VP_KICK['floor'] * 100)}% ({VOL_FROM}부터)")) if k in USE) +
-                    " · 검증에서 효과가 없던 규칙은 꺼 둠(market/rules_bt.json). 💼 기본 포트는 리포트 배분표 그대로(대조군)."}
+                    f" · 검증에서 효과가 없던 규칙은 꺼 둠(market/rules_bt.json). 💼 기본 포트는 리포트 배분표 + 🦴 변동성 맞춤(방어형, {VOL_FROM}부터)."}
     # 🧭 섹터 의견 그림자 — 리포트 섹터 판단(배분표 밖)이 같은 기간 코어(S&P½+나스닥½)보다 나았나
     views = None
     if VIEWS.get("views"):
