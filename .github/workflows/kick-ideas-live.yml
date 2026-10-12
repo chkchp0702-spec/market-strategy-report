@@ -1,0 +1,27 @@
+name: kick-ideas-live
+# ⚡ 킥 새 아이디어 오늘 신호 (src/kick_ideas_bt.py live → market/kick_ideas_live.json, src/kick_sleeve.py 가 읽음)
+#   미국 장 끝난 뒤 KST 07:20 (화~토) — 한국·일본은 전날 신호를 다음 날 종가에 사므로 이 시각이면 충분
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 22 * * 1-5"
+permissions:
+  contents: write
+concurrency:
+  group: push-${{ github.repository }}-${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yfinance pandas numpy lxml requests
+      - run: python src/kick_ideas_bt.py live
+      - name: 저장
+        run: |
+          git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
+          bash scripts/push.sh "kick-ideas-live $(TZ=Asia/Seoul date '+%F %H:%M')" market/kick_ideas_live.json

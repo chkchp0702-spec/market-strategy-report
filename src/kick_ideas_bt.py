@@ -419,6 +419,10 @@ def verdict(oos: dict, min_n=100) -> tuple[str, str]:
         return "❌", "시험 기간 표본 없음"
     s = f"시험 기간 {n}건 · 지수 초과 {xa:+.2f}% · 손익비 {pf} · 가장 좋은 해 빼면 {xeb if xeb is not None else '-'}"
     ok = n >= min_n and xa > 0 and (pf or 0) >= 1.3 and (xeb is None or xeb > 0)
+    yrs = sorted((oos.get("by_year") or {}).items())[-3:]
+    decay = len(yrs) == 3 and all((v.get("x") or 0) < 0 for _, v in yrs)
+    if ok and decay:   # 10/12 추가: 기준은 통과해도 최근 3년 연속 지수에 졌으면 한 단계 낮춤 (엣지가 닳고 있을 수 있음)
+        return "🧪", s + f" — 기준은 통과했지만 최근 3년({', '.join(y for y, _ in yrs)}) 연속 지수 초과 마이너스 → 절반 크기로 시험"
     if ok:
         return "✅", s
     if xa > 0 and (pf or 0) >= 1.2 and n >= 30:
@@ -461,7 +465,7 @@ def stats():
            "rule": {"entry": "신호 다음 거래일 종가", "cost": "왕복 0.5% (한국 0.45%)", "excess": "같은 기간 그 시장 지수(S&P500·코스피·닛케이·항셍·상해) 대비",
                     "stock_split": f"앞 {IS_START}~{IS_END}(고르기) · 뒤 {OOS_START}~(시험)", "macro_split": f"앞 ~{M_IS_END}(고르기) · 뒤 {M_OOS_START}~(시험)",
                     "dedupe": "같은 종목 20거래일 안 재신호 무시", "exits": EXIT_DOC,
-                    "adopt": "✅ = 시험 기간 n≥100 · 비용 뺀 지수 초과 평균 > 0 · 손익비(비용 뺀 수익) ≥ 1.3 · 가장 좋은 해를 빼도 초과 > 0 (8·10 은 여러 해면 n 적어도 됨). "
+                    "adopt": "✅ = 시험 기간 n≥100 · 비용 뺀 지수 초과 평균 > 0 · 손익비(비용 뺀 수익) ≥ 1.3 · 가장 좋은 해를 빼도 초과 > 0 (8·10 은 여러 해면 n 적어도 됨) · 최근 3년 연속 초과 마이너스면 한 단계 낮춤. "
                               "🧪 = 초과 > 0 · 손익비 ≥ 1.2 · n ≥ 30 (절반 크기). 👻 = 절대 수익만 플러스(그림자 채점). ❌ = 그 밖",
                     "survivorship": "유니버스 = 오늘 상장 목록(미국은 오늘의 S&P500+400) → 생존자 편향으로 과거 성적이 부풀려졌을 수 있음",
                     "earnings": "7은 실제 실적 발표일이 아니라 「분기 끝 +8~55일 · 큰 갭 · 큰 거래량」 대용"},
@@ -551,6 +555,9 @@ def stats():
         oo, oi = v10["OOS"], v10["IS"]
         better = ((oo["C_plus5"].get("sharpe") or 0) >= (oo["C"].get("sharpe") or 0) and (oo["C_plus5"].get("mdd") or -99) >= (oo["C"].get("mdd") or -99))
         ok10 = (oo["sleeve"].get("cagr") or 0) > 0 and (oo["trades"].get("pf") or 0) >= 1.3 and better
+        ly = sorted((v10.get("by_year") or {}).items())[-3:]
+        if ok10 and len(ly) == 3 and all(x < 0 for _, x in ly):
+            ok10 = False
         vd10 = "✅" if ok10 else ("🧪" if (oo["sleeve"].get("cagr") or 0) > 0 and (oo["trades"].get("pf") or 0) >= 1.2 else ("👻" if (oo["sleeve"].get("cagr") or 0) > 0 else "❌"))
         out["ideas"]["trend"] = {"pick": {"rule": k10, "how": "앞 기간(데이터 시작~2016) 슬리브 샤프 최대"}, "IS": oi, "OOS": oo, "by_year": v10.get("by_year"),
                                  "open": v10.get("open"), "verdict": vd10, "data_start": M.get("trend_start_data"),
