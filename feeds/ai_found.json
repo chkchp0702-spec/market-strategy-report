@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "코스피, 외국인 매도에 6400선 위협…코스닥도 4% 하락",
+   "url": "https://www.newspim.com/news/view/20261012000985",
+   "press": "뉴스핌",
+   "at": "2026-10-12 15:35",
+   "why": "반도체 칸·삼성전자 bet·KODEX 200 되돌림 bet 기준선",
+   "summary": "10/12 코스피 6,400선까지 밀려 4거래일 연속 하락, 코스닥 −4%. 외국인 매도 주도."
+  },
+  {
+   "title": "코스피 장중 4%대 급락…반도체 투톱 흔들리자 6400선 위협",
+   "url": "https://biz.heraldcorp.com/article/10851000",
+   "press": "헤럴드경제",
+   "at": "2026-10-12 15:35",
+   "why": "하닉 bet 손절(−4.0%) 확인·반도체 칸 수급 점검",
+   "summary": "코스피 장중 4%대 급락, 삼성전자·SK하이닉스 동반 약세가 지수를 끌어내림."
+  },
+  {
    "title": "외국인 1.5조 매도에 코스피 3% 급락…23거래일 만에 장중 6400대",
    "url": "https://www.etoday.co.kr/news/view/2634647",
    "press": "이투데이",
@@ -623,22 +639,6 @@
    "at": "2026-10-11 03:35",
    "why": "BYD 내림 bet(1211.HK)·중국 내수 — 9월 전체 −24%(sa_news) 확정치와 이어짐",
    "summary": "CPCA 9/1~27 승용차 소매 전년 대비 −29%. 9/1~20 −22%(gasgoo)에서 월말로 갈수록 더 약해짐. 9월 전체 −24%는 sa_news 10/11 보도."
-  },
-  {
-   "title": "EU, 중국산 하이브리드차 한시 수입 상한 준비",
-   "url": "https://www.newsquawk.com/headlines/the-eu-is-preparing-a-temporary-import-cap-on-chinese-hybrid-cars",
-   "press": "Newsquawk",
-   "at": "2026-10-11 03:35",
-   "why": "중국 완성차 수출 출구 축소 — BYD 내림 bet, 유럽에서 경쟁하는 한국 완성차엔 상대 우호 가능(미확인)",
-   "summary": "EU가 중국산 하이브리드 수입에 한시 상한을 검토. 블룸버그(gn_bbg 10/11)는 '수입 절반 감축' 계획으로 보도. 시행 시점·물량 기준은 미확인."
-  },
-  {
-   "title": "AI 매출 의심에 반도체주 10월 고점서 후퇴 — FT 'OpenAI 연환산 매출 약 500억 달러'",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/ai-revenue-questions-pull-semiconductor-163800808.html",
-   "press": "야후 파이낸스",
-   "at": "2026-10-11 02:40",
-   "why": "AI 하드웨어 칸·SK하이닉스 오름 bet·SMH 내림 bet(페어) 근거",
-   "summary": "반도체 ETF 10월 5일 연속 상승 뒤 10/9 주까지 반락. FT: OpenAI 9월 말 연환산 매출 약 500억 달러, 시장에 알려진 약 700억 달러보다 낮음."
   }
  ],
  "at": "2026-10-12 13:35"
