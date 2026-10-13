@@ -2,6 +2,7 @@
 
   ② 평일 한국 장 마감 뒤(15:40~20:00 KST) 한 번 — 💼 내 포트 어젯밤(미국) 성적 vs S&P + 오늘 코스피·코스닥 마감
   ⑦ 토요일 아침(08:30~14:00 KST) 한 번 — 📅 이번 주 복기 (포트 vs S&P · 예고 채점 · 다음 주 일정)
+  ① 아침 리포트가 올라간 뒤 `python -m src.nudge --morning` — ☕ 오늘 한 줄 (킥 · 집중 · 비중 변경) — 아침 시황 예약 작업이 부름
   보내는 곳: ntfy chkchp-ch-report → stock-screener push-relay 가 앱 「알림 받기」 켠 휴대폰으로 보냄.
   같은 날 두 번 안 보냄: market/nudge.json 에 보낸 날 기록. fetch.yml 이 매시간 home 다음에 돌린다.
 """
@@ -75,6 +76,38 @@ def week_msg(H, now):
     return title, body.strip(), APP + "#home"
 
 
+def _t(x, n):
+    import re
+    t = re.sub(r"<[^>]+>", "", str(x or "")).replace("&amp;", "&").strip()
+    return t if len(t) <= n else t[:n - 1] + "…"
+
+
+def morning_msg(now):
+    import glob
+    fs = sorted(glob.glob(str(ROOT / "data" / f"{now.strftime('%Y-%m-%d')}.json")))
+    if not fs:
+        return None
+    D = rj(fs[-1])
+    L = rj(ROOT / "ledger" / "ledger.json")
+    lab = D.get("edition_label") or "시황"
+    k = D.get("kick") or {}
+    ld = D.get("leaders") or {}
+    lines = []
+    if k.get("title") and not k.get("none"):
+        lines.append("⚡ " + _t(k["title"], 70))
+    if ld.get("short") or ld.get("title"):
+        lines.append("🎯 " + _t(ld.get("short") or ld.get("title"), 50))
+    cn = L.get("change_note") or {}
+    if cn.get("date") == now.strftime("%Y-%m-%d"):
+        lines.append("💼 비중 변경: " + _t(cn.get("why"), 50))
+    G = D.get("yesterday_grades") or []
+    if G:
+        lines.append("🎯 어제 예고 " + " ".join(g.get("mark", "") for g in G[:3]) + " — 앱에서 결과 보기")
+    if not lines:
+        lines.append(_t(D.get("one_liner"), 90))
+    return f"☕ {now.month}/{now.day} 오늘 한 줄 · {lab}", "\n".join(lines), APP + "#home"
+
+
 def main() -> int:
     dry = "--dry" in sys.argv
     now = dt.datetime.now(KST)
@@ -86,6 +119,15 @@ def main() -> int:
     today = now.strftime("%Y-%m-%d")
     hm = now.hour * 60 + now.minute
     sent = False
+    if "--morning" in sys.argv:
+        if ST.get("morning") != today:
+            m = morning_msg(now)
+            if m and send(*m, dry=dry):
+                ST["morning"] = today; sent = True
+        if sent and not dry:
+            st_f.write_text(json.dumps(ST, ensure_ascii=False), encoding="utf-8")
+        print("아침 알림", "보냄" if sent else "안 보냄(이미 보냈거나 오늘 리포트 없음)")
+        return 0
     if now.weekday() < 5 and 15 * 60 + 40 <= hm <= 20 * 60 and ST.get("close") != today:
         m = close_msg(H, LA, now)
         if m and send(*m, dry=dry):
