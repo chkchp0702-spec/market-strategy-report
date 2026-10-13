@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "IMF 10월 글로벌 금융안정보고서(GFSR) 공개",
+   "url": "https://www.imf.org/en/publications/gfsr/issues/2026/10/13/global-financial-stability-report-october-2026",
+   "press": "IMF",
+   "at": "2026-10-13 12:35",
+   "why": "고금리 논지(0.72)·현금·단기채 칸 — IMF가 부채·물가 위험에 채권금리 '무질서한' 급등 가능성 경고(CNBC 보도)",
+   "summary": "10/13 공개. 재정 우려가 기간 프리미엄을 밀어 올리는 위험을 짚음. 세부 숫자는 원문 확인 필요(미확인)."
+  },
+  {
+   "title": "BofA, TSMC 실적 앞두고 목표가 상향 — 2nm 확대·이익률 개선",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-raises-tsmc-price-target-184809413.html",
+   "press": "Yahoo Finance",
+   "at": "2026-10-13 12:35",
+   "why": "AI 이익 논지(0.65)·반도체 칸 — 10/15 TSMC 실적 판정 직전 IB 상향",
+   "summary": "BofA 매수 유지·목표가 상향, 2nm 생산 확대로 매출 전망·이익률 개선 근거(HANAchina/70339 요약). 목표가 숫자는 미확인."
+  },
+  {
+   "title": "코스피, 中 CXMT 추격에 6000도 깨졌다…개미 투자 전략은?",
+   "url": "https://www.mt.co.kr/stock/2026/10/13/2026101311012617131",
+   "press": "머니투데이",
+   "at": "2026-10-13 12:35",
+   "why": "반도체 칸·하닉 bet(#20261013-09) — 투매 원인이 실적이 아닌 중국 경쟁 헤드라인",
+   "summary": "10/13 코스피 6,000 이탈·매도 사이드카. 원인으로 CXMT 추격 우려를 꼽음."
+  },
+  {
    "title": "미 9월 CPI 미리보기(10/14) — 헤드라인은 강하지만 근원은 둔화",
    "url": "https://continuumeconomics.com/a/353fee43/preview-due-october-14-us-september-cpi-stronger-but-with-a-slower-core-rate",
    "press": "Continuum Economics",
@@ -615,31 +639,7 @@
    "at": "2026-10-12 05:40",
    "why": "에너지 칸·유가 bet(BNO 대기) — 중간선거(11/3) 뒤 걸프 위험 재점화 시점 표시",
    "summary": "보도 날짜 미확인. 같은 시각 미 재무 '중간선거 전 이란과 교전 없다'(einfomax 10/12)·이란 안보수장 '미 제안 불충분'(einfomax 10/12)과 함께 보면 11월 초까지는 협상, 이후 위험↑ 구도."
-  },
-  {
-   "title": "LG엔솔 3분기 영업익 7,560억원…ESS 효과에 567% 폭증",
-   "url": "https://biz.sbs.co.kr/amp/article/20000338892",
-   "press": "SBS Biz",
-   "at": "2026-10-12 04:35",
-   "why": "휴장 낀 실적 서프라이즈 — 실적 발표 후 표류(PEAD) 시험 대상, 2차전지·삼성SDI 대기 bet 과 연결",
-   "summary": "3분기 잠정 영업익 7,560억원(전년 대비 +567%), ESS 효과. 대신증권 '일회성 감안해도 호실적, 4Q 연결 영업익 5천억대, 목표 53만원 유지'(kimu_nim/46538)."
-  },
-  {
-   "title": "LG엔솔 분기 최대 매출에 2차전지株 들썩…'밸류 재평가'",
-   "url": "https://news.mtn.co.kr/news-detail/2026100811014162555",
-   "press": "MTN",
-   "at": "2026-10-12 04:35",
-   "why": "10/8 발표일 이미 업종 반응 — 10/12 첫 거래일 추가 상승 여부가 '이미 반영' 판별 기준",
-   "summary": "분기 사상 최대 매출 9조6,434억원(EV·ESS 동반). 발표 당일 2차전지주 동반 상승."
-  },
-  {
-   "title": "엔비디아 투자 Firmus, 50억$ 호주 IPO 수요 부진으로 철회",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/09/nvidia-backed-firmus-scraps-5-billion-australian-ipo-on-poor-demand",
-   "press": "The Star(로이터)",
-   "at": "2026-10-09 18:00",
-   "why": "AI 데이터센터 자금 조달 창 — 네오클라우드(CRWV) 밸류·AI 소프트웨어 칸 위험",
-   "summary": "엔비디아가 투자한 AI 데이터센터 업체 Firmus가 약 50억$ 규모 호주 상장을 수요 부진으로 철회. 공모가 20% 인하 검토 끝에 포기."
   }
  ],
- "at": "2026-10-13 09:40"
+ "at": "2026-10-13 12:35"
 }
