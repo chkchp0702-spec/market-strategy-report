@@ -46,27 +46,78 @@ def is_us_stock(code: str) -> bool:
     return bool(code) and code.replace("-", "").isalpha() and code.upper() == code and code not in NOT_STOCK
 
 
-def pick(rows, spot, lo, hi, target, iv_key="impliedVolatility"):
-    """rows: [{'strike','impliedVolatility','bid','openInterest'}] → 행사가/주가가 [lo,hi] 안이고 값이 살아 있는 것 중 target 에 가장 가까운 행"""
+def _ncdf(x):
+    return 0.5 * (1 + math.erf(x / math.sqrt(2)))
+
+
+def bs_price(cp, S, K, T, v, r=0.04):
+    if v <= 0 or T <= 0:
+        return max(0.0, (S - K) if cp == "c" else (K - S))
+    d1 = (math.log(S / K) + (r + v * v / 2) * T) / (v * math.sqrt(T))
+    d2 = d1 - v * math.sqrt(T)
+    if cp == "c":
+        return S * _ncdf(d1) - K * math.exp(-r * T) * _ncdf(d2)
+    return K * math.exp(-r * T) * _ncdf(-d2) - S * _ncdf(-d1)
+
+
+def implied_vol(cp, price, S, K, T):
+    """옵션 값 → 내재변동성 (블랙-숄즈 · 이분법). 값이 내재가치보다 작거나 말이 안 되면 None"""
+    if not price or price <= 0 or T <= 0:
+        return None
+    lo, hi = 0.01, 5.0
+    if price < bs_price(cp, S, K, T, lo) or price > bs_price(cp, S, K, T, hi):
+        return None
+    for _ in range(80):
+        mid = (lo + hi) / 2
+        if bs_price(cp, S, K, T, mid) > price:
+            hi = mid
+        else:
+            lo = mid
+    return (lo + hi) / 2
+
+
+def _num(x):
+    try:
+        x = float(x)
+        return 0.0 if math.isnan(x) else x
+    except Exception:
+        return 0.0
+
+
+def opt_price(r, stale_before=None):
+    """호가 가운데값(매수·매도 호가 둘 다 있을 때) → 없으면 최근 체결가(stale_before 이후 체결만)"""
+    b, a = _num(r.get("bid")), _num(r.get("ask"))
+    if b > 0 and a >= b:
+        return (a + b) / 2
+    lp = _num(r.get("lastPrice"))
+    ltd = r.get("lastTradeDate")
+    if lp > 0 and (stale_before is None or ltd is None or str(ltd)[:10] >= stale_before):
+        return lp
+    return None
+
+
+def pick(cp, rows, spot, lo, hi, target, T, stale_before=None):
+    """행사가/주가가 [lo,hi] 안이고 값으로 내재변동성을 풀 수 있는 것 중 target 에 가장 가까운 행 → (비율, 내재변동성, 행사가)
+    Yahoo 의 impliedVolatility 칸은 장 밖에서 0 근처로 깨지므로 쓰지 않고 직접 푼다."""
     best = None
     for r in rows:
-        try:
-            k, iv = float(r["strike"]), float(r.get(iv_key) or 0)
-        except Exception:
+        k = _num(r.get("strike"))
+        if k <= 0:
             continue
         m = k / spot
-        if not (lo <= m <= hi) or not (0.03 < iv < 5) or math.isnan(iv):
+        if not (lo <= m <= hi):
             continue
-        if (r.get("bid") or 0) <= 0 and (r.get("openInterest") or 0) <= 0:
+        iv = implied_vol(cp, opt_price(r, stale_before), spot, k, T)
+        if iv is None or not (0.03 < iv < 4.9):
             continue
         if best is None or abs(m - target) < abs(best[0] - target):
             best = (m, iv, k)
     return best
 
 
-def skew_from_chain(puts, calls, spot):
-    p = pick(puts, spot, 0.80, 0.95, 0.95)
-    c = pick(calls, spot, 0.95, 1.05, 1.00)
+def skew_from_chain(puts, calls, spot, T=30 / 365, stale_before=None):
+    p = pick("p", puts, spot, 0.80, 0.95, 0.95, T, stale_before)
+    c = pick("c", calls, spot, 0.95, 1.05, 1.00, T, stale_before)
     if not p or not c:
         return None
     return {"skew": round((p[1] - c[1]) * 100, 2), "piv": round(p[1] * 100, 1), "civ": round(c[1] * 100, 1), "pk": p[2], "ck": c[2]}
@@ -95,9 +146,12 @@ def measure(yf, code, today):
     if not ex:
         raise RuntimeError("10~60일 만기 없음")
     oc = t.option_chain(ex[0])
-    r = skew_from_chain(oc.puts.to_dict("records"), oc.calls.to_dict("records"), spot)
+    stale = (dt.date.fromisoformat(mdate) - dt.timedelta(days=3)).isoformat()
+    P, Cl = oc.puts.to_dict("records"), oc.calls.to_dict("records")
+    r = skew_from_chain(P, Cl, spot, max(ex[1], 1) / 365, stale)
     if not r:
-        raise RuntimeError("쓸 만한 풋·콜 없음")
+        nb = sum(1 for x in P + Cl if _num(x.get("bid")) > 0)
+        raise RuntimeError(f"쓸 만한 풋·콜 없음 (풋 {len(P)}·콜 {len(Cl)}·호가 있는 것 {nb})")
     return {**r, "spot": round(spot, 4), "m": mdate, "exp": ex[0], "dte": ex[1]}
 
 
@@ -235,13 +289,15 @@ def main() -> int:
 
 def selftest() -> int:
     spot = 100.0
-    puts = [{"strike": 80, "impliedVolatility": 0.60, "bid": 0.1}, {"strike": 90, "impliedVolatility": 0.50, "bid": 0.5},
-            {"strike": 95, "impliedVolatility": 0.45, "bid": 1.0}, {"strike": 100, "impliedVolatility": 0.40, "bid": 2.0}]
-    calls = [{"strike": 95, "impliedVolatility": 0.38, "bid": 6}, {"strike": 100, "impliedVolatility": 0.35, "bid": 3},
-             {"strike": 105, "impliedVolatility": 0.33, "bid": 1}]
-    r = skew_from_chain(puts, calls, spot)
-    assert r and r["pk"] == 95 and r["ck"] == 100 and abs(r["skew"] - 10.0) < 1e-9, r
-    assert skew_from_chain([{"strike": 95, "impliedVolatility": 0.0, "bid": 1}], calls, spot) is None
+    T = 30 / 365
+    mk = lambda cp, k, v: (lambda px: {"strike": k, "bid": px * 0.98, "ask": px * 1.02})(bs_price(cp, spot, k, T, v))
+    puts = [mk("p", 80, 0.60), mk("p", 90, 0.50), mk("p", 95, 0.45), mk("p", 100, 0.40)]
+    calls = [mk("c", 95, 0.38), mk("c", 100, 0.35), mk("c", 105, 0.33)]
+    r = skew_from_chain(puts, calls, spot, T)
+    assert r and r["pk"] == 95 and r["ck"] == 100 and abs(r["skew"] - 10.0) < 0.05, r
+    assert skew_from_chain([{"strike": 95, "bid": 0, "ask": 0, "lastPrice": 0}], calls, spot, T) is None
+    old = {"strike": 95, "bid": 0, "ask": 0, "lastPrice": bs_price("p", spot, 95, T, 0.45), "lastTradeDate": "2026-09-01"}
+    assert skew_from_chain([old], calls, spot, T, "2026-10-08") is None and skew_from_chain([old], calls, spot, T) is not None
     assert choose_expiry(["2026-10-16", "2026-11-13", "2026-12-18"], dt.date(2026, 10, 13))[0] == "2026-11-13"
     assert choose_expiry(["2026-10-16"], dt.date(2026, 10, 13)) is None
     days = [f"2026-10-{i:02d}" for i in range(1, 31)]
