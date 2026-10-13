@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "씨티그룹 3Q26 — 10년 만의 최대 분기 매출·순이익 52억$에도 주가 −3.8%",
+   "url": "https://moneycheck.com/citigroup-c-shares-fall-3-79-as-investors-overlook-5-2-billion-third-quarter-earnings/",
+   "press": "MoneyCheck",
+   "at": "2026-10-14 02:34",
+   "why": "KBE #20 은행 bet — '좋은 실적에도 하락'이면 은행 되돌림 논지 약화(JPM 미스와 함께 2연타)",
+   "summary": "순이익 52억$(+40%)·채권 트레이딩 호조로 예상 상회, 그러나 주가 −3.79%. 같은 날 JPM 은 드문 이익 미스."
+  },
+  {
+   "title": "씨티 3Q26 슬라이드: 10년 만의 최고 분기 매출",
+   "url": "https://www.investing.com/news/company-news/citigroup-q3-2026-slides-best-quarterly-revenue-in-decade-93CH-4947284",
+   "press": "Investing.com",
+   "at": "2026-10-14 02:34",
+   "why": "은행 칸·KBE bet 판정 재료 — 숫자는 좋은데 가격 반응은 나쁨",
+   "summary": "분기 매출 10년 만의 최대. 시장은 실적보다 금리·신용 위험을 더 봄."
+  },
+  {
+   "title": "이란, 선박 공격 확대 — 원유 수출 회복 위협",
+   "url": "https://www.insurancejournal.com/news/international/2026/10/13/888757.htm",
+   "press": "Bloomberg(Insurance Journal 전재)",
+   "at": "2026-10-14 02:34",
+   "why": "해운(☕ 9104.T 미쓰이OSK 눈 신호)·유가·고금리 테제와 연결 — 운임·보험료 상승 쪽",
+   "summary": "호르무즈 해협 선박 공격 급증, 이란 원유 수출 10월 '제로'(investing_kr) · 달러 18개월 고점 유지."
+  },
+  {
    "title": "어플라이드 머티리얼즈, 인베스터데이 중 하락 — 광학 검사 시장 확대 제시에도 칩 장비 약세",
    "url": "https://seekingalpha.com/news/4652547-applied-materials-drops-during-investor-day-as-it-eyes-growing-optical-inspection-market",
    "press": "Seeking Alpha",
@@ -615,30 +639,6 @@
    "at": "2026-10-12 16:48",
    "why": "반도체 쏠림 밖 대안 — 🧠 컴투스 대기 bet(#20261012-17) 근거",
    "summary": "골드만삭스가 한국 증시에서 AI 밖 저평가 종목에 주목하라며 배당수익률 4% 이상인 케이뱅크·컴투스를 꼽음. 장 마감 뒤 보도."
-  },
-  {
-   "title": "외국인 폭풍 매수에 국고 금리 급락…10년물 8.9bp↓ / 3년 국채선물 역대 2번째 순매수",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PUTlQZElVcHR4V0g2N3lqNno1alU1Z3NkSVJHcHlNS3VIX2RJVFJ0QzIwQk5jTmJTa1B3c1pKZURFc3J5UnhXcTdjSEZQZ2I4RjZVQzcwNG9QZDBXUHpWeHN0WW83SGdXVEVJbWFScElxdw?oc=5",
-   "press": "연합인포맥스(구글뉴스)",
-   "at": "2026-10-12 16:50",
-   "why": "외국인 매도가 원화 이탈이 아님 — 현금·단기채 칸·한국 비중 판단",
-   "summary": "10/12 외국인이 3년 국채선물 역대 2번째 규모 순매수, 국고 10년 −8.9bp. 같은 날 코스피 외국인 현물 −2.0조. 원·달러 1,331원대 2년 최저."
-  },
-  {
-   "title": "신현송 한은 총재, 22일 금리 인상 여부에 \"원점서 재검토\"",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1DU2IwWmtnUzllUHN2LW9Qbmthb1M1LS1XeVFaaGVyLXA4UWktT0NlbUg2R1FyZW9lTUNpQ3lYaFgzOE1DTHhlM1VoX3VXNUxsQXNnemZZaldYR190Q3FPd2dsRUFaenNzSDlpSzN0bDNCQQ?oc=5",
-   "press": "연합뉴스(구글뉴스)",
-   "at": "2026-10-12 17:19",
-   "why": "국내 인상 경로가 흐려짐 — 보험·은행 '인상 수혜' 논지 약화, 고배당·성장주엔 우호",
-   "summary": "국감에서 10/22 금통위 인상 여부 질의에 '원점에서 재검토'. 같은 날 '물가 상당기간 목표 상회'·'선제 인상 적절' 발언도 — 방향은 미확정."
-  },
-  {
-   "title": "삼성전자, 임직원 보상용 15조원 자사주 취득 마무리",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XQllySjhKamFnYU9vMXBYREpwTU1KTlBzZm8xcks1bEhNN1NJNE1DaE9sUVZnT0RySk95UDhVQW1RZ25IRE1zU000amFuUmh1WFctdTZrU1hDWmdyUkJwMHBwZHJTSzFpRmhJOFNxekg?oc=5",
-   "press": "연합인포맥스",
-   "at": "2026-10-12 17:21",
-   "why": "반도체 칸 — 하방을 받치던 자사주 매수 퇴장, 외국인 매도 흡수 주체 약해짐",
-   "summary": "삼성전자 15조원 규모 자사주 취득 완료. 10/12 삼성 250,500(−4.39%), 외국인 코스피 −2.0조."
   }
  ],
  "at": "2026-10-14 01:35"
