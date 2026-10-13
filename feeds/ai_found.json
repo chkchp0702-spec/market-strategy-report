@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "인도 Nifty IT 3% 급등 — 글로벌 칩 매도에 인도 소프트웨어주로 관심 이동",
+   "url": "https://www.5paisa.com/news/nifty-it-index-jumps-3-as-global-chip-selloff-lifts-focus-on-indian-software-stocks",
+   "press": "5paisa",
+   "at": "2026-10-13 18:40",
+   "why": "INFY 오름 bet(#20261013-18) — AI 하드웨어 투매의 반대편 회전 바구니",
+   "summary": "Nifty IT +3%(제목 기준), 블룸버그는 인도 IT '17개월 최고의 날'. 같은 날 코스피 −5.46%·닛케이 −1,253엔과 정반대."
+  },
+  {
+   "title": "마이크로소프트, Maia 300 칩 TSMC에 30만 개 이상 주문 — 엔비디아 의존 줄이기",
+   "url": "https://thenextweb.com/news/microsoft-maia-300-chip-tsmc-production-boost-nvidia",
+   "press": "The Next Web",
+   "at": "2026-10-13 18:40",
+   "why": "반도체 칸·AI 이익 논지 — 빅테크 고객이 경쟁자로(엔비디아 마진), 메모리 수요 자체는 그대로",
+   "summary": "닛케이: MS 새 칩 2027년 투입, AI 처리능력 4할 향상. 주문 30만+개(TNW, 날짜 미확인). 야후 '모든 엔비디아 대형 고객이 이제 경쟁자'."
+  },
+  {
    "title": "BP, 3분기 정제마진 급등 — 최대 45억$ 손상차손 예고",
    "url": "https://seekingalpha.com/news/4652320-bp-expects-up-to-45b-in-q3-impairments-as-refining-margins-jump?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
    "press": "Seeking Alpha",
@@ -623,23 +639,7 @@
    "at": "2026-10-12 11:00",
    "why": "반도체 칸·하이닉스·삼성전자 bets — '한국 따로 놀기' 논지(0.75)",
    "summary": "연휴 뒤 첫 거래일 코스피 6,500선 이탈, 외국인 매도에 삼성전자·SK하이닉스 약세. 코스피·코스닥 2~3%대 급락(연합)."
-  },
-  {
-   "title": "코스피, 외국인 매도세에 장중 2%대 하락 — 6,474.57",
-   "url": "https://view.asiae.co.kr/article/2026101210042190714",
-   "press": "아시아경제",
-   "at": "2026-10-12 10:04",
-   "why": "반도체 칸·하이닉스/삼성/LIG넥스원 bets — 6,500 이탈, '한국 따로 놀기' 논지 강화",
-   "summary": "09:55 코스피 6,474.57(−2.33%), 외국인 현물 −4,580억·선물 −3,538억. 하이닉스 −3.75%·삼성 −2.58%·두산에너빌 −5%. 운송창고 +2.12%, 원익IPS +1.27% 역행. 환율 1,334.5원(−7.5)."
-  },
-  {
-   "title": "외국인 매도에 코스피 1% 하락…반도체 약세 속 배터리주 강세",
-   "url": "https://www.etoday.co.kr/news/view/2634477",
-   "press": "이투데이",
-   "at": "2026-10-12 09:10",
-   "why": "삼성SDI bet(#20261011-11)·이차전지 — 실적 서프라이즈 층(셀)만 버팀",
-   "summary": "09:05 삼성SDI +3.87%·LG엔솔 +2.87%·셀트리온 +2.45%. 8~9일 미 필라델피아 반도체 −3.8%가 국내 반도체 부담."
   }
  ],
- "at": "2026-10-13 16:35"
+ "at": "2026-10-13 18:40"
 }
