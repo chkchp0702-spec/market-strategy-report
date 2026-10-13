@@ -1,26 +1,9 @@
-Traceback (most recent call last):
-  File "/home/runner/work/market-strategy-report/market-strategy-report/src/lab/e1013_pref.py", line 88, in <module>
-    main()
-  File "/home/runner/work/market-strategy-report/market-strategy-report/src/lab/e1013_pref.py", line 82, in main
-    p.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/__init__.py", line 238, in dumps
-    **kw).encode(obj)
-          ^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/encoder.py", line 202, in encode
-    chunks = list(chunks)
-             ^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/encoder.py", line 432, in _iterencode
-    yield from _iterencode_dict(o, _current_indent_level)
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
-    yield from chunks
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/encoder.py", line 326, in _iterencode_list
-    yield from chunks
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/encoder.py", line 406, in _iterencode_dict
-    yield from chunks
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/encoder.py", line 439, in _iterencode
-    o = _default(o)
-        ^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/json/encoder.py", line 180, in default
-    raise TypeError(f'Object of type {o.__class__.__name__} '
-TypeError: Object of type bool is not JSON serializable
+💼·⚡·🎯 현금·단기채 (한국) 499660.KS → 438330.KS 유지 | 연 수익 차이 -1.12%p · 1년 수익 차이 -3.97%p · 상관 0.023 · 변동성 비율 12.13 | {'cagr': 2.89, 'vol': 0.23, 'mdd': -0.23, 'y1': 3.1} {'cagr': 1.77, 'vol': 2.79, 'mdd': -2.72, 'y1': -0.87} 0.023
+💼·⚡·🎯 현금·단기채 (미국) SGOV → SHY 유지 | 연 수익 차이 -1.60%p · 1년 수익 차이 -2.17%p · 최대 낙폭 5.7%p 더 깊음 | {'cagr': 3.0, 'vol': 0.23, 'mdd': -0.03, 'y1': 3.78} {'cagr': 1.4, 'vol': 1.8, 'mdd': -5.71, 'y1': 1.61} 0.124
+🎯 현금 (계산용 BIL) BIL → SHY 유지 | 1년 수익 차이 -2.09%p · 최대 낙폭 4.9%p 더 깊음 | {'cagr': 1.4, 'vol': 0.49, 'mdd': -0.78, 'y1': 3.7} {'cagr': 1.82, 'vol': 1.53, 'mdd': -5.71, 'y1': 1.61} 0.141
+⚡ 🧭 추세 칸 장기채 TLT → IEF 유지 | 1년 수익 차이 +4.99%p · 변동성 비율 0.48 | {'cagr': 3.32, 'vol': 14.25, 'mdd': -48.35, 'y1': -8.42} {'cagr': 3.39, 'vol': 6.79, 'mdd': -23.92, 'y1': -3.43} 0.911
+🧭 섹터 의견 반도체 (미국) SOXX → SMH 유지 | 1년 수익 차이 -16.63%p | {'cagr': 14.05, 'vol': 33.61, 'mdd': -70.21, 'y1': 88.36} {'cagr': 14.53, 'vol': 32.72, 'mdd': -71.09, 'y1': 71.73} 0.971
+🧭 섹터 의견 AI 소프트웨어 (한국) 418670.KS → 466950.KS 유지 | 연 수익 차이 +20.27%p · 최대 낙폭 6.0%p 더 깊음 · 상관 0.412 | {'cagr': 26.39, 'vol': 30.64, 'mdd': -35.53, 'y1': 31.62} {'cagr': 46.66, 'vol': 38.21, 'mdd': -41.56, 'y1': 32.02} 0.412
+🧭 섹터 의견 전력·인프라 (미국) XLU → PAVE 유지 | 연 수익 차이 +6.36%p · 1년 수익 차이 +18.43%p · 최대 낙폭 8.0%p 더 깊음 · 상관 0.494 | {'cagr': 8.75, 'vol': 19.38, 'mdd': -36.07, 'y1': -5.45} {'cagr': 15.11, 'vol': 24.23, 'mdd': -44.08, 'y1': 12.98} 0.494
+참고: 💼 S&P500 한국 상품 360750.KS → 448290.KS 유지 | 연 수익 차이 -3.25%p · 1년 수익 차이 +2.13%p · 상관 0.813 | {'cagr': 21.15, 'vol': 15.35, 'mdd': -19.15, 'y1': 13.36} {'cagr': 17.9, 'vol': 16.36, 'mdd': -20.87, 'y1': 15.49} 0.813
+참고: 💼 나스닥100 한국 상품 133690.KS → 448300.KS 유지 | 연 수익 차이 -3.45%p · 상관 0.883 | {'cagr': 30.07, 'vol': 20.1, 'mdd': -24.26, 'y1': 19.18} {'cagr': 26.62, 'vol': 22.03, 'mdd': -25.73, 'y1': 21.12} 0.883
