@@ -1,0 +1,27 @@
+name: skew-shadow
+# 😨 옵션 「겁 기울기」 그림자 장부 (src/skew_shadow.py → market/skew_shadow.json) — Q14-5 (10/13)
+#   미국 장 끝난 뒤 KST 07:35 (화~토). 킥 매매는 바꾸지 않음 — 기록·채점만.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "35 22 * * 1-5"
+permissions:
+  contents: write
+concurrency:
+  group: push-${{ github.repository }}-${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  shadow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yfinance pandas numpy
+      - run: python src/skew_shadow.py selftest && python src/skew_shadow.py
+      - name: 저장
+        run: |
+          git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
+          bash scripts/push.sh "skew-shadow $(TZ=Asia/Seoul date '+%F %H:%M')" market/skew_shadow.json
