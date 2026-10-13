@@ -1,0 +1,745 @@
+{
+ "_doc": "선호 ETF 목록 (10/13 사용자 지정, 2026-09-18 기준 82개 = ETF 76 + ETN 6). 규칙 RULES.md 1-L: 모든 포트를 만들 때 기존 상품과 수익률 차이가 크지 않게 대체할 수 있으면 이 목록의 상품을 쓴다. 차이가 크거나 대체할 것이 없으면 기존 상품 유지. 비교는 src/lab/e1013_pref.py → market/etf_pref.json.",
+ "asof": "2026-09-18",
+ "added": "2026-10-13",
+ "items": [
+  {
+   "no": 1,
+   "kind": "국내상장ETF",
+   "group": "지수/지역",
+   "theme": "미국/글로벌",
+   "code": "133690",
+   "name": "TIGER 미국나스닥100",
+   "yahoo": "133690.KS"
+  },
+  {
+   "no": 2,
+   "kind": "국내상장ETF",
+   "group": "지수/지역",
+   "theme": "미국/글로벌",
+   "code": "360750",
+   "name": "TIGER 미국S&P500",
+   "yahoo": "360750.KS"
+  },
+  {
+   "no": 3,
+   "kind": "국내상장ETF",
+   "group": "지수/지역",
+   "theme": "미국/글로벌",
+   "code": "448290",
+   "name": "TIGER 미국S&P500TR(H)",
+   "yahoo": "448290.KS"
+  },
+  {
+   "no": 4,
+   "kind": "국내상장ETF",
+   "group": "지수/지역",
+   "theme": "미국/글로벌",
+   "code": "448300",
+   "name": "TIGER 미국나스닥100TR(H)",
+   "yahoo": "448300.KS"
+  },
+  {
+   "no": 5,
+   "kind": "국내상장ETF",
+   "group": "지수/지역",
+   "theme": "글로벌 분산투자",
+   "code": "0060H0",
+   "name": "TIGER 글로벌토탈스탁액티브",
+   "yahoo": "0060H0.KS"
+  },
+  {
+   "no": 6,
+   "kind": "국내상장ETF",
+   "group": "지수/지역",
+   "theme": "인도",
+   "code": "453870",
+   "name": "TIGER 인도니프티50",
+   "yahoo": "453870.KS"
+  },
+  {
+   "no": 7,
+   "kind": "국내상장ETF",
+   "group": "지수/지역",
+   "theme": "일본",
+   "code": "241180",
+   "name": "TIGER 일본니케이225",
+   "yahoo": "241180.KS"
+  },
+  {
+   "no": 8,
+   "kind": "국내상장ETF",
+   "group": "지수/지역",
+   "theme": "일본",
+   "code": "465660",
+   "name": "TIGER 일본반도체FACTSET",
+   "yahoo": "465660.KS"
+  },
+  {
+   "no": 9,
+   "kind": "국내상장ETF",
+   "group": "지수/지역",
+   "theme": "일본",
+   "code": "469160",
+   "name": "ACE 일본반도체",
+   "yahoo": "469160.KS"
+  },
+  {
+   "no": 10,
+   "kind": "국내상장ETF",
+   "group": "지수/지역",
+   "theme": "중국",
+   "code": "0047A0",
+   "name": "TIGER 차이나테크TOP10",
+   "yahoo": "0047A0.KS"
+  },
+  {
+   "no": 11,
+   "kind": "국내상장ETF",
+   "group": "지수/지역",
+   "theme": "중국",
+   "code": "0053L0",
+   "name": "TIGER 차이나휴머노이드로봇",
+   "yahoo": "0053L0.KS"
+  },
+  {
+   "no": 12,
+   "kind": "국내상장ETF",
+   "group": "지수/지역",
+   "theme": "중국",
+   "code": "396520",
+   "name": "TIGER 차이나반도체FACTSET",
+   "yahoo": "396520.KS"
+  },
+  {
+   "no": 13,
+   "kind": "국내상장ETF",
+   "group": "지수/지역",
+   "theme": "중국",
+   "code": "0043Y0",
+   "name": "TIME 차이나AI테크액티브",
+   "yahoo": "0043Y0.KS"
+  },
+  {
+   "no": 14,
+   "kind": "국내상장ETF",
+   "group": "지수/지역",
+   "theme": "중국",
+   "code": "414780",
+   "name": "TIGER 차이나과창판STAR50(합성)",
+   "yahoo": "414780.KS"
+  },
+  {
+   "no": 15,
+   "kind": "국내상장ETF",
+   "group": "지수/지역",
+   "theme": "중국",
+   "code": "416090",
+   "name": "ACE 중국과창판STAR50",
+   "yahoo": "416090.KS"
+  },
+  {
+   "no": 16,
+   "kind": "국내상장ETF",
+   "group": "글로벌테마",
+   "theme": "글로벌배당",
+   "code": "458730",
+   "name": "TIGER 미국배당다우존스",
+   "yahoo": "458730.KS"
+  },
+  {
+   "no": 17,
+   "kind": "국내상장ETF",
+   "group": "글로벌테마",
+   "theme": "글로벌배당",
+   "code": "452360",
+   "name": "SOL 미국배당다우존스(H)",
+   "yahoo": "452360.KS"
+  },
+  {
+   "no": 18,
+   "kind": "국내상장ETF",
+   "group": "글로벌테마",
+   "theme": "글로벌배당",
+   "code": "490490",
+   "name": "SOL 미국배당미국채혼합50",
+   "yahoo": "490490.KS"
+  },
+  {
+   "no": 19,
+   "kind": "국내상장ETF",
+   "group": "글로벌테마",
+   "theme": "빅테크",
+   "code": "381170",
+   "name": "TIGER 미국테크TOP10 INDXX",
+   "yahoo": "381170.KS"
+  },
+  {
+   "no": 20,
+   "kind": "국내상장ETF",
+   "group": "글로벌테마",
+   "theme": "반도체&AI",
+   "code": "466950",
+   "name": "TIGER 글로벌AI액티브",
+   "yahoo": "466950.KS"
+  },
+  {
+   "no": 21,
+   "kind": "국내상장ETF",
+   "group": "글로벌테마",
+   "theme": "반도체&AI",
+   "code": "381180",
+   "name": "TIGER 미국필라델피아반도체나스닥",
+   "yahoo": "381180.KS"
+  },
+  {
+   "no": 22,
+   "kind": "국내상장ETF",
+   "group": "글로벌테마",
+   "theme": "반도체&AI",
+   "code": "469060",
+   "name": "RISE 미국반도체NYSE",
+   "yahoo": "469060.KS"
+  },
+  {
+   "no": 23,
+   "kind": "국내상장ETF",
+   "group": "글로벌테마",
+   "theme": "원자력&전력인프라",
+   "code": "442320",
+   "name": "RISE 글로벌원자력",
+   "yahoo": "442320.KS"
+  },
+  {
+   "no": 24,
+   "kind": "국내상장ETF",
+   "group": "글로벌테마",
+   "theme": "원자력&전력인프라",
+   "code": "491010",
+   "name": "TIGER 글로벌AI전력인프라액티브",
+   "yahoo": "491010.KS"
+  },
+  {
+   "no": 25,
+   "kind": "국내상장ETF",
+   "group": "글로벌테마",
+   "theme": "우주/방산",
+   "code": "0183J0",
+   "name": "TIGER 미국우주테크",
+   "yahoo": "0183J0.KS"
+  },
+  {
+   "no": 26,
+   "kind": "국내상장ETF",
+   "group": "글로벌테마",
+   "theme": "우주/방산",
+   "code": "494840",
+   "name": "TIGER 미국방산TOP10",
+   "yahoo": "494840.KS"
+  },
+  {
+   "no": 27,
+   "kind": "국내상장ETF",
+   "group": "글로벌테마",
+   "theme": "헬스케어&바이오테크",
+   "code": "203780",
+   "name": "TIGER 미국나스닥바이오",
+   "yahoo": "203780.KS"
+  },
+  {
+   "no": 28,
+   "kind": "국내상장ETF",
+   "group": "글로벌테마",
+   "theme": "채권형",
+   "code": "302190",
+   "name": "TIGER 중장기국채",
+   "yahoo": "302190.KS"
+  },
+  {
+   "no": 29,
+   "kind": "국내상장ETF",
+   "group": "글로벌테마",
+   "theme": "채권형",
+   "code": "438330",
+   "name": "TIGER 우량회사채액티브",
+   "yahoo": "438330.KS"
+  },
+  {
+   "no": 30,
+   "kind": "국내상장ETF",
+   "group": "글로벌테마",
+   "theme": "채권형",
+   "code": "458260",
+   "name": "TIGER 미국투자등급회사채액티브(H)",
+   "yahoo": "458260.KS"
+  },
+  {
+   "no": 31,
+   "kind": "국내상장ETF",
+   "group": "자산배분",
+   "theme": "채권혼합",
+   "code": "0238P0",
+   "name": "TIGER 미국S&P500미국채혼합50",
+   "yahoo": "0238P0.KS"
+  },
+  {
+   "no": 32,
+   "kind": "국내상장ETF",
+   "group": "자산배분",
+   "theme": "채권혼합",
+   "code": "438080",
+   "name": "ACE 미국S&P500채권혼합액티브",
+   "yahoo": "438080.KS"
+  },
+  {
+   "no": 33,
+   "kind": "국내상장ETF",
+   "group": "자산배분",
+   "theme": "채권혼합",
+   "code": "435420",
+   "name": "TIGER 미국나스닥100TR채권혼합Fn",
+   "yahoo": "435420.KS"
+  },
+  {
+   "no": 34,
+   "kind": "국내상장ETF",
+   "group": "자산배분",
+   "theme": "TDF",
+   "code": "0025N0",
+   "name": "TIGER TDF2045",
+   "yahoo": "0025N0.KS"
+  },
+  {
+   "no": 35,
+   "kind": "국내상장ETF",
+   "group": "자산배분",
+   "theme": "TDF",
+   "code": "442570",
+   "name": "RISE TDF2050액티브",
+   "yahoo": "442570.KS"
+  },
+  {
+   "no": 36,
+   "kind": "국내상장ETF",
+   "group": "원자재",
+   "theme": "금",
+   "code": "0072R0",
+   "name": "TIGER KRX금현물",
+   "yahoo": "0072R0.KS"
+  },
+  {
+   "no": 37,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "KOSPI",
+   "code": "102110",
+   "name": "TIGER 200",
+   "yahoo": "102110.KS"
+  },
+  {
+   "no": 38,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "KOSPI",
+   "code": "305050",
+   "name": "ACE 코스피",
+   "yahoo": "305050.KS"
+  },
+  {
+   "no": 39,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "KOSDAQ",
+   "code": "232080",
+   "name": "TIGER 코스닥150",
+   "yahoo": "232080.KS"
+  },
+  {
+   "no": 40,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "KOSDAQ",
+   "code": "316670",
+   "name": "KIWOOM 코스닥150",
+   "yahoo": "316670.KS"
+  },
+  {
+   "no": 41,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "대형주TOP10",
+   "code": "292150",
+   "name": "TIGER 코리아TOP10",
+   "yahoo": "292150.KS"
+  },
+  {
+   "no": 42,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "대형주TOP10",
+   "code": "411540",
+   "name": "SOL 200 Top10",
+   "yahoo": "411540.KS"
+  },
+  {
+   "no": 43,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "배당/커버드콜",
+   "code": "0052D0",
+   "name": "TIGER 코리아배당다우존스",
+   "yahoo": "0052D0.KS"
+  },
+  {
+   "no": 44,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "배당/커버드콜",
+   "code": "472150",
+   "name": "TIGER 배당커버드콜액티브",
+   "yahoo": "472150.KS"
+  },
+  {
+   "no": 45,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "반도체/IT",
+   "code": "396500",
+   "name": "TIGER 반도체TOP10",
+   "yahoo": "396500.KS"
+  },
+  {
+   "no": 46,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "반도체/IT",
+   "code": "0093A0",
+   "name": "RISE AI반도체TOP10",
+   "yahoo": "0093A0.KS"
+  },
+  {
+   "no": 47,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "반도체/IT",
+   "code": "471780",
+   "name": "TIGER 코리아테크액티브",
+   "yahoo": "471780.KS"
+  },
+  {
+   "no": 48,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "채권혼합",
+   "code": "0233J0",
+   "name": "TIGER 삼성전자SK하이닉스미국채혼합50",
+   "yahoo": "0233J0.KS"
+  },
+  {
+   "no": 49,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "채권혼합",
+   "code": "0206G0",
+   "name": "1Q 현대차기아채권혼합50",
+   "yahoo": "0206G0.KS"
+  },
+  {
+   "no": 50,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "전력",
+   "code": "0101N0",
+   "name": "RISE AI전력인프라",
+   "yahoo": "0101N0.KS"
+  },
+  {
+   "no": 51,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "조선",
+   "code": "494670",
+   "name": "TIGER 조선TOP10",
+   "yahoo": "494670.KS"
+  },
+  {
+   "no": 52,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "조선",
+   "code": "0141S0",
+   "name": "SOL 조선기자재",
+   "yahoo": "0141S0.KS"
+  },
+  {
+   "no": 53,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "K-로봇",
+   "code": "0148J0",
+   "name": "TIGER 코리아휴머노이드로봇산업",
+   "yahoo": "0148J0.KS"
+  },
+  {
+   "no": 54,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "K-로봇",
+   "code": "469070",
+   "name": "RISE AI&로봇",
+   "yahoo": "469070.KS"
+  },
+  {
+   "no": 55,
+   "kind": "국내상장ETF",
+   "group": "국내주식형",
+   "theme": "K-우주방산",
+   "code": "463250",
+   "name": "TIGER K방산&우주",
+   "yahoo": "463250.KS"
+  },
+  {
+   "no": 56,
+   "kind": "해외상장ETF",
+   "group": "지수/지역",
+   "theme": "미국/글로벌",
+   "code": "QQQ",
+   "name": "Invesco QQQ Trust",
+   "yahoo": "QQQ"
+  },
+  {
+   "no": 57,
+   "kind": "해외상장ETF",
+   "group": "지수/지역",
+   "theme": "미국/글로벌",
+   "code": "SPY",
+   "name": "SPDR S&P 500 ETF",
+   "yahoo": "SPY"
+  },
+  {
+   "no": 58,
+   "kind": "해외상장ETF",
+   "group": "지수/지역",
+   "theme": "글로벌 분산투자",
+   "code": "VT",
+   "name": "Vanguard Total World Stock ETF",
+   "yahoo": "VT"
+  },
+  {
+   "no": 59,
+   "kind": "해외상장ETF",
+   "group": "지수/지역",
+   "theme": "일본",
+   "code": "2644",
+   "name": "Global X Japan Semiconductor",
+   "yahoo": "2644.T"
+  },
+  {
+   "no": 60,
+   "kind": "해외상장ETF",
+   "group": "지수/지역",
+   "theme": "중국",
+   "code": "KSTR",
+   "name": "KraneShares SSE STAR Market 50",
+   "yahoo": "KSTR"
+  },
+  {
+   "no": 61,
+   "kind": "해외상장ETF",
+   "group": "지수/지역",
+   "theme": "중국",
+   "code": "03191",
+   "name": "Global X China Semiconductor ETF",
+   "yahoo": "3191.HK"
+  },
+  {
+   "no": 62,
+   "kind": "해외상장ETF",
+   "group": "지수/지역",
+   "theme": "중국",
+   "code": "CQQQ",
+   "name": "Invesco China Technology ETF",
+   "yahoo": "CQQQ"
+  },
+  {
+   "no": 63,
+   "kind": "해외상장ETF",
+   "group": "섹터/테마",
+   "theme": "반도체&AI",
+   "code": "SMH",
+   "name": "VanEck Semiconductor ETF",
+   "yahoo": "SMH"
+  },
+  {
+   "no": 64,
+   "kind": "해외상장ETF",
+   "group": "섹터/테마",
+   "theme": "반도체&AI",
+   "code": "CHPX",
+   "name": "Global X Semiconductor & Quantum",
+   "yahoo": "CHPX"
+  },
+  {
+   "no": 65,
+   "kind": "해외상장ETF",
+   "group": "섹터/테마",
+   "theme": "반도체&AI",
+   "code": "IYW",
+   "name": "iShares US Technology ETF",
+   "yahoo": "IYW"
+  },
+  {
+   "no": 66,
+   "kind": "해외상장ETF",
+   "group": "섹터/테마",
+   "theme": "우주/방산",
+   "code": "ORBX",
+   "name": "Global X Space Tech",
+   "yahoo": "ORBX"
+  },
+  {
+   "no": 67,
+   "kind": "해외상장ETF",
+   "group": "섹터/테마",
+   "theme": "우주/방산",
+   "code": "SHLD",
+   "name": "Global X Defense Tech ETF",
+   "yahoo": "SHLD"
+  },
+  {
+   "no": 68,
+   "kind": "해외상장ETF",
+   "group": "섹터/테마",
+   "theme": "인프라",
+   "code": "PAVE",
+   "name": "Global X US Infrastructure Development ETF",
+   "yahoo": "PAVE"
+  },
+  {
+   "no": 69,
+   "kind": "해외상장ETF",
+   "group": "섹터/테마",
+   "theme": "글로벌배당/커버드콜",
+   "code": "SCHD",
+   "name": "Schwab US Dividend Equity ETF",
+   "yahoo": "SCHD"
+  },
+  {
+   "no": 70,
+   "kind": "해외상장ETF",
+   "group": "섹터/테마",
+   "theme": "글로벌배당/커버드콜",
+   "code": "JEPQ",
+   "name": "JPMorgan Nasdaq Equity Premium Income",
+   "yahoo": "JEPQ"
+  },
+  {
+   "no": 71,
+   "kind": "해외상장ETF",
+   "group": "섹터/테마",
+   "theme": "채권형",
+   "code": "SHY",
+   "name": "iShares 1-3Y Treasury Bond ETF",
+   "yahoo": "SHY"
+  },
+  {
+   "no": 72,
+   "kind": "해외상장ETF",
+   "group": "섹터/테마",
+   "theme": "채권형",
+   "code": "GXIG",
+   "name": "Global X Investment Grade Corporate Bond ETF",
+   "yahoo": "GXIG"
+  },
+  {
+   "no": 73,
+   "kind": "해외상장ETF",
+   "group": "섹터/테마",
+   "theme": "채권형",
+   "code": "IEF",
+   "name": "iShares 7-10Y Treasury Bond ETF",
+   "yahoo": "IEF"
+  },
+  {
+   "no": 74,
+   "kind": "해외상장ETF",
+   "group": "원자재",
+   "theme": "원자재",
+   "code": "GLD",
+   "name": "SPDR Gold Trust",
+   "yahoo": "GLD"
+  },
+  {
+   "no": 75,
+   "kind": "해외상장ETF",
+   "group": "원자재",
+   "theme": "원자재",
+   "code": "424A",
+   "name": "Global X Gold ETF (JPY Hedged) — 일본 상장·달러 헤지",
+   "yahoo": "424A.T"
+  },
+  {
+   "no": 76,
+   "kind": "해외상장ETF",
+   "group": "원자재",
+   "theme": "원자재",
+   "code": "GOLD",
+   "name": "Global X Physical Gold ETF",
+   "yahoo": "GOLD.AX"
+  },
+  {
+   "no": 77,
+   "kind": "국내상장ETN",
+   "group": "글로벌테마",
+   "theme": "방산",
+   "code": "Q520074",
+   "name": "미래에셋 미국 방위산업 TOP3 ETN",
+   "yahoo": null
+  },
+  {
+   "no": 78,
+   "kind": "국내상장ETN",
+   "group": "글로벌테마",
+   "theme": "제약",
+   "code": "Q520078",
+   "name": "미래에셋 미국 제약 TOP3 ETN",
+   "yahoo": null
+  },
+  {
+   "no": 79,
+   "kind": "국내상장ETN",
+   "group": "글로벌테마",
+   "theme": "테크&반도체",
+   "code": "Q520080",
+   "name": "미래에셋 미국 테크&반도체 TOP3 ETN",
+   "yahoo": null
+  },
+  {
+   "no": 80,
+   "kind": "국내상장ETN",
+   "group": "글로벌테마",
+   "theme": "AI",
+   "code": "Q520072",
+   "name": "미래에셋 미국 AI TOP3 ETN",
+   "yahoo": null
+  },
+  {
+   "no": 81,
+   "kind": "국내상장ETN",
+   "group": "글로벌테마",
+   "theme": "금현물",
+   "code": "Q520066",
+   "name": "미래에셋 KRX금현물 AUTO-KO-C2810-01 ETN",
+   "yahoo": null
+  },
+  {
+   "no": 82,
+   "kind": "국내상장ETN",
+   "group": "글로벌테마",
+   "theme": "Re-rating",
+   "code": "Q520089",
+   "name": "미래에셋 CAPE실러 US Core Sector ETN",
+   "yahoo": null
+  }
+ ]
+}
