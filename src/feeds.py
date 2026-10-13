@@ -296,6 +296,11 @@ def main() -> int:
         except Exception as e:
             ok = False
             DEBUG.append(f"news {sid} 실패 {str(e)[:80]}")
+        # 🔧 10/13 RSS 는 받았는데 전부 옛 글(이데일리 n=0, 건강검진 「0개 피드」)이어도 대신 받기
+        _lim = cut if sid in SLOW else ncut
+        if got and alt and not any((i.get("at") or "9")[:10] >= _lim for i in got):
+            DEBUG.append(f"news {sid} RSS {len(got)}개 모두 {_lim} 이전 → 구글뉴스로 대신")
+            got = []
         if not got and alt:                               # RSS 가 막히면 구글뉴스 site: 로 대신
             try:
                 got = rss(GN.format(q=f"site:{alt}+when:{7 if sid in SLOW else 1}d", hl="ko" if alt.endswith(".kr") else "en-US",
