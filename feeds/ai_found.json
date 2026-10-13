@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "'반도체 쇼크' 코스피 4% 급락, 6100선 붕괴…5거래일째 하락",
+   "url": "https://www.etoday.co.kr/news/view/2634995",
+   "press": "이투데이",
+   "at": "2026-10-13 09:40",
+   "why": "반도체 칸·한국 대기 bet(심텍·KB·S-Oil) 진입 조건 — 5일 연속 하락 뒤 되돌림 여부",
+   "summary": "09:10 코스피 6,088.60(−4.63%)·코스닥 819.28(−3.52%). 외국인 −2,914억·기관 +2,082억. 삼성전자 239,000(−4.59%)·SK하이닉스 1,523,000(−5.11%), 상승 80/하락 768."
+  },
+  {
+   "title": "[개장시황] 코스피 4%대 하락…中 반도체 추격에 외국인 대량 매도",
+   "url": "https://www.ajunews.com/view/20261013092147456",
+   "press": "아주경제",
+   "at": "2026-10-13 09:40",
+   "why": "CXMT 공급 경쟁 공포가 매도 이유 — 실적 변화 아닌 헤드라인 투매(D+3~5 되돌림 가설)",
+   "summary": "09:11 SK스퀘어 −7.22%·하닉 −5.30%·삼성전기 −4.51%·심텍 −4.13%. 전날 미 SOX −2.60%·마이크론 −3.88%·하닉 ADR −4.02%."
+  },
+  {
+   "title": "JP모건 3분기 실적 프리뷰 — EPS 컨센 5.93~5.94달러",
+   "url": "https://site.financialmodelingprep.com/market-news/jpmorgan-chase-q3-2026-earnings-preview",
+   "press": "FMP",
+   "at": "2026-10-13 09:40",
+   "why": "KBE 오름 bet(#20261012-20)·KB금융 대기 bet 판정 재료 — 10/13 미 개장 전 발표",
+   "summary": "EPS 컨센 5.93(FMP)~5.94(Zacks), 매출 512~522억달러. 발표 10/13 미 개장 전."
+  },
+  {
    "title": "인텔·브로드컴 CEO \"AI의 최대 병목은 칩이 아니라 자본\"",
    "url": "https://www.cnbc.com/2026/10/12/intel-broadcom-ceos-warn-capital-crunch-could-become-ai-bottleneck.html",
    "press": "CNBC",
@@ -615,31 +639,7 @@
    "at": "2026-10-12 01:40",
    "why": "에너지 칸·유가 프리미엄 — 러-우 '에너지 휴전'과 반대로 걸프 산유국 본토 위험은 커지는 중(S-Oil 내림 대기 취소 근거)",
    "summary": "10/7 사우디 공항 공격 3명 사망·36명 부상, 10/9 리야드 공항 재개장. 블룸버그 10/11 '리야드 주 공항 추가 공격' 보도."
-  },
-  {
-   "title": "월러 연준 이사, 금리 쪽 판단 바꿔 — 강한 소비에 2026년 인상 가능성 시사",
-   "url": "https://cryptobriefing.com/feds-waller-sees-strong-us-spending-hints-at-2026-rate-hike-possibility/",
-   "press": "Crypto Briefing",
-   "at": "2026-10-12 01:40",
-   "why": "^TNX 10년 금리 내림 bet(5.242→5.15, 손절 5.30)·고금리 칸 — 비둘기 쪽이던 월러의 매파 전환은 CPI(10/14) 앞 금리 하방 막음",
-   "summary": "월러 '미국 소비 강함', 인플레 기대 우려 속 인상 가능성 열어둠(원문 수치 미확인). 피드 gn_us_fed 제목 'Waller pivots on interest-rate bet'."
-  },
-  {
-   "title": "블룸버그 '뜨거웠던 AI 매매, 한국 증시는 매수자 찾기 힘들어' — 반면 국내 소부장 한 달 수익률 1위",
-   "url": "https://news.bloomberglaw.com/artificial-intelligence/the-ai-trade-may-be-reaching-a-juncture-time-to-pick-winners",
-   "press": "Bloomberg",
-   "at": "2026-10-12 01:40",
-   "why": "하이닉스 bet·삼성전자 대기 — 대형 메모리 소외, 수급은 장비·소재로 이동(10/12 첫 거래에서 확인)",
-   "summary": "블룸버그 10/11 제목 'Once-Hot AI Trade Leaves Korean Stocks Struggling for Buyers'(본문 미확인). 조선비즈 '삼전닉스 주춤했지만 소부장 선전에 한 달 반도체 수익률 1위'."
-  },
-  {
-   "title": "트럼프 '러시아·우크라이나 에너지 휴전 합의' 발표 — 9월 15일에도 같은 주장, 며칠 만에 무산",
-   "url": "https://www.newsweek.com/trumps-russia-ukraine-energy-truce-already-run-out-gas-12461493",
-   "press": "Newsweek",
-   "at": "2026-10-12 00:35",
-   "why": "에너지 칸(SK이노베이션)·S-Oil 내림 대기 bet — 정유소 공격 중단이면 디젤 크랙 하락, 단 전례상 지속성 의문",
-   "summary": "트럼프 10/11 '양측 에너지 시설 공격 중단 합의' 발표(Reuters·Bloomberg). 9/15에도 '에너지 휴전' 주장했으나 공격 재개로 무산(Newsweek). 트럼프는 디젤 가격을 이유로 우크라에 러 정유소 공격 중단을 압박해 왔음(Kyiv Independent)."
   }
  ],
- "at": "2026-10-13 04:45"
+ "at": "2026-10-13 09:40"
 }
