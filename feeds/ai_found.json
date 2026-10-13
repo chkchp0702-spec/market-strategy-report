@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "코스피 5.46% 급락 — 외국인 매도에 밸류에이션 사상 최저",
+   "url": "https://www.koreatimes.co.kr/economy/20261013/kospi-plunges-546-as-foreign-selling-drives-valuations-to-record-low",
+   "press": "Korea Times",
+   "at": "2026-10-13 16:35",
+   "why": "반도체 칸·하닉 bet(#20261013-09) — 가격은 무너졌는데 이익 하향은 없음, '공포 매도' 판정 근거",
+   "summary": "코스피 6,035.35(−5.46%) 마감. 하닉 1,450,000(−9.7%)·삼전 233,500(−7.0%). 외국인 매도로 밸류에이션 사상 최저권(기사 제목)."
+  },
+  {
+   "title": "외국인 매도에 코스피 5.5% 하락 — 반도체 대형주 급락",
+   "url": "https://www.koreaherald.com/article/10901317",
+   "press": "Korea Herald",
+   "at": "2026-10-13 16:35",
+   "why": "외국인 수급이 한국 롱 bet 전체를 한 요인으로 묶는다 — 다음 날 외국인 순매도 축소 여부가 반등 bet 진입 조건",
+   "summary": "외국인 코스피 4.5조 순매도(yna). 원달러 1,345.1원(+10원). 코스닥은 −1.43%로 상대 선방."
+  },
+  {
    "title": "엔비디아·시스코, AI 데이터센터용 USFP 광모듈 규격 공개 — 레인당 400G, 대역폭 밀도 4배",
    "url": "https://www.investing.com/news/stock-market-news/cisco-and-nvidia-unveil-usfp-optical-module-specification-for-ai-data-centers-93CH-4944989",
    "press": "Investing.com",
@@ -623,23 +639,7 @@
    "at": "2026-10-12 08:45",
    "why": "하이닉스 bet #20261010-00(진행 −2.8%) — 메리츠 80.1조와 두 번째 독립 추정",
    "summary": "3Q DRAM ASP +26%·NAND +16% 예상. 2027E P/E 3.7배, 27~28년 주주환원 시총 대비 11~14%."
-  },
-  {
-   "title": "메리츠 '원익IPS: CAPEX 사이클이 실적으로 확인되는 국면' — 3Q 영업익 583억(+112%) 전망",
-   "url": "https://t.me/s/meritz_research",
-   "press": "메리츠증권(텔레그램)",
-   "at": "2026-10-12 08:21",
-   "why": "⚡ 선제 #20261012-08 원익IPS 근거 · 반도체 소부장 칸",
-   "summary": "3Q26E 매출 3,425억(+28% YoY)·영업익 583억(+112%, OPM 17%). 하닉 3Q OP 80.1조 서프라이즈 예상(같은 날 메리츠 김선우)과 함께 메모리 이익→설비투자 연결."
-  },
-  {
-   "title": "셀트리온 3분기 영업익 5,100억원…69.2%↑ 역대 최대, 컨센 부합",
-   "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800004",
-   "press": "DART 공시",
-   "at": "2026-10-12 07:46",
-   "why": "바이오 대형주 실적 시즌 첫 숫자 — '부합'이라 서프라이즈 드리프트 기대 낮음",
-   "summary": "매출 1.5조(컨센 1.46조 +2%), 영업익 5,100억(컨센 5,141억 −1%). 전 거래일 종가 179,000원(−2.45%)."
   }
  ],
- "at": "2026-10-13 14:35"
+ "at": "2026-10-13 16:35"
 }
