@@ -60,7 +60,7 @@ def main():
         a, b = stats(j["a"]), stats(j["b"])
         ra, rb = j["a"].pct_change().dropna(), j["b"].pct_change().dropna()
         corr = round(float(ra.corr(rb)), 3)
-        cash = a["vol"] < CRIT["cash_vol"] and b["vol"] < CRIT["cash_vol"]
+        cash = bool(a["vol"] < CRIT["cash_vol"] and b["vol"] < CRIT["cash_vol"])
         d_cagr = round(b["cagr"] - a["cagr"], 2)
         d_y1 = round((b["y1"] or 0) - (a["y1"] or 0), 2) if a["y1"] is not None and b["y1"] is not None else None
         d_mdd = round(b["mdd"] - a["mdd"], 2)   # 음수 = 후보가 더 깊게 빠짐
@@ -75,6 +75,7 @@ def main():
         row.update(a=a, b=b, corr=corr, cash=cash, d_cagr=d_cagr, d_y1=d_y1, d_mdd=d_mdd, vol_ratio=vr,
                    verdict="교체" if not fails else "유지", why="기준 모두 통과" if not fails else " · ".join(fails))
         rows.append(row)
+    out = json.loads(json.dumps({"rows": rows}, default=float)); rows = out["rows"]
     out = {"at": dt.datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "crit": CRIT, "rows": rows,
            "note": "RULES 1-L — 선호 ETF 목록(ledger/pref_etf.json) 상품으로 바꿔도 수익률이 비슷하면 교체, 차이가 크거나 대체할 것이 없으면 유지."}
     for p in (ROOT / "market" / "etf_pref.json", ROOT / "market" / "lab" / "e1013_pref.json"):
