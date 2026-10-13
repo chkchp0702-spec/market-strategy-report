@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "유나이티드헬스 3분기 실적 예상 상회 — 2026 조정 EPS 가이던스 '최소 20.50달러'로 상향",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000731766/000073176626000255/earningsrelease3q26unh.htm",
+   "press": "SEC 8-K(유나이티드헬스)",
+   "at": "2026-10-13 19:35",
+   "why": "'반대편 바구니' 회전(헬스케어) — AI 칩 투매일에 비(非)하드웨어 이익 상향이 나온 사례",
+   "summary": "2026 조정 EPS ≥20.50달러(기존 19.50~20.00, CNBC). 의료비 통제로 예상 상회, 프리마켓 급등(investing_en). 같은 날 칩 매도는 MSCI 아시아태평양 8월 이후 최저(bbg_tech)."
+  },
+  {
+   "title": "NTT데이터, 앤트로픽용 63억 달러 일본 데이터센터 건설 협의(보도)",
+   "url": "https://www.datacenterdynamics.com/en/tags/ntt-communications/",
+   "press": "Seeking Alpha 보도 인용·DCD",
+   "at": "2026-10-13 19:35",
+   "why": "AI 이익 논지·하닉(#09) — 'AI 투자 회의론' 투매일에도 신규 데이터센터 발주는 계속",
+   "summary": "63억 달러 규모(sa_news 제목 기준, 원문 세부 미확인). NTT데이터는 이미 일본 DC 용량 확대에 90억 달러 투자 계획(bloomberglinea)."
+  },
+  {
    "title": "인도 Nifty IT 3% 급등 — 글로벌 칩 매도에 인도 소프트웨어주로 관심 이동",
    "url": "https://www.5paisa.com/news/nifty-it-index-jumps-3-as-global-chip-selloff-lifts-focus-on-indian-software-stocks",
    "press": "5paisa",
@@ -623,22 +639,6 @@
    "at": "2026-10-12 11:30",
    "why": "애플 수요 둔화 논지(아이폰 부품주 뒤늦은 반영) 첫 확인 — 비에이치 내림 대기 bet 근거",
    "summary": "LG이노텍 10/12 장중 508,000원(−11.19%). 같은 날 상위 1% 투자자 순매도 1위(매경). 급락 원인(애플 수요 vs 메모리·외국인 매도)은 미확인."
-  },
-  {
-   "title": "FT: '빚투 폭증' 우려에 9월 AI 관련 부채 조달액 절반으로 감소",
-   "url": "https://www.yna.co.kr/view/AKR20261012069100009",
-   "press": "연합뉴스(FT 인용)",
-   "at": "2026-10-12 11:00",
-   "why": "'다음 약한 고리는 AI 차입' 논지·반도체 칸 — 자금 조달 층이 먼저 식는 신호",
-   "summary": "FT 10/12 보도: AI 인프라 투자용 채권 발행에 제동, 9월 AI 관련 부채 조달액이 절반 수준으로 감소. 같은 날 DBS CEO '시장이 AI 금융 위험을 재평가 중'(블룸버그)."
-  },
-  {
-   "title": "코스피, 6500선도 붕괴…외국인 매도에 반도체 '휘청'",
-   "url": "https://www.ket.kr/news/article.html?no=41306",
-   "press": "경제타임스",
-   "at": "2026-10-12 11:00",
-   "why": "반도체 칸·하이닉스·삼성전자 bets — '한국 따로 놀기' 논지(0.75)",
-   "summary": "연휴 뒤 첫 거래일 코스피 6,500선 이탈, 외국인 매도에 삼성전자·SK하이닉스 약세. 코스피·코스닥 2~3%대 급락(연합)."
   }
  ],
  "at": "2026-10-13 18:40"
