@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "EU, 중국산 인버터 수입 제한 추진…LS일렉트릭·OCI파워 촉각",
+   "url": "https://kr.investing.com/news/stock-market-news/article-2124314",
+   "press": "인베스팅닷컴(연합 인용)",
+   "at": "2026-10-13 10:30",
+   "why": "⚡ LS ELECTRIC 대기 bet(#20261013-10) 근거 — 전력기기 칸 수주 재료",
+   "summary": "EU가 전력망 안보를 이유로 중국산 인버터 수입 제한을 추진. LS일렉트릭 등 한국 전력기기·태양광 업체 반사이익 기대(5월 보도 이후 후속)."
+  },
+  {
+   "title": "탄산리튬 선물 하한가 — 국내 선물 대부분 하락",
+   "url": "https://www.itiger.com/news/1135471004",
+   "press": "Tiger Brokers",
+   "at": "2026-10-13 10:30",
+   "why": "2차전지(삼성SDI bet 갭 손절)와 이어짐 — EU의 중국산 하이브리드 제한 합의 여파",
+   "summary": "중국 탄산리튬 선물 장중 10% 급락·하한가, 10만위안 위협(HANAchina/70328). EU-중국 하이브리드 수출 제한 합의(cnevpost 10/9)가 배터리 수요 우려로 번짐."
+  },
+  {
    "title": "'반도체 쇼크' 코스피 4% 급락, 6100선 붕괴…5거래일째 하락",
    "url": "https://www.etoday.co.kr/news/view/2634995",
    "press": "이투데이",
@@ -623,22 +639,6 @@
    "at": "2026-10-09 15:17",
    "why": "반도체 칸·소부장 — 팹 설비·전력기기(한양이엔지·LS ELECTRIC) 수주 시점이 앞당겨질 재료, 한국 휴장 중 발표",
    "summary": "SK 호남 팹을 전력·용수 인프라보다 먼저 착공. 규모는 용인의 3분의 2, 추가 확대 가능성(MTN)."
-  },
-  {
-   "title": "리야드 공항 후티 공격, 3명 사망 — 사우디 '전쟁 최대 고비'",
-   "url": "https://www.timesofisrael.com/three-killed-in-latest-houthi-attacks-on-riyah-airport-saudi-authorities-say/",
-   "press": "Times of Israel",
-   "at": "2026-10-09 20:00",
-   "why": "에너지 칸·BNO 대기·LIG넥스원 대기 — 걸프 방공 수요와 원유 공급 위험",
-   "summary": "후티 리야드 공항 공격 3명 사망. FT는 이후 석유 대표들이 리야드 에너지 회의 불참했다고 보도(10/11)."
-  },
-  {
-   "title": "후티, 리야드 공항 연쇄 공격 — 사우디 '3명 사망'(10/7~9), 10/11 추가 공격(블룸버그)",
-   "url": "https://www.aljazeera.com/news/2026/10/9/saudi-arabia-reopens-riyadh-airport-after-houthi-attack-kills-three",
-   "press": "Al Jazeera",
-   "at": "2026-10-12 01:40",
-   "why": "에너지 칸·유가 프리미엄 — 러-우 '에너지 휴전'과 반대로 걸프 산유국 본토 위험은 커지는 중(S-Oil 내림 대기 취소 근거)",
-   "summary": "10/7 사우디 공항 공격 3명 사망·36명 부상, 10/9 리야드 공항 재개장. 블룸버그 10/11 '리야드 주 공항 추가 공격' 보도."
   }
  ],
  "at": "2026-10-13 09:40"
