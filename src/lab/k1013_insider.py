@@ -104,7 +104,8 @@ def classify(d):
     d = d.dropna(subset=["td", "fd"]).copy()
     d = d[d["ocik"].notna() & (d["tk"] != "") & (d["tk"] != "NAN") & (d["tk"] != "NONE")]
     d["y"], d["m"] = d["td"].dt.year, d["td"].dt.month
-    key = d["ocik"].astype(str) + "|" + d["icik"].astype(str)
+    norm = lambda x: x.astype(str).str.strip().str.lstrip("0")         # CIK 앞 0 지우기 (매일 신호 XML 과 맞춤)
+    key = norm(d["ocik"]) + "|" + norm(d["icik"])
     d["key"] = key
     ym = set(zip(key, d["y"], d["m"]))
     yy = set(zip(key, d["y"]))
