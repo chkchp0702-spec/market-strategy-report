@@ -1,0 +1,302 @@
+{
+ "rc": 0,
+ "stdout_tail": "기본 +0.74% · 킥 +1.12% · 슬리브 +2.99% · 거래 1 · 들고 있는 것 5\n",
+ "stderr_tail": "HTTP Error 404: {\"quoteSummary\":{\"result\":null,\"error\":{\"code\":\"Not Found\",\"description\":\"Quote not found for symbol: CFLT\"}}}\n$CFLT: possibly delisted; no timezone found\n\n2 Failed downloads:\n['CDNS']: OperationalError('database is locked')\n['CFLT']: possibly delisted; no timezone found\n",
+ "ideas": {
+  "nh52": {
+   "name": "🏔 신고가",
+   "state": "👻",
+   "on": false,
+   "rule": "거래량≥3.0배|지수200선위=예|US",
+   "exit": "최대 40일",
+   "today": [
+    "HUM"
+   ],
+   "today_d": "2026-10-09",
+   "n30": 1
+  },
+  "pead": {
+   "name": "📊 실적 표류",
+   "state": "🧪",
+   "on": true,
+   "rule": "갭≥8%|거래량≥3배|60일고가위=무관|실적철=예|US",
+   "exit": "최대 40일",
+   "today": [
+    "HUM"
+   ],
+   "today_d": "2026-10-09",
+   "n30": 1
+  },
+  "dip": {
+   "name": "🩹 급락 반등",
+   "state": "❌",
+   "on": false,
+   "rule": "QQQ|rsi<5|fix/5d|c50|next",
+   "exit": "최대 5일",
+   "today": [],
+   "today_d": null,
+   "n30": 0
+  },
+  "trend": {
+   "name": "🧭 추세",
+   "state": "✅",
+   "on": true,
+   "rule": "100/50|risk",
+   "exit": "N일 고가 돌파 → 사고 · M일 저가 이탈 → 팖 (신호 다음 날 종가)",
+   "today": [
+    "DBC",
+    "EFA",
+    "QQQ",
+    "SPY",
+    "USO",
+    "UUP"
+   ],
+   "today_d": "2026-10-12",
+   "n30": 0
+  },
+  "cust": {
+   "name": "🔌 고객사 따라",
+   "state": "🧪",
+   "on": true,
+   "rule": "고객사≥7%|납품사≤고객사×0.33",
+   "exit": "최대 40일",
+   "today": [],
+   "today_d": null,
+   "n30": 0
+  },
+  "ins": {
+   "name": "🕵 내부자 매수",
+   "state": "✅",
+   "on": true,
+   "rule": "기회형A|3명↑|100천달러↑",
+   "exit": "최대 40일",
+   "today": [],
+   "today_d": null,
+   "n30": 0
+  }
+ },
+ "proof": {
+  "cup": {
+   "n": 49,
+   "pf": 1.63,
+   "on": true,
+   "trial": false,
+   "why": "확인됨 — 49건 · 평균 +0.9% · 손익비 1.6"
+  },
+  "gap": {
+   "n": 43,
+   "pf": 2.27,
+   "on": true,
+   "trial": false,
+   "why": "확인됨 — 43건 · 평균 +1.6% · 손익비 2.3"
+  },
+  "cust": {
+   "n": 143,
+   "pf": 1.87,
+   "on": true,
+   "trial": true,
+   "why": "🧪 시험 편입(절반 크기) — 과거 검증 시험 기간 143건 · 지수 초과 +0.82% · 손익비 1.87 · 가장 좋은 해 빼면 -0.39 — 기준 일부 못 미침"
+  },
+  "ins": {
+   "n": 357,
+   "pf": 1.98,
+   "on": true,
+   "trial": false,
+   "why": "✅ 채택 — 과거 검증 시험 기간 357건 · 지수 초과 +0.31% · 손익비 1.98 · 가장 좋은 해 빼면 0.03"
+  }
+ },
+ "q16_max": {
+  "on": false,
+  "th": 10,
+  "state": "❌",
+  "why": "gap|kk: ❌ 고른 기준: MAX20 ≥ 15% 뺌 (앞 기간 남긴 쪽 98.9%) · 시험 기간 남긴 쪽 초과 -0.42% vs 전체 -0.37% vs 뺀 쪽 +1.23% · 손익비 1.19 vs 1.2 · 나아진 해 4/7 / gap|f20: ❌ 고른 기준: MAX20 ≥ 15% 뺌 (앞 기간 남긴 쪽 98.9%) · 시험 기간 남긴 쪽 초과 -0.50% vs 전체 -0.46% vs 뺀 쪽 +0.64% · 손익비 1.13 vs 1.14 · 나아진 해 4/7 / nh|kk: ❌ 고른 기준: MAX20 ≥ 5% 뺌 (앞 기간 남긴 쪽 90.5%) · 시험 기간 남긴 쪽 초과 -0.76% vs 전체 -0.55% vs 뺀 쪽 +0.09% · 손익비 1.01 vs 1.08 · 나아진 해 2/7 / nh|f20: ❌ 고른 기준: MAX20 ≥ 10% 뺌 (앞 기간 남긴 쪽 98.4%) · 시험 기간 남긴 쪽 초과 -0.41% vs 전체 -0.30% vs 뺀 쪽 +2.09% · 손익비 1.08 vs 1.12 · 나아진 해 4/7",
+  "rule": "☕·📈 미국 후보 중 신호일 전 20거래일 하루 최대 상승률 ≥ 10% → 킥은 그대로 · 🎰 그림자 채점만",
+  "cut": [
+   {
+    "code": "OKTA",
+    "d": "2026-10-02",
+    "src": "cup",
+    "max20": 12.0
+   },
+   {
+    "code": "VICR",
+    "d": "2026-10-05",
+    "src": "cup",
+    "max20": 19.8
+   },
+   {
+    "code": "QLYS",
+    "d": "2026-10-05",
+    "src": "cup",
+    "max20": 15.1
+   },
+   {
+    "code": "HPE",
+    "d": "2026-10-05",
+    "src": "cup",
+    "max20": 12.4
+   },
+   {
+    "code": "FTRE",
+    "d": "2026-10-05",
+    "src": "cup",
+    "max20": 13.3
+   },
+   {
+    "code": "SNPS",
+    "d": "2026-10-05",
+    "src": "gap",
+    "max20": 12.8
+   },
+   {
+    "code": "SYNA",
+    "d": "2026-10-05",
+    "src": "gap",
+    "max20": 14.1
+   },
+   {
+    "code": "ARM",
+    "d": "2026-10-05",
+    "src": "gap",
+    "max20": 17.2
+   },
+   {
+    "code": "OMER",
+    "d": "2026-10-05",
+    "src": "gap",
+    "max20": 13.8
+   },
+   {
+    "code": "DFDV",
+    "d": "2026-10-05",
+    "src": "gap",
+    "max20": 21.2
+   },
+   {
+    "code": "FIRY",
+    "d": "2026-10-05",
+    "src": "gap",
+    "max20": 17.8
+   },
+   {
+    "code": "TENB",
+    "d": "2026-10-06",
+    "src": "cup",
+    "max20": 16.5
+   },
+   {
+    "code": "XP",
+    "d": "2026-10-06",
+    "src": "gap",
+    "max20": 30.9
+   },
+   {
+    "code": "INTR",
+    "d": "2026-10-06",
+    "src": "gap",
+    "max20": 19.7
+   },
+   {
+    "code": "S",
+    "d": "2026-10-07",
+    "src": "cup_eye",
+    "max20": 14.5
+   },
+   {
+    "code": "SIG",
+    "d": "2026-10-07",
+    "src": "cup",
+    "max20": 24.0
+   },
+   {
+    "code": "PENG",
+    "d": "2026-10-07",
+    "src": "cup",
+    "max20": 11.6
+   },
+   {
+    "code": "IMOS",
+    "d": "2026-10-12",
+    "src": "cup",
+    "max20": 14.6
+   }
+  ]
+ },
+ "shadow_stat": {
+  "focus": {
+   "n": 2,
+   "avg": 0.37,
+   "win": 50,
+   "pf": 1.22,
+   "tag": "🎯"
+  },
+  "accum": {
+   "n": 2,
+   "avg": 4.36,
+   "win": 100,
+   "pf": null,
+   "tag": "🤫"
+  },
+  "earn": {
+   "n": 70,
+   "avg": 0.99,
+   "win": 56,
+   "pf": 1.79,
+   "tag": "📊"
+  },
+  "nh52": {
+   "n": 1,
+   "avg": 0.38,
+   "win": 100,
+   "pf": null,
+   "tag": "🏔"
+  },
+  "maxcut": {
+   "n": 17,
+   "avg": 1.83,
+   "win": 59,
+   "pf": 2.43,
+   "tag": "🎰"
+  }
+ },
+ "stat": {
+  "base": 0.74,
+  "kick": 1.12,
+  "spy": 1.85,
+  "whale": 1.72,
+  "trades": 1,
+  "win": 0,
+  "avg_win": null,
+  "avg_loss": -5.46,
+  "avg": -5.46,
+  "slots": "5/5",
+  "paused": false
+ },
+ "open": [
+  {
+   "code": "5985.T",
+   "src": "☕ 컵 돌파(눈 검사 통과)",
+   "d0": "2026-10-02"
+  },
+  {
+   "code": "SJM",
+   "src": "☕ 컵 돌파(눈 검사 통과)",
+   "d0": "2026-10-05"
+  },
+  {
+   "code": "SN",
+   "src": "☕ 컵 돌파(눈 검사 통과)",
+   "d0": "2026-10-05"
+  },
+  {
+   "code": "EQNR",
+   "src": "☕ 컵 돌파(눈 검사 통과)",
+   "d0": "2026-10-06"
+  },
+  {
+   "code": "603127.SS",
+   "src": "☕ 컵 돌파",
+   "d0": "2026-10-08"
+  }
+ ]
+}
