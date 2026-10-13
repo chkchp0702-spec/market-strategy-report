@@ -1,7 +1,7 @@
 """📈 Q16 매일 신호 (사용자 10/13: "16-2,3,5 진행하고 반영시켜") → market/q16_live.json (src/kick_sleeve.py 가 읽음)
 
   🔌 cust — Q16-2 고객사 → 납품사: market/cust_links.json 짝마다, 고객사 그날 ≥ th% · 거래량 ≥1.5배 인데 납품사 ≤ 고객사 × ratio
-  🕵 ins  — Q16-5 내부자 「평소와 다른」 매수: openinsider.com 최근 7일 장내 매수(P, SEC Form 4 모음 — SEC 원본은 실행기 IP 403),
+  🕵 ins  — Q16-5 내부자 「평소와 다른」 매수: openinsider.com 최근 14일 장내 매수(P, SEC Form 4 모음 — SEC 원본은 실행기 IP 403),
            습관형(직전 3년 모두 같은 달 매매, market/insider_hist.json.gz)은 빼고, 10일 안 k명 · 합계 v달러 이상이면 신호(공시일)
   규칙 숫자는 과거 검증 결과(market/q16_bt.json 의 pick)를 그대로 쓴다. 없으면 아래 기본값.
   🎰 MAX 거름망(Q16-3)은 kick_sleeve 가 시세를 받은 뒤 직접 계산한다.
@@ -177,7 +177,7 @@ def main():
         sys.path.insert(0, str(ROOT / "src"))
         import accum_bt as AB
         uni = set(AB.universe("US", {}))
-        new = [x for x in oi_recent(7, errors) if x["tk"] in uni]
+        new = [x for x in oi_recent(14, errors) if x["tk"] in uni]
         have = {x["acc"] for x in st["rows"]}
         st["rows"] += [x for x in new if x["acc"] not in have]
         cut = (now.date() - dt.timedelta(days=45)).isoformat()
