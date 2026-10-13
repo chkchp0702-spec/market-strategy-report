@@ -10,6 +10,7 @@ try:
     out["ideas"] = {k: {kk: v.get(kk) for kk in ("name", "state", "on", "rule", "exit", "today", "today_d", "n30")} for k, v in (K.get("ideas") or {}).items()}
     out["proof"] = {k: {kk: v.get(kk) for kk in ("n", "pf", "on", "trial", "why")} for k, v in (K.get("proof") or {}).items() if k in ("cust", "ins", "gap", "cup")}
     out["q16_max"] = K.get("q16_max")
+    out["q18_frog"] = K.get("q18_frog")
     out["shadow_stat"] = K.get("shadow_stat")
     out["stat"] = K.get("stat")
     out["open"] = [{k: o.get(k) for k in ("code", "src", "d0")} for o in K.get("open") or []]
