@@ -392,6 +392,26 @@ def trend_slice(D, nin, nout, wmode):
     return tsv, op, [t for t in tr if t["x"] >= D[0]]
 
 
+BRAIN_GATE_FROM = "2026-10-14"
+
+
+def is_brain(v):
+    return str(v.get("note") or "").startswith("🧠") or v.get("by") == "brain"
+
+
+def brain_gate():
+    """두뇌 선제 아이디어 킥 편입 문: 승패 난 것 20건↑ · 승률 45%↑ · 평균 + 일 때만 열림"""
+    try:
+        sb = (json.loads((ROOT / "brain" / "state.json").read_text(encoding="utf-8")).get("scorecard") or {}).get("bets") or {}
+    except Exception:
+        sb = {}
+    w, l, avg = sb.get("win") or 0, sb.get("loss") or 0, sb.get("avg")
+    n = w + l
+    on = n >= 20 and w / n >= 0.45 and (avg or 0) > 0
+    return {"on": on, "n": n, "win": w, "loss": l, "avg": avg,
+            "why": "열림" if on else f"닫힘 — 승패 {n}건({w}승 {l}패, 평균 {avg if avg is not None else '–'}%) · 20건↑·승률 45%↑·평균 + 되면 다시 켬"}
+
+
 def main() -> int:
     now = dt.datetime.now(KST)
     P = json.loads(PORT.read_text(encoding="utf-8"))
@@ -400,6 +420,12 @@ def main() -> int:
     PROOF = proof()
     allc = [v for v in C["cands"].values() if v["d"] >= START and v["src"] not in OFF]
     shadow_c = [v for v in allc if not (v["src"] in KICK_SRCS and PROOF.get(v["src"], {}).get("on"))]   # 아직 못 들어오는 신호 → 그림자 채점
+    # 10/13 사용자 「둘 다 진행」: 🧠 두뇌 선제 아이디어(뉴스 재료)는 성적이 나빠(승패 난 9건 2승 7패 · 평균 −3.7%) 킥 편입을 멈추고 그림자 채점만.
+    #   다시 켜는 조건: 승패 난 것 20건 이상 · 승률 45% 이상 · 평균 + (brain/state.json scorecard.bets). 10/14 이후 후보만 (지난 장부는 그대로 — 소급 안 함)
+    BG = brain_gate()
+    if not BG["on"]:
+        _bz = [v for v in allc if v not in shadow_c and is_brain(v) and v["d"] >= BRAIN_GATE_FROM]
+        shadow_c += _bz
     cands = [v for v in allc if v not in shadow_c]
     recent_sig = {}                                    # 종목 → 최근 신호 이모티콘 (고래 종목에도 ☕·📈·🤫 표시)
     for v in C["cands"].values():
@@ -841,7 +867,7 @@ def main() -> int:
                    "open": t_open, "trades": t_tr[-10:]} if TS > 0 else None),
         "rule": {"from": RF, "whale_sleeve": WS2, "base_now": RULE.get("now"), "why": RULE.get("why"), "quad": RULE.get("quad"), "cash": RULE.get("cash"), "use": RULE.get("use")},
         "vol_rule": RULE.get("vol_rule"),   # 🦴 변동성 맞춤(중간형) 오늘 상태 — port.py 가 계산
-        "shadow_stat": shadow_stat, "shadow_log": SH,
+        "shadow_stat": shadow_stat, "shadow_log": SH, "brain_gate": BG,
         "tags": {"🐋": "고래 13F 큰 신규", "☕": "컵 돌파", "📈": "돌파 갭", "🤫": "조용한 매집 돌파", "📊": "실적 갭 · 실적 표류",
                  "🏔": "거래량 동반 52주 신고가", "🩹": "상승장 급락 반등", "🧭": "자산 추세"},
         "dates": pdates, "base": [round((b - 1) * 100, 2) for b in base], "kick": [round((k - 1) * 100, 2) for k in kick],
