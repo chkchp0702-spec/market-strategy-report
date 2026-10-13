@@ -170,6 +170,12 @@ def main() -> int:
     scores = {"at": home["at"], "rows": S, "good": good[:6], "bad": bad[:6]}
     home["scores"] = {"good": good[:3], "bad": bad[:3]}
 
+    # ── 10/13 「더 자주 열게」: ⑥ 어제 예고 → 오늘 결과 · ⑦ 이번 주 복기 · ③ 어제보다 바뀐 것 ──
+    try:
+        extra(home, now, P, K, CN, F, B, L, S)
+    except Exception as e_:
+        print("홈 추가 실패", e_)
+
     # ── 🏷 종목 신호 색인 ──
     ix = {}
 
@@ -206,6 +212,97 @@ def main() -> int:
         (M / name).write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"홈 · 성적표 {len(S)}줄 · 신호 색인 {len(ix)}종목 · 단타 오늘 {len(rows)}건")
     return 0
+
+
+def _txt(x, n=90):
+    import re
+    t = re.sub(r"<[^>]+>", "", str(x or "")).replace("&amp;", "&").strip()
+    return t if len(t) <= n else t[:n - 1] + "…"
+
+
+def _wk(dates, nav, start):
+    """누적 수익(%) 줄에서 start 날짜 이후(포함) 주간 수익 — 시작 전날 값을 기준으로"""
+    idx = [i for i, d in enumerate(dates) if d >= start]
+    if not idx or not nav:
+        return None
+    i0 = idx[0]
+    a = 1 + (nav[i0 - 1] if i0 > 0 else 0) / 100
+    b = 1 + nav[-1] / 100
+    return round((b / a - 1) * 100, 2)
+
+
+def extra(home, now, P, K, CN, F, B, L, S):
+    import glob
+    # ⑥ 어제 예고 → 오늘 결과 (가장 최근 리포트 data 파일)
+    fs = sorted(glob.glob(str(ROOT / "data" / "2026-*.json")) + glob.glob(str(ROOT / "data" / "2027-*.json")))
+    D = rj(fs[-1]) if fs else {}
+    rep = next((x for x in S if x.get("k") == "report"), {})
+    if D:
+        home["grade"] = {"date": D.get("date"), "label": D.get("edition_label"),
+                         "items": [{"mark": g.get("mark"), "cls": g.get("cls"), "t": _txt(g.get("title"), 40).replace("어제 예고 ", ""), "x": _txt(g.get("text"), 90)}
+                                   for g in (D.get("yesterday_grades") or [])[:3]],
+                         "next": [{"t": _txt(c, 70), "p": (D.get("forecasts_p") or [None] * 3)[i] if i < len(D.get("forecasts_p") or []) else None}
+                                  for i, c in enumerate((D.get("checks") or [])[:3])],
+                         "rate": rep.get("rate"), "win": rep.get("win"), "loss": rep.get("loss"),
+                         "one": _txt(D.get("one_liner"), 110), "kick": _txt((D.get("kick") or {}).get("title"), 90)}
+    # ⑦ 이번 주 복기 (월요일부터 · 미국 날짜 기준)
+    mon = (now - dt.timedelta(days=now.weekday())).strftime("%Y-%m-%d")      # 이번 주 월요일 (주말이면 방금 끝난 주)
+    pd_ = P.get("dates") or []
+    wk = {"from": mon, "base": _wk(pd_, P.get("nav") or [], mon), "spy": _wk(pd_, (P.get("bench") or {}).get("S&P500") or [], mon),
+          "kospi": _wk(pd_, (P.get("bench") or {}).get("코스피") or [], mon),
+          "kick": _wk(K.get("dates") or [], K.get("kick") or [], mon) if K else None,
+          "conc": _wk(CN.get("dates") or [], CN.get("nav") or [], mon) if CN else None,
+          "days": len([d for d in pd_ if d >= mon])}
+    sc = [r for r in (L.get("scorecard") or []) if str(r.get("date", "")) >= mon]
+    wk["rep"] = {"n": len(sc), "win": sum(1 for r in sc if r.get("verdict") == "맞음"), "loss": sum(1 for r in sc if r.get("verdict") == "틀림")}
+    ev = [e for e in (K.get("events") or []) if str(e.get("d", "")) >= mon and e.get("k") in ("사기", "팔기", "절반 정리")]
+    wk["kick_ev"] = {"buy": sum(1 for e in ev if e["k"] == "사기"), "sell": sum(1 for e in ev if e["k"] != "사기"),
+                     "best": max([e for e in ev if e.get("r") is not None], key=lambda e: e["r"], default=None)}
+    if wk["kick_ev"]["best"]:
+        b_ = wk["kick_ev"]["best"]; wk["kick_ev"]["best"] = {"name": b_.get("name"), "r": b_.get("r"), "code": b_.get("code")}
+    wk["next"] = [{"when": _txt(x.get("when"), 20), "what": _txt(x.get("what"), 60)} for x in (D.get("schedule") or [])[:4]] if D else []
+    home["week"] = wk
+    # ③ 어제보다 바뀐 것 — 하루 한 번 찍어 둔 모습과 비교
+    reg = None
+    try:
+        reg = json.loads(web("https://raw.githubusercontent.com/chkchp0702-spec/daily-app/main/archive/x/regime.json", 20) or "{}").get("label")
+    except Exception:
+        pass
+    st = P.get("stat") or {}
+    snap = {"reg": reg, "focus": [t.get("name") for t in (F.get("themes") or [])[:2]], "conc_up": (CN.get("regime") or {}).get("up"),
+            "gap": round((home["port"].get("kick") or 0) - (st.get("spy") or 0), 2), "brain": B.get("regime"),
+            "kick_n": home["kick"].get("n"), "chg": (P.get("changes") or [{}])[0].get("date"), "rep": D.get("date") if D else None}
+    sf = M / "home_snap.json"
+    SN = rj(sf, {"days": {}})
+    today = now.strftime("%Y-%m-%d")
+    SN["days"][today] = snap
+    SN["days"] = dict(sorted(SN["days"].items())[-7:])
+    prev_d = max([d for d in SN["days"] if d < today], default=None)
+    pv = SN["days"].get(prev_d) or {}
+    ch = []
+    if pv:
+        if snap["reg"] and pv.get("reg") and snap["reg"] != pv["reg"]:
+            ch.append({"ic": "🧭", "t": f"미국 국면 {pv['reg']} → {snap['reg']}", "go": "sector"})
+        if snap["conc_up"] is not None and pv.get("conc_up") is not None and snap["conc_up"] != pv["conc_up"]:
+            ch.append({"ic": "🎯", "t": "상승장 판정 " + ("🔴 → 🟢" if snap["conc_up"] else "🟢 → 🔴"), "go": "port~poconc"})
+        nf = [x for x in snap["focus"] if x and x not in (pv.get("focus") or [])]
+        if nf:
+            ch.append({"ic": "🎯", "t": "새 집중 테마: " + ", ".join(nf), "go": "market~mkfo"})
+        if pv.get("gap") is not None:
+            d_ = snap["gap"] - pv["gap"]
+            if abs(d_) >= 0.2:
+                ch.append({"ic": "⚡", "t": f"킥 vs S&P {pv['gap']:+.1f}%p → {snap['gap']:+.1f}%p " + ("(따라붙음)" if d_ > 0 else "(벌어짐)"), "go": "port"})
+        if snap["chg"] and snap["chg"] != pv.get("chg"):
+            ch.append({"ic": "🔁", "t": f"포트 비중 바뀜 ({snap['chg'][5:].replace('-', '/')})", "go": "port~pofollow"})
+        if snap["brain"] and pv.get("brain") and snap["brain"] != pv["brain"]:
+            ch.append({"ic": "🧠", "t": f"두뇌 판단 {pv['brain']} → {snap['brain']}", "go": "feed"})
+    kev = home["kick"].get("events") or []
+    if kev:
+        ch.append({"ic": "⚡", "t": "킥 " + " · ".join(f"{'사기' if e['k'] == '사기' else '팔기'} {e.get('name')}" for e in kev[:3]), "go": "port~pokick"})
+    if D and D.get("date") == today:
+        ch.append({"ic": "🌐", "t": "오늘 시황 나옴 — " + _txt((D.get("kick") or {}).get("title"), 46), "go": "market"})
+    home["chg"] = {"since": prev_d, "items": ch[:5]}
+    sf.write_text(json.dumps(SN, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
 if __name__ == "__main__":
