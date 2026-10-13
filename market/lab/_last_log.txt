@@ -1,1 +1,43 @@
-{"rc": 0, "stdout_tail": "기본 +0.74% · 킥 +1.12% · 슬리브 +2.99% · 거래 1 · 들고 있는 것 5\n", "stderr_tail": "HTTP Error 404: {\"quoteSummary\":{\"result\":null,\"error\":{\"code\":\"Not Found\",\"description\":\"Quote not found for symbol: CFLT\"}}}\n$CFLT: possibly delisted; no timezone found\n\n1 Failed download:\n['CFLT']: possibly delisted; no timezone found\n", "ideas": {"nh52": {"name": "🏔 신고가", "state": "👻", "on": false, "rule": "거래량≥3.0배|지수200선위=예|US", "exit": "최대 40일", "today": ["HUM"], "today_d": "2026-10-09", "n30": 1}, "pead": {"name": "📊 실적 표류", "state": "🧪", "on": true, "rule": "갭≥8%|거래량≥3배|60일고가위=무관|실적철=예|US", "exit": "최대 40일", "today": ["HUM"], "today_d": "2026-10-09", "n30": 1}, "dip": {"name": "🩹 급락 반등", "state": "❌", "on": false, "rule": "QQQ|rsi<5|fix/5d|c50|next", "exit": "최대 5일", "today": [], "today_d": null, "n30": 0}, "trend": {"name": "🧭 추세", "state": "✅", "on": true, "rule": "100/50|risk", "exit": "N일 고가 돌파 → 사고 · M일 저가 이탈 → 팖 (신호 다음 날 종가)", "today": ["DBC", "EFA", "QQQ", "SPY", "USO", "UUP"], "today_d": "2026-10-12", "n30": 0}, "cust": {"name": "🔌 고객사 따라", "state": "🧪", "on": true, "rule": "고객사≥7%|납품사≤고객사×0.33", "exit": "최대 40일", "today": [], "today_d": null, "n30": 0}, "ins": {"name": "🕵 내부자 매수", "state": "✅", "on": true, "rule": "기회형A|3명↑|100천달러↑", "exit": "최대 40일", "today": [], "today_d": null, "n30": 0}}, "proof": {"cup": {"n": 49, "pf": 1.63, "on": true, "trial": false, "why": "확인됨 — 49건 · 평균 +0.9% · 손익비 1.6"}, "gap": {"n": 43, "pf": 2.27, "on": true, "trial": false, "why": "확인됨 — 43건 · 평균 +1.6% · 손익비 2.3"}, "cust": {"n": 143, "pf": 1.87, "on": true, "trial": true, "why": "🧪 시험 편입(절반 크기) — 과거 검증 시험 기간 143건 · 지수 초과 +0.82% · 손익비 1.87 · 가장 좋은 해 빼면 -0.39 — 기준 일부 못 미침"}, "ins": {"n": 357, "pf": 1.98, "on": true, "trial": false, "why": "✅ 채택 — 과거 검증 시험 기간 357건 · 지수 초과 +0.31% · 손익비 1.98 · 가장 좋은 해 빼면 0.03"}}, "q16_max": {"on": false, "th": 10, "state": "❌", "why": "gap|kk: ❌ 고른 기준: MAX20 ≥ 15% 뺌 (앞 기간 남긴 쪽 98.9%) · 시험 기간 남긴 쪽 초과 -0.42% vs 전체 -0.37% vs 뺀 쪽 +1.23% · 손익비 1.19 vs 1.2 · 나아진 해 4/7 / gap|f20: ❌ 고른 기준: MAX20 ≥ 15% 뺌 (앞 기간 남긴 쪽 98.9%) · 시험 기간 남긴 쪽 초과 -0.50% vs 전체 -0.46% vs 뺀 쪽 +0.64% · 손익비 1.13 vs 1.14 · 나아진 해 4/7 / nh|kk: ❌ 고른 기준: MAX20 ≥ 5% 뺌 (앞 기간 남긴 쪽 90.5%) · 시험 기간 남긴 쪽 초과 -0.76% vs 전체 -0.55% vs 뺀 쪽 +0.09% · 손익비 1.01 vs 1.08 · 나아진 해 2/7 / nh|f20: ❌ 고른 기준: MAX20 ≥ 10% 뺌 (앞 기간 남긴 쪽 98.4%) · 시험 기간 남긴 쪽 초과 -0.41% vs 전체 -0.30% vs 뺀 쪽 +2.09% · 손익비 1.08 vs 1.12 · 나아진 해 4/7", "rule": "☕·📈 미국 후보 중 신호일 전 20거래일 하루 최대 상승률 ≥ 10% → 킥은 그대로 · 🎰 그림자 채점만", "cut": [{"code": "OKTA", "d": "2026-10-02", "src": "cup", "max20": 12.0}, {"code": "VICR", "d": "2026-10-05", "src": "cup", "max20": 19.8}, {"code": "QLYS", "d": "2026-10-05", "src": "cup", "max20": 15.1}, {"code": "HPE", "d": "2026-10-05", "src": "cup", "max20": 12.4}, {"code": "FTRE", "d": "2026-10-05", "src": "cup", "max20": 13.3}, {"code": "SNPS", "d": "2026-10-05", "src": "gap", "max20": 12.8}, {"code": "SYNA", "d": "2026-10-05", "src": "gap", "max20": 14.1}, {"code": "ARM", "d": "2026-10-05", "src": "gap", "max20": 17.2}, {"code": "OMER", "d": "2026-10-05", "src": "gap", "max20": 13.8}, {"code": "DFDV", "d": "2026-10-05", "src": "gap", "max20": 21.2}, {"code": "FIRY", "d": "2026-10-05", "src": "gap", "max20": 17.8}, {"code": "TENB", "d": "2026-10-06", "src": "cup", "max20": 16.5}, {"code": "XP", "d": "2026-10-06", "src": "gap", "max20": 30.9}, {"code": "INTR", "d": "2026-10-06", "src": "gap", "max20": 19.7}, {"code": "S", "d": "2026-10-07", "src": "cup_eye", "max20": 14.5}, {"code": "SIG", "d": "2026-10-07", "src": "cup", "max20": 24.0}, {"code": "PENG", "d": "2026-10-07", "src": "cup", "max20": 11.6}, {"code": "IMOS", "d": "2026-10-12", "src": "cup", "max20": 14.6}]}, "q18_frog": {"on": true, "w": 60, "th": -0.05, "state": "✅", "why": "시험 기간(2020~) 미국 갭 대용 1,491건: 꾸준 ⅓ 초과 +0.12% · 중간 −0.41% · 튐 ⅓ −0.83% (킥 규칙 출구). 튐 ⅓ 뺀 쪽 −0.07% vs 전체 −0.36% · 기준 −0.067~0 어디서도 뺀 쪽 −0.8~−1.1%. 단 20일 보유 출구는 ➖, 앞 기간(2012~19)엔 차이가 뚜렷하지 않았음", "rule": "📈 미국 갭 후보 중 신호일 전 60거래일 ID ≥ -0.05(며칠 크게 튀어 오른 것) → 킥에서 빼고 🐸 그림자 채점", "cut": [{"code": "PYPL", "d": "2026-10-05", "src": "gap", "id60": -0.017}, {"code": "SNPS", "d": "2026-10-05", "src": "gap", "id60": 0.067}, {"code": "SYNA", "d": "2026-10-05", "src": "gap", "id60": 0.033}, {"code": "ARM", "d": "2026-10-05", "src": "gap", "id60": 0.067}, {"code": "ACA", "d": "2026-10-05", "src": "gap", "id60": -0.033}, {"code": "OMER", "d": "2026-10-05", "src": "gap", "id60": -0.033}, {"code": "BWIN", "d": "2026-10-05", "src": "gap", "id60": 0.083}, {"code": "PSNL", "d": "2026-10-05", "src": "gap", "id60": 0.017}, {"code": "DFDV", "d": "2026-10-05", "src": "gap", "id60": -0.017}, {"code": "PUBM", "d": "2026-10-05", "src": "gap", "id60": -0.033}, {"code": "LILAK", "d": "2026-10-05", "src": "gap", "id60": -0.05}, {"code": "ON", "d": "2026-10-05", "src": "gap", "id60": -0.0}, {"code": "SENEA", "d": "2026-10-05", "src": "gap", "id60": 0.0}, {"code": "TRLV", "d": "2026-10-05", "src": "gap", "id60": -0.05}, {"code": "XP", "d": "2026-1
+SPY {'cagr': np.float64(15.3), 'vol': np.float64(18.1), 'mdd': np.float64(-33.7), 'sharpe': np.float64(0.88), 'ex': np.float64(0.0), 'win12': 0, 'beat_years': 0, 'years': 10}
+현재(vol) {'cagr': np.float64(15.34), 'vol': np.float64(12.9), 'mdd': np.float64(-17.6), 'sharpe': np.float64(1.17), 'ex': np.float64(0.05), 'win12': 44, 'beat_years': 5, 'years': 10, 'turn': 333} {'n': 229, 'avg': 2.56, 'win': 48, 'pf': np.float64(2.13)}
+현재(plain) {'cagr': np.float64(16.38), 'vol': np.float64(14.9), 'mdd': np.float64(-21.7), 'sharpe': np.float64(1.1), 'ex': np.float64(1.08), 'win12': 52, 'beat_years': 5, 'years': 10, 'turn': 245}
+국면별 거래 {'is_up': {'n': 158, 'avg': 2.24, 'win': 49, 'pf': np.float64(2.27)}, 'is_down': {'n': 14, 'avg': 1.82, 'win': 36, 'pf': np.float64(2.16)}, 'oos_up': {'n': 213, 'avg': 2.51, 'win': 48, 'pf': np.float64(2.14)}, 'oos_down': {'n': 16, 'avg': 3.24, 'win': 44, 'pf': np.float64(2.04)}}
+고른 250 3 exit 0.85 {'cagr': np.float64(14.89), 'vol': np.float64(12.9), 'mdd': np.float64(-18.6), 'sharpe': np.float64(1.14), 'ex': np.float64(-0.41), 'win12': 42, 'beat_years': 5, 'years': 10, 'turn': 333} {'n': 231, 'avg': 2.02, 'win': 46, 'pf': np.float64(1.88)}
+고른(plain) {'cagr': np.float64(15.92), 'vol': np.float64(14.8), 'mdd': np.float64(-22.7), 'sharpe': np.float64(1.07), 'ex': np.float64(0.63), 'win12': 47, 'beat_years': 5, 'years': 10, 'turn': 245}
+순위상관 0.52 현재보다 나은 조합 5 / 30
+50 1 entry IS 0.82 9.74 | OOS 15.01 -18.9 1.14 323
+50 1 exit IS 0.81 9.08 | OOS 13.68 -18.5 1.09 433
+50 3 entry IS 0.82 9.78 | OOS 14.78 -18.4 1.13 335
+50 3 exit IS 0.83 9.41 | OOS 13.73 -19.9 1.08 384
+50 5 entry IS 0.83 9.85 | OOS 14.94 -18.3 1.14 323
+50 5 exit IS 0.81 9.31 | OOS 14.15 -19.2 1.11 365
+100 1 entry IS 0.83 9.91 | OOS 15.02 -19.2 1.15 327
+100 1 exit IS 0.82 9.32 | OOS 14.15 -19.2 1.11 361
+100 3 entry IS 0.82 9.73 | OOS 14.75 -19.0 1.14 319
+100 3 exit IS 0.83 9.57 | OOS 14.54 -18.5 1.13 350
+100 5 entry IS 0.82 9.69 | OOS 14.94 -18.5 1.15 323
+100 5 exit IS 0.82 9.52 | OOS 14.99 -18.7 1.16 337
+150 1 entry IS 0.84 9.99 | OOS 15.12 -18.7 1.17 329
+150 1 exit IS 0.85 9.82 | OOS 14.82 -18.5 1.15 335
+150 3 entry IS 0.85 10.08 | OOS 15.06 -18.4 1.16 321
+150 3 exit IS 0.82 9.58 | OOS 14.87 -18.8 1.15 336
+150 5 entry IS 0.85 10.08 | OOS 15.4 -18.1 1.18 319
+150 5 exit IS 0.84 9.85 | OOS 15.09 -18.7 1.16 330
+200 1 entry IS 0.84 9.96 | OOS 15.07 -18.1 1.16 324
+200 1 exit IS 0.85 10.03 | OOS 14.8 -18.1 1.15 328
+200 3 entry IS 0.84 10.02 | OOS 15.38 -17.5 1.19 326
+200 3 exit IS 0.83 9.74 | OOS 15.08 -18.4 1.16 333
+200 5 entry IS 0.85 10.06 | OOS 15.45 -17.7 1.18 320
+200 5 exit IS 0.84 9.86 | OOS 15.37 -18.2 1.18 330
+250 1 entry IS 0.84 9.94 | OOS 15.66 -17.4 1.19 320
+250 1 exit IS 0.82 9.7 | OOS 15.27 -17.7 1.17 329
+250 3 entry IS 0.84 10.02 | OOS 15.24 -17.1 1.17 327
+250 3 exit IS 0.85 10.11 | OOS 14.89 -18.6 1.14 333
+250 5 entry IS 0.84 9.98 | OOS 15.19 -17.7 1.17 326
+250 5 exit IS 0.85 10.04 | OOS 15.01 -18.0 1.15 333
+n=200 15.08 -18.4 1.16
+n=300 15.06 -18.0 1.15
+k=2 14.83 -18.0 1.14
+k=4 15.02 -18.1 1.15
+방식 반대 15.24 -17.1 1.17
+➖ 애매 {'beat': False, 'mdd': True, 'sharpe': False} False
