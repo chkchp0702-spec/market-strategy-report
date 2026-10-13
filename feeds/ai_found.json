@@ -1,6 +1,38 @@
 {
  "items": [
   {
+   "title": "호르무즈 선박, 개전 이후 최악의 공격 — 2주간 24척",
+   "url": "https://www.ft.com/content/a4ab83d4-81b5-4336-9569-a0708b41e894",
+   "press": "Financial Times",
+   "at": "2026-10-13 21:04",
+   "why": "에너지 칸·⚡ FRO(유조선) 선제 — 유가보다 운임·전쟁보험에 먼저 붙는 재료",
+   "summary": "이란이 2주간 유조선 등 24척 공격, 일요일(10/11)에만 6척. 같은 날 러시아산 원유 인도행 운임 사상 최고(investing.com)."
+  },
+  {
+   "title": "폴 튜더 존스 \"2027년은 주식시장에 정말 힘든 해 될 수도\"",
+   "url": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html",
+   "press": "CNBC",
+   "at": "2026-10-13 21:53",
+   "why": "포트 전체 위험도 — 강세장의 뒷바람(자사주 매입·M&A)이 꺾인다는 판단, 현금·단기채 칸 논지 쪽",
+   "summary": "자사주 매입·M&A가 강세장의 뒷바람이었는데 곧 방향이 바뀐다고 경고. 블랙록 미 주식 비중확대 철회와 같은 날."
+  },
+  {
+   "title": "애널 \"CXMT 주장이 마이크론·샌디스크를 위협하지 않는 7가지 이유\"",
+   "url": "https://www.investing.com/news/stock-market-news/analyst-lists-7-reasons-why-china-cxmts-claims-dont-threaten-micron-and-sandisk-4946719",
+   "press": "Investing.com",
+   "at": "2026-10-13 22:27",
+   "why": "반도체 칸·하닉 #09·LRCX 대기 — 투매 원인(CXMT)에 대한 첫 반박 리포트",
+   "summary": "CXMT 4F² 설계 진전 보도로 메모리 3사 급락한 날 반박 논리 등장. 마이크론은 미 장전 하락 연장(MarketWatch)."
+  },
+  {
+   "title": "웰스파고, 대출 손실 줄며 3분기 어닝 서프라이즈",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wWXZ1ZUhrRnhESURtemZEcldKN1ZsdExFU2lNazBKM1NTR1hyQVRJY1dlTDlCbHhnRUg0cXEtN2pmRTFSTDVIVmltWVZnSGlTN01IeDQtYlFnZm5H?oc=5",
+   "press": "뉴스1(구글뉴스)",
+   "at": "2026-10-13 22:22",
+   "why": "금융 칸·KBE #20261012-20 — JPM 신용비용 증가와 반대 신호, '신용 경고' 감시 완화",
+   "summary": "웰스파고 '고객 체력 탄탄', 대출 손실 감소로 3분기 예상 상회. JPM은 신용비용 27억$로 미달 — 은행 내부 갈림."
+  },
+  {
    "title": "JPM 3분기 8-K — 예상 미달, 신용비용 27억 달러·충당금 5.39억 달러 적립",
    "url": "https://www.sec.gov/Archives/edgar/data/0000019617/000162828026065582/a3q26erfexhibit991narrative.htm",
    "press": "SEC(JPM 8-K)",
@@ -607,38 +639,6 @@
    "at": "2026-10-12 15:35",
    "why": "하닉 bet 손절(−4.0%) 확인·반도체 칸 수급 점검",
    "summary": "코스피 장중 4%대 급락, 삼성전자·SK하이닉스 동반 약세가 지수를 끌어내림."
-  },
-  {
-   "title": "외국인 1.5조 매도에 코스피 3% 급락…23거래일 만에 장중 6400대",
-   "url": "https://www.etoday.co.kr/news/view/2634647",
-   "press": "이투데이",
-   "at": "2026-10-12 13:05",
-   "why": "한국 칸 '따로 놀기' 논지·하닉·삼성 bet 손절 근접 — 원인이 옵션 만기·ETF 리밸런싱(기계적 수급)이라는 점",
-   "summary": "코스피 6,421(−3.09%), 외국인 −1조5,170억. 삼성 −3.63%·하닉 −3.87%. 운송 +2.58%·음식료 +0.72% vs 기계 −6.06%·건설 −4.18%."
-  },
-  {
-   "title": "중국 CXMT 메모리 개발 진전에 삼성·SK하이닉스 하락",
-   "url": "https://www.investing.com/news/stock-market-news/samsung-sk-hynix-shares-drop-as-chinas-cxmt-flags-progress-in-memory-development-4943096",
-   "press": "Investing.com",
-   "at": "2026-10-12 10:04",
-   "why": "반도체 칸·하닉/삼성 bet 의 새 위험 — 중국 메모리 기술 추격",
-   "summary": "CXMT 4F²(수직 게이트) D램 설계 진전, 2026년 말 DDR5 서버 RDIMM 출시 계획(사양 미공개). 삼성 −3.6% 252,500·하닉 −3.4% 1,624,000·CXMT −3.1%."
-  },
-  {
-   "title": "코스피 4일째 하락 6,420선, 외국인 현물·선물 동반 매도…삼성 외국인 지분 18년 9개월 최저",
-   "url": "https://finance.biggo.com/news/c4e32d70-ef89-49e5-b7ce-c4145fd82560",
-   "press": "BigGo Finance",
-   "at": "2026-10-12 13:35",
-   "why": "'한국 따로 놀기' 논지(0.75)·하닉·삼성 열린 bets 손절 근접",
-   "summary": "10:24 코스피 6,419.74(−3.11%). 외국인 현물 −4,580억·선물 −3,538억(09:55). 삼성 −2.58%·하닉 −3.75%. 사유: SOX −3.39%(10/8), 미 10년 5.26%, 오픈AI 매출 회계 논란, 삼성 실적 차익실현."
-  },
-  {
-   "title": "SK하이닉스 −3.1%: 외국인 8/31~10/8 누적 −16조, 솔리다임 프리IPO 자금조달 거론",
-   "url": "https://ad-hoc-news.de/boerse/news/unternehmensnachrichten/sk-hynix-drops-3-1-prozent-as-foreign-funds-retreat-and-solidigm-financing-talk-swirls/70295456",
-   "press": "ad-hoc-news",
-   "at": "2026-10-12 13:35",
-   "why": "하닉 오름 bet(손절 1,614,000) 반대 변수 — 수급·자금조달 물량",
-   "summary": "하닉 1,629,000(−3.1%). 외국인 8/31~10/8 약 −16조, 외국인 지분 49.59%. 솔리다임 프리IPO 공개입찰 거론(골드만·모건스탠리 주관), 규모·시점 미정."
   }
  ],
  "at": "2026-10-13 21:35"
