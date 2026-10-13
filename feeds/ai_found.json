@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "엔비디아·시스코, AI 데이터센터용 USFP 광모듈 규격 공개 — 레인당 400G, 대역폭 밀도 4배",
+   "url": "https://www.investing.com/news/stock-market-news/cisco-and-nvidia-unveil-usfp-optical-module-specification-for-ai-data-centers-93CH-4944989",
+   "press": "Investing.com",
+   "at": "2026-10-13 15:40",
+   "why": "포트 광통신 칸(LITE·3228.HK)이 10/12 이후 −9.8% — 차세대 광모듈 수요를 표준으로 못 박은 재료(⚡ LITE bet #20261013-15)",
+   "summary": "OCP에서 공개. 모듈 최대 12.8Tbps, 같은 공간에 대역폭 4배. 대만 공급사 수혜 기대(gn_us_tech)."
+  },
+  {
+   "title": "코스피 장중 −7.4% 5,914 — 아시아 AI 거래에서 무엇이 바뀌었나",
+   "url": "https://invezz.com/news/2026/10/13/kospi-crashes-7-4-and-nikkei-sinks-2-5-what-just-changed-in-asias-ai-trade/",
+   "press": "Invezz",
+   "at": "2026-10-13 15:40",
+   "why": "반도체 칸·하닉 bet #09 — 매도가 한국·일본 메모리/AI 하드웨어에 집중됐는지 확인",
+   "summary": "코스피 저점 5,914.35(7월 말 이후 최저), 삼전 −8.7%·하닉 −9.2%. 닛케이 −2.5% 6만7,300, 키옥시아 −8.8%·어드반테스트 −7%·소프트뱅크 −8%. 대만 −2.5%(TSMC −2%), 항셍·상하이 −1%. 브렌트 105$, 미 10년 5.2%."
+  },
+  {
+   "title": "코스피 6천 아래로, 약 두 달 만에 첫 매도 사이드카",
+   "url": "https://www.kedglobal.com/korean-stock-market/newsView/ked202610130001",
+   "press": "KED Global",
+   "at": "2026-10-13 15:40",
+   "why": "한국 논지('외국인 복귀 전 비중 확대 금지') 확인 — 대기 중인 한국 롱(KB·심텍·LS) 진입 판단",
+   "summary": "코스피200 선물 −5% 넘어 5분 매도 사이드카. 10월 외국인 누적 순매도 12조원(investing_kr 2124426)."
+  },
+  {
    "title": "SK하이닉스 10.28% 급락 144만원 — HBM 호실적에도 투매",
    "url": "https://www.job-post.co.kr/news/articleView.html?idxno=231929",
    "press": "잡포스트",
@@ -615,30 +639,6 @@
    "at": "2026-10-12 07:46",
    "why": "바이오 대형주 실적 시즌 첫 숫자 — '부합'이라 서프라이즈 드리프트 기대 낮음",
    "summary": "매출 1.5조(컨센 1.46조 +2%), 영업익 5,100억(컨센 5,141억 −1%). 전 거래일 종가 179,000원(−2.45%)."
-  },
-  {
-   "title": "앤트로픽, 아이렌(IREN)과 클라우드 계약…데이터센터 확보 속도전",
-   "url": "https://www.yna.co.kr/",
-   "press": "연합뉴스",
-   "at": "2026-10-12 08:21",
-   "why": "네오클라우드 수요 반박 근거 → CRWV 내림 대기 취소",
-   "summary": "AI 연구사가 네오클라우드 용량을 계속 계약 — '빚으로 버티는 층' 논지와 반대 방향 숫자. 계약 규모는 미확인."
-  },
-  {
-   "title": "트럼프 '러시아, 디젤 수백만 톤 공급'… 미국, 러 디젤 제재 2027년 4월까지 유예",
-   "url": "https://en.mercopress.com/2026/10/09/trump-says-russia-will-supply-millions-of-tonnes-of-diesel-as-us-eases-sanctions-on-moscow",
-   "press": "MercoPress",
-   "at": "2026-10-12 07:45",
-   "why": "에너지 칸·정제마진 — 원유가 아닌 디젤 크랙을 누르는 재료(VLO 내림 대기 근거)",
-   "summary": "총 약 480만t(즉시 30만t·11월 50만t·이후 100만t·추가 300만t). 미 디젤 갤런당 6.27달러(9/22 사상 최고 뒤). 발표 뒤 디젤 선물 −4.3%."
-  },
-  {
-   "title": "트럼프 '러·우 에너지 휴전' 주장 — 젤렌스키 '못 봤지만 지지'",
-   "url": "https://www.cbc.ca/news/world/kyiv-pushes-back-trump-call-for-new-ukraine-president-after-diesel-deal-9.7377471",
-   "press": "CBC",
-   "at": "2026-10-12 07:45",
-   "why": "9/15에도 같은 주장이 있었으나 정유소 공격 지속 — 재료 신뢰도 낮음, 원유보다 러 디젤 수출 회복 쪽 변수",
-   "summary": "트럼프 10/11 '러·우가 에너지 시설 공격 중단에 합의' 주장. 우크라이나는 문서를 못 봤다고 반응. 미 선물 소폭 강세(yahoo)."
   }
  ],
  "at": "2026-10-13 14:35"
