@@ -1,228 +1,438 @@
 {
- "made": "2026-10-13 17:00",
+ "made": "2026-10-13 17:17",
  "log": {
-  "sec_err": [
-   "2009q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2009q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2009q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2009q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2009q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2009q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2009q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2009q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2009q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2009q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2009q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2009q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2010q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2010q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2010q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2010q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2010q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2010q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2010q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2010q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2010q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2010q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2010q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2010q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2011q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2011q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2011q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2011q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2011q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2011q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2011q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2011q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2011q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2011q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2011q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2011q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2012q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2012q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2012q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2012q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2012q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2012q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2012q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2012q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2012q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2012q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2012q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2012q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2013q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2013q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2013q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2013q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2013q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2013q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2013q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2013q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2013q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2013q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2013q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2013q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2014q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2014q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2014q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2014q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2014q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2014q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2014q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2014q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2014q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2014q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2014q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2014q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2015q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2015q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2015q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2015q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2015q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2015q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2015q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2015q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2015q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2015q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2015q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2015q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2016q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2016q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2016q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2016q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2016q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2016q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2016q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2016q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2016q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2016q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2016q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2016q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2017q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2017q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2017q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2017q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2017q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2017q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2017q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2017q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2017q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2017q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2017q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2017q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2018q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2018q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2018q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2018q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2018q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2018q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2018q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2018q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2018q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2018q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2018q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2018q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2019q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2019q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2019q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2019q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2019q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2019q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2019q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2019q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2019q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2019q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2019q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2019q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2020q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2020q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2020q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2020q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2020q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2020q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2020q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2020q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2020q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2020q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2020q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2020q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2021q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2021q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2021q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2021q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2021q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2021q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2021q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2021q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2021q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2021q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2021q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2021q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2022q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2022q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2022q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2022q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2022q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2022q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2022q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2022q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2022q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2022q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2022q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2022q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2023q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2023q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2023q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2023q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2023q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2023q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2023q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2023q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2023q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2023q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2023q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2023q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2024q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2024q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2024q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2024q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2024q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2024q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2024q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2024q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2024q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2024q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2024q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2024q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2025q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2025q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2025q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2025q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2025q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2025q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2025q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2025q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2025q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2025q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2025q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2025q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2026q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2026q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2026q1:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2026q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2026q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2026q2:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2026q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2026q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2026q3:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2026q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2026q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct",
-   "2026q4:HTTPError('403 Client Error: Forbidden for url: https://www.sec.gov/files/struct"
+  "sec_quarters": [
+   "2009-01",
+   "2026-10",
+   214
   ],
-  "sec_quarters": [],
-  "sec_rows": 0
+  "sec_rows": 279624,
+  "source": "openinsider.com 스크리너(장내 매수 P) — SEC 는 깃허브 실행기에서 403",
+  "rows_in_universe": 22820,
+  "hist_keys": 2211,
+  "buys": 22820,
+  "buys_routine_share": 7.6,
+  "prices": {
+   "us_source": "wikipedia S&P500+400 (903)",
+   "requested": 874,
+   "got": 874,
+   "failed_or_short": 0
+  }
  },
- "rule": "📈 Q16-5 🕵 내부자 「평소와 다른」 매수 — 과거 검증 (사용자 10/13: \"16-2,3,5 진행하고 반영시켜\")\n자료: SEC 「Insider Transactions Data Sets」(Form 3·4·5 분기 묶음, 2009~) https://www.sec.gov/dera/data/form-345\n결과 → market/lab/k1013_insider.json · 매일 신호용 습관 매매 장부 → market/insider_hist.json.gz\n\n근거: Cohen·Malloy·Pomorski (J. of Finance 2012) — 같은 달에 해마다 사고파는 「습관형」 내부자는 예측력 0, 나머지 「기회형」만 다음 달 초과 수익.\n정의 (결과 보기 전에 정함):\n  · 장내 매수 = Form 4 · 거래 코드 P. 매도(S)는 습관 판정에만 씀.\n  · 습관형(routine) = 그 거래 해 기준 직전 3년 「모두」 같은 달에 그 회사 주식을 장내 매매(P 또는 S)한 사람.\n  · 기회형 A(넓게) = 습관형이 아닌 모든 매수자(처음 사는 사람 포함) · 기회형 B(논문 그대로) = 직전 3년 해마다 매매는 했지만 습관형이 아닌 사람.\n  · 신호 = 한 회사에서 기회형 매수자 k명(1·2·3) 이상이 「공시일 기준 10일 안」에 사고 합계 금액 ≥ v(5만·10만·25만 달러) → 마지막 공시일 다음 거래일 종가에 진입.\n  · 비용 왕복 0.5% · 초과 = S&P500 대비 · 같은 종목 20거래일 안 재신호 무시 · 앞 2012~2019 고르고 2020~ 시험.\n  · 유니버스 = 오늘 S&P500+400 (생존자 편향). 판정 = src/kick_ideas_bt.py verdict() 와 같음.\n",
- "verdict": "❌",
- "why": "SEC 자료를 못 받음"
+ "rule": "📈 Q16-5 🕵 내부자 「평소와 다른」 매수 — 과거 검증 (사용자 10/13: \"16-2,3,5 진행하고 반영시켜\")\n자료: openinsider.com 스크리너(SEC Form 4 장내 매수 모음, 2009~) — SEC 원본(https://www.sec.gov/dera/data/form-345)은 깃허브 실행기 IP 에서 403\n결과 → market/lab/k1013_insider.json · 매일 신호용 습관 매매 장부 → market/insider_hist.json.gz\n\n근거: Cohen·Malloy·Pomorski (J. of Finance 2012) — 같은 달에 해마다 사고파는 「습관형」 내부자는 예측력 0, 나머지 「기회형」만 다음 달 초과 수익.\n정의 (결과 보기 전에 정함):\n  · 장내 매수 = Form 4 · 거래 코드 P. 매도(S)는 습관 판정에만 씀.\n  · 습관형(routine) = 그 거래 해 기준 직전 3년 「모두」 같은 달에 그 회사 주식을 장내 매수(P)한 사람. (논문은 매도도 봄 — 자료 제약으로 매수만)\n  · 기회형 A(넓게) = 습관형이 아닌 모든 매수자(처음 사는 사람 포함) · 기회형 B(논문 그대로) = 직전 3년 해마다 매매는 했지만 습관형이 아닌 사람.\n  · 신호 = 한 회사에서 기회형 매수자 k명(1·2·3) 이상이 「공시일 기준 10일 안」에 사고 합계 금액 ≥ v(5만·10만·25만 달러) → 마지막 공시일 다음 거래일 종가에 진입.\n  · 비용 왕복 0.5% · 초과 = S&P500 대비 · 같은 종목 20거래일 안 재신호 무시 · 앞 2012~2019 고르고 2020~ 시험.\n  · 유니버스 = 오늘 S&P500+400 (생존자 편향). 판정 = src/kick_ideas_bt.py verdict() 와 같음.\n",
+ "routine_only": {
+  "f20": {
+   "r": {
+    "n": 55,
+    "avg": 0.9,
+    "med": 0.92,
+    "win": 52.7,
+    "pf": 1.3
+   },
+   "x": {
+    "n": 55,
+    "avg": -0.47,
+    "med": -1.12,
+    "win": 43.6,
+    "pf": 0.86
+   },
+   "by_year": {
+    "2013": {
+     "n": 3,
+     "x": -3.11
+    },
+    "2014": {
+     "n": 1,
+     "x": -1.18
+    },
+    "2015": {
+     "n": 3,
+     "x": -3.53
+    },
+    "2016": {
+     "n": 1,
+     "x": 0.05
+    },
+    "2017": {
+     "n": 1,
+     "x": -5.56
+    },
+    "2018": {
+     "n": 2,
+     "x": 3.39
+    },
+    "2019": {
+     "n": 3,
+     "x": 2.38
+    },
+    "2020": {
+     "n": 4,
+     "x": 0.61
+    },
+    "2021": {
+     "n": 1,
+     "x": 3.87
+    },
+    "2022": {
+     "n": 1,
+     "x": -1.13
+    },
+    "2023": {
+     "n": 5,
+     "x": 0.04
+    },
+    "2024": {
+     "n": 8,
+     "x": 2.7
+    },
+    "2025": {
+     "n": 11,
+     "x": -2.07
+    },
+    "2026": {
+     "n": 11,
+     "x": -1.58
+    }
+   },
+   "x_ex_best_year": -1.01,
+   "best_year": "2024"
+  },
+  "kk": {
+   "r": {
+    "n": 54,
+    "avg": 1.94,
+    "med": -1.44,
+    "win": 40.7,
+    "pf": 1.62
+   },
+   "x": {
+    "n": 54,
+    "avg": 0.19,
+    "med": -2.62,
+    "win": 37.0,
+    "pf": 1.06
+   },
+   "by_year": {
+    "2013": {
+     "n": 3,
+     "x": -4.19
+    },
+    "2014": {
+     "n": 1,
+     "x": 0.44
+    },
+    "2015": {
+     "n": 3,
+     "x": -0.9
+    },
+    "2016": {
+     "n": 1,
+     "x": -11.82
+    },
+    "2017": {
+     "n": 1,
+     "x": -4.55
+    },
+    "2018": {
+     "n": 2,
+     "x": 6.85
+    },
+    "2019": {
+     "n": 3,
+     "x": 0.95
+    },
+    "2020": {
+     "n": 4,
+     "x": 5.05
+    },
+    "2021": {
+     "n": 1,
+     "x": 14.44
+    },
+    "2022": {
+     "n": 1,
+     "x": 1.53
+    },
+    "2023": {
+     "n": 5,
+     "x": 0.34
+    },
+    "2024": {
+     "n": 8,
+     "x": 2.33
+    },
+    "2025": {
+     "n": 11,
+     "x": -0.94
+    },
+    "2026": {
+     "n": 10,
+     "x": -2.09
+    }
+   },
+   "x_ex_best_year": -0.19,
+   "best_year": "2020"
+  }
+ },
+ "pick": {
+  "rule": "기회형A|3명↑|100천달러↑",
+  "exit": "f40",
+  "exit_doc": "40일 보유"
+ },
+ "IS": {
+  "r": {
+   "n": 305,
+   "avg": 3.11,
+   "med": 2.37,
+   "win": 60.0,
+   "pf": 1.87
+  },
+  "x": {
+   "n": 305,
+   "avg": 1.21,
+   "med": 0.73,
+   "win": 53.8,
+   "pf": 1.32
+  },
+  "by_year": {
+   "2012": {
+    "n": 35,
+    "x": 3.69
+   },
+   "2013": {
+    "n": 32,
+    "x": 1.81
+   },
+   "2014": {
+    "n": 34,
+    "x": -1.93
+   },
+   "2015": {
+    "n": 44,
+    "x": -3.17
+   },
+   "2016": {
+    "n": 34,
+    "x": 3.69
+   },
+   "2017": {
+    "n": 29,
+    "x": 5.43
+   },
+   "2018": {
+    "n": 42,
+    "x": 1.45
+   },
+   "2019": {
+    "n": 55,
+    "x": 0.77
+   }
+  },
+  "x_ex_best_year": 0.76,
+  "best_year": "2017"
+ },
+ "OOS": {
+  "r": {
+   "n": 357,
+   "avg": 4.63,
+   "med": 3.04,
+   "win": 57.7,
+   "pf": 1.98
+  },
+  "x": {
+   "n": 357,
+   "avg": 0.31,
+   "med": -1.23,
+   "win": 46.8,
+   "pf": 1.05
+  },
+  "by_year": {
+   "2020": {
+    "n": 87,
+    "x": 1.02
+   },
+   "2021": {
+    "n": 35,
+    "x": 2.9
+   },
+   "2022": {
+    "n": 41,
+    "x": 2.03
+   },
+   "2023": {
+    "n": 63,
+    "x": -3.82
+   },
+   "2024": {
+    "n": 31,
+    "x": 1.14
+   },
+   "2025": {
+    "n": 54,
+    "x": 1.02
+   },
+   "2026": {
+    "n": 46,
+    "x": -0.27
+   }
+  },
+  "x_ex_best_year": 0.03,
+  "best_year": "2021"
+ },
+ "verdict": "✅",
+ "why": "시험 기간 357건 · 지수 초과 +0.31% · 손익비 1.98 · 가장 좋은 해 빼면 0.03",
+ "top": [
+  {
+   "rule": "기회형B|3명↑|50천달러↑",
+   "exit": "f40",
+   "IS_n": 2,
+   "IS_x": 6.5,
+   "IS_pf": null,
+   "OOS_n": 17,
+   "OOS_x": -2.54,
+   "OOS_pf": 1.65
+  },
+  {
+   "rule": "기회형B|3명↑|50천달러↑",
+   "exit": "kk",
+   "IS_n": 2,
+   "IS_x": 4.2,
+   "IS_pf": 4.4,
+   "OOS_n": 17,
+   "OOS_x": -0.25,
+   "OOS_pf": 1.78
+  },
+  {
+   "rule": "기회형B|2명↑|100천달러↑",
+   "exit": "f40",
+   "IS_n": 14,
+   "IS_x": 4.01,
+   "IS_pf": 14.21,
+   "OOS_n": 41,
+   "OOS_x": -0.92,
+   "OOS_pf": 1.97
+  },
+  {
+   "rule": "기회형B|3명↑|50천달러↑",
+   "exit": "f20",
+   "IS_n": 2,
+   "IS_x": 3.74,
+   "IS_pf": 1.65,
+   "OOS_n": 17,
+   "OOS_x": -1.98,
+   "OOS_pf": 1.13
+  },
+  {
+   "rule": "기회형B|2명↑|250천달러↑",
+   "exit": "f40",
+   "IS_n": 6,
+   "IS_x": 3.69,
+   "IS_pf": null,
+   "OOS_n": 26,
+   "OOS_x": -2.88,
+   "OOS_pf": 1.53
+  },
+  {
+   "rule": "기회형B|2명↑|50천달러↑",
+   "exit": "f40",
+   "IS_n": 20,
+   "IS_x": 3.06,
+   "IS_pf": 9.84,
+   "OOS_n": 42,
+   "OOS_x": 8.42,
+   "OOS_pf": 4.11
+  },
+  {
+   "rule": "기회형B|2명↑|100천달러↑",
+   "exit": "kk",
+   "IS_n": 14,
+   "IS_x": 2.93,
+   "IS_pf": 5.09,
+   "OOS_n": 39,
+   "OOS_x": 0.36,
+   "OOS_pf": 1.58
+  },
+  {
+   "rule": "기회형B|2명↑|50천달러↑",
+   "exit": "kk",
+   "IS_n": 20,
+   "IS_x": 2.78,
+   "IS_pf": 3.86,
+   "OOS_n": 40,
+   "OOS_x": 0.16,
+   "OOS_pf": 1.44
+  },
+  {
+   "rule": "기회형B|2명↑|50천달러↑",
+   "exit": "f20",
+   "IS_n": 20,
+   "IS_x": 1.42,
+   "IS_pf": 4.26,
+   "OOS_n": 43,
+   "OOS_x": 2.61,
+   "OOS_pf": 2.16
+  },
+  {
+   "rule": "기회형A|3명↑|100천달러↑",
+   "exit": "f40",
+   "IS_n": 305,
+   "IS_x": 1.21,
+   "IS_pf": 1.87,
+   "OOS_n": 357,
+   "OOS_x": 0.31,
+   "OOS_pf": 1.98
+  },
+  {
+   "rule": "기회형B|2명↑|250천달러↑",
+   "exit": "kk",
+   "IS_n": 6,
+   "IS_x": 1.2,
+   "IS_pf": 2.51,
+   "OOS_n": 26,
+   "OOS_x": 0.49,
+   "OOS_pf": 2.22
+  },
+  {
+   "rule": "기회형B|1명↑|100천달러↑",
+   "exit": "f40",
+   "IS_n": 156,
+   "IS_x": 1.08,
+   "IS_pf": 2.34,
+   "OOS_n": 212,
+   "OOS_x": -0.34,
+   "OOS_pf": 1.4
+  },
+  {
+   "rule": "기회형A|3명↑|50천달러↑",
+   "exit": "f40",
+   "IS_n": 324,
+   "IS_x": 1.07,
+   "IS_pf": 1.82,
+   "OOS_n": 367,
+   "OOS_x": 0.37,
+   "OOS_pf": 2.01
+  },
+  {
+   "rule": "기회형A|3명↑|250천달러↑",
+   "exit": "f40",
+   "IS_n": 250,
+   "IS_x": 1.05,
+   "IS_pf": 1.89,
+   "OOS_n": 323,
+   "OOS_x": 0.3,
+   "OOS_pf": 1.98
+  },
+  {
+   "rule": "기회형B|2명↑|100천달러↑",
+   "exit": "f20",
+   "IS_n": 14,
+   "IS_x": 0.97,
+   "IS_pf": 17.29,
+   "OOS_n": 42,
+   "OOS_x": 0.14,
+   "OOS_pf": 1.52
+  }
+ ],
+ "n_pass_IS": 28,
+ "sec": 605
 }
