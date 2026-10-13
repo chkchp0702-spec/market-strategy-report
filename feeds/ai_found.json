@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "JP모건, Volta AI 데이터센터 대출 50억 달러에 약 11% 금리 제시",
+   "url": "https://www.thestar.com.my/business/business-news/2026/10/07/jpmorgan-dangles-11-yield-on-voltas-ai-loan-sale",
+   "press": "The Star(블룸버그)",
+   "at": "2026-10-07 12:00",
+   "why": "AI 인프라 칸 — 10/13 JPM·골드만 익스포저 축소(gn_bbg)와 이어짐, AI 자금 조달 비용 경고",
+   "summary": "기준금리+6.25~6.5%p, 97~98센트 발행 → 약 11%. 앤트로픽 6년 사용 계약 노르웨이 DC. AI·데이터센터 차입 2년간 약 6,250억$."
+  },
+  {
    "title": "호르무즈 선박, 개전 이후 최악의 공격 — 2주간 24척",
    "url": "https://www.ft.com/content/a4ab83d4-81b5-4336-9569-a0708b41e894",
    "press": "Financial Times",
@@ -631,14 +639,6 @@
    "at": "2026-10-12 15:35",
    "why": "반도체 칸·삼성전자 bet·KODEX 200 되돌림 bet 기준선",
    "summary": "10/12 코스피 6,400선까지 밀려 4거래일 연속 하락, 코스닥 −4%. 외국인 매도 주도."
-  },
-  {
-   "title": "코스피 장중 4%대 급락…반도체 투톱 흔들리자 6400선 위협",
-   "url": "https://biz.heraldcorp.com/article/10851000",
-   "press": "헤럴드경제",
-   "at": "2026-10-12 15:35",
-   "why": "하닉 bet 손절(−4.0%) 확인·반도체 칸 수급 점검",
-   "summary": "코스피 장중 4%대 급락, 삼성전자·SK하이닉스 동반 약세가 지수를 끌어내림."
   }
  ],
  "at": "2026-10-13 21:35"
