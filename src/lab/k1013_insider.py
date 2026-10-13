@@ -1,11 +1,11 @@
 """📈 Q16-5 🕵 내부자 「평소와 다른」 매수 — 과거 검증 (사용자 10/13: "16-2,3,5 진행하고 반영시켜")
-자료: SEC 「Insider Transactions Data Sets」(Form 3·4·5 분기 묶음, 2009~) https://www.sec.gov/dera/data/form-345
+자료: openinsider.com 스크리너(SEC Form 4 장내 매수 모음, 2009~) — SEC 원본(https://www.sec.gov/dera/data/form-345)은 깃허브 실행기 IP 에서 403
 결과 → market/lab/k1013_insider.json · 매일 신호용 습관 매매 장부 → market/insider_hist.json.gz
 
 근거: Cohen·Malloy·Pomorski (J. of Finance 2012) — 같은 달에 해마다 사고파는 「습관형」 내부자는 예측력 0, 나머지 「기회형」만 다음 달 초과 수익.
 정의 (결과 보기 전에 정함):
   · 장내 매수 = Form 4 · 거래 코드 P. 매도(S)는 습관 판정에만 씀.
-  · 습관형(routine) = 그 거래 해 기준 직전 3년 「모두」 같은 달에 그 회사 주식을 장내 매매(P 또는 S)한 사람.
+  · 습관형(routine) = 그 거래 해 기준 직전 3년 「모두」 같은 달에 그 회사 주식을 장내 매수(P)한 사람. (논문은 매도도 봄 — 자료 제약으로 매수만)
   · 기회형 A(넓게) = 습관형이 아닌 모든 매수자(처음 사는 사람 포함) · 기회형 B(논문 그대로) = 직전 3년 해마다 매매는 했지만 습관형이 아닌 사람.
   · 신호 = 한 회사에서 기회형 매수자 k명(1·2·3) 이상이 「공시일 기준 10일 안」에 사고 합계 금액 ≥ v(5만·10만·25만 달러) → 마지막 공시일 다음 거래일 종가에 진입.
   · 비용 왕복 0.5% · 초과 = S&P500 대비 · 같은 종목 20거래일 안 재신호 무시 · 앞 2012~2019 고르고 2020~ 시험.
@@ -27,7 +27,7 @@ URL = "https://www.sec.gov/files/structureddata/data/insider-transactions-data-s
 UA = {"User-Agent": "CH-Investing-Research research-bot@users.noreply.github.com", "Accept-Encoding": "gzip, deflate"}
 IS_START, IS_END, OOS_START = "2012-01-01", "2019-12-31", "2020-01-01"
 COST = 0.005
-BUDGET = 22 * 60
+BUDGET = 25 * 60
 
 
 def _read(z, name, cols):
@@ -63,39 +63,76 @@ def parse_zip(blob):
         columns={"TRANS_CODE": "code", "ISSUERCIK": "icik", "RPTOWNERCIK": "ocik", "RPTOWNER_RELATIONSHIP": "rel"})
 
 
+OI = ("http://openinsider.com/screener?s=&o=&pl=&ph=&ll=&lh=&fd=-1&fdr={a}+-+{b}&td=0&tdr=&fdlyl=&fdlyh=&daysago=&xp=1"
+      "&vl=&vh=&ocl=&och=&sic1=-1&sicl=100&sich=9999&grp=0&nfl=&nfh=&nil=&nih=&nol=&noh=&v2l=&v2h=&oc2l=&oc2h=&sortcol=0&cnt=1000&page={pg}")
+OUA = {"User-Agent": "Mozilla/5.0 (compatible; CHInvestingResearch/1.0; +https://github.com/chkchp0702-spec)"}
+
+
+def oi_table(html):
+    """openinsider 표 → DataFrame(fd, td, tk, name, title, val)"""
+    tabs = pd.read_html(io.StringIO(html), attrs={"class": "tinytable"})
+    if not tabs:
+        return pd.DataFrame()
+    t = tabs[0]
+    t.columns = [str(c).replace("\xa0", " ").strip() for c in t.columns]
+    col = lambda *ks: next((c for c in t.columns if any(k.lower() == c.lower() for k in ks)), None)
+    d = pd.DataFrame({"fd": pd.to_datetime(t[col("Filing Date", "Filing")].astype(str).str[:10], errors="coerce"),
+                      "td": pd.to_datetime(t[col("Trade Date", "Trade")].astype(str).str[:10], errors="coerce"),
+                      "tk": t[col("Ticker")].astype(str).str.upper().str.strip().str.replace(".", "-", regex=False),
+                      "name": t[col("Insider Name", "Insider")].astype(str).str.strip(),
+                      "title": t[col("Title")].astype(str),
+                      "val": pd.to_numeric(t[col("Value")].astype(str).str.replace(r"[^0-9.\-]", "", regex=True), errors="coerce").abs()})
+    d["code"] = "P"
+    return d
+
+
 def fetch_sec(log, t0):
+    """(이름은 그대로) SEC 가 깃허브 실행기 IP 를 막아(403) openinsider.com 의 장내 매수(P) 기록을 달마다 받는다.
+       ※ 습관형 판정은 매수 기록만으로 함(논문은 매도도 봄) — 단순화."""
     import requests
-    parts = []
+    parts, got = [], []
     now = dt.date.today()
-    qs = [(y, q) for y in range(2009, now.year + 1) for q in (1, 2, 3, 4)]
-    got = []
-    for y, q in qs:
-        if time.time() - t0 > BUDGET:
-            log["sec_cut"] = f"{y}q{q}"
-            break
-        blob = None
-        for att in range(3):
-            try:
-                r = requests.get(URL.format(y=y, q=q), headers=UA, timeout=120)
-                if r.status_code == 404:
-                    break
-                r.raise_for_status()
-                blob = r.content
+    m = dt.date(2009, 1, 1)
+    while m <= now:
+        nm = (m.replace(day=28) + dt.timedelta(days=4)).replace(day=1)
+        a, b = m.strftime("%m/%d/%Y").replace("/", "%2F"), (nm - dt.timedelta(days=1)).strftime("%m/%d/%Y").replace("/", "%2F")
+        for pg in range(1, 30):
+            if time.time() - t0 > BUDGET:
+                log["sec_cut"] = str(m)
                 break
+            html = None
+            for att in range(3):
+                try:
+                    r = requests.get(OI.format(a=a, b=b, pg=pg), headers=OUA, timeout=60)
+                    r.raise_for_status()
+                    html = r.text
+                    break
+                except Exception as e:
+                    log.setdefault("sec_err", []).append(f"{m}p{pg}:{repr(e)[:80]}")
+                    time.sleep(5 * (att + 1))
+            if html is None:
+                break
+            try:
+                d = oi_table(html)
             except Exception as e:
-                log.setdefault("sec_err", []).append(f"{y}q{q}:{repr(e)[:80]}")
-                time.sleep(3 * (att + 1))
-        if blob is None:
-            continue
-        try:
-            parts.append(parse_zip(blob))
-            got.append(f"{y}q{q}")
-        except Exception as e:
-            log.setdefault("sec_err", []).append(f"{y}q{q} parse:{repr(e)[:120]}")
-        time.sleep(0.3)
-    log["sec_quarters"] = got
+                log.setdefault("sec_err", []).append(f"{m}p{pg} parse:{repr(e)[:120]}")
+                d = pd.DataFrame()
+            if len(d):
+                parts.append(d)
+            time.sleep(0.8)
+            if len(d) < 1000:
+                break
+        if log.get("sec_cut"):
+            break
+        got.append(str(m)[:7])
+        m = nm
+    log["sec_quarters"] = got[:1] + got[-1:] + [len(got)]
     d = pd.concat(parts, ignore_index=True) if parts else pd.DataFrame()
+    if len(d):
+        d = d.drop_duplicates(["fd", "td", "tk", "name", "val"])
+        d["icik"], d["ocik"], d["rel"] = d["tk"], d["name"], d["title"]
     log["sec_rows"] = int(len(d))
+    log["source"] = "openinsider.com 스크리너(장내 매수 P) — SEC 는 깃허브 실행기에서 403"
     return d
 
 
@@ -104,7 +141,7 @@ def classify(d):
     d = d.dropna(subset=["td", "fd"]).copy()
     d = d[d["ocik"].notna() & (d["tk"] != "") & (d["tk"] != "NAN") & (d["tk"] != "NONE")]
     d["y"], d["m"] = d["td"].dt.year, d["td"].dt.month
-    norm = lambda x: x.astype(str).str.strip().str.lstrip("0")         # CIK 앞 0 지우기 (매일 신호 XML 과 맞춤)
+    norm = lambda x: x.astype(str).str.strip().str.upper()             # 사람 = 이름(대문자) · 회사 = 티커 (openinsider 에는 CIK 가 없음)
     key = norm(d["ocik"]) + "|" + norm(d["icik"])
     d["key"] = key
     ym = set(zip(key, d["y"], d["m"]))
