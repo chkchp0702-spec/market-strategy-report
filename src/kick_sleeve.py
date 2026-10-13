@@ -93,20 +93,21 @@ BRAKE, BRAKE_D, MAX_NEW, REENTRY = _P["brake"], _P["brake_d"], _P["max_new"], _P
 PRI = {**_DEF["pri"], **_P.get("pri", {})}
 OFF = set(_P.get("off", []))
 SRC_NAME = {"nh52": "🏔 신고가", "pead": "📊 실적 표류", "dip": "🩹 급락 반등", "trend": "🧭 추세", "earn": "📊 실적 갭", "focus": "🎯 집중 돌파", "cup_eye": "☕ 컵 돌파(눈 검사 통과)", "cup": "☕ 컵 돌파", "gap": "📈 돌파 갭",
-            "lead": "🔗 미국→한국 선행", "accum": "🤫 매집 박스 돌파", "whale": "🐋 고래 큰손 매수"}
+            "lead": "🔗 미국→한국 선행", "accum": "🤫 매집 박스 돌파", "whale": "🐋 고래 큰손 매수",
+            "cust": "🔌 고객사 따라", "ins": "🕵 내부자 매수", "maxcut": "🎰 복권 거름망에 걸린 것"}
 
 
 # ✅ 성과가 확인된 신호만 킥에 들어온다 (10/10 사용자: "고래·컵·갭·조용한 매집이 성과 확인된 것만 자연스럽게, 킥 포트는 하나만")
 #    기준: 우리 장부(market/edge.json)에서 표본 20건 이상 · 손익비 1.5 이상. 고래는 13F 바스켓 검증(매 분기 S&P 이김).
 #    아직 아닌 신호는 「⏳ 대기」— 표본이 차면 다음 계산부터 저절로 들어온다. 🎯 집중·🔗 선행은 사용자 목록 밖이라 넣지 않는다.
 TAG = {"cup_eye": "☕", "cup": "☕", "gap": "📈", "accum": "🤫", "whale": "🐋", "focus": "🎯", "lead": "🔗", "earn": "📊",
-       "nh52": "🏔", "pead": "📊", "dip": "🩹", "trend": "🧭"}
-KICK_SRCS = ["cup_eye", "cup", "gap", "accum", "whale", "earn", "nh52", "pead", "dip"]   # 📊 실적 갭(10/11): 우리 장부 5일 평균 −0.4%(53건)라 그림자 채점으로 먼저 확인
+       "nh52": "🏔", "pead": "📊", "dip": "🩹", "trend": "🧭", "cust": "🔌", "ins": "🕵", "maxcut": "🎰"}
+KICK_SRCS = ["cup_eye", "cup", "gap", "accum", "whale", "earn", "nh52", "pead", "dip", "cust", "ins"]   # 📊 실적 갭(10/11): 우리 장부 5일 평균 −0.4%(53건)라 그림자 채점으로 먼저 확인
 PROOF_N, PROOF_PF = 20, 1.5
 
 # 🧪 10/12 새 아이디어 4개 (src/kick_ideas_bt.py 과거 검증 → market/kick_ideas_bt.json · 매일 신호 market/kick_ideas_live.json)
 #   ✅ 채택 = 정식 · 🧪 시험 = 절반 크기 · 👻 그림자만 / ❌ 기각 = 그림자 채점만 (10년 넘는 과거 검증에서 진 신호라 장부 20건으로 저절로 들어오지 않음 — 다시 켜려면 새 검증 통과)
-IDEAS = ("nh52", "pead", "dip", "trend")
+IDEAS = ("nh52", "pead", "dip", "trend", "cust", "ins")
 
 
 def _rj(path, d=None):
@@ -118,6 +119,12 @@ def _rj(path, d=None):
 
 IB = _rj(ROOT / "market" / "kick_ideas_bt.json").get("ideas", {})
 IL = _rj(ROOT / "market" / "kick_ideas_live.json")
+# 📈 Q16 (10/13 사용자: "16-2,3,5 진행하고 반영시켜") — 과거 검증 판정 market/q16_bt.json · 매일 신호 market/q16_live.json (src/q16_live.py)
+#   🔌 cust 고객사→납품사 · 🕵 ins 내부자 기회형 매수 = 새 아이디어처럼 판정대로(✅ 정식 · 🧪 절반 · 👻/❌ 그림자만)
+#   🎰 MAX 거름망 = ☕·📈 미국 후보의 직전 20일 하루 최대 상승률이 기준 이상이면 ✅ 일 때만 킥에서 빼고, 늘 「🎰 걸린 것」 그림자 채점
+Q16B = _rj(ROOT / "market" / "q16_bt.json")
+QL = _rj(ROOT / "market" / "q16_live.json")
+IB.update({k: Q16B[k] for k in ("cust", "ins") if isinstance(Q16B.get(k), dict) and Q16B[k].get("verdict")})
 _EXM = {"f10": {"hold": 10}, "f20": {"hold": 20}, "f40": {"hold": 40}, "s8_20": {"stop": -0.08, "hold": 20},
         "s8t20_20": {"stop": -0.08, "take": 0.20, "hold": 20}, "s8_40": {"stop": -0.08, "hold": 40}}
 
@@ -128,7 +135,7 @@ def src_exit(src):
     if ov:
         return ov
     b = IB.get(src) or {}
-    if src in ("nh52", "pead") and b.get("pick", {}).get("exit") in _EXM:
+    if src in ("nh52", "pead", "cust", "ins") and b.get("pick", {}).get("exit") in _EXM:
         return _EXM[b["pick"]["exit"]]
     if src == "dip" and b.get("pick"):
         try:
@@ -139,7 +146,7 @@ def src_exit(src):
     return None
 
 
-XR = {k: src_exit(k) for k in ("nh52", "pead", "dip")}
+XR = {k: src_exit(k) for k in ("nh52", "pead", "dip", "cust", "ins")}
 
 
 def xr_doc(x):
@@ -326,6 +333,12 @@ def collect(now):
             if k not in cands:
                 cands[k] = {"code": x["code"], "name": x.get("name") or x["code"], "mkt": x.get("mkt"), "d": x["d"], "src": x["src"],
                             "score": 50 + (x.get("score") or 0) if x["src"] != "dip" else 0}   # 컵·갭 점수(40~90)와 비슷한 눈금
+    for x in QL.get("log") or []:               # 🔌🕵 Q16 신호 (market/q16_live.json, 매일 KST 07:25)
+        if x.get("src") in ("cust", "ins") and x.get("code") and x.get("d"):
+            k = f"{x['code']}|{x['d']}|{x['src']}"
+            if k not in cands:
+                cands[k] = {"code": x["code"], "name": x.get("name") or x["code"], "mkt": "US", "d": x["d"], "src": x["src"],
+                            "score": 50 + (x.get("score") or 0), "note": x.get("note")}
     for back in range(6):                       # 🐋 최근 고래 신호 (TOP10 · 큰손 매수)
         day = (now - dt.timedelta(days=back)).strftime("%Y-%m-%d")
         try:
@@ -416,6 +429,24 @@ def main() -> int:
                 CL[t] = s
         except Exception:
             pass
+    # 🎰 Q16-3 MAX 거름망 — 미국 ☕·📈 후보의 신호일 「전」 20거래일 하루 최대 상승률(%)
+    MX = Q16B.get("max") or {}
+    MX_TH, MX_ON = MX.get("th") or 10, MX.get("verdict") == "✅"
+    cut = []
+    for c in list(cands) + [v for v in shadow_c if v["src"] in ("cup", "cup_eye", "gap")]:
+        if c["src"] not in ("cup", "cup_eye", "gap") or c.get("mkt") != "US" or c["code"] not in CL:
+            continue
+        s_ = CL[c["code"]]
+        a = s_[s_.index.strftime("%Y-%m-%d") < c["d"]].iloc[-21:]
+        if len(a) < 16:
+            continue
+        c["max20"] = round(float((a.pct_change().dropna() * 100).max()), 1)
+        if c["max20"] >= MX_TH:
+            cut.append(c)
+    for c in cut:
+        shadow_c.append({**c, "src": "maxcut"})
+        if MX_ON and c in cands:
+            cands.remove(c)
     cal = [d for d in CL["SPY"].index if d.strftime("%Y-%m-%d") >= START]
     D = [d.strftime("%Y-%m-%d") for d in cal]
 
@@ -756,7 +787,7 @@ def main() -> int:
     hold.sort(key=lambda h: -h["r"])
     # 🧪 새 아이디어 상태 (앱용 한눈 요약) — state: ✅ 채택 · 🧪 시험(절반) · 👻 그림자만 · ❌ 기각
     lastsig = {}
-    for x in IL.get("log") or []:
+    for x in (IL.get("log") or []) + (QL.get("log") or []):
         lastsig.setdefault(x.get("src"), []).append(x)
     ideas_out = {}
     for k in IDEAS:
@@ -771,13 +802,16 @@ def main() -> int:
                         "why": b.get("why"), "rule": (b.get("pick") or {}).get("rule"),
                         "exit": xr_doc(XR.get(k)) if k != "trend" else "N일 고가 돌파 → 사고 · M일 저가 이탈 → 팖 (신호 다음 날 종가)",
                         "today": today[:20], "today_d": dmax if k != "trend" else ((IL.get("state") or {}).get("trend") or {}).get("assets", {}).get("SPY", {}).get("d"),
-                        "n30": len(L_), "live_at": IL.get("at")}
+                        "n30": len(L_), "live_at": QL.get("at") if k in ("cust", "ins") else IL.get("at")}
         if k == "trend":
             ideas_out[k]["sleeve"] = TS
     out = {
         "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "asof": last_d,
         "hold": hold, "proof": {k: v for k, v in PROOF.items() if k in ("whale", "cup", "gap", "accum", "earn") + IDEAS},
         "ideas": ideas_out,
+        "q16_max": {"on": MX_ON, "th": MX_TH, "state": MX.get("verdict") or "⏳", "why": MX.get("why"),
+                    "rule": f"☕·📈 미국 후보 중 신호일 전 20거래일 하루 최대 상승률 ≥ {MX_TH:g}% → " + ("킥에서 빼고 🎰 그림자 채점" if MX_ON else "킥은 그대로 · 🎰 그림자 채점만"),
+                    "cut": [{"code": c["code"], "d": c["d"], "src": c["src"], "max20": c.get("max20")} for c in sorted(cut, key=lambda c: c["d"])][-20:]},
         "trend": ({"sleeve": TS, "from": TF, "rule": (TB.get("pick") or {}).get("rule"), "line": [round((tsv[x] / tsv[TF0] - 1) * 100, 2) if (tsv and TF0 and x >= TF0 and x in tsv) else 0.0 for x in pdates],
                    "open": t_open, "trades": t_tr[-10:]} if TS > 0 else None),
         "rule": {"from": RF, "whale_sleeve": WS2, "base_now": RULE.get("now"), "why": RULE.get("why"), "quad": RULE.get("quad"), "cash": RULE.get("cash"), "use": RULE.get("use")},

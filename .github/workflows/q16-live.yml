@@ -1,0 +1,29 @@
+name: q16-live
+# 📈 Q16 매일 신호 (src/q16_live.py → market/q16_live.json · market/insider_live.json) — 사용자 10/13 "16-2,3,5 진행하고 반영시켜"
+#   🔌 고객사→납품사 · 🕵 내부자 기회형 매수. 미국 장 끝난 뒤 KST 07:25 (화~토). 킥에 들어갈지는 market/q16_bt.json 판정대로(src/kick_sleeve.py)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "25 22 * * 1-5"
+permissions:
+  contents: write
+concurrency:
+  group: push-${{ github.repository }}-${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yfinance pandas numpy lxml requests
+      - run: python -m src.q16_live selftest && python -m src.q16_live
+      - name: 저장
+        run: |
+          git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
+          fs="market/q16_live.json"; [ -f market/insider_live.json ] && fs="$fs market/insider_live.json"
+          IFS=' ' read -ra FS <<< "$fs"
+          bash scripts/push.sh "q16-live $(TZ=Asia/Seoul date '+%F %H:%M')" "${FS[@]}"
