@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "JPM 3분기 8-K — 예상 미달, 신용비용 27억 달러·충당금 5.39억 달러 적립",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000019617/000162828026065582/a3q26erfexhibit991narrative.htm",
+   "press": "SEC(JPM 8-K)",
+   "at": "2026-10-13 21:30",
+   "why": "KBE 오름(#20261012-20)·금융 칸 — GS·씨티 상회와 달리 JPM은 신용비용 증가, 은행 실적이 '트레이딩 vs 신용'으로 갈림",
+   "summary": "Seeking Alpha 요약: Q3 예상 미달, 신용비용 27억 달러 중 충당금 5.39억 달러 적립. 같은 날 씨티 매출 예상 상회(investing_kr), 다우는 은행주로 상승·나스닥은 메모리주 매도(yahoo/IBD)."
+  },
+  {
    "title": "골드만삭스 3분기 EPS 17.01달러 — 예상 3.92달러 상회, 매출 186.8억 달러(+17.9억 상회)",
    "url": "https://seekingalpha.com/news/4652394-goldman-sachs-gaap-eps-of-17_01-beats-by-3_92-revenue-of-18_68b-beats-by-1_79b",
    "press": "Seeking Alpha",
@@ -631,15 +639,7 @@
    "at": "2026-10-12 13:35",
    "why": "하닉 오름 bet(손절 1,614,000) 반대 변수 — 수급·자금조달 물량",
    "summary": "하닉 1,629,000(−3.1%). 외국인 8/31~10/8 약 −16조, 외국인 지분 49.59%. 솔리다임 프리IPO 공개입찰 거론(골드만·모건스탠리 주관), 규모·시점 미정."
-  },
-  {
-   "title": "구리, 연준 인상 베팅 완화·칠레 광산 산사태에 상승",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-12/copper-gains-on-easing-rate-hike-bets-and-chile-mine-avalanche",
-   "press": "Bloomberg",
-   "at": "2026-10-12 13:35",
-   "why": "FCX 오름 대기 bet·원자재 칸 — 칠레 공급 차질 누적",
-   "summary": "10/12 아시아장 구리 상승. 칠레 광산 산사태 + 미 인상 기대 완화. 칠레 14개 광산 생산 위험 평균 5.2%(엘테니엔테 9%, mining.com 10/8)."
   }
  ],
- "at": "2026-10-13 18:40"
+ "at": "2026-10-13 21:35"
 }
