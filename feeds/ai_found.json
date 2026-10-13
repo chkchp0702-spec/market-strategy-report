@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "BP, 3분기 정제마진 급등 — 최대 45억$ 손상차손 예고",
+   "url": "https://seekingalpha.com/news/4652320-bp-expects-up-to-45b-in-q3-impairments-as-refining-margins-jump?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+   "press": "Seeking Alpha",
+   "at": "2026-10-13 17:40",
+   "why": "에너지 칸·VLO 오름 bet(#20261013-17) — 정제(크랙) 층 이익이 원유보다 강하다는 메이저 첫 숫자",
+   "summary": "BP 3Q 트레이딩 업데이트: 정제마진 상승, 손상차손 최대 45억$(피드 제목 기준). 러시아 디젤 수출 차질(bbg)·'트럼프 디젤 합의로 가격 안 내려'(gn_bbg)와 같은 방향."
+  },
+  {
+   "title": "미 국채금리, 에너지값 후퇴에 하락",
+   "url": "https://www.cnbc.com/2026/10/13/us-treasurys-bonds-yields.html",
+   "press": "CNBC",
+   "at": "2026-10-13 17:40",
+   "why": "고금리 논지(0.72)·^TNX 내림 bet — 10년 5.187로 목표 5.15 근접, 판정 10/14 CPI",
+   "summary": "유가 후퇴로 미 국채금리 하락(CNBC 10/13). 국고채도 외국인 매수에 이틀째 큰 폭 하락(yna_eco)."
+  },
+  {
+   "title": "브로드컴 AI 칩 가이던스가 아시아 공급망에 던진 질문",
+   "url": "https://www.techrepublic.com/article/news-broadcom-ai-chip-guidance-apac-south-korea/",
+   "press": "TechRepublic",
+   "at": "2026-10-13 17:40",
+   "why": "반도체 칸·하닉 bet(#09) — 10/13 한국 투매의 방아쇠가 CXMT 외에 혹 탄 '도박꾼' 발언(야후·마켓워치)",
+   "summary": "혹 탄 CEO 'AI 지속성' 경고 뒤 하닉·삼전 급락(야후 피드 제목). 본문 숫자는 미확인."
+  },
+  {
    "title": "코스피 5.46% 급락 — 외국인 매도에 밸류에이션 사상 최저",
    "url": "https://www.koreatimes.co.kr/economy/20261013/kospi-plunges-546-as-foreign-selling-drives-valuations-to-record-low",
    "press": "Korea Times",
@@ -615,30 +639,6 @@
    "at": "2026-10-12 09:10",
    "why": "삼성SDI bet(#20261011-11)·이차전지 — 실적 서프라이즈 층(셀)만 버팀",
    "summary": "09:05 삼성SDI +3.87%·LG엔솔 +2.87%·셀트리온 +2.45%. 8~9일 미 필라델피아 반도체 −3.8%가 국내 반도체 부담."
-  },
-  {
-   "title": "10월 1~10일 수출 261억달러, 102% 증가…일평균 28.5%↑ 역대 최대",
-   "url": "https://www.yna.co.kr/view/AKR20261012028600002",
-   "press": "연합뉴스",
-   "at": "2026-10-12 09:05",
-   "why": "반도체 칸·하이닉스/삼성 bets — 실적은 숫자로 확인, 지수는 외국인 매도로 역행(한국 따로 놀기 논지)",
-   "summary": "10월 1~10일 수출 261억달러(+102%), 일평균 47.5억달러로 역대 최대. 같은 날 코스피는 외국인 매도에 −0.9%."
-  },
-  {
-   "title": "대신증권 '반도체: 후공정도 멀리 봐도 된다' — 디아이 TP 60,000·엑시콘 TP 68,000",
-   "url": "https://t.me/s/kimu_nim/46641",
-   "press": "대신증권(텔레그램)",
-   "at": "2026-10-12 08:50",
-   "why": "⚡ 선제 #20261012-09 디아이 근거 · 메모리 설비투자의 2차(후공정) 층",
-   "summary": "삼성 베트남 신공장·노후 전공정 라인 DRAM 후공정 전환, 하닉 인디애나·청주 P&T7. 후공정 장비 아웃퍼폼 전망, 탑픽 디아이·엑시콘."
-  },
-  {
-   "title": "SK증권 'SK하이닉스 3Q OP 79조(컨센 +7%), 2027년 435조 상향'",
-   "url": "https://t.me/s/kimu_nim/46639",
-   "press": "SK증권(텔레그램)",
-   "at": "2026-10-12 08:45",
-   "why": "하이닉스 bet #20261010-00(진행 −2.8%) — 메리츠 80.1조와 두 번째 독립 추정",
-   "summary": "3Q DRAM ASP +26%·NAND +16% 예상. 2027E P/E 3.7배, 27~28년 주주환원 시총 대비 11~14%."
   }
  ],
  "at": "2026-10-13 16:35"
