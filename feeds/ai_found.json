@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "삼성전자·SK하이닉스, 중국 경쟁 공포에 급락 — CXMT 차세대 D램 4F² 진전",
+   "url": "https://investing.com/news/stock-market-news/samsung-sk-hynix-shares-plunge-on-china-competition-fears-4945334",
+   "press": "Investing.com",
+   "at": "2026-10-13 13:35",
+   "why": "반도체 칸·하닉 bet(#20261013-09) — 오늘 투매의 방아쇠가 실적이 아니라 경쟁 공포임을 확인",
+   "summary": "삼성 −7.5%·하닉 −8.4%(02:36 GMT), 5거래일 연속 하락. 코스피 −7% 5,944.31, 외국인 −2.335조·개인 +1.311조. CXMT 4F² D램 설계 진전·연말 서버 DDR5 목표."
+  },
+  {
+   "title": "7/28 CXMT 상장 쇼크: 코스피 −10.84% 6,023.66 — 그 뒤 7천피 회복",
+   "url": "https://www.itiger.com/news/1152229320",
+   "press": "Tiger Brokers",
+   "at": "2026-10-13 13:35",
+   "why": "선례 — 중국 메모리 경쟁 헤드라인 투매가 실적 변화 없이 회복된 사례, 하닉 bet·투매일 종가 진입 규칙 근거",
+   "summary": "7/28 코스피 −732.09p(−10.84%) 6,023.66, 장중 −11.3%. 하닉 −14.7%·삼성 −14.4%. CXMT 상하이 상장 첫날 +466%(parameter.io)."
+  },
+  {
+   "title": "소프트뱅크 −8% — 오픈AI 매출 눈높이 하향·CDS 수년래 최고",
+   "url": "https://investing.com/news/stock-market-news/why-is-softbank-group-stock-tumbling-today-93CH-4945343",
+   "press": "Investing.com",
+   "at": "2026-10-13 13:35",
+   "why": "AI 차입(크레딧) 논지 0.55→0.57 — AI 차입 고리의 첫 가격 신호",
+   "summary": "소프트뱅크 −8.0% ¥5,337. 오픈AI 연환산 매출 ~500억$(기존 ~700억$ 추정) 보도, CDS 수년래 최고. 닛케이 장중 −1,900엔↑."
+  },
+  {
    "title": "IMF 10월 글로벌 금융안정보고서(GFSR) 공개",
    "url": "https://www.imf.org/en/publications/gfsr/issues/2026/10/13/global-financial-stability-report-october-2026",
    "press": "IMF",
@@ -615,31 +639,7 @@
    "at": "2026-10-12 06:35",
    "why": "10/12 IRGC '식별장치 끈 선박=적대 목표' 발표의 배경 — 에너지 칸·LIG넥스원 대기 bet 유가 갭 조건과 직결",
    "summary": "선박들이 나포·공격을 피하려 AIS를 끄고 통항 — IRGC 발표(CCTV, 10/12)로 이 우회로가 막히면 통항량 추가 감소 위험. 기사 작성일 미확인."
-  },
-  {
-   "title": "S&P 500 이익 호황에 채권시장이 보내는 경고",
-   "url": "https://finance.yahoo.com/markets/article/the-sp-500s-earnings-boom-is-facing-a-bond-market-warning-chart-of-the-day-100000591.html",
-   "press": "Yahoo Finance",
-   "at": "2026-10-12 06:35",
-   "why": "이익수익률 < 10년 금리(ERP 음수) — 고금리 논지·AI 소프트웨어 칸 밸류 부담과 이어짐",
-   "summary": "10년 5%대에서 S&P 이익수익률이 국채금리 아래로 — 실적 호황에도 밸류 상단이 막히는 구조. 구체 수치·작성일은 원문 확인 필요(미확인)."
-  },
-  {
-   "title": "레이저텍 사장 '수주 나빠질 요소 없다' — 강세 근거가 보이기 시작",
-   "url": "https://toyokeizai.net/articles/-/847558",
-   "press": "도요케이자이",
-   "at": "2026-10-12 05:40",
-   "why": "반도체 칸·소부장 — 일본 10/12 휴장으로 장비주 반응이 10/13로 밀림(레이저텍 대기 bet)",
-   "summary": "EUV 마스크 검사장비 1위 레이저텍 경영진의 수주 낙관 발언. 같은 날 국내 '대형주 주춤 사이 소부장 강세, 글로벌 설비투자 확대 기대'(gn_kr_sector). 본문 숫자는 유료라 미확인."
-  },
-  {
-   "title": "트럼프, 이란 제안 거부 — '중간선거 뒤 폭격 재개' 예상 보도",
-   "url": "https://abcnews4.com/news/nation-world/trump-rejects-iran-proposal-expects-renewed-bombing-after-midterms-report-ceasefire-war-conflict-attacks-strait-of-hormuz-gasoline-gas-prices-crude-oil-nuclear-weapon-midterm-elections-vote-voting-polls-politics-president-donald-trump",
-   "press": "ABC News 4(Sinclair)",
-   "at": "2026-10-12 05:40",
-   "why": "에너지 칸·유가 bet(BNO 대기) — 중간선거(11/3) 뒤 걸프 위험 재점화 시점 표시",
-   "summary": "보도 날짜 미확인. 같은 시각 미 재무 '중간선거 전 이란과 교전 없다'(einfomax 10/12)·이란 안보수장 '미 제안 불충분'(einfomax 10/12)과 함께 보면 11월 초까지는 협상, 이후 위험↑ 구도."
   }
  ],
- "at": "2026-10-13 12:35"
+ "at": "2026-10-13 13:35"
 }
