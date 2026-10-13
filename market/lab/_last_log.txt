@@ -1,1 +1,92 @@
-python: can't open file '/home/runner/work/market-strategy-report/market-strategy-report/src/lab/k1013_secprobe.py': [Errno 2] No such file or directory
+[
+ {
+  "u": "https://www.sec.gov/files/company_tickers.json",
+  "ua": "CH-Investing-Research research",
+  "code": 403,
+  "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xh"
+ },
+ {
+  "u": "https://www.sec.gov/files/company_tickers.json",
+  "ua": "Mozilla/5.0 (compatible; CHInv",
+  "code": 403,
+  "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xh"
+ },
+ {
+  "u": "https://www.sec.gov/files/company_tickers.json",
+  "ua": "CH Investing research-bot@user",
+  "code": 403,
+  "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xh"
+ },
+ {
+  "u": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/form.20261009.idx",
+  "ua": "CH-Investing-Research research",
+  "code": 403,
+  "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xh"
+ },
+ {
+  "u": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/form.20261009.idx",
+  "ua": "Mozilla/5.0 (compatible; CHInv",
+  "code": 403,
+  "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xh"
+ },
+ {
+  "u": "https://www.sec.gov/Archives/edgar/daily-index/2026/QTR4/form.20261009.idx",
+  "ua": "CH Investing research-bot@user",
+  "code": 403,
+  "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xh"
+ },
+ {
+  "u": "https://www.sec.gov/files/structureddata/data/insider-transactions-data-sets/2025q2_form34",
+  "ua": "CH-Investing-Research research",
+  "code": 403,
+  "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xh"
+ },
+ {
+  "u": "https://www.sec.gov/files/structureddata/data/insider-transactions-data-sets/2025q2_form34",
+  "ua": "Mozilla/5.0 (compatible; CHInv",
+  "code": 403,
+  "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xh"
+ },
+ {
+  "u": "https://www.sec.gov/files/structureddata/data/insider-transactions-data-sets/2025q2_form34",
+  "ua": "CH Investing research-bot@user",
+  "code": 403,
+  "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xh"
+ },
+ {
+  "u": "https://data.sec.gov/submissions/CIK0000320193.json",
+  "ua": "CH-Investing-Research research",
+  "code": 403,
+  "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xh"
+ },
+ {
+  "u": "https://data.sec.gov/submissions/CIK0000320193.json",
+  "ua": "Mozilla/5.0 (compatible; CHInv",
+  "code": 403,
+  "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xh"
+ },
+ {
+  "u": "https://data.sec.gov/submissions/CIK0000320193.json",
+  "ua": "CH Investing research-bot@user",
+  "code": 403,
+  "head": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xh"
+ },
+ {
+  "u": "http://openinsider.com/screener?s=&o=&pl=&ph=&ll=&lh=&fd=730&fdr=&td=0&tdr=&fdlyl=&fdlyh=&",
+  "ua": "CH-Investing-Research research",
+  "code": 200,
+  "head": "<!doctype html> \n<html lang=en>\n<head>\n<script type=\"text/javascript\" src=\"/js/sic.js\" async></script>\n<meta charset=utf-8>\n<title>All Sectors (except Funds) - "
+ },
+ {
+  "u": "http://openinsider.com/screener?s=&o=&pl=&ph=&ll=&lh=&fd=730&fdr=&td=0&tdr=&fdlyl=&fdlyh=&",
+  "ua": "Mozilla/5.0 (compatible; CHInv",
+  "code": 200,
+  "head": "<!doctype html> \n<html lang=en>\n<head>\n<script type=\"text/javascript\" src=\"/js/sic.js\" async></script>\n<meta charset=utf-8>\n<title>All Sectors (except Funds) - "
+ },
+ {
+  "u": "http://openinsider.com/screener?s=&o=&pl=&ph=&ll=&lh=&fd=730&fdr=&td=0&tdr=&fdlyl=&fdlyh=&",
+  "ua": "CH Investing research-bot@user",
+  "code": 200,
+  "head": "<!doctype html> \n<html lang=en>\n<head>\n<script type=\"text/javascript\" src=\"/js/sic.js\" async></script>\n<meta charset=utf-8>\n<title>All Sectors (except Funds) - "
+ }
+]
