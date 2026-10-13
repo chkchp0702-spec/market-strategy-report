@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "ASML 3분기 실적 — 옵션 시장은 발표 뒤 ±6% 움직임 예상",
+   "url": "https://www.tipranks.com/news/asml-stock-options-traders-see-a-6-move-after-q3-earnings",
+   "press": "TipRanks",
+   "at": "2026-10-14 07:35",
+   "why": "장비 칸·LRCX 오름 bet(#20261013-20, 손절 −5%) 판정 이벤트 — 오늘 14:00 KST 발표",
+   "summary": "옵션 내재 변동 ±6%(제목 기준). 칩 6일째 약세 한가운데 나오는 장비 첫 숫자 — 수주가 장비주 되돌림/추가 하락을 가른다."
+  },
+  {
+   "title": "ASML 실적 미리보기 — 무엇을 볼까(수주·중국 매출·2027 가이던스)",
+   "url": "https://www.investing.com/news/stock-market-news/asml-earnings-preview-what-to-watch-when-q3-results-hit-93CH-4947303",
+   "press": "Investing.com",
+   "at": "2026-10-14 07:35",
+   "why": "하이닉스 #09·IMOS 🎯·장비 칸이 같이 보는 숫자 — CXMT 공포가 장비 수요엔 호재인지 확인",
+   "summary": "핵심 관전 포인트는 수주(order book)와 중국 비중·수출 규제 영향(본문 숫자 미확인)."
+  },
+  {
+   "title": "씨티 'KLA 목표가 하향 — 반도체 장비 지출 제한' 에 KLA −3%",
+   "url": "https://www.tipranks.com/news/the-fly/kla-corp-price-target-lowered-to-800-from-910-at-citi",
+   "press": "TheFly/TipRanks",
+   "at": "2026-10-14 07:35",
+   "why": "LRCX #20 반대 근거 — 도이체 상향(10/13) vs 씨티 하향, 장비 IB 의견 갈림",
+   "summary": "씨티 KLA 목표가 910→800(제목 기준, 날짜 미확인)·이데일리 '[美특징주] KLA 3% 하락…씨티 장비 지출 제한'(10/14)."
+  },
+  {
    "title": "미 9월 CPI 미리보기 — 헤드라인 3.7%·근원 0.2% 전망",
    "url": "https://admiralmarkets.com/analytics/traders-blog/us-cpi-preview-september-2026-forecasts-and-the-core-cpi-outlook",
    "press": "Admiral Markets",
@@ -615,30 +639,6 @@
    "at": "2026-10-12 21:35",
    "why": "반도체 칸·한국 메모리 — 10/12 마이크론 약세(barrons)·연합 'CXMT 차세대 D램 진전'의 배경",
    "summary": "CXMT가 LPDDR6 양산에 근접해 한국 2사와의 모바일 D램 격차를 좁힘. 7월 86억달러 IPO로 증설 자금 확보(digitalcitizen). 기사 날짜는 원문 확인 필요."
-  },
-  {
-   "title": "호르무즈 해협서 유조선 미상 발사체 피격·화재, 선원 무사",
-   "url": "https://investinglive.com/commodities/oil-tanker-struck-by-unknown-projectile-in-strait-of-hormuz-fire-reported-crew-safe/",
-   "press": "investingLive",
-   "at": "2026-10-12 21:35",
-   "why": "에너지 칸·^TNX bet — 유가 $100 위 하방을 막는 지정학 꼬리(서울경제 피드 'Tanker Hit by Projectile in Hormuz'와 같은 사건으로 보임)",
-   "summary": "호르무즈 해역 유조선 피격·화재 보고, 인명 피해 없음. 같은 날 OPEC은 26년 수요 증가 전망을 40만bpd로 하향(reuters) — 공급 위험 vs 수요 둔화가 맞섬. 원문 시각 미확인."
-  },
-  {
-   "title": "모건스탠리: 미 CCC 신용 스프레드 1,000bp 돌파·은행주 33년 만의 극심한 과매도",
-   "url": "https://wallstreetcn.com/articles/3783423",
-   "press": "월스트리트견문(하나 중국 경유)",
-   "at": "2026-10-12 20:35",
-   "why": "금융 칸 축소 논지 vs 은행주 반등 — 13일 은행 실적이 분수령, KBE 선제 bet 근거",
-   "summary": "CCC 스프레드 1,000bp 돌파(2023년 이후 최대 확대). 은행주 RSI–S&P 격차 33년 만 최대. 지수는 최고치 −0.2%, 10년 금리 5.30%(2002년 이후 최고)."
-  },
-  {
-   "title": "EU 하이브리드 수입 상한에 중국 리튬 선물 10% 급락",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-12/chinese-lithium-slumps-10-after-eu-deal-slashes-hybrid-exports",
-   "press": "Bloomberg",
-   "at": "2026-10-12 20:30",
-   "why": "삼성SDI 오름 bet·배터리 칸 — 리튬 급락은 양극재 재고 손실, 유럽 내 중국 경쟁 축소는 한국 셀·완성차에 호재",
-   "summary": "EU-중국 합의로 중국산 하이브리드 EU 수입 연 35만대 상한(yna 10/12). 중국 리튬 선물 하루 −10%."
   }
  ],
  "at": "2026-10-14 01:35"
