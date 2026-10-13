@@ -1,7 +1,7 @@
 {
  "rc": 0,
  "stdout_tail": "기본 +0.74% · 킥 +1.12% · 슬리브 +2.99% · 거래 1 · 들고 있는 것 5\n",
- "stderr_tail": "HTTP Error 404: {\"quoteSummary\":{\"result\":null,\"error\":{\"code\":\"Not Found\",\"description\":\"Quote not found for symbol: CFLT\"}}}\n$CFLT: possibly delisted; no timezone found\n\n2 Failed downloads:\n['CDNS']: OperationalError('database is locked')\n['CFLT']: possibly delisted; no timezone found\n",
+ "stderr_tail": "HTTP Error 404: {\"quoteSummary\":{\"result\":null,\"error\":{\"code\":\"Not Found\",\"description\":\"Quote not found for symbol: CFLT\"}}}\n$CFLT: possibly delisted; no timezone found\n\n1 Failed download:\n['CFLT']: possibly delisted; no timezone found\n",
  "ideas": {
   "nh52": {
    "name": "🏔 신고가",
@@ -222,6 +222,112 @@
    }
   ]
  },
+ "q18_frog": {
+  "on": true,
+  "w": 60,
+  "th": -0.05,
+  "state": "✅",
+  "why": "시험 기간(2020~) 미국 갭 대용 1,491건: 꾸준 ⅓ 초과 +0.12% · 중간 −0.41% · 튐 ⅓ −0.83% (킥 규칙 출구). 튐 ⅓ 뺀 쪽 −0.07% vs 전체 −0.36% · 기준 −0.067~0 어디서도 뺀 쪽 −0.8~−1.1%. 단 20일 보유 출구는 ➖, 앞 기간(2012~19)엔 차이가 뚜렷하지 않았음",
+  "rule": "📈 미국 갭 후보 중 신호일 전 60거래일 ID ≥ -0.05(며칠 크게 튀어 오른 것) → 킥에서 빼고 🐸 그림자 채점",
+  "cut": [
+   {
+    "code": "PYPL",
+    "d": "2026-10-05",
+    "src": "gap",
+    "id60": -0.017
+   },
+   {
+    "code": "SNPS",
+    "d": "2026-10-05",
+    "src": "gap",
+    "id60": 0.067
+   },
+   {
+    "code": "SYNA",
+    "d": "2026-10-05",
+    "src": "gap",
+    "id60": 0.033
+   },
+   {
+    "code": "ARM",
+    "d": "2026-10-05",
+    "src": "gap",
+    "id60": 0.067
+   },
+   {
+    "code": "ACA",
+    "d": "2026-10-05",
+    "src": "gap",
+    "id60": -0.033
+   },
+   {
+    "code": "OMER",
+    "d": "2026-10-05",
+    "src": "gap",
+    "id60": -0.033
+   },
+   {
+    "code": "BWIN",
+    "d": "2026-10-05",
+    "src": "gap",
+    "id60": 0.083
+   },
+   {
+    "code": "PSNL",
+    "d": "2026-10-05",
+    "src": "gap",
+    "id60": 0.017
+   },
+   {
+    "code": "DFDV",
+    "d": "2026-10-05",
+    "src": "gap",
+    "id60": -0.017
+   },
+   {
+    "code": "PUBM",
+    "d": "2026-10-05",
+    "src": "gap",
+    "id60": -0.033
+   },
+   {
+    "code": "LILAK",
+    "d": "2026-10-05",
+    "src": "gap",
+    "id60": -0.05
+   },
+   {
+    "code": "ON",
+    "d": "2026-10-05",
+    "src": "gap",
+    "id60": -0.0
+   },
+   {
+    "code": "SENEA",
+    "d": "2026-10-05",
+    "src": "gap",
+    "id60": 0.0
+   },
+   {
+    "code": "TRLV",
+    "d": "2026-10-05",
+    "src": "gap",
+    "id60": -0.05
+   },
+   {
+    "code": "XP",
+    "d": "2026-10-06",
+    "src": "gap",
+    "id60": -0.017
+   },
+   {
+    "code": "INTR",
+    "d": "2026-10-06",
+    "src": "gap",
+    "id60": 0.033
+   }
+  ]
+ },
  "shadow_stat": {
   "focus": {
    "n": 2,
@@ -257,6 +363,13 @@
    "win": 59,
    "pf": 2.43,
    "tag": "🎰"
+  },
+  "frog": {
+   "n": 16,
+   "avg": 0.38,
+   "win": 44,
+   "pf": 1.23,
+   "tag": "🐸"
   }
  },
  "stat": {
