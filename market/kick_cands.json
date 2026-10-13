@@ -3127,6 +3127,28 @@
 "src": "cup_eye",
 "score": 83.1,
 "lv": 7516.51
+},
+"SMTC|2026-10-13": {
+"code": "SMTC",
+"name": "Semtech Corporation - Common Stock",
+"mkt": "US",
+"d": "2026-10-13",
+"src": "cup_eye",
+"score": 55.6,
+"lv": 169.17,
+"max20": 11.0,
+"id60": -0.067
+},
+"CBLL|2026-10-13": {
+"code": "CBLL",
+"name": "CeriBell, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-13",
+"src": "cup",
+"score": 24.1,
+"lv": 25.36,
+"max20": 6.9,
+"id60": -0.05
 }
 },
 "sent": [
