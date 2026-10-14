@@ -1,1 +1,8 @@
-python: can't open file '/home/runner/work/market-strategy-report/market-strategy-report/src/lab/ins_probe.py': [Errno 2] No such file or directory
+openinsider None
+yahoo {"VST": {"n": 2, "v": 1173069.0, "last": "2026-09-01", "who": "Burke James A. (Chief Execut)"}, "COO": {"n": 4, "v": 1880110.0, "last": "2026-09-16", "who": "Kurzius Lawrence Erik (Director)"}}
+   Shares     Value URL                                        Text                 Insider  Position Transaction Start Date Ownership
+0   10000  549320.0              Purchase at price 54.93 per share.   KURZIUS LAWRENCE ERIK  Director             2026-09-16         D
+1   10000  541640.0      Purchase at price 54.11 - 54.29 per share.  ROSEBROUGH WALTER M JR  Director             2026-09-14         I
+2   10000  539150.0              Purchase at price 53.92 per share.   KURZIUS LAWRENCE ERIK  Director             2026-09-14         D
+3    4701  250000.0              Purchase at price 53.18 per share.             KEEL PAUL A  Director             2026-09-11         D
+4    3322       NaN                                                           JAY COLLEEN E  Director             2026-04-01         D
