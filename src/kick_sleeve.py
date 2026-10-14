@@ -95,14 +95,15 @@ OFF = set(_P.get("off", []))
 SRC_NAME = {"nh52": "🏔 신고가", "pead": "📊 실적 표류", "dip": "🩹 급락 반등", "trend": "🧭 추세", "earn": "📊 실적 갭", "focus": "🎯 집중 돌파", "cup_eye": "☕ 컵 돌파(눈 검사 통과)", "cup": "☕ 컵 돌파", "gap": "📈 돌파 갭",
             "lead": "🔗 미국→한국 선행", "accum": "🤫 매집 박스 돌파", "whale": "🐋 고래 큰손 매수",
             "cust": "🔌 고객사 따라", "ins": "🕵 내부자 매수", "maxcut": "🎰 복권 거름망에 걸린 것", "frog": "🐸 튀어 오른 갭(개구리 거름망에 걸린 것)",
-            "agree": "🤝 신호 합의(다른 신호 2개 이상)", "nonews": "📰 뉴스 없는 갭(실적·공시 없이 뜬 미국 돌파 갭)"}
+            "agree": "🤝 신호 합의(다른 신호 2개 이상)", "nonews": "📰 뉴스 없는 갭(실적·공시 없이 뜬 미국 돌파 갭)",
+            "pbskip": "🪂 눌림 안 온 갭(Q15-5 로 건너뛴 미국 돌파 갭)"}
 
 
 # ✅ 성과가 확인된 신호만 킥에 들어온다 (10/10 사용자: "고래·컵·갭·조용한 매집이 성과 확인된 것만 자연스럽게, 킥 포트는 하나만")
 #    기준: 우리 장부(market/edge.json)에서 표본 20건 이상 · 손익비 1.5 이상. 고래는 13F 바스켓 검증(매 분기 S&P 이김).
 #    아직 아닌 신호는 「⏳ 대기」— 표본이 차면 다음 계산부터 저절로 들어온다. 🎯 집중·🔗 선행은 사용자 목록 밖이라 넣지 않는다.
 TAG = {"cup_eye": "☕", "cup": "☕", "gap": "📈", "accum": "🤫", "whale": "🐋", "focus": "🎯", "lead": "🔗", "earn": "📊",
-       "nh52": "🏔", "pead": "📊", "dip": "🩹", "trend": "🧭", "cust": "🔌", "ins": "🕵", "maxcut": "🎰", "frog": "🐸", "agree": "🤝", "nonews": "📰"}
+       "nh52": "🏔", "pead": "📊", "dip": "🩹", "trend": "🧭", "cust": "🔌", "ins": "🕵", "maxcut": "🎰", "frog": "🐸", "agree": "🤝", "nonews": "📰", "pbskip": "🪂"}
 KICK_SRCS = ["cup_eye", "cup", "gap", "accum", "whale", "earn", "nh52", "pead", "dip", "cust", "ins"]   # 📊 실적 갭(10/11): 우리 장부 5일 평균 −0.4%(53건)라 그림자 채점으로 먼저 확인
 PROOF_N, PROOF_PF = 20, 1.5
 
@@ -126,6 +127,7 @@ IL = _rj(ROOT / "market" / "kick_ideas_live.json")
 Q16B = _rj(ROOT / "market" / "q16_bt.json")
 Q18B = _rj(ROOT / "market" / "q18_bt.json")   # 🐸 Q18-2 개구리 거름망 판정 (src/lab/k1013_q18.py)
 Q10B = _rj(ROOT / "market" / "q10_bt.json")   # 🤝 Q10-2 신호 합의 판정 (src/lab/k1014_q10.py · 사용자 10/14 「2,3,5 실행」)
+Q15B = _rj(ROOT / "market" / "q15_bt.json")   # 🎯 Q15-5 갭 눌림 진입 판정 (src/lab/k1014_q15g.py · 사용자 10/14 15시 「2,5번 실행」)
 Q13B = _rj(ROOT / "market" / "q13_bt.json")   # 📰 Q13-1 뉴스 없는 갭 · 🧯 Q13-5 손절 뭉침 차단기 판정 (src/lab/k1014_q13.py · 사용자 10/14 「1,5번 진행」)
 BK = Q13B.get("brake") or {}
 BK_ON, BK_M, BK_P = BK.get("verdict") in ("✅", "🧪"), int(BK.get("M") or 2), int(BK.get("P") or 3)
@@ -509,6 +511,51 @@ def main() -> int:
         shadow_c.append({**c, "src": "nonews"})
         if NW_ON and c in cands:
             cands.remove(c)
+    # 🎯 Q15-5 갭 눌림 진입 — 미국 📈 돌파 갭은 「다음 날 종가」 대신, 갭 뒤 W거래일 안에 저가가 갭의 f 만큼 되돌린 자리
+    #    (P0 + (1−f)·갭 크기, P0 = 갭 전날 종가)에 닿고 종가는 P0 위에서 끝난 날 j 를 새 신호일로 → 정직 계산은 j 다음 날 종가 진입.
+    #    그 전에 종가 ≤ P0(갭 다 메움)면 취소 · W일 안에 안 눌리면 건너뜀(쫓지 않음) → 🪂 그림자로 「다음 날 종가에 샀다면」 채점.
+    #    눌림 진입 칸의 「갭 메움」 출구선 = P0(갭 전날 종가) — 검증 조건(종가 ≤ P0 이면 취소)과 같은 선.
+    #    판정 ✅/🧪 일 때만, 그리고 PB_FROM 이후 신호만(지난 장부는 소급하지 않음). 한국 갭은 시험에서 둘 다 크게 져서 그대로.
+    PB = Q15B.get("pull") or {}
+    PB_ON, PB_W, PB_F = PB.get("verdict") in ("✅", "🧪"), int(PB.get("W") or 3), float(PB.get("f") or 0.75)
+    PB_FROM = PB.get("from") or "2026-10-14"
+    pb_rows = []
+    for c in [x for x in cands if x["src"] == "gap" and x.get("mkt") == "US" and x["d"] >= PB_FROM and x["code"] in CL]:
+        try:
+            s_ = CL[c["code"]]
+            o_ = df[c["code"]]["Open"].reindex(s_.index).to_numpy(float)
+            l_ = df[c["code"]]["Low"].reindex(s_.index).to_numpy(float)
+        except Exception:
+            continue
+        ds_ = list(s_.index.strftime("%Y-%m-%d"))
+        if c["d"] not in ds_ or ds_.index(c["d"]) == 0:
+            continue
+        gi = ds_.index(c["d"])
+        p0 = float(s_.iloc[gi - 1])
+        lv = p0 + (1 - PB_F) * (o_[gi] - p0)
+        st, jd = "skip", None
+        for j in range(gi + 1, gi + PB_W + 1):
+            if j >= len(s_):
+                st = "wait"
+                break
+            cj = float(s_.iloc[j])
+            if cj <= p0:
+                st = "cancel"
+                break
+            if l_[j] <= lv and cj > p0:
+                st, jd = "in", ds_[j]
+                break
+        pb_rows.append({"code": c["code"], "d": c["d"], "st": st, "j": jd, "lv": round(lv, 4), "p0": round(p0, 4)})
+        if st in ("skip", "cancel"):
+            shadow_c.append({**c, "src": "pbskip"})
+        if not PB_ON:
+            continue
+        k_ = cands.index(c)
+        if st == "in":
+            cands[k_] = {**c, "d": jd, "d_gap": c["d"], "lv": p0, "note": f"🎯 갭 눌림 진입(Q15-5 · 갭 {c['d'][5:]} → 눌림 {jd[5:]})"}
+        else:
+            cands[k_] = None
+    cands = [c for c in cands if c is not None]
     # 🤝 Q10-2 신호 합의 — 미국 후보에 지난 W거래일(오늘 포함, 달력 W×1.45일) 안 「다른 종류」 신호가 같은 종목에 있으면 합의.
     #    종류: ☕ 컵(=신고가) · 📈 갭 · 📊 실적 갭 · 🔌 고객사 (과거 검증에 쓴 넷만). 같은 날 갭+컵 짝은 한 신호로 침(갭이 대개 신고가라 저절로 겹침).
     #    판정 ✅(미국) 이면 킥 순위 +bonus · 늘 🤝 그림자 채점(우리 장부로 다시 확인). 한국은 ❌ 라 안 붙임.
@@ -944,6 +991,10 @@ def main() -> int:
         "q13_news": {"on": NW_ON, "state": NW.get("verdict") or "⏳", "why": NW.get("why"),
                      "rule": "📈 미국 돌파 갭(실적 발표 0~3일 뒤가 아닌 갭) → " + ("킥에서 빼고 📰 그림자 채점" if NW_ON else "킥은 그대로 · 📰 그림자 채점만"),
                      "cut": [{"code": c["code"], "d": c["d"]} for c in sorted(ncut, key=lambda c: c["d"])][-20:]},
+        "q15_pull": {"on": PB_ON, "w": PB_W, "f": PB_F, "from": PB_FROM, "state": PB.get("verdict") or "⏳", "why": PB.get("why"),
+                     "rule": f"📈 미국 돌파 갭 → 갭 뒤 {PB_W}거래일 안 갭의 {round(PB_F * 100)}% 되돌림(저가) + 종가가 갭 전날 종가 위인 날을 새 신호일로, 안 오면 건너뜀(🪂 그림자) · 한국 갭은 그대로"
+                             + ("" if PB_ON else " — 꺼짐(그림자만)"),
+                     "rows": pb_rows[-20:]},
         "q13_brake": {"on": BK_ON, "m": BK_M, "p": BK_P, "state": BK.get("verdict") or "⏳", "why": BK.get("why")},
         "q10_agree": {"on": AG_ON, "w": AG_W, "bonus": AG_BONUS, "state": AG.get("verdict") or "⏳", "why": AG.get("why"),
                       "rule": AG.get("rule") or "🤝 미국 후보에 다른 종류 신호가 겹치면 킥 순위 가점",
