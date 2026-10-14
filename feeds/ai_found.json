@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "미 9월 CPI 3.7% — 예상 3.6% 상회, 전월 3.4%에서 가속",
+   "url": "https://www.chaincatcher.com/en/article/2296240",
+   "press": "ChainCatcher",
+   "at": "2026-10-14 21:30",
+   "why": "고금리 장기화 논지(0.70)·KBE·LRCX 열린 bets 판정 재료",
+   "summary": "계절조정 CPI 전년비 3.7%(예상 3.6%, 전월 3.40%). 근원 세부는 미확인."
+  },
+  {
+   "title": "모건스탠리 3Q26 실적 공시(8-K) — 주식 트레이딩 매출 40%↑",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000895421/000089542126000288/a3q26msearningsrelease.htm",
+   "press": "SEC",
+   "at": "2026-10-14 21:00",
+   "why": "KBE(#20261012-20) 판단 — BAC 벌금발 미달과 달리 MS 는 트레이딩발 상회",
+   "summary": "주식 트레이딩 매출 40% 이상 증가(kwusa/61197). 예상 상회에도 프리마켓 소폭 하락(investing_kr 2126620)."
+  },
+  {
+   "title": "미 국채금리, CPI 앞두고 소폭 하락",
+   "url": "https://www.cnbc.com/2026/10/14/us-treasury-yields-cpi-inflation-report.html",
+   "press": "CNBC",
+   "at": "2026-10-14 21:00",
+   "why": "CPI 직전 기준선 — 발표 뒤 10년 5.25↑면 고금리 논지 강화",
+   "summary": "CPI 직전 10년물 약 5.19%(latest 06:01 EDT 5.196, −2.1bp)·2년 4.774."
+  },
+  {
    "title": "IEA: 디젤 부족 심화 — 석유제품 공급 차질 반영",
    "url": "https://www.hellenicshippingnews.com/?p=1147760",
    "press": "Hellenic Shipping News",
@@ -615,30 +639,6 @@
    "at": "2026-10-13 11:35",
    "why": "현금·단기채 칸 26→40 조건과 10년 금리 bet 판정 — CPI 근원 둔화 쪽 IB 시각",
    "summary": "TD는 근원 CPI 추세가 완만해질 것으로 봄. 근원 둔화면 '금리 정점' 서사에 힘(LS 정다운 '금리정점 네러티브 시 매수'와 연결)."
-  },
-  {
-   "title": "EU, 중국산 인버터 수입 제한 추진…LS일렉트릭·OCI파워 촉각",
-   "url": "https://kr.investing.com/news/stock-market-news/article-2124314",
-   "press": "인베스팅닷컴(연합 인용)",
-   "at": "2026-10-13 10:30",
-   "why": "⚡ LS ELECTRIC 대기 bet(#20261013-10) 근거 — 전력기기 칸 수주 재료",
-   "summary": "EU가 전력망 안보를 이유로 중국산 인버터 수입 제한을 추진. LS일렉트릭 등 한국 전력기기·태양광 업체 반사이익 기대(5월 보도 이후 후속)."
-  },
-  {
-   "title": "탄산리튬 선물 하한가 — 국내 선물 대부분 하락",
-   "url": "https://www.itiger.com/news/1135471004",
-   "press": "Tiger Brokers",
-   "at": "2026-10-13 10:30",
-   "why": "2차전지(삼성SDI bet 갭 손절)와 이어짐 — EU의 중국산 하이브리드 제한 합의 여파",
-   "summary": "중국 탄산리튬 선물 장중 10% 급락·하한가, 10만위안 위협(HANAchina/70328). EU-중국 하이브리드 수출 제한 합의(cnevpost 10/9)가 배터리 수요 우려로 번짐."
-  },
-  {
-   "title": "'반도체 쇼크' 코스피 4% 급락, 6100선 붕괴…5거래일째 하락",
-   "url": "https://www.etoday.co.kr/news/view/2634995",
-   "press": "이투데이",
-   "at": "2026-10-13 09:40",
-   "why": "반도체 칸·한국 대기 bet(심텍·KB·S-Oil) 진입 조건 — 5일 연속 하락 뒤 되돌림 여부",
-   "summary": "09:10 코스피 6,088.60(−4.63%)·코스닥 819.28(−3.52%). 외국인 −2,914억·기관 +2,082억. 삼성전자 239,000(−4.59%)·SK하이닉스 1,523,000(−5.11%), 상승 80/하락 768."
   }
  ],
  "at": "2026-10-14 20:35"
