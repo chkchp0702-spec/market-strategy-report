@@ -238,10 +238,14 @@ def extra(home, now, P, K, CN, F, B, L, S):
     D = rj(fs[-1]) if fs else {}
     rep = next((x for x in S if x.get("k") == "report"), {})
     if D:
-        home["grade"] = {"date": D.get("date"), "label": D.get("edition_label"),
-                         "items": [{"mark": g.get("mark"), "cls": g.get("cls"), "t": _txt(g.get("title"), 40).replace("어제 예고 ", ""), "x": _txt(g.get("text"), 90)}
-                                   for g in (D.get("yesterday_grades") or [])[:3]],
-                         "next": [{"t": _txt(c, 70), "p": (D.get("forecasts_p") or [None] * 3)[i] if i < len(D.get("forecasts_p") or []) else None}
+        # 10/14 A9-5 🗳 「예고에 내 표 던지기」: 앱이 어제 예고 ①②③ 을 오늘 같은 번호로 채점하니, 어제 리포트 날짜(prev)와 번호로 표를 짝 맞춘다
+        prev = (rj(fs[-2]) or {}).get("date") if len(fs) > 1 else None
+        home["grade"] = {"date": D.get("date"), "label": D.get("edition_label"), "prev": prev,
+                         "items": [{"mark": g.get("mark"), "cls": g.get("cls"), "t": _txt(g.get("title"), 40).replace("어제 예고 ", ""), "x": _txt(g.get("text"), 90),
+                                    "id": f"{prev}-{i + 1}" if prev else None}
+                                   for i, g in enumerate((D.get("yesterday_grades") or [])[:3])],
+                         "next": [{"t": _txt(c, 70), "p": (D.get("forecasts_p") or [None] * 3)[i] if i < len(D.get("forecasts_p") or []) else None,
+                                   "id": f"{D.get('date')}-{i + 1}"}
                                   for i, c in enumerate((D.get("checks") or [])[:3])],
                          "rate": rep.get("rate"), "win": rep.get("win"), "loss": rep.get("loss"),
                          "one": _txt(D.get("one_liner"), 110), "kick": _txt((D.get("kick") or {}).get("title"), 90)}
