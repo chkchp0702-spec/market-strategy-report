@@ -95,14 +95,14 @@ OFF = set(_P.get("off", []))
 SRC_NAME = {"nh52": "🏔 신고가", "pead": "📊 실적 표류", "dip": "🩹 급락 반등", "trend": "🧭 추세", "earn": "📊 실적 갭", "focus": "🎯 집중 돌파", "cup_eye": "☕ 컵 돌파(눈 검사 통과)", "cup": "☕ 컵 돌파", "gap": "📈 돌파 갭",
             "lead": "🔗 미국→한국 선행", "accum": "🤫 매집 박스 돌파", "whale": "🐋 고래 큰손 매수",
             "cust": "🔌 고객사 따라", "ins": "🕵 내부자 매수", "maxcut": "🎰 복권 거름망에 걸린 것", "frog": "🐸 튀어 오른 갭(개구리 거름망에 걸린 것)",
-            "agree": "🤝 신호 합의(다른 신호 2개 이상)"}
+            "agree": "🤝 신호 합의(다른 신호 2개 이상)", "nonews": "📰 뉴스 없는 갭(실적·공시 없이 뜬 미국 돌파 갭)"}
 
 
 # ✅ 성과가 확인된 신호만 킥에 들어온다 (10/10 사용자: "고래·컵·갭·조용한 매집이 성과 확인된 것만 자연스럽게, 킥 포트는 하나만")
 #    기준: 우리 장부(market/edge.json)에서 표본 20건 이상 · 손익비 1.5 이상. 고래는 13F 바스켓 검증(매 분기 S&P 이김).
 #    아직 아닌 신호는 「⏳ 대기」— 표본이 차면 다음 계산부터 저절로 들어온다. 🎯 집중·🔗 선행은 사용자 목록 밖이라 넣지 않는다.
 TAG = {"cup_eye": "☕", "cup": "☕", "gap": "📈", "accum": "🤫", "whale": "🐋", "focus": "🎯", "lead": "🔗", "earn": "📊",
-       "nh52": "🏔", "pead": "📊", "dip": "🩹", "trend": "🧭", "cust": "🔌", "ins": "🕵", "maxcut": "🎰", "frog": "🐸", "agree": "🤝"}
+       "nh52": "🏔", "pead": "📊", "dip": "🩹", "trend": "🧭", "cust": "🔌", "ins": "🕵", "maxcut": "🎰", "frog": "🐸", "agree": "🤝", "nonews": "📰"}
 KICK_SRCS = ["cup_eye", "cup", "gap", "accum", "whale", "earn", "nh52", "pead", "dip", "cust", "ins"]   # 📊 실적 갭(10/11): 우리 장부 5일 평균 −0.4%(53건)라 그림자 채점으로 먼저 확인
 PROOF_N, PROOF_PF = 20, 1.5
 
@@ -126,6 +126,9 @@ IL = _rj(ROOT / "market" / "kick_ideas_live.json")
 Q16B = _rj(ROOT / "market" / "q16_bt.json")
 Q18B = _rj(ROOT / "market" / "q18_bt.json")   # 🐸 Q18-2 개구리 거름망 판정 (src/lab/k1013_q18.py)
 Q10B = _rj(ROOT / "market" / "q10_bt.json")   # 🤝 Q10-2 신호 합의 판정 (src/lab/k1014_q10.py · 사용자 10/14 「2,3,5 실행」)
+Q13B = _rj(ROOT / "market" / "q13_bt.json")   # 📰 Q13-1 뉴스 없는 갭 · 🧯 Q13-5 손절 뭉침 차단기 판정 (src/lab/k1014_q13.py · 사용자 10/14 「1,5번 진행」)
+BK = Q13B.get("brake") or {}
+BK_ON, BK_M, BK_P = BK.get("verdict") in ("✅", "🧪"), int(BK.get("M") or 2), int(BK.get("P") or 3)
 QL = _rj(ROOT / "market" / "q16_live.json")
 IB.update({k: Q16B[k] for k in ("cust", "ins") if isinstance(Q16B.get(k), dict) and Q16B[k].get("verdict")})
 _EXM = {"f10": {"hold": 10}, "f20": {"hold": 20}, "f40": {"hold": 40}, "s8_20": {"stop": -0.08, "hold": 20},
@@ -497,6 +500,15 @@ def main() -> int:
         shadow_c.append({**c, "src": "frog"})
         if FR_ON and c in cands:
             cands.remove(c)
+    # 📰 Q13-1 이유 있는 갭 — 앱이 실적일 0~3일 뒤 갭을 「📊 실적 갭」으로 떼어 내므로 미국 「📈 돌파 갭」 = 실적 없이 뜬 갭.
+    #    판정 ✅ 이면 미국 📈 갭을 킥에서 빼고 📰 그림자 채점만, 아니면 그림자만. 한국·일본·홍콩은 과거 실적일 자료가 없어 시험 못 함 → 그대로.
+    NW = Q13B.get("news") or {}
+    NW_ON = NW.get("verdict") == "✅"
+    ncut = [c for c in list(cands) + [v for v in shadow_c if v["src"] == "gap"] if c["src"] == "gap" and c.get("mkt") == "US"]
+    for c in ncut:
+        shadow_c.append({**c, "src": "nonews"})
+        if NW_ON and c in cands:
+            cands.remove(c)
     # 🤝 Q10-2 신호 합의 — 미국 후보에 지난 W거래일(오늘 포함, 달력 W×1.45일) 안 「다른 종류」 신호가 같은 종목에 있으면 합의.
     #    종류: ☕ 컵(=신고가) · 📈 갭 · 📊 실적 갭 · 🔌 고객사 (과거 검증에 쓴 넷만). 같은 날 갭+컵 짝은 한 신호로 침(갭이 대개 신고가라 저절로 겹침).
     #    판정 ✅(미국) 이면 킥 순위 +bonus · 늘 🤝 그림자 채점(우리 장부로 다시 확인). 한국은 ❌ 라 안 붙임.
@@ -626,6 +638,12 @@ def main() -> int:
                     pos.remove(p)
             total = cash + sum(p["sh"] * (px(p["code"], d) or p["entry"]) for p in pos)
             peak = max(peak, total)
+            # 🧯 Q13-5 손절 뭉침 차단기 — 오늘 손절로 닫힌 칸이 M개 이상이면 오늘부터 P거래일 새 진입 멈춤(판정 ✅ 일 때만)
+            if BK_ON:
+                nst = sum(1 for x in closed if x["d1"] == d and str(x.get("why", "")).startswith("손절"))
+                if nst >= BK_M and pause_until < i + BK_P - 1:
+                    pause_until = i + BK_P - 1
+                    events.append({"d": d, "k": "차단기", "why": f"같은 날 손절 {nst}개 → {BK_P}거래일 새 진입 멈춤 (🧯 Q13-5)"})
             if total - 1 <= BRAKE and pause_until < i:
                 pause_until = i + BRAKE_D
                 events.append({"d": d, "k": "브레이크", "why": f"슬리브 {round((total - 1) * 100, 1)}% → {BRAKE_D}거래일 새 진입 멈춤"})
@@ -923,6 +941,10 @@ def main() -> int:
         "q18_frog": {"on": FR_ON, "w": FR_W, "th": FR_TH, "state": FR.get("verdict") or "⏳", "why": FR.get("why"),
                      "rule": f"📈 미국 갭 후보 중 신호일 전 {FR_W}거래일 ID ≥ {FR_TH:g}(며칠 크게 튀어 오른 것) → " + ("킥에서 빼고 🐸 그림자 채점" if FR_ON else "킥은 그대로 · 🐸 그림자 채점만"),
                      "cut": [{"code": c["code"], "d": c["d"], "src": c["src"], "id60": c.get("id60")} for c in sorted(fcut, key=lambda c: c["d"])][-20:]},
+        "q13_news": {"on": NW_ON, "state": NW.get("verdict") or "⏳", "why": NW.get("why"),
+                     "rule": "📈 미국 돌파 갭(실적 발표 0~3일 뒤가 아닌 갭) → " + ("킥에서 빼고 📰 그림자 채점" if NW_ON else "킥은 그대로 · 📰 그림자 채점만"),
+                     "cut": [{"code": c["code"], "d": c["d"]} for c in sorted(ncut, key=lambda c: c["d"])][-20:]},
+        "q13_brake": {"on": BK_ON, "m": BK_M, "p": BK_P, "state": BK.get("verdict") or "⏳", "why": BK.get("why")},
         "q10_agree": {"on": AG_ON, "w": AG_W, "bonus": AG_BONUS, "state": AG.get("verdict") or "⏳", "why": AG.get("why"),
                       "rule": AG.get("rule") or "🤝 미국 후보에 다른 종류 신호가 겹치면 킥 순위 가점",
                       "hits": [{"code": c["code"], "d": c["d"], "src": c["src"], "with": c.get("agree")} for c in sorted(agreed, key=lambda c: c["d"])][-20:]},
