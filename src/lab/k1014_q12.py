@@ -41,12 +41,24 @@ def wiki_tables(pg):
     return pd.read_html(io.StringIO(r.text))
 
 
+NDX_FALLBACK = """AAPL ABNB ADBE ADI ADP ADSK AEP AMAT AMD AMGN AMZN ANSS APP ARM ASML AVGO AXON AZN BIIB BKNG BKR CCEP CDNS CDW CEG
+CHTR CMCSA COST CPRT CRWD CSCO CSGP CSX CTAS CTSH DASH DDOG DXCM EA EXC FANG FAST FTNT GEHC GFS GILD GOOG GOOGL HON IDXX
+INTC INTU ISRG KDP KHC KLAC LIN LRCX LULU MAR MCHP MDLZ MELI META MNST MRVL MSFT MSTR MU NFLX NVDA NXPI ODFL ON ORLY PANW
+PAYX PCAR PDD PEP PLTR PYPL QCOM REGN ROP ROST SBUX SHOP SNPS TEAM TMUS TSLA TTD TTWO TXN VRSK VRTX WBD WDAY XEL ZS""".split()
+
+
 def ndx_members():
-    for t in wiki_tables("Nasdaq-100"):
-        col = next((x for x in t.columns if str(x).lower() in ("ticker", "symbol")), None)
-        if col is not None and 90 <= len(t) <= 110:
-            return sorted({str(s).strip().replace(".", "-") for s in t[col].dropna()})
-    raise RuntimeError("나스닥100 표 못 찾음")
+    try:
+        for t in wiki_tables("Nasdaq-100"):
+            cols = [str(x[-1] if isinstance(x, tuple) else x) for x in t.columns]
+            ci = next((i for i, x in enumerate(cols) if x.strip().lower() in ("ticker", "symbol", "ticker symbol")), None)
+            if ci is not None and 80 <= len(t) <= 130:
+                res["ndx_source"] = "wikipedia"
+                return sorted({str(s).strip().replace(".", "-") for s in t.iloc[:, ci].dropna()})
+    except Exception as e:
+        res["ndx_err"] = repr(e)[:200]
+    res["ndx_source"] = "fallback(2025~26 명단)"
+    return sorted(NDX_FALLBACK)
 
 
 def tech_members():
