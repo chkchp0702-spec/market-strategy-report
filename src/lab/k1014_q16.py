@@ -113,7 +113,7 @@ def fred(sid, log):
     import requests
     for att in range(3):
         try:
-            r = requests.get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}", timeout=40,
+            r = requests.get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}", timeout=90,
                              headers={"User-Agent": "Mozilla/5.0 (research script)"})
             if r.status_code == 200 and "," in r.text[:200]:
                 d = pd.read_csv(io.StringIO(r.text))
@@ -130,8 +130,40 @@ def fred(sid, log):
     return None
 
 
+def bis(log):
+    """BIS 통계 API (FRED 가 막힐 때) — 중국 민간 비금융 신용 ÷ GDP(%) 분기"""
+    import requests
+    urls = ["https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.CN.P.A.M.770.A?format=csv",
+            "https://stats.bis.org/api/v1/data/WS_TC/Q.CN.P.A.M.770.A/all?format=csv",
+            "https://stats.bis.org/api/v1/data/BIS,WS_TC,2.0/Q.CN.P.A.M.770.A?format=csv"]
+    for u in urls:
+        try:
+            r = requests.get(u, timeout=90, headers={"User-Agent": "Mozilla/5.0 (research script)", "Accept": "text/csv"})
+            if r.status_code != 200:
+                log[u[-60:]] = f"http {r.status_code}"
+                continue
+            d = pd.read_csv(io.StringIO(r.text))
+            tc = next((c for c in d.columns if c.upper() in ("TIME_PERIOD", "TIME PERIOD")), None)
+            vc = next((c for c in d.columns if c.upper() in ("OBS_VALUE", "OBS VALUE", "VALUE")), None)
+            if tc is None or vc is None:
+                log[u[-60:]] = "열 없음 " + ",".join(map(str, d.columns[:12]))
+                continue
+            q = d[tc].astype(str).str.replace("-Q", "Q", regex=False)
+            dt_ = pd.PeriodIndex(q, freq="Q").to_timestamp(how="start")
+            out = pd.Series(pd.to_numeric(d[vc], errors="coerce").to_numpy(), index=dt_).dropna().sort_index()
+            out = out[~out.index.duplicated()]
+            log["bis"] = f"{len(out)}개 {out.index.min().date()}~{out.index.max().date()}"
+            if len(out) >= 20:
+                return out
+        except Exception as e:
+            log[u[-60:]] = repr(e)[:160]
+    return None
+
+
 def china_ci(log):
     s = fred("QCNPAM770A", log)
+    if s is None or len(s) < 20:
+        s = bis(log)
     kind = "ratio"
     if s is None or len(s) < 20:
         s = fred("CRDQCNAPABIS", log)
