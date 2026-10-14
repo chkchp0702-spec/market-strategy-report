@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "머스크 '마이크론 빼고 메모리 업체들 가격 착취적' — 고객이 잊지 않을 것",
+   "url": "https://en.sedaily.com/finance/2026/10/14/musk-blasts-memory-chipmakers-over-extortionate-pricing",
+   "press": "서울경제(영문)",
+   "at": "2026-10-14 09:35",
+   "why": "하이닉스 bet(#20261013-09)·반도체 칸 — 대형 고객의 가격 반발은 메모리 가격 정점론 재료",
+   "summary": "X에서 JPM 메모리 글에 답글, 삼성·하이닉스 이름은 안 밝힘. JPM 메모리 공급부족 2026 20%·2027 19%·2028 15%, HBM 640억→2,800억$(2028) 전망 인용."
+  },
+  {
    "title": "JPM·골드만·씨티·웰스 이익은 강했지만 '금리 상승·끈적한 인플레이션'이 갉아먹을 것 경고",
    "url": "https://fortune.com/2026/10/13/jpmorgan-goldman-sachs-citigroup-wells-fargo-interest-inflation/",
    "press": "Fortune",
@@ -631,14 +639,6 @@
    "at": "2026-10-12 23:35",
    "why": "'애플 수요 둔화' 논지(0.35)·한국 폰 부품주 — 메모리 값 급등이 완제품 수요를 깎는 중",
    "summary": "3Q 출하 −20%. IDC는 앞서 메모리 가격 급등으로 2026년 역대 최대 감소를 전망(https://finance.yahoo.com/news/smartphone-market-set-biggest-ever-191934291.html)."
-  },
-  {
-   "title": "마이크로소프트, Maia 300 AI칩 수십만 개 생산 추진",
-   "url": "https://www.techzine.eu/news/infrastructure/143518/microsoft-aims-to-produce-hundreds-of-thousands-of-maia-300-ai-chips/",
-   "press": "Techzine",
-   "at": "2026-10-12 22:45",
-   "why": "반도체 칸·SK하이닉스 대기(#20261012-22) — 빅테크 자체칩 증산 = HBM 수요처 다변화",
-   "summary": "MS가 Maia 300을 수십만 개 단위로 생산 목표. 10/12 CNBC '추론은 자체칩 위주로' 보도와 같은 날."
   }
  ],
  "at": "2026-10-14 01:35"
