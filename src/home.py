@@ -17,8 +17,10 @@ KST = dt.timezone(dt.timedelta(hours=9))
 ROOT = Path(__file__).resolve().parent.parent
 M = ROOT / "market"
 RAW_SS = "https://raw.githubusercontent.com/chkchp0702-spec/stock-screener/main/"
-KN = {"cup": "컵 돌파", "gap": "돌파 갭", "accum": "매집", "whale": "고래", "focus": "집중", "lead": "선행", "nh52": "신고가", "pead": "실적 표류", "dip": "급락 반등", "trend": "추세", "earn": "실적 갭"}
-TAG = {"cup_eye": "☕", "cup": "☕", "gap": "📈", "accum": "🤫", "whale": "🐋", "focus": "🎯", "lead": "🔗", "nh52": "🏔", "pead": "📊", "dip": "🩹", "trend": "🧭", "earn": "📊"}
+KN = {"cup": "컵 돌파", "gap": "돌파 갭", "accum": "매집", "whale": "고래", "focus": "집중", "lead": "선행", "nh52": "신고가", "pead": "실적 표류", "dip": "급락 반등", "trend": "추세", "earn": "실적 갭",
+      "cust": "고객사 따라", "ins": "내부자 매수", "maxcut": "복권 거름망", "frog": "개구리 갭", "agree": "신호 겹침", "nonews": "뉴스 없는 급등", "pbskip": "눌림 건너뜀"}
+TAG = {"cup_eye": "☕", "cup": "☕", "gap": "📈", "accum": "🤫", "whale": "🐋", "focus": "🎯", "lead": "🔗", "nh52": "🏔", "pead": "📊", "dip": "🩹", "trend": "🧭", "earn": "📊",
+       "cust": "🔌", "ins": "🕵", "maxcut": "🎰", "frog": "🐸", "agree": "🤝", "nonews": "📰", "pbskip": "🪂"}
 
 
 def rj(p, d=None):
@@ -162,10 +164,22 @@ def main() -> int:
     if W:
         S.append({"k": "whale", "ic": "🐋", "t": "고래 바스켓", "avg": W.get("ret"), "note": f"{W.get('q')} 13F 큰 신규 {len(W.get('rows') or [])}종목 · S&P {ks.get('spy', 0):+.2f}%"})
     # 이기는 것 · 지는 것 한 줄
-    good, bad = [], []
+    good, bad, seen_ = [], [], set()
     for x in sig:
-        if (x.get("n") or 0) >= 10 and x.get("pf"):
-            (good if x["pf"] >= 1.5 else bad if x["pf"] < 1 else []).append(f"{x['tag']} {KN.get(x['k'], x['k'])} 손익비 {x['pf']}")
+        if x["k"] in seen_:      # 10/14: 같은 신호가 확인·그림자 두 번 나오면 한 번만
+            continue
+        seen_.add(x["k"])
+        # 10/14 🔧: 비용 뺀 정직 채점(다음 날 진입·왕복 비용)이 10건↑ 있으면 그 손익비로 판정 — 비용 전 숫자만 보고 「이기는 것」에 넣지 않음
+        tag_ = x.get("tag") or TAG.get(x["k"], "")
+        nm_ = f"{tag_} {KN.get(x['k'], x['k'])}".strip()
+        if (x.get("h_n") or 0) >= 10 and x.get("h_pf") is not None:
+            pf_ = x["h_pf"]
+            txt = f"{nm_} 손익비 {pf_} (비용 뺀 {x['h_n']}건" + (f" · 비용 전 {x['pf']}" if x.get("pf") and abs(x["pf"] - pf_) >= 0.3 else "") + ")"
+        elif (x.get("n") or 0) >= 10 and x.get("pf"):
+            pf_, txt = x["pf"], f"{nm_} 손익비 {x['pf']}"
+        else:
+            continue
+        (good if pf_ >= 1.5 else bad if pf_ < 1 else []).append(txt)
     # 단타는 성적표에서 뺌 (10/10 사용자)
     scores = {"at": home["at"], "rows": S, "good": good[:6], "bad": bad[:6]}
     home["scores"] = {"good": good[:3], "bad": bad[:3]}
