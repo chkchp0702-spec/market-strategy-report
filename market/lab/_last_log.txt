@@ -1,35 +1,14 @@
-US {"us_source": "wikipedia S&P500+400 (903)", "requested": 903, "got": 900, "failed_or_short": 3, "sec": 93}
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 377460.KQ"}}}
-$377460.KQ: possibly delisted; no timezone found
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 121800.KQ"}}}
-$121800.KQ: possibly delisted; no timezone found
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KBWR"}}}
+$KBWR: possibly delisted; no timezone found
+$XWEB: possibly delisted; no timezone found
+$POTX: possibly delisted; no timezone found
+$PSJ: possibly delisted; no timezone found
+$BLCN: possibly delisted; no timezone found
+$THCX: possibly delisted; no timezone found
+$BJK: possibly delisted; no timezone found
 
-2 Failed downloads:
-['377460.KQ', '121800.KQ']: possibly delisted; no timezone found
-$066410.KQ: possibly delisted; no timezone found
-
-1 Failed download:
-['066410.KQ']: possibly delisted; no timezone found
-$217480.KQ: possibly delisted; no timezone found
-$099520.KQ: possibly delisted; no timezone found
-
-2 Failed downloads:
-['217480.KQ', '099520.KQ']: possibly delisted; no timezone found
-$068940.KQ: possibly delisted; no timezone found
-
-1 Failed download:
-['068940.KQ']: possibly delisted; no timezone found
-$043220.KQ: possibly delisted; no price data found  (1d 2006-06-01 -> 2026-10-14)
-
-1 Failed download:
-['043220.KQ']: possibly delisted; no price data found  (1d 2006-06-01 -> 2026-10-14)
-KR {"requested": 2679, "got": 2641, "failed_or_short": 38, "sec": 327}
-rows 102031
-earn {"earn_req": 900, "earn_got": 891, "earn_err": 27, "earn_err_last": "KeyError(['Earnings Date'])", "earn_sec": 275, "earn_oldest_med": "2002-03-21"}
-Q13-1 gap ❌ 시험 기간 뉴스 갭 1197건 초과 -0.56% 손익비 1.2 vs 뉴스 없는 갭 748건 +0.13% 손익비 1.29 · 앞 기간 -0.32% vs +0.04% · 뉴스 쪽이 나은 해 4/10
-Q13-1 gapw 🧪 시험 기간 뉴스 갭 4678건 초과 -0.48% 손익비 1.25 vs 뉴스 없는 갭 3057건 -0.80% 손익비 1.17 · 앞 기간 +0.07% vs -0.12% · 뉴스 쪽이 나은 해 6/10
-Q13-5 sim US 24 s
-Q13-5 US ❌ M2|P5 · 시험 기간 연수익 3.96% vs 기준 4.93% · 샤프 0.289 vs 0.322 · 최대낙폭 -51.14% vs -40.07% · 최악의 5일 -12.31% vs -18.11% · 작동 39번 | 원안 {'verdict': '✅', 'why': 'M2|P3 · 시험 기간 연수익 9.75% vs 기준 4.93% · 샤프 0.535 vs 0.322 · 최대낙폭 -33.28% vs -40.07% · 최악의 5일 -13.61% vs -18.11% · 작동 35번'} | 기준 이상 5/6
-Q13-5 sim KR 23 s
-Q13-5 KR ➖ M2|P1 · 시험 기간 연수익 -30.33% vs 기준 -33.15% · 샤프 -0.529 vs -0.522 · 최대낙폭 -98.93% vs -98.75% · 최악의 5일 -23.38% vs -31.92% · 작동 179번 | 원안 {'verdict': '✅', 'why': 'M2|P3 · 시험 기간 연수익 -21.0% vs 기준 -33.15% · 샤프 -0.273 vs -0.522 · 최대낙폭 -94.85% vs -98.75% · 최악의 5일 -21.58% vs -31.92% · 작동 162번'} | 기준 이상 3/6
-done 670
+7 Failed downloads:
+['KBWR', 'XWEB', 'POTX', 'PSJ', 'BLCN', 'THCX', 'BJK']: possibly delisted; no timezone found
+판정 🧪 고른 안 W6_k1.5_m2 {"is": {"boom6": -5.02, "norm6": -1.98, "diff6": -3.05, "boom6_win": 35, "boom12": -20.09, "norm12": -3.2, "diff12": -16.89, "boom12_win": 13, "n_boom_months": 23, "n_events": 5, "themes_boom": ["금속·광산", "바이오", "소프트웨어·클라우드", "태양광·클린에너지", "혁신 성장"]}, "oos": {"boom6": -2.24, "norm6": 0.3, "diff6": -2.54, "boom6_win": 38, "boom12": 1.0, "norm12": 1.34, "diff12": -0.34, "boom12_win": 47, "n_boom_months": 34, "n_events": 9, "themes_boom": ["2차전지·전기차", "게임·e스포츠", "대마초", "로봇·AI", "바이오", "비트코인·블록체인", "사이버보안", "소프트웨어·클라우드", "태양광·클린에너지"]}}
+집중 {"n": 874, "n_boom": 14, "boom_x5": 1.8, "norm_x5": 0.06, "boom_x20": 1.57, "norm_x20": 0.37} -7.0 -7.62
+지금 붐 [] []
