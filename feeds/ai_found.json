@@ -1,6 +1,38 @@
 {
  "items": [
   {
+   "title": "월가 대형 은행 이번 주 두 번째로 '기술주 차익 실현' 권고",
+   "url": "https://www.cnbc.com/2026/10/14/a-second-major-wall-street-bank-this-week-is-telling-clients-to-cash-in-tech-stocks-heres-why-.html",
+   "press": "CNBC",
+   "at": "2026-10-14 23:31",
+   "why": "반도체·AI 소프트웨어 칸, 열린 LRCX·LITE bets 의 역풍 — IB 권고가 한 주에 겹침",
+   "summary": "한 주에 대형 은행 두 곳이 기술주 이익 실현 권고(은행명·세부 숫자 미확인). CPI 상회로 나스닥 약세가 겹친 날."
+  },
+  {
+   "title": "코어위브 13% 급락 — 머스크 'Yikes' 한마디로 AI 부채 우려 부각",
+   "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-shares-sink-13-musk-142006758.html?.tsrc=rss",
+   "press": "Yahoo Finance",
+   "at": "2026-10-14 23:31",
+   "why": "'다음 약한 고리는 AI 차입(크레딧)' 논지를 지지 — 네오클라우드·AI 인프라 차입주",
+   "summary": "CRWV −13%. 머스크 반응이 AI 데이터센터 부채 부담 논쟁을 키움(세부 부채 숫자 미확인)."
+  },
+  {
+   "title": "뱅크오브아메리카, 규제 벌금 뒤 2025년 4월 이후 최악의 하루",
+   "url": "https://seekingalpha.com/news/4652953-bank-of-america-posts-worst-day-since-april-2025-after-regulatory-fine",
+   "press": "Seeking Alpha",
+   "at": "2026-10-14 23:31",
+   "why": "금융 칸·KBE bet(#20261012-20) — 미달 원인이 벌금(일회성)이라 '원인 분해' 규칙의 시험 사례",
+   "summary": "BAC 장중 8%대 급락(이데일리). 3Q 대손 13억$ 전년 수준, 미달 원인은 벌금 준비금·FICC."
+  },
+  {
+   "title": "닉 티미라오스: 예상 웃돈 CPI로 10월 동결 부담 커졌지만 계획 변경 조짐은 아직 없어",
+   "url": "https://t.me/HANAchina/70432",
+   "press": "WSJ(티미라오스)·하나 중국",
+   "at": "2026-10-14 23:15",
+   "why": "현금·단기채 칸·고금리 논지 — 시장 인상 확률 46%와 연준 기자 해석이 어긋남",
+   "summary": "CPI 3.7%(예상 3.6%)·근원 전월비 0.3%. 시장 10월 인상 확률 22→46%, 그러나 연준 쪽 계획 변경 신호는 아직 없음."
+  },
+  {
    "title": "美 9월 소비자물가 3.7%…이달 금리 인상 확률 22%→46%",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSWxBX2h6VlhfODV1Tll5MHFRbUgwWWpQZTVtd2stSmZUcFh1R3NlZ2h4X0hmeW5uMHhHdW1zZTNIeHEwajJCMVkydFF6Y0RiNTAtTUVRcm1RdjRYRG9WWmktdldBZ1FUNVVLRFpSSlFDdUZqSnQ0NmJqVzYtQ21SOFVYOUZ0ZXRF0gGcAUFVX3lxTFBGek9xM0VHTzR4RFd2em5qaTFLeU80WVFBQjd1V3R0NHlJTW1XQjZ5NElWeWlDdlZDS0hqcndjUlhMcnVIQWRZbjhGdGQ4Y3J6a0FXZlIyUW1ac0txWVBGbHluekhudlgzcTU0TkszOFpTeEJjM3VlZVB1QkhRZXZUQmFiWHdHVDNHaTJFUG9PSUU0aVNQeXl5YkxKUw?oc=5",
    "press": "조선비즈",
@@ -607,39 +639,7 @@
    "at": "2026-10-13 13:35",
    "why": "반도체 칸·하닉 bet(#20261013-09) — 오늘 투매의 방아쇠가 실적이 아니라 경쟁 공포임을 확인",
    "summary": "삼성 −7.5%·하닉 −8.4%(02:36 GMT), 5거래일 연속 하락. 코스피 −7% 5,944.31, 외국인 −2.335조·개인 +1.311조. CXMT 4F² D램 설계 진전·연말 서버 DDR5 목표."
-  },
-  {
-   "title": "7/28 CXMT 상장 쇼크: 코스피 −10.84% 6,023.66 — 그 뒤 7천피 회복",
-   "url": "https://www.itiger.com/news/1152229320",
-   "press": "Tiger Brokers",
-   "at": "2026-10-13 13:35",
-   "why": "선례 — 중국 메모리 경쟁 헤드라인 투매가 실적 변화 없이 회복된 사례, 하닉 bet·투매일 종가 진입 규칙 근거",
-   "summary": "7/28 코스피 −732.09p(−10.84%) 6,023.66, 장중 −11.3%. 하닉 −14.7%·삼성 −14.4%. CXMT 상하이 상장 첫날 +466%(parameter.io)."
-  },
-  {
-   "title": "소프트뱅크 −8% — 오픈AI 매출 눈높이 하향·CDS 수년래 최고",
-   "url": "https://investing.com/news/stock-market-news/why-is-softbank-group-stock-tumbling-today-93CH-4945343",
-   "press": "Investing.com",
-   "at": "2026-10-13 13:35",
-   "why": "AI 차입(크레딧) 논지 0.55→0.57 — AI 차입 고리의 첫 가격 신호",
-   "summary": "소프트뱅크 −8.0% ¥5,337. 오픈AI 연환산 매출 ~500억$(기존 ~700억$ 추정) 보도, CDS 수년래 최고. 닛케이 장중 −1,900엔↑."
-  },
-  {
-   "title": "IMF 10월 글로벌 금융안정보고서(GFSR) 공개",
-   "url": "https://www.imf.org/en/publications/gfsr/issues/2026/10/13/global-financial-stability-report-october-2026",
-   "press": "IMF",
-   "at": "2026-10-13 12:35",
-   "why": "고금리 논지(0.72)·현금·단기채 칸 — IMF가 부채·물가 위험에 채권금리 '무질서한' 급등 가능성 경고(CNBC 보도)",
-   "summary": "10/13 공개. 재정 우려가 기간 프리미엄을 밀어 올리는 위험을 짚음. 세부 숫자는 원문 확인 필요(미확인)."
-  },
-  {
-   "title": "BofA, TSMC 실적 앞두고 목표가 상향 — 2nm 확대·이익률 개선",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-raises-tsmc-price-target-184809413.html",
-   "press": "Yahoo Finance",
-   "at": "2026-10-13 12:35",
-   "why": "AI 이익 논지(0.65)·반도체 칸 — 10/15 TSMC 실적 판정 직전 IB 상향",
-   "summary": "BofA 매수 유지·목표가 상향, 2nm 생산 확대로 매출 전망·이익률 개선 근거(HANAchina/70339 요약). 목표가 숫자는 미확인."
   }
  ],
- "at": "2026-10-14 22:40"
+ "at": "2026-10-14 23:40"
 }
