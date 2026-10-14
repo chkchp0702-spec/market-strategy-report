@@ -1,39 +1,11 @@
-US {"us_source": "wikipedia S&P500+400 (903)", "requested": 903, "got": 900, "failed_or_short": 3, "sec": 93}
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 377460.KQ"}}}
-$377460.KQ: possibly delisted; no timezone found
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 121800.KQ"}}}
-$121800.KQ: possibly delisted; no timezone found
-
-2 Failed downloads:
-['377460.KQ', '121800.KQ']: possibly delisted; no timezone found
-$066410.KQ: possibly delisted; no timezone found
-
-1 Failed download:
-['066410.KQ']: possibly delisted; no timezone found
-$217480.KQ: possibly delisted; no timezone found
-$099520.KQ: possibly delisted; no timezone found
-
-2 Failed downloads:
-['217480.KQ', '099520.KQ']: possibly delisted; no timezone found
-$068940.KQ: possibly delisted; no timezone found
-
-1 Failed download:
-['068940.KQ']: possibly delisted; no timezone found
-$043220.KQ: possibly delisted; no price data found  (1d 2006-06-01 -> 2026-10-14)
-
-1 Failed download:
-['043220.KQ']: possibly delisted; no price data found  (1d 2006-06-01 -> 2026-10-14)
-KR {"requested": 2679, "got": 2641, "failed_or_short": 38, "sec": 369}
-rows 93271 lead 2378
-Q10-2 US A 🧪 W=5일 · 시험 기간 합의 2932건 초과 +0.01% 손익비 1.32 vs 단독 12622건 -0.49% 손익비 1.11 · 나아진 해 7/10
-Q10-2 US B ✅ W=5일 · 시험 기간 합의 1150건 초과 +0.35% 손익비 1.42 vs 단독 14404건 -0.46% 손익비 1.13 · 나아진 해 7/10
-Q10-2 KR A ❌ W=5일 · 시험 기간 합의 2129건 초과 -3.75% 손익비 0.7 vs 단독 12673건 -1.70% 손익비 0.92 · 나아진 해 0/10
-Q10-2 KR B ❌ W=5일 · 시험 기간 합의 1655건 초과 -3.71% 손익비 0.67 vs 단독 13147건 -1.78% 손익비 0.92 · 나아진 해 1/10
-Q10-2 US+KR A ❌ W=5일 · 시험 기간 합의 5061건 초과 -1.57% 손익비 0.96 vs 단독 25295건 -1.10% 손익비 0.99 · 나아진 해 4/10
-Q10-2 US+KR B ❌ W=5일 · 시험 기간 합의 2805건 초과 -2.05% 손익비 0.87 vs 단독 27551건 -1.09% 손익비 1.0 · 나아진 해 2/10
-Q10-3 sim US 16 s
-Q10-3 US ❌ 고른 것 thr0.5|cap2 · 시험 기간 연수익 4.53% vs 기준 5.91% · 샤프 0.307 vs 0.361 · 최대낙폭 -49.83% vs -40.07% · 최악의 날 -10.2% vs -10.2% · 최악의 5일 -16.12% vs -18.11%
-Q10-3 sim KR 17 s
-Q10-3 KR ➖ 고른 것 thr0.6|cap2 · 시험 기간 연수익 -33.59% vs 기준 -33.68% · 샤프 -0.535 vs -0.537 · 최대낙폭 -98.84% vs -98.84% · 최악의 날 -20.44% vs -20.44% · 최악의 5일 -30.75% vs -31.92%
-Q10-5 ❌ 고른 것 N20|z1.0|tg12 · 시험 기간 연수익 14.66% vs 기준 16.02% · 샤프 1.092 vs 1.13 · 최대낙폭 -20.48% vs -19.54% · 최악의 해 -18.54% vs -16.96% · 경보 켜진 날 27.2% · 같은 목표에서 다른 손잡이도 기준보다 나음 5/9 {'rate': 45.0, 'mean1y': 45.6, 'alarm': False}
-done 504
+Q111 conc base {'is': {'cagr': np.float64(9.95), 'sharpe': np.float64(0.77), 'mdd': np.float64(-20.8), 'turn': 329, 'keep_changes_per_yr': 2.5}, 'oos': {'cagr': np.float64(15.61), 'sharpe': np.float64(1.06), 'mdd': np.float64(-22.6), 'turn': 352, 'keep_changes_per_yr': 2.3}} None
+Q111 conc v9 {'is': {'cagr': np.float64(10.13), 'sharpe': np.float64(0.78), 'mdd': np.float64(-20.8), 'turn': 433, 'keep_changes_per_yr': 23.8}, 'oos': {'cagr': np.float64(15.15), 'sharpe': np.float64(1.04), 'mdd': np.float64(-22.4), 'turn': 441, 'keep_changes_per_yr': 23.3}} ❌
+Q111 conc v3 {'is': {'cagr': np.float64(9.85), 'sharpe': np.float64(0.76), 'mdd': np.float64(-20.8), 'turn': 351, 'keep_changes_per_yr': 6.5}, 'oos': {'cagr': np.float64(15.59), 'sharpe': np.float64(1.07), 'mdd': np.float64(-22.4), 'turn': 347, 'keep_changes_per_yr': 5.5}} 🧪
+Q111 C_reg base {'is': {'cagr': np.float64(10.03), 'sharpe': np.float64(0.8), 'mdd': np.float64(-20.9), 'turn': 312, 'keep_changes_per_yr': 2.5}, 'oos': {'cagr': np.float64(15.62), 'sharpe': np.float64(1.11), 'mdd': np.float64(-21.3), 'turn': 387, 'keep_changes_per_yr': 2.3}} None
+Q111 C_reg v9 {'is': {'cagr': np.float64(10.13), 'sharpe': np.float64(0.8), 'mdd': np.float64(-20.9), 'turn': 356, 'keep_changes_per_yr': 23.8}, 'oos': {'cagr': np.float64(15.46), 'sharpe': np.float64(1.1), 'mdd': np.float64(-21.3), 'turn': 405, 'keep_changes_per_yr': 23.3}} ❌
+Q111 C_reg v3 {'is': {'cagr': np.float64(10.01), 'sharpe': np.float64(0.8), 'mdd': np.float64(-20.9), 'turn': 316, 'keep_changes_per_yr': 6.5}, 'oos': {'cagr': np.float64(15.62), 'sharpe': np.float64(1.11), 'mdd': np.float64(-21.2), 'turn': 379, 'keep_changes_per_yr': 5.5}} 🧪
+Q114 20 IS {'n': 218, 'x': -1.65, 'x_med': -3.93, 'win': 28.0, 'pf_r': 0.68, 'r': -1.46} {'n': 64, 'x': -0.66, 'x_med': -2.34, 'win': 35.9, 'pf_r': 0.98, 'r': -0.06} | OOS {'n': 364, 'x': 1.64, 'x_med': -4.03, 'win': 40.9, 'pf_r': 1.53, 'r': 2.19} {'n': 75, 'x': -3.73, 'x_med': -5.36, 'win': 13.3, 'pf_r': 0.38, 'r': -3.34} years [6, 6] 🧪
+Q114 50 IS {'n': 230, 'x': -1.49, 'x_med': -3.74, 'win': 29.6, 'pf_r': 0.74, 'r': -1.11} {'n': 52, 'x': -1.12, 'x_med': -3.09, 'win': 30.8, 'pf_r': 0.7, 'r': -1.28} | OOS {'n': 373, 'x': 0.56, 'x_med': -4.64, 'win': 36.2, 'pf_r': 1.27, 'r': 1.18} {'n': 66, 'x': 1.62, 'x_med': -4.32, 'win': 36.4, 'pf_r': 1.38, 'r': 1.59} years [5, 6] ❌
+Q114 100 IS {'n': 247, 'x': -1.23, 'x_med': -3.62, 'win': 31.2, 'pf_r': 0.81, 'r': -0.8} {'n': 35, 'x': -2.81, 'x_med': -3.95, 'win': 20.0, 'pf_r': 0.32, 'r': -3.58} | OOS {'n': 365, 'x': 0.49, 'x_med': -4.64, 'win': 35.9, 'pf_r': 1.26, 'r': 1.12} {'n': 74, 'x': 1.86, 'x_med': -4.32, 'win': 37.8, 'pf_r': 1.45, 'r': 1.84} years [4, 6] ❌
+Q113 [('https://www.sec.gov/Archives/edgar/full-', 403), ('https://www.sec.gov/Archives/edgar/full-', 403), ('https://www.sec.gov/Archives/edgar/full-', 403), ('https://efts.sec.gov/LATEST/search-index', 403), ('https://efts.sec.gov/LATEST/search-index', 403), ('https://efts.sec.gov/LATEST/search-index', 200), ('https://www.sec.gov/cgi-bin/browse-edgar', 403), ('https://www.sec.gov/cgi-bin/browse-edgar', 403), ('https://www.sec.gov/cgi-bin/browse-edgar', 403)]
+done
