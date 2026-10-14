@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "칼시 트레이더, 9월 CPI 뜨겁게 본다 — 전월 +0.4%↑ 90%, +0.6%↑는 망설임",
+   "url": "https://cryptobriefing.com/kalshi-traders-september-cpi-odds/",
+   "press": "Crypto Briefing",
+   "at": "2026-10-14 15:40",
+   "why": "오늘 21:30 CPI — 현금·단기채 칸(us10y 밴드)·고금리 논지·KBE/EWQ bets 판정 재료",
+   "summary": "칼시: 전월 +0.4%↑ 90%·+0.5%↑ 60%·+0.6%↑ 약 18% · 연율 3.5%↑ 84%·3.6%↑ 42% · 컨티뉴엄 전월 +0.6%, 연 3.4%→3.7% 예상(10/2 기준)"
+  },
+  {
+   "title": "외국인 13조 던지자 5일간 1,000p 빠졌다 — 코스피 장중 6,000 붕괴",
+   "url": "https://www.fnnews.com/news/202610131832520192",
+   "press": "파이낸셜뉴스",
+   "at": "2026-10-13 18:32",
+   "why": "한국 비중 확대 금지 논지·하닉 #09 — 10/14 반등(+1.55%)도 외국인 매도에 장중 소멸",
+   "summary": "5거래일 외국인 순매도 약 13조원·코스피 약 1,000p 하락 · 8월 이후 외국인 누적 45조원 매도(뉴스웨이 10/13)"
+  },
+  {
    "title": "ASML 3분기 매출 117억€·순이익 50억€ — 2027~28 공급이 수요 못 따라가, 일부 고객 2030년 주문 관심",
    "url": "https://www.globenewswire.com/news-release/2026/10/14/3380319/0/en/asml-reports-117-billion-total-net-sales-and-50-billion-net-income-in-q3-2026.html",
    "press": "GlobeNewswire(ASML 공식)",
@@ -623,22 +639,6 @@
    "at": "2026-10-13 05:40",
    "why": "10/12 밤 'CXMT 굴기 반도체 투매'(SOX −2.67%)의 7/27 선례 — 메모리 대형주 진입 시점 판단",
    "summary": "7/27 CXMT 상장 첫날 +466%, 시총 3.28조 위안. CXMT DRAM 가격 경쟁사보다 5~10% 낮음. 2분기 DRAM 계약가 +58~63%(트렌드포스)"
-  },
-  {
-   "title": "JP모건 3분기 실적 프리뷰 — 컨센 매출 508억$·EPS 5.86$, 연간 NII 1,055억$ 가이던스",
-   "url": "https://www.hudson-labs.com/research/jpmorgan-q3-2026-earnings-preview-revenue-guidance-outlook",
-   "press": "Hudson Labs",
-   "at": "2026-10-13 04:40",
-   "why": "13일 JPM 실적이 은행 칸·KBE·KB금융 bet 의 첫 판정",
-   "summary": "Q3 컨센 매출 50,847M$·EPS 5.86$. 2분기 뒤 상향된 가이던스: NII 약 1,055억$, 카드 NCO 약 3.2%(3.4%→). 관전: IB·트레이딩 지속성, 신용, AI·자본 배분 발언"
-  },
-  {
-   "title": "주간 전망: 미 9월 CPI 헤드라인 +0.6%·근원 +0.2% 예상, JPM EPS 5.90$ 예상",
-   "url": "https://www.cmcmarkets.com/en-ie/news-and-analysis/the-week-ahead-us-cpi-eurozone-cpi-jpmorgan-earnings",
-   "press": "CMC Markets",
-   "at": "2026-10-13 04:40",
-   "why": "고금리 논지의 깨짐 조건(근원 둔화)과 직결 — ^TNX bet·현금·단기채 칸",
-   "summary": "9월 CPI(14일) 헤드라인 m/m +0.6%(전월 0.4)·연 3.6%, 근원 m/m +0.2%(전월 0.3)·연 2.5%. JPM Q3 EPS 5.90$(+16.4%)·매출 513억$(+8.8%)"
   }
  ],
  "at": "2026-10-14 11:35"
