@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "델 주가 11% 급락 — 바클레이스 '기업용 AI 시점' 우려로 데이터센터 매도 주도",
+   "url": "https://www.cnbc.com/2026/10/14/dell-stock-barclays-enterprise-ai.html",
+   "press": "CNBC",
+   "at": "2026-10-15 05:35",
+   "why": "AI 차입·인프라 논지(0.70) — LRCX #20·LITE #15 반도체 롱과 같은 AI 하드웨어 매도 흐름",
+   "summary": "바클레이스가 델·HPE·넷앱을 하향하며 '의미 있는 AI 변곡점 없음'. 델 −11%대(300% 랠리 뒤), 데이터센터 하드웨어 동반 약세."
+  },
+  {
+   "title": "미 9월 CPI 3.7% 상승 — 예상 상회, 10월 금리 인상 확률 급등",
+   "url": "https://finance.yahoo.com/economy/live/cpi-inflation-live-updates-prices-rose-37-in-september-142456444.html",
+   "press": "Yahoo Finance",
+   "at": "2026-10-15 05:35",
+   "why": "고금리 장기화 논지(0.76)·채권/현금 칸, 에너지 칸(휘발유가 견인)",
+   "summary": "9월 CPI 전년 대비 3.7%, 휘발유가 급등 영향. 인상 확률 약 22%→45%로 뛰었다는 집계(coinpaper, 미확인). 10년물은 장중 매도 뒤 되돌림."
+  },
+  {
    "title": "세계 디젤 부족, 저장 탱크 고갈로 2027년까지 갈 듯",
    "url": "https://www.zawya.com/en/insights/global-diesel-shortage-likely-to-last-into-2027-as-storage-tanks-drain-1021564",
    "press": "Zawya",
@@ -623,23 +639,7 @@
    "at": "2026-10-13 17:40",
    "why": "에너지 칸·VLO 오름 bet(#20261013-17) — 정제(크랙) 층 이익이 원유보다 강하다는 메이저 첫 숫자",
    "summary": "BP 3Q 트레이딩 업데이트: 정제마진 상승, 손상차손 최대 45억$(피드 제목 기준). 러시아 디젤 수출 차질(bbg)·'트럼프 디젤 합의로 가격 안 내려'(gn_bbg)와 같은 방향."
-  },
-  {
-   "title": "미 국채금리, 에너지값 후퇴에 하락",
-   "url": "https://www.cnbc.com/2026/10/13/us-treasurys-bonds-yields.html",
-   "press": "CNBC",
-   "at": "2026-10-13 17:40",
-   "why": "고금리 논지(0.72)·^TNX 내림 bet — 10년 5.187로 목표 5.15 근접, 판정 10/14 CPI",
-   "summary": "유가 후퇴로 미 국채금리 하락(CNBC 10/13). 국고채도 외국인 매수에 이틀째 큰 폭 하락(yna_eco)."
-  },
-  {
-   "title": "브로드컴 AI 칩 가이던스가 아시아 공급망에 던진 질문",
-   "url": "https://www.techrepublic.com/article/news-broadcom-ai-chip-guidance-apac-south-korea/",
-   "press": "TechRepublic",
-   "at": "2026-10-13 17:40",
-   "why": "반도체 칸·하닉 bet(#09) — 10/13 한국 투매의 방아쇠가 CXMT 외에 혹 탄 '도박꾼' 발언(야후·마켓워치)",
-   "summary": "혹 탄 CEO 'AI 지속성' 경고 뒤 하닉·삼전 급락(야후 피드 제목). 본문 숫자는 미확인."
   }
  ],
- "at": "2026-10-15 03:35"
+ "at": "2026-10-15 05:35"
 }
