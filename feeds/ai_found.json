@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "블룸버그: 중동 공격 확대에 원유 흐름 불확실 — 유가 상승",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-13/latest-oil-market-news-and-analysis-for-oct-14",
+   "press": "Bloomberg",
+   "at": "2026-10-14 10:40",
+   "why": "⚡ 에너지 칸·S-Oil(🎯 집중, 컵 기준가 −1.2%)·SK이노(★ 컵) — 정유 재고평가이익 재료",
+   "summary": "후티의 사우디 공격 확대로 중동 원유 흐름 불확실성↑ · 브렌트 장중 107달러 돌파(HANAchina 10/14) · 미 봉쇄로 이란 해상 수출 '제로'(HANAchina)"
+  },
+  {
+   "title": "트레이딩키: 후티 사우디 공항 공격 뒤 브렌트 107달러 돌파 — 골드만 '중동 공급 위험 지속'",
+   "url": "https://www.tradingkey.com/analysis/commodities/oil/262212185-brent-oil-price-hormuz-houthi-attack-riyadh-goldman-forecast-tradingkey",
+   "press": "TradingKey",
+   "at": "2026-10-14 10:40",
+   "why": "9104.T(☕ 눈)·HMM 해운 운임과 정유주 — 골드만 공급 위험 판단",
+   "summary": "브렌트 107달러 상회 · 골드만 중동 공급 위험 지속 전망(기사 게시 시각 미확인)"
+  },
+  {
    "title": "머스크 '마이크론 빼고 메모리 업체들 가격 착취적' — 고객이 잊지 않을 것",
    "url": "https://en.sedaily.com/finance/2026/10/14/musk-blasts-memory-chipmakers-over-extortionate-pricing",
    "press": "서울경제(영문)",
@@ -623,22 +639,6 @@
    "at": "2026-10-12 23:35",
    "why": "반도체 칸·하이닉스 대기(#20261012-22)·MU 대기(#20261012-23) — 큰 고객의 HBM 장기 확보 = 공급 부족 지속",
    "summary": "MS 자체칩(Maia) 책임자가 HBM을 '부족 품목'으로 보고 5년 앞까지 공급을 잠갔다고 언급. 같은 날 Maia 300 수십만 개 생산 목표 보도."
-  },
-  {
-   "title": "마이크론 이사회, 자사주 매입 한도 351.6억 달러로 상향",
-   "url": "https://www.investing.com/news/stock-market-news/micron-board-raises-buyback-ceiling-to-3516bn-4944713",
-   "press": "Investing.com",
-   "at": "2026-10-12 23:35",
-   "why": "반도체 칸 — CXMT 악재로 빠진 날 회사가 내놓은 반대 재료(MU 대기)",
-   "summary": "자사주 한도 $35.16bn. 10/12 중국 CXMT 차세대 D램 진전 보도로 마이크론 약세(barrons)."
-  },
-  {
-   "title": "3분기 글로벌 스마트폰 출하 20% 감소",
-   "url": "https://finance.yahoo.com/technology/articles/global-smartphone-shipments-drop-20-135924375.html",
-   "press": "Yahoo Finance",
-   "at": "2026-10-12 23:35",
-   "why": "'애플 수요 둔화' 논지(0.35)·한국 폰 부품주 — 메모리 값 급등이 완제품 수요를 깎는 중",
-   "summary": "3Q 출하 −20%. IDC는 앞서 메모리 가격 급등으로 2026년 역대 최대 감소를 전망(https://finance.yahoo.com/news/smartphone-market-set-biggest-ever-191934291.html)."
   }
  ],
  "at": "2026-10-14 01:35"
