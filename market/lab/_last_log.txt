@@ -1,9 +1,19 @@
+
+1 Failed download:
+['GLD']: OperationalError('database is locked')
 Traceback (most recent call last):
-  File "/home/runner/work/market-strategy-report/market-strategy-report/src/lab/k1014_q12.py", line 227, in <module>
+  File "/home/runner/work/market-strategy-report/market-strategy-report/src/lab/k1014_q12.py", line 239, in <module>
     main()
-  File "/home/runner/work/market-strategy-report/market-strategy-report/src/lab/k1014_q12.py", line 140, in main
-    ndx = ndx_members()
-          ^^^^^^^^^^^^^
-  File "/home/runner/work/market-strategy-report/market-strategy-report/src/lab/k1014_q12.py", line 49, in ndx_members
-    raise RuntimeError("나스닥100 표 못 찾음")
-RuntimeError: 나스닥100 표 못 찾음
+  File "/home/runner/work/market-strategy-report/market-strategy-report/src/lab/k1014_q12.py", line 145, in main
+    idx = C.index; spy = C["SPY"]; end = idx[-1]
+                                         ~~~^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 5401, in __getitem__
+    return getitem(key)
+           ^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/core/arrays/datetimelike.py", line 393, in __getitem__
+    result = cast(Union[Self, DTScalarOrNaT], super().__getitem__(key))
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/pandas/core/arrays/_mixins.py", line 293, in __getitem__
+    result = self._ndarray[key]
+             ~~~~~~~~~~~~~^^^^^
+IndexError: index -1 is out of bounds for axis 0 with size 0
