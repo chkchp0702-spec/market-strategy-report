@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "CNBC: 중국 9월 생산자물가 +5.0% — 2022년 6월 이후 최고, 예상 상회",
+   "url": "https://www.cnbc.com/2026/10/14/producer-prices-in-china-rise-fastest-since-june-2022-on-fuel-costs.html",
+   "press": "CNBC",
+   "at": "2026-10-14 11:30",
+   "why": "🧠 고금리 장기화 논지·⚡ 에너지 칸 — 유가발 물가가 공장 출고가까지 번짐, 오늘 밤 미 CPI 앞 위험",
+   "summary": "중국 9월 PPI +5.0% YoY(연료비 주도, 예상 상회) · CPI +0.9%로 오름폭 확대 · 블룸버그 '100달러 유가가 생산자물가를 흔들었다'"
+  },
+  {
+   "title": "아주경제: 코스피 소폭 반등 — 외국인은 계속 판다",
+   "url": "https://www.ajupress.com/view/20261014102758752",
+   "press": "아주경제",
+   "at": "2026-10-14 11:30",
+   "why": "🇰🇷 한국 비중 확대 금지 논지·하닉 bet #20261013-09 — 장초반 외국인 순매수가 다시 순매도로 반전",
+   "summary": "5일 급락 뒤 반등했지만 외국인 매도 지속 · 11:22 외국인 −2,793억, 코스피 +1.43%(6,121) · 코스닥 −0.7%"
+  },
+  {
    "title": "블룸버그: 중동 공격 확대에 원유 흐름 불확실 — 유가 상승",
    "url": "https://www.bloomberg.com/news/articles/2026-10-13/latest-oil-market-news-and-analysis-for-oct-14",
    "press": "Bloomberg",
@@ -623,23 +639,7 @@
    "at": "2026-10-12 18:00",
    "why": "현금·단기채 칸(us10y 밴드)·IWM 대기(#20261012-21)·KBE 열림(#20261012-20)이 이번 주 같은 촉매(13일 은행 실적·14일 CPI)에 묶임",
    "summary": "10/12 개장 전 선물 S&P +0.12%·나스닥 −0.07%·러셀 +0.06%. 미 국채금리 24년 고점 근처. 9월 CPI 수요일 8:30 ET, JPM·GS·WFC·C 화요일부터 실적."
-  },
-  {
-   "title": "베선트 자문 저보스 '국채금리 너무 높다, 곧 내릴 수 있다'",
-   "url": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html",
-   "press": "CNBC",
-   "at": "2026-10-08 22:00",
-   "why": "^TNX 내림 bet(#20261011-01, 5.242 진입)의 정책 쪽 근거 — 행정부가 장기금리 상단을 의식",
-   "summary": "재무장관 자문이 장기금리 수준을 'really, really high'로 평가하며 하락 가능성 언급(세부 숫자 미확인)."
-  },
-  {
-   "title": "MS AI칩 책임자 'HBM은 부족, 5년치 공급 확보'",
-   "url": "https://en.sedaily.com/international/2026/10/12/microsoft-ai-chip-chief-says-hbm-is-scarce-secures-supply",
-   "press": "서울경제(영문)",
-   "at": "2026-10-12 23:35",
-   "why": "반도체 칸·하이닉스 대기(#20261012-22)·MU 대기(#20261012-23) — 큰 고객의 HBM 장기 확보 = 공급 부족 지속",
-   "summary": "MS 자체칩(Maia) 책임자가 HBM을 '부족 품목'으로 보고 5년 앞까지 공급을 잠갔다고 언급. 같은 날 Maia 300 수십만 개 생산 목표 보도."
   }
  ],
- "at": "2026-10-14 01:35"
+ "at": "2026-10-14 11:35"
 }
