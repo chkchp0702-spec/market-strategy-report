@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "ASML 3분기 매출 117억€·순이익 50억€ — 2027~28 공급이 수요 못 따라가, 일부 고객 2030년 주문 관심",
+   "url": "https://www.globenewswire.com/news-release/2026/10/14/3380319/0/en/asml-reports-117-billion-total-net-sales-and-50-billion-net-income-in-q3-2026.html",
+   "press": "GlobeNewswire(ASML 공식)",
+   "at": "2026-10-14 14:05",
+   "why": "LRCX 오름 bet(#20261013-20)·반도체 칸·하닉 #09 판정 재료 — 장비 수요 숫자 확인",
+   "summary": "순이익 50억€(예상 약 41억)·GPM 57.5%·4Q 매출 가이던스 142~152억€(예상 약 139.7억). 2028 생산능력 30% 확대 이상 검토, 연간 GPM 56%로 상향."
+  },
+  {
+   "title": "아시아 증시, 칩 매도 진정에 소폭 상승 — 미 CPI 대기",
+   "url": "https://www.brecorder.com/news/40444130/asia-shares-edge-up-as-chip-selloff-eases-us-cpi-awaited",
+   "press": "Business Recorder(로이터 전재)",
+   "at": "2026-10-14 11:38",
+   "why": "고금리 논지·현금 칸 판정 이벤트(21:30 CPI) 기준 숫자",
+   "summary": "9월 CPI 헤드라인 3.6% 예상·근원 0.2% m/m. 발표 전 CME 10월 인상 확률 22%. 미 10년 5.221%·브렌트 106.6·달러지수 102.17."
+  },
+  {
    "title": "후티, 리야드 인근 아람코 타격 주장 — 연기 피어올라",
    "url": "https://ground.news/daily-briefing/12358a54-6f74-4e6b-8bc6-11f8def8378b",
    "press": "Ground News",
@@ -255,14 +271,6 @@
    "at": "2026-10-14 00:30",
    "why": "10/14 CPI가 고금리 테제·성장주 비중 판단의 다음 분기점",
    "summary": "Kalshi 계약 'CPI 9월 +0.4% 초과' 94% 표시(페이지 기준). 0.6%대에선 베팅이 망설임(cryptobriefing). 유가 상승분이 헤드라인을 끌어올리는 그림 — 근원 확인 필요."
-  },
-  {
-   "title": "JP모건, Volta AI 데이터센터 대출 50억 달러에 약 11% 금리 제시",
-   "url": "https://www.thestar.com.my/business/business-news/2026/10/07/jpmorgan-dangles-11-yield-on-voltas-ai-loan-sale",
-   "press": "The Star(블룸버그)",
-   "at": "2026-10-07 12:00",
-   "why": "AI 인프라 칸 — 10/13 JPM·골드만 익스포저 축소(gn_bbg)와 이어짐, AI 자금 조달 비용 경고",
-   "summary": "기준금리+6.25~6.5%p, 97~98센트 발행 → 약 11%. 앤트로픽 6년 사용 계약 노르웨이 DC. AI·데이터센터 차입 2년간 약 6,250억$."
   },
   {
    "title": "호르무즈 선박, 개전 이후 최악의 공격 — 2주간 24척",
@@ -631,14 +639,6 @@
    "at": "2026-10-13 04:40",
    "why": "고금리 논지의 깨짐 조건(근원 둔화)과 직결 — ^TNX bet·현금·단기채 칸",
    "summary": "9월 CPI(14일) 헤드라인 m/m +0.6%(전월 0.4)·연 3.6%, 근원 m/m +0.2%(전월 0.3)·연 2.5%. JPM Q3 EPS 5.90$(+16.4%)·매출 513억$(+8.8%)"
-  },
-  {
-   "title": "골드만, 글로벌 주식 3개월 '비중확대' 상향 — 아시아·미국 선호, 유럽 비중축소, 국채도 12개월 비중확대",
-   "url": "https://www.933thedrive.com/2026/10/12/goldman-upgrades-global-equities-on-earnings-optimism/",
-   "press": "Reuters(933thedrive 전재)",
-   "at": "2026-10-13 02:30",
-   "why": "🧭 KODEX200 대기(#20261012-15)·외국인 매도 멈춤 감시와 연결, 국채 비중확대는 고금리 논지의 반대 변수",
-   "summary": "3개월 글로벌 주식 중립→비중확대(12개월 강세 견해와 일치). 3분기 실적 시즌 앞 아시아·미국 비중확대, 유럽 비중축소. 기술주+채권형 주식 '바벨' 선호, 위험은 금리·에너지·중간선거."
   }
  ],
  "at": "2026-10-14 11:35"
