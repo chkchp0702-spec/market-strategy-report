@@ -3149,6 +3149,465 @@
 "lv": 25.36,
 "max20": 6.9,
 "id60": -0.05
+},
+"2962.T|2026-10-13": {
+"code": "2962.T",
+"name": "TECNISCO LTD",
+"mkt": "JP",
+"d": "2026-10-13",
+"src": "cup_eye",
+"score": 55.9,
+"lv": 2408.41
+},
+"IQV|2026-10-12": {
+"code": "IQV",
+"name": "IQVIA Holdings, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-12",
+"src": "cup",
+"score": 63.5,
+"lv": 251.61,
+"max20": 3.1,
+"id60": 0.0
+},
+"RGEN|2026-10-12": {
+"code": "RGEN",
+"name": "Repligen Corporation - Common Stock",
+"mkt": "US",
+"d": "2026-10-12",
+"src": "cup",
+"score": 61.0,
+"lv": 168.37,
+"max20": 6.1,
+"id60": -0.1
+},
+"SJM|2026-10-09": {
+"code": "SJM",
+"name": "The J.M. Smucker Company Common Stock",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "cup",
+"score": 74.4,
+"lv": 117.42,
+"max20": 3.0,
+"id60": -0.167
+},
+"EMBJ|2026-10-07": {
+"code": "EMBJ",
+"name": "Embraer S.A. Common Stock",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "cup",
+"score": 76.8,
+"lv": 67.63,
+"max20": 2.9,
+"id60": -0.2
+},
+"HTFL|2026-10-07": {
+"code": "HTFL",
+"name": "Heartflow, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "cup_eye",
+"score": 64.1,
+"lv": 51.24,
+"max20": 9.7,
+"id60": 0.0
+},
+"FORM|2026-10-07": {
+"code": "FORM",
+"name": "FormFactor, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "cup",
+"score": 60.1,
+"lv": 131.61,
+"max20": 9.6,
+"id60": -0.067
+},
+"DDOG|2026-10-06": {
+"code": "DDOG",
+"name": "Datadog, Inc. - Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "cup_eye",
+"score": 75.5,
+"lv": 280.98,
+"max20": 7.2,
+"id60": -0.067
+},
+"SN|2026-10-06": {
+"code": "SN",
+"name": "SharkNinja, Inc. Ordinary Shares",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "cup_eye",
+"score": 75.5,
+"lv": 185.18,
+"max20": 5.5,
+"id60": -0.067
+},
+"TECK|2026-10-06": {
+"code": "TECK",
+"name": "Teck Resources Ltd Ordinary Shares",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "cup_eye",
+"score": 68.2,
+"lv": 67.87,
+"max20": 5.1,
+"id60": 0.067
+},
+"5985.T|2026-10-06": {
+"code": "5985.T",
+"name": "SUNCALL CORP",
+"mkt": "JP",
+"d": "2026-10-06",
+"src": "cup_eye",
+"score": 50.9,
+"lv": 2579.58
+},
+"TBBB|2026-10-06|e": {
+"code": "TBBB",
+"name": "BBB Foods Inc. Class A Common Shares",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "earn",
+"score": 87.6,
+"lv": 44.58
+},
+"OKTA|2026-10-06|e": {
+"code": "OKTA",
+"name": "Okta, Inc. - Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "earn",
+"score": 75.8,
+"lv": 157.0
+},
+"HNST|2026-10-06|e": {
+"code": "HNST",
+"name": "The Honest Company, Inc. - Common Stoc",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "earn",
+"score": 72.8,
+"lv": 4.12
+},
+"MTW|2026-10-06|e": {
+"code": "MTW",
+"name": "Manitowoc Company, Inc. (The) Common S",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "earn",
+"score": 71.8,
+"lv": 14.83
+},
+"NIQ|2026-10-06|e": {
+"code": "NIQ",
+"name": "NIQ Global Intelligence plc Ordinary S",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "earn",
+"score": 64.8,
+"lv": 12.13
+},
+"QMCO|2026-10-06|e": {
+"code": "QMCO",
+"name": "Quantum Corporation - Common Stock",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "earn",
+"score": 59.4,
+"lv": 12.81
+},
+"SNOW|2026-10-06|e": {
+"code": "SNOW",
+"name": "Snowflake Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-06",
+"src": "earn",
+"score": 57.2,
+"lv": 181.27
+},
+"PUBM|2026-10-07|e": {
+"code": "PUBM",
+"name": "PubMatic, Inc. - Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "earn",
+"score": 77.6,
+"lv": 14.04
+},
+"KNSA|2026-10-07|e": {
+"code": "KNSA",
+"name": "Kiniksa Pharmaceuticals International,",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "earn",
+"score": 76.6,
+"lv": 67.53
+},
+"RSKD|2026-10-07|e": {
+"code": "RSKD",
+"name": "Riskified Ltd. Class A Ordinary Shares",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "earn",
+"score": 74.0,
+"lv": 5.49
+},
+"W|2026-10-07|e": {
+"code": "W",
+"name": "Wayfair Inc. Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "earn",
+"score": 72.8,
+"lv": 97.96
+},
+"PRGO|2026-10-07|e": {
+"code": "PRGO",
+"name": "Perrigo Company plc Ordinary Shares",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "earn",
+"score": 69.2,
+"lv": 11.98
+},
+"PLTR|2026-10-07|e": {
+"code": "PLTR",
+"name": "Palantir Technologies Inc. - Class A C",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "earn",
+"score": 66.8,
+"lv": 138.9
+},
+"HURN|2026-10-07|e": {
+"code": "HURN",
+"name": "Huron Consulting Group Inc. - Common S",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "earn",
+"score": 65.2,
+"lv": 125.68
+},
+"DGX|2026-10-07|e": {
+"code": "DGX",
+"name": "Quest Diagnostics Incorporated Common ",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "earn",
+"score": 64.6,
+"lv": 219.2
+},
+"DCTH|2026-10-07|e": {
+"code": "DCTH",
+"name": "Delcath Systems, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "earn",
+"score": 63.2,
+"lv": 13.74
+},
+"TEAM|2026-10-07|e": {
+"code": "TEAM",
+"name": "Atlassian Corporation  - Class A Commo",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "earn",
+"score": 62.2,
+"lv": 113.55
+},
+"FET|2026-10-07|e": {
+"code": "FET",
+"name": "Forum Energy Technologies, Inc. Common",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "earn",
+"score": 60.6,
+"lv": 59.61
+},
+"ZBRA|2026-10-07|e": {
+"code": "ZBRA",
+"name": "Zebra Technologies Corporation - Class",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "earn",
+"score": 60.2,
+"lv": 300.99
+},
+"ABNB|2026-10-07|e": {
+"code": "ABNB",
+"name": "Airbnb, Inc. - Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "earn",
+"score": 59.8,
+"lv": 156.5
+},
+"SHOP|2026-10-07|e": {
+"code": "SHOP",
+"name": "Shopify Inc. - Class A Subordinate Vot",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "earn",
+"score": 57.6,
+"lv": 133.99
+},
+"CBRL|2026-10-07|e": {
+"code": "CBRL",
+"name": "Cracker Barrel Old Country Store, Inc.",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "earn",
+"score": 56.4,
+"lv": 36.65
+},
+"AVAH|2026-10-07|e": {
+"code": "AVAH",
+"name": "Aveanna Healthcare Holdings Inc. - Com",
+"mkt": "US",
+"d": "2026-10-07",
+"src": "earn",
+"score": 45.8,
+"lv": 11.53
+},
+"NTRA|2026-10-08|e": {
+"code": "NTRA",
+"name": "Natera, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "earn",
+"score": 77.2,
+"lv": 288.04
+},
+"VSXY|2026-10-08|e": {
+"code": "VSXY",
+"name": "Victorias Secret & Co. Common Stock ",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "earn",
+"score": 72.4,
+"lv": 60.65
+},
+"CACI|2026-10-08|e": {
+"code": "CACI",
+"name": "CACI International, Inc. Class A Commo",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "earn",
+"score": 67.8,
+"lv": 549.51
+},
+"MATV|2026-10-08|e": {
+"code": "MATV",
+"name": "Mativ Holdings, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "earn",
+"score": 65.0,
+"lv": 9.99
+},
+"CAI|2026-10-08|e": {
+"code": "CAI",
+"name": "Caris Life Sciences, Inc. - Common Sto",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "earn",
+"score": 60.2,
+"lv": 20.11
+},
+"LIFE|2026-10-08|e": {
+"code": "LIFE",
+"name": "Ethos Technologies Inc. - Class A Comm",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "earn",
+"score": 59.6,
+"lv": 23.31
+},
+"EMBC|2026-10-08|e": {
+"code": "EMBC",
+"name": "Embecta Corp. - Common Stock",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "earn",
+"score": 55.8,
+"lv": 3.9
+},
+"JXN|2026-10-08|e": {
+"code": "JXN",
+"name": "Jackson Financial Inc. Class A Common ",
+"mkt": "US",
+"d": "2026-10-08",
+"src": "earn",
+"score": 53.8,
+"lv": 126.69
+},
+"ACN|2026-10-09|e": {
+"code": "ACN",
+"name": "Accenture plc Class A Ordinary Shares ",
+"mkt": "US",
+"d": "2026-10-09",
+"src": "earn",
+"score": 61.6,
+"lv": 197.63
+},
+"IQV|2026-10-10|e": {
+"code": "IQV",
+"name": "IQVIA Holdings, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-10",
+"src": "earn",
+"score": 79.8,
+"lv": 217.05
+},
+"ANF|2026-10-10|e": {
+"code": "ANF",
+"name": "Abercrombie & Fitch Company Common Sto",
+"mkt": "US",
+"d": "2026-10-10",
+"src": "earn",
+"score": 72.4,
+"lv": 119.92
+},
+"SPT|2026-10-10|e": {
+"code": "SPT",
+"name": "Sprout Social, Inc - Class A Common St",
+"mkt": "US",
+"d": "2026-10-10",
+"src": "earn",
+"score": 67.8,
+"lv": 9.12
+},
+"CRL|2026-10-10|e": {
+"code": "CRL",
+"name": "Charles River Laboratories Internation",
+"mkt": "US",
+"d": "2026-10-10",
+"src": "earn",
+"score": 66.8,
+"lv": 242.73
+},
+"HTFL|2026-10-10|e": {
+"code": "HTFL",
+"name": "Heartflow, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-10",
+"src": "earn",
+"score": 64.8,
+"lv": 31.72
+},
+"VSTM|2026-10-10|e": {
+"code": "VSTM",
+"name": "Verastem, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-10",
+"src": "earn",
+"score": 56.0,
+"lv": 6.46
 }
 },
 "sent": [
