@@ -3714,6 +3714,26 @@
 "src": "earn",
 "score": 67.4,
 "lv": 25.23
+},
+"FRHC|2026-10-14": {
+"code": "FRHC",
+"name": "Freedom Holding Corp. - Common Stock",
+"mkt": "US",
+"d": "2026-10-14",
+"src": "cup",
+"score": 55.0,
+"lv": 176.37,
+"max20": 5.9,
+"id60": -0.1
+},
+"MDT|2026-10-14": {
+"code": "MDT",
+"name": "Medtronic plc. Ordinary Shares",
+"mkt": "US",
+"d": "2026-10-14",
+"src": "accum",
+"score": 70.0,
+"lv": 94.55
 }
 },
 "sent": [
@@ -3724,23 +3744,22 @@
 ],
 "whale": [
 "ALAB",
-"AMAT",
-"C",
+"ASML",
+"BAC",
 "CDW",
 "CPNG",
 "CSX",
 "DKS",
 "FIGR",
+"GEV",
 "GOOGL",
-"GPCR",
 "INSM",
-"JNJ",
 "META",
 "NAMS",
+"NRIX",
 "ORCL",
-"PSX",
 "SNOW",
-"STOK",
+"STM",
 "VST"
 ]
 }
