@@ -1,8 +1,28 @@
-openinsider None
-yahoo {"VST": {"n": 2, "v": 1173069.0, "last": "2026-09-01", "who": "Burke James A. (Chief Execut)"}, "COO": {"n": 4, "v": 1880110.0, "last": "2026-09-16", "who": "Kurzius Lawrence Erik (Director)"}}
-   Shares     Value URL                                        Text                 Insider  Position Transaction Start Date Ownership
-0   10000  549320.0              Purchase at price 54.93 per share.   KURZIUS LAWRENCE ERIK  Director             2026-09-16         D
-1   10000  541640.0      Purchase at price 54.11 - 54.29 per share.  ROSEBROUGH WALTER M JR  Director             2026-09-14         I
-2   10000  539150.0              Purchase at price 53.92 per share.   KURZIUS LAWRENCE ERIK  Director             2026-09-14         D
-3    4701  250000.0              Purchase at price 53.18 per share.             KEEL PAUL A  Director             2026-09-11         D
-4    3322       NaN                                                           JAY COLLEEN E  Director             2026-04-01         D
+$KSPI.IL: No data found, symbol may be delisted
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MEG"}}}
+$CHK: No data found, symbol may be delisted
+$MEG: No data found, symbol may be delisted
+$YNDX: No data found, symbol may be delisted
+$GLTO: No data found, symbol may be delisted
+$NONE: No data found, symbol may be delisted
+$TMHC: No data found, symbol may be delisted
+
+7 Failed downloads:
+['KSPI.IL', 'CHK', 'MEG', 'YNDX', 'GLTO', 'NONE', 'TMHC']: No data found, symbol may be delisted
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AVUS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DFAC"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: IGV"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: MTUM"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SPUU"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SPY"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: VBIL"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: VUG"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLE"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XT"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: AVUS"}}}
+고래 신규 238 2026-10-14.json
+50일선 위 87 ['A', 'AAPL', 'AEP', 'ALAB', 'AMD', 'APA', 'AVUS', 'BBY', 'BE', 'BF-B', 'BTSG', 'CDW', 'CHH', 'CHKP', 'COHU', 'COTY', 'CPAC', 'CTVA', 'DFAC', 'DVN', 'ED', 'ENTG', 'EQH', 'FTV', 'G', 'GOOGL', 'GOOGM', 'GOOGN', 'HAS', 'ICE', 'IGV', 'IOT', 'IR', 'LIN', 'MANE', 'MDXH', 'MELI', 'META', 'MOH', 'MSCI', 'MTUM', 'MXL', 'MYGN', 'NI', 'NOW', 'NTNX', 'NTRA', 'NU', 'NVDA', 'ONON', 'OTEX', 'PANW', 'PAYO', 'PFE', 'PLTR', 'PR', 'PRGO', 'QCOM', 'QQQ', 'RBLX', 'RCEL', 'RDDT', 'RGEN', 'RIG', 'RMBS', 'SMCIP', 'SMH', 'SNOW', 'SNPS', 'SPCX', 'SPUU', 'SPY', 'TECH', 'TRI', 'TSLA', 'TXG', 'TXN', 'UI', 'UTZ', 'VBIL', 'VRNS', 'VST', 'VUG', 'XLE', 'XOM', 'XP', 'XT']
+임원 매수 7 {"DVN": {"n": 1, "v": 199876.0, "last": "2026-09-14", "who": "Gaspar Clay M. (Chief Execut)"}, "IR": {"n": 1, "v": 1000091.0, "last": "2026-08-03", "who": "Satpathy Aurobind (Director)"}, "MDXH": {"n": 1, "v": 1000000.0, "last": "2026-08-13", "who": "Mvm Partners Llp (Director)"}, "MSCI": {"n": 1, "v": 1000160.0, "last": "2026-09-02", "who": "Taneja Rajat (Director)"}, "ONON": {"n": 2, "v": 3987580.0, "last": "2026-08-14", "who": "Coppetti Caspar Felix (Chief Execut)"}, "PFE": {"n": 3, "v": 2960110.0, "last": "2026-08-12", "who": "Bourla Albert (Chief Execut)"}, "VST": {"n": 2, "v": 1173069.0, "last": "2026-09-01", "who": "Burke James A. (Chief Execut)"}} 12s
+내부자 표 받은 수 (앞 15개 중) 15
