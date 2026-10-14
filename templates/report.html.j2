@@ -40,7 +40,7 @@
    <ul class="b">{% for c in d.checks %}<li>{{ c | safe }}</li>{% endfor %}</ul>
   </div>
  </div>
- <div class="foot"><span>{{ foot }}</span><span>1 / 7</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>1 / 6</span></div>
 </section>
 
 <!-- ===== 2 🎯 오늘의 집중 (돈의 길 → 담는 법 → 행동, 10/7) ===== -->
@@ -96,7 +96,7 @@
  <div class="note" style="margin-top:5px">📒 집중 성적 {% if SC.n %}<b>{{ SC.hit }}/{{ SC.n }}</b> (5거래일 뒤 S&amp;P 대비 평균 {{ pc(SC.avg_ex) }}){% else %}— 10/7부터 기록, 5거래일 뒤부터 채점{% endif %}</div>
  {% endif %}
  <div class="note" style="margin-top:4px">단계 🌱초입=모아가기 · 🚀주도=눌림 매수 · 🔥과열=추격 금지 · 🍂꺾임=끝났나? / ★관심=테마+차트 자리 · 눌림 대기=5일 +15%↑ · 추격 금지=하루 +8%↑ · 자리=컵 기준가·갭 시가·20일선까지. 매수 권유 아님.</div>
- <div class="foot"><span>{{ foot }}</span><span>2 / 7</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>2 / 6</span></div>
 </section>
 
 <!-- ===== 2 무슨 일이 있었나 ===== -->
@@ -117,28 +117,10 @@
   <div class="box"><h3>{{ d.story.korea_title }}</h3><div class="story">{% for p in d.story.korea %}<p>{{ p | safe }}</p>{% endfor %}</div></div>
   <div class="box pale"><h3>반대 의견 — 같은 크기로</h3><ul class="b">{% for c in d.counter %}<li>{{ c | safe }}</li>{% endfor %}</ul></div>
  </div>
- <div class="foot"><span>{{ foot }}</span><span>3 / 7</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>3 / 6</span></div>
 </section>
 
-<!-- ===== 3 전략가 패널 ===== -->
-<section class="page">
- <div class="hd"><h1>전략가 패널 {{ panel_rows | length }}명</h1><div class="d">오늘 새 발언 <b>{{ d.panel_new_count }}명 / {{ panel_rows | length }}명</b> · 10/2부터 집계 · 빈칸은 발언 없음</div></div>
- <table class="panel">
-  <tr><th style="width:18px">#</th><th style="width:118px">누구</th><th>① 금리 꼭대기인가</th><th>② AI 이익 계속되나</th><th>③ 한국 살 때인가</th><th style="width:56px">오늘</th><th style="width:34px">누적</th></tr>
- {% for sec in panel_groups %}
-  <tr class="sec"><td colspan="7">{{ sec.title }}</td></tr>
-  {% for r in sec.rows %}
-  <tr><td>{{ r.n }}</td><td>{% if r.is_new or r.verdict %}<b>{{ r.name }}</b>{% else %}{{ r.name }}{% endif %}</td>
-   {% for q in ['q1','q2','q3'] %}<td class="{{ '' if r.is_new else 'g' }}">{% if r[q] %}{{ r[q] }}{% set qd = (r.qdates[q] if r.qdates is defined and r.qdates else r.qdate) %}{% if qd %} ({{ qd }}){% endif %}{% else %}—{% endif %}</td>{% endfor %}
-   <td>{% if r.verdict == 'win' %}<span class="pt g">득점</span> {% elif r.verdict == 'loss' %}<span class="pt r">실점</span> {% endif %}{{ r.today | replace('득점 — ', '') | replace('실점 — ', '') | replace('득점', '') | replace('실점', '') }}</td>
-   <td>{{ r.cum }}</td></tr>
-  {% endfor %}
- {% endfor %}
- </table>
- <div class="sum">{% for s in d.panel_summary %}<div class="c">{{ s | safe }}</div>{% endfor %}</div>
- <div class="note" style="margin-top:3px;font-size:7pt">출처: {{ d.panel_sources }}</div>
- <div class="foot"><span>{{ foot }}</span><span>4 / 7</span></div>
-</section>
+<!-- 3 전략가 패널: 10/15 사용자 "숫자가 바뀌는 게 거의 없어 재미없다" → 리포트에서 뺌. 발언·판정은 장부(ledger panel)와 data.panel_today 에 계속 기록 · 대시보드에서 볼 수 있음 -->
 
 <!-- ===== 4 대결 · 발언 · 성적표 ===== -->
 <section class="page">
@@ -168,7 +150,7 @@
    <div class="note" style="margin-top:3px">누적 (10/2~): {{ scorecard_total }}{% if cal.n %} · {{ cal.line }}{% endif %}</div>
   </div>
  </div>
- <div class="foot"><span>{{ foot }}</span><span>5 / 7</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>4 / 6</span></div>
 </section>
 
 <!-- ===== 5 내 포트폴리오 ===== -->
@@ -206,7 +188,7 @@
    </div>
   </div>
  </div>
- <div class="foot"><span>{{ foot }}</span><span>6 / 7</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>5 / 6</span></div>
 </section>
 
 <!-- ===== 6 앞으로 볼 것 ===== -->
@@ -230,6 +212,6 @@
  <div class="box" style="margin-top:7px"><h3>못 찾은 것 · 출처 · 유의사항</h3>
   <div class="note" style="font-size:7.1pt;line-height:1.4"><b>못 찾은 것:</b> {{ d.missing }}<br><b>출처:</b> {{ d.sources }} · 장부: ledger/ledger.json<br><b>유의사항</b> — 정보 제공 목적이며 투자자문이 아님. 비중·확률·조건·패널 채점은 모두 작성자의 판단이며 객관적 기준이 아님. 종목·ETF는 지수 대용의 예시이며 매수 추천이 아님. 출처별 수치가 다른 항목은 범위로 표기. 패널 "침묵"은 발언을 찾지 못한 것이지 입장이 없다는 뜻이 아님. 해외 자산은 환율에 따라 손익이 달라짐. 과거 성과는 미래 수익을 보장하지 않으며 원금 손실이 발생할 수 있음. 투자 판단과 결과의 책임은 투자자 본인에게 있음.</div>
  </div>
- <div class="foot"><span>{{ foot }}</span><span>7 / 7</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>6 / 6</span></div>
 </section>
 </body></html>

@@ -5,14 +5,14 @@
   python -m src.build_report data/2026-10-03.json --commit   # + 장부(ledger.json)에 그날 줄 반영
 
 출력:
-  reports/<date>_<edition>/Market_Strategy_Report_<date>_<ed>.pdf   (전체본 7쪽 — 2쪽 = 🔥 섹터·테마 레이더)
+  reports/<date>_<edition>/Market_Strategy_Report_<date>_<ed>.pdf   (전체본 6쪽 — 10/15 전략가 패널 쪽 뺌, 기록은 장부에)
   reports/<date>_<edition>/Market_Strategy_Summary_<date>_<ed>.pdf  (요약본 1쪽)
   reports/<date>_<edition>/kakao.txt                               (카톡 붙여넣기용)
   reports/<date>_<edition>/*.html                                   (원본)
 
 규칙 (RULES.md):
   - 누적·카운트·그림은 장부에서만 온다.
-  - 전체본은 정확히 7쪽, 요약본은 정확히 1쪽. 어떤 쪽도 푸터를 넘으면 빌드 실패.
+  - 전체본은 정확히 6쪽, 요약본은 정확히 1쪽. 어떤 쪽도 푸터를 넘으면 빌드 실패.
 """
 from __future__ import annotations
 import argparse, json, re, sys
@@ -112,7 +112,7 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
     (out / f"{stem_s}.html").write_text(html_s, encoding="utf-8")
 
     ok = True
-    for stem, pages in ((stem_r, 7), (stem_s, 1)):
+    for stem, pages in ((stem_r, 6), (stem_s, 1)):   # 10/15: 전략가 패널 쪽 뺌 → 6쪽
         pdf = out / f"{stem}.pdf"
         res = html_to_pdf(out / f"{stem}.html", pdf)
         bad = check_overflow(res, pages, MARGIN_PX)

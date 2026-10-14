@@ -39,8 +39,7 @@ ul.s li:before{content:"";position:absolute;left:0;top:8px;width:6px;height:6px;
  <h2>무슨 일이 있었나 — 세 줄</h2>
  <ul class="s">{% for l in s.three_lines %}<li>{{ l | safe }}</li>{% endfor %}</ul>
 
- <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:6px">
-  <div class="qq"><div class="t">패널 {{ panel_n }}명 — 오늘 새 발언 {{ d.panel_new_count }}명 · 다수 의견</div><div class="b">{{ s.panel_line | safe }}</div></div>
+ <div style="margin-top:6px">
   <div class="qq g"><div class="t">오늘의 1:1 대결</div><div class="b">{{ s.duel_line | safe }}</div></div>
  </div>
 

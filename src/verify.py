@@ -31,12 +31,38 @@ def _range(s: str) -> tuple[float, float] | None:
     return (float(m.group(1)), float(m.group(2))) if m else None
 
 
+def _who(n: str) -> str:
+    """'에드 야데니 (패널 12)' → '에드야데니' — 괄호·공백 빼고 사람만"""
+    return re.sub(r"\s+", "", re.sub(r"\(.*?\)|·.*$", "", n or ""))
+
+
+def duel_check(day: dict, path: Path) -> int:
+    """⚔️ 10/15 사용자: "오늘의 1:1 대결도 가장 흥미로운 걸로 매일 바꾸고 있는 거 맞아?" — 10/6~10/15 열흘 같은 대결이 복사됐음.
+    최근 7개 판에 같은 두 사람(순서 무관) 또는 같은 제목이 있으면 실패."""
+    du = day.get("duel") or {}
+    if not du or du.get("none"):
+        print("⚔️ 1:1 대결 없음 — 오늘 갈린 두 사람을 찾아 채우세요 (RULES 3-A)"); return 1
+    pair, title = frozenset((_who(du.get("left_name")), _who(du.get("right_name")))), (du.get("title") or "").strip()
+    prev = sorted(p for p in (ROOT / "data").glob("20*.json") if p.stem < path.stem)[-7:]
+    for p in reversed(prev):
+        try:
+            o = json.loads(p.read_text(encoding="utf-8")).get("duel") or {}
+        except Exception:
+            continue
+        if frozenset((_who(o.get("left_name")), _who(o.get("right_name")))) == pair or (o.get("title") or "").strip() == title:
+            print(f"⚔️ 1:1 대결이 {p.stem} 와 같아요 ({du.get('left_name')} vs {du.get('right_name')} · {title}) — 최근 7판 안에 없던 새 대결로 바꾸세요 (RULES 3-A)")
+            return 1
+    print(f"⚔️ 1:1 대결 새로움 OK — {du.get('left_name')} vs {du.get('right_name')}")
+    return 0
+
+
 def main() -> int:
     day = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
+    dbad = duel_check(day, Path(sys.argv[1]))
     mp = ROOT / "market" / "latest.json"
     if not mp.exists():
         print("market/latest.json 없음 — 자동 수집치가 아직 없어 대조를 건너뜁니다 (출처 2개 이상으로 직접 확인).")
-        return 0
+        return dbad
     items = json.loads(mp.read_text(encoding="utf-8"))["items"]
     rows, bad = [], 0
     checked = set()
@@ -78,7 +104,7 @@ def main() -> int:
     for r in rows:
         print(f"{r[0]:<{w}}  {r[1]:<18} {r[2]:<28} {r[3]:<10} {r[4]}")
     print(f"\n어긋남 {bad}건" + (" — 입력값이나 수집값 중 어느 쪽이 맞는지 출처를 하나 더 보고 고치세요. 날짜가 다르면(수집은 장중, 입력은 종가) 그 사실을 리포트에 적습니다." if bad else " — 통과"))
-    return 1 if bad else 0
+    return 1 if (bad or dbad) else 0
 
 
 if __name__ == "__main__":
