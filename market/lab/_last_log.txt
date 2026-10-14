@@ -1,4 +1,35 @@
-ins {"months": ["2004-01", "2026-10", 274], "rows": 410154} 565
-event {"80": {"IS": {"n": 16, "dates": ["2008-02-21", "2008-05-16", "2008-08-13", "2008-11-06", "2009-03-02", "2011-08-12", "2011-11-30", "2012-05-22", "2012-11-26", "2014-05-21", "2014-11-21", "2015-05-21", "2015-08-13", "2015-11-19", "2016-02-22", "2016-05-23"], "f20": 0.52, "all20": 0.73, "win20": 50, "f60": 2.25, "all60": 2.32, "win60": 69, "f120": 2.82, "all120": 4.84, "win120": 56}, "OOS": {"n": 20, "dates": ["2017-06-01", "2017-08-24", "2018-11-14", "2019-05-22", "2019-08-16", "2019-12-04", "2020-03-03", "2020-05-18", "2021-08-20", "2021-11-23", "2022-03-11", "2022-05-17", "2022-12-01", "2023-03-20", "2023-05-17", "2025-03-18", "2025-11-21", "2026-03-13", "2026-05-21", "2026-08-27"], "f20": 0.6, "all20": 1.24, "win20": 65, "f60": 4.19, "all60": 3.66, "win60": 79, "f120": 7.43, "all120": 7.34, "win120": 78}}, "90": {"IS": {"n": 12, "dates": ["2008-02-29", "2008-05-22", "2008-08-22", "2008-11-13", "2009-03-06", "2011-08-17", "2012-05-29", "2014-12-01", "2015-06-01", "2015-08-17", "2015-11-25", "2016-02-29"], "f20": 0.67, "all20": 0.73, "win20": 33, "f60": -0.23, "all60": 2.32, "win60": 50, "f120": 0.47, "all120": 4.84, "win120": 50}, "OOS": {"n": 10, "dates": ["2018-11-19", "2019-05-28", "2019-08-20", "2020-03-09", "2020-05-26", "2021-12-02", "2022-05-19", "2023-05-19", "2025-12-01", "2026-05-22"], "f20": 0.67, "all20": 1.24, "win20": 60, "f60": 5.87, "all60": 3.66, "win60": 90, "f120": 9.15, "all120": 7.34, "win120": 78}}, "95": {"IS": {"n": 7, "dates": ["2008-03-19", "2008-1
-Q15-2 ➖ t95h20 · 시험 기간 연수익 16.88% vs 기준 16.02% · 샤프 1.013 vs 1.13 · 최대낙폭 -28.17% vs -19.54% · 앞 기간 연수익 10.25% vs 8.6% · 작동 17번 · 기준보다 나은 변형 9/9 | 원안 {'verdict': '➖', 'why': 't90h40 · 시험 기간 연수익 17.94% vs 기준 16.02% · 샤프 1.042 vs 1.13 · 최대낙폭 -25.66% vs -19.54% · 앞 기간 연수익 7.61% vs 8.6% · 작동 21번 · 기준보다 나은 변형 9/9'}
-done 566
+events {('KR', 'gap'): 1536, ('KR', 'nh'): 15830, ('KR', 'pead'): 3054, ('US', 'gap'): 3066, ('US', 'nh'): 19992, ('US', 'pead'): 1901}
+Q16-1 ✅ 한국 📈 갭 대용 시험 기간 1011건 초과 -2.92% · 절대 -0.68% 손익비 0.89 · 진 해 9/10 · 앞 기간 489건 초과 -1.65% · 그 칸을 받을 미국 gap+nh 시험 기간 절대 +0.49%
+US {"us_source": "wikipedia S&P500+400 (903)", "requested": 903, "got": 900, "failed_or_short": 3, "sec": 392}
+Q16-5 US ❌ L60T20 · 시험 기간 걸린 사건 39건(0.3%) 절대 5.56% 손익비 3.46 vs 나머지 13142건 0.47% 손익비 1.14 · 앞 기간 76건 -0.47% vs 0.39% · 초과로는 2.82% vs -0.4% · 변형 중 시험 기간 걸린 쪽이 더 나쁜 것 3/6 · 걸린 날 지수 다음 60일 2.96% vs 전체 날 3.27% | 원안 {'verdict': '🧪', 'why': 'L60T15 · 시험 기간 걸린 사건 158건(1.2%) 절대 -0.54% 손익비 0.88 vs 나머지 13023건 0.5% 손익비 1.15 · 앞 기간 384건 2.09% vs 0.31% · 초과로는 -0.65% vs -0.39% · 변형 중 시험 기간 걸린 쪽이 더 나쁜 것 3/6 · 걸린 날 지수 다음 60일 0.15% vs 전체 날 3.27%'} | now {'d': '2026-10-13', 'breadth': 48.1, 'b60': 68.3, 'near_hi': True, 'idx_from_hi': -0.17, 'n_tickers': 900, 'warn': {'L40T10': True, 'L40T15': True, 'L40T20': True, 'L60T10': True, 'L60T15': True, 'L60T20': True}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 121800.KQ"}}}
+$121800.KQ: possibly delisted; no timezone found
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 377460.KQ"}}}
+$377460.KQ: possibly delisted; no timezone found
+
+2 Failed downloads:
+['121800.KQ', '377460.KQ']: possibly delisted; no timezone found
+$066410.KQ: possibly delisted; no timezone found
+
+1 Failed download:
+['066410.KQ']: possibly delisted; no timezone found
+$217480.KQ: possibly delisted; no timezone found
+$099520.KQ: possibly delisted; no timezone found
+
+2 Failed downloads:
+['217480.KQ', '099520.KQ']: possibly delisted; no timezone found
+$068940.KQ: possibly delisted; no timezone found
+
+1 Failed download:
+['068940.KQ']: possibly delisted; no timezone found
+$043220.KQ: possibly delisted; no price data found  (1d 2006-06-01 -> 2026-10-14)
+
+1 Failed download:
+['043220.KQ']: possibly delisted; no price data found  (1d 2006-06-01 -> 2026-10-14)
+$214610.KQ: possibly delisted; no timezone found
+
+1 Failed download:
+['214610.KQ']: possibly delisted; no timezone found
+KR {"requested": 2679, "got": 2640, "failed_or_short": 39, "sec": 696}
+Q16-5 KR 🧪 L40T10 · 시험 기간 걸린 사건 196건(1.9%) 절대 -0.86% 손익비 0.85 vs 나머지 10044건 -0.4% 손익비 0.93 · 앞 기간 107건 -1.59% vs -0.52% · 초과로는 -0.75% vs -1.12% · 변형 중 시험 기간 걸린 쪽이 더 나쁜 것 2/6 · 걸린 날 지수 다음 60일 -0.69% vs 전체 날 3.77% | 원안 {'verdict': '❌', 'why': 'L60T15 · 시험 기간 걸린 사건 81건(0.8%) 절대 1.39% 손익비 1.31 vs 나머지 10159건 -0.42% 손익비 0.93 · 앞 기간 49건 -0.8% vs -0.55% · 초과로는 0.88% vs -1.13% · 변형 중 시험 기간 걸린 쪽이 더 나쁜 것 2/6 · 걸린 날 지수 다음 60일 1.4% vs 전체 날 3.77%'} | now {'d': '2026-10-14', 'breadth': 21.2, 'b60': None, 'near_hi': False, 'idx_from_hi': -34.07, 'n_tickers': 2534, 'warn': {'L40T10': False, 'L40T15': False, 'L40T20': False, 'L60T10': None, 'L60T15': None, 'L60T20': None}}
+done 699
