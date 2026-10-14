@@ -96,14 +96,14 @@ SRC_NAME = {"nh52": "🏔 신고가", "pead": "📊 실적 표류", "dip": "🩹
             "lead": "🔗 미국→한국 선행", "accum": "🤫 매집 박스 돌파", "whale": "🐋 고래 큰손 매수",
             "cust": "🔌 고객사 따라", "ins": "🕵 내부자 매수", "maxcut": "🎰 복권 거름망에 걸린 것", "frog": "🐸 튀어 오른 갭(개구리 거름망에 걸린 것)",
             "agree": "🤝 신호 합의(다른 신호 2개 이상)", "nonews": "📰 뉴스 없는 갭(실적·공시 없이 뜬 미국 돌파 갭)",
-            "pbskip": "🪂 눌림 안 온 갭(Q15-5 로 건너뛴 미국 돌파 갭)"}
+            "pbskip": "🪂 눌림 안 온 갭(Q15-5 로 건너뛴 미국 돌파 갭)", "krgap": "🇰🇷 한국 돌파 갭(Q16-1 로 킥에서 뺀 것)"}
 
 
 # ✅ 성과가 확인된 신호만 킥에 들어온다 (10/10 사용자: "고래·컵·갭·조용한 매집이 성과 확인된 것만 자연스럽게, 킥 포트는 하나만")
 #    기준: 우리 장부(market/edge.json)에서 표본 20건 이상 · 손익비 1.5 이상. 고래는 13F 바스켓 검증(매 분기 S&P 이김).
 #    아직 아닌 신호는 「⏳ 대기」— 표본이 차면 다음 계산부터 저절로 들어온다. 🎯 집중·🔗 선행은 사용자 목록 밖이라 넣지 않는다.
 TAG = {"cup_eye": "☕", "cup": "☕", "gap": "📈", "accum": "🤫", "whale": "🐋", "focus": "🎯", "lead": "🔗", "earn": "📊",
-       "nh52": "🏔", "pead": "📊", "dip": "🩹", "trend": "🧭", "cust": "🔌", "ins": "🕵", "maxcut": "🎰", "frog": "🐸", "agree": "🤝", "nonews": "📰", "pbskip": "🪂"}
+       "nh52": "🏔", "pead": "📊", "dip": "🩹", "trend": "🧭", "cust": "🔌", "ins": "🕵", "maxcut": "🎰", "frog": "🐸", "agree": "🤝", "nonews": "📰", "pbskip": "🪂", "krgap": "🇰🇷"}
 KICK_SRCS = ["cup_eye", "cup", "gap", "accum", "whale", "earn", "nh52", "pead", "dip", "cust", "ins"]   # 📊 실적 갭(10/11): 우리 장부 5일 평균 −0.4%(53건)라 그림자 채점으로 먼저 확인
 PROOF_N, PROOF_PF = 20, 1.5
 
@@ -130,6 +130,7 @@ Q10B = _rj(ROOT / "market" / "q10_bt.json")   # 🤝 Q10-2 신호 합의 판정 
 Q15B = _rj(ROOT / "market" / "q15_bt.json")   # 🎯 Q15-5 갭 눌림 진입 판정 (src/lab/k1014_q15g.py · 사용자 10/14 15시 「2,5번 실행」)
 Q13B = _rj(ROOT / "market" / "q13_bt.json")   # 📰 Q13-1 뉴스 없는 갭 · 🧯 Q13-5 손절 뭉침 차단기 판정 (src/lab/k1014_q13.py · 사용자 10/14 「1,5번 진행」)
 BK = Q13B.get("brake") or {}
+Q16X = _rj(ROOT / "market" / "q16b_bt.json")  # 🇰🇷 Q16-1 한국 갭 문 닫기 · 🇨🇳 Q16-3 중국 신용 · 🌡 Q16-5 시장 폭 (src/lab/k1014_q16.py · 사용자 10/14 16시 「1,3,5 진행」)
 BK_ON, BK_M, BK_P = BK.get("verdict") in ("✅", "🧪"), int(BK.get("M") or 2), int(BK.get("P") or 3)
 QL = _rj(ROOT / "market" / "q16_live.json")
 IB.update({k: Q16B[k] for k in ("cust", "ins") if isinstance(Q16B.get(k), dict) and Q16B[k].get("verdict")})
@@ -578,6 +579,35 @@ def main() -> int:
                 agreed.append(c)
     for c in agreed:
         shadow_c.append({**c, "src": "agree"})
+    # 🇰🇷 Q16-1 한국 돌파 갭 문 닫기 — 한국 📈 갭 대용은 검증마다 크게 짐(시험 기간 초과 −2.9% · 10년 중 9년 짐).
+    #    판정 ✅ 이면 KG_FROM 이후 한국 📈 갭은 킥에서 빼고 🇰🇷 그림자 채점만(빈 칸은 같은 날 다른 후보가 순위대로) · 지난 장부는 소급 안 함.
+    KG = Q16X.get("krgap") or {}
+    KG_ON, KG_FROM = KG.get("verdict") == "✅", KG.get("from") or "2026-10-14"
+    kcut = [c for c in cands + [v for v in shadow_c if v["src"] == "gap"] if c["src"] == "gap" and c.get("mkt") == "KR" and c["d"] >= KG_FROM]
+    for c in kcut:
+        shadow_c.append({**c, "src": "krgap"})
+        if KG_ON and c in cands:
+            cands.remove(c)
+    # 🇨🇳 Q16-3 중국 신용 자극 — 판정 ✅ 이고 그 신호일에 「줄어드는 국면」(쓸 수 있는 날 기준)이면 한국 후보 크기 절반 (🧪 이하면 표시만)
+    CH = Q16X.get("china") or {}
+    CH_ON = CH.get("verdict") == "✅"
+    def _ch_off(d_):
+        ser = [x for x in (CH.get("series") or []) if x.get("avail") and x["avail"] <= d_]
+        if len(ser) < 4:
+            return None
+        ci = [x["ci"] for x in ser]
+        pk = CH.get("pick") or "k1"
+        if pk == "neg":
+            return ci[-1] < 0
+        k_ = int(pk[1:]) if pk[1:].isdigit() else 1
+        return all(ci[-j] < ci[-j - 1] for j in range(1, k_ + 1))
+    for c in cands:
+        if c.get("mkt") == "KR" and c["d"] >= (CH.get("from") or "2026-10-14"):
+            off_ = _ch_off(c["d"])
+            if off_:
+                c["china_off"] = True
+                if CH_ON:
+                    c["size"] = min(c.get("size", 1.0), 0.5)
     cal = [d for d in CL["SPY"].index if d.strftime("%Y-%m-%d") >= START]
     D = [d.strftime("%Y-%m-%d") for d in cal]
 
@@ -713,7 +743,7 @@ def main() -> int:
                     e = px(c["code"], c["ed"]) or px(c["code"], d)
                     if not e:
                         continue
-                    cost = total / SLOTS * (0.5 if PROOF.get(c["src"], {}).get("trial") else 1.0)
+                    cost = total / SLOTS * (0.5 if PROOF.get(c["src"], {}).get("trial") else 1.0) * float(c.get("size", 1.0))
                     for q in [q for q in pos if q["src"] == "dip"] if cost > cash else []:   # 새 신호가 오면 🩹 반등 칸을 비워 자리를 내줌
                         qc = px(q["code"], d) or q["entry"]
                         cash += q["sh"] * qc * (1 - fee(q.get("mkt")))
@@ -995,6 +1025,15 @@ def main() -> int:
                      "rule": f"📈 미국 돌파 갭 → 갭 뒤 {PB_W}거래일 안 갭의 {round(PB_F * 100)}% 되돌림(저가) + 종가가 갭 전날 종가 위인 날을 새 신호일로, 안 오면 건너뜀(🪂 그림자) · 한국 갭은 그대로"
                              + ("" if PB_ON else " — 꺼짐(그림자만)"),
                      "rows": pb_rows[-20:]},
+        "q16_krgap": {"on": KG_ON, "from": KG_FROM, "state": KG.get("verdict") or "⏳", "why": KG.get("why"),
+                      "rule": "🇰🇷 한국 📈 돌파 갭 → " + ("킥에서 빼고 🇰🇷 그림자 채점" if KG_ON else "킥은 그대로 · 🇰🇷 그림자 채점만"),
+                      "cut": [{"code": c["code"], "d": c["d"]} for c in sorted(kcut, key=lambda c: c["d"])][-20:]},
+        "q16_china": {"on": CH_ON, "state": CH.get("verdict") or "⏳", "why": CH.get("why"), "pick": CH.get("pick"), "now": CH.get("now"),
+                      "rule": "🇨🇳 중국 신용 자극이 줄어드는 국면 → " + ("한국 킥 새 진입 크기 절반" if CH_ON else "표시만(크기는 그대로)")},
+        "q16_breadth": {m_: {"state": (Q16X.get("breadth") or {}).get(m_, {}).get("verdict") or "⏳", "pick": (Q16X.get("breadth") or {}).get(m_, {}).get("pick"),
+                             "why": (Q16X.get("breadth") or {}).get(m_, {}).get("why"), "now": (Q16X.get("breadth") or {}).get(m_, {}).get("now"),
+                             "rule": "🌡 지수 고점 3% 안 + 200일선 위 종목 비율 급감 → " + {"✅": "킥 새 진입 크기 절반", "🧪": "「주의」 표시만"}.get(
+                                 (Q16X.get("breadth") or {}).get(m_, {}).get("verdict"), "안 붙임")} for m_ in ("US", "KR")},
         "q13_brake": {"on": BK_ON, "m": BK_M, "p": BK_P, "state": BK.get("verdict") or "⏳", "why": BK.get("why")},
         "q10_agree": {"on": AG_ON, "w": AG_W, "bonus": AG_BONUS, "state": AG.get("verdict") or "⏳", "why": AG.get("why"),
                       "rule": AG.get("rule") or "🤝 미국 후보에 다른 종류 신호가 겹치면 킥 순위 가점",
