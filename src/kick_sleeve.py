@@ -858,6 +858,41 @@ def main() -> int:
                      "d0": b["d0"], "entry": round(b["entry"], 4), "now": round(nowp, 4), "kind": "고래", "rule": "분기 보유 · −30%만 정리",
                      "by": b["by"][:2], "half": False})
     hold.sort(key=lambda h: -h["r"])
+    # 🙋 내 포트 (10/14 사용자 「킥 종목 중 체크한 것만 + S&P·나스닥 비중 직접」) — 앱이 계산하도록
+    #    종목마다 산 날(d0)부터 날짜별 누적 %(산 값 기준, 그 전은 null) · 뼈대 상품 SPY·QQQ·GLD·SGOV 날짜별 누적 %
+    _need = sorted(({h["code"] for h in hold} | {"SPY", "QQQ", "GLD", "SGOV"}) - set(CL))
+    if _need:
+        try:
+            _df2 = yf.download(_need, start=start, interval="1d", auto_adjust=True, progress=False, group_by="ticker", threads=True)
+            for t in _need:
+                try:
+                    try:
+                        s = _df2[t]["Close"]
+                    except Exception:
+                        s = _df2["Close"]
+                    if hasattr(s, "columns"):
+                        s = s.iloc[:, 0]
+                    s = s.dropna()
+                    if len(s):
+                        CL[t] = s
+                except Exception:
+                    pass
+        except Exception as e:
+            print("내 포트용 시세 실패", e)
+    for h in hold:
+        en = h.get("entry")
+        if not en or h["code"] not in CL:
+            continue
+        L = []
+        for x in pdates:
+            p_ = px(h["code"], x) if x >= h["d0"] else None
+            L.append(round((p_ / en - 1) * 100, 2) if p_ else None)
+        h["line"] = L
+    assets = {}
+    for t in ("SPY", "QQQ", "GLD", "SGOV"):
+        p0 = px(t, pdates[0])
+        if p0:
+            assets[t] = [round(((px(t, x) or p0) / p0 - 1) * 100, 2) for x in pdates]
     # 🧪 새 아이디어 상태 (앱용 한눈 요약) — state: ✅ 채택 · 🧪 시험(절반) · 👻 그림자만 · ❌ 기각
     lastsig = {}
     for x in (IL.get("log") or []) + (QL.get("log") or []):
@@ -880,7 +915,7 @@ def main() -> int:
             ideas_out[k]["sleeve"] = TS
     out = {
         "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "asof": last_d,
-        "hold": hold, "proof": {k: v for k, v in PROOF.items() if k in ("whale", "cup", "gap", "accum", "earn") + IDEAS},
+        "hold": hold, "assets": assets, "proof": {k: v for k, v in PROOF.items() if k in ("whale", "cup", "gap", "accum", "earn") + IDEAS},
         "ideas": ideas_out,
         "q16_max": {"on": MX_ON, "th": MX_TH, "state": MX.get("verdict") or "⏳", "why": MX.get("why"),
                     "rule": f"☕·📈 미국 후보 중 신호일 전 20거래일 하루 최대 상승률 ≥ {MX_TH:g}% → " + ("킥에서 빼고 🎰 그림자 채점" if MX_ON else "킥은 그대로 · 🎰 그림자 채점만"),
