@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "ECB 전문가 「EU 연료값 사상 최고, 디젤 마진은 10월 정점」",
+   "url": "https://www.euronews.com/business/2026/09/19/eu-fuel-prices-hit-records-as-ecb-experts-see-diesel-margins-peak-in-october",
+   "press": "Euronews",
+   "at": "2026-10-14 18:35",
+   "why": "S-Oil(#10 10/15 진입 대기)·SK이노(#16) 정제마진 논지의 반대 근거 — 마진 정점론",
+   "summary": "ECB 전문가들이 디젤 마진이 10월에 정점을 찍을 것으로 봄 · 같은 날 FT '유럽 정유 마진 붕괴, 원유 투입비 급등'(10/14)과 같은 방향"
+  },
+  {
+   "title": "이익은 강한데 주가는 하락 — 미 은행 실적 첫날이 메모리칩 급락과 겹침",
+   "url": "https://mitrade.com/insights/shares-analysis/us-stocks/bank-earnings-day-one-memory-chip-rout-20261014J1406",
+   "press": "Mitrade",
+   "at": "2026-10-14 18:35",
+   "why": "KBE(#20261012-20) bet — 실적 호조에도 주가 약세, BAC·MS·C 결과가 기한 전 정리 판단 기준",
+   "summary": "은행 실적 첫날: 순이익 호조에도 주가 하락 · CPI·ASML 실적 대기(세부 숫자 미확인)"
+  },
+  {
+   "title": "3분기 은행 실적: 골드만 +30% 상회, JP모건 매출 미달",
+   "url": "https://www.investing.com/analysis/bank-earnings-q3-2026-goldman-30-beat-jpmorgan-misses-revenue-200689491",
+   "press": "Investing.com",
+   "at": "2026-10-14 18:35",
+   "why": "KBE bet·'매출 먼저' 실적 판정 규칙(ideas 10/14 15:40)의 사례 — 트레이딩 강자 vs 대출 은행 갈림",
+   "summary": "골드만 이익 컨센 +30% 상회 · JP모건 매출 미달(제목 기준, 세부 미확인)"
+  },
+  {
    "title": "IEA 「디젤 품귀 2027년까지 길게 간다 — 이란 전쟁이 공급 교란」",
    "url": "https://www.cnbc.com/2026/10/14/diesel-deal-oil-price-iea-report.html",
    "press": "CNBC",
@@ -615,30 +639,6 @@
    "at": "2026-10-13 08:35",
    "why": "AI 크레딧·네오클라우드 밸류 경고 — 광통신·반도체 칸 변동성 요인",
    "summary": "혹 탄: AI 확장의 제약이 칩·메모리에서 자본으로 이동 · 10/12 광모듈주 CIEN −9.95%·LITE −9.78%·COHR −7.87%(키움 US Daily)"
-  },
-  {
-   "title": "걸프·호르무즈 해협서 하루 새 상선 6척 피격 — 전쟁이 상선을 최전선으로",
-   "url": "https://www.yahoo.com/news/articles/cargo-ship-hit-projectile-strait-055851133.html",
-   "press": "Yahoo(통신 전재)",
-   "at": "2026-10-13 07:35",
-   "why": "에너지 칸 유지·S-Oil 대기(#20261013-05)·고금리 논지(유가→CPI)와 이어짐",
-   "summary": "영국 해사기관 집계 하루 6척 피격(HANAchina/70313 동일 보도). 브렌트 106$ 안팎 — 운임·보험료 상방, 정유 마진 지지."
-  },
-  {
-   "title": "클리블랜드 연은 해맥 '연준은 이미 금리를 올리고 있어야, 한 번으론 부족'",
-   "url": "https://investinglive.com/central-banks/icymi-cleveland-fed-s-hammack-says-fed-should-already-be-raising-rates-more-than-one-hike-needed/",
-   "press": "investingLive",
-   "at": "2026-10-13 06:35",
-   "why": "고금리 장기화 논지(0.72)·^TNX 내림 bet(#20261011-01)에 불리한 재료 — 14일 CPI 앞 매파 톤",
-   "summary": "2026 투표권자 해맥: 인플레 고착 위험, 금리를 소폭·자주 조정하는 편이 낫다(피드 gn_kr_macro 10/13 같은 발언). 숫자 세부는 원문 확인 필요."
-  },
-  {
-   "title": "로이터 분석: 채권시장이 더 험해질 네 가지 신호",
-   "url": "https://www.bnnbloomberg.ca/investing/2026/10/09/four-signs-it-is-about-to-get-uglier-in-the-bond-market-reuters-analysis/",
-   "press": "BNN Bloomberg(Reuters)",
-   "at": "2026-10-13 06:35",
-   "why": "10년 5.24%·30년 5.6% 국면 — 금리 칸·^TNX bet·성장주 밸류 부담과 직결",
-   "summary": "10/09 로이터 분석. 10/13 피드엔 '금리 급등이 모기지 헤지 매도를 불러 채권 압력 가중'(reuters) 후속. 세부 숫자 미확인."
   }
  ],
  "at": "2026-10-14 17:35"
