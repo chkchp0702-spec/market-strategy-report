@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "원유 상승: 이란, 호르무즈 통과 선박 겨냥 새 전술",
+   "url": "https://boereport.com/2026/10/14/oil-prices-climb-as-iran-deploys-new-tactics-to-target-ships-transiting-hormuz/",
+   "press": "BOE Report",
+   "at": "2026-10-15 08:30",
+   "why": "S-Oil #10(열림)·SK이노 #16(대기)·미쓰이OSK #23 의 유가·운임 근거 — 트럼프·네타냐후 이란 핵시설 타격 논의(Axios via sedaily)와 겹침",
+   "summary": "이란이 호르무즈 통과 선박을 겨냥한 새 전술을 쓰며 유가 상승(10/14, 제목 기준 · 세부 숫자 미확인)"
+  },
+  {
+   "title": "뜨거운 CPI에 금·은 급락 — 연준 인상 압력 재부각",
+   "url": "https://kitco.com/news/article/2026-10-14/gold-silver-drop-hotter-cpi-revives-fed-rate-pressure-kitco-am-report",
+   "press": "Kitco",
+   "at": "2026-10-15 08:30",
+   "why": "고금리 논지(0.76) 확인 — 금 뼈대 칸은 실질금리↑ 국면에 약함, 달러 18개월 최고와 같은 방향",
+   "summary": "9월 CPI 예상 상회로 금·은 하락, 국내 보도 기준 금 −1.8%(gn_kr_macro) · 10월 인상 확률 한때 55%(워시 발언, gn_kr_macro)"
+  },
+  {
    "title": "TSMC 3분기 실적 프리뷰: 이익 +65% 예상, 순이익률은 50%로 하락 전망",
    "url": "https://www.tikr.com/blog/tsmcs-q3-earnings-preview-65-profit-growth-but-net-margin-seen-slipping-to-50",
    "press": "TIKR",
@@ -623,23 +639,7 @@
    "at": "2026-10-13 19:37",
    "why": "한국 칸 '외국인 복귀 전 비중 확대 금지'(0.77)와 반대 판단 — 원인 셋: AI 하드웨어 심리·외국인 매도+자사주 매입 종료 수급 공백·고금리/고유가/고운임",
    "summary": "코스피 하락 최대 요인은 반도체 멀티플 축소. 5,600~6,000 초반 매수 대응 제시. 같은 채널: '지난주 금리 단기 피크, 주식→채권 자산배분이 오늘 극대화'(46723)."
-  },
-  {
-   "title": "유나이티드헬스 3분기 실적 예상 상회 — 2026 조정 EPS 가이던스 '최소 20.50달러'로 상향",
-   "url": "https://www.sec.gov/Archives/edgar/data/0000731766/000073176626000255/earningsrelease3q26unh.htm",
-   "press": "SEC 8-K(유나이티드헬스)",
-   "at": "2026-10-13 19:35",
-   "why": "'반대편 바구니' 회전(헬스케어) — AI 칩 투매일에 비(非)하드웨어 이익 상향이 나온 사례",
-   "summary": "2026 조정 EPS ≥20.50달러(기존 19.50~20.00, CNBC). 의료비 통제로 예상 상회, 프리마켓 급등(investing_en). 같은 날 칩 매도는 MSCI 아시아태평양 8월 이후 최저(bbg_tech)."
-  },
-  {
-   "title": "NTT데이터, 앤트로픽용 63억 달러 일본 데이터센터 건설 협의(보도)",
-   "url": "https://www.datacenterdynamics.com/en/tags/ntt-communications/",
-   "press": "Seeking Alpha 보도 인용·DCD",
-   "at": "2026-10-13 19:35",
-   "why": "AI 이익 논지·하닉(#09) — 'AI 투자 회의론' 투매일에도 신규 데이터센터 발주는 계속",
-   "summary": "63억 달러 규모(sa_news 제목 기준, 원문 세부 미확인). NTT데이터는 이미 일본 DC 용량 확대에 90억 달러 투자 계획(bloomberglinea)."
   }
  ],
- "at": "2026-10-15 05:35"
+ "at": "2026-10-15 08:35"
 }
