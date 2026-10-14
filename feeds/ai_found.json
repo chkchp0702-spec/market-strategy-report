@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "모건스탠리, MSCI 유럽 2027년 중반 목표 2,700으로 상향(기존 2,600)",
+   "url": "https://www.newsquawk.com/headlines/morgan-stanley-raises-its-2027-mid-year-target-for-msci-europe-to-2700-prev-saw-2600",
+   "press": "Newsquawk",
+   "at": "2026-10-14 19:30",
+   "why": "EWQ(프랑스) 역발상 bet — BofA 설문 '프랑스 회피 사상 최대' 직후 IB 지수 목표 상향",
+   "summary": "MSCI 유럽 목표 2,600→2,700, 약 11% 상승 여력(2027 중반) · 근거는 강한 3Q 실적 전망(investing_en 같은 날)"
+  },
+  {
    "title": "ECB 전문가 「EU 연료값 사상 최고, 디젤 마진은 10월 정점」",
    "url": "https://www.euronews.com/business/2026/09/19/eu-fuel-prices-hit-records-as-ecb-experts-see-diesel-margins-peak-in-october",
    "press": "Euronews",
@@ -631,14 +639,6 @@
    "at": "2026-10-13 08:35",
    "why": "반도체 칸·AI 이익 논지 반대 변수 — 메모리 부족 완화 발언이 10/12 메모리주 투매에 겹침",
    "summary": "혹 탄(브로드컴) '메모리 부족은 1년 안에 완화, 자금 조달이 가장 큰 문제'(한경 김현석 인용) · 인텔 CEO도 자본 제약 경고 · 같은 날 SOX −2.67%"
-  },
-  {
-   "title": "브로드컴 CEO \"AI 투자자 다수는 카지노 도박꾼, 자본이 최대 제약\"",
-   "url": "https://news.futunn.com/en/post/1000898139/broadcom-ceo-many-ai-investors-are-like-casino-gamblers-capital",
-   "press": "Futu",
-   "at": "2026-10-13 08:35",
-   "why": "AI 크레딧·네오클라우드 밸류 경고 — 광통신·반도체 칸 변동성 요인",
-   "summary": "혹 탄: AI 확장의 제약이 칩·메모리에서 자본으로 이동 · 10/12 광모듈주 CIEN −9.95%·LITE −9.78%·COHR −7.87%(키움 US Daily)"
   }
  ],
  "at": "2026-10-14 17:35"
