@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "TSMC 3분기 실적 프리뷰: 이익 +65% 예상, 순이익률은 50%로 하락 전망",
+   "url": "https://www.tikr.com/blog/tsmcs-q3-earnings-preview-65-profit-growth-but-net-margin-seen-slipping-to-50",
+   "press": "TIKR",
+   "at": "2026-10-15 07:40",
+   "why": "오늘 오후 TSMC 실적이 반도체 칸·LRCX #20·LITE #15 의 판정 — 시장 기대치 기준선",
+   "summary": "순이익 +65% 증가 예상 · 순이익률 50%로 낮아질 전망(제목 기준, 세부 미확인)"
+  },
+  {
+   "title": "9월 FOMC 의사록: 위원들 2026년 복수 인상 가능성 높게 봐",
+   "url": "https://www.scotsmanguide.com/news/fed-policymakers-saw-multiple-2026-rate-hikes-as-likely-september-fomc-minutes-show/",
+   "press": "Scotsman Guide",
+   "at": "2026-10-15 07:40",
+   "why": "뜨거운 9월 CPI(3.7%) 뒤 고금리 장기화 논지·현금·단기채 칸 근거 보강",
+   "summary": "9월 의사록에서 다수 위원이 연내 복수 인상을 가능성 높게 판단(제목 기준) · 10/14 CPI 상회로 인상 확률 재부각"
+  },
+  {
    "title": "후티, 리야드 아람코 시설에 미사일·드론 공격 주장",
    "url": "https://ground.news/article/12358a54-6f74-4e6b-8bc6-11f8def8378b",
    "press": "Ground News(통신사 묶음)",
@@ -623,22 +639,6 @@
    "at": "2026-10-13 19:35",
    "why": "AI 이익 논지·하닉(#09) — 'AI 투자 회의론' 투매일에도 신규 데이터센터 발주는 계속",
    "summary": "63억 달러 규모(sa_news 제목 기준, 원문 세부 미확인). NTT데이터는 이미 일본 DC 용량 확대에 90억 달러 투자 계획(bloomberglinea)."
-  },
-  {
-   "title": "인도 Nifty IT 3% 급등 — 글로벌 칩 매도에 인도 소프트웨어주로 관심 이동",
-   "url": "https://www.5paisa.com/news/nifty-it-index-jumps-3-as-global-chip-selloff-lifts-focus-on-indian-software-stocks",
-   "press": "5paisa",
-   "at": "2026-10-13 18:40",
-   "why": "INFY 오름 bet(#20261013-18) — AI 하드웨어 투매의 반대편 회전 바구니",
-   "summary": "Nifty IT +3%(제목 기준), 블룸버그는 인도 IT '17개월 최고의 날'. 같은 날 코스피 −5.46%·닛케이 −1,253엔과 정반대."
-  },
-  {
-   "title": "마이크로소프트, Maia 300 칩 TSMC에 30만 개 이상 주문 — 엔비디아 의존 줄이기",
-   "url": "https://thenextweb.com/news/microsoft-maia-300-chip-tsmc-production-boost-nvidia",
-   "press": "The Next Web",
-   "at": "2026-10-13 18:40",
-   "why": "반도체 칸·AI 이익 논지 — 빅테크 고객이 경쟁자로(엔비디아 마진), 메모리 수요 자체는 그대로",
-   "summary": "닛케이: MS 새 칩 2027년 투입, AI 처리능력 4할 향상. 주문 30만+개(TNW, 날짜 미확인). 야후 '모든 엔비디아 대형 고객이 이제 경쟁자'."
   }
  ],
  "at": "2026-10-15 05:35"
