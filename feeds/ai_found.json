@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "美 9월 소비자물가 3.7%…이달 금리 인상 확률 22%→46%",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSWxBX2h6VlhfODV1Tll5MHFRbUgwWWpQZTVtd2stSmZUcFh1R3NlZ2h4X0hmeW5uMHhHdW1zZTNIeHEwajJCMVkydFF6Y0RiNTAtTUVRcm1RdjRYRG9WWmktdldBZ1FUNVVLRFpSSlFDdUZqSnQ0NmJqVzYtQ21SOFVYOUZ0ZXRF0gGcAUFVX3lxTFBGek9xM0VHTzR4RFd2em5qaTFLeU80WVFBQjd1V3R0NHlJTW1XQjZ5NElWeWlDdlZDS0hqcndjUlhMcnVIQWRZbjhGdGQ4Y3J6a0FXZlIyUW1ac0txWVBGbHluekhudlgzcTU0TkszOFpTeEJjM3VlZVB1QkhRZXZUQmFiWHdHVDNHaTJFUG9PSUU0aVNQeXl5YkxKUw?oc=5",
+   "press": "조선비즈",
+   "at": "2026-10-14 22:20",
+   "why": "고금리 논지·현금/단기채 칸·LRCX #20(장비주 금리 민감)과 직결",
+   "summary": "헤드라인 전년비 3.7%(예상 3.6%·전월 3.4%), 근원 전월비 0.3% 상회. 10월 FOMC 인상 확률 22%→46%."
+  },
+  {
+   "title": "바클레이스, 델·HPE·넷앱 '비중중립'으로 하향 — 주가 하락",
+   "url": "https://seekingalpha.com/news/4652883-dell-hpe-netapp-slide-after-barclays-downgrades-trio-to-equal-weight?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+   "press": "Seeking Alpha",
+   "at": "2026-10-14 22:23",
+   "why": "서버·스토리지 하드웨어 역풍 — 반도체·광통신 칸 수요 쪽 확인 필요",
+   "summary": "델·HPE·넷앱 3사 동시 '비중중립' 하향, 세 종목 하락. 반도체 약세 속 S&P500 7,807 보합권."
+  },
+  {
+   "title": "후티, 사우디 공격 확대 — 아람코 본사 피격",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-14/saudi-aramco-headquarters-hit-in-houthi-attack-video",
+   "press": "Bloomberg",
+   "at": "2026-10-14 21:34",
+   "why": "에너지 칸·S-Oil #10·SK이노 #16(☕ 컵 대기) 찬성 재료 — 공급 차질 프리미엄",
+   "summary": "후티가 미사일·드론으로 사우디 여러 곳을 공격, 아람코 본사 타격. 피해 규모 미확인."
+  },
+  {
    "title": "미 9월 CPI 3.7% — 예상 3.6% 상회, 전월 3.4%에서 가속",
    "url": "https://www.chaincatcher.com/en/article/2296240",
    "press": "ChainCatcher",
@@ -615,31 +639,7 @@
    "at": "2026-10-13 12:35",
    "why": "AI 이익 논지(0.65)·반도체 칸 — 10/15 TSMC 실적 판정 직전 IB 상향",
    "summary": "BofA 매수 유지·목표가 상향, 2nm 생산 확대로 매출 전망·이익률 개선 근거(HANAchina/70339 요약). 목표가 숫자는 미확인."
-  },
-  {
-   "title": "코스피, 中 CXMT 추격에 6000도 깨졌다…개미 투자 전략은?",
-   "url": "https://www.mt.co.kr/stock/2026/10/13/2026101311012617131",
-   "press": "머니투데이",
-   "at": "2026-10-13 12:35",
-   "why": "반도체 칸·하닉 bet(#20261013-09) — 투매 원인이 실적이 아닌 중국 경쟁 헤드라인",
-   "summary": "10/13 코스피 6,000 이탈·매도 사이드카. 원인으로 CXMT 추격 우려를 꼽음."
-  },
-  {
-   "title": "미 9월 CPI 미리보기(10/14) — 헤드라인은 강하지만 근원은 둔화",
-   "url": "https://continuumeconomics.com/a/353fee43/preview-due-october-14-us-september-cpi-stronger-but-with-a-slower-core-rate",
-   "press": "Continuum Economics",
-   "at": "2026-10-13 11:35",
-   "why": "고금리 논지(0.72)·10년 금리 내림 bet(#20261011-01) 판정 재료 — 근원 둔화면 금리 정점 서사",
-   "summary": "10/14 발표 9월 CPI: 유가 탓 헤드라인은 강하지만 근원 상승률은 다소 낮아질 것이라는 예상."
-  },
-  {
-   "title": "TD증권: 미 근원 CPI 추세 둔화 예상",
-   "url": "https://www.fxstreet.com/news/united-states-core-cpi-trend-seen-moderating-td-securities-202610091256",
-   "press": "FXStreet(TD Securities)",
-   "at": "2026-10-13 11:35",
-   "why": "현금·단기채 칸 26→40 조건과 10년 금리 bet 판정 — CPI 근원 둔화 쪽 IB 시각",
-   "summary": "TD는 근원 CPI 추세가 완만해질 것으로 봄. 근원 둔화면 '금리 정점' 서사에 힘(LS 정다운 '금리정점 네러티브 시 매수'와 연결)."
   }
  ],
- "at": "2026-10-14 20:35"
+ "at": "2026-10-14 22:40"
 }
