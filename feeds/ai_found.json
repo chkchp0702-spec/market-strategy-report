@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "세계 디젤 부족, 저장 탱크 고갈로 2027년까지 갈 듯",
+   "url": "https://www.zawya.com/en/insights/global-diesel-shortage-likely-to-last-into-2027-as-storage-tanks-drain-1021564",
+   "press": "Zawya",
+   "at": "2026-10-15 04:35",
+   "why": "S-Oil #10·SK이노 #16(🎯 집중 정유) 정제마진 근거 — IEA 이사회 10/15 결정 전",
+   "summary": "IEA 월간 보고서: 디젤 재고 고갈로 공급 부족이 2027년까지 이어질 전망(WSJ 동일 보도). 숫자 세부는 원문 확인 필요."
+  },
+  {
    "title": "뱅크오브아메리카, 3분기 매출 미스·규제 벌금에 주가 8% 급락",
    "url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
    "press": "CNBC",
@@ -631,14 +639,6 @@
    "at": "2026-10-13 17:40",
    "why": "반도체 칸·하닉 bet(#09) — 10/13 한국 투매의 방아쇠가 CXMT 외에 혹 탄 '도박꾼' 발언(야후·마켓워치)",
    "summary": "혹 탄 CEO 'AI 지속성' 경고 뒤 하닉·삼전 급락(야후 피드 제목). 본문 숫자는 미확인."
-  },
-  {
-   "title": "코스피 5.46% 급락 — 외국인 매도에 밸류에이션 사상 최저",
-   "url": "https://www.koreatimes.co.kr/economy/20261013/kospi-plunges-546-as-foreign-selling-drives-valuations-to-record-low",
-   "press": "Korea Times",
-   "at": "2026-10-13 16:35",
-   "why": "반도체 칸·하닉 bet(#20261013-09) — 가격은 무너졌는데 이익 하향은 없음, '공포 매도' 판정 근거",
-   "summary": "코스피 6,035.35(−5.46%) 마감. 하닉 1,450,000(−9.7%)·삼전 233,500(−7.0%). 외국인 매도로 밸류에이션 사상 최저권(기사 제목)."
   }
  ],
  "at": "2026-10-15 03:35"
