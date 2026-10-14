@@ -1,14 +1,30 @@
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KBWR"}}}
-$KBWR: possibly delisted; no timezone found
-$XWEB: possibly delisted; no timezone found
-$POTX: possibly delisted; no timezone found
-$PSJ: possibly delisted; no timezone found
-$BLCN: possibly delisted; no timezone found
-$THCX: possibly delisted; no timezone found
-$BJK: possibly delisted; no timezone found
+US {"us_source": "wikipedia S&P500+400 (903)", "requested": 903, "got": 900, "failed_or_short": 3, "sec": 91}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 121800.KQ"}}}
+$121800.KQ: possibly delisted; no timezone found
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: 377460.KQ"}}}
+$377460.KQ: possibly delisted; no timezone found
 
-7 Failed downloads:
-['KBWR', 'XWEB', 'POTX', 'PSJ', 'BLCN', 'THCX', 'BJK']: possibly delisted; no timezone found
-판정 🧪 고른 안 W6_k1.5_m2 {"is": {"boom6": -5.02, "norm6": -1.98, "diff6": -3.05, "boom6_win": 35, "boom12": -20.09, "norm12": -3.2, "diff12": -16.89, "boom12_win": 13, "n_boom_months": 23, "n_events": 5, "themes_boom": ["금속·광산", "바이오", "소프트웨어·클라우드", "태양광·클린에너지", "혁신 성장"]}, "oos": {"boom6": -2.24, "norm6": 0.3, "diff6": -2.54, "boom6_win": 38, "boom12": 1.0, "norm12": 1.34, "diff12": -0.34, "boom12_win": 47, "n_boom_months": 34, "n_events": 9, "themes_boom": ["2차전지·전기차", "게임·e스포츠", "대마초", "로봇·AI", "바이오", "비트코인·블록체인", "사이버보안", "소프트웨어·클라우드", "태양광·클린에너지"]}}
-집중 {"n": 874, "n_boom": 14, "boom_x5": 1.8, "norm_x5": 0.06, "boom_x20": 1.57, "norm_x20": 0.37} -7.0 -7.62
-지금 붐 [] []
+2 Failed downloads:
+['121800.KQ', '377460.KQ']: possibly delisted; no timezone found
+$066410.KQ: possibly delisted; no timezone found
+
+1 Failed download:
+['066410.KQ']: possibly delisted; no timezone found
+$099520.KQ: possibly delisted; no timezone found
+$217480.KQ: possibly delisted; no timezone found
+
+2 Failed downloads:
+['099520.KQ', '217480.KQ']: possibly delisted; no timezone found
+$068940.KQ: possibly delisted; no timezone found
+
+1 Failed download:
+['068940.KQ']: possibly delisted; no timezone found
+$043220.KQ: possibly delisted; no price data found  (1d 2006-06-01 -> 2026-10-14)
+
+1 Failed download:
+['043220.KQ']: possibly delisted; no price data found  (1d 2006-06-01 -> 2026-10-14)
+KR {"requested": 2679, "got": 2641, "failed_or_short": 38, "sec": 323}
+rows 4916
+Q15-5 US ✅ w3f75 · 시험 기간 274건(갭의 13.9%) 초과 +0.70% 손익비 1.45 vs 기준(다음 날 종가) 1967건 -0.29% 손익비 1.24 · 앞 기간 0.54% vs -0.21% · 같은 사건을 기준대로 샀다면 0.46% · 건너뛴 사건 기준 -0.41% · j 종가 진입 1.28% · 변형 중 기준보다 나은 것 6/6 | 원안 {'verdict': '🧪', 'why': 'w3f50 · 시험 기간 525건(갭의 26.7%) 초과 +0.02% 손익비 1.28 vs 기준(다음 날 종가) 1967건 -0.29% 손익비 1.24 · 앞 기간 0.07% vs -0.21% · 같은 사건을 기준대로 샀다면 -0.48% · 건너뛴 사건 기준 -0.23% · j 종가 진입 0.66% · 변형 중 기준보다 나은 것 6/6'}
+Q15-5 KR 🧪 w3f50 · 시험 기간 431건(갭의 42.5%) 초과 -1.39% 손익비 1.11 vs 기준(다음 날 종가) 1014건 -2.94% 손익비 0.89 · 앞 기간 -3.02% vs -1.67% · 같은 사건을 기준대로 샀다면 -3.94% · 건너뛴 사건 기준 -2.2% · j 종가 진입 -2.77% · 변형 중 기준보다 나은 것 6/6 | 원안 {'verdict': '🧪', 'why': 'w3f50 · 시험 기간 431건(갭의 42.5%) 초과 -1.39% 손익비 1.11 vs 기준(다음 날 종가) 1014건 -2.94% 손익비 0.89 · 앞 기간 -3.02% vs -1.67% · 같은 사건을 기준대로 샀다면 -3.94% · 건너뛴 사건 기준 -2.2% · j 종가 진입 -2.77% · 변형 중 기준보다 나은 것 6/6'}
+done 329
