@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "IEA 「디젤 품귀 2027년까지 길게 간다 — 이란 전쟁이 공급 교란」",
+   "url": "https://www.cnbc.com/2026/10/14/diesel-deal-oil-price-iea-report.html",
+   "press": "CNBC",
+   "at": "2026-10-14 17:20",
+   "why": "🎯 에너지 칸 · S-Oil(#10 10/15 시가 진입 대기)·SK이노(#16 컵 기준가 대기) 정제마진 논지의 근거",
+   "summary": "IEA 10월 월간 보고서: 중간유분(디젤) 부족이 2027년 깊숙이까지 지속 전망 · 재고 감소로 품귀 심화"
+  },
+  {
+   "title": "IEA, 디젤 추가 방출 촉구 — 3월 4억 배럴 약속 이행 지연, 10/15 이사회",
+   "url": "https://investinglive.com/commodities/iea-urges-faster-diesel-releases-as-400m-barrel-march-pledge-lags-board-meets-oct-15/",
+   "press": "investingLive",
+   "at": "2026-10-14 17:30",
+   "why": "정유 bets 반대 위험 — 10/15 IEA 이사회가 비축 디젤 방출을 늘리면 정제마진 단기 하락 가능(S-Oil 진입일과 겹침)",
+   "summary": "3월 비축유 4억 배럴 방출 약속 이행이 늦어 IEA가 디젤 방출 가속 촉구 · 이사회 10/15 소집"
+  },
+  {
    "title": "SK이노, 윤활기유·정제마진 강세 지속…증권사 목표가 잇단 상향",
    "url": "https://www.fnnews.com/news/202610072153031157",
    "press": "파이낸셜뉴스",
@@ -623,23 +639,7 @@
    "at": "2026-10-13 06:35",
    "why": "10년 5.24%·30년 5.6% 국면 — 금리 칸·^TNX bet·성장주 밸류 부담과 직결",
    "summary": "10/09 로이터 분석. 10/13 피드엔 '금리 급등이 모기지 헤지 매도를 불러 채권 압력 가중'(reuters) 후속. 세부 숫자 미확인."
-  },
-  {
-   "title": "후티, 리야드 공항 등 사우디 3곳 타격 주장(미확인) — 브렌트 100달러대 프리미엄 유지",
-   "url": "https://investinglive.com/commodities/houthis-claim-strikes-on-three-saudi-sites-including-riyadh-airport-unconfirmed/",
-   "press": "investingLive",
-   "at": "2026-10-13 05:40",
-   "why": "S-Oil 선제 bet(#20261013-05)·유가 105달러 → 정유·인플레(CPI) 논지",
-   "summary": "킹칼리드(리야드)·아브하 공항·카미스무샤이트 공군기지 공격 주장, 사우디 확인 없음. 지잔·나즈란 공항 피격 3명 부상. '실제 물량보다 헤드라인 리스크' 평가"
-  },
-  {
-   "title": "후티, 리야드 아람코 시설 미사일·드론 공격 주장 — 정유소 화염 위성 확인",
-   "url": "https://ground.news/article/12358a54-6f74-4e6b-8bc6-11f8def8378b",
-   "press": "Ground News(AFP 인용)",
-   "at": "2026-10-13 05:40",
-   "why": "중동 공급 리스크가 10월 내내 이어지는 근거 — 정유·에너지 칸, 고금리 논지(유가→물가)",
-   "summary": "10/3 공격 주장, 아람코·사우디 당국 피해 미확인. 이후 브렌트 106달러 돌파. 리야드 공항 연쇄 공격 보도"
   }
  ],
- "at": "2026-10-14 16:40"
+ "at": "2026-10-14 17:35"
 }
