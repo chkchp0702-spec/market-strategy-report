@@ -3687,6 +3687,33 @@
 "src": "focus",
 "score": 70,
 "theme": "에너지"
+},
+"CORT|2026-10-14|e": {
+"code": "CORT",
+"name": "Corcept Therapeutics Incorporated - Co",
+"mkt": "US",
+"d": "2026-10-14",
+"src": "earn",
+"score": 82.2,
+"lv": 97.63
+},
+"EL|2026-10-14|e": {
+"code": "EL",
+"name": "Estee Lauder Companies, Inc. (The) Com",
+"mkt": "US",
+"d": "2026-10-14",
+"src": "earn",
+"score": 79.6,
+"lv": 92.35
+},
+"MCS|2026-10-14|e": {
+"code": "MCS",
+"name": "Marcus Corporation (The) Common Stock",
+"mkt": "US",
+"d": "2026-10-14",
+"src": "earn",
+"score": 67.4,
+"lv": 25.23
 }
 },
 "sent": [
