@@ -138,8 +138,18 @@ def sim(C, R, keep, scale, qsh, eqw, gdw, a, b):
 def main():
     import yfinance as yf
     tick = ["SPY", "QQQ", "GLD", "BIL", "^GSPC"]
-    df = yf.download(tick, start="2005-01-01", auto_adjust=True, progress=False, group_by="ticker", threads=True)
-    C = pd.DataFrame({t: df[t]["Close"] for t in tick}).dropna(subset=["SPY", "QQQ", "GLD"]).ffill(limit=5)
+    import time
+    cols = {}
+    for t in tick:
+        for k in range(4):
+            try:
+                h = yf.Ticker(t).history(start="2005-01-01", auto_adjust=True)["Close"]
+                if len(h) > 1000:
+                    h.index = pd.to_datetime(h.index).tz_localize(None).normalize(); cols[t] = h; break
+            except Exception as e:
+                print("retry", t, repr(e)[:100])
+            time.sleep(3)
+    C = pd.DataFrame(cols).dropna(subset=["SPY", "QQQ", "GLD"]).ffill(limit=5)
     C["BIL"] = C["BIL"].ffill()
     R = C[["SPY", "QQQ", "GLD", "BIL"]].pct_change().fillna(0.0).values
     idx = C.index; spy = C["SPY"]; end = idx[-1]
