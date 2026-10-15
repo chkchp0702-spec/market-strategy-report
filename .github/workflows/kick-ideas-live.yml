@@ -13,7 +13,7 @@ concurrency:
 jobs:
   live:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 75   # 10/15 미국 전 종목·ETF 로 넓힘
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

@@ -14,6 +14,7 @@ import datetime as dt
 import gzip
 import io
 import json
+import os
 import math
 import sys
 import time
@@ -35,7 +36,7 @@ MKT = {"KR": ("^KS11", 5000, 2e9), "US": ("^GSPC", 5, 5e6), "HK": ("^HSI", 3, 2e
        "JP": ("^N225", 500, 2e8), "CN": ("000001.SS", 5, 5e7)}
 COST = {"KR": 0.0045}
 DEF_COST = 0.005
-TIME_BUDGET = 38 * 60   # 시세 받기에 쓸 최대 시간(초)
+TIME_BUDGET = int(os.environ.get("AB_TIME_BUDGET", 38 * 60))   # 시세 받기에 쓸 최대 시간(초) — 미국 전 종목은 워크플로가 늘려 줌
 
 A = dict(win=20, base=60, volx_min=3.0, chg_lo=-5.0, chg_hi=3.0, days2x_min=10, off52_max=40.0, show_min=55)
 HZ = (5, 10, 20, 40, 60)
@@ -114,6 +115,26 @@ US_FALLBACK = ("AAPL MSFT NVDA AMZN GOOGL META TSLA AVGO JPM V MA UNH XOM JNJ PG
 
 def universe(m: str, log: dict) -> list[str]:
     if m == "US":
+        # 10/15 사용자 「미국에 상장된 종목, ETF 다 동원해」 → 미국 거래소 상장 전 종목 + ETF(레버리지·인버스 빼고)
+        # 목록은 src/us_universe.py 가 매주 만들어 accum_uni/US.json 에 둠. 없거나 깨졌으면 아래 S&P500+400 로 대신.
+        try:
+            uj = json.load(open(UNID / "US.json", encoding="utf-8"))
+            if len(uj.get("u", [])) >= 3000:
+                log["us_source"] = f"US.json 전 종목 {uj.get('n_stock')} + ETF {uj.get('n_etf')} ({uj.get('asof')})"
+                return [t for t, _ in uj["u"]]
+        except Exception as e:
+            log["us_json_err"] = repr(e)[:200]
+        try:
+            try:
+                import us_universe as UU          # python src/accum_bt.py 로 돌 때
+            except ImportError:
+                from src import us_universe as UU  # python -m src.… 로 돌 때
+            uj = UU.build()
+            if len(uj["u"]) >= UU.MIN_OK:
+                log["us_source"] = f"nasdaqtrader 바로 받음 {len(uj['u'])}"
+                return [t for t, _ in uj["u"]]
+        except Exception as e:
+            log["us_build_err"] = repr(e)[:200]
         tk = []
         try:
             import requests

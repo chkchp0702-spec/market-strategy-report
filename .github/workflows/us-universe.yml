@@ -1,0 +1,29 @@
+name: us-universe
+# 🇺🇸 미국 상장 전 종목 + ETF 목록 (src/us_universe.py → src/lab/accum_uni/US.json)
+#   10/15 사용자 「미국에 상장된 종목, ETF 다 동원해」 — 매주 일요일 KST 06:07 새로 받음 (신규 상장·상폐 반영)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7 21 * * 6"
+  push:
+    branches: [main]
+    paths: [src/us_universe.py, .github/workflows/us-universe.yml]
+permissions:
+  contents: write
+concurrency:
+  group: push-${{ github.repository }}-${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m src.us_universe selftest && python -m src.us_universe
+      - name: 저장
+        run: |
+          git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
+          bash scripts/push.sh "us-universe $(TZ=Asia/Seoul date '+%F %H:%M')" src/lab/accum_uni/US.json

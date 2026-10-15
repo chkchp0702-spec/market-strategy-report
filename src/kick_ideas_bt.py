@@ -614,7 +614,11 @@ def live():
             lg = {}
             if m == "US":
                 tks = AB.universe(m, lg)
-                names = {}
+                try:   # 10/15 미국 전 종목·ETF 목록에 이름이 있으면 씀
+                    names = {t: n for t, n in json.load(open(AB.UNID / "US.json", encoding="utf-8"))["u"]}
+                except Exception:
+                    names = {}
+                out["state"]["us_source"] = lg.get("us_source", "")
             else:
                 u = json.load(open(AB.UNID / f"{m}.json", encoding="utf-8"))["u"]
                 names = {t: n for t, n in u}
