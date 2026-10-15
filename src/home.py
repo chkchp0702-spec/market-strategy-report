@@ -234,6 +234,44 @@ def _txt(x, n=90):
     return t if len(t) <= n else t[:n - 1] + "…"
 
 
+# 10/15 A9-5 🧵 예고 실타래 — 같은 주제가 며칠째 나오고 맞았나 (글자 열쇠: 아는 낱말 표 → 없으면 날짜 뗀 앞 낱말 2개)
+_TOPIC = [("외국인", "외국인 순매수"), ("10년", "미 10년 금리"), ("CPI", "미 물가(CPI)"), ("SMH", "반도체(SMH)"), ("반도체", "반도체(SMH)"),
+          ("CIBR", "사이버보안"), ("사이버보안", "사이버보안"), ("418670", "사이버보안"), ("브렌트", "유가"), ("WTI", "유가"),
+          ("KBE", "은행"), ("은행", "은행"), ("XLE", "에너지"), ("에너지", "에너지"), ("삼성", "삼성 실적"), ("코스피", "코스피 지수")]
+
+
+def _topic(t):
+    import re
+    t = _txt(t, 200).replace("어제 예고 ", "")
+    t = re.sub(r"^[①②③④⑤]\s*", "", t)
+    for k, v in _TOPIC:
+        if k in t:
+            return v
+    t = re.sub(r"^\d{1,2}/\d{1,2}\s*(\([^)]*\))?\s*(밤\s*)?", "", t)
+    return " ".join(t.split()[:2]) or None
+
+
+def _grade_hist(fs):
+    """리포트 data 파일들의 yesterday_grades(맞음/틀림만) → [{d: 채점한 리포트 날짜, k: 주제, m: ok|no}] 시간 순"""
+    out, seen = [], set()
+    for f in fs:
+        D = rj(f) or {}
+        for g in (D.get("yesterday_grades") or [])[:3]:
+            if g.get("cls") not in ("ok", "no"):
+                continue
+            k = _topic(g.get("title"))
+            key = (D.get("date"), k)
+            if not k or key in seen:
+                continue
+            seen.add(key)
+            out.append({"d": D.get("date"), "k": k, "m": g["cls"]})
+    return out
+
+
+def _trail(H, k, n=5):
+    return [{"d": x["d"], "m": x["m"]} for x in H if x["k"] == k][-n:]
+
+
 def _wk(dates, nav, start):
     """누적 수익(%) 줄에서 start 날짜 이후(포함) 주간 수익 — 시작 전날 값을 기준으로"""
     idx = [i for i, d in enumerate(dates) if d >= start]
@@ -263,6 +301,12 @@ def extra(home, now, P, K, CN, F, B, L, S):
                                   for i, c in enumerate((D.get("checks") or [])[:3])],
                          "rate": rep.get("rate"), "win": rep.get("win"), "loss": rep.get("loss"),
                          "one": _txt(D.get("one_liner"), 110), "kick": _txt((D.get("kick") or {}).get("title"), 90)}
+        GH = _grade_hist(fs[-40:])
+        for x, g in zip(home["grade"]["items"], (D.get("yesterday_grades") or [])[:3]):
+            x["k"] = _topic(g.get("title")); x["tr"] = _trail(GH, x["k"])
+        for x, c in zip(home["grade"]["next"], (D.get("checks") or [])[:3]):
+            x["k"] = _topic(c); x["tr"] = _trail(GH, x["k"])
+        home["grade"]["last10"] = [x["m"] for x in GH[-10:]]
     # ⑦ 이번 주 복기 (월요일부터 · 미국 날짜 기준)
     mon = (now - dt.timedelta(days=now.weekday())).strftime("%Y-%m-%d")      # 이번 주 월요일 (주말이면 방금 끝난 주)
     pd_ = P.get("dates") or []
@@ -300,25 +344,28 @@ def extra(home, now, P, K, CN, F, B, L, S):
     ch = []
     if pv:
         if snap["reg"] and pv.get("reg") and snap["reg"] != pv["reg"]:
-            ch.append({"ic": "🧭", "t": f"미국 국면 {pv['reg']} → {snap['reg']}", "go": "sector"})
+            ch.append({"ic": "🧭", "t": f"미국 국면 {pv['reg']} → {snap['reg']}", "lab": "미국 국면", "a": pv["reg"], "b": snap["reg"], "go": "sector"})
         if snap["conc_up"] is not None and pv.get("conc_up") is not None and snap["conc_up"] != pv["conc_up"]:
-            ch.append({"ic": "🎯", "t": "상승장 판정 " + ("🔴 → 🟢" if snap["conc_up"] else "🟢 → 🔴"), "go": "port~poconc"})
+            ch.append({"ic": "🎯", "t": "상승장 판정 " + ("🔴 → 🟢" if snap["conc_up"] else "🟢 → 🔴"), "lab": "상승장 판정",
+                       "a": "🟢 상승장" if pv["conc_up"] else "🔴 아님", "b": "🟢 상승장" if snap["conc_up"] else "🔴 아님", "go": "port~poconc"})
         nf = [x for x in snap["focus"] if x and x not in (pv.get("focus") or [])]
         if nf:
             ch.append({"ic": "🎯", "t": "새 집중 테마: " + ", ".join(nf), "go": "market~mkfo"})
         if pv.get("gap") is not None:
             d_ = snap["gap"] - pv["gap"]
             if abs(d_) >= 0.2:
-                ch.append({"ic": "⚡", "t": f"킥 vs S&P {pv['gap']:+.1f}%p → {snap['gap']:+.1f}%p " + ("(따라붙음)" if d_ > 0 else "(벌어짐)"), "go": "port"})
+                ch.append({"ic": "⚡", "t": f"킥 vs S&P {pv['gap']:+.1f}%p → {snap['gap']:+.1f}%p " + ("(따라붙음)" if d_ > 0 else "(벌어짐)"), "lab": "킥 vs S&P",
+                           "a": f"{pv['gap']:+.1f}%p", "b": f"{snap['gap']:+.1f}%p", "note": "따라붙음" if d_ > 0 else "벌어짐", "go": "port"})
         if snap["chg"] and snap["chg"] != pv.get("chg"):
             ch.append({"ic": "🔁", "t": f"포트 비중 바뀜 ({snap['chg'][5:].replace('-', '/')})", "go": "port~pofollow"})
         if snap["brain"] and pv.get("brain") and snap["brain"] != pv["brain"]:
-            ch.append({"ic": "🧠", "t": f"두뇌 판단 {pv['brain']} → {snap['brain']}", "go": "feed"})
+            ch.append({"ic": "🧠", "t": f"두뇌 판단 {pv['brain']} → {snap['brain']}", "lab": "두뇌 판단", "a": pv["brain"], "b": snap["brain"], "go": "feed"})
     kev = home["kick"].get("events") or []
     if kev:
         ch.append({"ic": "⚡", "t": "킥 " + " · ".join(f"{'사기' if e['k'] == '사기' else '팔기'} {e.get('name')}" for e in kev[:3]), "go": "port~pokick"})
     if D and D.get("date") == today:
-        ch.append({"ic": "🌐", "t": "오늘 시황 나옴 — " + _txt((D.get("kick") or {}).get("title"), 46), "go": "market"})
+        ch.append({"ic": "🌐", "t": "오늘 시황 나옴 — " + _txt((D.get("kick") or {}).get("title"), 46), "lab": "오늘 시황 나옴",
+                       "sub": _txt((D.get("kick") or {}).get("title"), 60), "go": "market"})
     home["chg"] = {"since": prev_d, "items": ch[:5]}
     sf.write_text(json.dumps(SN, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
