@@ -1,6 +1,38 @@
 {
  "items": [
   {
+   "title": "골드만삭스 자금흐름팀: '아무도 들고 싶어 하지 않는 시장'이 진입 신호 — 자사주 매입·개인·외국인 세 매수 동력 곧 복귀",
+   "url": "https://wallstreetcn.com/articles/3783671",
+   "press": "월스트리트견문",
+   "at": "2026-10-15 13:35",
+   "why": "킥 재가동 시점·현금 칸 26→40 조건 판단 — 10월 말~11월 계절 수급 반전",
+   "summary": "심리는 4월 관세 저점 수준까지 하락. 기업 자사주 매입은 10월 말~11월 대규모 재개, 뮤추얼펀드 연말 매도는 할로윈 이후 완화, 이어 개인·외국인 계절 매수 유입 전망."
+  },
+  {
+   "title": "UBS: A주 기술주 쏠림 대폭 해소 — 추가 하락 위험 제한적",
+   "url": "https://wallstreetcn.com/articles/3783669",
+   "press": "월스트리트견문",
+   "at": "2026-10-15 13:35",
+   "why": "아시아 기술주 투매 속 중국 쪽은 포지션 정리 끝 — 해외 상품·반도체 칸 대안 관찰",
+   "summary": "공모펀드 기술주 초과비중 18.5%(역사적 고점)에서 하락, 기술주 거래대금 비중 49.7%→37.2%. A주 2분기 이익 +29.4%."
+  },
+  {
+   "title": "한국 증시, 10월 중순 핵심 지지대 사라지며 시험대(골드만 수급 경고)",
+   "url": "https://www.itiger.com/news/1186200403",
+   "press": "Tiger Brokers",
+   "at": "2026-10-15 13:35",
+   "why": "오늘 서킷브레이커와 직결 — 개인 매수·자사주 지지 소진 시점 경고(본문 미확인, 제목 기준)",
+   "summary": "제목 기준: 한국 증시를 받치던 핵심 수급이 10월 중순 사라질 것이란 골드만 분석. 세부 숫자 미확인."
+  },
+  {
+   "title": "미래에셋 '증시 급락 코멘트' — 체크포인트: 앤트로픽 성장 둔화·코어위브 CDS 1000bp·빅테크 FCF·실질금리",
+   "url": "https://han.gl/ZQQt8",
+   "press": "미래에셋증권",
+   "at": "2026-10-15 13:35",
+   "why": "반도체 칸·AI 차입 논지 판정 기준 4가지",
+   "summary": "앤트로픽 3Q +46% q/q(2Q +140%↑에 못 미침), 코어위브 CDS 1000bp 상회, 빅테크 CDS 상승. 3Q 실적서 FCF 회복이 빨라야 우려 완화."
+  },
+  {
    "title": "워시 연준 의장, 10/16 IMF 연차총회(방콕) 연설 — 10월 회의 앞 마지막 발언",
    "url": "https://www.roic.ai/news/fed-chairman-warsh-to-speak-at-imf-meetings-in-bangkok-on-october-16-10-08-2026",
    "press": "ROIC.ai",
@@ -607,38 +639,6 @@
    "at": "2026-10-14 00:30",
    "why": "열린 KBE(은행 ETF) 오름 bets 의 근거(은행 실적 호조)가 흔들림 — 대형 4사 중 첫 미스",
    "summary": "JP모건 3분기 매출·이익 예상 하회, FICC 트레이딩 부진으로 주가 하락. 같은 날 GS·웰스파고는 서프라이즈 — 은행 실적이 갈리기 시작."
-  },
-  {
-   "title": "예측시장, 9월 CPI 헤드라인 +0.4% 초과 확률 높게 반영",
-   "url": "https://simplefunctions.dev/answer/cpi",
-   "press": "SimpleFunctions(Kalshi 집계)",
-   "at": "2026-10-14 00:30",
-   "why": "10/14 CPI가 고금리 테제·성장주 비중 판단의 다음 분기점",
-   "summary": "Kalshi 계약 'CPI 9월 +0.4% 초과' 94% 표시(페이지 기준). 0.6%대에선 베팅이 망설임(cryptobriefing). 유가 상승분이 헤드라인을 끌어올리는 그림 — 근원 확인 필요."
-  },
-  {
-   "title": "호르무즈 선박, 개전 이후 최악의 공격 — 2주간 24척",
-   "url": "https://www.ft.com/content/a4ab83d4-81b5-4336-9569-a0708b41e894",
-   "press": "Financial Times",
-   "at": "2026-10-13 21:04",
-   "why": "에너지 칸·⚡ FRO(유조선) 선제 — 유가보다 운임·전쟁보험에 먼저 붙는 재료",
-   "summary": "이란이 2주간 유조선 등 24척 공격, 일요일(10/11)에만 6척. 같은 날 러시아산 원유 인도행 운임 사상 최고(investing.com)."
-  },
-  {
-   "title": "폴 튜더 존스 \"2027년은 주식시장에 정말 힘든 해 될 수도\"",
-   "url": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html",
-   "press": "CNBC",
-   "at": "2026-10-13 21:53",
-   "why": "포트 전체 위험도 — 강세장의 뒷바람(자사주 매입·M&A)이 꺾인다는 판단, 현금·단기채 칸 논지 쪽",
-   "summary": "자사주 매입·M&A가 강세장의 뒷바람이었는데 곧 방향이 바뀐다고 경고. 블랙록 미 주식 비중확대 철회와 같은 날."
-  },
-  {
-   "title": "애널 \"CXMT 주장이 마이크론·샌디스크를 위협하지 않는 7가지 이유\"",
-   "url": "https://www.investing.com/news/stock-market-news/analyst-lists-7-reasons-why-china-cxmts-claims-dont-threaten-micron-and-sandisk-4946719",
-   "press": "Investing.com",
-   "at": "2026-10-13 22:27",
-   "why": "반도체 칸·하닉 #09·LRCX 대기 — 투매 원인(CXMT)에 대한 첫 반박 리포트",
-   "summary": "CXMT 4F² 설계 진전 보도로 메모리 3사 급락한 날 반박 논리 등장. 마이크론은 미 장전 하락 연장(MarketWatch)."
   }
  ],
  "at": "2026-10-15 11:35"
