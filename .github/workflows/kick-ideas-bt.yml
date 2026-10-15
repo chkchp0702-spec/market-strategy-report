@@ -54,7 +54,7 @@ jobs:
     needs: [fetch, macro]
     if: always()
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 100
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -70,7 +70,7 @@ jobs:
       - run: python src/kick_ideas_bt.py stats
       - name: 오늘 신호 (고른 규칙 그대로)
         continue-on-error: true
-        timeout-minutes: 25
+        timeout-minutes: 70   # 10/15 미국 전 종목·ETF
         run: python src/kick_ideas_bt.py live
       - name: 저장
         run: |
