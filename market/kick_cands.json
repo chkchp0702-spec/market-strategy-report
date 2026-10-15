@@ -3734,6 +3734,23 @@
 "src": "accum",
 "score": 70.0,
 "lv": 94.55
+},
+"7242.T|2026-10-15": {
+"code": "7242.T",
+"name": "KYB CORPORATION",
+"mkt": "JP",
+"d": "2026-10-15",
+"src": "cup_eye",
+"score": 64.8,
+"lv": 1524.86
+},
+"QQQ|2026-10-14|dip": {
+"code": "QQQ",
+"name": "QQQ",
+"mkt": "US",
+"d": "2026-10-14",
+"src": "dip",
+"score": 0
 }
 },
 "sent": [
