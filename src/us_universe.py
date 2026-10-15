@@ -35,8 +35,10 @@ MIN_OK = 5000   # 이보다 적으면 받기가 깨진 것으로 보고 기존 �
 
 SHELL = re.compile(r"(?i)(\bwarrants?\b|(?<!common )\bunits?\b|\brights?\b|\bpreferred\b|\bnotes due\b|"
                    r"\bsubordinated\b|\bdebentures?\b|\bwhen[- ]issued\b)")
-LEV = re.compile(r"(?i)(\b[1-9](\.\d)?x\b|-\s?[1-9]x\b|\bultra(pro)?\b|\bleveraged?\b|\binverse\b|\bbear\b|"
-                 r"\b(2|3)x\b|daily\s.*\b(bull|bear|long|short)\b|\bshort\b(?!.{0,3}(term|duration|maturity|dated|treasury|bond|govt|government|corporate|municipal|muni|high yield|income|credit|tips|inflation|real estate)))")
+LEV = re.compile(r"(?i)(\d+(\.\d+)?\s?x\b|\d+(\.\d+)?x\s?(long|short|lev)|-\s?\d+(\.\d+)?x\b|leveraged|\bultra(pro)?\b|"
+                 r"\bproshares\s+(ultra|short)|\binverse\b|\bbear\b(?!ish)|[23]00%|150%|"
+                 r"daily\s.*\b(bull|bear|long|short)\b|\bultra\s?short\b(?!.*\b(income|bond|fixed|treasury|municipal|tips|tax-free|duration)\b)|"
+                 r"\bshort\b(?!.{0,3}(term|duration|maturity|dated|treasury|bond|govt|government|corporate|municipal|muni|high yield|income|credit|tips|inflation)))")
 
 
 def _get(urls: list[str]) -> str:
@@ -113,6 +115,13 @@ def selftest():
            "SHV|iShares Short Treasury Bond ETF|P|SHV|Y|100|N|SHV\n"
            "VGSH|Vanguard Short-Term Treasury ETF|P|VGSH|Y|100|N|VGSH\n"
            "SH|ProShares Short S&P500|P|SH|Y|100|N|SH\n"
+           "TBT|ProShares UltraShort Lehman 20  Year Treasury|P|TBT|Y|100|N|TBT\n"
+           "DLUX|DoubleLine Ultrashort Income ETF|P|DLUX|Y|100|N|DLUX\n"
+           "TSL|GraniteShares 1.25x Long TSLA Daily ETF|P|TSL|Y|100|N|TSL\n"
+           "HDLB|ETRACS Monthly Pay 2xLeveraged US High Dividend|P|HDLB|Y|100|N|HDLB\n"
+           "REK|ProShares Short Real Estate|P|REK|Y|100|N|REK\n"
+           "BOTZ|Global X Robotics & Artificial Intelligence ETF|P|BOTZ|Y|100|N|BOTZ\n"
+           "UUP|Invesco DB USD Index Bullish Fund ETF|P|UUP|Y|100|N|UUP\n"
            "SOXL|Direxion Daily Semiconductor Bull 3X Shares|P|SOXL|Y|100|N|SOXL\n"
            "C$N|Citigroup Preferred|N|CprN|N|100|N|C-N\n"
            "EPD|Enterprise Products Partners L.P. Common Units|N|EPD|N|100|N|EPD\n"
@@ -120,10 +129,10 @@ def selftest():
            "ABCU|Abc Acquisition Corp Unit|N|ABCU|N|100|N|ABCU\n")
     d = pick(nas, oth)
     got = {t for t, _ in d["u"]}
-    want = {"AAPL", "QQQ", "BRK-B", "SPY", "SHV", "VGSH", "EPD", "USO"}
+    want = {"AAPL", "QQQ", "BRK-B", "SPY", "SHV", "VGSH", "EPD", "USO", "DLUX", "BOTZ", "UUP"}
     assert got == want, (got, want)
-    assert set(d["etf"]) == {"QQQ", "SPY", "SHV", "VGSH", "USO"}, d["etf"]
-    assert d["dropped"]["lev"] == 4 and d["dropped"]["test"] == 1, d["dropped"]
+    assert set(d["etf"]) == {"QQQ", "SPY", "SHV", "VGSH", "USO", "DLUX", "BOTZ", "UUP"}, d["etf"]
+    assert d["dropped"]["lev"] == 8 and d["dropped"]["test"] == 1, d["dropped"]
     print("selftest ok", d["dropped"])
 
 
