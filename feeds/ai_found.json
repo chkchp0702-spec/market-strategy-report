@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "JP모건: 이번 기술주 폭락은 7월과 다르다 — 개인 저가매수 소멸·숏스퀴즈 동력 고갈",
+   "url": "https://wallstreetcn.com/articles/3783672",
+   "press": "월스트리트견문(JP모건 인용)",
+   "at": "2026-10-15 11:35",
+   "why": "반도체·광통신·AI 소프트웨어 칸 — 급락 뒤 기술적 반등을 기대하기 어렵다는 근거, 반도체 신호 종목 재진입을 늦추는 쪽",
+   "summary": "개인 저가매수 사라지고 공매도 잔고 적어 숏스퀴즈 반등 어려움 · 자사주 매입 지지 10월 중순 예상보다 일찍 중단 · 레버리지 ETF 규모 높음 · 경기민감주도 아직 과매도 아님"
+  },
+  {
+   "title": "TSMC 3Q 매출 NT$1.49조 사상 최대 · 2026 CapEx 600~640억 달러 — 오늘 오후 실적 발표",
+   "url": "https://www.tradingview.com/news/tradingview:b9aeff60d735d:0-key-facts-tsmc-2330-q3-revenue-nt-1-49t-record-2026-capex-60-64b/",
+   "press": "TradingView",
+   "at": "2026-10-15 11:35",
+   "why": "반도체 칸·'AI 이익은 진짜' 논지의 판정 — 가이던스·CapEx 상향 여부가 7일 연속 하락을 끊을지",
+   "summary": "3Q 매출 NT$1.49조(월간 합계, 사상 최대) · 2026 CapEx 가이드 600~640억 달러(7월 15% 상향분) · 쟁점은 마진 하락·4Q 가이던스"
+  },
+  {
    "title": "[개장시황] 코스피·코스닥 6%대 급락…매도 사이드카 잇따라 발동",
    "url": "https://www.newspim.com/news/view/20261015000255",
    "press": "뉴스핌",
@@ -623,23 +639,7 @@
    "at": "2026-10-13 21:30",
    "why": "KBE 오름(#20261012-20)·금융 칸 — GS·씨티 상회와 달리 JPM은 신용비용 증가, 은행 실적이 '트레이딩 vs 신용'으로 갈림",
    "summary": "Seeking Alpha 요약: Q3 예상 미달, 신용비용 27억 달러 중 충당금 5.39억 달러 적립. 같은 날 씨티 매출 예상 상회(investing_kr), 다우는 은행주로 상승·나스닥은 메모리주 매도(yahoo/IBD)."
-  },
-  {
-   "title": "골드만삭스 3분기 EPS 17.01달러 — 예상 3.92달러 상회, 매출 186.8억 달러(+17.9억 상회)",
-   "url": "https://seekingalpha.com/news/4652394-goldman-sachs-gaap-eps-of-17_01-beats-by-3_92-revenue-of-18_68b-beats-by-1_79b",
-   "press": "Seeking Alpha",
-   "at": "2026-10-13 20:26",
-   "why": "KBE 오름(#20261012-20) 근거 — 다만 JPM 채권 트레이딩 미달·웰스파고 약세로 은행 업종은 엇갈림",
-   "summary": "GAAP EPS 17.01달러(예상 대비 +3.92), 매출 186.8억 달러(+17.9억). 같은 아침 JPM 채권 트레이딩 미달(bbg)·웰스파고 자본시장 수익 부진으로 S&P 선물은 마이너스 전환(investing)."
-  },
-  {
-   "title": "세계 1위 운용사 블랙록, 6년 만에 국채에 대한 생각을 바꿨다",
-   "url": "https://www.marketwatch.com/story/why-the-worlds-number-one-fund-manager-has-just-changed-its-mind-on-bonds-for-the-first-time-in-six-years-4b1b5490",
-   "press": "MarketWatch",
-   "at": "2026-10-13 20:28",
-   "why": "고금리 장기화 논지(0.72→0.68)와 현금·단기채 칸 — 금리 정점론에 대형 하우스뷰가 합류",
-   "summary": "블랙록이 6년 만에 국채에서 기회를 본다고 전환(요약문). 같은 날 월러 연준 이사 '국채금리 상승이 긴축 일을 일부 대신', WSJ '미·유로 금리 CPI 앞 하락'. 세부 비중 숫자는 미확인(유료)."
   }
  ],
- "at": "2026-10-15 10:35"
+ "at": "2026-10-15 11:35"
 }
