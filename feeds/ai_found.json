@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "워시 연준 의장, 10/16 IMF 연차총회(방콕) 연설 — 10월 회의 앞 마지막 발언",
+   "url": "https://www.roic.ai/news/fed-chairman-warsh-to-speak-at-imf-meetings-in-bangkok-on-october-16-10-08-2026",
+   "press": "ROIC.ai",
+   "at": "2026-10-15 12:35",
+   "why": "CPI 3.7% 직후 첫 연준 수장 발언 — 고금리 논지·현금·단기채 칸, 킥 쉼 해제 시점과 직결",
+   "summary": "10/16 IMF 방콕 연설 예정 · 10월 FOMC 앞 · 시장은 10월 인상 확률 한때 55%(gn_kr_macro)"
+  },
+  {
+   "title": "IEA 회원국, 비축유를 더 빨리 시장에 풀기로 — 디젤 우선",
+   "url": "https://oenergetice.cz/en/oil/oil-stocks-to-reach-the-market-faster-iea-members-decide",
+   "press": "oEnergetice",
+   "at": "2026-10-15 12:35",
+   "why": "에너지 칸·S-Oil #10 정제마진 근거 — 방출 속도·규모가 크면 크랙 스프레드 하방",
+   "summary": "IEA 이사회 10/15 · 1억 배럴 가속 방출(10/7 합의, fxstreet)에 디젤 우선 · 추가 규모는 미확인"
+  },
+  {
    "title": "JP모건: 이번 기술주 폭락은 7월과 다르다 — 개인 저가매수 소멸·숏스퀴즈 동력 고갈",
    "url": "https://wallstreetcn.com/articles/3783672",
    "press": "월스트리트견문(JP모건 인용)",
@@ -623,22 +639,6 @@
    "at": "2026-10-13 22:27",
    "why": "반도체 칸·하닉 #09·LRCX 대기 — 투매 원인(CXMT)에 대한 첫 반박 리포트",
    "summary": "CXMT 4F² 설계 진전 보도로 메모리 3사 급락한 날 반박 논리 등장. 마이크론은 미 장전 하락 연장(MarketWatch)."
-  },
-  {
-   "title": "웰스파고, 대출 손실 줄며 3분기 어닝 서프라이즈",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wWXZ1ZUhrRnhESURtemZEcldKN1ZsdExFU2lNazBKM1NTR1hyQVRJY1dlTDlCbHhnRUg0cXEtN2pmRTFSTDVIVmltWVZnSGlTN01IeDQtYlFnZm5H?oc=5",
-   "press": "뉴스1(구글뉴스)",
-   "at": "2026-10-13 22:22",
-   "why": "금융 칸·KBE #20261012-20 — JPM 신용비용 증가와 반대 신호, '신용 경고' 감시 완화",
-   "summary": "웰스파고 '고객 체력 탄탄', 대출 손실 감소로 3분기 예상 상회. JPM은 신용비용 27억$로 미달 — 은행 내부 갈림."
-  },
-  {
-   "title": "JPM 3분기 8-K — 예상 미달, 신용비용 27억 달러·충당금 5.39억 달러 적립",
-   "url": "https://www.sec.gov/Archives/edgar/data/0000019617/000162828026065582/a3q26erfexhibit991narrative.htm",
-   "press": "SEC(JPM 8-K)",
-   "at": "2026-10-13 21:30",
-   "why": "KBE 오름(#20261012-20)·금융 칸 — GS·씨티 상회와 달리 JPM은 신용비용 증가, 은행 실적이 '트레이딩 vs 신용'으로 갈림",
-   "summary": "Seeking Alpha 요약: Q3 예상 미달, 신용비용 27억 달러 중 충당금 5.39억 달러 적립. 같은 날 씨티 매출 예상 상회(investing_kr), 다우는 은행주로 상승·나스닥은 메모리주 매도(yahoo/IBD)."
   }
  ],
  "at": "2026-10-15 11:35"
