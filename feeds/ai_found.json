@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "반도체주 8거래일 연속 하락 — AI 거품 균열인가",
+   "url": "https://beincrypto.com/chip-stocks-fall-8-straight-days/",
+   "press": "BeInCrypto",
+   "at": "2026-10-17 01:40",
+   "why": "반도체 칸·한국 대형 반도체 진입 금지 논지 — 연속 하락 길이가 2008년 이후 최장(bbg_mkt 동시 보도)",
+   "summary": "필라델피아 반도체지수 8거래일 연속 하락. 블룸버그도 '2008년 이후 최장 연속 하락 앞둬'. 세부 하락폭은 원문 확인 필요(미확인)."
+  },
+  {
+   "title": "메모리주 또 약세장 진입 — 반도체 시총 손실 2.5조 달러 근접",
+   "url": "https://finance.yahoo.com/markets/article/memory-stocks-slide-into-another-bear-market-as-chip-losses-near-25-trillion-chart-of-the-day-100000060.html",
+   "press": "Yahoo Finance",
+   "at": "2026-10-17 01:40",
+   "why": "삼성·하이닉스(외국인 복귀 조건) — 같은 날 CXMT 메모리 가격 급등으로 흑자 전환(bbg_tech), 가격과 주가가 엇갈림",
+   "summary": "메모리주 고점 대비 20%↓ 약세장 재진입, 반도체 손실 약 2.5조$ 근접(제목 기준). CXMT 는 메모리 가격 급등으로 흑자 전환."
+  },
+  {
    "title": "코어위브 부도 우려에 급락 — CDS 1,194bp 사상 최고, 2032년 채권 수익률 15% 넘어",
    "url": "https://stockstotrade.com/news/coreweave-inc-crwv-news-2026_10_16-2/",
    "press": "StocksToTrade",
@@ -623,22 +639,6 @@
    "at": "2026-10-14 16:40",
    "why": "🎯 에너지 ★ SK이노(컵 기준가 −1%)·S-Oil 컵 돌파 — 정유 3Q 실적 상향의 숫자 근거",
    "summary": "DB증권 목표가 15→20만원 · 3Q 영업이익 추정 3.013조(1개월 컨센 2.78조 상회) · 2027 영업이익 전망 6.35~8.75조로 증권사별 차이 2.4조"
-  },
-  {
-   "title": "칼시 트레이더, 9월 CPI 뜨겁게 본다 — 전월 +0.4%↑ 90%, +0.6%↑는 망설임",
-   "url": "https://cryptobriefing.com/kalshi-traders-september-cpi-odds/",
-   "press": "Crypto Briefing",
-   "at": "2026-10-14 15:40",
-   "why": "오늘 21:30 CPI — 현금·단기채 칸(us10y 밴드)·고금리 논지·KBE/EWQ bets 판정 재료",
-   "summary": "칼시: 전월 +0.4%↑ 90%·+0.5%↑ 60%·+0.6%↑ 약 18% · 연율 3.5%↑ 84%·3.6%↑ 42% · 컨티뉴엄 전월 +0.6%, 연 3.4%→3.7% 예상(10/2 기준)"
-  },
-  {
-   "title": "외국인 13조 던지자 5일간 1,000p 빠졌다 — 코스피 장중 6,000 붕괴",
-   "url": "https://www.fnnews.com/news/202610131832520192",
-   "press": "파이낸셜뉴스",
-   "at": "2026-10-13 18:32",
-   "why": "한국 비중 확대 금지 논지·하닉 #09 — 10/14 반등(+1.55%)도 외국인 매도에 장중 소멸",
-   "summary": "5거래일 외국인 순매도 약 13조원·코스피 약 1,000p 하락 · 8월 이후 외국인 누적 45조원 매도(뉴스웨이 10/13)"
   }
  ],
  "at": "2026-10-17 00:35"
