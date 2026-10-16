@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "대만, 미국과 보조 맞춰 중국향 AI 칩 수출 제한 검토(블룸버그)",
+   "url": "https://ceomorningbrief.theedgemalaysia.com/article/2026/1165/World/19/806403",
+   "press": "The Edge Malaysia(블룸버그 인용)",
+   "at": "2026-10-16 15:35",
+   "why": "반도체 칸·TSMC — 대중 매출 제한은 대만 반도체 단기 악재, 한국 메모리엔 중립~상대 수혜 여부 확인",
+   "summary": "대만 정부가 미국 수출 규제와 맞추려 중국향 첨단 AI 칩 판매 제한을 검토. 미·대만 무역 합의의 일부로 거론. 시행 시기·범위는 미확인."
+  },
+  {
+   "title": "골드만: AI 주식 매도가 매일 헤지펀드를 때리고 있다",
+   "url": "https://cryptobriefing.com/goldman-sachs-record-low-ai-correlation/",
+   "press": "Crypto Briefing(골드만 프라임 인용)",
+   "at": "2026-10-16 15:35",
+   "why": "반도체·광통신 칸 — 하락 원인이 실적 아닌 쏠린 포지션 청산이라는 근거(AI 이익 논지 0.64)",
+   "summary": "골드만 프라임북: AI 롱 포지션 청산이 이어지며 AI·비AI 종목 상관이 사상 최저. 헤지펀드 디그로싱. 수치 세부는 원문 확인 필요(미확인)."
+  },
+  {
    "title": "블룸버그: 워시가 AI 낙관 지지하자 신흥국 주식 상승",
    "url": "https://www.bloomberg.com/news/articles/2026-10-16/emerging-market-stocks-gain-as-fed-s-warsh-backs-ai-optimism",
    "press": "Bloomberg",
@@ -623,22 +639,6 @@
    "at": "2026-10-14 08:40",
    "why": "⚡ KBE 은행 ETF bet(#20261012-20)의 논지 '트레이딩·IB 호실적' 확인 — 그러나 주가 반응은 갈림",
    "summary": "골드만 주식 트레이딩 64.4억$(+72%)·GBM 134.6억$(+32%) · JPM 기업·IB 매출 +14.4%지만 매출·순익 기대 미달 · 웰스 충당금 10.3억$(전년 6.8억$) · 씨티 마켓 61억$(+6%, 전분기比 −13%)"
-  },
-  {
-   "title": "ASML 3분기 실적 — 옵션 시장은 발표 뒤 ±6% 움직임 예상",
-   "url": "https://www.tipranks.com/news/asml-stock-options-traders-see-a-6-move-after-q3-earnings",
-   "press": "TipRanks",
-   "at": "2026-10-14 07:35",
-   "why": "장비 칸·LRCX 오름 bet(#20261013-20, 손절 −5%) 판정 이벤트 — 오늘 14:00 KST 발표",
-   "summary": "옵션 내재 변동 ±6%(제목 기준). 칩 6일째 약세 한가운데 나오는 장비 첫 숫자 — 수주가 장비주 되돌림/추가 하락을 가른다."
-  },
-  {
-   "title": "ASML 실적 미리보기 — 무엇을 볼까(수주·중국 매출·2027 가이던스)",
-   "url": "https://www.investing.com/news/stock-market-news/asml-earnings-preview-what-to-watch-when-q3-results-hit-93CH-4947303",
-   "press": "Investing.com",
-   "at": "2026-10-14 07:35",
-   "why": "하이닉스 #09·IMOS 🎯·장비 칸이 같이 보는 숫자 — CXMT 공포가 장비 수요엔 호재인지 확인",
-   "summary": "핵심 관전 포인트는 수주(order book)와 중국 비중·수출 규제 영향(본문 숫자 미확인)."
   }
  ],
  "at": "2026-10-16 14:35"
