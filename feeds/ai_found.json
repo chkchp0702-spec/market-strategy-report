@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "워시 연준 의장 'AI 길은 매우 울퉁불퉁, 결국 부에 매우 좋다'",
+   "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
+   "press": "CNBC",
+   "at": "2026-10-16 13:35",
+   "why": "현금·단기채 칸과 고금리 논지 — PPI 6.3% 뒤 첫 발언, 10월 FOMC 판단 재료",
+   "summary": "AI가 생산성보다 수요를 먼저 자극한다고 언급, 금리 결정은 예단하지 않는다(kimu_nim 인용 기사). 미국은 투자 급증 중(블룸버그). 인상 문은 닫지 않음."
+  },
+  {
+   "title": "코스닥 급락 하루 만에 장중 5% 급등 — 매수 사이드카 발동",
+   "url": "https://www.yna.co.kr/view/AKR20261016086100008",
+   "press": "연합뉴스",
+   "at": "2026-10-16 13:35",
+   "why": "국내 칸 진입 보류 해제 조건(첫 반등일 종가) — 외국인 동반 여부가 관건",
+   "summary": "16일 코스닥 장중 +5%↑로 프로그램매수 일시정지. 코스피도 3%대 반등, 외국인은 순매도 지속."
+  },
+  {
+   "title": "시티 '정부들, AI발 유동성 경색 속 달러 아닌 채권 발행으로 이동'",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbURrVzdKbi1YZzdaMUh1Si0tYm5qTGlWNDlDNUR0SnY5ejB3MmlYYi1MUXE0RzBuS0pyTDZtODNzU3JPeDU5Qy1md083MW5BVGpNODFxVk1Rd2dCbDA2bHdHMnd2ZFE4RXpPU1l5Ql9sZW1ibHZkcGhxeXhjQmFWQnBOb01KZ0w5dDNPZlZlbGoyODM4dGZ6NEVDTzhFcmRwdVNCenA3emozdS10Q2ZGaDlBSkh3emJyNzZqQjhFQ0E2SnI5WHc?oc=5",
+   "press": "Reuters",
+   "at": "2026-10-16 13:35",
+   "why": "AI 차입(크레딧) 논지·달러/위안 bet — AI 채권 발행이 달러 유동성을 빨아들인다는 은행 쪽 증언",
+   "summary": "AI 기업 대규모 달러채 발행으로 달러 조달이 빡빡해지자 각국 정부가 유로·엔 등 비달러 채권으로 이동(시티 은행가). 숫자 미확인."
+  },
+  {
    "title": "골드만 '한국 AI주 매도 과도' — 코스피 12,000 목표 유지, 선행 PER 5.1배",
    "url": "https://www.hl.co.uk/news/goldman-says-koreas-ai-stock-selloff-has-gone-too-far-doubles-down-on-bull-case",
    "press": "Reuters via HL",
@@ -615,30 +639,6 @@
    "at": "2026-10-14 06:35",
    "why": "고금리 장기화 논지·현금·단기채 칸 판정(오늘 밤 21:30 KST 발표) — 반도체·KBE 열린 bets 방향도 좌우",
    "summary": "컨센서스 헤드라인 전년비 3.7%(8월 3.4%). 클리블랜드 연은 나우캐스트 헤드라인 m/m 0.53%·근원 m/m 0.20%·근원 y/y 2.39%. 유가 주도 헤드라인↑, 근원은 안정 예상."
-  },
-  {
-   "title": "사우디 아람코 본사, 후티 공격 의심 피격",
-   "url": "https://www.rte.ie/news/world/2026/1013/1595258-saudi-houthis-yemen/",
-   "press": "RTE (FT 피드 동시 보도)",
-   "at": "2026-10-14 05:35",
-   "why": "브렌트 106달러대 유가 위험 재부각 — 9104.T 미쓰이OSK(☕ 컵 눈 83.1) 운임 재료·에너지 칸",
-   "summary": "후티 '사우디 공습에 석유회사 2명 사망' 주장, 사우디는 사나 공습·후티는 석유시설 보복 위협(10/13). 브렌트 106.07(−0.5%, 피격 보도 전 종가 기준)."
-  },
-  {
-   "title": "윌리엄스 뉴욕 연은 총재 '2027년엔 인상 불필요할 수도' — 시장 가격과 엇갈려",
-   "url": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html",
-   "press": "CNBC",
-   "at": "2026-10-14 05:35",
-   "why": "'고금리 장기화' 테제 반대 근거 — 연내 1회 인상 뒤 멈춤 시사, CPI 전 금리 소폭 하락",
-   "summary": "연내 추가 인상은 합리적이나 2027년 추가 인상은 필요 없을 수도. 같은 날 콜린스는 '연내 인상 가능성'. 미 10년 5.219%(−2.5bp)."
-  },
-  {
-   "title": "골드만, 다음 연준 인상 전망 10월→12월로 늦춤",
-   "url": "https://investinglive.com/central-banks/goldman-sachs-moves-its-call-for-the-next-fed-rate-hike-to-december-from-october/",
-   "press": "investingLive",
-   "at": "2026-10-14 05:35",
-   "why": "금리 정점·인상 시점 판단 — 단기채·현금 칸과 KBE(#20261012-20) 금리 민감도",
-   "summary": "골드만이 다음 인상 시점을 12월로 이동(날짜 미확인 — 원문 확인 필요). 밤 9월 CPI 가 시점 판정."
   }
  ],
  "at": "2026-10-16 11:35"
