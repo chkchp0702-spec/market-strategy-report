@@ -1,6 +1,6 @@
 {
- "last_review": "2026-10-16 22:35",
- "summary": "미 개장 앞 선물 보합 — 워시가 10월 인상 신호를 피하자 달러 급락(원/달러 1,331원 2년 최저)·국채 금리 소폭 반등. 유럽은 8월 이후 최고의 주, 중국은 국가대 매수로 A주 방어. 엑슨 정제 이익 급증 예고(디젤 급등)·BofA 시장 폭 악화 경고로 기술주는 여전히 눌림.",
+ "last_review": "2026-10-16 23:35",
+ "summary": "미국장 혼조 출발(나스닥 −0.2%) — 넷플릭스 −25%·코어위브 여진으로 기술주 약세, 헬스케어·다우는 버팀. 워시 발언 뒤 10월 인상 확률 28→15%로 낮아졌지만 9월 수입물가 +1.1%로 물가 부담은 남음. 코스피는 외국인 9거래일 만에 순매수 전환하며 2% 반등.",
  "regime": "중립 시험(국내 — 반등했지만 종가가 장중 상승폭 절반 못 지킴) / 중립(미국 — 금리 하락·AI→방어주 회전)",
  "theses": [
   {
@@ -2120,6 +2120,26 @@
    "why": "신호와 겹치는 재료 없음 — 엑슨 정제 호조는 SK이노(focus 10/14·컵 눈 10/12)와 겹치나 러 디젤 수출 재개로 S-Oil 10/16 손절 직후라 관찰만",
    "status": "없음",
    "res": null
+  },
+  {
+   "id": "20261016-23",
+   "made": "2026-10-16 23:35",
+   "kind": "종목",
+   "t": "ERIC",
+   "name": "에릭슨(ADR)",
+   "dir": "오름",
+   "entry": null,
+   "entry_rule": "10/16 미국 종가로 확정(이 세션 시세 조회 막힘 — bets_score 자동 계산)",
+   "target": "entry +6%",
+   "stop": "entry −4%",
+   "horizon": "2주",
+   "why": "10/15 3분기 매출 예상 상회·주가 급등, 부품비로 순이익 −49%지만 가격 인상 예고(https://qz.com/ericsson-stock-earnings-beat-network-demand-101526 · https://www.ericsson.com/en/press-releases/2026/10/ericsson-reports-third-quarter-results-2026) · wsj 'Ericsson Shares Surge on Strong Sales of Network Gear'(피드 10/16)",
+   "sig": "🧪 PEAD 10/15 (kick_cands ERIC|2026-10-15, score 74)",
+   "edge": "시장은 순이익 급감 헤드라인에 반쯤 할인 — 가격 인상이 다음 분기 마진으로 넘어오는 건 아직 가격에 덜 들어감(실적 뒤 표류)",
+   "src": "스캐너",
+   "status": "열림",
+   "res": null,
+   "size": "0.5배(갭 뒤 추격 — 첫날 급등분 되돌림 위험)"
   }
  ],
  "skips": [

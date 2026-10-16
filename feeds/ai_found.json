@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "에릭슨 3분기 매출 서프라이즈로 주가 급등 — 부품비로 순이익 −49%, 가격 인상 예고",
+   "url": "https://qz.com/ericsson-stock-earnings-beat-network-demand-101526",
+   "press": "Quartz",
+   "at": "2026-10-16 23:35",
+   "why": "🧪 PEAD 신호 ERIC(kick_cands 10/15, 74)와 겹침 — 실적 뒤 표류(드리프트) 시험 bet 근거",
+   "summary": "10/15 에릭슨 3분기 매출 예상 상회·네트워크 장비 수요 강세로 주가 급등. AI발 부품비 상승으로 순이익은 급감했지만 가격 인상 예고."
+  },
+  {
+   "title": "에릭슨 3분기 실적 원문 (회사 발표)",
+   "url": "https://www.ericsson.com/en/press-releases/2026/10/ericsson-reports-third-quarter-results-2026",
+   "press": "Ericsson",
+   "at": "2026-10-16 23:35",
+   "why": "ERIC bet(#20261016-23) 숫자 확인용 원문",
+   "summary": "2026년 3분기 실적 발표(10/15). 매출 성장·원가 압박·주주환원 언급 — 세부 숫자는 원문 확인."
+  },
+  {
    "title": "다우 선물 +145P — 워시 금리 방향 회피·테슬라 로드스터, 개장 전 5가지",
    "url": "https://invezz.com/news/2026/10/16/dow-futures-rise-145-points-5-things-to-know-before-wall-street-opens-on-oct-16/",
    "press": "Invezz",
@@ -623,23 +639,7 @@
    "at": "2026-10-14 11:38",
    "why": "고금리 논지·현금 칸 판정 이벤트(21:30 CPI) 기준 숫자",
    "summary": "9월 CPI 헤드라인 3.6% 예상·근원 0.2% m/m. 발표 전 CME 10월 인상 확률 22%. 미 10년 5.221%·브렌트 106.6·달러지수 102.17."
-  },
-  {
-   "title": "후티, 리야드 인근 아람코 타격 주장 — 연기 피어올라",
-   "url": "https://ground.news/daily-briefing/12358a54-6f74-4e6b-8bc6-11f8def8378b",
-   "press": "Ground News",
-   "at": "2026-10-14 13:35",
-   "why": "🎯 에너지 집중·S-Oil 컵 대기(#20261014-10)와 직결 — 브렌트 100 위 유지 재료",
-   "summary": "후티가 리야드 인근 아람코 시설 타격을 주장, 사우디는 보복 경고. 피해 규모는 미확인."
-  },
-  {
-   "title": "중국 9월 수출 36.3% 급증·수입 31% — 무역 재조정 압력 커져",
-   "url": "https://www.news4jax.com/business/2026/10/14/chinas-exports-surge-363-in-september-as-pressure-ramps-up-to-rebalance-trade/",
-   "press": "AP",
-   "at": "2026-10-14 12:35",
-   "why": "AI 이익 논지·반도체 칸 — 아시아 하드웨어 수요가 숫자로 확인, ASML·CPI 앞 반도체 되돌림 근거",
-   "summary": "9월 수출 +36.3% y/y, 수입 +31.0%. 2월 이후 가장 빠른 증가. 같은 날 PPI +5.0%로 물가 압력도 동반."
   }
  ],
- "at": "2026-10-16 20:35"
+ "at": "2026-10-16 23:35"
 }
