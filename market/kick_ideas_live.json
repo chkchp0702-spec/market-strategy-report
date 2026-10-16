@@ -1,38 +1,49 @@
 {
-"at": "2026-10-15 10:31",
+"at": "2026-10-16 09:28",
 "signals": [
+{
+"src": "pead",
+"code": "ERIC",
+"name": "Ericsson - American Depositary Shares each representing 1 underlying Class B sha",
+"mkt": "US",
+"d": "2026-10-15",
+"vr": 4.8,
+"gap": 11.2,
+"px": 10.71,
+"score": 24.0
+},
 {
 "src": "dip",
 "code": "QQQ",
 "name": "QQQ",
 "mkt": "US",
-"d": "2026-10-14",
-"px": 728.95,
+"d": "2026-10-15",
+"px": 728.0,
 "score": 0,
-"rsi2": 3.3
+"rsi2": 3.0
 }
 ],
 "state": {
 "index_KR": {
 "sym": "^KS11",
 "above200": false,
-"d": "2026-10-15"
+"d": "2026-10-16"
 },
 "scanned_KR": 2613,
 "us_source": "US.json 전 종목 5937 + ETF 4899 (2026-10-15)",
 "index_US": {
 "sym": "^GSPC",
 "above200": true,
-"d": "2026-10-14"
+"d": "2026-10-15"
 },
-"scanned_US": 9121,
+"scanned_US": 9123,
 "dip": {
 "sym": "QQQ",
-"d": "2026-10-14",
-"close": 728.95,
-"ma200": 672.65,
-"ma5": 743.48,
-"rsi2": 3.3,
+"d": "2026-10-15",
+"close": 728.0,
+"ma200": 673.2,
+"ma5": 739.57,
+"rsi2": 3.0,
 "th": 5.0,
 "signal": true
 },
@@ -42,74 +53,74 @@
 "GLD": {
 "on": false,
 "since": "2026-03-23",
-"close": 375.99,
+"close": 382.71,
 "hi": 429.42,
-"lo": 373.71,
-"d": "2026-10-14"
+"lo": 373.36,
+"d": "2026-10-15"
 },
 "USO": {
 "on": true,
 "since": "2026-09-10",
-"close": 153.56,
+"close": 157.31,
 "hi": 163.35,
 "lo": 113.86,
-"d": "2026-10-14"
+"d": "2026-10-15"
 },
 "TLT": {
 "on": false,
 "since": null,
-"close": 78.89,
+"close": 79.97,
 "hi": 86.44,
 "lo": 76.43,
-"d": "2026-10-14"
+"d": "2026-10-15"
 },
 "UUP": {
 "on": true,
 "since": "2026-03-12",
-"close": 29.12,
-"hi": 29.14,
+"close": 29.0,
+"hi": 29.25,
 "lo": 27.87,
-"d": "2026-10-14"
+"d": "2026-10-15"
 },
 "SPY": {
 "on": true,
 "since": "2026-04-15",
-"close": 769.6,
+"close": 771.79,
 "hi": 781.62,
 "lo": 747.74,
-"d": "2026-10-14"
+"d": "2026-10-15"
 },
 "QQQ": {
 "on": true,
 "since": "2026-09-22",
-"close": 728.95,
+"close": 728.0,
 "hi": 762.86,
 "lo": 699.27,
-"d": "2026-10-14"
+"d": "2026-10-15"
 },
 "EFA": {
 "on": true,
 "since": "2026-07-06",
-"close": 102.75,
+"close": 103.67,
 "hi": 108.89,
 "lo": 102.0,
-"d": "2026-10-14"
+"d": "2026-10-15"
 },
 "EEM": {
 "on": false,
 "since": "2026-07-29",
-"close": 64.39,
+"close": 63.96,
 "hi": 71.57,
-"lo": 64.47,
-"d": "2026-10-14"
+"lo": 64.3,
+"d": "2026-10-15"
 },
 "DBC": {
 "on": true,
 "since": "2026-09-01",
-"close": 33.31,
+"close": 33.3,
 "hi": 33.78,
-"lo": 28.2,
-"d": "2026-10-14"
+"lo": 28.32,
+"d": "2026-10-15"
 }
 }
 }
@@ -147,6 +158,27 @@
 "px": 728.95,
 "score": 0,
 "rsi2": 3.3
+},
+{
+"src": "dip",
+"code": "QQQ",
+"name": "QQQ",
+"mkt": "US",
+"d": "2026-10-15",
+"px": 728.0,
+"score": 0,
+"rsi2": 3.0
+},
+{
+"src": "pead",
+"code": "ERIC",
+"name": "Ericsson - American Depositary Shares each representing 1 underlying Class B sha",
+"mkt": "US",
+"d": "2026-10-15",
+"vr": 4.8,
+"gap": 11.2,
+"px": 10.71,
+"score": 24.0
 }
 ]
 }
