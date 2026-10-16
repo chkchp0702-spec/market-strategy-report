@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "블룸버그: 워시가 AI 낙관 지지하자 신흥국 주식 상승",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/emerging-market-stocks-gain-as-fed-s-warsh-backs-ai-optimism",
+   "press": "Bloomberg",
+   "at": "2026-10-16 14:35",
+   "why": "반도체 칸·한국 반등 — 워시 발언이 10월 동결 기대를 키우며 신흥국·AI 반등을 받침",
+   "summary": "워시 의장이 AI를 긍정적 공급 충격으로 보며 10월 금리 신호는 주지 않음. 신흥국 주식 상승, 코스피 +4%대·코스닥 매수 사이드카."
+  },
+  {
+   "title": "워시, 10월 금리 신호 거부 '앞으로 결정을 미리 알리지 않겠다'",
+   "url": "https://www.actionforex.com/live-comments/657672-feds-warsh-declines-october-rate-signal-says-fed-will-no-longer-preview-decisions/",
+   "press": "ActionForex",
+   "at": "2026-10-16 14:35",
+   "why": "현금·단기채 칸·고금리 논지 — 포워드 가이던스 폐기는 FOMC 당일 변동성↑",
+   "summary": "연준이 회의 결과를 사전에 시사하지 않겠다는 방침. 미 10년 5.09% 밴드 유지."
+  },
+  {
    "title": "워시 연준 의장 'AI 길은 매우 울퉁불퉁, 결국 부에 매우 좋다'",
    "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
    "press": "CNBC",
@@ -623,23 +639,7 @@
    "at": "2026-10-14 07:35",
    "why": "하이닉스 #09·IMOS 🎯·장비 칸이 같이 보는 숫자 — CXMT 공포가 장비 수요엔 호재인지 확인",
    "summary": "핵심 관전 포인트는 수주(order book)와 중국 비중·수출 규제 영향(본문 숫자 미확인)."
-  },
-  {
-   "title": "씨티 'KLA 목표가 하향 — 반도체 장비 지출 제한' 에 KLA −3%",
-   "url": "https://www.tipranks.com/news/the-fly/kla-corp-price-target-lowered-to-800-from-910-at-citi",
-   "press": "TheFly/TipRanks",
-   "at": "2026-10-14 07:35",
-   "why": "LRCX #20 반대 근거 — 도이체 상향(10/13) vs 씨티 하향, 장비 IB 의견 갈림",
-   "summary": "씨티 KLA 목표가 910→800(제목 기준, 날짜 미확인)·이데일리 '[美특징주] KLA 3% 하락…씨티 장비 지출 제한'(10/14)."
-  },
-  {
-   "title": "미 9월 CPI 미리보기 — 헤드라인 3.7%·근원 0.2% 전망",
-   "url": "https://admiralmarkets.com/analytics/traders-blog/us-cpi-preview-september-2026-forecasts-and-the-core-cpi-outlook",
-   "press": "Admiral Markets",
-   "at": "2026-10-14 06:35",
-   "why": "고금리 장기화 논지·현금·단기채 칸 판정(오늘 밤 21:30 KST 발표) — 반도체·KBE 열린 bets 방향도 좌우",
-   "summary": "컨센서스 헤드라인 전년비 3.7%(8월 3.4%). 클리블랜드 연은 나우캐스트 헤드라인 m/m 0.53%·근원 m/m 0.20%·근원 y/y 2.39%. 유가 주도 헤드라인↑, 근원은 안정 예상."
   }
  ],
- "at": "2026-10-16 11:35"
+ "at": "2026-10-16 14:35"
 }
