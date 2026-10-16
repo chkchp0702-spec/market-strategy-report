@@ -1,6 +1,38 @@
 {
  "items": [
   {
+   "title": "IEA, 미방출 비축유 1억 배럴 방출 완료 합의 — 디젤 2천만 배럴 이상 포함",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-15/iea-agrees-to-release-of-outstanding-100-million-barrels-of-oil",
+   "press": "블룸버그",
+   "at": "2026-10-16 06:19",
+   "why": "🎯 에너지 칸·S-Oil #10 정제마진 논지에 역풍",
+   "summary": "3월 개입분 중 남은 1억 배럴 방출을 회원국이 완료하기로 합의. 로이터는 디젤 2천만 배럴 이상 포함·방출 가속이라고 보도."
+  },
+  {
+   "title": "크렘린 \"트럼프와 합의 후 러시아 디젤 수출 재개\"",
+   "url": "https://investinglive.com/commodities/more-on-russia-s-diesel-u-turn-500-000-tons-cleared-for-export-after-trump-putin-deal/",
+   "press": "로이터·investingLive",
+   "at": "2026-10-16 07:23",
+   "why": "디젤 공급 증가 → 정제마진(S-Oil·SK이노) 상단 제한",
+   "summary": "러시아가 디젤 수출을 재개, 50만 톤 수출 허용. 10/9 트럼프 발표 뒤 NYMEX 디젤 크랙 약세(S&P Global)."
+  },
+  {
+   "title": "경제학자들 \"뜨거운 PPI — 연준 일 안 끝났다, 2주 뒤 인상 위험\"",
+   "url": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html",
+   "press": "CNBC",
+   "at": "2026-10-16 00:56",
+   "why": "고금리 논지·현금·단기채 칸 — 10월 FOMC 인상 위험",
+   "summary": "9월 PPI +1.3% m/m, 전년비 6.3%(예상 5.3%). 그래도 미 10년은 5.08%로 하락 — 성장 우려 피난 매수."
+  },
+  {
+   "title": "월가 \"급락 후 무조건 올랐다\" — 코스피·메모리 저가매수 기회",
+   "url": "https://www.hankyung.com/article/202610165257i",
+   "press": "한국경제",
+   "at": "2026-10-16 09:02",
+   "why": "반도체 칸·첫 반등일 판단 — 외국계 시각(IB 공통 '디리스킹' 진단)",
+   "summary": "코스피 7거래일 −21% 뒤 월가 저가매수 의견. KB '삼전·하닉 급락 과도, 실적 개선'·유안타 '실적 아닌 매수 공백' 동조."
+  },
+  {
    "title": "골드만삭스 자금흐름팀: '아무도 들고 싶어 하지 않는 시장'이 진입 신호 — 자사주 매입·개인·외국인 세 매수 동력 곧 복귀",
    "url": "https://wallstreetcn.com/articles/3783671",
    "press": "월스트리트견문",
@@ -607,39 +639,7 @@
    "at": "2026-10-14 02:34",
    "why": "은행 칸·KBE bet 판정 재료 — 숫자는 좋은데 가격 반응은 나쁨",
    "summary": "분기 매출 10년 만의 최대. 시장은 실적보다 금리·신용 위험을 더 봄."
-  },
-  {
-   "title": "이란, 선박 공격 확대 — 원유 수출 회복 위협",
-   "url": "https://www.insurancejournal.com/news/international/2026/10/13/888757.htm",
-   "press": "Bloomberg(Insurance Journal 전재)",
-   "at": "2026-10-14 02:34",
-   "why": "해운(☕ 9104.T 미쓰이OSK 눈 신호)·유가·고금리 테제와 연결 — 운임·보험료 상승 쪽",
-   "summary": "호르무즈 해협 선박 공격 급증, 이란 원유 수출 10월 '제로'(investing_kr) · 달러 18개월 고점 유지."
-  },
-  {
-   "title": "어플라이드 머티리얼즈, 인베스터데이 중 하락 — 광학 검사 시장 확대 제시에도 칩 장비 약세",
-   "url": "https://seekingalpha.com/news/4652547-applied-materials-drops-during-investor-day-as-it-eyes-growing-optical-inspection-market",
-   "press": "Seeking Alpha",
-   "at": "2026-10-14 01:30",
-   "why": "열린 LRCX 오름 bets(#20261013-20)와 같은 장비 칸 — 장비주가 CXMT 메모리 쇼크에 함께 눌림",
-   "summary": "AMAT 10/13 시가 −3.4%대(tradingkey) 출발, 인베스터데이에서 광학 검사 시장 성장 제시. 메모리 투매가 장비로 번지는 중."
-  },
-  {
-   "title": "ASML 3분기 실적 10/14 01:00 EDT(한국 14:00) — 옵션은 실적 후 ±6% 움직임 반영",
-   "url": "https://www.newsquawk.com/headlines/earnings-preview-asml-asml-na-earnings-set-to-be-announced-on-14th-october-at-0600-bst--0100-edt-investors-looking-for-confidence-to-ease-recent-woes-within-the-industry",
-   "press": "Newsquawk · TipRanks",
-   "at": "2026-10-14 01:30",
-   "why": "장비 칸·LRCX bets 판정 이벤트 — 수주가 CXMT 공포를 덮는지",
-   "summary": "발표 10/14 06:00 BST. 옵션 내재 변동 약 ±6%(https://www.tipranks.com/news/asml-stock-options-traders-see-a-6-move-after-q3-earnings). 시장은 수주·2027 가이던스에 주목."
-  },
-  {
-   "title": "JP모건, 드문 이익 미스 — 딜·채권 트레이딩 둔화(씨티와 같은 FICC 부진)",
-   "url": "https://americanbanker.com/articles/jpmorgans-shares-slide-as-ficc-miss-echoes-citis-results",
-   "press": "American Banker",
-   "at": "2026-10-14 00:30",
-   "why": "열린 KBE(은행 ETF) 오름 bets 의 근거(은행 실적 호조)가 흔들림 — 대형 4사 중 첫 미스",
-   "summary": "JP모건 3분기 매출·이익 예상 하회, FICC 트레이딩 부진으로 주가 하락. 같은 날 GS·웰스파고는 서프라이즈 — 은행 실적이 갈리기 시작."
   }
  ],
- "at": "2026-10-15 11:35"
+ "at": "2026-10-16 09:35"
 }
