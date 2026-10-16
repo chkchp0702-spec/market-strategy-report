@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "씨티: 미 재무부, 장기 국채 발행 축소 경고 — 전략 전환 신호",
+   "url": "https://www.itiger.com/news/1160804926",
+   "press": "Tiger Brokers",
+   "at": "2026-10-17 08:35",
+   "why": "고금리 장기화 논지(10년 5.0~5.3% 밴드) 반대 근거 — 장기물 공급이 줄면 10년 5.00 하향 이탈 가능, 포트 채권 칸 듀레이션 판단",
+   "summary": "씨티가 재무부의 장기물(쿠폰) 발행 축소 가능성을 제기(피드 HANAchina/70557 동일). 구체 축소 규모·시점은 미확인 — 11월 초 분기 리펀딩 발표가 판정."
+  },
+  {
+   "title": "브렌트 110달러 돌파 — 중동 긴장 고조",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil/news/535310",
+   "press": "Trading Economics",
+   "at": "2026-10-17 08:35",
+   "why": "CNQ(☕ cup_eye 10/16, bets 열림) 와 에너지 칸 — 유가 5개월 고점, 동시에 수입물가 상승으로 인상 위험 재점화",
+   "summary": "브렌트 110달러 상회(FT '5개월 고점'). 러시아 랴잔 정유소 드론 피격으로 1개 공정 중단(로이터). 정확한 종가는 미확인."
+  },
+  {
    "title": "CXMT 상반기 매출 1,503억 위안·조정 순이익 788억 위안(전년 −24억) — 메모리 가격 급등 확인",
    "url": "https://www.newsquawk.com/headlines/cxmt-688825-cs-h1-2026-cny-revenue-1503bln-prev-154bln-yy-",
    "press": "Newsquawk",
@@ -623,22 +639,6 @@
    "at": "2026-10-14 22:20",
    "why": "고금리 논지·현금/단기채 칸·LRCX #20(장비주 금리 민감)과 직결",
    "summary": "헤드라인 전년비 3.7%(예상 3.6%·전월 3.4%), 근원 전월비 0.3% 상회. 10월 FOMC 인상 확률 22%→46%."
-  },
-  {
-   "title": "바클레이스, 델·HPE·넷앱 '비중중립'으로 하향 — 주가 하락",
-   "url": "https://seekingalpha.com/news/4652883-dell-hpe-netapp-slide-after-barclays-downgrades-trio-to-equal-weight?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-   "press": "Seeking Alpha",
-   "at": "2026-10-14 22:23",
-   "why": "서버·스토리지 하드웨어 역풍 — 반도체·광통신 칸 수요 쪽 확인 필요",
-   "summary": "델·HPE·넷앱 3사 동시 '비중중립' 하향, 세 종목 하락. 반도체 약세 속 S&P500 7,807 보합권."
-  },
-  {
-   "title": "후티, 사우디 공격 확대 — 아람코 본사 피격",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-14/saudi-aramco-headquarters-hit-in-houthi-attack-video",
-   "press": "Bloomberg",
-   "at": "2026-10-14 21:34",
-   "why": "에너지 칸·S-Oil #10·SK이노 #16(☕ 컵 대기) 찬성 재료 — 공급 차질 프리미엄",
-   "summary": "후티가 미사일·드론으로 사우디 여러 곳을 공격, 아람코 본사 타격. 피해 규모 미확인."
   }
  ],
  "at": "2026-10-17 05:35"
