@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "오픈AI, 투자자에 매출 약 500억 달러 — 앞선 보도보다 200억 달러 적어",
+   "url": "https://aiweekly.co/alerts/openai-tells-backers-revenue-nears-50b-20b-below-prior-report",
+   "press": "AI Weekly",
+   "at": "2026-10-17 04:35",
+   "why": "AI 이익·AI 차입 논지의 수요 원천 숫자 — 반도체 칸·QQQ dip 신호와 직결",
+   "summary": "오픈AI 매출 런레이트 약 500억$로 시장 기대(약 700억$) 하회 보도. 10/16 엔비디아 시총 약 2,000억$ 감소(yahoo), 나스닥 −2%."
+  },
+  {
+   "title": "브렌트유 4월 이후 처음 배럴당 111달러 넘어",
+   "url": "https://tass.com/economy/2123261/amp",
+   "press": "TASS",
+   "at": "2026-10-17 04:35",
+   "why": "에너지 칸·CNQ(☕ cup_eye 10/16) bet 근거 — 공급 위험 재부각",
+   "summary": "ICE 브렌트 111달러 돌파(블룸버그는 '5월 이후 첫 110달러'). 같은 날 WTI 101달러대, 기술주에서 에너지로 회전."
+  },
+  {
    "title": "셈테크 8-K — 3분기 전망 상향, FY2030 매출 32억 달러 경로(AI 데이터센터)",
    "url": "https://www.sec.gov/Archives/edgar/data/0000088941/000008894126000041/smtc-20261015.htm",
    "press": "SEC EDGAR",
@@ -623,23 +639,7 @@
    "at": "2026-10-14 19:30",
    "why": "EWQ(프랑스) 역발상 bet — BofA 설문 '프랑스 회피 사상 최대' 직후 IB 지수 목표 상향",
    "summary": "MSCI 유럽 목표 2,600→2,700, 약 11% 상승 여력(2027 중반) · 근거는 강한 3Q 실적 전망(investing_en 같은 날)"
-  },
-  {
-   "title": "ECB 전문가 「EU 연료값 사상 최고, 디젤 마진은 10월 정점」",
-   "url": "https://www.euronews.com/business/2026/09/19/eu-fuel-prices-hit-records-as-ecb-experts-see-diesel-margins-peak-in-october",
-   "press": "Euronews",
-   "at": "2026-10-14 18:35",
-   "why": "S-Oil(#10 10/15 진입 대기)·SK이노(#16) 정제마진 논지의 반대 근거 — 마진 정점론",
-   "summary": "ECB 전문가들이 디젤 마진이 10월에 정점을 찍을 것으로 봄 · 같은 날 FT '유럽 정유 마진 붕괴, 원유 투입비 급등'(10/14)과 같은 방향"
-  },
-  {
-   "title": "이익은 강한데 주가는 하락 — 미 은행 실적 첫날이 메모리칩 급락과 겹침",
-   "url": "https://mitrade.com/insights/shares-analysis/us-stocks/bank-earnings-day-one-memory-chip-rout-20261014J1406",
-   "press": "Mitrade",
-   "at": "2026-10-14 18:35",
-   "why": "KBE(#20261012-20) bet — 실적 호조에도 주가 약세, BAC·MS·C 결과가 기한 전 정리 판단 기준",
-   "summary": "은행 실적 첫날: 순이익 호조에도 주가 하락 · CPI·ASML 실적 대기(세부 숫자 미확인)"
   }
  ],
- "at": "2026-10-17 03:35"
+ "at": "2026-10-17 04:35"
 }
