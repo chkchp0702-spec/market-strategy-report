@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "트루이스트 3Q 실적 — 대출 매각 손실로 예상 하회, 라이트스트림 칼라일에 매각(8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000092230/000009223026000108/ex991-3q26.htm",
+   "press": "SEC 8-K(트루이스트)",
+   "at": "2026-10-16 20:35",
+   "why": "열린 bet KBE(은행 ETF, 기한 10/19) — 지역은행 실적이 대형은행과 갈림",
+   "summary": "트루이스트 3Q 이익 컨센 미달(대출 매각 손실, sa_news). 칼라일이 소비자 대출 77억달러 인수(bbg_mkt). 같은 날 시티즌 매출 부진에 프리마켓 −5%대."
+  },
+  {
+   "title": "코어위브 채권 급락, 신용시장 전반 스트레스 우려 키워",
+   "url": "https://www.itiger.com/hans/news/2675032245",
+   "press": "Barron's(타이거 전재)",
+   "at": "2026-10-16 20:35",
+   "why": "논지 'AI 차입이 다음 약한 고리'(0.78) — AI 인프라·반도체 칸 위험 신호",
+   "summary": "CNBC '코어위브 CDS 부도 경계 수준'(10/16). 창업자 3인 상장 뒤 33억달러 주식 매각(gn_kr_bbg). ARK 우드는 '수요가 부채 공포를 이긴다'고 반박."
+  },
+  {
+   "title": "BofA 하트넷 — 가을 스태그플레이션 경고: AI 거품·경유 쇼크·금리 급등이 겹친다",
+   "url": "https://www.itiger.com/news/1148054191",
+   "press": "타이거(BofA 플로 쇼 요약)",
+   "at": "2026-10-16 20:35",
+   "why": "고금리 논지·킥 국면 필터 — '위험 회피 유지' 권고, 주간 펀드 흐름 근거",
+   "summary": "하트넷 '높은 실질금리와 AI 변동성이 주식을 위협, 위험 회피 유지'(investing_en 10/16). IEA 비축 경유 2,000만 배럴 방출(sedaily 10/16)과 같은 축."
+  },
+  {
    "title": "중국, 자국 AI 모델·칩 설계·학습데이터 수출 통제 검토(FT)",
    "url": "https://thenextweb.com/news/china-ai-model-chip-export-controls-ft-report",
    "press": "The Next Web(FT 인용)",
@@ -615,31 +639,7 @@
    "at": "2026-10-14 11:30",
    "why": "🧠 고금리 장기화 논지·⚡ 에너지 칸 — 유가발 물가가 공장 출고가까지 번짐, 오늘 밤 미 CPI 앞 위험",
    "summary": "중국 9월 PPI +5.0% YoY(연료비 주도, 예상 상회) · CPI +0.9%로 오름폭 확대 · 블룸버그 '100달러 유가가 생산자물가를 흔들었다'"
-  },
-  {
-   "title": "아주경제: 코스피 소폭 반등 — 외국인은 계속 판다",
-   "url": "https://www.ajupress.com/view/20261014102758752",
-   "press": "아주경제",
-   "at": "2026-10-14 11:30",
-   "why": "🇰🇷 한국 비중 확대 금지 논지·하닉 bet #20261013-09 — 장초반 외국인 순매수가 다시 순매도로 반전",
-   "summary": "5일 급락 뒤 반등했지만 외국인 매도 지속 · 11:22 외국인 −2,793억, 코스피 +1.43%(6,121) · 코스닥 −0.7%"
-  },
-  {
-   "title": "블룸버그: 중동 공격 확대에 원유 흐름 불확실 — 유가 상승",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-13/latest-oil-market-news-and-analysis-for-oct-14",
-   "press": "Bloomberg",
-   "at": "2026-10-14 10:40",
-   "why": "⚡ 에너지 칸·S-Oil(🎯 집중, 컵 기준가 −1.2%)·SK이노(★ 컵) — 정유 재고평가이익 재료",
-   "summary": "후티의 사우디 공격 확대로 중동 원유 흐름 불확실성↑ · 브렌트 장중 107달러 돌파(HANAchina 10/14) · 미 봉쇄로 이란 해상 수출 '제로'(HANAchina)"
-  },
-  {
-   "title": "트레이딩키: 후티 사우디 공항 공격 뒤 브렌트 107달러 돌파 — 골드만 '중동 공급 위험 지속'",
-   "url": "https://www.tradingkey.com/analysis/commodities/oil/262212185-brent-oil-price-hormuz-houthi-attack-riyadh-goldman-forecast-tradingkey",
-   "press": "TradingKey",
-   "at": "2026-10-14 10:40",
-   "why": "9104.T(☕ 눈)·HMM 해운 운임과 정유주 — 골드만 공급 위험 판단",
-   "summary": "브렌트 107달러 상회 · 골드만 중동 공급 위험 지속 전망(기사 게시 시각 미확인)"
   }
  ],
- "at": "2026-10-16 14:35"
+ "at": "2026-10-16 20:35"
 }
