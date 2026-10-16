@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "FAA, 보잉 737 MAX 10 승인 이르면 다음 주 — 소식통",
+   "url": "https://www.investing.com/news/stock-market-news/faa-set-to-approve-737-max-10-as-soon-as-next-week-4954715",
+   "press": "Investing.com(로이터)",
+   "at": "2026-10-17 05:19",
+   "why": "방어·산업재 회전 속 항공기 인도 재료 — 우리 신호 종목 아님(관찰), 국내 항공부품 공급망 참고",
+   "summary": "FAA가 737 MAX 10 인증을 이르면 다음 주 승인할 전망(소식통). 라이언에어 CEO는 앞서 '10월 중순 승인' 예상(aviationweek)."
+  },
+  {
+   "title": "다음 주 대형 실적(메타·P&G) — 좋은 실적도 시장 공포를 잠재우기 어려울 수 있다",
+   "url": "https://www.cnbc.com/2026/10/16/major-earnings-reports-market-fears-next-week.html",
+   "press": "CNBC",
+   "at": "2026-10-17 04:48",
+   "why": "AI 이익 논지(0.62) 판정 주간 — 메타 설비투자 가이던스가 반도체 칸·QQQ dip 신호 방향을 정함",
+   "summary": "다음 주 메타·P&G 등 실적 발표. 투자자 경계 커져 호실적에도 반등 제한 가능성(CNBC 10/16). 나스닥 −2.1%로 7월 이후 최대 낙폭."
+  },
+  {
+   "title": "코어위브·네비우스 급락 — 공포지수 '극단 공포' 근접, 코어위브 무담보채 15%",
+   "url": "https://247wallst.com/videos/coreweave-nebius-and-neoclouds-sink-as-market-fear-index-closes-in-on-extreme-fear/",
+   "press": "24/7 Wall St.",
+   "at": "2026-10-17 04:37",
+   "why": "AI 차입 스트레스 논지(0.84) 직접 근거 — 반도체 비중 확대 금지 유지 근거",
+   "summary": "코어위브·네비우스 10/8 이후 −20%↑. 코어위브 무담보채 수익률 15%. CNN 공포탐욕지수 '극단 공포' 근접."
+  },
+  {
    "title": "오픈AI, 투자자에 매출 약 500억 달러 — 앞선 보도보다 200억 달러 적어",
    "url": "https://aiweekly.co/alerts/openai-tells-backers-revenue-nears-50b-20b-below-prior-report",
    "press": "AI Weekly",
@@ -615,31 +639,7 @@
    "at": "2026-10-14 20:35",
    "why": "S-Oil(#20261014-10, ☕ 컵)·SK이노(#16) 정유 bet 의 마진 재료 — 10/15 IEA 이사회 직전",
    "summary": "IEA 10월 보고서: 이란 전쟁발 공급 차질·재고 감소·견조한 수요로 디젤 타이트 2027년까지(cnbc 같은 날) · 수치는 원문 확인 필요"
-  },
-  {
-   "title": "아람코 시설 피격 뒤 유가 반등",
-   "url": "https://www.brecorder.com/news/40162986/oil-prices-up-rebound-after-aramco-oil-facility-attacked",
-   "press": "Business Recorder",
-   "at": "2026-10-14 20:35",
-   "why": "정유·해운(9104.T #23) bet 의 지정학 재료 — 브렌트 100 아래 마감이면 S-Oil 정리 조건",
-   "summary": "후티가 리야드 아람코 시설·동부 본사 미사일·드론 공격 주장 → 유가 반등 · 사우디 증시 하락(reuters 피드)"
-  },
-  {
-   "title": "모건스탠리 10/14 실적 — 옵션 내재 변동 ±5.2%",
-   "url": "https://earnings-watcher.com/wiki/ms-earnings-october-2026",
-   "press": "Earnings Watcher",
-   "at": "2026-10-14 20:35",
-   "why": "KBE(#20261012-20) 판정 — JPM·BAC 미달 뒤 MS가 세 번째 대형은행 확인",
-   "summary": "MS 3Q 발표 10/14 장전, 옵션 내재 변동 ±5.2% · 숫자는 cnbc 기사만 확인(세부 미확인)"
-  },
-  {
-   "title": "모건스탠리, MSCI 유럽 2027년 중반 목표 2,700으로 상향(기존 2,600)",
-   "url": "https://www.newsquawk.com/headlines/morgan-stanley-raises-its-2027-mid-year-target-for-msci-europe-to-2700-prev-saw-2600",
-   "press": "Newsquawk",
-   "at": "2026-10-14 19:30",
-   "why": "EWQ(프랑스) 역발상 bet — BofA 설문 '프랑스 회피 사상 최대' 직후 IB 지수 목표 상향",
-   "summary": "MSCI 유럽 목표 2,600→2,700, 약 11% 상승 여력(2027 중반) · 근거는 강한 3Q 실적 전망(investing_en 같은 날)"
   }
  ],
- "at": "2026-10-17 04:35"
+ "at": "2026-10-17 05:35"
 }
