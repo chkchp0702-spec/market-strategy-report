@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "다우 +556P — PPI 가속에 AI주 이탈, 헬스케어로 회전",
+   "url": "https://invezz.com/news/2026/10/15/dow-rises-556-points-as-investors-rotate-out-of-ai-stocks-on-inflation-fears/",
+   "press": "Invezz",
+   "at": "2026-10-16 17:35",
+   "why": "🤫 매집 MDT(10/14)·방어 칸 — AI→헬스케어 회전이 신호 종목과 겹침",
+   "summary": "10/15 다우 556P 상승, 나스닥은 AI 매도로 약세. 9월 PPI 가속이 AI 관련주 압박, 자금은 헬스케어로 이동."
+  },
+  {
+   "title": "반도체 매도에 투자자들 다른 주식·채권으로 피신(CNN)",
+   "url": "https://www.cnn.com/2026/10/15/business/tech-selloff-nasdaq-ai-intl",
+   "press": "CNN",
+   "at": "2026-10-16 17:35",
+   "why": "반도체 칸·채권 칸 — 금리 하락이 AI 매도의 피난처 수요에서 나옴(고금리 논지 반대 근거)",
+   "summary": "칩주 매도 확산 속 채권·방어주로 자금 이동. 미 10년물 하락. 세부 숫자는 원문 확인 필요(미확인)."
+  },
+  {
    "title": "대만, 미국과 보조 맞춰 중국향 AI 칩 수출 제한 검토(블룸버그)",
    "url": "https://ceomorningbrief.theedgemalaysia.com/article/2026/1165/World/19/806403",
    "press": "The Edge Malaysia(블룸버그 인용)",
@@ -623,22 +639,6 @@
    "at": "2026-10-14 08:40",
    "why": "은행 가이던스가 '고금리=이자이익↑' 테제와 반대 — 금융 칸 축소 논지 쪽 근거",
    "summary": "대형은행 경영진이 고금리·끈적한 물가가 신용·대출 수요에 부담이라고 경고 · 오늘 밤 CPI·BAC·MS 실적이 2차 판정"
-  },
-  {
-   "title": "금융주, 엇갈린 실적에 하락 — 씨티 −5.6%·웰스파고 −3.1%",
-   "url": "https://www.marketscreener.com/news/financials-down-after-mixed-earnings-financials-roundup-ce785dd2d981f021",
-   "press": "MarketScreener(다우존스)",
-   "at": "2026-10-14 08:40",
-   "why": "KBE bet 손절(−3%) 근접 여부 — 실적 '호실적 → 되돌림' 논지가 첫날 시장에서 부정됨",
-   "summary": "10/13 씨티 −5.60%·웰스 −3.10%·JPM 소폭↓·골드만 소폭↑ · 금융 섹터 '소폭 하락'"
-  },
-  {
-   "title": "美 대형은행 3분기: 트레이딩 데스크 급증, 대출은 제자리 — 골드만 주식 트레이딩 +72%",
-   "url": "https://www.forbes.com/sites/mayrarodriguezvalladares/2026/10/13/big-bank-third-quarter-earnings-lenders-steady-wall-street-desks-surge/",
-   "press": "Forbes",
-   "at": "2026-10-14 08:40",
-   "why": "⚡ KBE 은행 ETF bet(#20261012-20)의 논지 '트레이딩·IB 호실적' 확인 — 그러나 주가 반응은 갈림",
-   "summary": "골드만 주식 트레이딩 64.4억$(+72%)·GBM 134.6억$(+32%) · JPM 기업·IB 매출 +14.4%지만 매출·순익 기대 미달 · 웰스 충당금 10.3억$(전년 6.8억$) · 씨티 마켓 61억$(+6%, 전분기比 −13%)"
   }
  ],
  "at": "2026-10-16 14:35"
