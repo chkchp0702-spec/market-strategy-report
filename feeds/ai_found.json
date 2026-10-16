@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "TSMC 3분기 순이익 7,631억 대만달러 사상 최대 — 그러나 마진 전망에 주가는 약세",
+   "url": "https://investinglive.com/stocks/icymi-tsmc-profit-jumps-nearly-70-on-ai-demand-but-margin-outlook-weighs-on-shares/",
+   "press": "investingLive",
+   "at": "2026-10-16 10:38",
+   "why": "반도체 칸 'AI 이익은 진짜' 논지 재확인 — 문제는 실적이 아니라 마진·밸류(신호와 별개로 주가 약세)",
+   "summary": "순이익 약 +69% y/y·6분기 연속 최대(sedaily 피드도 7,630억 확인). 4분기 매출 가이던스 상향이지만 마진 전망이 주가를 누름."
+  },
+  {
+   "title": "나스닥 선물 하락 — AI 지출·연준 금리 우려",
+   "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-edge-lower-as-ai-spending-fed-rate-concerns-weigh-4952930",
+   "press": "Investing.com",
+   "at": "2026-10-16 10:38",
+   "why": "코스피 첫 반등일 종가 판정 변수 — 미 선물 약세면 갭 유지 어려움(watch '코스피 첫 반등일')",
+   "summary": "전일 다우 반등에도 나스닥 선물 소폭 약세. AI 설비투자 부담과 PPI 쇼크 뒤 금리 인상 우려가 동시에 작용."
+  },
+  {
+   "title": "미 선물 혼조 — 생산자물가 급등·AI 지출 공포에 기술주 약세",
+   "url": "https://uk.finance.yahoo.com/news/us-stock-futures-point-lower-131930263.html",
+   "press": "야후 파이낸스",
+   "at": "2026-10-16 10:38",
+   "why": "고금리 장기화(0.78) 논지 — PPI 쇼크가 연준 인상론으로 이어지는지",
+   "summary": "9월 PPI +1.3% m/m 이후 금리 인상 경계. 기술주 중심 하락 압력 지속."
+  },
+  {
    "title": "IEA, 미방출 비축유 1억 배럴 방출 완료 합의 — 디젤 2천만 배럴 이상 포함",
    "url": "https://www.bloomberg.com/news/articles/2026-10-15/iea-agrees-to-release-of-outstanding-100-million-barrels-of-oil",
    "press": "블룸버그",
@@ -615,31 +639,7 @@
    "at": "2026-10-14 02:38",
    "why": "폴 튜더 존스 '내년 1년 내내 매도'와 같은 날 — 미국 칸 비중 확대 보류 근거, 포지셔닝 과열 점검",
    "summary": "데이비드 로젠버그: 미국 주식이 점점 버블처럼 보인다, 밸류에이션·레버리지·투자자 포지셔닝이 40년 경력에서 못 본 극단."
-  },
-  {
-   "title": "이란 유조선 공격 확대에 VLCC 운임 급등",
-   "url": "https://freightwaves.com/?p=232798",
-   "press": "FreightWaves",
-   "at": "2026-10-14 03:30",
-   "why": "☕ 눈 9104.T 미쓰이OSK(유조선·LNG선 보유) 재료 — 종가 돌파 확인 전엔 관찰만",
-   "summary": "이란 유조선 피격 뒤 대형 유조선(VLCC) 운임 급등 보도(게재일 미확인 — 운임 수치는 원문 확인 필요)."
-  },
-  {
-   "title": "씨티그룹 3Q26 — 10년 만의 최대 분기 매출·순이익 52억$에도 주가 −3.8%",
-   "url": "https://moneycheck.com/citigroup-c-shares-fall-3-79-as-investors-overlook-5-2-billion-third-quarter-earnings/",
-   "press": "MoneyCheck",
-   "at": "2026-10-14 02:34",
-   "why": "KBE #20 은행 bet — '좋은 실적에도 하락'이면 은행 되돌림 논지 약화(JPM 미스와 함께 2연타)",
-   "summary": "순이익 52억$(+40%)·채권 트레이딩 호조로 예상 상회, 그러나 주가 −3.79%. 같은 날 JPM 은 드문 이익 미스."
-  },
-  {
-   "title": "씨티 3Q26 슬라이드: 10년 만의 최고 분기 매출",
-   "url": "https://www.investing.com/news/company-news/citigroup-q3-2026-slides-best-quarterly-revenue-in-decade-93CH-4947284",
-   "press": "Investing.com",
-   "at": "2026-10-14 02:34",
-   "why": "은행 칸·KBE bet 판정 재료 — 숫자는 좋은데 가격 반응은 나쁨",
-   "summary": "분기 매출 10년 만의 최대. 시장은 실적보다 금리·신용 위험을 더 봄."
   }
  ],
- "at": "2026-10-16 09:35"
+ "at": "2026-10-16 10:40"
 }
