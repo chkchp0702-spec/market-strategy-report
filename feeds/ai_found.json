@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "S&P500 보합 — 은행 강세가 AI 불안 상쇄, 다우 한 달 고점",
+   "url": "https://lufkindailynews.com/news_reuters/business/s-p-500-subdued-as-gains-in-banks-offset-ai-jitters-dow-at-one-month/article_f5c45022-bd53-584e-aae5-36054aed81fc.html",
+   "press": "Reuters",
+   "at": "2026-10-17 02:30",
+   "why": "열린 KBE(은행 ETF) bet·회전 논지 — 금융이 반도체 약세를 받치는지",
+   "summary": "10/16 10:24 ET 다우 52,401.89(+0.43%)·S&P 7,736.76(−0.09%)·나스닥 26,527.14(−0.70%). 반도체 −1.8%, IT −0.9%, 금융 +1.1%(GS·JPM 상승)."
+  },
+  {
+   "title": "10/16 장중: 기술주 하락, 방어 섹터로 회전",
+   "url": "https://fool.com/coverage/stock-market-today/2026/10/16/stock-market-midday-oct-16-tech-stocks-slide-as-investors-rotate-into-defensive-sectors",
+   "press": "Motley Fool",
+   "at": "2026-10-17 02:30",
+   "why": "MDT(헬스케어) bet·🤫 매집 신호와 이어짐 — 방어 회전 나흘째인지",
+   "summary": "기술주 약세 속 방어 섹터로 자금 이동(세부 수치는 원문 확인 — 미확인)."
+  },
+  {
    "title": "반도체주 8거래일 연속 하락 — AI 거품 균열인가",
    "url": "https://beincrypto.com/chip-stocks-fall-8-straight-days/",
    "press": "BeInCrypto",
@@ -623,22 +639,6 @@
    "at": "2026-10-14 17:20",
    "why": "🎯 에너지 칸 · S-Oil(#10 10/15 시가 진입 대기)·SK이노(#16 컵 기준가 대기) 정제마진 논지의 근거",
    "summary": "IEA 10월 월간 보고서: 중간유분(디젤) 부족이 2027년 깊숙이까지 지속 전망 · 재고 감소로 품귀 심화"
-  },
-  {
-   "title": "IEA, 디젤 추가 방출 촉구 — 3월 4억 배럴 약속 이행 지연, 10/15 이사회",
-   "url": "https://investinglive.com/commodities/iea-urges-faster-diesel-releases-as-400m-barrel-march-pledge-lags-board-meets-oct-15/",
-   "press": "investingLive",
-   "at": "2026-10-14 17:30",
-   "why": "정유 bets 반대 위험 — 10/15 IEA 이사회가 비축 디젤 방출을 늘리면 정제마진 단기 하락 가능(S-Oil 진입일과 겹침)",
-   "summary": "3월 비축유 4억 배럴 방출 약속 이행이 늦어 IEA가 디젤 방출 가속 촉구 · 이사회 10/15 소집"
-  },
-  {
-   "title": "SK이노, 윤활기유·정제마진 강세 지속…증권사 목표가 잇단 상향",
-   "url": "https://www.fnnews.com/news/202610072153031157",
-   "press": "파이낸셜뉴스",
-   "at": "2026-10-14 16:40",
-   "why": "🎯 에너지 ★ SK이노(컵 기준가 −1%)·S-Oil 컵 돌파 — 정유 3Q 실적 상향의 숫자 근거",
-   "summary": "DB증권 목표가 15→20만원 · 3Q 영업이익 추정 3.013조(1개월 컨센 2.78조 상회) · 2027 영업이익 전망 6.35~8.75조로 증권사별 차이 2.4조"
   }
  ],
  "at": "2026-10-17 00:35"
