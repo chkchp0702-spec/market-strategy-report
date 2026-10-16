@@ -3926,6 +3926,32 @@
 "src": "ins",
 "score": 80,
 "note": "기회형 내부자 3명 · 3,928천 달러 (10일 안 공시)"
+},
+"021240.KS|2026-10-16": {
+"code": "021240.KS",
+"name": "코웨이",
+"mkt": "KR",
+"d": "2026-10-16",
+"src": "cup",
+"score": 54.8,
+"lv": 109309.2,
+"china_off": true
+},
+"QQQ|2026-10-15|dip": {
+"code": "QQQ",
+"name": "QQQ",
+"mkt": "US",
+"d": "2026-10-15",
+"src": "dip",
+"score": 0
+},
+"ERIC|2026-10-15|pead": {
+"code": "ERIC",
+"name": "Ericsson - American Depositary Shares each representing 1 underlying Class B sha",
+"mkt": "US",
+"d": "2026-10-15",
+"src": "pead",
+"score": 74.0
 }
 },
 "sent": [
