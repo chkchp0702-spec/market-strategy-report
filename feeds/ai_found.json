@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "[로이터 단독] 투자자들, 앤트로픽 IPO 기업가치 기대 낮춰 — 매출 성장 둔화",
+   "url": "https://investing.com/news/stock-market-news/exclusiveinvestors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-4952698",
+   "press": "Reuters via Investing.com",
+   "at": "2026-10-16 11:20",
+   "why": "AI 차입·밸류 논지(0.76)·반도체 칸 — 오늘 나스닥 선물 약세의 직접 원인",
+   "summary": "기업가치 논의가 2조→1.5조 달러로 내려감(sedaily 피드 동일 보도). 이익은 늘지만 성장률 감속에 가격이 반응하는 구도 재확인."
+  },
+  {
+   "title": "금, 미 PPI 6.3% 쇼크에도 국채금리 하락에 반등",
+   "url": "https://www.fxstreet.com/news/gold-defies-63-us-ppi-as-treasury-yield-slide-fuels-rally-202610151832",
+   "press": "FXStreet",
+   "at": "2026-10-16 11:25",
+   "why": "🥇 금 칸·현금·단기채 칸 — 물가 쇼크에도 금리가 내려가는 '피난 매수' 장세",
+   "summary": "PPI 6.3% y/y에도 미 국채 랠리로 금 4,160달러대 유지. 금리 하락의 이유가 성장 우려(엘 에리언)라 금·장기채에 우호."
+  },
+  {
+   "title": "아시아 장: 국채 랠리가 달러 끌어내리고 금 띄워",
+   "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-treasury-rally-sinks-dollar-lifts-gold/",
+   "press": "investingLive",
+   "at": "2026-10-16 11:28",
+   "why": "고금리 논지 판정(10년 5.00 밴드 하단) — 12:30 워시 발언 전 포지션",
+   "summary": "미 10년 5.09~5.10%, 달러지수 102 보합. 시장은 워시 IMF 발언 대기."
+  },
+  {
    "title": "TSMC 3분기 순이익 7,631억 대만달러 사상 최대 — 그러나 마진 전망에 주가는 약세",
    "url": "https://investinglive.com/stocks/icymi-tsmc-profit-jumps-nearly-70-on-ai-demand-but-margin-outlook-weighs-on-shares/",
    "press": "investingLive",
@@ -615,31 +639,7 @@
    "at": "2026-10-14 04:35",
    "why": "LRCX·장비 bets 와 CXMT 공포의 반대편 — 중국 AI 인프라 투자 확대는 장비·광통신 수요",
    "summary": "블룸버그 뉴스레터, 중국 데이터센터 증설 가속 전망(본문 숫자 미확인)."
-  },
-  {
-   "title": "10/13 미 증시: 은행 실적 속 나스닥 소폭 하락·칩주 약세",
-   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-13-2026",
-   "press": "TheStreet",
-   "at": "2026-10-14 04:35",
-   "why": "KBE·LRCX·LITE bets 채점 배경 — 은행 실적 시즌 첫날과 칩 약세",
-   "summary": "나스닥 소폭 하락, 은행 실적 발표 속 칩주 약세(종가 숫자는 원문 확인)."
-  },
-  {
-   "title": "뉴욕 연준 윌리엄스 '연내 한 번 더 인상 가능성 — 서두를 필요는 없어'",
-   "url": "https://www.investmentnews.com/fixed-income/feds-williams-sees-another-rate-hike-as-treasury-rout-deepens/268342",
-   "press": "InvestmentNews",
-   "at": "2026-10-14 03:30",
-   "why": "CPI 전날 연준 핵심 인사 매파 시사 — 10년 5.2%대·성장주(LITE·LRCX·하닉 bets) 밸류 부담과 직결",
-   "summary": "윌리엄스: 연내 추가 인상 1회가 합리적, 2027년엔 추가 인상 필요 없다고 봄(블룸버그 인터뷰). 국채 매도세 깊어지는 가운데 나온 발언."
-  },
-  {
-   "title": "로젠버그 '40년 경력에서 가장 위험한 미국 시장' — 밸류·레버리지·포지셔닝 극단",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-13/rosenberg-sees-most-dangerous-us-market-of-his-40-year-career",
-   "press": "Bloomberg",
-   "at": "2026-10-14 02:38",
-   "why": "폴 튜더 존스 '내년 1년 내내 매도'와 같은 날 — 미국 칸 비중 확대 보류 근거, 포지셔닝 과열 점검",
-   "summary": "데이비드 로젠버그: 미국 주식이 점점 버블처럼 보인다, 밸류에이션·레버리지·투자자 포지셔닝이 40년 경력에서 못 본 극단."
   }
  ],
- "at": "2026-10-16 10:40"
+ "at": "2026-10-16 11:35"
 }
