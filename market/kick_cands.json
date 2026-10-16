@@ -3970,6 +3970,50 @@
 "src": "focus",
 "score": 70,
 "theme": "소매"
+},
+"AMG|2026-10-16": {
+"code": "AMG",
+"name": "Affiliated Managers Group, Inc. Common",
+"mkt": "US",
+"d": "2026-10-16",
+"src": "cup_eye",
+"score": 59.4,
+"lv": 386.25,
+"max20": 2.9,
+"id60": -0.033
+},
+"ZETA|2026-10-16": {
+"code": "ZETA",
+"name": "Zeta Global Holdings Corp. Class A Com",
+"mkt": "US",
+"d": "2026-10-16",
+"src": "cup_eye",
+"score": 55.7,
+"lv": 34.83,
+"max20": 9.0,
+"id60": -0.1
+},
+"DHR|2026-10-16": {
+"code": "DHR",
+"name": "Danaher Corporation Common Stock",
+"mkt": "US",
+"d": "2026-10-16",
+"src": "cup_eye",
+"score": 49.0,
+"lv": 220.89,
+"max20": 3.3,
+"id60": -0.133
+},
+"CNQ|2026-10-16": {
+"code": "CNQ",
+"name": "Canadian Natural Resources Limited Com",
+"mkt": "US",
+"d": "2026-10-16",
+"src": "cup_eye",
+"score": 41.8,
+"lv": 51.53,
+"max20": 3.3,
+"id60": -0.083
 }
 },
 "sent": [
