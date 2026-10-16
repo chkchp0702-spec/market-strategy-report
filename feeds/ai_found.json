@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "중국, 자국 AI 모델·칩 설계·학습데이터 수출 통제 검토(FT)",
+   "url": "https://thenextweb.com/news/china-ai-model-chip-export-controls-ft-report",
+   "press": "The Next Web(FT 인용)",
+   "at": "2026-10-16 19:35",
+   "why": "반도체·AI 소프트웨어 칸 — 엔비디아만 오르고 칩 업종 하락하는 날의 정책 헤드라인",
+   "summary": "중국이 첨단 AI 모델·칩 설계·에이전트 수출을 통제하는 방안 검토(블룸버그도 '제안' 보도). 미·중 기술 통제가 양방향으로 번짐."
+  },
+  {
+   "title": "S&P·나스닥 선물 소폭 상승 — 금리 진정 환영, MU·NVDA 주목",
+   "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-futures-inch-higher-as-investors-cheer-cooling-yields-googl-mu-mat-nvda-in-focus/cZD0mZmRB01",
+   "press": "Stocktwits",
+   "at": "2026-10-16 19:35",
+   "why": "반도체 칸 mu_drop 조건(MU −5%)·현금·단기채 칸(10년 5% 밴드) 확인용",
+   "summary": "금리 하락에 미 선물 소폭 상승, 다만 주간으로는 하락 주 마감 흐름(investing_en). 미 10년 1년여 만 최대 하락일 다음 날."
+  },
+  {
    "title": "다우 +556P — PPI 가속에 AI주 이탈, 헬스케어로 회전",
    "url": "https://invezz.com/news/2026/10/15/dow-rises-556-points-as-investors-rotate-out-of-ai-stocks-on-inflation-fears/",
    "press": "Invezz",
@@ -623,22 +639,6 @@
    "at": "2026-10-14 10:40",
    "why": "9104.T(☕ 눈)·HMM 해운 운임과 정유주 — 골드만 공급 위험 판단",
    "summary": "브렌트 107달러 상회 · 골드만 중동 공급 위험 지속 전망(기사 게시 시각 미확인)"
-  },
-  {
-   "title": "머스크 '마이크론 빼고 메모리 업체들 가격 착취적' — 고객이 잊지 않을 것",
-   "url": "https://en.sedaily.com/finance/2026/10/14/musk-blasts-memory-chipmakers-over-extortionate-pricing",
-   "press": "서울경제(영문)",
-   "at": "2026-10-14 09:35",
-   "why": "하이닉스 bet(#20261013-09)·반도체 칸 — 대형 고객의 가격 반발은 메모리 가격 정점론 재료",
-   "summary": "X에서 JPM 메모리 글에 답글, 삼성·하이닉스 이름은 안 밝힘. JPM 메모리 공급부족 2026 20%·2027 19%·2028 15%, HBM 640억→2,800억$(2028) 전망 인용."
-  },
-  {
-   "title": "JPM·골드만·씨티·웰스 이익은 강했지만 '금리 상승·끈적한 인플레이션'이 갉아먹을 것 경고",
-   "url": "https://fortune.com/2026/10/13/jpmorgan-goldman-sachs-citigroup-wells-fargo-interest-inflation/",
-   "press": "Fortune",
-   "at": "2026-10-14 08:40",
-   "why": "은행 가이던스가 '고금리=이자이익↑' 테제와 반대 — 금융 칸 축소 논지 쪽 근거",
-   "summary": "대형은행 경영진이 고금리·끈적한 물가가 신용·대출 수요에 부담이라고 경고 · 오늘 밤 CPI·BAC·MS 실적이 2차 판정"
   }
  ],
  "at": "2026-10-16 14:35"
