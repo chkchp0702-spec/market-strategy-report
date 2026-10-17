@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "인도네시아 증시, MSCI 강등 경고에 1998년 이후 최악의 하루",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRmY4bFlVY09zSkdQc0ItXzJqT2pmcFBSUkpwVVd6aUNuTU1waDNUcHY3UHJfYkRNby1kOTBPWHdEcklJLXlHVWpfMThubmtmU3JGZjNPWFdjNHJXZ29vVzJ6Z2tienRzc2d6V3pyVFNGQzdFZVphWTRNazZiRVRMeWpoSTE5ZEJ1aVRRUTZ6eC1XSE1scE9RNUx6MnhMbUxHRTc4ek9hOWlqTldkRlpxTzcxYjJQQQ?oc=5",
+   "press": "WSJ",
+   "at": "2026-10-16 16:18",
+   "why": "신흥국 지수 편입·강등 리스크 — 외국인 신흥국 자금 이탈(한국·대만 외국인 매도 관찰 칸)과 같은 줄기",
+   "summary": "MSCI 강등(프런티어 이전) 경고로 인도네시아 증시 1998년 이후 최대 하락(WSJ 제목 기준, 하락 폭 숫자는 미확인). 1월 투자 가능성 경고(블룸버그 2026-01-28 −7%)에 이은 재발."
+  },
+  {
+   "title": "DHL, 호실적·성수기 강세 전망에 연간 가이던스 상향",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZm5OT0o3ZlNzVzN2MHdFR1ROS2FvalhWNHV0REpLcC1fZm16eVc2QjVnalRlMlctNnpnSE5Jb0NRQ2lNYXZMUmV6RUsybG5Wam9ZWTRKSHJyeHB6LTN4bFE3b0dKcmhnUHNFZDJaWmdJd1ZfaXZQeWpWYzhOUmVJelJmVmh6ZlpUUms5VExDMTh3T0ozSlJCeXJicjN4eFlSZC1GQXA1U0xrNTJpcGJFd1JfLVQ?oc=5",
+   "press": "WSJ",
+   "at": "2026-10-17 01:58",
+   "why": "유럽 실적 방어(EWQ 열린 bet·유럽 6월 이후 최고의 주) 근거 — 물류 성수기 수요는 아직 견조",
+   "summary": "DHL 그룹 3분기 실적 호조로 가이던스 상향, 연말 성수기 물량 강세 전망(WSJ 제목 기준, 상향 폭 미확인)."
+  },
+  {
+   "title": "중국 전기요금 바닥 통과 조짐 — 비수기에도 광둥·장쑤 거래가 상승",
+   "url": "https://t.me/HANAchina/70569",
+   "press": "하나증권 중국/신흥국 전략(텔레그램)",
+   "at": "2026-10-17 14:40",
+   "why": "중국 전력·유틸리티 이익 전환점 — 우리 신호 없음, 관찰용",
+   "summary": "여름 피크 이후에도 광둥·장쑤 월간 거래 전기요금과 남부 현물가 상승. 장쑤 2027 지침으로 도매가→소매가 전가 추진. 증권사들 '2026년이 바닥'."
+  },
+  {
    "title": "코어위브 채권 수익률 15% 도달에 주가 13% 하락",
    "url": "https://www.kucoin.com/news/flash/coreweave-stock-falls-13-as-bond-yields-hit-15",
    "press": "KuCoin News",
@@ -615,30 +639,6 @@
    "at": "2026-10-15 07:40",
    "why": "뜨거운 9월 CPI(3.7%) 뒤 고금리 장기화 논지·현금·단기채 칸 근거 보강",
    "summary": "9월 의사록에서 다수 위원이 연내 복수 인상을 가능성 높게 판단(제목 기준) · 10/14 CPI 상회로 인상 확률 재부각"
-  },
-  {
-   "title": "후티, 리야드 아람코 시설에 미사일·드론 공격 주장",
-   "url": "https://ground.news/article/12358a54-6f74-4e6b-8bc6-11f8def8378b",
-   "press": "Ground News(통신사 묶음)",
-   "at": "2026-10-15 06:35",
-   "why": "에너지 칸·S-Oil #10·SK이노 #16 정제마진 근거, 9104.T 운임 재료",
-   "summary": "후티가 리야드 아람코 시설 공격을 주장, 연기 목격 보도. 같은 날 WTI 95.17(+1.1%)·브렌트 106.09. 피해 규모 미확인."
-  },
-  {
-   "title": "델 주가 11% 급락 — 바클레이스 '기업용 AI 시점' 우려로 데이터센터 매도 주도",
-   "url": "https://www.cnbc.com/2026/10/14/dell-stock-barclays-enterprise-ai.html",
-   "press": "CNBC",
-   "at": "2026-10-15 05:35",
-   "why": "AI 차입·인프라 논지(0.70) — LRCX #20·LITE #15 반도체 롱과 같은 AI 하드웨어 매도 흐름",
-   "summary": "바클레이스가 델·HPE·넷앱을 하향하며 '의미 있는 AI 변곡점 없음'. 델 −11%대(300% 랠리 뒤), 데이터센터 하드웨어 동반 약세."
-  },
-  {
-   "title": "미 9월 CPI 3.7% 상승 — 예상 상회, 10월 금리 인상 확률 급등",
-   "url": "https://finance.yahoo.com/economy/live/cpi-inflation-live-updates-prices-rose-37-in-september-142456444.html",
-   "press": "Yahoo Finance",
-   "at": "2026-10-15 05:35",
-   "why": "고금리 장기화 논지(0.76)·채권/현금 칸, 에너지 칸(휘발유가 견인)",
-   "summary": "9월 CPI 전년 대비 3.7%, 휘발유가 급등 영향. 인상 확률 약 22%→45%로 뛰었다는 집계(coinpaper, 미확인). 10년물은 장중 매도 뒤 되돌림."
   }
  ],
  "at": "2026-10-17 11:40"
