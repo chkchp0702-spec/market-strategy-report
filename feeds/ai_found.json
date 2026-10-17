@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "나스닥100 하락 — 마이크론·샌디스크·코어위브 급락, 워시 '회의 예단 안 해' 인상 여지",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62417145/nasdaq-100-slides-micron-sandisk-coreweave-sink-warsh-keeps-fed-hike-open-stock-market-today-friday",
+   "press": "Benzinga",
+   "at": "2026-10-17 12:35",
+   "why": "반도체 칸(10→7)·AI 차입 논지·국내 반도체 cup_eye(인텍플러스·오킨스전자)와 직결",
+   "summary": "장중 코어위브 −9.3%·MU −3.6%·SNDK −4.2%, SOXX 9거래일 연속 하락 진행. 10년 ~5.1%·30년 ~5.4%. 유틸·소재·에너지·필수소비·리츠 +1%대 vs XLK −1.8% — 방어 회전. 워시 10/28 회의 '예단 안 해'."
+  },
+  {
+   "title": "10/16 증시: AI 소프트웨어 밸류에이션 되돌림에 기술주 급락",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/10/16/stock-market-today-oct-16-tech-stocks-plunge-as-ai-software-valuations-reverse/",
+   "press": "Motley Fool",
+   "at": "2026-10-17 12:35",
+   "why": "AI 차입·소프트웨어 밸류 되돌림 — 열린 ERIC·ZS 계열(기술) 위험 점검",
+   "summary": "금요일 기술주 급락 원인을 AI 소프트웨어 밸류 되돌림으로 정리(세부 숫자 미확인). 나스닥 −2.15%(피드)."
+  },
+  {
    "title": "중국, AI·태양광 기술 수출 통제안 발표",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMjh5b1NsdWxQRXNwXzlLSi1pLU8wdlIxVEc0TU1Md0hLM1FUdEVvcnhPa3d6bFBHc2VtY1UtRzZITnI1eVlzWGYyelBocjBsRXpBa1NlVjBwMmplX2Zhd0tUSWJDUmFGQVhIVVQ2UzlxN25ZdUFHbTFXejJqM3NWOXduVDhtdmZ4R0FiM2NoaVRtMzFRZjV3?oc=5",
    "press": "WSJ",
@@ -623,22 +639,6 @@
    "at": "2026-10-15 02:35",
    "why": "반도체 칸·LRCX #20·LITE #15 — SOXX 7일 연속 하락의 판정 이벤트(AI 이익 논지 breaks 조건)",
    "summary": "TSMC 10/15 3Q 실적·가이던스가 반도체 투매(시총 1조$ 증발) 속 첫 시험대. 9월 매출 +54.7% YoY 는 이미 공개 — 관건은 4Q 가이던스·CapEx(세부 숫자 기사 기준 미확인)."
-  },
-  {
-   "title": "TSMC 10/15 실적 발표, 엔비디아·브로드컴·AMD 투자자 주시",
-   "url": "https://cryptobriefing.com/tsmc-q3-earnings-nvidia-broadcom-amd/",
-   "press": "Crypto Briefing",
-   "at": "2026-10-15 02:35",
-   "why": "AI 하드웨어 공급망 전체(광통신 LITE·메모리 장비 LRCX) 방향을 정하는 이벤트",
-   "summary": "TSMC 실적 콜에서 AI 가속기 수요·첨단 패키징(CoWoS) 증설 발언이 엔비디아·브로드컴·AMD 주가를 좌우할 전망. 수치는 기사 기준 미확인."
-  },
-  {
-   "title": "이란 전쟁 확대로 호르무즈 해협서 컨테이너선 피격",
-   "url": "https://www.freightwaves.com/news/container-ship-attacked-in-strait-of-hormuz-as-iran-widens-war",
-   "press": "FreightWaves",
-   "at": "2026-10-15 01:35",
-   "why": "⚡ 9104.T 미쓰이OSK(#23 컵 대기)·해운 운임 재료 — 유조선에 이어 컨테이너선까지 표적 확대",
-   "summary": "호르무즈 해협 통과 컨테이너선이 발사체에 피격 — CNBC·닛케이도 10/14 침몰 보도. 공격 대상이 유조선→컨테이너선으로 넓어져 걸프 항로 전반 운임·보험료 상승 압력."
   }
  ],
  "at": "2026-10-17 11:40"
