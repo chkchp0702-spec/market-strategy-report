@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "중국, AI·태양광 기술 수출 통제안 발표",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMjh5b1NsdWxQRXNwXzlLSi1pLU8wdlIxVEc0TU1Md0hLM1FUdEVvcnhPa3d6bFBHc2VtY1UtRzZITnI1eVlzWGYyelBocjBsRXpBa1NlVjBwMmplX2Zhd0tUSWJDUmFGQVhIVVQ2UzlxN25ZdUFHbTFXejJqM3NWOXduVDhtdmZ4R0FiM2NoaVRtMzFRZjV3?oc=5",
+   "press": "WSJ",
+   "at": "2026-10-17 11:15",
+   "why": "AI 차입 불안 주간에 미·중 기술 블록 대립 추가 — 반도체·태양광 칸 변동성, 비중국 공급자(국내 태양광) 반사 여부 관찰",
+   "summary": "중국이 AI 기술·태양광 기술 수출 통제안을 내놓음(WSJ 제목 기준, 세부 품목·시행일 미확인). 7월부터 AI 모델·학습데이터·칩 기술 통제 검토 보도(TechRepublic)의 연장."
+  },
+  {
+   "title": "트럼프, 새 법에 따라 러시아 관련 제재·관세 상당수 유예",
+   "url": "https://news.bgov.com/tariff-news/trump-signs-russia-sanctions-bill-granting-new-tariff-powers",
+   "press": "블룸버그 Gov / 닛케이아시아",
+   "at": "2026-10-17 11:00",
+   "why": "러시아 원유·디젤 공급 기대 → 브렌트 110 근처 유가 상방 꺾일 수 있음, 열린 CNQ(에너지) bet 의 반대 재료",
+   "summary": "러시아 제재법 서명 뒤 중간선거 앞두고 포괄 관세 유예(닛케이·인베스팅). 법은 제3국 수입 관세 권한을 주되 대통령 재량 폭이 큼(OGJ·Akin). 인도 관세 위협 500%→100%로 완화된 안."
+  },
+  {
+   "title": "두산에너빌리티 3분기 영업익 85% 성장 전망…원전·가스터빈 본격화",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TUUd2ZmhRV2xnZUl5VlkxM2QyQkNfVEZWRkV5aEVMYTNzRTRRMUVmblJ2SUNPb1hndXJjd005dUFOYlBDUnAteW1tM1FTMWZhM3JEUTM5Y0lUc1dBdkRESWFvQ1czQjlpR3BUSVZEdV8?oc=5",
+   "press": "연합인포맥스 / 하나증권",
+   "at": "2026-10-17 11:31",
+   "why": "코스피 급락 주에도 실적 서프라이즈 조짐 — 전력·원전 칸, 히타치(☕ cup_eye 10/16)와 같은 전력설비 흐름",
+   "summary": "3Q 영업익 전년 대비 +85% 전망(인포맥스), 하나증권 1,941억 추정·연내 SMR 추가 수주 기대(gn_kr_strat)."
+  },
+  {
    "title": "나스닥 −2.1%, 반도체 매도로 주간 −4.5% 마감",
    "url": "https://ts2.tech/en/nasdaq-drops-2-1-as-chip-rout-caps-a-4-5-weekly-slide/",
    "press": "TS2 Tech",
@@ -615,31 +639,7 @@
    "at": "2026-10-15 01:35",
    "why": "⚡ 9104.T 미쓰이OSK(#23 컵 대기)·해운 운임 재료 — 유조선에 이어 컨테이너선까지 표적 확대",
    "summary": "호르무즈 해협 통과 컨테이너선이 발사체에 피격 — CNBC·닛케이도 10/14 침몰 보도. 공격 대상이 유조선→컨테이너선으로 넓어져 걸프 항로 전반 운임·보험료 상승 압력."
-  },
-  {
-   "title": "호르무즈 위기 심화 — 선박 3척 미확인 발사체 피격",
-   "url": "https://gulfnews.com/world/mena/shipping-alert-strait-of-hormuz-crisis-deepens-as-3-vessels-struck-by-unknown-projectiles-1.500708139",
-   "press": "Gulf News",
-   "at": "2026-10-15 01:35",
-   "why": "해운(9104.T)·정유(S-Oil #10·SK이노 #16) 양쪽 재료 — 운임↑는 해운엔 찬성, 정유 마진엔 반대",
-   "summary": "선박 3척이 미확인 발사체에 맞음(게재 날짜 미확인). 같은 시기 CNBC '이란 공격 강화로 컨테이너선 침몰'(10/14)."
-  },
-  {
-   "title": "유조선 운임 사상 최고로 정유 마진 훼손",
-   "url": "https://www.bloombergquint.com/business/oil-refining-margins-trashed-as-tanker-rates-rise-to-record",
-   "press": "Bloomberg",
-   "at": "2026-10-15 00:30",
-   "why": "정유 롱(S-Oil·SK이노)과 해운 롱(9104.T)이 같은 운임 재료에서 반대로 움직인다 — ideas 10/14 '자연 헤지' 근거",
-   "summary": "세부 숫자 미확인(제목 기준) · 같은 날 investing.com '기록적 유조선 운임에 아시아 정유사 마진 압박'"
-  },
-  {
-   "title": "월가 대형 은행 이번 주 두 번째로 '기술주 차익 실현' 권고",
-   "url": "https://www.cnbc.com/2026/10/14/a-second-major-wall-street-bank-this-week-is-telling-clients-to-cash-in-tech-stocks-heres-why-.html",
-   "press": "CNBC",
-   "at": "2026-10-14 23:31",
-   "why": "반도체·AI 소프트웨어 칸, 열린 LRCX·LITE bets 의 역풍 — IB 권고가 한 주에 겹침",
-   "summary": "한 주에 대형 은행 두 곳이 기술주 이익 실현 권고(은행명·세부 숫자 미확인). CPI 상회로 나스닥 약세가 겹친 날."
   }
  ],
- "at": "2026-10-17 09:35"
+ "at": "2026-10-17 11:40"
 }
