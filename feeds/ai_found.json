@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "나스닥 −2.1%, 반도체 매도로 주간 −4.5% 마감",
+   "url": "https://ts2.tech/en/nasdaq-drops-2-1-as-chip-rout-caps-a-4-5-weekly-slide/",
+   "press": "TS2 Tech",
+   "at": "2026-10-17 10:35",
+   "why": "AI 차입·반도체 논지와 에너지 칸(열린 CNQ) — 기술주↓·에너지↑ 갈림이 금요일에도 이어짐",
+   "summary": "10/16 S&P 7,659(−1.09%, 주간 −1.95%)·나스닥 26,140(−2.15%, 주간 −4.48%)·다우 +0.67%(주간). SOXX −4.14%·마이크론 −5.63%·VIX 20.16(+22.5%). 브렌트 109.86(+3.7%)·엑슨 +2.46%·10년 5.09%."
+  },
+  {
+   "title": "다나허 3분기 실적 10/21 발표 — EPS 예상 1.92달러",
+   "url": "https://news.alphastreet.com/danaher-dhr-q3-2026-preview-eps-est-1-92-reports-october-21/",
+   "press": "AlphaStreet",
+   "at": "2026-10-17 10:35",
+   "why": "DHR 은 10/16 ☕ cup_eye 신호 종목 — 실적 전 진입 보류, 발표 다음 날 갭 방향으로 판단",
+   "summary": "다나허 3분기 실적 10/21(수) 발표·컨퍼런스콜. 시장 EPS 예상 1.92달러. 헬스케어 회전(MDT bet)과 같은 줄기."
+  },
+  {
    "title": "후티, 사우디 아람코 리야드 시설에 미사일·드론 공격 주장 — 10월 들어 반복",
    "url": "https://tribune.com.pk/story/2634723/houthis-fire-barrage-of-missiles-at-ksa",
    "press": "Express Tribune",
@@ -623,22 +639,6 @@
    "at": "2026-10-14 23:31",
    "why": "반도체·AI 소프트웨어 칸, 열린 LRCX·LITE bets 의 역풍 — IB 권고가 한 주에 겹침",
    "summary": "한 주에 대형 은행 두 곳이 기술주 이익 실현 권고(은행명·세부 숫자 미확인). CPI 상회로 나스닥 약세가 겹친 날."
-  },
-  {
-   "title": "코어위브 13% 급락 — 머스크 'Yikes' 한마디로 AI 부채 우려 부각",
-   "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-shares-sink-13-musk-142006758.html?.tsrc=rss",
-   "press": "Yahoo Finance",
-   "at": "2026-10-14 23:31",
-   "why": "'다음 약한 고리는 AI 차입(크레딧)' 논지를 지지 — 네오클라우드·AI 인프라 차입주",
-   "summary": "CRWV −13%. 머스크 반응이 AI 데이터센터 부채 부담 논쟁을 키움(세부 부채 숫자 미확인)."
-  },
-  {
-   "title": "뱅크오브아메리카, 규제 벌금 뒤 2025년 4월 이후 최악의 하루",
-   "url": "https://seekingalpha.com/news/4652953-bank-of-america-posts-worst-day-since-april-2025-after-regulatory-fine",
-   "press": "Seeking Alpha",
-   "at": "2026-10-14 23:31",
-   "why": "금융 칸·KBE bet(#20261012-20) — 미달 원인이 벌금(일회성)이라 '원인 분해' 규칙의 시험 사례",
-   "summary": "BAC 장중 8%대 급락(이데일리). 3Q 대손 13억$ 전년 수준, 미달 원인은 벌금 준비금·FICC."
   }
  ],
  "at": "2026-10-17 09:35"
