@@ -1,5 +1,5 @@
 {
-"at": "2026-10-16 09:28",
+"at": "2026-10-17 09:35",
 "signals": [
 {
 "src": "pead",
@@ -27,16 +27,16 @@
 "index_KR": {
 "sym": "^KS11",
 "above200": false,
-"d": "2026-10-16"
+"d": "2026-10-15"
 },
 "scanned_KR": 2613,
 "us_source": "US.json 전 종목 5937 + ETF 4899 (2026-10-15)",
 "index_US": {
 "sym": "^GSPC",
 "above200": true,
-"d": "2026-10-15"
+"d": "2026-10-16"
 },
-"scanned_US": 9123,
+"scanned_US": 9126,
 "dip": {
 "sym": "QQQ",
 "d": "2026-10-15",
