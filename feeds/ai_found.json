@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "코어위브 채권 수익률 15% 도달에 주가 13% 하락",
+   "url": "https://www.kucoin.com/news/flash/coreweave-stock-falls-13-as-bond-yields-hit-15",
+   "press": "KuCoin News",
+   "at": "2026-10-17 14:35",
+   "why": "AI 차입(크레딧) 논지 0.84 — 네오클라우드 조달 비용이 주가보다 먼저 경고, 반도체·광통신 칸 위험",
+   "summary": "코어위브 채권 수익률 15%, 주가 −13%. 엔비디아 파트너 GMI 클라우드도 '미친 수준'(블룸버그 10/17)."
+  },
+  {
+   "title": "S&P: CXMT 매출, 메모리 가격 급등으로 가파르게 가속",
+   "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/cxmt-revenue-set-for-sharp-acceleration-as-memory-prices-surge",
+   "press": "S&P Global Market Intelligence",
+   "at": "2026-10-17 14:35",
+   "why": "한국 메모리(삼전·닉스) — 중국 경쟁사 증설·매출 급증 = 점유 경쟁, 반도체 칸 7% 유지 근거",
+   "summary": "CXMT 매출 급가속 전망(10/7). 국내 보도: 3분기 매출 600%대 증가·최대 4천억원 자사주(텔레그램 10/17)."
+  },
+  {
    "title": "엑손모빌, 3분기 정제마진 급등으로 정제 이익 45억$ 증가 신호",
    "url": "https://boereport.com/2026/10/16/exxonmobil-signals-4-5-billion-refining-earnings-boost-as-margins-soar/",
    "press": "Reuters(BOE Report)",
@@ -623,22 +639,6 @@
    "at": "2026-10-15 05:35",
    "why": "고금리 장기화 논지(0.76)·채권/현금 칸, 에너지 칸(휘발유가 견인)",
    "summary": "9월 CPI 전년 대비 3.7%, 휘발유가 급등 영향. 인상 확률 약 22%→45%로 뛰었다는 집계(coinpaper, 미확인). 10년물은 장중 매도 뒤 되돌림."
-  },
-  {
-   "title": "세계 디젤 부족, 저장 탱크 고갈로 2027년까지 갈 듯",
-   "url": "https://www.zawya.com/en/insights/global-diesel-shortage-likely-to-last-into-2027-as-storage-tanks-drain-1021564",
-   "press": "Zawya",
-   "at": "2026-10-15 04:35",
-   "why": "S-Oil #10·SK이노 #16(🎯 집중 정유) 정제마진 근거 — IEA 이사회 10/15 결정 전",
-   "summary": "IEA 월간 보고서: 디젤 재고 고갈로 공급 부족이 2027년까지 이어질 전망(WSJ 동일 보도). 숫자 세부는 원문 확인 필요."
-  },
-  {
-   "title": "뱅크오브아메리카, 3분기 매출 미스·규제 벌금에 주가 8% 급락",
-   "url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
-   "press": "CNBC",
-   "at": "2026-10-15 03:35",
-   "why": "금융 칸(8%)·KBE #20 열린 bet — 미 은행 실적 시즌 첫 대형 미스",
-   "summary": "BofA 3Q 매출 컨센 미달 + 자금세탁방지(AML) 관련 12억 달러 비용(chartmill). 주가 장중 −8%(CNBC 헤드라인). 금리 상승에도 은행이 못 버틴다는 신호."
   }
  ],
  "at": "2026-10-17 11:40"
