@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "후티, 사우디 아람코 리야드 시설에 미사일·드론 공격 주장 — 10월 들어 반복",
+   "url": "https://tribune.com.pk/story/2634723/houthis-fire-barrage-of-missiles-at-ksa",
+   "press": "Express Tribune",
+   "at": "2026-10-17 09:35",
+   "why": "에너지 칸·열린 CNQ(☕ 10/16) 근거 — 공급 차질 위험이 브렌트 110에 얹힘. 반대로 지정학 프리미엄은 빨리 빠질 수 있어 손절 규칙 유지",
+   "summary": "10/4 리야드 인근 석유시설 피격 주장에 이어 10/14 사우디에 미사일 연속 발사(Tribune). 10/17 피드에서 사우디 석유 거점 추가 피격 보도(investing_kr). 실제 생산 차질 규모는 미확인."
+  },
+  {
+   "title": "반도체 장비주 차익실현 하락 — 어플라이드 −7%, 램·KLA −4%",
+   "url": "https://247wallst.com/investing/2026/10/13/semiconductor-equipment-stocks-slide-as-investors-take-profits-on-a-huge-year-applied-materials-sinks-7-lam-research-and-kla-drop-4/",
+   "press": "24/7 Wall St.",
+   "at": "2026-10-17 09:35",
+   "why": "반도체 칸 축소(10→7)·국내 장비 cup_eye(인텍플러스 등) 판단 — 배런스 '장비주 역사적 연속 하락'과 함께, 하락이 실적이 아닌 '큰 한 해 차익실현'이라는 해석",
+   "summary": "10/13 AMAT −7%·LRCX·KLAC −4%, 올해 큰 상승 뒤 차익실현. 이후 10/16까지 장비주 역사적 연속 하락(barrons 피드). SOX 8일 연속 하락과 겹침."
+  },
+  {
    "title": "씨티: 미 재무부, 장기 국채 발행 축소 경고 — 전략 전환 신호",
    "url": "https://www.itiger.com/news/1160804926",
    "press": "Tiger Brokers",
@@ -623,23 +639,7 @@
    "at": "2026-10-14 23:31",
    "why": "금융 칸·KBE bet(#20261012-20) — 미달 원인이 벌금(일회성)이라 '원인 분해' 규칙의 시험 사례",
    "summary": "BAC 장중 8%대 급락(이데일리). 3Q 대손 13억$ 전년 수준, 미달 원인은 벌금 준비금·FICC."
-  },
-  {
-   "title": "닉 티미라오스: 예상 웃돈 CPI로 10월 동결 부담 커졌지만 계획 변경 조짐은 아직 없어",
-   "url": "https://t.me/HANAchina/70432",
-   "press": "WSJ(티미라오스)·하나 중국",
-   "at": "2026-10-14 23:15",
-   "why": "현금·단기채 칸·고금리 논지 — 시장 인상 확률 46%와 연준 기자 해석이 어긋남",
-   "summary": "CPI 3.7%(예상 3.6%)·근원 전월비 0.3%. 시장 10월 인상 확률 22→46%, 그러나 연준 쪽 계획 변경 신호는 아직 없음."
-  },
-  {
-   "title": "美 9월 소비자물가 3.7%…이달 금리 인상 확률 22%→46%",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSWxBX2h6VlhfODV1Tll5MHFRbUgwWWpQZTVtd2stSmZUcFh1R3NlZ2h4X0hmeW5uMHhHdW1zZTNIeHEwajJCMVkydFF6Y0RiNTAtTUVRcm1RdjRYRG9WWmktdldBZ1FUNVVLRFpSSlFDdUZqSnQ0NmJqVzYtQ21SOFVYOUZ0ZXRF0gGcAUFVX3lxTFBGek9xM0VHTzR4RFd2em5qaTFLeU80WVFBQjd1V3R0NHlJTW1XQjZ5NElWeWlDdlZDS0hqcndjUlhMcnVIQWRZbjhGdGQ4Y3J6a0FXZlIyUW1ac0txWVBGbHluekhudlgzcTU0TkszOFpTeEJjM3VlZVB1QkhRZXZUQmFiWHdHVDNHaTJFUG9PSUU0aVNQeXl5YkxKUw?oc=5",
-   "press": "조선비즈",
-   "at": "2026-10-14 22:20",
-   "why": "고금리 논지·현금/단기채 칸·LRCX #20(장비주 금리 민감)과 직결",
-   "summary": "헤드라인 전년비 3.7%(예상 3.6%·전월 3.4%), 근원 전월비 0.3% 상회. 10월 FOMC 인상 확률 22%→46%."
   }
  ],
- "at": "2026-10-17 05:35"
+ "at": "2026-10-17 09:35"
 }
