@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엑손모빌, 3분기 정제마진 급등으로 정제 이익 45억$ 증가 신호",
+   "url": "https://boereport.com/2026/10/16/exxonmobil-signals-4-5-billion-refining-earnings-boost-as-margins-soar/",
+   "press": "Reuters(BOE Report)",
+   "at": "2026-10-17 13:30",
+   "why": "⚡ CNQ(☕ 10/16) 열린 bet·S-Oil(focus) — 정제마진 강세가 실적으로 확인되는 첫 대형사 숫자",
+   "summary": "8-K 예비치: 정제마진 상승으로 3분기 정제 이익 약 45억$ 증가 예상. 같은 보고서에서 업스트림은 부담 요인으로 제시."
+  },
+  {
+   "title": "엑손 예비 실적: 정제 이익 증가 vs 업스트림 부담 — 주가 소폭 상승",
+   "url": "https://www.cmelitegroup.com/trends-and-insights/exxonmobil-shares-edge-higher-as-preliminary-results-show-refining-gains-and-upstream-drag/",
+   "press": "CM Elite",
+   "at": "2026-10-17 13:30",
+   "why": "업스트림(원유 생산) 비중 큰 CNQ 와 정제 비중 큰 S-Oil 의 차이 — 같은 유가 강세라도 정제 쪽이 실적에 먼저 찍힘",
+   "summary": "정제 부문 이익 개선이 업스트림 약세를 상쇄. 세부 업스트림 금액은 미확인."
+  },
+  {
    "title": "나스닥100 하락 — 마이크론·샌디스크·코어위브 급락, 워시 '회의 예단 안 해' 인상 여지",
    "url": "https://www.benzinga.com/markets/equities/26/10/62417145/nasdaq-100-slides-micron-sandisk-coreweave-sink-warsh-keeps-fed-hike-open-stock-market-today-friday",
    "press": "Benzinga",
@@ -623,22 +639,6 @@
    "at": "2026-10-15 03:35",
    "why": "금융 칸(8%)·KBE #20 열린 bet — 미 은행 실적 시즌 첫 대형 미스",
    "summary": "BofA 3Q 매출 컨센 미달 + 자금세탁방지(AML) 관련 12억 달러 비용(chartmill). 주가 장중 −8%(CNBC 헤드라인). 금리 상승에도 은행이 못 버틴다는 신호."
-  },
-  {
-   "title": "BofA, 3분기 매출 미스와 12억 달러 AML 비용으로 하락",
-   "url": "https://www.chartmill.com/news/BAC/Chartmill-56187-Bank-of-America-Corp-NYSEBAC-Slides-After-Q3-2026-Revenue-Miss-and-12-Billion-AML-Charge",
-   "press": "Chartmill",
-   "at": "2026-10-15 03:35",
-   "why": "금융 칸 — 미스의 성격(일회성 벌금 vs 본업 둔화) 판정용",
-   "summary": "12억 달러 AML 비용이 이익을 깎음. 일회성 비중이 크면 은행 업종 전체 판단으로 넓히지 않는다(세부 순이자이익 수치 미확인)."
-  },
-  {
-   "title": "10월 15일이 TSMC 주가의 모든 걸 바꿀 수 있는 이유",
-   "url": "https://247wallst.com/investing/2026/10/12/why-october-15-could-change-everything-for-taiwan-semiconductor-stock/",
-   "press": "24/7 Wall St.",
-   "at": "2026-10-15 02:35",
-   "why": "반도체 칸·LRCX #20·LITE #15 — SOXX 7일 연속 하락의 판정 이벤트(AI 이익 논지 breaks 조건)",
-   "summary": "TSMC 10/15 3Q 실적·가이던스가 반도체 투매(시총 1조$ 증발) 속 첫 시험대. 9월 매출 +54.7% YoY 는 이미 공개 — 관건은 4Q 가이던스·CapEx(세부 숫자 기사 기준 미확인)."
   }
  ],
  "at": "2026-10-17 11:40"
