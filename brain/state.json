@@ -1,6 +1,6 @@
 {
- "last_review": "2026-10-17 15:35",
- "summary": "주말: 나스닥 −2.15%·미 반도체 연속 하락 vs 유럽 6월 이후 최고의 주(DHL 가이던스 상향 등 실적 방어). 신흥국은 인도네시아 MSCI 강등 경고로 1998년 이후 최악의 날 — 외국인 신흥국 이탈 경계. 월요일 국내는 외국인 이틀째 순매수가 관건.",
+ "last_review": "2026-10-17 16:35",
+ "summary": "주말: 나스닥 −2.15%·미 반도체 연속 하락 vs 유럽·영국 방어주 강세(FTSE 6개월 최고의 주). ECB 12월 인상 기울기·BOJ 우에다 '물가 더 못 올린다'로 주요국 긴축 꼬리, 미국은 인상 기대 후퇴로 달러 약세. 월요일 국내는 외국인 이틀째 순매수와 반대매매(3천억 육박) 소화가 관건.",
  "regime": "위험 회피 기울기(미국 — S&P 50일선 이탈(200일선까지 +5.3%)·VIX 급등·AI 매출 의문) / 중립 시험(국내 — 첫 반등, 외국인 전환 확인 전)",
  "theses": [
   {
@@ -39,12 +39,12 @@
  "watch": [
   {
    "t": "코스피 첫 반등일 — 종가 +1%↑ 유지되나",
-   "level": "마감 5,668.05(+2.05%, 장중 +4%대 절반 못 지킴)·외국인 8거래일 만 순매수(hankyung 10/16) — 규모 작아 '전환 예고'. 10/19 이틀째 순매수 + 종가≥시가면 해제",
+   "level": "마감 5,668.05(+2.05%, 장중 +4%대 절반 못 지킴)·외국인 8거래일 만 순매수(hankyung 10/16) — 규모 작아 '전환 예고'. 10/19 이틀째 순매수 + 종가≥시가면 해제 · 다음 주 밴드 5,100~6,100·금통위(gn_kr_bok) · 반대매매 3천억 육박(gn_kr_mkt)",
    "since": "2026-10-16"
   },
   {
    "t": "워시 발언 뒤 — 10월 FOMC 인상 확률",
-   "level": "방콕 발언: 'AI 수요 자극·예단 안 해'(CNBC 10/16). 동결 확률 72%(gn_kr_macro)에서 내려가면 고금리 0.78→0.82 · 10/16 밤 인상 신호 회피 → 달러 급락·원/달러 1,331원 2년 최저(gn_kr_macro)",
+   "level": "방콕 발언: 'AI 수요 자극·예단 안 해'(CNBC 10/16). 동결 확률 72%(gn_kr_macro)에서 내려가면 고금리 0.78→0.82 · 10/16 밤 인상 신호 회피 → 달러 급락·원/달러 1,331원 2년 최저(gn_kr_macro) · 10/17 16:35 ECB 12월 인상 기울기(bbg_econ)·HSBC 12월 25bp(newsquawk)·BOJ 우에다 매파(nikkei_asia) — 미국만 인상 기대 후퇴, 달러 약세 줄기 유지(gn_us_fed)",
    "since": "2026-10-13"
   },
   {
@@ -2151,7 +2151,7 @@
    "target": "entry +6%",
    "stop": "entry −4%",
    "horizon": "2주",
-   "why": "10/15 3분기 매출 예상 상회·주가 급등, 부품비로 순이익 −49%지만 가격 인상 예고(https://qz.com/ericsson-stock-earnings-beat-network-demand-101526 · https://www.ericsson.com/en/press-releases/2026/10/ericsson-reports-third-quarter-results-2026) · wsj 'Ericsson Shares Surge on Strong Sales of Network Gear'(피드 10/16)",
+   "why": "10/15 3분기 매출 예상 상회·주가 급등, 부품비로 순이익 −49%지만 가격 인상 예고(https://qz.com/ericsson-stock-earnings-beat-network-demand-101526 · https://www.ericsson.com/en/press-releases/2026/10/ericsson-reports-third-quarter-results-2026) · wsj 'Ericsson Shares Surge on Strong Sales of Network Gear'(피드 10/16) · 10/5~9 자사주 매입 공시(ericsson.com)",
    "sig": "🧪 PEAD 10/15 (kick_cands ERIC|2026-10-15, score 74)",
    "edge": "시장은 순이익 급감 헤드라인에 반쯤 할인 — 가격 인상이 다음 분기 마진으로 넘어오는 건 아직 가격에 덜 들어감(실적 뒤 표류)",
    "src": "스캐너",

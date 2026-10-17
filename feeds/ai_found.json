@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "에릭슨 자사주 매입 공시 (10/5~10/9 주간)",
+   "url": "https://www.ericsson.com/sv/press-releases/2026/10/share-buybacks-in-ericsson-during-the-period-october-5--october-9-2026",
+   "press": "Ericsson",
+   "at": "2026-10-17 16:35",
+   "why": "열린 ERIC bet(🧪 PEAD 10/15)의 하방 받침 — 매입이 실적 발표 전후로 이어지는지 확인",
+   "summary": "에릭슨이 10/5~10/9 주간 자사주 매입을 공시. 매입 수량·금액은 원문 확인 필요(미확인)."
+  },
+  {
+   "title": "HSBC, ECB 12월 25bp 인상 전망",
+   "url": "https://www.newsquawk.com/headlines/hsbc-expects-the-ecb-to-deliver-a-25bps-hike-in-december-2026",
+   "press": "Newsquawk",
+   "at": "2026-10-17 16:35",
+   "why": "EWQ(프랑스) bet·유럽 실적 방어 줄기 — 유럽 금리 상방이면 밸류 부담, 은행주엔 우호",
+   "summary": "HSBC 가 ECB 12월 25bp 인상을 예상. 블룸버그 10/17 'ECB 12월 인상 쪽으로 기운다'와 같은 방향. 날짜 원문 확인 필요."
+  },
+  {
    "title": "인도네시아 증시, MSCI 강등 경고에 1998년 이후 최악의 하루",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRmY4bFlVY09zSkdQc0ItXzJqT2pmcFBSUkpwVVd6aUNuTU1waDNUcHY3UHJfYkRNby1kOTBPWHdEcklJLXlHVWpfMThubmtmU3JGZjNPWFdjNHJXZ29vVzJ6Z2tienRzc2d6V3pyVFNGQzdFZVphWTRNazZiRVRMeWpoSTE5ZEJ1aVRRUTZ6eC1XSE1scE9RNUx6MnhMbUxHRTc4ek9hOWlqTldkRlpxTzcxYjJQQQ?oc=5",
    "press": "WSJ",
@@ -623,22 +639,6 @@
    "at": "2026-10-15 08:30",
    "why": "고금리 논지(0.76) 확인 — 금 뼈대 칸은 실질금리↑ 국면에 약함, 달러 18개월 최고와 같은 방향",
    "summary": "9월 CPI 예상 상회로 금·은 하락, 국내 보도 기준 금 −1.8%(gn_kr_macro) · 10월 인상 확률 한때 55%(워시 발언, gn_kr_macro)"
-  },
-  {
-   "title": "TSMC 3분기 실적 프리뷰: 이익 +65% 예상, 순이익률은 50%로 하락 전망",
-   "url": "https://www.tikr.com/blog/tsmcs-q3-earnings-preview-65-profit-growth-but-net-margin-seen-slipping-to-50",
-   "press": "TIKR",
-   "at": "2026-10-15 07:40",
-   "why": "오늘 오후 TSMC 실적이 반도체 칸·LRCX #20·LITE #15 의 판정 — 시장 기대치 기준선",
-   "summary": "순이익 +65% 증가 예상 · 순이익률 50%로 낮아질 전망(제목 기준, 세부 미확인)"
-  },
-  {
-   "title": "9월 FOMC 의사록: 위원들 2026년 복수 인상 가능성 높게 봐",
-   "url": "https://www.scotsmanguide.com/news/fed-policymakers-saw-multiple-2026-rate-hikes-as-likely-september-fomc-minutes-show/",
-   "press": "Scotsman Guide",
-   "at": "2026-10-15 07:40",
-   "why": "뜨거운 9월 CPI(3.7%) 뒤 고금리 장기화 논지·현금·단기채 칸 근거 보강",
-   "summary": "9월 의사록에서 다수 위원이 연내 복수 인상을 가능성 높게 판단(제목 기준) · 10/14 CPI 상회로 인상 확률 재부각"
   }
  ],
  "at": "2026-10-17 11:40"
