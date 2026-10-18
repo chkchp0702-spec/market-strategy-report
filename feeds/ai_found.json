@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "앨버타 분리 독립파 지도자 '결과와 관계없이 운동 계속' — 투표는 월요일(10/19)",
+   "url": "https://fortune.com/2026/10/18/alberta-separatist-leader-independence-movement-canada-remain-referendum-vote/",
+   "press": "Fortune",
+   "at": "2026-10-19 06:35",
+   "why": "CNQ bet 진입일(10/19 시가)이 곧 투표일 — 결과 뒤에도 분리 논쟁이 이어지면 캐나다 에너지주 정책 위험이 한 번에 걷히지 않음",
+   "summary": "투표일 10/19(월). 독립파는 '이미 이겼다'며 결과와 무관하게 운동 지속 선언. 최근 여론 잔류 74%·분리 22%(Research Co. 8/24~26, 위키 인용)."
+  },
+  {
+   "title": "앨버타 분리 국민투표 결과 10월 29일 발표 예정 보도",
+   "url": "https://gazettengr.com/albertas-separation-from-canada-referendum-results-will-be-announced-october-29/",
+   "press": "Gazette NGR",
+   "at": "2026-10-19 06:35",
+   "why": "결과 확정이 CNQ bet 기한(1주, ~10/26) 뒤일 수 있음 — '결과 전 위험 절반' 규칙이 기한 전체에 걸린다는 뜻",
+   "summary": "공식 결과 발표 10/29 보도(단일 매체 — 미확인, 개표 당일 잠정 결과 여부도 미확인). 투표 문항은 '분리 국민투표 절차를 시작할지'."
+  },
+  {
    "title": "한은, 연속 인상 뒤 속도 조절하나…10월 쉬고 11월 추가 인상 전망",
    "url": "https://ajunews.com/view/20261013151439774",
    "press": "아주경제",
@@ -623,23 +639,7 @@
    "at": "2026-10-16 11:28",
    "why": "고금리 논지 판정(10년 5.00 밴드 하단) — 12:30 워시 발언 전 포지션",
    "summary": "미 10년 5.09~5.10%, 달러지수 102 보합. 시장은 워시 IMF 발언 대기."
-  },
-  {
-   "title": "TSMC 3분기 순이익 7,631억 대만달러 사상 최대 — 그러나 마진 전망에 주가는 약세",
-   "url": "https://investinglive.com/stocks/icymi-tsmc-profit-jumps-nearly-70-on-ai-demand-but-margin-outlook-weighs-on-shares/",
-   "press": "investingLive",
-   "at": "2026-10-16 10:38",
-   "why": "반도체 칸 'AI 이익은 진짜' 논지 재확인 — 문제는 실적이 아니라 마진·밸류(신호와 별개로 주가 약세)",
-   "summary": "순이익 약 +69% y/y·6분기 연속 최대(sedaily 피드도 7,630억 확인). 4분기 매출 가이던스 상향이지만 마진 전망이 주가를 누름."
-  },
-  {
-   "title": "나스닥 선물 하락 — AI 지출·연준 금리 우려",
-   "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-edge-lower-as-ai-spending-fed-rate-concerns-weigh-4952930",
-   "press": "Investing.com",
-   "at": "2026-10-16 10:38",
-   "why": "코스피 첫 반등일 종가 판정 변수 — 미 선물 약세면 갭 유지 어려움(watch '코스피 첫 반등일')",
-   "summary": "전일 다우 반등에도 나스닥 선물 소폭 약세. AI 설비투자 부담과 PPI 쇼크 뒤 금리 인상 우려가 동시에 작용."
   }
  ],
- "at": "2026-10-19 00:35"
+ "at": "2026-10-19 06:35"
 }
