@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "인도네시아 증시 11% 폭락 — MSCI, 인도네시아 지수 '단독(스탠드얼론)' 강등 경고",
+   "url": "https://thestar.com.my/business/business-news/2026/10/16/jakarta-stocks-plunge-11-as-msci-set-to-drop-indonesia-from-indexes",
+   "press": "The Star",
+   "at": "2026-10-19 02:40",
+   "why": "MSCI 신흥국 지수에서 인도네시아 비중이 빠지면 패시브 자금이 한국·대만 등으로 재배분 — 국내 외국인 수급(watch 코스피 첫 반등) 보조 재료",
+   "summary": "10/16 자카르타 지수 장중 −11%, 1998년 이후 최대 하루 낙폭(WSJ·The Standard). MSCI 가 투자 가능성 문제로 단독 시장 강등을 예고."
+  },
+  {
+   "title": "앨버타 분리 국민투표 실시 여부 투표 — 경과 정리",
+   "url": "https://boereport.com/2026/10/16/alberta-is-to-vote-on-holding-a-separation-referendum-a-timeline-on-how-we-got-here-2/",
+   "press": "BOE Report",
+   "at": "2026-10-19 02:40",
+   "why": "CNQ 대기 bet(10/19 시가 진입)과 진입일이 겹침 — 결과가 캐나다 에너지주 시가 갭을 좌우",
+   "summary": "10/19 앨버타 주민이 분리 국민투표 실시 여부에 투표. 잔류 여론 우세(이전 검색 70%) — 결과 확정 전 시가 진입 위험."
+  },
+  {
    "title": "BofA 하트넷 '3~4주 위험 축소 임박' — 기술주 대신 소형주·리츠·경기소비재",
    "url": "https://www.roic.ai/news/bofas-hartnett-warns-of-imminent-risk-off-period-as-inflation-yields-bite-10-16-2026",
    "press": "roic.ai",
@@ -623,22 +639,6 @@
    "at": "2026-10-15 13:35",
    "why": "킥 재가동 시점·현금 칸 26→40 조건 판단 — 10월 말~11월 계절 수급 반전",
    "summary": "심리는 4월 관세 저점 수준까지 하락. 기업 자사주 매입은 10월 말~11월 대규모 재개, 뮤추얼펀드 연말 매도는 할로윈 이후 완화, 이어 개인·외국인 계절 매수 유입 전망."
-  },
-  {
-   "title": "UBS: A주 기술주 쏠림 대폭 해소 — 추가 하락 위험 제한적",
-   "url": "https://wallstreetcn.com/articles/3783669",
-   "press": "월스트리트견문",
-   "at": "2026-10-15 13:35",
-   "why": "아시아 기술주 투매 속 중국 쪽은 포지션 정리 끝 — 해외 상품·반도체 칸 대안 관찰",
-   "summary": "공모펀드 기술주 초과비중 18.5%(역사적 고점)에서 하락, 기술주 거래대금 비중 49.7%→37.2%. A주 2분기 이익 +29.4%."
-  },
-  {
-   "title": "한국 증시, 10월 중순 핵심 지지대 사라지며 시험대(골드만 수급 경고)",
-   "url": "https://www.itiger.com/news/1186200403",
-   "press": "Tiger Brokers",
-   "at": "2026-10-15 13:35",
-   "why": "오늘 서킷브레이커와 직결 — 개인 매수·자사주 지지 소진 시점 경고(본문 미확인, 제목 기준)",
-   "summary": "제목 기준: 한국 증시를 받치던 핵심 수급이 10월 중순 사라질 것이란 골드만 분석. 세부 숫자 미확인."
   }
  ],
  "at": "2026-10-19 00:35"
