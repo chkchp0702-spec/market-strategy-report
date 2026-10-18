@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "이란, 미 선거 앞두고 걸프 해운 공격 전술 바꿔 강화(로이터 인용)",
+   "url": "https://al-monitor.com/originals/2026/10/iran-shifting-tactics-step-attacks-shipping-us-vote-officials-say",
+   "press": "Al-Monitor(로이터)",
+   "at": "2026-10-18 23:34",
+   "why": "CNQ 대기 bet(브렌트 110달러)·에너지 칸 — 유가 위험 프리미엄의 '시한'이 미 선거라는 점",
+   "summary": "관리들 말: 이란이 미국 투표 전 유가를 높게 유지하려 해운 공격을 늘림. CNBC 10/18 '미국이 공격 재개하면 새 작전 계획' 발언과 이어짐. 구체 수치 미확인"
+  },
+  {
+   "title": "HSBC 「AI 트레이드에 맞서지 말라」 — 랠리 동력 유지 판단",
+   "url": "https://www.roic.ai/news/hsbc-dont-fight-the-ai-trade-as-stock-rally-gains-momentum-10-13-2026",
+   "press": "roic.ai",
+   "at": "2026-10-18 23:34",
+   "why": "반도체 8일 연속 하락 중 IB 시각 — 반도체·AI 칸 반등 확인 규칙(ideas 10/18 22:35)과 대조",
+   "summary": "HSBC 10/13 AI 주도 상승 유지 판단, 10/18 yahoo '3분기 실적·AI 수요가 세계 증시 지지'로 재확인. 목표치 숫자 미확인"
+  },
+  {
    "title": "앨버타 분리 국민투표 10/19(월) 본투표 — 레제 여론조사 '캐나다 잔류' 70%·부동층 10%",
    "url": "https://leger360.com/alberta-referendum-october-2026/",
    "press": "Leger",
@@ -623,22 +639,6 @@
    "at": "2026-10-15 11:35",
    "why": "반도체 칸·'AI 이익은 진짜' 논지의 판정 — 가이던스·CapEx 상향 여부가 7일 연속 하락을 끊을지",
    "summary": "3Q 매출 NT$1.49조(월간 합계, 사상 최대) · 2026 CapEx 가이드 600~640억 달러(7월 15% 상향분) · 쟁점은 마진 하락·4Q 가이던스"
-  },
-  {
-   "title": "[개장시황] 코스피·코스닥 6%대 급락…매도 사이드카 잇따라 발동",
-   "url": "https://www.newspim.com/news/view/20261015000255",
-   "press": "뉴스핌",
-   "at": "2026-10-15 09:22",
-   "why": "한국 칸(kospi_stop 6,500 발동 중)·외국인 복귀 조건(foreign_return)·S-Oil #10 판단 근거",
-   "summary": "09:22 코스피 5,618.02(−6.50%)·코스닥 767.50(−6.84%) · 코스피 외국인 −9,159억, 기관 +8,699억 · 삼성전자 −6.03%(21.8만)·하이닉스 −7.47%(131.3만) · 환율 1,341원"
-  },
-  {
-   "title": "TSMC 3Q 2026 실적 프리뷰: 매출·마진 체크포인트",
-   "url": "https://www.hudson-labs.com/research/tsmc-q3-2026-earnings-preview-tsm-revenue-and-margins",
-   "press": "Hudson Labs",
-   "at": "2026-10-15 09:40",
-   "why": "오늘 오후 TSMC 실적이 반도체 7일 연속 하락의 판정 — 하이닉스·삼성·🎯 반도체 칸 재진입 여부",
-   "summary": "10/15 실적 발표 프리뷰(세부 숫자 미확인) · 7월엔 2026 CapEx 600~640억$로 상향(TrendForce 7/16)"
   }
  ],
  "at": "2026-10-17 11:40"
