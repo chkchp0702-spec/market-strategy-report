@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "BofA 하트넷 '3~4주 위험 축소 임박' — 기술주 대신 소형주·리츠·경기소비재",
+   "url": "https://www.roic.ai/news/bofas-hartnett-warns-of-imminent-risk-off-period-as-inflation-yields-bite-10-16-2026",
+   "press": "roic.ai",
+   "at": "2026-10-19 01:35",
+   "why": "AI 차입 논지·반도체 칸 비중 확대 금지와 직결 — 기술주 복귀 시점(11월 중순) 판단 기준",
+   "summary": "실질금리 ~3%·9월 CPI 3.7%. Bull&Bear '매도' 구간, MMF 주간 1,664억$ 유입(총 ~8조$). 10/27~28 FOMC 인상 가능성 언급(확정 아님)."
+  },
+  {
+   "title": "주말 시장 정리 10/18 — 나스닥 주간 −5.5%, XLK −7.7%, VIX 20",
+   "url": "https://algotradealert.substack.com/p/weekend-market-update-october-18",
+   "press": "AlgoTradeAlert",
+   "at": "2026-10-19 01:35",
+   "why": "월요일 국내 반도체·킥 신호 진입 판단의 기준선(미 기술주 주간 낙폭)",
+   "summary": "SPY −1.97%·QQQ −5.52%·XLK −7.70%(10/9→10/16). 미 10년 5.09%(주간 −15bp), VIX 19.99(+5.15). 이번 주 10/20 주택착공·10/23 미시간 확정."
+  },
+  {
    "title": "코어위브 채권, 부실채권처럼 거래 — AI 투자 속도가 재무를 앞질러",
    "url": "https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/",
    "press": "investingLive",
@@ -623,22 +639,6 @@
    "at": "2026-10-15 13:35",
    "why": "오늘 서킷브레이커와 직결 — 개인 매수·자사주 지지 소진 시점 경고(본문 미확인, 제목 기준)",
    "summary": "제목 기준: 한국 증시를 받치던 핵심 수급이 10월 중순 사라질 것이란 골드만 분석. 세부 숫자 미확인."
-  },
-  {
-   "title": "미래에셋 '증시 급락 코멘트' — 체크포인트: 앤트로픽 성장 둔화·코어위브 CDS 1000bp·빅테크 FCF·실질금리",
-   "url": "https://han.gl/ZQQt8",
-   "press": "미래에셋증권",
-   "at": "2026-10-15 13:35",
-   "why": "반도체 칸·AI 차입 논지 판정 기준 4가지",
-   "summary": "앤트로픽 3Q +46% q/q(2Q +140%↑에 못 미침), 코어위브 CDS 1000bp 상회, 빅테크 CDS 상승. 3Q 실적서 FCF 회복이 빨라야 우려 완화."
-  },
-  {
-   "title": "워시 연준 의장, 10/16 IMF 연차총회(방콕) 연설 — 10월 회의 앞 마지막 발언",
-   "url": "https://www.roic.ai/news/fed-chairman-warsh-to-speak-at-imf-meetings-in-bangkok-on-october-16-10-08-2026",
-   "press": "ROIC.ai",
-   "at": "2026-10-15 12:35",
-   "why": "CPI 3.7% 직후 첫 연준 수장 발언 — 고금리 논지·현금·단기채 칸, 킥 쉼 해제 시점과 직결",
-   "summary": "10/16 IMF 방콕 연설 예정 · 10월 FOMC 앞 · 시장은 10월 인상 확률 한때 55%(gn_kr_macro)"
   }
  ],
  "at": "2026-10-19 00:35"
