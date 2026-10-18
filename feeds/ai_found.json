@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "앨버타 분리 국민투표 10/19(월) 본투표 — 레제 여론조사 '캐나다 잔류' 70%·부동층 10%",
+   "url": "https://leger360.com/alberta-referendum-october-2026/",
+   "press": "Leger",
+   "at": "2026-10-18 22:35",
+   "why": "CNQ(☕ 10/16, 캘거리 본사) bet 진입일(10/19 시가)이 투표일 — 결과는 캐나다 장 마감 뒤라 10/20 갭 위험",
+   "summary": "본투표 10월 19일, 사전투표소 300곳↑ 대거 참여(National Observer 10/14). 레제 조사 잔류 70%·부동층 10%로 상승."
+  },
+  {
+   "title": "미 반도체주 8거래일 연속 하락 — 2008년 이후 최장",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-just-fell-8-161520543.html",
+   "press": "Yahoo Finance",
+   "at": "2026-10-18 22:35",
+   "why": "반도체 칸(10→7)·'한국 외국인 복귀 전 비중 확대 금지' 논지 — 월요일 삼전닉스 시험대",
+   "summary": "필라델피아 반도체지수 8일 연속 하락(10/16 약 −2%), 2008년 이후 최장. 같은 날 SK하이닉스 ADR −4%대(biggo)."
+  },
+  {
    "title": "에릭슨 자사주 매입 공시 (10/5~10/9 주간)",
    "url": "https://www.ericsson.com/sv/press-releases/2026/10/share-buybacks-in-ericsson-during-the-period-october-5--october-9-2026",
    "press": "Ericsson",
@@ -623,22 +639,6 @@
    "at": "2026-10-15 09:40",
    "why": "오늘 오후 TSMC 실적이 반도체 7일 연속 하락의 판정 — 하이닉스·삼성·🎯 반도체 칸 재진입 여부",
    "summary": "10/15 실적 발표 프리뷰(세부 숫자 미확인) · 7월엔 2026 CapEx 600~640억$로 상향(TrendForce 7/16)"
-  },
-  {
-   "title": "원유 상승: 이란, 호르무즈 통과 선박 겨냥 새 전술",
-   "url": "https://boereport.com/2026/10/14/oil-prices-climb-as-iran-deploys-new-tactics-to-target-ships-transiting-hormuz/",
-   "press": "BOE Report",
-   "at": "2026-10-15 08:30",
-   "why": "S-Oil #10(열림)·SK이노 #16(대기)·미쓰이OSK #23 의 유가·운임 근거 — 트럼프·네타냐후 이란 핵시설 타격 논의(Axios via sedaily)와 겹침",
-   "summary": "이란이 호르무즈 통과 선박을 겨냥한 새 전술을 쓰며 유가 상승(10/14, 제목 기준 · 세부 숫자 미확인)"
-  },
-  {
-   "title": "뜨거운 CPI에 금·은 급락 — 연준 인상 압력 재부각",
-   "url": "https://kitco.com/news/article/2026-10-14/gold-silver-drop-hotter-cpi-revives-fed-rate-pressure-kitco-am-report",
-   "press": "Kitco",
-   "at": "2026-10-15 08:30",
-   "why": "고금리 논지(0.76) 확인 — 금 뼈대 칸은 실질금리↑ 국면에 약함, 달러 18개월 최고와 같은 방향",
-   "summary": "9월 CPI 예상 상회로 금·은 하락, 국내 보도 기준 금 −1.8%(gn_kr_macro) · 10월 인상 확률 한때 55%(워시 발언, gn_kr_macro)"
   }
  ],
  "at": "2026-10-17 11:40"
