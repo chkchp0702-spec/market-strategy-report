@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "코어위브 주가 16% 급락, 회사채 수익률 15% 근접",
+   "url": "https://cryptobriefing.com/coreweave-shares-plunge-bond-yields-15/",
+   "press": "Crypto Briefing",
+   "at": "2026-10-19 17:35",
+   "why": "🧠 'AI 차입 크레딧' 논지(0.84)의 대표 온도계 — 반도체·AI 인프라 칸 비중 판단",
+   "summary": "코어위브 주가 하루 −16%, 회사채 수익률 15% 근접 = 부실채권 수준. 같은 날 MS 영국 데이터센터 계약 철회(chosunbiz)·Nscale 가치 반토막(HANAchina)."
+  },
+  {
+   "title": "영국 대표 AI 데이터센터(Nscale) 전력 연결 못 해 가동 지연",
+   "url": "https://thenextweb.com/news/nscale-essex-data-centre-uk-grid-delay",
+   "press": "The Next Web",
+   "at": "2026-10-19 17:35",
+   "why": "AI 인프라 병목이 칩이 아니라 전력 — 전력기기·ESS(배터리) 쪽으로 돈이 옮겨가는 근거, 데이터센터 차입자엔 악재",
+   "summary": "Nscale 에섹스 데이터센터가 송전망 연결 지연으로 가동 못 함. MS 는 전력 지연 이유로 영국 계약 철회. 오늘 국내 2차전지·ESS 강세(hankyung)와 같은 흐름."
+  },
+  {
+   "title": "MSCI, 인도네시아 결정 미루고 개혁 이행 증거 요구",
+   "url": "https://indonesiabusinesspost.com/6747/markets-and-finance/msci-delays-decision-on-indonesia-seeks-proof-of-reform-implementation",
+   "press": "Indonesia Business Post",
+   "at": "2026-10-19 17:35",
+   "why": "EM 지수 재배분 — 강등 확정 시 한국·대만 패시브 비중 소폭↑ (watch '신흥국 지수 위험')",
+   "summary": "MSCI 가 인도네시아 등급 결정을 미루고 개혁 이행 증거를 요구(기사 날짜 확인 필요 — 이번 면담 결과인지 미확인). IDX 오늘 −5% 추가."
+  },
+  {
    "title": "美 증시, AI 매도 뒤 반등 준비 — 나스닥100 선물 +1.3%",
    "url": "https://www.ft.com/content/915ea7ca-1f35-4847-810a-fb29e8344496",
    "press": "FT",
@@ -615,30 +639,6 @@
    "at": "2026-10-16 23:35",
    "why": "🧪 PEAD 신호 ERIC(kick_cands 10/15, 74)와 겹침 — 실적 뒤 표류(드리프트) 시험 bet 근거",
    "summary": "10/15 에릭슨 3분기 매출 예상 상회·네트워크 장비 수요 강세로 주가 급등. AI발 부품비 상승으로 순이익은 급감했지만 가격 인상 예고."
-  },
-  {
-   "title": "에릭슨 3분기 실적 원문 (회사 발표)",
-   "url": "https://www.ericsson.com/en/press-releases/2026/10/ericsson-reports-third-quarter-results-2026",
-   "press": "Ericsson",
-   "at": "2026-10-16 23:35",
-   "why": "ERIC bet(#20261016-23) 숫자 확인용 원문",
-   "summary": "2026년 3분기 실적 발표(10/15). 매출 성장·원가 압박·주주환원 언급 — 세부 숫자는 원문 확인."
-  },
-  {
-   "title": "다우 선물 +145P — 워시 금리 방향 회피·테슬라 로드스터, 개장 전 5가지",
-   "url": "https://invezz.com/news/2026/10/16/dow-futures-rise-145-points-5-things-to-know-before-wall-street-opens-on-oct-16/",
-   "press": "Invezz",
-   "at": "2026-10-16 21:35",
-   "why": "열린 bets(KBE·EWQ·MDT) 오늘 밤 방향 — 지수는 버티나 기술주 약세, 회전 이틀째인지 판정",
-   "summary": "10/16 다우 선물 +145P, 워시 의장 금리 경로 언급 회피. 테슬라 로드스터 공개로 프리마켓 강세, 기술주는 AI 투자 불안으로 혼조."
-  },
-  {
-   "title": "월가 선물 혼조 — 기술주 다시 흔들림, 테슬라 강세(로이터)",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-mixed-tech-110701262.html",
-   "press": "Reuters/Yahoo",
-   "at": "2026-10-16 21:35",
-   "why": "AI 차입 스트레스(코어위브) 논지·나스닥 vs 다우 회전 지속 여부 — 🎯 AI 칸 판단",
-   "summary": "10/16 미 선물 혼조, 기술주 재차 약세·테슬라 상승. S&P 주간 하락 흐름(cnbc 라이브). 미 국채는 2월 이후 최고의 주(FT)."
   }
  ],
  "at": "2026-10-19 16:35"
