@@ -1,0 +1,18 @@
+name: sent-bt
+# 🫀 심리 규칙 검증 (src/lab/sent_bt.py → market/sentiment_bt.json) — 수동
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  bt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q yfinance pandas numpy
+      - run: python src/lab/sent_bt.py
+      - run: |
+          git config user.name bot; git config user.email bot@users.noreply.github.com
+          bash scripts/push.sh "sent-bt" market/sentiment_bt.json
