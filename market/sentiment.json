@@ -1,8 +1,7 @@
 {
- "at": "2026-10-19 23:38",
- "line": "VIX 17.68(60%) · SPY 풋/콜 2.585 · 외가풋 프리미엄 +10.1%p · 신용 323,167 · 외인 선물 +13,976계약(5일)",
+ "at": "2026-10-20 08:03",
+ "line": "VIX 18.44(69%) · SPY 풋/콜 2.452 · 외가풋 프리미엄 +11.0%p · 신용 318,244 · 외인 선물 +10,079계약(5일)",
  "on": [
-  "R6",
   "R8"
  ],
  "signals": [
@@ -10,7 +9,7 @@
    "id": "R1",
    "name": "😨 미 공포 극단",
    "on": false,
-   "level": "VIX 17.68 (1년 60%) · VIX/VIX3M 0.923",
+   "level": "VIX 18.44 (1년 69%) · VIX/VIX3M 0.941",
    "then": "크기 줄이기 — 20년 55번: 다음 20일 SPY +1.29%(기저 +0.97%)로 하락 신호 아님, 대신 흔들림 sd 5.7 vs 4.6. 새 bets 3일·목표 절반"
   },
   {
@@ -24,86 +23,92 @@
    "id": "R2",
    "name": "🔁 풋콜 리셋",
    "on": false,
-   "level": "SPY 풋/콜 거래량 2.585 · 10일평균 84일 순위 None% (기록 1/84일) — 쌓는 중",
+   "level": "SPY 풋/콜 거래량 2.452 · 10일평균 84일 순위 None% (기록 1/84일) — 쌓는 중",
    "then": "3개월 SPY 채점 (SentimenTrader 51회 80% 승)"
   },
   {
    "id": "R3",
    "name": "🧾 한국 신용 청산 멈춤",
    "on": false,
-   "level": "신용잔고 323,167 · 60일 최고 대비 -4.5% · 5일 -2.3%",
+   "level": "신용잔고 318,244 · 60일 최고 대비 -6.0% · 5일 -4.7%",
    "then": "20일 코스피 채점 — 가설: 잔고 −10%↑ 줄고 멈춘 뒤 바닥 (7~8월: 38.6→27.4조 뒤 반등)"
   },
   {
    "id": "R4",
    "name": "🔄 외국인 선물 매도 정리",
    "on": false,
-   "level": "외국인 선물 5일 누적 +13,976계약 (어제까지 +22,425) · 오늘 -927",
+   "level": "외국인 선물 5일 누적 +10,079계약 (어제까지 +13,976) · 오늘 +0",
    "then": "5·20일 코스피 채점 — 앨버트로스: 기존 매도자 정리만으로 반등 시작"
   },
   {
    "id": "R6",
    "name": "🚀 외국인 선물 강한 매수",
-   "on": true,
-   "level": "외국인 선물 5일 +13,976계약 (상위 20% 문턱 +13,000)",
+   "on": false,
+   "level": "외국인 선물 5일 +10,079계약 (상위 20% 문턱 +13,000)",
    "then": "5일 코스피 채점 — 표본: 상위 20% 다음 5일 +2.58%·승률 70% vs 하위 20% +0.73%·50% (모멘텀, 역발상 아님)"
   },
   {
    "id": "R7",
    "name": "🧯 외국인 선물 투매",
    "on": false,
-   "level": "외국인 선물 5일 +13,976계약 (문턱 −20,000)",
+   "level": "외국인 선물 5일 +10,079계약 (문턱 −20,000)",
    "then": "크기 줄이기 — 표본 11번 다음 20일 코스피 평균 −2.07%·승률 36% (기저 +6.46%·77%)"
   },
   {
    "id": "R8",
    "name": "🔀 현물 팔고 선물 사는 외국인",
    "on": true,
-   "level": "외국인 현물 5일 -90,456억 · 선물 5일 +13,976계약",
+   "level": "외국인 현물 5일 -44,667억 · 선물 5일 +10,079계약",
    "then": "5일 코스피 채점 — 표본 13번 +1.93%·69% (기저 +1.49%·65%, 차이 작음 — 관찰)"
   },
   {
    "id": "R5",
    "name": "🎈 외가 풋 비쌈(보험 수요)",
    "on": false,
-   "level": "SPY 0.90풋 IV−등가 콜 IV +10.1%p · 0.95풋 3.96 (기록 1/20일 — 쌓는 중)",
+   "level": "SPY 0.90풋 IV−등가 콜 IV +11.0%p · 0.95풋 4.83 (기록 1/20일 — 쌓는 중)",
    "then": "20일 SPY 채점 — 가설만(종목은 −, 지수는 반대일 수 있음)"
   }
  ],
  "us": {
-  "vix": 17.68,
-  "vix_p1y": 60,
+  "vix": 18.44,
+  "vix_p1y": 69,
   "vix_d": "2026-10-19",
-  "vix3m": 19.16,
-  "vix3m_p1y": 33,
+  "vix3m": 19.6,
+  "vix3m_p1y": 45,
   "vix3m_d": "2026-10-19",
-  "vix9d": 16.99,
-  "vix9d_p1y": 69,
+  "vix9d": 17.93,
+  "vix9d_p1y": 75,
   "vix9d_d": "2026-10-19",
-  "skew_idx": 168.59,
+  "skew_idx": 161.86,
   "skew_idx_p1y": 100,
-  "skew_idx_d": "2026-10-16",
-  "vix_vix3m": 0.923,
+  "skew_idx_d": "2026-10-19",
+  "vix_vix3m": 0.941,
   "backwardation": false,
   "backwardation_prev": false,
-  "vix9d_vix": 0.961
+  "vix9d_vix": 0.972
  },
  "spy_opt": {
-  "spot": 767.39,
+  "spot": 766.48,
   "m": "2026-10-19",
   "exp": "2026-11-20",
-  "dte": 32,
-  "pc_vol": 2.585,
+  "dte": 31,
+  "pc_vol": 2.452,
   "pc_oi": 5.367,
   "atm_civ": 15.0,
-  "p95_iv": 18.9,
-  "p90_iv": 25.1,
-  "skew95": 3.96,
-  "skew90": 10.09
+  "p95_iv": 19.8,
+  "p90_iv": 26.0,
+  "skew95": 4.83,
+  "skew90": 11.02
  },
- "spy_roc5": -1.38,
+ "spy_roc5": -1.49,
  "kr": {
   "fut": [
+   {
+    "d": "2026-10-20",
+    "indiv": 0,
+    "foreign": 0,
+    "inst": 0
+   },
    {
     "d": "2026-10-19",
     "indiv": -671,
@@ -127,15 +132,15 @@
     "indiv": -3260,
     "foreign": 8445,
     "inst": -4680
-   },
-   {
-    "d": "2026-10-13",
-    "indiv": 1237,
-    "foreign": 3897,
-    "inst": -5279
    }
   ],
   "kospi": [
+   {
+    "d": "2026-10-20",
+    "indiv": 0,
+    "foreign": 0,
+    "inst": 0
+   },
    {
     "d": "2026-10-19",
     "indiv": -11767,
@@ -159,34 +164,33 @@
     "indiv": -3203,
     "foreign": -11614,
     "inst": 7876
-   },
-   {
-    "d": "2026-10-13",
-    "indiv": 23169,
-    "foreign": -45789,
-    "inst": 16685
    }
   ],
   "credit": [
    {
-    "d": "2026-10-15",
-    "deposit": 969121.0,
-    "credit": 323167.0,
+    "d": "2026-10-16",
+    "deposit": 944030.0,
+    "credit": 318244.0,
     "raw": {
-     "bizdate": "20261015",
-     "customerDeposit": "969121",
-     "customerDepositDiff": "-5159",
-     "customerDepositDiffAbs": "5159",
-     "creditLoan": "323167",
-     "creditLoanDiff": "-9506",
-     "creditLoanDiffAbs": "9506",
-     "beneficiaryCertificateStock": "3113309",
-     "beneficiaryCertificateStockDiff": "-139876",
-     "beneficiaryCertificateStockDiffAbs": "139876",
-     "beneficiaryCertificateBond": "2180755",
-     "beneficiaryCertificateBondDiff": "7171"
+     "bizdate": "20261016",
+     "customerDeposit": "944030",
+     "customerDepositDiff": "-25092",
+     "customerDepositDiffAbs": "25092",
+     "creditLoan": "318244",
+     "creditLoanDiff": "-4922",
+     "creditLoanDiffAbs": "4922",
+     "beneficiaryCertificateStock": "3144205",
+     "beneficiaryCertificateStockDiff": "30896",
+     "beneficiaryCertificateStockDiffAbs": "30896",
+     "beneficiaryCertificateBond": "2186574",
+     "beneficiaryCertificateBondDiff": "5819"
     },
     "src": "https://stock.naver.com/api/domestic/market/trendDeposit?page=1&pageSize=60"
+   },
+   {
+    "d": "2026-10-15",
+    "deposit": 969121.0,
+    "credit": 323167.0
    },
    {
     "d": "2026-10-14",
@@ -202,36 +206,10 @@
     "d": "2026-10-12",
     "deposit": 1004389.0,
     "credit": 338487.0
-   },
-   {
-    "d": "2026-10-08",
-    "deposit": 1001099.0,
-    "credit": 333787.0
    }
   ]
  },
- "score": {
-  "R6": {
-   "days_on": 1,
-   "r5": {
-    "n": 0
-   },
-   "r20": {
-    "n": 0
-   },
-   "verdict": "⏳ 쌓는 중"
-  },
-  "R8": {
-   "days_on": 1,
-   "r5": {
-    "n": 0
-   },
-   "r20": {
-    "n": 0
-   },
-   "verdict": "⏳ 쌓는 중"
-  }
- },
+ "score": {},
  "errors": {},
  "rule": "규칙 R1~R5 는 brain/sentiment_lab.md 에 결과 보기 전에 적음 · 그림자 채점만(킥 매매 안 바꿈) · 판정은 20일 채점 n≥20 부터"
 }
