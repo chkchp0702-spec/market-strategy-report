@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "앤트로픽, 엔스케일과 450억 달러 AI 컴퓨팅 계약(블룸버그 보도)",
+   "url": "https://www.channelinsider.com/ai/news-anthropic-nscale-45-billion-ai-compute-deal/",
+   "press": "Channel Insider",
+   "at": "2026-10-20 05:35",
+   "why": "'AI 차입·크레딧' 논제(0.84) — AI 설비 수요는 아직 꺾이지 않음, 네오클라우드 조달 부담은 커짐",
+   "summary": "460MW 규모 캠퍼스, 450억 달러. 엔스케일 IPO 앞둔 계약."
+  },
+  {
+   "title": "재무부 국채 발행 계획이 월가 불안을 키우는 이유",
+   "url": "https://www.marketwatch.com/story/why-the-treasurys-financing-plans-are-sparking-anxiety-on-wall-street-b49b5e17?mod=mw_rss_topstories",
+   "press": "MarketWatch",
+   "at": "2026-10-20 05:35",
+   "why": "고금리 장기화 논제(0.76) — 주식 반등 날에도 국채금리 상승 근거",
+   "summary": "나스닥 반등일에도 국채 약세. 발행 물량 부담이 금리 하단을 받침."
+  },
+  {
+   "title": "미 주택건설업체 심리 10월 14년반 만의 최저 근처로 급락",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYzZUb09NNUZyTi1nanEwMHNsSGE4XzB4Y2tFSWVXYU5XU2Q3ODdBMkZmSFN4LVB3NHZjUG5FY2ZDQjJtYlZpbXpkQTMzQnVIOTF6bGZhWkstcWItVWxtbklsTHg4YnhuVkxiXy0td2oxbExYN1R1bjdmeGFkdlU2TDZ6b0Zqb1k3Q0VwbWVZRjdPbm1odHVZMzZ5NDltVG0zampuN2JzMXo?oc=5",
+   "press": "Reuters",
+   "at": "2026-10-20 05:35",
+   "why": "고금리가 '약한 고리부터 부순다'(골드만 10/19)는 실물 증거 — 금리 민감 업종 비중 확대 금지",
+   "summary": "NAHB 지수 2012년 이후 최저 근처(정확한 수치 미확인)."
+  },
+  {
    "title": "다나허, 3분기 실적 발표 10월 21일 오전 8시(미 동부)",
    "url": "https://www.biopharmawatch.com/news/DHR/danaher-third-quarter-2026-earnings-call",
    "press": "BioPharmaWatch",
@@ -199,14 +223,6 @@
    "at": "2026-10-19 15:06",
    "why": "전력·전선 테마 실적 확인 — 한국 실적 서프라이즈 종목(우리 신호 아직 없음)",
    "summary": "3분기 매출 9,865억·영업익 520억, 미국 법인 버스덕트 데이터센터 공급 증가로 수익성 개선."
-  },
-  {
-   "title": "골드만 프리보로츠키 'AI 매도는 청산이 아니라 AI 안의 회전'",
-   "url": "https://cryptobriefing.com/goldman-sachs-ai-unwind-rotation-not-liquidation/",
-   "press": "Crypto Briefing(골드만 데스크 노트 인용)",
-   "at": "2026-10-13 00:00",
-   "why": "반도체 칸 7 유지 vs 재확대 판단 — 메모리(삼전닉스·키옥시아) 매도가 AI 전체 이탈인지 회전인지의 기준",
-   "summary": "10/12 CXMT 약세 뒤 코스피 −5.5%·삼성 −8%·하이닉스 −10%·키옥시아 −13%. 나스닥 선물 −0.7%, 러셀 +0.3% — 골드만은 'AI 안 회전, 광범위 청산 아님'."
   },
   {
    "title": "BTIG '연기 나는 곳에 불' — 반도체 반등은 비중 축소 기회, 하락 연말까지",
@@ -623,23 +639,7 @@
    "at": "2026-10-17 07:35",
    "why": "IMOS(ChipMOS, 10/13 🧠 focus)·한국 반도체 소부장 cup_eye(오킨스전자·인텍플러스) — 메모리 사이클은 살아 있고 SOX 하락은 수급 쪽이라는 근거",
    "summary": "CXMT H1 매출 1,503억 위안(전년 154억)·조정 순이익 788억 위안. 피드(HANAchina 10/17)는 1~3분기 누적 순이익 1,300억 위안 돌파·최대 20억 위안 자사주 매입 추진 — 누적치는 웹 미확인."
-  },
-  {
-   "title": "실리콘 포토닉스 경쟁 — TSMC 2026 COUPE 양산, 삼성은 2029 CPO 턴키 목표",
-   "url": "https://www.trendforce.com/news/2026/04/01/news-silicon-photonics-race-intensifies-as-tsmc-targets-2026-coupe-production-samsung-eyes-2029-cpo-turnkey/",
-   "press": "TrendForce",
-   "at": "2026-10-17 07:35",
-   "why": "삼성 실리콘 포토닉스 업체 인수설(gn_us_tech 10/17)의 배경 — 삼성이 3년 뒤처진 걸 인수로 메우려는 것, 한국 반도체 칸 장기 재료",
-   "summary": "TSMC는 2026년 COUPE(광 엔진) 양산, 삼성은 2029년 CPO 턴키 목표. 인수설 자체는 미확인."
-  },
-  {
-   "title": "반도체 매도 7거래일 만에 공매도 세력 320억달러 평가이익 — 2006년 이후 최장 반도체 하락",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-16/longest-chip-selloff-since-2006-mints-short-sellers-32-billion",
-   "press": "Bloomberg",
-   "at": "2026-10-17 06:35",
-   "why": "반도체 cup_eye(SMTC·VICR)·QQQ dip 신호 — 공매도 쏠림은 숏커버 반등의 연료이자 추세 지속 신호",
-   "summary": "반도체주 하락 7거래일간 공매도 평가이익 320억달러. SOX 연속 하락 2006년 이후 최장(10/16 기준 8일째, 피드 gn_kr_sector)."
   }
  ],
- "at": "2026-10-19 23:35"
+ "at": "2026-10-20 05:35"
 }
