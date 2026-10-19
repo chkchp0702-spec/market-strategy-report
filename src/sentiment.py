@@ -5,7 +5,7 @@
 
 원천 (GitHub Actions 에서만 받아짐 — 두뇌 세션은 시세 사이트가 막혀 있음):
   🇺🇸 yfinance  ^VIX ^VIX3M ^VIX9D ^SKEW (1년 일봉) · SPY 옵션 체인(10~60일 만기 중 30일 근처) — 풋/콜 거래량·미결제, 외가 풋(0.95·0.90) vs 등가 콜 내재변동성
-  🇰🇷 네이버 금융  투자자별 매매동향(선물 sosok=03 · 콜 04 · 풋 05 · 코스피 01) · 고객예탁금·신용잔고(sise_deposit)
+  🇰🇷 네이버 m.stock api  투자자별(선물 FUT 계약 · 코스피 억원, bizdate 로 과거도) · 신용잔고는 원천 찾는 중(증시자금동향 표가 브라우저에서만 그려짐)
 원칙: 못 받은 값은 null. 숫자를 만들지 않는다. 규칙은 결과 보기 전에 적었다(brain/sentiment_lab.md) — 채점은 그림자만, 킥 매매를 바꾸지 않는다.
 
 사전 등록 규칙 (R1~R5, 상세는 brain/sentiment_lab.md):
@@ -119,41 +119,90 @@ def spy_roc(yf, n=5):
 _NUM = re.compile(r"-?[\d,]+")
 
 
-def naver_investor(sosok="03"):
-    """finance.naver.com 투자자별 매매동향 일별 (sosok 01 코스피 · 03 선물 · 04 콜 · 05 풋). 첫 5행 → [{d, indiv, foreign, inst}] (선물·옵션은 계약 수)"""
-    url = f"https://finance.naver.com/sise/investorDealTrendDay.naver?bizdate={dt.datetime.now(KST):%Y%m%d}&sosok={sosok}"
-    html = _get(url, headers={"Referer": "https://finance.naver.com/"}).decode("euc-kr", "ignore")
-    rows = []
-    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S):
-        tds = [re.sub(r"<[^>]+>", "", x).strip() for x in re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)]
-        if len(tds) >= 4 and re.match(r"\d{2}\.\d{2}\.\d{2}", tds[0]):
+def naver_investor(code="FUT", days=8):
+    """m.stock.naver.com/api/index/{FUT|KOSPI}/trend?bizdate= — 하루 한 행 (선물은 계약 수, 현물은 억원). 최근 영업일 days 개 → [{d, indiv, foreign, inst}] 최신이 앞.
+    (finance.naver.com investorDealTrendDay 는 10/19 부터 410 — 바꿈) · 지난 값은 market/lab/kr_flow_hist.json(1년 backfill)과 합친다"""
+    hist = _rj(ROOT / "market/lab/kr_flow_hist.json", {})
+    rows, day = [], dt.datetime.now(KST).date()
+    tries = 0
+    while len(rows) < days and tries < days * 2 + 6:
+        tries += 1
+        if day.weekday() < 5:
+            b = day.strftime("%Y%m%d")
             try:
-                nums = [int(x.replace(",", "")) for x in tds[1:4]]
-            except ValueError:
-                continue
-            rows.append({"d": "20" + tds[0].replace(".", "-"), "indiv": nums[0], "foreign": nums[1], "inst": nums[2]})
-        if len(rows) >= 10:
-            break
+                j = json.loads(_get(f"https://m.stock.naver.com/api/index/{code}/trend?bizdate={b}", headers={"Referer": "https://m.stock.naver.com/"}))
+                if j.get("bizdate") == b:
+                    f = lambda x: int(str(j.get(x) or "0").replace(",", "").replace("+", ""))
+                    rows.append({"d": day.isoformat(), "indiv": f("personalValue"), "foreign": f("foreignValue"), "inst": f("institutionalValue")})
+            except Exception:
+                h = (hist.get(day.isoformat()) or {}).get(code)
+                if h:
+                    rows.append({"d": day.isoformat(), "indiv": h[0], "foreign": h[1], "inst": h[2]})
+        day -= dt.timedelta(days=1)
     if not rows:
         raise RuntimeError("행 없음")
     return rows
+
+
+def _num_kr(x):
+    try:
+        return float(str(x).replace(",", "").replace("+", ""))
+    except Exception:
+        return None
+
+
+def _find_rows(j):
+    """JSON 어디든 creditLoan 을 가진 dict 목록을 찾는다"""
+    if isinstance(j, list) and j and isinstance(j[0], dict) and any("creditLoan" in r for r in j):
+        return j
+    if isinstance(j, dict):
+        for v in j.values():
+            r = _find_rows(v)
+            if r:
+                return r
+    if isinstance(j, list):
+        for v in j:
+            r = _find_rows(v)
+            if r:
+                return r
+    return None
 
 
 def naver_deposit():
-    """고객예탁금·신용잔고 (finance.naver.com/sise/sise_deposit.naver) 최근 행들 → [{d, deposit, credit}] 단위 억원"""
-    html = _get("https://finance.naver.com/sise/sise_deposit.naver", headers={"Referer": "https://finance.naver.com/"}).decode("euc-kr", "ignore")
-    rows = []
-    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S):
-        tds = [re.sub(r"<[^>]+>", "", x).strip() for x in re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)]
-        if len(tds) >= 5 and re.match(r"\d{2}\.\d{2}\.\d{2}", tds[0]):
+    """증시자금동향 — 네이버 증권 페이지가 부르는 /api/domestic/market/trendDeposit (필드 creditLoan·depositData 등, 10/19 JS 에서 찾음)
+    → [{d, deposit, credit}] 최신이 앞 · 단위는 응답 그대로(raw 칸에 첫 행 원본을 남김)"""
+    last = None
+    for host in ("https://finance.naver.com", "https://m.stock.naver.com", "https://stock.naver.com"):
+        for q in ("?page=1&pageSize=60", "?page=1", ""):
+            u = host + "/api/domestic/market/trendDeposit" + q
             try:
-                dep = int(tds[1].replace(",", "")); cr = int(tds[3].replace(",", ""))
-            except ValueError:
+                j = json.loads(_get(u, headers={"Referer": "https://finance.naver.com/sise/sise_deposit.naver"}))
+            except Exception as e:
+                last = f"{u} {str(e)[:60]}"
                 continue
-            rows.append({"d": "20" + tds[0].replace(".", "-"), "deposit": dep, "credit": cr})
-    if not rows:
-        raise RuntimeError("행 없음")
-    return rows
+            rows = _find_rows(j)
+            if not rows:
+                last = f"{u} creditLoan 없음 {str(j)[:120]}"
+                continue
+            out = []
+            for r in rows:
+                dk = next((k for k in r if "date" in k.lower() or k.lower() in ("bizdate", "dt", "day")), None)
+                d = str(r.get(dk, ""))
+                d = re.sub(r"[^0-9]", "", d)
+                if len(d) == 8:
+                    d = f"{d[:4]}-{d[4:6]}-{d[6:]}"
+                elif len(d) == 6:
+                    d = f"20{d[:2]}-{d[2:4]}-{d[4:]}"
+                cr = _num_kr(r.get("creditLoan"))
+                dep = next((_num_kr(r[k]) for k in r if "deposit" in k.lower() and "diff" not in k.lower()), None)
+                if d and cr:
+                    out.append({"d": d, "deposit": dep, "credit": cr})
+            if out:
+                out.sort(key=lambda x: x["d"], reverse=True)
+                out[0]["raw"] = {k: rows[0][k] for k in list(rows[0])[:12]}
+                out[0]["src"] = u
+                return out
+    raise RuntimeError(last or "행 없음")
 
 
 # ───────────── 규칙 판정 ─────────────
@@ -190,7 +239,7 @@ def judge(us, opt, kr, log, spy5):
         off = (now / hi60 - 1) * 100
         on = bool(off <= -10 and d5 is not None and d5 >= 0 and len(c) > 5)
         sig.append({"id": "R3", "name": "🧾 한국 신용 청산 멈춤", "on": on,
-                    "level": f"신용잔고 {now/10000:.1f}조 · 60일 최고 대비 {off:+.1f}% · 5일 {d5:+.1f}%" if d5 is not None else f"신용잔고 {now/10000:.1f}조 (기록 {len(c)}일)",
+                    "level": f"신용잔고 {now:,.0f} · 60일 최고 대비 {off:+.1f}% · 5일 {d5:+.1f}%" if d5 is not None else f"신용잔고 {now:,.0f} (기록 {len(c)}일)",
                     "then": "20일 코스피 채점 — 가설: 잔고 −10%↑ 줄고 멈춘 뒤 바닥 (7~8월: 38.6→27.4조 뒤 반등)"})
     # R4 외국인 선물 매도 정리
     fut = kr.get("fut") or []
@@ -265,9 +314,9 @@ def main():
         spy5 = spy_roc(yf)
     except Exception as e:
         ERR["spy5"] = str(e)[:120]; spy5 = None
-    for key, sosok in (("fut", "03"), ("call", "04"), ("put", "05"), ("kospi", "01")):
+    for key, code in (("fut", "FUT"), ("kospi", "KOSPI")):
         try:
-            kr[key] = naver_investor(sosok)
+            kr[key] = naver_investor(code)
         except Exception as e:
             ERR["naver " + key] = str(e)[:160]
     try:
@@ -306,12 +355,12 @@ def main():
     if opt.get("skew90") is not None:
         parts.append(f"외가풋 프리미엄 {opt['skew90']:+.1f}%p")
     if kr.get("credit_hist"):
-        parts.append(f"신용 {kr['credit_hist'][0]['credit']/10000:.1f}조")
+        parts.append(f"신용 {kr['credit_hist'][0]['credit']:,.0f}")
     if kr.get("fut"):
         parts.append(f"외인 선물 {sum(r['foreign'] for r in kr['fut'][:5]):+,}계약(5일)")
     out = {"at": now.strftime("%Y-%m-%d %H:%M"), "line": " · ".join(parts) or "값 없음",
            "on": on_ids, "signals": sig, "us": us, "spy_opt": opt, "spy_roc5": spy5,
-           "kr": {"fut": (kr.get("fut") or [])[:5], "call": (kr.get("call") or [])[:3], "put": (kr.get("put") or [])[:3],
+           "kr": {"fut": (kr.get("fut") or [])[:5],
                   "kospi": (kr.get("kospi") or [])[:5], "credit": (kr.get("credit_hist") or [])[:5]},
            "score": sc, "errors": ERR,
            "rule": "규칙 R1~R5 는 brain/sentiment_lab.md 에 결과 보기 전에 적음 · 그림자 채점만(킥 매매 안 바꿈) · 판정은 20일 채점 n≥20 부터"}
