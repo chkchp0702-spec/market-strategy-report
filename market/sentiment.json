@@ -1,6 +1,6 @@
 {
- "at": "2026-10-19 15:04",
- "line": "VIX 19.99(81%) · SPY 풋/콜 3.015 · 외가풋 프리미엄 +12.8%p",
+ "at": "2026-10-19 15:17",
+ "line": "VIX 19.99(81%) · SPY 풋/콜 3.015 · 외가풋 프리미엄 +12.8%p · 신용 323,167 · 외인 선물 +20,695계약(5일)",
  "on": [],
  "signals": [
   {
@@ -21,14 +21,28 @@
    "id": "R2",
    "name": "🔁 풋콜 리셋",
    "on": false,
-   "level": "SPY 풋/콜 거래량 3.015 · 10일평균 84일 순위 None% (기록 0/84일) — 쌓는 중",
+   "level": "SPY 풋/콜 거래량 3.015 · 10일평균 84일 순위 None% (기록 1/84일) — 쌓는 중",
    "then": "3개월 SPY 채점 (SentimenTrader 51회 80% 승)"
+  },
+  {
+   "id": "R3",
+   "name": "🧾 한국 신용 청산 멈춤",
+   "on": false,
+   "level": "신용잔고 323,167 · 60일 최고 대비 -4.5% · 5일 -2.3%",
+   "then": "20일 코스피 채점 — 가설: 잔고 −10%↑ 줄고 멈춘 뒤 바닥 (7~8월: 38.6→27.4조 뒤 반등)"
+  },
+  {
+   "id": "R4",
+   "name": "🔄 외국인 선물 매도 정리",
+   "on": false,
+   "level": "외국인 선물 5일 누적 +20,695계약 (어제까지 +22,425) · 오늘 +5,792",
+   "then": "5·20일 코스피 채점 — 앨버트로스: 기존 매도자 정리만으로 반등 시작"
   },
   {
    "id": "R5",
    "name": "🎈 외가 풋 비쌈(보험 수요)",
    "on": false,
-   "level": "SPY 0.90풋 IV−등가 콜 IV +12.8%p · 0.95풋 6.06 (기록 0/20일 — 쌓는 중)",
+   "level": "SPY 0.90풋 IV−등가 콜 IV +12.8%p · 0.95풋 6.06 (기록 1/20일 — 쌓는 중)",
    "then": "20일 SPY 채점 — 가설만(종목은 −, 지수는 반대일 수 있음)"
   }
  ],
@@ -65,19 +79,114 @@
  },
  "spy_roc5": -1.97,
  "kr": {
-  "fut": [],
-  "call": [],
-  "put": [],
-  "kospi": [],
-  "credit": []
+  "fut": [
+   {
+    "d": "2026-10-19",
+    "indiv": -561,
+    "foreign": 5792,
+    "inst": -5008
+   },
+   {
+    "d": "2026-10-16",
+    "indiv": -2414,
+    "foreign": -9540,
+    "inst": 11456
+   },
+   {
+    "d": "2026-10-15",
+    "indiv": 1709,
+    "foreign": 12101,
+    "inst": -13141
+   },
+   {
+    "d": "2026-10-14",
+    "indiv": -3260,
+    "foreign": 8445,
+    "inst": -4680
+   },
+   {
+    "d": "2026-10-13",
+    "indiv": 1237,
+    "foreign": 3897,
+    "inst": -5279
+   }
+  ],
+  "kospi": [
+   {
+    "d": "2026-10-19",
+    "indiv": -11068,
+    "foreign": -1274,
+    "inst": 6861
+   },
+   {
+    "d": "2026-10-16",
+    "indiv": -5126,
+    "foreign": 3637,
+    "inst": -6815
+   },
+   {
+    "d": "2026-10-15",
+    "indiv": 13967,
+    "foreign": -37637,
+    "inst": 17176
+   },
+   {
+    "d": "2026-10-14",
+    "indiv": -3203,
+    "foreign": -11614,
+    "inst": 7876
+   },
+   {
+    "d": "2026-10-13",
+    "indiv": 23169,
+    "foreign": -45789,
+    "inst": 16685
+   }
+  ],
+  "credit": [
+   {
+    "d": "2026-10-15",
+    "deposit": 969121.0,
+    "credit": 323167.0,
+    "raw": {
+     "bizdate": "20261015",
+     "customerDeposit": "969121",
+     "customerDepositDiff": "-5159",
+     "customerDepositDiffAbs": "5159",
+     "creditLoan": "323167",
+     "creditLoanDiff": "-9506",
+     "creditLoanDiffAbs": "9506",
+     "beneficiaryCertificateStock": "3113309",
+     "beneficiaryCertificateStockDiff": "-139876",
+     "beneficiaryCertificateStockDiffAbs": "139876",
+     "beneficiaryCertificateBond": "2180755",
+     "beneficiaryCertificateBondDiff": "7171"
+    },
+    "src": "https://stock.naver.com/api/domestic/market/trendDeposit?page=1&pageSize=60"
+   },
+   {
+    "d": "2026-10-14",
+    "deposit": 974280.0,
+    "credit": 332672.0
+   },
+   {
+    "d": "2026-10-13",
+    "deposit": 1000983.0,
+    "credit": 338113.0
+   },
+   {
+    "d": "2026-10-12",
+    "deposit": 1004389.0,
+    "credit": 338487.0
+   },
+   {
+    "d": "2026-10-08",
+    "deposit": 1001099.0,
+    "credit": 333787.0
+   }
+  ]
  },
  "score": {},
- "errors": {
-  "naver fut": "HTTP Error 410: 410",
-  "naver call": "HTTP Error 410: 410",
-  "naver put": "HTTP Error 410: 410",
-  "naver kospi": "HTTP Error 410: 410",
-  "naver deposit": "행 없음"
- },
+ "errors": {},
  "rule": "규칙 R1~R5 는 brain/sentiment_lab.md 에 결과 보기 전에 적음 · 그림자 채점만(킥 매매 안 바꿈) · 판정은 20일 채점 n≥20 부터"
 }
