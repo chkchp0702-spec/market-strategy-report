@@ -283,6 +283,73 @@ def _wk(dates, nav, start):
     return round((b / a - 1) * 100, 2)
 
 
+# 🗣 10/19 A10/19-3 「엇갈린 날, 누가 맞았나」 — 앱 안 코스피 방향 의견 셋(🎲 시장확률 · 🧠 두뇌 국면 · 💭 지금 생각 열쇠)을
+#   장 시작 무렵(08:30~15:00 첫 실행)에 한 번 적어 두고, 그날 코스피 종가(daily-app prob.json KR.base_date·chg)가 나오면 각각 채점.
+#   규칙: 오름 = 종가 +, 내림 = 종가 −, 중립 = ±0.5% 안. 💭 는 state.json 에 kr_today(오름/내림/중립) 열쇠를 적어 준 날만(글을 억지로 안 읽음).
+#   기록: market/voices.json (60일). 숫자는 지어내지 않음 — 결과가 안 난 날은 세지 않음.
+_VDIR = {"오름": "up", "상승": "up", "up": "up", "내림": "down", "하락": "down", "down": "down", "중립": "flat", "보합": "flat", "반반": "flat", "flat": "flat"}
+
+
+def _vdir(t):
+    t = str(t or "").strip()
+    if not t:
+        return None
+    if t in _VDIR:
+        return _VDIR[t]
+    if "오를" in t or "오름" in t or "상승" in t or "선호" in t or "공격" in t:
+        return "up"
+    if "내릴" in t or "내림" in t or "하락" in t or "회피" in t or "수비" in t:
+        return "down"
+    if "반반" in t or "중립" in t or "보합" in t:
+        return "flat"
+    return None
+
+
+def _vok(d, chg):
+    if d is None or chg is None:
+        return None
+    return chg > 0 if d == "up" else chg < 0 if d == "down" else abs(chg) <= 0.5
+
+
+def _voices(now, B):
+    import re
+    PR = json.loads(web("https://raw.githubusercontent.com/chkchp0702-spec/daily-app/main/archive/x/prob.json", 20) or "{}")
+    kr = ((PR.get("markets") or {}).get("KR") or {})
+    vf = M / "voices.json"
+    V = rj(vf, {"days": {}})
+    days = V.setdefault("days", {})
+    today, hm = now.strftime("%Y-%m-%d"), now.strftime("%H:%M")
+    if now.weekday() < 5 and "08:30" <= hm <= "15:00" and not (days.get(today) or {}).get("v"):
+        v = {}
+        if kr.get("next_day") == today and kr.get("p1") is not None:
+            v["dice"] = {"d": _vdir(kr.get("tone1")) or ("up" if kr["p1"] >= 0.55 else "down" if kr["p1"] <= 0.45 else "flat"), "t": kr.get("tone1") or "", "p": round(float(kr["p1"]), 3)}
+        if _vdir(B.get("regime")):
+            v["brain"] = {"d": _vdir(B.get("regime")), "t": B.get("regime")}
+        if _vdir(B.get("kr_today")):
+            v["think"] = {"d": _vdir(B.get("kr_today")), "t": B.get("kr_today"), "at": B.get("last_review")}
+        if v:
+            days[today] = {"v": v, "at": hm}
+    # 채점: 그날 종가가 나온 날 (prob.json KR.base_date == 그날 · chg = 그날 등락)
+    bd, chg = kr.get("base_date"), kr.get("chg")
+    for d, row in days.items():
+        if row.get("v") and row.get("r") is None and bd == d and chg is not None:
+            row["r"] = {"chg": round(float(chg), 2)}
+    V["days"] = dict(sorted(days.items())[-60:])
+    vf.write_text(json.dumps(V, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    out = {}
+    for k in ("dice", "brain", "think"):
+        rows = [(x["v"][k]["d"], x["r"]["chg"], d) for d, x in sorted(V["days"].items()) if x.get("v", {}).get(k) and x.get("r") and x["r"].get("chg") is not None]
+        oks = [_vok(a, c) for a, c, _ in rows]
+        out[k] = {"n": len(oks), "win": sum(1 for o in oks if o), "last10": [{"d": d, "m": "ok" if o else "no"} for (_, _, d), o in zip(rows[-10:], oks[-10:])]}
+    ch = [(x, d) for d, x in sorted(V["days"].items()) if x.get("r") and x["r"].get("chg") is not None and len(x.get("v") or {}) >= 2 and len({y["d"] for y in x["v"].values()}) == 1]
+    out["chorus"] = {"n": len(ch), "win": sum(1 for x, _ in ch if _vok(list(x["v"].values())[0]["d"], x["r"]["chg"])),
+                     "last10": [{"d": d, "m": "ok" if _vok(list(x["v"].values())[0]["d"], x["r"]["chg"]) else "no"} for x, d in ch[-10:]]}
+    t = days.get(today) or {}
+    out["today"] = {"d": today, "at": t.get("at"), "v": t.get("v") or {}, "r": t.get("r")}
+    out["days"] = len([1 for x in V["days"].values() if x.get("r")])
+    return out
+
+
 def extra(home, now, P, K, CN, F, B, L, S):
     import glob
     # ⑥ 어제 예고 → 오늘 결과 (가장 최근 리포트 data 파일)
@@ -307,6 +374,10 @@ def extra(home, now, P, K, CN, F, B, L, S):
         for x, c in zip(home["grade"]["next"], (D.get("checks") or [])[:3]):
             x["k"] = _topic(c); x["tr"] = _trail(GH, x["k"])
         home["grade"]["last10"] = [x["m"] for x in GH[-10:]]
+        try:
+            home["grade"]["voices"] = _voices(now, B)      # 🗣 10/19 A10/19-3
+        except Exception as ex:
+            print("voices:", ex)
     # ⑦ 이번 주 복기 (월요일부터 · 미국 날짜 기준)
     mon = (now - dt.timedelta(days=now.weekday())).strftime("%Y-%m-%d")      # 이번 주 월요일 (주말이면 방금 끝난 주)
     pd_ = P.get("dates") or []
