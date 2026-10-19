@@ -213,11 +213,11 @@ def judge(us, opt, kr, log, spy5):
         on = us["vix_p1y"] >= 90 and us["backwardation"]
         sig.append({"id": "R1", "name": "😨 미 공포 극단", "on": on,
                     "level": f"VIX {us['vix']} (1년 {us['vix_p1y']}%) · VIX/VIX3M {us.get('vix_vix3m')}",
-                    "then": "크기 줄이기 — 새 bets horizon 짧게·목표 좁게. 방향 신호 아님"})
+                    "then": "크기 줄이기 — 20년 55번: 다음 20일 SPY +1.29%(기저 +0.97%)로 하락 신호 아님, 대신 흔들림 sd 5.7 vs 4.6. 새 bets 3일·목표 절반"})
         relief = us.get("backwardation_prev") and not us["backwardation"]
         sig.append({"id": "R1x", "name": "😮‍💨 공포 해소 첫날", "on": bool(relief),
                     "level": "어제 VIX>VIX3M → 오늘 정상" if relief else "역전 중" if us["backwardation"] else "정상(콘탱고)",
-                    "then": "20일 SPY 채점 — 가설: 평균 +"})
+                    "then": "✅ 20년 검증 통과(2006~2026 72번): 다음 5일 SPY +0.84%·승률 67% (기저 +0.25%·60%) · 20일 +1.28%·75% — 두뇌 bets 의 신호로 씀(SPY·QQQ, 5일)"})
     # R2 풋콜 리셋 — 자기 기록으로 10일 평균·84일 순위
     pcs = [(d, v.get("pc_vol")) for d, v in sorted(log.items()) if v.get("pc_vol")]
     if opt.get("pc_vol") is not None:
@@ -249,6 +249,21 @@ def judge(us, opt, kr, log, spy5):
         sig.append({"id": "R4", "name": "🔄 외국인 선물 매도 정리", "on": on,
                     "level": f"외국인 선물 5일 누적 {s5:+,}계약 (어제까지 {s5_prev:+,}) · 오늘 {fut[0]['foreign']:+,}",
                     "then": "5·20일 코스피 채점 — 앨버트로스: 기존 매도자 정리만으로 반등 시작"})
+    # R6·R7·R8 (10/19 사후 발견 — 2025-04~2026-10 수급 400일 검증: market/sentiment_bt.json · 앞으로 그림자 채점)
+    if len(fut) >= 5:
+        s5 = sum(r["foreign"] for r in fut[:5])
+        sig.append({"id": "R6", "name": "🚀 외국인 선물 강한 매수", "on": s5 >= 13000,
+                    "level": f"외국인 선물 5일 {s5:+,}계약 (상위 20% 문턱 +13,000)",
+                    "then": "5일 코스피 채점 — 표본: 상위 20% 다음 5일 +2.58%·승률 70% vs 하위 20% +0.73%·50% (모멘텀, 역발상 아님)"})
+        sig.append({"id": "R7", "name": "🧯 외국인 선물 투매", "on": s5 <= -20000,
+                    "level": f"외국인 선물 5일 {s5:+,}계약 (문턱 −20,000)",
+                    "then": "크기 줄이기 — 표본 11번 다음 20일 코스피 평균 −2.07%·승률 36% (기저 +6.46%·77%)"})
+        sp = kr.get("kospi") or []
+        if len(sp) >= 5:
+            sp5 = sum(r["foreign"] for r in sp[:5])
+            sig.append({"id": "R8", "name": "🔀 현물 팔고 선물 사는 외국인", "on": sp5 < 0 and s5 > 10000,
+                        "level": f"외국인 현물 5일 {sp5:+,}억 · 선물 5일 {s5:+,}계약",
+                        "then": "5일 코스피 채점 — 표본 13번 +1.93%·69% (기저 +1.49%·65%, 차이 작음 — 관찰)"})
     # R5 외가 풋 비쌈
     sk = [v.get("skew90") for v in log.values() if v.get("skew90") is not None]
     if opt.get("skew90") is not None:
@@ -270,7 +285,7 @@ def score(yf, log):
             px[k] = [(i.strftime("%Y-%m-%d"), float(c)) for i, c in zip(h.index, h["Close"].tolist())]
         except Exception as e:
             ERR["score " + sym] = str(e)[:120]
-    idx_for = {"R1": "SPY", "R1x": "SPY", "R2": "SPY", "R5": "SPY", "R3": "KOSPI", "R4": "KOSPI"}
+    idx_for = {"R1": "SPY", "R1x": "SPY", "R2": "SPY", "R5": "SPY", "R3": "KOSPI", "R4": "KOSPI", "R6": "KOSPI", "R7": "KOSPI", "R8": "KOSPI"}
     res = {}
     for d, v in log.items():
         for s in v.get("on", []):
@@ -329,6 +344,15 @@ def main():
     except Exception as e:
         ERR["naver deposit"] = str(e)[:160]
         kr["credit_hist"] = (log.get("_credit") or [])
+    # 수급 이력 갱신 (다음 검증·채점용)
+    try:
+        fh = _rj(ROOT / "market/lab/kr_flow_hist.json", {})
+        for key, code in (("fut", "FUT"), ("kospi", "KOSPI")):
+            for r in kr.get(key) or []:
+                fh.setdefault(r["d"], {})[code] = [r["indiv"], r["foreign"], r["inst"]]
+        (ROOT / "market/lab/kr_flow_hist.json").write_text(json.dumps(fh, separators=(",", ":")), encoding="utf-8")
+    except Exception as e:
+        ERR["flow_hist"] = str(e)[:120]
     sig = judge(us, opt, kr, {k: v for k, v in log.items() if not k.startswith("_")}, spy5)
     on_ids = [s["id"] for s in sig if s["on"]]
     # 날짜별 스냅샷 (하루에 여러 번 돌면 덮어씀 — 미국 옵션은 미국 장중 값이 가장 정확)
