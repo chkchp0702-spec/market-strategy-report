@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "중국 인민은행, 익일물 금리를 주 정책금리로 삼는 방안 검토 — 완화로 이어질 수도",
+   "url": "https://kfgo.com/2026/10/19/chinas-central-bank-studies-making-overnight-rate-its-main-policy-rate/",
+   "press": "Reuters(KFGO)",
+   "at": "2026-10-20 08:35",
+   "why": "위안 강세 bet(CNY=X)·중국·홍콩 하락장 국면과 직결 — 완화 신호면 위안엔 역풍, 중국 주식엔 우호",
+   "summary": "인민은행이 7일물 역레포 대신 익일물 금리를 핵심 정책금리로 쓰는 방안을 연구(10/19). 블룸버그는 같은 날 '완화로 이어질 수 있는 새 정책금리' 보도. 중국 3분기 성장 4.5%(CNBC)와 같은 날."
+  },
+  {
+   "title": "블룸버그: 중국, 완화로 이어질 수 있는 새 정책금리 도입 계획",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/china-signals-plan-for-overnight-rate-to-play-bigger-policy-role",
+   "press": "Bloomberg",
+   "at": "2026-10-20 08:35",
+   "why": "중국 통화정책 틀 변경 — 위안·중국 반도체(CXMT −8%)·홍콩 하락장 판단에 쓰임",
+   "summary": "익일물 금리에 더 큰 정책 역할 부여 신호(10/19). 세부 금리 수준·시점 미확인."
+  },
+  {
    "title": "프랑스 국채금리 2002년 이후 최고 — 재정 우려 심화",
    "url": "https://tradingeconomics.com/france/government-bond-yield/news/589480",
    "press": "Trading Economics",
@@ -623,22 +639,6 @@
    "at": "2026-10-17 10:35",
    "why": "DHR 은 10/16 ☕ cup_eye 신호 종목 — 실적 전 진입 보류, 발표 다음 날 갭 방향으로 판단",
    "summary": "다나허 3분기 실적 10/21(수) 발표·컨퍼런스콜. 시장 EPS 예상 1.92달러. 헬스케어 회전(MDT bet)과 같은 줄기."
-  },
-  {
-   "title": "후티, 사우디 아람코 리야드 시설에 미사일·드론 공격 주장 — 10월 들어 반복",
-   "url": "https://tribune.com.pk/story/2634723/houthis-fire-barrage-of-missiles-at-ksa",
-   "press": "Express Tribune",
-   "at": "2026-10-17 09:35",
-   "why": "에너지 칸·열린 CNQ(☕ 10/16) 근거 — 공급 차질 위험이 브렌트 110에 얹힘. 반대로 지정학 프리미엄은 빨리 빠질 수 있어 손절 규칙 유지",
-   "summary": "10/4 리야드 인근 석유시설 피격 주장에 이어 10/14 사우디에 미사일 연속 발사(Tribune). 10/17 피드에서 사우디 석유 거점 추가 피격 보도(investing_kr). 실제 생산 차질 규모는 미확인."
-  },
-  {
-   "title": "반도체 장비주 차익실현 하락 — 어플라이드 −7%, 램·KLA −4%",
-   "url": "https://247wallst.com/investing/2026/10/13/semiconductor-equipment-stocks-slide-as-investors-take-profits-on-a-huge-year-applied-materials-sinks-7-lam-research-and-kla-drop-4/",
-   "press": "24/7 Wall St.",
-   "at": "2026-10-17 09:35",
-   "why": "반도체 칸 축소(10→7)·국내 장비 cup_eye(인텍플러스 등) 판단 — 배런스 '장비주 역사적 연속 하락'과 함께, 하락이 실적이 아닌 '큰 한 해 차익실현'이라는 해석",
-   "summary": "10/13 AMAT −7%·LRCX·KLAC −4%, 올해 큰 상승 뒤 차익실현. 이후 10/16까지 장비주 역사적 연속 하락(barrons 피드). SOX 8일 연속 하락과 겹침."
   }
  ],
  "at": "2026-10-20 05:35"
