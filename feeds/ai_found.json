@@ -1,6 +1,38 @@
 {
  "items": [
   {
+   "title": "골드만 '네오클라우드는 다 같지 않다' — 지난주 급락한 코어위브 저가 매수 권고",
+   "url": "https://www.cnbc.com/2026/10/19/buy-neocloud-stock-coreweave-goldman-sachs-says.html",
+   "press": "CNBC",
+   "at": "2026-10-19 21:45",
+   "why": "🧠 'AI 차입이 다음 약한 고리'(0.84) 논지의 반대 근거 — 코어위브 채권·주가가 AI 크레딧 바로미터",
+   "summary": "골드만, 코어위브 지난주 매도는 과도·경쟁사 대비 우위 있다며 매수 상향. 같은 날 치르(아카데미)는 'AI 부채가 급락 부를 수 있다' 경고(블룸버그)."
+  },
+  {
+   "title": "민주당 압승 베팅에 미 방산주 급락 — 5,000억$ 국방비 증액 위태",
+   "url": "https://www.ft.com/content/e73d0106-486b-4382-8ecc-5c96ac44fdff",
+   "press": "Financial Times",
+   "at": "2026-10-19 22:04",
+   "why": "🐋 HEI(헤이코, 10/13 내부자 신호)·방산 테마와 직결 — 선거 전 방산 비중 판단",
+   "summary": "트럼프의 5,000억$ 국방비 증액안이 초당적 지지 약화로 위태. 투자자들이 민주당 상·하원 장악에 베팅하며 미 방산주 동반 하락."
+  },
+  {
+   "title": "모건스탠리 윌슨 '증시 조정 막바지 — 위험자산 확대 준비, 우량주·자본재 우선'",
+   "url": "https://t.me/HANAchina/70685",
+   "press": "하나증권 중국(텔레그램)",
+   "at": "2026-10-19 22:17",
+   "why": "QQQ 🛒 눌림 신호(10/14·15)와 같은 방향 — 단 크레딧 미확인이라 bets 아님(👀 관찰)",
+   "summary": "퀄리티 팩터 사상 최고·실적 전망 수정 격차 확대·경기민감주 밸류 하락 = 중기 사이클 전환 신호. S&P 이익 전망 견조, 우량주 먼저·자본재 주목."
+  },
+  {
+   "title": "다나허 3분기 실적 발표 일정 공지",
+   "url": "https://investingnews.com/danaher-schedules-third-quarter-2026-earnings-conference-call/",
+   "press": "Investing News",
+   "at": "2026-10-19 22:35",
+   "why": "열린 bet DHR(☕ cup_eye) 1주 기한 안에 실적이 낄 수 있음 — 변동 커짐",
+   "summary": "다나허가 3분기 실적 컨퍼런스콜 일정을 공지. 정확한 일자는 원문 미확인(통상 10월 셋째·넷째 주)."
+  },
+  {
    "title": "이란 주요 원유 터미널 여전히 비어 — 미 봉쇄 효과",
    "url": "https://www.bloomberg.com/news/articles/2026-10-19/iran-s-main-oil-terminals-remain-empty-as-us-blockade-bites",
    "press": "Bloomberg",
@@ -607,39 +639,7 @@
    "at": "2026-10-17 04:35",
    "why": "AI 이익·AI 차입 논지의 수요 원천 숫자 — 반도체 칸·QQQ dip 신호와 직결",
    "summary": "오픈AI 매출 런레이트 약 500억$로 시장 기대(약 700억$) 하회 보도. 10/16 엔비디아 시총 약 2,000억$ 감소(yahoo), 나스닥 −2%."
-  },
-  {
-   "title": "브렌트유 4월 이후 처음 배럴당 111달러 넘어",
-   "url": "https://tass.com/economy/2123261/amp",
-   "press": "TASS",
-   "at": "2026-10-17 04:35",
-   "why": "에너지 칸·CNQ(☕ cup_eye 10/16) bet 근거 — 공급 위험 재부각",
-   "summary": "ICE 브렌트 111달러 돌파(블룸버그는 '5월 이후 첫 110달러'). 같은 날 WTI 101달러대, 기술주에서 에너지로 회전."
-  },
-  {
-   "title": "셈테크 8-K — 3분기 전망 상향, FY2030 매출 32억 달러 경로(AI 데이터센터)",
-   "url": "https://www.sec.gov/Archives/edgar/data/0000088941/000008894126000041/smtc-20261015.htm",
-   "press": "SEC EDGAR",
-   "at": "2026-10-15 22:00",
-   "why": "SMTC 는 ☕ cup_eye(10/13) 신호 종목 — 반도체 9일 연속 하락 속 실적 상향, 연속 하락 끊기면 bet 후보",
-   "summary": "10/15 8-K 공시: 3분기 가이던스 상향, FY2030 매출 32억 달러 경로 제시(gn_us_tech 10/16). 구체 숫자는 원문 확인 필요."
-  },
-  {
-   "title": "브로드컴 CEO, AI 투자자를 '도박꾼'에 비유 — 자본 경고",
-   "url": "https://247wallst.com/investing/2026/10/13/broadcoms-ceo-just-compared-ai-investors-to-gamblers/",
-   "press": "24/7 Wall St.",
-   "at": "2026-10-13 12:00",
-   "why": "AI 차입 스트레스 논지(0.82)·반도체 칸 — 10/16 브로드컴 −4%·마벨 −4%로 이어짐(yahoo 피드)",
-   "summary": "혹 탄 CEO가 AI 설비투자 자금 조달 한계를 경고. 10/16 브로드컴 −4%, 마벨 −4%, 나스닥 −2% 안팎(investing_en)."
-  },
-  {
-   "title": "S&P500 보합 — 은행 강세가 AI 불안 상쇄, 다우 한 달 고점",
-   "url": "https://lufkindailynews.com/news_reuters/business/s-p-500-subdued-as-gains-in-banks-offset-ai-jitters-dow-at-one-month/article_f5c45022-bd53-584e-aae5-36054aed81fc.html",
-   "press": "Reuters",
-   "at": "2026-10-17 02:30",
-   "why": "열린 KBE(은행 ETF) bet·회전 논지 — 금융이 반도체 약세를 받치는지",
-   "summary": "10/16 10:24 ET 다우 52,401.89(+0.43%)·S&P 7,736.76(−0.09%)·나스닥 26,527.14(−0.70%). 반도체 −1.8%, IT −0.9%, 금융 +1.1%(GS·JPM 상승)."
   }
  ],
- "at": "2026-10-19 20:35"
+ "at": "2026-10-19 22:35"
 }
