@@ -82,6 +82,7 @@ def main():
     spot = {d: flow[d]["KOSPI"][1] for d in fd if "KOSPI" in flow[d]}
     kb5 = [fwd(kd, ks, d, 5) for d in fd]; kb20 = [fwd(kd, ks, d, 20) for d in fd]
     res["base_kospi"] = {"from": fd[0] if fd else None, "to": fd[-1] if fd else None, "days": len(fd), "r5": stat(kb5), "r20": stat(kb20)}
+    fo = {d: i for i, d in enumerate(fd)}  # 겹침 제거는 수급 날짜 순서로 (휴장 차이 무시)
     s5 = {}
     for k in range(4, len(fd)):
         s5[fd[k]] = sum(fut[fd[k - j]] for j in range(5))
@@ -90,14 +91,14 @@ def main():
         d, p = fd[k], fd[k - 1]
         if p in s5 and d in s5 and s5[p] <= -10000 and s5[d] > 0:
             r4.append(d)
-    dd = dedup(r4, 10, ko)
+    dd = dedup(r4, 10, fo)
     res["R4"] = {"days": len(r4), "episodes": len(dd), "r5": stat([fwd(kd, ks, d, 5) for d in dd]),
                  "r20": stat([fwd(kd, ks, d, 20) for d in dd]), "list": dd[-10:]}
     # 강건성: 문턱 바꿔 보기 (사후 — 판정엔 안 씀)
     rob = {}
     for th in (-5000, -20000, -30000):
         x = [fd[k] for k in range(5, len(fd)) if fd[k - 1] in s5 and s5[fd[k - 1]] <= th and s5[fd[k]] > 0]
-        x = dedup(x, 10, ko)
+        x = dedup(x, 10, fo)
         rob[str(th)] = {"episodes": len(x), "r5": stat([fwd(kd, ks, d, 5) for d in x]), "r20": stat([fwd(kd, ks, d, 20) for d in x])}
     res["R4_robust"] = rob
     # 5분위: 외국인 선물 5일 누적 → 다음 5일 코스피
@@ -110,7 +111,7 @@ def main():
             q.append({"q": i + 1, "s5_lo": seg[0][0], "s5_hi": seg[-1][0], "fwd5": stat([r for _, r in seg])})
     res["fut_s5_quintile"] = q
     # 극단 매도 그 자체(지금 −2만↓) 다음 5일
-    ext = dedup([d for d in s5 if s5[d] <= -20000], 10, ko) if s5 else []
+    ext = dedup(sorted(d for d in s5 if s5[d] <= -20000), 10, fo) if s5 else []
     res["fut_s5_le_-20000"] = {"episodes": len(ext), "r5": stat([fwd(kd, ks, d, 5) for d in sorted(ext)]), "r20": stat([fwd(kd, ks, d, 20) for d in sorted(ext)])}
     # 선물 vs 현물 엇갈림: 외국인 현물 5일 매도인데 선물 5일 매수 → ?
     div = []
@@ -120,7 +121,7 @@ def main():
             sp5 = sum(spot[fd[k - j]] for j in range(5))
             if sp5 < 0 and s5.get(d, 0) > 10000:
                 div.append(d)
-    div = dedup(div, 10, ko)
+    div = dedup(div, 10, fo)
     res["fut_buy_spot_sell"] = {"episodes": len(div), "r5": stat([fwd(kd, ks, d, 5) for d in div]), "r20": stat([fwd(kd, ks, d, 20) for d in div]),
                                 "rule": "외국인 현물 5일 순매도 + 선물 5일 +1만 계약↑"}
     res["now"] = {"fut_s5": s5.get(fd[-1]) if fd else None, "fut_today": fut.get(fd[-1]) if fd else None, "d": fd[-1] if fd else None}
