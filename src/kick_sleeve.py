@@ -6,6 +6,8 @@
 
   규칙
   · 자리 5개, 한 자리 = 슬리브의 20% (10/10부터 돌파 9% → 포트의 1.8%). 빈 자리는 현금(SGOV).
+    🅿️ 10/19 사용자 「실행해」(Q10/19-1): park.from 부터 빈 자리 돈은 현금 대신 💼 기본 칸(규칙 비중 — S&P·나스닥·변동성 맞춤·국면 현금)과 똑같이 굴림.
+       신호가 오면 그만큼 지수를 팔아 삼(정직 계산은 주차분 사고팔 때 park.fee 씩 더 뺌). 근거 market/lab/k1019_park·park2.json — 2017~ 연 +0.62%p · 2008~16 +0.66%p · 낙폭 −17.6→−18.1. 소급 없음.
   · 들어가는 신호 (우선순위): ① 🎯 집중 ★종목 기준가 돌파(장중 알림)  ② 눈 검사 통과 컵의 기준가 돌파  ③ 그 밖의 컵 돌파  ④ 돌파 갭(메우지 않음)
     점수 + 고래 TOP10 겹치면 +10. 하루 새로 들어가는 건 최대 2개, 같은 종목 중복 없음, 판 지 10거래일 안 된 종목 재진입 없음.
   · 들어가는 값: 신호가 뜬 날 종가.
@@ -96,6 +98,8 @@ OFF = set(_P.get("off", []))
 OFF_FROM = _P.get("off_from", {}) or {}
 MIX = _P.get("mix") or {}
 MIX_FROM = MIX.get("from", "9999")
+PARK = _P.get("park") or {}
+PARK_FROM, PARK_FEE = PARK.get("from", "9999"), float(PARK.get("fee", 0.001))
 def sl_at(d):   # 그날의 돌파 칸 크기
     return MIX.get("sleeve", SLEEVE) if d >= MIX_FROM else SLEEVE
 def w2_at(d, base):   # 그날의 고래 칸 크기(규칙 켠 뒤)
@@ -661,19 +665,29 @@ def main() -> int:
                 out_.setdefault(tgt, []).append({**c, "pr": round(pr, 1), "whale": c["code"] in whale, "ed": ed})
         return out_
 
+    # 🅿️ 빈 자리 주차(Q10/19-1) — 💼 기본 칸 규칙 비중(port.json rule.nav, 없으면 nav) 날짜별 값
+    _rn = (P.get("rule") or {}).get("nav")
+    _pn = _rn if _rn and len(_rn) == len(P["dates"]) else P["nav"]
+    BASE_LV = {d_: 1 + v / 100 for d_, v in zip(P["dates"], _pn)}
+
     def simulate(honest_=False):
         """돌파 슬리브 되짚기. honest_=True 면 다음 날 종가 진입 + 사고팔 때 비용(왕복 0.5% · 한국 0.45%의 절반씩)."""
         by_day = by_day_of(honest_)
-        fee = (lambda m: (0.0045 if m == "KR" else 0.005) / 2) if honest_ else (lambda m: 0.0)
+        fee0 = (lambda m: (0.0045 if m == "KR" else 0.005) / 2) if honest_ else (lambda m: 0.0)
+        _pd = [None]                                     # 오늘 날짜(주차 비용 판정용)
+        fee = lambda m: fee0(m) + (PARK_FEE if honest_ and _pd[0] and _pd[0] >= PARK_FROM else 0.0)   # 🅿️ 주차한 지수를 팔아 사고, 판 돈은 다시 지수로
         cash, pos, closed, events = 1.0, [], [], []
         val, peak, pause_until = [1.0], 1.0, -1
         last_exit = {}
         prev = START
         for i, d in enumerate(D):
-            # 현금 이자 (SGOV)
+            _pd[0] = d
+            # 현금 이자 (SGOV) — 🅿️ park.from 부터는 빈 자리 돈이 💼 기본 칸과 같은 수익
             if i > 0:
                 a, b = px("SGOV", D[i - 1]), px("SGOV", d)
-                if a and b:
+                if d >= PARK_FROM and D[i - 1] in BASE_LV and d in BASE_LV:
+                    cash *= BASE_LV[d] / BASE_LV[D[i - 1]]
+                elif a and b:
                     cash *= b / a
             # 들고 있는 것 점검 (들어간 다음 날부터)
             for p in list(pos):
@@ -1066,7 +1080,11 @@ def main() -> int:
                  "trades": len(trades), "win": round(len(wins) / len(trades) * 100) if trades else None,
                  "avg_win": avg(wins), "avg_loss": avg(loss), "avg": avg(trades), "slots": f"{len(pos)}/{SLOTS}",
                  "paused": pause_until >= len(D) - 1},
-        "rules": {"sleeve": SLEEVE, "slots": SLOTS, "stop": STOP, "take": TAKE, "time": TIME_D, "brake": BRAKE, "off": sorted(OFF), "whale_sleeve": WSN, "whale_n": WN},
+        "park": {"on": last_d >= PARK_FROM, "from": PARK_FROM, "fee": PARK_FEE,
+                 "w": round(max(0.0, val[-1] - sum(p["sh"] * (px(p["code"], last_d) or p["entry"]) for p in pos)) / val[-1] * sl_at(last_d) * 100, 2) if val and val[-1] else None,
+                 "split": RULE.get("now"),
+                 "why": "🅿️ 빈 자리 돈은 현금 대신 💼 기본 칸과 똑같이(S&P·나스닥·금·국면 현금 비중 그대로) 굴리고, 신호가 오면 그만큼 지수를 팔아 삼 (Q10/19-1 · 실험실 2017~ 연 +0.62%p · 낙폭 −17.6→−18.1%)"},
+        "rules": {"sleeve": sl_at(last_d), "slots": SLOTS, "stop": STOP, "take": TAKE, "time": TIME_D, "brake": BRAKE, "off": sorted(OFF), "whale_sleeve": WSN, "whale_n": WN},
         "whale": {"q": wq, "ret": round((wval[-1] - 1) * 100, 2), "line": [round((wsv.get(x, 1.0) - 1) * 100, 2) for x in pdates], "sleeve": WSN,
                   "rows": [{"t": b["t"], "n": b["n"], "w13f": b["w"], "by": b["by"], "d0": b["d0"], "entry": round(b["entry"], 4),
                             "now": round(px(b["t"], last_d) or b["entry"], 4), "r": round(((b["exit"] if not b["on"] else (px(b["t"], last_d) or b["entry"])) / b["entry"] - 1) * 100, 2),
