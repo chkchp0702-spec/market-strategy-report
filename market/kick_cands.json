@@ -4023,6 +4023,92 @@
 "src": "cup",
 "score": 70.9,
 "lv": 189.07
+},
+"WST|2026-10-19": {
+"code": "WST",
+"name": "West Pharmaceutical Services, Inc. Com",
+"mkt": "US",
+"d": "2026-10-19",
+"src": "cup_eye",
+"score": 55.2,
+"lv": 383.09,
+"max20": 3.2,
+"id60": -0.133
+},
+"MFG|2026-10-19": {
+"code": "MFG",
+"name": "Mizuho Financial Group, Inc. Sponosred",
+"mkt": "US",
+"d": "2026-10-19",
+"src": "cup",
+"score": 74.0,
+"lv": 9.87,
+"max20": 4.8,
+"id60": -0.15
+},
+"CBOE|2026-10-19": {
+"code": "CBOE",
+"name": "Cboe Global Markets, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-19",
+"src": "cup",
+"score": 70.4,
+"lv": 311.3,
+"max20": 5.2,
+"id60": -0.033
+},
+"CCEP|2026-10-19": {
+"code": "CCEP",
+"name": "Coca-Cola Europacific Partners plc - O",
+"mkt": "US",
+"d": "2026-10-19",
+"src": "cup",
+"score": 62.4,
+"lv": 108.18,
+"max20": 2.8,
+"id60": -0.133
+},
+"PRSU|2026-10-19": {
+"code": "PRSU",
+"name": "Pursuit Attractions and Hospitality, I",
+"mkt": "US",
+"d": "2026-10-19",
+"src": "cup_eye",
+"score": 58.1,
+"lv": 53.34,
+"max20": 2.8,
+"id60": -0.2
+},
+"CAKE|2026-10-19": {
+"code": "CAKE",
+"name": "The Cheesecake Factory Incorporated - ",
+"mkt": "US",
+"d": "2026-10-19",
+"src": "cup",
+"score": 39.4,
+"lv": 113.86,
+"max20": 3.6,
+"id60": -0.233
+},
+"RRBI|2026-10-19": {
+"code": "RRBI",
+"name": "Red River Bancshares, Inc. - Common St",
+"mkt": "US",
+"d": "2026-10-19",
+"src": "cup",
+"score": 38.3,
+"lv": 98.65,
+"max20": 2.0,
+"id60": 0.0
+},
+"CRM|2026-10-19|e": {
+"code": "CRM",
+"name": "Salesforce, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-19",
+"src": "earn",
+"score": 67.8,
+"lv": 213.17
 }
 },
 "sent": [
