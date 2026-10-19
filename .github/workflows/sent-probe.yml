@@ -1,0 +1,15 @@
+name: sent-probe
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python src/lab/sent_probe.py
+      - run: |
+          git config user.name bot; git config user.email bot@users.noreply.github.com
+          bash scripts/push.sh "sent-probe" market/lab/sent_probe.txt
