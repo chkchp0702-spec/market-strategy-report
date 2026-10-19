@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "CXMT 9개월 실적 예고 뒤 주가 −6% — 3분기 순이익 증가율 +113%→+1~4%로 급둔화",
+   "url": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html",
+   "press": "CNBC",
+   "at": "2026-10-19 11:40",
+   "why": "반도체 칸(7) 재확대 판단 — 경쟁 메모리사 이익 증가율 정점 우려가 삼전·닉스 약세(−2.7%)와 같은 날 겹침",
+   "summary": "CXMT 3분기 매출 QoQ +15~20%, 순이익 증가율 2Q +113.4% → 3Q +1.0~3.9% 전망(kimu_nim 요약). DRAM 가격 상승 둔화 우려로 장중 −6%대."
+  },
+  {
+   "title": "2026 앨버타 독립 국민투표 — 개요·여론조사",
+   "url": "https://en.wikipedia.org/wiki/2026_Alberta_independence_referendum",
+   "press": "Wikipedia",
+   "at": "2026-10-19 11:40",
+   "why": "CNQ bet(☕ cup_eye) 진입일 = 본투표일 — 결과는 10/20 아침 확인, 분리 우세면 갭 손절",
+   "summary": "본투표 10/19(현지). 여론조사 잔류 우세(앵거스리드 '5명 중 3명 잔류', 레제 잔류 70%). 공식 결과 날짜는 미확인."
+  },
+  {
    "title": "외국인, 한국 반도체주 84억달러 순매도 — 삼전·하이닉스 2008년 이후 최대 주간 낙폭",
    "url": "https://finance.biggo.com/news/aaf08e97-bb12-4de6-ba3a-1170c94bf9ba",
    "press": "BigGo Finance",
@@ -623,23 +639,7 @@
    "at": "2026-10-16 13:35",
    "why": "국내 칸 진입 보류 해제 조건(첫 반등일 종가) — 외국인 동반 여부가 관건",
    "summary": "16일 코스닥 장중 +5%↑로 프로그램매수 일시정지. 코스피도 3%대 반등, 외국인은 순매도 지속."
-  },
-  {
-   "title": "시티 '정부들, AI발 유동성 경색 속 달러 아닌 채권 발행으로 이동'",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbURrVzdKbi1YZzdaMUh1Si0tYm5qTGlWNDlDNUR0SnY5ejB3MmlYYi1MUXE0RzBuS0pyTDZtODNzU3JPeDU5Qy1md083MW5BVGpNODFxVk1Rd2dCbDA2bHdHMnd2ZFE4RXpPU1l5Ql9sZW1ibHZkcGhxeXhjQmFWQnBOb01KZ0w5dDNPZlZlbGoyODM4dGZ6NEVDTzhFcmRwdVNCenA3emozdS10Q2ZGaDlBSkh3emJyNzZqQjhFQ0E2SnI5WHc?oc=5",
-   "press": "Reuters",
-   "at": "2026-10-16 13:35",
-   "why": "AI 차입(크레딧) 논지·달러/위안 bet — AI 채권 발행이 달러 유동성을 빨아들인다는 은행 쪽 증언",
-   "summary": "AI 기업 대규모 달러채 발행으로 달러 조달이 빡빡해지자 각국 정부가 유로·엔 등 비달러 채권으로 이동(시티 은행가). 숫자 미확인."
-  },
-  {
-   "title": "골드만 '한국 AI주 매도 과도' — 코스피 12,000 목표 유지, 선행 PER 5.1배",
-   "url": "https://www.hl.co.uk/news/goldman-says-koreas-ai-stock-selloff-has-gone-too-far-doubles-down-on-bull-case",
-   "press": "Reuters via HL",
-   "at": "2026-10-16 12:35",
-   "why": "한국 칸·대형 반도체 재진입 판단 — 급락 원인을 '자사주 매입 중단 매수 공백'으로 봄",
-   "summary": "7거래일 최대 −20%, 외국인 8거래일 134억$ 순매도(HANAchina/70515 인용). 선행 PER 5.1배 = 역사 평균 −2.7σ. 목표 12,000 유지."
   }
  ],
- "at": "2026-10-19 09:35"
+ "at": "2026-10-19 11:45"
 }
