@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "코어위브 채권, 급락 뒤 반등(10/15)",
+   "url": "https://www.roic.ai/news/coreweave-bonds-rebound-sharply-after-recent-selloff-10-15-2026",
+   "press": "roic.ai",
+   "at": "2026-10-19 12:35",
+   "why": "「AI 차입 크레딧」 논지(0.84)·반도체 칸 7 — 채권이 먼저 반등하면 주식 저점 신호",
+   "summary": "10/15 코어위브 회사채 급락 뒤 반등 보도 · 이후 주말 'bond rout tests AI buildout math'(investing_en)로 다시 불안 — 채권 가격이 AI 주식 선행지표"
+  },
+  {
+   "title": "아시아장 유가 소폭 하락, 브렌트 105달러 위 유지",
+   "url": "https://gulfnews.com/business/energy/oil-edges-lower-in-asian-trade-brent-holds-above-105-1.500712499",
+   "press": "Gulf News",
+   "at": "2026-10-19 12:35",
+   "why": "CNQ bet(미 시가 진입 대기) — 브렌트 105 아래 종가면 논지 약화",
+   "summary": "브렌트 105달러 위 유지(기사 날짜 미확인) · 트럼프 러시아 제재 유예로 소폭 하락 줄기(reuters 피드)"
+  },
+  {
    "title": "CXMT 9개월 실적 예고 뒤 주가 −6% — 3분기 순이익 증가율 +113%→+1~4%로 급둔화",
    "url": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html",
    "press": "CNBC",
@@ -623,22 +639,6 @@
    "at": "2026-10-16 14:35",
    "why": "현금·단기채 칸·고금리 논지 — 포워드 가이던스 폐기는 FOMC 당일 변동성↑",
    "summary": "연준이 회의 결과를 사전에 시사하지 않겠다는 방침. 미 10년 5.09% 밴드 유지."
-  },
-  {
-   "title": "워시 연준 의장 'AI 길은 매우 울퉁불퉁, 결국 부에 매우 좋다'",
-   "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html",
-   "press": "CNBC",
-   "at": "2026-10-16 13:35",
-   "why": "현금·단기채 칸과 고금리 논지 — PPI 6.3% 뒤 첫 발언, 10월 FOMC 판단 재료",
-   "summary": "AI가 생산성보다 수요를 먼저 자극한다고 언급, 금리 결정은 예단하지 않는다(kimu_nim 인용 기사). 미국은 투자 급증 중(블룸버그). 인상 문은 닫지 않음."
-  },
-  {
-   "title": "코스닥 급락 하루 만에 장중 5% 급등 — 매수 사이드카 발동",
-   "url": "https://www.yna.co.kr/view/AKR20261016086100008",
-   "press": "연합뉴스",
-   "at": "2026-10-16 13:35",
-   "why": "국내 칸 진입 보류 해제 조건(첫 반등일 종가) — 외국인 동반 여부가 관건",
-   "summary": "16일 코스닥 장중 +5%↑로 프로그램매수 일시정지. 코스피도 3%대 반등, 외국인은 순매도 지속."
   }
  ],
  "at": "2026-10-19 11:45"
