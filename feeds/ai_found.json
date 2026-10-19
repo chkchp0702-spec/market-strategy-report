@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "오늘의 미국 증시: S&P·다우 선물 상승, 유가 하락 — 인텔·에드워즈·SAP 주목",
+   "url": "https://www.webull.com/news/15281504971547648",
+   "press": "Webull",
+   "at": "2026-10-19 19:35",
+   "why": "⚡ CNQ 대기(10/19 미국 시가 진입) — 유가 하락이 에너지 회전 역풍 · MDT 헬스케어(에드워즈 실적 주목)와 같은 업종",
+   "summary": "미 선물이 유가 하락에 상승, 기술주 실적 앞둠 · 인텔 장전 약 +4%(investing_en 피드) — 수치 원문 미확인"
+  },
+  {
+   "title": "미 선물, AI 관련 상승이 유가·금리 부담을 상쇄",
+   "url": "https://tradersunion.com/news/stocks/show/3496002-us-stock-futures-rise-ai-gains/",
+   "press": "Traders Union",
+   "at": "2026-10-19 19:35",
+   "why": "반도체 칸(10→7 축소 중) — 미 반도체 8일 연속 하락 뒤 반등 시도가 이어지는지 확인 재료",
+   "summary": "AI 관련주 반등이 유가·국채금리 부담을 상쇄하며 선물 상승 · 게시 날짜 미확인(같은 줄기: 로이터 'Wall St futures climb as AI stocks rebound; oil, yields fall' 10/19)"
+  },
+  {
    "title": "트럼프 러시아 연료 제재 완화에 유가 105달러 부근",
    "url": "https://www.newsbytesapp.com/news/business/oil-hovers-near-105-as-trump-eases-russian-fuel-sanctions/story",
    "press": "NewsBytes",
@@ -623,23 +639,7 @@
    "at": "2026-10-17 01:40",
    "why": "반도체 칸·한국 대형 반도체 진입 금지 논지 — 연속 하락 길이가 2008년 이후 최장(bbg_mkt 동시 보도)",
    "summary": "필라델피아 반도체지수 8거래일 연속 하락. 블룸버그도 '2008년 이후 최장 연속 하락 앞둬'. 세부 하락폭은 원문 확인 필요(미확인)."
-  },
-  {
-   "title": "메모리주 또 약세장 진입 — 반도체 시총 손실 2.5조 달러 근접",
-   "url": "https://finance.yahoo.com/markets/article/memory-stocks-slide-into-another-bear-market-as-chip-losses-near-25-trillion-chart-of-the-day-100000060.html",
-   "press": "Yahoo Finance",
-   "at": "2026-10-17 01:40",
-   "why": "삼성·하이닉스(외국인 복귀 조건) — 같은 날 CXMT 메모리 가격 급등으로 흑자 전환(bbg_tech), 가격과 주가가 엇갈림",
-   "summary": "메모리주 고점 대비 20%↓ 약세장 재진입, 반도체 손실 약 2.5조$ 근접(제목 기준). CXMT 는 메모리 가격 급등으로 흑자 전환."
-  },
-  {
-   "title": "코어위브 부도 우려에 급락 — CDS 1,194bp 사상 최고, 2032년 채권 수익률 15% 넘어",
-   "url": "https://stockstotrade.com/news/coreweave-inc-crwv-news-2026_10_16-2/",
-   "press": "StocksToTrade",
-   "at": "2026-10-17 00:35",
-   "why": "AI 차입 스트레스 논지(0.80)·'AI 차입 게이트' 아이디어 발동 근거 — 광통신·데이터센터 칸 추격 매수 경계",
-   "summary": "10/16 CRWV 장전 −5.5%(수요일 −16% 이어). 5년 CDS +74.5bp → 약 1,194bp 장중 사상 최고, 부도확률 60%↑ 함의. 9.625% 2032 무담보채 수익률 15%↑. CEO '시장이 비이성적, 수주잔고로 상환 가능'."
   }
  ],
- "at": "2026-10-19 16:35"
+ "at": "2026-10-19 19:35"
 }
