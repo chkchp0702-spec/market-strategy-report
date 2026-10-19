@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "프랑스 폭동이 부채 위기 우려를 키워 — 파리 증시·국채·유로 동반 하락",
+   "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html",
+   "press": "CNBC",
+   "at": "2026-10-20 06:35",
+   "why": "EWQ(프랑스 ETF) 오름 bet 의 핵심 위험 — 정치 위기가 '덜 나쁘기' 논지와 반대로 감",
+   "summary": "10/19 폭동이 기존 정치·재정 위기에 더해져 파리 상장 주식·국채·유로가 함께 약세. 숫자는 원문 확인."
+  },
+  {
+   "title": "폭동이 정치 위기를 더하며 프랑스 시장 급락",
+   "url": "https://money.usnews.com/investing/news/articles/2026-10-19/french-markets-tumble-as-riots-add-to-political-crisis",
+   "press": "US News(로이터)",
+   "at": "2026-10-20 06:35",
+   "why": "프랑스 10년 금리 4.8% 25년 최고 줄기와 이어짐 — 고금리 논지의 유럽 쪽 약한 고리",
+   "summary": "10/19 프랑스 주식·채권 약세, 마크롱 '분노와 수치' 성명(sedaily 피드). 유럽 전체는 소폭 하락."
+  },
+  {
    "title": "앤트로픽, 엔스케일과 450억 달러 AI 컴퓨팅 계약(블룸버그 보도)",
    "url": "https://www.channelinsider.com/ai/news-anthropic-nscale-45-billion-ai-compute-deal/",
    "press": "Channel Insider",
@@ -623,22 +639,6 @@
    "at": "2026-10-17 08:35",
    "why": "고금리 장기화 논지(10년 5.0~5.3% 밴드) 반대 근거 — 장기물 공급이 줄면 10년 5.00 하향 이탈 가능, 포트 채권 칸 듀레이션 판단",
    "summary": "씨티가 재무부의 장기물(쿠폰) 발행 축소 가능성을 제기(피드 HANAchina/70557 동일). 구체 축소 규모·시점은 미확인 — 11월 초 분기 리펀딩 발표가 판정."
-  },
-  {
-   "title": "브렌트 110달러 돌파 — 중동 긴장 고조",
-   "url": "https://tradingeconomics.com/commodity/brent-crude-oil/news/535310",
-   "press": "Trading Economics",
-   "at": "2026-10-17 08:35",
-   "why": "CNQ(☕ cup_eye 10/16, bets 열림) 와 에너지 칸 — 유가 5개월 고점, 동시에 수입물가 상승으로 인상 위험 재점화",
-   "summary": "브렌트 110달러 상회(FT '5개월 고점'). 러시아 랴잔 정유소 드론 피격으로 1개 공정 중단(로이터). 정확한 종가는 미확인."
-  },
-  {
-   "title": "CXMT 상반기 매출 1,503억 위안·조정 순이익 788억 위안(전년 −24억) — 메모리 가격 급등 확인",
-   "url": "https://www.newsquawk.com/headlines/cxmt-688825-cs-h1-2026-cny-revenue-1503bln-prev-154bln-yy-",
-   "press": "Newsquawk",
-   "at": "2026-10-17 07:35",
-   "why": "IMOS(ChipMOS, 10/13 🧠 focus)·한국 반도체 소부장 cup_eye(오킨스전자·인텍플러스) — 메모리 사이클은 살아 있고 SOX 하락은 수급 쪽이라는 근거",
-   "summary": "CXMT H1 매출 1,503억 위안(전년 154억)·조정 순이익 788억 위안. 피드(HANAchina 10/17)는 1~3분기 누적 순이익 1,300억 위안 돌파·최대 20억 위안 자사주 매입 추진 — 누적치는 웹 미확인."
   }
  ],
  "at": "2026-10-20 05:35"
