@@ -1,0 +1,83 @@
+{
+ "at": "2026-10-19 15:04",
+ "line": "VIX 19.99(81%) · SPY 풋/콜 3.015 · 외가풋 프리미엄 +12.8%p",
+ "on": [],
+ "signals": [
+  {
+   "id": "R1",
+   "name": "😨 미 공포 극단",
+   "on": false,
+   "level": "VIX 19.99 (1년 81%) · VIX/VIX3M 0.975",
+   "then": "크기 줄이기 — 새 bets horizon 짧게·목표 좁게. 방향 신호 아님"
+  },
+  {
+   "id": "R1x",
+   "name": "😮‍💨 공포 해소 첫날",
+   "on": false,
+   "level": "정상(콘탱고)",
+   "then": "20일 SPY 채점 — 가설: 평균 +"
+  },
+  {
+   "id": "R2",
+   "name": "🔁 풋콜 리셋",
+   "on": false,
+   "level": "SPY 풋/콜 거래량 3.015 · 10일평균 84일 순위 None% (기록 0/84일) — 쌓는 중",
+   "then": "3개월 SPY 채점 (SentimenTrader 51회 80% 승)"
+  },
+  {
+   "id": "R5",
+   "name": "🎈 외가 풋 비쌈(보험 수요)",
+   "on": false,
+   "level": "SPY 0.90풋 IV−등가 콜 IV +12.8%p · 0.95풋 6.06 (기록 0/20일 — 쌓는 중)",
+   "then": "20일 SPY 채점 — 가설만(종목은 −, 지수는 반대일 수 있음)"
+  }
+ ],
+ "us": {
+  "vix": 19.99,
+  "vix_p1y": 81,
+  "vix_d": "2026-10-16",
+  "vix3m": 20.5,
+  "vix3m_p1y": 64,
+  "vix3m_d": "2026-10-16",
+  "vix9d": 20.12,
+  "vix9d_p1y": 84,
+  "vix9d_d": "2026-10-16",
+  "skew_idx": 168.59,
+  "skew_idx_p1y": 100,
+  "skew_idx_d": "2026-10-16",
+  "vix_vix3m": 0.975,
+  "backwardation": false,
+  "backwardation_prev": false,
+  "vix9d_vix": 1.007
+ },
+ "spy_opt": {
+  "spot": 763.25,
+  "m": "2026-10-16",
+  "exp": "2026-11-20",
+  "dte": 32,
+  "pc_vol": 3.015,
+  "pc_oi": 0.0,
+  "atm_civ": 15.3,
+  "p95_iv": 21.4,
+  "p90_iv": 28.1,
+  "skew95": 6.06,
+  "skew90": 12.75
+ },
+ "spy_roc5": -1.97,
+ "kr": {
+  "fut": [],
+  "call": [],
+  "put": [],
+  "kospi": [],
+  "credit": []
+ },
+ "score": {},
+ "errors": {
+  "naver fut": "HTTP Error 410: 410",
+  "naver call": "HTTP Error 410: 410",
+  "naver put": "HTTP Error 410: 410",
+  "naver kospi": "HTTP Error 410: 410",
+  "naver deposit": "행 없음"
+ },
+ "rule": "규칙 R1~R5 는 brain/sentiment_lab.md 에 결과 보기 전에 적음 · 그림자 채점만(킥 매매 안 바꿈) · 판정은 20일 채점 n≥20 부터"
+}
