@@ -1,6 +1,38 @@
 {
  "items": [
   {
+   "title": "인도네시아 증시, MSCI '단독시장' 강등 경고에 1998년 이후 최대 폭락",
+   "url": "https://www.thestar.com.my/business/business-news/2026/10/16/indonesia-stocks-sink-most-since-1998-after-msci-flags-039standalone039-downgrade",
+   "press": "The Star",
+   "at": "2026-10-19 15:35",
+   "why": "신흥국 위험 회피 · MSCI EM 내 한국·대만 비중 변화(패시브 재배분) 가능성",
+   "summary": "10/16 MSCI '단독시장(standalone)' 강등 경고로 IDX 1998년 이후 최대 하루 하락. 10/19 −5% 추가 하락, 인도네시아 당국 MSCI 면담."
+  },
+  {
+   "title": "한국, SK하이닉스 솔리다임 미국 상장이 중복상장 규정 위반 가능성",
+   "url": "https://www.investing.com/news/stock-market-news/skorea-says-sk-hynixs-solidigm-listing-could-violate-rules-reports-4956403",
+   "press": "Investing.com(로이터)",
+   "at": "2026-10-19 15:33",
+   "why": "반도체 칸·하이닉스 — 자회사 상장 가치 기대에 규제 변수",
+   "summary": "이찬진 금감원장 국감에서 '솔리다임 나스닥 상장은 중복상장 규제에 저촉' — 금융위 유권해석 대기. 정치권도 상장 저지 요구."
+  },
+  {
+   "title": "외국인 11조 팔아치운 급락장…코스피 ETF엔 2.7조 유입",
+   "url": "https://www.hankyung.com/article/202610190709i",
+   "press": "한국경제",
+   "at": "2026-10-19 15:07",
+   "why": "한국 외국인 논지(0.82) — 반등을 개인 ETF 자금이 받치는 구조",
+   "summary": "지난주 외국인 삼전닉스 중심 11조 순매도, 같은 기간 코스피 추종 ETF 2.7조 순유입(개인 저가 매수)."
+  },
+  {
+   "title": "美 AI 데이터센터 뚫은 가온전선, 3분기 영업익 520억 어닝 서프라이즈",
+   "url": "https://www.mk.co.kr/news/business/12179624",
+   "press": "매일경제",
+   "at": "2026-10-19 15:06",
+   "why": "전력·전선 테마 실적 확인 — 한국 실적 서프라이즈 종목(우리 신호 아직 없음)",
+   "summary": "3분기 매출 9,865억·영업익 520억, 미국 법인 버스덕트 데이터센터 공급 증가로 수익성 개선."
+  },
+  {
    "title": "골드만 프리보로츠키 'AI 매도는 청산이 아니라 AI 안의 회전'",
    "url": "https://cryptobriefing.com/goldman-sachs-ai-unwind-rotation-not-liquidation/",
    "press": "Crypto Briefing(골드만 데스크 노트 인용)",
@@ -607,38 +639,6 @@
    "at": "2026-10-16 20:35",
    "why": "고금리 논지·킥 국면 필터 — '위험 회피 유지' 권고, 주간 펀드 흐름 근거",
    "summary": "하트넷 '높은 실질금리와 AI 변동성이 주식을 위협, 위험 회피 유지'(investing_en 10/16). IEA 비축 경유 2,000만 배럴 방출(sedaily 10/16)과 같은 축."
-  },
-  {
-   "title": "중국, 자국 AI 모델·칩 설계·학습데이터 수출 통제 검토(FT)",
-   "url": "https://thenextweb.com/news/china-ai-model-chip-export-controls-ft-report",
-   "press": "The Next Web(FT 인용)",
-   "at": "2026-10-16 19:35",
-   "why": "반도체·AI 소프트웨어 칸 — 엔비디아만 오르고 칩 업종 하락하는 날의 정책 헤드라인",
-   "summary": "중국이 첨단 AI 모델·칩 설계·에이전트 수출을 통제하는 방안 검토(블룸버그도 '제안' 보도). 미·중 기술 통제가 양방향으로 번짐."
-  },
-  {
-   "title": "S&P·나스닥 선물 소폭 상승 — 금리 진정 환영, MU·NVDA 주목",
-   "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-futures-inch-higher-as-investors-cheer-cooling-yields-googl-mu-mat-nvda-in-focus/cZD0mZmRB01",
-   "press": "Stocktwits",
-   "at": "2026-10-16 19:35",
-   "why": "반도체 칸 mu_drop 조건(MU −5%)·현금·단기채 칸(10년 5% 밴드) 확인용",
-   "summary": "금리 하락에 미 선물 소폭 상승, 다만 주간으로는 하락 주 마감 흐름(investing_en). 미 10년 1년여 만 최대 하락일 다음 날."
-  },
-  {
-   "title": "다우 +556P — PPI 가속에 AI주 이탈, 헬스케어로 회전",
-   "url": "https://invezz.com/news/2026/10/15/dow-rises-556-points-as-investors-rotate-out-of-ai-stocks-on-inflation-fears/",
-   "press": "Invezz",
-   "at": "2026-10-16 17:35",
-   "why": "🤫 매집 MDT(10/14)·방어 칸 — AI→헬스케어 회전이 신호 종목과 겹침",
-   "summary": "10/15 다우 556P 상승, 나스닥은 AI 매도로 약세. 9월 PPI 가속이 AI 관련주 압박, 자금은 헬스케어로 이동."
-  },
-  {
-   "title": "반도체 매도에 투자자들 다른 주식·채권으로 피신(CNN)",
-   "url": "https://www.cnn.com/2026/10/15/business/tech-selloff-nasdaq-ai-intl",
-   "press": "CNN",
-   "at": "2026-10-16 17:35",
-   "why": "반도체 칸·채권 칸 — 금리 하락이 AI 매도의 피난처 수요에서 나옴(고금리 논지 반대 근거)",
-   "summary": "칩주 매도 확산 속 채권·방어주로 자금 이동. 미 10년물 하락. 세부 숫자는 원문 확인 필요(미확인)."
   }
  ],
  "at": "2026-10-19 11:45"
