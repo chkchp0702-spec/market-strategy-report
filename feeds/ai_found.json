@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "오라클·엔비디아·알파벳·스페이스X CDS 사상 최고 — AI 부채 경계",
+   "url": "https://aiweekly.co/alerts/oracle-nvidia-alphabet-spacex-cds-hit-records-on-ai-debt",
+   "press": "AI Weekly",
+   "at": "2026-10-19 23:35",
+   "why": "🧠 'AI 차입이 다음 약한 고리'(0.84) 판정 근거 — 주식 반등보다 CDS로 본다. 같은 시각 CNBC '크레딧 스트레스가 AI 강세를 풀 위협, 오라클이 버팀목'",
+   "summary": "빅테크·AI 인프라 기업 CDS가 기록 수준(기사 날짜·수치 원문 미확인). 오늘 반도체·코어위브 반등에도 크레딧 쪽 확인이 필요."
+  },
+  {
    "title": "골드만 '네오클라우드는 다 같지 않다' — 지난주 급락한 코어위브 저가 매수 권고",
    "url": "https://www.cnbc.com/2026/10/19/buy-neocloud-stock-coreweave-goldman-sachs-says.html",
    "press": "CNBC",
@@ -631,15 +639,7 @@
    "at": "2026-10-17 04:37",
    "why": "AI 차입 스트레스 논지(0.84) 직접 근거 — 반도체 비중 확대 금지 유지 근거",
    "summary": "코어위브·네비우스 10/8 이후 −20%↑. 코어위브 무담보채 수익률 15%. CNN 공포탐욕지수 '극단 공포' 근접."
-  },
-  {
-   "title": "오픈AI, 투자자에 매출 약 500억 달러 — 앞선 보도보다 200억 달러 적어",
-   "url": "https://aiweekly.co/alerts/openai-tells-backers-revenue-nears-50b-20b-below-prior-report",
-   "press": "AI Weekly",
-   "at": "2026-10-17 04:35",
-   "why": "AI 이익·AI 차입 논지의 수요 원천 숫자 — 반도체 칸·QQQ dip 신호와 직결",
-   "summary": "오픈AI 매출 런레이트 약 500억$로 시장 기대(약 700억$) 하회 보도. 10/16 엔비디아 시총 약 2,000억$ 감소(yahoo), 나스닥 −2%."
   }
  ],
- "at": "2026-10-19 22:35"
+ "at": "2026-10-19 23:35"
 }
