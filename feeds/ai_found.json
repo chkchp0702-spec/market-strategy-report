@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "Cboe, 3분기 실적 10월 30일 발표",
+   "url": "https://briefglance.com/companies/cboe-global-markets-inc/pulses/82285",
+   "press": "BriefGlance",
+   "at": "2026-10-20 01:35",
+   "why": "☕ 컵 10/19 CBOE bet — 실적이 1주 기한 밖이라 실적 전 흐름만 채점",
+   "summary": "Cboe 3분기 실적 발표 10/30 확정. 2분기엔 옵션 수입 기록으로 이익 +50%·연간 가이던스 상향(tradeinformer)."
+  },
+  {
+   "title": "기술주 반등 — 나스닥 +1%, 다우 약세 (10/19 장중)",
+   "url": "https://qz.com/nasdaq-tech-stocks-rebound-dow-slips-101926",
+   "press": "Quartz",
+   "at": "2026-10-20 01:35",
+   "why": "반도체 칸(10→7) 복구 판단 — 반등이 이틀 이어지는지가 기준",
+   "summary": "AI·반도체 저가 매수로 나스닥 1% 안팎 상승, 다우는 하락. 지난주는 6월 이후 최악의 주(investing_en)."
+  },
+  {
    "title": "오라클·엔비디아·알파벳·스페이스X CDS 사상 최고 — AI 부채 경계",
    "url": "https://aiweekly.co/alerts/oracle-nvidia-alphabet-spacex-cds-hit-records-on-ai-debt",
    "press": "AI Weekly",
@@ -623,22 +639,6 @@
    "at": "2026-10-17 05:19",
    "why": "방어·산업재 회전 속 항공기 인도 재료 — 우리 신호 종목 아님(관찰), 국내 항공부품 공급망 참고",
    "summary": "FAA가 737 MAX 10 인증을 이르면 다음 주 승인할 전망(소식통). 라이언에어 CEO는 앞서 '10월 중순 승인' 예상(aviationweek)."
-  },
-  {
-   "title": "다음 주 대형 실적(메타·P&G) — 좋은 실적도 시장 공포를 잠재우기 어려울 수 있다",
-   "url": "https://www.cnbc.com/2026/10/16/major-earnings-reports-market-fears-next-week.html",
-   "press": "CNBC",
-   "at": "2026-10-17 04:48",
-   "why": "AI 이익 논지(0.62) 판정 주간 — 메타 설비투자 가이던스가 반도체 칸·QQQ dip 신호 방향을 정함",
-   "summary": "다음 주 메타·P&G 등 실적 발표. 투자자 경계 커져 호실적에도 반등 제한 가능성(CNBC 10/16). 나스닥 −2.1%로 7월 이후 최대 낙폭."
-  },
-  {
-   "title": "코어위브·네비우스 급락 — 공포지수 '극단 공포' 근접, 코어위브 무담보채 15%",
-   "url": "https://247wallst.com/videos/coreweave-nebius-and-neoclouds-sink-as-market-fear-index-closes-in-on-extreme-fear/",
-   "press": "24/7 Wall St.",
-   "at": "2026-10-17 04:37",
-   "why": "AI 차입 스트레스 논지(0.84) 직접 근거 — 반도체 비중 확대 금지 유지 근거",
-   "summary": "코어위브·네비우스 10/8 이후 −20%↑. 코어위브 무담보채 수익률 15%. CNN 공포탐욕지수 '극단 공포' 근접."
   }
  ],
  "at": "2026-10-19 23:35"
