@@ -1,6 +1,6 @@
 {
- "last_review": "2026-10-20 03:35",
- "summary": "미국장은 AI·반도체 반등(나스닥 +1.1%·S&P +0.5%)에 VIX 18.3으로 진정됐고 다우는 보합이다. 미 10년 5.14%로 오르고 금은 4,100달러 아래로 밀려 '인플레→금리 인상' 기대가 다시 커지는 중이며, 실적 시즌 초반은 예상 미달이 많다(웰스파고).",
+ "last_review": "2026-10-20 04:35",
+ "summary": "미국장 마감 30분 전 나스닥 +1.4%·S&P +0.6%로 AI·반도체 반등이 이어지고 VIX 18.1로 진정됐다. 다만 유가 상승·미 10년 5.1%대·실적 초반 미달이 겹쳐 '반등은 포지션 청산 끝물' 성격이 강하다.",
  "regime": "중립",
  "theses": [
   {
@@ -131,7 +131,7 @@
    "target": "entry +5%",
    "stop": "entry −3%",
    "horizon": "1주",
-   "why": "AI에서 헬스케어로 회전 — axios_mkt 'Why health care stocks are rallying'(10/19 20:12) · yahoo 'Investors fleeing AI find an unlikely new favorite'(10/19 20:03) · 골드만 '높은 금리가 약한 고리부터'(gn_us_ib 10/19) = 저차입·방어 업종 선호",
+   "why": "AI에서 헬스케어로 회전 — axios_mkt 'Why health care stocks are rallying'(10/19 20:12) · yahoo 'Investors fleeing AI find an unlikely new favorite'(10/19 20:03) · 골드만 '높은 금리가 약한 고리부터'(gn_us_ib 10/19) = 저차입·방어 업종 선호 · ⚠ 실적 10/21 08:00 ET(biopharmawatch) — 기한 안 실적, 갭 위험",
    "sig": "☕ cup_eye 10/16 (kick_cands DHR|2026-10-16)",
    "edge": "헬스케어 회전이 대형 제약(LLY·MRK)부터 시작 — 생명과학 장비(DHR)는 컵 손잡이 근처에서 아직 덜 움직였다(미확인, 시가로 확인)",
    "src": "피드",
