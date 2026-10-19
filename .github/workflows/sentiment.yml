@@ -1,0 +1,29 @@
+name: sentiment
+# 🫀 심리 계기판 (src/sentiment.py → market/sentiment.json · sentiment_log.json) — 10/19 사용자 「심리·선물·옵션·신용 물량」
+#   KST 04:40(미 장중 옵션) · 07:20(미 마감 뒤 확정) · 16:10(한국 장 끝 — 선물·옵션 투자자별, 신용잔고). 그림자만 — 킥 매매 안 바꿈.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 19 * * 1-5"
+    - cron: "20 22 * * 0-4"
+    - cron: "10 7 * * 1-5"
+permissions:
+  contents: write
+concurrency:
+  group: push-${{ github.repository }}-${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  sentiment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yfinance pandas numpy
+      - run: python src/sentiment.py selftest && python src/sentiment.py
+      - name: 저장
+        run: |
+          git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
+          bash scripts/push.sh "sentiment $(TZ=Asia/Seoul date '+%F %H:%M')" market/sentiment.json market/sentiment_log.json
