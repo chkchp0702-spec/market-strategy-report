@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "소뱅 신용위험도 4년 만에 최고…빅테크 CDS 거래량 급증",
+   "url": "https://www.yna.co.kr/view/AKR20261020116700009",
+   "press": "연합뉴스",
+   "at": "2026-10-20 15:30",
+   "why": "🧠 'AI 차입 크레딧' 논지(0.86)와 직접 연결 — 광통신·AI 소프트웨어 칸 위험 신호",
+   "summary": "소프트뱅크그룹 CDS가 AI 자금 조달 우려·대형 인수 가능성으로 약 4년 만 최고. 빅테크 CDS 거래량도 급증 — 주가 반등과 신용 지표가 엇갈림."
+  },
+  {
+   "title": "노무라 \"메모리 공급 부족 2028년까지…삼전·닉스 '매수'\"",
+   "url": "https://www.yna.co.kr/view/AKR20261020111800008",
+   "press": "연합뉴스",
+   "at": "2026-10-20 14:40",
+   "why": "반도체 칸(7%) 재확대 판단 재료 — 실적 낙관 vs 코스피 −4.4% 괴리",
+   "summary": "노무라, AI 기업 매출 둔화·자금 조달 우려에도 메모리 수요가 최소 2028년까지 공급을 웃돈다고 봄. 같은 날 국민연금은 삼전·하닉 비중 5%p 축소."
+  },
+  {
    "title": "위안화 4년 만에 최고 — 역외 6.69위안, 2022년 7월 이후 가장 강해",
    "url": "https://tradingeconomics.com/china/currency/news/591001",
    "press": "Trading Economics",
@@ -623,22 +639,6 @@
    "at": "2026-10-17 16:35",
    "why": "열린 ERIC bet(🧪 PEAD 10/15)의 하방 받침 — 매입이 실적 발표 전후로 이어지는지 확인",
    "summary": "에릭슨이 10/5~10/9 주간 자사주 매입을 공시. 매입 수량·금액은 원문 확인 필요(미확인)."
-  },
-  {
-   "title": "HSBC, ECB 12월 25bp 인상 전망",
-   "url": "https://www.newsquawk.com/headlines/hsbc-expects-the-ecb-to-deliver-a-25bps-hike-in-december-2026",
-   "press": "Newsquawk",
-   "at": "2026-10-17 16:35",
-   "why": "EWQ(프랑스) bet·유럽 실적 방어 줄기 — 유럽 금리 상방이면 밸류 부담, 은행주엔 우호",
-   "summary": "HSBC 가 ECB 12월 25bp 인상을 예상. 블룸버그 10/17 'ECB 12월 인상 쪽으로 기운다'와 같은 방향. 날짜 원문 확인 필요."
-  },
-  {
-   "title": "인도네시아 증시, MSCI 강등 경고에 1998년 이후 최악의 하루",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRmY4bFlVY09zSkdQc0ItXzJqT2pmcFBSUkpwVVd6aUNuTU1waDNUcHY3UHJfYkRNby1kOTBPWHdEcklJLXlHVWpfMThubmtmU3JGZjNPWFdjNHJXZ29vVzJ6Z2tienRzc2d6V3pyVFNGQzdFZVphWTRNazZiRVRMeWpoSTE5ZEJ1aVRRUTZ6eC1XSE1scE9RNUx6MnhMbUxHRTc4ek9hOWlqTldkRlpxTzcxYjJQQQ?oc=5",
-   "press": "WSJ",
-   "at": "2026-10-16 16:18",
-   "why": "신흥국 지수 편입·강등 리스크 — 외국인 신흥국 자금 이탈(한국·대만 외국인 매도 관찰 칸)과 같은 줄기",
-   "summary": "MSCI 강등(프런티어 이전) 경고로 인도네시아 증시 1998년 이후 최대 하락(WSJ 제목 기준, 하락 폭 숫자는 미확인). 1월 투자 가능성 경고(블룸버그 2026-01-28 −7%)에 이은 재발."
   }
  ],
  "at": "2026-10-20 12:35"
