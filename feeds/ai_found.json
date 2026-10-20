@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "HSBC, 코어위브 목표가 하향 — 높은 자금 수요·차입비용 상승 지적",
+   "url": "https://finance.yahoo.com/news/hsbc-cuts-coreweave-crwv-price-122847665.html",
+   "press": "Yahoo Finance(Insider Monkey)",
+   "at": "2026-10-20 21:35",
+   "why": "AI 크레딧 가설 근거 — 네오클라우드 부채 부담이 데이터센터·반도체 바구니 매도로 번지는지(히타치 bet·SMH)",
+   "summary": "HSBC가 코어위브 목표가를 낮추며 대규모 자금 조달 필요·부채비용 상승을 구조적 우려로 꼽음. 같은 날 CNBC 'HSBC, 30%↑ 추가 하락 전망' 보도. 게재일은 미확인."
+  },
+  {
+   "title": "버티브 주가 급락 — 애널리스트들 '데이터센터 장비 주문 둔화'",
+   "url": "https://www.itiger.com/hans/news/2522337878",
+   "press": "Barron's(itiger)",
+   "at": "2026-10-20 21:35",
+   "why": "바클레이즈 '데이터센터 장비 사이클 정점'(bbg_mkt 10/20)과 같은 방향 — 전력·냉각 장비주(히타치 6501.T bet) 역풍 점검",
+   "summary": "데이터센터 장비 주문 둔화 우려로 버티브 하락. 게재일 미확인 — 10/20 바클레이즈 판단과 연결해 참고만."
+  },
+  {
    "title": "브렌트 5개월 고점 — 선박·사우디 시설 공격으로 공급 우려",
    "url": "https://www.marketscreener.com/news/brent-crude-holds-near-five-month-high-on-middle-east-tension-ce785cdbde8cf722",
    "press": "MarketScreener(Reuters)",
@@ -623,22 +639,6 @@
    "at": "2026-10-19 03:35",
    "why": "국내 보도 '은값 50%↑ 폭락·경기둔화 경고'의 배경 — 금·원자재 뼈대 칸 판단용(새 급락이 아니라 연초 고점 대비 누적)",
    "summary": "은값은 2026년 1월 사상 최고 뒤 급락. 50% 낙폭은 연초 고점 대비 누적으로 보이며 이번 주 새 충격은 아님 — 정확한 현재가는 미확인."
-  },
-  {
-   "title": "인도네시아 증시 11% 폭락 — MSCI, 인도네시아 지수 '단독(스탠드얼론)' 강등 경고",
-   "url": "https://thestar.com.my/business/business-news/2026/10/16/jakarta-stocks-plunge-11-as-msci-set-to-drop-indonesia-from-indexes",
-   "press": "The Star",
-   "at": "2026-10-19 02:40",
-   "why": "MSCI 신흥국 지수에서 인도네시아 비중이 빠지면 패시브 자금이 한국·대만 등으로 재배분 — 국내 외국인 수급(watch 코스피 첫 반등) 보조 재료",
-   "summary": "10/16 자카르타 지수 장중 −11%, 1998년 이후 최대 하루 낙폭(WSJ·The Standard). MSCI 가 투자 가능성 문제로 단독 시장 강등을 예고."
-  },
-  {
-   "title": "앨버타 분리 국민투표 실시 여부 투표 — 경과 정리",
-   "url": "https://boereport.com/2026/10/16/alberta-is-to-vote-on-holding-a-separation-referendum-a-timeline-on-how-we-got-here-2/",
-   "press": "BOE Report",
-   "at": "2026-10-19 02:40",
-   "why": "CNQ 대기 bet(10/19 시가 진입)과 진입일이 겹침 — 결과가 캐나다 에너지주 시가 갭을 좌우",
-   "summary": "10/19 앨버타 주민이 분리 국민투표 실시 여부에 투표. 잔류 여론 우세(이전 검색 70%) — 결과 확정 전 시가 진입 위험."
   }
  ],
  "at": "2026-10-20 20:35"
