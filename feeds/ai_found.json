@@ -1,6 +1,38 @@
 {
  "items": [
   {
+   "title": "카타르·파키스탄 이란 평화 중재안 보도(미확인)에 증시 상승·유가 하락",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/unconfirmed-qatar-pakistan-iran-peace-154611349.html",
+   "press": "Investing.com/Yahoo",
+   "at": "2026-10-21 00:46",
+   "why": "열린 bet CNQ(에너지 ☕ cup_eye)의 가장 큰 역풍 — 평화 헤드라인이 유가 프리미엄을 뺀다",
+   "summary": "미확인 중재안 보도로 다우 상승·유가 하락 · 같은 날 호르무즈 유조선 기뢰 피격(sedaily)과 정반대 재료"
+  },
+  {
+   "title": "골드만 「주식 위험선호 3월 이후 최악」 — 역발상 매수 신호일 수 있다",
+   "url": "https://www.cnbc.com/2026/10/20/-risk-appetite-for-stocks-is-the-worst-since-march-goldman-sachs-says.html",
+   "press": "CNBC",
+   "at": "2026-10-21 00:58",
+   "why": "기본 포트 주식 칸 비중 판단 · 같은 날 웰스파고 지표 매수 신호(bbg_mkt)와 겹침",
+   "summary": "골드만 위험선호 지표 3월 이후 최저 · 약세 심리가 역발상으로 주식 재매수 신호가 될 수 있다는 진단"
+  },
+  {
+   "title": "마이크로소프트, 전력 지연으로 영국 Nscale 데이터센터 계약 철회",
+   "url": "https://www.investing.com/news/stock-market-news/microsoft-pulls-out-of-uk-nscale-data-centre-deal-over-power-delay-4960690",
+   "press": "Investing.com",
+   "at": "2026-10-21 01:29",
+   "why": "열린 bet 히타치(전력망 ☕ cup_eye) 논지 — 병목은 칩이 아니라 전력망",
+   "summary": "영국 그리드 연결 지연으로 MS가 Nscale 에식스 데이터센터 계약 철회 · 전력망 장비 수요 근거, 동시에 데이터센터 투자 지연 신호"
+  },
+  {
+   "title": "마이크론 대만 노조 하루 파업 돌입 — 보너스 분쟁 격화",
+   "url": "https://www.investing.com/news/stock-market-news/micron-union-in-taiwan-to-launch-strike-as-bonus-dispute-escalates-4958678",
+   "press": "Investing.com",
+   "at": "2026-10-21 01:29",
+   "why": "메모리 공급 차질 → SK하이닉스·삼성전자(한국 칸) 가격 쪽 순풍 가능",
+   "summary": "10/7 파업 찬성 1,994/2,012(fourweekmba) 뒤 실제 하루 파업 · 대만 HBM·D램 후공정 거점"
+  },
+  {
    "title": "월가, 헬스케어 랠리·유가 하락에 상승",
    "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-dip-as-oil-prices-climb-earnings-loom-4959413",
    "press": "Investing.com",
@@ -607,39 +639,7 @@
    "at": "2026-10-19 09:30",
    "why": "반도체 칸 재확대 조건 — 정부 발언은 심리 지지일 뿐, 외국인 순매수 전환 확인이 먼저",
    "summary": "구윤철 장관 CNBC 인터뷰: 반도체 시장 최소 내년까지 견조. 2029년 공급과잉 경고에 반박(세부 숫자 미확인)."
-  },
-  {
-   "title": "'삼전·닉스 또 떨어지나' 딥시크 쇼크에도 증권가는 '비중 확대'",
-   "url": "https://en.fnnews.com/news/202610190659135307",
-   "press": "파이낸셜뉴스",
-   "at": "2026-10-19 06:59",
-   "why": "반도체 칸(10→7)·국내 외국인 논지 — 오늘 개장 충격 크기 vs 증권가 저가 매수론",
-   "summary": "딥시크 새 저비용 AI 모델 공개로 월요일 반도체 추가 하락 경고. 증권가는 낙폭 과대·비중 확대 의견(세부 숫자 미확인)."
-  },
-  {
-   "title": "반도체 소부장 20% 넘게 급락 — 삼성·하이닉스 하락 여파",
-   "url": "https://en.sedaily.com/finance/2026/10/18/chip-suppliers-tumble-over-20-percent-as-samsung-sk-hynix",
-   "press": "서울경제",
-   "at": "2026-10-18 00:00",
-   "why": "10/16 ☕ cup_eye 소부장 신호(인텍플러스·오킨스전자) 무효 여부 — 대장주 충격이 소부장에 몇 배로 번지나",
-   "summary": "삼성·하이닉스 하락에 반도체 소재·부품·장비주 20% 넘게 빠짐(종목별 숫자 미확인)."
-  },
-  {
-   "title": "앨버타 주민, 국민투표 개표는 신뢰하지만 투표 뒤에도 논쟁 계속될 것 우려(여론조사)",
-   "url": "https://www.ctvnews.ca/calgary/article/albertans-trust-referendum-ballot-count-but-fear-debate-will-continue-after-vote-poll/",
-   "press": "CTV News",
-   "at": "2026-10-19 07:35",
-   "why": "⚡ CNQ bet(10/19 미 시가 진입) — 결과 뒤에도 정치 위험이 남는다는 근거, 위험 절반 유지 규칙과 이어짐",
-   "summary": "10/19 앨버타 독립 국민투표 — 개표 신뢰는 높지만 '투표 뒤에도 논쟁 지속' 우려가 다수(세부 숫자 미확인)"
-  },
-  {
-   "title": "앨버타 분리 독립파 지도자 '결과와 관계없이 운동 계속' — 투표는 월요일(10/19)",
-   "url": "https://fortune.com/2026/10/18/alberta-separatist-leader-independence-movement-canada-remain-referendum-vote/",
-   "press": "Fortune",
-   "at": "2026-10-19 06:35",
-   "why": "CNQ bet 진입일(10/19 시가)이 곧 투표일 — 결과 뒤에도 분리 논쟁이 이어지면 캐나다 에너지주 정책 위험이 한 번에 걷히지 않음",
-   "summary": "투표일 10/19(월). 독립파는 '이미 이겼다'며 결과와 무관하게 운동 지속 선언. 최근 여론 잔류 74%·분리 22%(Research Co. 8/24~26, 위키 인용)."
   }
  ],
- "at": "2026-10-20 23:35"
+ "at": "2026-10-21 01:35"
 }
