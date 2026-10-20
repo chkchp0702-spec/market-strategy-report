@@ -1,14 +1,21 @@
 {
- "at": "2026-10-20 15:34",
+ "at": "2026-10-20 16:38",
  "note": "두뇌·아침 리포트가 이 결과를 brain/state.json bets(entry·status·res)와 scorecard.bets 로 옮긴다. 자동 계산 · 매수 추천 아님.",
  "sum": {
-  "live": 7,
+  "live": 8,
   "closed": 0,
   "win": 0,
   "loss": 0,
   "avg": null
  },
  "bets": [
+  {
+   "id": "20261020-15",
+   "t": "1288.HK",
+   "dir": "오름",
+   "st": "대기",
+   "res": "10/21 시가 기다림"
+  },
   {
    "id": "20261019-20",
    "t": "DHR",
