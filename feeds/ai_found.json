@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "Cboe, 일부 개별 종목 옵션 장전·장후 거래 SEC 승인",
+   "url": "https://ir.cboe.com/news/news-details/2026/Cboe-Receives-SEC-Approval-to-Offer-Extended-Trading-Hours-for-Select-Multi-Listed-Single-Stock-Options/default.aspx",
+   "press": "Cboe IR",
+   "at": "2026-10-20 22:35",
+   "why": "열린 CBOE bet(☕ 컵 10/19) 근거 — 10/20 프리마켓 옵션 첫날 QQQ·IWM 최다(gn_kr_bbg), 거래시간 확대가 거래 수수료로 이어지는지",
+   "summary": "SEC가 Cboe의 일부 다중상장 개별 종목 옵션 장전·장후 거래를 승인. 게재일·첫날 거래량 숫자는 미확인(피드 제목만)."
+  },
+  {
+   "title": "미즈호, 전기장비 Hubbell·Eaton·AMETEK 긍정 / Rockwell·Vertiv 중립",
+   "url": "https://benzinga.com/z/24671128",
+   "press": "Benzinga",
+   "at": "2026-10-20 22:35",
+   "why": "히타치 bet(☕ cup_eye) 업종 — 바클레이즈 '데이터센터 장비 정점'과 반대로 미즈호는 전력장비 선호, 버티브는 중립",
+   "summary": "미즈호 전기장비·복합산업 3분기 미리보기(investing_en 피드 4960255)와 같은 맥락으로 보임. 게재일 미확인 — 같은 보고서인지 미확인."
+  },
+  {
    "title": "HSBC, 코어위브 목표가 하향 — 높은 자금 수요·차입비용 상승 지적",
    "url": "https://finance.yahoo.com/news/hsbc-cuts-coreweave-crwv-price-122847665.html",
    "press": "Yahoo Finance(Insider Monkey)",
@@ -623,23 +639,7 @@
    "at": "2026-10-19 04:35",
    "why": "고금리 장기화 논지(0.76)와 현금·단기채 칸 근거 — 10/19 씨티 '주가엔 금리 영향 약화' 발언(gn_kr_mkt·gn_us_mkt)과 함께 읽을 것",
    "summary": "씨티가 12월 25bp 인상으로 연준 전망 변경(10/14). 같은 씨티가 주말엔 '금리는 밸류에이션보다 경제에 더 중요' — 주식엔 금리보다 AI 실적이 변수라는 시각."
-  },
-  {
-   "title": "골드만삭스: 품질주 반등 막혔지만 일부 미국 종목은 '진입 기회'",
-   "url": "https://www.itiger.com/news/1122227478",
-   "press": "Tiger Brokers(골드만 리포트 인용)",
-   "at": "2026-10-19 03:35",
-   "why": "위험 회피 국면에서 방어·품질 성장주로 옮기는 IB 시각 — MDT(헬스케어 방어) 열린 bet·포트 방어 칸과 이어짐",
-   "summary": "골드만, 품질주 반등이 눌렸지만 일부 종목은 매수 진입 구간에 들어왔다고 평가. 게재일·종목 목록 세부는 원문 확인(미확인)."
-  },
-  {
-   "title": "은값 왜 떨어지나 — 1월 사상 최고 뒤 2026년 폭락 정리",
-   "url": "https://fxnx.com/en/blog/why-silver-going-down-2026-crash-after-january-record",
-   "press": "FXNX",
-   "at": "2026-10-19 03:35",
-   "why": "국내 보도 '은값 50%↑ 폭락·경기둔화 경고'의 배경 — 금·원자재 뼈대 칸 판단용(새 급락이 아니라 연초 고점 대비 누적)",
-   "summary": "은값은 2026년 1월 사상 최고 뒤 급락. 50% 낙폭은 연초 고점 대비 누적으로 보이며 이번 주 새 충격은 아님 — 정확한 현재가는 미확인."
   }
  ],
- "at": "2026-10-20 20:35"
+ "at": "2026-10-20 22:35"
 }

@@ -1,6 +1,6 @@
 {
- "last_review": "2026-10-20 21:35",
- "summary": "미국 개장 전 선물 약세 — 네오클라우드 엘리스 상장 폭락·HSBC 코어위브 30% 추가 하락 경고·바클레이즈 데이터센터 장비 사이클 정점 판단으로 AI 인프라 우려 재점화, 세계 반도체 동반 약세. 반면 러시아 발트 항구 선적 중단·유럽 가스 €90 돌파·영국 사우디 방공 투입으로 에너지는 강세. 위험 회피 유지.",
+ "last_review": "2026-10-20 22:35",
+ "summary": "미국 개장 직후 나스닥 약세 — 엘리스 상장 폭락·코어위브 경고 뒤 AI 매도 재개, 코히어런트·루멘텀 등 광통신 급락. 미 원유 105달러↑·호르무즈 공격 확대로 에너지 강세, 로이터 설문 이코노미스트 전원 12월 연준 인상 전망·모기지 7.40%. 코스피 −3.73% 마감. 위험 회피 유지.",
  "regime": "위험 회피",
  "theses": [
   {
@@ -2380,7 +2380,7 @@
    "target": "entry +5%",
    "stop": "entry −3%",
    "horizon": "1주",
-   "why": "지난주 S&P·나스닥 6월 이후 최악의 주 → 이번 주 대형 실적 몰림(cnbc_top 10/19)·변동성 높은 구간 = 옵션 거래량 수혜 · 9월 거래량 공시(https://mondovisione.com/media-and-resources/news/cboe-global-markets-reports-trading-volume-for-september-2026-2026106/) · 3분기 실적 10/30(https://briefglance.com/companies/cboe-global-markets-inc/pulses/82285) — 1주 기한 밖이라 실적 미포함 · 16:35 Q3 실적 10/30 발표 확정(https://briefglance.com/companies/cboe-global-markets-inc/pulses/82285) — 1주 기한(10/28) 안엔 실적 없음, 거래량 기대만으로 가는 시험",
+   "why": "지난주 S&P·나스닥 6월 이후 최악의 주 → 이번 주 대형 실적 몰림(cnbc_top 10/19)·변동성 높은 구간 = 옵션 거래량 수혜 · 9월 거래량 공시(https://mondovisione.com/media-and-resources/news/cboe-global-markets-reports-trading-volume-for-september-2026-2026106/) · 3분기 실적 10/30(https://briefglance.com/companies/cboe-global-markets-inc/pulses/82285) — 1주 기한 밖이라 실적 미포함 · 16:35 Q3 실적 10/30 발표 확정(https://briefglance.com/companies/cboe-global-markets-inc/pulses/82285) — 1주 기한(10/28) 안엔 실적 없음, 거래량 기대만으로 가는 시험 · 10/20 Cboe 개별 종목 옵션 프리마켓 첫날 QQQ·IWM 최다(gn_kr_bbg) — 거래시간 확대 실행",
    "sig": "☕ 컵 10/19 (kick_cands CBOE|2026-10-19, score 70.4)",
    "edge": "변동성 주간의 거래량 증가가 10/30 실적 전에 '거래량 월간 공시·프리뷰'로 먼저 가격에 들어갈 수 있다",
    "src": "스캐너",
