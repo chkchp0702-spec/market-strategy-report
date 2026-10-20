@@ -1,0 +1,28 @@
+name: feed-score
+# 🗣 내 채널 성적표 (src/feed_score.py → feeds/mentions.json · feeds/feed_score.json) — 10/20 A10/20-2
+#   피드 사람 글이 부른 종목을 기록하고 5·20거래일 뒤 종가로 채점. 한국 장 마감 뒤 KST 16:10 · 미국 장 마감 뒤 KST 07:25 (평일)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "10 7 * * 1-5"
+    - cron: "25 22 * * 0-4"
+permissions:
+  contents: write
+concurrency:
+  group: push-${{ github.repository }}-${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  score:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yfinance pandas
+      - run: python -m src.feed_score --selftest && python -m src.feed_score
+      - name: 저장
+        run: |
+          git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
+          bash scripts/push.sh "feed-score $(TZ=Asia/Seoul date '+%F %H:%M')" feeds/mentions.json feeds/feed_score.json
