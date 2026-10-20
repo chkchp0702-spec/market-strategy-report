@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "미국, '다크플릿' 유조선의 합법적 원유 운송 허용",
+   "url": "https://seekingalpha.com/news/4654458-us-to-allow-dark-fleet-tankers-to-ship-oil-legally",
+   "press": "Seeking Alpha",
+   "at": "2026-10-20 17:35",
+   "why": "⚡ 열린 bet CNQ(캐나다 원유) 역풍 — 러시아 원유 공급·유조선 운임 하락 쪽 정책",
+   "summary": "10/15 로이터 '제재 완화 검토' 뒤 실제 허용 보도. 검토 보도 때 유가 하락(oilprice). AGBI 는 운임 완화 효과가 제한적이라 분석."
+  },
+  {
+   "title": "신흥국 주식, 미국 대비 사상 최대 할인",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-20/emerging-stocks-are-trading-at-their-biggest-ever-discount-to-us",
+   "press": "Bloomberg",
+   "at": "2026-10-20 17:35",
+   "why": "한국·중국 칸 — 이익 추정 상승인데 밸류 20년 최저 = 가격이 실적을 못 따라간 구간(1288.HK bet 순풍)",
+   "summary": "신흥국 기업 이익 추정치 급등으로 미국 대비 밸류에이션이 20년 최저. 오늘 코스피 −3.73%·항셍 −319, 상하이만 상승."
+  },
+  {
+   "title": "그림자 선단 제재 완화, 유조선 운임 낮추긴 어려울 듯",
+   "url": "https://www.agbi.com/analysis/shipping/2026/10/shadow-fleet-sanctions-relief-unlikely-to-ease-tanker-rates/",
+   "press": "AGBI",
+   "at": "2026-10-20 17:35",
+   "why": "에너지 칸·CNQ — 공급 완화 정책이 유가·운임에 얼마나 먹히는지 판단 근거",
+   "summary": "제재 완화로도 운임 하락은 제한적이라는 분석. 유가 영향 숫자는 미확인."
+  },
+  {
    "title": "S&P: CXMT 매출, 메모리 가격 급등에 가파르게 가속",
    "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/cxmt-revenue-set-for-sharp-acceleration-as-memory-prices-surge",
    "press": "S&P Global MI",
@@ -615,30 +639,6 @@
    "at": "2026-10-18 23:34",
    "why": "CNQ 대기 bet(브렌트 110달러)·에너지 칸 — 유가 위험 프리미엄의 '시한'이 미 선거라는 점",
    "summary": "관리들 말: 이란이 미국 투표 전 유가를 높게 유지하려 해운 공격을 늘림. CNBC 10/18 '미국이 공격 재개하면 새 작전 계획' 발언과 이어짐. 구체 수치 미확인"
-  },
-  {
-   "title": "HSBC 「AI 트레이드에 맞서지 말라」 — 랠리 동력 유지 판단",
-   "url": "https://www.roic.ai/news/hsbc-dont-fight-the-ai-trade-as-stock-rally-gains-momentum-10-13-2026",
-   "press": "roic.ai",
-   "at": "2026-10-18 23:34",
-   "why": "반도체 8일 연속 하락 중 IB 시각 — 반도체·AI 칸 반등 확인 규칙(ideas 10/18 22:35)과 대조",
-   "summary": "HSBC 10/13 AI 주도 상승 유지 판단, 10/18 yahoo '3분기 실적·AI 수요가 세계 증시 지지'로 재확인. 목표치 숫자 미확인"
-  },
-  {
-   "title": "앨버타 분리 국민투표 10/19(월) 본투표 — 레제 여론조사 '캐나다 잔류' 70%·부동층 10%",
-   "url": "https://leger360.com/alberta-referendum-october-2026/",
-   "press": "Leger",
-   "at": "2026-10-18 22:35",
-   "why": "CNQ(☕ 10/16, 캘거리 본사) bet 진입일(10/19 시가)이 투표일 — 결과는 캐나다 장 마감 뒤라 10/20 갭 위험",
-   "summary": "본투표 10월 19일, 사전투표소 300곳↑ 대거 참여(National Observer 10/14). 레제 조사 잔류 70%·부동층 10%로 상승."
-  },
-  {
-   "title": "미 반도체주 8거래일 연속 하락 — 2008년 이후 최장",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-just-fell-8-161520543.html",
-   "press": "Yahoo Finance",
-   "at": "2026-10-18 22:35",
-   "why": "반도체 칸(10→7)·'한국 외국인 복귀 전 비중 확대 금지' 논지 — 월요일 삼전닉스 시험대",
-   "summary": "필라델피아 반도체지수 8일 연속 하락(10/16 약 −2%), 2008년 이후 최장. 같은 날 SK하이닉스 ADR −4%대(biggo)."
   }
  ],
  "at": "2026-10-20 12:35"
