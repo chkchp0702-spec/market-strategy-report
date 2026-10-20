@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "월가, 헬스케어 급등·견조한 실적에 상승 마감(다우 +1.02%, 나스닥 약보합)",
+   "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-wall-street-rebounds-on-tech-recovery-4958596",
+   "press": "Investing.com",
+   "at": "2026-10-21 05:31",
+   "why": "헬스케어 회전이 이틀째 지수 주도 — 열린 DHR(실적 장전)·MDT bets, WST ☕ 업종 순풍",
+   "summary": "다우 +1.02%, S&P 상승·나스닥 약보합. 헬스케어·산업·소형주 강세, 기술주 숨 고르기. 미 10년물 5.11%로 하락(주택착공 부진·유가 하락)."
+  },
+  {
+   "title": "CATL 홍콩주 7% 가까이 급락 — JP모건 투자의견 하향, 항셍 24,000 붕괴·남하자금 5일 순매도 110억 HKD",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UNGVKZkRrVERKR0F2SWhxdS1BdHlWTTZtall0MFo4cEFXVHdudWRKUDI1MW1TWWxTalIyRmNZQTJaZjdzd1J0ZmZXWnFHeURFbE5nMUo3c2QzbTdxWmN4N29R0gFnQVVfeXFMUHA4ZWt1N1RiVVA0MU1xcEdWTERIbTZzb0dDME81M0h3bGNGWU1JS05LR0MyVExBbzU3bV80cW1Yb0Y4NVAzSVdBSm9ON2tMOU80SHdfYURyek1iejMxVU9vTlhpcDR0UQ?oc=5",
+   "press": "大紀元 · 香港經濟日報",
+   "at": "2026-10-21 05:22",
+   "why": "오늘 홍콩 시가로 진입하는 1288.HK(중국농업은행) bet 의 역풍 — 홍콩 수급 약세",
+   "summary": "CATL H주 −7% 근접(JP모건 하향). 항셍 24,000 아래, 남하자금(北水) 5일 순매도 약 110억 HKD. 야간선물 24,001(+133) 반등 시도."
+  },
+  {
+   "title": "빅테크 신용부도스와프(CDS) 사상 최고 — 실적 뒤 AI 회사채 발행 물결 우려",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-20/tech-credit-risk-hits-fresh-highs-on-fears-of-debt-wave-to-come",
+   "press": "Bloomberg",
+   "at": "2026-10-21 04:24",
+   "why": "AI 투자 자금 조달 부담이 기술주 숨 고르기 이유 — QQQ dip·반도체 반등 판단의 걸림돌, 고금리 가설과 이어짐",
+   "summary": "대형 기술주 신용위험 지표 10/20 신고점. 실적 발표 뒤 회사채 대량 발행이 과부하된 채권시장을 누를 것이란 우려."
+  },
+  {
    "title": "RBC, 미국 헬스케어 업종 '비중확대'로 상향 — 추천 종목 제시",
    "url": "https://www.investing.com/news/stock-market-news/rbc-capital-names-top-healthcare-stocks-as-sector-upgraded-to-overweight-4960873",
    "press": "Investing.com",
@@ -615,30 +639,6 @@
    "at": "2026-10-19 16:21",
    "why": "한국 ☕ 컵·📈 갭 킥 진입 시점 — 신용 청산이 끝나야 반등이 이어짐(🫀 심리 계기판 R 신호와 연결)",
    "summary": "코스피 5천대 중반 급락 동안 반대매매 4거래일 연속 500억 원 이상. 10/15 −7% 폭락분 청산이 주초까지 이어질 우려(매경 10/19)."
-  },
-  {
-   "title": "파리 시위대·약탈자와 경찰 재충돌 — 프랑스 10년물 4.84%",
-   "url": "https://t.me/kimu_nim/46943",
-   "press": "kimu_nim(텔레그램)·Barron's",
-   "at": "2026-10-19 16:21",
-   "why": "열린 bet EWQ(프랑스 ETF 오름) 반대 위험 — 재정에 치안 불안이 겹침",
-   "summary": "프랑스 10년 4.844% +1.32%(10/19). Barron's '파리 경찰, 시위대·약탈자와 새 충돌'."
-  },
-  {
-   "title": "인도네시아 증시, MSCI '단독시장' 강등 경고에 1998년 이후 최대 폭락",
-   "url": "https://www.thestar.com.my/business/business-news/2026/10/16/indonesia-stocks-sink-most-since-1998-after-msci-flags-039standalone039-downgrade",
-   "press": "The Star",
-   "at": "2026-10-19 15:35",
-   "why": "신흥국 위험 회피 · MSCI EM 내 한국·대만 비중 변화(패시브 재배분) 가능성",
-   "summary": "10/16 MSCI '단독시장(standalone)' 강등 경고로 IDX 1998년 이후 최대 하루 하락. 10/19 −5% 추가 하락, 인도네시아 당국 MSCI 면담."
-  },
-  {
-   "title": "한국, SK하이닉스 솔리다임 미국 상장이 중복상장 규정 위반 가능성",
-   "url": "https://www.investing.com/news/stock-market-news/skorea-says-sk-hynixs-solidigm-listing-could-violate-rules-reports-4956403",
-   "press": "Investing.com(로이터)",
-   "at": "2026-10-19 15:33",
-   "why": "반도체 칸·하이닉스 — 자회사 상장 가치 기대에 규제 변수",
-   "summary": "이찬진 금감원장 국감에서 '솔리다임 나스닥 상장은 중복상장 규제에 저촉' — 금융위 유권해석 대기. 정치권도 상장 저지 요구."
   }
  ],
  "at": "2026-10-21 03:35"
