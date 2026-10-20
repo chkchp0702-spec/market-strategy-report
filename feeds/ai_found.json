@@ -1,6 +1,38 @@
 {
  "items": [
   {
+   "title": "RBC, 미국 헬스케어 업종 '비중확대'로 상향 — 추천 종목 제시",
+   "url": "https://www.investing.com/news/stock-market-news/rbc-capital-names-top-healthcare-stocks-as-sector-upgraded-to-overweight-4960873",
+   "press": "Investing.com",
+   "at": "2026-10-21 04:24",
+   "why": "헬스케어 회전 논지(DHR·MDT bets, WST ☕)에 IB 업종 상향이 붙음 — 다만 XLV 신고가·과매수라 추격보다 기한 관리",
+   "summary": "RBC 캐피털 미 헬스케어 업종 비중확대 상향(제목 기준, 세부 종목 미확인)"
+  },
+  {
+   "title": "오늘 장: 미·이란 기대에 다우 강세·유가 하락, GM 매도 신호",
+   "url": "https://finance.yahoo.com/m/f3498525-5b31-3702-9e4b-aa8f358f4086/stock-market-today%3A-dow.html",
+   "press": "Investor's Business Daily(야후)",
+   "at": "2026-10-21 03:32",
+   "why": "에너지 칸·CNQ bet 의 역풍 — 협상 기대가 브렌트 110 논지를 깎음",
+   "summary": "다우 상승·유가 하락(미·이란 협상 기대) · WSJ: 브렌트 111달러 돌파 뒤 반락"
+  },
+  {
+   "title": "美 9월 잠정주택판매 전월비 −7.3%… 예상 대폭 하회",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wbmMzc0NyRDJ4V1BSNk9odXhrTzhoZDduc2tnTDJtWTVvN2k3S3pkbE5CbVBiSmlUbV9idWszeTgtdS1WWDV2M1pmTmdSRmRiMnY2aldpLXlDUUV4M1FrQk9KS0RLbnlYN1dKZnJrQWQ?oc=5",
+   "press": "연합인포맥스",
+   "at": "2026-10-21 01:44",
+   "why": "고금리 가설의 실물 부담 — 주택착공 최악급에 이어 두 번째 주택 약세 지표, 금리 하방(채권 칸) 근거",
+   "summary": "9월 잠정주택판매 −7.3% m/m, 예상 대폭 하회 · 같은 날 주택착공 팬데믹 이후 최악급(gn_us_fed)"
+  },
+  {
+   "title": "워시 연준 의장, 월가에 금리 경고 신호",
+   "url": "https://www.thestreet.com/fed/kevin-warsh-sends-a-strong-warning-sign-on-rates-to-wall-street",
+   "press": "TheStreet",
+   "at": "2026-10-21 04:13",
+   "why": "10월 FOMC 인상 확률 watch — 고금리 장기화 가설 유지 근거",
+   "summary": "워시가 한 문구를 세 번 반복, 투자자 재포지셔닝(본문 미확인)"
+  },
+  {
    "title": "필라델피아 반도체지수 9거래일 만에 반등 — AI·반도체주 반등",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sRFhwZHlVcy10OWZQQ1RZV2lIdE5LQ2tIR0I3V1NkSGlrVkh3VmxHU3R5d0VoUzU1MlZORmNGdEdZNG9VRG5uWXFmMExzNW0zTS05T2JBY0FYbUlEV3VNOQ",
    "press": "Google 뉴스(한국)",
@@ -607,38 +639,6 @@
    "at": "2026-10-19 15:33",
    "why": "반도체 칸·하이닉스 — 자회사 상장 가치 기대에 규제 변수",
    "summary": "이찬진 금감원장 국감에서 '솔리다임 나스닥 상장은 중복상장 규제에 저촉' — 금융위 유권해석 대기. 정치권도 상장 저지 요구."
-  },
-  {
-   "title": "외국인 11조 팔아치운 급락장…코스피 ETF엔 2.7조 유입",
-   "url": "https://www.hankyung.com/article/202610190709i",
-   "press": "한국경제",
-   "at": "2026-10-19 15:07",
-   "why": "한국 외국인 논지(0.82) — 반등을 개인 ETF 자금이 받치는 구조",
-   "summary": "지난주 외국인 삼전닉스 중심 11조 순매도, 같은 기간 코스피 추종 ETF 2.7조 순유입(개인 저가 매수)."
-  },
-  {
-   "title": "美 AI 데이터센터 뚫은 가온전선, 3분기 영업익 520억 어닝 서프라이즈",
-   "url": "https://www.mk.co.kr/news/business/12179624",
-   "press": "매일경제",
-   "at": "2026-10-19 15:06",
-   "why": "전력·전선 테마 실적 확인 — 한국 실적 서프라이즈 종목(우리 신호 아직 없음)",
-   "summary": "3분기 매출 9,865억·영업익 520억, 미국 법인 버스덕트 데이터센터 공급 증가로 수익성 개선."
-  },
-  {
-   "title": "BTIG '연기 나는 곳에 불' — 반도체 반등은 비중 축소 기회, 하락 연말까지",
-   "url": "https://www.cnbc.com/2026/10/19/tech-semiconductor-chips-ai-stocks.html",
-   "press": "CNBC",
-   "at": "2026-10-19 13:06",
-   "why": "반도체 칸 7 유지·재확대 금지 논지와 같은 방향 — 오늘 코스피 반등이 반도체로 번지지 않는 이유",
-   "summary": "BTIG는 반도체 반등을 노출 축소 기회로 보라고 권고. 하락이 연말까지 이어질 수 있다고 경고."
-  },
-  {
-   "title": "삼성전자·SK하이닉스 급락에 국민연금 182조원 평가손",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-19/samsung-sk-hynix-slide-causes-137-billion-hit-to-korea-pension",
-   "press": "Bloomberg",
-   "at": "2026-10-19 13:22",
-   "why": "국내 최대 기관의 반도체 평가손 — 리밸런싱(매수 여력/한도) 변수, 한국 반도체 수급 판단에 연결",
-   "summary": "국민연금이 삼성전자 등 보유 주식 하락으로 182조원(1,370억 달러) 손실."
   }
  ],
  "at": "2026-10-21 03:35"
