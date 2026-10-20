@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "코스피 4.00% 내린 5,536.97 — 장중 5,500 붕괴",
+   "url": "https://panews.io/articles/01a156df-43a1-7098-9042-e56f31834c0b",
+   "press": "PANews",
+   "at": "2026-10-20 11:35",
+   "why": "한국 외국인 복귀 논지(0.78→0.80)·KR 하락장 국면 — 반도체 칸 축소 유지 근거",
+   "summary": "코스피 −4.00% 5,536.97(기사 시각 미확인). 하이닉스 솔리다임 중복상장 논란·신규신용 차단이 겹친 수급 하락. 이틀 반등 뒤 다시 급락."
+  },
+  {
+   "title": "AI 자금조달 경고에 아시아 동반 급락 — 코스피 5,500 붕괴·닛케이 1,400엔 하락",
+   "url": "https://finance.biggo.com/news/8b45e38e-4f73-462e-aa71-b2194c47b73d",
+   "press": "BigGo Finance",
+   "at": "2026-10-20 11:35",
+   "why": "AI 차입(크레딧) 논지 0.84→0.86 — 소프트뱅크 신용위험 4년 고점(bbg_mkt)과 같은 줄기, 반도체·AI 칸 경계",
+   "summary": "아시아 증시가 AI 자금조달 경고에 함께 하락, 코스피 5,500 이탈·닛케이 −1,400엔(기사 날짜·수치는 미확인). 소프트뱅크·하이닉스 약세 주도."
+  },
+  {
    "title": "반대매매 900억 '눈물'…삼전닉스 빚투 조인다",
    "url": "https://biz.sbs.co.kr/amp/article/20000340253",
    "press": "SBS Biz",
@@ -623,22 +639,6 @@
    "at": "2026-10-17 12:35",
    "why": "반도체 칸(10→7)·AI 차입 논지·국내 반도체 cup_eye(인텍플러스·오킨스전자)와 직결",
    "summary": "장중 코어위브 −9.3%·MU −3.6%·SNDK −4.2%, SOXX 9거래일 연속 하락 진행. 10년 ~5.1%·30년 ~5.4%. 유틸·소재·에너지·필수소비·리츠 +1%대 vs XLK −1.8% — 방어 회전. 워시 10/28 회의 '예단 안 해'."
-  },
-  {
-   "title": "10/16 증시: AI 소프트웨어 밸류에이션 되돌림에 기술주 급락",
-   "url": "https://www.fool.com/coverage/stock-market-today/2026/10/16/stock-market-today-oct-16-tech-stocks-plunge-as-ai-software-valuations-reverse/",
-   "press": "Motley Fool",
-   "at": "2026-10-17 12:35",
-   "why": "AI 차입·소프트웨어 밸류 되돌림 — 열린 ERIC·ZS 계열(기술) 위험 점검",
-   "summary": "금요일 기술주 급락 원인을 AI 소프트웨어 밸류 되돌림으로 정리(세부 숫자 미확인). 나스닥 −2.15%(피드)."
-  },
-  {
-   "title": "중국, AI·태양광 기술 수출 통제안 발표",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMjh5b1NsdWxQRXNwXzlLSi1pLU8wdlIxVEc0TU1Md0hLM1FUdEVvcnhPa3d6bFBHc2VtY1UtRzZITnI1eVlzWGYyelBocjBsRXpBa1NlVjBwMmplX2Zhd0tUSWJDUmFGQVhIVVQ2UzlxN25ZdUFHbTFXejJqM3NWOXduVDhtdmZ4R0FiM2NoaVRtMzFRZjV3?oc=5",
-   "press": "WSJ",
-   "at": "2026-10-17 11:15",
-   "why": "AI 차입 불안 주간에 미·중 기술 블록 대립 추가 — 반도체·태양광 칸 변동성, 비중국 공급자(국내 태양광) 반사 여부 관찰",
-   "summary": "중국이 AI 기술·태양광 기술 수출 통제안을 내놓음(WSJ 제목 기준, 세부 품목·시행일 미확인). 7월부터 AI 모델·학습데이터·칩 기술 통제 검토 보도(TechRepublic)의 연장."
   }
  ],
  "at": "2026-10-20 05:35"
