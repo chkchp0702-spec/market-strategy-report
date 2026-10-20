@@ -4135,6 +4135,33 @@
 "src": "focus",
 "score": 60,
 "note": "🧠 선제: 컵 80.2 + 위안 4년 최고·AI 청산 자금 국유은행 피난(그림자 채점)"
+},
+"LIFE|2026-10-20|e": {
+"code": "LIFE",
+"name": "Ethos Technologies Inc. - Class A Comm",
+"mkt": "US",
+"d": "2026-10-20",
+"src": "earn",
+"score": 62.0,
+"lv": 23.31
+},
+"CSTL|2026-10-20|e": {
+"code": "CSTL",
+"name": "Castle Biosciences, Inc. - Common stoc",
+"mkt": "US",
+"d": "2026-10-20",
+"src": "earn",
+"score": 50.0,
+"lv": 27.13
+},
+"ODD|2026-10-20|e": {
+"code": "ODD",
+"name": "ODDITY Tech Ltd. - Class A Ordinary Sh",
+"mkt": "US",
+"d": "2026-10-20",
+"src": "earn",
+"score": 45.6,
+"lv": 15.62
 }
 },
 "sent": [
