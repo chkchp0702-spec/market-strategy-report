@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "ABB, 데이터센터 붐에 분기 수주 사상 최대·이익 예상 상회",
+   "url": "https://www.itiger.com/news/2552107779",
+   "press": "Dow Jones/Tiger",
+   "at": "2026-10-20 19:35",
+   "why": "AI 자금이 칩→전력 장비로 옮겨 가는 확인 — 히타치(6501.T ☕ cup_eye) bet 근거",
+   "summary": "ABB 3분기 수주 사상 최대, 이익 예상 상회 — 데이터센터 전력 수요가 이끎(reuters 동일 보도)."
+  },
+  {
+   "title": "마이크론 대만 노조, 성과급 갈등으로 10/22 파업 예고",
+   "url": "https://www.businessday.co.za/world/international-companies/2026-10-07-ai-chipmaker-micron-faces-plant-shutdowns-as-union-votes-to-strike/",
+   "press": "Bloomberg/BusinessDay",
+   "at": "2026-10-20 19:35",
+   "why": "메모리 공급 차질 → 삼성·하이닉스 경쟁사 수혜 가능(공급 차질 페어 아이디어) — 단 외국인 매도 중이라 관찰만",
+   "summary": "대만 마이크론 노조 파업 투표 가결(10/7), 10/22 파업 돌입 예고(reuters·sedaily 10/20). 공장 가동 차질 가능성."
+  },
+  {
    "title": "로이터 단독: 바이트댄스·알리바바·텐센트, 엔비디아 칩 350억달러 넘게 주문",
    "url": "https://www.investing.com/news/stock-market-news/exclusivebytedance-alibaba-tencent-place-over-35-billion-worth-of-nvidia-chip-orders-4959231",
    "press": "Reuters/Investing.com",
@@ -623,22 +639,6 @@
    "at": "2026-10-19 01:35",
    "why": "월요일 국내 반도체·킥 신호 진입 판단의 기준선(미 기술주 주간 낙폭)",
    "summary": "SPY −1.97%·QQQ −5.52%·XLK −7.70%(10/9→10/16). 미 10년 5.09%(주간 −15bp), VIX 19.99(+5.15). 이번 주 10/20 주택착공·10/23 미시간 확정."
-  },
-  {
-   "title": "코어위브 채권, 부실채권처럼 거래 — AI 투자 속도가 재무를 앞질러",
-   "url": "https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/",
-   "press": "investingLive",
-   "at": "2026-10-19 00:35",
-   "why": "반도체·AI 칸·SOX 연속 하락의 직접 원인 — 신용 스트레스가 주식보다 먼저 움직이는지 보는 선행지표",
-   "summary": "코어위브 채권 금리 15% 근처, 주가 10/15 하루 −13~16%(kucoin·cryptobriefing). 공매도 평가이익 8억 600만$(roic 10/16). 원문 세부 숫자 미확인"
-  },
-  {
-   "title": "월가 공포지수 4개월 고점 — 인플레·AI 부채 우려",
-   "url": "https://www.roic.ai/news/wall-streets-fear-gauge-spikes-vix-jumps-to-four-month-high-as-inflation-fears-and-ai-debt-worries-rattle-markets-10-16-2026",
-   "press": "ROIC(종합)",
-   "at": "2026-10-19 00:35",
-   "why": "킥 진입 타이밍·포트 위험 칸 — 블룸버그 '옵션 트레이더 VIX 급등 대비'(피드 10/18)와 같은 방향, 쏠림 극단 확인",
-   "summary": "VIX 10/16 4개월 고점. 블룸버그 10/18 '옵션 트레이더들 VIX 급등 대비'. 정확한 VIX 값은 미확인"
   }
  ],
  "at": "2026-10-20 12:35"
