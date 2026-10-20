@@ -1,6 +1,38 @@
 {
  "items": [
   {
+   "title": "월가, 헬스케어 랠리·유가 하락에 상승",
+   "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-dip-as-oil-prices-climb-earnings-loom-4959413",
+   "press": "Investing.com",
+   "at": "2026-10-21 00:07",
+   "why": "열린 bets DHR·MDT(헬스케어 ☕ 신호)와 CNQ(에너지) 방향 엇갈림",
+   "summary": "헬스케어 강세로 미국 지수 반등 · 일라이릴리 사상 최고가(SA) · 유가 장중 되밀림"
+  },
+  {
+   "title": "미 국채금리 완화 — JP모건 '금리 안정되면 연말 주식 상승'",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSnN4N2ttdm8tUG1fX1VtdHVsUHhtRG0zdVQ5WUFERUFnd3FaOU5LTFZFQU9NcTR4S1hncEpXTXgzb3plcEFMNDcxSnhaT3hqdUwzbkQwX2RTNzgzd0tqanZXS0prWjQwZno3RXUyeEZja0RQSWNvZ3dTSFA3dTJNOFRVQTdXOHhrZFhOVW5mNlRrMGtuM1RqbEhRRUk2ZllKOG5XXzdwbVZaQTdjbkRNdVJjeUtNNXFkRkZRdEE2QkUxMTdZOWw4X2RoZ0ZaWkNpcWtfVA?oc=5",
+   "press": "Google 뉴스(미국 시장)",
+   "at": "2026-10-21 00:24",
+   "why": "고금리 가설(10년 5.0~5.3%) 반대 근거 — 현금·단기채 칸 판단",
+   "summary": "국채금리 하락 · JP모건 연말 주식 상승 조건 = 금리 안정"
+  },
+  {
+   "title": "루이즈 루: 미국 정크본드 금리 급등이 아시아 위기 신호",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqcEZESEx2YkFVVk1YS2Y5TVBXZFoyMUFMd1MyQzNGWkhsVzlGR09ZOVQxZ0QxWW9ua0JkZXA0eTVBbWJfMFlsNWVVX19JZGVzSmN4ODBB?oc=5",
+   "press": "중앙일보(구글 뉴스)",
+   "at": "2026-10-21 00:07",
+   "why": "AI 차입·크레딧 스트레스 가설과 직결 — 한국 비중 확대 금지 근거",
+   "summary": "미 하이일드 금리 급등을 아시아 자금 이탈 선행 신호로 해석"
+  },
+  {
+   "title": "모건스탠리, 급락한 시게이트·웨스턴디지털 80% 상승 여력 제시",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQY290MXFSRkppbk1mX0czQXdSNVJ5VDBiUGVYdzRCcjU4MG5tUHhvc2dGekNFdURiNUNXRW1XYzVLcHc5NFBGVHVESW5fd0VjeWFqOUF4b09ibzBZU0d1amM5eG9kclMyWEhoM1R3RjVLNGs5YWVKQVVsRUNZZG5UM1c0VVlYSDR3U2xnNTRjMzVJdlNC?oc=5",
+   "press": "Barron's",
+   "at": "2026-10-20 23:51",
+   "why": "반도체 칸(10→7) 재확대 판단용 — 저장장치 반등 시각, 우리 신호 없음",
+   "summary": "MS 시게이트·WDC 최선호 유지, 80% 상승 여력 · 같은 날 엔비디아 중국 주문 보도에도 주가 정체(Barron's)"
+  },
+  {
    "title": "골드만: 헤지펀드, 10년 내 가장 빠른 속도로 테크주 매도",
    "url": "https://www.tipranks.com/news/hedge-funds-are-selling-tech-stocks-at-a-record-pace-says-goldman-sachs-gs",
    "press": "TipRanks(골드만 프라임북 인용)",
@@ -607,38 +639,6 @@
    "at": "2026-10-19 06:35",
    "why": "CNQ bet 진입일(10/19 시가)이 곧 투표일 — 결과 뒤에도 분리 논쟁이 이어지면 캐나다 에너지주 정책 위험이 한 번에 걷히지 않음",
    "summary": "투표일 10/19(월). 독립파는 '이미 이겼다'며 결과와 무관하게 운동 지속 선언. 최근 여론 잔류 74%·분리 22%(Research Co. 8/24~26, 위키 인용)."
-  },
-  {
-   "title": "앨버타 분리 국민투표 결과 10월 29일 발표 예정 보도",
-   "url": "https://gazettengr.com/albertas-separation-from-canada-referendum-results-will-be-announced-october-29/",
-   "press": "Gazette NGR",
-   "at": "2026-10-19 06:35",
-   "why": "결과 확정이 CNQ bet 기한(1주, ~10/26) 뒤일 수 있음 — '결과 전 위험 절반' 규칙이 기한 전체에 걸린다는 뜻",
-   "summary": "공식 결과 발표 10/29 보도(단일 매체 — 미확인, 개표 당일 잠정 결과 여부도 미확인). 투표 문항은 '분리 국민투표 절차를 시작할지'."
-  },
-  {
-   "title": "한은, 연속 인상 뒤 속도 조절하나…10월 쉬고 11월 추가 인상 전망",
-   "url": "https://ajunews.com/view/20261013151439774",
-   "press": "아주경제",
-   "at": "2026-10-19 05:35",
-   "why": "10/22 금통위가 국내 반등의 첫 관문 — 국내 주식 칸·은행주·원화(달러/위안 bet 과 같은 아시아 통화 흐름)와 이어짐",
-   "summary": "10월 동결 뒤 11월 추가 인상 전망(제목). 피드 gn_kr_macro 금통위 폴은 '최종 3.5%까지'. 세부 응답 수는 원문 확인 — 미확인."
-  },
-  {
-   "title": "마이크론 주가, 다음은? — 장기 공급계약이 실적 변동성을 줄이는가",
-   "url": "https://www.trefis.com/articles/618507/what-is-next-for-micron-stock/2026-10-13",
-   "press": "Trefis",
-   "at": "2026-10-19 05:35",
-   "why": "메모리 장기계약(LTA) 확산은 반도체 칸·SK하이닉스·삼성전자 이익 가시성과 직결 — 피드 yahoo 'Micron 장기계약은 게임체인저'와 같은 논지",
-   "summary": "마이크론의 고객 장기계약이 메모리 사이클 변동을 줄인다는 시각(제목·피드). 계약 규모 숫자 — 미확인."
-  },
-  {
-   "title": "월가 주간 전망 — AI 랠리가 흔들리자 시장의 눈은 실적으로(테슬라·넷플릭스 등 이번 주 발표)",
-   "url": "https://www.kitco.com/news/off-the-wire/2026-10-16/wall-st-week-ahead-ai-rally-wobbles-stock-markets-spotlight-turns",
-   "press": "Reuters(kitco 전재)",
-   "at": "2026-10-19 04:35",
-   "why": "이번 주 실적이 AI 쏠림 해소의 방향을 정함 — DHR 👀(10/21 실적)·MDT 헬스케어 회전 bet·반도체 칸 7%와 이어짐",
-   "summary": "나스닥 6월 이후 최악의 주 뒤 시장 초점이 실적으로 이동(제목·피드 gn_us_mkt). 세부 숫자는 원문 확인 — 미확인."
   }
  ],
  "at": "2026-10-20 23:35"
