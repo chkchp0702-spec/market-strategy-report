@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "로이터 단독: 바이트댄스·알리바바·텐센트, 엔비디아 칩 350억달러 넘게 주문",
+   "url": "https://www.investing.com/news/stock-market-news/exclusivebytedance-alibaba-tencent-place-over-35-billion-worth-of-nvidia-chip-orders-4959231",
+   "press": "Reuters/Investing.com",
+   "at": "2026-10-20 18:35",
+   "why": "AI 청산 국면에서 나온 수요 확인 뉴스 — AI 크레딧 가설·반도체 신호 문지기와 직결",
+   "summary": "중국 빅테크 3사 엔비디아 칩 주문 350억달러↑(로이터). 같은 날 나스닥 선물은 장전 하락(Stocktwits) — 수요 뉴스에도 가격 반응 약함."
+  },
+  {
+   "title": "바이트댄스·알리바바·텐센트 350억달러 RTX PRO 5500 주문, 공급 부족 직면",
+   "url": "https://www.newsbytesapp.com/news/business/bytedance-alibaba-tencent-35b-rtx-pro-5500-order-faces-shortfall/tldr",
+   "press": "NewsBytes",
+   "at": "2026-10-20 18:35",
+   "why": "주문 대상이 RTX PRO 5500(중국용)이고 공급이 모자란다는 점 — 엔비디아 매출 인식 시점 불확실",
+   "summary": "주문 칩은 RTX PRO 5500, 공급 부족 보도(제목 기준). 세부 숫자 미확인."
+  },
+  {
    "title": "미국, '다크플릿' 유조선의 합법적 원유 운송 허용",
    "url": "https://seekingalpha.com/news/4654458-us-to-allow-dark-fleet-tankers-to-ship-oil-legally",
    "press": "Seeking Alpha",
@@ -623,22 +639,6 @@
    "at": "2026-10-19 00:35",
    "why": "킥 진입 타이밍·포트 위험 칸 — 블룸버그 '옵션 트레이더 VIX 급등 대비'(피드 10/18)와 같은 방향, 쏠림 극단 확인",
    "summary": "VIX 10/16 4개월 고점. 블룸버그 10/18 '옵션 트레이더들 VIX 급등 대비'. 정확한 VIX 값은 미확인"
-  },
-  {
-   "title": "야데니, S&P500 목표 7,900으로 하향 — 국채금리 급등·하락 위험",
-   "url": "https://www.roic.ai/news/yardeni-cuts-sp-500-target-to-7900-as-market-risks-rise-10-15-2026",
-   "press": "ROIC",
-   "at": "2026-10-19 00:35",
-   "why": "대표 강세론자의 후퇴 — 미 주식 칸 비중 판단, 10년물 5% 돌파(gn_us_mkt 피드)와 이어짐",
-   "summary": "야데니 S&P 연말 목표 7,900으로 하향, 2027 이익 전망은 유지(gn_us_mkt 제목). 펀드스트랫 톰 리는 8,200↑ 유지(stocktwits)"
-  },
-  {
-   "title": "이란, 미 선거 앞두고 걸프 해운 공격 전술 바꿔 강화(로이터 인용)",
-   "url": "https://al-monitor.com/originals/2026/10/iran-shifting-tactics-step-attacks-shipping-us-vote-officials-say",
-   "press": "Al-Monitor(로이터)",
-   "at": "2026-10-18 23:34",
-   "why": "CNQ 대기 bet(브렌트 110달러)·에너지 칸 — 유가 위험 프리미엄의 '시한'이 미 선거라는 점",
-   "summary": "관리들 말: 이란이 미국 투표 전 유가를 높게 유지하려 해운 공격을 늘림. CNBC 10/18 '미국이 공격 재개하면 새 작전 계획' 발언과 이어짐. 구체 수치 미확인"
   }
  ],
  "at": "2026-10-20 12:35"
