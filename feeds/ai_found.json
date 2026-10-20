@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "Nscale·Anthropic 450억 달러 AI 컴퓨팅 계약 협상",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-20/nscale-anthropic-in-talks-for-45b-ai-computing-deal-video",
+   "press": "Bloomberg",
+   "at": "2026-10-21 02:35",
+   "why": "전날 MS의 Nscale 전력 지연 철회와 이어지는 AI 인프라 수요 재료 — 히타치(전력망) bet·네오클라우드 약세(블룸버그 'AI 네오클라우드 빛 바래')와 엇갈림",
+   "summary": "Nscale-Anthropic 450억 달러 협상(bbg_tech) · 같은 날 'AI 네오클라우드 IPO 정체·주가 하락'(bbg_tech)·HSBC 코어위브 추가 하락(edaily)"
+  },
+  {
+   "title": "헬스케어 ETF XLV 신고가·과매수 구간 진입",
+   "url": "https://seekingalpha.com/news/4654794-xlv-touches-new-high-hits-overbought-territory?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+   "press": "Seeking Alpha",
+   "at": "2026-10-21 02:11",
+   "why": "열린 bets DHR·MDT(헬스케어) 업종 순풍이지만 과매수 — 실적(DHR 10/21 장전) 뒤 차익 실현 위험",
+   "summary": "XLV 신고가·RSI 과매수 · 같은 날 IBD '헬스케어주 매수점 돌파'(yahoo) · 투석주 DaVita·Fresenius는 규제 보도에 하락(sa_news)"
+  },
+  {
+   "title": "모건스탠리 윌슨 '조정은 막바지' — S&P 500 2027년 5월 8,300(강세 8,500)",
+   "url": "https://www.idnfinancials.com/news/62808/morgan-stanley-us-correction-nearly-over-rates-still-a-key-hurdle",
+   "press": "IDN Financials(블룸버그 인용)",
+   "at": "2026-10-21 02:35",
+   "why": "위험 회피 국면 판단과 정면 충돌 — 골드만 위험선호 바닥·웰스파고 매수 신호에 이은 세 번째 바닥론, SPY/QQQ dip 신호 대기와 연결",
+   "summary": "윌슨 '미 증시 조정 막바지' · 금리가 여전히 핵심 걸림돌 · S&P 2027년 5월 8,300 목표(피드 yahoo·gn_us_mkt 동시 보도)"
+  },
+  {
    "title": "카타르·파키스탄 이란 평화 중재안 보도(미확인)에 증시 상승·유가 하락",
    "url": "https://finance.yahoo.com/markets/stocks/articles/unconfirmed-qatar-pakistan-iran-peace-154611349.html",
    "press": "Investing.com/Yahoo",
@@ -615,30 +639,6 @@
    "at": "2026-10-19 11:40",
    "why": "반도체 칸(7) 재확대 판단 — 경쟁 메모리사 이익 증가율 정점 우려가 삼전·닉스 약세(−2.7%)와 같은 날 겹침",
    "summary": "CXMT 3분기 매출 QoQ +15~20%, 순이익 증가율 2Q +113.4% → 3Q +1.0~3.9% 전망(kimu_nim 요약). DRAM 가격 상승 둔화 우려로 장중 −6%대."
-  },
-  {
-   "title": "2026 앨버타 독립 국민투표 — 개요·여론조사",
-   "url": "https://en.wikipedia.org/wiki/2026_Alberta_independence_referendum",
-   "press": "Wikipedia",
-   "at": "2026-10-19 11:40",
-   "why": "CNQ bet(☕ cup_eye) 진입일 = 본투표일 — 결과는 10/20 아침 확인, 분리 우세면 갭 손절",
-   "summary": "본투표 10/19(현지). 여론조사 잔류 우세(앵거스리드 '5명 중 3명 잔류', 레제 잔류 70%). 공식 결과 날짜는 미확인."
-  },
-  {
-   "title": "외국인, 한국 반도체주 84억달러 순매도 — 삼전·하이닉스 2008년 이후 최대 주간 낙폭",
-   "url": "https://finance.biggo.com/news/aaf08e97-bb12-4de6-ba3a-1170c94bf9ba",
-   "press": "BigGo Finance",
-   "at": "2026-10-19 09:30",
-   "why": "국내 외국인 매도 논지·반도체 칸(10→7) — 오늘 코스피 −3.2% 개장(5,488)으로 이틀째 순매수 시험 실패 쪽",
-   "summary": "지난주 외국인 한국 반도체주 약 84억달러 순매도. 삼전·하이닉스 2008년 금융위기 이후 최대 주간 하락. 코스피 주간 −14%대(gn_kr_mkt)."
-  },
-  {
-   "title": "韓 재정부 장관 '반도체 호황 최소 2027년까지' — 2029 공급과잉 경고에 반박",
-   "url": "https://finance.biggo.com/news/6be40127-6f44-4386-aa26-e3d25902618a",
-   "press": "BigGo Finance / CNBC",
-   "at": "2026-10-19 09:30",
-   "why": "반도체 칸 재확대 조건 — 정부 발언은 심리 지지일 뿐, 외국인 순매수 전환 확인이 먼저",
-   "summary": "구윤철 장관 CNBC 인터뷰: 반도체 시장 최소 내년까지 견조. 2029년 공급과잉 경고에 반박(세부 숫자 미확인)."
   }
  ],
  "at": "2026-10-21 01:35"
