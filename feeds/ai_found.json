@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "[단독] 삼성·SK하이닉스, 중국 공장을 더 첨단 칩 생산용으로 고도화 중(로이터)",
+   "url": "https://www.investing.com/news/stock-market-news/exclusivesamsung-sk-hynix-upgrading-china-plants-to-make-more-advanced-chips-people-say-4961549",
+   "press": "Reuters via Investing.com",
+   "at": "2026-10-21 14:35",
+   "why": "반도체 칸·한국 가설 — 메모리 공급 확대 vs 美 수출통제(VEU) 마찰 변수, 삼전닉스 반등의 지속성 점검",
+   "summary": "관계자 인용: 두 회사가 중국 팹을 더 첨단 공정으로 업그레이드 중. 세부 수치는 원문 미확인. 배경: 하이닉스 다롄 2공장 재가동·1H27 양산 목표(TrendForce 8/12)."
+  },
+  {
+   "title": "행동주의 얼라인, SK 지분 1.5% 공개 — '하이닉스 지분 가치의 절반도 안 돼'",
+   "url": "https://www.investing.com/news/stock-market-news/align-partners-discloses-15-stake-in-sk-flags-75-valuation-discount--report-4961538",
+   "press": "Investing.com / 한국경제",
+   "at": "2026-10-21 14:35",
+   "why": "지주사 할인 해소 테마 — 하이닉스 랠리가 지주(SK)로 번지는 경로, 행동주의 공개 이벤트 신호 후보",
+   "summary": "얼라인파트너스 SK㈜ 1.5% 보유 공개, 75% 할인 지적. 당일 SK 급등(hankyung 202610215947i)."
+  },
+  {
    "title": "방사청·LIG D&A 동시 제재로 K-방산 흔들리나(8/22 배경)",
    "url": "https://www.heraldk.com/article/2026082219495400665",
    "press": "헤럴드경제",
@@ -623,22 +639,6 @@
    "at": "2026-10-20 03:35",
    "why": "AI 크레딧 바로미터(코어위브) — 🛒 QQQ·반도체 dip 진입의 '크레딧 확인' 조건과 이어짐",
    "summary": "골드만 상향에 이어 JP모건도 매도 과도 판단(bbg_mkt 10/19 'Business Is Sound Despite Debt Fears'). 채권 가격 반등이 따라오는지가 확인 기준."
-  },
-  {
-   "title": "Cboe, 3분기 실적 10월 30일 발표",
-   "url": "https://briefglance.com/companies/cboe-global-markets-inc/pulses/82285",
-   "press": "BriefGlance",
-   "at": "2026-10-20 01:35",
-   "why": "☕ 컵 10/19 CBOE bet — 실적이 1주 기한 밖이라 실적 전 흐름만 채점",
-   "summary": "Cboe 3분기 실적 발표 10/30 확정. 2분기엔 옵션 수입 기록으로 이익 +50%·연간 가이던스 상향(tradeinformer)."
-  },
-  {
-   "title": "기술주 반등 — 나스닥 +1%, 다우 약세 (10/19 장중)",
-   "url": "https://qz.com/nasdaq-tech-stocks-rebound-dow-slips-101926",
-   "press": "Quartz",
-   "at": "2026-10-20 01:35",
-   "why": "반도체 칸(10→7) 복구 판단 — 반등이 이틀 이어지는지가 기준",
-   "summary": "AI·반도체 저가 매수로 나스닥 1% 안팎 상승, 다우는 하락. 지난주는 6월 이후 최악의 주(investing_en)."
   }
  ],
  "at": "2026-10-21 12:35"
