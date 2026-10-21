@@ -1,25 +1,10 @@
 {
- "at": "2026-10-21 08:50",
- "rule": "lv2 🔴 핵심 = 보유 칸·킥·bets·가설과 직결되거나 시장을 움직일 숫자 / lv1 🟡 주목 = 알아 둘 만한 것 · 두뇌가 매시간 고름",
+ "at": "2026-10-21 09:20",
+ "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "HANAchina/70784": {
-   "lv": 2,
+   "lv": 1,
    "why": "애플 수요 둔화 가설(0.25) 반대 근거 — 한국 아이폰 부품주",
-   "at": "2026-10-21 08:50"
-  },
-  "n/ZTNERhREVvdmtqRmhlYzlDWm9fMk1hNjZtdWM3ZVRaRENZMkh0WnNpOFIoc5": {
-   "lv": 2,
-   "why": "모건스탠리 윌슨 '조정 막바지' — 美 비중 판단",
-   "at": "2026-10-21 08:50"
-  },
-  "n/pOXdUSVJQRElPXzJLRXIyX3FvS25zVFZuNzJtUVd5QmRUT01LQURBcmJBoc5": {
-   "lv": 2,
-   "why": "오늘 코스피 관전 포인트 = 삼전닉스 외국인 수급",
-   "at": "2026-10-21 08:50"
-  },
-  "n/httpswwwcnbccom20261020stockmarkettodayliveupdateshtml": {
-   "lv": 2,
-   "why": "美 선물 상승 — AI 하드웨어 실적이 매도 흐름 멈추나",
    "at": "2026-10-21 08:50"
   },
   "n/3eTg1NWY0OXhSSnRzcmg4bmdYOV9zSGhJR1RLWHVYZGYtVVQtd191VXBRoc5": {
@@ -28,7 +13,7 @@
    "at": "2026-10-21 08:50"
   },
   "n/y1CT2FqNUdqM09yX1k5bmlrRHZ1QjZGOGNYM3d0YXpQUEgxa0VhT3N1dgoc5": {
-   "lv": 2,
+   "lv": 1,
    "why": "美 증시 15%↓·국채 강세 전망 — 고금리·크레딧 가설과 직결",
    "at": "2026-10-21 08:50"
   },
@@ -37,149 +22,34 @@
    "why": "AI 하드웨어 반등의 핵심 숫자(매출 3.8배)",
    "at": "2026-10-21 08:50"
   },
-  "n/l6QkFqTzNabWdWS3I3aGw1dkdmSElrMnZuellIY0VFNzNHNWRsNUR5aGMoc5": {
-   "lv": 2,
-   "why": "오늘 아시아 반등 출발 신호(닛케이 +540엔)",
-   "at": "2026-10-21 08:50"
-  },
-  "n/zUFplcy0yanYzSUZ0MWFSNExWYmFOSzY3V2xLMjBiLXlmdy0xVS1zWDNzoc5": {
-   "lv": 2,
-   "why": "원/달러 1,326 — 연저점권, 외국인 복귀 조건",
-   "at": "2026-10-21 08:50"
-  },
   "HANAchina/70778": {
-   "lv": 2,
+   "lv": 1,
    "why": "AI 차입 약한 고리 가설 — 앤트로픽 상반기 손실 800억$↑",
    "at": "2026-10-21 08:50"
   },
   "kwusa/61310": {
-   "lv": 2,
+   "lv": 1,
    "why": "실적 상회에도 가이던스 실망 급락 — earn 신호 주의",
    "at": "2026-10-21 08:50"
   },
-  "n/YWHQ3QXZXLVdnMDFETHVKakJIWTFSLU80d1R0S1pMQkZYSHVQdFpyWkc1oc5": {
-   "lv": 2,
-   "why": "美 금리·달러 동반 하락 — 고금리 밴드 판정선(10년 5.00)",
-   "at": "2026-10-21 08:50"
-  },
-  "n/61020aistocksrallyaftersupermicropreliminarysalesbringrelief": {
-   "lv": 2,
-   "why": "AI주 반등 — 히타치(6501.T) bet·기술 칸과 연결",
-   "at": "2026-10-21 08:50"
-  },
-  "n/zB2Ty1oVXQ0QzNMd3QyQkU0LWRJVHloeGNRR1Y1TkFGMDV0MnJzUHFUOAoc5": {
-   "lv": 2,
-   "why": "연준: AI 붐이 물가 부담 — 고금리 장기화 근거",
-   "at": "2026-10-21 08:50"
-  },
-  "n/JQUdJenFpOU5uM29SLVhFelk1Uk9sSDFsZmQ5LXF4anc3UDR5LTZLNW9loc5": {
-   "lv": 2,
-   "why": "10월 동결·12월 인상 경고(설문 100명)",
-   "at": "2026-10-21 08:50"
-  },
   "n/hiYVE1NWUxS1A4WFFjZmRPQnNFSXg4TWxveC12TTc3OXI4a2h5VXBZQmcoc5": {
-   "lv": 2,
+   "lv": 1,
    "why": "외국인 매도 폭탄 — 한국 비중 확대 금지 가설",
    "at": "2026-10-21 08:50"
   },
   "n/NaOXlQTVU3aXBsakJtQ3daNHBpWDVPMkdObkxDc25WTXRza0poWm52VHMoc5": {
-   "lv": 2,
+   "lv": 1,
    "why": "대기자금 9개월 최저·반대매매 급증 — 한국 킥 크기 절반 규칙",
    "at": "2026-10-21 08:50"
   },
   "ai/W1Yb0Y4NVAzSVdBSm9ON2tMOU80SHdfYURyek1iejMxVU9vTlhpcDR0UQoc5": {
-   "lv": 2,
+   "lv": 1,
    "why": "CATL 급락·항셍 24,000 붕괴 — 1288.HK bet 역풍",
-   "at": "2026-10-21 08:50"
-  },
-  "HANAchina/70779": {
-   "lv": 2,
-   "why": "中 빅테크 엔비디아 칩 350억$ 구매 — AI 수요 숫자",
-   "at": "2026-10-21 08:50"
-  },
-  "n/httpskrinvestingcomnewsstockmarketnewsarticle2134105": {
-   "lv": 1,
-   "why": "테슬라·스페이스X 합병 논의",
-   "at": "2026-10-21 08:50"
-  },
-  "n/nZSa0xIVy1xY19TdmVIaTNiZ3pmZW8yWG51VUpxSjBieG5oaVdtNTBjZwoc5": {
-   "lv": 1,
-   "why": "금 4,000달러 지지선",
-   "at": "2026-10-21 08:50"
-  },
-  "n/ZxUmVxZEgtdVhodlNFOTRnUURteEw5VU1Gc0ZCTjd4VjdpRVl5SUNBRTAoc5": {
-   "lv": 1,
-   "why": "코스피 5,500 위협",
-   "at": "2026-10-21 08:50"
-  },
-  "n/httpswwwmkcokrnewsbusiness12181294": {
-   "lv": 1,
-   "why": "반도체 외인 재매수 시점",
-   "at": "2026-10-21 08:50"
-  },
-  "n/httpswwwhankyungcomarticle202610203925i": {
-   "lv": 1,
-   "why": "K방산 하루 10% 급락",
-   "at": "2026-10-21 08:50"
-  },
-  "HANAchina/70775": {
-   "lv": 1,
-   "why": "中 희토류 자석 수출 급반등",
-   "at": "2026-10-21 08:50"
-  },
-  "n/3U3V4djZyVDIycVVtaTdJYkJ5WTg4dnZMb2MxZjhmR2xhQWc4QjRJUmJnoc5": {
-   "lv": 1,
-   "why": "노무라 삼전닉스 목표 유지",
-   "at": "2026-10-21 08:50"
-  },
-  "n/httpswwwhankyungcomarticle2026102034566": {
-   "lv": 1,
-   "why": "외인 매도 속 순매수 종목",
-   "at": "2026-10-21 08:50"
-  },
-  "n/uUzUxcW9hajVJY0xfRW4tNHRYSkZZUnlhNW1oZS1ZUl9kOUFTMlJzTUlOoc5": {
-   "lv": 1,
-   "why": "9월 생산자물가 두 달째 상승",
-   "at": "2026-10-21 08:50"
-  },
-  "n/0RzZFhMUFpFdnl4VFEwdDdWZGlRaUpfcFFZWXp0WDd6OWtEdmltWkRYaQoc5": {
-   "lv": 1,
-   "why": "美 주택계약 25년 최저",
-   "at": "2026-10-21 08:50"
-  },
-  "n/20261020bokseentakingbreathertoassessimpactofbacktobackhikes": {
-   "lv": 1,
-   "why": "한은 연속 인상 뒤 쉬어갈 듯(블룸버그)",
-   "at": "2026-10-21 08:50"
-  },
-  "n/15correctionforthesp500maybenextdab40e2cmodmw_rss_topstories": {
-   "lv": 1,
-   "why": "강세장 끝은 조용히 — 15% 조정 경고",
-   "at": "2026-10-21 08:50"
-  },
-  "n/httpskrinvestingcomnewsstockmarketnewsarticle2134104": {
-   "lv": 1,
-   "why": "엔비디아 GPU 300만개 주문·공급 10%",
-   "at": "2026-10-21 08:50"
-  },
-  "n/httpswwwynacokrviewAKR20261021017400009": {
-   "lv": 1,
-   "why": "ASML 테라팹 장비 앞당김",
-   "at": "2026-10-21 08:50"
-  },
-  "n/sutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
-   "lv": 1,
-   "why": "美 원유 재고 490만 배럴 감소(API)",
    "at": "2026-10-21 08:50"
   },
   "n/RPSm80SDRxMjhmajAzSGlDSE1YQm5ZMnBmMG1PMGROSU51b0wzQ0dMLWEoc5": {
    "lv": 2,
    "why": "빅테크 크레딧 위험 신고점 — AI 차입 약한 고리(0.86) 핵심",
-   "at": "2026-10-21 08:50"
-  },
-  "n/c1WTFSaEVCdlUyUlQzbjlfSTI0UVR5aFZ6aGpIcUJGTnpWVzFXRmtRWEEoc5": {
-   "lv": 1,
-   "why": "마이크론 대만 노조 파업 — 메모리 공급",
    "at": "2026-10-21 08:50"
   }
  }
