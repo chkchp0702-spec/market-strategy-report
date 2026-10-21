@@ -1,5 +1,5 @@
 {
- "at": "2026-10-21 18:35",
+ "at": "2026-10-21 19:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "HANAchina/70784": {
@@ -32,11 +32,6 @@
    "why": "인튜이티브 서지컬 호실적에도 급락 — 의료기기 회전 bet(MDT·DHR) 역풍 여부 확인",
    "at": "2026-10-21 10:35"
   },
-  "n/httpswwwmkcokrnewsstock12181456": {
-   "lv": 1,
-   "why": "LIG D&A 방사청 2년 입찰 제한 −11% — K-방산 개별 리스크, 방산 노출 점검",
-   "at": "2026-10-21 12:35"
-  },
   "HANAchina/70795": {
    "lv": 1,
    "why": "⚡ 히타치 bet(전력망) — 골드만 구리·금·전력망 3대 자산 추천, 그리드 가설 지지",
@@ -57,19 +52,9 @@
    "why": "美 10년 5.1% 가설(금리 높게 오래) — 英 CPI 3.5% 상회·BoE 인상 기대, 佛-獨 스프레드와 함께 유럽 금리 압력 → EWQ bet 역풍",
    "at": "2026-10-21 15:35"
   },
-  "n/httpswwwhankyungcomarticle202610215874i": {
-   "lv": 1,
-   "why": "CRM(🎯 earn 신호 10/19) — 세일즈포스 브레이즈 56.6억$ 인수, 인수 측 주가 반응이 earn 신호를 흔드는지 확인",
-   "at": "2026-10-21 15:35"
-  },
   "n/5YQWNfbDV5YXU3RjFaY2VnbUxBTDFPeHdiMnVRUlZaZ2RBajJqeFg4ZzAoc5": {
    "lv": 1,
    "why": "코스피 +3.29% 5,735.66 확정 — 전날 −3.73% 거의 회복, 외인 순매수 1일째(한국 가설 판정 시작)",
-   "at": "2026-10-21 16:35"
-  },
-  "n/UZDOFA3RmE3WFRXSUZlU0ZwdGtFcmZTUFUybm9MSzJ4OGM0LXJOSXB2QQoc5": {
-   "lv": 1,
-   "why": "내일 금통위 — 매파적 동결·11월 인상 신호 여부가 원화·채권·현금 칸을 가른다",
    "at": "2026-10-21 16:35"
   },
   "n/261021blackrocksfinksaysslowdatacenterbuildoutisinflationary": {
@@ -96,6 +81,16 @@
    "lv": 1,
    "why": "⚡ 미즈호(MFG, ☕ 컵 10/19) bet 근거 — BOJ 다음 주 '물가 2% 도달' 판단 검토(교도) = 인상 쪽",
    "at": "2026-10-21 18:35"
+  },
+  "n/mutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
+   "lv": 1,
+   "why": "DHR bet 동종 — TMO 3Q EPS·매출 예상 상회, 같은 아침 DHR도 EPS 2.11·연간 가이던스 상향",
+   "at": "2026-10-21 19:35"
+  },
+  "n/VgxMHY4WXdkN0RvSlF4aU1KTldHUml5Vlp0a1RBYUpYN1R5QmU2MjZPUQoc5": {
+   "lv": 1,
+   "why": "日 9월 수출 +16.7%(반도체) — 히타치·MFG bet 의 일본 경기 근거",
+   "at": "2026-10-21 19:35"
   }
  }
 }
