@@ -1,5 +1,5 @@
 {
- "at": "2026-10-21 15:35",
+ "at": "2026-10-21 16:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "HANAchina/70784": {
@@ -27,20 +27,10 @@
    "why": "CATL 급락·항셍 24,000 붕괴 — 1288.HK bet 역풍",
    "at": "2026-10-21 08:50"
   },
-  "n/httpswwwhankyungcomarticle2026102147966": {
-   "lv": 1,
-   "why": "마이크론 대만 D램 파업 예고 — 메모리 공급 부족·삼성·하이닉스 가격 협상력(반도체 칸 7%)",
-   "at": "2026-10-21 09:35"
-  },
   "n/OUXJvWFdrVzJaLUx5RXlDYzd1VkJDRjdYVjRsUVZ0ZXRueHFWUVJ2WnZLoc5": {
    "lv": 1,
    "why": "인튜이티브 서지컬 호실적에도 급락 — 의료기기 회전 bet(MDT·DHR) 역풍 여부 확인",
    "at": "2026-10-21 10:35"
-  },
-  "n/httpswwwynacokrviewAKR20261021079300527": {
-   "lv": 1,
-   "why": "LS일렉트릭 3Q 영업익 +131.7% — 전력망 수요 확인, 히타치(6501.T ☕) bet 근거",
-   "at": "2026-10-21 11:35"
   },
   "n/httpswwwmkcokrnewsstock12181456": {
    "lv": 1,
@@ -67,15 +57,25 @@
    "why": "美 10년 5.1% 가설(금리 높게 오래) — 英 CPI 3.5% 상회·BoE 인상 기대, 佛-獨 스프레드와 함께 유럽 금리 압력 → EWQ bet 역풍",
    "at": "2026-10-21 15:35"
   },
-  "n/httpswwwynacokrviewAKR20261021115200009": {
-   "lv": 1,
-   "why": "반도체 칸·삼전닉스 반등 — 中 빅테크 3곳 엔비디아 칩 48조원 주문, HBM 수요 근거(신호 없음·추격 금지)",
-   "at": "2026-10-21 15:35"
-  },
   "n/httpswwwhankyungcomarticle202610215874i": {
    "lv": 1,
    "why": "CRM(🎯 earn 신호 10/19) — 세일즈포스 브레이즈 56.6억$ 인수, 인수 측 주가 반응이 earn 신호를 흔드는지 확인",
    "at": "2026-10-21 15:35"
+  },
+  "n/5YQWNfbDV5YXU3RjFaY2VnbUxBTDFPeHdiMnVRUlZaZ2RBajJqeFg4ZzAoc5": {
+   "lv": 1,
+   "why": "코스피 +3.29% 5,735.66 확정 — 전날 −3.73% 거의 회복, 외인 순매수 1일째(한국 가설 판정 시작)",
+   "at": "2026-10-21 16:35"
+  },
+  "n/UZDOFA3RmE3WFRXSUZlU0ZwdGtFcmZTUFUybm9MSzJ4OGM0LXJOSXB2QQoc5": {
+   "lv": 1,
+   "why": "내일 금통위 — 매파적 동결·11월 인상 신호 여부가 원화·채권·현금 칸을 가른다",
+   "at": "2026-10-21 16:35"
+  },
+  "n/261021blackrocksfinksaysslowdatacenterbuildoutisinflationary": {
+   "lv": 1,
+   "why": "핑크 \"AI 건설 지연은 물가 자극\" — 고금리 장기화 가설·전력망(히타치 bet) 쪽",
+   "at": "2026-10-21 16:35"
   }
  }
 }
