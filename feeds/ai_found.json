@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "모건스탠리 윌슨 「美 조정 거의 끝 — 단 바닥은 아직, 금리가 마지막 관문」",
+   "url": "https://www.roic.ai/news/morgan-stanleys-wilson-says-stock-selloff-nearing-end-but-no-bottom-yet-10-19-2026",
+   "press": "ROIC.ai",
+   "at": "2026-10-22 01:35",
+   "why": "위험 회피 국면 판단·QQQ dip 신호 — 10년 5%대 금리가 반등 조건이라는 해외 IB 시각",
+   "summary": "윌슨: 매도세 막바지(10/19)·S&P 8,500 전망(피드 헤드라인). 금리 하락이 선행 조건 — 지금 美 10년 5.11%(latest.json)."
+  },
+  {
    "title": "다나허, 3분기 매출 8.5% 증가 65.5억$·연간 조정 EPS 전망 상향",
    "url": "https://www.stocktitan.net/news/DHR/danaher-reports-third-quarter-2026-cv81eb1qpasx.html",
    "press": "StockTitan",
@@ -631,14 +639,6 @@
    "at": "2026-10-20 13:35",
    "why": "🧠 AI 크레딧 논지(0.86) — 빅테크·코어위브 CDS 스트레스 확대",
    "summary": "AI 기업 부도보험 거래·가격 급등(FT 10/20 '거래 급증'과 같은 흐름). 개별 스프레드 숫자는 원문 확인 필요."
-  },
-  {
-   "title": "다나허 3분기 실적 미리보기 — 가이던스·바이오프로세싱 회복이 관건",
-   "url": "https://www.hudson-labs.com/research/danaher-q3-2026-earnings-preview-dhr-guidance-and-preview",
-   "press": "Hudson Labs",
-   "at": "2026-10-20 12:35",
-   "why": "열린 bet DHR(☕ cup_eye 10/16) 10/21 장전 실적 — 갭 위험 점검",
-   "summary": "DHR 3분기 실적 10/21 장전. 바이오프로세싱 회복·연간 가이던스가 주가 방향을 가를 쟁점(세부 숫자 미확인). bet 손절 −3% 는 실적 갭에 취약."
   }
  ],
  "at": "2026-10-21 23:35"
