@@ -1,87 +1,26 @@
-격자 3 7 2 False 0.78 13.97 1.14 {'n': 183, 'avg': 1.4, 'win': 37, 'pf': np.float64(1.49)}
-격자 3 7 2 True 0.78 13.86 1.14 {'n': 152, 'avg': 1.46, 'win': 36, 'pf': np.float64(1.45)}
-격자 3 7 3 False 0.77 14.44 1.12 {'n': 278, 'avg': 1.54, 'win': 41, 'pf': np.float64(1.57)}
-격자 3 7 3 True 0.79 14.21 1.11 {'n': 233, 'avg': 1.53, 'win': 37, 'pf': np.float64(1.5)}
-격자 3 7 4 False 0.79 15.56 1.19 {'n': 298, 'avg': 2.43, 'win': 44, 'pf': np.float64(1.99)}
-격자 3 7 4 True 0.83 14.89 1.15 {'n': 246, 'avg': 2.14, 'win': 43, 'pf': np.float64(1.74)}
-격자 3 7 6 False 0.78 15.24 1.16 {'n': 304, 'avg': 2.16, 'win': 42, 'pf': np.float64(1.85)}
-격자 3 7 6 True 0.83 15.02 1.16 {'n': 258, 'avg': 2.19, 'win': 43, 'pf': np.float64(1.77)}
-격자 3 8 2 False 0.78 13.97 1.14 {'n': 184, 'avg': 1.37, 'win': 37, 'pf': np.float64(1.48)}
-격자 3 8 2 True 0.78 13.91 1.14 {'n': 151, 'avg': 1.51, 'win': 35, 'pf': np.float64(1.47)}
-격자 3 8 3 False 0.77 14.78 1.14 {'n': 280, 'avg': 1.84, 'win': 43, 'pf': np.float64(1.71)}
-격자 3 8 3 True 0.8 14.52 1.12 {'n': 236, 'avg': 1.83, 'win': 39, 'pf': np.float64(1.62)}
-격자 3 8 4 False 0.78 15.84 1.2 {'n': 303, 'avg': 2.61, 'win': 46, 'pf': np.float64(2.07)}
-격자 3 8 4 True 0.85 15.2 1.16 {'n': 259, 'avg': 2.35, 'win': 42, 'pf': np.float64(1.83)}
-격자 3 8 6 False 0.77 15.3 1.16 {'n': 306, 'avg': 2.19, 'win': 44, 'pf': np.float64(1.85)}
-격자 3 8 6 True 0.84 15.2 1.16 {'n': 267, 'avg': 2.31, 'win': 43, 'pf': np.float64(1.82)}
-격자 3 10 2 False 0.78 14.02 1.14 {'n': 181, 'avg': 1.45, 'win': 37, 'pf': np.float64(1.53)}
-격자 3 10 2 True 0.78 14.1 1.15 {'n': 152, 'avg': 1.77, 'win': 36, 'pf': np.float64(1.55)}
-격자 3 10 3 False 0.76 14.76 1.14 {'n': 279, 'avg': 1.84, 'win': 43, 'pf': np.float64(1.74)}
-격자 3 10 3 True 0.78 14.62 1.13 {'n': 239, 'avg': 1.93, 'win': 39, 'pf': np.float64(1.66)}
-격자 3 10 4 False 0.8 15.47 1.17 {'n': 308, 'avg': 2.3, 'win': 45, 'pf': np.float64(1.93)}
-격자 3 10 4 True 0.84 15.2 1.15 {'n': 271, 'avg': 2.28, 'win': 42, 'pf': np.float64(1.79)}
-격자 3 10 6 False 0.78 15.25 1.15 {'n': 309, 'avg': 2.11, 'win': 44, 'pf': np.float64(1.83)}
-격자 3 10 6 True 0.8 15.17 1.15 {'n': 283, 'avg': 2.17, 'win': 42, 'pf': np.float64(1.75)}
-격자 4 7 2 False 0.8 14.0 1.18 {'n': 89, 'avg': 2.48, 'win': 44, 'pf': np.float64(1.79)}
-격자 4 7 2 True 0.83 13.9 1.17 {'n': 74, 'avg': 2.58, 'win': 38, 'pf': np.float64(1.85)}
-격자 4 7 3 False 0.82 13.83 1.11 {'n': 184, 'avg': 1.38, 'win': 39, 'pf': np.float64(1.44)}
-격자 4 7 3 True 0.85 13.97 1.13 {'n': 148, 'avg': 1.76, 'win': 36, 'pf': np.float64(1.56)}
-격자 4 7 4 False 0.83 14.73 1.15 {'n': 215, 'avg': 2.25, 'win': 42, 'pf': np.float64(1.75)}
-격자 4 7 4 True 0.85 14.7 1.15 {'n': 178, 'avg': 2.52, 'win': 42, 'pf': np.float64(1.82)}
-격자 4 7 6 False 0.84 14.57 1.13 {'n': 236, 'avg': 1.93, 'win': 42, 'pf': np.float64(1.64)}
-격자 4 7 6 True 0.86 14.45 1.13 {'n': 200, 'avg': 2.02, 'win': 40, 'pf': np.float64(1.65)}
-격자 4 8 2 False 0.8 14.0 1.18 {'n': 91, 'avg': 2.34, 'win': 43, 'pf': np.float64(1.76)}
-격자 4 8 2 True 0.83 13.94 1.17 {'n': 76, 'avg': 2.54, 'win': 37, 'pf': np.float64(1.82)}
-격자 4 8 3 False 0.83 14.11 1.13 {'n': 195, 'avg': 1.65, 'win': 42, 'pf': np.float64(1.56)}
-격자 4 8 3 True 0.86 14.28 1.14 {'n': 163, 'avg': 2.06, 'win': 37, 'pf': np.float64(1.67)}
-격자 4 8 4 False 0.84 14.91 1.16 {'n': 234, 'avg': 2.25, 'win': 44, 'pf': np.float64(1.8)}
-격자 4 8 4 True 0.86 14.66 1.14 {'n': 201, 'avg': 2.22, 'win': 40, 'pf': np.float64(1.72)}
-격자 4 8 6 False 0.86 14.81 1.15 {'n': 253, 'avg': 2.05, 'win': 43, 'pf': np.float64(1.71)}
-격자 4 8 6 True 0.88 14.41 1.11 {'n': 222, 'avg': 1.8, 'win': 40, 'pf': np.float64(1.57)}
-격자 4 10 2 False 0.8 14.08 1.18 {'n': 95, 'avg': 2.47, 'win': 43, 'pf': np.float64(1.81)}
-격자 4 10 2 True 0.83 14.0 1.17 {'n': 81, 'avg': 2.57, 'win': 37, 'pf': np.float64(1.81)}
-격자 4 10 3 False 0.81 14.24 1.13 {'n': 201, 'avg': 1.77, 'win': 41, 'pf': np.float64(1.62)}
-격자 4 10 3 True 0.84 14.21 1.13 {'n': 175, 'avg': 1.89, 'win': 37, 'pf': np.float64(1.6)}
-격자 4 10 4 False 0.84 15.17 1.17 {'n': 251, 'avg': 2.45, 'win': 44, 'pf': np.float64(1.91)}
-격자 4 10 4 True 0.83 14.85 1.15 {'n': 221, 'avg': 2.31, 'win': 41, 'pf': np.float64(1.76)}
-격자 4 10 6 False 0.86 14.87 1.14 {'n': 271, 'avg': 2.03, 'win': 42, 'pf': np.float64(1.72)}
-격자 4 10 6 True 0.86 14.54 1.12 {'n': 237, 'avg': 1.89, 'win': 41, 'pf': np.float64(1.61)}
-격자 5 7 2 False 0.84 13.4 1.16 {'n': 35, 'avg': 1.14, 'win': 46, 'pf': np.float64(1.27)}
-격자 5 7 2 True 0.85 13.42 1.16 {'n': 31, 'avg': 1.32, 'win': 39, 'pf': np.float64(1.45)}
-격자 5 7 3 False 0.85 13.39 1.13 {'n': 95, 'avg': 0.87, 'win': 40, 'pf': np.float64(1.25)}
-격자 5 7 3 True 0.85 13.72 1.15 {'n': 80, 'avg': 1.88, 'win': 39, 'pf': np.float64(1.63)}
-격자 5 7 4 False 0.85 13.86 1.14 {'n': 128, 'avg': 1.75, 'win': 44, 'pf': np.float64(1.53)}
-격자 5 7 4 True 0.85 13.97 1.15 {'n': 109, 'avg': 2.06, 'win': 42, 'pf': np.float64(1.68)}
-격자 5 7 6 False 0.87 14.01 1.14 {'n': 150, 'avg': 1.84, 'win': 44, 'pf': np.float64(1.57)}
-격자 5 7 6 True 0.87 14.13 1.15 {'n': 132, 'avg': 2.09, 'win': 42, 'pf': np.float64(1.69)}
-격자 5 8 2 False 0.85 13.47 1.16 {'n': 38, 'avg': 1.39, 'win': 45, 'pf': np.float64(1.35)}
-격자 5 8 2 True 0.85 13.53 1.16 {'n': 34, 'avg': 1.84, 'win': 38, 'pf': np.float64(1.6)}
-격자 5 8 3 False 0.87 13.82 1.15 {'n': 116, 'avg': 1.66, 'win': 44, 'pf': np.float64(1.53)}
-격자 5 8 3 True 0.86 14.12 1.16 {'n': 98, 'avg': 2.6, 'win': 41, 'pf': np.float64(1.92)}
-격자 5 8 4 False 0.85 14.03 1.14 {'n': 154, 'avg': 1.77, 'win': 44, 'pf': np.float64(1.57)}
-격자 5 8 4 True 0.86 14.24 1.15 {'n': 134, 'avg': 2.2, 'win': 40, 'pf': np.float64(1.72)}
-격자 5 8 6 False 0.86 14.33 1.15 {'n': 179, 'avg': 2.04, 'win': 44, 'pf': np.float64(1.67)}
-격자 5 8 6 True 0.88 14.46 1.16 {'n': 159, 'avg': 2.28, 'win': 42, 'pf': np.float64(1.77)}
-격자 5 10 2 False 0.85 13.56 1.17 {'n': 42, 'avg': 1.84, 'win': 43, 'pf': np.float64(1.47)}
-격자 5 10 2 True 0.85 13.59 1.16 {'n': 39, 'avg': 2.01, 'win': 38, 'pf': np.float64(1.63)}
-격자 5 10 3 False 0.85 13.77 1.13 {'n': 129, 'avg': 1.46, 'win': 43, 'pf': np.float64(1.44)}
-격자 5 10 3 True 0.84 14.31 1.17 {'n': 112, 'avg': 2.74, 'win': 42, 'pf': np.float64(1.96)}
-격자 5 10 4 False 0.84 14.16 1.14 {'n': 184, 'avg': 1.74, 'win': 42, 'pf': np.float64(1.56)}
-격자 5 10 4 True 0.85 14.41 1.15 {'n': 166, 'avg': 2.13, 'win': 40, 'pf': np.float64(1.71)}
-격자 5 10 6 False 0.87 14.44 1.15 {'n': 208, 'avg': 1.96, 'win': 43, 'pf': np.float64(1.66)}
-격자 5 10 6 True 0.84 14.64 1.16 {'n': 192, 'avg': 2.18, 'win': 41, 'pf': np.float64(1.74)}
-종목 102
-SPY {'cagr': np.float64(15.17), 'vol': np.float64(18.1), 'mdd': np.float64(-33.7), 'sharpe': np.float64(0.87), 'ex': np.float64(0.0), 'win12': 0, 'beat_years': 0, 'years': 10}
-ETF 지금 {'cagr': np.float64(15.05), 'vol': np.float64(13.0), 'mdd': np.float64(-17.6), 'sharpe': np.float64(1.15), 'ex': np.float64(-0.11), 'win12': 44, 'beat_years': 5, 'years': 10, 'turn': 334} {'n': 232, 'avg': 2.44, 'win': 47, 'pf': np.float64(2.05)}
-갭 지금(4~8·6배·확인없음) {'cagr': np.float64(14.81), 'vol': np.float64(12.8), 'mdd': np.float64(-19.1), 'sharpe': np.float64(1.15), 'ex': np.float64(-0.36), 'win12': 46, 'beat_years': 5, 'years': 10, 'turn': 348} {'n': 171, 'avg': 1.77, 'win': 40, 'pf': np.float64(1.71)} {'n': 253, 'avg': 2.05, 'win': 43, 'pf': np.float64(1.71)} 648
-가설(4~8·3배·안 메움) {'cagr': np.float64(14.28), 'vol': np.float64(12.4), 'mdd': np.float64(-18.5), 'sharpe': np.float64(1.14), 'ex': np.float64(-0.89), 'win12': 43, 'beat_years': 6, 'years': 10, 'turn': 280} {'n': 163, 'avg': 2.06, 'win': 37, 'pf': np.float64(1.67)}
-고른 4 8 6 True 0.88 {'cagr': np.float64(14.41), 'vol': np.float64(12.9), 'mdd': np.float64(-19.1), 'sharpe': np.float64(1.11), 'ex': np.float64(-0.75), 'win12': 46, 'beat_years': 6, 'years': 10, 'turn': 325} {'n': 148, 'avg': 2.55, 'win': 43, 'pf': np.float64(1.98)} {'n': 222, 'avg': 1.8, 'win': 40, 'pf': np.float64(1.57)}
-메움 정리 끔 {'cagr': np.float64(14.52), 'vol': np.float64(12.9), 'mdd': np.float64(-19.1), 'sharpe': np.float64(1.12), 'ex': np.float64(-0.65), 'win12': 44, 'beat_years': 5, 'years': 10, 'turn': 317} {'n': 212, 'avg': 2.01, 'win': 42, 'pf': np.float64(1.62)}
-순위상관 -0.05 ETF 지금보다 나은 조합 26 / 72
-lo=3.2 14.68 -18.6 1.13
-lo=4.8 14.75 -19.2 1.17
-hi=6.4 14.63 -18.4 1.15
-hi=9.6 14.62 -19.5 1.13
-v=4.8 14.55 -18.7 1.13
-v=7.2 14.51 -19.1 1.12
-➖ 애매 {'beat': False, 'mdd': True, 'sharpe': False} False
+port now IS {'cagr': np.float64(9.84), 'vol': np.float64(12.0), 'mdd': np.float64(-13.8), 'sharpe': np.float64(0.85), 'ex': np.float64(0.81), 'win12': 30, 'beat_years': 2, 'years': 9, 'turn': 215} | OOS {'cagr': np.float64(14.75), 'vol': np.float64(12.7), 'mdd': np.float64(-18.3), 'sharpe': np.float64(1.15), 'ex': np.float64(-0.38), 'win12': 42, 'beat_years': 5, 'years': 10, 'turn': 238} | expo 77.9
+port once IS {'cagr': np.float64(10.33), 'vol': np.float64(13.0), 'mdd': np.float64(-20.2), 'sharpe': np.float64(0.82), 'ex': np.float64(1.31), 'win12': 39, 'beat_years': 3, 'years': 9, 'turn': 191} | OOS {'cagr': np.float64(15.21), 'vol': np.float64(13.5), 'mdd': np.float64(-19.8), 'sharpe': np.float64(1.12), 'ex': np.float64(0.08), 'win12': 47, 'beat_years': 5, 'years': 10, 'turn': 223} | expo 80.8
+port iv IS {'cagr': np.float64(9.76), 'vol': np.float64(11.9), 'mdd': np.float64(-13.8), 'sharpe': np.float64(0.84), 'ex': np.float64(0.73), 'win12': 27, 'beat_years': 2, 'years': 9, 'turn': 242} | OOS {'cagr': np.float64(14.51), 'vol': np.float64(12.3), 'mdd': np.float64(-17.6), 'sharpe': np.float64(1.16), 'ex': np.float64(-0.62), 'win12': 39, 'beat_years': 5, 'years': 10, 'turn': 275} | expo 77.9
+port once_iv IS {'cagr': np.float64(10.25), 'vol': np.float64(13.0), 'mdd': np.float64(-20.2), 'sharpe': np.float64(0.82), 'ex': np.float64(1.23), 'win12': 36, 'beat_years': 3, 'years': 9, 'turn': 219} | OOS {'cagr': np.float64(14.96), 'vol': np.float64(13.1), 'mdd': np.float64(-19.1), 'sharpe': np.float64(1.13), 'ex': np.float64(-0.17), 'win12': 45, 'beat_years': 5, 'years': 10, 'turn': 260} | expo 80.8
+port defpark IS {'cagr': np.float64(10.57), 'vol': np.float64(14.3), 'mdd': np.float64(-25.6), 'sharpe': np.float64(0.78), 'ex': np.float64(1.55), 'win12': 47, 'beat_years': 3, 'years': 9, 'turn': 236} | OOS {'cagr': np.float64(16.21), 'vol': np.float64(14.9), 'mdd': np.float64(-24.5), 'sharpe': np.float64(1.09), 'ex': np.float64(1.08), 'win12': 54, 'beat_years': 6, 'years': 10, 'turn': 262} | expo 77.9
+port now@0.8 IS {'cagr': np.float64(8.23), 'vol': np.float64(10.8), 'mdd': np.float64(-12.3), 'sharpe': np.float64(0.79), 'ex': np.float64(-0.8), 'win12': 14, 'beat_years': 1, 'years': 9, 'turn': 291} | OOS {'cagr': np.float64(13.53), 'vol': np.float64(11.2), 'mdd': np.float64(-15.4), 'sharpe': np.float64(1.19), 'ex': np.float64(-1.6), 'win12': 35, 'beat_years': 3, 'years': 10, 'turn': 307} | expo 70.6
+port once@0.8 IS {'cagr': np.float64(8.65), 'vol': np.float64(11.7), 'mdd': np.float64(-17.7), 'sharpe': np.float64(0.77), 'ex': np.float64(-0.38), 'win12': 26, 'beat_years': 2, 'years': 9, 'turn': 278} | OOS {'cagr': np.float64(14.07), 'vol': np.float64(11.9), 'mdd': np.float64(-16.8), 'sharpe': np.float64(1.17), 'ex': np.float64(-1.06), 'win12': 40, 'beat_years': 5, 'years': 10, 'turn': 300} | expo 73.3
+port once_iv@0.8 IS {'cagr': np.float64(8.6), 'vol': np.float64(11.7), 'mdd': np.float64(-17.7), 'sharpe': np.float64(0.77), 'ex': np.float64(-0.43), 'win12': 23, 'beat_years': 2, 'years': 9, 'turn': 304} | OOS {'cagr': np.float64(13.86), 'vol': np.float64(11.6), 'mdd': np.float64(-16.2), 'sharpe': np.float64(1.18), 'ex': np.float64(-1.27), 'win12': 37, 'beat_years': 4, 'years': 10, 'turn': 331} | expo 73.3
+port now@1.2 IS {'cagr': np.float64(10.85), 'vol': np.float64(12.8), 'mdd': np.float64(-16.2), 'sharpe': np.float64(0.87), 'ex': np.float64(1.82), 'win12': 40, 'beat_years': 3, 'years': 9, 'turn': 160} | OOS {'cagr': np.float64(15.63), 'vol': np.float64(13.8), 'mdd': np.float64(-21.0), 'sharpe': np.float64(1.13), 'ex': np.float64(0.5), 'win12': 50, 'beat_years': 4, 'years': 10, 'turn': 192} | expo 82.1
+port once@1.2 IS {'cagr': np.float64(11.09), 'vol': np.float64(13.8), 'mdd': np.float64(-22.4), 'sharpe': np.float64(0.83), 'ex': np.float64(2.06), 'win12': 49, 'beat_years': 3, 'years': 9, 'turn': 129} | OOS {'cagr': np.float64(15.92), 'vol': np.float64(14.5), 'mdd': np.float64(-22.9), 'sharpe': np.float64(1.09), 'ex': np.float64(0.79), 'win12': 52, 'beat_years': 4, 'years': 10, 'turn': 162} | expo 84.8
+port once_iv@1.2 IS {'cagr': np.float64(11.02), 'vol': np.float64(13.8), 'mdd': np.float64(-22.3), 'sharpe': np.float64(0.83), 'ex': np.float64(2.0), 'win12': 47, 'beat_years': 3, 'years': 9, 'turn': 158} | OOS {'cagr': np.float64(15.71), 'vol': np.float64(14.2), 'mdd': np.float64(-22.1), 'sharpe': np.float64(1.1), 'ex': np.float64(0.58), 'win12': 50, 'beat_years': 4, 'years': 10, 'turn': 199} | expo 84.8
+conc now IS {'cagr': np.float64(10.91), 'vol': np.float64(13.7), 'mdd': np.float64(-20.1), 'sharpe': np.float64(0.82), 'ex': np.float64(1.89), 'win12': 40, 'beat_years': 3, 'years': 9, 'turn': 146} | OOS {'cagr': np.float64(15.91), 'vol': np.float64(15.0), 'mdd': np.float64(-22.8), 'sharpe': np.float64(1.06), 'ex': np.float64(0.78), 'win12': 49, 'beat_years': 5, 'years': 10, 'turn': 167} | expo 87.9
+conc once IS {'cagr': np.float64(10.74), 'vol': np.float64(14.7), 'mdd': np.float64(-25.6), 'sharpe': np.float64(0.77), 'ex': np.float64(1.71), 'win12': 45, 'beat_years': 3, 'years': 9, 'turn': 124} | OOS {'cagr': np.float64(16.2), 'vol': np.float64(15.6), 'mdd': np.float64(-24.0), 'sharpe': np.float64(1.04), 'ex': np.float64(1.07), 'win12': 49, 'beat_years': 5, 'years': 10, 'turn': 138} | expo 89.5
+conc iv IS {'cagr': np.float64(10.83), 'vol': np.float64(13.6), 'mdd': np.float64(-20.1), 'sharpe': np.float64(0.82), 'ex': np.float64(1.8), 'win12': 37, 'beat_years': 3, 'years': 9, 'turn': 180} | OOS {'cagr': np.float64(15.72), 'vol': np.float64(14.6), 'mdd': np.float64(-21.9), 'sharpe': np.float64(1.07), 'ex': np.float64(0.58), 'win12': 49, 'beat_years': 5, 'years': 10, 'turn': 212} | expo 87.9
+conc once_iv IS {'cagr': np.float64(10.64), 'vol': np.float64(14.6), 'mdd': np.float64(-25.6), 'sharpe': np.float64(0.76), 'ex': np.float64(1.61), 'win12': 42, 'beat_years': 3, 'years': 9, 'turn': 158} | OOS {'cagr': np.float64(16.01), 'vol': np.float64(15.2), 'mdd': np.float64(-23.1), 'sharpe': np.float64(1.06), 'ex': np.float64(0.87), 'win12': 49, 'beat_years': 5, 'years': 10, 'turn': 184} | expo 89.5
+conc defpark IS {'cagr': np.float64(10.56), 'vol': np.float64(14.4), 'mdd': np.float64(-24.2), 'sharpe': np.float64(0.77), 'ex': np.float64(1.53), 'win12': 39, 'beat_years': 3, 'years': 9, 'turn': 155} | OOS {'cagr': np.float64(16.45), 'vol': np.float64(15.7), 'mdd': np.float64(-23.1), 'sharpe': np.float64(1.05), 'ex': np.float64(1.31), 'win12': 54, 'beat_years': 5, 'years': 10, 'turn': 179} | expo 87.9
+conc now@0.8 IS {'cagr': np.float64(10.08), 'vol': np.float64(13.3), 'mdd': np.float64(-19.1), 'sharpe': np.float64(0.79), 'ex': np.float64(1.05), 'win12': 30, 'beat_years': 3, 'years': 9, 'turn': 177} | OOS {'cagr': np.float64(15.39), 'vol': np.float64(14.3), 'mdd': np.float64(-20.4), 'sharpe': np.float64(1.08), 'ex': np.float64(0.26), 'win12': 46, 'beat_years': 4, 'years': 10, 'turn': 205} | expo 85.4
+conc once@0.8 IS {'cagr': np.float64(10.11), 'vol': np.float64(14.5), 'mdd': np.float64(-25.6), 'sharpe': np.float64(0.74), 'ex': np.float64(1.08), 'win12': 36, 'beat_years': 3, 'years': 9, 'turn': 144} | OOS {'cagr': np.float64(15.82), 'vol': np.float64(15.0), 'mdd': np.float64(-21.5), 'sharpe': np.float64(1.06), 'ex': np.float64(0.68), 'win12': 48, 'beat_years': 4, 'years': 10, 'turn': 176} | expo 87.7
+conc once_iv@0.8 IS {'cagr': np.float64(10.02), 'vol': np.float64(14.4), 'mdd': np.float64(-25.6), 'sharpe': np.float64(0.73), 'ex': np.float64(0.99), 'win12': 33, 'beat_years': 3, 'years': 9, 'turn': 176} | OOS {'cagr': np.float64(15.57), 'vol': np.float64(14.6), 'mdd': np.float64(-21.3), 'sharpe': np.float64(1.07), 'ex': np.float64(0.43), 'win12': 47, 'beat_years': 5, 'years': 10, 'turn': 217} | expo 87.8
+conc now@1.2 IS {'cagr': np.float64(10.86), 'vol': np.float64(13.9), 'mdd': np.float64(-20.9), 'sharpe': np.float64(0.81), 'ex': np.float64(1.83), 'win12': 37, 'beat_years': 3, 'years': 9, 'turn': 147} | OOS {'cagr': np.float64(16.25), 'vol': np.float64(15.5), 'mdd': np.float64(-24.2), 'sharpe': np.float64(1.05), 'ex': np.float64(1.12), 'win12': 52, 'beat_years': 5, 'years': 10, 'turn': 139} | expo 89.1
+conc once@1.2 IS {'cagr': np.float64(10.53), 'vol': np.float64(14.7), 'mdd': np.float64(-25.6), 'sharpe': np.float64(0.75), 'ex': np.float64(1.5), 'win12': 39, 'beat_years': 3, 'years': 9, 'turn': 130} | OOS {'cagr': np.float64(16.53), 'vol': np.float64(15.9), 'mdd': np.float64(-25.0), 'sharpe': np.float64(1.05), 'ex': np.float64(1.39), 'win12': 54, 'beat_years': 5, 'years': 10, 'turn': 120} | expo 90.2
+conc once_iv@1.2 IS {'cagr': np.float64(10.43), 'vol': np.float64(14.7), 'mdd': np.float64(-25.6), 'sharpe': np.float64(0.75), 'ex': np.float64(1.4), 'win12': 37, 'beat_years': 3, 'years': 9, 'turn': 165} | OOS {'cagr': np.float64(16.33), 'vol': np.float64(15.5), 'mdd': np.float64(-24.0), 'sharpe': np.float64(1.06), 'ex': np.float64(1.19), 'win12': 54, 'beat_years': 5, 'years': 10, 'turn': 167} | expo 90.2
+port yr now {2009: np.float64(22.1), 2010: np.float64(15.1), 2011: np.float64(-0.5), 2012: np.float64(13.9), 2013: np.float64(29.6), 2014: np.float64(10.9), 2015: np.float64(-1.4), 2016: np.float64(8.4), 2017: np.float64(26.4), 2018: np.float64(-0.3), 2019: np.float64(24.2), 2020: np.float64(19.6), 2021: np.float64(22.0), 2022: np.float64(-15.9), 2023: np.float64(30.8), 2024: np.float64(23.0), 2025: np.float64(13.7), 2026: np.float64(10.4)}
+port yr once {2009: np.float64(24.7), 2010: np.float64(17.1), 2011: np.float64(0.3), 2012: np.float64(14.0), 2013: np.float64(29.6), 2014: np.float64(11.6), 2015: np.float64(0.8), 2016: np.float64(9.2), 2017: np.float64(26.4), 2018: np.float64(-1.1), 2019: np.float64(26.1), 2020: np.float64(21.4), 2021: np.float64(22.0), 2022: np.float64(-16.7), 2023: np.float64(32.2), 2024: np.float64(23.0), 2025: np.float64(14.3), 2026: np.float64(11.6)}
+conc yr now {2009: np.float64(30.4), 2010: np.float64(13.0), 2011: np.float64(-1.2), 2012: np.float64(16.0), 2013: np.float64(34.5), 2014: np.float64(13.1), 2015: np.float64(-1.2), 2016: np.float64(9.0), 2017: np.float64(27.2), 2018: np.float64(0.2), 2019: np.float64(27.8), 2020: np.float64(23.2), 2021: np.float64(27.6), 2022: np.float64(-21.0), 2023: np.float64(33.2), 2024: np.float64(24.5), 2025: np.float64(13.1), 2026: np.float64(12.9)}
+conc yr once {2009: np.float64(32.3), 2010: np.float64(13.5), 2011: np.float64(-0.3), 2012: np.float64(16.0), 2013: np.float64(34.5), 2014: np.float64(13.1), 2015: np.float64(-1.4), 2016: np.float64(9.1), 2017: np.float64(27.2), 2018: np.float64(-0.3), 2019: np.float64(28.8), 2020: np.float64(24.8), 2021: np.float64(27.6), 2022: np.float64(-21.3), 2023: np.float64(33.2), 2024: np.float64(24.5), 2025: np.float64(14.4), 2026: np.float64(12.9)}
