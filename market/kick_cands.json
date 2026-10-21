@@ -4225,6 +4225,28 @@
 "src": "earn",
 "score": 58.8,
 "lv": 544.45
+},
+"HCI|2026-10-21": {
+"code": "HCI",
+"name": "HCI Group, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-21",
+"src": "cup_eye",
+"score": 51.2,
+"lv": 200.6,
+"max20": 4.4,
+"id60": 0.0
+},
+"OSPN|2026-10-21": {
+"code": "OSPN",
+"name": "OneSpan Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-21",
+"src": "cup",
+"score": 51.2,
+"lv": 18.5,
+"max20": 3.5,
+"id60": -0.15
 }
 },
 "sent": [
