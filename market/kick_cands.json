@@ -4187,6 +4187,44 @@
 "d": "2026-10-19",
 "src": "pead",
 "score": 80.0
+},
+"NTAP|2026-10-21": {
+"code": "NTAP",
+"name": "NetApp, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-21",
+"src": "cup_eye",
+"score": 73.8,
+"lv": 195.9,
+"max20": 5.2,
+"id60": -0.2
+},
+"CHPT|2026-10-21|e": {
+"code": "CHPT",
+"name": "ChargePoint Holdings, Inc. Common Stoc",
+"mkt": "US",
+"d": "2026-10-21",
+"src": "earn",
+"score": 72.8,
+"lv": 6.59
+},
+"MATV|2026-10-21|e": {
+"code": "MATV",
+"name": "Mativ Holdings, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-21",
+"src": "earn",
+"score": 65.0,
+"lv": 9.99
+},
+"TMO|2026-10-21|e": {
+"code": "TMO",
+"name": "Thermo Fisher Scientific Inc Common St",
+"mkt": "US",
+"d": "2026-10-21",
+"src": "earn",
+"score": 58.8,
+"lv": 544.45
 }
 },
 "sent": [
