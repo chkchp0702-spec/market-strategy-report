@@ -1,5 +1,5 @@
 {
- "at": "2026-10-22 05:35",
+ "at": "2026-10-22 06:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "HANAchina/70784": {
@@ -67,30 +67,20 @@
    "why": "항셍 23,651 석 달 최저·텐센트·CATL 급락 — 열린 bet 1288.HK(중국농업은행) 시장 역풍, 국유은행 피난 가설 시험대",
    "at": "2026-10-21 23:35"
   },
-  "n/httpwwwedailycokrnewsnewspathaspnewsid06527206645615216": {
-   "lv": 1,
-   "why": "⚡ 열린 bet DHR(☕ cup_eye 10/16) — 3분기 상회·연간 EPS 전망 상향, 동종 TMO·애보트 하락 속 차별화 여부가 채점 관건",
-   "at": "2026-10-22 00:35"
-  },
-  "n/jlubzUwSzdWWXRFSmFzdkZKazc5MDFIV0kwczdCVVlOcld3QnNoWExNUAoc5": {
-   "lv": 1,
-   "why": "열린 CNQ bet·에너지 칸 — 호르무즈 공격에도 중동 원유 물동량 전쟁 전 수준, 유가 상방 꼬리 축소",
-   "at": "2026-10-22 02:35"
-  },
   "n/lB0UTJqMmUyTTY0SnluSUhTVGR4anFHZGhMTUItM3I5VUlIZkhRVEQydwoc5": {
    "lv": 1,
    "why": "열린 CNQ bet·에너지 칸 — WSJ 유가 상승분 반납(걸프 공급 회복), 정상화 보도 3곳째",
    "at": "2026-10-22 03:35"
   },
-  "n/tutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
-   "lv": 1,
-   "why": "열린 CNQ bet·에너지 칸 — 美 걸프 대사관 일부 철수 명령 준비(로이터 단독), 물동량 정상화 흐름과 반대되는 지정학 상방",
-   "at": "2026-10-22 04:35"
-  },
   "n/20261021metaboostsbetonaiwithnewspendingoutlookstockoffering": {
    "lv": 1,
    "why": "AI 크레딧 가설 — 메타가 AI 지출 상향 + 무의결권 신주 발행(주식으로 자금 조달) = 채권 대신 지분 희석, 하이퍼스케일러 자금줄 부담 신호",
    "at": "2026-10-22 05:35"
+  },
+  "kimu_nim/47074": {
+   "lv": 1,
+   "why": "반도체 칸·한국 가설 — SK하이닉스 40조 자사주 매입 완료, 받쳐 주던 매수가 빠지는 수급 공백 → 오늘 외인 순매수 이틀째 판정과 맞물림",
+   "at": "2026-10-22 06:35"
   }
  }
 }

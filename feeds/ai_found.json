@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "뉴스퀵 아시아 개장 전 — S&P 7,759(+0.6%)·나스닥 +1.1%, 美 10년 5.13%·브렌트 108.82달러",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---22nd-october-2026",
+   "press": "Newsquawk",
+   "at": "2026-10-22 06:35",
+   "why": "고금리 가설·에너지 칸·CNQ bet — 마감 숫자 확인, 오늘 한은 금통위",
+   "summary": "브렌트 12월물 +0.9% 108.82·WTI 97.15 · 테슬라 EPS 0.48$(예상 0.45) 시간외 +2% · 메타 EPS 3.83$는 소송 충당 98.9억$ 반영, 시간외 +3.5% · 사우디 '샤이바 드론 요격, 운영 영향 없음'"
+  },
+  {
+   "title": "美, 후티 공격 속 사우디 주재 대사관 직원·가족 출국 명령",
+   "url": "https://thehill.com/policy/international/6164064-houthi-attacks-trigger-evacuations/",
+   "press": "The Hill",
+   "at": "2026-10-22 06:35",
+   "why": "에너지 칸·CNQ bet — 걸프 지정학 상방, 다만 물동량 정상화 보도와 엇갈림",
+   "summary": "전날 '철수 준비' 보도가 실제 명령으로 · 아람코 샤이바 유전 겨냥 드론(사우디 '요격·영향 없음', 이란 매체 2명 사망 주장은 미확인)"
+  },
+  {
    "title": "메타 3분기 매출 26% 증가 646억$·4분기 가이던스 소폭 상회 — EPS는 기대치 미달",
    "url": "https://www.stocktitan.net/news/META/meta-reports-third-quarter-2026-13ysmyjaxliq.html",
    "press": "StockTitan(회사 발표)",
@@ -623,22 +639,6 @@
    "at": "2026-10-20 17:35",
    "why": "⚡ 열린 bet CNQ(캐나다 원유) 역풍 — 러시아 원유 공급·유조선 운임 하락 쪽 정책",
    "summary": "10/15 로이터 '제재 완화 검토' 뒤 실제 허용 보도. 검토 보도 때 유가 하락(oilprice). AGBI 는 운임 완화 효과가 제한적이라 분석."
-  },
-  {
-   "title": "신흥국 주식, 미국 대비 사상 최대 할인",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-20/emerging-stocks-are-trading-at-their-biggest-ever-discount-to-us",
-   "press": "Bloomberg",
-   "at": "2026-10-20 17:35",
-   "why": "한국·중국 칸 — 이익 추정 상승인데 밸류 20년 최저 = 가격이 실적을 못 따라간 구간(1288.HK bet 순풍)",
-   "summary": "신흥국 기업 이익 추정치 급등으로 미국 대비 밸류에이션이 20년 최저. 오늘 코스피 −3.73%·항셍 −319, 상하이만 상승."
-  },
-  {
-   "title": "그림자 선단 제재 완화, 유조선 운임 낮추긴 어려울 듯",
-   "url": "https://www.agbi.com/analysis/shipping/2026/10/shadow-fleet-sanctions-relief-unlikely-to-ease-tanker-rates/",
-   "press": "AGBI",
-   "at": "2026-10-20 17:35",
-   "why": "에너지 칸·CNQ — 공급 완화 정책이 유가·운임에 얼마나 먹히는지 판단 근거",
-   "summary": "제재 완화로도 운임 하락은 제한적이라는 분석. 유가 영향 숫자는 미확인."
   }
  ],
  "at": "2026-10-22 04:35"
