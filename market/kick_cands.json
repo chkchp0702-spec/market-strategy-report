@@ -4247,6 +4247,25 @@
 "lv": 18.5,
 "max20": 3.5,
 "id60": -0.15
+},
+"LGND|2026-10-21": {
+"code": "LGND",
+"name": "Ligand Pharmaceuticals Incorporated - ",
+"mkt": "US",
+"d": "2026-10-21",
+"src": "cup",
+"score": 70.4,
+"lv": 317.55,
+"max20": 4.2,
+"id60": -0.033
+},
+"SNOW|2026-10-22|whale": {
+"code": "SNOW",
+"name": "SNOW",
+"mkt": "US",
+"d": "2026-10-22",
+"src": "whale",
+"score": 40
 }
 },
 "sent": [
@@ -4267,20 +4286,20 @@
 "AVTX",
 "CDW",
 "CPNG",
-"CSX",
-"DFTX",
 "DKS",
-"GM",
+"GEV",
 "GOOGL",
+"GPCR",
 "INSM",
-"KYMR",
 "META",
 "NAMS",
-"NRIX",
-"RVMD",
+"RIG",
+"ROIV",
 "SE",
 "SNOW",
+"STM",
 "STOK",
+"TSLA",
 "VST",
 "ZYME"
 ]
