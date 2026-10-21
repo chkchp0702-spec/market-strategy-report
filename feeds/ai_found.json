@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "메타, 뉴멕시코 케임브리지 애널리티카 소송서 250억$ 벌금 판결",
+   "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+   "press": "CNBC",
+   "at": "2026-10-22 03:35",
+   "why": "메타 실적(이번 주) 직전 일회성 비용 — AI 소프트웨어·빅테크 실적 판정에 변수, 주 측 요구액은 최대 400억$였음",
+   "summary": "배심 '소비자 오도' 평결 뒤 판사 250억$ 부과(CNBC·bbg 10/21) · 주 측은 최대 400억$ 요구(Bloomberg Law) · 항소 여부·회계 처리 미확인"
+  },
+  {
+   "title": "유가, 걸프 공급 회복 저울질에 장중 상승분 반납",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUThvQVl1RnVpSjI0NnV3VGhRWUU2eWVmOC01c3hpOXJ6eTR0OXNUOTh3VE1vNW1jNFlobjF6QmJRcDc5eF9nbTZQbngzUlZWbWJ6aXpSYndoNHhsRVFoWURGWHF1WmwwOS1QUTRyTmgwaUZLVlB0UTJqMmUyTTY0SnluSUhTVGR4anFHZGhMTUItM3I5VUlIZkhRVEQydw?oc=5",
+   "press": "WSJ",
+   "at": "2026-10-22 03:35",
+   "why": "CNQ 열린 bet·에너지 칸 — 물동량 정상화 보도가 bbg·FT 에 이어 WSJ 까지, 유가 상방 꼬리 축소",
+   "summary": "10/21 장중 상승 뒤 하락 전환 · 걸프 공급 회복 반영 · 낙폭 숫자는 미확인"
+  },
+  {
    "title": "스페이스X 신용위험 지표 사상 최고 — 엔비디아 칩 구매용 400억$ 차입 추진",
    "url": "https://www.advisorperspectives.com/articles/2026/10/07/spacex-credit-risk-gauge-record-high-fundraising-reports",
    "press": "Bloomberg via Advisor Perspectives",
@@ -623,22 +639,6 @@
    "at": "2026-10-20 14:35",
    "why": "열린 bet 달러/위안 내림(10/13 6.6918) 채점과 직결 — 원화 강세에도 코스피 매도가 AI 청산 탓임을 보여줌",
    "summary": "역외 위안 약 6.69, 2022년 7월 이후 최강 · 3분기 GDP 4.5%(예상 4.4%) · IMF '위안 실질 17~25% 저평가'"
-  },
-  {
-   "title": "넷플릭스 오늘 장 마감 뒤 3분기 실적 — 이번 주 대형 실적 첫 타자",
-   "url": "https://finance.yahoo.com/news/earnings-preview-expect-netflix-report-115924156.html",
-   "press": "Yahoo Finance",
-   "at": "2026-10-20 14:35",
-   "why": "AI 이탈 자금이 비AI 성장주로 가는지 첫 시험 — 헬스케어 회전 bets(DHR·MDT)와 같은 줄기",
-   "summary": "10/20 미국 장 마감 뒤 발표 · 이번 주 DHR(10/21)·테슬라·메타 실적 이어짐"
-  },
-  {
-   "title": "애플, 아이폰 Duo 주문 30% 상향 — 1천만 대 아래",
-   "url": "https://pasqualepillitteri.it/en/news/23373/apple-raises-iphone-duo-orders-30-percent-under-10-million",
-   "press": "Pasquale Pillitteri",
-   "at": "2026-10-20 13:35",
-   "why": "🍎 애플 수요 둔화 논지 반대 근거 — 폴더블 Duo 공급망(한국 부품주·HK 애플 관련주)",
-   "summary": "애플이 예약 개시 전 Duo 주문을 30% 늘림(1천만 대 미만). 10/20 항셍 하락 속 애플 관련주 역행 상승(gn_hk)."
   }
  ],
  "at": "2026-10-22 02:35"
