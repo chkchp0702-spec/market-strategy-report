@@ -1,5 +1,5 @@
 {
- "at": "2026-10-21 19:35",
+ "at": "2026-10-21 20:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "HANAchina/70784": {
@@ -82,15 +82,20 @@
    "why": "⚡ 미즈호(MFG, ☕ 컵 10/19) bet 근거 — BOJ 다음 주 '물가 2% 도달' 판단 검토(교도) = 인상 쪽",
    "at": "2026-10-21 18:35"
   },
-  "n/mutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
-   "lv": 1,
-   "why": "DHR bet 동종 — TMO 3Q EPS·매출 예상 상회, 같은 아침 DHR도 EPS 2.11·연간 가이던스 상향",
-   "at": "2026-10-21 19:35"
-  },
   "n/VgxMHY4WXdkN0RvSlF4aU1KTldHUml5Vlp0a1RBYUpYN1R5QmU2MjZPUQoc5": {
    "lv": 1,
    "why": "日 9월 수출 +16.7%(반도체) — 히타치·MFG bet 의 일본 경기 근거",
    "at": "2026-10-21 19:35"
+  },
+  "n/lPYU94ZjZRdktUTlJEeTVqSEVFamNkc1FWelQ2MnRNb25OemZ5aUx3dl8oc5": {
+   "lv": 1,
+   "why": "美 러시아 제재 일부 면제에 유가 선물 반락 — 열린 CNQ bet(브렌트 110 근거) 역풍",
+   "at": "2026-10-21 20:35"
+  },
+  "n/les20261021elevanceraisesfullyearguidanceonlowermedicalcosts": {
+   "lv": 1,
+   "why": "엘레번스 의료비 하락에 연간 가이던스 상향 — 헬스케어 회전(DHR·MDT bet) 세 번째 확인",
+   "at": "2026-10-21 20:35"
   }
  }
 }
