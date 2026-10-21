@@ -1,5 +1,5 @@
 {
- "at": "2026-10-21 22:35",
+ "at": "2026-10-21 23:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "HANAchina/70784": {
@@ -17,11 +17,6 @@
    "why": "AI 차입 약한 고리 가설 — 앤트로픽 상반기 손실 800억$↑",
    "at": "2026-10-21 08:50"
   },
-  "kwusa/61310": {
-   "lv": 1,
-   "why": "실적 상회에도 가이던스 실망 급락 — earn 신호 주의",
-   "at": "2026-10-21 08:50"
-  },
   "ai/W1Yb0Y4NVAzSVdBSm9ON2tMOU80SHdfYURyek1iejMxVU9vTlhpcDR0UQoc5": {
    "lv": 1,
    "why": "CATL 급락·항셍 24,000 붕괴 — 1288.HK bet 역풍",
@@ -35,11 +30,6 @@
   "HANAchina/70795": {
    "lv": 1,
    "why": "⚡ 히타치 bet(전력망) — 골드만 구리·금·전력망 3대 자산 추천, 그리드 가설 지지",
-   "at": "2026-10-21 13:35"
-  },
-  "n/1021tsmcsuspendssomeconstructionafterdeadlyaccidentkillsfour": {
-   "lv": 1,
-   "why": "반도체 반등 가설 점검 — TSMC 대만 일부 공사 중단(사망 4명), 증설 일정 지연 여부",
    "at": "2026-10-21 13:35"
   },
   "n/httpswwwmkcokrnewsstock12181637": {
@@ -56,16 +46,6 @@
    "lv": 1,
    "why": "코스피 +3.29% 5,735.66 확정 — 전날 −3.73% 거의 회복, 외인 순매수 1일째(한국 가설 판정 시작)",
    "at": "2026-10-21 16:35"
-  },
-  "n/261021blackrocksfinksaysslowdatacenterbuildoutisinflationary": {
-   "lv": 1,
-   "why": "핑크 \"AI 건설 지연은 물가 자극\" — 고금리 장기화 가설·전력망(히타치 bet) 쪽",
-   "at": "2026-10-21 16:35"
-  },
-  "n/qb2NFaTlRNDlWZW9ReWpGVnFFYWZxZ2ZndnF5X0YtbXc3cWZYVDhMQkVooc5": {
-   "lv": 1,
-   "why": "EWQ bet(프랑스 ETF, 열림 +0.6%) 역풍 점검 — 프랑스 시위 확산·佛-獨 스프레드",
-   "at": "2026-10-21 17:35"
   },
   "n/XlURnVaUkxpU2dISy1fcXlXYlJiUjlfU1l4RFE2MFVnZ29lMllTQ3BYcgoc5": {
    "lv": 1,
@@ -87,40 +67,25 @@
    "why": "日 9월 수출 +16.7%(반도체) — 히타치·MFG bet 의 일본 경기 근거",
    "at": "2026-10-21 19:35"
   },
-  "n/lPYU94ZjZRdktUTlJEeTVqSEVFamNkc1FWelQ2MnRNb25OemZ5aUx3dl8oc5": {
-   "lv": 1,
-   "why": "美 러시아 제재 일부 면제에 유가 선물 반락 — 열린 CNQ bet(브렌트 110 근거) 역풍",
-   "at": "2026-10-21 20:35"
-  },
-  "n/les20261021elevanceraisesfullyearguidanceonlowermedicalcosts": {
-   "lv": 1,
-   "why": "엘레번스 의료비 하락에 연간 가이던스 상향 — 헬스케어 회전(DHR·MDT bet) 세 번째 확인",
-   "at": "2026-10-21 20:35"
-  },
   "n/httpswwwmkcokrnewsstock12182179": {
    "lv": 1,
    "why": "반도체 칸·한국 가설 — 삼성전기 엔비디아 AI 기판 장기 공급·전용 라인, 내일 외인 순매수 지속 판정 재료",
    "at": "2026-10-21 21:35"
   },
-  "n/cles20261021russiaseesfirstdieselcargosailingforusonthursday": {
-   "lv": 1,
-   "why": "CNQ bet·에너지 칸 — 러 디젤 미국행 실행 = 유가 상방 약화(논지 약화 조건)",
-   "at": "2026-10-21 21:35"
-  },
-  "n/1JVDFyb1VFYkg0NGRJaXhWemlUY3gxX3YxeVh0YkNMSHNQU21pWkc0OVQoc5": {
-   "lv": 1,
-   "why": "고금리 가설(0.76) — 경제학자 거의 전원 '10월 동결·12월 인상', 인상 경로가 컨센서스로 굳음",
-   "at": "2026-10-21 22:35"
-  },
-  "n/lecomnetworkswithtmusnokalreadymakingmovescZxMcBMRBvOtsrcrss": {
-   "lv": 1,
-   "why": "ERIC 열린 bet(🧪 PEAD) — 젠슨 황 통신망 AI 100GW 기회, 지목된 건 NOK·TMUS(경쟁사)",
-   "at": "2026-10-21 22:35"
-  },
   "n/swwwftcomcontent509c0ecf625e447396cfe249edb7c86esyn25a6b1a61": {
    "lv": 1,
    "why": "CNQ 열린 bet — 중동 원유 수출 전쟁 전 수준 회복, 러 디젤과 겹쳐 유가 상방 약화",
    "at": "2026-10-21 22:35"
+  },
+  "n/JaFE2ajltd1lpclV1ZE9JZFZRNWJsVnhWdzFjYlVrbFpMY2wydjN2QWhqoc5": {
+   "lv": 1,
+   "why": "항셍 23,651 석 달 최저·텐센트·CATL 급락 — 열린 bet 1288.HK(중국농업은행) 시장 역풍, 국유은행 피난 가설 시험대",
+   "at": "2026-10-21 23:35"
+  },
+  "n/wsvideos20261021bofascabanaasksfedonratehikeswhywaitnowvideo": {
+   "lv": 1,
+   "why": "BofA 카바나 '연준 인상 왜 기다리나' — 12월 인상 컨센서스를 10월 앞당김 쪽으로, 고금리 가설·성장주 칸 직결",
+   "at": "2026-10-21 23:35"
   }
  }
 }

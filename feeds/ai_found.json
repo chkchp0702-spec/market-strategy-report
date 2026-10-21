@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "BofA 카바나 \"인상 확률 90%↑인데 연준이 동결하면 전례 없는 일\"",
+   "url": "https://finance.yahoo.com/economy/policy/articles/fed-rate-hold-unprecedented-rate-124335352.html",
+   "press": "Stocktwits/Yahoo Finance",
+   "at": "2026-10-21 23:35",
+   "why": "고금리 가설 — 시장 내재 인상 확률이 이미 매우 높다는 전략가 판단, 성장주·장기채 칸 역풍",
+   "summary": "BofA 금리전략 마크 카바나: 선물 시장 인상 확률 90% 넘는 상황에서 동결은 전례 없음. 블룸버그 10/21 인터뷰 '왜 지금 기다리나'와 같은 논지. 기사 게재일 미확인."
+  },
+  {
+   "title": "日 닛케이, 반도체 랠리에 상승",
+   "url": "https://tradingeconomics.com/japan/stock-market/news/571400",
+   "press": "Trading Economics",
+   "at": "2026-10-21 23:35",
+   "why": "골드만 일본 반도체 8종목 이익 상향 기대(gn_hk 피드)와 이어짐 — 일본 반도체·EWJ 칸, 히타치 bet 환경",
+   "summary": "닛케이 반도체주 주도 반등. 숫자·게재일은 원문 확인 필요(미확인)."
+  },
+  {
    "title": "젠슨 황 '통신망 AI 100GW 기회' — T-모바일·노키아 이미 움직여",
    "url": "https://stocktwits.com/news-articles/markets/equity/nvidia-s-jensen-huang-sees-100-gw-ai-opportunity-in-telecom-networks-with-tmus-nok-already-making-moves/cZxMcBMRBvO",
    "press": "Stocktwits",
@@ -623,23 +639,7 @@
    "at": "2026-10-20 11:35",
    "why": "한국 외국인 복귀 논지(0.78→0.80)·KR 하락장 국면 — 반도체 칸 축소 유지 근거",
    "summary": "코스피 −4.00% 5,536.97(기사 시각 미확인). 하이닉스 솔리다임 중복상장 논란·신규신용 차단이 겹친 수급 하락. 이틀 반등 뒤 다시 급락."
-  },
-  {
-   "title": "AI 자금조달 경고에 아시아 동반 급락 — 코스피 5,500 붕괴·닛케이 1,400엔 하락",
-   "url": "https://finance.biggo.com/news/8b45e38e-4f73-462e-aa71-b2194c47b73d",
-   "press": "BigGo Finance",
-   "at": "2026-10-20 11:35",
-   "why": "AI 차입(크레딧) 논지 0.84→0.86 — 소프트뱅크 신용위험 4년 고점(bbg_mkt)과 같은 줄기, 반도체·AI 칸 경계",
-   "summary": "아시아 증시가 AI 자금조달 경고에 함께 하락, 코스피 5,500 이탈·닛케이 −1,400엔(기사 날짜·수치는 미확인). 소프트뱅크·하이닉스 약세 주도."
-  },
-  {
-   "title": "반대매매 900억 '눈물'…삼전닉스 빚투 조인다",
-   "url": "https://biz.sbs.co.kr/amp/article/20000340253",
-   "press": "SBS Biz",
-   "at": "2026-10-20 10:30",
-   "why": "코스피 하락장 · 반도체 신호(☕·📈)에 강제 매도 압력 — 투매 바닥 여부 판단 재료",
-   "summary": "증권사들이 삼성전자·SK하이닉스 신규 신용(빚투)을 조이는 중, 반대매매 규모 900억원대. 같은 날 피드(kimu_nim)도 대형 5개 증권사 신규신용 차단을 전함. 기사 작성 시각은 미확인."
   }
  ],
- "at": "2026-10-21 19:35"
+ "at": "2026-10-21 23:35"
 }
