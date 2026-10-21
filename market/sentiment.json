@@ -1,13 +1,15 @@
 {
- "at": "2026-10-21 21:54",
- "line": "VIX 17.15(51%) · SPY 풋/콜 3.035 · 외가풋 프리미엄 +9.5%p · 신용 306,745 · 외인 선물 -10,039계약(5일)",
- "on": [],
+ "at": "2026-10-22 07:41",
+ "line": "VIX 16.68(43%) · SPY 풋/콜 1.526 · 외가풋 프리미엄 +10.7%p · 신용 300,938 · 외인 선물 -22,140계약(5일)",
+ "on": [
+  "R7"
+ ],
  "signals": [
   {
    "id": "R1",
    "name": "😨 미 공포 극단",
    "on": false,
-   "level": "VIX 17.15 (1년 51%) · VIX/VIX3M 0.903",
+   "level": "VIX 16.68 (1년 43%) · VIX/VIX3M 0.891",
    "then": "크기 줄이기 — 20년 55번: 다음 20일 SPY +1.29%(기저 +0.97%)로 하락 신호 아님, 대신 흔들림 sd 5.7 vs 4.6. 새 bets 3일·목표 절반"
   },
   {
@@ -21,86 +23,92 @@
    "id": "R2",
    "name": "🔁 풋콜 리셋",
    "on": false,
-   "level": "SPY 풋/콜 거래량 3.035 · 10일평균 84일 순위 None% (기록 3/84일) — 쌓는 중",
+   "level": "SPY 풋/콜 거래량 1.526 · 10일평균 84일 순위 None% (기록 3/84일) — 쌓는 중",
    "then": "3개월 SPY 채점 (SentimenTrader 51회 80% 승)"
   },
   {
    "id": "R3",
    "name": "🧾 한국 신용 청산 멈춤",
    "on": false,
-   "level": "신용잔고 306,745 · 60일 최고 대비 -9.4% · 5일 -9.4%",
+   "level": "신용잔고 300,938 · 60일 최고 대비 -11.1% · 5일 -11.0%",
    "then": "20일 코스피 채점 — 가설: 잔고 −10%↑ 줄고 멈춘 뒤 바닥 (7~8월: 38.6→27.4조 뒤 반등)"
   },
   {
    "id": "R4",
    "name": "🔄 외국인 선물 매도 정리",
    "on": false,
-   "level": "외국인 선물 5일 누적 -10,039계약 (어제까지 +6,571) · 오늘 -8,165",
+   "level": "외국인 선물 5일 누적 -22,140계약 (어제까지 -10,039) · 오늘 +0",
    "then": "5·20일 코스피 채점 — 앨버트로스: 기존 매도자 정리만으로 반등 시작"
   },
   {
    "id": "R6",
    "name": "🚀 외국인 선물 강한 매수",
    "on": false,
-   "level": "외국인 선물 5일 -10,039계약 (상위 20% 문턱 +13,000)",
+   "level": "외국인 선물 5일 -22,140계약 (상위 20% 문턱 +13,000)",
    "then": "5일 코스피 채점 — 표본: 상위 20% 다음 5일 +2.58%·승률 70% vs 하위 20% +0.73%·50% (모멘텀, 역발상 아님)"
   },
   {
    "id": "R7",
    "name": "🧯 외국인 선물 투매",
-   "on": false,
-   "level": "외국인 선물 5일 -10,039계약 (문턱 −20,000)",
+   "on": true,
+   "level": "외국인 선물 5일 -22,140계약 (문턱 −20,000)",
    "then": "크기 줄이기 — 표본 11번 다음 20일 코스피 평균 −2.07%·승률 36% (기저 +6.46%·77%)"
   },
   {
    "id": "R8",
    "name": "🔀 현물 팔고 선물 사는 외국인",
    "on": false,
-   "level": "외국인 현물 5일 -31,475억 · 선물 5일 -10,039계약",
+   "level": "외국인 현물 5일 +6,162억 · 선물 5일 -22,140계약",
    "then": "5일 코스피 채점 — 표본 13번 +1.93%·69% (기저 +1.49%·65%, 차이 작음 — 관찰)"
   },
   {
    "id": "R5",
    "name": "🎈 외가 풋 비쌈(보험 수요)",
    "on": false,
-   "level": "SPY 0.90풋 IV−등가 콜 IV +9.5%p · 0.95풋 2.93 (기록 3/20일 — 쌓는 중)",
+   "level": "SPY 0.90풋 IV−등가 콜 IV +10.7%p · 0.95풋 4.65 (기록 3/20일 — 쌓는 중)",
    "then": "20일 SPY 채점 — 가설만(종목은 −, 지수는 반대일 수 있음)"
   }
  ],
  "us": {
-  "vix": 17.15,
-  "vix_p1y": 51,
+  "vix": 16.68,
+  "vix_p1y": 43,
   "vix_d": "2026-10-21",
-  "vix3m": 18.99,
-  "vix3m_p1y": 28,
-  "vix3m_d": "2026-10-20",
-  "vix9d": 16.27,
-  "vix9d_p1y": 59,
-  "vix9d_d": "2026-10-20",
-  "skew_idx": 160.4,
-  "skew_idx_p1y": 98,
-  "skew_idx_d": "2026-10-20",
-  "vix_vix3m": 0.903,
+  "vix3m": 18.72,
+  "vix3m_p1y": 23,
+  "vix3m_d": "2026-10-21",
+  "vix9d": 15.49,
+  "vix9d_p1y": 54,
+  "vix9d_d": "2026-10-21",
+  "skew_idx": 150.36,
+  "skew_idx_p1y": 82,
+  "skew_idx_d": "2026-10-21",
+  "vix_vix3m": 0.891,
   "backwardation": false,
   "backwardation_prev": false,
-  "vix9d_vix": 0.949
+  "vix9d_vix": 0.929
  },
  "spy_opt": {
-  "spot": 769.05,
-  "m": "2026-10-20",
+  "spot": 773.09,
+  "m": "2026-10-21",
   "exp": "2026-11-20",
-  "dte": 30,
-  "pc_vol": 3.035,
+  "dte": 29,
+  "pc_vol": 1.526,
   "pc_oi": 5.187,
-  "atm_civ": 15.4,
-  "p95_iv": 18.3,
-  "p90_iv": 24.8,
-  "skew95": 2.93,
-  "skew90": 9.47
+  "atm_civ": 14.0,
+  "p95_iv": 18.6,
+  "p90_iv": 24.6,
+  "skew95": 4.65,
+  "skew90": 10.66
  },
- "spy_roc5": -1.15,
+ "spy_roc5": 0.45,
  "kr": {
   "fut": [
+   {
+    "d": "2026-10-22",
+    "indiv": 0,
+    "foreign": 0,
+    "inst": 0
+   },
    {
     "d": "2026-10-21",
     "indiv": 3310,
@@ -124,15 +132,15 @@
     "indiv": -2414,
     "foreign": -9540,
     "inst": 11456
-   },
-   {
-    "d": "2026-10-15",
-    "indiv": 1709,
-    "foreign": 12101,
-    "inst": -13141
    }
   ],
   "kospi": [
+   {
+    "d": "2026-10-22",
+    "indiv": 0,
+    "foreign": 0,
+    "inst": 0
+   },
    {
     "d": "2026-10-21",
     "indiv": -11159,
@@ -156,34 +164,33 @@
     "indiv": -5126,
     "foreign": 3637,
     "inst": -6815
-   },
-   {
-    "d": "2026-10-15",
-    "indiv": 13967,
-    "foreign": -37637,
-    "inst": 17176
    }
   ],
   "credit": [
    {
-    "d": "2026-10-19",
-    "deposit": 920966.0,
-    "credit": 306745.0,
+    "d": "2026-10-20",
+    "deposit": 902976.0,
+    "credit": 300938.0,
     "raw": {
-     "bizdate": "20261019",
-     "customerDeposit": "920966",
-     "customerDepositDiff": "-23064",
-     "customerDepositDiffAbs": "23064",
-     "creditLoan": "306745",
-     "creditLoanDiff": "-11499",
-     "creditLoanDiffAbs": "11499",
-     "beneficiaryCertificateStock": "3160898",
-     "beneficiaryCertificateStockDiff": "16693",
-     "beneficiaryCertificateStockDiffAbs": "16693",
-     "beneficiaryCertificateBond": "2184766",
-     "beneficiaryCertificateBondDiff": "-1808"
+     "bizdate": "20261020",
+     "customerDeposit": "902976",
+     "customerDepositDiff": "-17990",
+     "customerDepositDiffAbs": "17990",
+     "creditLoan": "300938",
+     "creditLoanDiff": "-5808",
+     "creditLoanDiffAbs": "5808",
+     "beneficiaryCertificateStock": "3114284",
+     "beneficiaryCertificateStockDiff": "-46614",
+     "beneficiaryCertificateStockDiffAbs": "46614",
+     "beneficiaryCertificateBond": "2188369",
+     "beneficiaryCertificateBondDiff": "3603"
     },
     "src": "https://stock.naver.com/api/domestic/market/trendDeposit?page=1&pageSize=60"
+   },
+   {
+    "d": "2026-10-19",
+    "deposit": 920966.0,
+    "credit": 306745.0
    },
    {
     "d": "2026-10-16",
@@ -199,11 +206,6 @@
     "d": "2026-10-14",
     "deposit": 974280.0,
     "credit": 332672.0
-   },
-   {
-    "d": "2026-10-13",
-    "deposit": 1000983.0,
-    "credit": 338113.0
    }
   ]
  },
