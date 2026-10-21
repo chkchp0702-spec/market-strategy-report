@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "프랑스 10년물 국채 금리 5% 잠시 돌파 — 2002년 이후 처음",
+   "url": "https://tradingeconomics.com/france/government-bond-yield/news/589189",
+   "press": "Trading Economics",
+   "at": "2026-10-21 18:35",
+   "why": "EWQ bet(프랑스 ETF, 손절 39.99) 역풍 · 고금리 장기화 가설(유럽 쪽 압력)",
+   "summary": "佛 10년 5% 터치(FT·HANAchina 70803도 같은 숫자), 2월 말 3.2%에서 급등. 국채 위험지수 160bp 근접 15년 최고 — 재정·정치 불안."
+  },
+  {
+   "title": "일본은행, 다음 주 회의서 '기조 물가 2% 도달' 여부 판단(교도)",
+   "url": "https://www.stockopedia.com/share-prices/mizuho-financial-TYO:8411/news/boj-could-hike-rates-as-early-as-march-up-to-3-times-in-2026-mizuho-executive-says-019e6a0c-47db-7e14-86a0-80f117b4ffbd/",
+   "press": "교도(HANAchina 경유) · Stockopedia",
+   "at": "2026-10-21 18:35",
+   "why": "미즈호(MFG ☕ 컵 10/19) bet — BOJ 인상 기대는 일본 대형은행 예대마진 쪽",
+   "summary": "교도: BOJ가 다음 주 회의에서 2% 목표 도달을 평가(도달 판단 시 디플레 탈출 선언 격). 달러/엔 158엔, BOJ 긴축 전망(gn_kr_macro). 링크는 미즈호 경영진의 인상 전망 기사(날짜 원문 확인 필요)."
+  },
+  {
+   "title": "인튜이티브서지컬 3분기 매출 미달로 −7%(253.75달러)",
+   "url": "https://www.tipranks.com/news/the-fly/intuitive-surgical-falls-7-to-253-75-after-q3-revenue-miss",
+   "press": "TipRanks(The Fly)",
+   "at": "2026-10-21 18:35",
+   "why": "헬스케어 회전 bet(DHR 오늘 밤 실적·MDT 🤫 매집) — 의료기기 실적 반응이 차갑다",
+   "summary": "ISRG 3분기 매출 미달 −7%(The Fly, 날짜 원문 확인 필요). investing_en 10/21 'Why is Intuitive Surgical stock tumbling today?' 와 같은 사건으로 보임."
+  },
+  {
    "title": "다나허(DHR) 3분기 실적 10/21 발표 — EPS 예상 1.92달러",
    "url": "https://news.alphastreet.com/danaher-dhr-q3-2026-preview-eps-est-1-92-reports-october-21/",
    "press": "AlphaStreet",
@@ -615,30 +639,6 @@
    "at": "2026-10-20 07:35",
    "why": "EWQ(프랑스 ETF) 오름 bet 의 위험 신호 · 유럽발 금리 상승이 미 10년 5%대 고금리 논지(0.76)에 보탬",
    "summary": "프랑스 10년물 금리가 2002년 이후 최고 수준. 국내 보도(10/20)도 '프랑스 국채금리 24년 만에 최고'로 같은 방향. 기사 정확한 날짜·수치는 원문 확인 필요(미확인)."
-  },
-  {
-   "title": "프랑스 폭동이 부채 위기 우려를 키워 — 파리 증시·국채·유로 동반 하락",
-   "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html",
-   "press": "CNBC",
-   "at": "2026-10-20 06:35",
-   "why": "EWQ(프랑스 ETF) 오름 bet 의 핵심 위험 — 정치 위기가 '덜 나쁘기' 논지와 반대로 감",
-   "summary": "10/19 폭동이 기존 정치·재정 위기에 더해져 파리 상장 주식·국채·유로가 함께 약세. 숫자는 원문 확인."
-  },
-  {
-   "title": "폭동이 정치 위기를 더하며 프랑스 시장 급락",
-   "url": "https://money.usnews.com/investing/news/articles/2026-10-19/french-markets-tumble-as-riots-add-to-political-crisis",
-   "press": "US News(로이터)",
-   "at": "2026-10-20 06:35",
-   "why": "프랑스 10년 금리 4.8% 25년 최고 줄기와 이어짐 — 고금리 논지의 유럽 쪽 약한 고리",
-   "summary": "10/19 프랑스 주식·채권 약세, 마크롱 '분노와 수치' 성명(sedaily 피드). 유럽 전체는 소폭 하락."
-  },
-  {
-   "title": "앤트로픽, 엔스케일과 450억 달러 AI 컴퓨팅 계약(블룸버그 보도)",
-   "url": "https://www.channelinsider.com/ai/news-anthropic-nscale-45-billion-ai-compute-deal/",
-   "press": "Channel Insider",
-   "at": "2026-10-20 05:35",
-   "why": "'AI 차입·크레딧' 논제(0.84) — AI 설비 수요는 아직 꺾이지 않음, 네오클라우드 조달 부담은 커짐",
-   "summary": "460MW 규모 캠퍼스, 450억 달러. 엔스케일 IPO 앞둔 계약."
   }
  ],
  "at": "2026-10-21 17:35"
