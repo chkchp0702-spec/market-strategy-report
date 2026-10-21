@@ -1,40 +1,52 @@
 {
-"at": "2026-10-20 10:07",
+"at": "2026-10-21 09:41",
 "signals": [
 {
-"src": "dip",
-"code": "QQQ",
-"name": "QQQ",
+"src": "pead",
+"code": "CLF",
+"name": "Cleveland-Cliffs Inc. Common Stock",
 "mkt": "US",
-"d": "2026-10-16",
-"px": 709.8,
-"score": 0,
-"rsi2": 0.6
+"d": "2026-10-19",
+"vr": 5.7,
+"gap": 17.2,
+"px": 14.1,
+"score": 28.6
+},
+{
+"src": "pead",
+"code": "SLN",
+"name": "Silence Therapeutics Plc - American Depository Share",
+"mkt": "US",
+"d": "2026-10-19",
+"vr": 51.3,
+"gap": 125.6,
+"px": 19.58,
+"score": 30.0
 }
 ],
 "state": {
 "index_KR": {
 "sym": "^KS11",
 "above200": false,
-"d": "2026-10-20"
+"d": "2026-10-21"
 },
-"scanned_KR": 2610,
+"scanned_KR": 2612,
 "us_source": "US.json 전 종목 5942 + ETF 4917 (2026-10-17)",
 "index_US": {
 "sym": "^GSPC",
 "above200": true,
-"d": "2026-10-19"
+"d": "2026-10-20"
 },
-"scanned_US": 9115,
+"scanned_US": 9124,
 "dip": {
 "sym": "QQQ",
-"d": "2026-10-16",
-"close": 709.8,
-"ma200": 673.66,
-"ma5": 731.27,
-"rsi2": 0.6,
+"d": "2026-10-19",
+"close": 718.36,
+"ma200": 674.19,
+"ma5": 725.74,
+"rsi2": 42.7,
 "th": 5.0,
-"signal": true
+"signal": false
 },
 "trend": {
 "rule": "100일 고가 돌파 → 사고 · 50일 저가 이탈 → 팖",
@@ -42,74 +54,74 @@
 "GLD": {
 "on": false,
 "since": "2026-03-23",
-"close": 382.01,
+"close": 379.69,
 "hi": 429.42,
 "lo": 373.36,
-"d": "2026-10-16"
+"d": "2026-10-19"
 },
 "USO": {
 "on": true,
 "since": "2026-09-10",
-"close": 161.76,
+"close": 160.81,
 "hi": 163.35,
-"lo": 116.19,
-"d": "2026-10-16"
+"lo": 117.51,
+"d": "2026-10-19"
 },
 "TLT": {
 "on": false,
 "since": null,
-"close": 80.05,
+"close": 79.46,
 "hi": 86.44,
 "lo": 76.43,
-"d": "2026-10-16"
+"d": "2026-10-19"
 },
 "UUP": {
 "on": true,
 "since": "2026-03-12",
-"close": 28.92,
+"close": 29.0,
 "hi": 29.25,
 "lo": 27.87,
-"d": "2026-10-16"
+"d": "2026-10-19"
 },
 "SPY": {
 "on": true,
 "since": "2026-04-15",
-"close": 763.25,
+"close": 766.48,
 "hi": 781.62,
 "lo": 747.74,
-"d": "2026-10-16"
+"d": "2026-10-19"
 },
 "QQQ": {
 "on": true,
 "since": "2026-09-22",
-"close": 709.8,
+"close": 718.36,
 "hi": 762.86,
 "lo": 699.27,
-"d": "2026-10-16"
+"d": "2026-10-19"
 },
 "EFA": {
 "on": true,
 "since": "2026-07-06",
-"close": 103.55,
+"close": 102.87,
 "hi": 108.89,
 "lo": 102.0,
-"d": "2026-10-16"
+"d": "2026-10-19"
 },
 "EEM": {
 "on": false,
 "since": "2026-07-29",
-"close": 62.85,
+"close": 63.31,
 "hi": 71.57,
-"lo": 62.81,
-"d": "2026-10-16"
+"lo": 62.68,
+"d": "2026-10-19"
 },
 "DBC": {
 "on": true,
 "since": "2026-09-01",
-"close": 33.74,
+"close": 33.68,
 "hi": 33.78,
-"lo": 28.61,
-"d": "2026-10-16"
+"lo": 28.87,
+"d": "2026-10-19"
 }
 }
 }
@@ -178,6 +190,28 @@
 "px": 709.8,
 "score": 0,
 "rsi2": 0.6
+},
+{
+"src": "pead",
+"code": "CLF",
+"name": "Cleveland-Cliffs Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-19",
+"vr": 5.7,
+"gap": 17.2,
+"px": 14.1,
+"score": 28.6
+},
+{
+"src": "pead",
+"code": "SLN",
+"name": "Silence Therapeutics Plc - American Depository Share",
+"mkt": "US",
+"d": "2026-10-19",
+"vr": 51.3,
+"gap": 125.6,
+"px": 19.58,
+"score": 30.0
 }
 ]
 }
