@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "스페이스X 신용위험 지표 사상 최고 — 엔비디아 칩 구매용 400억$ 차입 추진",
+   "url": "https://www.advisorperspectives.com/articles/2026/10/07/spacex-credit-risk-gauge-record-high-fundraising-reports",
+   "press": "Bloomberg via Advisor Perspectives",
+   "at": "2026-10-22 02:35",
+   "why": "AI 크레딧 가설(0.86) — 10/21 실적 뒤 주가 +10%에도 채권은 다시 약세(bbg), 주식-크레딧 괴리의 출발점",
+   "summary": "10/7 스페이스X CDS 사상 최고 · 400억$ 추가 차입(엔비디아 칩) 보도 · 10/21 Bloomberg '채권 약세·신용위험 지표 악화'"
+  },
+  {
+   "title": "美 정부 '호르무즈 원유 흐름 하루 1,400만 배럴로 회복' — 사우디 공격에도",
+   "url": "https://www.thenationalnews.com/business/energy/2026/10/12/us-says-hormuz-oil-flows-recover-to-14-million-bpd-despite-saudi-attacks/",
+   "press": "The National",
+   "at": "2026-10-22 02:35",
+   "why": "열린 CNQ bet·에너지 칸 — 물동량 정상화가 브렌트 108$ 상방 근거를 깎는다(10/21 bbg '전쟁 전 수준')",
+   "summary": "호르무즈 통과 하루 1,400만 배럴 회복(美 정부, 10/12) · 10/21 Bloomberg '공격에도 중동 원유 흐름 전쟁 전 수준 근접' · 반대로 axios '2027년 유가 안정 기대 빠르게 사라짐'"
+  },
+  {
    "title": "모건스탠리 윌슨 「美 조정 거의 끝 — 단 바닥은 아직, 금리가 마지막 관문」",
    "url": "https://www.roic.ai/news/morgan-stanleys-wilson-says-stock-selloff-nearing-end-but-no-bottom-yet-10-19-2026",
    "press": "ROIC.ai",
@@ -623,23 +639,7 @@
    "at": "2026-10-20 13:35",
    "why": "🍎 애플 수요 둔화 논지 반대 근거 — 폴더블 Duo 공급망(한국 부품주·HK 애플 관련주)",
    "summary": "애플이 예약 개시 전 Duo 주문을 30% 늘림(1천만 대 미만). 10/20 항셍 하락 속 애플 관련주 역행 상승(gn_hk)."
-  },
-  {
-   "title": "얀부 또 피격 — 사우디 서해안 수출항 재공격",
-   "url": "https://www.macrobusiness.com.au/2026/10/yanbu-bombed-again/",
-   "press": "MacroBusiness",
-   "at": "2026-10-20 13:35",
-   "why": "⛽ 에너지 칸·CNQ bet — 호르무즈 우회로(얀부)마저 위협받으면 유가 상단 열림",
-   "summary": "후티의 얀부 재공격 보도. 아시아 LNG 2022년 이후 최고(bbg_mkt). 피해 규모·유가 숫자는 미확인."
-  },
-  {
-   "title": "AI 신용 우려로 부도보험(CDS) 사상 최고",
-   "url": "https://arynews.tv/ai-credit-worries-send-default-insurance-to-record-high",
-   "press": "ARY News",
-   "at": "2026-10-20 13:35",
-   "why": "🧠 AI 크레딧 논지(0.86) — 빅테크·코어위브 CDS 스트레스 확대",
-   "summary": "AI 기업 부도보험 거래·가격 급등(FT 10/20 '거래 급증'과 같은 흐름). 개별 스프레드 숫자는 원문 확인 필요."
   }
  ],
- "at": "2026-10-21 23:35"
+ "at": "2026-10-22 02:35"
 }
