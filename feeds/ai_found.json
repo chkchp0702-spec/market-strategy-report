@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "메타 3분기 매출 26% 증가 646억$·4분기 가이던스 소폭 상회 — EPS는 기대치 미달",
+   "url": "https://www.stocktitan.net/news/META/meta-reports-third-quarter-2026-13ysmyjaxliq.html",
+   "press": "StockTitan(회사 발표)",
+   "at": "2026-10-22 05:35",
+   "why": "AI 크레딧·AI 지출 가설 — 매출은 견조하나 이익은 지출에 눌림, 시간외 반응 폭은 미확인",
+   "summary": "3분기 매출 646억$(+26%) · 4분기 매출 가이던스 컨센서스 소폭 상회(StockStory) · 주당순이익 기대치 미달(연합뉴스)"
+  },
+  {
+   "title": "메타, AI 지출 전망 조이며 새 무의결권 주식 클래스 발행",
+   "url": "https://www.investing.com/news/stock-market-news/meta-to-issue-new-class-of-shares-as-it-tightens-ai-spending-forecast-4963908",
+   "press": "Reuters(Investing.com)",
+   "at": "2026-10-22 05:35",
+   "why": "하이퍼스케일러가 AI 자금을 채권 대신 지분으로 조달하기 시작 — AI 크레딧 가설(채권 약세·주가 반등 괴리)의 새 단서",
+   "summary": "무의결권 신주 클래스 신설 승인 · AI 지출 전망 범위 좁힘 · 세마포 '지출 자금 조달용' 보도"
+  },
+  {
    "title": "美, 걸프 대사관 일부 인력 철수 명령 준비 — 미 관리들(로이터 단독)",
    "url": "https://www.investing.com/news/commodities-news/exclusiveus-preparing-to-issue-ordered-departure-of-some-personnel-from-gulf-embassies--us-officials-4963834",
    "press": "Reuters via Investing.com",
@@ -623,22 +639,6 @@
    "at": "2026-10-20 17:35",
    "why": "에너지 칸·CNQ — 공급 완화 정책이 유가·운임에 얼마나 먹히는지 판단 근거",
    "summary": "제재 완화로도 운임 하락은 제한적이라는 분석. 유가 영향 숫자는 미확인."
-  },
-  {
-   "title": "S&P: CXMT 매출, 메모리 가격 급등에 가파르게 가속",
-   "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/cxmt-revenue-set-for-sharp-acceleration-as-memory-prices-surge",
-   "press": "S&P Global MI",
-   "at": "2026-10-20 16:35",
-   "why": "반도체 칸·하이닉스 관찰 — 오늘 골드만도 CXMT 3분기 매출 예상 30% 상회(HANAchina/70749): 중국 메모리 증설 경쟁 공포의 근원",
-   "summary": "메모리 가격 급등으로 CXMT 매출 가속 전망(10/7 연구). 상반기 매출 1,503억 위안(전년 154억, newsquawk). 하이닉스·삼성엔 가격 호재이자 점유율 위협."
-  },
-  {
-   "title": "소뱅 신용위험도 4년 만에 최고…빅테크 CDS 거래량 급증",
-   "url": "https://www.yna.co.kr/view/AKR20261020116700009",
-   "press": "연합뉴스",
-   "at": "2026-10-20 15:30",
-   "why": "🧠 'AI 차입 크레딧' 논지(0.86)와 직접 연결 — 광통신·AI 소프트웨어 칸 위험 신호",
-   "summary": "소프트뱅크그룹 CDS가 AI 자금 조달 우려·대형 인수 가능성으로 약 4년 만 최고. 빅테크 CDS 거래량도 급증 — 주가 반등과 신용 지표가 엇갈림."
   }
  ],
  "at": "2026-10-22 04:35"
