@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "램리서치, 1분기 목표 상회·가이던스 상향에도 주가 하락",
+   "url": "https://www.investing.com/news/earnings/lam-research-tops-firstquarter-targets-and-issues-upbeat-guidance-stock-falls-4963987",
+   "press": "Investing.com",
+   "at": "2026-10-22 08:35",
+   "why": "반도체 칸·SOX +1.97% 다음날 — 장비주 「좋은 실적에 파는」 반응이 한국 소부장·하이닉스 개장에 번지는지",
+   "summary": "FY27 1분기 매출 54% 증가·사상 최대, 영업이익률 40% 돌파. 다음 분기 매출 최대 90억$ 전망에도 공급망 제약 언급 뒤 시간외 하락(investing·연합인포맥스 kwusa/61365)."
+  },
+  {
+   "title": "램리서치 FY27 1분기 슬라이드: 영업이익률 40% 돌파",
+   "url": "https://ca.investing.com/news/stock-market-news/lam-research-q1-fy2027-slides-operating-margin-tops-40-milestone-93CH-4894838",
+   "press": "Investing.com",
+   "at": "2026-10-22 08:35",
+   "why": "장비 수요(메모리·첨단 공정) 정점 논쟁의 숫자 — AI 크레딧·반도체 가설 점검",
+   "summary": "영업이익률 40%↑ 첫 돌파. 시장은 숫자보다 공급망 제약·다음 분기 이후 지속성을 보고 있음."
+  },
+  {
    "title": "테슬라, AI 지출 예상 밑돌며 깜짝 플러스 잉여현금흐름 — 시간외 상승",
    "url": "https://www.capitalbrief.com/briefing/tesla-shares-rise-after-surprise-free-cashflow-beat-adfe854f-a857-4990-949d-096cc2d7a55a/",
    "press": "Capital Brief",
@@ -623,30 +639,6 @@
    "at": "2026-10-20 19:35",
    "why": "메모리 공급 차질 → 삼성·하이닉스 경쟁사 수혜 가능(공급 차질 페어 아이디어) — 단 외국인 매도 중이라 관찰만",
    "summary": "대만 마이크론 노조 파업 투표 가결(10/7), 10/22 파업 돌입 예고(reuters·sedaily 10/20). 공장 가동 차질 가능성."
-  },
-  {
-   "title": "로이터 단독: 바이트댄스·알리바바·텐센트, 엔비디아 칩 350억달러 넘게 주문",
-   "url": "https://www.investing.com/news/stock-market-news/exclusivebytedance-alibaba-tencent-place-over-35-billion-worth-of-nvidia-chip-orders-4959231",
-   "press": "Reuters/Investing.com",
-   "at": "2026-10-20 18:35",
-   "why": "AI 청산 국면에서 나온 수요 확인 뉴스 — AI 크레딧 가설·반도체 신호 문지기와 직결",
-   "summary": "중국 빅테크 3사 엔비디아 칩 주문 350억달러↑(로이터). 같은 날 나스닥 선물은 장전 하락(Stocktwits) — 수요 뉴스에도 가격 반응 약함."
-  },
-  {
-   "title": "바이트댄스·알리바바·텐센트 350억달러 RTX PRO 5500 주문, 공급 부족 직면",
-   "url": "https://www.newsbytesapp.com/news/business/bytedance-alibaba-tencent-35b-rtx-pro-5500-order-faces-shortfall/tldr",
-   "press": "NewsBytes",
-   "at": "2026-10-20 18:35",
-   "why": "주문 대상이 RTX PRO 5500(중국용)이고 공급이 모자란다는 점 — 엔비디아 매출 인식 시점 불확실",
-   "summary": "주문 칩은 RTX PRO 5500, 공급 부족 보도(제목 기준). 세부 숫자 미확인."
-  },
-  {
-   "title": "미국, '다크플릿' 유조선의 합법적 원유 운송 허용",
-   "url": "https://seekingalpha.com/news/4654458-us-to-allow-dark-fleet-tankers-to-ship-oil-legally",
-   "press": "Seeking Alpha",
-   "at": "2026-10-20 17:35",
-   "why": "⚡ 열린 bet CNQ(캐나다 원유) 역풍 — 러시아 원유 공급·유조선 운임 하락 쪽 정책",
-   "summary": "10/15 로이터 '제재 완화 검토' 뒤 실제 허용 보도. 검토 보도 때 유가 하락(oilprice). AGBI 는 운임 완화 효과가 제한적이라 분석."
   }
  ],
  "at": "2026-10-22 07:35"
