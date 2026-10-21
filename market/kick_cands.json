@@ -4171,6 +4171,22 @@
 "src": "accum",
 "score": 75.0,
 "lv": 2908.0
+},
+"CLF|2026-10-19|pead": {
+"code": "CLF",
+"name": "Cleveland-Cliffs Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-19",
+"src": "pead",
+"score": 78.6
+},
+"SLN|2026-10-19|pead": {
+"code": "SLN",
+"name": "Silence Therapeutics Plc - American Depository Share",
+"mkt": "US",
+"d": "2026-10-19",
+"src": "pead",
+"score": 80.0
 }
 },
 "sent": [
