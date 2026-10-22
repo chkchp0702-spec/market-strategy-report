@@ -1,0 +1,594 @@
+{
+ "at": "2026-10-22 09:20",
+ "question": "킥 돌파 칸 크기는 그대로 두고 자리를 5개 → 7·10·12개로 늘려(한 자리는 더 작게) 넓게 깔면 샤프·낙폭이 나아지나",
+ "trials": 16,
+ "from": "2008-07-01",
+ "to": "2026-10-20",
+ "size": 0.19,
+ "is": {
+  "from": "2008-07-01",
+  "to": "2016-12-31",
+  "spy": {
+   "cagr": 9.03,
+   "vol": 21.4,
+   "mdd": -47.2,
+   "sharpe": 0.51,
+   "ex": 0.0,
+   "win12": 0,
+   "beat_years": 0,
+   "years": 9
+  },
+  "current": {
+   "cagr": 10.04,
+   "vol": 12.2,
+   "mdd": -15.6,
+   "sharpe": 0.84,
+   "ex": 1.01,
+   "win12": 23,
+   "beat_years": 1,
+   "years": 9,
+   "turn": 275
+  },
+  "chosen": {
+   "cagr": 10.2,
+   "vol": 12.2,
+   "mdd": -15.6,
+   "sharpe": 0.85,
+   "ex": 1.17,
+   "win12": 24,
+   "beat_years": 1,
+   "years": 9,
+   "turn": 271
+  }
+ },
+ "oos": {
+  "from": "2017-01-01",
+  "to": "2026-10-20",
+  "spy": {
+   "cagr": 15.13,
+   "vol": 18.1,
+   "mdd": -33.7,
+   "sharpe": 0.87,
+   "ex": 0.0,
+   "win12": 0,
+   "beat_years": 0,
+   "years": 10
+  },
+  "current": {
+   "cagr": 15.02,
+   "vol": 13.0,
+   "mdd": -17.6,
+   "sharpe": 1.15,
+   "ex": -0.11,
+   "win12": 44,
+   "beat_years": 5,
+   "years": 10,
+   "turn": 334
+  },
+  "chosen": {
+   "cagr": 14.91,
+   "vol": 13.0,
+   "mdd": -17.6,
+   "sharpe": 1.14,
+   "ex": -0.22,
+   "win12": 41,
+   "beat_years": 5,
+   "years": 10,
+   "turn": 334
+  }
+ },
+ "current": {
+  "label": "자리 5·하루 2·상한 없음",
+  "slots": 5,
+  "max_new": 2,
+  "cap": null,
+  "cagr": 15.02,
+  "mdd": -17.6,
+  "sharpe": 1.15,
+  "ex": -0.11,
+  "turn": 334,
+  "idle": 23.0,
+  "held": 3.9,
+  "kick_turn": 960,
+  "trades": {
+   "n": 232,
+   "avg": 2.44,
+   "win": 47,
+   "pf": 2.05
+  },
+  "kick_oos": {
+   "cagr": 11.29,
+   "vol": 12.2,
+   "mdd": -16.4,
+   "sharpe": 0.94,
+   "ex": -3.85,
+   "win12": 36,
+   "beat_years": 3,
+   "years": 10,
+   "turn": 960
+  }
+ },
+ "chosen": {
+  "label": "자리 5·하루 3·상한 1.1",
+  "slots": 5,
+  "max_new": 3,
+  "cap": 1.1,
+  "cagr": 14.91,
+  "mdd": -17.6,
+  "sharpe": 1.14,
+  "ex": -0.22,
+  "turn": 334,
+  "idle": 23.0,
+  "held": 3.88,
+  "kick_turn": 959,
+  "trades": {
+   "n": 232,
+   "avg": 2.34,
+   "win": 46,
+   "pf": 1.98
+  },
+  "is_sharpe": 0.85,
+  "kick_oos": {
+   "cagr": 10.69,
+   "vol": 12.3,
+   "mdd": -16.4,
+   "sharpe": 0.89,
+   "ex": -4.45,
+   "win12": 31,
+   "beat_years": 3,
+   "years": 10,
+   "turn": 959
+  }
+ },
+ "spy": {
+  "is": {
+   "cagr": 9.03,
+   "vol": 21.4,
+   "mdd": -47.2,
+   "sharpe": 0.51,
+   "ex": 0.0,
+   "win12": 0,
+   "beat_years": 0,
+   "years": 9
+  },
+  "oos": {
+   "cagr": 15.13,
+   "vol": 18.1,
+   "mdd": -33.7,
+   "sharpe": 0.87,
+   "ex": 0.0,
+   "win12": 0,
+   "beat_years": 0,
+   "years": 10
+  }
+ },
+ "check": {
+  "beat": false,
+  "mdd": true,
+  "sharpe": false
+ },
+ "grid": [
+  {
+   "slots": 5,
+   "max_new": 2,
+   "cap": null,
+   "cagr": 15.02,
+   "mdd": -17.6,
+   "sharpe": 1.15,
+   "ex": -0.11,
+   "turn": 334,
+   "idle": 23.0,
+   "held": 3.9,
+   "kick_turn": 960,
+   "trades": {
+    "n": 232,
+    "avg": 2.44,
+    "win": 47,
+    "pf": 2.05
+   },
+   "is_sh": 0.84,
+   "is_cagr": 10.04
+  },
+  {
+   "slots": 5,
+   "max_new": 2,
+   "cap": 1.1,
+   "cagr": 15.02,
+   "mdd": -17.6,
+   "sharpe": 1.15,
+   "ex": -0.11,
+   "turn": 334,
+   "idle": 23.0,
+   "held": 3.9,
+   "kick_turn": 960,
+   "trades": {
+    "n": 232,
+    "avg": 2.44,
+    "win": 47,
+    "pf": 2.05
+   },
+   "is_sh": 0.84,
+   "is_cagr": 10.04
+  },
+  {
+   "slots": 5,
+   "max_new": 3,
+   "cap": null,
+   "cagr": 14.91,
+   "mdd": -17.6,
+   "sharpe": 1.14,
+   "ex": -0.22,
+   "turn": 334,
+   "idle": 23.0,
+   "held": 3.88,
+   "kick_turn": 958,
+   "trades": {
+    "n": 232,
+    "avg": 2.34,
+    "win": 46,
+    "pf": 1.98
+   },
+   "is_sh": 0.85,
+   "is_cagr": 10.19
+  },
+  {
+   "slots": 5,
+   "max_new": 3,
+   "cap": 1.1,
+   "cagr": 14.91,
+   "mdd": -17.6,
+   "sharpe": 1.14,
+   "ex": -0.22,
+   "turn": 334,
+   "idle": 23.0,
+   "held": 3.88,
+   "kick_turn": 959,
+   "trades": {
+    "n": 232,
+    "avg": 2.34,
+    "win": 46,
+    "pf": 1.98
+   },
+   "is_sh": 0.85,
+   "is_cagr": 10.2
+  },
+  {
+   "slots": 7,
+   "max_new": 2,
+   "cap": null,
+   "cagr": 14.6,
+   "mdd": -18.0,
+   "sharpe": 1.12,
+   "ex": -0.53,
+   "turn": 327,
+   "idle": 27.0,
+   "held": 5.12,
+   "kick_turn": 923,
+   "trades": {
+    "n": 314,
+    "avg": 2.0,
+    "win": 45,
+    "pf": 1.78
+   },
+   "is_sh": 0.82,
+   "is_cagr": 9.54
+  },
+  {
+   "slots": 7,
+   "max_new": 2,
+   "cap": 1.1,
+   "cagr": 14.6,
+   "mdd": -17.9,
+   "sharpe": 1.12,
+   "ex": -0.53,
+   "turn": 327,
+   "idle": 27.0,
+   "held": 5.12,
+   "kick_turn": 923,
+   "trades": {
+    "n": 314,
+    "avg": 2.0,
+    "win": 45,
+    "pf": 1.78
+   },
+   "is_sh": 0.82,
+   "is_cagr": 9.54
+  },
+  {
+   "slots": 7,
+   "max_new": 3,
+   "cap": null,
+   "cagr": 14.62,
+   "mdd": -17.9,
+   "sharpe": 1.13,
+   "ex": -0.51,
+   "turn": 337,
+   "idle": 27.8,
+   "held": 5.06,
+   "kick_turn": 973,
+   "trades": {
+    "n": 332,
+    "avg": 1.97,
+    "win": 45,
+    "pf": 1.82
+   },
+   "is_sh": 0.81,
+   "is_cagr": 9.49
+  },
+  {
+   "slots": 7,
+   "max_new": 3,
+   "cap": 1.1,
+   "cagr": 14.62,
+   "mdd": -17.9,
+   "sharpe": 1.13,
+   "ex": -0.51,
+   "turn": 337,
+   "idle": 27.8,
+   "held": 5.06,
+   "kick_turn": 973,
+   "trades": {
+    "n": 332,
+    "avg": 1.97,
+    "win": 45,
+    "pf": 1.82
+   },
+   "is_sh": 0.81,
+   "is_cagr": 9.49
+  },
+  {
+   "slots": 10,
+   "max_new": 2,
+   "cap": null,
+   "cagr": 14.28,
+   "mdd": -17.7,
+   "sharpe": 1.12,
+   "ex": -0.85,
+   "turn": 308,
+   "idle": 34.7,
+   "held": 6.51,
+   "kick_turn": 823,
+   "trades": {
+    "n": 399,
+    "avg": 1.76,
+    "win": 44,
+    "pf": 1.74
+   },
+   "is_sh": 0.81,
+   "is_cagr": 9.31
+  },
+  {
+   "slots": 10,
+   "max_new": 2,
+   "cap": 1.1,
+   "cagr": 14.27,
+   "mdd": -17.7,
+   "sharpe": 1.12,
+   "ex": -0.86,
+   "turn": 308,
+   "idle": 34.7,
+   "held": 6.51,
+   "kick_turn": 823,
+   "trades": {
+    "n": 399,
+    "avg": 1.76,
+    "win": 44,
+    "pf": 1.74
+   },
+   "is_sh": 0.81,
+   "is_cagr": 9.31
+  },
+  {
+   "slots": 10,
+   "max_new": 3,
+   "cap": null,
+   "cagr": 14.21,
+   "mdd": -17.7,
+   "sharpe": 1.11,
+   "ex": -0.92,
+   "turn": 309,
+   "idle": 34.9,
+   "held": 6.49,
+   "kick_turn": 828,
+   "trades": {
+    "n": 402,
+    "avg": 1.61,
+    "win": 44,
+    "pf": 1.67
+   },
+   "is_sh": 0.8,
+   "is_cagr": 9.29
+  },
+  {
+   "slots": 10,
+   "max_new": 3,
+   "cap": 1.1,
+   "cagr": 14.2,
+   "mdd": -17.7,
+   "sharpe": 1.11,
+   "ex": -0.93,
+   "turn": 309,
+   "idle": 35.0,
+   "held": 6.49,
+   "kick_turn": 828,
+   "trades": {
+    "n": 402,
+    "avg": 1.61,
+    "win": 44,
+    "pf": 1.67
+   },
+   "is_sh": 0.8,
+   "is_cagr": 9.29
+  },
+  {
+   "slots": 12,
+   "max_new": 2,
+   "cap": null,
+   "cagr": 14.02,
+   "mdd": -18.0,
+   "sharpe": 1.11,
+   "ex": -1.11,
+   "turn": 301,
+   "idle": 40.0,
+   "held": 7.17,
+   "kick_turn": 783,
+   "trades": {
+    "n": 455,
+    "avg": 1.53,
+    "win": 45,
+    "pf": 1.64
+   },
+   "is_sh": 0.82,
+   "is_cagr": 9.33
+  },
+  {
+   "slots": 12,
+   "max_new": 2,
+   "cap": 1.1,
+   "cagr": 14.03,
+   "mdd": -18.0,
+   "sharpe": 1.11,
+   "ex": -1.11,
+   "turn": 301,
+   "idle": 40.0,
+   "held": 7.17,
+   "kick_turn": 784,
+   "trades": {
+    "n": 455,
+    "avg": 1.53,
+    "win": 45,
+    "pf": 1.64
+   },
+   "is_sh": 0.82,
+   "is_cagr": 9.33
+  },
+  {
+   "slots": 12,
+   "max_new": 3,
+   "cap": null,
+   "cagr": 13.96,
+   "mdd": -18.1,
+   "sharpe": 1.1,
+   "ex": -1.18,
+   "turn": 302,
+   "idle": 41.0,
+   "held": 7.04,
+   "kick_turn": 791,
+   "trades": {
+    "n": 459,
+    "avg": 1.4,
+    "win": 43,
+    "pf": 1.58
+   },
+   "is_sh": 0.81,
+   "is_cagr": 9.26
+  },
+  {
+   "slots": 12,
+   "max_new": 3,
+   "cap": 1.1,
+   "cagr": 13.96,
+   "mdd": -18.1,
+   "sharpe": 1.1,
+   "ex": -1.17,
+   "turn": 302,
+   "idle": 41.1,
+   "held": 7.04,
+   "kick_turn": 791,
+   "trades": {
+    "n": 459,
+    "avg": 1.4,
+    "win": 43,
+    "pf": 1.58
+   },
+   "is_sh": 0.81,
+   "is_cagr": 9.26
+  }
+ ],
+ "robust": {
+  "ok": false,
+  "rows": [
+   {
+    "label": "자리 7·하루 3·상한 1.1",
+    "slots": 7,
+    "max_new": 3,
+    "cap": 1.1,
+    "cagr": 14.62,
+    "mdd": -17.9,
+    "sharpe": 1.13,
+    "ex": -0.51,
+    "turn": 337,
+    "idle": 27.8,
+    "held": 5.06,
+    "kick_turn": 973,
+    "trades": {
+     "n": 332,
+     "avg": 1.97,
+     "win": 45,
+     "pf": 1.82
+    },
+    "pass": {
+     "beat": false,
+     "mdd": true,
+     "sharpe": false
+    }
+   },
+   {
+    "label": "자리 5·하루 2·상한 1.1",
+    "slots": 5,
+    "max_new": 2,
+    "cap": 1.1,
+    "cagr": 15.02,
+    "mdd": -17.6,
+    "sharpe": 1.15,
+    "ex": -0.11,
+    "turn": 334,
+    "idle": 23.0,
+    "held": 3.9,
+    "kick_turn": 960,
+    "trades": {
+     "n": 232,
+     "avg": 2.44,
+     "win": 47,
+     "pf": 2.05
+    },
+    "pass": {
+     "beat": false,
+     "mdd": true,
+     "sharpe": false
+    }
+   },
+   {
+    "label": "자리 5·하루 3·상한 없음",
+    "slots": 5,
+    "max_new": 3,
+    "cap": null,
+    "cagr": 14.91,
+    "mdd": -17.6,
+    "sharpe": 1.14,
+    "ex": -0.22,
+    "turn": 334,
+    "idle": 23.0,
+    "held": 3.88,
+    "kick_turn": 958,
+    "trades": {
+     "n": 232,
+     "avg": 2.34,
+     "win": 46,
+     "pf": 1.98
+    },
+    "pass": {
+     "beat": false,
+     "mdd": true,
+     "sharpe": false
+    }
+   }
+  ]
+ },
+ "rank_corr": 0.63,
+ "grid_beat_current_oos": "0/16",
+ "verdict": "➖ 애매",
+ "verdict_why": "고른 자리 5·하루 3·상한 1.1 시험 구간 샤프 1.14·연 14.91%·낙폭 -17.6% vs 지금(자리 5) 1.15·15.02%·-17.6% · 빈 자리 현금 23.0% vs 23.0% (S&P 15.13%·-33.7%). 16조합 중 지금보다 샤프 높은 것 0개 · 순위상관 0.63.",
+ "next": "자리 수는 그대로(5) · 다음 밤: #5 고래 바스켓 10→15·20 종목 넓히기(오늘과 같은 「넓게 깔기」 물음을 고래 칸에서)",
+ "note": "킥 신호 대신 섹터·테마 ETF 52주 신고가 돌파(후보 24개 남짓 → 자리 10·12는 다 못 채워 현금이 놀 수 있음, 개별 종목이면 다를 수 있음) · 기본 = C안 뼈대 + 변동성 맞춤 · 킥 칸 19% · 한 자리 = 1/자리 수 · 상한 = 자리 크기 1.10배 넘으면 다음 날 덜어냄 · idle = 킥 칸 안 빈 자리 현금(BIL) 평균 % · 앞 2008-07~2016 고르기 / 뒤 2017~ 시험 · 회전율×0.1% 비용 · 매수 추천 아님"
+}
