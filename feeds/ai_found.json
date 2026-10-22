@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "램리서치 −9%, 공급 제약이 전망 제한 — AMAT −6%·ASML −4%",
+   "url": "https://247wallst.com/investing/2026/10/22/lam-research-sinks-9-as-supply-constraints-cap-outlook-applied-materials-drops-6-asml-holding-falls-4/",
+   "press": "24/7 Wall St.",
+   "at": "2026-10-23 03:35",
+   "why": "AI 매도가 장비주로 번짐 — AI 차입 가설·반도체 칸, 「수요 아닌 공급」 경고라 메모리 가격력엔 반대 해석",
+   "summary": "램리서치 −9%(공급망 제약으로 전망 상단 제한) · AMAT −6%·ASML −4% · 같은 날 AMD·마벨 −8%·인텔 −7%"
+  },
+  {
+   "title": "AI·반도체가 나스닥100 하락분의 93% 차지",
+   "url": "https://www.stocktitan.net/articles/why-is-nasdaq-down-today-october-22-2026-ai-chip-stocks",
+   "press": "StockTitan",
+   "at": "2026-10-23 03:35",
+   "why": "「AI만 빠지는 날」 — 다우 −0.2% vs 나스닥 −2.7%, AI·반도체 킥 신규 진입 보류 필터 근거",
+   "summary": "10/22 나스닥100 시총 감소의 93%가 AI·반도체 · 나스닥 −2.67%·S&P −1.41%·다우 −0.21%(CNBC 14:08 EDT)"
+  },
+  {
    "title": "美 증시 라이브: 유가 급등·메타·테슬라 실적 속 다우·S&P·나스닥 하락",
    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html",
    "press": "Yahoo Finance",
@@ -623,23 +639,7 @@
    "at": "2026-10-21 04:24",
    "why": "헬스케어 회전 논지(DHR·MDT bets, WST ☕)에 IB 업종 상향이 붙음 — 다만 XLV 신고가·과매수라 추격보다 기한 관리",
    "summary": "RBC 캐피털 미 헬스케어 업종 비중확대 상향(제목 기준, 세부 종목 미확인)"
-  },
-  {
-   "title": "오늘 장: 미·이란 기대에 다우 강세·유가 하락, GM 매도 신호",
-   "url": "https://finance.yahoo.com/m/f3498525-5b31-3702-9e4b-aa8f358f4086/stock-market-today%3A-dow.html",
-   "press": "Investor's Business Daily(야후)",
-   "at": "2026-10-21 03:32",
-   "why": "에너지 칸·CNQ bet 의 역풍 — 협상 기대가 브렌트 110 논지를 깎음",
-   "summary": "다우 상승·유가 하락(미·이란 협상 기대) · WSJ: 브렌트 111달러 돌파 뒤 반락"
-  },
-  {
-   "title": "美 9월 잠정주택판매 전월비 −7.3%… 예상 대폭 하회",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wbmMzc0NyRDJ4V1BSNk9odXhrTzhoZDduc2tnTDJtWTVvN2k3S3pkbE5CbVBiSmlUbV9idWszeTgtdS1WWDV2M1pmTmdSRmRiMnY2aldpLXlDUUV4M1FrQk9KS0RLbnlYN1dKZnJrQWQ?oc=5",
-   "press": "연합인포맥스",
-   "at": "2026-10-21 01:44",
-   "why": "고금리 가설의 실물 부담 — 주택착공 최악급에 이어 두 번째 주택 약세 지표, 금리 하방(채권 칸) 근거",
-   "summary": "9월 잠정주택판매 −7.3% m/m, 예상 대폭 하회 · 같은 날 주택착공 팬데믹 이후 최악급(gn_us_fed)"
   }
  ],
- "at": "2026-10-23 00:35"
+ "at": "2026-10-23 03:35"
 }

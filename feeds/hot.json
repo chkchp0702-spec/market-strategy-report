@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23 02:35",
+ "at": "2026-10-23 03:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/httpswwwcnbccom20261021inflationukcpiinterestrateshtml": {
@@ -21,11 +21,6 @@
    "lv": 1,
    "why": "항셍 −2.7% 23,008·4개월 최저 — 부양 기대 후퇴, 1288.HK bet(중국농업은행) 손절선 시험",
    "at": "2026-10-22 12:35"
-  },
-  "n/httpswwwcnbccom20261022usirantrumphormuzhtml": {
-   "lv": 1,
-   "why": "열린 CNQ bet·고유가 가설 — 미 국무부 사우디 인력 철수(후티 공항·유전 공격), 중동 확전 위험 재부각",
-   "at": "2026-10-22 13:35"
   },
   "HANAchina/70840": {
    "lv": 1,
@@ -57,11 +52,6 @@
    "why": "반도체(메모리) 칸 — 대만 첫 반도체 노조 파업이 마이크론 공장 직격, 메모리 공급 차질 시 삼성·하이닉스 반사 수혜 여부",
    "at": "2026-10-22 19:35"
   },
-  "n/aNnFDd1ctR2hfcl9CZ2NMMGpleWFDaUp4a2I4Q0VrUXdNbDM3Uk45MzMwoc5": {
-   "lv": 1,
-   "why": "삼성전기 테슬라·엔비디아 3.7조 투자 유치(더벨) — 코스피 −3.5%일 한국 AI 밸류체인 재료, 우리 신호 없음·관찰",
-   "at": "2026-10-22 20:35"
-  },
   "kimu_nim/47144": {
    "lv": 1,
    "why": "🫀 신용 R3·한국 칸 — 증권사 삼전닉스 신용한도 20억→3억 축소: 빚투 강제 축소 = 단기 매물, 청산 끝나면 바닥 신호(ideas 18:35 포지션 가벼움 필터)",
@@ -92,16 +82,6 @@
    "why": "나스닥 −2.3%(장중)·VIX 19 — AI 지출 불안 확산, 성장주 킥 진입 보류 근거",
    "at": "2026-10-23 00:35"
   },
-  "n/Y0MW53VGZlT09uQmxfWUphRDd4aGVSMi1McWF2VWxpQUtYQnlMdHdta1ooc5": {
-   "lv": 1,
-   "why": "아람코 본사 대피·재택 — 10/14 후티 피격 뒤 확전 단계 상승, 열린 CNQ(유가) bet·에너지 칸 직결",
-   "at": "2026-10-23 01:35"
-  },
-  "n/s20261022frenchbondstressdeepensascrisiseracautioncreepsback": {
-   "lv": 1,
-   "why": "佛-獨 스프레드 15년 최대 — 열린 EWQ(프랑스) bet 손절선(−4%) 점검 · 유럽 금리 상방",
-   "at": "2026-10-23 01:35"
-  },
   "n/httpswwwcnbccom20261022metastockq3earningsfreecashflowhtml": {
    "lv": 1,
    "why": "메타 −6%·AI 지출로 잉여현금흐름 마이너스 — 「AI 차입·크레딧이 약한 고리」 가설 0.87 핵심 근거",
@@ -112,15 +92,15 @@
    "why": "핵심 가설 직격 — 美 10년 장중 4.97%로 5% 하회(−18bp), 「고금리 장기화 5.0~5.3% 밴드」 깨짐 조건 시험 · 종가 확인",
    "at": "2026-10-23 02:35"
   },
-  "n/mbergcomnewsarticles20261021stockmarkettodaydowspliveupdates": {
+  "n/d994c0823a96901a7cb056f412a7chipstockreboundcomeshtmltsrcrss": {
    "lv": 1,
-   "why": "7월 이후 최악의 날 + 채권 랠리 — 위험 회피 국면·성장주 킥 진입 보류 근거",
-   "at": "2026-10-23 02:35"
+   "why": "램리서치 −9% 「공급 제약」 경고에 반도체 반등 무산 — AI 매도가 장비주로 확산, AI 차입 가설 0.87·반도체 칸 직결",
+   "at": "2026-10-23 03:35"
   },
-  "n/urgetrumpblamesiranwellsfargohuangcommentscZxwLQuRBD4tsrcrss": {
+  "n/aderscostofhedgingagainstbigtreasuriesrallyissoaringmvjv24q7": {
    "lv": 1,
-   "why": "SOXL 6개월 최저 — 웰스파고 「젠슨 황 발언이 시장 겁줘」: AI 차입 가설 0.87·반도체 칸 직결",
-   "at": "2026-10-23 02:35"
+   "why": "美 국채 랠리 헤지 비용 급등 — 시장이 10년 5% 하회 지속에 베팅, 고금리 가설(0.66) 깨짐 쪽 근거",
+   "at": "2026-10-23 03:35"
   }
  }
 }
