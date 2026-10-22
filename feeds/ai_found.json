@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "항셍테크 3,830 하회 2년 최저 — 알리바바 100홍콩달러·텐센트 400 붕괴",
+   "url": "https://finance.biggo.com/news/6ac2b53b-cb1f-4086-8c5e-5ca19ee71aa9",
+   "press": "BigGo Finance",
+   "at": "2026-10-22 14:35",
+   "why": "중국·홍콩 칸 — 1288.HK 손절(−3%)과 같은 날, 기술주 주도 하락의 깊이 확인",
+   "summary": "항셍테크 3,830선 아래 2년 최저 · 알리바바 HK$100 하회 · 텐센트 HK$400 하회 · 레노버 급락(dimsumdaily −5%↑)"
+  },
+  {
+   "title": "아시아 증시 다시 후퇴 — 기술주 분위기 재악화",
+   "url": "https://www.france24.com/en/live-news/20261022-asian-stocks-back-in-retreat-as-tech-mood-sours-again",
+   "press": "France24(AFP)",
+   "at": "2026-10-22 14:35",
+   "why": "6501.T·MFG bet(일본) — AI 반도체 매도가 한·일·홍 동시, 닛케이 −1,400엔↑(gn_jp 14시)",
+   "summary": "AI 투자 신중론에 한국 반도체·일본 반도체 장비·홍콩 기술주 동반 약세 · 인도 센섹스도 하락 출발, 유가 상승(ianslive)"
+  },
+  {
    "title": "중국 CSI300, 6월 고점 대비 −20% 약세장 진입 — 10주 연속 하락",
    "url": "https://tradersunion.com/news/stocks/show/3917791-china-equities-bear-market-csi-300-drop/",
    "press": "Traders Union(CNBC 인용)",
@@ -623,22 +639,6 @@
    "at": "2026-10-21 00:07",
    "why": "AI 차입·크레딧 스트레스 가설과 직결 — 한국 비중 확대 금지 근거",
    "summary": "미 하이일드 금리 급등을 아시아 자금 이탈 선행 신호로 해석"
-  },
-  {
-   "title": "모건스탠리, 급락한 시게이트·웨스턴디지털 80% 상승 여력 제시",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQY290MXFSRkppbk1mX0czQXdSNVJ5VDBiUGVYdzRCcjU4MG5tUHhvc2dGekNFdURiNUNXRW1XYzVLcHc5NFBGVHVESW5fd0VjeWFqOUF4b09ibzBZU0d1amM5eG9kclMyWEhoM1R3RjVLNGs5YWVKQVVsRUNZZG5UM1c0VVlYSDR3U2xnNTRjMzVJdlNC?oc=5",
-   "press": "Barron's",
-   "at": "2026-10-20 23:51",
-   "why": "반도체 칸(10→7) 재확대 판단용 — 저장장치 반등 시각, 우리 신호 없음",
-   "summary": "MS 시게이트·WDC 최선호 유지, 80% 상승 여력 · 같은 날 엔비디아 중국 주문 보도에도 주가 정체(Barron's)"
-  },
-  {
-   "title": "골드만: 헤지펀드, 10년 내 가장 빠른 속도로 테크주 매도",
-   "url": "https://www.tipranks.com/news/hedge-funds-are-selling-tech-stocks-at-a-record-pace-says-goldman-sachs-gs",
-   "press": "TipRanks(골드만 프라임북 인용)",
-   "at": "2026-10-20 23:35",
-   "why": "QQQ 🔻dip 신호(10/15·16)와 이어짐 — 크라우딩 해소가 끝나야 dip 반등이 산다. 열린 성장 bets(DHR·MDT) 역풍",
-   "summary": "골드만 프라임 브로커리지: 헤지펀드 테크 순매도 속도 약 10년 최고(피드 yahoo 10/20 제목 확인). 이 URL 게재일·세부 숫자는 미확인 — 과거 보도일 수 있음."
   }
  ],
  "at": "2026-10-22 12:35"
