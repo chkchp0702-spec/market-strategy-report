@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "홍콩 증시 4개월 최저로 — 베이징 강한 부양 가능성 줄어",
+   "url": "https://www.scmp.com/business/china-business/article/3371717/hong-kong-stocks-head-4-month-low-chance-strong-stimulus-beijing-shrinks",
+   "press": "SCMP",
+   "at": "2026-10-22 12:35",
+   "why": "1288.HK bet·중국 칸 — 성장 목표 달성 가시권이라 부양 기대가 꺼짐",
+   "summary": "10/22 10:50 항셍 −2.7% 23,007.73(6/30 이후 최저 종가 경로)·항셍테크 −4.3% · CSI300 −1.6%·상하이 −1.4%"
+  },
+  {
    "title": "마이크론 대만 노조, 22일 하루 파업 — 성과급 갈등",
    "url": "https://www.tomshardware.com/pc-components/dram/microns-taiwan-union-will-launch-a-one-day-strike-this-week-threatening-round-the-clock-fab-operations-workers-demand-concrete-terms-for-2026-bonus-and-clearer-profit-sharing-arrangements",
    "press": "Tom's Hardware",
@@ -631,15 +639,7 @@
    "at": "2026-10-20 22:35",
    "why": "열린 CBOE bet(☕ 컵 10/19) 근거 — 10/20 프리마켓 옵션 첫날 QQQ·IWM 최다(gn_kr_bbg), 거래시간 확대가 거래 수수료로 이어지는지",
    "summary": "SEC가 Cboe의 일부 다중상장 개별 종목 옵션 장전·장후 거래를 승인. 게재일·첫날 거래량 숫자는 미확인(피드 제목만)."
-  },
-  {
-   "title": "미즈호, 전기장비 Hubbell·Eaton·AMETEK 긍정 / Rockwell·Vertiv 중립",
-   "url": "https://benzinga.com/z/24671128",
-   "press": "Benzinga",
-   "at": "2026-10-20 22:35",
-   "why": "히타치 bet(☕ cup_eye) 업종 — 바클레이즈 '데이터센터 장비 정점'과 반대로 미즈호는 전력장비 선호, 버티브는 중립",
-   "summary": "미즈호 전기장비·복합산업 3분기 미리보기(investing_en 피드 4960255)와 같은 맥락으로 보임. 게재일 미확인 — 같은 보고서인지 미확인."
   }
  ],
- "at": "2026-10-22 09:35"
+ "at": "2026-10-22 12:35"
 }
