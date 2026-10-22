@@ -1,5 +1,5 @@
 {
- "fetched_kst": "2026-10-23 06:16",
+ "fetched_kst": "2026-10-23 06:49",
  "items": {
   "sp500": {
    "value": 7663.43,
@@ -79,23 +79,23 @@
    "name": "미 2년 금리(선물)"
   },
   "usdkrw": {
-   "value": 1325.4,
+   "value": 1325.2,
    "prev": 1325.2,
-   "change": 0.2,
-   "change_pct": 0.02,
-   "asof_utc": "2026-10-22T17:15:00.000-0400",
-   "asof_kst": "5:15 PM EDT",
+   "change": -0.0,
+   "change_pct": -0.0,
+   "asof_utc": "2026-10-22T17:34:00.000-0400",
+   "asof_kst": "5:34 PM EDT",
    "market_state": "REG_MKT",
    "src": "CNBC KRW=",
    "name": "달러/원"
   },
   "dxy": {
-   "value": 101.64,
+   "value": 101.62,
    "prev": 101.78,
-   "change": -0.14,
-   "change_pct": -0.14,
-   "asof_utc": "2026-10-22T17:16:24.000-0400",
-   "asof_kst": "5:16 PM EDT",
+   "change": -0.16,
+   "change_pct": -0.15,
+   "asof_utc": "2026-10-22T17:49:40.000-0400",
+   "asof_kst": "5:49 PM EDT",
    "market_state": "REG_MKT",
    "src": "CNBC .DXY",
    "name": "달러지수"
@@ -105,19 +105,19 @@
    "prev": 97.15,
    "change": 1.95,
    "change_pct": 2.01,
-   "asof_utc": "2026-10-22T16:59:59.000-0400",
-   "asof_kst": "4:59 PM EDT",
+   "asof_utc": "2026-10-22T17:39:05.000-0400",
+   "asof_kst": "5:39 PM EDT",
    "market_state": "REG_MKT",
    "src": "CNBC @CL.1",
    "name": "WTI"
   },
   "brent": {
-   "value": 113.11,
+   "value": 113.05,
    "prev": 108.82,
-   "change": 4.29,
-   "change_pct": 3.94,
-   "asof_utc": "2026-10-22T22:06:24.000+0100",
-   "asof_kst": "10:06 PM BST",
+   "change": 4.23,
+   "change_pct": 3.89,
+   "asof_utc": "2026-10-22T22:38:31.000+0100",
+   "asof_kst": "10:38 PM BST",
    "market_state": "REG_MKT",
    "src": "CNBC @LCO.1",
    "name": "브렌트"
@@ -127,8 +127,8 @@
    "prev": 4150.0,
    "change": -110.2,
    "change_pct": -2.66,
-   "asof_utc": "2026-10-22T16:59:59.000-0400",
-   "asof_kst": "4:59 PM EDT",
+   "asof_utc": "2026-10-22T17:39:15.000-0400",
+   "asof_kst": "5:39 PM EDT",
    "market_state": "REG_MKT",
    "src": "CNBC @GC.1",
    "name": "금"
