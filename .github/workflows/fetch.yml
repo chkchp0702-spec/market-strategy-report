@@ -40,6 +40,11 @@ jobs:
       - name: 💼 포트 (시황대로 투자했다면)
         continue-on-error: true
         run: pip install -q yfinance pandas && python -m src.port && python -m src.kick_sleeve; python -m src.conc_port || true; python -m src.global_peers || true; python -m src.bets_score || true; python -m src.home || true; python -m src.nudge || true
+      - name: 🌃 한국 종가→다음 시가 그림자 기록 (저녁 수집 때만, 10/22)
+        continue-on-error: true
+        run: |
+          H=$(TZ=Asia/Seoul date +%H)
+          if [ "$H" -ge 16 ] && [ "$H" -le 23 ]; then pip install -q yfinance pandas numpy && python -m src.kr_overnight; else echo "저녁이 아니라 건너뜀"; fi
       - name: Check conditions → Issue
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
