@@ -4291,6 +4291,57 @@
 "src": "ins",
 "score": 67.7,
 "note": "기회형 내부자 3명 · 267천 달러 (10일 안 공시)"
+},
+"PR|2026-10-22": {
+"code": "PR",
+"name": "Permian Resources Corporation Class A ",
+"mkt": "US",
+"d": "2026-10-22",
+"src": "cup_eye",
+"score": 77.3,
+"lv": 24.52,
+"max20": 4.2,
+"id60": -0.117
+},
+"PAGP|2026-10-22": {
+"code": "PAGP",
+"name": "Plains GP Holdings, L.P. - Class A Sha",
+"mkt": "US",
+"d": "2026-10-22",
+"src": "cup_eye",
+"score": 72.4,
+"lv": 26.68,
+"max20": 1.5,
+"id60": -0.133
+},
+"TTC|2026-10-22": {
+"code": "TTC",
+"name": "Toro Company (The) Common Stock",
+"mkt": "US",
+"d": "2026-10-22",
+"src": "cup_eye",
+"score": 49.7,
+"lv": 100.06,
+"max20": 2.6,
+"id60": -0.167
+},
+"FET|2026-10-22|e": {
+"code": "FET",
+"name": "Forum Energy Technologies, Inc. Common",
+"mkt": "US",
+"d": "2026-10-22",
+"src": "earn",
+"score": 60.6,
+"lv": 59.61
+},
+"LLY|2026-10-22": {
+"code": "LLY",
+"name": "일라이 릴리",
+"mkt": "US",
+"d": "2026-10-22",
+"src": "focus",
+"score": 70,
+"theme": "헬스케어"
 }
 },
 "sent": [
