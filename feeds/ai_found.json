@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "메타 잉여현금흐름 91% 급감 — 월가 즉각 응징",
+   "url": "https://www.wionews.com/world/meta-s-free-cash-flow-just-collapsed-91-and-wall-street-punished-it-immediately-1785766809341",
+   "press": "WION",
+   "at": "2026-10-23 01:35",
+   "why": "AI 차입(크레딧) 가설 0.87 — 빅테크 AI 지출이 현금흐름을 잠식, 회사채·CDS 발행 압력으로 이어지는 고리",
+   "summary": "메타 3분기 잉여현금흐름 91% 감소(제목 기준), 매출 +28%에도 주가 하락(fxleaders 「550달러 아래」). 세부 숫자 원문 미확인."
+  },
+  {
+   "title": "저커버그 AI 지출 더 늘린다 — 메타 현금흐름 급감",
+   "url": "https://www.khaleejtimes.com/business/tech/meta-cash-flow-craters-as-zuckerberg-doubles-down-on-ai-spending",
+   "press": "Khaleej Times",
+   "at": "2026-10-23 01:35",
+   "why": "AI 인프라 지출 약정 확대(피드: 8,250억$·석 달 새 +1,250억$) — 반도체·전력 수요는 유지, 대신 자금조달 부담이 시장 약점",
+   "summary": "메타가 AI 지출 축소 대신 확대 기조 유지. CNBC: 주가 −6%, 잉여현금흐름 마이너스 전환."
+  },
+  {
    "title": "노키아 3분기 실적 공시(6-K) — 광·IP 네트워크 2027년 25~30% 성장 전망",
    "url": "https://www.sec.gov/Archives/edgar/data/0000924613/000110465926117972/tm2628115d1_6k.htm",
    "press": "SEC EDGAR",
@@ -623,22 +639,6 @@
    "at": "2026-10-21 03:35",
    "why": "투매 뒤 dip 진입 규칙(SOX 2일 연속 + 마감 확인)의 1일째 — 코스피·하이닉스 반등 여부 판단",
    "summary": "SOX 9거래일 연속 하락 끝, 10/20 반등 · 같은 날 코스피 −3.73%·하이닉스 3%대 약세(gn_kr_sector)"
-  },
-  {
-   "title": "Citrini, Claude AI 신약 연구 뒤 생명과학 업종 매수",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMkw2eGEtVG9TbkIyMHZ1NGpvODQtNTVJc0U5N0dNQVpDTUFYWk5LM3YwcDNZeU45dW5WMGg0dE1LZGxPRk1ZbjhQbjdRSl9EZFpZZTNlUVVFMGR1SmY1Q2lmS3NJaExvMzUxY0ZFTGtnV1M5Q1IzUUcxZ0F4d0ViNURzUnQ5UlR2Q3ZRU2FPOHZ",
-   "press": "Bloomberg",
-   "at": "2026-10-21 03:35",
-   "why": "열린 DHR(생명과학 장비) bet·WST cup_eye 와 이어짐 — AI→헬스케어 회전에 '생명과학' 서사가 붙음",
-   "summary": "AI 신약 설계 성과를 근거로 생명과학 도구 업체 베팅(gn_bbg 10/20) · DHR 실적 10/21 장전"
-  },
-  {
-   "title": "미국 주택착공 팬데믹 이후 최악 수준으로 감소",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcHZGU1hGOWU3RkRmNTBPbm5iQkRoOUc0VW5JS0VwaUtMMWxEUzI1OGxrbG1ldWdXdkxpTzVQb2xoOU9icV9ZQjF4eHRmMjBBbTYzQU5xeFRxM1lhUGNjQXd5MFRkQWNKdFF5cGNoZFJLSk9NSmczVzFZS0RtZ2dCbQ?oc=5",
-   "press": "Bloomberg",
-   "at": "2026-10-21 03:35",
-   "why": "12월 인상 컨센서스(고금리 가설)의 실물 부담 — 경기 둔화가 인상을 막을지 확인 지표",
-   "summary": "주택착공 팬데믹 이후 최저권(gn_us_fed) · CNBC '연준 인상 저울질 중 주택 경고등'(cnbc 10/20) · 모기지 7.40%(gn_kr_macro 10/20)"
   }
  ],
  "at": "2026-10-23 00:35"
