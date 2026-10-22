@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "프랑스 국채 금리 2002년 이후 최고 — 재정 우려 심화",
+   "url": "https://tradingeconomics.com/france/government-bond-yield/news/589480",
+   "press": "Trading Economics",
+   "at": "2026-10-22 10:35",
+   "why": "열린 EWQ(프랑스 ETF) bet 반대 근거 — 금리 5% = 주식 할인율·은행 자산 손실",
+   "summary": "프랑스 10년물 장중 5% 돌파, 2002년 이후 최고(피드 globalmktinsight 동일). 같은 날 「그리스 흑자 vs 프랑스 적자」(bbg) — 유럽 내 재정 차별화."
+  },
+  {
+   "title": "사우디 송유관 중단·새 공격에 유가 상승",
+   "url": "https://www.zawya.com/en/business/oil-gas/oil-climbs-as-saudi-pipeline-outage-fresh-attacks-heighten-supply-concerns-638163",
+   "press": "Zawya(Reuters)",
+   "at": "2026-10-22 10:35",
+   "why": "고유가 가설·CNQ bet — 공급 차질이 시설 피해로 번지는지 확인",
+   "summary": "후티 공격에 사우디 송유관 가동 중단 보도(기사 날짜 10월, 정확한 일자 미확인). 브렌트 110.11(+1.19%, latest.json). 美 일부 외교관 사우디 철수 지시(bbg)."
+  },
+  {
    "title": "텍사스 인스트루먼츠 2026년 3분기 실적 발표(8-K 원문)",
    "url": "https://www.sec.gov/Archives/edgar/data/0000097476/000009747626000165/q32026txnex99-eredgar.htm",
    "press": "SEC",
@@ -623,22 +639,6 @@
    "at": "2026-10-20 21:35",
    "why": "바클레이즈 '데이터센터 장비 사이클 정점'(bbg_mkt 10/20)과 같은 방향 — 전력·냉각 장비주(히타치 6501.T bet) 역풍 점검",
    "summary": "데이터센터 장비 주문 둔화 우려로 버티브 하락. 게재일 미확인 — 10/20 바클레이즈 판단과 연결해 참고만."
-  },
-  {
-   "title": "브렌트 5개월 고점 — 선박·사우디 시설 공격으로 공급 우려",
-   "url": "https://www.marketscreener.com/news/brent-crude-holds-near-five-month-high-on-middle-east-tension-ce785cdbde8cf722",
-   "press": "MarketScreener(Reuters)",
-   "at": "2026-10-20 20:35",
-   "why": "에너지 칸·CNQ(☕ cup_eye) bet 순풍 — 고금리 가설엔 물가 쪽 재료",
-   "summary": "브렌트가 중동 선박·사우디 시설 공격으로 5개월 고점 근처. 피드(cnbc_top)상 미 원유 109달러 돌파."
-  },
-  {
-   "title": "GE 에어로스페이스 3분기 실적 발표·연간 전망 상향",
-   "url": "https://www.sec.gov/Archives/edgar/data/0000040545/000004054526000063/ge3q2026earningsrelease.htm",
-   "press": "SEC 8-K",
-   "at": "2026-10-20 20:35",
-   "why": "하락장에서도 실물 수요(항공·전력) 실적은 상향 — AI 칩 밖 실적 버팀 확인",
-   "summary": "GE 에어로 강한 수요로 전망 상향(investing_kr 피드). 세부 숫자는 원문 8-K 참고(여기선 미확인)."
   }
  ],
  "at": "2026-10-22 09:35"
