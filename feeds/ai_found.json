@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "나스닥 선물, 중동 우려 재개로 하락",
+   "url": "https://finviz.com/news/401286/nasdaq-futures-slip-as-middle-east-worries-resume",
+   "press": "Finviz",
+   "at": "2026-10-22 21:35",
+   "why": "사우디 확전·AI 우려 겹친 미 장 개장 전 — 열린 CNQ·CBOE bet, 현금 칸",
+   "summary": "후티 사우디 공격·미 대사관 철수 뒤 나스닥 선물 약세(로이터 피드: −1%대). 정확한 수치 미확인."
+  },
+  {
+   "title": "유니온퍼시픽 3분기 실적(8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000100885/000010088526000319/a2026-10x228xkex991earning.htm",
+   "press": "SEC",
+   "at": "2026-10-22 21:35",
+   "why": "고유가·고금리 속 미 실물 화물 경기 체크 — 경기 둔화 가설 반대 근거 여부",
+   "summary": "10/22 3분기 이익 증가 공시(investing_en 피드). EPS 세부 수치 미확인 — 원문 확인 필요."
+  },
+  {
    "title": "미 대사관 「미국인은 즉시 사우디 떠나라」 — 비필수 인력·가족 철수",
    "url": "https://www.newsquawk.com/headlines/us-embassy-says-americans-should-leave-saudi-arabia-immediately",
    "press": "Newsquawk",
@@ -623,14 +639,6 @@
    "at": "2026-10-21 03:35",
    "why": "열린 CNQ(캐나다 에너지) bet — 유가발 인플레가 캐나다 금리·캐나다달러로 번지는지",
    "summary": "BoC 설문 기대인플레 상승(wsj 10/20) · 같은 날 국채 강세·유가 몇 주 고점에서 후퇴(gn_bbg)"
-  },
-  {
-   "title": "Nscale·Anthropic 450억 달러 AI 컴퓨팅 계약 협상",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-20/nscale-anthropic-in-talks-for-45b-ai-computing-deal-video",
-   "press": "Bloomberg",
-   "at": "2026-10-21 02:35",
-   "why": "전날 MS의 Nscale 전력 지연 철회와 이어지는 AI 인프라 수요 재료 — 히타치(전력망) bet·네오클라우드 약세(블룸버그 'AI 네오클라우드 빛 바래')와 엇갈림",
-   "summary": "Nscale-Anthropic 450억 달러 협상(bbg_tech) · 같은 날 'AI 네오클라우드 IPO 정체·주가 하락'(bbg_tech)·HSBC 코어위브 추가 하락(edaily)"
   }
  ],
  "at": "2026-10-22 15:35"
