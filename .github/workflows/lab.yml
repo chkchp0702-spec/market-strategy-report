@@ -29,8 +29,9 @@ jobs:
           case "${{ inputs.script }}" in src/lab/*.py) ;; *) echo "src/lab/ 안의 .py 만"; exit 1;; esac
           mkdir -p market/lab
           python "${{ inputs.script }}" 2>&1 | tee market/lab/_last_log.txt
+          python -m src.trials || true          # 🧾 시도 장부 (10/22) — 실험마다 조합 수·운 막대 갱신
       - name: 저장
         if: always()
         run: |
           git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
-          bash scripts/push.sh "lab $(TZ=Asia/Seoul date '+%F %H:%M') ${{ inputs.script }}" market/lab
+          bash scripts/push.sh "lab $(TZ=Asia/Seoul date '+%F %H:%M') ${{ inputs.script }}" market/lab market/trials.json

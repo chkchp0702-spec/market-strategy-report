@@ -182,6 +182,41 @@ def xr_doc(x):
         o.append("5일선 위 마감이면 팖")
     o.append(f"최대 {x['hold']}일")
     return " · ".join(o)
+# 🛑 신호별 손실 한도 (10/22 사용자 「다 진행」 — 퀀트 운용사 조사 ②, 밀레니엄식 담당자 한도를 신호에 적용)
+#   신호 계열(☕ 컵은 눈 검사 통과·일반 한 계열)마다 닫힌 거래로 「그 신호 장부」(= 1 + Σ 수익률 ÷ 자리 수)를 만들고 고점 대비
+#   −5% 면 새 진입 크기 반 · −7.5% 면 20거래일 새 진입 멈춤(그림자 채점은 계속) → 돌아오면 20거래일 동안 반 크기로 시험 뒤 정상.
+#   되짚기 안에서 그날까지 닫힌 거래만 쓴다(미래 정보 없음). 🐋 고래 바스켓은 따로 굴러가 제외.
+GUARD_HALF, GUARD_OFF, GUARD_OFF_D, GUARD_PROB_D = _P.get("guard_half", -0.05), _P.get("guard_off", -0.075), int(_P.get("guard_off_d", 20)), int(_P.get("guard_prob_d", 20))
+GUARD_FAM = lambda s: "cup" if s in ("cup", "cup_eye") else s
+
+
+def guard_state(closed, i, gs):
+    """그날(i)까지 닫힌 거래로 신호별 한도 상태 → {fam: {"mult": 1/0.5/0, "dd": %, "eq": %, "why"}} · gs 는 되짚기 동안 들고 다니는 기억"""
+    eq = {}
+    for t in closed:
+        f = GUARD_FAM(t["src"])
+        eq.setdefault(f, []).append(t["r"] / 100 / max(SLOTS, 1))
+    out = {}
+    for f, rs in eq.items():
+        m = gs.setdefault(f, {"base": 0, "off_until": -1, "prob_until": -1, "n0": 0})
+        v = 1.0 + sum(rs[:m["n0"]])                 # 마지막 재출발 때의 장부 값 = 새 고점 기준
+        pk, cur = v, v
+        for r in rs[m["n0"]:]:
+            cur += r; pk = max(pk, cur)
+        dd = cur / pk - 1
+        if i <= m["off_until"]:
+            st = {"mult": 0.0, "why": "🛑 멈춤"}
+        elif dd <= GUARD_OFF:
+            m["off_until"], m["prob_until"], m["n0"] = i + GUARD_OFF_D, i + GUARD_OFF_D + GUARD_PROB_D, len(rs)
+            st = {"mult": 0.0, "why": "🛑 멈춤", "new": True}
+        elif dd <= GUARD_HALF or i <= m["prob_until"]:
+            st = {"mult": 0.5, "why": "✂ 반 크기" if dd <= GUARD_HALF else "🧪 복귀 시험(반 크기)"}
+        else:
+            st = {"mult": 1.0, "why": "정상"}
+        out[f] = {**st, "dd": round(dd * 100, 2), "eq": round((cur - 1) * 100, 2), "n": len(rs)}
+    return out
+
+
 TRIAL_N = 10          # 🧪 시험 편입: 표본 10건↑·손익비 1.5↑ 이면 절반 크기로 먼저 (10/10 — 매집처럼 사용자가 원한 신호가 표본을 못 쌓는 문제)
 
 
@@ -679,6 +714,7 @@ def main() -> int:
         cash, pos, closed, events = 1.0, [], [], []
         val, peak, pause_until = [1.0], 1.0, -1
         last_exit = {}
+        gs, gstate = {}, {}                              # 🛑 신호별 손실 한도 기억
         prev = START
         for i, d in enumerate(D):
             _pd[0] = d
@@ -746,6 +782,10 @@ def main() -> int:
             if total - 1 <= BRAKE and pause_until < i:
                 pause_until = i + BRAKE_D
                 events.append({"d": d, "k": "브레이크", "why": f"슬리브 {round((total - 1) * 100, 1)}% → {BRAKE_D}거래일 새 진입 멈춤"})
+            gstate = guard_state(closed, i, gs)
+            for f_, g_ in gstate.items():
+                if g_.get("new"):
+                    events.append({"d": d, "k": "신호 멈춤", "why": f"{SRC_NAME.get(f_, f_)} 장부 고점 대비 {g_['dd']:+.1f}% → {GUARD_OFF_D}거래일 새 진입 멈춤, 그 뒤 {GUARD_PROB_D}거래일 반 크기 (🛑 신호별 한도)"})
             # 새로 들어가기
             if i > pause_until:
                 free = SLOTS - len([p for p in pos if p["src"] != "dip"])     # 🩹 급락 반등은 빈 자리(현금)를 쓰므로 자리로 세지 않음
@@ -760,12 +800,14 @@ def main() -> int:
                         continue
                     if c["code"] in last_exit and i - last_exit[c["code"]] < REENTRY:
                         continue
+                    if gstate.get(GUARD_FAM(c["src"]), {}).get("mult", 1.0) == 0:
+                        continue                         # 🛑 신호별 한도로 멈춘 신호
                     pick.append(c)
                 for c in pick:
                     e = px(c["code"], c["ed"]) or px(c["code"], d)
                     if not e:
                         continue
-                    cost = total / SLOTS * (0.5 if PROOF.get(c["src"], {}).get("trial") else 1.0) * float(c.get("size", 1.0))
+                    cost = total / SLOTS * (0.5 if PROOF.get(c["src"], {}).get("trial") else 1.0) * float(c.get("size", 1.0)) * gstate.get(GUARD_FAM(c["src"]), {}).get("mult", 1.0)
                     for q in [q for q in pos if q["src"] == "dip"] if cost > cash else []:   # 새 신호가 오면 🩹 반등 칸을 비워 자리를 내줌
                         qc = px(q["code"], d) or q["entry"]
                         cash += q["sh"] * qc * (1 - fee(q.get("mkt")))
@@ -801,9 +843,11 @@ def main() -> int:
                 val.append(total)
             else:
                 val[0] = total
+        simulate.guard = gstate
         return val, closed, events, pos, pause_until
 
     val, closed, events, pos, pause_until = simulate(False)
+    GUARD_NOW = dict(getattr(simulate, "guard", {}) or {})
     hval, hclosed = simulate(True)[:2]
 
     # 👻 그림자 채점 — 킥에 못 들어온 신호도 「들어갔다면」을 같은 규칙으로 계산해 쌓는다. 표본 20↑·손익비 1.5↑면 다음부터 진짜로 들어옴.
@@ -1085,6 +1129,9 @@ def main() -> int:
                  "split": RULE.get("now"),
                  "why": "🅿️ 빈 자리 돈은 현금 대신 💼 기본 칸과 똑같이(S&P·나스닥·금·국면 현금 비중 그대로) 굴리고, 신호가 오면 그만큼 지수를 팔아 삼 (Q10/19-1 · 실험실 2017~ 연 +0.62%p · 낙폭 −17.6→−18.1%)"},
         "rules": {"sleeve": sl_at(last_d), "slots": SLOTS, "stop": STOP, "take": TAKE, "time": TIME_D, "brake": BRAKE, "off": sorted(OFF), "whale_sleeve": WSN, "whale_n": WN},
+        "guard": {"rule": {"half": GUARD_HALF, "off": GUARD_OFF, "off_d": GUARD_OFF_D, "prob_d": GUARD_PROB_D,
+                           "doc": f"신호마다 닫힌 거래 장부가 고점 대비 {GUARD_HALF * 100:.0f}%면 반 크기 · {GUARD_OFF * 100:.1f}%면 {GUARD_OFF_D}거래일 멈춤 → {GUARD_PROB_D}거래일 반 크기로 복귀"},
+                  "now": {f: {**{k: v for k, v in g.items() if k != "new"}, "tag": TAG.get(f, ""), "name": SRC_NAME.get(f, f)} for f, g in GUARD_NOW.items()}},
         "whale": {"q": wq, "ret": round((wval[-1] - 1) * 100, 2), "line": [round((wsv.get(x, 1.0) - 1) * 100, 2) for x in pdates], "sleeve": WSN,
                   "rows": [{"t": b["t"], "n": b["n"], "w13f": b["w"], "by": b["by"], "d0": b["d0"], "entry": round(b["entry"], 4),
                             "now": round(px(b["t"], last_d) or b["entry"], 4), "r": round(((b["exit"] if not b["on"] else (px(b["t"], last_d) or b["entry"])) / b["entry"] - 1) * 100, 2),

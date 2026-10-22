@@ -1,0 +1,147 @@
+{
+ "at": "2026-10-22 09:16",
+ "total": 626,
+ "experiments": 15,
+ "adopted": 1,
+ "haircut": 0.5,
+ "luck_total": 1.07,
+ "line": "🧾 지금까지 시험한 규칙 조합 626개 (15개 실험) — 이만큼 고르면 운만으로도 앞 구간 1등 샤프가 1.07 정도 나와요. 그래서 채택은 뒤 구간(2017~)으로만 판정하고, 과거 검증의 초과수익은 절반으로 깎아 봐요.",
+ "rows": [
+  {
+   "name": "k1012_exits",
+   "where": "lab",
+   "n": 180,
+   "is_years": 8.5,
+   "luck_sharpe": 0.94,
+   "verdict": "➖ 애매",
+   "at": "2026-10-12 23:47"
+  },
+  {
+   "name": "base_bt",
+   "where": "bt",
+   "n": 108,
+   "is_years": 8.5,
+   "luck_sharpe": 0.88,
+   "verdict": null,
+   "at": "2026-10-18 09:16"
+  },
+  {
+   "name": "skel_bt",
+   "where": "bt",
+   "n": 84,
+   "is_years": 8.5,
+   "luck_sharpe": 0.85,
+   "verdict": null,
+   "at": "2026-10-18 09:24"
+  },
+  {
+   "name": "k1020_gap",
+   "where": "lab",
+   "n": 72,
+   "is_years": 8.5,
+   "luck_sharpe": 0.83,
+   "verdict": "➖ 애매",
+   "at": "2026-10-20 23:45"
+  },
+  {
+   "name": "k1019_cupbrk",
+   "where": "lab",
+   "n": 42,
+   "is_years": 8.5,
+   "luck_sharpe": 0.76,
+   "verdict": "➖ 애매",
+   "at": "2026-10-19 23:46"
+  },
+  {
+   "name": "k1013_trend",
+   "where": "lab",
+   "n": 30,
+   "is_years": 8.5,
+   "luck_sharpe": 0.71,
+   "verdict": "➖ 애매",
+   "at": "2026-10-13 23:44"
+  },
+  {
+   "name": "k1011_size",
+   "where": "lab",
+   "n": 19,
+   "is_years": 8.5,
+   "luck_sharpe": 0.64,
+   "verdict": "➖ 애매",
+   "at": "2026-10-11 23:44"
+  },
+  {
+   "name": "k1014_q10",
+   "where": "lab",
+   "n": 18,
+   "is_years": 8.5,
+   "luck_sharpe": 0.64,
+   "verdict": null,
+   "at": "2026-10-14 11:15"
+  },
+  {
+   "name": "k1014_volw",
+   "where": "lab",
+   "n": 18,
+   "is_years": 8.5,
+   "luck_sharpe": 0.64,
+   "verdict": "➖ 애매",
+   "at": "2026-10-14 23:43"
+  },
+  {
+   "name": "k1021_whale5",
+   "where": "lab",
+   "n": 16,
+   "is_years": 0.8,
+   "luck_sharpe": 2.08,
+   "verdict": null,
+   "at": null
+  },
+  {
+   "name": "k1014_q14",
+   "where": "lab",
+   "n": 12,
+   "is_years": 8.5,
+   "luck_sharpe": 0.57,
+   "verdict": "🧪",
+   "at": "2026-10-14 15:02"
+  },
+  {
+   "name": "e1013_pref",
+   "where": "lab",
+   "n": 9,
+   "is_years": 8.5,
+   "luck_sharpe": 0.52,
+   "verdict": null,
+   "at": "2026-10-13 13:26"
+  },
+  {
+   "name": "k1014_q12",
+   "where": "lab",
+   "n": 8,
+   "is_years": 8.5,
+   "luck_sharpe": 0.5,
+   "verdict": null,
+   "at": "2026-10-14 12:44"
+  },
+  {
+   "name": "rules_bt",
+   "where": "bt",
+   "n": 7,
+   "is_years": 8.5,
+   "luck_sharpe": 0.48,
+   "verdict": null,
+   "at": "2026-10-18 09:05"
+  },
+  {
+   "name": "kick_ideas_bt",
+   "where": "bt",
+   "n": 3,
+   "is_years": 8.5,
+   "luck_sharpe": 0.29,
+   "verdict": null,
+   "at": "2026-10-15 10:31"
+  }
+ ],
+ "note": "운 막대 = 샤프 0인 조합 N개를 앞 구간 Y년 돌렸을 때 1등의 기댓값(Bailey·López de Prado). 조합끼리 비슷할수록 실제로는 더 작음 — 보수적 기준."
+}
