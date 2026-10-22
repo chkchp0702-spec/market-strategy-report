@@ -1,24 +1,27 @@
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: CFLT"}}}
-$CFLT: possibly delisted; no timezone found
-
-1 Failed download:
-['CFLT']: possibly delisted; no timezone found
-분기 [('2025-02-15', 'Q4 2024', 7), ('2025-05-16', 'Q1 2025', 1), ('2025-08-15', 'Q2 2025', 31), ('2025-11-15', 'Q3 2025', 33), ('2026-02-15', 'Q4 2025', 24), ('2026-05-16', 'Q1 2026', 36), ('2026-08-15', 'Q2 2026', 28)] 예시 {'ITOS': {'n': 1, 'by': ['EcoR1 Capital'], 'w': [6.39]}}
-가격 (503, 142) 없는 종목 ['CFLT']
-now10 앞 -1.24 뒤 {'tot': np.float64(69.03), 'spy_tot': np.float64(16.97), 'cagr': np.float64(76.34), 'spy_cagr': np.float64(18.46), 'mdd': np.float64(-13.7), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.41), 'spy_sharpe': np.float64(1.41), 'days': 233, 'yrs': 0.93}
-nowk4 앞 -1.27 뒤 {'tot': np.float64(60.64), 'spy_tot': np.float64(16.97), 'cagr': np.float64(66.9), 'spy_cagr': np.float64(18.46), 'mdd': np.float64(-15.7), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.03), 'spy_sharpe': np.float64(1.41), 'days': 233, 'yrs': 0.93}
-nowk5 앞 -1.46 뒤 {'tot': np.float64(55.84), 'spy_tot': np.float64(16.97), 'cagr': np.float64(61.52), 'spy_cagr': np.float64(18.46), 'mdd': np.float64(-15.7), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.95), 'spy_sharpe': np.float64(1.41), 'days': 233, 'yrs': 0.93}
-nowk6 앞 -1.4 뒤 {'tot': np.float64(54.56), 'spy_tot': np.float64(16.97), 'cagr': np.float64(60.08), 'spy_cagr': np.float64(18.46), 'mdd': np.float64(-15.8), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.01), 'spy_sharpe': np.float64(1.41), 'days': 233, 'yrs': 0.93}
-w4 앞 -0.4 뒤 {'tot': np.float64(66.17), 'spy_tot': np.float64(16.97), 'cagr': np.float64(73.12), 'spy_cagr': np.float64(18.46), 'mdd': np.float64(-15.2), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.07), 'spy_sharpe': np.float64(1.41), 'days': 233, 'yrs': 0.93}
-w5 앞 -0.92 뒤 {'tot': np.float64(56.17), 'spy_tot': np.float64(16.97), 'cagr': np.float64(61.89), 'spy_cagr': np.float64(18.46), 'mdd': np.float64(-15.7), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.93), 'spy_sharpe': np.float64(1.41), 'days': 233, 'yrs': 0.93}
-w6 앞 -1.3 뒤 {'tot': np.float64(66.88), 'spy_tot': np.float64(16.97), 'cagr': np.float64(73.91), 'spy_cagr': np.float64(18.46), 'mdd': np.float64(-15.8), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.31), 'spy_sharpe': np.float64(1.41), 'days': 233, 'yrs': 0.93}
-n24 앞 -1.27 뒤 {'tot': np.float64(60.64), 'spy_tot': np.float64(16.97), 'cagr': np.float64(66.9), 'spy_cagr': np.float64(18.46), 'mdd': np.float64(-15.7), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.03), 'spy_sharpe': np.float64(1.41), 'days': 233, 'yrs': 0.93}
-n25 앞 -1.46 뒤 {'tot': np.float64(55.84), 'spy_tot': np.float64(16.97), 'cagr': np.float64(61.52), 'spy_cagr': np.float64(18.46), 'mdd': np.float64(-15.7), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.95), 'spy_sharpe': np.float64(1.41), 'days': 233, 'yrs': 0.93}
-n26 앞 -1.4 뒤 {'tot': np.float64(54.56), 'spy_tot': np.float64(16.97), 'cagr': np.float64(60.08), 'spy_cagr': np.float64(18.46), 'mdd': np.float64(-15.8), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.01), 'spy_sharpe': np.float64(1.41), 'days': 233, 'yrs': 0.93}
-ma4 앞 -1.36 뒤 {'tot': np.float64(96.72), 'spy_tot': np.float64(16.97), 'cagr': np.float64(107.75), 'spy_cagr': np.float64(18.46), 'mdd': np.float64(-17.1), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.26), 'spy_sharpe': np.float64(1.41), 'days': 233, 'yrs': 0.93}
-ma5 앞 -1.25 뒤 {'tot': np.float64(79.65), 'spy_tot': np.float64(16.97), 'cagr': np.float64(88.34), 'spy_cagr': np.float64(18.46), 'mdd': np.float64(-14.9), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.21), 'spy_sharpe': np.float64(1.41), 'days': 233, 'yrs': 0.93}
-ma6 앞 -1.5 뒤 {'tot': np.float64(86.88), 'spy_tot': np.float64(16.97), 'cagr': np.float64(96.54), 'spy_cagr': np.float64(18.46), 'mdd': np.float64(-14.0), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.42), 'spy_sharpe': np.float64(1.41), 'days': 233, 'yrs': 0.93}
-score4 앞 -0.82 뒤 {'tot': np.float64(79.6), 'spy_tot': np.float64(16.97), 'cagr': np.float64(88.28), 'spy_cagr': np.float64(18.46), 'mdd': np.float64(-17.1), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.96), 'spy_sharpe': np.float64(1.41), 'days': 233, 'yrs': 0.93}
-score5 앞 -1.18 뒤 {'tot': np.float64(70.04), 'spy_tot': np.float64(16.97), 'cagr': np.float64(77.47), 'spy_cagr': np.float64(18.46), 'mdd': np.float64(-16.2), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.96), 'spy_sharpe': np.float64(1.41), 'days': 233, 'yrs': 0.93}
-score6 앞 -1.3 뒤 {'tot': np.float64(81.4), 'spy_tot': np.float64(16.97), 'cagr': np.float64(90.32), 'spy_cagr': np.float64(18.46), 'mdd': np.float64(-14.5), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.21), 'spy_sharpe': np.float64(1.41), 'days': 233, 'yrs': 0.93}
-고름 {'mode': 'w', 'k': 5, 'is_sharpe': {'nowk': np.float64(-1.46), 'w': np.float64(-0.92), 'n2': np.float64(-1.46), 'ma': np.float64(-1.25), 'score': np.float64(-1.18)}} 순위상관 -0.09 킥 영향 -2.17
+== 🌙 10/22 추세 투표 (k1022_trend3) ==
+S&P   시험 15.13 -33.7 0.87
+지금  시험 연 14.4% · 낙폭 -18.6% · 샤프 1.14 · 회전 499% · 판정 바뀜 2.2회/년 | 앞 0.81
+고른 {'lbs': [1, 3, 12], 'mode': 'frac', 'k': 3, 'mult': 1.0} 앞 샤프 0.85 | 시험 연 14.09% · 낙폭 -18.5% · 샤프 1.13 · 회전 578% · 판정 바뀜 11.2회/년
+흔들기 기간 ×0.8 (0.8, 2.4, 9.6개월) 연 13.82% · 낙폭 -18.1% · 샤프 1.12 · 회전 619% · 판정 바뀜 13.8회/년
+흔들기 기간 ×1.2 (1.2, 3.6, 14.4개월) 연 14.08% · 낙폭 -18.5% · 샤프 1.13 · 회전 583% · 판정 바뀜 11.6회/년
+조합 18 · 지금보다 시험 샤프 높은 조합 4 · 앞/뒤 순위상관 0.56
+  [1, 3, 12] maj 1 | 앞 0.76 8.5 | 시험 1.15 14.43 -18.3 8.6
+  [1, 3, 12] maj 3 | 앞 0.84 9.62 | 시험 1.16 14.64 -19.5 2.9
+  [1, 3, 12] all 1 | 앞 0.71 7.13 | 시험 1.04 11.81 -15.9 17.7
+  [1, 3, 12] all 3 | 앞 0.79 8.2 | 시험 1.08 12.51 -16.6 6.7
+  [1, 3, 12] frac 1 | 앞 0.78 8.63 | 시험 1.11 13.64 -18.1 28.6
+  [1, 3, 12] frac 3 | 앞 0.85 9.56 | 시험 1.13 14.09 -18.5 11.2
+  [1, 3, 6, 12] maj 1 | 앞 0.74 8.14 | 시험 1.13 13.87 -17.3 9.0
+  [1, 3, 6, 12] maj 3 | 앞 0.83 9.28 | 시험 1.18 14.69 -17.5 2.7
+  [1, 3, 6, 12] all 1 | 앞 0.7 6.96 | 시험 1.02 11.5 -15.9 18.1
+  [1, 3, 6, 12] all 3 | 앞 0.78 7.88 | 시험 1.05 12.02 -16.6 6.7
+  [1, 3, 6, 12] frac 1 | 앞 0.79 8.77 | 시험 1.11 13.68 -18.3 34.7
+  [1, 3, 6, 12] frac 3 | 앞 0.84 9.48 | 시험 1.12 14.02 -18.4 13.8
+  [3, 6, 12] maj 1 | 앞 0.79 9.14 | 시험 1.1 13.99 -19.0 6.1
+  [3, 6, 12] maj 3 | 앞 0.8 9.31 | 시험 1.13 14.51 -18.2 1.8
+  [3, 6, 12] all 1 | 앞 0.71 7.53 | 시험 1.12 13.54 -16.0 7.1
+  [3, 6, 12] all 3 | 앞 0.81 8.66 | 시험 1.15 14.04 -16.4 2.0
+  [3, 6, 12] frac 1 | 앞 0.8 9.03 | 시험 1.11 13.97 -18.7 17.0
+  [3, 6, 12] frac 3 | 앞 0.84 9.68 | 시험 1.13 14.3 -18.3 6.3
+오늘 {'date': '2026-10-20', 'reg_now': True, 'ret': {'1m': -0.6, '3m': 3.2, '6m': 9.8, '12m': 17.0}, 'chosen_exposure': 1.0, 'vol_scale': 1.0}
+❌ 샤프·연수익 둘 다 지금보다 못함 — 시험 구간 샤프 1.13 vs 지금 1.14 · 연 14.09% vs 14.4% · 낙폭 -18.5% vs -18.6%.

@@ -1,0 +1,524 @@
+{
+ "at": "2026-10-22 09:18",
+ "question": "💼 기본 뼈대의 🟢/🔴 판정을 「S&P 200일선 + 3일 확인」 대신 1·3·12개월 등 여러 기간 S&P 수익 부호 투표(AQR 식)로 바꾸면 나은가",
+ "trials": 18,
+ "is": [
+  "2008-07-01",
+  "2016-12-31"
+ ],
+ "oos": [
+  "2017-01-01",
+  "2026-10-20"
+ ],
+ "spy": {
+  "is": {
+   "cagr": 9.03,
+   "vol": 21.4,
+   "mdd": -47.2,
+   "sharpe": 0.51
+  },
+  "oos": {
+   "cagr": 15.13,
+   "vol": 18.1,
+   "mdd": -33.7,
+   "sharpe": 0.87
+  }
+ },
+ "current": {
+  "is": {
+   "cagr": 9.24,
+   "vol": 11.8,
+   "mdd": -14.2,
+   "sharpe": 0.81,
+   "ex": 0.21,
+   "beat_years": 1,
+   "years": 9,
+   "turn": 471,
+   "sw": 2.5
+  },
+  "oos": {
+   "cagr": 14.4,
+   "vol": 12.6,
+   "mdd": -18.6,
+   "sharpe": 1.14,
+   "ex": -0.74,
+   "beat_years": 5,
+   "years": 10,
+   "turn": 499,
+   "sw": 2.2
+  },
+  "cfg": {
+   "rule": "S&P500 200일선 위 · 3일 확인 (지금)"
+  }
+ },
+ "chosen": {
+  "is": {
+   "cagr": 9.56,
+   "vol": 11.6,
+   "mdd": -14.7,
+   "sharpe": 0.85,
+   "ex": 0.53,
+   "beat_years": 3,
+   "years": 9,
+   "turn": 592,
+   "sw": 13.6
+  },
+  "oos": {
+   "cagr": 14.09,
+   "vol": 12.4,
+   "mdd": -18.5,
+   "sharpe": 1.13,
+   "ex": -1.04,
+   "beat_years": 5,
+   "years": 10,
+   "turn": 578,
+   "sw": 11.2
+  },
+  "cfg": {
+   "lbs": [
+    1,
+    3,
+    12
+   ],
+   "mode": "frac",
+   "k": 3,
+   "mult": 1.0
+  },
+  "up_pct_oos": 79
+ },
+ "check": {
+  "sharpe": false,
+  "cagr": false,
+  "mdd": true,
+  "robust": false
+ },
+ "grid": [
+  {
+   "lbs": [
+    1,
+    3,
+    12
+   ],
+   "mode": "maj",
+   "k": 1,
+   "is_sh": 0.76,
+   "is_cagr": 8.5,
+   "is_mdd": -14.4,
+   "oos_sh": 1.15,
+   "oos_cagr": 14.43,
+   "oos_mdd": -18.3,
+   "oos_turn": 776,
+   "oos_sw": 8.6,
+   "up_pct": 81
+  },
+  {
+   "lbs": [
+    1,
+    3,
+    12
+   ],
+   "mode": "maj",
+   "k": 3,
+   "is_sh": 0.84,
+   "is_cagr": 9.62,
+   "is_mdd": -14.2,
+   "oos_sh": 1.16,
+   "oos_cagr": 14.64,
+   "oos_mdd": -19.5,
+   "oos_turn": 533,
+   "oos_sw": 2.9,
+   "up_pct": 81
+  },
+  {
+   "lbs": [
+    1,
+    3,
+    12
+   ],
+   "mode": "all",
+   "k": 1,
+   "is_sh": 0.71,
+   "is_cagr": 7.13,
+   "is_mdd": -14.2,
+   "oos_sh": 1.04,
+   "oos_cagr": 11.81,
+   "oos_mdd": -15.9,
+   "oos_turn": 1331,
+   "oos_sw": 17.7,
+   "up_pct": 60
+  },
+  {
+   "lbs": [
+    1,
+    3,
+    12
+   ],
+   "mode": "all",
+   "k": 3,
+   "is_sh": 0.79,
+   "is_cagr": 8.2,
+   "is_mdd": -14.2,
+   "oos_sh": 1.08,
+   "oos_cagr": 12.51,
+   "oos_mdd": -16.6,
+   "oos_turn": 733,
+   "oos_sw": 6.7,
+   "up_pct": 60
+  },
+  {
+   "lbs": [
+    1,
+    3,
+    12
+   ],
+   "mode": "frac",
+   "k": 1,
+   "is_sh": 0.78,
+   "is_cagr": 8.63,
+   "is_mdd": -15.1,
+   "oos_sh": 1.11,
+   "oos_cagr": 13.64,
+   "oos_mdd": -18.1,
+   "oos_turn": 852,
+   "oos_sw": 28.6,
+   "up_pct": 78
+  },
+  {
+   "lbs": [
+    1,
+    3,
+    12
+   ],
+   "mode": "frac",
+   "k": 3,
+   "is_sh": 0.85,
+   "is_cagr": 9.56,
+   "is_mdd": -14.7,
+   "oos_sh": 1.13,
+   "oos_cagr": 14.09,
+   "oos_mdd": -18.5,
+   "oos_turn": 578,
+   "oos_sw": 11.2,
+   "up_pct": 79
+  },
+  {
+   "lbs": [
+    1,
+    3,
+    6,
+    12
+   ],
+   "mode": "maj",
+   "k": 1,
+   "is_sh": 0.74,
+   "is_cagr": 8.14,
+   "is_mdd": -14.2,
+   "oos_sh": 1.13,
+   "oos_cagr": 13.87,
+   "oos_mdd": -17.3,
+   "oos_turn": 819,
+   "oos_sw": 9.0,
+   "up_pct": 77
+  },
+  {
+   "lbs": [
+    1,
+    3,
+    6,
+    12
+   ],
+   "mode": "maj",
+   "k": 3,
+   "is_sh": 0.83,
+   "is_cagr": 9.28,
+   "is_mdd": -14.2,
+   "oos_sh": 1.18,
+   "oos_cagr": 14.69,
+   "oos_mdd": -17.5,
+   "oos_turn": 522,
+   "oos_sw": 2.7,
+   "up_pct": 78
+  },
+  {
+   "lbs": [
+    1,
+    3,
+    6,
+    12
+   ],
+   "mode": "all",
+   "k": 1,
+   "is_sh": 0.7,
+   "is_cagr": 6.96,
+   "is_mdd": -14.2,
+   "oos_sh": 1.02,
+   "oos_cagr": 11.5,
+   "oos_mdd": -15.9,
+   "oos_turn": 1365,
+   "oos_sw": 18.1,
+   "up_pct": 56
+  },
+  {
+   "lbs": [
+    1,
+    3,
+    6,
+    12
+   ],
+   "mode": "all",
+   "k": 3,
+   "is_sh": 0.78,
+   "is_cagr": 7.88,
+   "is_mdd": -14.2,
+   "oos_sh": 1.05,
+   "oos_cagr": 12.02,
+   "oos_mdd": -16.6,
+   "oos_turn": 731,
+   "oos_sw": 6.7,
+   "up_pct": 57
+  },
+  {
+   "lbs": [
+    1,
+    3,
+    6,
+    12
+   ],
+   "mode": "frac",
+   "k": 1,
+   "is_sh": 0.79,
+   "is_cagr": 8.77,
+   "is_mdd": -14.8,
+   "oos_sh": 1.11,
+   "oos_cagr": 13.68,
+   "oos_mdd": -18.3,
+   "oos_turn": 789,
+   "oos_sw": 34.7,
+   "up_pct": 79
+  },
+  {
+   "lbs": [
+    1,
+    3,
+    6,
+    12
+   ],
+   "mode": "frac",
+   "k": 3,
+   "is_sh": 0.84,
+   "is_cagr": 9.48,
+   "is_mdd": -14.6,
+   "oos_sh": 1.12,
+   "oos_cagr": 14.02,
+   "oos_mdd": -18.4,
+   "oos_turn": 559,
+   "oos_sw": 13.8,
+   "up_pct": 80
+  },
+  {
+   "lbs": [
+    3,
+    6,
+    12
+   ],
+   "mode": "maj",
+   "k": 1,
+   "is_sh": 0.79,
+   "is_cagr": 9.14,
+   "is_mdd": -14.2,
+   "oos_sh": 1.1,
+   "oos_cagr": 13.99,
+   "oos_mdd": -19.0,
+   "oos_turn": 674,
+   "oos_sw": 6.1,
+   "up_pct": 84
+  },
+  {
+   "lbs": [
+    3,
+    6,
+    12
+   ],
+   "mode": "maj",
+   "k": 3,
+   "is_sh": 0.8,
+   "is_cagr": 9.31,
+   "is_mdd": -14.2,
+   "oos_sh": 1.13,
+   "oos_cagr": 14.51,
+   "oos_mdd": -18.2,
+   "oos_turn": 484,
+   "oos_sw": 1.8,
+   "up_pct": 85
+  },
+  {
+   "lbs": [
+    3,
+    6,
+    12
+   ],
+   "mode": "all",
+   "k": 1,
+   "is_sh": 0.71,
+   "is_cagr": 7.53,
+   "is_mdd": -14.2,
+   "oos_sh": 1.12,
+   "oos_cagr": 13.54,
+   "oos_mdd": -16.0,
+   "oos_turn": 772,
+   "oos_sw": 7.1,
+   "up_pct": 70
+  },
+  {
+   "lbs": [
+    3,
+    6,
+    12
+   ],
+   "mode": "all",
+   "k": 3,
+   "is_sh": 0.81,
+   "is_cagr": 8.66,
+   "is_mdd": -14.2,
+   "oos_sh": 1.15,
+   "oos_cagr": 14.04,
+   "oos_mdd": -16.4,
+   "oos_turn": 495,
+   "oos_sw": 2.0,
+   "up_pct": 70
+  },
+  {
+   "lbs": [
+    3,
+    6,
+    12
+   ],
+   "mode": "frac",
+   "k": 1,
+   "is_sh": 0.8,
+   "is_cagr": 9.03,
+   "is_mdd": -14.2,
+   "oos_sh": 1.11,
+   "oos_cagr": 13.97,
+   "oos_mdd": -18.7,
+   "oos_turn": 629,
+   "oos_sw": 17.0,
+   "up_pct": 82
+  },
+  {
+   "lbs": [
+    3,
+    6,
+    12
+   ],
+   "mode": "frac",
+   "k": 3,
+   "is_sh": 0.84,
+   "is_cagr": 9.68,
+   "is_mdd": -14.2,
+   "oos_sh": 1.13,
+   "oos_cagr": 14.3,
+   "oos_mdd": -18.3,
+   "oos_turn": 492,
+   "oos_sw": 6.3,
+   "up_pct": 82
+  }
+ ],
+ "robust": [
+  {
+   "is": {
+    "cagr": 8.72,
+    "vol": 11.6,
+    "mdd": -15.2,
+    "sharpe": 0.78,
+    "ex": -0.3,
+    "beat_years": 1,
+    "years": 9,
+    "turn": 655,
+    "sw": 17.7
+   },
+   "oos": {
+    "cagr": 13.82,
+    "vol": 12.3,
+    "mdd": -18.1,
+    "sharpe": 1.12,
+    "ex": -1.32,
+    "beat_years": 4,
+    "years": 10,
+    "turn": 619,
+    "sw": 13.8
+   },
+   "cfg": {
+    "lbs": [
+     1,
+     3,
+     12
+    ],
+    "mode": "frac",
+    "k": 3,
+    "mult": 0.8
+   },
+   "up_pct_oos": 79,
+   "what": "기간 ×0.8 (0.8, 2.4, 9.6개월)"
+  },
+  {
+   "is": {
+    "cagr": 9.03,
+    "vol": 11.7,
+    "mdd": -14.6,
+    "sharpe": 0.8,
+    "ex": 0.0,
+    "beat_years": 2,
+    "years": 9,
+    "turn": 566,
+    "sw": 12.8
+   },
+   "oos": {
+    "cagr": 14.08,
+    "vol": 12.4,
+    "mdd": -18.5,
+    "sharpe": 1.13,
+    "ex": -1.05,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 583,
+    "sw": 11.6
+   },
+   "cfg": {
+    "lbs": [
+     1,
+     3,
+     12
+    ],
+    "mode": "frac",
+    "k": 3,
+    "mult": 1.2
+   },
+   "up_pct_oos": 79,
+   "what": "기간 ×1.2 (1.2, 3.6, 14.4개월)"
+  }
+ ],
+ "rank_corr": 0.56,
+ "grid_beat_current_oos": "4/18",
+ "verdict": "❌",
+ "verdict_why": "샤프·연수익 둘 다 지금보다 못함 — 시험 구간 샤프 1.13 vs 지금 1.14 · 연 14.09% vs 14.4% · 낙폭 -18.5% vs -18.6%.",
+ "next": "판정은 지금(200일선·3일) 그대로 · 다음 밤: 자산별 추세 거르기(k1022_assettrend)",
+ "now": {
+  "date": "2026-10-20",
+  "reg_now": true,
+  "ret": {
+   "1m": -0.6,
+   "3m": 3.2,
+   "6m": 9.8,
+   "12m": 17.0
+  },
+  "chosen_exposure": 1.0,
+  "vol_scale": 1.0
+ },
+ "mode_lab": {
+  "maj": "과반이면 🟢",
+  "all": "전부 양수여야 🟢",
+  "frac": "양수 표 비율만큼 섞기"
+ },
+ "note": "기본 = 💼 C안 뼈대(🟢 47.5·47.5·금 5 / 🔴 31.5·31.5·금 11·현금 26) + 🦴 변동성 맞춤 방어형(20일·15%·바닥 30%·5%p 밴드) · 금 조건부 없음 · 투표 = SPY(배당 포함) 21·63·126·252거래일 수익 부호 · 다음 날 체결 · 매주+목표 바뀐 날 비중 맞춤 · 회전율×0.1% · sw = 해마다 노출 바뀐 횟수 · 매수 추천 아님"
+}
