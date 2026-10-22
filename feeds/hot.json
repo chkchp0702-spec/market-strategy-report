@@ -1,16 +1,11 @@
 {
- "at": "2026-10-23 06:35",
+ "at": "2026-10-23 07:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/httpswwwcnbccom20261021inflationukcpiinterestrateshtml": {
    "lv": 1,
    "why": "美 10년 5.1% 가설(금리 높게 오래) — 英 CPI 3.5% 상회·BoE 인상 기대, 佛-獨 스프레드와 함께 유럽 금리 압력 → EWQ bet 역풍",
    "at": "2026-10-21 15:35"
-  },
-  "n/lB0UTJqMmUyTTY0SnluSUhTVGR4anFHZGhMTUItM3I5VUlIZkhRVEQydwoc5": {
-   "lv": 1,
-   "why": "열린 CNQ bet·에너지 칸 — WSJ 유가 상승분 반납(걸프 공급 회복), 정상화 보도 3곳째",
-   "at": "2026-10-22 03:35"
   },
   "globalmktinsight/7737": {
    "lv": 1,
@@ -36,11 +31,6 @@
    "lv": 1,
    "why": "광통신 칸 — 중국 광모듈 1위권 이오프토링크 장중 −10%(회사 「납품 정상·1.6T 증산」 해명), 광통신 심리 시험",
    "at": "2026-10-22 17:35"
-  },
-  "n/httpswwwcnbccom20261022oilpricestodaywtibrentsaudiarabiahtml": {
-   "lv": 1,
-   "why": "에너지 칸·열린 CNQ bet — 미·이스라엘 이란 재공습 검토 보도에 브렌트 112달러 돌파(110 위 이틀째), 고금리 가설엔 물가 상방",
-   "at": "2026-10-22 18:35"
   },
   "n/httpswwwhankyungcomarticle202610229188i": {
    "lv": 1,
@@ -72,70 +62,30 @@
    "why": "아람코 「에너지 시장 전례 없는 충격」 — 브렌트 112 지정학형 상승 지속, CNQ bet·에너지 칸",
    "at": "2026-10-22 22:35"
   },
-  "n/Mxc2ZzN0tqYUNZWXNxWWs4ZURWem5qSlRuSlBocDVRV3dVSmN1aXB6aEgoc5": {
-   "lv": 1,
-   "why": "AI 지출 공포+유가 5월 이후 최고 동시 — 위험 회피 국면·고금리 가설·CNQ bet 직결",
-   "at": "2026-10-22 23:35"
-  },
   "n/sutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
    "lv": 1,
    "why": "나스닥 −2.3%(장중)·VIX 19 — AI 지출 불안 확산, 성장주 킥 진입 보류 근거",
    "at": "2026-10-23 00:35"
-  },
-  "n/httpswwwcnbccom20261022metastockq3earningsfreecashflowhtml": {
-   "lv": 1,
-   "why": "메타 −6%·AI 지출로 잉여현금흐름 마이너스 — 「AI 차입·크레딧이 약한 고리」 가설 0.87 핵심 근거",
-   "at": "2026-10-23 01:35"
-  },
-  "n/nkbelow5asinvestorslookforsafetydbc86ee9modmw_rss_topstories": {
-   "lv": 2,
-   "why": "핵심 가설 직격 — 美 10년 장중 4.97%로 5% 하회(−18bp), 「고금리 장기화 5.0~5.3% 밴드」 깨짐 조건 시험 · 종가 확인",
-   "at": "2026-10-23 02:35"
-  },
-  "n/d994c0823a96901a7cb056f412a7chipstockreboundcomeshtmltsrcrss": {
-   "lv": 1,
-   "why": "램리서치 −9% 「공급 제약」 경고에 반도체 반등 무산 — AI 매도가 장비주로 확산, AI 차입 가설 0.87·반도체 칸 직결",
-   "at": "2026-10-23 03:35"
-  },
-  "n/aderscostofhedgingagainstbigtreasuriesrallyissoaringmvjv24q7": {
-   "lv": 1,
-   "why": "美 국채 랠리 헤지 비용 급등 — 시장이 10년 5% 하회 지속에 베팅, 고금리 가설(0.66) 깨짐 쪽 근거",
-   "at": "2026-10-23 03:35"
-  },
-  "n/wsstockmarketnewswhyisgevernovastocktumblingtoday93CH4967194": {
-   "lv": 1,
-   "why": "GE Vernova Q3 혼조·풍력 약세 경고로 급락(SA) — 열린 6501.T 히타치(전력망) bet 같은 업종, 전력 장비도 AI 매도에 휩쓸리는지 확인",
-   "at": "2026-10-23 04:35"
   },
   "n/httpswwwynacokrviewAKR20261023005000071": {
    "lv": 1,
    "why": "트럼프 「이란, 중간선거 앞 유가 올리려 꾸며내」 — 美 정부의 유가 누르기 신호, 열린 CNQ bet(유가) 되돌림 위험",
    "at": "2026-10-23 04:35"
   },
-  "n/Y0MW53VGZlT09uQmxfWUphRDd4aGVSMi1McWF2VWxpQUtYQnlMdHdta1ooc5": {
+  "globalmktinsight/7744": {
    "lv": 1,
-   "why": "에너지 칸·열린 CNQ bet — 아람코 다란 본사 첫 대피(후티 공격 확전), 브렌트 5개월 고점권 지정학 프리미엄 지속",
-   "at": "2026-10-23 05:35"
+   "why": "코스피 야간선물 −2.61% — SOX −6.7% 반영, 오늘 한국 반도체 시가 갭 하락 예고(AI 차입 가설·삼성·하이닉스 관찰)",
+   "at": "2026-10-23 07:35"
   },
-  "n/lVlJicDhvSHl5M01BRFNKcUpNOUMwYzVIUDVKOXNSV0wxZXNObVZWUjF5oc5": {
+  "n/httpswwwcnbccom20261022trumpdefenseproductionacthtml": {
    "lv": 1,
-   "why": "AI 차입(크레딧) 가설 0.87 — 메타 회사채 약세·CDS 급등, 「AI 빚」 불안이 주식에서 채권으로 번진 확인",
-   "at": "2026-10-23 05:35"
+   "why": "트럼프 국방물자생산법(DPA)으로 원유 생산·정제 증산 — 유가 누르기 정책 = 열린 CNQ bet 역풍",
+   "at": "2026-10-23 07:35"
   },
-  "n/g5WXhpWEZlOFhqVm5iWG9HMGdBcGhvTVVkMldk": {
-   "lv": 2,
-   "why": "필라델피아 반도체 −6.72% 급락 — 반도체 칸(7%)·한국 메모리 오늘 개장 직격, AI 차입 가설 0.87 의 주가 확인",
-   "at": "2026-10-23 06:35"
-  },
-  "n/ratestriggerasecondenergysqueeze2d7269": {
+  "n/swwwftcomcontentbb564eb179d44694aa241155202a9abcsyn25a6b1a61": {
    "lv": 1,
-   "why": "유조선 운임 급등이 「2차 에너지 압박」 — 유가 이란전 고점 근접, 에너지 칸·열린 CNQ bet",
-   "at": "2026-10-23 06:35"
-  },
-  "n/2dFdycWlLQktMMmNaM1J0dFpGVXJQOEZfcTlnN": {
-   "lv": 1,
-   "why": "채권 트레이더 연준 인상 베팅 철회 — 고금리 가설(0.50) 깨짐 쪽 근거, 10년 5% 하회 이틀째 판정과 직결",
-   "at": "2026-10-23 06:35"
+   "why": "오픈AI 목표 기업가치 1.25조$로 낮춤(FT) — AI 돈줄 가설(0.87) 쪽 증거, 앤트로픽 상장 앞 밸류 눈높이 하향",
+   "at": "2026-10-23 07:35"
   }
  }
 }

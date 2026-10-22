@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "백악관, 디젤 6달러 넘자 한국전쟁 시절 법(DPA)으로 정유·원유 증산 추진",
+   "url": "https://oilprice.com/Energy/Crude-Oil/White-House-Turns-to-Korean-War-Era-Law-as-Diesel-Prices-Stay-Above-6.amp.html",
+   "press": "OilPrice",
+   "at": "2026-10-23 07:35",
+   "why": "美 정부의 직접 공급 개입 — 원유 생산자(열린 CNQ bet·PR 컵 신호)엔 정책 역풍",
+   "summary": "미국 정유 설비 가동이 한계에 닿고 디젤이 갤런당 6달러 위에 머물자 DPA 발동. CNBC 10/22 '트럼프, 원유 생산·정제에 DPA 발동'(피드)과 같은 건. 증산 효과의 규모·시점은 미확인."
+  },
+  {
+   "title": "SK하이닉스, 솔리다임 미국 상장(IPO) 추진 철회 보도",
+   "url": "https://stockhub.kr/news/news_2e292d51f55d",
+   "press": "stockhub(한국경제 보도 인용)",
+   "at": "2026-10-23 07:35",
+   "why": "하이닉스 실적 발표 직전 '자회사 가치 재평가' 기대가 빠짐 — SOX −6.7% 다음 날 한국 메모리 시가에 겹친 악재",
+   "summary": "한국경제 보도(피드 HANAchina/70867·investing_en). 9월엔 5~10조원 프리IPO 보도에 '결정된 바 없다'(asiae). 철회 사유·공식 공시는 미확인."
+  },
+  {
    "title": "웨스턴디지털, 실적 상회에도 시간외 10%대 급락 — 비용 압박·설비투자 확대",
    "url": "https://www.kucoin.com/news/flash/western-digital-shares-drop-over-10-after-hours-despite-beating-earnings-estimates",
    "press": "KuCoin News",
@@ -623,22 +639,6 @@
    "at": "2026-10-21 06:20",
    "why": "AI 차입(크레딧) 약한 고리 가설 0.86 — 빅테크 CDS 신고점과 같은 방향",
    "summary": "WSJ: 앤트로픽 2026년 상반기 순손실 800억 달러 초과. 매출 급증과 별개로 컴퓨트 비용 부담이 커 AI 조달 시장 부담 근거."
-  },
-  {
-   "title": "슈퍼마이크로, AI 수요에 매출 전망 상향…시간외 12% 급등",
-   "url": "https://www.investing.com/news/stock-market-news/supermicro-stock-surges-12-after-raising-revenue-outlook-on-ai-demand-4961114",
-   "press": "Investing.com",
-   "at": "2026-10-21 06:03",
-   "why": "AI 하드웨어 수요는 살아 있음 — SOX 반등 2일째 관찰(QQQ dip 허용 조건)과 이어짐",
-   "summary": "1분기 매출이 예상 상회할 것으로 사전 발표, 전망 상향에 시간외 +12%. 우리 신호 종목은 아님(👀 관찰)."
-  },
-  {
-   "title": "\"전력은 영원한 병목\" — 전력망 지연이 AI 경쟁을 위협",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNN095N2xyOEljTW53Y2djMG5Gek50Nkd5TERkbGdHVkxmbHdpcXZSbHgtWkE1bEpGT3l0Yk5sLUlSZUtGX3FjTWpwTWtYRlpsMDRmWTJ2OHJ3Q0UzRVpmLWR3ZTZfN0tiTjB5RHp0ZWdSbHF4ZTl3ZG1nQ2N5ZmRTME9n?oc=5",
-   "press": "Axios",
-   "at": "2026-10-21 06:20",
-   "why": "열린 히타치(6501.T, ☕ 10/16) 전력망 bet 순풍",
-   "summary": "데이터센터 전력 연결 지연이 AI 투자 속도를 제한 — 전력망·변압기 업체 수요 장기화 논리."
   }
  ],
  "at": "2026-10-23 06:35"
