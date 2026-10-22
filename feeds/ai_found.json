@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 증시 라이브: 유가 급등·메타·테슬라 실적 속 다우·S&P·나스닥 하락",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html",
+   "press": "Yahoo Finance",
+   "at": "2026-10-23 02:35",
+   "why": "고금리 가설(10년 5% 깨짐 시험)·에너지 칸·AI 차입 가설 동시 — 유가 상승에도 금리 하락",
+   "summary": "나스닥 −2.42% 26,057·S&P −1.26% · 브렌트 112.32(+3.2%)·WTI 99.23 · 美 10년 4.965%(티커, 라이브 본문엔 5.02% 언급) · 메타 −7.2%"
+  },
+  {
+   "title": "AI 붐 지속성 우려 재부상에 美 국채금리 급락",
+   "url": "https://www.theglobeandmail.com/investing/article-us-bond-yields-plunge-as-fears-about-sustaining-ai-boom-resurface/",
+   "press": "The Globe and Mail",
+   "at": "2026-10-23 02:35",
+   "why": "고금리 장기화 가설 깨짐 조건(10년 5.00 하회) 판정 재료",
+   "summary": "본문 접속 막힘 — 제목만 확인(수치 미확인). CNBC US10Y 기준 장중 4.969%(−17.7bp)"
+  },
+  {
    "title": "메타 잉여현금흐름 91% 급감 — 월가 즉각 응징",
    "url": "https://www.wionews.com/world/meta-s-free-cash-flow-just-collapsed-91-and-wall-street-punished-it-immediately-1785766809341",
    "press": "WION",
@@ -623,22 +639,6 @@
    "at": "2026-10-21 01:44",
    "why": "고금리 가설의 실물 부담 — 주택착공 최악급에 이어 두 번째 주택 약세 지표, 금리 하방(채권 칸) 근거",
    "summary": "9월 잠정주택판매 −7.3% m/m, 예상 대폭 하회 · 같은 날 주택착공 팬데믹 이후 최악급(gn_us_fed)"
-  },
-  {
-   "title": "워시 연준 의장, 월가에 금리 경고 신호",
-   "url": "https://www.thestreet.com/fed/kevin-warsh-sends-a-strong-warning-sign-on-rates-to-wall-street",
-   "press": "TheStreet",
-   "at": "2026-10-21 04:13",
-   "why": "10월 FOMC 인상 확률 watch — 고금리 장기화 가설 유지 근거",
-   "summary": "워시가 한 문구를 세 번 반복, 투자자 재포지셔닝(본문 미확인)"
-  },
-  {
-   "title": "필라델피아 반도체지수 9거래일 만에 반등 — AI·반도체주 반등",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sRFhwZHlVcy10OWZQQ1RZV2lIdE5LQ2tIR0I3V1NkSGlrVkh3VmxHU3R5d0VoUzU1MlZORmNGdEdZNG9VRG5uWXFmMExzNW0zTS05T2JBY0FYbUlEV3VNOQ",
-   "press": "Google 뉴스(한국)",
-   "at": "2026-10-21 03:35",
-   "why": "투매 뒤 dip 진입 규칙(SOX 2일 연속 + 마감 확인)의 1일째 — 코스피·하이닉스 반등 여부 판단",
-   "summary": "SOX 9거래일 연속 하락 끝, 10/20 반등 · 같은 날 코스피 −3.73%·하이닉스 3%대 약세(gn_kr_sector)"
   }
  ],
  "at": "2026-10-23 00:35"
