@@ -1,5 +1,5 @@
 {
- "at": "2026-10-22 22:35",
+ "at": "2026-10-22 23:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/httpswwwcnbccom20261021inflationukcpiinterestrateshtml": {
@@ -106,6 +106,21 @@
    "lv": 1,
    "why": "아람코 「에너지 시장 전례 없는 충격」 — 브렌트 112 지정학형 상승 지속, CNQ bet·에너지 칸",
    "at": "2026-10-22 22:35"
+  },
+  "n/Mxc2ZzN0tqYUNZWXNxWWs4ZURWem5qSlRuSlBocDVRV3dVSmN1aXB6aEgoc5": {
+   "lv": 1,
+   "why": "AI 지출 공포+유가 5월 이후 최고 동시 — 위험 회피 국면·고금리 가설·CNQ bet 직결",
+   "at": "2026-10-22 23:35"
+  },
+  "n/rticles20261022typhoonchampishutstaiwans5trillionstockmarket": {
+   "lv": 1,
+   "why": "대만 증시 휴장 — 반도체 수급 공백, 내일 한국 반도체(외국인 매도) 변동 주의",
+   "at": "2026-10-22 23:35"
+  },
+  "n/sutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
+   "lv": 1,
+   "why": "메타 신용위험 최고 — AI 차입 병목 가설(0.87) 근거",
+   "at": "2026-10-22 23:35"
   }
  }
 }
