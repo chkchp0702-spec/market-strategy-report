@@ -43,7 +43,23 @@ jobs:
             echo "day=$(ls data/20*.json | sort | tail -1)" >> $GITHUB_OUTPUT
           fi
       - name: Build + commit ledger
-        run: python -m src.build_report "${{ steps.pick.outputs.day }}" --commit
+        # 10/22 자가 업그레이드: 아침 리포트 세션이 PDF·장부를 직접 만들어 올린 날은 다시 만들지 않는다
+        # (CI 글꼴 차이로 1쪽 여유 29px<40 → 그날 src 를 고치는 push 마다 빌드 실패 4번, 건강검진 빨간불)
+        run: |
+          DAY="${{ steps.pick.outputs.day }}"
+          if python - "$DAY" <<'PY'
+          import json, sys, pathlib
+          d = json.load(open(sys.argv[1], encoding="utf-8"))
+          led = json.load(open("ledger/ledger.json", encoding="utf-8"))
+          tag = f'{d["date"]}_{d["edition"]}'
+          have = list(pathlib.Path("reports", tag).glob("Market_Strategy_Report_*.pdf"))
+          sys.exit(0 if d["date"] in led.get("_applied", []) and have else 1)
+          PY
+          then
+            echo "이미 반영된 날($DAY)·PDF 있음 → 리포트는 다시 만들지 않고 대시보드만"
+          else
+            python -m src.build_report "$DAY" --commit
+          fi
       - name: Dashboard
         run: python -m src.build_dashboard
       - name: Commit outputs
