@@ -1,0 +1,642 @@
+{
+ "at": "2026-10-22 09:19",
+ "question": "💼 기본 뼈대 위에 칸마다(S&P·나스닥·금) 「종가 < N일선이면 그 칸을 현금으로」 추세 거르기(Faber 식)를 얹으면 나은가",
+ "trials": 24,
+ "is": [
+  "2008-07-01",
+  "2016-12-31"
+ ],
+ "oos": [
+  "2017-01-01",
+  "2026-10-20"
+ ],
+ "spy": {
+  "is": {
+   "cagr": 9.03,
+   "vol": 21.4,
+   "mdd": -47.2,
+   "sharpe": 0.51
+  },
+  "oos": {
+   "cagr": 15.13,
+   "vol": 18.1,
+   "mdd": -33.7,
+   "sharpe": 0.87
+  }
+ },
+ "current": {
+  "is": {
+   "cagr": 9.24,
+   "vol": 11.8,
+   "mdd": -14.2,
+   "sharpe": 0.81,
+   "ex": 0.21,
+   "beat_years": 1,
+   "years": 9,
+   "turn": 471,
+   "sw": 2.5
+  },
+  "oos": {
+   "cagr": 14.4,
+   "vol": 12.6,
+   "mdd": -18.6,
+   "sharpe": 1.14,
+   "ex": -0.74,
+   "beat_years": 5,
+   "years": 10,
+   "turn": 499,
+   "sw": 2.2
+  },
+  "cfg": {
+   "rule": "지금 💼 규칙 (칸 거르기 없음)"
+  }
+ },
+ "chosen": {
+  "is": {
+   "cagr": 9.33,
+   "vol": 11.8,
+   "mdd": -14.9,
+   "sharpe": 0.82,
+   "ex": 0.3,
+   "beat_years": 1,
+   "years": 9,
+   "turn": 493,
+   "sw": 4.5
+  },
+  "oos": {
+   "cagr": 14.33,
+   "vol": 12.5,
+   "mdd": -17.5,
+   "sharpe": 1.14,
+   "ex": -0.8,
+   "beat_years": 5,
+   "years": 10,
+   "turn": 520,
+   "sw": 4.1
+  },
+  "cfg": {
+   "n": 150,
+   "check": "month",
+   "apply": "gold"
+  },
+  "off_pct_oos": {
+   "GLD": 28
+  },
+  "risk_avg_oos": 82.0
+ },
+ "check": {
+  "sharpe": false,
+  "cagr": true,
+  "mdd": true,
+  "robust": false
+ },
+ "grid": [
+  {
+   "n": 150,
+   "check": "daily3",
+   "apply": "gold",
+   "is_sh": 0.8,
+   "is_cagr": 9.15,
+   "is_mdd": -15.1,
+   "oos_sh": 1.13,
+   "oos_cagr": 14.15,
+   "oos_mdd": -17.6,
+   "oos_turn": 537,
+   "oos_sw": 5.5,
+   "off_pct": {
+    "GLD": 29
+   },
+   "risk_avg": 81.9
+  },
+  {
+   "n": 150,
+   "check": "daily3",
+   "apply": "eq",
+   "is_sh": 0.65,
+   "is_cagr": 6.52,
+   "is_mdd": -18.0,
+   "oos_sh": 1.15,
+   "oos_cagr": 13.56,
+   "oos_mdd": -13.9,
+   "oos_turn": 605,
+   "oos_sw": 6.5,
+   "off_pct": {
+    "SPY": 17,
+    "QQQ": 17
+   },
+   "risk_avg": 77.6
+  },
+  {
+   "n": 150,
+   "check": "daily3",
+   "apply": "all",
+   "is_sh": 0.65,
+   "is_cagr": 6.44,
+   "is_mdd": -18.9,
+   "oos_sh": 1.14,
+   "oos_cagr": 13.3,
+   "oos_mdd": -14.0,
+   "oos_turn": 642,
+   "oos_sw": 9.8,
+   "off_pct": {
+    "SPY": 17,
+    "QQQ": 17,
+    "GLD": 29
+   },
+   "risk_avg": 75.7
+  },
+  {
+   "n": 150,
+   "check": "month",
+   "apply": "gold",
+   "is_sh": 0.82,
+   "is_cagr": 9.33,
+   "is_mdd": -14.9,
+   "oos_sh": 1.14,
+   "oos_cagr": 14.33,
+   "oos_mdd": -17.5,
+   "oos_turn": 520,
+   "oos_sw": 4.1,
+   "off_pct": {
+    "GLD": 28
+   },
+   "risk_avg": 82.0
+  },
+  {
+   "n": 150,
+   "check": "month",
+   "apply": "eq",
+   "is_sh": 0.77,
+   "is_cagr": 7.88,
+   "is_mdd": -20.3,
+   "oos_sh": 1.05,
+   "oos_cagr": 12.25,
+   "oos_mdd": -15.6,
+   "oos_turn": 554,
+   "oos_sw": 5.3,
+   "off_pct": {
+    "SPY": 17,
+    "QQQ": 17
+   },
+   "risk_avg": 77.0
+  },
+  {
+   "n": 150,
+   "check": "month",
+   "apply": "all",
+   "is_sh": 0.78,
+   "is_cagr": 7.98,
+   "is_mdd": -20.6,
+   "oos_sh": 1.05,
+   "oos_cagr": 12.19,
+   "oos_mdd": -15.3,
+   "oos_turn": 570,
+   "oos_sw": 7.1,
+   "off_pct": {
+    "SPY": 17,
+    "QQQ": 17,
+    "GLD": 28
+   },
+   "risk_avg": 75.1
+  },
+  {
+   "n": 200,
+   "check": "daily3",
+   "apply": "gold",
+   "is_sh": 0.79,
+   "is_cagr": 8.97,
+   "is_mdd": -16.0,
+   "oos_sh": 1.12,
+   "oos_cagr": 14.09,
+   "oos_mdd": -17.9,
+   "oos_turn": 541,
+   "oos_sw": 5.5,
+   "off_pct": {
+    "GLD": 29
+   },
+   "risk_avg": 82.0
+  },
+  {
+   "n": 200,
+   "check": "daily3",
+   "apply": "eq",
+   "is_sh": 0.68,
+   "is_cagr": 6.91,
+   "is_mdd": -17.0,
+   "oos_sh": 1.14,
+   "oos_cagr": 13.38,
+   "oos_mdd": -13.9,
+   "oos_turn": 552,
+   "oos_sw": 5.5,
+   "off_pct": {
+    "SPY": 16,
+    "QQQ": 17
+   },
+   "risk_avg": 78.0
+  },
+  {
+   "n": 200,
+   "check": "daily3",
+   "apply": "all",
+   "is_sh": 0.66,
+   "is_cagr": 6.65,
+   "is_mdd": -18.0,
+   "oos_sh": 1.11,
+   "oos_cagr": 13.05,
+   "oos_mdd": -13.9,
+   "oos_turn": 592,
+   "oos_sw": 8.8,
+   "off_pct": {
+    "SPY": 16,
+    "QQQ": 17,
+    "GLD": 29
+   },
+   "risk_avg": 76.1
+  },
+  {
+   "n": 200,
+   "check": "month",
+   "apply": "gold",
+   "is_sh": 0.79,
+   "is_cagr": 8.95,
+   "is_mdd": -15.1,
+   "oos_sh": 1.12,
+   "oos_cagr": 14.16,
+   "oos_mdd": -18.0,
+   "oos_turn": 523,
+   "oos_sw": 4.1,
+   "off_pct": {
+    "GLD": 29
+   },
+   "risk_avg": 81.9
+  },
+  {
+   "n": 200,
+   "check": "month",
+   "apply": "eq",
+   "is_sh": 0.71,
+   "is_cagr": 7.4,
+   "is_mdd": -19.7,
+   "oos_sh": 1.05,
+   "oos_cagr": 12.25,
+   "oos_mdd": -13.6,
+   "oos_turn": 553,
+   "oos_sw": 5.3,
+   "off_pct": {
+    "SPY": 17,
+    "QQQ": 17
+   },
+   "risk_avg": 76.9
+  },
+  {
+   "n": 200,
+   "check": "month",
+   "apply": "all",
+   "is_sh": 0.69,
+   "is_cagr": 7.12,
+   "is_mdd": -20.9,
+   "oos_sh": 1.04,
+   "oos_cagr": 12.02,
+   "oos_mdd": -13.9,
+   "oos_turn": 565,
+   "oos_sw": 7.1,
+   "off_pct": {
+    "SPY": 17,
+    "QQQ": 17,
+    "GLD": 29
+   },
+   "risk_avg": 75.0
+  },
+  {
+   "n": 210,
+   "check": "daily3",
+   "apply": "gold",
+   "is_sh": 0.79,
+   "is_cagr": 9.0,
+   "is_mdd": -15.9,
+   "oos_sh": 1.12,
+   "oos_cagr": 14.14,
+   "oos_mdd": -17.9,
+   "oos_turn": 532,
+   "oos_sw": 4.9,
+   "off_pct": {
+    "GLD": 29
+   },
+   "risk_avg": 81.9
+  },
+  {
+   "n": 210,
+   "check": "daily3",
+   "apply": "eq",
+   "is_sh": 0.68,
+   "is_cagr": 6.92,
+   "is_mdd": -17.0,
+   "oos_sh": 1.12,
+   "oos_cagr": 13.22,
+   "oos_mdd": -14.3,
+   "oos_turn": 568,
+   "oos_sw": 5.9,
+   "off_pct": {
+    "SPY": 15,
+    "QQQ": 16
+   },
+   "risk_avg": 78.2
+  },
+  {
+   "n": 210,
+   "check": "daily3",
+   "apply": "all",
+   "is_sh": 0.66,
+   "is_cagr": 6.68,
+   "is_mdd": -18.0,
+   "oos_sh": 1.11,
+   "oos_cagr": 12.95,
+   "oos_mdd": -14.3,
+   "oos_turn": 600,
+   "oos_sw": 8.6,
+   "off_pct": {
+    "SPY": 15,
+    "QQQ": 16,
+    "GLD": 29
+   },
+   "risk_avg": 76.3
+  },
+  {
+   "n": 210,
+   "check": "month",
+   "apply": "gold",
+   "is_sh": 0.79,
+   "is_cagr": 8.95,
+   "is_mdd": -15.1,
+   "oos_sh": 1.12,
+   "oos_cagr": 14.15,
+   "oos_mdd": -18.0,
+   "oos_turn": 523,
+   "oos_sw": 4.1,
+   "off_pct": {
+    "GLD": 30
+   },
+   "risk_avg": 81.8
+  },
+  {
+   "n": 210,
+   "check": "month",
+   "apply": "eq",
+   "is_sh": 0.71,
+   "is_cagr": 7.34,
+   "is_mdd": -19.7,
+   "oos_sh": 1.02,
+   "oos_cagr": 11.73,
+   "oos_mdd": -13.6,
+   "oos_turn": 568,
+   "oos_sw": 5.5,
+   "off_pct": {
+    "SPY": 17,
+    "QQQ": 18
+   },
+   "risk_avg": 76.6
+  },
+  {
+   "n": 210,
+   "check": "month",
+   "apply": "all",
+   "is_sh": 0.69,
+   "is_cagr": 7.06,
+   "is_mdd": -20.9,
+   "oos_sh": 1.0,
+   "oos_cagr": 11.51,
+   "oos_mdd": -13.9,
+   "oos_turn": 579,
+   "oos_sw": 7.4,
+   "off_pct": {
+    "SPY": 17,
+    "QQQ": 18,
+    "GLD": 30
+   },
+   "risk_avg": 74.6
+  },
+  {
+   "n": 250,
+   "check": "daily3",
+   "apply": "gold",
+   "is_sh": 0.79,
+   "is_cagr": 8.97,
+   "is_mdd": -15.6,
+   "oos_sh": 1.12,
+   "oos_cagr": 14.16,
+   "oos_mdd": -17.8,
+   "oos_turn": 532,
+   "oos_sw": 5.1,
+   "off_pct": {
+    "GLD": 28
+   },
+   "risk_avg": 82.0
+  },
+  {
+   "n": 250,
+   "check": "daily3",
+   "apply": "eq",
+   "is_sh": 0.69,
+   "is_cagr": 7.14,
+   "is_mdd": -17.0,
+   "oos_sh": 1.1,
+   "oos_cagr": 12.93,
+   "oos_mdd": -14.7,
+   "oos_turn": 591,
+   "oos_sw": 6.1,
+   "off_pct": {
+    "SPY": 14,
+    "QQQ": 15
+   },
+   "risk_avg": 78.6
+  },
+  {
+   "n": 250,
+   "check": "daily3",
+   "apply": "all",
+   "is_sh": 0.67,
+   "is_cagr": 6.85,
+   "is_mdd": -17.9,
+   "oos_sh": 1.08,
+   "oos_cagr": 12.69,
+   "oos_mdd": -14.7,
+   "oos_turn": 620,
+   "oos_sw": 9.0,
+   "off_pct": {
+    "SPY": 14,
+    "QQQ": 15,
+    "GLD": 28
+   },
+   "risk_avg": 76.7
+  },
+  {
+   "n": 250,
+   "check": "month",
+   "apply": "gold",
+   "is_sh": 0.79,
+   "is_cagr": 9.0,
+   "is_mdd": -15.1,
+   "oos_sh": 1.12,
+   "oos_cagr": 14.17,
+   "oos_mdd": -17.5,
+   "oos_turn": 519,
+   "oos_sw": 3.9,
+   "off_pct": {
+    "GLD": 26
+   },
+   "risk_avg": 82.1
+  },
+  {
+   "n": 250,
+   "check": "month",
+   "apply": "eq",
+   "is_sh": 0.63,
+   "is_cagr": 6.39,
+   "is_mdd": -20.6,
+   "oos_sh": 1.07,
+   "oos_cagr": 12.54,
+   "oos_mdd": -14.9,
+   "oos_turn": 524,
+   "oos_sw": 4.7,
+   "off_pct": {
+    "SPY": 14,
+    "QQQ": 16
+   },
+   "risk_avg": 77.5
+  },
+  {
+   "n": 250,
+   "check": "month",
+   "apply": "all",
+   "is_sh": 0.61,
+   "is_cagr": 6.16,
+   "is_mdd": -21.8,
+   "oos_sh": 1.06,
+   "oos_cagr": 12.32,
+   "oos_mdd": -14.4,
+   "oos_turn": 539,
+   "oos_sw": 6.3,
+   "off_pct": {
+    "SPY": 14,
+    "QQQ": 16,
+    "GLD": 26
+   },
+   "risk_avg": 75.7
+  }
+ ],
+ "by_apply": {
+  "gold": {
+   "med_sh": 1.12,
+   "beat": 0,
+   "n": 8
+  },
+  "eq": {
+   "med_sh": 1.08,
+   "beat": 1,
+   "n": 8
+  },
+  "all": {
+   "med_sh": 1.07,
+   "beat": 0,
+   "n": 8
+  }
+ },
+ "robust": [
+  {
+   "is": {
+    "cagr": 9.3,
+    "vol": 11.8,
+    "mdd": -14.9,
+    "sharpe": 0.81,
+    "ex": 0.27,
+    "beat_years": 1,
+    "years": 9,
+    "turn": 493,
+    "sw": 4.5
+   },
+   "oos": {
+    "cagr": 14.34,
+    "vol": 12.5,
+    "mdd": -17.5,
+    "sharpe": 1.14,
+    "ex": -0.79,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 527,
+    "sw": 4.7
+   },
+   "cfg": {
+    "n": 120,
+    "check": "month",
+    "apply": "gold"
+   },
+   "off_pct_oos": {
+    "GLD": 30
+   },
+   "risk_avg_oos": 81.9,
+   "what": "N ×0.8 (120일선)"
+  },
+  {
+   "is": {
+    "cagr": 9.04,
+    "vol": 11.8,
+    "mdd": -15.1,
+    "sharpe": 0.79,
+    "ex": 0.02,
+    "beat_years": 1,
+    "years": 9,
+    "turn": 490,
+    "sw": 4.2
+   },
+   "oos": {
+    "cagr": 14.16,
+    "vol": 12.5,
+    "mdd": -18.0,
+    "sharpe": 1.12,
+    "ex": -0.97,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 523,
+    "sw": 4.1
+   },
+   "cfg": {
+    "n": 180,
+    "check": "month",
+    "apply": "gold"
+   },
+   "off_pct_oos": {
+    "GLD": 29
+   },
+   "risk_avg_oos": 81.9,
+   "what": "N ×1.2 (180일선)"
+  }
+ ],
+ "rank_corr": 0.19,
+ "grid_beat_current_oos": "1/24",
+ "verdict": "➖",
+ "verdict_why": "샤프·흔들기 조건 못 넘음 — 시험 구간 샤프 1.14 vs 지금 1.14 · 연 14.33% vs 14.4% · 낙폭 -17.5% vs -18.6%.",
+ "next": "💼 기본 규칙 그대로 · 칸 거르기는 판정+변동성 맞춤과 겹치는 방어인지 grid off_pct·risk_avg 로 확인",
+ "now": {
+  "date": "2026-10-20",
+  "reg_now": true,
+  "vol_scale": 1.0,
+  "gap_pct": {
+   "SPY": 4.4,
+   "QQQ": 3.1,
+   "GLD": -5.9
+  },
+  "chosen_on": {
+   "GLD": false
+  }
+ },
+ "check_lab": {
+  "daily3": "매일 + 3일 확인",
+  "month": "달 마지막 거래일만"
+ },
+ "apply_lab": {
+  "gold": "금만",
+  "eq": "주식만(S&P·나스닥)",
+  "all": "전부"
+ },
+ "note": "기본 = 💼 C안 뼈대 + 판정(S&P 200일선·3일) + 🦴 변동성 맞춤 방어형(20일·15%·바닥 30%·5%p 밴드) · 칸 거르기는 그 위에 얹어 줄이기만 · 추세 = 칸 ETF(배당 포함) 종가 vs N일 단순이평 · 다음 날 체결 · 매주+목표 바뀐 날 비중 맞춤 · 회전율×0.1% · sw = 해마다 판정·칸 깃발 바뀐 횟수 · 매수 추천 아님"
+}
