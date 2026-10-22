@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "코스피 201.89P 내린 5,533.77 마감(−3.52%)",
+   "url": "https://view.asiae.co.kr/article/2026102215330776702",
+   "press": "아시아경제",
+   "at": "2026-10-22 15:35",
+   "why": "한국 칸 — 어제 +3.29% 반등을 하루 만에 다 반납, 외인 복귀 가설 판정(0.80 유지)",
+   "summary": "코스피 5,533.77 (−201.89P, −3.52%) · 외인·기관 매도 전환(글로벌이코노믹) · 금통위 3.00% 동결 당일"
+  },
+  {
+   "title": "미 장기금리 1개월 최저 — AI 공포가 안전자산 수요로",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/592391",
+   "press": "Trading Economics",
+   "at": "2026-10-22 15:35",
+   "why": "고금리 가설(10년 5.0~5.3% 밴드) 약화 근거 — 현금·단기채 vs 장기채 칸 판단",
+   "summary": "AI 주식 매도 → 국채 피난 수요로 미 장기물 금리 하락(블룸버그 「Long-End US Yield Hits One-Month Low」 동반) · 수치는 원문 확인"
+  },
+  {
    "title": "항셍테크 3,830 하회 2년 최저 — 알리바바 100홍콩달러·텐센트 400 붕괴",
    "url": "https://finance.biggo.com/news/6ac2b53b-cb1f-4086-8c5e-5ca19ee71aa9",
    "press": "BigGo Finance",
@@ -623,23 +639,7 @@
    "at": "2026-10-21 00:07",
    "why": "열린 bets DHR·MDT(헬스케어 ☕ 신호)와 CNQ(에너지) 방향 엇갈림",
    "summary": "헬스케어 강세로 미국 지수 반등 · 일라이릴리 사상 최고가(SA) · 유가 장중 되밀림"
-  },
-  {
-   "title": "미 국채금리 완화 — JP모건 '금리 안정되면 연말 주식 상승'",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSnN4N2ttdm8tUG1fX1VtdHVsUHhtRG0zdVQ5WUFERUFnd3FaOU5LTFZFQU9NcTR4S1hncEpXTXgzb3plcEFMNDcxSnhaT3hqdUwzbkQwX2RTNzgzd0tqanZXS0prWjQwZno3RXUyeEZja0RQSWNvZ3dTSFA3dTJNOFRVQTdXOHhrZFhOVW5mNlRrMGtuM1RqbEhRRUk2ZllKOG5XXzdwbVZaQTdjbkRNdVJjeUtNNXFkRkZRdEE2QkUxMTdZOWw4X2RoZ0ZaWkNpcWtfVA?oc=5",
-   "press": "Google 뉴스(미국 시장)",
-   "at": "2026-10-21 00:24",
-   "why": "고금리 가설(10년 5.0~5.3%) 반대 근거 — 현금·단기채 칸 판단",
-   "summary": "국채금리 하락 · JP모건 연말 주식 상승 조건 = 금리 안정"
-  },
-  {
-   "title": "루이즈 루: 미국 정크본드 금리 급등이 아시아 위기 신호",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqcEZESEx2YkFVVk1YS2Y5TVBXZFoyMUFMd1MyQzNGWkhsVzlGR09ZOVQxZ0QxWW9ua0JkZXA0eTVBbWJfMFlsNWVVX19JZGVzSmN4ODBB?oc=5",
-   "press": "중앙일보(구글 뉴스)",
-   "at": "2026-10-21 00:07",
-   "why": "AI 차입·크레딧 스트레스 가설과 직결 — 한국 비중 확대 금지 근거",
-   "summary": "미 하이일드 금리 급등을 아시아 자금 이탈 선행 신호로 해석"
   }
  ],
- "at": "2026-10-22 12:35"
+ "at": "2026-10-22 15:35"
 }
