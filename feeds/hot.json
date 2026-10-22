@@ -1,5 +1,5 @@
 {
- "at": "2026-10-22 10:35",
+ "at": "2026-10-22 11:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "HANAchina/70784": {
@@ -57,16 +57,6 @@
    "why": "램리서치 다음 분기 매출 최대 90억$·공급망 제약 — 실적 상회에도 시간외 하락 = 반도체 칸·한국 소부장 「기대 선반영」 시험",
    "at": "2026-10-22 08:35"
   },
-  "n/kSEd2UHE2YjFWaVJSd0xka19hSm9OOEVhSlBLQnFmY1FTaFBhRzQ1ZVNBoc5": {
-   "lv": 1,
-   "why": "코스피 +3.29% 다음날 1.14% 하락 출발·반도체 약세 — 「외국인 복귀 전 한국 비중 확대 금지」 가설 판정일",
-   "at": "2026-10-22 09:35"
-  },
-  "n/1SdUJXYmR4VHoyRkdnTmZRV2ktSVNhWWltcWVjQ2VQTm9MenZSWkExZzIoc5": {
-   "lv": 1,
-   "why": "TI 전망 예상 상회·수요 회복 — 아날로그·산업용까지 반등이면 반도체 칸 7% 복원 근거",
-   "at": "2026-10-22 09:35"
-  },
   "globalmktinsight/7737": {
    "lv": 1,
    "why": "프랑스 10년 5% 돌파(2002년 이후 처음) — 열린 EWQ bet(BofA 「프랑스 회피 최대」 역발상)의 반대 근거 직격",
@@ -77,10 +67,20 @@
    "why": "사우디 피습에 유가↑(브렌트 110달러대) — 고유가 가설·CNQ bet·금리 상단과 이어짐",
    "at": "2026-10-22 10:35"
   },
-  "n/zU0QmpXSG9abjRJbF9YRUwzZGdZNnhmUHp3c0c5M2k4dnZHTXF1SzBQUQoc5": {
+  "n/wshangsengrejectedat241075withbearflagforminglive93CH4956207": {
    "lv": 1,
-   "why": "한은 3.00% 매파적 동결 — 11월 인상 열어둠, 한국 가설·채권 칸 금리 상단",
-   "at": "2026-10-22 10:35"
+   "why": "열린 1288.HK(중국농업은행 ☕ 컵) bet — 항셍 23,204 급락(기술주 중심 −2%↑), 홍콩 전체 위험 회피 확산",
+   "at": "2026-10-22 11:35"
+  },
+  "n/VhRR0VTdDU1dHBhOXhxeFB2NnNhUm5KcXktOXA2aDBXV1VrX2VTOURDUQoc5": {
+   "lv": 1,
+   "why": "AI 크레딧 가설(0.86) — 모건스탠리 「조정 마지막 이닝」이지만 AI 신용스프레드를 남은 위험으로 지목",
+   "at": "2026-10-22 11:35"
+  },
+  "n/dBb2JDTGRta3htX2tOd3ZiTHNkTVcwZ3RzQlFwTUZ1QW5wREpBU1ZlOF8oc5": {
+   "lv": 1,
+   "why": "한국 가설·반도체 칸 — 외국인 SK하이닉스 한 달 16조 매도 + 금융위 「솔리다임 중복상장 규제대상」 겹침",
+   "at": "2026-10-22 11:35"
   }
  }
 }

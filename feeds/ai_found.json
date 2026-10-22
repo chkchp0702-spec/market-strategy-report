@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "마이크론 대만 노조, 22일 하루 파업 — 성과급 갈등",
+   "url": "https://www.tomshardware.com/pc-components/dram/microns-taiwan-union-will-launch-a-one-day-strike-this-week-threatening-round-the-clock-fab-operations-workers-demand-concrete-terms-for-2026-bonus-and-clearer-profit-sharing-arrangements",
+   "press": "Tom's Hardware",
+   "at": "2026-10-22 11:35",
+   "why": "반도체 칸·삼성/하이닉스 — 경쟁사 메모리 공급 차질 이벤트(대만 첫 반도체 파업, 닛케이아시아 10/22 시작 보도)",
+   "summary": "타오위안 공장 하루 파업(타이중 지원) · 2026 성과급·이익배분 조건 요구 · 10/7 파업 찬성 99% 가결. 생산 영향 규모는 미확인."
+  },
+  {
+   "title": "홍콩증시 기술주 매도 심화 — 레노버 −4% 출발",
+   "url": "https://www.thestandard.com.hk/finance/article/346150/Hong-Kong-stocks-open-lower-as-tech-selloff-deepens-Lenovo-plunges-4-percent",
+   "press": "The Standard HK",
+   "at": "2026-10-22 11:35",
+   "why": "열린 1288.HK bet·아시아 위험 회피 — 미 AI 반등과 따로 노는 아시아",
+   "summary": "항셍 장중 23,204(피드 fxstreet)·알리바바 −5% 100HKD 하회·MINIMAX 공모가 하회(HANAchina/70825). 기사 날짜는 10/22 여부 미확인."
+  },
+  {
    "title": "프랑스 국채 금리 2002년 이후 최고 — 재정 우려 심화",
    "url": "https://tradingeconomics.com/france/government-bond-yield/news/589480",
    "press": "Trading Economics",
@@ -623,22 +639,6 @@
    "at": "2026-10-20 22:35",
    "why": "히타치 bet(☕ cup_eye) 업종 — 바클레이즈 '데이터센터 장비 정점'과 반대로 미즈호는 전력장비 선호, 버티브는 중립",
    "summary": "미즈호 전기장비·복합산업 3분기 미리보기(investing_en 피드 4960255)와 같은 맥락으로 보임. 게재일 미확인 — 같은 보고서인지 미확인."
-  },
-  {
-   "title": "HSBC, 코어위브 목표가 하향 — 높은 자금 수요·차입비용 상승 지적",
-   "url": "https://finance.yahoo.com/news/hsbc-cuts-coreweave-crwv-price-122847665.html",
-   "press": "Yahoo Finance(Insider Monkey)",
-   "at": "2026-10-20 21:35",
-   "why": "AI 크레딧 가설 근거 — 네오클라우드 부채 부담이 데이터센터·반도체 바구니 매도로 번지는지(히타치 bet·SMH)",
-   "summary": "HSBC가 코어위브 목표가를 낮추며 대규모 자금 조달 필요·부채비용 상승을 구조적 우려로 꼽음. 같은 날 CNBC 'HSBC, 30%↑ 추가 하락 전망' 보도. 게재일은 미확인."
-  },
-  {
-   "title": "버티브 주가 급락 — 애널리스트들 '데이터센터 장비 주문 둔화'",
-   "url": "https://www.itiger.com/hans/news/2522337878",
-   "press": "Barron's(itiger)",
-   "at": "2026-10-20 21:35",
-   "why": "바클레이즈 '데이터센터 장비 사이클 정점'(bbg_mkt 10/20)과 같은 방향 — 전력·냉각 장비주(히타치 6501.T bet) 역풍 점검",
-   "summary": "데이터센터 장비 주문 둔화 우려로 버티브 하락. 게재일 미확인 — 10/20 바클레이즈 판단과 연결해 참고만."
   }
  ],
  "at": "2026-10-22 09:35"
