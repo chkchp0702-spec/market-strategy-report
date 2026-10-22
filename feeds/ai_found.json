@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "노무라: 지금 AI 신용 위험, 닷컴 버블·리먼 직전과 놀랍도록 비슷 — 모든 건 유가에 달렸다",
+   "url": "https://wallstreetcn.com/articles/3784197",
+   "press": "월스트리트견문(노무라 보고서 요약)",
+   "at": "2026-10-22 17:35",
+   "why": "AI 차입(크레딧) 가설·에너지 칸 — 유가 상승이 수요형이면 연준 인하 불가(스태그플레이션), 지정학형이면 정책 여지",
+   "summary": "노무라 10년 신용 사이클 틀: AI 기술 업계·프랑스 국가신용 불안을 「2차 충격」으로 규정. 과거엔 이 단계 뒤 1~2년 안에 경기침체를 부르는 「3차 충격」. 핵심 변수는 유가의 성격."
+  },
+  {
    "title": "후티 드론, 사우디 샤이바 유전 인근 타격 — 브렌트 110달러 재돌파",
    "url": "https://www.thenationalnews.com/business/energy/2026/10/22/oil-tops-110-as-houthi-drone-strike-near-saudi-shaybah-field-rattles-markets/",
    "press": "The National",
@@ -631,14 +639,6 @@
    "at": "2026-10-21 00:58",
    "why": "기본 포트 주식 칸 비중 판단 · 같은 날 웰스파고 지표 매수 신호(bbg_mkt)와 겹침",
    "summary": "골드만 위험선호 지표 3월 이후 최저 · 약세 심리가 역발상으로 주식 재매수 신호가 될 수 있다는 진단"
-  },
-  {
-   "title": "마이크로소프트, 전력 지연으로 영국 Nscale 데이터센터 계약 철회",
-   "url": "https://www.investing.com/news/stock-market-news/microsoft-pulls-out-of-uk-nscale-data-centre-deal-over-power-delay-4960690",
-   "press": "Investing.com",
-   "at": "2026-10-21 01:29",
-   "why": "열린 bet 히타치(전력망 ☕ cup_eye) 논지 — 병목은 칩이 아니라 전력망",
-   "summary": "영국 그리드 연결 지연으로 MS가 Nscale 에식스 데이터센터 계약 철회 · 전력망 장비 수요 근거, 동시에 데이터센터 투자 지연 신호"
   }
  ],
  "at": "2026-10-22 15:35"
