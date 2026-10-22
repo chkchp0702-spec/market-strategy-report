@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "노키아 3분기 실적 공시(6-K) — 광·IP 네트워크 2027년 25~30% 성장 전망",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000924613/000110465926117972/tm2628115d1_6k.htm",
+   "press": "SEC EDGAR",
+   "at": "2026-10-23 00:35",
+   "why": "열린 ERIC(에릭슨) bet 동종 — AI·클라우드 광통신 수요가 통신장비로 번지는지 확인",
+   "summary": "노키아 2027년 광·IP 네트워크 매출 25~30% 성장 예상(Seeking Alpha 헤드라인). 공시 원문 세부 숫자는 미확인."
+  },
+  {
    "title": "나스닥 선물, 중동 우려 재개로 하락",
    "url": "https://finviz.com/news/401286/nasdaq-futures-slip-as-middle-east-worries-resume",
    "press": "Finviz",
@@ -631,15 +639,7 @@
    "at": "2026-10-21 03:35",
    "why": "12월 인상 컨센서스(고금리 가설)의 실물 부담 — 경기 둔화가 인상을 막을지 확인 지표",
    "summary": "주택착공 팬데믹 이후 최저권(gn_us_fed) · CNBC '연준 인상 저울질 중 주택 경고등'(cnbc 10/20) · 모기지 7.40%(gn_kr_macro 10/20)"
-  },
-  {
-   "title": "캐나다은행 설문, 기대인플레이션 뚜렷한 상승",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMDBwUUhTck9tQ3ZiSUlQVXVGRWxMMWExUlJaWDVRTENTVHU0anA4NDZmdWR1NEVjMmQ2ZURVcDZkV0VUeXhBUEhBb1JwemM5czY3X0loRFRSQkFQNHkzZDVpbHcwNHJ6OGFiUE1VZzJlcy1rX0I2WU9Dc2pUWElnUWh2V01GNVJ",
-   "press": "WSJ",
-   "at": "2026-10-21 03:35",
-   "why": "열린 CNQ(캐나다 에너지) bet — 유가발 인플레가 캐나다 금리·캐나다달러로 번지는지",
-   "summary": "BoC 설문 기대인플레 상승(wsj 10/20) · 같은 날 국채 강세·유가 몇 주 고점에서 후퇴(gn_bbg)"
   }
  ],
- "at": "2026-10-22 15:35"
+ "at": "2026-10-23 00:35"
 }

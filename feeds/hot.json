@@ -1,5 +1,5 @@
 {
- "at": "2026-10-22 23:35",
+ "at": "2026-10-23 00:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/httpswwwcnbccom20261021inflationukcpiinterestrateshtml": {
@@ -119,8 +119,18 @@
   },
   "n/sutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
    "lv": 1,
-   "why": "메타 신용위험 최고 — AI 차입 병목 가설(0.87) 근거",
-   "at": "2026-10-22 23:35"
+   "why": "나스닥 −2.3%(장중)·VIX 19 — AI 지출 불안 확산, 성장주 킥 진입 보류 근거",
+   "at": "2026-10-23 00:35"
+  },
+  "n/29uZHJGeUtLWTRuYVFsMjRjZzJFQVB1QWxNa3AwNm1rNWpQTjFPVDJhTAoc5": {
+   "lv": 1,
+   "why": "美 사우디 외교관 철수 — 중동 확전 단계 상승, 열린 CNQ(유가) bet·고금리 가설 직결",
+   "at": "2026-10-23 00:35"
+  },
+  "n/dutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
+   "lv": 1,
+   "why": "노키아 광·IP 2027 +25~30% 전망 — 열린 ERIC bet 동종·광통신 수요 확인",
+   "at": "2026-10-23 00:35"
   }
  }
 }
