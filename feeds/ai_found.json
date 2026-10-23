@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "BofA 하트넷 「11월 중순까지 전술적 위험 회피」 vs UBS 「방어 자세 정당화 안 돼」 — 브렌트 116$·10년 4.99%",
+   "url": "https://www.swissinfo.ch/eng/stocks-fall-as-oil-rally-keeps-a-lid-on-treasuries%3a-markets-wrap/92260391",
+   "press": "Bloomberg(swissinfo)",
+   "at": "2026-10-24 01:35",
+   "why": "위험 회피 국면 판단·주식 비중 칸 — 월가 양쪽 견해가 갈림, 연준 결정 며칠 앞",
+   "summary": "10/23 10:48 ET: S&P −0.2%·나스닥100 +0.5%·다우 −1.2%, 10년 4.99%(+4bp), WTI 102.32$(+2.9%)·브렌트 116$↑, 금 4,004$(−0.5%). 중동 폭력 재점화로 공급 우려."
+  },
+  {
+   "title": "JP모건: 리테일은 AI 매도 속 반도체·클라우드 매수 — 헤지펀드 노출 축소로 「하방 좁아져」(바닥은 아님)",
+   "url": "https://www.kucoin.com/news/flash/retail-investors-add-to-ai-stocks-amid-market-sell-off-jpmorgan-notes-narrowing-downside",
+   "press": "KuCoin(JPM 파니기르치오글루 인용)",
+   "at": "2026-10-24 01:35",
+   "why": "AI 차입 가설·반도체 칸 7% — 디레버리징 뒤 강제 매도 여력 축소, 반등 조건 감시",
+   "summary": "10/15~21 리테일 기술주 매수 7월 이후 최고(샌디스크·TSMC·네비우스 상위), 기술 ETF 주간 유입 역대 2위·10/16 일일 기록. 단 AI 수익성·자금조달 위험으로 바닥 신호는 아니라고."
+  },
+  {
+   "title": "후티, 사우디 얀부 아람코 시설 48시간 공격 주장 — 10/22 필라델피아 반도체 −6.72%·메타 약정 8,250억$",
+   "url": "https://www.techflowpost.com/en-US/article/34804",
+   "press": "TechFlow",
+   "at": "2026-10-24 01:35",
+   "why": "에너지 칸·CNQ bet 순풍(공급 위험) / 반도체 칸 −6.7% 하루 충격 확인",
+   "summary": "사우디는 피해 미확인, 아람코 일부 직원 원격근무. 10/22 마감 S&P −1.21%·나스닥 −2.60%·SOX −6.72%, 브렌트 113.17$(+4%). 메타 장기 약정 7,000억→8,250억$, 주가 −6.98%."
+  },
+  {
    "title": "헤지펀드, 코로나 이후 최대 일일 손실 — AI 주식 급락 속 디레버리징",
    "url": "https://www.bloomberg.com/news/articles/2026-10-23/hedge-funds-log-widest-daily-drawdown-since-covid-in-stock-rout",
    "press": "Bloomberg",
@@ -615,31 +639,7 @@
    "at": "2026-10-22 03:35",
    "why": "메타 실적(이번 주) 직전 일회성 비용 — AI 소프트웨어·빅테크 실적 판정에 변수, 주 측 요구액은 최대 400억$였음",
    "summary": "배심 '소비자 오도' 평결 뒤 판사 250억$ 부과(CNBC·bbg 10/21) · 주 측은 최대 400억$ 요구(Bloomberg Law) · 항소 여부·회계 처리 미확인"
-  },
-  {
-   "title": "유가, 걸프 공급 회복 저울질에 장중 상승분 반납",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUThvQVl1RnVpSjI0NnV3VGhRWUU2eWVmOC01c3hpOXJ6eTR0OXNUOTh3VE1vNW1jNFlobjF6QmJRcDc5eF9nbTZQbngzUlZWbWJ6aXpSYndoNHhsRVFoWURGWHF1WmwwOS1QUTRyTmgwaUZLVlB0UTJqMmUyTTY0SnluSUhTVGR4anFHZGhMTUItM3I5VUlIZkhRVEQydw?oc=5",
-   "press": "WSJ",
-   "at": "2026-10-22 03:35",
-   "why": "CNQ 열린 bet·에너지 칸 — 물동량 정상화 보도가 bbg·FT 에 이어 WSJ 까지, 유가 상방 꼬리 축소",
-   "summary": "10/21 장중 상승 뒤 하락 전환 · 걸프 공급 회복 반영 · 낙폭 숫자는 미확인"
-  },
-  {
-   "title": "스페이스X 신용위험 지표 사상 최고 — 엔비디아 칩 구매용 400억$ 차입 추진",
-   "url": "https://www.advisorperspectives.com/articles/2026/10/07/spacex-credit-risk-gauge-record-high-fundraising-reports",
-   "press": "Bloomberg via Advisor Perspectives",
-   "at": "2026-10-22 02:35",
-   "why": "AI 크레딧 가설(0.86) — 10/21 실적 뒤 주가 +10%에도 채권은 다시 약세(bbg), 주식-크레딧 괴리의 출발점",
-   "summary": "10/7 스페이스X CDS 사상 최고 · 400억$ 추가 차입(엔비디아 칩) 보도 · 10/21 Bloomberg '채권 약세·신용위험 지표 악화'"
-  },
-  {
-   "title": "美 정부 '호르무즈 원유 흐름 하루 1,400만 배럴로 회복' — 사우디 공격에도",
-   "url": "https://www.thenationalnews.com/business/energy/2026/10/12/us-says-hormuz-oil-flows-recover-to-14-million-bpd-despite-saudi-attacks/",
-   "press": "The National",
-   "at": "2026-10-22 02:35",
-   "why": "열린 CNQ bet·에너지 칸 — 물동량 정상화가 브렌트 108$ 상방 근거를 깎는다(10/21 bbg '전쟁 전 수준')",
-   "summary": "호르무즈 통과 하루 1,400만 배럴 회복(美 정부, 10/12) · 10/21 Bloomberg '공격에도 중동 원유 흐름 전쟁 전 수준 근접' · 반대로 axios '2027년 유가 안정 기대 빠르게 사라짐'"
   }
  ],
- "at": "2026-10-23 17:35"
+ "at": "2026-10-24 01:35"
 }
