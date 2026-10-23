@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "골드만삭스, 코어위브 '매수' 상향·73% 상승 여력 — 자금조달 우려 깊어지는 가운데",
+   "url": "https://www.roic.ai/news/goldman-sachs-upgrades-coreweave-to-buy-sees-73-upside-despite-deepening-financing-fears-10-19-2026",
+   "press": "roic.ai",
+   "at": "2026-10-23 15:35",
+   "why": "AI 차입(크레딧) 가설 반대편 — 골드만은 부족분 230억$, 번스타인은 760억$(HANAchina/70899)·골드만은 지분 보유·채권 주관 겸함",
+   "summary": "10/19 골드만 코어위브 매수 상향·73% 상승 여력 제시. 같은 시점 무담보 채권 수익률 15% 수준(피드 HANAchina/70899)."
+  },
+  {
+   "title": "골드만, 채권 수익률 15%에도 코어위브 매수 상향",
+   "url": "https://www.kucoin.com/news/flash/goldman-upgrades-coreweave-to-buy-despite-15-bond-yields",
+   "press": "KuCoin News",
+   "at": "2026-10-23 15:35",
+   "why": "네오클라우드 차입 비용 15% = AI 크레딧 스트레스의 가장 직접적인 숫자 — 빅테크 회사채 스프레드로 번지는지 감시",
+   "summary": "코어위브 채권 수익률 약 15%에도 골드만 매수 의견. 주식 애널리스트 낙관 vs 채권 시장 가격의 괴리."
+  },
+  {
    "title": "노키아, AI 데이터센터발 광네트워크 호조로 3분기 이익 예상 상회 — 주가 급등",
    "url": "https://www.tipranks.com/news/the-fly/nokia-jumps-after-ai-driven-q3-beat-thefly",
    "press": "TipRanks(The Fly)",
@@ -623,23 +639,7 @@
    "at": "2026-10-21 14:35",
    "why": "반도체 칸·한국 가설 — 메모리 공급 확대 vs 美 수출통제(VEU) 마찰 변수, 삼전닉스 반등의 지속성 점검",
    "summary": "관계자 인용: 두 회사가 중국 팹을 더 첨단 공정으로 업그레이드 중. 세부 수치는 원문 미확인. 배경: 하이닉스 다롄 2공장 재가동·1H27 양산 목표(TrendForce 8/12)."
-  },
-  {
-   "title": "행동주의 얼라인, SK 지분 1.5% 공개 — '하이닉스 지분 가치의 절반도 안 돼'",
-   "url": "https://www.investing.com/news/stock-market-news/align-partners-discloses-15-stake-in-sk-flags-75-valuation-discount--report-4961538",
-   "press": "Investing.com / 한국경제",
-   "at": "2026-10-21 14:35",
-   "why": "지주사 할인 해소 테마 — 하이닉스 랠리가 지주(SK)로 번지는 경로, 행동주의 공개 이벤트 신호 후보",
-   "summary": "얼라인파트너스 SK㈜ 1.5% 보유 공개, 75% 할인 지적. 당일 SK 급등(hankyung 202610215947i)."
-  },
-  {
-   "title": "방사청·LIG D&A 동시 제재로 K-방산 흔들리나(8/22 배경)",
-   "url": "https://www.heraldk.com/article/2026082219495400665",
-   "press": "헤럴드경제",
-   "at": "2026-10-21 12:35",
-   "why": "오늘 LIG D&A 2년 입찰 제한 −11% 의 배경 — 방산 개별 리스크가 업종 전체로 번지는지 점검",
-   "summary": "8월 방사청 직원 뇌물 구속, LIG 수주 14건 중 4건 연관(heraldk 8/18). 10/21 2년 입찰 참가자격 제한 확정 보도에 장 초반 −10~11%."
   }
  ],
- "at": "2026-10-23 11:35"
+ "at": "2026-10-23 15:35"
 }
