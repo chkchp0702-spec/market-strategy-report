@@ -1,51 +1,43 @@
 {
- "date": "2026-10-23",
- "read": 787,
+ "date": "2026-10-24",
+ "read": 775,
  "items": [
   {
-   "id": "HANAchina/70854",
-   "why": "킥·메타 지출 약정 8,250억$·CDS 119.3bp → 1쪽 킥·2쪽 발언"
+   "id": "n/httpswwwcnbccom20261023phpvulnerabilitiesaicybersecurityhtml",
+   "why": "PHP 결함 「AI의 검은 10월」 → 킥·🎯 CIBR 집중 이유·🧭 AI SW 4→7"
   },
   {
-   "id": "kwusa/61406",
-   "why": "메타 CDS 사상 최고·capex 하단 상향 → 킥 근거"
+   "id": "ai/0261023hedgefundslogwidestdailydrawdownsincecovidinstockrout",
+   "why": "헤지펀드 일일 손실 코로나 이후 최대 → 킥 설명·핵심 이야기"
   },
   {
-   "id": "kwusa/61397",
-   "why": "키움 박기현 NEE 「주가 누르는 건 금리」 → 🎯 XLU 이유·전력 칸 GEV→XLU"
+   "id": "kwusa/61448",
+   "why": "SLB 매출 94.5억$ 상회·중동 회복 → 🎯 XLE 집중 이유"
   },
   {
-   "id": "kwusa/61407",
-   "why": "JP모건 앤머스 메타 목표가 940 → ⚔️ 대결 왼쪽"
+   "id": "kimu_nim/47211",
+   "why": "코스피 12개월 PER 4.2배(블룸버그) → 1쪽 숫자 카드·2쪽 한국"
   },
   {
-   "id": "HANAchina/70847",
-   "why": "노무라 AI 신용 리스크·유가 → ⚔️ 대결 오른쪽·킥 설명"
+   "id": "globalmktinsight/7750",
+   "why": "코스피 마감 — 기관 8,700억·하이닉스 솔리다임 철회 → 2쪽 한국"
   },
   {
-   "id": "egzion/6455",
-   "why": "KB 이은택 W자 바닥 조건 → 발언·패널 기록"
+   "id": "kimu_nim/47208",
+   "why": "SK증권 메모리 PER 삼성 3.5·하이닉스 2.9 → 4쪽 발언"
   },
   {
-   "id": "meritz_research/44893",
-   "why": "메리츠 윤여삼 금통위 3.50% → 발언·패널 기록"
+   "id": "HANAchina/70910",
+   "why": "JP모건 「국채 반등은 펀더멘털 아님·10년 4.94~5.02 저항」 → 4쪽 발언·킥 근거"
   },
   {
-   "id": "globalmktinsight/7740",
-   "why": "미래에셋 마감: 외국인 KRX +581억·삼성E&A → 외국인 숫자 카드(범위)"
+   "id": "HANAchina/70921",
+   "why": "칩 담보 금융(스페이스X 400억$·앤트로픽 600억$) → 4쪽 발언·🧭 반도체 4 유지"
   },
   {
-   "id": "globalmktinsight/7739",
-   "why": "정형기 AI 스트레스 테스트 1.18조$ → 반대 의견"
-  },
-  {
-   "id": "HANAchina/70849",
-   "why": "중화권 마감 창업판 −4.37% → 한국 「왜」"
-  },
-  {
-   "id": "kimu_nim/47144",
-   "why": "삼전닉스 신용한도 20억→3억 → 한국 「왜」"
+   "id": "james_lee_advisors/224451386776",
+   "why": "James Lee 「병목은 유동성」·삼성 바닥 가정 → 패널 31 기록·반대 의견·발언"
   }
  ],
- "skip": "중복 속보(같은 글 재전송 HANAchina 6·kimu_nim 3) · 오늘 이야기와 무관(채용·사칭 공지·연금·영화 등 약 40) · 개별 종목 단신·링크만 있는 글 다수 · 뉴스 단신 650여 개는 제목만 확인"
+ "skip": "재수집·중복 속보 약 300 · 실적 단신·종목 홍보 약 200 · 오늘 이야기와 무관(정치·생활·바이오 임상) 약 250 · 원문 확인 안 된 숫자(UBS 발언 등)"
 }
