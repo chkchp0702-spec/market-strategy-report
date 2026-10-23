@@ -1,5 +1,5 @@
 {
- "fetched_kst": "2026-10-24 06:33",
+ "fetched_kst": "2026-10-24 08:50",
  "items": {
   "sp500": {
    "value": 7623.68,
@@ -17,8 +17,8 @@
    "prev": 26008.86,
    "change": -53.52,
    "change_pct": -0.21,
-   "asof_utc": "2026-10-23T17:15:59.000-0400",
-   "asof_kst": "5:15 PM EDT",
+   "asof_utc": "2026-10-23T17:16:01.000-0400",
+   "asof_kst": "5:16 PM EDT",
    "market_state": "REG_MKT",
    "src": "CNBC .IXIC",
    "name": "나스닥"
@@ -79,23 +79,23 @@
    "name": "미 2년 금리(선물)"
   },
   "usdkrw": {
-   "value": 1323.6,
-   "prev": 1323.6,
-   "change": 0.0,
-   "change_pct": 0.0,
-   "asof_utc": "2026-10-23T16:59:00.000-0400",
-   "asof_kst": "4:59 PM EDT",
+   "value": 1322.5,
+   "prev": 1323.5,
+   "change": -1.0,
+   "change_pct": -0.07,
+   "asof_utc": "2026-10-23T17:59:57.000-0400",
+   "asof_kst": "5:59 PM EDT",
    "market_state": "REG_MKT",
    "src": "CNBC KRW=",
    "name": "달러/원"
   },
   "dxy": {
    "value": 101.75,
-   "prev": 101.61,
-   "change": 0.14,
-   "change_pct": 0.14,
-   "asof_utc": "2026-10-23T16:59:59.000-0400",
-   "asof_kst": "4:59 PM EDT",
+   "prev": 101.75,
+   "change": 0.0,
+   "change_pct": 0.0,
+   "asof_utc": "2026-10-23",
+   "asof_kst": "10/23/26 EDT",
    "market_state": "REG_MKT",
    "src": "CNBC .DXY",
    "name": "달러지수"
@@ -112,34 +112,24 @@
    "name": "WTI"
   },
   "brent": {
-   "value": 116.75,
+   "value": 117.38,
    "prev": 113.17,
-   "change": 3.58,
-   "change_pct": 3.16,
-   "asof_utc": "2026-10-23T22:23:24.000+0100",
-   "asof_kst": "10:23 PM BST",
+   "change": 4.21,
+   "change_pct": 3.72,
+   "asof_utc": "2026-10-23T22:59:57.000+0100",
+   "asof_kst": "10:59 PM BST",
    "market_state": "REG_MKT",
    "src": "CNBC @LCO.1",
    "name": "브렌트"
   },
-  "gold": {
-   "value": 4010.0,
-   "prev": 4060.4,
-   "change": -50.4,
-   "change_pct": -1.24,
-   "asof_utc": "2026-10-23T16:59:58.000-0400",
-   "asof_kst": "4:59 PM EDT",
-   "market_state": "REG_MKT",
-   "src": "CNBC @GC.1",
-   "name": "금"
-  },
+  "gold": null,
   "kospi": {
    "value": 5550.3,
    "prev": 5533.77,
    "change": 16.53,
    "change_pct": 0.3,
-   "asof_utc": "2026-10-23T20:05:40.000+0900",
-   "asof_kst": "8:05 PM JST",
+   "asof_utc": "2026-10-23T15:32:40.000+0900",
+   "asof_kst": "3:32 PM JST",
    "market_state": "REG_MKT",
    "src": "CNBC .KS11",
    "name": "코스피"
@@ -149,8 +139,8 @@
    "prev": 764.1,
    "change": -12.41,
    "change_pct": -1.62,
-   "asof_utc": "2026-10-23T20:05:40.000+0900",
-   "asof_kst": "8:05 PM JST",
+   "asof_utc": "2026-10-23T15:33:00.000+0900",
+   "asof_kst": "3:33 PM JST",
    "market_state": "REG_MKT",
    "src": "CNBC .KQ11",
    "name": "코스닥"
@@ -182,8 +172,8 @@
    "prev": 856.49,
    "change": 21.06,
    "change_pct": 2.46,
-   "asof_utc": "2026-10-23T16:00:00.000-0400",
-   "asof_kst": "4:00 PM EDT",
+   "asof_utc": "2026-10-23T17:20:00.000-0400",
+   "asof_kst": "5:20 PM EDT",
    "market_state": "POST_MKT",
    "src": "CNBC MU",
    "name": "마이크론"
@@ -193,8 +183,8 @@
    "prev": 212.21,
    "change": -1.25,
    "change_pct": -0.59,
-   "asof_utc": "2026-10-23T16:00:00.000-0400",
-   "asof_kst": "4:00 PM EDT",
+   "asof_utc": "2026-10-23T17:20:00.000-0400",
+   "asof_kst": "5:20 PM EDT",
    "market_state": "POST_MKT",
    "src": "CNBC NVDA",
    "name": "엔비디아"
@@ -204,8 +194,8 @@
    "prev": 65.83,
    "change": 0.04,
    "change_pct": 0.06,
-   "asof_utc": "2026-10-23T16:10:00.003-0400",
-   "asof_kst": "4:10 PM EDT",
+   "asof_utc": "2026-10-23T18:30:00.003-0400",
+   "asof_kst": "6:30 PM EDT",
    "market_state": "REG_MKT",
    "src": "CNBC KBE",
    "name": "미 은행 ETF(KBE)"
@@ -215,8 +205,8 @@
    "prev": 81.74,
    "change": -0.4,
    "change_pct": -0.49,
-   "asof_utc": "2026-10-23T16:15:00.000-0400",
-   "asof_kst": "4:15 PM EDT",
+   "asof_utc": "2026-10-23T17:20:00.000-0400",
+   "asof_kst": "5:20 PM EDT",
    "market_state": "POST_MKT",
    "src": "CNBC TLT",
    "name": "미 장기채 ETF(TLT)"
@@ -262,6 +252,7 @@
   "yahoo CL=F": "HTTP Error 429: Too Many Requests",
   "yahoo BZ=F": "HTTP Error 429: Too Many Requests",
   "yahoo GC=F": "HTTP Error 429: Too Many Requests",
+  "cnbc @GC.1": "Gold COMEX (Dec'26)",
   "yahoo ^KS11": "HTTP Error 429: Too Many Requests",
   "yahoo ^KQ11": "HTTP Error 429: Too Many Requests",
   "yahoo 005930.KS": "HTTP Error 429: Too Many Requests",
