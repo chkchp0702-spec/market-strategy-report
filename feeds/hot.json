@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23 21:35",
+ "at": "2026-10-23 22:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/httpswwwcnbccom20261021inflationukcpiinterestrateshtml": {
@@ -126,6 +126,16 @@
    "lv": 1,
    "why": "브렌트 115달러(+1.6%) — 열린 CNQ bet·☕ 눈 PR·PAGP 순풍, DPA 증산 정책과 줄다리기",
    "at": "2026-10-23 21:35"
+  },
+  "n/0l0OEpXNzV0Rm9ZUndjYnlocVA3ZEd2Z3d3VEt2aUQ1WVFKWkxYcTRvawoc5": {
+   "lv": 1,
+   "why": "FOMC 동결 92%·12월 인상 가격 — 고금리 가설(0.45) 반대 쪽·다음 주 회의 낀 bet(MFG·EWQ) 이벤트 점검",
+   "at": "2026-10-23 22:35"
+  },
+  "n/GR5YnNSX25TdDlCbTNIbUNWUGlqRk1jTGRESmY4aTgzMTJ4QUlxNTJpdwoc5": {
+   "lv": 1,
+   "why": "금 4,000달러 경계 — 금 칸·gold_test 하단 시험(청산 매도로 안전자산도 팔림)",
+   "at": "2026-10-23 22:35"
   }
  }
 }
