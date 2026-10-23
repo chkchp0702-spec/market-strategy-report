@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "4분기 AI 채권 발행 또 몰릴 듯 — 오라클·메타·스페이스X CDS 사상 최고",
+   "url": "https://www.itiger.com/news/1185154204",
+   "press": "Tiger Brokers",
+   "at": "2026-10-23 23:35",
+   "why": "🧠 가설 「AI 차입이 다음 약한 고리」(0.88) 직접 근거 — 메타 신용위험 지표 신고(gn_bbg 10/23)와 같은 흐름",
+   "summary": "오라클·메타·스페이스X 5년 CDS 기록 경신. 4분기 하이퍼스케일러 대규모 회사채 발행 예상 → 크레딧 공급 부담. 다음 주 MS·구글·아마존·메타 실적이 분기점."
+  },
+  {
+   "title": "골드만: AI 주가 급락이 헤지펀드를 매일 때린다 — 공매도는 5년래 최고 수준",
+   "url": "https://yellow.com/news/ai-stocks-hedge-funds-daily-losses",
+   "press": "Yellow",
+   "at": "2026-10-23 23:35",
+   "why": "공매도 쏠림 극단 = 연준(10/28)·빅테크 실적 뒤 숏커버 반등 위험 — 내림 bets·현금 칸 판단에 반대편 근거",
+   "summary": "골드만 프라임북: 헤지펀드 순노출 약세 쏠림 5년래 드문 수준, 그런데 매일 손실. 연준 결정·메가캡 실적 2건 앞."
+  },
+  {
+   "title": "Cboe 3분기 실적 발표 10월 30일 확정",
+   "url": "https://briefglance.com/companies/cboe-global-markets-inc/pulses/82285",
+   "press": "BriefGlance",
+   "at": "2026-10-23 23:35",
+   "why": "열린 CBOE bet(☕ 컵 10/19, 1주) 기한 10/27 — 실적(10/30)이 기한 밖, 옵션 내재 변동 ±3.4%(investing_kr)",
+   "summary": "10/30 실적. 9월 거래량 기록적(변동성 수혜). 우리 bet 은 실적 전에 기한 종료."
+  },
+  {
    "title": "美 법원, 메타에 페이스북 개인정보 위반 250억 달러 벌금 명령(뉴멕시코)",
    "url": "https://www.aljazeera.com/news/2026/10/21/judge-orders-meta-to-pay-25bn-in-fines-for-facebook-privacy-violations",
    "press": "Al Jazeera",
@@ -615,30 +639,6 @@
    "at": "2026-10-22 00:35",
    "why": "열린 bet DHR(☕ cup_eye 10/16) 직결 — 실적 상회·가이던스 상향",
    "summary": "3분기 매출 65.5억$(+8.5%)·조정 EPS 예상 상회·2026 연간 조정 EPS 전망 상향. 프리마켓 반응은 매체별 엇갈림(investing.com 하락 / 이데일리 상승)."
-  },
-  {
-   "title": "다나허, 수요 개선에 이익 예상 상회·전망 상향",
-   "url": "https://benzinga.com/markets/earnings/26/10/62501062/danaher-beats-profit-estimates-raises-outlook-as-customer-demand-improves",
-   "press": "Benzinga",
-   "at": "2026-10-22 00:35",
-   "why": "헬스케어 회전 가설(MDT·DHR bet) — 같은 날 TMO·애보트는 실적 뒤 하락, DHR 만 '수요 개선' 언급",
-   "summary": "고객 수요 개선을 이유로 연간 전망 상향. 바이오프로세싱 회복 여부가 핵심(세부 숫자는 원문 확인)."
-  },
-  {
-   "title": "BofA 카바나 \"인상 확률 90%↑인데 연준이 동결하면 전례 없는 일\"",
-   "url": "https://finance.yahoo.com/economy/policy/articles/fed-rate-hold-unprecedented-rate-124335352.html",
-   "press": "Stocktwits/Yahoo Finance",
-   "at": "2026-10-21 23:35",
-   "why": "고금리 가설 — 시장 내재 인상 확률이 이미 매우 높다는 전략가 판단, 성장주·장기채 칸 역풍",
-   "summary": "BofA 금리전략 마크 카바나: 선물 시장 인상 확률 90% 넘는 상황에서 동결은 전례 없음. 블룸버그 10/21 인터뷰 '왜 지금 기다리나'와 같은 논지. 기사 게재일 미확인."
-  },
-  {
-   "title": "日 닛케이, 반도체 랠리에 상승",
-   "url": "https://tradingeconomics.com/japan/stock-market/news/571400",
-   "press": "Trading Economics",
-   "at": "2026-10-21 23:35",
-   "why": "골드만 일본 반도체 8종목 이익 상향 기대(gn_hk 피드)와 이어짐 — 일본 반도체·EWJ 칸, 히타치 bet 환경",
-   "summary": "닛케이 반도체주 주도 반등. 숫자·게재일은 원문 확인 필요(미확인)."
   }
  ],
  "at": "2026-10-23 17:35"
