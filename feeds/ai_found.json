@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "오늘의 증시(10/23): 기술주 매도 뒤 다우 급락 — 이란 「걸프 7개국 석유·데이터센터·AI 시설 타격」 위협",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-23-2026",
+   "press": "TheStreet",
+   "at": "2026-10-24 04:35",
+   "why": "이란이 걸프 데이터센터·AI 시설까지 표적으로 거론 — 유가(에너지 ☕ 눈)와 AI 인프라(AI 차입 가설) 양쪽 위험이 한 사건에 묶임",
+   "summary": "브렌트 116$↑(4월 이후 최고, 14:51 ET)·WTI 103$↑. 美·이스라엘 중간선거 뒤 추가 공습 검토 보도. 크라운캐슬 +11.7%(스페이스X 기지국 임차설)·아멕스 −2.9%(인력 5% 감축)·볼보카 −24%."
+  },
+  {
+   "title": "AP: 유가 상승 압박에 월가 대체로 하락 — S&P 2주 연속 주간 하락 길",
+   "url": "https://www.2news.com/news/national/wall-street-mostly-loses-ground-under-pressure-from-rising-oil-prices/article_988f2ae8-5099-5ef8-a4ca-3f259ee60dbb.html",
+   "press": "AP",
+   "at": "2026-10-24 04:35",
+   "why": "에너지주만 오르고 금융·경기민감주가 빠지는 그림 — 위험 회피 국면의 업종 정합(에너지↑·은행↓) 확인",
+   "summary": "13:52 ET S&P −0.4%·다우 −591P(−1.1%)·나스닥 −0.1%. 코노코 +3.8%·셰브론 +2.4%·마이크론 +3.4% / 아멕스 −3.7%·캐터필러 −2.4%·JPM −1.5%. 10년 4.99%."
+  },
+  {
    "title": "블룸버그: 「할인창구에서 무슨 일이 벌어지고 있다」 — 은행 단기자금 창구 이상 신호",
    "url": "https://www.bloomberg.com/news/newsletters/2026-10-23/something-is-going-on-with-the-discount-window",
    "press": "Bloomberg",
@@ -623,23 +639,7 @@
    "at": "2026-10-22 06:35",
    "why": "에너지 칸·CNQ bet — 걸프 지정학 상방, 다만 물동량 정상화 보도와 엇갈림",
    "summary": "전날 '철수 준비' 보도가 실제 명령으로 · 아람코 샤이바 유전 겨냥 드론(사우디 '요격·영향 없음', 이란 매체 2명 사망 주장은 미확인)"
-  },
-  {
-   "title": "메타 3분기 매출 26% 증가 646억$·4분기 가이던스 소폭 상회 — EPS는 기대치 미달",
-   "url": "https://www.stocktitan.net/news/META/meta-reports-third-quarter-2026-13ysmyjaxliq.html",
-   "press": "StockTitan(회사 발표)",
-   "at": "2026-10-22 05:35",
-   "why": "AI 크레딧·AI 지출 가설 — 매출은 견조하나 이익은 지출에 눌림, 시간외 반응 폭은 미확인",
-   "summary": "3분기 매출 646억$(+26%) · 4분기 매출 가이던스 컨센서스 소폭 상회(StockStory) · 주당순이익 기대치 미달(연합뉴스)"
-  },
-  {
-   "title": "메타, AI 지출 전망 조이며 새 무의결권 주식 클래스 발행",
-   "url": "https://www.investing.com/news/stock-market-news/meta-to-issue-new-class-of-shares-as-it-tightens-ai-spending-forecast-4963908",
-   "press": "Reuters(Investing.com)",
-   "at": "2026-10-22 05:35",
-   "why": "하이퍼스케일러가 AI 자금을 채권 대신 지분으로 조달하기 시작 — AI 크레딧 가설(채권 약세·주가 반등 괴리)의 새 단서",
-   "summary": "무의결권 신주 클래스 신설 승인 · AI 지출 전망 범위 좁힘 · 세마포 '지출 자금 조달용' 보도"
   }
  ],
- "at": "2026-10-24 01:35"
+ "at": "2026-10-24 04:35"
 }
