@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "다우 −652p, 유가 급등·국채 금리 상승에 하락 — 주간 마감",
+   "url": "https://www.kiplinger.com/investing/stocks/dow-drops-652-points-as-oil-treasury-yields-rise-stock-market-today",
+   "press": "Kiplinger",
+   "at": "2026-10-24 06:35",
+   "why": "주말 이란 공습 위험 + 금리 상승 = 위험 회피 국면 유지, 에너지 칸·채권 칸 판단 근거",
+   "summary": "10/23 다우 −652p(−1.24%), 유가 급등과 국채 금리 상승이 동시에 주식 압박. 반도체는 작년 11월 이후 최장 주간 하락(yahoo)."
+  },
+  {
    "title": "美 증시 금요일 하락 — 다우 −1.2%·S&P −0.5%·나스닥 −0.2%, WTI 102.39$·브렌트 115.94$",
    "url": "https://www.ibtimes.com/investors-keep-risk-off-mood-amid-ai-spending-concerns-soaring-middle-east-tensions-stocks-fell-3808950",
    "press": "IBTimes",
@@ -631,14 +639,6 @@
    "at": "2026-10-22 08:35",
    "why": "장비 수요(메모리·첨단 공정) 정점 논쟁의 숫자 — AI 크레딧·반도체 가설 점검",
    "summary": "영업이익률 40%↑ 첫 돌파. 시장은 숫자보다 공급망 제약·다음 분기 이후 지속성을 보고 있음."
-  },
-  {
-   "title": "테슬라, AI 지출 예상 밑돌며 깜짝 플러스 잉여현금흐름 — 시간외 상승",
-   "url": "https://www.capitalbrief.com/briefing/tesla-shares-rise-after-surprise-free-cashflow-beat-adfe854f-a857-4990-949d-096cc2d7a55a/",
-   "press": "Capital Brief",
-   "at": "2026-10-22 07:35",
-   "why": "AI 차입·지출 가설과 연결 — 지출 규율 기업에 프리미엄, 오늘 아시아 AI 인프라주 반응 확인용",
-   "summary": "조정 EPS 0.48달러 예상 상회, FCF +15억$(시장은 42~43억$ 유출 예상, globalmktinsight 10/22). 매출은 정체."
   }
  ],
  "at": "2026-10-24 05:35"
