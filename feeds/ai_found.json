@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "헤지펀드, 코로나 이후 최대 일일 손실 — AI 주식 급락 속 디레버리징",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/hedge-funds-log-widest-daily-drawdown-since-covid-in-stock-rout",
+   "press": "Bloomberg",
+   "at": "2026-10-24 00:35",
+   "why": "혼잡 롱(AI) 강제 청산 국면 — 공매도 5년래 최고와 겹쳐 FOMC·빅테크 실적 뒤 숏커버 반등 위험, 내림 bets 금지·킥 크기 보수 근거",
+   "summary": "헤지펀드 일일 손실 폭 코로나(2020) 이후 최대. 나스닥은 6월 이후 최악의 날(10/22) 뒤 10/23 장중 +0.2%로 버팀, 다우는 유가에 −1%."
+  },
+  {
+   "title": "메타 CDS 114.79bp 사상 최고 — AI 지출 경계",
+   "url": "https://shattered.io/meta-credit-risk-record-high-ai-spending-cds-2026/",
+   "press": "shattered.io",
+   "at": "2026-10-24 00:35",
+   "why": "AI 차입(크레딧) 가설 0.88 직접 숫자 — 메타 주가 −7%(648.85$)와 동시, 빅테크 FCF 마이너스 클럽 합류",
+   "summary": "메타 5년 CDS 114.79bp 사상 최고(출처 1곳, 교차 확인은 reuters 「default insurance hits record」). 메타 10/23 −7.0% 648.85$(heygotrade)."
+  },
+  {
    "title": "4분기 AI 채권 발행 또 몰릴 듯 — 오라클·메타·스페이스X CDS 사상 최고",
    "url": "https://www.itiger.com/news/1185154204",
    "press": "Tiger Brokers",
@@ -623,22 +639,6 @@
    "at": "2026-10-22 02:35",
    "why": "열린 CNQ bet·에너지 칸 — 물동량 정상화가 브렌트 108$ 상방 근거를 깎는다(10/21 bbg '전쟁 전 수준')",
    "summary": "호르무즈 통과 하루 1,400만 배럴 회복(美 정부, 10/12) · 10/21 Bloomberg '공격에도 중동 원유 흐름 전쟁 전 수준 근접' · 반대로 axios '2027년 유가 안정 기대 빠르게 사라짐'"
-  },
-  {
-   "title": "모건스탠리 윌슨 「美 조정 거의 끝 — 단 바닥은 아직, 금리가 마지막 관문」",
-   "url": "https://www.roic.ai/news/morgan-stanleys-wilson-says-stock-selloff-nearing-end-but-no-bottom-yet-10-19-2026",
-   "press": "ROIC.ai",
-   "at": "2026-10-22 01:35",
-   "why": "위험 회피 국면 판단·QQQ dip 신호 — 10년 5%대 금리가 반등 조건이라는 해외 IB 시각",
-   "summary": "윌슨: 매도세 막바지(10/19)·S&P 8,500 전망(피드 헤드라인). 금리 하락이 선행 조건 — 지금 美 10년 5.11%(latest.json)."
-  },
-  {
-   "title": "다나허, 3분기 매출 8.5% 증가 65.5억$·연간 조정 EPS 전망 상향",
-   "url": "https://www.stocktitan.net/news/DHR/danaher-reports-third-quarter-2026-cv81eb1qpasx.html",
-   "press": "StockTitan",
-   "at": "2026-10-22 00:35",
-   "why": "열린 bet DHR(☕ cup_eye 10/16) 직결 — 실적 상회·가이던스 상향",
-   "summary": "3분기 매출 65.5억$(+8.5%)·조정 EPS 예상 상회·2026 연간 조정 EPS 전망 상향. 프리마켓 반응은 매체별 엇갈림(investing.com 하락 / 이데일리 상승)."
   }
  ],
  "at": "2026-10-23 17:35"

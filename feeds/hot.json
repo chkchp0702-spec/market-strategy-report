@@ -1,12 +1,7 @@
 {
- "at": "2026-10-23 23:35",
+ "at": "2026-10-24 00:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
-  "n/httpswwwcnbccom20261021inflationukcpiinterestrateshtml": {
-   "lv": 1,
-   "why": "美 10년 5.1% 가설(금리 높게 오래) — 英 CPI 3.5% 상회·BoE 인상 기대, 佛-獨 스프레드와 함께 유럽 금리 압력 → EWQ bet 역풍",
-   "at": "2026-10-21 15:35"
-  },
   "globalmktinsight/7737": {
    "lv": 1,
    "why": "프랑스 10년 5% 돌파(2002년 이후 처음) — 열린 EWQ bet(BofA 「프랑스 회피 최대」 역발상)의 반대 근거 직격",
@@ -112,15 +107,20 @@
    "why": "브렌트 115달러(+1.6%) — 열린 CNQ bet·☕ 눈 PR·PAGP 순풍, DPA 증산 정책과 줄다리기",
    "at": "2026-10-23 21:35"
   },
-  "n/0l0OEpXNzV0Rm9ZUndjYnlocVA3ZEd2Z3d3VEt2aUQ1WVFKWkxYcTRvawoc5": {
-   "lv": 1,
-   "why": "FOMC 동결 92%·12월 인상 가격 — 고금리 가설(0.45) 반대 쪽·다음 주 회의 낀 bet(MFG·EWQ) 이벤트 점검",
-   "at": "2026-10-23 22:35"
-  },
   "n/s20261023usbusinessactivityexpandspricessurgebymostsince2022": {
    "lv": 1,
    "why": "美 10월 PMI 가격 2022년 이후 최대 상승 — 연준 12월 인상 가격(동결 92%)을 굳히는 숫자, 고금리 가설·채권 칸 직결",
    "at": "2026-10-23 23:35"
+  },
+  "n/lGb0FMLWlYNUYza1U2WHFjeUg2WmtoVS00X0liOVkxejlwUERWNUxKdmUoc5": {
+   "lv": 1,
+   "why": "헤지펀드 일일 손실 코로나 이후 최대(bbg) — 강제 디레버리징 국면, 공매도 5년래 최고와 겹쳐 내림 bets 금지·킥 크기 보수",
+   "at": "2026-10-24 00:35"
+  },
+  "n/ttpswwwcnbccom20261023oilpricebrentwtiiranwarsaudiarabiahtml": {
+   "lv": 1,
+   "why": "브렌트 116달러 6개월 최고(CNBC) — 열린 CNQ bet 순풍·다우 경기민감주 매도 원인, 스태그 냄새(PMI 가격↑)",
+   "at": "2026-10-24 00:35"
   }
  }
 }
