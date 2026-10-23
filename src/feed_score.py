@@ -260,6 +260,85 @@ def post_map(feed, D):
     return pm
 
 
+# ───────── 🐇🐢 누가 먼저 말했나 (10/23 A10/23-1) ─────────
+LEAD = ROOT / "feeds" / "lead.json"
+
+
+def link_of(mid: str, kinds: dict) -> str:
+    src = mid.split("/")[0]
+    k = kinds.get(src)
+    if k == "blog":
+        return "https://m.blog.naver.com/" + mid
+    if k == "tg":
+        return "https://t.me/" + mid
+    return ""
+
+
+def lead(items, P, kinds=None, today=None):
+    """종목마다 채널별 「처음 부른 때」 + 그날(뒤 첫 거래일) 종가 → 가장 최근 종가 수익률 · 채널마다 「먼저 말한 비율」.
+       기록 첫날(since)에 이미 불린 종목은 「누가 먼저」를 알 수 없어 채널 순위 셈에서는 뺌(종목 화면엔 「기록 시작일부터」 표시)."""
+    kinds = kinds or {}
+    if not items:
+        return None
+    since = min(m["d"] for m in items)
+    by = {}
+    for m in sorted(items, key=lambda m: (m["d"], m.get("t") or "")):
+        s = by.setdefault(m["s"], {"n": m["n"], "mk": m["mk"], "first": {}, "cnt": 0})
+        s["cnt"] += 1
+        if m["src"] not in s["first"]:
+            s["first"][m["src"]] = m
+    S, CH = {}, {}
+    for sym, s in by.items():
+        ser = P.get(sym) or []
+        last = ser[-1] if ser else None
+        rows = []
+        for src, m in s["first"].items():
+            r = None
+            i = next((j for j, (x, _) in enumerate(ser) if x >= m["d"]), None)
+            if i is not None and last:
+                r = round((last[1] / ser[i][1] - 1) * 100, 1)
+                bd = ser[i][0]
+            else:
+                bd = None
+            rows.append([m["d"], m.get("t") or "", src, m.get("ch") or src, link_of(m.get("id") or "", kinds), r, bd])
+        rows.sort(key=lambda x: (x[0], x[1]))
+        d0 = rows[0][0]
+        px = []
+        if ser:
+            i0 = next((j for j, (x, _) in enumerate(ser) if x >= d0), len(ser) - 1)
+            px = [[x, round(v, 4)] for x, v in ser[max(0, i0 - 5):]]
+        S[sym] = {"n": s["n"], "mk": s["mk"], "cnt": s["cnt"], "first": rows, "px": px, "last": list(last) if last else None, "pre": d0 == since}
+        # 채널 순위: 2채널 넘게 부른 종목 · 첫 언급이 기록 첫날 뒤
+        if len(rows) >= 2 and d0 > since:
+            t0 = dt.date.fromisoformat(d0)
+            for k, x in enumerate(rows):
+                c = CH.setdefault(x[2], {"name": x[3], "n": 0, "first": 0, "lag": [], "r": []})
+                c["n"] += 1
+                if k == 0:
+                    c["first"] += 1
+                else:
+                    c["lag"].append((dt.date.fromisoformat(x[0]) - t0).days)
+                if x[5] is not None:
+                    c["r"].append(x[5])
+    ch = {}
+    for src, c in CH.items():
+        ch[src] = {"name": c["name"], "n": c["n"], "first": c["first"], "first_pct": round(c["first"] / c["n"] * 100) if c["n"] else None,
+                   "lag": round(sum(c["lag"]) / len(c["lag"]), 1) if c["lag"] else None,
+                   "r": round(sum(c["r"]) / len(c["r"]), 1) if c["r"] else None}
+    multi = [v for v in S.values() if len(v["first"]) >= 2 and not v["pre"]]
+    gaps = sorted((dt.date.fromisoformat(v["first"][1][0]) - dt.date.fromisoformat(v["first"][0][0])).days for v in multi)
+    return {"updated": (today or now_kst().strftime("%Y-%m-%d %H:%M")), "since": since,
+            "rule": "채널(텔레그램·블로그) 글이 종목 이름을 처음 부른 때 · 수익률 = 그날(또는 뒤 첫 거래일) 종가 → 가장 최근 종가 · 채널 순위는 2채널 넘게 부른 종목 중 첫 언급이 기록 첫날 뒤인 것만 · 먼저 말한 채널이 더 낫다는 뜻은 아님",
+            "n_multi": len(multi), "gap_med": gaps[len(gaps) // 2] if gaps else None, "same_day": sum(1 for g in gaps if g == 0),
+            "s": S, "ch": ch}
+
+
+def save_lead(L):
+    if L:
+        json.dump(L, open(LEAD, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+        print("✓ lead 종목", len(L["s"]), "· 2채널+", L["n_multi"], "· 채널", len(L["ch"]))
+
+
 def main():
     args = sys.argv[1:]
     idx_path = None
@@ -274,6 +353,10 @@ def main():
         assert "SK하이닉스" in got and "삼성전자" in got and "이닉스" not in got, got
         return 0
     items = load_men()
+    if "--lead-offline" in args:   # 시세 없이 순서만(점검용)
+        feed = json.load(open(FEED, encoding="utf-8"))
+        save_lead(lead(items, {}, {x.get("id"): x.get("kind") for x in feed.get("sources") or []}))
+        return 0
     if "--backfill" in args:
         items, added = merge(items, backfill(D))
         save_men(items)
@@ -297,6 +380,11 @@ def main():
         P = get_prices(codes, cut)
     except Exception as e:
         print("✗ 시세 못 받음", e); P = {}
+    kinds = {x.get("id"): x.get("kind") for x in feed.get("sources") or []}
+    try:
+        save_lead(lead(items, P, kinds))
+    except Exception as e:
+        print("✗ lead", e)
     if not P and old.get("ch"):
         old["post"] = post_map(feed, D)
         json.dump(old, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
