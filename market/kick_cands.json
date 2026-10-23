@@ -4440,6 +4440,14 @@
 "score": 66.1,
 "theme": "사이버보안",
 "note": "CIBR +3.2% → D+1 상관 0.33"
+},
+"INSM|2026-10-24|whale": {
+"code": "INSM",
+"name": "INSM",
+"mkt": "US",
+"d": "2026-10-24",
+"src": "whale",
+"score": 40
 }
 },
 "sent": [
@@ -4457,21 +4465,21 @@
 ],
 "whale": [
 "ALAB",
-"AMAT",
-"AMD",
-"ASML",
 "AVTX",
+"AXP",
+"BKNG",
 "CDW",
 "CLF",
 "CPNG",
 "DKS",
 "GOOGL",
+"GPCR",
+"GPN",
 "INSM",
-"KHC",
 "META",
-"SNOW",
-"SPGI",
-"STM",
-"VST"
+"NAMS",
+"NEM",
+"RIG",
+"SNOW"
 ]
 }
