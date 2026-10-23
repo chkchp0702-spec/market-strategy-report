@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "블룸버그: 「할인창구에서 무슨 일이 벌어지고 있다」 — 은행 단기자금 창구 이상 신호",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-23/something-is-going-on-with-the-discount-window",
+   "press": "Bloomberg",
+   "at": "2026-10-24 03:35",
+   "why": "AI 차입(크레딧) 가설 — 신용 스프레드 17개월 최고·월말 레포 변동성 경고(CIBC)와 함께 자금시장 경색 여부 점검",
+   "summary": "10/23 뉴스레터 제목 확인 — 이용 규모 숫자는 미확인. 같은 날 CIBC 「월말 청산 앞 레포 변동성」 경고(bbg_mkt)."
+  },
+  {
+   "title": "AP: 유가 급등 압박에 월가 대부분 하락 — 원유 5월 이후 최고",
+   "url": "https://www.bnnbloomberg.ca/markets/2026/10/23/us-futures-under-pressure-as-crude-reaches-levels-not-seen-since-may/",
+   "press": "AP/BNN Bloomberg",
+   "at": "2026-10-24 03:35",
+   "why": "에너지 칸 유지·CNQ류 순풍 vs 경기민감주 매도 — 스태그 냄새(PMI 가격↑·심리 최저)",
+   "summary": "10/23 13:55 EDT 다우 −1.16%(52,254)·S&P −0.43%(7,631)·나스닥 −0.07% · VIX 20.1 · 미 10년 4.984%(CNBC)."
+  },
+  {
    "title": "美 증시 10/23 오후: 다우 −1.18%·S&P −0.45%·나스닥 −0.11% — 유가 급등에 경기민감주 매도, VIX 20",
    "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html",
    "press": "Yahoo Finance",
@@ -623,22 +639,6 @@
    "at": "2026-10-22 05:35",
    "why": "하이퍼스케일러가 AI 자금을 채권 대신 지분으로 조달하기 시작 — AI 크레딧 가설(채권 약세·주가 반등 괴리)의 새 단서",
    "summary": "무의결권 신주 클래스 신설 승인 · AI 지출 전망 범위 좁힘 · 세마포 '지출 자금 조달용' 보도"
-  },
-  {
-   "title": "美, 걸프 대사관 일부 인력 철수 명령 준비 — 미 관리들(로이터 단독)",
-   "url": "https://www.investing.com/news/commodities-news/exclusiveus-preparing-to-issue-ordered-departure-of-some-personnel-from-gulf-embassies--us-officials-4963834",
-   "press": "Reuters via Investing.com",
-   "at": "2026-10-22 04:35",
-   "why": "에너지 칸·열린 CNQ bet — 걸프 물동량 정상화 보도 3곳 뒤 나온 반대 방향 지정학 재료",
-   "summary": "美 국무부, 걸프 지역 대사관 일부 인력·가족 철수 명령 준비(로이터 10/21) · 이스라엘하욤·비즈니스데이 동시 보도 · 유가 반응 숫자는 미확인"
-  },
-  {
-   "title": "메타 3분기 실적 앞 — 100억$ 법적 비용·설비투자 시험대, 694$ 지지선",
-   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262225065-meta-stock-forecast-q3-earnings-legal-charge-capex-694-support-october-20-2026-tradingkey",
-   "press": "TradingKey",
-   "at": "2026-10-22 04:35",
-   "why": "AI 크레딧 가설(0.86)·AI 소프트웨어 칸 — 메타 2027 설비투자 숫자가 빅테크 차입 스트레스 판정 재료",
-   "summary": "메타 실적 직전 5거래일 연속 하락·700$ 하회(invezz·yahoo) · 2분기엔 EPS 미스·설비투자 상향으로 −10%(fortune 7/29) · 실적은 10/21 장 마감 뒤(KST 22일 새벽)"
   }
  ],
  "at": "2026-10-24 01:35"

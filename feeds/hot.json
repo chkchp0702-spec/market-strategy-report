@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24 02:35",
+ "at": "2026-10-24 03:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7737": {
@@ -15,11 +15,6 @@
   "globalmktinsight/7744": {
    "lv": 1,
    "why": "코스피 야간선물 −2.61% — SOX −6.7% 반영, 오늘 한국 반도체 시가 갭 하락 예고(AI 차입 가설·삼성·하이닉스 관찰)",
-   "at": "2026-10-23 07:35"
-  },
-  "n/httpswwwcnbccom20261022trumpdefenseproductionacthtml": {
-   "lv": 1,
-   "why": "트럼프 국방물자생산법(DPA)으로 원유 생산·정제 증산 — 유가 누르기 정책 = 열린 CNQ bet 역풍",
    "at": "2026-10-23 07:35"
   },
   "n/swwwftcomcontentbb564eb179d44694aa241155202a9abcsyn25a6b1a61": {
@@ -87,16 +82,6 @@
    "why": "JPM 「미 10년 4.94~5.02% 저항, 위험자산 바닥 전 국채 매도 말라」 — 10년 5% 이틀째 watch·고금리 가설 0.45 직결",
    "at": "2026-10-23 18:35"
   },
-  "n/0261023blackstonebetonchipsdroveadebtboomthatsupendingcredit": {
-   "lv": 1,
-   "why": "AI 차입(크레딧) 가설 0.88 — 블랙스톤 칩 베팅발 사모 대출 붐이 크레딧 시장을 흔든다(bbg), 스프레드 17개월 최고와 같은 줄기",
-   "at": "2026-10-23 20:35"
-  },
-  "n/eos20261023dudleyseesfedlikelytoholdwithahikeindecembervideo": {
-   "lv": 1,
-   "why": "더들리 「연준 동결 뒤 12월 인상」 — 다음 주 FOMC 앞 고금리 가설(0.45) 반대 쪽 근거, 중장기채 칸·성장주 킥 보류 유지",
-   "at": "2026-10-23 21:35"
-  },
   "HANAchina/70918": {
    "lv": 1,
    "why": "브렌트 115달러(+1.6%) — 열린 CNQ bet·☕ 눈 PR·PAGP 순풍, DPA 증산 정책과 줄다리기",
@@ -122,10 +107,15 @@
    "why": "미 10월 소비심리 5개월 최저·물가 기대 상승 — 브렌트 116$ 와 함께 고금리 가설·다음 주 FOMC 경계(10년 5% 감시)",
    "at": "2026-10-24 01:35"
   },
-  "n/ahooFinanceutm_campaignpartner_feedutm_mediumreferraltsrcrss": {
+  "n/wsnewsletters20261023somethingisgoingonwiththediscountwindow": {
    "lv": 1,
-   "why": "AI 차입 가설 0.88 — 엔비디아 담당 애널 「2027년 계획 데이터센터 용량 45% 안 지어질 수도」, 설비투자 감속 = 크레딧 경계·반도체 칸 7 유지 근거",
-   "at": "2026-10-24 02:35"
+   "why": "AI 차입(크레딧) 가설 0.88 — 은행 할인창구 이용 이상 신호(bbg)·월말 레포 변동성 경고(CIBC)·신용 스프레드 17개월 최고와 겹친 자금 경색 냄새, 킥 크기 보수 근거",
+   "at": "2026-10-24 03:35"
+  },
+  "n/2pOMDFFY0QxUFJWeE1kY3NBMVZ5LXZPa3RkWnY1bDdva2JWT2pYOXc1RQoc5": {
+   "lv": 1,
+   "why": "한국 가설 0.80 반대 근거 — 배런스 「코스피 바닥·브렌트 천장」(PER 4.2배와 같은 쪽), 외인 순매수 확인 전 비중 확대는 보류",
+   "at": "2026-10-24 03:35"
   }
  }
 }
