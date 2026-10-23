@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23 15:35",
+ "at": "2026-10-23 16:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/httpswwwcnbccom20261021inflationukcpiinterestrateshtml": {
@@ -47,11 +47,6 @@
    "why": "프랑스-독일 10년 금리차 178bp 2011년 이후 최고·이탈리아 전이 — 열린 EWQ(프랑스) bet 손절선 근접 점검",
    "at": "2026-10-23 08:35"
   },
-  "n/RNR3VkM1dhN01zOFktYzAwaXpNWVQyNUIwTWRKU0dadTZ5M2NLY3VuX1koc5": {
-   "lv": 1,
-   "why": "코스피 장 초반 3% 급락 5,300선·하이닉스 117만 — 한국 가설(외인 복귀 전 비중 확대 금지) 그대로, 야간선물 −2%↓ 다음 날 시가 진입 보류 규칙 확인일",
-   "at": "2026-10-23 09:35"
-  },
   "n/01YWM5S09mWExkMC1La3dXV09ucTFLM1BNQk8tU29WX0JURnk4alNaREcoc5": {
    "lv": 1,
    "why": "젠슨 황 「2029년까지 메모리 공급 과잉 없다」 — 메모리 투매 속 반대 근거, 하이닉스 관찰(신호 붙으면 bet)",
@@ -67,19 +62,9 @@
    "why": "글로벌 크레딧 스프레드 17개월 최고(bbg) — AI 차입(크레딧) 가설 0.87 직접 확인, 성장주 킥 크기 보수",
    "at": "2026-10-23 11:35"
   },
-  "n/EJsZkpqQldtbW41MnpMYzlVYjhWdjlWbnBUTkJtbkd4VUdINVdGdk9EUgoc5": {
-   "lv": 1,
-   "why": "한은 3.00% 동결·「인상 영향 점검」 — IB 11월 인상 전망과 함께 한국 가설(외인 복귀 전 비중 확대 금지) 유지",
-   "at": "2026-10-23 11:35"
-  },
   "n/FmWTQ0R2J4MHh4czgyd3VVUmdObTRLQVBtU3Z3eHp6aTF2ME5zYWpqWlIoc5": {
    "lv": 1,
    "why": "한국 0.80 가설 — 장중 −4% 뒤 하이닉스 한때 상승전환·낙폭 축소, 외인 7,600억 매도는 지속(바닥 신호인지 종가 확인)",
-   "at": "2026-10-23 12:35"
-  },
-  "n/20261023treasurieslinktoaishowssharpshiftashaventradereturns": {
-   "lv": 1,
-   "why": "미 10년 5% 아래·안전자산 귀환 — 고금리 정점 0.45 가설에 근거, 채권 칸 점검",
    "at": "2026-10-23 12:35"
   },
   "kwusa/61425": {
@@ -97,11 +82,6 @@
    "why": "골드만 헤지로 엔화 — 열린 일본 bet(MFG·히타치) 엔 강세 방향과 직결",
    "at": "2026-10-23 13:35"
   },
-  "n/UVudGl5QXotV1MtcmdVdE9URXZleTdLbG5NY2JKN3JSZGlBckxaajlwWQoc5": {
-   "lv": 1,
-   "why": "신현송 「성장·물가 동반 상향」 — 동결 뒤에도 11월 인상 열어 둠 → 한국 0.80·원화·채권 칸",
-   "at": "2026-10-23 14:40"
-  },
   "HANAchina/70898": {
    "lv": 1,
    "why": "상해종합 오후 −2% → 플러스 전환(국가 자금 추정) — 아시아 AI 매도 속 중국만 버팀, 1288.HK 그림자 bet 방향",
@@ -112,11 +92,6 @@
    "why": "외국인 주식 팔고 채권 사는 중 — 한국 이탈이 「원화 이탈」은 아님, 한국 가설 깨짐 조건과 구분",
    "at": "2026-10-23 14:40"
   },
-  "n/0tLXQ2MHBTbWdMYnFQVVZEeGFURFBhOXpITElVYWV3RkVuV0QtWkcwY1Eoc5": {
-   "lv": 1,
-   "why": "코스피 장중 −3%대 → 플러스 5,530 전환 — 한국 가설(외인 복귀 전 비중 확대 금지)·「낙폭 회복일」 아이디어 시험대",
-   "at": "2026-10-23 15:35"
-  },
   "HANAchina/70899": {
    "lv": 1,
    "why": "코어위브 무담보채 수익률 15%·부족분 230억~760억$ 논쟁 — AI 차입(크레딧) 가설 0.88 핵심 숫자",
@@ -126,6 +101,21 @@
    "lv": 1,
    "why": "8월 은행 연체율 0.69% 10년 최고(중기·자영업) — 금융 칸·한은 인상 경로 부담",
    "at": "2026-10-23 15:35"
+  },
+  "n/pSeXpLSVh4WFk5MERubGhtMXJaQzdONTNPWjk5VmZZN2lXNm1ZajQtMTUoc5": {
+   "lv": 1,
+   "why": "코스피 +0.30% 5,550 마감이지만 외인 1조 가까이 순매도 — 기관이 받친 반등, 한국 가설 0.80(외인 복귀 전 확대 금지)·15:35 「외인 매도 속 V자 제외」 규칙에 해당",
+   "at": "2026-10-23 16:35"
+  },
+  "n/aNnFDd1ctR2hfcl9CZ2NMMGpleWFDaUp4a2I4Q0VrUXdNbDM3Uk45MzMwoc5": {
+   "lv": 1,
+   "why": "삼성전기 테슬라·엔비디아 3.7조 투자 유치 — AI 기판 실수요(차입 가설 반대편), 7일 신호 없음 → 👀 관찰",
+   "at": "2026-10-23 16:35"
+  },
+  "n/0tEQVN1c0dRZWRmNFZ2LWVsWGlGbFg5Q1dYUUpFNVJYd2NwcXdyUlU5RQoc5": {
+   "lv": 1,
+   "why": "WSJ 「프랑스 부채 위기 심화·외국인 이탈」 — 열린 EWQ bet 정면 역풍, 손절 −4%(39.99) 점검",
+   "at": "2026-10-23 16:35"
   }
  }
 }

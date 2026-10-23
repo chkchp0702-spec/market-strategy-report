@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "삼성전기·엔비디아 'AI반도체 찐깐부'… 세종 기판 4.27조 증설, 엔비디아향 두 자릿수 성장",
+   "url": "https://www.fnnews.com/news/202610212125097209",
+   "press": "파이낸셜뉴스",
+   "at": "2026-10-23 16:35",
+   "why": "오늘 「삼성전기 테슬라·엔비디아 3.7조 투자」(thebell) 배경 — AI 기판(FC-BGA) 실수요, AI 차입 가설의 반대편(돈 버는 쪽 부품)",
+   "summary": "9/28 세종사업장 4조2,700억원 투자, 2028년 5월 증설 완료·9월 양산 목표 · 패키지솔루션 2Q 매출 7,716억원(+37% YoY) · 엔비디아향 기판 다년간 연평균 두 자릿수 성장 전망"
+  },
+  {
+   "title": "Samsung Electro-Mechanics, Nvidia expand dedicated AI substrate fabs with joint investment",
+   "url": "https://www.digitaltoday.co.kr/en/view/117830/samsung-electro-mechanics-nvidia-expand-dedicated-ai-substrate-fabs-with-joint-investment",
+   "press": "Digital Today",
+   "at": "2026-10-23 16:35",
+   "why": "엔비디아가 부품사 증설에 직접 돈을 넣음 — 칩 사이클 조정 속 공급망 확보 경쟁, 7일 신호 종목 아님(관찰)",
+   "summary": "10/21 발표 · 세종·부산 AI 기판 라인 엔비디아 칩셋·네트워크 스위치용 전용 증설 · 2026년부터 물량 연 두 자릿수↑, 2028년 생산능력 상당 비중(투자액은 기사에 없음)"
+  },
+  {
    "title": "골드만삭스, 코어위브 '매수' 상향·73% 상승 여력 — 자금조달 우려 깊어지는 가운데",
    "url": "https://www.roic.ai/news/goldman-sachs-upgrades-coreweave-to-buy-sees-73-upside-despite-deepening-financing-fears-10-19-2026",
    "press": "roic.ai",
@@ -623,23 +639,7 @@
    "at": "2026-10-21 16:35",
    "why": "내일(10/22) 금통위 — 원화 강세·국고채·현금 칸, 코스피 반등 지속성",
    "summary": "씨티: 10월 동결하되 매파적 신호, 11월 인상 예상. 현재 원/달러 1,325.2원 4거래일 연저점(조선비즈 피드)."
-  },
-  {
-   "title": "블랙록 핑크 \"데이터센터 건설 중단은 美 경기침체 부를 수도\"",
-   "url": "https://baxtel.com/news/blackrock-ceo-warns-us-data-center-construction-slowdown-could-trigger-recession",
-   "press": "Baxtel",
-   "at": "2026-10-21 16:35",
-   "why": "고금리 장기화 가설 + 전력·데이터센터 인프라(히타치 bet, 전력망 테마)",
-   "summary": "핑크: 데이터센터는 문제 아님, 모라토리엄은 침체 위험. 10/21 블룸버그 \"AI 건설 지연이 물가를 자극\" 발언과 같은 줄기."
-  },
-  {
-   "title": "[단독] 삼성·SK하이닉스, 중국 공장을 더 첨단 칩 생산용으로 고도화 중(로이터)",
-   "url": "https://www.investing.com/news/stock-market-news/exclusivesamsung-sk-hynix-upgrading-china-plants-to-make-more-advanced-chips-people-say-4961549",
-   "press": "Reuters via Investing.com",
-   "at": "2026-10-21 14:35",
-   "why": "반도체 칸·한국 가설 — 메모리 공급 확대 vs 美 수출통제(VEU) 마찰 변수, 삼전닉스 반등의 지속성 점검",
-   "summary": "관계자 인용: 두 회사가 중국 팹을 더 첨단 공정으로 업그레이드 중. 세부 수치는 원문 미확인. 배경: 하이닉스 다롄 2공장 재가동·1H27 양산 목표(TrendForce 8/12)."
   }
  ],
- "at": "2026-10-23 15:35"
+ "at": "2026-10-23 16:35"
 }
