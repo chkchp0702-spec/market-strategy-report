@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "오픈AI, 9월말엔 1.4조$ 몸값에 300억$↑ 조달 추진 — 3주 만에 1.25조$로 낮춰 조달 임박",
+   "url": "https://pulse2.com/openai-reportedly-targets-at-least-30-billion-funding-at-1-4-trillion-valuation/",
+   "press": "Pulse 2.0 (블룸버그 인용)",
+   "at": "2026-10-23 13:35",
+   "why": "AI 차입 가설(0.88) — 같은 300억$ 조달에 몸값 약 11% 하향 = 자금 창구 비용 상승의 숫자 확인",
+   "summary": "9/29 블룸버그: 최소 300억$·1.4조$ 몸값 목표 · 10/23 연합인포맥스(kwusa/61425): 1.25조$에 최대 300억$ 조달 임박 · 1.4→1.25조$ = −10.7%"
+  },
+  {
+   "title": "AI 붐에 캘퍼스 수익 증가 — 이사회 의장은 '파국적 위험' 경고(9월) → 10/23 FT 「캘퍼스, AI 랠리 흔들리자 빅테크 축소」",
+   "url": "https://localnewsmatters.org/2026/09/18/ai-boom-lifts-calpers-investments-as-board-leader-warns-of-possible-catastrophic-risks/",
+   "press": "Local News Matters / CalMatters",
+   "at": "2026-10-23 13:35",
+   "why": "AI 차입 가설 — 주식 매수 주체(연기금)가 빠지는 쪽, 반도체 칸 7% 유지 근거",
+   "summary": "9/18 캘퍼스 AI 수혜 수익 vs 이사회 경고 · 10/23 FT(ft_co) 빅테크 비중 축소 보도 — 축소 규모는 미확인"
+  },
+  {
    "title": "10년 미 국채금리 3개월 최저 — AI 매도와 연결(전략가)",
    "url": "https://finance.yahoo.com/news/10-treasury-yield-hits-three-213800346.html",
    "press": "Yahoo Finance",
@@ -623,22 +639,6 @@
    "at": "2026-10-21 11:35",
    "why": "AI·우주 대형 발행이 크레딧 공급 부담 — AI 차입 약한 고리(0.86) 가설 관찰",
    "summary": "제목 기준: 증시 매도 중 국채 강세, 스페이스X 채권 발행이 관심. 발행 규모·날짜 미확인."
-  },
-  {
-   "title": "NextDC, 9월 11억 호주달러 전환사채로 데이터센터 증설 자금 조달",
-   "url": "https://www.fool.com.au/2026/09/09/nextdc-launches-1-1bn-convertible-notes-to-fund-data-centre-growth/",
-   "press": "Motley Fool AU",
-   "at": "2026-10-21 10:35",
-   "why": "오늘 전망 하향 −42%의 배경 — 부채로 지은 데이터센터가 가이던스 하나에 무너지는 구조(AI 차입 약한 고리 가설)",
-   "summary": "9/9 11억 호주달러 전환사채 발행. 한 달 −14%였던 주가가 10/21 전망 하향으로 −42%·9년 최저(investing_en 피드)."
-  },
-  {
-   "title": "인튜이티브 서지컬, 7월에도 실적 상회 후 수술건수 전망에 급락 — 같은 패턴 반복",
-   "url": "https://invezz.com/news/2026/07/17/intuitive-surgical-stock-sinks-despite-earnings-beat-on-2026-procedure-growth-outlook/",
-   "press": "Invezz",
-   "at": "2026-10-21 10:35",
-   "why": "10/20 실적에서도 상회 후 시간외 급락 — 의료기기 bet(MDT·DHR)과 '호실적 후 가이던스 실망' earn 탈락 규칙 근거",
-   "summary": "7/17 EPS 상회에도 2026 수술건수 증가율 전망으로 하락. 10/20 3분기도 상회·전망 유지인데 시간외 급락(barrons·kwusa 피드)."
   }
  ],
  "at": "2026-10-23 11:35"
