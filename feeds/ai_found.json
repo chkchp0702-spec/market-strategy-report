@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "AI 부채 공세가 글로벌 금리에 불을 붙인다 (Macro View)",
+   "url": "https://news.bloomberglaw.com/bankruptcy-law/ai-debt-onslaught-lights-fire-under-global-yields-macro-view",
+   "press": "Bloomberg Law",
+   "at": "2026-10-23 11:35",
+   "why": "AI 차입 가설(0.87)의 채권 쪽 근거 — 빅테크 대량 발행이 금리·스프레드를 밀어 올림, 성장주 킥 크기 조절과 이어짐",
+   "summary": "AI 관련 대규모 회사채 발행이 글로벌 금리 상승 압력으로 작용한다는 분석. 오늘 피드 bbg 「글로벌 크레딧 스프레드 17개월 최고」와 같은 줄기. 기사 작성일·세부 숫자 웹 미확인."
+  },
+  {
+   "title": "디스트레스 워치: AI 공포가 크레딧 시장으로 번지다",
+   "url": "https://news.bgov.com/bankruptcy-law/distress-watch-ai-hysteria-spreads-to-credit-markets",
+   "press": "Bloomberg Government",
+   "at": "2026-10-23 11:35",
+   "why": "AI 주식 매도가 크레딧으로 전이되는지 — 가설 0.87 의 「다음 약한 고리」 확인용",
+   "summary": "AI 관련 불안이 하이일드·레버리지론 등 크레딧 시장으로 확산된다는 점검 기사. 오늘 Nebius 35억$ 브리지론·메타 대규모 증자 가능성(barrons) 보도와 맞물림. 작성일 웹 미확인."
+  },
+  {
    "title": "씨티·모건스탠리, 한은 기준금리 10월 유지·11월 인상 전망",
    "url": "https://biz.sbs.co.kr/amp/article/20000339914",
    "press": "SBS Biz",
@@ -623,23 +639,7 @@
    "at": "2026-10-21 04:24",
    "why": "'AI 차입이 다음 약한 고리'(0.86) 가설의 핵심 계기 — 실적으로 주가가 반등해도 크레딧이 안 풀리면 반등을 믿지 않는 근거",
    "summary": "빅테크 크레딧 위험 지표가 다시 신고점. 같은 밤 앤트로픽 상반기 순손실 800억 달러 초과(로이터·WSJ), 그리핀 'AI는 거의 확실히 버블'(bbg_tech). 수치 세부는 원문 확인 필요."
-  },
-  {
-   "title": "골드만 '아이폰 듀오 예약 강력 호조' — 출하 전망 유지, 애플 공급망 긍정",
-   "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?menuSeq=459&subMenu=latest&wowcode=&Class=&articleId=A202610200089",
-   "press": "한국경제TV(파인엠텍 독점 공급) · 골드만(HANAchina 전달)",
-   "at": "2026-10-21 08:00",
-   "why": "'애플 수요 둔화' 가설(0.25로 하향) 반대 근거 — 한국 아이폰 부품주 매도 판단을 접는 근거",
-   "summary": "골드만: 아이폰 듀오 26년 1,300만·27년 3,300만대 전망 유지, 중국 징둥·티몰 1분 완판. 파인엠텍이 중국산 제치고 독점 공급. 애플은 韓·日 현장판매 막음(물량 부족)."
-  },
-  {
-   "title": "증시 대기자금 9개월래 최저…반대매매 급증",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTTXFEQlJVdDhab19aNllOUERMZHM0SWFhUmdFLXRiaW1iZHZNLU5faEtyZVR6cjRUa2FlWnNaOXlQTVU3aXBsakJtQ3daNHBpWDVPMkdObkxDc25WTXRza0poWm52VHM?oc=5",
-   "press": "구글뉴스(국내 증시)",
-   "at": "2026-10-21 05:38",
-   "why": "'한국은 외인 복귀 전까지 비중 확대 금지'(0.80) — 반등 출발해도 반대매매 소진 확인 전엔 한국 킥 크기 절반 규칙과 연결",
-   "summary": "코스피 −3.73%(10/20) 뒤 투자자예탁금 9개월 최저·반대매매 급증. 세부 금액은 원문 미확인."
   }
  ],
- "at": "2026-10-23 08:35"
+ "at": "2026-10-23 11:35"
 }
