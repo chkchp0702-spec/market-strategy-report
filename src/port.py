@@ -501,6 +501,14 @@ def main() -> int:
         "prev": prev, "miss": miss, "rule": rule,
         "note": "리포트 배분표를 그대로 따랐다면의 계산(2026-10-13부터 🦴 변동성 맞춤 방어형 반영 — vol_rule). 매일 비중 유지 가정 · 수수료·세금 제외 · 달러 기준(미국 밖 종목·지수는 환율 반영). 매수 추천 아님.",
     }
+    # 10/23: 야후가 하루치(10/22)를 잠깐 빼먹어 포트가 하루 뒤로 돌아간 일 → 기존보다 옛날 기준이면 덮어쓰지 않음
+    try:
+        old_asof = json.loads(OUT.read_text(encoding="utf-8")).get("asof") or ""
+    except Exception:
+        old_asof = ""
+    if old_asof and out["asof"] < old_asof and "--force" not in sys.argv:
+        print(f"⚠ 새 계산 기준일 {out['asof']} < 기존 {old_asof} — 야후 시세 빠짐으로 보고 덮어쓰지 않음")
+        return 0
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"포트 {out['stat']['ret']:+.2f}% vs S&P {out['stat']['spy']:+.2f}% · {out['stat']['days']}거래일 · 빠진 시세 {miss}")
     return 0
