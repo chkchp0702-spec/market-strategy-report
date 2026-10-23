@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23 08:35",
+ "at": "2026-10-23 09:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/httpswwwcnbccom20261021inflationukcpiinterestrateshtml": {
@@ -101,6 +101,21 @@
    "lv": 1,
    "why": "AI·데이터센터 IPO 줄줄이 철회, 앤트로픽만 남음 — AI 차입(크레딧) 가설 0.87 의 주식 조달 쪽 증거",
    "at": "2026-10-23 08:35"
+  },
+  "n/RNR3VkM1dhN01zOFktYzAwaXpNWVQyNUIwTWRKU0dadTZ5M2NLY3VuX1koc5": {
+   "lv": 1,
+   "why": "코스피 장 초반 3% 급락 5,300선·하이닉스 117만 — 한국 가설(외인 복귀 전 비중 확대 금지) 그대로, 야간선물 −2%↓ 다음 날 시가 진입 보류 규칙 확인일",
+   "at": "2026-10-23 09:35"
+  },
+  "n/261022japaninflationrisesabovebojtargetlevelbackingratehikes": {
+   "lv": 1,
+   "why": "일본 근원물가 2.1%·BOJ 목표 초과 → 12월 인상 무게(엔 강세) — 열린 히타치(수출) bet 역풍·미즈호(은행) bet 순풍",
+   "at": "2026-10-23 09:35"
+  },
+  "n/01YWM5S09mWExkMC1La3dXV09ucTFLM1BNQk8tU29WX0JURnk4alNaREcoc5": {
+   "lv": 1,
+   "why": "젠슨 황 「2029년까지 메모리 공급 과잉 없다」 — 메모리 투매 속 반대 근거, 하이닉스 관찰(신호 붙으면 bet)",
+   "at": "2026-10-23 09:35"
   }
  }
 }
