@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24 06:35",
+ "at": "2026-10-24 07:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7737": {
@@ -21,11 +21,6 @@
    "lv": 1,
    "why": "오픈AI 목표 기업가치 1.25조$로 낮춤(FT) — AI 돈줄 가설(0.87) 쪽 증거, 앤트로픽 상장 앞 밸류 눈높이 하향",
    "at": "2026-10-23 07:35"
-  },
-  "n/01YWM5S09mWExkMC1La3dXV09ucTFLM1BNQk8tU29WX0JURnk4alNaREcoc5": {
-   "lv": 1,
-   "why": "젠슨 황 「2029년까지 메모리 공급 과잉 없다」 — 메모리 투매 속 반대 근거, 하이닉스 관찰(신호 붙으면 bet)",
-   "at": "2026-10-23 09:35"
   },
   "kwusa/61425": {
    "lv": 1,
@@ -97,25 +92,20 @@
    "why": "미 10월 소비심리 5개월 최저·물가 기대 상승 — 브렌트 116$ 와 함께 고금리 가설·다음 주 FOMC 경계(10년 5% 감시)",
    "at": "2026-10-24 01:35"
   },
-  "n/wsnewsletters20261023somethingisgoingonwiththediscountwindow": {
-   "lv": 1,
-   "why": "AI 차입(크레딧) 가설 0.88 — 은행 할인창구 이용 이상 신호(bbg)·월말 레포 변동성 경고(CIBC)·신용 스프레드 17개월 최고와 겹친 자금 경색 냄새, 킥 크기 보수 근거",
-   "at": "2026-10-24 03:35"
-  },
   "n/freshusstrikesoniranarepredicted8c27e634modmw_rss_topstories": {
    "lv": 1,
    "why": "美·이스라엘 중간선거(11월 초) 뒤 이란 추가 공습 검토 보도 — 브렌트 116$ 위 주말 위험, 에너지 ☕ 눈(CHRD·PR·PAGP)·고금리 가설과 직결",
    "at": "2026-10-24 04:35"
   },
-  "n/Jc1p5cWMtbUZveG1vQVZfQW9EMkxhWTlTcDF6bzZ4d2E1MEY1TlpabzI4oc5": {
-   "lv": 1,
-   "why": "위험 회피 날 금도 −2%↑ 동반 급락 = 현금화 매도 — 금 칸(유지 중) 추가는 VIX 꺾인 뒤로",
-   "at": "2026-10-24 05:35"
-  },
   "n/veFZHWGxZcUJPN1ZBLXpiaV9CZ003SFR3VWtvMEQ1YkFXY09pSjhDR3VRoc5": {
    "lv": 1,
    "why": "TD 「10월 동결이면 12월 인상 가능성↑」 — 고금리 정점 가설(0.42)·FOMC 10/28 앞 채권·성장주 칸 직결",
    "at": "2026-10-24 06:35"
+  },
+  "n/s20261023datacentersfacedowngraderiskamidlocalpushbackspsays": {
+   "lv": 1,
+   "why": "AI 차입(크레딧) 가설 0.88 — S&P 가 데이터센터 등급 하향 위험을 공식 경고(지역 반발·모라토리엄), 신평사 쪽으로 번진 첫 신호",
+   "at": "2026-10-24 07:35"
   }
  }
 }

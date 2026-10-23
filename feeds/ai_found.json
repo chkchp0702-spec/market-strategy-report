@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "S&P: 데이터센터 투명성이 지방정부 신용의 열쇠 — 지역 반발 위험",
+   "url": "https://www.bondbuyer.com/news/data-center-transparency-key-for-local-governments-s-p-says",
+   "press": "The Bond Buyer",
+   "at": "2026-10-24 07:35",
+   "why": "AI 차입(크레딧) 가설 — 신평사가 데이터센터 반발을 신용 위험으로 다루기 시작, 빅테크·네오클라우드 채권 스트레스 경로",
+   "summary": "S&P Global Ratings 가 데이터센터 유치 지방정부·사업의 공개·투명성을 신용 판단 요소로 지목(게재일 미확인). 같은 날 bbg 「데이터센터, 지역 반발로 등급 하향 위험」과 같은 줄기."
+  },
+  {
    "title": "다우 −652p, 유가 급등·국채 금리 상승에 하락 — 주간 마감",
    "url": "https://www.kiplinger.com/investing/stocks/dow-drops-652-points-as-oil-treasury-yields-rise-stock-market-today",
    "press": "Kiplinger",
@@ -631,15 +639,7 @@
    "at": "2026-10-22 08:35",
    "why": "반도체 칸·SOX +1.97% 다음날 — 장비주 「좋은 실적에 파는」 반응이 한국 소부장·하이닉스 개장에 번지는지",
    "summary": "FY27 1분기 매출 54% 증가·사상 최대, 영업이익률 40% 돌파. 다음 분기 매출 최대 90억$ 전망에도 공급망 제약 언급 뒤 시간외 하락(investing·연합인포맥스 kwusa/61365)."
-  },
-  {
-   "title": "램리서치 FY27 1분기 슬라이드: 영업이익률 40% 돌파",
-   "url": "https://ca.investing.com/news/stock-market-news/lam-research-q1-fy2027-slides-operating-margin-tops-40-milestone-93CH-4894838",
-   "press": "Investing.com",
-   "at": "2026-10-22 08:35",
-   "why": "장비 수요(메모리·첨단 공정) 정점 논쟁의 숫자 — AI 크레딧·반도체 가설 점검",
-   "summary": "영업이익률 40%↑ 첫 돌파. 시장은 숫자보다 공급망 제약·다음 분기 이후 지속성을 보고 있음."
   }
  ],
- "at": "2026-10-24 05:35"
+ "at": "2026-10-24 07:35"
 }
