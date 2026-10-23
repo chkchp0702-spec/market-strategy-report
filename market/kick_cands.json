@@ -4360,6 +4360,66 @@
 "src": "ins",
 "score": 68.4,
 "note": "기회형 내부자 3명 · 343천 달러 (10일 안 공시)"
+},
+"CART|2026-10-23": {
+"code": "CART",
+"name": "Maplebear Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-23",
+"src": "cup_eye",
+"score": 79.1,
+"lv": 51.63,
+"max20": 3.8,
+"id60": -0.033
+},
+"CHRD|2026-10-23": {
+"code": "CHRD",
+"name": "Chord Energy Corporation - Common Stoc",
+"mkt": "US",
+"d": "2026-10-23",
+"src": "cup_eye",
+"score": 76.2,
+"lv": 156.72,
+"max20": 4.6,
+"id60": 0.033
+},
+"IOT|2026-10-23": {
+"code": "IOT",
+"name": "Samsara Inc. Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-23",
+"src": "cup",
+"score": 44.4,
+"lv": 44.25,
+"max20": 5.2,
+"id60": 0.0
+},
+"EGBN|2026-10-23|e": {
+"code": "EGBN",
+"name": "Eagle Bancorp, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-23",
+"src": "earn",
+"score": 79.8,
+"lv": 29.29
+},
+"CACI|2026-10-23|e": {
+"code": "CACI",
+"name": "CACI International, Inc. Class A Commo",
+"mkt": "US",
+"d": "2026-10-23",
+"src": "earn",
+"score": 70.2,
+"lv": 549.51
+},
+"HURN|2026-10-23|e": {
+"code": "HURN",
+"name": "Huron Consulting Group Inc. - Common S",
+"mkt": "US",
+"d": "2026-10-23",
+"src": "earn",
+"score": 70.0,
+"lv": 125.68
 }
 },
 "sent": [
