@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23 18:35",
+ "at": "2026-10-23 19:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/httpswwwcnbccom20261021inflationukcpiinterestrateshtml": {
@@ -111,6 +111,16 @@
    "lv": 1,
    "why": "JPM 「미 10년 4.94~5.02% 저항, 위험자산 바닥 전 국채 매도 말라」 — 10년 5% 이틀째 watch·고금리 가설 0.45 직결",
    "at": "2026-10-23 18:35"
+  },
+  "n/0261023hedgefundslogwidestdailydrawdownsincecovidinstockrout": {
+   "lv": 1,
+   "why": "AI 차입 가설 0.88 — 헤지펀드 디레버리징(크라우드 롱 투매)이 다음 주 FOMC·빅테크 실적 앞 변동성 키움",
+   "at": "2026-10-23 19:35"
+  },
+  "n/QaHBZM3YydGVOV1dFUHp5VElKN2hVVy10a3FiQXJZVks1U3BHRjliQzhjoc5": {
+   "lv": 1,
+   "why": "watch 「美 10년 5% 이틀째」 — 오늘 마감 5% 아래면 고금리 가설·중장기채 칸 판단",
+   "at": "2026-10-23 19:35"
   }
  }
 }
