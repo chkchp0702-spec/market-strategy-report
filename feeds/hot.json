@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23 17:35",
+ "at": "2026-10-23 18:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/httpswwwcnbccom20261021inflationukcpiinterestrateshtml": {
@@ -11,11 +11,6 @@
    "lv": 1,
    "why": "프랑스 10년 5% 돌파(2002년 이후 처음) — 열린 EWQ bet(BofA 「프랑스 회피 최대」 역발상)의 반대 근거 직격",
    "at": "2026-10-22 10:35"
-  },
-  "n/ongkongstockshead4monthlowchancestrongstimulusbeijingshrinks": {
-   "lv": 1,
-   "why": "항셍 −2.7% 23,008·4개월 최저 — 부양 기대 후퇴, 1288.HK bet(중국농업은행) 손절선 시험",
-   "at": "2026-10-22 12:35"
   },
   "n/sutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
    "lv": 1,
@@ -87,25 +82,10 @@
    "why": "8월 은행 연체율 0.69% 10년 최고(중기·자영업) — 금융 칸·한은 인상 경로 부담",
    "at": "2026-10-23 15:35"
   },
-  "n/pSeXpLSVh4WFk5MERubGhtMXJaQzdONTNPWjk5VmZZN2lXNm1ZajQtMTUoc5": {
-   "lv": 1,
-   "why": "코스피 +0.30% 5,550 마감이지만 외인 1조 가까이 순매도 — 기관이 받친 반등, 한국 가설 0.80(외인 복귀 전 확대 금지)·15:35 「외인 매도 속 V자 제외」 규칙에 해당",
-   "at": "2026-10-23 16:35"
-  },
   "n/aNnFDd1ctR2hfcl9CZ2NMMGpleWFDaUp4a2I4Q0VrUXdNbDM3Uk45MzMwoc5": {
    "lv": 1,
    "why": "삼성전기 테슬라·엔비디아 3.7조 투자 유치 — AI 기판 실수요(차입 가설 반대편), 7일 신호 없음 → 👀 관찰",
    "at": "2026-10-23 16:35"
-  },
-  "n/0tEQVN1c0dRZWRmNFZ2LWVsWGlGbFg5Q1dYUUpFNVJYd2NwcXdyUlU5RQoc5": {
-   "lv": 1,
-   "why": "WSJ 「프랑스 부채 위기 심화·외국인 이탈」 — 열린 EWQ bet 정면 역풍, 손절 −4%(39.99) 점검",
-   "at": "2026-10-23 16:35"
-  },
-  "n/httpskrinvestingcomnewsstockmarketnewsarticle93CH2138888": {
-   "lv": 1,
-   "why": "브렌트 114달러 돌파(호르무즈) — 열린 CNQ bet 순풍·PR ☕ 눈 신호, 반대로 인플레·금리 경로 부담",
-   "at": "2026-10-23 17:35"
   },
   "n/lGb0FMLWlYNUYza1U2WHFjeUg2WmtoVS00X0liOVkxejlwUERWNUxKdmUoc5": {
    "lv": 1,
@@ -116,6 +96,21 @@
    "lv": 1,
    "why": "코스피 12개월 선행 PER 4.2배 — 1조$ 시장 첫 5배 하회(bbg 2006~). 한국 가설 0.80 의 가격 쪽 반대 근거(싸다), 외인 복귀 신호 대기",
    "at": "2026-10-23 17:35"
+  },
+  "n/es20261023bojissaidtokeepratehikesonfasttrackdecemberinfocus": {
+   "lv": 1,
+   "why": "열린 MFG(미즈호, ☕ 컵 10/19) bet 순풍 — BOJ 빠른 인상 경로 유지·12월 유력(bbg), 은행 순이자마진 직결",
+   "at": "2026-10-23 18:35"
+  },
+  "n/sfrenchdebtturmoilspillsoversease39de111modmw_rss_topstories": {
+   "lv": 1,
+   "why": "무디스 프랑스 등급 검토 — 열린 EWQ(프랑스) bet 이벤트 리스크, 손절 −4%(39.99) 점검",
+   "at": "2026-10-23 18:35"
+  },
+  "HANAchina/70910": {
+   "lv": 1,
+   "why": "JPM 「미 10년 4.94~5.02% 저항, 위험자산 바닥 전 국채 매도 말라」 — 10년 5% 이틀째 watch·고금리 가설 0.45 직결",
+   "at": "2026-10-23 18:35"
   }
  }
 }
