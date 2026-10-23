@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23 19:35",
+ "at": "2026-10-23 20:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/httpswwwcnbccom20261021inflationukcpiinterestrateshtml": {
@@ -121,6 +121,16 @@
    "lv": 1,
    "why": "watch 「美 10년 5% 이틀째」 — 오늘 마감 5% 아래면 고금리 가설·중장기채 칸 판단",
    "at": "2026-10-23 19:35"
+  },
+  "n/0261023blackstonebetonchipsdroveadebtboomthatsupendingcredit": {
+   "lv": 1,
+   "why": "AI 차입(크레딧) 가설 0.88 — 블랙스톤 칩 베팅발 사모 대출 붐이 크레딧 시장을 흔든다(bbg), 스프레드 17개월 최고와 같은 줄기",
+   "at": "2026-10-23 20:35"
+  },
+  "n/arketnewswallstreetfuturesdipafterairouttelecomsslide4968816": {
+   "lv": 1,
+   "why": "미 선물 AI 투매 뒤 추가 하락·통신주 약세(스페이스X 기지국) — 오늘 밤 성장주 킥 진입 보류·디레버리징 관찰",
+   "at": "2026-10-23 20:35"
   }
  }
 }
