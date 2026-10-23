@@ -4342,6 +4342,24 @@
 "src": "focus",
 "score": 70,
 "theme": "헬스케어"
+},
+"4674.T|2026-10-23": {
+"code": "4674.T",
+"name": "CRESCO LTD",
+"mkt": "JP",
+"d": "2026-10-23",
+"src": "cup_eye",
+"score": 67.9,
+"lv": 2177.17
+},
+"RAPP|2026-10-22|ins": {
+"code": "RAPP",
+"name": "RAPP",
+"mkt": "US",
+"d": "2026-10-22",
+"src": "ins",
+"score": 68.4,
+"note": "기회형 내부자 3명 · 343천 달러 (10일 안 공시)"
 }
 },
 "sent": [
