@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 증시 금요일 하락 — 다우 −1.2%·S&P −0.5%·나스닥 −0.2%, WTI 102.39$·브렌트 115.94$",
+   "url": "https://www.ibtimes.com/investors-keep-risk-off-mood-amid-ai-spending-concerns-soaring-middle-east-tensions-stocks-fell-3808950",
+   "press": "IBTimes",
+   "at": "2026-10-24 05:35",
+   "why": "에너지 칸 상단·금융/경기민감 약세 — 위험 회피 국면 지속 확인",
+   "summary": "다우 −1.24%·S&P −0.52%·나스닥 −0.21%(기사 시점 기준). WTI 12월물 +3% 102.39$, 브렌트 +2.5% 115.94$. 이란 긴장·AI 지출 우려 동시."
+  },
+  {
+   "title": "美 10년 금리, AI 우려 속 이번 주 5% 선으로 되돌아와",
+   "url": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html",
+   "press": "CNBC",
+   "at": "2026-10-24 05:35",
+   "why": "고금리 정점 가설(0.45)·현금/단기채 칸 us10y 조건과 직결",
+   "summary": "10년물 5% 부근 공방 — 장 후반 CNBC 시세 5.001%(전일 4.953). 이틀 연속 5% 하회 조건 미충족."
+  },
+  {
    "title": "오늘의 증시(10/23): 기술주 매도 뒤 다우 급락 — 이란 「걸프 7개국 석유·데이터센터·AI 시설 타격」 위협",
    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-23-2026",
    "press": "TheStreet",
@@ -623,23 +639,7 @@
    "at": "2026-10-22 07:35",
    "why": "AI 차입·지출 가설과 연결 — 지출 규율 기업에 프리미엄, 오늘 아시아 AI 인프라주 반응 확인용",
    "summary": "조정 EPS 0.48달러 예상 상회, FCF +15억$(시장은 42~43억$ 유출 예상, globalmktinsight 10/22). 매출은 정체."
-  },
-  {
-   "title": "뉴스퀵 아시아 개장 전 — S&P 7,759(+0.6%)·나스닥 +1.1%, 美 10년 5.13%·브렌트 108.82달러",
-   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---22nd-october-2026",
-   "press": "Newsquawk",
-   "at": "2026-10-22 06:35",
-   "why": "고금리 가설·에너지 칸·CNQ bet — 마감 숫자 확인, 오늘 한은 금통위",
-   "summary": "브렌트 12월물 +0.9% 108.82·WTI 97.15 · 테슬라 EPS 0.48$(예상 0.45) 시간외 +2% · 메타 EPS 3.83$는 소송 충당 98.9억$ 반영, 시간외 +3.5% · 사우디 '샤이바 드론 요격, 운영 영향 없음'"
-  },
-  {
-   "title": "美, 후티 공격 속 사우디 주재 대사관 직원·가족 출국 명령",
-   "url": "https://thehill.com/policy/international/6164064-houthi-attacks-trigger-evacuations/",
-   "press": "The Hill",
-   "at": "2026-10-22 06:35",
-   "why": "에너지 칸·CNQ bet — 걸프 지정학 상방, 다만 물동량 정상화 보도와 엇갈림",
-   "summary": "전날 '철수 준비' 보도가 실제 명령으로 · 아람코 샤이바 유전 겨냥 드론(사우디 '요격·영향 없음', 이란 매체 2명 사망 주장은 미확인)"
   }
  ],
- "at": "2026-10-24 04:35"
+ "at": "2026-10-24 05:35"
 }
