@@ -144,7 +144,7 @@ def main() -> int:
     for k, v in (K.get("shadow_stat") or {}).items():
         sig.append({"k": k, "tag": v.get("tag", TAG.get(k, "")), "shadow": True, "n": v.get("n"), "pf": v.get("pf"), "avg": v.get("avg"), "win": v.get("win")})
     S.append({"k": "kick", "ic": "⚡", "t": "킥 — 신호별", "n": ks.get("trades"), "win": None, "rate": ks.get("win"), "avg": ks.get("avg"),
-              "note": f"킥 {ks.get('kick', 0):+.2f}% vs 기본 {ks.get('base', 0):+.2f}% · S&P {ks.get('spy', 0):+.2f}%", "sig": sig,
+              "note": f"킥 {(ks.get('kick') or 0) + 0.0:+.2f}% vs 기본 {(ks.get('base') or 0) + 0.0:+.2f}% · S&P {(ks.get('spy') or 0) + 0.0:+.2f}%", "sig": sig,
               "honest_ret": (K.get("honest") or {}).get("ret"), "honest_note": (K.get("honest") or {}).get("note")})
     dt_ = []
     for k, v in (LR.get("types") or {}).items():
