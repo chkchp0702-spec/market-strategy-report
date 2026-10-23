@@ -1,5 +1,5 @@
 {
- "at": "2026-10-23 16:35",
+ "at": "2026-10-23 17:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/httpswwwcnbccom20261021inflationukcpiinterestrateshtml": {
@@ -16,11 +16,6 @@
    "lv": 1,
    "why": "항셍 −2.7% 23,008·4개월 최저 — 부양 기대 후퇴, 1288.HK bet(중국농업은행) 손절선 시험",
    "at": "2026-10-22 12:35"
-  },
-  "n/tCc09PdFVLQlk4WE96WUlqUUF0UXh2anR2RTVVVEN5WnhPaVBKSVhfWlEoc5": {
-   "lv": 1,
-   "why": "광통신 칸 — 중국 광모듈 1위권 이오프토링크 장중 −10%(회사 「납품 정상·1.6T 증산」 해명), 광통신 심리 시험",
-   "at": "2026-10-22 17:35"
   },
   "n/sutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
    "lv": 1,
@@ -52,20 +47,10 @@
    "why": "젠슨 황 「2029년까지 메모리 공급 과잉 없다」 — 메모리 투매 속 반대 근거, 하이닉스 관찰(신호 붙으면 bet)",
    "at": "2026-10-23 09:35"
   },
-  "n/cles20261023skdatacenterarmintalkstofund350billionaibuildout": {
-   "lv": 1,
-   "why": "SK 데이터센터 자회사 3,500억$ AI 구축 자금 조달 협의(bbg) — AI 차입 가설 0.87 의 「돈줄」 증거, 한국판 하이퍼스케일러 차입 시작",
-   "at": "2026-10-23 10:35"
-  },
   "n/icles20261023aitechfearspushglobalcreditspreadsto17monthhigh": {
    "lv": 1,
    "why": "글로벌 크레딧 스프레드 17개월 최고(bbg) — AI 차입(크레딧) 가설 0.87 직접 확인, 성장주 킥 크기 보수",
    "at": "2026-10-23 11:35"
-  },
-  "n/FmWTQ0R2J4MHh4czgyd3VVUmdObTRLQVBtU3Z3eHp6aTF2ME5zYWpqWlIoc5": {
-   "lv": 1,
-   "why": "한국 0.80 가설 — 장중 −4% 뒤 하이닉스 한때 상승전환·낙폭 축소, 외인 7,600억 매도는 지속(바닥 신호인지 종가 확인)",
-   "at": "2026-10-23 12:35"
   },
   "kwusa/61425": {
    "lv": 1,
@@ -116,6 +101,21 @@
    "lv": 1,
    "why": "WSJ 「프랑스 부채 위기 심화·외국인 이탈」 — 열린 EWQ bet 정면 역풍, 손절 −4%(39.99) 점검",
    "at": "2026-10-23 16:35"
+  },
+  "n/httpskrinvestingcomnewsstockmarketnewsarticle93CH2138888": {
+   "lv": 1,
+   "why": "브렌트 114달러 돌파(호르무즈) — 열린 CNQ bet 순풍·PR ☕ 눈 신호, 반대로 인플레·금리 경로 부담",
+   "at": "2026-10-23 17:35"
+  },
+  "n/lGb0FMLWlYNUYza1U2WHFjeUg2WmtoVS00X0liOVkxejlwUERWNUxKdmUoc5": {
+   "lv": 1,
+   "why": "헤지펀드 코로나 이후 최대 일간 손실(bbg) — 강제 디레버리징 = 혼잡 성장주 추가 매도 위험, 역발상 진입은 포지셔닝 확인 뒤",
+   "at": "2026-10-23 17:35"
+  },
+  "HANAchina/70907": {
+   "lv": 1,
+   "why": "코스피 12개월 선행 PER 4.2배 — 1조$ 시장 첫 5배 하회(bbg 2006~). 한국 가설 0.80 의 가격 쪽 반대 근거(싸다), 외인 복귀 신호 대기",
+   "at": "2026-10-23 17:35"
   }
  }
 }
