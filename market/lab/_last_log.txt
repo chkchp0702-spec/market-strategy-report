@@ -1,48 +1,18 @@
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   dividends.set_index("date", inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
+  splits.sort_index(inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   df.drop(
@@ -73,12 +43,6 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
@@ -88,9 +52,6 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   dividends.set_index("date", inplace=True)
@@ -121,6 +82,48 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  df.drop(
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  df.rename(columns={
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  splits.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  df.drop(
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  df.rename(columns={
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   df.drop(
@@ -151,24 +154,12 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
+  splits.sort_index(inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   df.drop(
@@ -184,30 +175,12 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
+  splits.sort_index(inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   df.drop(
@@ -223,24 +196,12 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
+  splits.sort_index(inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   df.drop(
@@ -256,471 +217,12 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
+  splits.sort_index(inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   df.drop(
@@ -775,39 +277,6 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  splits.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  splits.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   dividends.set_index("date", inplace=True)
@@ -829,72 +298,6 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   splits.set_index("date", inplace=True)
@@ -946,24 +349,12 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
+  splits.sort_index(inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   df.drop(
@@ -979,30 +370,12 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
+  splits.sort_index(inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   df.drop(
@@ -1018,6 +391,12 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   dividends.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  splits.sort_index(inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   df.drop(
@@ -1033,6 +412,12 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   dividends.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  splits.sort_index(inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   df.drop(
@@ -1048,15 +433,12 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
+  splits.sort_index(inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   df.drop(
@@ -1087,57 +469,12 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
+  splits.sort_index(inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   df.drop(
@@ -1159,640 +496,25 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: CFLT"}}}
-$CFLT: possibly delisted; no timezone found
-
-1 Failed download:
-['CFLT']: possibly delisted; no timezone found
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:220: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   data.rename(columns=ctx.isins, inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/multi.py:224: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  data.sort_index(level=0, axis=1, inplace=True)
-분기 [('2025-02-15', 'Q4 2024', 7), ('2025-05-16', 'Q1 2025', 1), ('2025-08-15', 'Q2 2025', 31), ('2025-11-15', 'Q3 2025', 33), ('2026-02-15', 'Q4 2025', 24), ('2026-05-16', 'Q1 2026', 36), ('2026-08-15', 'Q2 2026', 28)]
-nowk8 앞 -1.16 뒤 {'tot': np.float64(80.98), 'spy_tot': np.float64(15.79), 'cagr': np.float64(89.49), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-14.3), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.51), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-nowk10 앞 -1.24 뒤 {'tot': np.float64(64.72), 'spy_tot': np.float64(15.79), 'cagr': np.float64(71.21), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-13.7), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.28), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-nowk12 앞 -1.22 뒤 {'tot': np.float64(63.49), 'spy_tot': np.float64(15.79), 'cagr': np.float64(69.84), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-11.9), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.35), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-nowk15 앞 -1.02 뒤 {'tot': np.float64(38.19), 'spy_tot': np.float64(15.79), 'cagr': np.float64(41.7), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-13.4), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.7), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-nowk18 앞 -1.09 뒤 {'tot': np.float64(34.88), 'spy_tot': np.float64(15.79), 'cagr': np.float64(38.04), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-13.7), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.64), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-nowk20 앞 -1.0 뒤 {'tot': np.float64(31.02), 'spy_tot': np.float64(15.79), 'cagr': np.float64(33.79), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-13.6), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.53), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-nowk24 앞 -1.06 뒤 {'tot': np.float64(34.15), 'spy_tot': np.float64(15.79), 'cagr': np.float64(37.23), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-13.0), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.7), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-nowk30 앞 -1.01 뒤 {'tot': np.float64(32.97), 'spy_tot': np.float64(15.79), 'cagr': np.float64(35.93), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-13.0), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.65), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-nowk99 앞 -1.03 뒤 {'tot': np.float64(34.02), 'spy_tot': np.float64(15.79), 'cagr': np.float64(37.09), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-13.0), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.7), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-wk8 앞 -1.0 뒤 {'tot': np.float64(77.52), 'spy_tot': np.float64(15.79), 'cagr': np.float64(85.59), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-14.3), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.45), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-wk10 앞 -0.59 뒤 {'tot': np.float64(64.72), 'spy_tot': np.float64(15.79), 'cagr': np.float64(71.21), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-13.7), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.28), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-wk12 앞 -0.83 뒤 {'tot': np.float64(63.49), 'spy_tot': np.float64(15.79), 'cagr': np.float64(69.84), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-11.9), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.35), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-wk15 앞 -0.97 뒤 {'tot': np.float64(38.19), 'spy_tot': np.float64(15.79), 'cagr': np.float64(41.7), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-13.4), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.7), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-wk18 앞 -0.96 뒤 {'tot': np.float64(34.88), 'spy_tot': np.float64(15.79), 'cagr': np.float64(38.04), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-13.7), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.64), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-wk20 앞 -1.01 뒤 {'tot': np.float64(31.02), 'spy_tot': np.float64(15.79), 'cagr': np.float64(33.79), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-13.6), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.53), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-wk24 앞 -1.06 뒤 {'tot': np.float64(34.15), 'spy_tot': np.float64(15.79), 'cagr': np.float64(37.23), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-13.0), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.7), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-wk30 앞 -1.01 뒤 {'tot': np.float64(32.97), 'spy_tot': np.float64(15.79), 'cagr': np.float64(35.93), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-13.0), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.65), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-wk99 앞 -1.03 뒤 {'tot': np.float64(34.02), 'spy_tot': np.float64(15.79), 'cagr': np.float64(37.09), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-13.0), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(1.7), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}
-고름 {'key': 'wk10', 'is_sharpe': {'nowk10': np.float64(-1.24), 'nowk15': np.float64(-1.02), 'nowk20': np.float64(-1.0), 'nowk99': np.float64(-1.03), 'wk10': np.float64(-0.59), 'wk15': np.float64(-0.97), 'wk20': np.float64(-1.01), 'wk99': np.float64(-1.03)}} 흔들기 {'wk8': {'tot': np.float64(77.52), 'spy_tot': np.float64(15.79), 'cagr': np.float64(85.59), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-14.3), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.45), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}, 'wk12': {'tot': np.float64(63.49), 'spy_tot': np.float64(15.79), 'cagr': np.float64(69.84), 'spy_cagr': np.float64(17.11), 'mdd': np.float64(-11.9), 'spy_mdd': np.float64(-8.9), 'sharpe': np.float64(2.35), 'spy_sharpe': np.float64(1.31), 'days': 234, 'yrs': 0.93}} 순위상관 -0.18 킥 영향 0.0
+SPY {'cagr': np.float64(15.0), 'vol': np.float64(18.1), 'mdd': np.float64(-33.7), 'sharpe': np.float64(0.87), 'ex': np.float64(0.0), 'win12': 0, 'beat_years': 0, 'years': 10}
+지금 {'label': '지금(바로 삼)', 'n': 0, 'dd': 0, 'W': 0, 'cagr': np.float64(14.87), 'mdd': np.float64(-17.6), 'sharpe': np.float64(1.14), 'ex': np.float64(-0.14), 'turn': 334, 'idle': 23.0, 'trades': {'n': 232, 'avg': 2.44, 'win': 47, 'pf': np.float64(2.05)}, 'trades_is': {'n': 172, 'avg': 2.2, 'win': 48, 'pf': np.float64(2.26)}, 'is_sh': np.float64(0.84), 'is_cagr': np.float64(10.04)}
+고른 {'label': '3일 −4%·15일 안', 'n': 3, 'dd': 0.04, 'W': 15, 'cagr': np.float64(13.97), 'mdd': np.float64(-18.9), 'sharpe': np.float64(1.1), 'ex': np.float64(-1.04), 'turn': 261, 'idle': 62.8, 'trades': {'n': 138, 'avg': 2.02, 'win': 40, 'pf': np.float64(1.59)}, 'trades_is': {'n': 67, 'avg': 4.58, 'win': 51, 'pf': np.float64(2.87)}, 'is_sh': np.float64(0.89), 'is_cagr': np.float64(10.03)} 208 1171
+3일 −3.5%·15일 안 IS 0.88 | OOS 14.51 -18.0 1.13 {'n': 156, 'avg': 2.6, 'win': 45, 'pf': np.float64(1.83)}
+2일 −2.5%·15일 안 IS 0.83 | OOS 14.75 -17.8 1.12 {'n': 183, 'avg': 2.75, 'win': 43, 'pf': np.float64(1.89)}
+2일 −4%·15일 안 IS 0.88 | OOS 14.21 -16.8 1.12 {'n': 120, 'avg': 2.65, 'win': 40, 'pf': np.float64(1.78)}
+4일 −3.5%·15일 안 IS 0.85 | OOS 14.46 -17.2 1.11 {'n': 165, 'avg': 2.31, 'win': 42, 'pf': np.float64(1.71)}
+2일 −2%·15일 안 IS 0.82 | OOS 14.91 -18.4 1.1 {'n': 192, 'avg': 2.76, 'win': 43, 'pf': np.float64(1.92)}
+2일 −2.5%·10일 안 IS 0.83 | OOS 14.32 -16.8 1.1 {'n': 183, 'avg': 2.22, 'win': 39, 'pf': np.float64(1.74)}
+2일 −3.5%·15일 안 IS 0.84 | OOS 14.05 -16.9 1.1 {'n': 141, 'avg': 2.18, 'win': 39, 'pf': np.float64(1.65)}
+3일 −3%·8일 안 IS 0.85 | OOS 14.09 -17.0 1.1 {'n': 152, 'avg': 2.01, 'win': 41, 'pf': np.float64(1.7)}
+3일 −4%·8일 안 IS 0.85 | OOS 13.7 -16.9 1.1 {'n': 98, 'avg': 2.02, 'win': 42, 'pf': np.float64(1.62)}
+3일 −4%·15일 안 IS 0.89 | OOS 13.97 -18.9 1.1 {'n': 138, 'avg': 2.02, 'win': 40, 'pf': np.float64(1.59)}
+이웃 2일 −4%·15일 안 14.21 -16.8 1.12
+이웃 4일 −4%·15일 안 14.09 -18.6 1.1
+이웃 3일 −3.5%·15일 안 14.51 -18.0 1.13
+이웃 3일 −4%·12일 안 13.53 -17.4 1.08
+이웃 3일 −4%·20일 안 14.02 -18.9 1.08
+➖ 애매 {'beat': False, 'mdd': True, 'sharpe': False} False 순위상관 0.24 고른 3일 −4%·15일 안 시험 구간 연 13.97%·낙폭 -18.9%·샤프 1.1 vs 지금 14.87%·-17.6%·1.14 (S&P 15.0%·-33.7%) · 빈 자리 현금 62.8% vs 23.0% · 75조합 중 지금보다 샤프 높은 것 0개·S&P +0.5%p 넘은 것 0개 · 순위상관 0.24
