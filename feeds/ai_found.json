@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "美 증시 10/23 오후: 다우 −1.18%·S&P −0.45%·나스닥 −0.11% — 유가 급등에 경기민감주 매도, VIX 20",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html",
+   "press": "Yahoo Finance",
+   "at": "2026-10-24 02:35",
+   "why": "에너지 칸·위험 회피 국면 — 유가가 주식·채권 동시 압박, 다음 주 FOMC 앞 VIX 20 돌파",
+   "summary": "13:35 EDT 다우 52,243(−625)·S&P 7,628.74·나스닥 25,981 · 10년 4.995% · WTI 103.07$(+3.6%) · 금 4,006$(−1.3%) · VIX 20.05(+5.4%) · 아멕스 3,500명 감원에 −3%, 애플 한때 엔비디아 시총 추월"
+  },
+  {
    "title": "BofA 하트넷 「11월 중순까지 전술적 위험 회피」 vs UBS 「방어 자세 정당화 안 돼」 — 브렌트 116$·10년 4.99%",
    "url": "https://www.swissinfo.ch/eng/stocks-fall-as-oil-rally-keeps-a-lid-on-treasuries%3a-markets-wrap/92260391",
    "press": "Bloomberg(swissinfo)",
@@ -631,14 +639,6 @@
    "at": "2026-10-22 04:35",
    "why": "AI 크레딧 가설(0.86)·AI 소프트웨어 칸 — 메타 2027 설비투자 숫자가 빅테크 차입 스트레스 판정 재료",
    "summary": "메타 실적 직전 5거래일 연속 하락·700$ 하회(invezz·yahoo) · 2분기엔 EPS 미스·설비투자 상향으로 −10%(fortune 7/29) · 실적은 10/21 장 마감 뒤(KST 22일 새벽)"
-  },
-  {
-   "title": "메타, 뉴멕시코 케임브리지 애널리티카 소송서 250억$ 벌금 판결",
-   "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
-   "press": "CNBC",
-   "at": "2026-10-22 03:35",
-   "why": "메타 실적(이번 주) 직전 일회성 비용 — AI 소프트웨어·빅테크 실적 판정에 변수, 주 측 요구액은 최대 400억$였음",
-   "summary": "배심 '소비자 오도' 평결 뒤 판사 250억$ 부과(CNBC·bbg 10/21) · 주 측은 최대 400억$ 요구(Bloomberg Law) · 항소 여부·회계 처리 미확인"
   }
  ],
  "at": "2026-10-24 01:35"
