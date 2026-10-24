@@ -90,8 +90,8 @@
   {% for k in (L.korea or [])[:1] %}<li style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">{{ k | safe }}</li>{% endfor %}
   </ul></div>
  {% if SC.bad or (d.edition == 'WK' and SC.week) %}
- <div class="box" style="margin-top:8px;border-color:#f0c6c2;background:#fdf1ef"><h3>{% if SC.bad %}⚠️ 집중 성적이 나빠요 — 최근 5번 중 3번 이상 S&amp;P에 짐{% else %}🗓️ 이번 주 집중 회고 — 고른 테마 5거래일 뒤 vs S&amp;P{% endif %}</h3>
-  <table>{% for e in SC.week[:4] %}<tr><td>{{ e.asof[5:] }}</td><td><b>{{ e.name }}</b></td><td>{{ pc(e.res) }}</td><td>S&amp;P {{ pc(e.spy_res) }}</td><td class="src">{{ e.lesson }}</td></tr>{% endfor %}</table></div>
+ <div class="box" style="margin-top:4px;border-color:#f0c6c2;background:#fdf1ef"><h3>{% if SC.bad %}⚠️ 집중 성적이 나빠요 — 최근 5번 중 3번 이상 S&amp;P에 짐{% else %}🗓️ 이번 주 집중 회고 — 고른 테마 5거래일 뒤 vs S&amp;P{% endif %}</h3>
+  <table>{% for e in SC.week[:3] %}<tr><td>{{ e.asof[5:] }}</td><td><b>{{ e.name }}</b></td><td>{{ pc(e.res) }}</td><td>S&amp;P {{ pc(e.spy_res) }}</td><td class="src">{{ e.lesson }}</td></tr>{% endfor %}</table></div>
  {% else %}
  <div class="note" style="margin-top:5px">📒 집중 성적 {% if SC.n %}<b>{{ SC.hit }}/{{ SC.n }}</b> (5거래일 뒤 S&amp;P 대비 평균 {{ pc(SC.avg_ex) }}){% else %}— 10/7부터 기록, 5거래일 뒤부터 채점{% endif %}</div>
  {% endif %}
