@@ -4482,6 +4482,14 @@
 "src": "ins",
 "score": 80,
 "note": "기회형 내부자 3명 · 6,121천 달러 (10일 안 공시)"
+},
+"SPGI|2026-10-25|whale": {
+"code": "SPGI",
+"name": "SPGI",
+"mkt": "US",
+"d": "2026-10-25",
+"src": "whale",
+"score": 40
 }
 },
 "sent": [
@@ -4498,14 +4506,13 @@
 "2026-10-16|팔기|OKTA"
 ],
 "whale": [
-"ALAB",
 "AVTX",
 "AXP",
-"BKNG",
 "CDW",
 "CLF",
 "CPNG",
 "DKS",
+"FIGR",
 "GOOGL",
 "GPCR",
 "GPN",
@@ -4514,6 +4521,7 @@
 "NAMS",
 "NEM",
 "RIG",
-"SNOW"
+"SNOW",
+"SPGI"
 ]
 }
