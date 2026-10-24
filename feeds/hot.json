@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24 22:35",
+ "at": "2026-10-24 23:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7737": {
@@ -27,45 +27,10 @@
    "why": "8월 은행 연체율 0.69% 10년 최고(중기·자영업) — 금융 칸·한은 인상 경로 부담",
    "at": "2026-10-23 15:35"
   },
-  "HANAchina/70907": {
-   "lv": 1,
-   "why": "코스피 12개월 선행 PER 4.2배 — 1조$ 시장 첫 5배 하회(bbg 2006~). 한국 가설 0.80 의 가격 쪽 반대 근거(싸다), 외인 복귀 신호 대기",
-   "at": "2026-10-23 17:35"
-  },
-  "n/es20261023bojissaidtokeepratehikesonfasttrackdecemberinfocus": {
-   "lv": 1,
-   "why": "열린 MFG(미즈호, ☕ 컵 10/19) bet 순풍 — BOJ 빠른 인상 경로 유지·12월 유력(bbg), 은행 순이자마진 직결",
-   "at": "2026-10-23 18:35"
-  },
-  "HANAchina/70910": {
-   "lv": 1,
-   "why": "JPM 「미 10년 4.94~5.02% 저항, 위험자산 바닥 전 국채 매도 말라」 — 10년 5% 이틀째 watch·고금리 가설 0.45 직결",
-   "at": "2026-10-23 18:35"
-  },
   "HANAchina/70918": {
    "lv": 1,
    "why": "브렌트 115달러(+1.6%) — 열린 CNQ bet·☕ 눈 PR·PAGP 순풍, DPA 증산 정책과 줄다리기",
    "at": "2026-10-23 21:35"
-  },
-  "n/s20261023usbusinessactivityexpandspricessurgebymostsince2022": {
-   "lv": 1,
-   "why": "美 10월 PMI 가격 2022년 이후 최대 상승 — 연준 12월 인상 가격(동결 92%)을 굳히는 숫자, 고금리 가설·채권 칸 직결",
-   "at": "2026-10-23 23:35"
-  },
-  "n/ttpswwwcnbccom20261023oilpricebrentwtiiranwarsaudiarabiahtml": {
-   "lv": 1,
-   "why": "브렌트 116달러 6개월 최고(CNBC) — 열린 CNQ bet 순풍·다우 경기민감주 매도 원인, 스태그 냄새(PMI 가격↑)",
-   "at": "2026-10-24 00:35"
-  },
-  "n/freshusstrikesoniranarepredicted8c27e634modmw_rss_topstories": {
-   "lv": 1,
-   "why": "美·이스라엘 중간선거(11월 초) 뒤 이란 추가 공습 검토 보도 — 브렌트 116$ 위 주말 위험, 에너지 ☕ 눈(CHRD·PR·PAGP)·고금리 가설과 직결",
-   "at": "2026-10-24 04:35"
-  },
-  "n/s20261023datacentersfacedowngraderiskamidlocalpushbackspsays": {
-   "lv": 1,
-   "why": "AI 차입(크레딧) 가설 0.88 — S&P 가 데이터센터 등급 하향 위험을 공식 경고(지역 반발·모라토리엄), 신평사 쪽으로 번진 첫 신호",
-   "at": "2026-10-24 07:35"
   },
   "n/httpswwwhankyungcomarticle202610242192i": {
    "lv": 1,
@@ -91,11 +56,6 @@
    "lv": 1,
    "why": "AI 차입 가설 0.88의 반대 증거 — AWS 2027년까지 용량 예약 완료·2028년도 거의 소진: 다음 주 아마존 실적·크레딧 확대와 맞붙는 수요 쪽 숫자",
    "at": "2026-10-24 14:35"
-  },
-  "n/KblZaY0UtVk1xYXlnMWNrODhtY3h3QTZOMEo5ekw2dTE4dzllbEw4WEhVoc5": {
-   "lv": 1,
-   "why": "반도체 수출 달러 유입으로 원화만 따로 강세 — 외인 매도 속 한국 칸 환차익·외인 복귀 선행 여부",
-   "at": "2026-10-24 15:35"
   },
   "n/ldHRCZVEyOXBDRUhNeFBqcGxwUWk4eHV3ZVFoUzZpZjJzUUdWY0xjS3pFoc5": {
    "lv": 2,
