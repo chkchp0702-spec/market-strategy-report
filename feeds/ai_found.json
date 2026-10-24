@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "주요 증권사들, 연준 다음 금리 인상을 12월로 예상",
+   "url": "https://www.capital.com/en-ae/news/major-brokerages-expect-next-fed-rate-hike-in-december",
+   "press": "capital.com",
+   "at": "2026-10-25 02:35",
+   "why": "고금리 가설·10/28 FOMC — 이번 동결 뒤 12월 인상 경로면 장기채·성장주 칸 부담 지속",
+   "summary": "주요 IB들이 10월 동결·12월 인상을 기본 시나리오로 제시(세부 확률 숫자 미확인). 국내 보도(gn_kr_macro)도 「시장은 12월 추가 인상 전망」으로 같은 방향."
+  },
+  {
    "title": "골드만삭스: AI 하이퍼스케일러 신용스프레드 올해 최대 — 주식에 약 15% 하락 여지",
    "url": "https://www.kucoin.com/news/flash/goldman-sachs-warns-ai-credit-spreads-surge-stock-market-could-drop-15",
    "press": "KuCoin(골드만 리포트 인용)",
@@ -631,15 +639,7 @@
    "at": "2026-10-22 15:35",
    "why": "한국 칸 — 어제 +3.29% 반등을 하루 만에 다 반납, 외인 복귀 가설 판정(0.80 유지)",
    "summary": "코스피 5,533.77 (−201.89P, −3.52%) · 외인·기관 매도 전환(글로벌이코노믹) · 금통위 3.00% 동결 당일"
-  },
-  {
-   "title": "미 장기금리 1개월 최저 — AI 공포가 안전자산 수요로",
-   "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/592391",
-   "press": "Trading Economics",
-   "at": "2026-10-22 15:35",
-   "why": "고금리 가설(10년 5.0~5.3% 밴드) 약화 근거 — 현금·단기채 vs 장기채 칸 판단",
-   "summary": "AI 주식 매도 → 국채 피난 수요로 미 장기물 금리 하락(블룸버그 「Long-End US Yield Hits One-Month Low」 동반) · 수치는 원문 확인"
   }
  ],
- "at": "2026-10-24 13:35"
+ "at": "2026-10-25 02:35"
 }
