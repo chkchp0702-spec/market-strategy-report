@@ -4448,6 +4448,40 @@
 "d": "2026-10-24",
 "src": "whale",
 "score": 40
+},
+"GFR|2026-10-19": {
+"code": "GFR",
+"name": "Greenfire Resources Ltd. Common Shares",
+"mkt": "US",
+"d": "2026-10-19",
+"src": "accum",
+"score": 58.0,
+"lv": 7.04
+},
+"EGBN|2026-10-22|pead": {
+"code": "EGBN",
+"name": "Eagle Bancorp, Inc.",
+"mkt": "US",
+"d": "2026-10-22",
+"src": "pead",
+"score": 75.0
+},
+"SPOT|2026-10-22|pead": {
+"code": "SPOT",
+"name": "Spotify Technology S.A. Ordinary Shares",
+"mkt": "US",
+"d": "2026-10-22",
+"src": "pead",
+"score": 65.5
+},
+"RENT|2026-10-23|ins": {
+"code": "RENT",
+"name": "RENT",
+"mkt": "US",
+"d": "2026-10-23",
+"src": "ins",
+"score": 80,
+"note": "기회형 내부자 3명 · 6,121천 달러 (10일 안 공시)"
 }
 },
 "sent": [
