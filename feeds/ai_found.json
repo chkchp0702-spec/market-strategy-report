@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "골드만삭스: AI 하이퍼스케일러 신용스프레드 올해 최대 — 주식에 약 15% 하락 여지",
+   "url": "https://www.kucoin.com/news/flash/goldman-sachs-warns-ai-credit-spreads-surge-stock-market-could-drop-15",
+   "press": "KuCoin(골드만 리포트 인용)",
+   "at": "2026-10-24 21:35",
+   "why": "AI 차입(크레딧) 가설 0.88 근거 — 정크 AI 데이터센터 채권 20개 중 7개가 코어위브 단일 임차, 네오클라우드 급락과 직결",
+   "summary": "GSUCHS30 올해 최대폭 · 비슷한 수준일 때 관련 주가 지금보다 약 15% 낮았음 · AI 수혜 바스켓 6월 고점 대비 −25% · S&P500 ex-AI 10/6 이후 +586bp 상대 강세 · 하이퍼스케일러 캐펙스 증가율 3Q 116% 정점→27년 말 20% 예상"
+  },
+  {
    "title": "스페이스X, 엔비디아 칩 구매용 400억달러 차입 추진(아폴로 주관) — 10/24 블룸버그 「조달 난항」 후속 보도",
    "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/07/spacex-seeks-us40-billion-financing-to-buy-nvidia-chips-sources-say/",
    "press": "BNN Bloomberg",
@@ -631,14 +639,6 @@
    "at": "2026-10-22 15:35",
    "why": "고금리 가설(10년 5.0~5.3% 밴드) 약화 근거 — 현금·단기채 vs 장기채 칸 판단",
    "summary": "AI 주식 매도 → 국채 피난 수요로 미 장기물 금리 하락(블룸버그 「Long-End US Yield Hits One-Month Low」 동반) · 수치는 원문 확인"
-  },
-  {
-   "title": "항셍테크 3,830 하회 2년 최저 — 알리바바 100홍콩달러·텐센트 400 붕괴",
-   "url": "https://finance.biggo.com/news/6ac2b53b-cb1f-4086-8c5e-5ca19ee71aa9",
-   "press": "BigGo Finance",
-   "at": "2026-10-22 14:35",
-   "why": "중국·홍콩 칸 — 1288.HK 손절(−3%)과 같은 날, 기술주 주도 하락의 깊이 확인",
-   "summary": "항셍테크 3,830선 아래 2년 최저 · 알리바바 HK$100 하회 · 텐센트 HK$400 하회 · 레노버 급락(dimsumdaily −5%↑)"
   }
  ],
  "at": "2026-10-24 13:35"
