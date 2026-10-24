@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "스페이스X, 엔비디아 칩 구매용 400억달러 차입 추진(아폴로 주관) — 10/24 블룸버그 「조달 난항」 후속 보도",
+   "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/07/spacex-seeks-us40-billion-financing-to-buy-nvidia-chips-sources-say/",
+   "press": "BNN Bloomberg",
+   "at": "2026-10-24 17:35",
+   "why": "AI 차입 가설 0.88 — 비상장 AI 대형 차입이 막히면 엔비디아 수요·사모신용(BDC) 스트레스로 번지는 경로",
+   "summary": "10/7: 스페이스X가 아폴로 주관으로 400억$ 차입해 엔비디아 칩 구매 추진. 10/24 블룸버그(피드 gn_kr_bbg): 자금 조달 난항. 난항의 구체 숫자(금리·참여사)는 미확인."
+  },
+  {
    "title": "이란 혁명수비대 「초대형 유조선 2척 호르무즈서 기뢰 충돌」",
    "url": "https://www.anews.com.tr/middle-east/2026/10/24/irans-revolutionary-guards-say-2-supertankers-hit-naval-mines-in-strait-of-hormuz",
    "press": "A News(IRNA 인용)",
@@ -631,14 +639,6 @@
    "at": "2026-10-22 14:35",
    "why": "중국·홍콩 칸 — 1288.HK 손절(−3%)과 같은 날, 기술주 주도 하락의 깊이 확인",
    "summary": "항셍테크 3,830선 아래 2년 최저 · 알리바바 HK$100 하회 · 텐센트 HK$400 하회 · 레노버 급락(dimsumdaily −5%↑)"
-  },
-  {
-   "title": "아시아 증시 다시 후퇴 — 기술주 분위기 재악화",
-   "url": "https://www.france24.com/en/live-news/20261022-asian-stocks-back-in-retreat-as-tech-mood-sours-again",
-   "press": "France24(AFP)",
-   "at": "2026-10-22 14:35",
-   "why": "6501.T·MFG bet(일본) — AI 반도체 매도가 한·일·홍 동시, 닛케이 −1,400엔↑(gn_jp 14시)",
-   "summary": "AI 투자 신중론에 한국 반도체·일본 반도체 장비·홍콩 기술주 동반 약세 · 인도 센섹스도 하락 출발, 유가 상승(ianslive)"
   }
  ],
  "at": "2026-10-24 13:35"
