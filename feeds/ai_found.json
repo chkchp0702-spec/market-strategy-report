@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "이란 혁명수비대 「초대형 유조선 2척 호르무즈서 기뢰 충돌」",
+   "url": "https://www.anews.com.tr/middle-east/2026/10/24/irans-revolutionary-guards-say-2-supertankers-hit-naval-mines-in-strait-of-hormuz",
+   "press": "A News(IRNA 인용)",
+   "at": "2026-10-24 16:35",
+   "why": "⛽ 에너지 칸·브렌트 117$ — 금요일 미국 마감 뒤 나온 재료라 월요일 갭 위험(추격 금지 규칙 적용)",
+   "summary": "IRGC 해군: 금요일(10/23) 「허가 안 된 남쪽 항로」 쓰던 VLCC 2척이 기뢰에 맞아 기관실 화재·좌초, 원유 합계 450만 배럴↑·선원 대피. 선박명·국적·독립 확인 없음."
+  },
+  {
+   "title": "후티 탄도미사일 리야드 겨냥·요격 — 유조선 기뢰 피격 주장도",
+   "url": "https://gulfnews.com/world/mena/middle-east-war-houthi-missile-targets-riyadh-tankers-hit-mines-near-hormuz-1.500721804",
+   "press": "Gulf News",
+   "at": "2026-10-24 16:35",
+   "why": "🛡 지정학·⛽ 에너지 — 사우디 본토로 번짐, 美 특사 「이번 주말 이란 타격 가능」 발언과 겹침",
+   "summary": "10/24 새벽 연합군이 리야드 향한 후티 탄도미사일 요격(AFP 폭발음 2회), 동부주 드론 격추. 10/22 UKMTO: 오만 리마 북동 7해리 유조선 미상 발사체 피격(항해 지속). 톰 배럭 특사 10/23 「이번 주말 이란 타격 가능, 트럼프는 협상에도 열려 있음」."
+  },
+  {
    "title": "아마존 AWS 수주잔고 4,960억$ — 수요가 2027년까지 용량을 앞질러",
    "url": "https://startupmap.iamsterdam.com/news/feed/amazon-s-aws-backlog-hits-496b-as-demand-outstrips-capacity-through-2027",
    "press": "StartupAmsterdam(재인용)",
@@ -623,22 +639,6 @@
    "at": "2026-10-22 14:35",
    "why": "6501.T·MFG bet(일본) — AI 반도체 매도가 한·일·홍 동시, 닛케이 −1,400엔↑(gn_jp 14시)",
    "summary": "AI 투자 신중론에 한국 반도체·일본 반도체 장비·홍콩 기술주 동반 약세 · 인도 센섹스도 하락 출발, 유가 상승(ianslive)"
-  },
-  {
-   "title": "중국 CSI300, 6월 고점 대비 −20% 약세장 진입 — 10주 연속 하락",
-   "url": "https://tradersunion.com/news/stocks/show/3917791-china-equities-bear-market-csi-300-drop/",
-   "press": "Traders Union(CNBC 인용)",
-   "at": "2026-10-22 13:35",
-   "why": "1288.HK bet·중국 칸 — 부양 기대 후퇴로 본토·홍콩 동반 약세, 국유은행 피난처 여부 시험",
-   "summary": "CSI300 6월 고점 대비 20% 하락 · 항셍 오전 −679P 23,000 붕괴, 알리바바 −6%(중국 품질 규제) · 정오 무렵 CSI500·1000 ETF 대량 거래(국가대 매수 추정, HANAchina 70833)"
-  },
-  {
-   "title": "홍콩 증시 4개월 최저로 — 베이징 강한 부양 가능성 줄어",
-   "url": "https://www.scmp.com/business/china-business/article/3371717/hong-kong-stocks-head-4-month-low-chance-strong-stimulus-beijing-shrinks",
-   "press": "SCMP",
-   "at": "2026-10-22 12:35",
-   "why": "1288.HK bet·중국 칸 — 성장 목표 달성 가시권이라 부양 기대가 꺼짐",
-   "summary": "10/22 10:50 항셍 −2.7% 23,007.73(6/30 이후 최저 종가 경로)·항셍테크 −4.3% · CSI300 −1.6%·상하이 −1.4%"
   }
  ],
  "at": "2026-10-24 13:35"
