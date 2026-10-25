@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "골드만, 코스피 12개월 목표 12,000→9,000(−25%) 하향 — 「그래도 60% 상승 여지」",
+   "url": "https://news.futunn.com/en/post/1002222328/goldman-sachs-executes-high-altitude-dive-on-kospi-target-cut",
+   "press": "Futu(블룸버그 인용)",
+   "at": "2026-10-25 20:35",
+   "why": "한국 가설 0.80·🇰🇷 칸 — IB 대형 하향이 나온 날(ideas 17:35 역발상 측정 시작점)",
+   "summary": "골드만 코스피 12M 목표 9,000(종전 12,000) · AI 트레이드 붕괴 반영 · 목표 대비 상승 여지는 여전히 약 60%로 유지(현 지수 5,500대 기준)"
+  },
+  {
+   "title": "美, 이란 공격 음모 정황에 중동 여러 나라 공관·기지 인력 조용히 대피",
+   "url": "https://wsvn.com/news/us-world/us-diplomats-middle-east-evacuations/",
+   "press": "WSVN(WSJ 보도 인용)",
+   "at": "2026-10-25 20:35",
+   "why": "⛽ 에너지 칸·지정학 — 이란 드론 격추 주장과 겹쳐 월요일 유가 갭 위험",
+   "summary": "WSJ 10/24 보도: 이란의 미국인 겨냥 음모가 진전 단계라는 첩보로 여러 중동 국가에서 외교관·가족 이동 · 이스라엘은 이란 타격 촉구(jfeed) · 대피 규모·국가 수 미확인"
+  },
+  {
    "title": "SK하이닉스, AI 밸류에이션 우려에 메모리 자회사 IPO 보류(WSJ)",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWE9EOHNwRFRHSUJvQzhaNTByNHIxdFVEM3JVbEFsUXpQdDQzQ1lsaVpBYmRHdWlVTVhVZG5rWG0yMzIyU3ZCcGlSZ2VaRmlOWlJ3Z0ZfUzJ6bWFRWFdOcWR0Q2hRall5YzZ3ZUFmanNWaHo0WkFSMnQ1LXRvX2lLUGp5U2x3bC1ZVXdtd3EwcjZTZGxLYUNXMWt3TDNDcVhmM0dv?oc=5",
    "press": "WSJ",
@@ -623,22 +639,6 @@
    "at": "2026-10-23 03:35",
    "why": "AI 매도가 장비주로 번짐 — AI 차입 가설·반도체 칸, 「수요 아닌 공급」 경고라 메모리 가격력엔 반대 해석",
    "summary": "램리서치 −9%(공급망 제약으로 전망 상단 제한) · AMAT −6%·ASML −4% · 같은 날 AMD·마벨 −8%·인텔 −7%"
-  },
-  {
-   "title": "AI·반도체가 나스닥100 하락분의 93% 차지",
-   "url": "https://www.stocktitan.net/articles/why-is-nasdaq-down-today-october-22-2026-ai-chip-stocks",
-   "press": "StockTitan",
-   "at": "2026-10-23 03:35",
-   "why": "「AI만 빠지는 날」 — 다우 −0.2% vs 나스닥 −2.7%, AI·반도체 킥 신규 진입 보류 필터 근거",
-   "summary": "10/22 나스닥100 시총 감소의 93%가 AI·반도체 · 나스닥 −2.67%·S&P −1.41%·다우 −0.21%(CNBC 14:08 EDT)"
-  },
-  {
-   "title": "美 증시 라이브: 유가 급등·메타·테슬라 실적 속 다우·S&P·나스닥 하락",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html",
-   "press": "Yahoo Finance",
-   "at": "2026-10-23 02:35",
-   "why": "고금리 가설(10년 5% 깨짐 시험)·에너지 칸·AI 차입 가설 동시 — 유가 상승에도 금리 하락",
-   "summary": "나스닥 −2.42% 26,057·S&P −1.26% · 브렌트 112.32(+3.2%)·WTI 99.23 · 美 10년 4.965%(티커, 라이브 본문엔 5.02% 언급) · 메타 −7.2%"
   }
  ],
  "at": "2026-10-25 18:35"
