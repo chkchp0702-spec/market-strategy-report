@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "프랑스 국채 매도세 진정 — 독일과 금리차 축소",
+   "url": "https://tradingeconomics.com/france/government-bond-yield/news/589851",
+   "press": "Trading Economics",
+   "at": "2026-10-26 08:35",
+   "why": "열린 bet EWQ(프랑스 ETF, 10/27 기한) — 10/21 10년물 5% 돌파(2002년 이후 처음) 뒤 금리차 축소 여부가 마지막 채점 방향",
+   "summary": "10/21 프랑스 10년물 일시 5% 돌파(정치 불안). 이후 매도세 진정·금리차 축소 보도(수준 숫자 미확인)."
+  },
+  {
+   "title": "SK하이닉스 주주들, 솔리다임 나스닥 상장 저지 움직임(지분 희석 우려)",
+   "url": "https://www.koreajoongangdaily.com/business/sk-hynix-shareholders-move-to-block-solidigm-nasdaq-listing-over-dilution-fears/12904620",
+   "press": "Korea JoongAng Daily",
+   "at": "2026-10-26 08:35",
+   "why": "🎯 반도체 칸 SK하이닉스 — 26일 IPO 철회 보도의 배경: 중복상장 디스카운트 해소 + 16조 특별배당 보도 = 28일 실적 날 주주환원 재료",
+   "summary": "주주 반발로 솔리다임 美 상장 논란. 10/26 아침 철회 보도(메리츠 「주주환원 강화 기대」). 회사 공식 공시는 미확인."
+  },
+  {
    "title": "룰라, 브라질 결선 초기 개표서 플라비우 보우소나루에 앞서",
    "url": "https://www.newsy-today.com/lula-leads-flavio-bolsonaro-in-early-brazil-runoff-returns/",
    "press": "Newsy Today",
@@ -623,23 +639,7 @@
    "at": "2026-10-23 16:35",
    "why": "엔비디아가 부품사 증설에 직접 돈을 넣음 — 칩 사이클 조정 속 공급망 확보 경쟁, 7일 신호 종목 아님(관찰)",
    "summary": "10/21 발표 · 세종·부산 AI 기판 라인 엔비디아 칩셋·네트워크 스위치용 전용 증설 · 2026년부터 물량 연 두 자릿수↑, 2028년 생산능력 상당 비중(투자액은 기사에 없음)"
-  },
-  {
-   "title": "골드만삭스, 코어위브 '매수' 상향·73% 상승 여력 — 자금조달 우려 깊어지는 가운데",
-   "url": "https://www.roic.ai/news/goldman-sachs-upgrades-coreweave-to-buy-sees-73-upside-despite-deepening-financing-fears-10-19-2026",
-   "press": "roic.ai",
-   "at": "2026-10-23 15:35",
-   "why": "AI 차입(크레딧) 가설 반대편 — 골드만은 부족분 230억$, 번스타인은 760억$(HANAchina/70899)·골드만은 지분 보유·채권 주관 겸함",
-   "summary": "10/19 골드만 코어위브 매수 상향·73% 상승 여력 제시. 같은 시점 무담보 채권 수익률 15% 수준(피드 HANAchina/70899)."
-  },
-  {
-   "title": "골드만, 채권 수익률 15%에도 코어위브 매수 상향",
-   "url": "https://www.kucoin.com/news/flash/goldman-upgrades-coreweave-to-buy-despite-15-bond-yields",
-   "press": "KuCoin News",
-   "at": "2026-10-23 15:35",
-   "why": "네오클라우드 차입 비용 15% = AI 크레딧 스트레스의 가장 직접적인 숫자 — 빅테크 회사채 스프레드로 번지는지 감시",
-   "summary": "코어위브 채권 수익률 약 15%에도 골드만 매수 의견. 주식 애널리스트 낙관 vs 채권 시장 가격의 괴리."
   }
  ],
- "at": "2026-10-26 07:35"
+ "at": "2026-10-26 08:35"
 }
