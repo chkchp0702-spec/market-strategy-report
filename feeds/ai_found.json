@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "삼성전자, 엔비디아 맞춤형 HBM 베이스 다이에 TSMC 기술 활용 — 서울 매체 보도",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/18/samsung-to-use-tsmc-technology-for-nvidia039s-next-generation-memory-chips-seoul-newspaper-reports",
+   "press": "The Star(로이터 인용)",
+   "at": "2026-10-25 10:35",
+   "why": "10/25 대만공상시보 「삼성·TSMC 이례적 협력」 피드(HANAchina/70959)의 원 보도 — 한국 반도체 칸·삼전 실적 주간 판단 재료",
+   "summary": "삼성이 엔비디아용 차세대 맞춤형 HBM 베이스 다이를 TSMC 공정으로 만든다는 10/18 서울 매체 보도. 대만 매체가 주말 재보도 — 새 사실 아님, 숫자 미확인."
+  },
+  {
    "title": "주요 증권사들, 연준 다음 금리 인상을 12월로 예상",
    "url": "https://www.capital.com/en-ae/news/major-brokerages-expect-next-fed-rate-hike-in-december",
    "press": "capital.com",
@@ -631,14 +639,6 @@
    "at": "2026-10-22 16:35",
    "why": "에너지 칸·CNQ bet — 걸프 위험이 다시 가격에 들어감",
    "summary": "10/22 브렌트 110.11달러. 미국이 사우디 주재 일부 외교관 철수를 명령, 후티 공격 확대 속 공급 우려."
-  },
-  {
-   "title": "코스피 201.89P 내린 5,533.77 마감(−3.52%)",
-   "url": "https://view.asiae.co.kr/article/2026102215330776702",
-   "press": "아시아경제",
-   "at": "2026-10-22 15:35",
-   "why": "한국 칸 — 어제 +3.29% 반등을 하루 만에 다 반납, 외인 복귀 가설 판정(0.80 유지)",
-   "summary": "코스피 5,533.77 (−201.89P, −3.52%) · 외인·기관 매도 전환(글로벌이코노믹) · 금통위 3.00% 동결 당일"
   }
  ],
  "at": "2026-10-25 02:35"
