@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "트럼프 「이란과 합의냐 끝장이냐 저울질」 — CBS 라이브",
+   "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/",
+   "press": "CBS News",
+   "at": "2026-10-26 02:35",
+   "why": "에너지 칸·월요일 아시아 유가 갭 — 결정 시점이 이번 주 FOMC·빅테크 실적과 겹침",
+   "summary": "트럼프 주말 발언: 합의 vs 「끝장」 결정 임박 · 美 역내 인력 축소 · 중간선거(11/3) 앞 유가·휘발유값 쟁점"
+  },
+  {
+   "title": "트럼프 이란 「결정할 게 있다」 — 재공습 우려 커져",
+   "url": "https://www.thenationalnews.com/news/us/2026/10/25/trump-iran-strike/",
+   "press": "The National",
+   "at": "2026-10-26 02:35",
+   "why": "에너지 칸 헤지 판단 — 공습 재개 시 브렌트 갭, 휴전·합의면 반대 방향",
+   "summary": "10/25 보도 · CENTCOM 공습 계획 보고 뒤 트럼프 승인 여부가 쟁점 · 숫자 미확인"
+  },
+  {
    "title": "美 중부사령부 이란 추가 공습 계획 준비 — 트럼프 승인할까",
    "url": "https://www.aljazeera.com/news/2026/10/25/centcom-reportedly-has-plans-for-iran-strikes-will-trump-approve-them",
    "press": "Al Jazeera",
@@ -623,22 +639,6 @@
    "at": "2026-10-23 10:35",
    "why": "한은 동결 직후 IB 둘이 11월 인상 전망 — 한국 성장주 할인율·원화 강세, 한국 가설과 이어짐",
    "summary": "10월 유지·11월 인상 전망(씨티·MS). 피드엔 MS 「내년 1분기 3.50%」·BNP 「최종 3.25%」. 기사 작성일 웹 미확인."
-  },
-  {
-   "title": "SK텔레콤, 15GW AI 데이터센터 구축 위한 SK Hyper 출범",
-   "url": "https://www.fierce-network.com/cloud/sk-telecom-spins-sk-hyper-15gw-ai-data-center-buildout",
-   "press": "Fierce Network",
-   "at": "2026-10-23 10:35",
-   "why": "블룸버그 「SK 데이터센터 자회사 3,500억$ 조달 협의」의 배경 — AI 차입 가설 한국판, 하이닉스·전력기기 수요 vs 차입 부담",
-   "summary": "SKT 가 AI 데이터센터 전담 법인을 떼어 15GW 구축 계획. 3,500억$ 조달 규모는 bbg_tech 피드 제목 기준, 세부 미확인."
-  },
-  {
-   "title": "SK하이닉스, 솔리다임 美 IPO 추측에 −5% (9월 배경)",
-   "url": "https://parameter.io/sk-hynix-skhy-stock-drops-5-amid-solidigm-ipo-speculation/",
-   "press": "Parameter",
-   "at": "2026-10-23 08:35",
-   "why": "오늘 솔리다임 IPO 중단 공시의 의미 — 9월엔 상장 추측만으로 하이닉스가 빠졌다 = 철회는 오버행 해소(한국 가설·반도체 칸)",
-   "summary": "9월 솔리다임 나스닥 상장 추측에 하이닉스 주가 약 −5%. 10/23 하이닉스는 프리IPO·IPO 검토 중단 공시(연합·매경 피드). 오늘 시가 반응은 미확인."
   }
  ],
  "at": "2026-10-25 21:35"
