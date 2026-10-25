@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "3분기 글로벌 PC 출하 20.1% 감소 — 고가 메모리가 수요 억눌러(IDC)",
+   "url": "https://www.digitalcitizen.life/global-pc-shipments-fall-more-than-20-percent-in-q3-2026-as-hp-and-lenovo-take-heavy-hits/",
+   "press": "Digital Citizen(IDC 인용)",
+   "at": "2026-10-25 22:35",
+   "why": "반도체 킥·메모리 — 메모리 값 급등이 PC 수요 파괴로 번짐, 삼전닉스 실적(이번 주) 가이던스의 소비자 기기 쪽 리스크",
+   "summary": "IDC 3Q 출하 −20.1%, 카운터포인트 5,700만 대 −21%(전분기 −13.8%). 레노버 −23%·HP −31%. 2023년 1분기 이후 가장 큰 감소."
+  },
+  {
+   "title": "아폴로 슬록 「AI, 빅테크 밖에선 재무 성과 0 — 승부는 S&P 493에서」",
+   "url": "https://cryptobriefing.com/apollo-slok-ai-profitability-risk-big-tech/",
+   "press": "Crypto Briefing(Apollo 노트)",
+   "at": "2026-10-25 22:35",
+   "why": "AI 차입 가설 0.88 — 지출 쪽 수익 증거 부재 = 재평가 위험, 이번 주 메가캡 capex 가이던스 해석 기준",
+   "summary": "슬록 10/24 노트: 빅테크 외 기업 이익에서 AI 효과 확인 안 됨. 기술주와 나머지 S&P 격차가 핵심 변수. (숫자 원문 미확인)"
+  },
+  {
    "title": "이번 주 실적 플레이북: 알파벳·MS·아마존 등 S&P500 160곳 발표",
    "url": "https://www.cnbc.com/2026/10/25/earnings-week-alphabet-microsoft-amazon.html",
    "press": "CNBC",
@@ -623,22 +639,6 @@
    "at": "2026-10-23 06:35",
    "why": "에너지 칸·열린 CNQ bet — 운임발 「2차 에너지 압박」(mw_top)과 같은 흐름, 고금리 가설엔 물가 상방",
    "summary": "유조선 운임 사상 최고(보도) · 美-中 항로 VLCC 6천만 달러 수요 위축(gn_bbg) · 수치 날짜는 미확인"
-  },
-  {
-   "title": "사우디 아람코, 다란 본사 전면 대피·재택근무 지시 — 후티 공격 확전",
-   "url": "https://gulfnews.com/world/gulf/saudi/saudi-aramco-orders-full-evacuation-of-dhahran-headquarters-amid-houthi-attacks-1.500719958",
-   "press": "Gulf News",
-   "at": "2026-10-23 05:35",
-   "why": "에너지 칸·CNQ bet — 사우디-후티 전쟁이 아람코 본사까지(10/14 피격 뒤 첫 대피), 유가 지정학 프리미엄이 쉽게 안 빠질 근거",
-   "summary": "아람코가 다란 본사 직원 전원 대피·원격근무 지시(블룸버그도 보도) · 10/14 후티 공습에 본사 피해 이후 확전 · 브렌트 110달러대 5개월 고점권"
-  },
-  {
-   "title": "후티-사우디 전쟁 격화, 아람코 본사 대피까지",
-   "url": "https://www.ibtimes.com/saudi-houthi-war-keeps-escalating-aramco-now-evacuating-its-headquarters-3808870",
-   "press": "IBTimes",
-   "at": "2026-10-23 05:35",
-   "why": "유가 상방 vs 트럼프 「유가 조작」 압박 — 에너지 칸 상단 주의 판단 재료",
-   "summary": "예멘 전쟁 재개 이후 아람코 본사 첫 대피(newarab) · 공격 지속 선언"
   }
  ],
  "at": "2026-10-25 21:35"
