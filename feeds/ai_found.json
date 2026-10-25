@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "골드만삭스, 코스피 목표 12,000→9,000 하향 — 「그래도 상승 여력 60%↑·저평가 여전」",
+   "url": "https://www.mk.co.kr/news/stock/12185306",
+   "press": "매일경제",
+   "at": "2026-10-26 00:35",
+   "why": "한국 칸·외인 매도 watch — 대형 IB 목표 하향이 나온 주, 역발상 바닥 신호 검증 대상",
+   "summary": "목표치 25% 하향(12,000→9,000). 현 수준 대비 60%↑ 여력 유지, 저평가 논리 유지 — 하향 이유는 반도체 실적 대비 주가 괴리·외인 이탈로 추정(원문 세부 미확인)."
+  },
+  {
+   "title": "시장은 10월 동결을 크게 보지만 워시 의장이 놀라게 할 수 있다 — FOMC 10/27~28 미리보기",
+   "url": "https://www.itiger.com/news/1189778569",
+   "press": "Tiger Brokers",
+   "at": "2026-10-26 00:35",
+   "why": "고금리 정점 가설(0.42)·美 10년 5% watch — 첫 워시 FOMC, 성명 매파면 단기채 유지",
+   "summary": "시장은 10월 동결 우세(이전 확인치 92%, gn_us_fed 10/23). 워시 「데이터 보라」 발언 뒤에도 트레이더는 연준 가이드 추종(gn_us_fed). 금리 결정 10/28(미국), 한국 시간 10/29 새벽."
+  },
+  {
    "title": "사우디 증시, 예멘 전쟁 확전 위험 반영하며 −2.6% — 2025년 4월 이후 최악(유가·실적 아닌 확전 공포)",
    "url": "https://startupfortune.com/saudi-stocks-sink-as-investors-price-in-a-wider-yemen-war/",
    "press": "Startup Fortune",
@@ -623,22 +639,6 @@
    "at": "2026-10-23 07:35",
    "why": "美 정부의 직접 공급 개입 — 원유 생산자(열린 CNQ bet·PR 컵 신호)엔 정책 역풍",
    "summary": "미국 정유 설비 가동이 한계에 닿고 디젤이 갤런당 6달러 위에 머물자 DPA 발동. CNBC 10/22 '트럼프, 원유 생산·정제에 DPA 발동'(피드)과 같은 건. 증산 효과의 규모·시점은 미확인."
-  },
-  {
-   "title": "SK하이닉스, 솔리다임 미국 상장(IPO) 추진 철회 보도",
-   "url": "https://stockhub.kr/news/news_2e292d51f55d",
-   "press": "stockhub(한국경제 보도 인용)",
-   "at": "2026-10-23 07:35",
-   "why": "하이닉스 실적 발표 직전 '자회사 가치 재평가' 기대가 빠짐 — SOX −6.7% 다음 날 한국 메모리 시가에 겹친 악재",
-   "summary": "한국경제 보도(피드 HANAchina/70867·investing_en). 9월엔 5~10조원 프리IPO 보도에 '결정된 바 없다'(asiae). 철회 사유·공식 공시는 미확인."
-  },
-  {
-   "title": "웨스턴디지털, 실적 상회에도 시간외 10%대 급락 — 비용 압박·설비투자 확대",
-   "url": "https://www.kucoin.com/news/flash/western-digital-shares-drop-over-10-after-hours-despite-beating-earnings-estimates",
-   "press": "KuCoin News",
-   "at": "2026-10-23 06:35",
-   "why": "반도체(메모리·저장장치) 칸 — 실적보다 capex 가 주가를 정하는 국면, 오늘 하이닉스·삼성 개장 반응 가늠",
-   "summary": "실적 예상 상회·배당 상향(bbg_tech)에도 시간외 −10%대(보도) · 비용·capex 부담이 가이던스를 가림(investing_en) · 정확한 낙폭 수치는 미확인"
   }
  ],
  "at": "2026-10-25 21:35"
