@@ -1,5 +1,5 @@
 {
- "at": "2026-10-25 16:35",
+ "at": "2026-10-25 17:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7737": {
@@ -17,11 +17,6 @@
    "why": "AI 차입 가설 — 오픈AI 몸값 1.4조→1.25조$로 낮춰 300억$ 조달, 조달 비용 상승 확인",
    "at": "2026-10-23 13:35"
   },
-  "n/swwwftcomcontente842173f6f9f41159e5fa0f06f0df18dsyn25a6b1a61": {
-   "lv": 1,
-   "why": "AI 차입 가설 0.88 — 대형 연기금이 빅테크 비중 축소(주식 수요 쪽 이탈)",
-   "at": "2026-10-23 13:35"
-  },
   "kimu_nim/47204": {
    "lv": 1,
    "why": "8월 은행 연체율 0.69% 10년 최고(중기·자영업) — 금융 칸·한은 인상 경로 부담",
@@ -32,25 +27,10 @@
    "why": "다음 주 FOMC·빅테크 실적 미리보기 + 금요일 하락=헤지펀드 청산 해석 — AI 차입 가설·디그로싱 규칙과 이어짐",
    "at": "2026-10-24 09:35"
   },
-  "HANAchina/70936": {
-   "lv": 1,
-   "why": "브렌트 117$ 돌파·월간 +10%↑·미·이란 주말 긴장 — 에너지 칸 상단·월요일 갭 위험",
-   "at": "2026-10-24 11:35"
-  },
   "HANAchina/70944": {
    "lv": 1,
    "why": "AI 차입 가설 0.88의 반대 증거 — AWS 2027년까지 용량 예약 완료·2028년도 거의 소진: 다음 주 아마존 실적·크레딧 확대와 맞붙는 수요 쪽 숫자",
    "at": "2026-10-24 14:35"
-  },
-  "n/wS2t3elRxYVpleEpEUl94RlE5NG9MaFYyQmF6MGQzMzg5MTVFNUxrcnJ3oc5": {
-   "lv": 1,
-   "why": "AI 차입 가설(0.88) — 비상장 대형사(스페이스X) 400억$ 칩 차입 난항 = 엔비디아 수요·사모신용 스트레스 줄기",
-   "at": "2026-10-24 17:35"
-  },
-  "n/gzWDg3c21NR1Z5MmdJdUt2Q3lERi0yQ2x0YVNJaUxSd0paaVd3ODdVTHcoc5": {
-   "lv": 1,
-   "why": "AI 차입(크레딧) 가설 0.88의 확인 숫자 — 글로벌 신용스프레드 1년 5개월 최고, 월요일 AI 인프라 신호 킥 크기 판단에 직결",
-   "at": "2026-10-24 19:35"
   },
   "n/leasaifinancierfacesfirstbigtestasneocloudstakemarkethithtml": {
    "lv": 1,
@@ -77,16 +57,6 @@
    "why": "한국 가설 0.80·🇰🇷 칸 — 증시 대기자금 넉 달 새 51조 감소: 외인 매도를 받아내던 개인 실탄이 줄어 월요일 실적 주간 반등 폭을 제한할 수급 숫자",
    "at": "2026-10-25 09:35"
   },
-  "n/FZtYWdDNXpuSjc1NlJPVTdXNzFfMmllSVFfRmtBakV0SzF5SEhMc2tJQQoc5": {
-   "lv": 1,
-   "why": "🇰🇷 칸·한국 가설 0.80 — 김정은 방중(통일부 확인): 북중 밀착이 월요일 원화·코스피 지정학 프리미엄 변수",
-   "at": "2026-10-25 11:35"
-  },
-  "n/09fTVN0NTM3OVZFbUtVTkQyZGFOWlFmWlB5LVlOdzAzMkVzVmgxUFhkRQoc5": {
-   "lv": 1,
-   "why": "AI 차입 가설 0.88·반도체 킥 — SOXL 10월 −43%인데 한 주 61억$ 개인 유입: 투매(항복) 아직 아님 → 반도체 바닥 신호는 유입이 꺾인 뒤",
-   "at": "2026-10-25 11:35"
-  },
   "n/CdVVBVnZya2FQbjg5aW1fMVdQTUxBcE5MVkIwNVNtLWRfV1dzRmdnUlZnoc5": {
    "lv": 1,
    "why": "AI 차입 가설 0.88·반도체 킥 — 골드만, 헤지펀드 기록적 매도 뒤 「AI 선별 저가 매수(확신은 제한적)」: IB 첫 매수 쪽 톤, 단 유입 꺾임 전엔 킥 금지 규칙 유지",
@@ -111,6 +81,21 @@
    "lv": 1,
    "why": "빅테크 크레딧 우려로 기술주→美 국채 자금 이동 — AI 차입 가설·크레딧 조건(ideas 13:35) 직결",
    "at": "2026-10-25 16:35"
+  },
+  "n/es20261025goldmancutskospi12monthtargetby25asaitradeunravels": {
+   "lv": 1,
+   "why": "골드만 코스피 12개월 목표 −25% — 「한국」 가설·🎯 국내 칸 직결, 낙관 합의 꺾임(바닥 신호일 수도)",
+   "at": "2026-10-25 17:35"
+  },
+  "n/hUV9sQUhxOWpJMVVPNlhFMDd5SkJMekZkTFdtQzlnYnBQNkd2MG1TNzZyoc5": {
+   "lv": 1,
+   "why": "이란, 반다르아바스 상공 美 드론 격추 주장 — 브렌트 117$ 위 월요일 갭업 위험(에너지 칸·고유가 가설)",
+   "at": "2026-10-25 17:35"
+  },
+  "n/040d25uaFM0LTBNZ0tCdFdFTy1JYnowRlhqZTBIOV94ZkdVWTU1ZFlWSgoc5": {
+   "lv": 1,
+   "why": "무디스 프랑스 Aa3 유지(전망 부정적) — 열린 EWQ bet 의 강등 꼬리위험 하나 해소",
+   "at": "2026-10-25 17:35"
   }
  }
 }
