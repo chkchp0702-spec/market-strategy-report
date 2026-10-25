@@ -1,5 +1,5 @@
 {
- "at": "2026-10-25 20:35",
+ "at": "2026-10-25 21:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7737": {
@@ -67,11 +67,6 @@
    "why": "AI 차입 가설 0.88·고금리 0.42 — BofA 하트넷 「11월 중순까지 전술적 위험 회피·30년물 5%까지 하락 가능」: 월요일 반도체 킥 서두르지 않는 근거, 채권 쪽엔 우호",
    "at": "2026-10-25 15:35"
   },
-  "n/PZ0liamFOaXMzMkhWOThWUkxmbUFCbnZsT2lzcVJ3R3RWZF9CcElCNExPoc5": {
-   "lv": 1,
-   "why": "빅테크 크레딧 우려로 기술주→美 국채 자금 이동 — AI 차입 가설·크레딧 조건(ideas 13:35) 직결",
-   "at": "2026-10-25 16:35"
-  },
   "n/es20261025goldmancutskospi12monthtargetby25asaitradeunravels": {
    "lv": 1,
    "why": "골드만 코스피 12개월 목표 −25% — 「한국」 가설·🎯 국내 칸 직결, 낙관 합의 꺾임(바닥 신호일 수도)",
@@ -82,25 +77,15 @@
    "why": "이란, 반다르아바스 상공 美 드론 격추 주장 — 브렌트 117$ 위 월요일 갭업 위험(에너지 칸·고유가 가설)",
    "at": "2026-10-25 17:35"
   },
-  "n/040d25uaFM0LTBNZ0tCdFdFTy1JYnowRlhqZTBIOV94ZkdVWTU1ZFlWSgoc5": {
-   "lv": 1,
-   "why": "무디스 프랑스 Aa3 유지(전망 부정적) — 열린 EWQ bet 의 강등 꼬리위험 하나 해소",
-   "at": "2026-10-25 17:35"
-  },
   "HANAchina/70984": {
    "lv": 1,
    "why": "AI 차입 가설 0.88·반도체 킥 — 10월 고점을 맞힌 도이체 「기술주 장기 추세 바닥까지 5% 더」: 실적 주간 반도체 킥 서두르지 않는 근거",
    "at": "2026-10-25 18:35"
   },
-  "n/1LXRvX2lLUGp5U2x3bC1ZVXdtd3EwcjZTZGxLYUNXMWt3TDNDcVhmM0dvoc5": {
+  "n/idebtboom4x500billionwhatmeansnvdaorclcrwvcZUcrs8RBUZtsrcrss": {
    "lv": 1,
-   "why": "한국 가설 0.80·반도체 킥 — WSJ 「SK하이닉스, AI 밸류 우려에 메모리 자회사 IPO 보류」: 실적(10/29 전후) 앞두고 자금조달 창구가 좁아지는 신호, AI 차입 가설과 같은 방향",
-   "at": "2026-10-25 19:35"
-  },
-  "n/aeFM5NTg4SEJJM0hsYXdNeTRBbkZmRXVOMHpfaHRmQ3RXQ1BmWlVlZDhBoc5": {
-   "lv": 1,
-   "why": "⛽ 에너지 칸·지정학 — WSJ 「美, 이란 공격 음모 정황에 중동 공관·기지 인력 대피」: 드론 격추 주장과 겹쳐 월요일 유가 갭업 위험 구간",
-   "at": "2026-10-25 20:35"
+   "why": "AI 차입 가설(0.88) — AI 부채 4배·약 5천억$(모건스탠리 자료), 이번 주 빅테크 실적·capex 가이던스가 크레딧 방향을 가름",
+   "at": "2026-10-25 21:35"
   }
  }
 }
