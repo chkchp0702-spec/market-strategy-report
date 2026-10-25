@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "머스크 「스페이스X, GPU용 400억$ 차입 완료」",
+   "url": "https://money.usnews.com/investing/news/articles/2026-10-25/musk-says-spacex-raised-40-billion-in-debt-for-gpus",
+   "press": "Reuters(US News)",
+   "at": "2026-10-26 06:35",
+   "why": "AI 차입 가설 — 10/24 「조달 난항」 보도 뒤 성사 확인: 초대형 차입자는 여전히 돈을 구한다(가설의 반대 근거로 기록)",
+   "summary": "머스크가 10/25 스페이스X가 GPU 구매용 부채 400억$ 조달을 마쳤다고 밝힘. 10/7 아폴로 주관 추진 보도의 결말. 금리·조건은 미확인."
+  },
+  {
+   "title": "스페이스X 400억$ 차입 마감 — 머스크 「네오클라우드 정리 온다」",
+   "url": "https://phemex.com/news/article/spacex-completes-40-billion-gpu-debt-financing-musk-warns-of-neocloud-shakeout-101002",
+   "press": "Phemex News",
+   "at": "2026-10-26 06:35",
+   "why": "AI 차입 0.88·AI 인프라 킥 감점 규칙 — 대출자들이 물러나는 중이라는 당사자 경고: 조달 의존 네오클라우드(코어위브 등) 신호는 계속 감점",
+   "summary": "머스크: 차입은 마쳤지만 AI 대출 시장이 빡빡해져 작은 GPU 클라우드 업체 정리 가능. 「대출자 철수」 표현(teslanorth). 규모 외 숫자 미확인."
+  },
+  {
    "title": "브렌트 120$ 저항 앞 — 美, 중간선거 뒤 이란 대규모 공습 계획 보도",
    "url": "https://www.benzinga.com/markets/commodities/26/10/62580185/brent-crude-oil-price-nears-crucial-level-as-trump-prepares-iran-attack",
    "press": "Benzinga",
@@ -623,22 +639,6 @@
    "at": "2026-10-23 14:40",
    "why": "AI 인프라 수혜가 「광·전력」 쪽으로 좁혀지는 흐름 — 히타치(열린 bet)·전력망 칸과 같은 결",
    "summary": "광네트워크 매출 강세 vs 모바일 네트워크 부진 · 숫자는 원문 확인 필요(미확인)"
-  },
-  {
-   "title": "오픈AI, 9월말엔 1.4조$ 몸값에 300억$↑ 조달 추진 — 3주 만에 1.25조$로 낮춰 조달 임박",
-   "url": "https://pulse2.com/openai-reportedly-targets-at-least-30-billion-funding-at-1-4-trillion-valuation/",
-   "press": "Pulse 2.0 (블룸버그 인용)",
-   "at": "2026-10-23 13:35",
-   "why": "AI 차입 가설(0.88) — 같은 300억$ 조달에 몸값 약 11% 하향 = 자금 창구 비용 상승의 숫자 확인",
-   "summary": "9/29 블룸버그: 최소 300억$·1.4조$ 몸값 목표 · 10/23 연합인포맥스(kwusa/61425): 1.25조$에 최대 300억$ 조달 임박 · 1.4→1.25조$ = −10.7%"
-  },
-  {
-   "title": "AI 붐에 캘퍼스 수익 증가 — 이사회 의장은 '파국적 위험' 경고(9월) → 10/23 FT 「캘퍼스, AI 랠리 흔들리자 빅테크 축소」",
-   "url": "https://localnewsmatters.org/2026/09/18/ai-boom-lifts-calpers-investments-as-board-leader-warns-of-possible-catastrophic-risks/",
-   "press": "Local News Matters / CalMatters",
-   "at": "2026-10-23 13:35",
-   "why": "AI 차입 가설 — 주식 매수 주체(연기금)가 빠지는 쪽, 반도체 칸 7% 유지 근거",
-   "summary": "9/18 캘퍼스 AI 수혜 수익 vs 이사회 경고 · 10/23 FT(ft_co) 빅테크 비중 축소 보도 — 축소 규모는 미확인"
   }
  ],
  "at": "2026-10-26 04:35"
