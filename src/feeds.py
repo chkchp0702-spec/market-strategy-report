@@ -76,7 +76,7 @@ NEWS = [
     # 아시아 (일본·중국·홍콩)
     ("nikkei_asia", "Nikkei Asia", "언론사 RSS", "https://asia.nikkei.com/rss/feed/nar", "asia.nikkei.com"),
     ("scmp_biz", "SCMP 비즈니스", "언론사 RSS", "https://www.scmp.com/rss/92/feed", "scmp.com"),
-    ("caixin", "Caixin Global", "구글뉴스 site:caixinglobal.com", GN.format(q="site:caixinglobal.com+when:1d", hl="en-US", gl="US", lang="en")),
+    ("caixin", "Caixin Global", "구글뉴스 site:caixinglobal.com", GN.format(q="site:caixinglobal.com+when:3d", hl="en-US", gl="US", lang="en")),
     ("gn_jp", "ニュース · 일본 증시", "Google News 일본", GN.format(q="%E6%97%A5%E7%B5%8C%E5%B9%B3%E5%9D%87+OR+%E6%A0%AA%E5%BC%8F%E5%B8%82%E5%A0%B4+OR+%E5%8D%8A%E5%B0%8E%E4%BD%93+when:1d", hl="ja", gl="JP", lang="ja")),
     ("gn_hk", "新聞 · 홍콩·중국 증시", "Google News 홍콩", GN.format(q="%E6%B8%AF%E8%82%A1+OR+%E6%81%92%E6%8C%87+OR+A%E8%82%A1+OR+%E5%8D%8A%E5%B0%8E%E9%AB%94+when:1d", hl="zh-HK", gl="HK", lang="zh-Hant")),
     # 공식 기관·통계
@@ -96,7 +96,8 @@ NEWS = [
     ("thebell", "더벨(자본시장)", "구글뉴스 site:thebell.co.kr", GN.format(q="site:thebell.co.kr+when:1d", hl="ko", gl="KR", lang="ko")),
     ("gn_kr_global", "뉴스 · 해외 증시(한글)", "구글 뉴스 검색", GN.format(q=_up.quote("뉴욕증시+OR+나스닥+OR+엔비디아+OR+일본증시+OR+중국증시+OR+홍콩증시+when:1d", safe="+:"), hl="ko", gl="KR", lang="ko")),
 ]
-SLOW = {"fed", "ecb", "eia"}   # 🔧 10/11 공식 기관은 며칠에 한 번 발표 → 2일 창이면 주말에 0개(건강검진 「0개 피드」) — 7일 유지
+SLOW = {"fed", "ecb", "eia", "caixin"}   # 🔧 10/11 공식 기관은 며칠에 한 번 발표 → 2일 창이면 주말에 0개(건강검진 「0개 피드」) — 7일 유지
+# 🔧 10/25 Caixin Global 도 주말엔 하루 1개 이하(10/25 일 13:07 부터 0개 → 건강검진 문제) — 받기 3일 · 남기기 7일
 OLD_NEWS = {"gn_kr_mkt", "gn_kr_macro", "gn_kr_sector", "gn_kr_strat", "gn_us_mkt", "gn_us_fed", "hankyung", "mk", "cnbc", "yahoo", "cnbc_top", "investing_kr"}
 FIN = re.compile(r"주|증시|코스피|코스닥|지수|금리|환율|달러|채권|국채|연준|Fed|물가|경기|경제|수출|실적|매출|이익|투자|펀드|ETF|반도체|HBM|AI|전력|조선|방산|원전|배터리|IPO|공모|상장|외국인|기관|목표가|리포트|전략|시장|무역|관세|유가|원유|금값|비트|증권|은행|M&A|인수|합병")
 AI_FOUND = ROOT / "feeds" / "ai_found.json"     # 🧠 매시간 두뇌가 웹에서 찾아 넣는 글
