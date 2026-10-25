@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "SK하이닉스, AI 밸류에이션 우려에 메모리 자회사 IPO 보류(WSJ)",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWE9EOHNwRFRHSUJvQzhaNTByNHIxdFVEM3JVbEFsUXpQdDQzQ1lsaVpBYmRHdWlVTVhVZG5rWG0yMzIyU3ZCcGlSZ2VaRmlOWlJ3Z0ZfUzJ6bWFRWFdOcWR0Q2hRall5YzZ3ZUFmanNWaHo0WkFSMnQ1LXRvX2lLUGp5U2x3bC1ZVXdtd3EwcjZTZGxLYUNXMWt3TDNDcVhmM0dv?oc=5",
+   "press": "WSJ",
+   "at": "2026-10-25 19:35",
+   "why": "한국 가설·반도체 킥 — 실적 주간 직전 자금조달 창구 축소 신호",
+   "summary": "보류 규모·재개 시점 미확인. 앞서 보도된 솔리다임 IPO(최대 150억$ 검토) 계획과 연결되는지 확인 필요."
+  },
+  {
+   "title": "아폴로 이코노미스트 「AI, 기술주 밖 S&P 493엔 이익 기여 0」",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/ai-provides-zero-payoff-to-s-p-493-outside-tech-apollo-economist-says",
+   "press": "Bloomberg",
+   "at": "2026-10-25 19:35",
+   "why": "AI 차입 가설 0.88 — 「확장→효율」 전환(한경)과 함께 AI 투자 회수 의문 확산",
+   "summary": "AI 투자의 이익 효과가 빅테크에 몰림 — 미 증시 폭 좁음 지속 근거. 세부 숫자 미확인."
+  },
+  {
    "title": "이란군 「반다르아바스 상공 美 MQ-1 드론 격추」(타스님)",
    "url": "https://www.newsquawk.com/headlines/iranian-army-says-a-us-mq-1-drone-has-been-shot-down-over-bandar-abbas-tasnim-reports",
    "press": "Newsquawk",
@@ -623,22 +639,6 @@
    "at": "2026-10-23 02:35",
    "why": "고금리 가설(10년 5% 깨짐 시험)·에너지 칸·AI 차입 가설 동시 — 유가 상승에도 금리 하락",
    "summary": "나스닥 −2.42% 26,057·S&P −1.26% · 브렌트 112.32(+3.2%)·WTI 99.23 · 美 10년 4.965%(티커, 라이브 본문엔 5.02% 언급) · 메타 −7.2%"
-  },
-  {
-   "title": "AI 붐 지속성 우려 재부상에 美 국채금리 급락",
-   "url": "https://www.theglobeandmail.com/investing/article-us-bond-yields-plunge-as-fears-about-sustaining-ai-boom-resurface/",
-   "press": "The Globe and Mail",
-   "at": "2026-10-23 02:35",
-   "why": "고금리 장기화 가설 깨짐 조건(10년 5.00 하회) 판정 재료",
-   "summary": "본문 접속 막힘 — 제목만 확인(수치 미확인). CNBC US10Y 기준 장중 4.969%(−17.7bp)"
-  },
-  {
-   "title": "메타 잉여현금흐름 91% 급감 — 월가 즉각 응징",
-   "url": "https://www.wionews.com/world/meta-s-free-cash-flow-just-collapsed-91-and-wall-street-punished-it-immediately-1785766809341",
-   "press": "WION",
-   "at": "2026-10-23 01:35",
-   "why": "AI 차입(크레딧) 가설 0.87 — 빅테크 AI 지출이 현금흐름을 잠식, 회사채·CDS 발행 압력으로 이어지는 고리",
-   "summary": "메타 3분기 잉여현금흐름 91% 감소(제목 기준), 매출 +28%에도 주가 하락(fxleaders 「550달러 아래」). 세부 숫자 원문 미확인."
   }
  ],
  "at": "2026-10-25 18:35"
