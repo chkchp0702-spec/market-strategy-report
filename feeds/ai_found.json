@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "SK하이닉스(SKHY), 3분기 실적 앞두고 하락 — 애널리스트 목표가 300달러 유지",
+   "url": "https://parameter.io/sk-hynix-skhy-drops-ahead-of-q3-earnings-as-analysts-maintain-300-price-target/",
+   "press": "parameter.io",
+   "at": "2026-10-25 14:35",
+   "why": "이번 주 삼전닉스 실적 — 메모리 킥 관찰(개인 레버리지 유입 꺾임+신호 겹침 대기)",
+   "summary": "제목 기준: 실적 앞두고 주가 하락, 목표가 300$ 유지. 실적일·컨센서스 숫자는 원문 미확인."
+  },
+  {
    "title": "노무라: AI 군비 경쟁 지속 확률 75%, 2027년 메모리 부족 사실상 확정",
    "url": "https://wallstreetcn.com/articles/3784406",
    "press": "월스트리트견문(华尔街见闻)",
@@ -631,14 +639,6 @@
    "at": "2026-10-22 20:35",
    "why": "이란 전쟁이 사우디로 번짐 — 유가(CNQ bet)·고금리 가설의 물가 상방 쪽",
    "summary": "미 국무부, 사우디 주재 비필수 외교관·가족 철수 명령. 후티의 사우디 공격 지속 보도(bbg_mkt)와 함께 브렌트 112달러 위(yahoo)."
-  },
-  {
-   "title": "마이크론 타오위안 노조, 파업 권한 확보(10/7) — 오늘 대만 첫 반도체 파업으로 현실화",
-   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/07/micron039s-taoyuan-union-in-taiwan-secures-authorisation-to-strike",
-   "press": "The Star(로이터)",
-   "at": "2026-10-22 19:35",
-   "why": "반도체(메모리) 칸 — 마이크론 대만 공장 생산 차질 시 HBM·D램 공급 경쟁사(삼성·하이닉스) 반사 수혜 여부",
-   "summary": "10/7 노조가 파업 찬성 투표로 권한 확보(로이터). 10/22 닛케이아시아·차이신이 「대만 사상 첫 반도체 노동자 파업이 마이크론 공장 강타」 보도. 생산 차질 규모는 미확인."
   }
  ],
  "at": "2026-10-25 02:35"
