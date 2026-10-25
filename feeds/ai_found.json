@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "트럼프, 이란 즉각 공습 배제 — 군사 옵션은 유지(아랍타임스)",
+   "url": "https://www.arabtimesonline.com/news/trump-does-u-turn-again-rules-out-immediate-iran-strike/",
+   "press": "Arab Times",
+   "at": "2026-10-26 04:35",
+   "why": "⛽ 에너지 칸·CHRD bet — 토요일 「내일이라도」에서 일요일 「오늘은 아님」으로 후퇴, 월요일 유가 갭 크기 줄 수 있음",
+   "summary": "트럼프 10/25 「오늘 공습 계획 없음」, 합의·공습 둘 다 열어 둠(apa.az 동일 보도). 유가 숫자는 미확인."
+  },
+  {
+   "title": "브라질 대선 결선(룰라 vs 보우소나루 진영) — 미국 투자자에게 의미(리우타임스)",
+   "url": "https://www.riotimesonline.com/what-brazils-runoff-means-for-us-investors-2026/",
+   "press": "Rio Times",
+   "at": "2026-10-26 04:35",
+   "why": "🌏 신흥국·원자재 — 10/25 결선 결과가 월요일 헤알·EWZ 갭, 접전(cnbc_top 피드)",
+   "summary": "1차 투표 뒤 보베스파 선거 기대 랠리(tradingeconomics). 결선 결과는 이 시점 미확인."
+  },
+  {
    "title": "엔비디아·마이크론이 S&P500 기술 이익을 홀로 바꾸고 있다(잭스)",
    "url": "https://www.nasdaq.com/articles/how-nvidia-and-micron-are-single-handedly-reshaping-sp-500-tech-earnings",
    "press": "Zacks/Nasdaq",
@@ -623,23 +639,7 @@
    "at": "2026-10-23 12:35",
    "why": "고금리 정점 가설·채권 칸 — AI 위험 회피가 금리를 끌어내림",
    "summary": "AI주 급락에 안전자산 수요로 미 10년물 3개월 최저(5% 아래, 피드 bbg_tech·gn_kr_macro 동조). 세부 수치는 원문 확인."
-  },
-  {
-   "title": "중국 초부유층, 세무 단속에 역외 신탁 정리·현금 마련",
-   "url": "https://www.timeslive.co.za/news/world/2026-10-16-analysis-chinas-super-rich-scramble-to-exit-offshore-trusts-raise-cash-as-taxman-knocks/",
-   "press": "Reuters via TimesLive",
-   "at": "2026-10-23 12:35",
-   "why": "항셍 23,000 붕괴(역외 신탁 과세 소문 −717p)의 배경 — 홍콩 칸·중국 은행 신호 판단",
-   "summary": "중국 세무당국 역외 신탁 과세 압박으로 부유층이 신탁 해지·현금 확보(10/16 분석). 10/23 항셍 매도 재료와 연결(gn_hk)."
-  },
-  {
-   "title": "AI 부채 공세가 글로벌 금리에 불을 붙인다 (Macro View)",
-   "url": "https://news.bloomberglaw.com/bankruptcy-law/ai-debt-onslaught-lights-fire-under-global-yields-macro-view",
-   "press": "Bloomberg Law",
-   "at": "2026-10-23 11:35",
-   "why": "AI 차입 가설(0.87)의 채권 쪽 근거 — 빅테크 대량 발행이 금리·스프레드를 밀어 올림, 성장주 킥 크기 조절과 이어짐",
-   "summary": "AI 관련 대규모 회사채 발행이 글로벌 금리 상승 압력으로 작용한다는 분석. 오늘 피드 bbg 「글로벌 크레딧 스프레드 17개월 최고」와 같은 줄기. 기사 작성일·세부 숫자 웹 미확인."
   }
  ],
- "at": "2026-10-25 21:35"
+ "at": "2026-10-26 04:35"
 }
