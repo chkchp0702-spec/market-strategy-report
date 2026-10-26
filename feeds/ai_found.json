@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "룰라, 브라질 대선 결선서 깜짝 역전 — 사상 첫 4선",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/lula-wins-a-record-fourth-term-in-brazil-in-a-surprise-comeback",
+   "press": "Bloomberg",
+   "at": "2026-10-26 15:35",
+   "why": "🌎 신흥국 칸·EWZ — 시장이 예상 못한 정권 결과: 헤알·보베스파 첫 반응이 정치 갭 되돌림 규칙의 시험대",
+   "summary": "룰라가 플라비우 보우소나루를 결선에서 꺾고 4선(10/25). 시장 반응 수치는 미확인."
+  },
+  {
+   "title": "브라질 룰라 승리, 보우소나루 측 승복 거부 보도",
+   "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+   "press": "CNBC",
+   "at": "2026-10-26 15:35",
+   "why": "EWZ 정치 위험 — 승복 거부가 길어지면 갭이 메워지지 않을 수 있음(되돌림 규칙의 예외 조건)",
+   "summary": "룰라 결선 승리·보우소나루 측 승복 거부 보도. 헤알·선물 수치 미확인."
+  },
+  {
+   "title": "앤트로픽 상장 서류: 2025년 순손실 420억$·컴퓨팅 약정 5,180억$",
+   "url": "https://thenextweb.com/news/anthropic-ipo-prospectus-42bn-loss-518bn-compute",
+   "press": "The Next Web(Reuters 인용)",
+   "at": "2026-10-26 15:35",
+   "why": "🧠 AI 차입 가설 0.88 — 약정 규모가 공급망·네오클라우드 신용 부담의 기준 숫자",
+   "summary": "매출 12배 성장에도 2025년 순손실 420억$(회계 비용 포함, 영업손실 약 80억$), 인프라 약정 5,180억$."
+  },
+  {
    "title": "프랑스 국채 시장 10월 — 금리·OAT-분트 스프레드 점검",
    "url": "https://serrarigroup.com/analyst-desk/global-markets/france-bond-market-october-2026",
    "press": "Serrari Group",
@@ -615,31 +639,7 @@
    "at": "2026-10-23 23:35",
    "why": "열린 CBOE bet(☕ 컵 10/19, 1주) 기한 10/27 — 실적(10/30)이 기한 밖, 옵션 내재 변동 ±3.4%(investing_kr)",
    "summary": "10/30 실적. 9월 거래량 기록적(변동성 수혜). 우리 bet 은 실적 전에 기한 종료."
-  },
-  {
-   "title": "美 법원, 메타에 페이스북 개인정보 위반 250억 달러 벌금 명령(뉴멕시코)",
-   "url": "https://www.aljazeera.com/news/2026/10/21/judge-orders-meta-to-pay-25bn-in-fines-for-facebook-privacy-violations",
-   "press": "Al Jazeera",
-   "at": "2026-10-23 22:35",
-   "why": "BofA 「메타 AI 최선호」 상향과 같은 주 — 메타 지출 우려(나스닥 −2.6%)에 규제 비용까지, AI 대형주 킥 진입 보수 근거",
-   "summary": "10/21 판결 250억$ — 사상 최대급 개인정보 벌금. 10/23 BofA·로젠블랫은 광고 성장으로 목표가 상향(900$). 지출·규제 우려 vs 광고 실적 줄다리기."
-  },
-  {
-   "title": "번스타인 「스페이스X 무선 진출 최대 수혜는 크라운캐슬」 — 타워주 급등",
-   "url": "https://stocktwits.com/news-articles/markets/equity/spcx-wireless-spectrum-deal-cci-best-beneficiary-tower-stocks/cZxTFDvRBnA",
-   "press": "Stocktwits",
-   "at": "2026-10-23 21:35",
-   "why": "👀 관찰 중 타워주(AMT·CCI) — 스페이스X 기지국 구축 수요, 통신사(T·VZ)는 경쟁 위협. 우리 신호 붙으면 bet 후보",
-   "summary": "번스타인, CCI 를 스페이스X 무선 사업 「최선의 수혜주」로 지목 · 프리마켓 CCI +7.5%(yahoo 10/23) · 같은 날 통신 섹터 하락(연합인포맥스)"
-  },
-  {
-   "title": "크라운캐슬 13% 급등 — 스페이스X 80억$ 주파수 매입, 타워 구축 옵션 「살아 있다」",
-   "url": "https://www.tikr.com/blog/crown-castle-soars-13-as-spacexs-8-billion-spectrum-buy-keeps-tower-build-option-very-much-alive",
-   "press": "TIKR",
-   "at": "2026-10-23 21:35",
-   "why": "타워 리츠 재평가 촉매 — 고금리(10년 5%)에 눌린 리츠 중 사업 촉매가 붙은 예외",
-   "summary": "스페이스X 80억$ 주파수 매입 → 지상 기지국 구축 시 타워 임차 수요 · CCI 장중 +13% 기록(날짜 확인 필요)"
   }
  ],
- "at": "2026-10-26 13:35"
+ "at": "2026-10-26 15:35"
 }
