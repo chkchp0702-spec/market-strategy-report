@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "도이체방크, 미국 채권 전체를 지도로 그려 「AI 신용이 갈라지는 곳」 지목",
+   "url": "https://cryptobriefing.com/deutsche-bank-us-bonds-ai-credit-stress/",
+   "press": "Crypto Briefing(도이체방크 보고서 인용)",
+   "at": "2026-10-26 16:35",
+   "why": "🧠 AI 차입(크레딧) 가설 0.88 — 어느 채권에서 스트레스가 먼저 나오는지 지도",
+   "summary": "도이체가 미국 채권 시장을 분류해 AI 관련 신용에서 스트레스 징후를 표시. 구체 스프레드 수치·보고서 날짜는 미확인."
+  },
+  {
+   "title": "JP모건 「AI 관련 부채 1.2조$, 미국 투자등급 채권 시장의 최대 비중」",
+   "url": "https://www.thestandard.com.hk/finance/article/313574/AI-related-debt-hits-US12-trillion-dominates-US-investment-grade-bond-market-says-JP-Morgan",
+   "press": "The Standard(HK)",
+   "at": "2026-10-26 16:35",
+   "why": "AI 차입 가설 — IG 지수가 AI 발행에 쏠림 = 회사채·단기채 칸 위험 집중 점검",
+   "summary": "JP모건 집계 AI 관련 부채 1.2조$로 美 IG 시장에서 가장 큰 부문. 기사 날짜 미확인."
+  },
+  {
+   "title": "골드만 「AI 신용 우려, 투자등급과 하이일드에서 다르게 나타난다」",
+   "url": "https://uk.marketscreener.com/news/ai-credit-concerns-playing-out-differently-in-investment-grade-and-high-yield-goldman-says-ce7d51dcd18df124",
+   "press": "MarketScreener(로이터)",
+   "at": "2026-10-26 16:35",
+   "why": "AI 차입 가설의 경로 — IG(빅테크 대량 발행)와 HY(네오클라우드) 스트레스 구분, FT 정크 공급 2조$ 기사와 짝",
+   "summary": "골드만은 AI 관련 신용 우려가 IG·HY에서 서로 다른 형태로 나타난다고 분석. 세부 수치 미확인."
+  },
+  {
    "title": "룰라, 브라질 대선 결선서 깜짝 역전 — 사상 첫 4선",
    "url": "https://www.bloomberg.com/news/articles/2026-10-25/lula-wins-a-record-fourth-term-in-brazil-in-a-surprise-comeback",
    "press": "Bloomberg",
@@ -615,31 +639,7 @@
    "at": "2026-10-24 00:35",
    "why": "AI 차입(크레딧) 가설 0.88 직접 숫자 — 메타 주가 −7%(648.85$)와 동시, 빅테크 FCF 마이너스 클럽 합류",
    "summary": "메타 5년 CDS 114.79bp 사상 최고(출처 1곳, 교차 확인은 reuters 「default insurance hits record」). 메타 10/23 −7.0% 648.85$(heygotrade)."
-  },
-  {
-   "title": "4분기 AI 채권 발행 또 몰릴 듯 — 오라클·메타·스페이스X CDS 사상 최고",
-   "url": "https://www.itiger.com/news/1185154204",
-   "press": "Tiger Brokers",
-   "at": "2026-10-23 23:35",
-   "why": "🧠 가설 「AI 차입이 다음 약한 고리」(0.88) 직접 근거 — 메타 신용위험 지표 신고(gn_bbg 10/23)와 같은 흐름",
-   "summary": "오라클·메타·스페이스X 5년 CDS 기록 경신. 4분기 하이퍼스케일러 대규모 회사채 발행 예상 → 크레딧 공급 부담. 다음 주 MS·구글·아마존·메타 실적이 분기점."
-  },
-  {
-   "title": "골드만: AI 주가 급락이 헤지펀드를 매일 때린다 — 공매도는 5년래 최고 수준",
-   "url": "https://yellow.com/news/ai-stocks-hedge-funds-daily-losses",
-   "press": "Yellow",
-   "at": "2026-10-23 23:35",
-   "why": "공매도 쏠림 극단 = 연준(10/28)·빅테크 실적 뒤 숏커버 반등 위험 — 내림 bets·현금 칸 판단에 반대편 근거",
-   "summary": "골드만 프라임북: 헤지펀드 순노출 약세 쏠림 5년래 드문 수준, 그런데 매일 손실. 연준 결정·메가캡 실적 2건 앞."
-  },
-  {
-   "title": "Cboe 3분기 실적 발표 10월 30일 확정",
-   "url": "https://briefglance.com/companies/cboe-global-markets-inc/pulses/82285",
-   "press": "BriefGlance",
-   "at": "2026-10-23 23:35",
-   "why": "열린 CBOE bet(☕ 컵 10/19, 1주) 기한 10/27 — 실적(10/30)이 기한 밖, 옵션 내재 변동 ±3.4%(investing_kr)",
-   "summary": "10/30 실적. 9월 거래량 기록적(변동성 수혜). 우리 bet 은 실적 전에 기한 종료."
   }
  ],
- "at": "2026-10-26 15:35"
+ "at": "2026-10-26 16:35"
 }
