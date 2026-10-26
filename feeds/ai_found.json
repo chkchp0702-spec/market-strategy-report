@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 국채금리, AI 위험 저울질 속 하락",
+   "url": "https://capital.com/en-int/news/us-yields-lower-as-ai-risk-gauged",
+   "press": "Capital.com",
+   "at": "2026-10-27 05:35",
+   "why": "🧠 AI 차입 가설·고금리 정점 가설(0.42) — 크레딧 불안이 국채로 피난 수요를 만들면 10년 5% 아래 정착 근거",
+   "summary": "제목 기준 AI 위험 평가 속 美 금리 하락. 10/26 마감 10년 4.986%·2년 4.716%(CNBC, latest.json) — 세부 수치는 기사 미확인."
+  },
+  {
+   "title": "메타 공모 증권신고 보충서(424B5) — AI 투자 자금 조달",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000119312526431040/d94886d424b5.htm",
+   "press": "SEC EDGAR",
+   "at": "2026-10-27 05:35",
+   "why": "🧠 AI 차입 가설 — 메타가 채권에 이어 주식 연계(전환우선주 125억$, edaily) 조달: 빅테크도 현금흐름 대신 외부 자금",
+   "summary": "이데일리 「메타, AI 투자 위한 125억$ 전환우선주 발행에 주가 하락」. 원문 조건은 SEC 424B5 참조(금리·전환가 미확인)."
+  },
+  {
    "title": "美 전환사채 발행 2026년 1,310억$ 사상 최대 — AI 지출이 자본시장 빨아들여",
    "url": "https://www.kucoin.com/news/flash/us-convertible-bond-sales-hit-131b-record-in-2026-driven-by-ai-spending",
    "press": "KuCoin News",
@@ -623,22 +639,6 @@
    "at": "2026-10-25 10:35",
    "why": "10/25 대만공상시보 「삼성·TSMC 이례적 협력」 피드(HANAchina/70959)의 원 보도 — 한국 반도체 칸·삼전 실적 주간 판단 재료",
    "summary": "삼성이 엔비디아용 차세대 맞춤형 HBM 베이스 다이를 TSMC 공정으로 만든다는 10/18 서울 매체 보도. 대만 매체가 주말 재보도 — 새 사실 아님, 숫자 미확인."
-  },
-  {
-   "title": "주요 증권사들, 연준 다음 금리 인상을 12월로 예상",
-   "url": "https://www.capital.com/en-ae/news/major-brokerages-expect-next-fed-rate-hike-in-december",
-   "press": "capital.com",
-   "at": "2026-10-25 02:35",
-   "why": "고금리 가설·10/28 FOMC — 이번 동결 뒤 12월 인상 경로면 장기채·성장주 칸 부담 지속",
-   "summary": "주요 IB들이 10월 동결·12월 인상을 기본 시나리오로 제시(세부 확률 숫자 미확인). 국내 보도(gn_kr_macro)도 「시장은 12월 추가 인상 전망」으로 같은 방향."
-  },
-  {
-   "title": "골드만삭스: AI 하이퍼스케일러 신용스프레드 올해 최대 — 주식에 약 15% 하락 여지",
-   "url": "https://www.kucoin.com/news/flash/goldman-sachs-warns-ai-credit-spreads-surge-stock-market-could-drop-15",
-   "press": "KuCoin(골드만 리포트 인용)",
-   "at": "2026-10-24 21:35",
-   "why": "AI 차입(크레딧) 가설 0.88 근거 — 정크 AI 데이터센터 채권 20개 중 7개가 코어위브 단일 임차, 네오클라우드 급락과 직결",
-   "summary": "GSUCHS30 올해 최대폭 · 비슷한 수준일 때 관련 주가 지금보다 약 15% 낮았음 · AI 수혜 바스켓 6월 고점 대비 −25% · S&P500 ex-AI 10/6 이후 +586bp 상대 강세 · 하이퍼스케일러 캐펙스 증가율 3Q 116% 정점→27년 말 20% 예상"
   }
  ],
  "at": "2026-10-27 04:35"
