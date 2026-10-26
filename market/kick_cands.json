@@ -4508,6 +4508,86 @@
 "src": "cup_eye",
 "score": 66.3,
 "lv": 9849.84
+},
+"SM|2026-10-26": {
+"code": "SM",
+"name": "SM Energy Company Common Stock",
+"mkt": "US",
+"d": "2026-10-26",
+"src": "cup_eye",
+"score": 74.7,
+"lv": 39.87,
+"max20": 5.3,
+"id60": -0.033
+},
+"TALO|2026-10-26": {
+"code": "TALO",
+"name": "Talos Energy, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-26",
+"src": "cup_eye",
+"score": 67.1,
+"lv": 18.46,
+"max20": 4.7,
+"id60": -0.017
+},
+"TNET|2026-10-26": {
+"code": "TNET",
+"name": "TriNet Group, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-26",
+"src": "cup",
+"score": 45.6,
+"lv": 72.07,
+"max20": 5.1,
+"id60": 0.033
+},
+"ICFI|2026-10-26": {
+"code": "ICFI",
+"name": "ICF International, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-26",
+"src": "cup",
+"score": 65.5,
+"lv": 95.78,
+"max20": 4.8,
+"id60": 0.0
+},
+"HTFL|2026-10-24|e": {
+"code": "HTFL",
+"name": "Heartflow, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-24",
+"src": "earn",
+"score": 69.0,
+"lv": 31.72
+},
+"EMBC|2026-10-24|e": {
+"code": "EMBC",
+"name": "Embecta Corp. - Common Stock",
+"mkt": "US",
+"d": "2026-10-24",
+"src": "earn",
+"score": 55.8,
+"lv": 3.9
+},
+"HAS|2026-10-26|e": {
+"code": "HAS",
+"name": "Hasbro, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-26",
+"src": "earn",
+"score": 78.4,
+"lv": 100.05
+},
+"HGTY|2026-10-26|e": {
+"code": "HGTY",
+"name": "Hagerty, Inc. Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-26",
+"src": "earn",
+"score": 60.6,
+"lv": 12.57
 }
 },
 "sent": [
