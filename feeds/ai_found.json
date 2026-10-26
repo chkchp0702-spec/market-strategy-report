@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "앤트로픽 S-1: 상반기 매출 163억$, 매출 25%가 고객 2곳, 비현금 손실 807억$ — 11월 상장 예정",
+   "url": "https://aiweekly.co/alerts/anthropic-s-1-shows-163b-h1-revenue-25-from-two-customers-and-807b-non-cash",
+   "press": "AI Weekly",
+   "at": "2026-10-26 22:35",
+   "why": "🧠 AI 차입·공급 가설 — 메타 공모와 같은 주에 대형 AI 주식 물량 추가, 반도체·빅테크 수급 부담",
+   "summary": "상반기 매출 163억$(제목 기준) · 매출 25% 고객 2곳 집중 · 비현금 손실 807억$ · 나스닥 상장 신청(피드 다수 확인), 공모 규모 미확인"
+  },
+  {
+   "title": "美·이란 대화 재개로 유가 약세",
+   "url": "https://www.nasdaq.com/articles/oil-prices-subdued-us-iran-resume-talks",
+   "press": "Nasdaq(RTT)",
+   "at": "2026-10-26 22:35",
+   "why": "⚡ CHRD(☕ 컵·바켄 석유) bets 오늘 美 시가 진입 — 외교 쪽 무게로 역풍",
+   "summary": "美 선물은 유가 하락에 오름(피드 bbg 'Stocks Gain Before Tech Earnings as Oil Declines') · 기사 날짜·숫자 미확인"
+  },
+  {
    "title": "모건스탠리, 록히드마틴 '비중확대' 상향 — F-35 새 국방부 계약 뒤 약 40% 상승 여력",
    "url": "https://www.cnbc.com/2026/10/26/lockheed-martin-will-surge-nearly-40percent-after-new-pentagon-deal-says-morgan-stanley.html",
    "press": "CNBC",
@@ -623,22 +639,6 @@
    "at": "2026-10-24 06:35",
    "why": "주말 이란 공습 위험 + 금리 상승 = 위험 회피 국면 유지, 에너지 칸·채권 칸 판단 근거",
    "summary": "10/23 다우 −652p(−1.24%), 유가 급등과 국채 금리 상승이 동시에 주식 압박. 반도체는 작년 11월 이후 최장 주간 하락(yahoo)."
-  },
-  {
-   "title": "美 증시 금요일 하락 — 다우 −1.2%·S&P −0.5%·나스닥 −0.2%, WTI 102.39$·브렌트 115.94$",
-   "url": "https://www.ibtimes.com/investors-keep-risk-off-mood-amid-ai-spending-concerns-soaring-middle-east-tensions-stocks-fell-3808950",
-   "press": "IBTimes",
-   "at": "2026-10-24 05:35",
-   "why": "에너지 칸 상단·금융/경기민감 약세 — 위험 회피 국면 지속 확인",
-   "summary": "다우 −1.24%·S&P −0.52%·나스닥 −0.21%(기사 시점 기준). WTI 12월물 +3% 102.39$, 브렌트 +2.5% 115.94$. 이란 긴장·AI 지출 우려 동시."
-  },
-  {
-   "title": "美 10년 금리, AI 우려 속 이번 주 5% 선으로 되돌아와",
-   "url": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html",
-   "press": "CNBC",
-   "at": "2026-10-24 05:35",
-   "why": "고금리 정점 가설(0.45)·현금/단기채 칸 us10y 조건과 직결",
-   "summary": "10년물 5% 부근 공방 — 장 후반 CNBC 시세 5.001%(전일 4.953). 이틀 연속 5% 하회 조건 미충족."
   }
  ],
  "at": "2026-10-26 20:35"
