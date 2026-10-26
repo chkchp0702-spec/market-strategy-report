@@ -4588,6 +4588,17 @@
 "src": "earn",
 "score": 60.6,
 "lv": 12.57
+},
+"SU|2026-10-26": {
+"code": "SU",
+"name": "Suncor Energy  Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-26",
+"src": "cup_eye",
+"score": 54.4,
+"lv": 79.73,
+"max20": 4.1,
+"id60": -0.133
 }
 },
 "sent": [
