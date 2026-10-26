@@ -1,5 +1,5 @@
 {
- "at": "2026-10-26 18:35",
+ "at": "2026-10-26 19:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7744": {
@@ -12,16 +12,6 @@
    "why": "AI 차입 가설 — 엔비디아가 네오클라우드 자금줄 역할, 코어위브 등 급락이 엔비디아 대차대조표로 번지는 첫 시험",
    "at": "2026-10-24 20:35"
   },
-  "n/es20261025usequityfuturesclimbascrudeoilpricedipsmarketswrap": {
-   "lv": 1,
-   "why": "⛽ 에너지 칸·고유가 — 이란 사태 속 美 선물 상승·유가 되밀림(bbg): 금요일 WTI +3.8% 급등분 일부 되돌림, 월요일 갭 축소 쪽",
-   "at": "2026-10-26 07:35"
-  },
-  "n/xYaHFnUEV5QWQ4djVlVUVxeEhwWWRneTNkYmlYdlBCX2JzTlNCQlVyX18oc5": {
-   "lv": 1,
-   "why": "🧠 AI 차입(크레딧) 가설 0.88 — 日 회사채 가산금리 15년 최고: 크레딧 스트레스가 美 빅테크 밖(일본 IG)으로 번지는 신호",
-   "at": "2026-10-26 11:35"
-  },
   "HANAchina/71002": {
    "lv": 1,
    "why": "⛽ 에너지 칸·CHRD bet(☕ 컵) — 골드만 「정제유 부족 2027년까지」: 정기보수 집중·글로벌 보수 −170만b/d, 한국·인도 2027 2Q 수출 감소 → 정제마진 지지",
@@ -30,11 +20,6 @@
   "HANAchina/71008": {
    "lv": 1,
    "why": "⛽ 에너지 칸·CHRD bet(☕ 컵) — 후티 「사우디 동서 송유관 펌프장 드론 공격」 주장(사우디 미확인): 호르무즈 우회 수출로가 표적 = 브렌트 105 아래로 꺾일 여지 축소",
-   "at": "2026-10-26 12:35"
-  },
-  "n/0tpT1haWjNNY3dUNWlOa1dlWnFiRXBjRTZyZkgtSnVHR0pfMWVPZFM3UQoc5": {
-   "lv": 1,
-   "why": "🇰🇷 한국 가설 0.80 — 외국인 매도에 코스피 5,400선·코스닥 −2.4%: 외인 순매수 전환 나흘째 실패 쪽",
    "at": "2026-10-26 12:35"
   },
   "HANAchina/71010": {
@@ -47,11 +32,6 @@
    "why": "🧠 AI 차입 가설 — SpaceX 400억$ GPU 부채(재무제표 밖·아폴로 주도, 완료 여부 미확인) + 머스크 「신생 클라우드 200곳 도산 물결」 경고: 크레딧 약한 고리 신호",
    "at": "2026-10-26 13:35"
   },
-  "n/0261025frenchbondroutputscrisisatheartofecbsuccessionendgame": {
-   "lv": 1,
-   "why": "열린 bet EWQ(프랑스, 기한 1일 남음 −0.9%) 직격 — 국채 매도가 ECB 후임 구도 위기로",
-   "at": "2026-10-26 14:35"
-  },
   "n/httpswwwcnbccom20261026oilpricestodaywtibrenthtml": {
    "lv": 1,
    "why": "오늘 美 시가 진입 대기 bet CHRD(☕ 컵·바켄 석유) — 유가 2%↓, 진입가 낮아지나 논지 약화 여부 확인",
@@ -60,11 +40,6 @@
   "n/swwwftcomcontent053a8758281445a587ca0c71ce5f7816syn25a6b1a61": {
    "lv": 1,
    "why": "AI 차입 가설(0.88) — 정크 공급 2조$로 위험 차입자 조달 비용 상승, 네오클라우드 쪽 스트레스 줄기",
-   "at": "2026-10-26 16:35"
-  },
-  "n/rentalpricesrisingsharplyevenforolderchipscZUdsyzRBy4tsrcrss": {
-   "lv": 1,
-   "why": "AI 차입 가설의 반대 근거 — 구형 GPU까지 임대료 상승 = 수요 견조, 슈퍼위크 반도체 실적 앞 체크",
    "at": "2026-10-26 16:35"
   },
   "n/eos20261026musksays40billiondebtdealforaichipshasclosedvideo": {
@@ -77,15 +52,20 @@
    "why": "🎯 반도체 칸·🇰🇷 한국 가설 — 한은 「美 AI 투자 둔화 시 반도체 수출 최대 1,000억$ 감소」 최악 시나리오: 슈퍼위크 실적 앞 하방 기준선",
    "at": "2026-10-26 17:35"
   },
-  "n/uslistedbraziliansharesslumpaftershocklulaelectionwin4971697": {
-   "lv": 1,
-   "why": "브라질 룰라 깜짝 당선 → EWZ 장전 −27%·헤알 선물 5.60(−10%) = 신흥국 칸(EEM 비교) 위험 회피 전염 여부, 오늘 밤 美 개장 확인",
-   "at": "2026-10-26 18:35"
-  },
   "n/ancurrentlevelssaysmorganstanley1f387f16modmw_rss_topstories": {
    "lv": 1,
    "why": "모건스탠리 '반도체 지지선 지금보다 최대 15% 아래' — 삼전·하닉 실적 주(슈퍼위크) 반도체 킥 진입 미루기 아이디어 근거",
    "at": "2026-10-26 18:35"
+  },
+  "n/Q4bUNGWkFPbTM3Z04zLXB2bUdtclBvVmpmQmhqcEloSTJUOHg2ZzRsbEIoc5": {
+   "lv": 1,
+   "why": "美·이란 외교 기대로 유가 하락 — ⚡ CHRD(석유) bets 오늘 美 시가 진입 직전 역풍",
+   "at": "2026-10-26 19:35"
+  },
+  "n/lhMGZtSE82V0pqY0hNbVU5OENNSnhJdTlMTVQyUVhwMGM5ek1TU01MbUgoc5": {
+   "lv": 1,
+   "why": "SK하이닉스 28일 주주환원 발표(특별배당설 부인 아님) — 한국 반도체 가설·코스피 7개월 최저 반등 재료",
+   "at": "2026-10-26 19:35"
   }
  }
 }
