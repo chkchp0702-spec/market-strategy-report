@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "월가, 앤트로픽 상장 신청에 한 달 새 최대 상승 노려 — 필라델피아 반도체 +3%",
+   "url": "https://www.marketscreener.com/news/wall-st-eyes-best-day-in-a-month-as-anthropic-s-ipo-filing-propels-ai-stocks-ce785cdcdc8ff722",
+   "press": "Reuters(MarketScreener)",
+   "at": "2026-10-27 02:35",
+   "why": "🧠 AI 차입·쏠림 가설 — 반등이 반도체·임의소비재에 몰림, 메타 950억$ 공모 발표에도 메타 +0.2%(물량 흡수 1일차 무난)",
+   "summary": "10/26 11:30 ET S&P +0.92%·나스닥 +1.25%·다우 +0.32%, 11개 업종 중 8개 상승. 필라델피아 반도체 +3%↑, 테슬라 +6.3%(바클레이즈 비중확대). 연준 수요일 동결 예상."
+  },
+  {
+   "title": "메타, AI 투자 위해 주식·우선주 350억$ + 최대 600억$ 수시 매각(ATM) — 총 950억$",
+   "url": "https://marketscreener.com/news/top-midday-stories-anthropic-files-with-sec-for-ipo-meta-looking-to-raise-95-billion-from-stock-o-ce785cdcdc8ef227",
+   "press": "MarketScreener",
+   "at": "2026-10-27 02:35",
+   "why": "🧠 AI 차입 가설 — 자금줄이 채권→주식 물량으로 이동, 알파벳 850억$ 공모에 이어 같은 달 두 번째 초대형 주식 공급",
+   "summary": "1차 주식·우선주 350억$, 잠재 ATM 600억$. 올해 AI capex 최대 1,450억$·내년 더 늘어날 전망(6월 FT 보도 당시 −5.5%와 달리 10/26 장중 +0.2%)."
+  },
+  {
    "title": "룰라 당선에 브라질 헤알 8% 넘게 폭락·상파울루 증시 급락",
    "url": "https://en.mercopress.com/2026/10/26/brazil-s-real-plunges-more-than-8-and-s-o-paulo-stocks-slump-after-lula-s-victory",
    "press": "MercoPress",
@@ -623,22 +639,6 @@
    "at": "2026-10-24 14:35",
    "why": "AI 차입 가설 0.88 — 크레딧은 벌어지는데 하이퍼스케일러 수요는 매진, 다음 주 빅테크 실적에서 어느 쪽이 이기나",
    "summary": "AWS 수주잔고 4,960억 달러, 수요가 2027년까지 용량을 웃돈다는 보도. 피드(HANAchina/70944)는 2028년 컴퓨팅도 거의 소진이라 전함. 게시 날짜·원 출처는 미확인."
-  },
-  {
-   "title": "BofA 하트넷 「인플레·금리 부담에 위험회피 구간 임박」",
-   "url": "https://www.roic.ai/news/bofas-hartnett-warns-of-imminent-risk-off-period-as-inflation-yields-bite-10-16-2026",
-   "press": "roic.ai",
-   "at": "2026-10-24 14:35",
-   "why": "위험 회피 국면 판단 — 10/24 피드 「BofA 주식·금리·달러 추가 하락 위험」과 같은 줄기, 지수 킥 보류 근거",
-   "summary": "10/16 BofA 하트넷이 인플레·금리 상승이 위험자산을 누르는 위험회피 구간을 경고. 10/24 BofA는 주식·금리·달러 모두 추가 하락 위험을 지적(피드 제목만 확인, 세부 숫자 미확인)."
-  },
-  {
-   "title": "워싱턴, 사우디 주재 美 대사관 직원 가족 출국 명령",
-   "url": "https://www.al-monitor.com/originals/2026/10/washington-orders-us-embassy-staff-families-leave-saudi-arabia",
-   "press": "Al-Monitor",
-   "at": "2026-10-24 13:35",
-   "why": "⛽ 에너지 칸·브렌트 117$ — 철수 범위가 걸프 전반→사우디로 넓어짐, 후티 공격이 사우디 원유 시설로 번질 위험",
-   "summary": "美, 이란의 미국인 표적 시도·후티 위협으로 중동 대사관 인원 조정(블룸버그 피드). 10/21 걸프 대사관 비필수 인원 출국 예고(로이터) 뒤 사우디 가족 전원 출국으로 확대. 세부 인원·날짜는 원문 확인 필요."
   }
  ],
  "at": "2026-10-27 01:35"
