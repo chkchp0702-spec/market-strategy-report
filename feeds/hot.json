@@ -1,5 +1,5 @@
 {
- "at": "2026-10-26 23:35",
+ "at": "2026-10-27 00:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7744": {
@@ -37,11 +37,6 @@
    "why": "AI 차입 가설(0.88) — 정크 공급 2조$로 위험 차입자 조달 비용 상승, 네오클라우드 쪽 스트레스 줄기",
    "at": "2026-10-26 16:35"
   },
-  "n/eos20261026musksays40billiondebtdealforaichipshasclosedvideo": {
-   "lv": 1,
-   "why": "🧠 AI 차입 가설(0.88)의 반대 근거 — 머스크 「스페이스X 400억$ AI 칩 차입 완료」(소식통: 가격 협상 진행 중): 우량 차입자는 조달 가능, 네오클라우드와 차별화",
-   "at": "2026-10-26 17:35"
-  },
   "n/httpswwwmkcokrnewsbusiness12185966": {
    "lv": 1,
    "why": "🎯 반도체 칸·🇰🇷 한국 가설 — 한은 「美 AI 투자 둔화 시 반도체 수출 최대 1,000억$ 감소」 최악 시나리오: 슈퍼위크 실적 앞 하방 기준선",
@@ -57,25 +52,20 @@
    "why": "SK하이닉스 28일 주주환원 발표(특별배당설 부인 아님) — 한국 반도체 가설·코스피 7개월 최저 반등 재료",
    "at": "2026-10-26 19:35"
   },
-  "n/oldmanjustslasheditsforecastby25ccfe2690modmw_rss_topstories": {
-   "lv": 1,
-   "why": "골드만 코스피 12개월 목표 25% 하향 — 「한국 비중 확대 금지」 가설(0.80) 보강 · 한국 칸",
-   "at": "2026-10-26 20:35"
-  },
-  "n/s20261026hsbcsmaxkettnerendsbullishstockscallaheadofmidterms": {
-   "lv": 1,
-   "why": "HSBC 케트너 FOMC·중간선거 앞 주식 강세 의견 철회 — 위험 회피 국면·AI 차입 가설 쪽 근거(전략가 전환)",
-   "at": "2026-10-26 21:35"
-  },
   "n/ThneHdTNWhRNHFQbHdWWVNSckJFalJuZnhiVERRSUhwVE02YmdrWFdmOAoc5": {
    "lv": 1,
    "why": "🧠 AI 차입 가설(0.88) — 앤트로픽 S-1 공개(상반기 매출 163억$·비현금 손실 807억$): 메타 950억$ 공모에 이어 AI 주식 공급 물량이 같은 주에 겹침",
    "at": "2026-10-26 22:35"
   },
-  "n/sthepriceofinsuringcoreweavesdebtdoubles140909005htmltsrcrss": {
+  "n/lRnMxaUFfcVIyQmVuYXVPVGROeEk4akxUbmxKcElHUXU4eE42TFBwdkVjoc5": {
    "lv": 1,
-   "why": "AI 차입 가설(0.88) 직격 숫자 — 코어위브 부도보험료 2배·AI 임대주 1년여 최저",
-   "at": "2026-10-26 23:35"
+   "why": "AI 반도체 2곳이 미 이익 증가의 34% — 지수 반등의 폭이 좁다, 🧠 AI 차입·쏠림 가설과 반도체 칸 축소 판단에 직결",
+   "at": "2026-10-27 00:35"
+  },
+  "n/deos20261026claudiasahmmakescaseforanoctoberfedratehikevideo": {
+   "lv": 1,
+   "why": "샴 「10월 인상 논거」 — 29일 새벽 FOMC 깜짝 인상 꼬리 위험, 고금리 정점 가설·단기채 칸 점검",
+   "at": "2026-10-27 00:35"
   }
  }
 }
