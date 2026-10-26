@@ -4490,6 +4490,15 @@
 "d": "2026-10-25",
 "src": "whale",
 "score": 40
+},
+"7459.T|2026-10-26": {
+"code": "7459.T",
+"name": "MEDIPAL HOLDINGS CORP",
+"mkt": "JP",
+"d": "2026-10-26",
+"src": "cup_eye",
+"score": 66.4,
+"lv": 3185.18
 }
 },
 "sent": [
