@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "브렌트유 116달러 돌파, 6개월 최고 — 중동 긴장·사우디 공격",
+   "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
+   "press": "CNBC",
+   "at": "2026-10-26 10:35",
+   "why": "⛽ 에너지 칸·CHRD bet(☕ 컵) — 유가 레벨이 bet 논지(브렌트 105 아래 종가면 약화)의 기준",
+   "summary": "10/23 브렌트 116달러대 6개월 최고(장중 116.72·일부 117 보도). 26일 아시아장에서는 6개월 고점에서 되밀림(investing 피드)."
+  },
+  {
+   "title": "트럼프, 이란 추가 공습 시사 — 유가 6개월 최고",
+   "url": "https://en.sedaily.com/finance/2026/10/24/trump-floats-new-strike-on-iran-as-oil-hits-6-month-high",
+   "press": "서울경제(영문)",
+   "at": "2026-10-26 10:35",
+   "why": "🛡 지정학·코스피 — 「결정 임박」 발언이 FOMC·실적 슈퍼위크와 겹쳐 위험 회피 국면 연장 요인",
+   "summary": "트럼프 이란 결정 임박·공습 언급, 유가 6개월 최고. 26일 코스피 5,500 하회 출발의 직접 배경으로 거론(gn_kr_mkt)."
+  },
+  {
    "title": "골드만 「엔화가 AI 시장 충격의 더 나은 헤지로」",
    "url": "https://www.bloomberg.com/news/articles/2026-10-25/goldman-says-yen-becoming-better-hedge-against-ai-market-shock",
    "press": "Bloomberg",
@@ -623,22 +639,6 @@
    "at": "2026-10-23 17:35",
    "why": "오늘 피드 '메타 AI 지출 목표 재상향·현금흐름 마이너스' 와 이어짐 — AI 돈줄 가설",
    "summary": "10/16 글. 메타 설비투자가 영업현금흐름을 넘을 때의 주가 시나리오 분석 — 세부 숫자 미확인."
-  },
-  {
-   "title": "골드만 「호르무즈 봉쇄 한 달 더 가면 브렌트 2026년 내내 100$ 위」",
-   "url": "https://finance.yahoo.com/sectors/energy/articles/brent-stay-above-100-2026-003121731.html",
-   "press": "Yahoo Finance",
-   "at": "2026-10-23 17:35",
-   "why": "브렌트 114$ 돌파(오늘 피드) — 열린 CNQ bet·PR ☕ 눈 신호 판단 기준",
-   "summary": "골드만: 봉쇄 장기화 시 브렌트 100$ 이상 유지 전망. 게재일 미확인(오늘 기사 아닐 수 있음)."
-  },
-  {
-   "title": "삼성전기·엔비디아 'AI반도체 찐깐부'… 세종 기판 4.27조 증설, 엔비디아향 두 자릿수 성장",
-   "url": "https://www.fnnews.com/news/202610212125097209",
-   "press": "파이낸셜뉴스",
-   "at": "2026-10-23 16:35",
-   "why": "오늘 「삼성전기 테슬라·엔비디아 3.7조 투자」(thebell) 배경 — AI 기판(FC-BGA) 실수요, AI 차입 가설의 반대편(돈 버는 쪽 부품)",
-   "summary": "9/28 세종사업장 4조2,700억원 투자, 2028년 5월 증설 완료·9월 양산 목표 · 패키지솔루션 2Q 매출 7,716억원(+37% YoY) · 엔비디아향 기판 다년간 연평균 두 자릿수 성장 전망"
   }
  ],
  "at": "2026-10-26 09:35"
