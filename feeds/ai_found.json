@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "골드만 「엔화가 AI 시장 충격의 더 나은 헤지로」",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/goldman-says-yen-becoming-better-hedge-against-ai-market-shock",
+   "press": "Bloomberg",
+   "at": "2026-10-26 09:35",
+   "why": "💼 포트 헤지 — AI 차입 가설(0.88) 위험 대비 수단으로 엔화 롱 검토 근거, 금 칸과 비교",
+   "summary": "골드만, AI 관련 매도 국면에서 엔화의 헤지 성격이 강해지고 있다고 평가(구체 숫자 미확인, 피드 제목 기준)."
+  },
+  {
    "title": "프랑스 국채 매도세 진정 — 독일과 금리차 축소",
    "url": "https://tradingeconomics.com/france/government-bond-yield/news/589851",
    "press": "Trading Economics",
@@ -631,15 +639,7 @@
    "at": "2026-10-23 16:35",
    "why": "오늘 「삼성전기 테슬라·엔비디아 3.7조 투자」(thebell) 배경 — AI 기판(FC-BGA) 실수요, AI 차입 가설의 반대편(돈 버는 쪽 부품)",
    "summary": "9/28 세종사업장 4조2,700억원 투자, 2028년 5월 증설 완료·9월 양산 목표 · 패키지솔루션 2Q 매출 7,716억원(+37% YoY) · 엔비디아향 기판 다년간 연평균 두 자릿수 성장 전망"
-  },
-  {
-   "title": "Samsung Electro-Mechanics, Nvidia expand dedicated AI substrate fabs with joint investment",
-   "url": "https://www.digitaltoday.co.kr/en/view/117830/samsung-electro-mechanics-nvidia-expand-dedicated-ai-substrate-fabs-with-joint-investment",
-   "press": "Digital Today",
-   "at": "2026-10-23 16:35",
-   "why": "엔비디아가 부품사 증설에 직접 돈을 넣음 — 칩 사이클 조정 속 공급망 확보 경쟁, 7일 신호 종목 아님(관찰)",
-   "summary": "10/21 발표 · 세종·부산 AI 기판 라인 엔비디아 칩셋·네트워크 스위치용 전용 증설 · 2026년부터 물량 연 두 자릿수↑, 2028년 생산능력 상당 비중(투자액은 기사에 없음)"
   }
  ],
- "at": "2026-10-26 08:35"
+ "at": "2026-10-26 09:35"
 }
