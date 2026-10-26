@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "모건스탠리, 록히드마틴 '비중확대' 상향 — F-35 새 국방부 계약 뒤 약 40% 상승 여력",
+   "url": "https://www.cnbc.com/2026/10/26/lockheed-martin-will-surge-nearly-40percent-after-new-pentagon-deal-says-morgan-stanley.html",
+   "press": "CNBC",
+   "at": "2026-10-26 21:35",
+   "why": "방산 대형주에 IB 등급 상향 — 신호 종목 CACI(방산 IT)와 같은 국방 예산 축, 아직 우리 신호는 LMT 자체엔 없음(관찰)",
+   "summary": "모건스탠리가 F-35 계약을 근거로 LMT 투자의견을 비중확대로 올리고 약 40% 상승 여력 제시. 수주잔고 사상 최대가 근거(stocktwits)."
+  },
+  {
+   "title": "월요일 월가 주요 리서치 콜 — 록히드·넷앱·스포티파이·루멘텀 등",
+   "url": "https://247wallst.com/investing/2026/10/26/here-are-mondays-top-wall-street-analyst-research-calls-block-boise-cascade-equifax-firstenergy-lockheed-martin-lumentum-holdings-netapp-roper-technologies-spotify-technology-and-m/",
+   "press": "24/7 Wall St.",
+   "at": "2026-10-26 21:35",
+   "why": "kick_cands 신호 종목 NTAP·SPOT 이 오늘 IB 콜 목록에 함께 등장 — 신호+리서치 겹침 확인용",
+   "summary": "10/26 IB 콜 목록에 NetApp·Spotify 포함(방향 세부는 원문 확인). 같은 날 LMT 상향."
+  },
+  {
    "title": "골드만삭스, 코스피 12개월 목표 25% 하향 — AI 매매 되돌림",
    "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-cuts-kospi-12-month-074443032.html",
    "press": "Bloomberg(Yahoo)",
@@ -623,22 +639,6 @@
    "at": "2026-10-24 05:35",
    "why": "고금리 정점 가설(0.45)·현금/단기채 칸 us10y 조건과 직결",
    "summary": "10년물 5% 부근 공방 — 장 후반 CNBC 시세 5.001%(전일 4.953). 이틀 연속 5% 하회 조건 미충족."
-  },
-  {
-   "title": "오늘의 증시(10/23): 기술주 매도 뒤 다우 급락 — 이란 「걸프 7개국 석유·데이터센터·AI 시설 타격」 위협",
-   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-23-2026",
-   "press": "TheStreet",
-   "at": "2026-10-24 04:35",
-   "why": "이란이 걸프 데이터센터·AI 시설까지 표적으로 거론 — 유가(에너지 ☕ 눈)와 AI 인프라(AI 차입 가설) 양쪽 위험이 한 사건에 묶임",
-   "summary": "브렌트 116$↑(4월 이후 최고, 14:51 ET)·WTI 103$↑. 美·이스라엘 중간선거 뒤 추가 공습 검토 보도. 크라운캐슬 +11.7%(스페이스X 기지국 임차설)·아멕스 −2.9%(인력 5% 감축)·볼보카 −24%."
-  },
-  {
-   "title": "AP: 유가 상승 압박에 월가 대체로 하락 — S&P 2주 연속 주간 하락 길",
-   "url": "https://www.2news.com/news/national/wall-street-mostly-loses-ground-under-pressure-from-rising-oil-prices/article_988f2ae8-5099-5ef8-a4ca-3f259ee60dbb.html",
-   "press": "AP",
-   "at": "2026-10-24 04:35",
-   "why": "에너지주만 오르고 금융·경기민감주가 빠지는 그림 — 위험 회피 국면의 업종 정합(에너지↑·은행↓) 확인",
-   "summary": "13:52 ET S&P −0.4%·다우 −591P(−1.1%)·나스닥 −0.1%. 코노코 +3.8%·셰브론 +2.4%·마이크론 +3.4% / 아멕스 −3.7%·캐터필러 −2.4%·JPM −1.5%. 10년 4.99%."
   }
  ],
  "at": "2026-10-26 20:35"
