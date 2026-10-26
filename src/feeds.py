@@ -263,7 +263,13 @@ def _get_feed(url: str) -> str:
 
 
 def rss(url: str, n: int = 30) -> list[dict]:
-    root = ET.fromstring(_get_feed(url).encode("utf-8"))
+    x = _get_feed(url)
+    try:
+        root = ET.fromstring(x.encode("utf-8"))
+    except ET.ParseError:                         # 🔧 10/26 빙 한글·홍콩 RSS 의 제어문자·맨 & → 「not well-formed」
+        x = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\ufffe\uffff]", "", x)
+        x = re.sub(r"&(?!#?\w+;)", "&amp;", x)
+        root = ET.fromstring(x.encode("utf-8"))
     out = []
     for it in list(root.iter("item"))[:n]:
         link = (it.findtext("link") or "").strip()
