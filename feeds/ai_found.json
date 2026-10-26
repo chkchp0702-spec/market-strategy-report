@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "버라이즌 3분기 — 연간 전망 상향·AI 인프라(광섬유) 계약 확대",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000732712/000073271226000049/a2026q3exhibit99.htm",
+   "press": "SEC 8-K",
+   "at": "2026-10-27 07:35",
+   "why": "AI 자금이 통신망(광섬유)까지 번짐 — 10/26 통신장비 업종 +3.7% 주도와 이어짐, 반도체 밖 AI 인프라 수혜 확인",
+   "summary": "10/26 실적 발표: 연간 전망 상향, 하이퍼스케일러(구글·AWS)와 AI 데이터센터 광섬유 계약 체결(cnbc_top 「20억$ 이상」). 세부 숫자는 원문 확인."
+  },
+  {
+   "title": "스페이스X, 아폴로 주도 400억$ 빚으로 엔비디아 칩 구매 — 핌코 40억$ 인수",
+   "url": "https://fourweekmba.com/ai-spacex-seeks-40b-debt-for-nvidia-chips-more-than-it-owes/",
+   "press": "FourWeekMBA",
+   "at": "2026-10-27 07:35",
+   "why": "AI 차입 가설 — 칩 구매를 빚으로 하는 사슬이 브로드컴(630억$)·메타(공모)·스페이스X로 넓어짐, 핌코 인수는 수요가 아직 강하다는 반대 근거",
+   "summary": "아폴로 주도 400억$(약 300억$ 투자등급), 기존 부채보다 많은 규모. 10/26 bbg: 핌코가 그중 40억$ 인수."
+  },
+  {
    "title": "SK하이닉스, 28일 3분기 실적과 함께 추가 주주환원 방안 공개 예정",
    "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1427794",
    "press": "코리안센터(연합 인용)",
@@ -623,22 +639,6 @@
    "at": "2026-10-25 13:02",
    "why": "반도체 칸·AI 차입 가설 — 메모리 2027 물량·가격이 장기계약으로 잠겼다는 IB 판단, 위험 요인은 자금조달 시장 폐쇄",
    "summary": "AI 군비 경쟁 지속 확률 약 75% · 2027년 메모리 공급·가격은 장기계약으로 사실상 확정 · 전력 부족은 배치 지연 요인이나 장기 수요 불변(하나증권 텔레그램 요약 경유, 원문 직접 확인 못 함)"
-  },
-  {
-   "title": "골드만삭스 「AI 저가 매수 기회 잡아라」",
-   "url": "https://gulfnews.com/your-money/saving-investment/seize-buy-the-dip-opportunity-in-ai-goldman-sachs-urges-investors-1.500117470",
-   "press": "Gulf News",
-   "at": "2026-10-25 12:35",
-   "why": "AI 차입 가설·반도체 킥 — 헤지펀드 매도 뒤 IB 쪽 첫 매수 톤 (피드 gn_us_ib 와 같은 줄기)",
-   "summary": "골드만, 헤지펀드 기록적 AI 매도 뒤 선별적 AI 비중을 권고하되 확신은 제한적. 보도 날짜·세부 숫자 미확인."
-  },
-  {
-   "title": "브라질 결선 직전 여론조사 — 보우소나루, 룰라에 우위 유지",
-   "url": "https://www.aljazeera.com/news/2026/10/16/latest-poll-shows-bolsonaro-maintaining-edge-over-lula-in-brazil-run-off",
-   "press": "Al Jazeera",
-   "at": "2026-10-25 11:35",
-   "why": "🌏 신흥국·원자재 — 오늘(10/25) 브라질 결선: 정권 교체 시 헤알·브라질 증시(EWZ)·원자재 신흥국 위험선호 월요일 갭 변수",
-   "summary": "10/16 조사 기준 보우소나루가 룰라에 근소 우위(바론스 「최종 여론조사도 우위」 10/24). 9월엔 46:45 접전 — 결과 방향은 미확인."
   }
  ],
  "at": "2026-10-27 06:35"
