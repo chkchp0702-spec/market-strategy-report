@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 전환사채 발행 2026년 1,310억$ 사상 최대 — AI 지출이 자본시장 빨아들여",
+   "url": "https://www.kucoin.com/news/flash/us-convertible-bond-sales-hit-131b-record-in-2026-driven-by-ai-spending",
+   "press": "KuCoin News",
+   "at": "2026-10-27 04:35",
+   "why": "🧠 AI 차입 가설(0.90) — 투자등급 회사채 사상 최대(bbg 10/26)와 함께 전환사채까지 기록: AI 빚이 채권·주식 연계 상품으로 번지는 중",
+   "summary": "美 전환사채 발행 2026년 누적 1,310억$로 연간 최대(제목 기준, 집계 시점 미확인). 같은 날 bbg 「AI 자금 수요에 투자등급 회사채 발행 연간 최대」."
+  },
+  {
+   "title": "메타 FWP(자유서식 투자설명서) — 대형 주식 공모 조건 공시",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000119312526431036/d116268dfwp.htm",
+   "press": "SEC EDGAR",
+   "at": "2026-10-27 04:35",
+   "why": "🧠 AI 차입 가설 — 메타 공모에 엔비디아·AMD·브로드컴 참여 가능(MarketWatch 피드) = 공급사가 고객 주식을 사 주는 순환 자금 구조 점검용 원문",
+   "summary": "메타 2026 회계연도 FWP 공시(세부 금액·참여자 이 세션 미확인). MarketWatch: 350억$ 공모에 엔비디아·AMD·브로드컴이 살 수도."
+  },
+  {
    "title": "다우 200포인트 상승 — 유가 하락·반도체 랠리, FOMC 앞두고",
    "url": "https://qz.com/dow-oil-chip-stocks-fed-anthropic-ipo-102626",
    "press": "Quartz",
@@ -623,23 +639,7 @@
    "at": "2026-10-24 21:35",
    "why": "AI 차입(크레딧) 가설 0.88 근거 — 정크 AI 데이터센터 채권 20개 중 7개가 코어위브 단일 임차, 네오클라우드 급락과 직결",
    "summary": "GSUCHS30 올해 최대폭 · 비슷한 수준일 때 관련 주가 지금보다 약 15% 낮았음 · AI 수혜 바스켓 6월 고점 대비 −25% · S&P500 ex-AI 10/6 이후 +586bp 상대 강세 · 하이퍼스케일러 캐펙스 증가율 3Q 116% 정점→27년 말 20% 예상"
-  },
-  {
-   "title": "스페이스X, 엔비디아 칩 구매용 400억달러 차입 추진(아폴로 주관) — 10/24 블룸버그 「조달 난항」 후속 보도",
-   "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/07/spacex-seeks-us40-billion-financing-to-buy-nvidia-chips-sources-say/",
-   "press": "BNN Bloomberg",
-   "at": "2026-10-24 17:35",
-   "why": "AI 차입 가설 0.88 — 비상장 AI 대형 차입이 막히면 엔비디아 수요·사모신용(BDC) 스트레스로 번지는 경로",
-   "summary": "10/7: 스페이스X가 아폴로 주관으로 400억$ 차입해 엔비디아 칩 구매 추진. 10/24 블룸버그(피드 gn_kr_bbg): 자금 조달 난항. 난항의 구체 숫자(금리·참여사)는 미확인."
-  },
-  {
-   "title": "이란 혁명수비대 「초대형 유조선 2척 호르무즈서 기뢰 충돌」",
-   "url": "https://www.anews.com.tr/middle-east/2026/10/24/irans-revolutionary-guards-say-2-supertankers-hit-naval-mines-in-strait-of-hormuz",
-   "press": "A News(IRNA 인용)",
-   "at": "2026-10-24 16:35",
-   "why": "⛽ 에너지 칸·브렌트 117$ — 금요일 미국 마감 뒤 나온 재료라 월요일 갭 위험(추격 금지 규칙 적용)",
-   "summary": "IRGC 해군: 금요일(10/23) 「허가 안 된 남쪽 항로」 쓰던 VLCC 2척이 기뢰에 맞아 기관실 화재·좌초, 원유 합계 450만 배럴↑·선원 대피. 선박명·국적·독립 확인 없음."
   }
  ],
- "at": "2026-10-27 01:35"
+ "at": "2026-10-27 04:35"
 }
