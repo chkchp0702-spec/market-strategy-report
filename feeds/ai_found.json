@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "프랑스 국채 시장 10월 — 금리·OAT-분트 스프레드 점검",
+   "url": "https://serrarigroup.com/analyst-desk/global-markets/france-bond-market-october-2026",
+   "press": "Serrari Group",
+   "at": "2026-10-26 14:35",
+   "why": "열린 bet EWQ(프랑스 ETF)와 유럽 금리 — 국채 매도가 주식 할인율로 번지는지",
+   "summary": "블룸버그 「프랑스 국채 매도, ECB 후임 구도의 위기」와 같은 줄기. 스프레드 수치는 미확인."
+  },
+  {
+   "title": "프랑스 국채 금리 24년 만의 고점 근처",
+   "url": "https://tradingeconomics.com/france/government-bond-yield/news/593451",
+   "press": "Trading Economics",
+   "at": "2026-10-26 14:35",
+   "why": "EWQ bet·유럽 칸 — 국가 위험 프리미엄 확대 확인용",
+   "summary": "제목 기준 프랑스 10년물 24년 고점 부근. 정확한 수치·날짜는 미확인."
+  },
+  {
    "title": "SpaceX, 엔비디아 칩 구매 위해 400억달러 차입 추진 — 아폴로 주도(FT 보도)",
    "url": "https://investinglive.com/stocks/spacex-seeks-40-billion-in-debt-led-by-apollo-to-fund-nvidia-chip-order-ft-says/",
    "press": "investingLive(FT 인용)",
@@ -623,22 +639,6 @@
    "at": "2026-10-23 21:35",
    "why": "타워 리츠 재평가 촉매 — 고금리(10년 5%)에 눌린 리츠 중 사업 촉매가 붙은 예외",
    "summary": "스페이스X 80억$ 주파수 매입 → 지상 기지국 구축 시 타워 임차 수요 · CCI 장중 +13% 기록(날짜 확인 필요)"
-  },
-  {
-   "title": "무디스, 10/23(금) 장 마감 뒤 프랑스 등급 판정 예정",
-   "url": "https://selectra.info/finance/actualites/marche/moody-note-france-23-octobre-credit-immobilier",
-   "press": "Selectra",
-   "at": "2026-10-23 20:35",
-   "why": "열린 EWQ(프랑스) bet — 결과가 주말 사이 나와 월요일 갭으로 반영, 손절 39.99 무력 가능",
-   "summary": "무디스 프랑스(Aa3·부정적 전망) 정기 검토가 10/23 예정. 프랑스-독일 10년 금리차 2011년 이후 최고(피드)라 강등 또는 전망 유지 갈림길."
-  },
-  {
-   "title": "SLB 3분기 이익 예상 상회 — 북미 수요 반등",
-   "url": "https://www.itiger.com/hans/news/1158732999",
-   "press": "Tiger Brokers",
-   "at": "2026-10-23 20:35",
-   "why": "에너지 칸·열린 CNQ bet·☕ 눈 PR·PAGP(10/22) — 유전 서비스 대장 실적이 업스트림 투자 회복을 확인",
-   "summary": "SLB 3분기 이익 예상 상회, 전 지역 고른 성장(investing_kr). 북미 수요 반등 언급. 장중 주가 반응은 미확인."
   }
  ],
  "at": "2026-10-26 13:35"
