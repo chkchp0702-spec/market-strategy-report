@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "룰라 깜짝 재선에 브라질 시장 투매 — 일본 상장 브라질 ETF 장중 −16%",
+   "url": "https://www.businesstoday.in/markets/stocks/story/brazil-markets-face-sell-off-as-lula-stuns-investors-with-election-win-563551-2026-10-26",
+   "press": "Business Today",
+   "at": "2026-10-26 18:35",
+   "why": "신흥국 칸(EEM)·위험 선호 판단 — 정치 쇼크 국가 ETF 갭 되돌림 관찰 대상",
+   "summary": "룰라 51.8% vs 플라비우 보우소나루 48.2%(선관위). CME 헤알 파생상품은 달러당 5.60(금요일 대비 −10%↑) 시사, 일본 상장 브라질 ETF 장중 −16%(2020년 이후 최대)."
+  },
+  {
+   "title": "룰라 승리로 헤알 선물 10% 급락 — USD/BRL 주목",
+   "url": "https://www.ebc.com/forex/brazilian-real-lula-election-usd-brl-2026",
+   "press": "EBC",
+   "at": "2026-10-26 18:35",
+   "why": "원/달러 1,323 원화 강세와 대비 — 신흥국 통화 차별화(한국은 금리·수급, 브라질은 정치)",
+   "summary": "헤알 선물 −10% 보도(세부 숫자 미확인, Business Today 의 CME 5.60과 같은 방향). 투자닷컴 기준 05:10 ET 장전 PBR −22%·ITUB/BBD/NU −23~29%·EWZ −27%."
+  },
+  {
    "title": "엔비디아 지원 Firmus IPO 철회 — AI 자금 조달 경고 신호",
    "url": "https://news.bgov.com/crypto/nvidia-backed-ipos-cratering-demand-sends-warning-on-ai-funding",
    "press": "Bloomberg Government",
@@ -623,22 +639,6 @@
    "at": "2026-10-24 01:35",
    "why": "위험 회피 국면 판단·주식 비중 칸 — 월가 양쪽 견해가 갈림, 연준 결정 며칠 앞",
    "summary": "10/23 10:48 ET: S&P −0.2%·나스닥100 +0.5%·다우 −1.2%, 10년 4.99%(+4bp), WTI 102.32$(+2.9%)·브렌트 116$↑, 금 4,004$(−0.5%). 중동 폭력 재점화로 공급 우려."
-  },
-  {
-   "title": "JP모건: 리테일은 AI 매도 속 반도체·클라우드 매수 — 헤지펀드 노출 축소로 「하방 좁아져」(바닥은 아님)",
-   "url": "https://www.kucoin.com/news/flash/retail-investors-add-to-ai-stocks-amid-market-sell-off-jpmorgan-notes-narrowing-downside",
-   "press": "KuCoin(JPM 파니기르치오글루 인용)",
-   "at": "2026-10-24 01:35",
-   "why": "AI 차입 가설·반도체 칸 7% — 디레버리징 뒤 강제 매도 여력 축소, 반등 조건 감시",
-   "summary": "10/15~21 리테일 기술주 매수 7월 이후 최고(샌디스크·TSMC·네비우스 상위), 기술 ETF 주간 유입 역대 2위·10/16 일일 기록. 단 AI 수익성·자금조달 위험으로 바닥 신호는 아니라고."
-  },
-  {
-   "title": "후티, 사우디 얀부 아람코 시설 48시간 공격 주장 — 10/22 필라델피아 반도체 −6.72%·메타 약정 8,250억$",
-   "url": "https://www.techflowpost.com/en-US/article/34804",
-   "press": "TechFlow",
-   "at": "2026-10-24 01:35",
-   "why": "에너지 칸·CNQ bet 순풍(공급 위험) / 반도체 칸 −6.7% 하루 충격 확인",
-   "summary": "사우디는 피해 미확인, 아람코 일부 직원 원격근무. 10/22 마감 S&P −1.21%·나스닥 −2.60%·SOX −6.72%, 브렌트 113.17$(+4%). 메타 장기 약정 7,000억→8,250억$, 주가 −6.98%."
   }
  ],
  "at": "2026-10-26 16:35"
