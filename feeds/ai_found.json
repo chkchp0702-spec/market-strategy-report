@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "룰라 당선에 브라질 헤알 8% 넘게 폭락·상파울루 증시 급락",
+   "url": "https://en.mercopress.com/2026/10/26/brazil-s-real-plunges-more-than-8-and-s-o-paulo-stocks-slump-after-lula-s-victory",
+   "press": "MercoPress",
+   "at": "2026-10-27 01:35",
+   "why": "거시 위험 회피 — 시장이 반대 결과에 쏠린 선거 이벤트의 충격 크기(신흥국 칸·달러 강세)",
+   "summary": "달러/헤알 +8.64% 5.42로 출발(1999년 이후 최대 하락), 보베스파 선물 −15% 서킷브레이커·변동폭 20%로 확대, 재무부 10/27~29 국채 입찰 취소. 씨티 설문 매니저 80%가 룰라 승리 시 5%↑ 하락 예상."
+  },
+  {
+   "title": "브라질 증시·헤알, 선거 이변에 급락",
+   "url": "https://www.marketscreener.com/news/brazilian-stocks-real-fall-sharply-after-surprise-election-outcome-update-ce785cdcdd80ff27",
+   "press": "MarketScreener(다우존스)",
+   "at": "2026-10-27 01:35",
+   "why": "신흥국 쏠림 포지션 청산 — 같은 날 브라질 60억$ 주식 발행 무산(bbg)",
+   "summary": "선거 이변 뒤 브라질 주식·헤알 동반 급락. 세부 숫자는 원문 확인(미확인)."
+  },
+  {
    "title": "앤트로픽 상장 신청, AI 투자 붐을 시험대에 올린다",
    "url": "https://money.usnews.com/investing/news/articles/2026-10-26/anthropic-ipo-filing-to-put-ai-investment-boom-to-the-test",
    "press": "US News(로이터)",
@@ -623,23 +639,7 @@
    "at": "2026-10-24 13:35",
    "why": "⛽ 에너지 칸·브렌트 117$ — 철수 범위가 걸프 전반→사우디로 넓어짐, 후티 공격이 사우디 원유 시설로 번질 위험",
    "summary": "美, 이란의 미국인 표적 시도·후티 위협으로 중동 대사관 인원 조정(블룸버그 피드). 10/21 걸프 대사관 비필수 인원 출국 예고(로이터) 뒤 사우디 가족 전원 출국으로 확대. 세부 인원·날짜는 원문 확인 필요."
-  },
-  {
-   "title": "호르무즈 유조선 공격, 이란 전쟁 시작 이후 주간 최다 (로이터 인용)",
-   "url": "https://gcaptain.com/attacks-on-tankers-in-hormuz-hit-highest-of-any-week-since-start-of-iran-war-sources-say/",
-   "press": "gCaptain(로이터)",
-   "at": "2026-10-24 12:35",
-   "why": "⛽ 에너지 칸·브렌트 117$ — 러·우 휴전 하방 재료보다 해상 공급 차질이 더 크다는 근거",
-   "summary": "이란 전쟁 이후 어느 주보다 호르무즈 유조선 공격이 많았다는 소식통 인용. 세부 건수는 원문 확인 필요(미확인)."
-  },
-  {
-   "title": "한은, 동결 뒤에도 11월 인상 가능성 열려 있어",
-   "url": "https://www.koreatimes.co.kr/economy/20261019/bok-poised-to-hold-rates-as-november-hike-remains-in-view",
-   "press": "Korea Times",
-   "at": "2026-10-24 12:35",
-   "why": "🇰🇷 한국 칸 — 긴축 장기화(모건스탠리 11월 인상·내년 1Q 3.5% 전망과 같은 방향), 국내 킥 크기 판단",
-   "summary": "10월 동결 예상 속 11월 인상 여지 유지. 피드: 모건스탠리 「11월 인상·내년 1분기 연 3.5%」(gn_kr_bok)."
   }
  ],
- "at": "2026-10-26 23:35"
+ "at": "2026-10-27 01:35"
 }
