@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아 지원 Firmus IPO 철회 — AI 자금 조달 경고 신호",
+   "url": "https://news.bgov.com/crypto/nvidia-backed-ipos-cratering-demand-sends-warning-on-ai-funding",
+   "press": "Bloomberg Government",
+   "at": "2026-10-26 17:35",
+   "why": "🧠 AI 차입 가설 — 솔리다임 상장 철회(kimu_nim/47320)와 같은 줄기: AI 인프라 주식 조달 창구도 좁아짐",
+   "summary": "엔비디아가 투자한 AI 데이터센터 업체 Firmus 의 IPO 철회 보도. 게재 날짜·규모는 미확인."
+  },
+  {
+   "title": "브렌트유 3거래일 연속 하락",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil/news/578050",
+   "press": "Trading Economics",
+   "at": "2026-10-26 17:35",
+   "why": "⛽ 에너지 칸·CHRD bet(☕ 컵, 오늘 美 시가 진입 대기) — 카타르 중재 진전에 유가 되밀림, 진입가·논지 확인용",
+   "summary": "브렌트 3일 연속 하락 보도. 정확한 날짜·가격은 페이지에서 미확인(피드 FT: 금요일 117$ → 2$↓)."
+  },
+  {
    "title": "도이체방크, 미국 채권 전체를 지도로 그려 「AI 신용이 갈라지는 곳」 지목",
    "url": "https://cryptobriefing.com/deutsche-bank-us-bonds-ai-credit-stress/",
    "press": "Crypto Briefing(도이체방크 보고서 인용)",
@@ -623,22 +639,6 @@
    "at": "2026-10-24 01:35",
    "why": "에너지 칸·CNQ bet 순풍(공급 위험) / 반도체 칸 −6.7% 하루 충격 확인",
    "summary": "사우디는 피해 미확인, 아람코 일부 직원 원격근무. 10/22 마감 S&P −1.21%·나스닥 −2.60%·SOX −6.72%, 브렌트 113.17$(+4%). 메타 장기 약정 7,000억→8,250억$, 주가 −6.98%."
-  },
-  {
-   "title": "헤지펀드, 코로나 이후 최대 일일 손실 — AI 주식 급락 속 디레버리징",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/hedge-funds-log-widest-daily-drawdown-since-covid-in-stock-rout",
-   "press": "Bloomberg",
-   "at": "2026-10-24 00:35",
-   "why": "혼잡 롱(AI) 강제 청산 국면 — 공매도 5년래 최고와 겹쳐 FOMC·빅테크 실적 뒤 숏커버 반등 위험, 내림 bets 금지·킥 크기 보수 근거",
-   "summary": "헤지펀드 일일 손실 폭 코로나(2020) 이후 최대. 나스닥은 6월 이후 최악의 날(10/22) 뒤 10/23 장중 +0.2%로 버팀, 다우는 유가에 −1%."
-  },
-  {
-   "title": "메타 CDS 114.79bp 사상 최고 — AI 지출 경계",
-   "url": "https://shattered.io/meta-credit-risk-record-high-ai-spending-cds-2026/",
-   "press": "shattered.io",
-   "at": "2026-10-24 00:35",
-   "why": "AI 차입(크레딧) 가설 0.88 직접 숫자 — 메타 주가 −7%(648.85$)와 동시, 빅테크 FCF 마이너스 클럽 합류",
-   "summary": "메타 5년 CDS 114.79bp 사상 최고(출처 1곳, 교차 확인은 reuters 「default insurance hits record」). 메타 10/23 −7.0% 648.85$(heygotrade)."
   }
  ],
  "at": "2026-10-26 16:35"
