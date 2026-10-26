@@ -11,6 +11,7 @@ import html
 import json
 import re
 import sys
+import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
@@ -230,11 +231,44 @@ def tg(ch: str, pages: int = 3) -> list[dict]:
     return out
 
 
+def bing_of(gn_url: str) -> str:
+    """🔧 10/26 구글뉴스 RSS 가 GitHub 서버에 503(12시경부터 25곳 0개 → 건강검진 문제) — 같은 검색어를 빙 뉴스 RSS 로"""
+    q = _up.parse_qs(_up.urlparse(gn_url).query)
+    term = re.sub(r"\s*when:\d+[dh]\s*", " ", q.get("q", [""])[0]).strip()
+    gl = q.get("gl", ["US"])[0]
+    mkt = {"KR": "ko-KR", "JP": "ja-JP", "HK": "zh-HK"}.get(gl, "en-US")
+    return "https://www.bing.com/news/search?" + _up.urlencode({"q": term, "format": "rss", "mkt": mkt, "qft": "sortbydate=\"1\""})
+
+
+BING_USED: set = set()
+
+
+def _get_feed(url: str) -> str:
+    if url.startswith("https://news.google.com/"):
+        last = None
+        for wait in (0, 4):                      # 503 은 잠깐 쉬고 한 번 더
+            if wait:
+                time.sleep(wait)
+            try:
+                return get(url)
+            except Exception as e:
+                last = e
+        try:
+            x = get(bing_of(url))
+            BING_USED.add(url)
+            return x
+        except Exception as e2:
+            raise RuntimeError(f"{str(last)[:40]} · 빙 대체도 실패 {str(e2)[:40]}")
+    return get(url)
+
+
 def rss(url: str, n: int = 30) -> list[dict]:
-    root = ET.fromstring(get(url).encode("utf-8"))
+    root = ET.fromstring(_get_feed(url).encode("utf-8"))
     out = []
     for it in list(root.iter("item"))[:n]:
         link = (it.findtext("link") or "").strip()
+        if "bing.com/news/apiclick" in link:      # 빙 뉴스 → 원래 기사 주소
+            link = _up.parse_qs(_up.urlparse(link).query).get("url", [link])[0]
         try:
             at = parsedate_to_datetime((it.findtext("pubDate") or "").strip()).astimezone(KST)
         except Exception:
@@ -242,7 +276,7 @@ def rss(url: str, n: int = 30) -> list[dict]:
         if at > dt.datetime.now(KST) + dt.timedelta(minutes=10):     # 한국 언론 RSS 가 KST 를 GMT 로 표시하는 경우
             at -= dt.timedelta(hours=9)
         title = clean(it.findtext("title") or "")
-        srcname = clean(it.findtext("source") or "")
+        srcname = clean(it.findtext("source") or next((c.text or "" for c in it if str(c.tag).lower().endswith("}source")), ""))
         if srcname and title.endswith(" - " + srcname):
             title = title[: -len(srcname) - 3]
         desc = clean(it.findtext("description") or "")
@@ -294,6 +328,8 @@ def main() -> int:
         ok, got = True, []
         try:
             got = rss(url, 30 if len(NEWS) < 20 or sid in OLD_NEWS else 20)
+            if url in BING_USED:
+                who = who + " → 빙 뉴스로 대신"
         except Exception as e:
             ok = False
             DEBUG.append(f"news {sid} 실패 {str(e)[:80]}")
