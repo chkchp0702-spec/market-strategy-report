@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "유가, 미·러 디젤 거래·중동 공격 사이에서 흔들",
+   "url": "https://virginiabusiness.com/oil-prices-us-russia-diesel-deal-middle-east-attacks/",
+   "press": "Virginia Business",
+   "at": "2026-10-28 07:35",
+   "why": "열린 bet CHRD(바켄 석유, 1주) 역풍 — 공급 확대 쪽 뉴스가 지정학 프리미엄을 깎는다",
+   "summary": "美 에너지장관 「러시아 디젤 더 시장에 풀 수 있다」(CNBC 10/27) · 브렌트 10/27 114.05$(−1.52%, CNBC latest)."
+  },
+  {
+   "title": "솔리다임, 뉴욕주 북부에 낸드 공장 검토 — AI 수요 급증",
+   "url": "https://hoodline.com/2026/10/solidigm-eyes-upstate-ny-for-nand-chip-plant-as-ai-demand-soars/",
+   "press": "Hoodline",
+   "at": "2026-10-28 07:35",
+   "why": "하이닉스 3분기 실적일(10/28) — 美 낸드 증설 투자 규모가 주주환원 기대(특별배당설)와 부딪히는지가 D+1 반응 변수",
+   "summary": "SK하이닉스 자회사 솔리다임이 미국 뉴욕주 북부 낸드 공장 부지 검토. 블룸버그는 투자 규모 약 60조 원(yna 10/28 재인용)."
+  },
+  {
    "title": "시게이트, 1분기 실적 상회·마진 개선에도 주가 하락",
    "url": "https://www-web.itiger.com/news/2477534404",
    "press": "Tiger Brokers",
@@ -623,23 +639,7 @@
    "at": "2026-10-26 13:35",
    "why": "🧠 AI 차입 가설 0.88 — AI 칩 구매가 현금이 아닌 사모 크레딧 부채로: 10/26 머스크 「조달 완료」 주장(HANAchina/71009)의 원 보도",
    "summary": "FT 보도: SpaceX가 아폴로 주도로 400억달러 부채를 모아 엔비디아 칩 주문 자금으로 쓰려 함. 10/26 머스크는 완료를 주장했으나 가격 협상 미완료라는 보도도 있음(미확인)."
-  },
-  {
-   "title": "외국인, 2026년 한국 주식 사상 최대 1,520억달러 순매도 보도",
-   "url": "https://digg.com/world-business/16humqrn",
-   "press": "Digg(보도 모음)",
-   "at": "2026-10-26 13:35",
-   "why": "🇰🇷 한국 가설 0.80 — 외국인 복귀 전까지 비중 확대 금지 근거, 오늘도 외인 매도에 5,500선 위태",
-   "summary": "올해 외국인 한국 주식 순매도가 사상 최대 1,520억달러라는 보도(집계 기준·게재일 미확인). 오늘 코스피 외인 매도로 5,400~5,500선."
-  },
-  {
-   "title": "금값 4,000달러 아래로 — 2025년 11월 이후 처음(게재일 미확인)",
-   "url": "https://www.financemagnates.com/trending/why-gold-is-going-down-xauusd-price-falls-below-4000-for-first-time-since-november-2025/",
-   "press": "Finance Magnates",
-   "at": "2026-10-26 12:35",
-   "why": "🦴 뼈대 금 칸 — 주식 매도장에 금도 함께 밀림: AI 하방 헤지 수단으로 금이 버티는지 시험 중",
-   "summary": "XAU/USD 4,000달러 하회, 2025년 11월 이후 처음이라는 보도. 피드 gn_us_mkt 「Gold price falls below $4,000 amid stock market rout」와 같은 흐름. 우리 시세 latest.json 금 4,024(+0.4%) — 지금은 4,000 바로 위."
   }
  ],
- "at": "2026-10-28 06:35"
+ "at": "2026-10-28 07:35"
 }
