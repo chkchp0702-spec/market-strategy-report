@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "SK하이닉스, 3분기 실적 앞 16조 원(약 120억$) 특별배당설에 서울서 5~6% 급등",
+   "url": "https://www.tipranks.com/news/sk-hynix-stock-surges-on-rumored-12b-special-dividend-ahead-of-q3-earnings",
+   "press": "TipRanks",
+   "at": "2026-10-28 02:45",
+   "why": "반도체 칸·🇰🇷 한국 가설 — 28일 실적이 숫자(77조)뿐 아니라 주주환원 기대까지 넘어야 하는 자리",
+   "summary": "동아일보발 특별배당 16조 원설. 10/27 주가 +5~6%. 3분기 영업익 전망 약 77조 원."
+  },
+  {
+   "title": "美 증시 10/27 정오: 보잉 −10%(인도 목표 하향)·빅테크가 S&P·나스닥 떠받쳐",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-27-2026",
+   "press": "TheStreet",
+   "at": "2026-10-28 02:45",
+   "why": "FOMC(29일 새벽) 앞 장세 — 기술주 주도 반등이 회의 전 위험 선호를 얼마나 끌어올렸나 기준선",
+   "summary": "12:00 EDT S&P +0.68%(7,728.90)·기술 섹터 약 +2%. 보잉 −9.7%(2025년 11월 이후 최저). 오전 브렌트 115.5$·WTI 101.2$."
+  },
+  {
+   "title": "마이크로소프트, 직원 6만 명(약 4분의 1)에 자발 퇴직 제안 — AI 투자 위한 비용 절감",
+   "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+   "press": "CNBC",
+   "at": "2026-10-28 02:45",
+   "why": "AI 차입 가설(0.88) — 빅테크가 인건비를 깎아 AI 설비 자금을 대는 단계: 현금흐름 압박 신호",
+   "summary": "10/26 보도. 대상 약 6만 명(임원 일부 포함), 연말까지 결정."
+  },
+  {
    "title": "SK하이닉스 3분기 영업익 '76.9조' 6번째 신기록 쓰나…4분기도 질주 전망",
    "url": "https://www.mt.co.kr/article/2026101913371799572",
    "press": "머니투데이",
@@ -615,30 +639,6 @@
    "at": "2026-10-26 07:35",
    "why": "🌏 신흥국·원자재 칸 — 브라질 결선 결과가 월요일 헤알·EWZ 방향(투표 2시간 연장 bbg)",
    "summary": "초기 개표 룰라 우세 보도(최종 결과 미확인). 결선은 현직 룰라 vs 플라비우 보우소나루 접전."
-  },
-  {
-   "title": "3.9조 투자, 40조로 돌아왔다…SK하이닉스, 키옥시아 효과",
-   "url": "https://www.mt.co.kr/industry/2026/07/28/2026072813172679056",
-   "press": "머니투데이",
-   "at": "2026-10-26 07:35",
-   "why": "🎯 반도체 칸 SK하이닉스 — 10/26 「키옥시아 차익 16조 특별배당 추진」 단독 보도의 배경(지분 가치)",
-   "summary": "키옥시아 투자 3.9조원이 약 40조원 가치로(7/28 기준). 10/26 보도: 매각 차익 약 20조 중 80% 특별배당, 28일 3Q 실적 때 발표 예정(미확인)."
-  },
-  {
-   "title": "머스크 「스페이스X, GPU용 400억$ 차입 완료」",
-   "url": "https://money.usnews.com/investing/news/articles/2026-10-25/musk-says-spacex-raised-40-billion-in-debt-for-gpus",
-   "press": "Reuters(US News)",
-   "at": "2026-10-26 06:35",
-   "why": "AI 차입 가설 — 10/24 「조달 난항」 보도 뒤 성사 확인: 초대형 차입자는 여전히 돈을 구한다(가설의 반대 근거로 기록)",
-   "summary": "머스크가 10/25 스페이스X가 GPU 구매용 부채 400억$ 조달을 마쳤다고 밝힘. 10/7 아폴로 주관 추진 보도의 결말. 금리·조건은 미확인."
-  },
-  {
-   "title": "스페이스X 400억$ 차입 마감 — 머스크 「네오클라우드 정리 온다」",
-   "url": "https://phemex.com/news/article/spacex-completes-40-billion-gpu-debt-financing-musk-warns-of-neocloud-shakeout-101002",
-   "press": "Phemex News",
-   "at": "2026-10-26 06:35",
-   "why": "AI 차입 0.88·AI 인프라 킥 감점 규칙 — 대출자들이 물러나는 중이라는 당사자 경고: 조달 의존 네오클라우드(코어위브 등) 신호는 계속 감점",
-   "summary": "머스크: 차입은 마쳤지만 AI 대출 시장이 빡빡해져 작은 GPU 클라우드 업체 정리 가능. 「대출자 철수」 표현(teslanorth). 규모 외 숫자 미확인."
   }
  ],
  "at": "2026-10-27 22:45"

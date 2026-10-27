@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28 01:45",
+ "at": "2026-10-28 02:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/Q4bUNGWkFPbTM3Z04zLXB2bUdtclBvVmpmQmhqcEloSTJUOHg2ZzRsbEIoc5": {
@@ -67,15 +67,15 @@
    "why": "⚡ CHRD bet·에너지 ☕ 컵 군집(PR·SM·TALO·SU) — 이란 최고지도자 종전 의지에 유가 하락, 라스타누라 공격에도 하락",
    "at": "2026-10-28 00:49"
   },
-  "n/ticles20261027novogratzsgalaxytopsrevenueestimatessharesrise": {
-   "lv": 1,
-   "why": "AI 차입 가설(0.88) — 노보그라츠 「신용시장 긴장 정점」: 메타 5배 청약(깨짐 쪽)과 반대 방향 증언, FOMC 뒤 스프레드 숫자로 판정",
-   "at": "2026-10-28 01:45"
-  },
   "n/ThCOWZOTmttUmhaeGdZZWdWc2hjWkFWc2Z0YjE2enh1cDdzNUdnM0JKWQoc5": {
    "lv": 1,
    "why": "반도체 칸·하이닉스 실적(컨센 영업익 약 77조) — 중국 빅테크가 D램 장기계약을 서두름 = 메모리 가격 결정력 쪽 근거",
    "at": "2026-10-28 01:45"
+  },
+  "n/ThQVjFZZm1qMzZUa1BRUUZuaU4zWTNKMlpkY094OUw1NDM3cDVvbkxDVQoc5": {
+   "lv": 1,
+   "why": "반도체 칸·🇰🇷 한국 가설(0.74) — 하이닉스 5%↑는 실적보다 주주환원(특별배당 16조 원설) 기대: 28일 발표가 기대에 못 미치면 되돌림 위험",
+   "at": "2026-10-28 02:45"
   }
  }
 }
