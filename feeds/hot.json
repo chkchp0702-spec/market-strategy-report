@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27 20:35",
+ "at": "2026-10-27 21:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/Q4bUNGWkFPbTM3Z04zLXB2bUdtclBvVmpmQmhqcEloSTJUOHg2ZzRsbEIoc5": {
@@ -61,6 +61,16 @@
    "lv": 1,
    "why": "FOMC(29일 새벽) watch·고금리 가설(0.42) — CNBC 설문 「인상은 오지만 이번 주는 아님」: 동결 우세 확인, 다음 회의 인상 꼬리는 단기채 칸 유지 근거",
    "at": "2026-10-27 20:35"
+  },
+  "n/JucFRVVWZJOWE1T293TGt5ekMtcWh2YWw4c3NaVnRoYk9USFotcmZVVWcoc5": {
+   "lv": 1,
+   "why": "🏦 금융 칸 — HSBC 신용손실 13억$로 순익 미달·−6%: 대손발 미달은 은행 bet 정리 신호(ideas 10/14)",
+   "at": "2026-10-27 21:35"
+  },
+  "n/articlesmarketrotationovershadowsklacorp120735835htmltsrcrss": {
+   "lv": 1,
+   "why": "🏗️ AI 차입 가설 0.90·반도체 칸 — KLA 호실적·가이던스 상회에도 회전 매도, 「좋은 실적에 팜」 3번째 표본",
+   "at": "2026-10-27 21:35"
   }
  }
 }

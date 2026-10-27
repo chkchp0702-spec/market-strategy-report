@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "HSBC, 신용손실 13억달러에 순익 미달…주가 6.25% 급락",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-slides-6-25-profit-115026753.html",
+   "press": "Yahoo Finance",
+   "at": "2026-10-27 21:35",
+   "why": "🏦 금융 칸(8%) — 실적 미달 원인이 대손(신용)발이라 일회성 아님: 글로벌 은행 충당금 확대 조짐",
+   "summary": "HSBC 3분기 순익 예상 하회, 신용손실 13억$ 반영. 주가 −6.25%(홍콩 장 「滙控績後挫逾半成」). SCMP는 중동 충당금이 자산관리 성장 상쇄로 해석."
+  },
+  {
+   "title": "브렌트 114.68달러 — FOMC 첫날, 테헤란 협상 왕복 뒤 강세 120·약세 108 시나리오",
+   "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/",
+   "press": "FinanceFeeds",
+   "at": "2026-10-27 21:35",
+   "why": "⚡ CHRD bet(☕ cup_eye)·에너지 칸 — 하메네이 평화 발언으로 유가 밀림, 컵 지지선 156.72 시험",
+   "summary": "브렌트 화요일 114.68$. 상단 120$(협상 결렬)·하단 108$(합의) 시나리오 제시. zerohedge: 「하메네이 평화 언급·라스타누라 공격 무시에 유가 하락, 선물 상승」."
+  },
+  {
+   "title": "KLA, 1분기 실적·가이던스 예상 상회에도 하락",
+   "url": "https://seekingalpha.com/news/4510355-kla-corp-falls-even-as-q1-results-guidance-top-estimates",
+   "press": "Seeking Alpha",
+   "at": "2026-10-27 21:35",
+   "why": "🧱 반도체 칸·AI 차입 가설 — 장비 대형주 「좋은 실적에 팜」 3번째, 한국 소부장 28일 시가로 연결 확인",
+   "summary": "KLA 실적·가이던스 컨센 상회에도 주가 하락. 같은 날 램리서치도 「AI 지출 재평가」로 하락(yahoo). 시장은 장비 사이클 정점을 가격에 넣는 중."
+  },
+  {
    "title": "한국은행, 기준금리 3% 동결(10/22)",
    "url": "https://qna.org.qa/en/News-Area/News/2026-10/22/bank-of-korea-holds-key-rate-steady-at-3",
    "press": "QNA(카타르 통신)",
@@ -615,30 +639,6 @@
    "at": "2026-10-26 01:35",
    "why": "⛽ 에너지 칸·고유가 가설 — 확전 시점(내일 vs 11/3 중간선거 뒤)이 유가·위험 회피 지속 기간을 가른다",
    "summary": "트럼프 토요일 「내일이라도」 공습 가능·동시에 「큰 합의」 언급. NYT: 美·이스라엘 11/3 선거 뒤 공동 공격 계획. 3번째 항모전단·병력 약 1만 명 11월 말까지 증파, 이번 달 선박 공격 120건↑(개전 이후 최악)."
-  },
-  {
-   "title": "이란의 역내 美 관리 암살 계획 「진전 단계」 — 정보 메모",
-   "url": "https://www.nbcnews.com/world/middle-east/iranian-plots-kill-u.s.-officials-middle-east-reached-advanced-stages-in-rcna605360",
-   "press": "NBC News",
-   "at": "2026-10-26 01:35",
-   "why": "🛡 지정학 — 美 인력 철수의 배경, 확전 명분 쌓기 = 월요일 유가·방산·금 갭 위험",
-   "summary": "정보 메모가 이란의 역내 美 관리 겨냥 계획이 진전 단계라고 경고(세부 숫자 미확인). 국무부 역내 대사관 인력 감축 명령과 같은 흐름."
-  },
-  {
-   "title": "골드만삭스, 코스피 목표 12,000→9,000 하향 — 「그래도 상승 여력 60%↑·저평가 여전」",
-   "url": "https://www.mk.co.kr/news/stock/12185306",
-   "press": "매일경제",
-   "at": "2026-10-26 00:35",
-   "why": "한국 칸·외인 매도 watch — 대형 IB 목표 하향이 나온 주, 역발상 바닥 신호 검증 대상",
-   "summary": "목표치 25% 하향(12,000→9,000). 현 수준 대비 60%↑ 여력 유지, 저평가 논리 유지 — 하향 이유는 반도체 실적 대비 주가 괴리·외인 이탈로 추정(원문 세부 미확인)."
-  },
-  {
-   "title": "시장은 10월 동결을 크게 보지만 워시 의장이 놀라게 할 수 있다 — FOMC 10/27~28 미리보기",
-   "url": "https://www.itiger.com/news/1189778569",
-   "press": "Tiger Brokers",
-   "at": "2026-10-26 00:35",
-   "why": "고금리 정점 가설(0.42)·美 10년 5% watch — 첫 워시 FOMC, 성명 매파면 단기채 유지",
-   "summary": "시장은 10월 동결 우세(이전 확인치 92%, gn_us_fed 10/23). 워시 「데이터 보라」 발언 뒤에도 트레이더는 연준 가이드 추종(gn_us_fed). 금리 결정 10/28(미국), 한국 시간 10/29 새벽."
   }
  ],
  "at": "2026-10-27 15:35"
