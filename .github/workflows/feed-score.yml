@@ -1,5 +1,6 @@
 name: feed-score
 # 🗣 내 채널 성적표 (src/feed_score.py → feeds/mentions.json · feeds/feed_score.json) — 10/20 A10/20-2
+# 🗣 목소리 경주 (src/voices_race.py → feeds/voices_race.json) — 10/27 A10/27-1
 #   피드 사람 글이 부른 종목을 기록하고 5·20거래일 뒤 종가로 채점. 한국 장 마감 뒤 KST 16:10 · 미국 장 마감 뒤 KST 07:25 (평일)
 on:
   workflow_dispatch:
@@ -22,7 +23,9 @@ jobs:
           python-version: "3.12"
       - run: pip install -q yfinance pandas
       - run: python -m src.feed_score --selftest && python -m src.feed_score
+      # 🗣 10/27 A10/27-1 목소리 경주 (src/voices_race.py → feeds/voices_race.json) — 실패해도 성적표는 올림
+      - run: python -m src.voices_race --selftest && python -m src.voices_race || echo "✗ voices_race 실패 — 옛 파일 유지"
       - name: 저장
         run: |
           git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
-          bash scripts/push.sh "feed-score $(TZ=Asia/Seoul date '+%F %H:%M')" feeds/mentions.json feeds/feed_score.json feeds/lead.json
+          bash scripts/push.sh "feed-score $(TZ=Asia/Seoul date '+%F %H:%M')" feeds/mentions.json feeds/feed_score.json feeds/lead.json $( [ -f feeds/voices_race.json ] && echo feeds/voices_race.json )
