@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28 00:49",
+ "at": "2026-10-28 01:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/Q4bUNGWkFPbTM3Z04zLXB2bUdtclBvVmpmQmhqcEloSTJUOHg2ZzRsbEIoc5": {
@@ -57,11 +57,6 @@
    "why": "AI 차입 가설(0.90) — 시타델 증권 「AI 투자 수익 인내 약화·고금리로 문제 시급, 시장 위험 여지 극히 제한」",
    "at": "2026-10-27 22:45"
   },
-  "n/s20261027metas25billionstocksaleendedfivetimesoversubscribed": {
-   "lv": 1,
-   "why": "AI 차입 가설(0.90)의 깨짐 조건 쪽 숫자 — 메타 250억$ 증자 5배 초과 청약, AI 자금 수요가 아직 넘친다",
-   "at": "2026-10-27 23:55"
-  },
   "n/swwwftcomcontent171ffdaae3e741b9a4c609c9ace3f719syn25a6b1a61": {
    "lv": 1,
    "why": "🇰🇷 한국 가설(0.74)·해운 — 이란이 한국 선사 시노코르를 호르무즈 「통과 위반」으로 위협, 코스피 +3% 반등 뒤 지정학 꼬리 위험",
@@ -71,6 +66,16 @@
    "lv": 1,
    "why": "⚡ CHRD bet·에너지 ☕ 컵 군집(PR·SM·TALO·SU) — 이란 최고지도자 종전 의지에 유가 하락, 라스타누라 공격에도 하락",
    "at": "2026-10-28 00:49"
+  },
+  "n/ticles20261027novogratzsgalaxytopsrevenueestimatessharesrise": {
+   "lv": 1,
+   "why": "AI 차입 가설(0.88) — 노보그라츠 「신용시장 긴장 정점」: 메타 5배 청약(깨짐 쪽)과 반대 방향 증언, FOMC 뒤 스프레드 숫자로 판정",
+   "at": "2026-10-28 01:45"
+  },
+  "n/ThCOWZOTmttUmhaeGdZZWdWc2hjWkFWc2Z0YjE2enh1cDdzNUdnM0JKWQoc5": {
+   "lv": 1,
+   "why": "반도체 칸·하이닉스 실적(컨센 영업익 약 77조) — 중국 빅테크가 D램 장기계약을 서두름 = 메모리 가격 결정력 쪽 근거",
+   "at": "2026-10-28 01:45"
   }
  }
 }
