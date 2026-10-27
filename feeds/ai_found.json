@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "주요 증권사들, 연준 다음 인상 시점 12월로 예상",
+   "url": "https://capital.com/en-ae/news/major-brokerages-expect-next-fed-rate-hike-in-december",
+   "press": "Capital.com",
+   "at": "2026-10-27 12:35",
+   "why": "FOMC(KST 29일 새벽) 앞 — 「10월 동결·12월 인상」이 기본값이면 현금·단기채 칸 유지 근거, 깜짝 인상이면 위험 회피 강화",
+   "summary": "골드만 등 주요 IB가 다음 인상을 10월→12월로 미룸(Kitco 10/01 골드만 동일 보도). 피드 gn_kr_macro 「골드만, 10월 동결 후 12월 인상」과 같은 방향. 기사 게재일은 미확인."
+  },
+  {
+   "title": "앤트로픽 IPO 신청 — 오픈AI·스페이스X와 1조 달러급 상장 경쟁",
+   "url": "https://www.capitalbrief.com/newsletter/anthropic-files-for-ipo-in-trillion-dollar-race-with-spacex-openai-783b4eb5-3c31-4303-8236-8b50c24bacfe/",
+   "press": "Capital Brief",
+   "at": "2026-10-27 12:35",
+   "why": "오늘 아시아 반도체 랠리의 방아쇠 — 「AI 차입(크레딧)」 가설 반대 근거(주식 조달 창구 열림)",
+   "summary": "앤트로픽 나스닥 상장 신청. 대만 매체는 기업가치 9,650억 달러 언급(futureaitw, 미확인). 반도체 칸 단기 호재지만 공급 물량 부담도 같이 봐야."
+  },
+  {
    "title": "SK하이닉스 3분기 영업익 컨센서스 76.96조원 — 6분기 연속 최대 전망, 발표 29일",
    "url": "https://www.mt.co.kr/en/industry/2026/10/19/2026101913371799572",
    "press": "머니투데이",
@@ -623,23 +639,7 @@
    "at": "2026-10-25 21:35",
    "why": "에너지 칸 — 중동 공급 불안에 아시아 LNG 수급까지 빡빡해지는 신호",
    "summary": "인도네시아가 국내 공급 우선으로 싱가포르 가스 수출 축소. 규모는 미확인."
-  },
-  {
-   "title": "골드만, 코스피 12개월 목표 12,000→9,000(−25%) 하향 — 「그래도 60% 상승 여지」",
-   "url": "https://news.futunn.com/en/post/1002222328/goldman-sachs-executes-high-altitude-dive-on-kospi-target-cut",
-   "press": "Futu(블룸버그 인용)",
-   "at": "2026-10-25 20:35",
-   "why": "한국 가설 0.80·🇰🇷 칸 — IB 대형 하향이 나온 날(ideas 17:35 역발상 측정 시작점)",
-   "summary": "골드만 코스피 12M 목표 9,000(종전 12,000) · AI 트레이드 붕괴 반영 · 목표 대비 상승 여지는 여전히 약 60%로 유지(현 지수 5,500대 기준)"
-  },
-  {
-   "title": "美, 이란 공격 음모 정황에 중동 여러 나라 공관·기지 인력 조용히 대피",
-   "url": "https://wsvn.com/news/us-world/us-diplomats-middle-east-evacuations/",
-   "press": "WSVN(WSJ 보도 인용)",
-   "at": "2026-10-25 20:35",
-   "why": "⛽ 에너지 칸·지정학 — 이란 드론 격추 주장과 겹쳐 월요일 유가 갭 위험",
-   "summary": "WSJ 10/24 보도: 이란의 미국인 겨냥 음모가 진전 단계라는 첩보로 여러 중동 국가에서 외교관·가족 이동 · 이스라엘은 이란 타격 촉구(jfeed) · 대피 규모·국가 수 미확인"
   }
  ],
- "at": "2026-10-27 10:35"
+ "at": "2026-10-27 12:35"
 }
