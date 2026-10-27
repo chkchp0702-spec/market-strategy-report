@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "한국은행, 기준금리 3% 동결(10/22)",
+   "url": "https://qna.org.qa/en/News-Area/News/2026-10/22/bank-of-korea-holds-key-rate-steady-at-3",
+   "press": "QNA(카타르 통신)",
+   "at": "2026-10-27 20:35",
+   "why": "🇰🇷 한국 가설(0.80)·국고채 — 10/22 동결 뒤 3분기 GDP 1.0% 깜짝 성장(gn_kr_bok)으로 「11월 인상」 논의가 붙음: 원화 강세·국고 3년 2개월 최저와 엇갈리는 신호",
+   "summary": "한은 10/22 기준금리 3% 동결(QNA). 이후 10/27 3분기 GDP 1.0%(반도체 수출·설비투자 견인) 발표로 11월 인상 가능성 기사 등장(feed gn_kr_bok)."
+  },
+  {
    "title": "이란 해협청, 시노코르 선박에 「법적 조치」 예고",
    "url": "https://www.devdiscourse.com/article/international/3997919-iranian-strait-authority-says-sinokor-vessels-will-face-legal-action",
    "press": "Devdiscourse(로이터 인용)",
@@ -631,14 +639,6 @@
    "at": "2026-10-26 00:35",
    "why": "고금리 정점 가설(0.42)·美 10년 5% watch — 첫 워시 FOMC, 성명 매파면 단기채 유지",
    "summary": "시장은 10월 동결 우세(이전 확인치 92%, gn_us_fed 10/23). 워시 「데이터 보라」 발언 뒤에도 트레이더는 연준 가이드 추종(gn_us_fed). 금리 결정 10/28(미국), 한국 시간 10/29 새벽."
-  },
-  {
-   "title": "사우디 증시, 예멘 전쟁 확전 위험 반영하며 −2.6% — 2025년 4월 이후 최악(유가·실적 아닌 확전 공포)",
-   "url": "https://startupfortune.com/saudi-stocks-sink-as-investors-price-in-a-wider-yemen-war/",
-   "press": "Startup Fortune",
-   "at": "2026-10-25 23:35",
-   "why": "에너지 칸·월요일 유가 갭 — 하락이 유가가 아니라 확전 위험 프리미엄이라는 점(은행·산업재 더 큰 낙폭)",
-   "summary": "TASI 하루 −2.6%(2025년 4월 이후 최대 장중 낙폭), 아람코 −1.1%. 은행·소매·부동산·산업재 낙폭이 더 큼 — 「실적도 유가도 매도 원인 아님」."
   }
  ],
  "at": "2026-10-27 15:35"

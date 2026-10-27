@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27 19:35",
+ "at": "2026-10-27 20:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/Q4bUNGWkFPbTM3Z04zLXB2bUdtclBvVmpmQmhqcEloSTJUOHg2ZzRsbEIoc5": {
@@ -47,25 +47,20 @@
    "why": "🇰🇷 한국 가설(0.80)·AI 차입(0.90) — 한은 「美 AI 투자 둔화 시 반도체 수출 500~1,000억$ 감소」: 반도체 칸 하방 시나리오 수치",
    "at": "2026-10-27 17:35"
   },
-  "n/0261027saudiarabiacontainsfirenearrastanuraoilhubafterattack": {
-   "lv": 1,
-   "why": "CHRD 열린 bet·에너지 ☕ 신호(SM·TALO·SU) — 사우디 최대 수출 터미널 인근 공격, 유가 공급 위험 재점화",
-   "at": "2026-10-27 18:35"
-  },
   "n/httpswwwhankyungcomarticle202610278470i": {
    "lv": 1,
    "why": "AI 차입 가설(0.90) — 브로드컴이 고객 앤트로픽 칩 구매자금 630억$ 조달, 공급사 금융 순환 확대",
    "at": "2026-10-27 18:35"
   },
-  "n/s20261027iransaysitwilltakeactionagainstsinokorshipsinhormuz": {
+  "n/61027europeanstockspulledlowerbybanksashsbcresultsdisappoint": {
    "lv": 1,
-   "why": "CHRD 열린 bet·에너지 ☕ 신호(SM·TALO·SU) — 이란, 한국계 최대 유조선사 시노코르 선박에 호르무즈 「법적 조치」 예고: 해상 공급 위험 재점화",
-   "at": "2026-10-27 19:35"
+   "why": "CHRD 열린 bet(유가 역풍) — 유럽 증시가 이란 발언에 「평화 기대」로 낙폭 만회(bbg): 합의 쪽 헤드라인이 유가·E&P 를 누르는 방향",
+   "at": "2026-10-27 20:35"
   },
-  "n/MZTZITHo3TWtrcl9TR09TMWE0aVZiNkRiOXFkNzlORzFHcjk4RGJLd0k0oc5": {
+  "n/wcnbccom20261027federalreserveratehiketimingexpectationshtml": {
    "lv": 1,
-   "why": "반도체 칸·28일 하이닉스 실적 — 中 빅테크가 D램 장기계약을 서두름 = 메모리 가격 결정력, 「호실적에도 주가 둔감」(bbg)과 맞서는 숫자",
-   "at": "2026-10-27 19:35"
+   "why": "FOMC(29일 새벽) watch·고금리 가설(0.42) — CNBC 설문 「인상은 오지만 이번 주는 아님」: 동결 우세 확인, 다음 회의 인상 꼬리는 단기채 칸 유지 근거",
+   "at": "2026-10-27 20:35"
   }
  }
 }
