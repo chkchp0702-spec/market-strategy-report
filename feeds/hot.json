@@ -1,20 +1,10 @@
 {
- "at": "2026-10-27 17:35",
+ "at": "2026-10-27 18:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
-  "n/swwwftcomcontent053a8758281445a587ca0c71ce5f7816syn25a6b1a61": {
-   "lv": 1,
-   "why": "AI 차입 가설(0.88) — 정크 공급 2조$로 위험 차입자 조달 비용 상승, 네오클라우드 쪽 스트레스 줄기",
-   "at": "2026-10-26 16:35"
-  },
   "n/Q4bUNGWkFPbTM3Z04zLXB2bUdtclBvVmpmQmhqcEloSTJUOHg2ZzRsbEIoc5": {
    "lv": 1,
    "why": "美·이란 외교 기대로 유가 하락 — ⚡ CHRD(석유) bets 오늘 美 시가 진입 직전 역풍",
-   "at": "2026-10-26 19:35"
-  },
-  "n/lhMGZtSE82V0pqY0hNbVU5OENNSnhJdTlMTVQyUVhwMGM5ek1TU01MbUgoc5": {
-   "lv": 1,
-   "why": "SK하이닉스 28일 주주환원 발표(특별배당설 부인 아님) — 한국 반도체 가설·코스피 7개월 최저 반등 재료",
    "at": "2026-10-26 19:35"
   },
   "n/deos20261026claudiasahmmakescaseforanoctoberfedratehikevideo": {
@@ -37,11 +27,6 @@
    "why": "🧠 AI 차입 가설(0.90) — 골드만 하루 2,100억$ 딜, AI 자금 조달 열기(bbg): 공급 물량 급증 = 크레딧 흡수력 시험",
    "at": "2026-10-27 10:35"
   },
-  "n/V1TWRaemZTTGkxWWpLaUZPY3ROYTVuVTk1SUhUME51SnJVZjVjV1Z2dEEoc5": {
-   "lv": 1,
-   "why": "🇰🇷 한국 가설(0.80) — 신용융자 30조 돌파·금융위 추가 규제 경고: 반등이 빚 주도, 규제 시 국내 킥 되밀림 위험",
-   "at": "2026-10-27 13:35"
-  },
   "n/J1cFU4Qk9mV0NsQ29EaFM5UWtPYVdqeXNUTy1senNsaUVxY3hOM0NpdGcoc5": {
    "lv": 1,
    "why": "반도체 칸·하이닉스 실적(29일) — 앤트로픽 상장 서류에 삼성·하이닉스 HBM 공급 위험 명시 = 메모리 가격 결정력 확인",
@@ -55,11 +40,6 @@
   "HANAchina/71084": {
    "lv": 1,
    "why": "골드만: 정유 가동 중단 580만b/d로 최악 시나리오(500만) 초과·2027 2Q 한국·인도 정비 몰림 — CHRD bet·에너지 ☕ 신호(SM·TALO·SU)와 연결",
-   "at": "2026-10-27 15:35"
-  },
-  "n/httpswwwynacokrviewAKR20261027127500002": {
-   "lv": 1,
-   "why": "한은 「AI발 순환금융·외부자금 의존 확대 → 한국 전이 점검」 — AI 차입(크레딧) 가설 0.90 공식 기관 보강",
    "at": "2026-10-27 15:35"
   },
   "YeouidoStory2/118995": {
@@ -77,10 +57,15 @@
    "why": "🇰🇷 한국 가설(0.80)·AI 차입(0.90) — 한은 「美 AI 투자 둔화 시 반도체 수출 500~1,000억$ 감소」: 반도체 칸 하방 시나리오 수치",
    "at": "2026-10-27 17:35"
   },
-  "n/VabkdjV3U2NjM5WTY2eTVraXBmVHE4ajkwU05FajktUXVKY0FtN0FnVHQoc5": {
+  "n/0261027saudiarabiacontainsfirenearrastanuraoilhubafterattack": {
    "lv": 1,
-   "why": "🧠 AI 차입 가설(0.90) — 메타 950억$ AI 조달·주가 −1.9%: 빅테크 자금조달 물량이 주가로 벌받기 시작하는지",
-   "at": "2026-10-27 17:35"
+   "why": "CHRD 열린 bet·에너지 ☕ 신호(SM·TALO·SU) — 사우디 최대 수출 터미널 인근 공격, 유가 공급 위험 재점화",
+   "at": "2026-10-27 18:35"
+  },
+  "n/httpswwwhankyungcomarticle202610278470i": {
+   "lv": 1,
+   "why": "AI 차입 가설(0.90) — 브로드컴이 고객 앤트로픽 칩 구매자금 630억$ 조달, 공급사 금융 순환 확대",
+   "at": "2026-10-27 18:35"
   }
  }
 }
