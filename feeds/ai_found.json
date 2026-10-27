@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "연준 결정 미리보기: 수요일 동결 예상, 12월 인상은 살아 있음",
+   "url": "https://see.news/fed-decision-preview-rates-expected-to-hold-wednesday-as-december-hike-remains-on-table",
+   "press": "see.news",
+   "at": "2026-10-28 03:35",
+   "why": "고금리 정점 가설(0.42)·현금/단기채 칸 — 시장이 이번 동결·12월 인상을 거의 다 가격에 넣었는지 기준",
+   "summary": "기준금리 3.75~4.00%(9월 0.25%p 인상). CME FedWatch(10/27) 10월 인상 약 11%·12월 인상 약 82%. 9월 CPI 3.7%(예상 3.6%)·근원 2.6%, 29일 9월 PCE 3.6% 예상(8월 3.4%)."
+  },
+  {
+   "title": "연준 동결 예상 — 워시 의장은 추가 인상 신호 줄 수도",
+   "url": "https://www.kucoin.com/news/flash/fed-expected-to-hold-rates-steady-warsh-may-signal-further-hikes",
+   "press": "KuCoin(CNBC 인용)",
+   "at": "2026-10-28 03:35",
+   "why": "美 10년 5% 경계·위험 회피 국면 — 「분기마다 1번 인상」 기준선이면 성명 매파 문구가 채권·성장주 갭의 원인",
+   "summary": "도이체방크 「워시가 추가 긴축 필요 신호 줄 것」, 에버코어 구하 「FOMC 기준선은 분기당 1회 인상」. 씨티는 12월 인상 전망."
+  },
+  {
    "title": "SK하이닉스, 3분기 실적 앞 16조 원(약 120억$) 특별배당설에 서울서 5~6% 급등",
    "url": "https://www.tipranks.com/news/sk-hynix-stock-surges-on-rumored-12b-special-dividend-ahead-of-q3-earnings",
    "press": "TipRanks",
@@ -623,22 +639,6 @@
    "at": "2026-10-26 08:35",
    "why": "열린 bet EWQ(프랑스 ETF, 10/27 기한) — 10/21 10년물 5% 돌파(2002년 이후 처음) 뒤 금리차 축소 여부가 마지막 채점 방향",
    "summary": "10/21 프랑스 10년물 일시 5% 돌파(정치 불안). 이후 매도세 진정·금리차 축소 보도(수준 숫자 미확인)."
-  },
-  {
-   "title": "SK하이닉스 주주들, 솔리다임 나스닥 상장 저지 움직임(지분 희석 우려)",
-   "url": "https://www.koreajoongangdaily.com/business/sk-hynix-shareholders-move-to-block-solidigm-nasdaq-listing-over-dilution-fears/12904620",
-   "press": "Korea JoongAng Daily",
-   "at": "2026-10-26 08:35",
-   "why": "🎯 반도체 칸 SK하이닉스 — 26일 IPO 철회 보도의 배경: 중복상장 디스카운트 해소 + 16조 특별배당 보도 = 28일 실적 날 주주환원 재료",
-   "summary": "주주 반발로 솔리다임 美 상장 논란. 10/26 아침 철회 보도(메리츠 「주주환원 강화 기대」). 회사 공식 공시는 미확인."
-  },
-  {
-   "title": "룰라, 브라질 결선 초기 개표서 플라비우 보우소나루에 앞서",
-   "url": "https://www.newsy-today.com/lula-leads-flavio-bolsonaro-in-early-brazil-runoff-returns/",
-   "press": "Newsy Today",
-   "at": "2026-10-26 07:35",
-   "why": "🌏 신흥국·원자재 칸 — 브라질 결선 결과가 월요일 헤알·EWZ 방향(투표 2시간 연장 bbg)",
-   "summary": "초기 개표 룰라 우세 보도(최종 결과 미확인). 결선은 현직 룰라 vs 플라비우 보우소나루 접전."
   }
  ],
  "at": "2026-10-27 22:45"
