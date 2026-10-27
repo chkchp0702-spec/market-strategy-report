@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "메타 250억$ 주식 공모, 5배 초과 청약으로 마감",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/meta-s-25-billion-stock-sale-ended-five-times-oversubscribed",
+   "press": "Bloomberg",
+   "at": "2026-10-27 23:55",
+   "why": "AI 차입(크레딧) 가설의 반대 근거 — 대형 AI 자금 조달이 아직 무난히 소화됨",
+   "summary": "메타 최대 950억$ 조달 계획 중 250억$ 공모가 5배 초과 청약. 엔비디아·AMD도 지분 참여(약 40억$, barrons). 수요 숫자가 스프레드 확대 가설과 반대 방향."
+  },
+  {
+   "title": "美 10월 소비자신뢰지수 91.7로 4개월 만에 반등(9월 84.2)",
+   "url": "https://www.news4jax.com/business/2026/10/27/us-consumer-confidence-recovers-in-october-as-gas-prices-eased-a-bit/",
+   "press": "AP",
+   "at": "2026-10-27 23:55",
+   "why": "FOMC(KST 29일 새벽) 직전 경기 숫자 강세 — 고금리 가설·달러 강세와 연결",
+   "summary": "컨퍼런스보드 지수 91.7(+7.5p), 단기 전망 120.4(+8.6p). 휘발유 가격 소폭 하락이 배경. 같은 날 신규주택 판매는 모기지 금리 급등에 감소(bbg)."
+  },
+  {
    "title": "美 9월 내구재 주문 +1.8%…예상(+0.6%) 크게 상회",
    "url": "https://www.fxstreet.com/news/united-states-durable-goods-orders-rise-18-in-september-vs-06-expected-202610271236",
    "press": "FXStreet",
@@ -623,22 +639,6 @@
    "at": "2026-10-26 03:35",
    "why": "나스닥 코어·AI 차입 가설 — 지수 이익 증가가 두 회사에 쏠림, 실적 주간 반도체 가이던스가 코어 칸 방향",
    "summary": "피드 조선비즈: S&P500 3분기 순익 약 +30% 예상, 증가분의 34%가 엔비디아·마이크론 몫. 원문 게재일 미확인."
-  },
-  {
-   "title": "연준 결정과 빅테크 실적 — 트레이더가 보는 것",
-   "url": "https://www.heygotrade.com/en/news/fed-decision-big-tech-earnings-alphabet-mag-7-preview/",
-   "press": "Gotrade",
-   "at": "2026-10-26 03:35",
-   "why": "이번 주 FOMC(KST 10/29 새벽)·M7 실적이 겹친 주간 — 킥 신규 진입은 발표 다음 날 종가 확인 규칙(ideas 10/25) 근거",
-   "summary": "FOMC와 알파벳 등 M7 실적이 같은 주에 몰림. 세부 숫자는 원문 확인 필요(미확인)."
-  },
-  {
-   "title": "트럼프 「이란과 합의냐 끝장이냐 저울질」 — CBS 라이브",
-   "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-oil-gas-prices-strait-of-hormuz-midterms/",
-   "press": "CBS News",
-   "at": "2026-10-26 02:35",
-   "why": "에너지 칸·월요일 아시아 유가 갭 — 결정 시점이 이번 주 FOMC·빅테크 실적과 겹침",
-   "summary": "트럼프 주말 발언: 합의 vs 「끝장」 결정 임박 · 美 역내 인력 축소 · 중간선거(11/3) 앞 유가·휘발유값 쟁점"
   }
  ],
  "at": "2026-10-27 22:45"
