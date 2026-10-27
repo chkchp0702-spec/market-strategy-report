@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "나스닥 308P(+1.2%) — 브로드컴의 앤트로픽 대형 딜",
+   "url": "https://www.kiplinger.com/investing/stocks/nasdaq-jumps-308-points-on-broadcoms-big-gains-stock-market-today",
+   "press": "Kiplinger",
+   "at": "2026-10-28 05:35",
+   "why": "FOMC 전날 반도체 주도 반등 — 반도체 칸·AI 차입 가설 점검",
+   "summary": "10/27 마감 나스닥 26,477(+1.2%)·S&P 7,722(+0.6%)·다우 52,377(+0.03%) · 브로드컴 +4%(앤트로픽 관련 630억$ 금융 딜)·AMD +5.5%·인텔 +3.6%·마이크론 +2.8% · 보잉 −10.7%(2020년 6월 이후 최악)·제트블루 +19%"
+  },
+  {
+   "title": "SK하이닉스, 3분기 실적 앞두고 하락 — 바클레이스 목표 300$ 유지",
+   "url": "https://parameter.io/sk-hynix-skhy-drops-ahead-of-q3-earnings-as-analysts-maintain-300-price-target/",
+   "press": "parameter.io",
+   "at": "2026-10-28 05:35",
+   "why": "하이닉스 실적(10/28) D+1 반응 watch — 한국 가설 0.74 판정 재료",
+   "summary": "최근 3개월 매수 11건·평균 목표 254.7$ · 바클레이스 300$·울프 200→250$ · 발표 전 세션 서울 −4% 가까이·미 프리마켓 −2%(기사 기준일 미확인)"
+  },
+  {
    "title": "도어대시, 우버 빠진 뒤 인스타카트 170억 달러 인수 임박",
    "url": "https://247wallst.com/investing/2026/10/27/doordash-is-close-to-buying-instacart-for-17-billion-after-uber-walked-away/",
    "press": "24/7 Wall St.",
@@ -623,23 +639,7 @@
    "at": "2026-10-26 11:35",
    "why": "⛽ 에너지 칸·CHRD bet — 원유보다 정제유(경유·항공유)가 더 빡빡: 골드만 「2027년까지 부족」과 같은 방향",
    "summary": "원유 흐름은 회복 중이나 정제유 공급 압박은 확대(게재일 미확인). 골드만 10/25 메모: 글로벌 계획 정기보수 전년 대비 −170만b/d, 한국·인도 2027 2Q 보수 집중으로 수출 감소 가능(하나 중국전략 텔레그램 인용)."
-  },
-  {
-   "title": "S&P500 선물, 알파벳·마이크로소프트 실적 앞두고 소폭 상승",
-   "url": "https://www.cityindex.com/en-uk/news-and-analysis/sp500-forecast-futures-edge-higher-ahead-of-alphabet-microsoft-earnings/",
-   "press": "City Index",
-   "at": "2026-10-26 11:35",
-   "why": "🧠 AI 차입 가설·AI 소프트웨어 칸 — 하이퍼스케일러 3사 실적(capex 가이던스)이 이번 주 가설 판정 재료",
-   "summary": "FOMC(KST 10/29 새벽)·빅테크 실적 앞두고 美 선물 소폭 상승, 유가 되밀림 영향. 구체 수치는 미확인."
-  },
-  {
-   "title": "브렌트유 116달러 돌파, 6개월 최고 — 중동 긴장·사우디 공격",
-   "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html",
-   "press": "CNBC",
-   "at": "2026-10-26 10:35",
-   "why": "⛽ 에너지 칸·CHRD bet(☕ 컵) — 유가 레벨이 bet 논지(브렌트 105 아래 종가면 약화)의 기준",
-   "summary": "10/23 브렌트 116달러대 6개월 최고(장중 116.72·일부 117 보도). 26일 아시아장에서는 6개월 고점에서 되밀림(investing 피드)."
   }
  ],
- "at": "2026-10-28 04:35"
+ "at": "2026-10-28 05:35"
 }

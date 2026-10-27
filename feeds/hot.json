@@ -1,12 +1,7 @@
 {
- "at": "2026-10-28 04:35",
+ "at": "2026-10-28 05:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
-  "n/Q4bUNGWkFPbTM3Z04zLXB2bUdtclBvVmpmQmhqcEloSTJUOHg2ZzRsbEIoc5": {
-   "lv": 1,
-   "why": "美·이란 외교 기대로 유가 하락 — ⚡ CHRD(석유) bets 오늘 美 시가 진입 직전 역풍",
-   "at": "2026-10-26 19:35"
-  },
   "n/swwwftcomcontent8868926c3ee245e897050cb195fcc493syn25a6b1a61": {
    "lv": 1,
    "why": "🧠 AI 차입 가설(0.90) 곁가지 — DWS 대표 부동산 펀드 환매 요청 10%만 지급(FT): 비유동 자산 펀드의 환매 제한이 번지는지, 사모·크레딧 유동성 경계",
@@ -47,11 +42,6 @@
    "why": "FOMC(29일 새벽) watch·고금리 가설(0.42) — CNBC 설문 「인상은 오지만 이번 주는 아님」: 동결 우세 확인, 다음 회의 인상 꼬리는 단기채 칸 유지 근거",
    "at": "2026-10-27 20:35"
   },
-  "n/61027healthcarestocksbecomeantiaibetasinvestorsturndefensive": {
-   "lv": 1,
-   "why": "MDT 열린 bet(🤫 매집) — 헬스케어가 「반(反)AI 방어 bet」로 자금 받는 회전 확인(bbg)",
-   "at": "2026-10-27 22:45"
-  },
   "HANAchina/71103": {
    "lv": 1,
    "why": "AI 차입 가설(0.90) — 시타델 증권 「AI 투자 수익 인내 약화·고금리로 문제 시급, 시장 위험 여지 극히 제한」",
@@ -62,25 +52,10 @@
    "why": "🇰🇷 한국 가설(0.74)·해운 — 이란이 한국 선사 시노코르를 호르무즈 「통과 위반」으로 위협, 코스피 +3% 반등 뒤 지정학 꼬리 위험",
    "at": "2026-10-28 00:49"
   },
-  "n/XZUp0OWRLaGozaFN6R2ZwbkNhNUlFWVNPN0Y5QTVkUmR1RjJ1MWhOZXZooc5": {
-   "lv": 1,
-   "why": "⚡ CHRD bet·에너지 ☕ 컵 군집(PR·SM·TALO·SU) — 이란 최고지도자 종전 의지에 유가 하락, 라스타누라 공격에도 하락",
-   "at": "2026-10-28 00:49"
-  },
   "n/ThCOWZOTmttUmhaeGdZZWdWc2hjWkFWc2Z0YjE2enh1cDdzNUdnM0JKWQoc5": {
    "lv": 1,
    "why": "반도체 칸·하이닉스 실적(컨센 영업익 약 77조) — 중국 빅테크가 D램 장기계약을 서두름 = 메모리 가격 결정력 쪽 근거",
    "at": "2026-10-28 01:45"
-  },
-  "n/ThQVjFZZm1qMzZUa1BRUUZuaU4zWTNKMlpkY094OUw1NDM3cDVvbkxDVQoc5": {
-   "lv": 1,
-   "why": "반도체 칸·🇰🇷 한국 가설(0.74) — 하이닉스 5%↑는 실적보다 주주환원(특별배당 16조 원설) 기대: 28일 발표가 기대에 못 미치면 되돌림 위험",
-   "at": "2026-10-28 02:45"
-  },
-  "n/ectsq4salesaboveforecaststohit2030goalthreeyearsearly4976586": {
-   "lv": 1,
-   "why": "반도체(HBM) 칸·AI 크레딧 가설(0.88) — ASM 인터내셔널 4분기 매출 예상 상회·2030 목표 3년 앞당김: KLAC·LRCX 「실적 좋아도 매도」 뒤 장비 수요 숫자가 다시 확인",
-   "at": "2026-10-28 03:35"
   },
   "n/ideos20261027doordashissaidtonear17btakeoverofinstacartvideo": {
    "lv": 1,
@@ -91,6 +66,16 @@
    "lv": 1,
    "why": "AI 차입 가설(0.88) — 메타 증자 980억$로 확대·5배 초과청약: AI 자금 조달이 아직 소화된다는 숫자",
    "at": "2026-10-28 04:35"
+  },
+  "n/20261027bankseye21billionofbondsforbroadcomchipfinancingdeal": {
+   "lv": 1,
+   "why": "AI 차입 가설(0.88) 직격 — 브로드컴 칩 금융 630억$ 딜에 은행 210억$ 채권, 메타 증자와 같은 주에 AI 조달 몰림",
+   "at": "2026-10-28 05:35"
+  },
+  "n/httpswwwynacokrviewAKR20261028006000072": {
+   "lv": 1,
+   "why": "⚡ CHRD bet(☕ 컵) 역풍 — 중동 평화회담 기대에 WTI −1.8% 100$ 턱밑, 손절 −4% 근접 점검",
+   "at": "2026-10-28 05:35"
   }
  }
 }
