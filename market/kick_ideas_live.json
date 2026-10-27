@@ -1,50 +1,50 @@
 {
-"at": "2026-10-24 09:49",
+"at": "2026-10-27 10:31",
 "signals": [
 {
 "src": "pead",
-"code": "EGBN",
-"name": "Eagle Bancorp, Inc.",
+"code": "RRC",
+"name": "Range Resources Corporation Common Stock",
 "mkt": "US",
-"d": "2026-10-22",
-"vr": 5.0,
-"gap": 4.3,
-"px": 32.97,
-"score": 25.0
+"d": "2026-10-26",
+"vr": 10.2,
+"gap": 11.6,
+"px": 53.56,
+"score": 30.0
 },
 {
 "src": "pead",
-"code": "SPOT",
-"name": "Spotify Technology S.A. Ordinary Shares",
+"code": "SGRY",
+"name": "Surgery Partners, Inc.",
 "mkt": "US",
-"d": "2026-10-22",
-"vr": 3.1,
-"gap": 6.8,
-"px": 583.66,
-"score": 15.5
+"d": "2026-10-26",
+"vr": 25.5,
+"gap": 46.2,
+"px": 23.25,
+"score": 30.0
 }
 ],
 "state": {
 "index_KR": {
 "sym": "^KS11",
 "above200": false,
-"d": "2026-10-22"
+"d": "2026-10-27"
 },
-"scanned_KR": 2614,
-"us_source": "US.json 전 종목 5942 + ETF 4917 (2026-10-17)",
+"scanned_KR": 2612,
+"us_source": "US.json 전 종목 5942 + ETF 4929 (2026-10-24)",
 "index_US": {
 "sym": "^GSPC",
 "above200": true,
-"d": "2026-10-23"
+"d": "2026-10-26"
 },
-"scanned_US": 9128,
+"scanned_US": 9112,
 "dip": {
 "sym": "QQQ",
-"d": "2026-10-22",
-"close": 704.47,
-"ma200": 675.69,
-"ma5": 715.09,
-"rsi2": 17.9,
+"d": "2026-10-26",
+"close": 712.2,
+"ma200": 676.57,
+"ma5": 712.78,
+"rsi2": 61.6,
 "th": 5.0,
 "signal": false
 },
@@ -54,74 +54,74 @@
 "GLD": {
 "on": false,
 "since": "2026-03-23",
-"close": 369.0,
+"close": 367.82,
 "hi": 429.42,
-"lo": 373.36,
-"d": "2026-10-22"
+"lo": 364.33,
+"d": "2026-10-26"
 },
 "USO": {
 "on": true,
 "since": "2026-09-10",
-"close": 162.51,
-"hi": 163.35,
-"lo": 123.19,
-"d": "2026-10-22"
+"close": 166.23,
+"hi": 169.96,
+"lo": 124.17,
+"d": "2026-10-26"
 },
 "TLT": {
 "on": false,
 "since": null,
-"close": 81.74,
+"close": 81.68,
 "hi": 86.44,
 "lo": 76.43,
-"d": "2026-10-22"
+"d": "2026-10-26"
 },
 "UUP": {
 "on": true,
 "since": "2026-03-12",
-"close": 28.9,
+"close": 29.01,
 "hi": 29.25,
 "lo": 27.87,
-"d": "2026-10-22"
+"d": "2026-10-26"
 },
 "SPY": {
 "on": true,
 "since": "2026-04-15",
-"close": 763.96,
+"close": 765.37,
 "hi": 781.62,
 "lo": 747.74,
-"d": "2026-10-22"
+"d": "2026-10-26"
 },
 "QQQ": {
 "on": true,
 "since": "2026-09-22",
-"close": 704.47,
+"close": 712.2,
 "hi": 762.86,
 "lo": 699.27,
-"d": "2026-10-22"
+"d": "2026-10-26"
 },
 "EFA": {
 "on": true,
 "since": "2026-07-06",
-"close": 103.15,
+"close": 102.91,
 "hi": 108.89,
 "lo": 102.0,
-"d": "2026-10-22"
+"d": "2026-10-26"
 },
 "EEM": {
 "on": false,
 "since": "2026-07-29",
-"close": 61.72,
+"close": 61.82,
 "hi": 71.57,
-"lo": 62.68,
-"d": "2026-10-22"
+"lo": 61.5,
+"d": "2026-10-26"
 },
 "DBC": {
 "on": true,
 "since": "2026-09-01",
-"close": 33.57,
-"hi": 33.83,
-"lo": 29.64,
-"d": "2026-10-22"
+"close": 33.78,
+"hi": 34.14,
+"lo": 29.74,
+"d": "2026-10-26"
 }
 }
 }
@@ -256,6 +256,28 @@
 "gap": 6.8,
 "px": 583.66,
 "score": 15.5
+},
+{
+"src": "pead",
+"code": "RRC",
+"name": "Range Resources Corporation Common Stock",
+"mkt": "US",
+"d": "2026-10-26",
+"vr": 10.2,
+"gap": 11.6,
+"px": 53.56,
+"score": 30.0
+},
+{
+"src": "pead",
+"code": "SGRY",
+"name": "Surgery Partners, Inc.",
+"mkt": "US",
+"d": "2026-10-26",
+"vr": 25.5,
+"gap": 46.2,
+"px": 23.25,
+"score": 30.0
 }
 ]
 }
