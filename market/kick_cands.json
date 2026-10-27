@@ -4684,6 +4684,17 @@
 "lv": 179.78,
 "max20": 5.2,
 "id60": -0.067
+},
+"EMR|2026-10-27": {
+"code": "EMR",
+"name": "Emerson Electric Company Common Stock",
+"mkt": "US",
+"d": "2026-10-27",
+"src": "cup",
+"score": 69.4,
+"lv": 165.41,
+"max20": 2.2,
+"id60": -0.067
 }
 },
 "sent": [
