@@ -4628,6 +4628,31 @@
 "src": "gap",
 "score": 52.4,
 "lv": 6832.0
+},
+"RRC|2026-10-26|pead": {
+"code": "RRC",
+"name": "Range Resources Corporation Common Stock",
+"mkt": "US",
+"d": "2026-10-26",
+"src": "pead",
+"score": 80.0
+},
+"SGRY|2026-10-26|pead": {
+"code": "SGRY",
+"name": "Surgery Partners, Inc.",
+"mkt": "US",
+"d": "2026-10-26",
+"src": "pead",
+"score": 80.0
+},
+"STC|2026-10-26|ins": {
+"code": "STC",
+"name": "STC",
+"mkt": "US",
+"d": "2026-10-26",
+"src": "ins",
+"score": 67.8,
+"note": "기회형 내부자 3명 · 284천 달러 (10일 안 공시)"
 }
 },
 "sent": [
