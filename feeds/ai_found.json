@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "[속보] SK하이닉스 3분기 영업이익 83.3조원…최대 실적 또 경신",
+   "url": "https://biz.heraldcorp.com/article/10916973",
+   "press": "헤럴드경제",
+   "at": "2026-10-28 08:31",
+   "why": "🎯 집중·포트 칸 하이닉스 — 컨센 약 77조 대비 +8% 상회, D+1 「뉴스에 판다」 watch 판정 대상",
+   "summary": "매출 104.6조(전분기 +32%)·영업이익 83.3조(전분기 60.5조, +38%)·이익률 약 80%(계산). 주주환원 내용은 기사에 없음 — 컨콜 확인 필요."
+  },
+  {
    "title": "유가, 미·러 디젤 거래·중동 공격 사이에서 흔들",
    "url": "https://virginiabusiness.com/oil-prices-us-russia-diesel-deal-middle-east-attacks/",
    "press": "Virginia Business",
@@ -623,22 +631,6 @@
    "at": "2026-10-26 14:35",
    "why": "열린 bet EWQ(프랑스 ETF)와 유럽 금리 — 국채 매도가 주식 할인율로 번지는지",
    "summary": "블룸버그 「프랑스 국채 매도, ECB 후임 구도의 위기」와 같은 줄기. 스프레드 수치는 미확인."
-  },
-  {
-   "title": "프랑스 국채 금리 24년 만의 고점 근처",
-   "url": "https://tradingeconomics.com/france/government-bond-yield/news/593451",
-   "press": "Trading Economics",
-   "at": "2026-10-26 14:35",
-   "why": "EWQ bet·유럽 칸 — 국가 위험 프리미엄 확대 확인용",
-   "summary": "제목 기준 프랑스 10년물 24년 고점 부근. 정확한 수치·날짜는 미확인."
-  },
-  {
-   "title": "SpaceX, 엔비디아 칩 구매 위해 400억달러 차입 추진 — 아폴로 주도(FT 보도)",
-   "url": "https://investinglive.com/stocks/spacex-seeks-40-billion-in-debt-led-by-apollo-to-fund-nvidia-chip-order-ft-says/",
-   "press": "investingLive(FT 인용)",
-   "at": "2026-10-26 13:35",
-   "why": "🧠 AI 차입 가설 0.88 — AI 칩 구매가 현금이 아닌 사모 크레딧 부채로: 10/26 머스크 「조달 완료」 주장(HANAchina/71009)의 원 보도",
-   "summary": "FT 보도: SpaceX가 아폴로 주도로 400억달러 부채를 모아 엔비디아 칩 주문 자금으로 쓰려 함. 10/26 머스크는 완료를 주장했으나 가격 협상 미완료라는 보도도 있음(미확인)."
   }
  ],
  "at": "2026-10-28 07:35"
