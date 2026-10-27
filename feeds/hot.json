@@ -1,5 +1,5 @@
 {
- "at": "2026-10-27 18:35",
+ "at": "2026-10-27 19:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/Q4bUNGWkFPbTM3Z04zLXB2bUdtclBvVmpmQmhqcEloSTJUOHg2ZzRsbEIoc5": {
@@ -22,11 +22,6 @@
    "why": "🇰🇷 한국 가설(0.80)·반도체 칸 — 주간 외국인 SK하이닉스 −8,772억 순매도 vs 삼성전자 +8,072억(미래에셋): 28일 하이닉스 실적·주주환원 앞 외국인 회피, 한국 비중 확대 금지 유지",
    "at": "2026-10-27 06:35"
   },
-  "n/5IdlMzaTJtS2d4d1djdDZ3Y1NDc09meHFuV0hoR0EtR3F2SThZUkFvLWsoc5": {
-   "lv": 1,
-   "why": "🧠 AI 차입 가설(0.90) — 골드만 하루 2,100억$ 딜, AI 자금 조달 열기(bbg): 공급 물량 급증 = 크레딧 흡수력 시험",
-   "at": "2026-10-27 10:35"
-  },
   "n/J1cFU4Qk9mV0NsQ29EaFM5UWtPYVdqeXNUTy1senNsaUVxY3hOM0NpdGcoc5": {
    "lv": 1,
    "why": "반도체 칸·하이닉스 실적(29일) — 앤트로픽 상장 서류에 삼성·하이닉스 HBM 공급 위험 명시 = 메모리 가격 결정력 확인",
@@ -47,11 +42,6 @@
    "why": "AI 차입 가설 — 국내 AI 인프라 대형 계약(90억$), 7월 엔비디아·브룩필드 협력의 후속; 네이버는 신호 종목 아님",
    "at": "2026-10-27 16:35"
   },
-  "n/httpwwwedailycokrnewsnewspathaspnewsid04670726645617184": {
-   "lv": 1,
-   "why": "한국 반등 가설 — 28일 하이닉스·30일 삼성 확정 실적에서 주주환원 발표 여부가 외국인 사흘 수급 판정과 직결",
-   "at": "2026-10-27 16:35"
-  },
   "n/zRDeGdWZUN5aDdjbFNaTWgwa2pWakYxRGRGWFVfZHJQVHBfYUJYVGFFMAoc5": {
    "lv": 1,
    "why": "🇰🇷 한국 가설(0.80)·AI 차입(0.90) — 한은 「美 AI 투자 둔화 시 반도체 수출 500~1,000억$ 감소」: 반도체 칸 하방 시나리오 수치",
@@ -66,6 +56,16 @@
    "lv": 1,
    "why": "AI 차입 가설(0.90) — 브로드컴이 고객 앤트로픽 칩 구매자금 630억$ 조달, 공급사 금융 순환 확대",
    "at": "2026-10-27 18:35"
+  },
+  "n/s20261027iransaysitwilltakeactionagainstsinokorshipsinhormuz": {
+   "lv": 1,
+   "why": "CHRD 열린 bet·에너지 ☕ 신호(SM·TALO·SU) — 이란, 한국계 최대 유조선사 시노코르 선박에 호르무즈 「법적 조치」 예고: 해상 공급 위험 재점화",
+   "at": "2026-10-27 19:35"
+  },
+  "n/MZTZITHo3TWtrcl9TR09TMWE0aVZiNkRiOXFkNzlORzFHcjk4RGJLd0k0oc5": {
+   "lv": 1,
+   "why": "반도체 칸·28일 하이닉스 실적 — 中 빅테크가 D램 장기계약을 서두름 = 메모리 가격 결정력, 「호실적에도 주가 둔감」(bbg)과 맞서는 숫자",
+   "at": "2026-10-27 19:35"
   }
  }
 }
