@@ -4695,6 +4695,14 @@
 "lv": 165.41,
 "max20": 2.2,
 "id60": -0.067
+},
+"EA|2026-10-28|whale": {
+"code": "EA",
+"name": "EA",
+"mkt": "US",
+"d": "2026-10-28",
+"src": "whale",
+"score": 40
 }
 },
 "sent": [
@@ -4712,22 +4720,23 @@
 ],
 "whale": [
 "ALAB",
+"AMD",
 "AVTX",
 "CDW",
-"CLF",
 "CPNG",
-"DAL",
 "DKS",
-"GHRS",
+"EA",
+"GM",
 "GOOGL",
 "INSM",
-"KYMR",
-"LRCX",
 "META",
-"MRK",
+"MPC",
 "NAMS",
-"NXPI",
+"NRIX",
+"PSX",
 "SNOW",
+"SPGI",
+"STM",
 "TSLA"
 ]
 }
