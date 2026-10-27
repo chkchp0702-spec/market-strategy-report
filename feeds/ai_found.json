@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 9월 내구재 주문 +1.8%…예상(+0.6%) 크게 상회",
+   "url": "https://www.fxstreet.com/news/united-states-durable-goods-orders-rise-18-in-september-vs-06-expected-202610271236",
+   "press": "FXStreet",
+   "at": "2026-10-27 22:45",
+   "why": "고금리 가설(0.42)·FOMC watch — 경기 숫자가 단단해 연준 매파 여지, 다만 항공기 몫이 커 질은 약함",
+   "summary": "9월 내구재 +1.8%(3,454억$), 운송 제외 +0.5%, 국방 제외 +2.2%. 8월 −0.1%로 수정. 달러지수 102.18(+0.15%)로 반응 제한."
+  },
+  {
+   "title": "美 증시 개장 전: 앤트로픽 상장 여파 기술주 반등, WTI 101달러대 하락",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-081901995.html",
+   "press": "Yahoo Finance",
+   "at": "2026-10-27 22:45",
+   "why": "반도체 칸·CHRD 열린 bet — 반도체 이틀째 강세 vs 유가 하락(CHRD 역풍)",
+   "summary": "S&P 선물 +0.33%, 나스닥 선물 +0.51%. WTI 12월물 101.23(−0.52%), 10년물 4.988%. 엔비디아 메타에 30억$ 투자, 코카콜라 호실적에도 −1.2%."
+  },
+  {
    "title": "HSBC, 신용손실 13억달러에 순익 미달…주가 6.25% 급락",
    "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-slides-6-25-profit-115026753.html",
    "press": "Yahoo Finance",
@@ -623,23 +639,7 @@
    "at": "2026-10-26 02:35",
    "why": "에너지 칸·월요일 아시아 유가 갭 — 결정 시점이 이번 주 FOMC·빅테크 실적과 겹침",
    "summary": "트럼프 주말 발언: 합의 vs 「끝장」 결정 임박 · 美 역내 인력 축소 · 중간선거(11/3) 앞 유가·휘발유값 쟁점"
-  },
-  {
-   "title": "트럼프 이란 「결정할 게 있다」 — 재공습 우려 커져",
-   "url": "https://www.thenationalnews.com/news/us/2026/10/25/trump-iran-strike/",
-   "press": "The National",
-   "at": "2026-10-26 02:35",
-   "why": "에너지 칸 헤지 판단 — 공습 재개 시 브렌트 갭, 휴전·합의면 반대 방향",
-   "summary": "10/25 보도 · CENTCOM 공습 계획 보고 뒤 트럼프 승인 여부가 쟁점 · 숫자 미확인"
-  },
-  {
-   "title": "美 중부사령부 이란 추가 공습 계획 준비 — 트럼프 승인할까",
-   "url": "https://www.aljazeera.com/news/2026/10/25/centcom-reportedly-has-plans-for-iran-strikes-will-trump-approve-them",
-   "press": "Al Jazeera",
-   "at": "2026-10-26 01:35",
-   "why": "⛽ 에너지 칸·고유가 가설 — 확전 시점(내일 vs 11/3 중간선거 뒤)이 유가·위험 회피 지속 기간을 가른다",
-   "summary": "트럼프 토요일 「내일이라도」 공습 가능·동시에 「큰 합의」 언급. NYT: 美·이스라엘 11/3 선거 뒤 공동 공격 계획. 3번째 항모전단·병력 약 1만 명 11월 말까지 증파, 이번 달 선박 공격 120건↑(개전 이후 최악)."
   }
  ],
- "at": "2026-10-27 15:35"
+ "at": "2026-10-27 22:45"
 }
