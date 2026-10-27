@@ -4662,6 +4662,28 @@
 "src": "focus",
 "score": 70,
 "theme": "사이버보안"
+},
+"NIQ|2026-10-27": {
+"code": "NIQ",
+"name": "NIQ Global Intelligence plc Ordinary S",
+"mkt": "US",
+"d": "2026-10-27",
+"src": "cup_eye",
+"score": 60.0,
+"lv": 19.19,
+"max20": 5.4,
+"id60": -0.1
+},
+"PLTR|2026-10-27": {
+"code": "PLTR",
+"name": "Palantir Technologies Inc. - Class A C",
+"mkt": "US",
+"d": "2026-10-27",
+"src": "cup_eye",
+"score": 31.4,
+"lv": 179.78,
+"max20": 5.2,
+"id60": -0.067
 }
 },
 "sent": [
