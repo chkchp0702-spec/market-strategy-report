@@ -73,7 +73,7 @@ NEWS = [
     ("investing_en", "Investing.com 증시", "언론사 RSS", "https://www.investing.com/rss/news_25.rss", "investing.com"),
     ("axios_mkt", "Axios Markets", "구글뉴스 site:axios.com", GN.format(q="site:axios.com+(markets+OR+economy+OR+business)+when:1d", hl="en-US", gl="US", lang="en")),
     ("gn_us_tech", "News · 반도체·AI(영문)", "Google News", GN.format(q="semiconductor+OR+HBM+OR+Nvidia+OR+%22AI+data+center%22+OR+optical+module+when:1d", hl="en-US", gl="US", lang="en")),
-    ("gn_us_ib", "News · 월가 IB 전략", "Google News", GN.format(q="Goldman+Sachs+OR+%22Morgan+Stanley%22+OR+JPMorgan+OR+BlackRock+strategist+outlook+when:1d", hl="en-US", gl="US", lang="en")),
+    ("gn_us_ib", "News · 월가 IB 전략", "Google News", GN.format(q="Goldman+Sachs+OR+%22Morgan+Stanley%22+OR+JPMorgan+OR+BlackRock+strategist+outlook+when:3d", hl="en-US", gl="US", lang="en")),
     # 아시아 (일본·중국·홍콩)
     ("nikkei_asia", "Nikkei Asia", "언론사 RSS", "https://asia.nikkei.com/rss/feed/nar", "asia.nikkei.com"),
     ("scmp_biz", "SCMP 비즈니스", "언론사 RSS", "https://www.scmp.com/rss/92/feed", "scmp.com"),
@@ -97,7 +97,8 @@ NEWS = [
     ("thebell", "더벨(자본시장)", "구글뉴스 site:thebell.co.kr", GN.format(q="site:thebell.co.kr+when:1d", hl="ko", gl="KR", lang="ko")),
     ("gn_kr_global", "뉴스 · 해외 증시(한글)", "구글 뉴스 검색", GN.format(q=_up.quote("뉴욕증시+OR+나스닥+OR+엔비디아+OR+일본증시+OR+중국증시+OR+홍콩증시+when:1d", safe="+:"), hl="ko", gl="KR", lang="ko")),
 ]
-SLOW = {"fed", "ecb", "eia", "caixin"}   # 🔧 10/11 공식 기관은 며칠에 한 번 발표 → 2일 창이면 주말에 0개(건강검진 「0개 피드」) — 7일 유지
+SLOW = {"fed", "ecb", "eia", "caixin", "gn_us_ib"}   # 🔧 10/11 공식 기관은 며칠에 한 번 발표 → 2일 창이면 주말에 0개(건강검진 「0개 피드」) — 7일 유지
+# 🔧 10/28 월가 IB 전략(gn_us_ib)도 하루 0~2개(10/28 16:39 0개) — 받기 3일 · 남기기 7일
 # 🔧 10/25 Caixin Global 도 주말엔 하루 1개 이하(10/25 일 13:07 부터 0개 → 건강검진 문제) — 받기 3일 · 남기기 7일
 OLD_NEWS = {"gn_kr_mkt", "gn_kr_macro", "gn_kr_sector", "gn_kr_strat", "gn_us_mkt", "gn_us_fed", "hankyung", "mk", "cnbc", "yahoo", "cnbc_top", "investing_kr"}
 FIN = re.compile(r"주|증시|코스피|코스닥|지수|금리|환율|달러|채권|국채|연준|Fed|물가|경기|경제|수출|실적|매출|이익|투자|펀드|ETF|반도체|HBM|AI|전력|조선|방산|원전|배터리|IPO|공모|상장|외국인|기관|목표가|리포트|전략|시장|무역|관세|유가|원유|금값|비트|증권|은행|M&A|인수|합병")
