@@ -79,10 +79,32 @@ def kr_of(inst: str) -> list[dict]:
     return out[:4]
 
 
+def expand_sleeve(rows: list[dict], L: dict) -> list[dict]:
+    """🧭 섹터 칸 (10/28 사용자 「2번」 — 섹터 의견을 주식의 20%만큼 실제 돈으로)
+    장부 allocation 의 {"sleeve": true} 한 줄을 sector_views 비율대로 칸별 줄(「🧭 전력·인프라」 …)로 펼친다.
+    리포트가 sector_views 의 pct 를 바꾸면 다음 계산부터 돈도 그대로 따라 바뀐다. 합은 sleeve 줄의 pct 와 같게 맞춘다."""
+    out = []
+    views = [v for v in ((L.get("sector_views") or {}).get("views") or []) if float(v.get("pct") or 0) > 0]
+    for a in rows:
+        if not a.get("sleeve"):
+            out.append(a); continue
+        tot, sp = sum(float(v["pct"]) for v in views), float(a["pct"])
+        if not views or tot <= 0 or sp <= 0:
+            continue
+        sub = [{"pct": round(sp * float(v["pct"]) / tot, 1), "name": "🧭 " + v["name"], "instruments": v.get("instruments", ""),
+                **({"picks": v["picks"]} if v.get("picks") else {}), **({"why_picks": v["why_picks"]} if v.get("why_picks") else {})} for v in views]
+        diff = round(sp - sum(x["pct"] for x in sub), 1)
+        if diff and sub:
+            big = max(sub, key=lambda x: x["pct"]); big["pct"] = round(big["pct"] + diff, 1)
+        out += sub
+    return out
+
+
 def update_log(now) -> list[dict]:
     L = json.loads(LEDGER.read_text(encoding="utf-8"))
     alloc = [{"pct": a["pct"], "name": a["name"], "instruments": a.get("instruments", ""), **({"picks": a["picks"]} if a.get("picks") else {}),
-              **({"why_picks": a["why_picks"]} if a.get("why_picks") else {})} for a in L.get("allocation", [])]
+              **({"why_picks": a["why_picks"]} if a.get("why_picks") else {}), **({"sleeve": True} if a.get("sleeve") else {})} for a in L.get("allocation", [])]
+    alloc = expand_sleeve(alloc, L)
     try:
         log = json.loads(LOG.read_text(encoding="utf-8"))
     except Exception:
