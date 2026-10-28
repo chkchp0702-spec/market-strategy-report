@@ -23,7 +23,7 @@ def _v(items: dict, key: str):
 
 def _chg(items: dict, key: str):
     it = items.get(key)
-    return None if not it else it.get("change_pct")
+    return None if not it or it.get("stale") else it.get("change_pct")
 
 
 def _streak_positive(hist_csv: Path, col: str, n: int = 2) -> tuple[int, list]:

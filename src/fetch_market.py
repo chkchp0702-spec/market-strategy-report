@@ -225,11 +225,22 @@ def naver_rss(blog_id: str = "james_lee_advisors") -> list[dict]:
     return items
 
 
+def _prev_items_at(mk) -> str:
+    try:
+        return json.loads((mk / "latest.json").read_text(encoding="utf-8")).get("fetched_kst", "?")
+    except Exception:
+        return "?"
+
+
 def main() -> int:
     MK.mkdir(exist_ok=True)
     FEEDS.mkdir(exist_ok=True)
     now = datetime.now(KST)
     latest = {"fetched_kst": now.strftime("%Y-%m-%d %H:%M"), "items": {}}
+    try:  # 이번에 못 받은 값은 직전 값을 「이전 값」 표시로 남긴다(앱·두뇌가 빈칸 대신 헤드라인 숫자를 쓰지 않게)
+        _prev_items = json.loads((MK / "latest.json").read_text(encoding="utf-8")).get("items", {})
+    except Exception:
+        _prev_items = {}
     hist_rows: dict[str, dict[str, float]] = {}
 
     print("Yahoo…")
@@ -245,6 +256,11 @@ def main() -> int:
             r["name"] = name
             r["value"] = round(r["value"], nd); r["prev"] = round(r["prev"], nd)
             r["change"] = round(r["change"], nd); r["change_pct"] = round(r["change_pct"], 2)
+        if not r and isinstance(_prev_items.get(key), dict):
+            r = dict(_prev_items[key])
+            if not r.get("stale"):
+                r["src"] = f"{r.get('src', '')} (이전 값 — {_prev_items_at(MK)} 수집)"
+            r["stale"] = True
         latest["items"][key] = r
 
     print("Treasury…")
@@ -292,7 +308,7 @@ def main() -> int:
         for d in sorted(merged):
             w.writerow([d] + [merged[d].get(c, "") for c in cols])
 
-    got = sum(1 for v in latest["items"].values() if v)
+    got = sum(1 for v in latest["items"].values() if v and not v.get("stale"))
     print(f"완료: {got}/{len(latest['items'])} 항목 · history {len(merged)}일")
     return 0 if got else 1
 

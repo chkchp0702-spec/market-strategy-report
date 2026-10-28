@@ -45,7 +45,7 @@ def _compass():
 
 def _ch(it, k):
     x = it.get(k) or {}
-    return x.get("change_pct")
+    return None if x.get("stale") else x.get("change_pct")
 
 
 def _streak(rows, key, sign):
