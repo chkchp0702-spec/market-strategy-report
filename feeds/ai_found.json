@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "마이크로소프트, 클라우드 성장 가속 — 지출도 함께 가속",
+   "url": "https://fortune.com/2026/10/28/microsofts-cloud-growth-accelerates-and-so-too-does-the-spending/",
+   "press": "Fortune",
+   "at": "2026-10-29 08:35",
+   "why": "크레딧 가설·한국 HBM 밸류체인(타이거일렉 bet) — capex 하향이 수요 둔화가 아닌 공급 지연인지 확인",
+   "summary": "FY27 1분기 매출 922.8억$(컨센 906.9억$ 상회)·2분기 가이던스 960~971억$. 2026 capex 전망 약 1,750억→1,700억$로 낮췄고 이유는 GPU 공급 지연(연합인포맥스 인용)."
+  },
+  {
+   "title": "MS CFO, 올해 자본지출 약 1,700억 달러 전망",
+   "url": "https://cryptobriefing.com/microsoft-cfo-170-billion-capex-outlook/",
+   "press": "Crypto Briefing",
+   "at": "2026-10-29 08:35",
+   "why": "하이퍼스케일러 capex 「실적치 vs 전망」 필터(ideas 10/29 05:45)의 첫 하향 사례",
+   "summary": "후드 CFO 「2026 capex 약 1,700억$」. 분기 2분기 capex 500억$ 상회 언급(kwusa/61536). 수요가 공급을 계속 웃돈다는 설명."
+  },
+  {
    "title": "텍사스 주지사, 데이터센터 전력망 승인 보류",
    "url": "https://www.eenews.net/articles/texas-governor-puts-data-center-grid-approvals-on-hold/",
    "press": "E&E News",
@@ -623,23 +639,7 @@
    "at": "2026-10-27 08:35",
    "why": "🇰🇷 한국 가설 — 성장은 반도체 수출·설비투자 몰림, 민간소비 감소: 지수 바닥 논쟁에 거시 뒷받침, 외국인 복귀 여부가 남은 열쇠",
    "summary": "3분기 GDP 전기비 1.0%(한은 전망의 약 3배), 연간 3.3%↑ 전망. GDI 전기비 3.4%(einfomax)·민간소비 뒷걸음."
-  },
-  {
-   "title": "버라이즌 3분기 — 연간 전망 상향·AI 인프라(광섬유) 계약 확대",
-   "url": "https://www.sec.gov/Archives/edgar/data/0000732712/000073271226000049/a2026q3exhibit99.htm",
-   "press": "SEC 8-K",
-   "at": "2026-10-27 07:35",
-   "why": "AI 자금이 통신망(광섬유)까지 번짐 — 10/26 통신장비 업종 +3.7% 주도와 이어짐, 반도체 밖 AI 인프라 수혜 확인",
-   "summary": "10/26 실적 발표: 연간 전망 상향, 하이퍼스케일러(구글·AWS)와 AI 데이터센터 광섬유 계약 체결(cnbc_top 「20억$ 이상」). 세부 숫자는 원문 확인."
-  },
-  {
-   "title": "스페이스X, 아폴로 주도 400억$ 빚으로 엔비디아 칩 구매 — 핌코 40억$ 인수",
-   "url": "https://fourweekmba.com/ai-spacex-seeks-40b-debt-for-nvidia-chips-more-than-it-owes/",
-   "press": "FourWeekMBA",
-   "at": "2026-10-27 07:35",
-   "why": "AI 차입 가설 — 칩 구매를 빚으로 하는 사슬이 브로드컴(630억$)·메타(공모)·스페이스X로 넓어짐, 핌코 인수는 수요가 아직 강하다는 반대 근거",
-   "summary": "아폴로 주도 400억$(약 300억$ 투자등급), 기존 부채보다 많은 규모. 10/26 bbg: 핌코가 그중 40억$ 인수."
   }
  ],
- "at": "2026-10-28 12:35"
+ "at": "2026-10-29 08:35"
 }
