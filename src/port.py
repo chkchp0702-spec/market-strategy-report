@@ -140,7 +140,7 @@ def main() -> int:
     import yfinance as yf
     import pandas as pd
 
-    tick = set(BENCH) | {"KRW=X"}
+    tick = set(BENCH) | {"KRW=X", "IEF", "TLT"}     # 🔄 10/28 Q10/28-2 월말 흐름: 신호(SPY·IEF) · 장기채 칸(TLT)
     for e in log:
         for a in e["alloc"]:
             tick |= set(us_of(a["name"], a["instruments"], a.get("picks")))
@@ -177,6 +177,21 @@ def main() -> int:
 
     def tret(d0, d1):
         return TP.ret_between(TNAV, d0, d1)
+
+    # 🔄 10/28 Q10/28-2: 연기금 월말 리밸런싱 앞지르기 (src/month_flow.py · FLOW_FROM 부터 · 소급 없음 · 💼 에만)
+    from src import month_flow as MF
+    CALL = list(C["SPY"].index)
+    _MFS = {}
+
+    def flow_state(d1):
+        k = d1.strftime("%Y-%m-%d")
+        if k not in _MFS:
+            try:
+                _MFS[k] = MF.state(C, CALL, d1)
+            except Exception as e_:
+                print("🔄 월말 흐름 계산 실패", e_)
+                _MFS[k] = (0, None, 99)
+        return _MFS[k]
 
     USD = {}
 
@@ -280,6 +295,10 @@ def main() -> int:
             w[TP.NAME] = sum(w[n] for n in cn) + (0.0 if cn else freed)
             for n in cn:
                 w[n] = 0.0
+        sg_ = flow_state(d1)[0]
+        if sg_:
+            w = MF.apply(w, sg_, lambda k: not (is_cash(k) or is_gold(k) or k in (TP.NAME, MF.NAME)),
+                         lambda k: is_cash(k) or is_gold(k) or k == TP.NAME)
         return w
 
     def rules_on(e, d0, qds=None, vol=False):
@@ -321,6 +340,11 @@ def main() -> int:
             r_tot += c
             parts[TP.NAME] = c
             contrib[TP.NAME] = contrib.get(TP.NAME, 0) + c * nav[-1]
+        if bw.get(MF.NAME):
+            c = bw[MF.NAME] / 100 * (ret(MF.BOND, d0, d1) or 0.0)
+            r_tot += c
+            parts[MF.NAME] = c
+            contrib[MF.NAME] = contrib.get(MF.NAME, 0) + c * nav[-1]
         nav.append(nav[-1] * (1 + r_tot))
         if d1.strftime("%Y-%m-%d") >= RULE_FROM:
             rw = rules_on(e, d0, (d1 - pd.Timedelta(days=1)).strftime("%Y-%m-%d"), vol_on(d1))[0]
@@ -363,6 +387,7 @@ def main() -> int:
                 rs = [x for x in (ret(t, d0, d1) for t in us) if x is not None]
                 rr[a["name"]] = sum(rs) / len(rs) if rs else 0.0
             rr[TP.NAME] = tret(d0, d1)
+            rr[MF.NAME] = ret(MF.BOND, d0, d1) or 0.0
             g = sum(w.get(k, 0) * rr.get(k, 0.0) for k in w)
             hv.append(v * (1 + g))
             tot = 1 + g
@@ -447,6 +472,14 @@ def main() -> int:
                              TP.LAST_PX.get(t), "cur": "달러",
                              "r1": round((ret(t, cal[-2], cal[-1]) or 0) * 100, 2) if t in C and len(cal) > 1 else None} for t, w, nm in tw_],
                      "kr": [], "contrib": round(contrib.get(TP.NAME, 0) * 100, 2)})
+    if bw_now.get(MF.NAME) or contrib.get(MF.NAME):
+        hold.append({"name": MF.NAME, "pct": round(bw_now.get(MF.NAME, 0.0), 1), "pct_base": 0, "trend": True, "flow": True,
+                     "instruments": "월말 마지막 5거래일 · 60/40 펀드가 주식 팔 차례 → 주식 칸 60% 를 미국 장기채로 잠깐",
+                     "check": [], "sig": "", "pick_vs": None, "picks": None, "why_picks": None,
+                     "us": [{"t": MF.BOND, "name": "미국 장기채", "px": round(float(C[MF.BOND].iloc[-1]), 2) if MF.BOND in C else None, "cur": "달러",
+                             "krw": round(float(C[MF.BOND].iloc[-1]) * fx) if MF.BOND in C and fx else None,
+                             "r1": round((ret(MF.BOND, cal[-2], cal[-1]) or 0) * 100, 2) if MF.BOND in C and len(cal) > 1 else None}],
+                     "kr": [], "contrib": round(contrib.get(MF.NAME, 0) * 100, 2)})
     prev = log[-2]["alloc"] if len(log) > 1 else None
     rw_now, why_now, cash_t, qd_now, st_now = rules_on(log[-1], cal[-1], now.strftime("%Y-%m-%d"), vol_on(nxt))     # 다음 거래일에 쓸 킥 포트 기본 비중 (국면은 오늘 것)
     rule = {"from": RULE_FROM, "use": list(USE), "quad": qd_now, "cash": cash_t, "nav": [round((v - 1) * 100, 2) for v in nav_rule],
@@ -506,11 +539,25 @@ def main() -> int:
                          f"(S&P½+나스닥½ {VP_BASE['lb']}일 변동성 {float(_vb[_vb.index <= d0].iloc[-1]) * 100:.1f}% · 목표 {VP_BASE['target']}%) — 나머지는 " + ("🧭 자산 추세 칸" if park_on(d1) else "현금·단기채")
                          + (" · 다음 거래일부터" if i == len(cal) else ""), "vol": True})
         prev_sc = sc
+    # 🔄 월말 흐름이 켜지고 꺼진 날
+    prev_f = 0
+    for i in range(1, len(cal) + 1):
+        d1 = cal[i] if i < len(cal) else nxt
+        sg_, dr_, lf_ = flow_state(d1)
+        if sg_ != prev_f:
+            why_ = ("🔄 월말 흐름: 60/40 펀드 주식 비중 " + (f"{dr_ * 100:+.2f}%p 쏠림 → " if dr_ is not None else "") +
+                    ("주식 칸 60% → 미국 장기채(TLT)" if sg_ > 0 else "금·🧭 추세 칸 60% → 주식 칸" if sg_ < 0 else "원래 비중으로 되돌림"))
+            vchg.append({"date": d1.strftime("%Y-%m-%d"), "why": why_ + (" · 다음 거래일부터" if i == len(cal) else ""), "flow": True})
+        prev_f = sg_
     changes = sorted([{"date": e["date"], "why": e.get("why", "")} for e in log] + vchg, key=lambda x: x["date"], reverse=True)
     out = {
         "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "views": views, "vol_rule": vol_rule, "trend_park": {"on": park_on(nxt), "from": TP.PARK_FROM, "rule": f"{TP.NIN}/{TP.NOUT}|{TP.WMODE}", "pct": round(bw_now.get(TP.NAME, 0.0), 1),
                                                  "open": T_OPEN, "idle": round(T_IDLE, 3), "ok": TNAV is not None,
                                                  "note": "Q10/28-1 — 💼 현금·단기채 칸(변동성 맞춤·국면으로 덜어낸 돈)을 SGOV 대신 🧭 자산 추세 9종(100일 고가 돌파·50일 저가 이탈·변동성 반비례) 칸에 둠 · 근거 market/lab/k1028_bundle.json · 레버리지 없음"},
+        "month_flow": (lambda st_: {"on": True, "from": MF.FLOW_FROM, "sig": st_[0], "drift": round(st_[1] * 100, 2) if st_[1] is not None else None,
+                                    "left": st_[2], "window": st_[2] < MF.K, "k": MF.K, "th": MF.TH * 100, "f": MF.F,
+                                    "pct": round(bw_now.get(MF.NAME, 0.0), 1), "for": nxt.strftime("%Y-%m-%d"),
+                                    "note": "Q10/28-2 — 매달 마지막 5거래일, 60/40 펀드(SPY·IEF) 주식 비중이 ±0.5%p 넘게 쏠리면 펀드가 억지로 사고팔 쪽에 미리 섬(넘침 → 주식 칸 60% 장기채 · 모자람 → 금·추세 칸 60% 주식) · 근거 market/lab/k1028_rebalflow4.json · 💼 에만 · 레버리지 없음"})(flow_state(nxt)),
         "asof": cal[-1].strftime("%Y-%m-%d"), "fx": round(fx, 1) if fx else None,
         "dates": series_d, "nav": [round((v - 1) * 100, 2) for v in nav],
         "bench": {BENCH[k]: [round((v - 1) * 100, 2) for v in bn[k]] for k in BENCH},
