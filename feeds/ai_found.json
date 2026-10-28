@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아, 공급사 6곳과 기판 2.5배·인터포저 4배 용량 확보(삼성전기·앰코·이비덴·유니마이크론·KYEC·SPIL)",
+   "url": "https://siliconanalysts.com/market/nvidia-locks-in-2-5x-substrate-and-4x-interposer-capacity-with-six-suppliers-2026-10-22",
+   "press": "Silicon Analysts",
+   "at": "2026-10-29 02:50",
+   "why": "⚡ 타이거일렉 bet(☕ 10/28) — 테스트(KYEC) 용량 26→27년 2배는 테스트 기판 수요의 근거",
+   "summary": "기판 전용 용량 3년 2.5배(이비덴 몫은 2028 램프) · 앰코 한국 인터포저 2028년 말 +300%↑ · SPIL CPO 광엔진 27년 중 15배 · 엔비디아 테스트 용량 26→27년 2배(기준치 미공개)"
+  },
+  {
+   "title": "美 증시 FOMC 직전 — S&P·다우 소폭↑, 나스닥 보합 · 버티브 +13%, F5 −19%, 엔페이즈 −16%",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-28-2026",
+   "press": "StockTitan",
+   "at": "2026-10-29 02:50",
+   "why": "AI 전력 인프라(버티브 수주 2배↑) 강세 vs 실적 가이던스 실망주 급락 — 「좋아도 가이던스」 장세",
+   "summary": "12:01 ET SPY +0.2% · VRT +13.3%(기존사업 수주 2배↑·매출 전망 상향) · FFIV −19.2%(FY27 매출 성장 8~9% 전망) · ENPH −15.8% · LOGI −11.2% · HOOD −3.7%"
+  },
+  {
    "title": "인스타카트 매각 검토 보도에 주가 +9% — 도어대시·우버 거론",
    "url": "https://www.analyticsinsight.net/news/instacart-sale-talks-with-uber-and-doordash-push-stock-up-9",
    "press": "Analytics Insight",
@@ -623,22 +639,6 @@
    "at": "2026-10-27 03:35",
    "why": "🎯 반도체 칸·AI 차입 가설 — 앤트로픽 상장 신청 뒤 반등이 반도체에 좁게 몰렸는지 확인",
    "summary": "10/26 美 증시 반등, 반도체 주도·유가 하락. CNBC 14:25 EDT 기준 S&P +0.73%·나스닥 +0.97%·VIX 18.38(latest.json)."
-  },
-  {
-   "title": "월가, 앤트로픽 IPO 신청에 한 달 새 최고의 하루 노려",
-   "url": "https://thenationalnews.com/business/2026/10/26/anthropic-ipo-ai-tech-stocks",
-   "press": "The National",
-   "at": "2026-10-27 03:35",
-   "why": "AI 주식 공급(앤트로픽·메타 공모)과 지수 반등이 같은 주에 겹침 — FOMC·빅테크 실적 전 위험 선호 회복 강도 점검",
-   "summary": "앤트로픽 나스닥 상장 신청이 AI주 심리를 끌어올림. 세부 숫자 미확인."
-  },
-  {
-   "title": "월가, 앤트로픽 상장 신청에 한 달 새 최대 상승 노려 — 필라델피아 반도체 +3%",
-   "url": "https://www.marketscreener.com/news/wall-st-eyes-best-day-in-a-month-as-anthropic-s-ipo-filing-propels-ai-stocks-ce785cdcdc8ff722",
-   "press": "Reuters(MarketScreener)",
-   "at": "2026-10-27 02:35",
-   "why": "🧠 AI 차입·쏠림 가설 — 반등이 반도체·임의소비재에 몰림, 메타 950억$ 공모 발표에도 메타 +0.2%(물량 흡수 1일차 무난)",
-   "summary": "10/26 11:30 ET S&P +0.92%·나스닥 +1.25%·다우 +0.32%, 11개 업종 중 8개 상승. 필라델피아 반도체 +3%↑, 테슬라 +6.3%(바클레이즈 비중확대). 연준 수요일 동결 예상."
   }
  ],
  "at": "2026-10-28 12:35"

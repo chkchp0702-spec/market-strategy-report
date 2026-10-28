@@ -1,5 +1,5 @@
 {
- "at": "2026-10-29 01:40",
+ "at": "2026-10-29 02:50",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7764": {
@@ -57,20 +57,10 @@
    "why": "크레딧 가설(0.88) — MSFT·구글 실적 직전 빅테크 CDS 사상 최고, AI 투자 부담 = 오늘 밤 실적 반응의 하방 꼬리",
    "at": "2026-10-28 23:40"
   },
-  "n/tnewsemersonelectricoptionssignal49moveonearnings93CH4979949": {
+  "n/nBwMGVZQ25fcXNLempXd3k1R2JTalhVVU16NWY3ZXFQR3lQazFMaVZlQQoc5": {
    "lv": 1,
-   "why": "EMR(☕ 컵 10/27) 실적 옵션 내재 ±4.9% — 컵 돌파 뒤 실적 갭 위험 크기 가늠",
-   "at": "2026-10-29 00:45"
-  },
-  "n/m5XVVhmVnlHS0dJRmpxMWpEY2hBMl9Fd1pCNFpiZzBRaWRwcHlEZ1I1Zwoc5": {
-   "lv": 1,
-   "why": "CART(☕ cup_eye 10/23) 직격 — WSJ 「도어대시가 인스타카트 인수 막바지 협상」, 딜 가격 나오면 신호 종목 갭",
-   "at": "2026-10-29 01:40"
-  },
-  "n/RsWlBza2tSUl9QaGhSS0dtanR3c1pEQmN1MHFqa29pN0QxQjVJTkhaMDgoc5": {
-   "lv": 1,
-   "why": "금리 가설 — 캐나다 2023년 이후 첫 인상(2.50%)·추가 인상 시사, 오늘 새벽 FOMC 「매파적 동결」 쪽 무게",
-   "at": "2026-10-29 01:40"
+   "why": "엔비디아 공급망 6곳 확장(테스트 용량 26→27년 2배) — ⚡ 타이거일렉(☕ 10/28) bet 의 「테스트 기판 다년 가시성」 가설 보강",
+   "at": "2026-10-29 02:50"
   }
  }
 }
