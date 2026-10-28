@@ -4765,6 +4765,57 @@
 "src": "accum",
 "score": 68.0,
 "lv": 9660.0
+},
+"DBX|2026-10-28": {
+"code": "DBX",
+"name": "Dropbox, Inc. - Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-28",
+"src": "cup_eye",
+"score": 67.9,
+"lv": 37.06,
+"max20": 3.5,
+"id60": -0.167
+},
+"ICFI|2026-10-28": {
+"code": "ICFI",
+"name": "ICF International, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-28",
+"src": "cup_eye",
+"score": 62.7,
+"lv": 90.58,
+"max20": 4.8,
+"id60": 0.033
+},
+"CSTL|2026-10-28": {
+"code": "CSTL",
+"name": "Castle Biosciences, Inc. - Common stoc",
+"mkt": "US",
+"d": "2026-10-28",
+"src": "cup",
+"score": 59.8,
+"lv": 36.89,
+"max20": 3.7,
+"id60": -0.133
+},
+"MEDP|2026-10-28|e": {
+"code": "MEDP",
+"name": "Medpace Holdings, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-10-28",
+"src": "earn",
+"score": 61.0,
+"lv": 567.91
+},
+"PANW|2026-10-28": {
+"code": "PANW",
+"name": "팔로 알토 네트웍스",
+"mkt": "US",
+"d": "2026-10-28",
+"src": "focus",
+"score": 70,
+"theme": "사이버보안"
 }
 },
 "sent": [
