@@ -15,6 +15,8 @@ def load(name, f):
     return m
 
 
+import src.trend_park as TPm
+TPm.PARK_FROM = "2026-10-05"          # 점검용: 켜진 상태 계산이 맞나 보려고 앞당겨 봄(실제 규칙은 10/29)
 port = load("port_new", "k1028_port_new.py")
 shutil.copy(ROOT / "market/port_log.json", L / "_k1028_port_log.json")
 port.ROOT = ROOT; port.LEDGER = ROOT / "ledger" / "ledger.json"; port.LOG = L / "_k1028_port_log.json"; port.OUT = L / "_k1028_port.json"
@@ -26,7 +28,7 @@ old_p = json.loads((ROOT / "market/port.json").read_text(encoding="utf-8"))
 old_c = json.loads((ROOT / "market/conc.json").read_text(encoding="utf-8"))
 P = json.loads(port.OUT.read_text(encoding="utf-8"))
 C = json.loads(conc.OUT.read_text(encoding="utf-8"))
-out = {"at": dt.datetime.now().isoformat(),
+out = {"at": dt.datetime.now().isoformat(), "test_park_from": TPm.PARK_FROM,
        "port": {"asof": P.get("asof"), "trend_park": P.get("trend_park"), "hold": [{k: h.get(k) for k in ("name", "pct", "pct_base", "contrib", "instruments", "us")} for h in P["hold"]],
                 "sum_pct": round(sum(h["pct"] for h in P["hold"]), 2), "stat": P.get("stat"), "old_stat": old_p.get("stat"),
                 "nav_tail": P["nav"][-5:], "old_nav_tail": old_p["nav"][-5:], "honest": P["honest"]["base"], "old_honest": old_p["honest"]["base"],
