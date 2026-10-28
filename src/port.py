@@ -557,7 +557,7 @@ def main() -> int:
         "month_flow": (lambda st_: {"on": True, "from": MF.FLOW_FROM, "sig": st_[0], "drift": round(st_[1] * 100, 2) if st_[1] is not None else None,
                                     "left": st_[2], "window": st_[2] < MF.K, "k": MF.K, "th": MF.TH * 100, "f": MF.F,
                                     "pct": round(bw_now.get(MF.NAME, 0.0), 1), "for": nxt.strftime("%Y-%m-%d"),
-                                    "note": "Q10/28-2 — 매달 마지막 5거래일, 60/40 펀드(SPY·IEF) 주식 비중이 ±0.5%p 넘게 쏠리면 펀드가 억지로 사고팔 쪽에 미리 섬(넘침 → 주식 칸 60% 장기채 · 모자람 → 금·추세 칸 60% 주식) · 근거 market/lab/k1028_rebalflow4.json · 💼 에만 · 레버리지 없음"})(flow_state(nxt)),
+                                    "note": "Q10/28-2 — 매달 마지막 5거래일, 60/40 펀드(SPY·IEF) 주식 비중이 ±0.5%p 넘게 쏠리면 펀드가 억지로 사고팔 쪽에 미리 섬(넘침 → 주식 칸 60% 장기채 · 모자람 → 금·추세 칸 60% 주식) · 근거 market/lab/k1028_rebalflow4.json · 💼·🎯(Q10/28-3) · 레버리지 없음"})(flow_state(nxt)),
         "asof": cal[-1].strftime("%Y-%m-%d"), "fx": round(fx, 1) if fx else None,
         "dates": series_d, "nav": [round((v - 1) * 100, 2) for v in nav],
         "bench": {BENCH[k]: [round((v - 1) * 100, 2) for v in bn[k]] for k in BENCH},

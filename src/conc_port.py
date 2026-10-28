@@ -52,7 +52,7 @@ def main() -> int:
     import pandas as pd
     import yfinance as yf
     now = dt.datetime.now(KST)
-    tick = ["^GSPC", "SPY", "QQQ", "BIL", "^KS11"]
+    tick = ["^GSPC", "SPY", "QQQ", "BIL", "^KS11", "IEF", "TLT"]
     df = yf.download(tick, start="2024-06-01", interval="1d", auto_adjust=True, progress=False, group_by="ticker", threads=True)
     C = pd.DataFrame({t: df[t]["Close"] for t in tick if t in df.columns.get_level_values(0)})
     ks = C["^KS11"].dropna()
@@ -72,12 +72,45 @@ def main() -> int:
     C["TRD"] = TNAV.reindex(C.index, method="ffill") if TNAV is not None else 1.0
     pk = lambda d: TNAV is not None and (d + pd.offsets.BDay(1)).strftime("%Y-%m-%d") >= TP.PARK_FROM
 
-    def tw(up_, sc, park=False):
+    # 🔄 10/28 Q10/28-3: 연기금 월말 리밸런싱 앞지르기 — 💼 와 같은 규칙(src/month_flow.py) · FLOW_FROM 부터 · 소급 없음
+    #   근거 market/lab/k1028_qflow.json conc.C1_vs_C0(🎯 2017~ 연 +2.34%p·낙폭 −21.4→−19.4 · 흔들기 8/8 플러스)
+    from src import month_flow as MF
+    for _c in ("IEF", "TLT"):
+        if _c in C:
+            C[_c] = C[_c].ffill().bfill()
+    CALL = list(C.index)
+    _MFS = {}
+
+    def nday(d):
+        """d 다음 미국 거래일(지난 날은 실제 달력, 앞날은 휴장일 규칙)"""
+        i = C.index.get_loc(d)
+        if i + 1 < len(C.index):
+            return C.index[i + 1]
+        x = d + pd.Timedelta(days=1)
+        while not MF._is_td(x.date()):
+            x += pd.Timedelta(days=1)
+        return x
+
+    def fl(d):
+        """d 종가 판단 → 다음 거래일에 쓸 (sig, drift, 남은 거래일)"""
+        d1 = nday(d); k = d1.strftime("%Y-%m-%d")
+        if k not in _MFS:
+            try:
+                _MFS[k] = MF.state(C, CALL, d1) if "IEF" in C and "TLT" in C else (0, None, 99)
+            except Exception as e_:
+                print("🔄 월말 흐름 계산 실패", e_)
+                _MFS[k] = (0, None, 99)
+        return _MFS[k]
+
+    def tw(up_, sc, park=False, fsig=0):
         b_ = ON if up_ else OFF
         w_ = {"SPY": b_["SPY"] * sc, "QQQ": b_["QQQ"] * sc}
         w_["BIL"] = 1 - w_["SPY"] - w_["QQQ"]
         if park:
             w_["TRD"], w_["BIL"] = w_["BIL"], 0.0
+        if fsig:
+            w_ = MF.apply(w_, fsig, lambda k: k in ("SPY", "QQQ"), lambda k: k in ("BIL", "TRD"))
+            w_["TLT"] = w_.pop(MF.NAME, 0.0)
         return w_
     ma200, ma50 = g.rolling(200).mean(), g.rolling(50).mean()
     raw = (g > ma200).fillna(False)
@@ -94,13 +127,14 @@ def main() -> int:
 
     # 출발일 전날 종가에 산다(그날 종가 판정) → 출발일부터 하루하루 수익 · 💼 포트와 같은 기준
     cal = [d for d in C.index if d.strftime("%Y-%m-%d") >= START]
-    R = C[["SPY", "QQQ", "BIL", "TRD"]].pct_change().fillna(0.0)
-    A3 = ("SPY", "QQQ", "BIL", "TRD")
+    A3 = ("SPY", "QQQ", "BIL", "TRD") + (("TLT",) if "TLT" in C else ())
+    R = C[list(A3)].pct_change().fillna(0.0)
     p0 = C.index[C.index.get_loc(cal[0]) - 1]
     last_up = bool(reg.loc[p0])
     last_sc = sc_at(p0)
     last_pk = pk(p0)
-    w = tw(last_up, last_sc, last_pk)
+    last_fs = fl(p0)[0]
+    w = tw(last_up, last_sc, last_pk, last_fs)
     val, turn, wk = 1 - COST, 1.0, p0.isocalendar()[1]
     events = [{"d": cal[0].strftime("%Y-%m-%d"), "k": "시작", "up": last_up}]
     nav = []
@@ -114,8 +148,9 @@ def main() -> int:
         up_now = bool(reg.loc[d])          # 오늘 종가 판정 → 다음 거래일부터
         sc_now = sc_at(d)
         pk_now = pk(d)
-        if up_now != last_up or d.isocalendar()[1] != wk or sc_now != last_sc or pk_now != last_pk:
-            nt = tw(up_now, sc_now, pk_now)
+        fs_now = fl(d)[0]
+        if up_now != last_up or d.isocalendar()[1] != wk or sc_now != last_sc or pk_now != last_pk or fs_now != last_fs:
+            nt = tw(up_now, sc_now, pk_now, fs_now)
             t_ = sum(abs(nt.get(t, 0) - w.get(t, 0)) for t in A3)
             turn += t_; val *= 1 - t_ * COST; w = dict(nt)
             if up_now != last_up:
@@ -124,13 +159,19 @@ def main() -> int:
                 events.append({"d": d.strftime("%Y-%m-%d"), "k": f"🦴 변동성 맞춤 주식 {round(last_sc * 100)}→{round(sc_now * 100)}%", "up": up_now})
             if pk_now != last_pk:
                 events.append({"d": d.strftime("%Y-%m-%d"), "k": "🧭 현금 몫 → 자산 추세 칸 (Q10/28-1)", "up": up_now})
-            wk, last_up, last_sc, last_pk = d.isocalendar()[1], up_now, sc_now, pk_now
+            if fs_now != last_fs:
+                events.append({"d": d.strftime("%Y-%m-%d"), "k": "🔄 월말 흐름 " + ("주식 60% → 장기채" if fs_now > 0 else "추세·현금 60% → 주식" if fs_now < 0 else "끝 · 제자리로") + " (Q10/28-3)", "up": up_now})
+            wk, last_up, last_sc, last_pk, last_fs = d.isocalendar()[1], up_now, sc_now, pk_now, fs_now
     spy = [round((float(C.loc[d, "SPY"]) / float(C.loc[p0, "SPY"]) - 1) * 100, 2) for d in cal]
     qqq = [round((float(C.loc[d, "QQQ"]) / float(C.loc[p0, "QQQ"]) - 1) * 100, 2) for d in cal]
 
     up = bool(reg.iloc[-1])
     sc_last = sc_at(C.index[-1])
-    tgt = {t: x for t, x in tw(up, sc_last, pk(C.index[-1])).items() if x > 0.004}
+    fst = fl(C.index[-1])
+    tgt = {t: x for t, x in tw(up, sc_last, pk(C.index[-1]), fst[0]).items() if x > 0.004}
+    if "TLT" in C:
+        INFO["TLT"] = {"name": MF.NAME, "flow": True,
+                       "items": [{"t": "TLT", "w": 1.0, "name": "미국 장기채", "px": round(float(C["TLT"].iloc[-1]), 2)}]}
     INFO["TRD"] = {"name": TP.NAME, "trend": True,
                    "items": [{"t": o["sym"], "w": o["w"], "name": o.get("name"), "px": o.get("now")} for o in T_OPEN] +
                             ([{"t": "SGOV", "w": round(T_IDLE, 4), "name": TP.TNAME["SGOV"], "px": TP.LAST_PX.get("SGOV")}] if T_IDLE > 0.005 else [])}
@@ -159,6 +200,7 @@ def main() -> int:
         "rule": {"title": "🎯 집중 포트", "judge": "S&P500 200일선 위 · 3거래일 확인",
                  "on": "🟢 상승장 → S&P500 50% + 나스닥100 50% (주식 100%)", "off": "🔴 아니면 → S&P500 25% + 나스닥100 25% + 현금 50%",
                  "vol": f"🦴 변동성 맞춤(공격형, {VOL_FROM}부터): 주식 × min(1, {VP['target']}% ÷ {VP['lb']}일 변동성) · 아래 한도 {round(VP['floor'] * 100)}% → 덜어낸 만큼 " + ("🧭 자산 추세 칸" if pk(C.index[-1]) else "현금") + f" (현금 몫은 {TP.PARK_FROM}부터 🧭 자산 추세 9종 칸)",
+                 "flow": f"🔄 월말 흐름({MF.FLOW_FROM}부터 · Q10/28-3): 매달 마지막 {MF.K}거래일, 60/40 펀드(S&P·중기채) 주식 비중이 ±{MF.TH * 100:.1f}%p 넘게 쏠리면 넘침 → 주식 칸 {round(MF.F * 100)}% 미국 장기채(TLT) · 모자람 → 추세·현금 칸 {round(MF.F * 100)}% 주식",
                  "how": "판정은 그날 종가 · 다음 거래일부터 · 매주 + 판정 바뀐 날 비중 맞춤 · 사고판 양 × 0.1% 비용 · 레버리지 없음"},
         "regime": {"up": up, "since": since, "spx": round(float(g.iloc[-1]), 1), "ma200": round(float(ma200.iloc[-1]), 1),
                    "ma50": round(float(ma50.iloc[-1]), 1), "gap": round(gap, 1),
@@ -173,6 +215,10 @@ def main() -> int:
         "base": (P.get("stat") or {}).get("ret"), "kick": (K.get("stat") or {}).get("kick"),
         "turn": round(turn * 100), "events": events[::-1][:10], "bt": bt, "vol_rule": vol_rule,
         "trend_park": {"on": pk(C.index[-1]), "from": TP.PARK_FROM, "rule": f"{TP.NIN}/{TP.NOUT}|{TP.WMODE}", "open": T_OPEN, "idle": round(T_IDLE, 3), "ok": TNAV is not None},
+        "month_flow": {"on": True, "from": MF.FLOW_FROM, "sig": fst[0], "drift": round(fst[1] * 100, 2) if fst[1] is not None else None,
+                       "left": fst[2], "window": fst[2] < MF.K, "k": MF.K, "th": MF.TH * 100, "f": MF.F,
+                       "pct": round(tgt.get("TLT", 0.0) * 100, 1), "for": nday(C.index[-1]).strftime("%Y-%m-%d"),
+                       "note": "Q10/28-3 — 💼 와 같은 월말 흐름 규칙을 🎯 에도 · 근거 market/lab/k1028_qflow.json(🎯 2017~ 연 +2.34%p) · 레버리지 없음"},
         "note": "검증한 규칙을 그대로 따랐다면의 계산(비용 포함·달러 기준). 매수 추천 아님.",
     }
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
