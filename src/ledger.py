@@ -118,7 +118,9 @@ def commit(led: dict, day: dict) -> dict:
     record_calibration(led, day)
     # 어제 예고 → 다음 리포트 채점용 (+ 각 예고의 확률 p)
     led["forecasts"] = {"from": f"{date} {day['edition']}", "items": [_strip(c) for c in day.get("checks", [])],
-                        "p": day.get("forecasts_p") or []}
+                        "p": day.get("forecasts_p") or [],
+                        "base": day.get("forecasts_base") or [],          # 🎯 10/28 공짜 확률(기저율) — 실력 = 이것보다 얼마나 나았나
+                        "if_wrong": day.get("forecasts_if_wrong") or []}
     led["updated"] = date
     applied.append(date)
     return led

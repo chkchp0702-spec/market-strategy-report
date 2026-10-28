@@ -30,7 +30,9 @@ def record_calibration(led: dict, day: dict) -> None:
             continue
         cls = g.get("cls")
         outcome = 1 if cls == "ok" else 0 if cls == "no" else None
+        bs = fc.get("base") or []
         cal.append({"from": src, "i": i, "p": p, "outcome": outcome, "graded": day["date"],
+                    **({"base": bs[i]} if i < len(bs) and bs[i] is not None else {}),
                     "text": fc.get("items", [""] * 3)[i] if i < len(fc.get("items", [])) else ""})
 
 
@@ -46,9 +48,18 @@ def calibration_stats(led: dict) -> dict:
     buckets = [{"bucket": f"{k}%대", "hit": v[0], "n": v[1], "rate": round(100 * v[0] / v[1])} for k, v in sorted(b.items())]
     bias = sum(c["p"] for c in rows) / len(rows) - sum(c["outcome"] for c in rows) / len(rows)
     tone = "자신감 과잉" if bias > 0.1 else "자신감 부족" if bias < -0.1 else "대체로 맞춤"
+    # 🎯 10/28 실력 = 공짜 확률(기저율)로 찍었을 때보다 얼마나 나았나 (+ 면 실력 · 0 이하면 찍기와 같음)
+    rb = [c for c in rows if c.get("base") is not None]
+    skill = None
+    if rb:
+        b0 = sum((c["base"] - c["outcome"]) ** 2 for c in rb) / len(rb)
+        b1 = sum((c["p"] - c["outcome"]) ** 2 for c in rb) / len(rb)
+        skill = {"n": len(rb), "brier_base": round(b0, 3), "brier": round(b1, 3), "gain": round(b0 - b1, 3),
+                 "hit": round(100 * sum(c["outcome"] for c in rb) / len(rb)), "base_avg": round(100 * sum(c["base"] for c in rb) / len(rb))}
     line = (f"확률 채점 {len(rows)}건 · 브라이어 {brier:.2f} (0 완벽·0.25 동전) · "
-            + " · ".join(f"{x['bucket']} {x['hit']}/{x['n']}" for x in buckets) + f" → {tone}")
-    return {"n": len(rows), "brier": round(brier, 3), "buckets": buckets, "bias": round(bias, 2), "tone": tone, "line": line}
+            + " · ".join(f"{x['bucket']} {x['hit']}/{x['n']}" for x in buckets) + f" → {tone}"
+            + (f" · 공짜 확률 대비 실력 {skill['gain']:+.3f} ({skill['n']}건, 맞음 {skill['hit']}% vs 공짜 {skill['base_avg']}%)" if skill else ""))
+    return {"n": len(rows), "brier": round(brier, 3), "buckets": buckets, "bias": round(bias, 2), "tone": tone, "line": line, "skill": skill}
 
 
 # ---------- 8. 패널 재정렬 ----------

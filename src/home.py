@@ -108,10 +108,13 @@ def main() -> int:
     cnt = {}
     for r in sc:
         cnt[r.get("verdict", "?")] = cnt.get(r.get("verdict", "?"), 0) + 1
-    graded = cnt.get("맞음", 0) + cnt.get("틀림", 0)
+    # 🎯 10/28 사용자 「다 고쳐」: 반반은 빼지 않고 절반 맞음으로 센다 (예전엔 맞음÷(맞음+틀림) — 반반 10개를 빼서 71%로 부풀었음)
+    half = cnt.get("반반", 0)
+    graded = cnt.get("맞음", 0) + cnt.get("틀림", 0) + half
     S = []
-    S.append({"k": "report", "ic": "🌐", "t": "시황리포트 예고·킥", "n": len(sc), "win": cnt.get("맞음", 0), "loss": cnt.get("틀림", 0),
-              "rate": round(cnt.get("맞음", 0) / graded * 100) if graded else None, "note": " · ".join(f"{k} {v}" for k, v in cnt.items()),
+    S.append({"k": "report", "ic": "🌐", "t": "시황리포트 예고·킥", "n": len(sc), "win": cnt.get("맞음", 0), "loss": cnt.get("틀림", 0), "half": half,
+              "rate": round((cnt.get("맞음", 0) + 0.5 * half) / graded * 100) if graded else None,
+              "note": " · ".join(f"{k} {v}" for k, v in cnt.items()) + (" · 반반은 절반으로 셈" if half else ""),
               "recent": [{"d": r.get("date"), "t": r.get("wrote"), "v": r.get("verdict")} for r in sc[-4:]][::-1]})
     # 🎯 확률 채점 (10/11 규칙 ⑥): 예고마다 적은 확률이 맞았나 + 분야별 — 「잘 맞히는 분야 · 확률 65%↑」일 때만 비중을 바꾼다 (RULES 1-J)
     try:
