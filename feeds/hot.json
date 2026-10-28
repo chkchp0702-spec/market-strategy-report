@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28 21:38",
+ "at": "2026-10-28 22:44",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7764": {
@@ -16,11 +16,6 @@
    "lv": 1,
    "why": "🇰🇷 한국 가설(0.74)·해운 — 이란이 한국 선사 시노코르를 호르무즈 「통과 위반」으로 위협, 코스피 +3% 반등 뒤 지정학 꼬리 위험",
    "at": "2026-10-28 00:49"
-  },
-  "n/wwwcnbccom20261027trumpputinzelenskyyrussiaukrainedieselhtml": {
-   "lv": 1,
-   "why": "러시아 디젤 공급 확대·미러 석유 협력 보도로 유가 하락 — 열린 bet CHRD(☕ cup_eye) 역풍",
-   "at": "2026-10-28 07:35"
   },
   "jeunkim/224455797355": {
    "lv": 1,
@@ -67,15 +62,15 @@
    "why": "크레딧 가설(0.88) — 블룸버그 「AI 채권 발행 기계가 물량에 체하기 시작」, 같은 날 메타는 채권 대신 250억$ 주식 발행(수요 5배) = 빅테크 자금 조달이 채권→주식(희석)으로 옮겨감",
    "at": "2026-10-28 20:36"
   },
-  "n/zVnJqLUZzX3dYUWFvNnk3U3BQLUJQRE1DcEd3MG5CVUhKd292dG9MZ01Boc5": {
+  "n/Q4bUNGWkFPbTM3Z04zLXB2bUdtclBvVmpmQmhqcEloSTJUOHg2ZzRsbEIoc5": {
    "lv": 1,
-   "why": "원유 — 美 정부 호르무즈 통항 자제 권고, CHRD bet·에너지 cup_eye(SU·TALO·SM)와 직결",
-   "at": "2026-10-28 21:38"
+   "why": "유가 되밀림(美-이란 외교) — 열린 CHRD bet·에너지 cup_eye(SM·TALO·SU) 직접 연결",
+   "at": "2026-10-28 22:44"
   },
-  "n/jZfOGh0MU5TbmVERGZaRXFxSDY4SEZVSWpMVF9LS3l5QzcxRTlhWEdXRQoc5": {
+  "n/tutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
    "lv": 1,
-   "why": "금리 가설(0.40) — 해외 우방국 美 국채 매입 60% 축소, 10년 5% 고착 위험",
-   "at": "2026-10-28 21:38"
+   "why": "제너락 데이터센터 수주잔고 45억$ — 버티브에 이어 AI 전력 인프라 수요 확인, 전력기기 칸",
+   "at": "2026-10-28 22:44"
   }
  }
 }
