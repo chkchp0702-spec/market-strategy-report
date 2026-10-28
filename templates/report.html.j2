@@ -158,14 +158,10 @@
  <div class="hd"><h1>내 포트폴리오 — 배분과 실제 종목</h1><div class="d">{{ d.decision.badges | join(' · ') }}</div></div>
  <div class="box"><h3>배분표</h3>
   <table class="altb" style="font-size:7.5pt">
-   <tr><th style="width:36px">비중</th><th style="width:72px">무엇</th><th>실제로 담는 것</th><th>어제 본 것</th><th style="width:62px">판정</th><th style="width:132px">바꿀 조건</th></tr>
-   {% for a in alloc_rows %}<tr><td><b>{{ a.pct }}%</b></td><td>{{ a.name }}</td><td>{{ a.instruments }}</td><td>{{ a.seen }}</td><td class="{{ a.verdict_cls }}">{{ a.verdict }}</td><td>{{ a.rule }}</td></tr>{% endfor %}
+   <tr><th style="width:46px">실제<br>비중</th><th style="width:72px">무엇</th><th>실제로 담는 것</th><th>어제 본 것</th><th style="width:62px">판정</th><th style="width:132px">바꿀 조건</th></tr>
+   {% for a in alloc_rows %}<tr{% if a.kick %} style="background:#fff1f0"{% endif %}><td><b>{{ a.pct }}%</b>{% if not a.kick and kick_alloc and kick_alloc.kw %}<br><span style="font-size:6.3pt;color:#7a8494">기본 {{ a.base }}</span>{% endif %}</td><td>{{ a.name }}</td><td>{{ a.instruments }}</td><td>{{ a.seen }}</td><td class="{{ a.verdict_cls }}">{{ a.verdict }}</td><td>{{ a.rule }}</td></tr>{% endfor %}
   </table>
-  <div class="note" style="margin-top:3px">{{ d.allocation_note }}</div>
-  {% if views_line %}<div class="note" style="margin-top:2px">🧭 섹터 의견(돈 밖 · 코어 대비 그림자 채점): {{ views_line }}</div>{% endif %}
-  {% if kick_alloc %}<div style="margin-top:2px;background:#fff1f0;border-left:3px solid #e0524b;border-radius:4px;padding:2px 6px;font-size:7.3pt;line-height:1.25">
-   <b>⚡ 킥 포함 배분</b> — {% if kick_alloc.cash_k is not none and kick_alloc.cash_k >= 0 %}현금 {{ kick_alloc.cash }}→{{ kick_alloc.cash_k }}%{% else %}기본 칸에서 덜어냄{% endif %} · ⚡ 킥 {{ kick_alloc.kw }}%(성과 확인된 신호만 · 🐋고래 ☕컵 📈갭 🤫매집){% if kick_alloc.open %} = {% for o in kick_alloc.open %}{{ o.name }} {{ o.w }}%({{ '%+.1f' % o.r if o.r is not none else '–' }}%){% if not loop.last %} · {% endif %}{% endfor %}{% endif %}
-   · 누적 💼 기본 {{ '%+.2f' % kick_alloc.stat.base }}% · ⚡ 킥 {{ '%+.2f' % kick_alloc.stat.kick }}% · S&P {{ '%+.2f' % kick_alloc.stat.spy }}%</div>{% endif %}
+  <div class="note" style="margin-top:3px">{% if kick_alloc and kick_alloc.kw %}⚡ 킥 포함 = 실제로 들고 있는 포트 — ⚡ 킥 {{ kick_alloc.kw }}%만큼 기본 칸을 같은 비율로 줄임(「기본 n」 = 킥 빼기 전 비중). {% endif %}{{ d.allocation_note }}</div>
  </div>
  <div class="g2" style="margin-top:7px">
   <div class="box"><h3>경우의 수 — 확률</h3>

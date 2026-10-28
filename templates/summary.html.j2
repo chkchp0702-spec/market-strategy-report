@@ -20,7 +20,7 @@ ul.s li:before{content:"";position:absolute;left:0;top:8px;width:6px;height:6px;
 .qq .t{font-size:9pt;font-weight:800;color:#13294b}.qq .b{font-size:8.5pt;margin:2px 0;line-height:1.35}
 </style></head><body>
 {% set s = d.summary %}
-{% set colors = ['#13294b','#2c5fa0','#1f7a4d','#5b3f93','#c8372d','#d98a1a','#6f93c9','#9aa6b4'] %}
+{% set colors = ['#13294b','#2c5fa0','#1f7a4d','#5b3f93','#b8892a','#d98a1a','#6f93c9','#9aa6b4'] %}
 <div class="page">
  <div class="hd"><div class="d"><b>{{ d.date.replace("-", ".") }} ({{ d.weekday }}) {{ d.edition_label }}</b> · {{ d.basis }}</div></div>
 
@@ -45,8 +45,8 @@ ul.s li:before{content:"";position:absolute;left:0;top:8px;width:6px;height:6px;
 
  <h2>내 포트폴리오</h2>
  <div class="pf"><span class="badge" style="white-space:nowrap;font-size:12pt">{{ d.decision.badges | join(' · ') }}</span><span>{{ s.decision_line | safe }}</span></div>
- <div class="bar">{% for a in led.allocation %}<div style="width:{{ a.pct }}%;background:{{ colors[loop.index0] }}">{% if a.pct >= 10 %}{{ a.name.split(' ')[0].split('·')[0] }} {{ a.pct }}{% elif a.pct >= 6 %}{{ a.name }}{% endif %}</div>{% endfor %}</div>
- <div style="font-size:8.8pt;color:var(--mute)">{% for a in led.allocation if a.pct < 10 %}{{ a.name }} {{ a.pct }} · {% endfor %}경우의 수: {% for sc in led.scenarios %}{{ sc.label | replace(' 경우','') | replace('되는','') | replace('가 ','') }} {{ sc.pct }}{% if not loop.last %} · {% endif %}{% endfor %}</div>
+ <div class="bar">{% for a in alloc_rows if a.pct > 0 %}<div style="width:{{ a.pct }}%;background:{{ '#c8372d' if a.kick else colors[loop.index0] }}">{% if a.pct >= 10 %}{{ a.name.split(' (')[0].split('·')[0] }} {{ a.pct }}{% elif a.pct >= 6 %}{{ a.name }}{% endif %}</div>{% endfor %}</div>
+ <div style="font-size:8.8pt;color:var(--mute)">{% for a in alloc_rows if a.pct < 10 and a.pct > 0 %}{{ a.name }} {{ a.pct }} · {% endfor %}경우의 수: {% for sc in led.scenarios %}{{ sc.label | replace(' 경우','') | replace('되는','') | replace('가 ','') }} {{ sc.pct }}{% if not loop.last %} · {% endif %}{% endfor %}</div>
  <div style="font-size:8pt;color:#3d4756;margin-top:3px;line-height:1.35"><b>실제로 담는 것:</b> {{ s.instruments_line }} &nbsp;<span style="color:#d98a1a;font-weight:700">관찰:</span> {{ s.watch_line }}</div>
 
  <div class="cream2"><h2>볼 것 3개</h2><ul class="s">{% for c in d.checks %}<li>{{ c | safe }}</li>{% endfor %}</ul></div>
