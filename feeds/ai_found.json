@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "연준 동결 예상 — 그러나 워시 의장이 추가 인상을 시사할 수도",
+   "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rates-kevin-warsh.html",
+   "press": "CNBC",
+   "at": "2026-10-28 19:41",
+   "why": "금리 가설(0.40)·美 10년 5% 경계 — 오늘 밤 FOMC 문구가 12월 인상 쪽이면 장기채·금리 민감주 칸 역풍",
+   "summary": "10월 회의는 동결이 기본 시나리오, 관심은 워시 의장이 추가 인상 여지를 남길지. 인플레이션 고착·중간선거 앞 정책 경로가 쟁점."
+  },
+  {
+   "title": "유가, 연준 결정·빅테크 실적 앞두고 강세 유지",
+   "url": "https://www.marketscreener.com/news/oil-remains-higher-as-markets-await-fed-decision-big-tech-earnings-ce7f59d3df89fe26",
+   "press": "다우존스(MarketScreener)",
+   "at": "2026-10-28 19:41",
+   "why": "열린 bet CHRD·☕ cup_eye 원유 E&P — FOMC 전 유가 방향 확인",
+   "summary": "다우존스: 시장이 FOMC·빅테크 실적을 기다리는 가운데 유가 강세 유지(정확한 가격은 원문 확인)."
+  },
+  {
    "title": "외인·기관 「사자」에 코스피 6000선 위로…삼전닉스 9~10%↑",
    "url": "https://www.etoday.co.kr/news/view/2641250",
    "press": "이투데이",
@@ -623,22 +639,6 @@
    "at": "2026-10-26 21:35",
    "why": "kick_cands 신호 종목 NTAP·SPOT 이 오늘 IB 콜 목록에 함께 등장 — 신호+리서치 겹침 확인용",
    "summary": "10/26 IB 콜 목록에 NetApp·Spotify 포함(방향 세부는 원문 확인). 같은 날 LMT 상향."
-  },
-  {
-   "title": "골드만삭스, 코스피 12개월 목표 25% 하향 — AI 매매 되돌림",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-cuts-kospi-12-month-074443032.html",
-   "press": "Bloomberg(Yahoo)",
-   "at": "2026-10-26 20:35",
-   "why": "한국 칸·삼전닉스 — 「외국인 복귀 전 비중 확대 금지」 가설 보강",
-   "summary": "골드만이 코스피 12개월 목표를 25% 낮춤(9,000 — ground.news 제목). 코스피는 10/26 5,469(−1.46%)·코스닥 7개월 최저. AI 매매 되돌림이 이유."
-  },
-  {
-   "title": "메타, AI 투자 위해 최대 950억$ 주식 조달 — 1차 350억$ 공모",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/meta-seeks-up-to-95-billion-in-equity-to-fund-ai-spending",
-   "press": "Bloomberg",
-   "at": "2026-10-26 20:35",
-   "why": "AI 차입 가설(0.88) — 자금줄이 채권에서 주식 물량으로 · 반도체·빅테크 칸 수급 부담",
-   "summary": "1차 350억$ 공모 착수, 전체 최대 950억$. 엔비디아·AMD 등이 최대 50억$ 인수 의향(HANAchina 71037). 메타 주가는 장전 하락 뒤 반등(investing 4972118)."
   }
  ],
  "at": "2026-10-28 12:35"
