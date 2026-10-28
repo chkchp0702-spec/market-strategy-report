@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "워시 「남은 2026년 미리 정하지 않는다」 — 10월·12월을 결정 시점으로 지목",
+   "url": "https://investinglive.com/central-banks/warsh-won-t-prejudge-rest-of-2026-names-october-and-december-as-decision-points/",
+   "press": "investingLive",
+   "at": "2026-10-28 14:35",
+   "why": "오늘 밤 FOMC — 美 10년 5.02%·한국 가설 판정 전 꼬리위험(12월 인상 신호)",
+   "summary": "워시 의장이 10월·12월 회의를 결정 시점으로 지목, 사전 신호 없음. 시장은 10월 동결·12월 인상 여부에 주목(국내 기사 다수 「금리보다 12월 신호」)."
+  },
+  {
+   "title": "모건스탠리 「메모리 랠리는 조정 속 반등, 반도체 추가 하락 여지」",
+   "url": "https://www.kucoin.com/news/flash/morgan-stanley-report-storage-sector-rally-is-correction-semiconductor-still-has-downside",
+   "press": "KuCoin 뉴스",
+   "at": "2026-10-28 14:35",
+   "why": "🎯 하닉·타이거일렉 bet — 하닉 비트 당일 급등을 IB 퀀트는 「반등 매도」로 봄, D+1 판정 재료",
+   "summary": "MS 퀀트팀: 반도체 지수 흐름이 2000년 버블과 유사, 반등시 비중 축소·저변동·가치·AI 응용으로 이동 권고(HANAchina/71137 원문 wallstreetcn). 세부 숫자 미확인."
+  },
+  {
    "title": "코스피, 6000선 단숨에 회복…외인·기관 1.7조 동반 매수",
    "url": "https://www.g-enews.com/article/Securities/2026/10/202610281301356512923c501012_1",
    "press": "글로벌이코노믹",
@@ -623,22 +639,6 @@
    "at": "2026-10-26 18:35",
    "why": "원/달러 1,323 원화 강세와 대비 — 신흥국 통화 차별화(한국은 금리·수급, 브라질은 정치)",
    "summary": "헤알 선물 −10% 보도(세부 숫자 미확인, Business Today 의 CME 5.60과 같은 방향). 투자닷컴 기준 05:10 ET 장전 PBR −22%·ITUB/BBD/NU −23~29%·EWZ −27%."
-  },
-  {
-   "title": "엔비디아 지원 Firmus IPO 철회 — AI 자금 조달 경고 신호",
-   "url": "https://news.bgov.com/crypto/nvidia-backed-ipos-cratering-demand-sends-warning-on-ai-funding",
-   "press": "Bloomberg Government",
-   "at": "2026-10-26 17:35",
-   "why": "🧠 AI 차입 가설 — 솔리다임 상장 철회(kimu_nim/47320)와 같은 줄기: AI 인프라 주식 조달 창구도 좁아짐",
-   "summary": "엔비디아가 투자한 AI 데이터센터 업체 Firmus 의 IPO 철회 보도. 게재 날짜·규모는 미확인."
-  },
-  {
-   "title": "브렌트유 3거래일 연속 하락",
-   "url": "https://tradingeconomics.com/commodity/brent-crude-oil/news/578050",
-   "press": "Trading Economics",
-   "at": "2026-10-26 17:35",
-   "why": "⛽ 에너지 칸·CHRD bet(☕ 컵, 오늘 美 시가 진입 대기) — 카타르 중재 진전에 유가 되밀림, 진입가·논지 확인용",
-   "summary": "브렌트 3일 연속 하락 보도. 정확한 날짜·가격은 페이지에서 미확인(피드 FT: 금요일 117$ → 2$↓)."
   }
  ],
  "at": "2026-10-28 12:35"
