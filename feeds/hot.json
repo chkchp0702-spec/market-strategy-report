@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28 22:44",
+ "at": "2026-10-28 23:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7764": {
@@ -37,11 +37,6 @@
    "why": "🎯 하닉·타이거일렉(☕ 컵 bet) 역풍 — 모건스탠리 퀀트 「AI 반도체 하락 안 끝남, 반등시 비중 축소」·2000년 버블 유사",
    "at": "2026-10-28 14:35"
   },
-  "n/VtS2JoSG9IRHRGeGNXSUxXdEhIOHJXUXB2Y0RCbFNjajZDdkF1bnVzZGcoc5": {
-   "lv": 1,
-   "why": "정부가 블룸버그에 한국 채권 선진국 분류 요청 — 채권·원화 칸, 외국인 채권 자금 유입 기대(FTSE WGBI 편입에 이은 2단계)",
-   "at": "2026-10-28 17:35"
-  },
   "n/0yMnBtSGFES1k1LWU5YXNoaWEtQTZacmZQMUJYYXd1QjAydnJJcXRIV2coc5": {
    "lv": 1,
    "why": "美 칸 — 모건스탠리 S&P 500 −8% 조정 후 랠리 경고, FOMC·빅테크 실적 앞 리스크 가설과 이어짐",
@@ -57,20 +52,20 @@
    "why": "금리 가설(0.40) — FOMC 동결 기정사실이나 12월 인상 확률 80%↑ 보도·주식·달러·금 동반 강세(원유만 하락) — 오늘 밤 결과의 기준선",
    "at": "2026-10-28 19:41"
   },
-  "n/les20261028wallstreetsaidebtmachineisstartingtochokeonsupply": {
-   "lv": 1,
-   "why": "크레딧 가설(0.88) — 블룸버그 「AI 채권 발행 기계가 물량에 체하기 시작」, 같은 날 메타는 채권 대신 250억$ 주식 발행(수요 5배) = 빅테크 자금 조달이 채권→주식(희석)으로 옮겨감",
-   "at": "2026-10-28 20:36"
-  },
   "n/Q4bUNGWkFPbTM3Z04zLXB2bUdtclBvVmpmQmhqcEloSTJUOHg2ZzRsbEIoc5": {
    "lv": 1,
    "why": "유가 되밀림(美-이란 외교) — 열린 CHRD bet·에너지 cup_eye(SM·TALO·SU) 직접 연결",
    "at": "2026-10-28 22:44"
   },
-  "n/tutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
+  "n/zVnJqLUZzX3dYUWFvNnk3U3BQLUJQRE1DcEd3MG5CVUhKd292dG9MZ01Boc5": {
    "lv": 1,
-   "why": "제너락 데이터센터 수주잔고 45억$ — 버티브에 이어 AI 전력 인프라 수요 확인, 전력기기 칸",
-   "at": "2026-10-28 22:44"
+   "why": "유가·에너지 — 美 정부 「호르무즈 불필요한 통과 자제」 권고로 외교 기대 되밀림 반대편, 열린 CHRD bet·한국 해운 꼬리 위험",
+   "at": "2026-10-28 23:40"
+  },
+  "HANAchina/71171": {
+   "lv": 1,
+   "why": "크레딧 가설(0.88) — MSFT·구글 실적 직전 빅테크 CDS 사상 최고, AI 투자 부담 = 오늘 밤 실적 반응의 하방 꼬리",
+   "at": "2026-10-28 23:40"
   }
  }
 }
