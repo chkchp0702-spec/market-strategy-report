@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "메타 250억 달러 주식 발행에 수요 5배 몰려 — 엔비디아·AMD 40억 달러 참여",
+   "url": "https://www.tipranks.com/news/meta-draws-5-times-demand-for-25-billion-stock-sale-as-nvidia-and-amd-invest-4-billion",
+   "press": "TipRanks",
+   "at": "2026-10-28 20:36",
+   "why": "크레딧 가설(0.88) — AI 투자 자금이 채권 대신 주식 발행으로도 조달되기 시작, 빅테크 희석·채권 공급 부담 분산 여부",
+   "summary": "메타 250억 달러 유상증자 약 5배 초과 청약 · 엔비디아·AMD 합산 40억 달러 투자(보도). AI 투자 우려를 일부 덜었다는 해석."
+  },
+  {
+   "title": "연준은 뒷전, SK하이닉스 사상 최대 실적이 기술주 상승 견인",
+   "url": "https://fortune.com/2026/10/28/fed-tech-stocks-sk-hynix-earnings/",
+   "press": "Fortune",
+   "at": "2026-10-28 20:36",
+   "why": "🎯 하닉·반도체 칸 — 하닉 실적이 미국 나스닥 선물까지 끌어올림, 오늘 밤 FOMC·MS·알파벳 실적 전 반도체 주도 확인",
+   "summary": "하닉 3분기 사상 최대 실적 뒤 나스닥 선물 상승 · 연준 동결 예상 속 빅테크 실적이 다음 관문."
+  },
+  {
    "title": "연준 동결 예상 — 그러나 워시 의장이 추가 인상을 시사할 수도",
    "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rates-kevin-warsh.html",
    "press": "CNBC",
@@ -623,22 +639,6 @@
    "at": "2026-10-26 22:35",
    "why": "⚡ CHRD(☕ 컵·바켄 석유) bets 오늘 美 시가 진입 — 외교 쪽 무게로 역풍",
    "summary": "美 선물은 유가 하락에 오름(피드 bbg 'Stocks Gain Before Tech Earnings as Oil Declines') · 기사 날짜·숫자 미확인"
-  },
-  {
-   "title": "모건스탠리, 록히드마틴 '비중확대' 상향 — F-35 새 국방부 계약 뒤 약 40% 상승 여력",
-   "url": "https://www.cnbc.com/2026/10/26/lockheed-martin-will-surge-nearly-40percent-after-new-pentagon-deal-says-morgan-stanley.html",
-   "press": "CNBC",
-   "at": "2026-10-26 21:35",
-   "why": "방산 대형주에 IB 등급 상향 — 신호 종목 CACI(방산 IT)와 같은 국방 예산 축, 아직 우리 신호는 LMT 자체엔 없음(관찰)",
-   "summary": "모건스탠리가 F-35 계약을 근거로 LMT 투자의견을 비중확대로 올리고 약 40% 상승 여력 제시. 수주잔고 사상 최대가 근거(stocktwits)."
-  },
-  {
-   "title": "월요일 월가 주요 리서치 콜 — 록히드·넷앱·스포티파이·루멘텀 등",
-   "url": "https://247wallst.com/investing/2026/10/26/here-are-mondays-top-wall-street-analyst-research-calls-block-boise-cascade-equifax-firstenergy-lockheed-martin-lumentum-holdings-netapp-roper-technologies-spotify-technology-and-m/",
-   "press": "24/7 Wall St.",
-   "at": "2026-10-26 21:35",
-   "why": "kick_cands 신호 종목 NTAP·SPOT 이 오늘 IB 콜 목록에 함께 등장 — 신호+리서치 겹침 확인용",
-   "summary": "10/26 IB 콜 목록에 NetApp·Spotify 포함(방향 세부는 원문 확인). 같은 날 LMT 상향."
   }
  ],
  "at": "2026-10-28 12:35"

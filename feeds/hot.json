@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28 19:41",
+ "at": "2026-10-28 20:36",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7764": {
@@ -42,16 +42,6 @@
    "why": "🎯 하닉·타이거일렉(☕ 컵 bet) 역풍 — 모건스탠리 퀀트 「AI 반도체 하락 안 끝남, 반등시 비중 축소」·2000년 버블 유사",
    "at": "2026-10-28 14:35"
   },
-  "n/httpswwwcnbccom20261028oilpricetodaywtibrenthormuzhtml": {
-   "lv": 1,
-   "why": "열린 bet CHRD·☕ cup_eye SM·PR(원유) — 후티 사우디 정유소 공격으로 WTI 101.5·브렌트 115.7, FOMC 밤 인플레 상방",
-   "at": "2026-10-28 15:35"
-  },
-  "n/ThCOWZOTmttUmhaeGdZZWdWc2hjWkFWc2Z0YjE2enh1cDdzNUdnM0JKWQoc5": {
-   "lv": 1,
-   "why": "메모리 가격 결정력 — 中 빅테크가 D램 장기계약을 먼저 요청 = 하닉 「2029년까지 솔드아웃」 뒷받침, 반도체 칸·2차 전이 아이디어와 연결",
-   "at": "2026-10-28 16:35"
-  },
   "n/VtS2JoSG9IRHRGeGNXSUxXdEhIOHJXUXB2Y0RCbFNjajZDdkF1bnVzZGcoc5": {
    "lv": 1,
    "why": "정부가 블룸버그에 한국 채권 선진국 분류 요청 — 채권·원화 칸, 외국인 채권 자금 유입 기대(FTSE WGBI 편입에 이은 2단계)",
@@ -72,10 +62,10 @@
    "why": "금리 가설(0.40) — FOMC 동결 기정사실이나 12월 인상 확률 80%↑ 보도·주식·달러·금 동반 강세(원유만 하락) — 오늘 밤 결과의 기준선",
    "at": "2026-10-28 19:41"
   },
-  "n/b0bdee73c33e088fdecf410c330e88gevernovaorderssoarhtmltsrcrss": {
+  "n/les20261028wallstreetsaidebtmachineisstartingtochokeonsupply": {
    "lv": 1,
-   "why": "전력기기 칸 — GE버노바 3Q EBITDA 19억$(예상 17억$)·수주 급증, AI 전력 수요 유지 = 환율로 눈높이 낮아진 HD현대일렉 등 한국 전력기기의 반론 근거",
-   "at": "2026-10-28 19:41"
+   "why": "크레딧 가설(0.88) — 블룸버그 「AI 채권 발행 기계가 물량에 체하기 시작」, 같은 날 메타는 채권 대신 250억$ 주식 발행(수요 5배) = 빅테크 자금 조달이 채권→주식(희석)으로 옮겨감",
+   "at": "2026-10-28 20:36"
   }
  }
 }
