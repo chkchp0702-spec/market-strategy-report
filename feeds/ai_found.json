@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "인스타카트 매각 검토 보도에 주가 +9% — 도어대시·우버 거론",
+   "url": "https://www.analyticsinsight.net/news/instacart-sale-talks-with-uber-and-doordash-push-stock-up-9",
+   "press": "Analytics Insight",
+   "at": "2026-10-29 01:40",
+   "why": "CART(☕ cup_eye 10/23) — 10/28 WSJ 「도어대시 막바지 협상」 전 단계, 이미 오른 폭 가늠",
+   "summary": "10/23 매각 검토·은행 고용 보도로 +9%. 시가총액 약 120억 달러. 10/28 WSJ가 도어대시와 막바지 협상이라 보도."
+  },
+  {
    "title": "美 증시 FOMC·빅테크 실적 앞 혼조 출발 — 하닉 +8%·로빈후드 −8%",
    "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-28-dow-sp-500-nasdaq-fed-meeting-decision-080642111.html",
    "press": "Yahoo Finance",
@@ -631,14 +639,6 @@
    "at": "2026-10-27 02:35",
    "why": "🧠 AI 차입·쏠림 가설 — 반등이 반도체·임의소비재에 몰림, 메타 950억$ 공모 발표에도 메타 +0.2%(물량 흡수 1일차 무난)",
    "summary": "10/26 11:30 ET S&P +0.92%·나스닥 +1.25%·다우 +0.32%, 11개 업종 중 8개 상승. 필라델피아 반도체 +3%↑, 테슬라 +6.3%(바클레이즈 비중확대). 연준 수요일 동결 예상."
-  },
-  {
-   "title": "메타, AI 투자 위해 주식·우선주 350억$ + 최대 600억$ 수시 매각(ATM) — 총 950억$",
-   "url": "https://marketscreener.com/news/top-midday-stories-anthropic-files-with-sec-for-ipo-meta-looking-to-raise-95-billion-from-stock-o-ce785cdcdc8ef227",
-   "press": "MarketScreener",
-   "at": "2026-10-27 02:35",
-   "why": "🧠 AI 차입 가설 — 자금줄이 채권→주식 물량으로 이동, 알파벳 850억$ 공모에 이어 같은 달 두 번째 초대형 주식 공급",
-   "summary": "1차 주식·우선주 350억$, 잠재 ATM 600억$. 올해 AI capex 최대 1,450억$·내년 더 늘어날 전망(6월 FT 보도 당시 −5.5%와 달리 10/26 장중 +0.2%)."
   }
  ],
  "at": "2026-10-28 12:35"
