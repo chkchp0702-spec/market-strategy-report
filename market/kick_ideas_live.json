@@ -1,26 +1,26 @@
 {
-"at": "2026-10-27 10:31",
+"at": "2026-10-28 10:28",
 "signals": [
 {
 "src": "pead",
-"code": "RRC",
-"name": "Range Resources Corporation Common Stock",
+"code": "KNSA",
+"name": "Kiniksa Pharmaceuticals International, plc - Class A Ordinary Shares",
 "mkt": "US",
-"d": "2026-10-26",
-"vr": 10.2,
-"gap": 11.6,
-"px": 53.56,
-"score": 30.0
+"d": "2026-10-27",
+"vr": 4.0,
+"gap": 16.5,
+"px": 89.2,
+"score": 20.2
 },
 {
 "src": "pead",
-"code": "SGRY",
-"name": "Surgery Partners, Inc.",
+"code": "MFIC",
+"name": "MidCap Financial Investment Corporation - Closed End Fund",
 "mkt": "US",
-"d": "2026-10-26",
-"vr": 25.5,
-"gap": 46.2,
-"px": 23.25,
+"d": "2026-10-27",
+"vr": 14.4,
+"gap": 22.0,
+"px": 10.26,
 "score": 30.0
 }
 ],
@@ -28,23 +28,23 @@
 "index_KR": {
 "sym": "^KS11",
 "above200": false,
-"d": "2026-10-27"
+"d": "2026-10-28"
 },
 "scanned_KR": 2612,
 "us_source": "US.json 전 종목 5942 + ETF 4929 (2026-10-24)",
 "index_US": {
 "sym": "^GSPC",
 "above200": true,
-"d": "2026-10-26"
+"d": "2026-10-27"
 },
-"scanned_US": 9112,
+"scanned_US": 9141,
 "dip": {
 "sym": "QQQ",
-"d": "2026-10-26",
-"close": 712.2,
-"ma200": 676.57,
-"ma5": 712.78,
-"rsi2": 61.6,
+"d": "2026-10-27",
+"close": 721.25,
+"ma200": 677.05,
+"ma5": 713.5,
+"rsi2": 82.8,
 "th": 5.0,
 "signal": false
 },
@@ -54,74 +54,74 @@
 "GLD": {
 "on": false,
 "since": "2026-03-23",
-"close": 367.82,
+"close": 372.28,
 "hi": 429.42,
 "lo": 364.33,
-"d": "2026-10-26"
+"d": "2026-10-27"
 },
 "USO": {
 "on": true,
 "since": "2026-09-10",
-"close": 166.23,
+"close": 163.88,
 "hi": 169.96,
-"lo": 124.17,
-"d": "2026-10-26"
+"lo": 125.41,
+"d": "2026-10-27"
 },
 "TLT": {
 "on": false,
 "since": null,
-"close": 81.68,
+"close": 81.63,
 "hi": 86.44,
 "lo": 76.43,
-"d": "2026-10-26"
+"d": "2026-10-27"
 },
 "UUP": {
 "on": true,
 "since": "2026-03-12",
-"close": 29.01,
+"close": 29.12,
 "hi": 29.25,
 "lo": 27.87,
-"d": "2026-10-26"
+"d": "2026-10-27"
 },
 "SPY": {
 "on": true,
 "since": "2026-04-15",
-"close": 765.37,
+"close": 769.66,
 "hi": 781.62,
 "lo": 747.74,
-"d": "2026-10-26"
+"d": "2026-10-27"
 },
 "QQQ": {
 "on": true,
 "since": "2026-09-22",
-"close": 712.2,
+"close": 721.25,
 "hi": 762.86,
 "lo": 699.27,
-"d": "2026-10-26"
+"d": "2026-10-27"
 },
 "EFA": {
 "on": true,
 "since": "2026-07-06",
-"close": 102.91,
+"close": 103.59,
 "hi": 108.89,
 "lo": 102.0,
-"d": "2026-10-26"
+"d": "2026-10-27"
 },
 "EEM": {
 "on": false,
 "since": "2026-07-29",
-"close": 61.82,
+"close": 62.52,
 "hi": 71.57,
-"lo": 61.5,
-"d": "2026-10-26"
+"lo": 61.25,
+"d": "2026-10-27"
 },
 "DBC": {
 "on": true,
 "since": "2026-09-01",
-"close": 33.78,
+"close": 33.6,
 "hi": 34.14,
-"lo": 29.74,
-"d": "2026-10-26"
+"lo": 30.14,
+"d": "2026-10-27"
 }
 }
 }
@@ -277,6 +277,28 @@
 "vr": 25.5,
 "gap": 46.2,
 "px": 23.25,
+"score": 30.0
+},
+{
+"src": "pead",
+"code": "KNSA",
+"name": "Kiniksa Pharmaceuticals International, plc - Class A Ordinary Shares",
+"mkt": "US",
+"d": "2026-10-27",
+"vr": 4.0,
+"gap": 16.5,
+"px": 89.2,
+"score": 20.2
+},
+{
+"src": "pead",
+"code": "MFIC",
+"name": "MidCap Financial Investment Corporation - Closed End Fund",
+"mkt": "US",
+"d": "2026-10-27",
+"vr": 14.4,
+"gap": 22.0,
+"px": 10.26,
 "score": 30.0
 }
 ]
