@@ -66,10 +66,18 @@ def main() -> int:
     act = lambda d: (d + pd.offsets.BDay(1)).strftime("%Y-%m-%d") >= VOL_FROM      # 그날 종가 판단이 쓰일 다음 거래일이 시작일 이후인가
     sc_at = lambda d: (float(HS[HS.index <= d].iloc[-1]) if act(d) and len(HS[HS.index <= d]) else 1.0)
 
-    def tw(up_, sc):
+    # 🧭 10/28 Q10/28-1: 현금 몫 → 자산 추세 칸 (src/trend_park.py · PARK_FROM 부터 · 소급 없음)
+    from src import trend_park as TP
+    TNAV, T_OPEN, T_IDLE = TP.trend_nav(START)
+    C["TRD"] = TNAV.reindex(C.index, method="ffill") if TNAV is not None else 1.0
+    pk = lambda d: TNAV is not None and (d + pd.offsets.BDay(1)).strftime("%Y-%m-%d") >= TP.PARK_FROM
+
+    def tw(up_, sc, park=False):
         b_ = ON if up_ else OFF
         w_ = {"SPY": b_["SPY"] * sc, "QQQ": b_["QQQ"] * sc}
         w_["BIL"] = 1 - w_["SPY"] - w_["QQQ"]
+        if park:
+            w_["TRD"], w_["BIL"] = w_["BIL"], 0.0
         return w_
     ma200, ma50 = g.rolling(200).mean(), g.rolling(50).mean()
     raw = (g > ma200).fillna(False)
@@ -86,12 +94,13 @@ def main() -> int:
 
     # 출발일 전날 종가에 산다(그날 종가 판정) → 출발일부터 하루하루 수익 · 💼 포트와 같은 기준
     cal = [d for d in C.index if d.strftime("%Y-%m-%d") >= START]
-    R = C[["SPY", "QQQ", "BIL"]].pct_change().fillna(0.0)
-    A3 = ("SPY", "QQQ", "BIL")
+    R = C[["SPY", "QQQ", "BIL", "TRD"]].pct_change().fillna(0.0)
+    A3 = ("SPY", "QQQ", "BIL", "TRD")
     p0 = C.index[C.index.get_loc(cal[0]) - 1]
     last_up = bool(reg.loc[p0])
     last_sc = sc_at(p0)
-    w = tw(last_up, last_sc)
+    last_pk = pk(p0)
+    w = tw(last_up, last_sc, last_pk)
     val, turn, wk = 1 - COST, 1.0, p0.isocalendar()[1]
     events = [{"d": cal[0].strftime("%Y-%m-%d"), "k": "시작", "up": last_up}]
     nav = []
@@ -104,21 +113,27 @@ def main() -> int:
         nav.append(round((val - 1) * 100, 2))
         up_now = bool(reg.loc[d])          # 오늘 종가 판정 → 다음 거래일부터
         sc_now = sc_at(d)
-        if up_now != last_up or d.isocalendar()[1] != wk or sc_now != last_sc:
-            nt = tw(up_now, sc_now)
+        pk_now = pk(d)
+        if up_now != last_up or d.isocalendar()[1] != wk or sc_now != last_sc or pk_now != last_pk:
+            nt = tw(up_now, sc_now, pk_now)
             t_ = sum(abs(nt.get(t, 0) - w.get(t, 0)) for t in A3)
             turn += t_; val *= 1 - t_ * COST; w = dict(nt)
             if up_now != last_up:
                 events.append({"d": d.strftime("%Y-%m-%d"), "k": "판정 바뀜", "up": up_now})
             if sc_now != last_sc:
                 events.append({"d": d.strftime("%Y-%m-%d"), "k": f"🦴 변동성 맞춤 주식 {round(last_sc * 100)}→{round(sc_now * 100)}%", "up": up_now})
-            wk, last_up, last_sc = d.isocalendar()[1], up_now, sc_now
+            if pk_now != last_pk:
+                events.append({"d": d.strftime("%Y-%m-%d"), "k": "🧭 현금 몫 → 자산 추세 칸 (Q10/28-1)", "up": up_now})
+            wk, last_up, last_sc, last_pk = d.isocalendar()[1], up_now, sc_now, pk_now
     spy = [round((float(C.loc[d, "SPY"]) / float(C.loc[p0, "SPY"]) - 1) * 100, 2) for d in cal]
     qqq = [round((float(C.loc[d, "QQQ"]) / float(C.loc[p0, "QQQ"]) - 1) * 100, 2) for d in cal]
 
     up = bool(reg.iloc[-1])
     sc_last = sc_at(C.index[-1])
-    tgt = {t: x for t, x in tw(up, sc_last).items() if x > 0.004}
+    tgt = {t: x for t, x in tw(up, sc_last, pk(C.index[-1])).items() if x > 0.004}
+    INFO["TRD"] = {"name": TP.NAME, "trend": True,
+                   "items": [{"t": o["sym"], "w": o["w"], "name": o.get("name"), "px": o.get("now")} for o in T_OPEN] +
+                            ([{"t": "SGOV", "w": round(T_IDLE, 4), "name": TP.TNAME["SGOV"], "px": TP.LAST_PX.get("SGOV")}] if T_IDLE > 0.005 else [])}
     vnow = float(VL.iloc[-1])
     vol_rule = {"on": True, "active": act(C.index[-1]), "role": VP["role"], "lb": VP["lb"], "vol20": round(vnow * 100, 1), "target": VP["target"],
                 "floor": round(VP["floor"] * 100), "eq_scale": round(sc_last * 100), "eq_w": round((tgt.get("SPY", 0) + tgt.get("QQQ", 0)) * 100, 1),
@@ -143,7 +158,7 @@ def main() -> int:
         "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "asof": cal[-1].strftime("%Y-%m-%d") if cal else None,
         "rule": {"title": "🎯 집중 포트", "judge": "S&P500 200일선 위 · 3거래일 확인",
                  "on": "🟢 상승장 → S&P500 50% + 나스닥100 50% (주식 100%)", "off": "🔴 아니면 → S&P500 25% + 나스닥100 25% + 현금 50%",
-                 "vol": f"🦴 변동성 맞춤(공격형, {VOL_FROM}부터): 주식 × min(1, {VP['target']}% ÷ {VP['lb']}일 변동성) · 아래 한도 {round(VP['floor'] * 100)}% → 덜어낸 만큼 현금",
+                 "vol": f"🦴 변동성 맞춤(공격형, {VOL_FROM}부터): 주식 × min(1, {VP['target']}% ÷ {VP['lb']}일 변동성) · 아래 한도 {round(VP['floor'] * 100)}% → 덜어낸 만큼 " + ("🧭 자산 추세 칸" if pk(C.index[-1]) else "현금") + f" (현금 몫은 {TP.PARK_FROM}부터 🧭 자산 추세 9종 칸)",
                  "how": "판정은 그날 종가 · 다음 거래일부터 · 매주 + 판정 바뀐 날 비중 맞춤 · 사고판 양 × 0.1% 비용 · 레버리지 없음"},
         "regime": {"up": up, "since": since, "spx": round(float(g.iloc[-1]), 1), "ma200": round(float(ma200.iloc[-1]), 1),
                    "ma50": round(float(ma50.iloc[-1]), 1), "gap": round(gap, 1),
@@ -157,6 +172,7 @@ def main() -> int:
         "d1": round(((1 + nav[-1] / 100) / (1 + nav[-2] / 100) - 1) * 100, 2) if len(nav) > 1 else None,
         "base": (P.get("stat") or {}).get("ret"), "kick": (K.get("stat") or {}).get("kick"),
         "turn": round(turn * 100), "events": events[::-1][:10], "bt": bt, "vol_rule": vol_rule,
+        "trend_park": {"on": pk(C.index[-1]), "from": TP.PARK_FROM, "rule": f"{TP.NIN}/{TP.NOUT}|{TP.WMODE}", "open": T_OPEN, "idle": round(T_IDLE, 3), "ok": TNAV is not None},
         "note": "검증한 규칙을 그대로 따랐다면의 계산(비용 포함·달러 기준). 매수 추천 아님.",
     }
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

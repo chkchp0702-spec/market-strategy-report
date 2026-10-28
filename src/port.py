@@ -168,6 +168,15 @@ def main() -> int:
     days = [d for d in C["SPY"].index if d.strftime("%Y-%m-%d") >= START]
     base_i = list(C["SPY"].index).index(days[0]) - 1      # START 전날 종가 = 출발점
     cal = list(C["SPY"].index)[base_i:]
+    # 🧭 10/28 Q10/28-1: 덜어낸 현금 → 자산 추세 칸 주차 (src/trend_park.py · PARK_FROM 부터 · 소급 없음)
+    from src import trend_park as TP
+    TNAV, T_OPEN, T_IDLE = TP.trend_nav(START)
+
+    def park_on(d1):
+        return TNAV is not None and d1.strftime("%Y-%m-%d") >= TP.PARK_FROM
+
+    def tret(d0, d1):
+        return TP.ret_between(TNAV, d0, d1)
 
     USD = {}
 
@@ -267,6 +276,10 @@ def main() -> int:
         cn = [a["name"] for a in e["alloc"] if is_cash(a["name"])]
         if cn:
             w[cn[0]] += freed
+        if park_on(d1):          # 🧭 현금·단기채 칸 전부 → 자산 추세 칸
+            w[TP.NAME] = sum(w[n] for n in cn) + (0.0 if cn else freed)
+            for n in cn:
+                w[n] = 0.0
         return w
 
     def rules_on(e, d0, qds=None, vol=False):
@@ -303,6 +316,11 @@ def main() -> int:
             r_tot += c
             parts[a["name"]] = c
             contrib[a["name"]] = contrib.get(a["name"], 0) + c * nav[-1]
+        if bw.get(TP.NAME):
+            c = bw[TP.NAME] / 100 * tret(d0, d1)
+            r_tot += c
+            parts[TP.NAME] = c
+            contrib[TP.NAME] = contrib.get(TP.NAME, 0) + c * nav[-1]
         nav.append(nav[-1] * (1 + r_tot))
         if d1.strftime("%Y-%m-%d") >= RULE_FROM:
             rw = rules_on(e, d0, (d1 - pd.Timedelta(days=1)).strftime("%Y-%m-%d"), vol_on(d1))[0]
@@ -344,6 +362,7 @@ def main() -> int:
                 us = us_of(a["name"], a["instruments"], a.get("picks"))
                 rs = [x for x in (ret(t, d0, d1) for t in us) if x is not None]
                 rr[a["name"]] = sum(rs) / len(rs) if rs else 0.0
+            rr[TP.NAME] = tret(d0, d1)
             g = sum(w.get(k, 0) * rr.get(k, 0.0) for k in w)
             hv.append(v * (1 + g))
             tot = 1 + g
@@ -419,6 +438,15 @@ def main() -> int:
                              "r1": round((ret(t, cal[-2], cal[-1]) or 0) * 100, 2) if t in C and len(cal) > 1 else None,
                              "since": round((ret(t, cal[0], cal[-1]) or 0) * 100, 2) if t in C else None} for t in us],
                      "kr": kr, "contrib": round(contrib.get(a["name"], 0) * 100, 2)})
+    if bw_now.get(TP.NAME) or contrib.get(TP.NAME):
+        tw_ = [(o["sym"], o["w"], o.get("name")) for o in T_OPEN] + ([("SGOV", T_IDLE, TP.TNAME["SGOV"])] if T_IDLE > 0.005 else [])
+        hold.append({"name": TP.NAME, "pct": round(bw_now.get(TP.NAME, 0.0), 1), "pct_base": 0, "trend": True,
+                     "instruments": "덜어낸 현금을 9종 추세 칸에 — " + " · ".join(f"{t} {round(w * 100)}%" for t, w, _ in tw_),
+                     "check": [], "sig": "", "pick_vs": None, "picks": None, "why_picks": None,
+                     "us": [{"t": t, "w": round(w, 4), "name": nm, "px": round(float(C[t].iloc[-1]), 2) if t in C else
+                             TP.LAST_PX.get(t), "cur": "달러",
+                             "r1": round((ret(t, cal[-2], cal[-1]) or 0) * 100, 2) if t in C and len(cal) > 1 else None} for t, w, nm in tw_],
+                     "kr": [], "contrib": round(contrib.get(TP.NAME, 0) * 100, 2)})
     prev = log[-2]["alloc"] if len(log) > 1 else None
     rw_now, why_now, cash_t, qd_now, st_now = rules_on(log[-1], cal[-1], now.strftime("%Y-%m-%d"), vol_on(nxt))     # 다음 거래일에 쓸 킥 포트 기본 비중 (국면은 오늘 것)
     rule = {"from": RULE_FROM, "use": list(USE), "quad": qd_now, "cash": cash_t, "nav": [round((v - 1) * 100, 2) for v in nav_rule],
@@ -456,7 +484,7 @@ def main() -> int:
         return {"on": True, "active": on_, "role": P_["role"], "lb": P_["lb"], f"vol{P_['lb']}": round(float(V.iloc[-1]) * 100, 1), "vol20": round(float(vol_line_(20).iloc[-1]) * 100, 1),
                 "target": P_["target"], "floor": round(P_["floor"] * 100), "eq_scale": round(sc * 100), "eq_w": round(eq_base * sc, 1),
                 "raw_scale": round(min(1.0, max(P_["floor"], P_["target"] / 100 / float(V.iloc[-1]))) * 100), "band": 5, "from": VOL_FROM, "asof": cal[-1].strftime("%Y-%m-%d"),
-                "note": f"주식 칸 × min(1, 목표 {P_['target']}% ÷ S&P½+나스닥½ {P_['lb']}일 변동성), 아래 한도 {round(P_['floor'] * 100)}% · 5%p 넘게 바뀔 때만 · 덜어낸 만큼 현금·단기채 · 레버리지 없음"}
+                "note": f"주식 칸 × min(1, 목표 {P_['target']}% ÷ S&P½+나스닥½ {P_['lb']}일 변동성), 아래 한도 {round(P_['floor'] * 100)}% · 5%p 넘게 바뀔 때만 · 덜어낸 만큼 " + (f"🧭 자산 추세 칸({TP.PARK_FROM}부터 · 현금·단기채 칸 전부)" if (park_on(nxt) and role_key == "base") else "현금·단기채") + " · 레버리지 없음"}
 
     from src.rules7 import vol_line as _vl
     vol_line_ = lambda lb: _vl(C["SPY"], C["QQQ"], lb)
@@ -475,12 +503,15 @@ def main() -> int:
         sc = scale_at(_hb, d0)
         if abs(sc - prev_sc) > 1e-9:
             vchg.append({"date": d1.strftime("%Y-%m-%d"), "why": f"🦴 변동성 맞춤(방어형): 주식 칸 {eq_base_b * prev_sc:.1f}→{eq_base_b * sc:.1f}% "
-                         f"(S&P½+나스닥½ {VP_BASE['lb']}일 변동성 {float(_vb[_vb.index <= d0].iloc[-1]) * 100:.1f}% · 목표 {VP_BASE['target']}%) — 나머지는 현금·단기채"
+                         f"(S&P½+나스닥½ {VP_BASE['lb']}일 변동성 {float(_vb[_vb.index <= d0].iloc[-1]) * 100:.1f}% · 목표 {VP_BASE['target']}%) — 나머지는 " + ("🧭 자산 추세 칸" if park_on(d1) else "현금·단기채")
                          + (" · 다음 거래일부터" if i == len(cal) else ""), "vol": True})
         prev_sc = sc
     changes = sorted([{"date": e["date"], "why": e.get("why", "")} for e in log] + vchg, key=lambda x: x["date"], reverse=True)
     out = {
-        "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "views": views, "vol_rule": vol_rule, "asof": cal[-1].strftime("%Y-%m-%d"), "fx": round(fx, 1) if fx else None,
+        "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "views": views, "vol_rule": vol_rule, "trend_park": {"on": park_on(nxt), "from": TP.PARK_FROM, "rule": f"{TP.NIN}/{TP.NOUT}|{TP.WMODE}", "pct": round(bw_now.get(TP.NAME, 0.0), 1),
+                                                 "open": T_OPEN, "idle": round(T_IDLE, 3), "ok": TNAV is not None,
+                                                 "note": "Q10/28-1 — 💼 현금·단기채 칸(변동성 맞춤·국면으로 덜어낸 돈)을 SGOV 대신 🧭 자산 추세 9종(100일 고가 돌파·50일 저가 이탈·변동성 반비례) 칸에 둠 · 근거 market/lab/k1028_bundle.json · 레버리지 없음"},
+        "asof": cal[-1].strftime("%Y-%m-%d"), "fx": round(fx, 1) if fx else None,
         "dates": series_d, "nav": [round((v - 1) * 100, 2) for v in nav],
         "bench": {BENCH[k]: [round((v - 1) * 100, 2) for v in bn[k]] for k in BENCH},
         "bench_meta": [{"name": BENCH[k], "t": k, "group": BENCH_GROUP.get(BENCH[k], ""), "ret": round((bn[k][-1] - 1) * 100, 2),
