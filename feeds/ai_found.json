@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "텍사스 주지사, 데이터센터 전력망 승인 보류",
+   "url": "https://www.eenews.net/articles/texas-governor-puts-data-center-grid-approvals-on-hold/",
+   "press": "E&E News",
+   "at": "2026-10-29 07:35",
+   "why": "10/28 앤트로픽 연계 텍사스 DC 대출 매각 연기의 원인 — AI 크레딧 가설을 전력 제약 쪽으로 재해석",
+   "summary": "텍사스가 신규 데이터센터의 전력망 연결 승인을 보류하고 주 전체 전력망 점검 착수. 은행들은 이 보류 때문에 150억$ 대출 일부 매각을 미룸(bloomberg 10/28)."
+  },
+  {
+   "title": "텍사스 점검으로 데이터센터 부하 49.8GW 지연 가능",
+   "url": "https://www.powermag.com/texas-audit-could-delay-49-8-gw-of-data-center-load-cost-projects-up-to-15-billion/",
+   "press": "POWER Magazine",
+   "at": "2026-10-29 07:35",
+   "why": "전력 병목이 AI capex 집행 속도를 늦출 수 있는 변수 — 한국 HBM 밸류체인(타이거일렉 bet) 수요 시점 점검",
+   "summary": "텍사스 점검이 49.8GW 규모 데이터센터 부하를 늦추고 프로젝트 비용을 최대 150억$ 올릴 수 있다는 분석."
+  },
+  {
    "title": "SK하이닉스, 반토막 뒤 사상 최대 290억$ 자사주 매입·소각",
    "url": "https://www.koreajoongangdaily.com/business/sk-hynix-launches-record-29b-share-buyback-and-cancellation-after-stock-loses-half-its-value/12832819",
    "press": "코리아중앙데일리",
@@ -623,22 +639,6 @@
    "at": "2026-10-27 07:35",
    "why": "AI 차입 가설 — 칩 구매를 빚으로 하는 사슬이 브로드컴(630억$)·메타(공모)·스페이스X로 넓어짐, 핌코 인수는 수요가 아직 강하다는 반대 근거",
    "summary": "아폴로 주도 400억$(약 300억$ 투자등급), 기존 부채보다 많은 규모. 10/26 bbg: 핌코가 그중 40억$ 인수."
-  },
-  {
-   "title": "SK하이닉스, 28일 3분기 실적과 함께 추가 주주환원 방안 공개 예정",
-   "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1427794",
-   "press": "코리안센터(연합 인용)",
-   "at": "2026-10-27 06:35",
-   "why": "🎯 반도체 칸·🇰🇷 한국 가설 — 주가 고점 대비 −58% 구간에서 28일 실적·환원이 반등 재료가 될지",
-   "summary": "자사주 40조43억원(2,407만주, 발행주식 약 3.3%) 매입·전량 소각, 매입 기간을 11/19→10/21로 한 달 앞당겨 종료 · 추가 환원은 28일 실적 발표 때 공개 · 기사 10/21"
-  },
-  {
-   "title": "브로드컴, 앤트로픽 칩 구매 위해 600억$+ 부채 조달 구조(SPV·후순위 300억$)",
-   "url": "https://thenextweb.com/news/broadcom-60bn-ai-chip-debt-anthropic",
-   "press": "The Next Web(블룸버그 인용)",
-   "at": "2026-10-27 06:35",
-   "why": "🧠 AI 차입 가설 — 10/26 630억$ 금융 확정(bbg)의 구조: 투자자가 칩을 사 앤트로픽에 임대, 브로드컴이 선순위 일부 보증",
-   "summary": "규모 600억$ 이상·최대 1,000억$ 거론 · 후순위 약 300억$ + 선순위 600~700억$, SPV 발행·브로드컴 일부 보증 · 8/20 첫 보도 → 10/26 BofA·블랙스톤·씨티·MS와 630억$ 확정(bbg 피드)"
   }
  ],
  "at": "2026-10-28 12:35"
