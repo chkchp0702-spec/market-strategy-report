@@ -78,7 +78,8 @@ def ls_edge(C, sig, a, b):
             "hit": round(float((x > 0).mean()) * 100), "yr_bp": round(float(x.sum()) / ((pd.Timestamp(b) - pd.Timestamp(a)).days / 365.25), 0)}
 
 
-def core_run(C, reg, idx, sc, sig, f=0.0, bond="IEF", sym=False, band=0.05):
+def core_run(C, reg, idx, sc, sig, f=0.0, bond="IEF", sym=False, band=0.05, fb=None):
+    fb = f if fb is None else fb
     G = {"SPY": .475, "QQQ": .475, "GLD": .05}
     Rd = {"SPY": .315, "QQQ": .315, "GLD": .11}
     keys = ["SPY", "QQQ", "GLD", "TRD", "BND"]
@@ -94,8 +95,8 @@ def core_run(C, reg, idx, sc, sig, f=0.0, bond="IEF", sym=False, band=0.05):
         gl = b["GLD"]
         trd = 1 - e - gl
         bnd = 0.0
-        if s_now > 0 and f > 0:
-            bnd = e * f; e -= bnd
+        if s_now > 0 and fb > 0:
+            bnd = e * fb; e -= bnd
         elif s_now < 0 and sym and f > 0:
             mv = (gl + trd) * f
             e += mv; gl *= (1 - f); trd *= (1 - f)
