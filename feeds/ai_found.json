@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "SK하이닉스, 반토막 뒤 사상 최대 290억$ 자사주 매입·소각",
+   "url": "https://www.koreajoongangdaily.com/business/sk-hynix-launches-record-29b-share-buyback-and-cancellation-after-stock-loses-half-its-value/12832819",
+   "press": "코리아중앙데일리",
+   "at": "2026-10-29 06:35",
+   "why": "한국 반도체 칸 매수 공백 해소 — 「자사주 재개 = 대형 반도체 재진입」 아이디어(10/16) 첫 표본",
+   "summary": "속보: 주주환원 100조(배당 30조·소각 60조, mt_stock). 10/28 삼전·닉스 7~8%↑."
+  },
+  {
    "title": "마이크로소프트 1분기 애저 +48%·매출 예상 상회, 시간외 +4%",
    "url": "https://www.marketscreener.com/news/microsoft-beats-quarterly-cloud-revenue-estimates-ce785cd3d980f624",
    "press": "MarketScreener(Reuters)",
@@ -631,14 +639,6 @@
    "at": "2026-10-27 06:35",
    "why": "🧠 AI 차입 가설 — 10/26 630억$ 금융 확정(bbg)의 구조: 투자자가 칩을 사 앤트로픽에 임대, 브로드컴이 선순위 일부 보증",
    "summary": "규모 600억$ 이상·최대 1,000억$ 거론 · 후순위 약 300억$ + 선순위 600~700억$, SPV 발행·브로드컴 일부 보증 · 8/20 첫 보도 → 10/26 BofA·블랙스톤·씨티·MS와 630억$ 확정(bbg 피드)"
-  },
-  {
-   "title": "美 국채금리, AI 위험 저울질 속 하락",
-   "url": "https://capital.com/en-int/news/us-yields-lower-as-ai-risk-gauged",
-   "press": "Capital.com",
-   "at": "2026-10-27 05:35",
-   "why": "🧠 AI 차입 가설·고금리 정점 가설(0.42) — 크레딧 불안이 국채로 피난 수요를 만들면 10년 5% 아래 정착 근거",
-   "summary": "제목 기준 AI 위험 평가 속 美 금리 하락. 10/26 마감 10년 4.986%·2년 4.716%(CNBC, latest.json) — 세부 수치는 기사 미확인."
   }
  ],
  "at": "2026-10-28 12:35"
