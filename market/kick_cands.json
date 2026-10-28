@@ -4740,6 +4740,22 @@
 "src": "ins",
 "score": 80,
 "note": "기회형 내부자 3명 · 1,772천 달러 (10일 안 공시)"
+},
+"KNSA|2026-10-27|pead": {
+"code": "KNSA",
+"name": "Kiniksa Pharmaceuticals International, plc - Class A Ordinary Shares",
+"mkt": "US",
+"d": "2026-10-27",
+"src": "pead",
+"score": 70.2
+},
+"MFIC|2026-10-27|pead": {
+"code": "MFIC",
+"name": "MidCap Financial Investment Corporation - Closed End Fund",
+"mkt": "US",
+"d": "2026-10-27",
+"src": "pead",
+"score": 80.0
 }
 },
 "sent": [
