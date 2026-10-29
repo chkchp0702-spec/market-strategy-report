@@ -1,21 +1,11 @@
 {
- "at": "2026-10-29 23:45",
+ "at": "2026-10-30 00:50",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
-  "globalmktinsight/7764": {
-   "lv": 1,
-   "why": "🇰🇷 한국 가설(0.80)·반도체 칸 — 주간 외국인 SK하이닉스 −8,772억 순매도 vs 삼성전자 +8,072억(미래에셋): 28일 하이닉스 실적·주주환원 앞 외국인 회피, 한국 비중 확대 금지 유지",
-   "at": "2026-10-27 06:35"
-  },
   "n/wcnbccom20261027federalreserveratehiketimingexpectationshtml": {
    "lv": 1,
    "why": "FOMC(29일 새벽) watch·고금리 가설(0.42) — CNBC 설문 「인상은 오지만 이번 주는 아님」: 동결 우세 확인, 다음 회의 인상 꼬리는 단기채 칸 유지 근거",
    "at": "2026-10-27 20:35"
-  },
-  "n/swwwftcomcontent171ffdaae3e741b9a4c609c9ace3f719syn25a6b1a61": {
-   "lv": 1,
-   "why": "🇰🇷 한국 가설(0.74)·해운 — 이란이 한국 선사 시노코르를 호르무즈 「통과 위반」으로 위협, 코스피 +3% 반등 뒤 지정학 꼬리 위험",
-   "at": "2026-10-28 00:49"
   },
   "jeunkim/224455797355": {
    "lv": 1,
@@ -26,11 +16,6 @@
    "lv": 1,
    "why": "美 칸 — 모건스탠리 S&P 500 −8% 조정 후 랠리 경고, FOMC·빅테크 실적 앞 리스크 가설과 이어짐",
    "at": "2026-10-28 18:35"
-  },
-  "n/s20261028alphabetreportsdisappointingrevenueincomesharesdrop": {
-   "lv": 1,
-   "why": "알파벳 클라우드 +103%·분기 capex 514억$ — AI 투자 속도 유지 → ⚡ 타이거일렉(HBM 테스트 기판) 가설·크레딧 가설 점검",
-   "at": "2026-10-29 05:45"
   },
   "YeouidoStory2/119080": {
    "lv": 1,
@@ -57,11 +42,6 @@
    "why": "크레딧(AI 차입) 가설·반도체 칸 — 나스닥100 −1.3% 개장 예고(알파벳 시간외 −9.8%·MS capex 컨센 하회) → 오늘 밤 AI 하드웨어(VRT 등 focus 강세 업종) 되돌림 시험",
    "at": "2026-10-29 14:45"
   },
-  "n/9kbVByNlJPdVd6bTFwZW5lczBfU0p3RU1LZmpJOWtMcnhVWFkxbk9salAoc5": {
-   "lv": 1,
-   "why": "에너지 칸 — 유럽 가스 €100 2022년 위기 뒤 처음(이란 확전 우려), UBS 브렌트 연말 110$ 상향과 같은 시간 → 유가·에너지 비중 유지 근거, CHRD bet",
-   "at": "2026-10-29 16:35"
-  },
   "n/4d2hnbWRvb0RISGNGTDM2clNOTmRNVE5fa21JSjV2a0VBUXA0X0E2ZUkzoc5": {
    "lv": 1,
    "why": "AI 차입(크레딧) 가설 — 빅테크 capex 경계가 중국 과창판50 −4%로 번짐, 반도체 칸 아시아 갈림",
@@ -87,19 +67,9 @@
    "why": "크레딧(AI 차입) 가설 0.8 — MSFT 2017년 이후 첫 美 회사채, 최소 250억$: 가장 튼튼한 하이퍼스케일러까지 차입으로 AI 자금 조달",
    "at": "2026-10-29 21:45"
   },
-  "n/0261029hsbcseekstohedgedatacenterdebtwithcreditriskinsurance": {
-   "lv": 1,
-   "why": "크레딧 가설 — 은행(HSBC)이 데이터센터 대출을 신용보험으로 헤지 = 대출자 쪽 경계 신호",
-   "at": "2026-10-29 21:45"
-  },
   "n/ZrSEl0d2VXMHF4MTNGb3phay1qMWR0Rk9aaVRlM1c0QzhDdEpPNmxEVzQoc5": {
    "lv": 1,
    "why": "ECB 2.5% 동결 + 라가르드 2/7 조기 사임 — 유로·유럽 금리 불확실성, 고금리 가설·달러 방향과 이어짐",
-   "at": "2026-10-29 22:45"
-  },
-  "n/nstartspalantiratoverweightcallsitadisruptiveaileader4983906": {
-   "lv": 1,
-   "why": "JP모건 PLTR 비중확대 개시 — PLTR ☕ cup_eye 10/27 신호와 겹침(bet 20261029-22)",
    "at": "2026-10-29 22:45"
   },
   "n/httpswwwftcomcontentfbca8eb076ef4e0ebcc9c45c8f7d1311": {
@@ -107,10 +77,15 @@
    "why": "크레딧(AI 차입) 가설 0.8 — 알파벳 실적 뒤 사상 최대 하락 −13%·시총 5천억$ 증발, 나스닥 −1.6% 동반(PLTR bet 시험대)",
    "at": "2026-10-29 23:45"
   },
-  "n/9xR2s2VVVIX0FNS2k5TFpwTG8xTll4dUNqYUNYbHBOb0VTZWVubExoUmEoc5": {
+  "n/httpswwwcnbccom20261029servicenownowearningsq32026html": {
    "lv": 1,
-   "why": "고금리 가설 — GDP 3.4%·PCE 3.6% 뒤 美 10년 다시 5%↑, 「이틀 연속 5%↑」 watch 조건 재점검",
-   "at": "2026-10-29 23:45"
+   "why": "AI 소프트웨어 칸·크레딧(AI 차입) 가설 — 서비스나우 실적 뒤 −24%, 「AI가 SaaS를 대체」 공포 재점화: 알파벳 −13% 와 같은 날 소프트웨어 매도 확산",
+   "at": "2026-10-30 00:50"
+  },
+  "n/0261029googledebtriskgaugerisesasearningsreviveaidebtjitters": {
+   "lv": 1,
+   "why": "크레딧(AI 차입) 가설 0.8 직접 — 알파벳 실적 뒤 구글 부도위험 지표(CDS) 상승: 가설의 판정 기준 「실적 뒤 CDS 방향」이 악화 쪽",
+   "at": "2026-10-30 00:50"
   }
  }
 }
