@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "마벨, 루멘텀 인수 막바지 협상 — AI 광학 메가딜(블룸버그 보도)",
+   "url": "https://www.digitimes.com/news/a20261029PD222/marvell-data-bloomberg-component-photonics.html",
+   "press": "DIGITIMES",
+   "at": "2026-10-30 03:35",
+   "why": "광통신 칸(루멘텀) 직결 — 피인수 프리미엄 vs 인수자 마벨 약세",
+   "summary": "블룸버그 10/28 보도: 마벨이 루멘텀 인수 막바지 협상. 거래 규모·조건 미확정(미확인)."
+  },
+  {
+   "title": "마벨, 시가총액 830억$ 루멘텀 인수 근접 — 매출의 28배",
+   "url": "https://fourweekmba.com/ai-marvell-said-to-near-deal-for-83b-lumentum-worth-28x-sales/",
+   "press": "FourWeekMBA",
+   "at": "2026-10-30 03:35",
+   "why": "광통신 밸류에이션 정점 신호 여부 — 칸 비중 판단에 참고",
+   "summary": "루멘텀 가치 약 830억$·매출 28배로 거론(2차 출처, 미확인). 마벨 주가는 소식에 하락(barrons 제목)."
+  },
+  {
    "title": "파트너스그룹, 美 대표 에버그린 PE 펀드 환매 압박 — 사모 환매 우려 확산",
    "url": "https://www.wealthprofessional.ca/investments/alternative-investments/partners-group-flags-us-fund-under-redemption-pressure-as-private-equity-withdrawal-fears-deepen/392630",
    "press": "Wealth Professional",
@@ -623,22 +639,6 @@
    "at": "2026-10-28 04:35",
    "why": "신호 뒤 M&A 갭 크기 확인용 — 킥 추격 금지 규칙 근거",
    "summary": "10/26 도어대시 인수 협상 보도로 급등 · 딜 가격이 주가 상단을 정함"
-  },
-  {
-   "title": "오늘의 증시(10/27): FOMC 시작·실적 시즌 속 S&P 상승",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-27-135043351.html",
-   "press": "Yahoo Finance",
-   "at": "2026-10-28 04:35",
-   "why": "FOMC 하루 전 시장 위치 — 고금리 정점 가설(0.42)·반도체 칸",
-   "summary": "S&P 7,719(+0.55%)·나스닥 +1.1%(14:49 EDT, CNBC) · 반도체·AI 인프라 주도, 유가 하락"
-  },
-  {
-   "title": "연준 결정 미리보기: 수요일 동결 예상, 12월 인상은 살아 있음",
-   "url": "https://see.news/fed-decision-preview-rates-expected-to-hold-wednesday-as-december-hike-remains-on-table",
-   "press": "see.news",
-   "at": "2026-10-28 03:35",
-   "why": "고금리 정점 가설(0.42)·현금/단기채 칸 — 시장이 이번 동결·12월 인상을 거의 다 가격에 넣었는지 기준",
-   "summary": "기준금리 3.75~4.00%(9월 0.25%p 인상). CME FedWatch(10/27) 10월 인상 약 11%·12월 인상 약 82%. 9월 CPI 3.7%(예상 3.6%)·근원 2.6%, 29일 9월 PCE 3.6% 예상(8월 3.4%)."
   }
  ],
  "at": "2026-10-29 22:45"

@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30 02:35",
+ "at": "2026-10-30 03:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wcnbccom20261027federalreserveratehiketimingexpectationshtml": {
@@ -25,11 +25,6 @@
   "kimu_nim/47579": {
    "lv": 1,
    "why": "전력·원전 가설 — 체코 원전 시공계약 최종 불발, 두산에너빌·대우건설 급락",
-   "at": "2026-10-29 11:35"
-  },
-  "n/FdWams0NkxuQWdTb0V2bWEyUEdjNnlYVnEtUGV4Vnhwc1VUcjVFclZVSQoc5": {
-   "lv": 1,
-   "why": "AI 광통신 — 마벨 루멘텀 인수 최종 협상(블룸버그), 광부품 밸류체인 재평가 재료",
    "at": "2026-10-29 11:35"
   },
   "HANAchina/71208": {
@@ -72,25 +67,20 @@
    "why": "크레딧(AI 차입) 가설 0.8 — 알파벳 실적 뒤 사상 최대 하락 −13%·시총 5천억$ 증발, 나스닥 −1.6% 동반(PLTR bet 시험대)",
    "at": "2026-10-29 23:45"
   },
-  "n/httpswwwcnbccom20261029servicenownowearningsq32026html": {
-   "lv": 1,
-   "why": "AI 소프트웨어 칸·크레딧(AI 차입) 가설 — 서비스나우 실적 뒤 −24%, 「AI가 SaaS를 대체」 공포 재점화: 알파벳 −13% 와 같은 날 소프트웨어 매도 확산",
-   "at": "2026-10-30 00:50"
-  },
-  "n/0261029googledebtriskgaugerisesasearningsreviveaidebtjitters": {
-   "lv": 1,
-   "why": "크레딧(AI 차입) 가설 0.8 직접 — 알파벳 실적 뒤 구글 부도위험 지표(CDS) 상승: 가설의 판정 기준 「실적 뒤 CDS 방향」이 악화 쪽",
-   "at": "2026-10-30 00:50"
-  },
-  "n/qVGw1a2ppVk9hLXh5N3EzbFlIdzJ3d3V0Ui1RRzVLV1JxcjdVWmJpSm1Soc5": {
-   "lv": 1,
-   "why": "크레딧(AI 차입) 가설 0.8 — 모건스탠리가 AI 부채·연준 긴축을 S&P −8% 위험으로 직접 명시",
-   "at": "2026-10-30 01:35"
-  },
   "n/swwwftcomcontent1ff658df963e4b929e12f0cf5517b2ecsyn25a6b1a61": {
    "lv": 1,
    "why": "크레딧(AI 차입) 가설 0.8 — 파트너스그룹 美 대표 PE 펀드 환매 요청 2배: 사모시장 유동성 압박이 크레딧 스트레스로 번지는 경로",
    "at": "2026-10-30 02:35"
+  },
+  "n/9xR2s2VVVIX0FNS2k5TFpwTG8xTll4dUNqYUNYbHBOb0VTZWVubExoUmEoc5": {
+   "lv": 1,
+   "why": "외국인 watch·원화 강세 — UBS 코스피 목표 8,000→7,500 「원화강세 부담」, 골드만 하향에 이은 두 번째 IB 하향",
+   "at": "2026-10-30 03:35"
+  },
+  "n/kmarketnewschenierereportsriseinthirdquarternetincome4982412": {
+   "lv": 1,
+   "why": "에너지 칸·SU bet — 중동 가스 차질로 美 LNG 수요↑, 체니에르 전망 상향",
+   "at": "2026-10-30 03:35"
   }
  }
 }
