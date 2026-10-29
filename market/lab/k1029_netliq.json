@@ -1,0 +1,11 @@
+{
+ "at": "2026-10-29 12:08",
+ "from": "2008-07-01",
+ "to": "2026-10-28",
+ "log": {
+  "WALCL": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=60)\"))",
+  "WTREGEN": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=60)\"))",
+  "RRPONTSYD": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=60)\"))"
+ },
+ "verdict": "➖ FRED 자료를 못 받음"
+}
