@@ -4876,6 +4876,45 @@
 "d": "2026-10-28",
 "src": "pead",
 "score": 65.3
+},
+"ICLR|2026-10-29|e": {
+"code": "ICLR",
+"name": "ICON plc - Ordinary Shares",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "earn",
+"score": 73.6,
+"lv": 190.56
+},
+"MANH|2026-10-29|e": {
+"code": "MANH",
+"name": "Manhattan Associates, Inc. - Common St",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "earn",
+"score": 70.8,
+"lv": 170.89
+},
+"PLTR|2026-10-29|e": {
+"code": "PLTR",
+"name": "Palantir Technologies Inc. - Class A C",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "earn",
+"score": 66.8,
+"lv": 138.9,
+"agree": [
+"☕"
+]
+},
+"DOCS|2026-10-29|e": {
+"code": "DOCS",
+"name": "Doximity, Inc. Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "earn",
+"score": 61.6,
+"lv": 23.57
 }
 },
 "sent": [
