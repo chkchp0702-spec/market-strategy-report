@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "아마존 3분기 실적 미리보기 — capex 전망·잉여현금흐름이 관건, AWS가 실적 좌우",
+   "url": "https://www.itiger.com/news/1131532249",
+   "press": "Tiger Brokers",
+   "at": "2026-10-29 23:45",
+   "why": "크레딧(AI 차입) 가설·「capex·현금흐름 방향이 실적일 반응을 가른다」 아이디어 — 오늘 밤 아마존이 남은 빅테크 시험",
+   "summary": "핵심 포인트: capex 가이던스와 FCF, AWS 성장률. 세부 숫자는 원문 확인(미확인)."
+  },
+  {
+   "title": "아마존 3분기 실적 프리뷰(페퍼스톤)",
+   "url": "https://pepperstone.com/en/insights/market-analysis/equities/amazon-q3-2026-earnings-preview",
+   "press": "Pepperstone",
+   "at": "2026-10-29 23:45",
+   "why": "알파벳 −13% 다음 날 AI 투자 심리 — 아마존 반응이 나스닥·반도체 칸 방향 결정",
+   "summary": "옵션 내재 변동·컨센 세부치는 미확인 — 발표 뒤 D+1 반응으로 채점."
+  },
+  {
    "title": "월가 주요 투자의견: 팔란티어(JP모건 비중확대 개시)·마이크론·메타·알파벳",
    "url": "https://www-web.itiger.com/news/1100689733",
    "press": "Tiger Brokers",
@@ -623,22 +639,6 @@
    "at": "2026-10-28 01:45",
    "why": "PLTR ☕ cup_eye 10/27 신호 — 실적(11월 초) 앞 반등 흐름 확인용, 👀 관찰",
    "summary": "10/22 종가 201.72$(+4.7%). 실적 발표가 신호 horizon 안에 낄 수 있어 bet 은 보류."
-  },
-  {
-   "title": "유가 하락 — 이란 최고지도자·최고안보책임자, 전쟁 종료 조건 논의",
-   "url": "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html",
-   "press": "CNBC",
-   "at": "2026-10-28 00:49",
-   "why": "⚡ CHRD bet·에너지 ☕ 컵 신호 군집(PR·SM·TALO·SU·RRC)의 역풍 — 사우디 라스타누라 공격 헤드라인에도 유가가 내림",
-   "summary": "브렌트 113.8$(−1.7%)·WTI 99.97$(−1.8%, latest.json 11:09 EDT). 이란 최고지도자가 「종전 조건 실현」 언급, 시장은 공격 뉴스보다 협상 쪽을 가격에 반영."
-  },
-  {
-   "title": "이란, 호르무즈 통과 문제로 한국 해운사(시노코르) 위협",
-   "url": "https://www.ft.com/content/171ffdaa-e3e7-41b9-a4c6-09c9ace3f719",
-   "press": "Financial Times",
-   "at": "2026-10-28 00:49",
-   "why": "🇰🇷 한국 가설 — 코스피 +3.1% 급반등 직후 한국 선사 겨냥 지정학 위험, 해운·정유 수급 변수",
-   "summary": "이란이 시노코르를 반복된 「통과 위반」으로 지목. 이란은 지금까지 자국 규칙을 군사 행동으로만 집행해 왔다는 점이 위험."
   }
  ],
  "at": "2026-10-29 22:45"
