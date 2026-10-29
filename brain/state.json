@@ -1,6 +1,6 @@
 {
- "last_review": "2026-10-29 16:35",
- "summary": "코스피 −1.24% 5,930(6천선 하루 만에 반납)·코스닥 −2.34% 753 마감 — 삼성 3분기 영업익 107조·배당 30조에도 환원 실망 −4.1%, 하이닉스는 「3년치 완판」에 강세로 반도체 안 갈림. 닛케이 +705엔 64,659 3일 연속 상승, 원·달러 1,336.8. 유럽 가스 €100 2022년 뒤 처음·UBS 브렌트 연말 110$로 에너지 쪽 압력, 美는 12월 인상 확률 높은 채 알파벳·MS 실적 소화.",
+ "last_review": "2026-10-29 17:35",
+ "summary": "코스피 −1.24% 5,930·코스닥 −2.34% 마감(삼성 환원 실망), 중국 과창판50 −4%대·항셍테크 −3%로 「빅테크 실적이 키운 AI 투자 경계」가 중화권 하드웨어로 번졌고 닛케이만 반도체 장비로 3일 상승. 셸이 정유 마진 사상 최고로 역대 2위 이익·자사주 확대 — 에너지는 원유보다 「정유」 쪽이 강하고, 오늘 밤 ECB·내일 美 근원 PCE 대기.",
  "regime": "위험 회피",
  "theses": [
   {
@@ -101,15 +101,36 @@
   "right": 24,
   "wrong": 5,
   "bets": {
-   "made": 96,
+   "made": 97,
    "win": 8,
    "loss": 22,
    "avg": -2.62,
    "open": 3,
-   "at": "2026-10-29 16:36"
+   "at": "2026-10-29 17:42"
   }
  },
  "bets": [
+  {
+   "id": "20261029-17",
+   "made": "2026-10-29 17:35",
+   "kind": "종목",
+   "t": "SU",
+   "name": "선코어 에너지(캐나다 통합 석유·정유)",
+   "dir": "오름",
+   "entry": null,
+   "entry_rule": "10/29 시가",
+   "target": "entry +5%",
+   "stop": "entry −3%",
+   "horizon": "1주",
+   "why": "셸 3분기 정유 마진 사상 최고·역대 2위 이익·자사주 확대(gn_bbg n/WdFMXpMRndPLVpFMEY5OTl4Z29DRG1Fd0NvMTFnaWpCZXNTTmxtYk8tdwoc5, cnbc_top 10/29) · 셸 3Q 지표 정유마진 42$/bbl(2Q 24$, +75%, oilprice 10/7 https://oilprice.com/Latest-Energy-News/World-News/Shells-Refining-Margin-Jumps-75-as-Fuel-Supplies-Dry-Up.amp.html) · 선코어 3Q 발표 11/3 장 마감 뒤(boereport 10/20 https://boereport.com/2026/10/20/suncor-energy-to-release-third-quarter-2026-financial-results/amp/) · 반대: 이란 외교 진전(bbg_mkt 10/29)·컵 점수 54.4로 낮음·60일 id −0.13",
+   "sig": "☕ cup_eye 10/26 (kick_cands SU|2026-10-26, score 54.4, lv 79.73)",
+   "edge": "메이저가 「정유 기록」을 숫자로 확인한 날 — 정유 비중 큰 북미 통합사는 11/3 실적 전이라 아직 같은 숫자를 못 보여 줌",
+   "src": "스캐너",
+   "status": "대기",
+   "res": null,
+   "size": "0.5배(실적 11/3 기한 안 — 이벤트 위험)",
+   "rule_ok": true
+  },
   {
    "id": "20261029-11",
    "made": "2026-10-29 11:35",
@@ -2282,6 +2303,6 @@
   "back": "그림자 15건↑·승률 45%↑·평균 + 면 그 시장 다시 진짜로",
   "shadow": {},
   "live_again": [],
-  "at": "2026-10-29 16:36"
+  "at": "2026-10-29 17:42"
  }
 }

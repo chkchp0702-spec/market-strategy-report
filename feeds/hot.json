@@ -1,5 +1,5 @@
 {
- "at": "2026-10-29 16:35",
+ "at": "2026-10-29 17:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7764": {
@@ -26,11 +26,6 @@
    "lv": 1,
    "why": "美 칸 — 모건스탠리 S&P 500 −8% 조정 후 랠리 경고, FOMC·빅테크 실적 앞 리스크 가설과 이어짐",
    "at": "2026-10-28 18:35"
-  },
-  "HANAchina/71171": {
-   "lv": 1,
-   "why": "크레딧 가설(0.88) — MSFT·구글 실적 직전 빅테크 CDS 사상 최고, AI 투자 부담 = 오늘 밤 실적 반응의 하방 꼬리",
-   "at": "2026-10-28 23:40"
   },
   "n/les20261028bondtraderssee90chanceofdecemberhikeafterfedholds": {
    "lv": 1,
@@ -82,25 +77,20 @@
    "why": "크레딧(AI 차입) 가설·반도체 칸 — 나스닥100 −1.3% 개장 예고(알파벳 시간외 −9.8%·MS capex 컨센 하회) → 오늘 밤 AI 하드웨어(VRT 등 focus 강세 업종) 되돌림 시험",
    "at": "2026-10-29 14:45"
   },
-  "n/butm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
-   "lv": 1,
-   "why": "반도체 칸·하이닉스 — KLA 「2027 WFE 2,000억$ 초과」 첫 숫자 제시, 빅테크 capex 흔들림과 반대 방향의 장비 쪽 증거",
-   "at": "2026-10-29 14:45"
-  },
-  "n/tsharesjumpasaichipdemanddrivesearningsoutlookupgrade4981509": {
-   "lv": 1,
-   "why": "어드반테스트 AI칩 수요로 전망 상향 — 닛케이 +583엔(64,537) 견인, 「아시아는 일본 반도체로 표현」(ideas 13:35)·장비 공급자 강세 가설과 이어짐",
-   "at": "2026-10-29 15:35"
-  },
-  "n/S1RU0VfZlo3Z2JNNVJrZHJ1REpPRnpYQlB0dkkwM2hHaE13bWVleDQxNgoc5": {
-   "lv": 1,
-   "why": "FOMC 동결 뒤에도 12월 인상 확률 78% — 고금리 정점 가설(0.36)·10년 5% 감시와 직결",
-   "at": "2026-10-29 15:35"
-  },
   "n/9kbVByNlJPdVd6bTFwZW5lczBfU0p3RU1LZmpJOWtMcnhVWFkxbk9salAoc5": {
    "lv": 1,
    "why": "에너지 칸 — 유럽 가스 €100 2022년 위기 뒤 처음(이란 확전 우려), UBS 브렌트 연말 110$ 상향과 같은 시간 → 유가·에너지 비중 유지 근거, CHRD bet",
    "at": "2026-10-29 16:35"
+  },
+  "n/WdFMXpMRndPLVpFMEY5OTl4Z29DRG1Fd0NvMTFnaWpCZXNTTmxtYk8tdwoc5": {
+   "lv": 1,
+   "why": "에너지 칸 — 셸 정유 마진 사상 최고·자사주 확대, ☕ SU 선제 bet 근거",
+   "at": "2026-10-29 17:35"
+  },
+  "n/4d2hnbWRvb0RISGNGTDM2clNOTmRNVE5fa21JSjV2a0VBUXA0X0E2ZUkzoc5": {
+   "lv": 1,
+   "why": "AI 차입(크레딧) 가설 — 빅테크 capex 경계가 중국 과창판50 −4%로 번짐, 반도체 칸 아시아 갈림",
+   "at": "2026-10-29 17:35"
   }
  }
 }
