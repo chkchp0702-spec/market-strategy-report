@@ -1,50 +1,72 @@
 {
-"at": "2026-10-28 10:28",
+"at": "2026-10-29 10:52",
 "signals": [
 {
 "src": "pead",
-"code": "KNSA",
-"name": "Kiniksa Pharmaceuticals International, plc - Class A Ordinary Shares",
+"code": "BLCO",
+"name": "Bausch + Lomb Corporation Common Shares",
 "mkt": "US",
-"d": "2026-10-27",
-"vr": 4.0,
-"gap": 16.5,
-"px": 89.2,
-"score": 20.2
+"d": "2026-10-28",
+"vr": 8.9,
+"gap": 5.2,
+"px": 20.4,
+"score": 30.0
 },
 {
 "src": "pead",
-"code": "MFIC",
-"name": "MidCap Financial Investment Corporation - Closed End Fund",
+"code": "ICLR",
+"name": "ICON plc",
 "mkt": "US",
-"d": "2026-10-27",
-"vr": 14.4,
-"gap": 22.0,
-"px": 10.26,
+"d": "2026-10-28",
+"vr": 4.5,
+"gap": 8.9,
+"px": 214.16,
+"score": 22.7
+},
+{
+"src": "pead",
+"code": "KIDS",
+"name": "OrthoPediatrics Corp.",
+"mkt": "US",
+"d": "2026-10-28",
+"vr": 7.9,
+"gap": 4.7,
+"px": 30.8,
 "score": 30.0
+},
+{
+"src": "pead",
+"code": "WING",
+"name": "Wingstop Inc.",
+"mkt": "US",
+"d": "2026-10-28",
+"vr": 3.1,
+"gap": 7.7,
+"px": 138.57,
+"score": 15.3
 }
 ],
 "state": {
 "index_KR": {
 "sym": "^KS11",
 "above200": false,
-"d": "2026-10-28"
+"d": "2026-10-29"
 },
 "scanned_KR": 2612,
 "us_source": "US.json 전 종목 5942 + ETF 4929 (2026-10-24)",
 "index_US": {
 "sym": "^GSPC",
 "above200": true,
-"d": "2026-10-27"
+"d": "2026-10-28"
 },
-"scanned_US": 9141,
+"scanned_US": 9143,
 "dip": {
 "sym": "QQQ",
-"d": "2026-10-27",
-"close": 721.25,
-"ma200": 677.05,
-"ma5": 713.5,
-"rsi2": 82.8,
+"d": "2026-10-28",
+"close": 725.61,
+"ma200": 677.55,
+"ma5": 713.59,
+"rsi2": 88.8,
 "th": 5.0,
 "signal": false
 },
@@ -54,74 +76,74 @@
 "GLD": {
 "on": false,
 "since": "2026-03-23",
-"close": 372.28,
+"close": 373.51,
 "hi": 429.42,
 "lo": 364.33,
-"d": "2026-10-27"
+"d": "2026-10-28"
 },
 "USO": {
 "on": true,
 "since": "2026-09-10",
-"close": 163.88,
+"close": 166.57,
 "hi": 169.96,
 "lo": 125.41,
-"d": "2026-10-27"
+"d": "2026-10-28"
 },
 "TLT": {
 "on": false,
 "since": null,
-"close": 81.63,
+"close": 80.99,
 "hi": 86.44,
 "lo": 76.43,
-"d": "2026-10-27"
+"d": "2026-10-28"
 },
 "UUP": {
 "on": true,
 "since": "2026-03-12",
-"close": 29.12,
+"close": 29.06,
 "hi": 29.25,
 "lo": 27.87,
-"d": "2026-10-27"
+"d": "2026-10-28"
 },
 "SPY": {
 "on": true,
 "since": "2026-04-15",
-"close": 769.66,
+"close": 772.31,
 "hi": 781.62,
 "lo": 747.74,
-"d": "2026-10-27"
+"d": "2026-10-28"
 },
 "QQQ": {
 "on": true,
 "since": "2026-09-22",
-"close": 721.25,
+"close": 725.61,
 "hi": 762.86,
 "lo": 699.27,
-"d": "2026-10-27"
+"d": "2026-10-28"
 },
 "EFA": {
 "on": true,
 "since": "2026-07-06",
-"close": 103.59,
+"close": 103.68,
 "hi": 108.89,
 "lo": 102.0,
-"d": "2026-10-27"
+"d": "2026-10-28"
 },
 "EEM": {
 "on": false,
 "since": "2026-07-29",
-"close": 62.52,
+"close": 63.52,
 "hi": 71.57,
 "lo": 61.25,
-"d": "2026-10-27"
+"d": "2026-10-28"
 },
 "DBC": {
 "on": true,
 "since": "2026-09-01",
-"close": 33.6,
+"close": 33.79,
 "hi": 34.14,
-"lo": 30.14,
-"d": "2026-10-27"
+"lo": 30.27,
+"d": "2026-10-28"
 }
 }
 }
@@ -300,6 +322,50 @@
 "gap": 22.0,
 "px": 10.26,
 "score": 30.0
+},
+{
+"src": "pead",
+"code": "BLCO",
+"name": "Bausch + Lomb Corporation Common Shares",
+"mkt": "US",
+"d": "2026-10-28",
+"vr": 8.9,
+"gap": 5.2,
+"px": 20.4,
+"score": 30.0
+},
+{
+"src": "pead",
+"code": "ICLR",
+"name": "ICON plc",
+"mkt": "US",
+"d": "2026-10-28",
+"vr": 4.5,
+"gap": 8.9,
+"px": 214.16,
+"score": 22.7
+},
+{
+"src": "pead",
+"code": "KIDS",
+"name": "OrthoPediatrics Corp.",
+"mkt": "US",
+"d": "2026-10-28",
+"vr": 7.9,
+"gap": 4.7,
+"px": 30.8,
+"score": 30.0
+},
+{
+"src": "pead",
+"code": "WING",
+"name": "Wingstop Inc.",
+"mkt": "US",
+"d": "2026-10-28",
+"vr": 3.1,
+"gap": 7.7,
+"px": 138.57,
+"score": 15.3
 }
 ]
 }
