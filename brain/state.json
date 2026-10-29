@@ -1,6 +1,6 @@
 {
- "last_review": "2026-10-29 17:35",
- "summary": "코스피 −1.24% 5,930·코스닥 −2.34% 마감(삼성 환원 실망), 중국 과창판50 −4%대·항셍테크 −3%로 「빅테크 실적이 키운 AI 투자 경계」가 중화권 하드웨어로 번졌고 닛케이만 반도체 장비로 3일 상승. 셸이 정유 마진 사상 최고로 역대 2위 이익·자사주 확대 — 에너지는 원유보다 「정유」 쪽이 강하고, 오늘 밤 ECB·내일 美 근원 PCE 대기.",
+ "last_review": "2026-10-29 18:35",
+ "summary": "코스피 −1.24% 5,937·항셍테크 −2.8% 2년여 최저로 「AI 하드웨어 경계」가 아시아에 남았고, 美 선물은 알파벳 −10% 예고 속 혼조. 에너지는 원유(WTI 100.7$, −2%)가 빠지는데 셸·토탈·SK이노가 잇달아 「정유 기록」을 내 정유 쪽만 강하고, 오라클은 차입 제한 약속으로 +11% — 오늘 밤 ECB·내일 美 근원 PCE 대기.",
  "regime": "위험 회피",
  "theses": [
   {
@@ -106,7 +106,7 @@
    "loss": 22,
    "avg": -2.62,
    "open": 3,
-   "at": "2026-10-29 17:42"
+   "at": "2026-10-29 18:36"
   }
  },
  "bets": [
@@ -122,7 +122,7 @@
    "target": "entry +5%",
    "stop": "entry −3%",
    "horizon": "1주",
-   "why": "셸 3분기 정유 마진 사상 최고·역대 2위 이익·자사주 확대(gn_bbg n/WdFMXpMRndPLVpFMEY5OTl4Z29DRG1Fd0NvMTFnaWpCZXNTTmxtYk8tdwoc5, cnbc_top 10/29) · 셸 3Q 지표 정유마진 42$/bbl(2Q 24$, +75%, oilprice 10/7 https://oilprice.com/Latest-Energy-News/World-News/Shells-Refining-Margin-Jumps-75-as-Fuel-Supplies-Dry-Up.amp.html) · 선코어 3Q 발표 11/3 장 마감 뒤(boereport 10/20 https://boereport.com/2026/10/20/suncor-energy-to-release-third-quarter-2026-financial-results/amp/) · 반대: 이란 외교 진전(bbg_mkt 10/29)·컵 점수 54.4로 낮음·60일 id −0.13",
+   "why": "셸 3분기 정유 마진 사상 최고·역대 2위 이익·자사주 확대(gn_bbg n/WdFMXpMRndPLVpFMEY5OTl4Z29DRG1Fd0NvMTFnaWpCZXNTTmxtYk8tdwoc5, cnbc_top 10/29) · 셸 3Q 지표 정유마진 42$/bbl(2Q 24$, +75%, oilprice 10/7 https://oilprice.com/Latest-Energy-News/World-News/Shells-Refining-Margin-Jumps-75-as-Fuel-Supplies-Dry-Up.amp.html) · 선코어 3Q 발표 11/3 장 마감 뒤(boereport 10/20 https://boereport.com/2026/10/20/suncor-energy-to-release-third-quarter-2026-financial-results/amp/) · 반대: 이란 외교 진전(bbg_mkt 10/29)·컵 점수 54.4로 낮음·60일 id −0.13 · 18:35 보강: 토탈 실적일 급등(investing_en)·SK이노 3Q 영업익 3.7조 역대 최대(mk) — 정유 기록 3곳째",
    "sig": "☕ cup_eye 10/26 (kick_cands SU|2026-10-26, score 54.4, lv 79.73)",
    "edge": "메이저가 「정유 기록」을 숫자로 확인한 날 — 정유 비중 큰 북미 통합사는 11/3 실적 전이라 아직 같은 숫자를 못 보여 줌",
    "src": "스캐너",
@@ -2303,6 +2303,6 @@
   "back": "그림자 15건↑·승률 45%↑·평균 + 면 그 시장 다시 진짜로",
   "shadow": {},
   "live_again": [],
-  "at": "2026-10-29 17:42"
+  "at": "2026-10-29 18:36"
  }
 }
