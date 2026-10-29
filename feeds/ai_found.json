@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 3분기 GDP 연율 3.4% — 예상 3.2% 상회",
+   "url": "https://www.fxstreet.com/news/united-states-economy-grows-34-in-third-quarter-vs-32-expected-202610291232",
+   "press": "FXStreet",
+   "at": "2026-10-29 21:45",
+   "why": "고금리 가설(10년 5%) — 성장 상회 + 12월 인상 확률 80%대 → 금리 민감 칸·AI 크레딧에 부담",
+   "summary": "3Q GDP 3.4%(예상 3.2%, 2Q 약 2.2%). 9월 PCE 예상: 헤드라인 3.6%·코어 3.1%(전년, pomegra) — 실제치 미확인."
+  },
+  {
+   "title": "연준 3.75~4% 동결, 10대2 — 쿡·해맥 인상 소수의견, 12월 인상 확률 약 80%",
+   "url": "https://en.bloomingbit.io/feed/news/123186",
+   "press": "Bloomingbit",
+   "at": "2026-10-29 21:45",
+   "why": "고금리 가설·포트 채권 칸 — 매파적 동결, 美 10년 5.02% 부근(pomegra)",
+   "summary": "9월 0.25%p 인상 뒤 동결. 워시 「추가 정보 필요」·결정 회의 연 8→6회로 축소 예고. 12월 인상 확률 80~85%."
+  },
+  {
    "title": "캐터필러 3분기 EPS 7.13달러·매출 207억달러 예상 상회",
    "url": "https://www.gurufocus.com/news/9150495/caterpillar-inc-cat-reports-strong-q3-2026-earnings-eps-of-713-beats-estimates-revenue-of-207b-exceeds-expectations",
    "press": "GuruFocus",
@@ -623,22 +639,6 @@
    "at": "2026-10-27 23:55",
    "why": "AI 차입(크레딧) 가설의 반대 근거 — 대형 AI 자금 조달이 아직 무난히 소화됨",
    "summary": "메타 최대 950억$ 조달 계획 중 250억$ 공모가 5배 초과 청약. 엔비디아·AMD도 지분 참여(약 40억$, barrons). 수요 숫자가 스프레드 확대 가설과 반대 방향."
-  },
-  {
-   "title": "美 10월 소비자신뢰지수 91.7로 4개월 만에 반등(9월 84.2)",
-   "url": "https://www.news4jax.com/business/2026/10/27/us-consumer-confidence-recovers-in-october-as-gas-prices-eased-a-bit/",
-   "press": "AP",
-   "at": "2026-10-27 23:55",
-   "why": "FOMC(KST 29일 새벽) 직전 경기 숫자 강세 — 고금리 가설·달러 강세와 연결",
-   "summary": "컨퍼런스보드 지수 91.7(+7.5p), 단기 전망 120.4(+8.6p). 휘발유 가격 소폭 하락이 배경. 같은 날 신규주택 판매는 모기지 금리 급등에 감소(bbg)."
-  },
-  {
-   "title": "美 9월 내구재 주문 +1.8%…예상(+0.6%) 크게 상회",
-   "url": "https://www.fxstreet.com/news/united-states-durable-goods-orders-rise-18-in-september-vs-06-expected-202610271236",
-   "press": "FXStreet",
-   "at": "2026-10-27 22:45",
-   "why": "고금리 가설(0.42)·FOMC watch — 경기 숫자가 단단해 연준 매파 여지, 다만 항공기 몫이 커 질은 약함",
-   "summary": "9월 내구재 +1.8%(3,454억$), 운송 제외 +0.5%, 국방 제외 +2.2%. 8월 −0.1%로 수정. 달러지수 102.18(+0.15%)로 반응 제한."
   }
  ],
  "at": "2026-10-29 17:35"
