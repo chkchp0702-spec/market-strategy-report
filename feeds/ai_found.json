@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "美 선물 하락 — 알파벳 실적 실망에 시간외 급락, MS는 강세",
+   "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-drop-as-alphabet-slides-on-soft-earnings-microsoft-firms-4981271",
+   "press": "Investing.com",
+   "at": "2026-10-29 14:45",
+   "why": "반도체 칸·크레딧(AI 차입) 가설 — 같은 AI 지출이 MS엔 보상, 알파벳엔 벌(이익 훼손)",
+   "summary": "19:39 ET 나스닥100 선물 −1.2%(29,619.5)·S&P −0.5%·다우 −0.06%. 알파벳 3분기 이익 미스로 시간외 −9.8%(AI·데이터센터 지출 부담), MS 매출·이익 상회로 +2.7%."
+  },
+  {
    "title": "UBS, 한국 전략 — EPS 상향 둔화·거시 역풍에 코스피 목표 8,000으로 하향",
    "url": "https://news.futunn.com/en/post/79498055/south-korea-strategy-slowing-eps-upgrades-and-intensifying-macro-headwinds",
    "press": "Futu(UBS 리포트 요약)",
@@ -623,30 +631,6 @@
    "at": "2026-10-27 18:35",
    "why": "CHRD 열린 bet·에너지 ☕ cup_eye(SM·TALO·SU) — 중동 공급 위험 재점화 여부",
    "summary": "사우디가 페르시아만 최대 원유 수출 터미널 라스타누라 인근에서 역내 공격 뒤 발생한 화재를 진화(관계자 인용, 블룸버그 동일 보도). 피해 규모·공격 주체는 미확인. 브렌트 116$대(latest 16:46)."
-  },
-  {
-   "title": "외국인 1조원 가까이 순매수…코스피 5700선 회복",
-   "url": "https://www.newspim.com/news/view/20261027000540",
-   "press": "뉴스핌",
-   "at": "2026-10-27 15:35",
-   "why": "한국 칸 「외국인 복귀 전까지 비중 확대 금지」 판정 숫자 — 직전 5일 −3.5조의 약 1/3(1.2조) 문턱에 근접",
-   "summary": "10/27 장중 외국인 1조 원 가까이 순매수·코스피 5,700선 회복(매수 사이드카). 마감 확정치로 1/3 회복 여부 판정."
-  },
-  {
-   "title": "주요 증권사들, 연준 다음 인상 시점 12월로 예상",
-   "url": "https://capital.com/en-ae/news/major-brokerages-expect-next-fed-rate-hike-in-december",
-   "press": "Capital.com",
-   "at": "2026-10-27 12:35",
-   "why": "FOMC(KST 29일 새벽) 앞 — 「10월 동결·12월 인상」이 기본값이면 현금·단기채 칸 유지 근거, 깜짝 인상이면 위험 회피 강화",
-   "summary": "골드만 등 주요 IB가 다음 인상을 10월→12월로 미룸(Kitco 10/01 골드만 동일 보도). 피드 gn_kr_macro 「골드만, 10월 동결 후 12월 인상」과 같은 방향. 기사 게재일은 미확인."
-  },
-  {
-   "title": "앤트로픽 IPO 신청 — 오픈AI·스페이스X와 1조 달러급 상장 경쟁",
-   "url": "https://www.capitalbrief.com/newsletter/anthropic-files-for-ipo-in-trillion-dollar-race-with-spacex-openai-783b4eb5-3c31-4303-8236-8b50c24bacfe/",
-   "press": "Capital Brief",
-   "at": "2026-10-27 12:35",
-   "why": "오늘 아시아 반도체 랠리의 방아쇠 — 「AI 차입(크레딧)」 가설 반대 근거(주식 조달 창구 열림)",
-   "summary": "앤트로픽 나스닥 상장 신청. 대만 매체는 기업가치 9,650억 달러 언급(futureaitw, 미확인). 반도체 칸 단기 호재지만 공급 물량 부담도 같이 봐야."
   }
  ],
  "at": "2026-10-29 12:40"
