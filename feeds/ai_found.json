@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "LG화학, 자회사 LG에너지솔루션 주식 575만 주 처분 결정(공시)",
+   "url": "https://www.digitaltoday.co.kr/aigongsi/amp/3512/lgchem-lg-energy-solution-stock-disposal",
+   "press": "디지털투데이",
+   "at": "2026-10-29 12:40",
+   "why": "대주주 지분 매각 오버행 — 엔솔 공시 당일 9%대 급락(한경 피드), D+5 반등률 채점 표본",
+   "summary": "LG화학이 LG엔솔 주식 575만 주 처분 결정(공시 요약 기사) · 피드 한경 「2.5조 지분 처분에 엔솔 9%대 급락」 · 처분 방식(PRS 등) 세부는 미확인"
+  },
+  {
+   "title": "美 10년물, 워시 발언에 하락 — FOMC 동결 뒤",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/592994",
+   "press": "Trading Economics",
+   "at": "2026-10-29 12:40",
+   "why": "watch 「美 10년 5% 이틀째」 판정 — FOMC 뒤 마감이 5% 아래면 장기채·금리 민감 가설(0.36) 재검토",
+   "summary": "FOMC 동결 뒤 10년 4.995%(전일 5.045%, −5bp)·30년 5.318%(−4bp)(latest.json 23:02 EDT) · 기사 세부 수치는 미확인"
+  },
+  {
    "title": "삼성전자, 3분기 30조 현금배당…올해 최대 110조 주주환원",
    "url": "https://biz.sbs.co.kr/amp/article/20000330125",
    "press": "SBS Biz",
@@ -623,23 +639,7 @@
    "at": "2026-10-27 12:35",
    "why": "오늘 아시아 반도체 랠리의 방아쇠 — 「AI 차입(크레딧)」 가설 반대 근거(주식 조달 창구 열림)",
    "summary": "앤트로픽 나스닥 상장 신청. 대만 매체는 기업가치 9,650억 달러 언급(futureaitw, 미확인). 반도체 칸 단기 호재지만 공급 물량 부담도 같이 봐야."
-  },
-  {
-   "title": "SK하이닉스 3분기 영업익 컨센서스 76.96조원 — 6분기 연속 최대 전망, 발표 29일",
-   "url": "https://www.mt.co.kr/en/industry/2026/10/19/2026101913371799572",
-   "press": "머니투데이",
-   "at": "2026-10-27 11:35",
-   "why": "반도체 칸·「한국 외국인 복귀」 가설 판정일 — 실적일(28일 vs 29일) 확인 필요",
-   "summary": "FnGuide 컨센 영업익 76.964조원·영업이익률 약 78.4% 전망, 3분기 실적 10/29 발표 예정(기사 10/19 기준). 매출 숫자는 기사에 없음."
-  },
-  {
-   "title": "마이크로소프트 자발적 퇴직 제안은 실적 전 경고 신호",
-   "url": "https://seekingalpha.com/article/4894021-microsoft-the-voluntary-buyout-is-a-warning-shot-before-earnings",
-   "press": "Seeking Alpha",
-   "at": "2026-10-27 10:35",
-   "why": "AI 소프트웨어 칸·AI 차입 가설 — AI 투자비 늘며 인건비 줄이는 빅테크, 이번 주 MS 실적 앞",
-   "summary": "닛케이 「MS, 6만 명에 퇴직 제안」 보도 관련 · 미국 인력 최대 7%(engadget) — 게시 날짜·규모 최신 여부 미확인"
   }
  ],
- "at": "2026-10-29 11:35"
+ "at": "2026-10-29 12:40"
 }
