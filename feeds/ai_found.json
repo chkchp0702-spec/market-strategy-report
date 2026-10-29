@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "마이크로소프트 실적 뒤 +4% — 애저 48% 성장, 설비투자는 예상보다 가벼움",
+   "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+   "press": "CNBC",
+   "at": "2026-10-29 19:35",
+   "why": "🧠 AI 차입(크레딧) 가설·AI 소프트웨어 칸 — 같은 밤 알파벳 −10%와 갈림: 시장은 매출보다 capex·현금흐름 절제를 보상",
+   "summary": "MSFT 매출·이익 컨센 상회, 애저 +48%, 다음 분기 더 빠를 것이라 언급. 시간외 +4%(CNBC). 247wallst는 「capex 예상보다 가벼움」 — 오라클 차입 제한 +11%, 알파벳 지출 확대 −10%와 같은 방향."
+  },
+  {
+   "title": "라가르드 ECB 총재 2027년 2월 7일 조기 퇴임(ECB 보도자료)",
+   "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+   "press": "ECB",
+   "at": "2026-10-29 19:35",
+   "why": "유로·유럽 금리 — 오늘 밤 ECB 회의 앞 후임 경쟁(bbg_econ), 달러·고금리 정점 가설 점검",
+   "summary": "ECB 공식 발표: 2/7 퇴임. 블룸버그 「후임 경쟁 점화」. 유로 옵션·차트는 ECB 앞 약세 쪽(bbg_mkt). 금리 반응 수치 미확인."
+  },
+  {
    "title": "토탈에너지스 3분기 정유 마진 146% 상승(3분기 트레이딩 업데이트)",
    "url": "https://www.economiematin.fr/?p=234472",
    "press": "Économie Matin",
@@ -623,22 +639,6 @@
    "at": "2026-10-27 21:35",
    "why": "🏦 금융 칸(8%) — 실적 미달 원인이 대손(신용)발이라 일회성 아님: 글로벌 은행 충당금 확대 조짐",
    "summary": "HSBC 3분기 순익 예상 하회, 신용손실 13억$ 반영. 주가 −6.25%(홍콩 장 「滙控績後挫逾半成」). SCMP는 중동 충당금이 자산관리 성장 상쇄로 해석."
-  },
-  {
-   "title": "브렌트 114.68달러 — FOMC 첫날, 테헤란 협상 왕복 뒤 강세 120·약세 108 시나리오",
-   "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/",
-   "press": "FinanceFeeds",
-   "at": "2026-10-27 21:35",
-   "why": "⚡ CHRD bet(☕ cup_eye)·에너지 칸 — 하메네이 평화 발언으로 유가 밀림, 컵 지지선 156.72 시험",
-   "summary": "브렌트 화요일 114.68$. 상단 120$(협상 결렬)·하단 108$(합의) 시나리오 제시. zerohedge: 「하메네이 평화 언급·라스타누라 공격 무시에 유가 하락, 선물 상승」."
-  },
-  {
-   "title": "KLA, 1분기 실적·가이던스 예상 상회에도 하락",
-   "url": "https://seekingalpha.com/news/4510355-kla-corp-falls-even-as-q1-results-guidance-top-estimates",
-   "press": "Seeking Alpha",
-   "at": "2026-10-27 21:35",
-   "why": "🧱 반도체 칸·AI 차입 가설 — 장비 대형주 「좋은 실적에 팜」 3번째, 한국 소부장 28일 시가로 연결 확인",
-   "summary": "KLA 실적·가이던스 컨센 상회에도 주가 하락. 같은 날 램리서치도 「AI 지출 재평가」로 하락(yahoo). 시장은 장비 사이클 정점을 가격에 넣는 중."
   }
  ],
  "at": "2026-10-29 17:35"
