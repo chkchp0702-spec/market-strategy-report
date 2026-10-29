@@ -3,6 +3,22 @@
 매일 오전 11시(한국) 예약 작업이 「수익률 개선 5개(R) + 앱 5개(A)」를 적는다. 10/13부터: 📈 수익률 아이디어는 낮 9~18시 매시간 5개(번호 Q시-번호, 예 Q14-3) · 📱 앱 아이디어는 매일 오전 11시 5개(A1~A5). 보고만 한다 — 실행은 사용자가 번호로 정한다.
 상태: ⏳ 답 기다림 · ✅ 해 보자 · ⏸ 보류 · ❌ 기각 (사용자 답은 다른 세션이 적는다). 60일 넘은 블록은 지운다.
 
+## 10/29 10시 📈 수익률 향상 전략
+
+**바깥 21번 뒤지고 실험실 2번 돌림 — ✅ 0개 · 🟡 0개.** 새 발상 「🎚 변동성 맞춤 펀드(vol-control)가 이틀 뒤 억지로 사고팔 몫 앞지르기」를 처음 숫자로 잼 → 앞에선 조금 되는 듯하다 뒤(2017~)에서 거꾸로 감(격자 54개 중 뒤 플러스 4개) ❌. 둘째로 적용 중인 🔄 월말 흐름의 「주식 덜어낼 곳」을 바꿔 봤지만 **지금 TLT 가 가장 나음**(다른 6곳 모두 앞·뒤 마이너스) — 지금 규칙 확인.
+
+| 번호 | 전략 | 근거 | 붙는 곳 | 효과·난이도 | 상태 |
+|---|---|---|---|---|---|
+| — | (기준 통과·근접 0개) | k1029_volctl · k1029_flowdest | — | — | — |
+
+참고로 알게 된 것(아이디어 아님): ① **변동성 맞춤 펀드 흐름**(노출 = 10% ÷ 실현 변동성[EWMA 0.94·0.97 큰 값·21일·63일 평균], 상한 1.5, 「k일 동안 바뀐 노출 = 아직 안 집행된 몫」, 하루 늦은 체결) 맞대기(SPY−IEF): 앞에선 k1·k2 짧은 창이 +2~+39bp(t 0.1~1.9) 였으나 뒤에선 −10~−15bp(t −0.8~−1.3) 로 뒤집힘 · 💼 위에 얹은 격자 54개 중앙값 앞 0.00·뒤 −0.64%p, 뒤 플러스 4/54 · 앞에서 뽑은 k5·th0.10·f0.6 = 앞 +0.24·뒤 −0.86%p, 흔들기 11개 중 뒤 플러스 1개 → 이미 알려진 흐름이라 다 미리 반영된 듯(골드만·노무라가 매주 추정치를 기사로 냄) ② **🔄 월말 흐름 2026 올해 −3.16%p 의 출처**: 넘침 쪽(주식 → TLT) 달인 4월 −1.66·9월 −1.80·5월 −0.60%p 가 거의 전부 — 주식이 계속 오르고 장기채가 약했던 달 · 덜어낼 곳을 IEF·현금(BIL)·달러(UUP)로 바꾸면 2026 은 +1.5~+1.8%p 나아지지만 길게는 앞 −1.4~−3.6·뒤 −1.1~−2.0%p 손해, 금(GLD)은 앞·뒤·2026 모두 손해 → **TLT 그대로가 맞음**(흔들기 K4/6·th 0.4/0.6·f 0.48/0.72 에서도 같은 순위) ③ 지금 💼 기준점(월말 흐름 포함) = 앞 연 14.24%·낙폭 −14.2·샤프 1.10 / 뒤 17.73%·−15.3·1.32
+뒤진 곳(검색 21번 + 읽기 3): 🎬 유튜브·숏츠 4(Quantified Strategies 109개 목록 · fxstreet 「AI 로 엣지 찾기」 영상 · vol-control 숏츠 · 국내 퀀트 백테스트 강의 — 새 규칙 없음) · 📰 뉴스 5(골드만 「CTA·vol-control 매도 예상」 10월 · 노무라 vol-control 매수 전환 기사 · 외국인 코스피 수급 · BNY 월말 달러 매도 흐름 · 자사주 매입 공백기) · 🧪 논문 4(arXiv 2607.01550 「단기 추세 추종의 몰락」 · 국채 입찰 주기(Lou·Yan·Zhang) · 교차 자산 예측 · 딜러 감마) · 🏦 블로그 5(Quantpedia 9월 — 1분봉 추세·아침 주문 흐름·선거 드리프트·레버리지 ETF 공매도 · Alpha Architect 뮤추얼펀드 앞지르기 · CXO · Allocate Smartly · Hedgeye 「vol-control 이 계속 사는 이유」) · 🇰🇷 2(강환국·인텔리퀀트 — 새 것 없음) · 💬 레딧 1(ETF 순환 — 이미 아는 갈래) · TradingView 「Vol-Control Fund Positioning」 스크립트(규칙 원문)
+출처: [TradingView Vol-Control Fund Positioning](https://in.tradingview.com/script/5gHQJXjj-Vol-Control-Fund-Positioning/) · [Milliman vol control funds](https://milliman.com/-/media/milliman/importedfiles/ektron/vol_control_funds.ashx) · [Hedgeye vol-control](https://app.hedgeye.com/insights/167837-ricci-why-volatility-control-funds-keep-buying?type=macro) · [Interactive Advisors VIX 리셋 반등](https://investing.interactiveadvisors.com/2025/10/a-vix-reset-may-spark-a-temporary-sp500-rebound) · [arXiv 2607.01550](https://arxiv.org/pdf/2607.01550) · [Quantpedia 9월](https://quantpedia.com/quantpedia-in-september-2026/) · [BNY 월말 달러](https://www.bny.com/corporate/global/en/solutions/platforms/execution-services/iflow/fx-g10-em/month-end-rebalancing-usd-likely-to-struggle-cad-to-find-relief.html)
+돌린 실험: src/lab/k1029_volctl.py → market/lab/k1029_volctl.json(맞대기 12 + 대조군 2 + 같은 종가판 · 💼 격자 54 · 흔들기 11 · 해마다 · 월말 흐름 2026 달별) · src/lab/k1029_flowdest.py → market/lab/k1029_flowdest.json(덜어낼 곳 6 × 흔들기 7)
+탈락 4개: ① 🎚 vol-control 흐름 앞지르기 — 뒤 플러스 4/54, 앞 고른 것 뒤 −0.86%p ❌ ② 🔄 덜어낼 곳 IEF·BIL·UUP·GLD·TLT½+GLD½·TLT½+UUP½ — 42판 모두 앞·뒤 마이너스(2026 만 IEF·BIL·UUP 플러스) ❌ ③ 국채 입찰 주기 — 입찰 날짜 자료가 lab 에 없고 주식 칸엔 영향 작음(채권 칸 전용) ④ 자사주 매입 공백기 — Alpha Architect 「시장 수익에 영향 없음」 + 달력성 · 단기 추세 1분봉·딜러 감마·레버리지 ETF 는 금지 갈래
+📦 창고: (새로 없음)
+다음 회차 계획(12시): ① ⚡ 킥 정직 성적(kick.json honest·closed)에서 가장 많이 잃는 칸을 숫자로 짚고 🐋 고래 15% 칸 「다시 사는 날·들고 있는 기간」 손잡이(13F 45일 늦음 반영) ② 바깥 뒤지기: 한국 쪽 억지 흐름 — 코스피200 정기 변경·MSCI 리밸런싱 날짜 앞뒤, 반대매매·신용 잔고(금투협 자료)로 ⚡ 한국 칸 진입 멈춤(10/14 Q12-3 아직 숫자 없음)
+
 ## 10/28 16시 📈 수익률 향상 전략
 
 **바깥 18번 뒤지고 실험실 1번 돌림 — ✅ 채택 후보 1개(새 발상 아님, 14시 ✅ Q10/28-2 를 🎯 집중에 넓히기) · 「분기말엔 연기금이 더 세게 판다」 가설은 ❌.** 별도 검토자 위험 4 「남김 — 단 확장으로 적을 것」.
