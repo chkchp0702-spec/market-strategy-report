@@ -4835,6 +4835,47 @@
 "src": "ins",
 "score": 66.6,
 "note": "기회형 내부자 3명 · 157천 달러 (10일 안 공시)"
+},
+"0998.HK|2026-10-29": {
+"code": "0998.HK",
+"name": "CITIC BANK",
+"mkt": "HK",
+"d": "2026-10-29",
+"src": "cup",
+"score": 72.8,
+"lv": 8.58
+},
+"BLCO|2026-10-28|pead": {
+"code": "BLCO",
+"name": "Bausch + Lomb Corporation Common Shares",
+"mkt": "US",
+"d": "2026-10-28",
+"src": "pead",
+"score": 80.0
+},
+"ICLR|2026-10-28|pead": {
+"code": "ICLR",
+"name": "ICON plc",
+"mkt": "US",
+"d": "2026-10-28",
+"src": "pead",
+"score": 72.7
+},
+"KIDS|2026-10-28|pead": {
+"code": "KIDS",
+"name": "OrthoPediatrics Corp.",
+"mkt": "US",
+"d": "2026-10-28",
+"src": "pead",
+"score": 80.0
+},
+"WING|2026-10-28|pead": {
+"code": "WING",
+"name": "Wingstop Inc.",
+"mkt": "US",
+"d": "2026-10-28",
+"src": "pead",
+"score": 65.3
 }
 },
 "sent": [
