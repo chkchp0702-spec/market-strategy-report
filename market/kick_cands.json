@@ -4915,6 +4915,55 @@
 "src": "earn",
 "score": 61.6,
 "lv": 23.57
+},
+"OXY|2026-10-29": {
+"code": "OXY",
+"name": "옥시덴털 페트롤리움",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "focus",
+"score": 70,
+"theme": "석유 개발"
+},
+"ALAB|2026-10-29|whale": {
+"code": "ALAB",
+"name": "ALAB",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "whale",
+"score": 40
+},
+"VST|2026-10-29|whale": {
+"code": "VST",
+"name": "VST",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "whale",
+"score": 40
+},
+"META|2026-10-29|whale": {
+"code": "META",
+"name": "META",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "whale",
+"score": 40
+},
+"CDW|2026-10-29|whale": {
+"code": "CDW",
+"name": "CDW",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "whale",
+"score": 40
+},
+"GOOGL|2026-10-29|whale": {
+"code": "GOOGL",
+"name": "GOOGL",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "whale",
+"score": 40
 }
 },
 "sent": [
