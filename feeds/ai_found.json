@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "삼성, 사상 최대 110조 원 주주환원 승인했지만 주가 하락(8월 선례)",
+   "url": "https://thenextweb.com/news/samsung-shareholder-return-110-trillion-won-record",
+   "press": "The Next Web",
+   "at": "2026-10-29 16:35",
+   "why": "반도체 칸·삼성 — 10/29 실적·30조 배당에도 −4.1%, 8/24 환원 발표 때도 급락: 「삼성 이벤트일 하락 징크스」 두 번째 표본",
+   "summary": "8/24 110조 원(약 800억$) 환원 발표 당일 삼성 −8%대·코스피 −3%대(JoongAng Daily). 10/29 3분기 영업익 107조·현금배당 30조 확정에도 −4.1%, 코스피 −1.24% 5,930."
+  },
+  {
+   "title": "코스피, 삼성 주주환원 발표 뒤 3% 넘게 하락 마감(8월)",
+   "url": "https://www.koreajoongangdaily.com/business/kospi-closes-over-3-lower-amid-samsungs-shareholder-return-plan/12840853",
+   "press": "Korea JoongAng Daily",
+   "at": "2026-10-29 16:35",
+   "why": "한국 ETF 칸 — 삼성 이벤트 급락일 뒤 지수 D+5 경로를 이번(10/29)과 비교할 기준점",
+   "summary": "8월 삼성 환원 계획 발표일 코스피 −3%↑ 마감. 이번 10/29는 −1.24%·코스닥 −2.34%로 충격 폭은 작음."
+  },
+  {
    "title": "美 선물 하락 — 알파벳 실적 실망에 시간외 급락, MS는 강세",
    "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-drop-as-alphabet-slides-on-soft-earnings-microsoft-firms-4981271",
    "press": "Investing.com",
@@ -623,14 +639,6 @@
    "at": "2026-10-27 19:35",
    "why": "반도체 칸·한국 가설(0.80) — 28일 실적의 관전 포인트(HBM4·장기계약·주주환원); 주가는 6월 고점 대비 반토막(서울경제)",
    "summary": "사상 최대 이익·영업이익률 78% 전망. 장기공급계약(LTA)과 HBM4 진행, 솔리다임이 핵심 점검 항목."
-  },
-  {
-   "title": "사우디, 공격 뒤 라스타누라 석유 허브 인근 화재 진화",
-   "url": "https://www.newsquawk.com/headlines/saudi-arabia-contains-a-fire-near-the-ras-tanura-oil-hub-following-an-attack-reports-suggest",
-   "press": "Newsquawk",
-   "at": "2026-10-27 18:35",
-   "why": "CHRD 열린 bet·에너지 ☕ cup_eye(SM·TALO·SU) — 중동 공급 위험 재점화 여부",
-   "summary": "사우디가 페르시아만 최대 원유 수출 터미널 라스타누라 인근에서 역내 공격 뒤 발생한 화재를 진화(관계자 인용, 블룸버그 동일 보도). 피해 규모·공격 주체는 미확인. 브렌트 116$대(latest 16:46)."
   }
  ],
  "at": "2026-10-29 12:40"
