@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "캐터필러 3분기 EPS 7.13달러·매출 207억달러 예상 상회",
+   "url": "https://www.gurufocus.com/news/9150495/caterpillar-inc-cat-reports-strong-q3-2026-earnings-eps-of-713-beats-estimates-revenue-of-207b-exceeds-expectations",
+   "press": "GuruFocus",
+   "at": "2026-10-29 20:35",
+   "why": "전력·AI 인프라 칸 — 호실적에도 주가 하락(연합인포맥스 kwusa/61575): 알파벳 뒤 AI 인프라 「좋은 숫자도 판다」 국면 확인",
+   "summary": "EPS 7.13$·매출 20.7B$로 컨센 상회. 발전기 수주잔고 720억$대(10월 보도)에도 장전 하락 — 10월 고점 대비 이미 −10%대 조정 중."
+  },
+  {
+   "title": "일라이 릴리, 비만약 호조로 2026 가이던스 올해 세 번째 상향",
+   "url": "https://tradersunion.com/news/stocks/show/2913526-eli-lilly-glp1-growth-outlook/",
+   "press": "TradersUnion",
+   "at": "2026-10-29 20:35",
+   "why": "방어·헬스케어 쪽 — AI 하드웨어 약세 날 실적 상향 대형주(LLY·MRK)로 자금 이동 여부 관찰",
+   "summary": "매출 전망 상향(젭바운드·마운자로), 거래 관련 비용으로 이익 전망은 소폭 하향(investing_en). 머크도 같은 날 이익 전망 상향(CNBC)."
+  },
+  {
    "title": "마이크로소프트 실적 뒤 +4% — 애저 48% 성장, 설비투자는 예상보다 가벼움",
    "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
    "press": "CNBC",
@@ -623,22 +639,6 @@
    "at": "2026-10-27 22:45",
    "why": "고금리 가설(0.42)·FOMC watch — 경기 숫자가 단단해 연준 매파 여지, 다만 항공기 몫이 커 질은 약함",
    "summary": "9월 내구재 +1.8%(3,454억$), 운송 제외 +0.5%, 국방 제외 +2.2%. 8월 −0.1%로 수정. 달러지수 102.18(+0.15%)로 반응 제한."
-  },
-  {
-   "title": "美 증시 개장 전: 앤트로픽 상장 여파 기술주 반등, WTI 101달러대 하락",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-27-dow-sp-500-nasdaq-081901995.html",
-   "press": "Yahoo Finance",
-   "at": "2026-10-27 22:45",
-   "why": "반도체 칸·CHRD 열린 bet — 반도체 이틀째 강세 vs 유가 하락(CHRD 역풍)",
-   "summary": "S&P 선물 +0.33%, 나스닥 선물 +0.51%. WTI 12월물 101.23(−0.52%), 10년물 4.988%. 엔비디아 메타에 30억$ 투자, 코카콜라 호실적에도 −1.2%."
-  },
-  {
-   "title": "HSBC, 신용손실 13억달러에 순익 미달…주가 6.25% 급락",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-slides-6-25-profit-115026753.html",
-   "press": "Yahoo Finance",
-   "at": "2026-10-27 21:35",
-   "why": "🏦 금융 칸(8%) — 실적 미달 원인이 대손(신용)발이라 일회성 아님: 글로벌 은행 충당금 확대 조짐",
-   "summary": "HSBC 3분기 순익 예상 하회, 신용손실 13억$ 반영. 주가 −6.25%(홍콩 장 「滙控績後挫逾半成」). SCMP는 중동 충당금이 자산관리 성장 상쇄로 해석."
   }
  ],
  "at": "2026-10-29 17:35"
