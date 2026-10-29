@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30 05:40",
+ "at": "2026-10-30 06:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wcnbccom20261027federalreserveratehiketimingexpectationshtml": {
@@ -91,6 +91,16 @@
    "lv": 1,
    "why": "인텔 시간외 −20% (약한 4Q 가이던스·PC 둔화) — 반도체 업종 내일 시가 압박, 한국 반도체 D+2 체크",
    "at": "2026-10-30 05:40"
+  },
+  "n/261029sandiskpostsstrongprofitupbeatoutlookongrowingaidemand": {
+   "lv": 1,
+   "why": "샌디스크 AI 수요로 강한 전망 — 인텔 쇼크와 반대로 메모리는 강함, 하이닉스·한국 반도체 ETF 다음 날 갈림 확인",
+   "at": "2026-10-30 06:35"
+  },
+  "n/ZCcnBrd29XQ3F6REhLdG9yN2NMUUc3U2t0NmdURGFXSUpHMVJyaHM2RlMoc5": {
+   "lv": 1,
+   "why": "홍콩 광통신 개념주 급락(항셍 −0.59%) — 우리 광통신 칸·마벨-루멘텀 소문 흔들림과 이어짐",
+   "at": "2026-10-30 06:35"
   }
  }
 }
