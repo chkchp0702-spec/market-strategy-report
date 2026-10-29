@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "모건스탠리: 2026 핵심 위험은 「AI 설비투자 붐이 생산성으로 이어지지 않는 것」",
+   "url": "https://www.itiger.com/news/1194527807",
+   "press": "Tiger Brokers",
+   "at": "2026-10-30 01:35",
+   "why": "크레딧(AI 차입) 가설 — 오늘 MS 「S&P −8%」 경고의 배경 논리",
+   "summary": "MS 전략팀: AI 투자 붐이 생산성 개선 없이 끝나는 것이 최대 위험. 작성일·세부 숫자 원문 확인(미확인)."
+  },
+  {
+   "title": "퀀타 서비스, 연간 전망 상향에 주가 급등",
+   "url": "https://www.nasdaq.com/articles/quanta-services-boosts-fy26-outlook-shares-soar-13-update",
+   "press": "Nasdaq.com",
+   "at": "2026-10-30 01:35",
+   "why": "AI 소프트웨어 매도 속 전력망·데이터센터 시공(실물 인프라)은 오름 — 회전 관찰, PWR 7일 신호 없음",
+   "summary": "제목 기준 FY26 전망 상향·주가 +13%. 피드(investing_en)도 10/29 「급등」. 날짜·숫자 원문 확인(미확인)."
+  },
+  {
    "title": "나스닥100 하락, 美 10년물 19년 만의 최고 — 오늘의 증시",
    "url": "https://www.benzinga.com/node/61953506",
    "press": "Benzinga",
@@ -623,22 +639,6 @@
    "at": "2026-10-28 02:45",
    "why": "반도체 칸·🇰🇷 한국 가설 — 28일 실적이 숫자(77조)뿐 아니라 주주환원 기대까지 넘어야 하는 자리",
    "summary": "동아일보발 특별배당 16조 원설. 10/27 주가 +5~6%. 3분기 영업익 전망 약 77조 원."
-  },
-  {
-   "title": "美 증시 10/27 정오: 보잉 −10%(인도 목표 하향)·빅테크가 S&P·나스닥 떠받쳐",
-   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-27-2026",
-   "press": "TheStreet",
-   "at": "2026-10-28 02:45",
-   "why": "FOMC(29일 새벽) 앞 장세 — 기술주 주도 반등이 회의 전 위험 선호를 얼마나 끌어올렸나 기준선",
-   "summary": "12:00 EDT S&P +0.68%(7,728.90)·기술 섹터 약 +2%. 보잉 −9.7%(2025년 11월 이후 최저). 오전 브렌트 115.5$·WTI 101.2$."
-  },
-  {
-   "title": "마이크로소프트, 직원 6만 명(약 4분의 1)에 자발 퇴직 제안 — AI 투자 위한 비용 절감",
-   "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
-   "press": "CNBC",
-   "at": "2026-10-28 02:45",
-   "why": "AI 차입 가설(0.88) — 빅테크가 인건비를 깎아 AI 설비 자금을 대는 단계: 현금흐름 압박 신호",
-   "summary": "10/26 보도. 대상 약 6만 명(임원 일부 포함), 연말까지 결정."
   }
  ],
  "at": "2026-10-29 22:45"
