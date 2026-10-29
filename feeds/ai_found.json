@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "삼성전자, 3분기 30조 현금배당…올해 최대 110조 주주환원",
+   "url": "https://biz.sbs.co.kr/amp/article/20000330125",
+   "press": "SBS Biz",
+   "at": "2026-10-29 11:35",
+   "why": "반도체 칸 — 오늘 급락의 원인인 환원 규모·구성 확인용",
+   "summary": "3분기 배당 30조(주당 4,601원), 올해 환원 최대 110조. 시장은 잔여 55~75조 재원·자사주 비중에 실망(연합 종합)."
+  },
+  {
+   "title": "[사이드B] 삼성전자에 실망한 시장? 3분기 30조원 현금배당 뜯어보니",
+   "url": "https://inews24.com/view/1999552",
+   "press": "아이뉴스24",
+   "at": "2026-10-29 11:35",
+   "why": "반도체 칸 — 하닉(100조 환원) 대비 삼성 환원 비교, 외국인 판단 근거",
+   "summary": "30조 배당 구조 분석. 세부 숫자는 원문 확인(미확인)."
+  },
+  {
+   "title": "美·이스라엘, 중간선거 뒤 이란 재공격 계획(NYT 보도)",
+   "url": "https://investinglive.com/commodities/us-and-israel-plan-specific-renewed-iran-strikes-after-us-midterms-new-york-times-reports/",
+   "press": "investingLive",
+   "at": "2026-10-29 11:35",
+   "why": "🧭 에너지 칸·CHRD bet — 날짜가 정해진 지정학 재료(11월 초 중간선거 뒤)",
+   "summary": "NYT 인용 중간선거 뒤 이란 공격 계획 보도. 美 걸프국 경고 기사(sedaily 피드)와 같은 흐름. WTI 102.1·브렌트 114.8(latest)."
+  },
+  {
    "title": "삼성전자, 107조 원 벌고도 면치 못한 주가 하락세",
    "url": "https://www.mydailybyte.com/post/삼전-3분기-실적-2610",
    "press": "mydailybyte",
@@ -615,31 +639,7 @@
    "at": "2026-10-27 10:35",
    "why": "AI 소프트웨어 칸·AI 차입 가설 — AI 투자비 늘며 인건비 줄이는 빅테크, 이번 주 MS 실적 앞",
    "summary": "닛케이 「MS, 6만 명에 퇴직 제안」 보도 관련 · 미국 인력 최대 7%(engadget) — 게시 날짜·규모 최신 여부 미확인"
-  },
-  {
-   "title": "일본담배(JT) 배당 상향·새 실적 전망 뒤 가치 점검",
-   "url": "https://simplywall.st/stocks/jp/food-beverage-tobacco/tse-2914/japan-tobacco-shares/news/a-look-at-japan-tobacco-tse2914-valuation-after-dividend-hik",
-   "press": "Simply Wall St",
-   "at": "2026-10-27 10:35",
-   "why": "📈 갭 신호 2914.T(10/27, 점수 52.4) 재료 확인용 — 방어주 갭이 실적·배당 재료인지",
-   "summary": "배당 상향·실적 전망 제시(기사 날짜 미확인) · 애널 14명 목표가 상향(simplywall 커뮤니티, 미확인)"
-  },
-  {
-   "title": "앰코 3분기 실적·4분기 매출 가이던스 19~20억$, 2026 설비투자 약 25억$로 좁힘 (8-K)",
-   "url": "https://www.sec.gov/Archives/edgar/data/0001047127/000104712726000049/amkr9302026erex-991.htm",
-   "press": "SEC EDGAR",
-   "at": "2026-10-27 09:35",
-   "why": "🎯 반도체 칸 — 후공정(패키징) 수요 숫자, TSMC CoWoS 가격 인상설과 한 줄로 이어짐",
-   "summary": "4분기 매출 19억~20억$ 전망, 2026 설비투자 약 25억$로 범위 축소(sa_news 요약). 패키징 병목이 AI 공급망의 다음 가격 결정력."
-  },
-  {
-   "title": "모건스탠리: TSMC, CoWoS 패키징 가격 최대 20% 인상 계획",
-   "url": "https://tw.stock.yahoo.com/news/%E5%90%84%E5%A0%B1%E8%A6%81%E8%81%9E-%E5%A4%A7%E6%91%A9-%E5%8F%B0%E7%A9%8D%E8%A8%88%E7%95%AB%E6%BC%B2%E5%83%B9-cowos%E6%9C%80%E5%A4%9A%E6%BC%B2%E5%85%A9%E6%88%90-233911947.html",
-   "press": "Yahoo 대만(각보 요문)",
-   "at": "2026-10-27 09:35",
-   "why": "🎯 반도체 칸 — 공급 부족→가격 인상: HBM·후공정 국내 장비주(한미·제우스 등) 수주 근거, 게재일은 미확인",
-   "summary": "모건스탠리가 TSMC CoWoS 최대 20% 인상 계획 전함. 하나중국 텔레그램(10/27)도 대만공상시보 인용 같은 내용."
   }
  ],
- "at": "2026-10-29 08:35"
+ "at": "2026-10-29 11:35"
 }
