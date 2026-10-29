@@ -55,3 +55,17 @@ jobs:
           git config user.name "report-bot"
           git config user.email "report-bot@users.noreply.github.com"
           bash scripts/push.sh "fetch: $(TZ=Asia/Seoul date '+%m/%d %H:%M') KST" market feeds alerts
+      - name: 🧾 선제 아이디어 채점 옮기기 (10/29 · 최신 state.json 위에서 · 두뇌가 안 옮겨도 매시간 반영)
+        continue-on-error: true
+        run: |
+          git config user.name "report-bot"
+          git config user.email "report-bot@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python -m src.bets_apply || break
+            git add brain/state.json
+            if git diff --cached --quiet; then echo "바뀐 것 없음"; break; fi
+            git commit -q -m "bets_apply: $(TZ=Asia/Seoul date '+%m/%d %H:%M') KST"
+            if git push -q origin HEAD:main; then echo "옮김"; break; fi
+            sleep $((i * 6))
+          done

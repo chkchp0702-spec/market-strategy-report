@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 STATE = ROOT / "brain" / "state.json"
 OUT = ROOT / "market" / "bets_score.json"
 HORIZON = {"1일": 1, "2일": 2, "3일": 3, "5일": 5, "1주": 5, "2주": 10, "3주": 15, "1달": 21, "1개월": 21}
-LIVE = {"열림", "대기"}
+LIVE = {"열림", "대기", "그림자"}   # 10/29 👻 그림자(규칙 R1)도 채점은 계속
 
 
 def horizon_n(h) -> int:
