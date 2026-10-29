@@ -1,4 +1,4 @@
-"""📈 10/29 12시 — 🏦 「연준 순유동성(시장에 실제로 풀린 돈) 마를 때 주식 덜기」
+"""📈 10/29 12시 (2판: FRED 가 GitHub 에서 막혀 연준 자산 대신 TGA+역레포만) — 🏦 「연준 순유동성(시장에 실제로 풀린 돈) 마를 때 주식 덜기」
   바깥 재료: 유튜브·X·국내 블로그에서 크게 도는 「순유동성 = 연준 자산(WALCL) − 재무부 현금 계좌(TGA) − 역레포(RRP)」
   (TMS 「QRA와 베센트: 순유동성」, TradingView Fed Net Liquidity 스크립트, eco3min 순유동성 자료).
   메커니즘: 재무부가 국채를 많이 팔아 TGA 를 채우거나 연준이 자산을 줄이면 은행 지준(시장에 도는 현금)이 억지로 빠짐 → 위험자산 약함.
@@ -52,22 +52,81 @@ def fred(sid, log):
     return None
 
 
-def netliq(log):
-    w = fred("WALCL", log)        # 백만 달러, 수요일
-    t = fred("WTREGEN", log)      # 십억 달러, 수요일
-    r = fred("RRPONTSYD", log)    # 십억 달러, 하루
-    if w is None or t is None:
+def _get(url, log, key, tries=3, to=60):
+    import requests
+    for att in range(tries):
+        try:
+            r = requests.get(url, timeout=to, headers={"User-Agent": "Mozilla/5.0 (research script)"})
+            if r.status_code == 200:
+                return r.json()
+            log[key] = f"http {r.status_code}"
+        except Exception as e:
+            log[key] = repr(e)[:160]
+        time.sleep(4)
+    return None
+
+
+def tga(log):
+    """재무부 하루 현금 잔액(DTS) — 십억 달러. 연대마다 항목 이름이 달라 「연준 계좌·TGA 마감 잔액」 줄만 씀"""
+    base = "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/dts/operating_cash_balance"
+    rows, page = [], 1
+    while page < 60:
+        j = _get(f"{base}?filter=record_date:gte:2006-01-01&page[size]=10000&page[number]={page}", log, "TGA")
+        if not j:
+            break
+        rows += j.get("data", [])
+        tot = int(j.get("meta", {}).get("total-pages", 1))
+        if page >= tot:
+            break
+        page += 1
+    if not rows:
         return None
-    wk = pd.DataFrame({"W": w / 1000.0}).join(pd.DataFrame({"T": t}), how="left")
-    wk["T"] = wk["T"].ffill()
-    if r is not None:
-        rr = r.reindex(pd.date_range(r.index.min(), wk.index.max())).ffill()
-        wk["R"] = rr.reindex(wk.index).fillna(0.0)
-    else:
-        wk["R"] = 0.0
-    wk = wk.dropna()
-    wk["NL"] = wk["W"] - wk["T"] - wk["R"]
-    return wk
+    out = {}
+    for r in rows:
+        at = (r.get("account_type") or "")
+        if not ("Federal Reserve Account" in at or "Closing Balance" in at):
+            continue
+        v = None
+        for f in ("close_today_bal", "open_today_bal"):
+            try:
+                v = float(r.get(f)); break
+            except (TypeError, ValueError):
+                continue
+        if v is not None:
+            out[pd.Timestamp(r["record_date"])] = v / 1000.0
+    s = pd.Series(out).sort_index()
+    log["TGA"] = f"{len(s)}개 {s.index.min().date()}~{s.index.max().date()} 지금 {s.iloc[-1]:.0f}bn"
+    return s
+
+
+def rrp(log):
+    """뉴욕 연준 역레포 낙찰액 — 십억 달러"""
+    j = _get("https://markets.newyorkfed.org/api/rp/reverserepo/propositions/search.json?startDate=2006-01-01&endDate="
+             + dt.date.today().isoformat(), log, "RRP", to=90)
+    if not j:
+        return None
+    ops = j.get("repo", {}).get("operations", [])
+    d = {}
+    for o in ops:
+        try:
+            d[pd.Timestamp(o["operationDate"])] = d.get(pd.Timestamp(o["operationDate"]), 0.0) + float(o.get("totalAmtAccepted", 0)) / 1e9
+        except Exception:
+            continue
+    s = pd.Series(d).sort_index()
+    log["RRP"] = f"{len(s)}개 {s.index.min().date() if len(s) else '-'}~ 지금 {s.iloc[-1] if len(s) else 0:.0f}bn"
+    return s
+
+
+def netliq(log):
+    """FRED(연준 자산)가 GitHub 에서 막혀 → 「재무부·역레포가 빨아들인 돈」 TGA+RRP (하루, 십억 달러)"""
+    t = tga(log)
+    if t is None:
+        return None
+    r = rrp(log)
+    days = pd.date_range(t.index.min(), t.index.max(), freq="B")
+    tt = t.reindex(days).ffill()
+    rr = r.reindex(days).fillna(0.0) if r is not None else pd.Series(0.0, index=days)
+    return pd.DataFrame({"T": tt, "R": rr, "DR": tt + rr})
 
 
 def main():
@@ -93,14 +152,14 @@ def main():
     if wk is None:
         out["verdict"] = "➖ FRED 자료를 못 받음"
         OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8"); print(out); return
-    out["nl_now"] = {"date": str(wk.index[-1].date()), "NL_bn": round(float(wk["NL"].iloc[-1]), 1),
-                     "chg4": round(float(wk["NL"].iloc[-1] / wk["NL"].iloc[-5] - 1) * 100, 2),
-                     "chg13": round(float(wk["NL"].iloc[-1] / wk["NL"].iloc[-14] - 1) * 100, 2)}
+    out["nl_now"] = {"date": str(wk.index[-1].date()), "TGA_RRP_bn": round(float(wk["DR"].iloc[-1]), 1),
+                     "chg4w": round(float(wk["DR"].iloc[-1] - wk["DR"].iloc[-21]), 1),
+                     "chg13w": round(float(wk["DR"].iloc[-1] - wk["DR"].iloc[-66]), 1)}
 
     def drain(L, th, inv=False):
-        ch = wk["NL"] / wk["NL"].shift(L) - 1
-        sig = (ch > abs(th)) if inv else (ch < th)
-        avail = sig.copy(); avail.index = avail.index + pd.Timedelta(days=2)   # 목요일 발표 → 금요일 종가부터
+        ch = wk["DR"] - wk["DR"].shift(5 * L)     # 빨아들인 돈이 L주 동안 늘어난 양(bn)
+        sig = (ch < -th) if inv else (ch > th)
+        avail = sig.copy(); avail = avail.shift(2)   # DTS 는 다음 영업일 오후 발표 → 하루 더 늦춰 이틀 뒤부터
         d = avail.reindex(avail.index.union(C.index)).ffill().reindex(C.index).fillna(False).astype(bool)
         return d
 
@@ -108,7 +167,7 @@ def main():
     fwd = C["SPY"].shift(-21) / C["SPY"].shift(-1) - 1    # 다음 날부터 20일
     ls = {}
     for L in (4, 8, 13):
-        for th in (0.0, -0.01, -0.02):
+        for th in (0.0, 50.0, 100.0):
             dsig = drain(L, th)
             o = {}
             for p, a, b in (("is", START, IS_END), ("oos", OOS_START, END)):
@@ -145,7 +204,7 @@ def main():
         B = go(base)
         g = {}
         for L in (4, 8, 13):
-            for th in (0.0, -0.01, -0.02):
+            for th in (0.0, 50.0, 100.0):
                 for f in (0.3, 0.5):
                     k = f"L{L}_th{th}_f{f}"
                     g[k] = dlt(B, go(base, L, th, f))
@@ -155,7 +214,7 @@ def main():
         sh = {}
         for nm, kw in {"L-20%": dict(L=max(2, round(L0 * 0.8))), "L+20%": dict(L=round(L0 * 1.2) if round(L0 * 1.2) != L0 else L0 + 1),
                        "f-20%": dict(f=f0 * 0.8), "f+20%": dict(f=f0 * 1.2),
-                       "th-0.5%": dict(th=th0 - 0.005), "th+0.5%": dict(th=th0 + 0.005)}.items():
+                       "th-20%": dict(th=th0 * 0.8 if th0 else -10.0), "th+20%": dict(th=th0 * 1.2 if th0 else 10.0)}.items():
             kw2 = dict(L=L0, th=th0, f=f0); kw2.update(kw)
             sh[nm] = dlt(B, go(base, **kw2))
             print(base, "SHAKE", nm, sh[nm]["is"]["cagr"], sh[nm]["oos"]["cagr"], flush=True)
