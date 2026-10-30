@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "뉴욕증시 마감 30분 전 — 나스닥 −3.4%, 6월 이후 최악의 날 · 무살렘·바킨 인상론에 12월 인상 기대↑",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html",
+   "press": "Yahoo Finance",
+   "at": "2026-10-31 04:45",
+   "why": "뼈대 주식·반도체·광통신 칸과 고금리 정점 가설(10년 4.92%)·AI 크레딧 가설 동시 점검",
+   "summary": "S&P 7,557.69(−2.11%)·다우 51,682(−1.26%)·나스닥 25,303(−3.37%)·VIX 21.85(+27%) · 10년 4.923%(−6.6bp)·WTI 104.2$·금 3,889$(−3.5%)·비트코인 76,238$(−5.6%, 바이낸스 해킹)"
+  },
+  {
    "title": "댈러스 연은 로건 「물가 잡으려면 금리 더 올려야」",
    "url": "https://www.bondbuyer.com/articles/feds-logan-says-more-rate-hikes-needed-to-slow-hot-inflation",
    "press": "Bond Buyer",
@@ -631,14 +639,6 @@
    "at": "2026-10-29 00:45",
    "why": "반도체 랠리 美 전이(타이거일렉·한미반도체 쪽) · WTI ≈$102 → CHRD·SM·PR(☕ cup_eye)",
    "summary": "개장 전 S&P 선물 +0.24%·나스닥100 +0.39% · 10년물 4.999% · 12월물 WTI $101.89(+2.0%, 사우디 정유소 공격) · 시장은 동결+매파적 시사 예상(블라인더 「hawkish pause」)"
-  },
-  {
-   "title": "모닝 킥스타트: 연준·BoC·빅테크 실적 앞 달러 혼조",
-   "url": "https://investinglive.com/technical-analysis/morning-kickstart-dollar-mixed-ahead-of-fed-boc-and-big-tech-earnings/",
-   "press": "investingLive",
-   "at": "2026-10-29 00:45",
-   "why": "FOMC 당일 달러·금리 경로 — 원화 1320원대 강세가 수출주에 주는 압력 확인용",
-   "summary": "연준·캐나다은행·MSFT·GOOGL 실적이 같은 날 겹친 이벤트 집중일 · 달러 방향 혼조(세부 숫자 미확인)"
   }
  ],
  "at": "2026-10-31 02:35"
