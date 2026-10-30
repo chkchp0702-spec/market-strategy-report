@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "아마존, 첫 파운드화 채권 — 2026년 차입이 800억$ 넘어",
+   "url": "https://cryptobriefing.com/amazon-debut-sterling-bond-sale/",
+   "press": "Crypto Briefing",
+   "at": "2026-10-31 07:35",
+   "why": "AI 크레딧 가설 — 빅테크 차입 규모가 신용 스트레스의 연료(메타 전망 하향과 같은 줄기)",
+   "summary": "제목 기준 아마존 2026년 누적 차입 800억$ 초과·첫 파운드화 채권(본문·날짜 미확인). 별도로 10/30 아마존 최대 800억$ 대출 한도·지출 약정 8,830억$(HANAchina 텔레그램, wallstreetcn)."
+  },
+  {
    "title": "메타 3분기 해부: capex가 영업현금을 21억$ 넘어섰다",
    "url": "https://fourweekmba.com/ai-metas-q3-explained-capex-outran-its-cash-by-2-1-billion/",
    "press": "FourWeekMBA",
@@ -631,15 +639,7 @@
    "at": "2026-10-29 03:45",
    "why": "에너지 칸·금리 가설 — 유가가 연준 인상 논리의 중심으로 들어옴(유가↑=금리↑ 연결)",
    "summary": "해맥 총재: 물가 압력 광범위, 에너지가 가격을 끌어올림 — 완화 편향 유지에 반대해 반대표."
-  },
-  {
-   "title": "엔비디아, 공급사 6곳과 기판 2.5배·인터포저 4배 용량 확보(삼성전기·앰코·이비덴·유니마이크론·KYEC·SPIL)",
-   "url": "https://siliconanalysts.com/market/nvidia-locks-in-2-5x-substrate-and-4x-interposer-capacity-with-six-suppliers-2026-10-22",
-   "press": "Silicon Analysts",
-   "at": "2026-10-29 02:50",
-   "why": "⚡ 타이거일렉 bet(☕ 10/28) — 테스트(KYEC) 용량 26→27년 2배는 테스트 기판 수요의 근거",
-   "summary": "기판 전용 용량 3년 2.5배(이비덴 몫은 2028 램프) · 앰코 한국 인터포저 2028년 말 +300%↑ · SPIL CPO 광엔진 27년 중 15배 · 엔비디아 테스트 용량 26→27년 2배(기준치 미공개)"
   }
  ],
- "at": "2026-10-31 02:35"
+ "at": "2026-10-31 07:35"
 }
