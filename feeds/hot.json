@@ -1,5 +1,5 @@
 {
- "at": "2026-10-31 04:45",
+ "at": "2026-10-31 05:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "jeunkim/224455797355": {
@@ -22,11 +22,6 @@
    "why": "하이닉스 20조 자사주 vs 삼성 추가 환원 없음 — 한국 반도체 칸·091160.KS 오늘 시가 방향(하방 지지냐 실망 매물이냐)",
    "at": "2026-10-30 08:35"
   },
-  "n/httpswwwcnbccom20261030irantrumphormuzoilmiddleeasthtml": {
-   "lv": 1,
-   "why": "이란 「호르무즈서 유조선 4척 기뢰 피격」 — 킥 보유 USO·DBC·OXY(🎯 10/29) 유가 방향",
-   "at": "2026-10-30 16:40"
-  },
   "globalmktinsight/7796": {
    "lv": 1,
    "why": "10월 외국인 코스피 −19.7조·오늘 −1.6조 — 「외국인 매도 멈춤」 watch 판정 숫자",
@@ -35,11 +30,6 @@
   "n/httpswwwcnbccom20261030chevronexxoncvxxomearningsq32026html": {
    "lv": 1,
    "why": "에너지 칸 — 셰브론 디젤 정제 마진으로 실적 상회, BP 에 이어 정제 이익 확인(OXY 👀 관찰과 연결)",
-   "at": "2026-10-30 19:40"
-  },
-  "n/s20261030kioxiasprofitjumpsduetoballooningaidatastorageneeds": {
-   "lv": 1,
-   "why": "반도체 칸·크레딧 가설 반대 숫자 — AI 매도장 속 키옥시아 영업익 22배·중간배당, 실수요는 살아 있음",
    "at": "2026-10-30 19:40"
   },
   "n/zdFcWNmZ3FGM2NkV2ZqMWp3VkdzZU5LNDRiaXlBd1JVeXRZT0NjamY0WQoc5": {
@@ -52,40 +42,10 @@
    "why": "나스닥 개장 −2.26% — −3% 경계 접근, 위험 회피 국면 확인(마감이 −3%↓면 🔴)",
    "at": "2026-10-30 23:05"
   },
-  "n/261030techfirmsdebtprotectioncostsaresurgingonprofitconcerns": {
-   "lv": 1,
-   "why": "AI 크레딧 가설(0.8) 직격 — 빅테크 CDS 신고점, 공급·이익 우려 동시",
-   "at": "2026-10-30 23:55"
-  },
-  "n/les20261030fedsbarkinindicatesbackingforgradualrateincreases": {
-   "lv": 1,
-   "why": "바킨 「점진적 인상」 지지 — 고금리 정점 가설(0.4) 반대 재료, 美 10년 4.95 판정과 연결",
-   "at": "2026-10-30 23:55"
-  },
   "n/ccom20261030amazonintelearningsbigtechaispendingconcernshtml": {
    "lv": 1,
    "why": "반도체 칸·AI 크레딧 가설(0.8) — 인텔 50여 년 만의 최악 하루, 나스닥 −2.6% 확대(−3% 🔴 경계)",
    "at": "2026-10-31 00:50"
-  },
-  "n/icles20261030cztellsmuskbadtimetotrollafterrecordbinancehack": {
-   "lv": 1,
-   "why": "위험 회피 국면 보탬 — 바이낸스 사상 최대 해킹에 코인 급락, 위험자산 동반 매도",
-   "at": "2026-10-31 00:50"
-  },
-  "n/s20261030rarespeedboatattackinhormuzignitestankersengineroom": {
-   "lv": 1,
-   "why": "호르무즈 고속정 공격 — 에너지 칸·열린 SU bet(☕ 컵 10/26) 유가 방향",
-   "at": "2026-10-31 00:50"
-  },
-  "n/BrM0c0dERfS2RITDVwT2g3dFc2QTFiX3laZTVfaXVhWW1aeGwxM1h0Y3coc5": {
-   "lv": 1,
-   "why": "에너지 칸·열린 SU bet(☕ 컵 10/26) — 빅오일 3분기 560억$ 횡재, 정제 마진이 실적을 끌어올림",
-   "at": "2026-10-31 01:45"
-  },
-  "n/veU9aTTZ3SENaSlFoMGZVN0U5WllIQUh5bS1Yc2cwNThqblJINHVyMFhOoc5": {
-   "lv": 1,
-   "why": "뼈대 금 칸(GLD 하루 −3.1%) — 금 4개월 최저·은 50$ 붕괴, 위험 회피에도 피난처 동반 하락",
-   "at": "2026-10-31 01:45"
   },
   "n/yutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
    "lv": 2,
@@ -97,11 +57,6 @@
    "why": "AI 크레딧 가설(0.85) 직격 — 블랙스톤 「앤트로픽 상장 뒤 투자등급 어려움」, AI 차입 비용 상승",
    "at": "2026-10-31 02:35"
   },
-  "n/0261030fedsmusalemsaysmoreratehikesneededsoontotameinflation": {
-   "lv": 1,
-   "why": "고금리 정점 가설(0.40) 반대 재료 — 무살렘 「곧 추가 인상」, 그러나 10년은 하락 중",
-   "at": "2026-10-31 02:35"
-  },
   "n/cles20261030fedsloganseestwomorehikesbutsayspacecanbegradual": {
    "lv": 1,
    "why": "댈러스 로건 「두 번 더 인상·속도는 점진」 — 고금리 정점 가설(10년 4.95 판정)의 반대 재료",
@@ -111,6 +66,21 @@
    "lv": 1,
    "why": "모건스탠리 「AI 차입·긴축에 S&P −8% 가능」 — AI 크레딧 가설 0.85와 같은 방향, 뼈대 주식 칸 점검",
    "at": "2026-10-31 03:35"
+  },
+  "n/WVCbWhJM0JuMlZyalF3d0l3XzJSMC1ZNFdXX1ZJNVdROExWY3RUZnEtTAoc5": {
+   "lv": 1,
+   "why": "필라델피아 반도체 −7.2% 마감 — 반도체·광통신 칸과 AI 크레딧 가설 직격",
+   "at": "2026-10-31 05:35"
+  },
+  "n/i1uVk0zLTg3QzJnaHREUFFuRXdlbVpKWUNydDlaSTNKT2pkWEUxZ3BzMAoc5": {
+   "lv": 1,
+   "why": "키옥시아 쇼크 애프터마켓 하닉 −8% — 월요일 한국 반도체(091160) 갭다운 위험",
+   "at": "2026-10-31 05:35"
+  },
+  "n/httpswwwynacokrviewAKR20261031005200072": {
+   "lv": 1,
+   "why": "브렌트 6개월 최고(이란 확전) — 열린 SU·대기 COP 에너지 bets 근거",
+   "at": "2026-10-31 05:35"
   }
  }
 }

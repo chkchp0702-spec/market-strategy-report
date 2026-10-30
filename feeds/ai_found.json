@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "이란 확전 우려에 국제유가 2%대 급등…브렌트유 6개월 만에 최고",
+   "url": "https://www.yna.co.kr/view/AKR20261031005200072",
+   "press": "연합뉴스",
+   "at": "2026-10-31 05:35",
+   "why": "열린 SU·대기 COP 에너지 bets와 고유가→인플레 경로(고금리 가설) 점검",
+   "summary": "이란 확전 우려로 유가 2%대 상승, 브렌트 6개월 최고 · 같은 날 BP 3분기 이익 18년 최고(정제 마진 급등, bbg) · 나스닥 −2.9% 투매일에 에너지만 역행"
+  },
+  {
+   "title": "바이낸스 63억$ 해킹 추정 — 사상 최대 코인 탈취, 비트코인 하락",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-30/binance-estimates-6-3-billion-hacked-in-crypto-s-biggest-heist",
+   "press": "Bloomberg(미확인 URL·피드 제목 기준)",
+   "at": "2026-10-31 05:35",
+   "why": "위험 자산 심리 악화 겹침 — 코인 연동 종목·심리 계기판 점검",
+   "summary": "바이낸스 추정 피해 63억$(약 8.4조 원, 연합 「20분 만에」·北 배후 추정) · 비트코인 76,238$(−5.6%, Yahoo) · 주식 투매와 같은 날"
+  },
+  {
    "title": "뉴욕증시 마감 30분 전 — 나스닥 −3.4%, 6월 이후 최악의 날 · 무살렘·바킨 인상론에 12월 인상 기대↑",
    "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html",
    "press": "Yahoo Finance",
@@ -623,22 +639,6 @@
    "at": "2026-10-29 02:50",
    "why": "AI 전력 인프라(버티브 수주 2배↑) 강세 vs 실적 가이던스 실망주 급락 — 「좋아도 가이던스」 장세",
    "summary": "12:01 ET SPY +0.2% · VRT +13.3%(기존사업 수주 2배↑·매출 전망 상향) · FFIV −19.2%(FY27 매출 성장 8~9% 전망) · ENPH −15.8% · LOGI −11.2% · HOOD −3.7%"
-  },
-  {
-   "title": "인스타카트 매각 검토 보도에 주가 +9% — 도어대시·우버 거론",
-   "url": "https://www.analyticsinsight.net/news/instacart-sale-talks-with-uber-and-doordash-push-stock-up-9",
-   "press": "Analytics Insight",
-   "at": "2026-10-29 01:40",
-   "why": "CART(☕ cup_eye 10/23) — 10/28 WSJ 「도어대시 막바지 협상」 전 단계, 이미 오른 폭 가늠",
-   "summary": "10/23 매각 검토·은행 고용 보도로 +9%. 시가총액 약 120억 달러. 10/28 WSJ가 도어대시와 막바지 협상이라 보도."
-  },
-  {
-   "title": "美 증시 FOMC·빅테크 실적 앞 혼조 출발 — 하닉 +8%·로빈후드 −8%",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-28-dow-sp-500-nasdaq-fed-meeting-decision-080642111.html",
-   "press": "Yahoo Finance",
-   "at": "2026-10-29 00:45",
-   "why": "반도체 랠리 美 전이(타이거일렉·한미반도체 쪽) · WTI ≈$102 → CHRD·SM·PR(☕ cup_eye)",
-   "summary": "개장 전 S&P 선물 +0.24%·나스닥100 +0.39% · 10년물 4.999% · 12월물 WTI $101.89(+2.0%, 사우디 정유소 공격) · 시장은 동결+매파적 시사 예상(블라인더 「hawkish pause」)"
   }
  ],
  "at": "2026-10-31 02:35"
