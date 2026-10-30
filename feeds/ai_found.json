@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "삼성전자 3분기 영업익 사상 최대에도 기대 하회에 주가 하락",
+   "url": "https://www.koreajoongangdaily.com/business/samsungs-record-804b-q3-profit-fails-to-impress-investors/12944742",
+   "press": "Korea JoongAng Daily",
+   "at": "2026-10-30 10:35",
+   "why": "한국 반도체 칸 — 사상 최대 실적·환원에도 주가가 못 버팀 = 기대 과열 확인",
+   "summary": "분기 영업익 100조 원대 사상 최대에도 컨센 하회로 주가 하락. 오늘 코스피 −4% 매도 사이드카와 함께 삼전닉스 5~8% 하락."
+  },
+  {
+   "title": "삼성 「2027년 HBM 물량 완판·메모리 공급 부족 2028년까지」, HBM4 매출 3배",
+   "url": "https://www.digitaltoday.co.kr/en/view/121461/samsung-electronics-memory-demand-rise-hbm4-sales-triple",
+   "press": "Digital Today",
+   "at": "2026-10-30 10:35",
+   "why": "메모리 업황 숫자는 견조 — 주가 하락이 업황이 아닌 美 AI 지출 우려(알파벳·아마존)에서 온 것인지 가르는 근거",
+   "summary": "HBM4 매출 3배, 2027년 HBM 물량 매진, 고객 10곳과 장기 계약. 4분기 메모리 출하 증가는 10%대 초중반에 그침(sedaily)."
+  },
+  {
    "title": "바이낸스, 대형 해킹 확인 — 25억 달러 이상 동결",
    "url": "https://www.freemalaysiatoday.com/category/business/2026/10/30/crypto-platform-binance-confirms-major-hack-more-than-us-2-5bil-frozen",
    "press": "Free Malaysia Today(AFP)",
@@ -623,22 +639,6 @@
    "at": "2026-10-28 07:35",
    "why": "열린 bet CHRD(바켄 석유, 1주) 역풍 — 공급 확대 쪽 뉴스가 지정학 프리미엄을 깎는다",
    "summary": "美 에너지장관 「러시아 디젤 더 시장에 풀 수 있다」(CNBC 10/27) · 브렌트 10/27 114.05$(−1.52%, CNBC latest)."
-  },
-  {
-   "title": "솔리다임, 뉴욕주 북부에 낸드 공장 검토 — AI 수요 급증",
-   "url": "https://hoodline.com/2026/10/solidigm-eyes-upstate-ny-for-nand-chip-plant-as-ai-demand-soars/",
-   "press": "Hoodline",
-   "at": "2026-10-28 07:35",
-   "why": "하이닉스 3분기 실적일(10/28) — 美 낸드 증설 투자 규모가 주주환원 기대(특별배당설)와 부딪히는지가 D+1 반응 변수",
-   "summary": "SK하이닉스 자회사 솔리다임이 미국 뉴욕주 북부 낸드 공장 부지 검토. 블룸버그는 투자 규모 약 60조 원(yna 10/28 재인용)."
-  },
-  {
-   "title": "시게이트, 1분기 실적 상회·마진 개선에도 주가 하락",
-   "url": "https://www-web.itiger.com/news/2477534404",
-   "press": "Tiger Brokers",
-   "at": "2026-10-28 06:35",
-   "why": "하이닉스 실적 D+1 watch — 메모리·스토리지 호실적에도 매도(뉴스에 판다) 패턴 점검",
-   "summary": "10/27 장 마감 뒤 시게이트 1분기 실적·가이던스 상회에도 시간외 약 −6%(investing 피드) · 같은 날 테라다인 −6%·NXP 가이던스 실망 하락(cnbc after-hours) — 숫자 세부는 원문 확인"
   }
  ],
  "at": "2026-10-29 22:45"
