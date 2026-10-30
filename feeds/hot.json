@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30 12:40",
+ "at": "2026-10-30 13:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wcnbccom20261027federalreserveratehiketimingexpectationshtml": {
@@ -17,30 +17,10 @@
    "why": "美 칸 — 모건스탠리 S&P 500 −8% 조정 후 랠리 경고, FOMC·빅테크 실적 앞 리스크 가설과 이어짐",
    "at": "2026-10-28 18:35"
   },
-  "YeouidoStory2/119080": {
-   "lv": 1,
-   "why": "전력 병목 가설(AI capex = 돈 vs 전력) — 빅테크 직접 배전케이블 1,200억 국내 최대, 가온전선 ☕ 컵 9/21·10/7 이력",
-   "at": "2026-10-29 09:35"
-  },
-  "kimu_nim/47579": {
-   "lv": 1,
-   "why": "전력·원전 가설 — 체코 원전 시공계약 최종 불발, 두산에너빌·대우건설 급락",
-   "at": "2026-10-29 11:35"
-  },
-  "HANAchina/71208": {
-   "lv": 1,
-   "why": "UBS 한국 목표치 재차 하향(환율·이익 전망) — 개별 악재 장 위에 외국계 하향, 한국 외국인 가설·반도체 칸 확대 보류와 이어짐",
-   "at": "2026-10-29 13:40"
-  },
   "n/swwwftcomcontent1639620b99e747ed848449646816489esyn25a6b1a61": {
    "lv": 1,
    "why": "크레딧(AI 차입) 가설·반도체 칸 — 나스닥100 −1.3% 개장 예고(알파벳 시간외 −9.8%·MS capex 컨센 하회) → 오늘 밤 AI 하드웨어(VRT 등 focus 강세 업종) 되돌림 시험",
    "at": "2026-10-29 14:45"
-  },
-  "n/4d2hnbWRvb0RISGNGTDM2clNOTmRNVE5fa21JSjV2a0VBUXA0X0E2ZUkzoc5": {
-   "lv": 1,
-   "why": "AI 차입(크레딧) 가설 — 빅테크 capex 경계가 중국 과창판50 −4%로 번짐, 반도체 칸 아시아 갈림",
-   "at": "2026-10-29 17:35"
   },
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
    "lv": 1,
@@ -72,16 +52,6 @@
    "why": "크레딧(AI 차입) 가설 0.8 — 파트너스그룹 美 대표 PE 펀드 환매 요청 2배: 사모시장 유동성 압박이 크레딧 스트레스로 번지는 경로",
    "at": "2026-10-30 02:35"
   },
-  "n/9xR2s2VVVIX0FNS2k5TFpwTG8xTll4dUNqYUNYbHBOb0VTZWVubExoUmEoc5": {
-   "lv": 1,
-   "why": "외국인 watch·원화 강세 — UBS 코스피 목표 8,000→7,500 「원화강세 부담」, 골드만 하향에 이은 두 번째 IB 하향",
-   "at": "2026-10-30 03:35"
-  },
-  "n/tBUVhJZ29sVnc3YWxoTGhMaUVhc2xKdU1HZ0NtWk1yMEtXNzVEQWdSLTQoc5": {
-   "lv": 1,
-   "why": "고금리 정점 가설·10년 5% watch — 3분기 GDP 3.4%·PCE 3.6% 뜨거운데도 국채 강세(안전 선호): 금리보다 AI 실적 충격이 시장을 움직이는 날",
-   "at": "2026-10-30 04:45"
-  },
   "n/swwwftcomcontent8affd8ddb78348c886e2ac4a647fa0f3syn25a6b1a61": {
    "lv": 1,
    "why": "아마존 4Q 매출 전망 미달 — 알파벳 뒤 빅테크 실적 시험 2번째, AI 차입·크레딧 가설과 열린 PLTR bet 분위기",
@@ -92,40 +62,10 @@
    "why": "인텔 시간외 −20% (약한 4Q 가이던스·PC 둔화) — 반도체 업종 내일 시가 압박, 한국 반도체 D+2 체크",
    "at": "2026-10-30 05:40"
   },
-  "n/261029sandiskpostsstrongprofitupbeatoutlookongrowingaidemand": {
-   "lv": 1,
-   "why": "샌디스크 AI 수요로 강한 전망 — 인텔 쇼크와 반대로 메모리는 강함, 하이닉스·한국 반도체 ETF 다음 날 갈림 확인",
-   "at": "2026-10-30 06:35"
-  },
-  "n/ZCcnBrd29XQ3F6REhLdG9yN2NMUUc3U2t0NmdURGFXSUpHMVJyaHM2RlMoc5": {
-   "lv": 1,
-   "why": "홍콩 광통신 개념주 급락(항셍 −0.59%) — 우리 광통신 칸·마벨-루멘텀 소문 흔들림과 이어짐",
-   "at": "2026-10-30 06:35"
-  },
-  "kimu_nim/47624": {
-   "lv": 1,
-   "why": "美 중부사령관 이란 공격 옵션 보고 — 에너지 칸·SU bet·OXY 🎯 집중과 직결, 단 중간선거(11/3) 전 공격 배제 발언과 엇갈림",
-   "at": "2026-10-30 07:35"
-  },
   "n/XFTZEE5RFIteEQ1UDdDcURneDF0S3ZXS2pQd1ZOcFZPeUJKMnB5Sms1Qgoc5": {
    "lv": 1,
    "why": "하이닉스 20조 자사주 vs 삼성 추가 환원 없음 — 한국 반도체 칸·091160.KS 오늘 시가 방향(하방 지지냐 실망 매물이냐)",
    "at": "2026-10-30 08:35"
-  },
-  "n/HZFcWlUVGVsUzZiMVY2MjFacGxfaUFKQU9LZkVpeFI1V2JLT2NjRG9oZwoc5": {
-   "lv": 2,
-   "why": "코스피 장초 −4% 5,690선·하이닉스 −6%·삼성 −3% — 지수 −3%↓ 급변, 한국 반도체 칸·외국인 watch·하이닉스 「뉴스에 판다」 판정 직결",
-   "at": "2026-10-30 09:35"
-  },
-  "n/httpskrinvestingcomnewscryptocurrencynewsarticle2150278": {
-   "lv": 1,
-   "why": "바이낸스 해킹 53억 달러·비트코인 7.8만 달러 — 위험 회피 확산 경로(크레딧·AI 차입 가설과 같은 방향), 청산 연쇄 여부",
-   "at": "2026-10-30 09:35"
-  },
-  "n/h2b1B0N3RuY3dyYUxXOWU5enM2VGpYMzQ4UU9QYUNOdVFnVU5iZmM0Rncoc5": {
-   "lv": 1,
-   "why": "삼성 추가 환원 55~75조 + 메모리 공급 부족 2028까지 — 한국 반도체 칸·091160.KS 관찰(사이드카 날 지지 여부)",
-   "at": "2026-10-30 10:35"
   },
   "n/etsstocksarticlesustockfuturessinknasdaq013610173htmltsrcrss": {
    "lv": 1,
@@ -141,6 +81,16 @@
    "lv": 1,
    "why": "BOJ 1.25% 동결 8:1(다카타 인상 주장)·물가 목표 도달 판단 → 12월 인상 여지·엔 강세, 일본 ☕ 신호(7459.T·2175.T 등)·원·달러 watch",
    "at": "2026-10-30 12:40"
+  },
+  "n/qVGw1a2ppVk9hLXh5N3EzbFlIdzJ3d3V0Ui1RRzVLV1JxcjdVWmJpSm1Soc5": {
+   "lv": 1,
+   "why": "크레딧(AI 차입) 가설 0.8 — 모건스탠리 「AI 부채 위험·금리로 S&P −8% 가능」 경고, 빅테크 채권 스트레스 watch",
+   "at": "2026-10-30 13:40"
+  },
+  "n/DlTRDJQc09wSzVMTEt3Tm93UjNQcU81a1BmZ1E1SXI3d19VeFI5eDlBUQoc5": {
+   "lv": 1,
+   "why": "홍콩 신호(0998.HK ☕ 10/29) — 본토 자금 10월 홍콩주 이탈 5년 최대 보도, 오늘 항셍 반등과 엇갈림",
+   "at": "2026-10-30 13:40"
   }
  }
 }
