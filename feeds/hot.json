@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30 17:40",
+ "at": "2026-10-30 18:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wcnbccom20261027federalreserveratehiketimingexpectationshtml": {
@@ -91,6 +91,21 @@
    "lv": 1,
    "why": "BP 정제 마진으로 18년 최대 이익 — 에너지 칸·🎯 OXY, 유가 헤드라인과 별개로 실적이 받침",
    "at": "2026-10-30 17:40"
+  },
+  "n/ccom20261030amazonintelearningsbigtechaispendingconcernshtml": {
+   "lv": 1,
+   "why": "아마존 프리마켓 −7%·인텔 −25% — AI capex 회의 미국장으로 확산, 반도체·킥 PLTR 미국 시가 방향",
+   "at": "2026-10-30 18:35"
+  },
+  "n/xaXgwYzZJQ0FxQnp6YXhGcGFpMTZrcmVoOFdkQVRGY3VpNDJwRzQ0QlFnoc5": {
+   "lv": 1,
+   "why": "MS 9년 만의 250억$ 회사채(주문 4.6배) — AI 크레딧 가설 0.8 의 「발행 급증 vs 수요」 판정 숫자",
+   "at": "2026-10-30 18:35"
+  },
+  "n/GxtUXpuRGJqZ3E5RlJSdFFCekVCWllGbEtrYlh4Q1JIWV90bFdCY0JFOAoc5": {
+   "lv": 1,
+   "why": "JP모건 「팔란티어 이제 시작」 — 열린 bet PLTR(☕ 10/27·실적 신호) 근거 보강, 급락장 상대강도 확인용",
+   "at": "2026-10-30 18:35"
   }
  }
 }
