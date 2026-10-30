@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "댈러스 연은 로건 「물가 잡으려면 금리 더 올려야」",
+   "url": "https://www.bondbuyer.com/articles/feds-logan-says-more-rate-hikes-needed-to-slow-hot-inflation",
+   "press": "Bond Buyer",
+   "at": "2026-10-31 03:35",
+   "why": "고금리 정점 가설(10년 4.95 경계)의 반대 재료 — 단기채·중장기채 칸 판단",
+   "summary": "로건 「최소 두 차례 인상 필요, 속도는 점진적」(블룸버그 10/30) · 같은 날 10년 4.989→4.933% 하락 = 시장은 매파 발언보다 성장 걱정에 반응"
+  },
+  {
+   "title": "모건스탠리 윌슨 「선거 뒤 반등 보지만 유동성·AI 크레딧 위험 경고」",
+   "url": "https://www.roic.ai/news/morgan-stanleys-wilson-sees-post-election-market-rebound-but-flags-liquidity-and-ai-credit-risks-10-26-2026",
+   "press": "roic.ai",
+   "at": "2026-10-31 03:35",
+   "why": "AI 크레딧 가설 0.85·중간선거(11/3) 뒤 반등 시나리오 — 뼈대 주식 칸 비중 판단",
+   "summary": "윌슨: 중간선거 뒤 반등 가능하나 유동성·AI 차입이 위험 · 10/30 「S&P −8% 가능」 경고 보도(gn_us_ib) · S&P 10/30 장중 7,563(−2.0%, CNBC)"
+  },
+  {
    "title": "앤트로픽, 2조$ 상장 추진 중 신용등급 BB(정크) 평가",
    "url": "https://dealroom.co/news/163182-anthropic-rated-junk-at-bb-as-it-chases-2t-ipo/",
    "press": "Dealroom",
@@ -623,22 +639,6 @@
    "at": "2026-10-29 00:45",
    "why": "FOMC 당일 달러·금리 경로 — 원화 1320원대 강세가 수출주에 주는 압력 확인용",
    "summary": "연준·캐나다은행·MSFT·GOOGL 실적이 같은 날 겹친 이벤트 집중일 · 달러 방향 혼조(세부 숫자 미확인)"
-  },
-  {
-   "title": "캐나다 중앙은행 2.50% 인상 — 로이터 사전 조사에서 이미 예상",
-   "url": "https://www.kitco.com/news/off-the-wire/2026-10-23/bank-canada-raise-rates-250-october-28-and-once-again-end-march",
-   "press": "Reuters via Kitco",
-   "at": "2026-10-28 23:40",
-   "why": "금리 가설(0.40) — 깜짝 아님(컨센서스 인상·3월까지 1회 더). RBNZ에 이어 선진국 인상 사이클 확인, FOMC 매파 꼬리 배경",
-   "summary": "로이터 조사: 10/28 2.50% 인상, 3월 말까지 한 번 더 예상. 실제 결정은 「추가 인상 필요할 수도」 문구(Bloomberg)"
-  },
-  {
-   "title": "AI 부채 우려로 빅테크 CDS(부도보험) 거래 급증·사상 최고",
-   "url": "https://news.bgov.com/insurance/why-techs-ai-borrowing-binge-is-rattling-markets-explainer",
-   "press": "Bloomberg",
-   "at": "2026-10-28 23:40",
-   "why": "크레딧 가설 — MSFT·GOOGL 실적 당일 채권시장 경계, 실적 뒤 클라우드 대형주 변동성 확대 가능",
-   "summary": "AI 차입 급증으로 하이퍼스케일러 CDS 보호 매수 급증(설명 기사). 개별 스프레드 수치 미확인"
   }
  ],
  "at": "2026-10-31 02:35"
