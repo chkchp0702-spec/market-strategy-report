@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30 13:40",
+ "at": "2026-10-30 14:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wcnbccom20261027federalreserveratehiketimingexpectationshtml": {
@@ -27,20 +27,10 @@
    "why": "ECB 수장 2/7 조기 퇴임(공식) — 오늘 밤 ECB 회의·유로 약세·12월 인상 기대와 이어짐, 고금리 정점 가설 점검",
    "at": "2026-10-29 19:35"
   },
-  "kwusa/61574": {
-   "lv": 1,
-   "why": "광통신 칸 — 마벨-루멘텀 인수 「희석 우려」로 하락, 인수 확정이 호재만은 아님",
-   "at": "2026-10-29 19:35"
-  },
   "kwusa/61575": {
    "lv": 1,
    "why": "전력·AI 인프라 칸 — 캐터필러 3Q EPS 7.13$ 상회에도 AI 인프라와 함께 하락, 「좋은 실적도 판다」 날(EMR ☕ 컵 10/27 신호 보류 근거)",
    "at": "2026-10-29 20:35"
-  },
-  "n/es20261029microsoftkicksofffirstushighgradebondsalesince2017": {
-   "lv": 1,
-   "why": "크레딧(AI 차입) 가설 0.8 — MSFT 2017년 이후 첫 美 회사채, 최소 250억$: 가장 튼튼한 하이퍼스케일러까지 차입으로 AI 자금 조달",
-   "at": "2026-10-29 21:45"
   },
   "n/httpswwwftcomcontentfbca8eb076ef4e0ebcc9c45c8f7d1311": {
    "lv": 1,
@@ -82,15 +72,15 @@
    "why": "BOJ 1.25% 동결 8:1(다카타 인상 주장)·물가 목표 도달 판단 → 12월 인상 여지·엔 강세, 일본 ☕ 신호(7459.T·2175.T 등)·원·달러 watch",
    "at": "2026-10-30 12:40"
   },
-  "n/qVGw1a2ppVk9hLXh5N3EzbFlIdzJ3d3V0Ui1RRzVLV1JxcjdVWmJpSm1Soc5": {
+  "n/tutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
    "lv": 1,
-   "why": "크레딧(AI 차입) 가설 0.8 — 모건스탠리 「AI 부채 위험·금리로 S&P −8% 가능」 경고, 빅테크 채권 스트레스 watch",
-   "at": "2026-10-30 13:40"
+   "why": "크레딧(AI 차입) 가설 0.8 — 엔비디아가 Nscale(앤트로픽 데이터센터) 대출에 수십억 달러 보증 검토: 칩 공급사가 고객 신용을 떠안는 벤더 금융 확대",
+   "at": "2026-10-30 14:40"
   },
-  "n/DlTRDJQc09wSzVMTEt3Tm93UjNQcU81a1BmZ1E1SXI3d19VeFI5eDlBUQoc5": {
+  "n/NJdFYzeHNiY1EyMXpaaXhIRFFWQWJ5UlkteFpZRVZiX0lLeVBhcWJHWHQoc5": {
    "lv": 1,
-   "why": "홍콩 신호(0998.HK ☕ 10/29) — 본토 자금 10월 홍콩주 이탈 5년 최대 보도, 오늘 항셍 반등과 엇갈림",
-   "at": "2026-10-30 13:40"
+   "why": "watch 「외국인 매도 멈춤」 — 급락일 10년 국채선물 외국인 순매수 전환·반빅 강세: 주식 팔고 채권 사는 회전, 고금리 정점 가설 0.40 근거",
+   "at": "2026-10-30 14:40"
   }
  }
 }
