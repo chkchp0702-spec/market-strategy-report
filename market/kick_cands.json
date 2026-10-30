@@ -4993,6 +4993,86 @@
 "src": "cup",
 "score": 70.0,
 "lv": 17.54
+},
+"ADT|2026-10-29|pead": {
+"code": "ADT",
+"name": "ADT Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "pead",
+"score": 80.0
+},
+"BHC|2026-10-29|pead": {
+"code": "BHC",
+"name": "Bausch Health Companies Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "pead",
+"score": 80.0
+},
+"CROX|2026-10-29|pead": {
+"code": "CROX",
+"name": "Crocs, Inc.",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "pead",
+"score": 73.0
+},
+"DFIN|2026-10-29|pead": {
+"code": "DFIN",
+"name": "Donnelley Financial Solutions, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "pead",
+"score": 65.4
+},
+"FCN|2026-10-29|pead": {
+"code": "FCN",
+"name": "FTI Consulting, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "pead",
+"score": 65.2
+},
+"GKOS|2026-10-29|pead": {
+"code": "GKOS",
+"name": "Glaukos Corporation Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "pead",
+"score": 80.0
+},
+"MAX|2026-10-29|pead": {
+"code": "MAX",
+"name": "MediaAlpha, Inc. Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "pead",
+"score": 68.0
+},
+"PRCH|2026-10-29|pead": {
+"code": "PRCH",
+"name": "Porch Group, Inc.",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "pead",
+"score": 75.5
+},
+"TDOC|2026-10-29|pead": {
+"code": "TDOC",
+"name": "Teladoc Health, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "pead",
+"score": 78.3
+},
+"WST|2026-10-29|pead": {
+"code": "WST",
+"name": "West Pharmaceutical Services, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"src": "pead",
+"score": 66.8
 }
 },
 "sent": [
