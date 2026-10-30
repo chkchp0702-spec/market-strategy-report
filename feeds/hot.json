@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30 23:05",
+ "at": "2026-10-30 23:55",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wcnbccom20261027federalreserveratehiketimingexpectationshtml": {
@@ -57,20 +57,25 @@
    "why": "「고금리 정점 통과」 가설(0.40) 반대 숫자 — 9월 물가 3.6%, 소비 실질 감소: 스태그 쪽",
    "at": "2026-10-30 22:10"
   },
-  "n/ntelwarningsparkschiproutaspcweaknesscloudsturnaround4987123": {
-   "lv": 1,
-   "why": "인텔 −25% 가 세계 반도체 동반 매도로 번짐 — 반도체 칸(7%)·한국 반도체 ETF 직격, 메모리 SanDisk −8% 프리마켓",
-   "at": "2026-10-30 23:05"
-  },
   "n/l6VGVZY2JZaTBobzBzZklaSnRDMkp0N04tZkRHa2dFWG83SGZtWWVrVUUoc5": {
    "lv": 1,
    "why": "나스닥 개장 −2.26% — −3% 경계 접근, 위험 회피 국면 확인(마감이 −3%↓면 🔴)",
    "at": "2026-10-30 23:05"
   },
-  "n/hutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
+  "n/261030techfirmsdebtprotectioncostsaresurgingonprofitconcerns": {
    "lv": 1,
-   "why": "BofA 하트넷 「두들겨 맞은 빅테크 채권 = 원석」 — 가설 ① AI 크레딧 스트레스의 반대 시각(크레딧 바닥론)",
-   "at": "2026-10-30 23:05"
+   "why": "AI 크레딧 가설(0.8) 직격 — 빅테크 CDS 신고점, 공급·이익 우려 동시",
+   "at": "2026-10-30 23:55"
+  },
+  "n/les20261030fedsbarkinindicatesbackingforgradualrateincreases": {
+   "lv": 1,
+   "why": "바킨 「점진적 인상」 지지 — 고금리 정점 가설(0.4) 반대 재료, 美 10년 4.95 판정과 연결",
+   "at": "2026-10-30 23:55"
+  },
+  "n/qVGw1a2ppVk9hLXh5N3EzbFlIdzJ3d3V0Ui1RRzVLV1JxcjdVWmJpSm1Soc5": {
+   "lv": 1,
+   "why": "모건스탠리 S&P −8% 경고(AI 부채+긴축) — 위험 회피 국면·주식 비중 칸",
+   "at": "2026-10-30 23:55"
   }
  }
 }
