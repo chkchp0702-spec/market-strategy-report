@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30 15:40",
+ "at": "2026-10-30 16:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wcnbccom20261027federalreserveratehiketimingexpectationshtml": {
@@ -27,11 +27,6 @@
    "why": "ECB 수장 2/7 조기 퇴임(공식) — 오늘 밤 ECB 회의·유로 약세·12월 인상 기대와 이어짐, 고금리 정점 가설 점검",
    "at": "2026-10-29 19:35"
   },
-  "kwusa/61575": {
-   "lv": 1,
-   "why": "전력·AI 인프라 칸 — 캐터필러 3Q EPS 7.13$ 상회에도 AI 인프라와 함께 하락, 「좋은 실적도 판다」 날(EMR ☕ 컵 10/27 신호 보류 근거)",
-   "at": "2026-10-29 20:35"
-  },
   "n/httpswwwftcomcontentfbca8eb076ef4e0ebcc9c45c8f7d1311": {
    "lv": 1,
    "why": "크레딧(AI 차입) 가설 0.8 — 알파벳 실적 뒤 사상 최대 하락 −13%·시총 5천억$ 증발, 나스닥 −1.6% 동반(PLTR bet 시험대)",
@@ -41,11 +36,6 @@
    "lv": 1,
    "why": "크레딧(AI 차입) 가설 0.8 — 파트너스그룹 美 대표 PE 펀드 환매 요청 2배: 사모시장 유동성 압박이 크레딧 스트레스로 번지는 경로",
    "at": "2026-10-30 02:35"
-  },
-  "n/swwwftcomcontent8affd8ddb78348c886e2ac4a647fa0f3syn25a6b1a61": {
-   "lv": 1,
-   "why": "아마존 4Q 매출 전망 미달 — 알파벳 뒤 빅테크 실적 시험 2번째, AI 차입·크레딧 가설과 열린 PLTR bet 분위기",
-   "at": "2026-10-30 05:40"
   },
   "n/httpswwwcnbccom20261029intelintcq3earningsreport2026html": {
    "lv": 1,
@@ -57,11 +47,6 @@
    "why": "하이닉스 20조 자사주 vs 삼성 추가 환원 없음 — 한국 반도체 칸·091160.KS 오늘 시가 방향(하방 지지냐 실망 매물이냐)",
    "at": "2026-10-30 08:35"
   },
-  "n/etsstocksarticlesustockfuturessinknasdaq013610173htmltsrcrss": {
-   "lv": 1,
-   "why": "나스닥 선물 −2%(아마존·인텔 실적 실망) — 열린 PLTR bet·크레딧(AI 차입) 가설 0.8, 오늘 밤 美 시가 압박",
-   "at": "2026-10-30 11:35"
-  },
   "n/HRwa1FuMmF2TVRFdHZHX0M0UHZDVFZaYjVzazZDTWIyN1UzU3RVNWxSSwoc5": {
    "lv": 1,
    "why": "BofA 「12월·내년 3월 추가 인상」 — 고금리 정점 가설 0.36(10년 4.95 아래 마감 판정)과 반대 방향 재료",
@@ -72,16 +57,6 @@
    "why": "BOJ 1.25% 동결 8:1(다카타 인상 주장)·물가 목표 도달 판단 → 12월 인상 여지·엔 강세, 일본 ☕ 신호(7459.T·2175.T 등)·원·달러 watch",
    "at": "2026-10-30 12:40"
   },
-  "n/tutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
-   "lv": 1,
-   "why": "크레딧(AI 차입) 가설 0.8 — 엔비디아가 Nscale(앤트로픽 데이터센터) 대출에 수십억 달러 보증 검토: 칩 공급사가 고객 신용을 떠안는 벤더 금융 확대",
-   "at": "2026-10-30 14:40"
-  },
-  "n/NJdFYzeHNiY1EyMXpaaXhIRFFWQWJ5UlkteFpZRVZiX0lLeVBhcWJHWHQoc5": {
-   "lv": 1,
-   "why": "watch 「외국인 매도 멈춤」 — 급락일 10년 국채선물 외국인 순매수 전환·반빅 강세: 주식 팔고 채권 사는 회전, 고금리 정점 가설 0.40 근거",
-   "at": "2026-10-30 14:40"
-  },
   "n/p6TmhLV3MwWWNGTlhteWZCdmYzSnhHM2dyWEM5MU4tRVJoVWF4Qmh4MWMoc5": {
    "lv": 1,
    "why": "BOJ 동결이지만 「물가 2% 도달」 공식화 → 12월 인상 길 — 엔·일본 ☕ 신호·글로벌 금리(고금리 정점 가설)",
@@ -91,6 +66,21 @@
    "lv": 1,
    "why": "기아 3Q 영업익 YoY +24%에도 「실적 충격」 장중 −12% — YoY 헤드라인과 컨센 대비가 갈린 사례, 한국 실적 신호 판정 기준",
    "at": "2026-10-30 15:40"
+  },
+  "n/httpswwwmkcokrnewsstock12191609": {
+   "lv": 2,
+   "why": "코스피 −3.48% 5,730 마감(장중 −5.7%·매도 사이드카)·10월 −16% — 지수 급변, 한국 반도체 「뉴스에 판다」·크레딧 가설과 직결",
+   "at": "2026-10-30 16:40"
+  },
+  "n/httpswwwcnbccom20261030irantrumphormuzoilmiddleeasthtml": {
+   "lv": 1,
+   "why": "이란 「호르무즈서 유조선 4척 기뢰 피격」 — 킥 보유 USO·DBC·OXY(🎯 10/29) 유가 방향",
+   "at": "2026-10-30 16:40"
+  },
+  "n/61030tokyoelectronsoutlookbeatsestimateswhileaispendinggrows": {
+   "lv": 1,
+   "why": "도쿄일렉 전망 상회 — 빅테크 capex 매도와 반대 숫자, 장비 수요는 아직 꺾이지 않음(크레딧 가설 반대 근거)",
+   "at": "2026-10-30 16:40"
   }
  }
 }
