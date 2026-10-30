@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30 22:10",
+ "at": "2026-10-30 23:05",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wcnbccom20261027federalreserveratehiketimingexpectationshtml": {
@@ -17,60 +17,25 @@
    "why": "美 칸 — 모건스탠리 S&P 500 −8% 조정 후 랠리 경고, FOMC·빅테크 실적 앞 리스크 가설과 이어짐",
    "at": "2026-10-28 18:35"
   },
-  "n/swwwftcomcontent1639620b99e747ed848449646816489esyn25a6b1a61": {
-   "lv": 1,
-   "why": "크레딧(AI 차입) 가설·반도체 칸 — 나스닥100 −1.3% 개장 예고(알파벳 시간외 −9.8%·MS capex 컨센 하회) → 오늘 밤 AI 하드웨어(VRT 등 focus 강세 업종) 되돌림 시험",
-   "at": "2026-10-29 14:45"
-  },
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
    "lv": 1,
    "why": "ECB 수장 2/7 조기 퇴임(공식) — 오늘 밤 ECB 회의·유로 약세·12월 인상 기대와 이어짐, 고금리 정점 가설 점검",
    "at": "2026-10-29 19:35"
-  },
-  "n/swwwftcomcontent1ff658df963e4b929e12f0cf5517b2ecsyn25a6b1a61": {
-   "lv": 1,
-   "why": "크레딧(AI 차입) 가설 0.8 — 파트너스그룹 美 대표 PE 펀드 환매 요청 2배: 사모시장 유동성 압박이 크레딧 스트레스로 번지는 경로",
-   "at": "2026-10-30 02:35"
   },
   "n/XFTZEE5RFIteEQ1UDdDcURneDF0S3ZXS2pQd1ZOcFZPeUJKMnB5Sms1Qgoc5": {
    "lv": 1,
    "why": "하이닉스 20조 자사주 vs 삼성 추가 환원 없음 — 한국 반도체 칸·091160.KS 오늘 시가 방향(하방 지지냐 실망 매물이냐)",
    "at": "2026-10-30 08:35"
   },
-  "n/61030bojholdsbenchmarkratesteadyasexpectedafterseptemberhike": {
-   "lv": 1,
-   "why": "BOJ 1.25% 동결 8:1(다카타 인상 주장)·물가 목표 도달 판단 → 12월 인상 여지·엔 강세, 일본 ☕ 신호(7459.T·2175.T 등)·원·달러 watch",
-   "at": "2026-10-30 12:40"
-  },
   "n/httpswwwcnbccom20261030irantrumphormuzoilmiddleeasthtml": {
    "lv": 1,
    "why": "이란 「호르무즈서 유조선 4척 기뢰 피격」 — 킥 보유 USO·DBC·OXY(🎯 10/29) 유가 방향",
-   "at": "2026-10-30 16:40"
-  },
-  "n/61030tokyoelectronsoutlookbeatsestimateswhileaispendinggrows": {
-   "lv": 1,
-   "why": "도쿄일렉 전망 상회 — 빅테크 capex 매도와 반대 숫자, 장비 수요는 아직 꺾이지 않음(크레딧 가설 반대 근거)",
    "at": "2026-10-30 16:40"
   },
   "globalmktinsight/7796": {
    "lv": 1,
    "why": "10월 외국인 코스피 −19.7조·오늘 −1.6조 — 「외국인 매도 멈춤」 watch 판정 숫자",
    "at": "2026-10-30 17:40"
-  },
-  "n/20261030bpprofitsurgesasrefiningwindfallaidsoneillturnaround": {
-   "lv": 1,
-   "why": "BP 정제 마진으로 18년 최대 이익 — 에너지 칸·🎯 OXY, 유가 헤드라인과 별개로 실적이 받침",
-   "at": "2026-10-30 17:40"
-  },
-  "n/ccom20261030amazonintelearningsbigtechaispendingconcernshtml": {
-   "lv": 1,
-   "why": "아마존 프리마켓 −7%·인텔 −25% — AI capex 회의 미국장으로 확산, 반도체·킥 PLTR 미국 시가 방향",
-   "at": "2026-10-30 18:35"
-  },
-  "n/GxtUXpuRGJqZ3E5RlJSdFFCekVCWllGbEtrYlh4Q1JIWV90bFdCY0JFOAoc5": {
-   "lv": 1,
-   "why": "JP모건 「팔란티어 이제 시작」 — 열린 bet PLTR(☕ 10/27·실적 신호) 근거 보강, 급락장 상대강도 확인용",
-   "at": "2026-10-30 18:35"
   },
   "n/httpswwwcnbccom20261030chevronexxoncvxxomearningsq32026html": {
    "lv": 1,
@@ -87,15 +52,25 @@
    "why": "엑손·셰브론 정제 마진 실적 상회(BP 포함 3곳째) — 하류 비중 큰 SU(열린 bet ☕ 컵 10/26)·에너지 칸을 받침",
    "at": "2026-10-30 20:35"
   },
-  "n/sting20261030golddippedbelow4000ouncetobuyspdrgoldetftsrcrss": {
-   "lv": 1,
-   "why": "뼈대 금 칸 — 금 4,000달러 아래로, 위험 회피장인데 금도 밀림(달러·실질금리 방향 확인)",
-   "at": "2026-10-30 22:10"
-  },
   "n/zdFcWNmZ3FGM2NkV2ZqMWp3VkdzZU5LNDRiaXlBd1JVeXRZT0NjamY0WQoc5": {
    "lv": 1,
    "why": "「고금리 정점 통과」 가설(0.40) 반대 숫자 — 9월 물가 3.6%, 소비 실질 감소: 스태그 쪽",
    "at": "2026-10-30 22:10"
+  },
+  "n/ntelwarningsparkschiproutaspcweaknesscloudsturnaround4987123": {
+   "lv": 1,
+   "why": "인텔 −25% 가 세계 반도체 동반 매도로 번짐 — 반도체 칸(7%)·한국 반도체 ETF 직격, 메모리 SanDisk −8% 프리마켓",
+   "at": "2026-10-30 23:05"
+  },
+  "n/l6VGVZY2JZaTBobzBzZklaSnRDMkp0N04tZkRHa2dFWG83SGZtWWVrVUUoc5": {
+   "lv": 1,
+   "why": "나스닥 개장 −2.26% — −3% 경계 접근, 위험 회피 국면 확인(마감이 −3%↓면 🔴)",
+   "at": "2026-10-30 23:05"
+  },
+  "n/hutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
+   "lv": 1,
+   "why": "BofA 하트넷 「두들겨 맞은 빅테크 채권 = 원석」 — 가설 ① AI 크레딧 스트레스의 반대 시각(크레딧 바닥론)",
+   "at": "2026-10-30 23:05"
   }
  }
 }
