@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "색소 마켓 퀵테이크 — 아마존·인텔이 미국 기술주를 흔들다 (10/30)",
+   "url": "https://www.home.saxo/content/articles/macro/market-quick-take---now-amazon-and-intel-spook-us-tech---30-october-2026-30102026",
+   "press": "Saxo",
+   "at": "2026-10-30 22:10",
+   "why": "반도체·킥 PLTR — 미국장 시가 전 자산별 정리(금리·금·달러)",
+   "summary": "아마존·인텔 실적 뒤 AI 지출 우려가 미국 기술주로 번짐. 세부 숫자는 원문 확인(미확인)."
+  },
+  {
+   "title": "TheStreet 실시간 — 나스닥 선물 하락, 아마존·인텔 손실이 월가를 흔들다 (10/30)",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-30-2026",
+   "press": "TheStreet",
+   "at": "2026-10-30 22:10",
+   "why": "오늘 미국장 실시간 — 지출자 매도/에너지 강세 회전이 본장에서 유지되나 확인",
+   "summary": "나스닥 선물 −2% 안팎(피드 CNBC 「2% 넘게」). 장중 숫자는 원문 확인."
+  },
+  {
    "title": "마벨, 엔비디아가 투자한 루멘텀 인수 막바지 협상 — 루멘텀 시간외 약 +17%",
    "url": "https://www.rootdata.com/news/806163",
    "press": "RootData(보도 인용)",
@@ -623,22 +639,6 @@
    "at": "2026-10-28 20:36",
    "why": "🎯 하닉·반도체 칸 — 하닉 실적이 미국 나스닥 선물까지 끌어올림, 오늘 밤 FOMC·MS·알파벳 실적 전 반도체 주도 확인",
    "summary": "하닉 3분기 사상 최대 실적 뒤 나스닥 선물 상승 · 연준 동결 예상 속 빅테크 실적이 다음 관문."
-  },
-  {
-   "title": "연준 동결 예상 — 그러나 워시 의장이 추가 인상을 시사할 수도",
-   "url": "https://www.cnbc.com/2026/10/27/federal-reserve-rates-kevin-warsh.html",
-   "press": "CNBC",
-   "at": "2026-10-28 19:41",
-   "why": "금리 가설(0.40)·美 10년 5% 경계 — 오늘 밤 FOMC 문구가 12월 인상 쪽이면 장기채·금리 민감주 칸 역풍",
-   "summary": "10월 회의는 동결이 기본 시나리오, 관심은 워시 의장이 추가 인상 여지를 남길지. 인플레이션 고착·중간선거 앞 정책 경로가 쟁점."
-  },
-  {
-   "title": "유가, 연준 결정·빅테크 실적 앞두고 강세 유지",
-   "url": "https://www.marketscreener.com/news/oil-remains-higher-as-markets-await-fed-decision-big-tech-earnings-ce7f59d3df89fe26",
-   "press": "다우존스(MarketScreener)",
-   "at": "2026-10-28 19:41",
-   "why": "열린 bet CHRD·☕ cup_eye 원유 E&P — FOMC 전 유가 방향 확인",
-   "summary": "다우존스: 시장이 FOMC·빅테크 실적을 기다리는 가운데 유가 강세 유지(정확한 가격은 원문 확인)."
   }
  ],
  "at": "2026-10-30 19:40"
