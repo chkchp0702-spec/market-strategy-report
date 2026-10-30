@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "바이낸스, 대형 해킹 확인 — 25억 달러 이상 동결",
+   "url": "https://www.freemalaysiatoday.com/category/business/2026/10/30/crypto-platform-binance-confirms-major-hack-more-than-us-2-5bil-frozen",
+   "press": "Free Malaysia Today(AFP)",
+   "at": "2026-10-30 09:35",
+   "why": "위험 회피 확산 경로 — 크레딧·AI 차입 가설과 같은 방향, 미국 장 성장주 신호 거르기",
+   "summary": "바이낸스가 해킹을 확인, 테더·서클 등이 25억 달러 이상 동결. 피해 규모 보도는 23.8억~58억 달러로 엇갈려 미확인. 비트코인 7.8만 달러대로 급락(investing_kr)."
+  },
+  {
+   "title": "바이낸스 해킹 공포에 가상자산 1시간 청산 6.28억 달러",
+   "url": "https://beincrypto.com/crypto-liquidations-binance-hack-fears/",
+   "press": "BeInCrypto",
+   "at": "2026-10-30 09:35",
+   "why": "레버리지 청산 연쇄가 미국 장 고베타 성장주(PLTR bet)로 번지는지 확인",
+   "summary": "해킹 우려 직후 1시간 동안 청산 6.28억 달러. 비트코인 7.9만 달러 아래."
+  },
+  {
+   "title": "BOJ 10월 미리보기: 「매파적 동결」 예상 — 물가 끈적",
+   "url": "https://finance.yahoo.com/economy/policy/articles/boj-preview-october-hawkish-hold-042012157.html",
+   "press": "Yahoo Finance",
+   "at": "2026-10-30 09:35",
+   "why": "오늘 15:30 JST 결정 — 엔 강세(157엔대)·아시아 장 변동성, 도쿄 근원물가 목표 상회(bbg_econ)",
+   "summary": "동결 우세지만 매파 신호 예상. 10월 도쿄 근원물가 BOJ 2% 목표 상회 지속. 결정 결과는 이 시점 미확인."
+  },
+  {
    "title": "리오틴토, 몽골 오유톨고이 지하 구리광산 지진성 사고로 가동 중단",
    "url": "https://www.mining.com/web/rio-tinto-pauses-oyu-tolgoi-underground-copper-mine-after-seismic-event/",
    "press": "MINING.COM",
@@ -615,30 +639,6 @@
    "at": "2026-10-28 06:35",
    "why": "하이닉스 실적 D+1 watch — 메모리·스토리지 호실적에도 매도(뉴스에 판다) 패턴 점검",
    "summary": "10/27 장 마감 뒤 시게이트 1분기 실적·가이던스 상회에도 시간외 약 −6%(investing 피드) · 같은 날 테라다인 −6%·NXP 가이던스 실망 하락(cnbc after-hours) — 숫자 세부는 원문 확인"
-  },
-  {
-   "title": "SK하이닉스 3분기 실적 10월 28일 발표",
-   "url": "https://www.boerse-express.com/news/articles/sk-hynix-aktie-q3-zahlen-am-28-oktober-955750",
-   "press": "Börse Express",
-   "at": "2026-10-28 06:35",
-   "why": "🇰🇷 한국 가설(0.74)·반도체 칸 — 오늘 실적, 외국인 사흘 수급으로 판정",
-   "summary": "하이닉스 3분기 실적 발표일 28일 확인 · 컨센 영업익 약 77조(FnGuide, 기존 watch) · 특별배당설(tipranks 10/27)은 미확인"
-  },
-  {
-   "title": "나스닥 308P(+1.2%) — 브로드컴의 앤트로픽 대형 딜",
-   "url": "https://www.kiplinger.com/investing/stocks/nasdaq-jumps-308-points-on-broadcoms-big-gains-stock-market-today",
-   "press": "Kiplinger",
-   "at": "2026-10-28 05:35",
-   "why": "FOMC 전날 반도체 주도 반등 — 반도체 칸·AI 차입 가설 점검",
-   "summary": "10/27 마감 나스닥 26,477(+1.2%)·S&P 7,722(+0.6%)·다우 52,377(+0.03%) · 브로드컴 +4%(앤트로픽 관련 630억$ 금융 딜)·AMD +5.5%·인텔 +3.6%·마이크론 +2.8% · 보잉 −10.7%(2020년 6월 이후 최악)·제트블루 +19%"
-  },
-  {
-   "title": "SK하이닉스, 3분기 실적 앞두고 하락 — 바클레이스 목표 300$ 유지",
-   "url": "https://parameter.io/sk-hynix-skhy-drops-ahead-of-q3-earnings-as-analysts-maintain-300-price-target/",
-   "press": "parameter.io",
-   "at": "2026-10-28 05:35",
-   "why": "하이닉스 실적(10/28) D+1 반응 watch — 한국 가설 0.74 판정 재료",
-   "summary": "최근 3개월 매수 11건·평균 목표 254.7$ · 바클레이스 300$·울프 200→250$ · 발표 전 세션 서울 −4% 가까이·미 프리마켓 −2%(기사 기준일 미확인)"
   }
  ],
  "at": "2026-10-29 22:45"
