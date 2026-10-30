@@ -1,5 +1,5 @@
 {
- "at": "2026-10-30 10:35",
+ "at": "2026-10-30 11:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wcnbccom20261027federalreserveratehiketimingexpectationshtml": {
@@ -126,6 +126,16 @@
    "lv": 1,
    "why": "삼성 추가 환원 55~75조 + 메모리 공급 부족 2028까지 — 한국 반도체 칸·091160.KS 관찰(사이드카 날 지지 여부)",
    "at": "2026-10-30 10:35"
+  },
+  "n/etsstocksarticlesustockfuturessinknasdaq013610173htmltsrcrss": {
+   "lv": 1,
+   "why": "나스닥 선물 −2%(아마존·인텔 실적 실망) — 열린 PLTR bet·크레딧(AI 차입) 가설 0.8, 오늘 밤 美 시가 압박",
+   "at": "2026-10-30 11:35"
+  },
+  "n/HRwa1FuMmF2TVRFdHZHX0M0UHZDVFZaYjVzazZDTWIyN1UzU3RVNWxSSwoc5": {
+   "lv": 1,
+   "why": "BofA 「12월·내년 3월 추가 인상」 — 고금리 정점 가설 0.36(10년 4.95 아래 마감 판정)과 반대 방향 재료",
+   "at": "2026-10-30 11:35"
   }
  }
 }
