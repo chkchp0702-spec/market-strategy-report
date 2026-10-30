@@ -5153,6 +5153,37 @@
 "src": "accum",
 "score": 77.0,
 "lv": 10.5
+},
+"COP|2026-10-30": {
+"code": "COP",
+"name": "ConocoPhillips Common Stock",
+"mkt": "US",
+"d": "2026-10-30",
+"src": "cup",
+"score": 67.8,
+"lv": 152.92,
+"max20": 3.6,
+"id60": -0.2
+},
+"CRGY|2026-10-30": {
+"code": "CRGY",
+"name": "Crescent Energy Company Class A Common",
+"mkt": "US",
+"d": "2026-10-30",
+"src": "cup",
+"score": 73.4,
+"lv": 14.13,
+"max20": 10.1,
+"id60": -0.067
+},
+"NAD|2026-10-26": {
+"code": "NAD",
+"name": "Nuveen Quality Municipal Income Fund C",
+"mkt": "US",
+"d": "2026-10-26",
+"src": "accum",
+"score": 64.0,
+"lv": 10.84
 }
 },
 "sent": [
