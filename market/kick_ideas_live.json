@@ -1,72 +1,138 @@
 {
-"at": "2026-10-29 10:52",
+"at": "2026-10-30 11:01",
 "signals": [
 {
 "src": "pead",
-"code": "BLCO",
-"name": "Bausch + Lomb Corporation Common Shares",
+"code": "ADT",
+"name": "ADT Inc. Common Stock",
 "mkt": "US",
-"d": "2026-10-28",
-"vr": 8.9,
-"gap": 5.2,
-"px": 20.4,
+"d": "2026-10-29",
+"vr": 22.0,
+"gap": 33.3,
+"px": 9.87,
 "score": 30.0
 },
 {
 "src": "pead",
-"code": "ICLR",
-"name": "ICON plc",
+"code": "BHC",
+"name": "Bausch Health Companies Inc. Common Stock",
 "mkt": "US",
-"d": "2026-10-28",
-"vr": 4.5,
-"gap": 8.9,
-"px": 214.16,
-"score": 22.7
-},
-{
-"src": "pead",
-"code": "KIDS",
-"name": "OrthoPediatrics Corp.",
-"mkt": "US",
-"d": "2026-10-28",
-"vr": 7.9,
-"gap": 4.7,
-"px": 30.8,
+"d": "2026-10-29",
+"vr": 14.6,
+"gap": 10.7,
+"px": 8.91,
 "score": 30.0
 },
 {
 "src": "pead",
-"code": "WING",
-"name": "Wingstop Inc.",
+"code": "CROX",
+"name": "Crocs, Inc.",
 "mkt": "US",
-"d": "2026-10-28",
+"d": "2026-10-29",
+"vr": 4.6,
+"gap": 17.0,
+"px": 150.26,
+"score": 23.0
+},
+{
+"src": "pead",
+"code": "DFIN",
+"name": "Donnelley Financial Solutions, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
 "vr": 3.1,
-"gap": 7.7,
-"px": 138.57,
-"score": 15.3
+"gap": 7.3,
+"px": 61.07,
+"score": 15.4
+},
+{
+"src": "pead",
+"code": "FCN",
+"name": "FTI Consulting, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"vr": 3.0,
+"gap": 7.6,
+"px": 181.24,
+"score": 15.2
+},
+{
+"src": "pead",
+"code": "GKOS",
+"name": "Glaukos Corporation Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"vr": 6.1,
+"gap": 16.3,
+"px": 242.48,
+"score": 30.0
+},
+{
+"src": "pead",
+"code": "MAX",
+"name": "MediaAlpha, Inc. Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"vr": 3.6,
+"gap": 19.8,
+"px": 14.13,
+"score": 18.0
+},
+{
+"src": "pead",
+"code": "PRCH",
+"name": "Porch Group, Inc.",
+"mkt": "US",
+"d": "2026-10-29",
+"vr": 5.1,
+"gap": 19.4,
+"px": 20.89,
+"score": 25.5
+},
+{
+"src": "pead",
+"code": "TDOC",
+"name": "Teladoc Health, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"vr": 5.7,
+"gap": 15.1,
+"px": 8.73,
+"score": 28.3
+},
+{
+"src": "pead",
+"code": "WST",
+"name": "West Pharmaceutical Services, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"vr": 3.4,
+"gap": 4.2,
+"px": 416.67,
+"score": 16.8
 }
 ],
 "state": {
 "index_KR": {
 "sym": "^KS11",
 "above200": false,
-"d": "2026-10-29"
+"d": "2026-10-30"
 },
 "scanned_KR": 2612,
 "us_source": "US.json 전 종목 5942 + ETF 4929 (2026-10-24)",
 "index_US": {
 "sym": "^GSPC",
 "above200": true,
-"d": "2026-10-28"
+"d": "2026-10-29"
 },
-"scanned_US": 9143,
+"scanned_US": 9141,
 "dip": {
 "sym": "QQQ",
-"d": "2026-10-28",
-"close": 725.61,
-"ma200": 677.55,
-"ma5": 713.59,
-"rsi2": 88.8,
+"d": "2026-10-29",
+"close": 715.34,
+"ma200": 678.01,
+"ma5": 715.76,
+"rsi2": 33.7,
 "th": 5.0,
 "signal": false
 },
@@ -76,74 +142,74 @@
 "GLD": {
 "on": false,
 "since": "2026-03-23",
-"close": 373.51,
+"close": 368.57,
 "hi": 429.42,
 "lo": 364.33,
-"d": "2026-10-28"
+"d": "2026-10-29"
 },
 "USO": {
 "on": true,
 "since": "2026-09-10",
-"close": 166.57,
+"close": 168.19,
 "hi": 169.96,
 "lo": 125.41,
-"d": "2026-10-28"
+"d": "2026-10-29"
 },
 "TLT": {
 "on": false,
 "since": null,
-"close": 80.99,
+"close": 81.49,
 "hi": 86.44,
 "lo": 76.43,
-"d": "2026-10-28"
+"d": "2026-10-29"
 },
 "UUP": {
 "on": true,
 "since": "2026-03-12",
-"close": 29.06,
+"close": 29.04,
 "hi": 29.25,
 "lo": 27.87,
-"d": "2026-10-28"
+"d": "2026-10-29"
 },
 "SPY": {
 "on": true,
 "since": "2026-04-15",
-"close": 772.31,
+"close": 769.36,
 "hi": 781.62,
 "lo": 747.74,
-"d": "2026-10-28"
+"d": "2026-10-29"
 },
 "QQQ": {
 "on": true,
 "since": "2026-09-22",
-"close": 725.61,
+"close": 715.34,
 "hi": 762.86,
 "lo": 699.27,
-"d": "2026-10-28"
+"d": "2026-10-29"
 },
 "EFA": {
 "on": true,
 "since": "2026-07-06",
-"close": 103.68,
+"close": 104.35,
 "hi": 108.89,
 "lo": 102.0,
-"d": "2026-10-28"
+"d": "2026-10-29"
 },
 "EEM": {
 "on": false,
 "since": "2026-07-29",
-"close": 63.52,
+"close": 62.72,
 "hi": 71.57,
 "lo": 61.25,
-"d": "2026-10-28"
+"d": "2026-10-29"
 },
 "DBC": {
 "on": true,
 "since": "2026-09-01",
-"close": 33.79,
+"close": 33.72,
 "hi": 34.14,
 "lo": 30.27,
-"d": "2026-10-28"
+"d": "2026-10-29"
 }
 }
 }
@@ -366,6 +432,116 @@
 "gap": 7.7,
 "px": 138.57,
 "score": 15.3
+},
+{
+"src": "pead",
+"code": "ADT",
+"name": "ADT Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"vr": 22.0,
+"gap": 33.3,
+"px": 9.87,
+"score": 30.0
+},
+{
+"src": "pead",
+"code": "BHC",
+"name": "Bausch Health Companies Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"vr": 14.6,
+"gap": 10.7,
+"px": 8.91,
+"score": 30.0
+},
+{
+"src": "pead",
+"code": "CROX",
+"name": "Crocs, Inc.",
+"mkt": "US",
+"d": "2026-10-29",
+"vr": 4.6,
+"gap": 17.0,
+"px": 150.26,
+"score": 23.0
+},
+{
+"src": "pead",
+"code": "DFIN",
+"name": "Donnelley Financial Solutions, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"vr": 3.1,
+"gap": 7.3,
+"px": 61.07,
+"score": 15.4
+},
+{
+"src": "pead",
+"code": "FCN",
+"name": "FTI Consulting, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"vr": 3.0,
+"gap": 7.6,
+"px": 181.24,
+"score": 15.2
+},
+{
+"src": "pead",
+"code": "GKOS",
+"name": "Glaukos Corporation Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"vr": 6.1,
+"gap": 16.3,
+"px": 242.48,
+"score": 30.0
+},
+{
+"src": "pead",
+"code": "MAX",
+"name": "MediaAlpha, Inc. Class A Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"vr": 3.6,
+"gap": 19.8,
+"px": 14.13,
+"score": 18.0
+},
+{
+"src": "pead",
+"code": "PRCH",
+"name": "Porch Group, Inc.",
+"mkt": "US",
+"d": "2026-10-29",
+"vr": 5.1,
+"gap": 19.4,
+"px": 20.89,
+"score": 25.5
+},
+{
+"src": "pead",
+"code": "TDOC",
+"name": "Teladoc Health, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"vr": 5.7,
+"gap": 15.1,
+"px": 8.73,
+"score": 28.3
+},
+{
+"src": "pead",
+"code": "WST",
+"name": "West Pharmaceutical Services, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-10-29",
+"vr": 3.4,
+"gap": 4.2,
+"px": 416.67,
+"score": 16.8
 }
 ]
 }
