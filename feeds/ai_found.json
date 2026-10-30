@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 3분기 PCE 전년비 3.7% 횡보 — 서비스 물가 끈적",
+   "url": "https://datatrack.trendforce.com/blog/content/63266/us-2026-q3-pce-yoy-growth-flat-at-37-slightly-above-expectations-showing-sticky-services-inflation",
+   "press": "TrendForce",
+   "at": "2026-10-30 19:40",
+   "why": "美 10년 5% watch·고금리 정점 가설 — 물가가 안 내려와 인상 확률 재료(게시 시각 미확인)",
+   "summary": "3분기 PCE 전년비 3.7%로 횡보, 예상 소폭 상회. 서비스 물가가 끈적하다는 해석. 피드의 9월 물가 3.6%와 같은 방향."
+  },
+  {
+   "title": "유가 하락 — 다만 기뢰 공포로 긴장 지속",
+   "url": "https://www.cash.ch/news/top-news/olpreis-fallt-lage-wegen-seeminen-furcht-aber-angespannt-917189",
+   "press": "cash.ch",
+   "at": "2026-10-30 19:40",
+   "why": "에너지 칸·호르무즈 반복 체감 규칙 — 기뢰 헤드라인에도 유가가 내리는 장면(날짜 미확인)",
+   "summary": "호르무즈 기뢰 우려 속에서도 유가는 하락. 헤드라인과 가격 방향이 엇갈림 — 16:40 아이디어(3번째 헤드라인부터 진입 신호로 안 씀)와 같은 그림."
+  },
+  {
    "title": "MS 9년 만의 회사채 250억 달러 — 주문 1,150억 달러 몰려",
    "url": "https://www.briefs.co/news/microsoft-s-25-billion-bond-sale-draws-a-towering-order-book/",
    "press": "Briefs",
@@ -623,23 +639,7 @@
    "at": "2026-10-28 16:35",
    "why": "외국인 복귀가 반도체 대형주에만 몰렸는지(코스닥은 외국인 매도) — 킥 한국 소형주 진입 판단",
    "summary": "10거래일 만에 6,000선 회복 · 외국인 순매수 전환 · 코스닥 771.28(+3.69%)은 외국인 매도·기관 매수"
-  },
-  {
-   "title": "후티 「사우디 최대 정유소 미사일 공격」 주장에 유가 상승",
-   "url": "https://investinglive.com/commodities/oil-edges-higher-after-houthis-claim-missile-strike-on-saudi-arabia-s-biggest-refinery/",
-   "press": "investingLive",
-   "at": "2026-10-28 15:35",
-   "why": "열린 bet CHRD·☕ cup_eye SM·PR(원유)·美 10년 5% 인플레 상방",
-   "summary": "후티가 사우디 최대 정유소 타격을 주장, 유가 상승. CNBC 기준 WTI 101.49달러(+1.59%)·브렌트 115.68달러(+1.8) — FOMC 결정 앞."
-  },
-  {
-   "title": "RBA 매파·RBNZ 깜짝 동결 — 아시아 장 정리",
-   "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-hawkish-rba-surprise-rbnz-hold-lift-aud-nzd",
-   "press": "investingLive",
-   "at": "2026-10-28 15:35",
-   "why": "글로벌 긴축 국면 — 美 10년 5% 가설(0.42)·FOMC 밤 금리 경로",
-   "summary": "RBNZ 동결(총재 「향후 인상 가능성 높아」), 캐피털이코노믹스는 호주 11월 25bp 인상으로 전망 수정 — 피드 기사와 함께 주요국 인상 기조 확인."
   }
  ],
- "at": "2026-10-29 22:45"
+ "at": "2026-10-30 19:40"
 }
