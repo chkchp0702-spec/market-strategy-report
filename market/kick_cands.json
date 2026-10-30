@@ -5184,6 +5184,17 @@
 "src": "accum",
 "score": 64.0,
 "lv": 10.84
+},
+"IMO|2026-10-30": {
+"code": "IMO",
+"name": "Imperial Oil Limited Common Stock",
+"mkt": "US",
+"d": "2026-10-30",
+"src": "cup",
+"score": 72.3,
+"lv": 137.02,
+"max20": 3.6,
+"id60": -0.133
 }
 },
 "sent": [
@@ -5200,24 +5211,24 @@
 "2026-10-16|팔기|OKTA"
 ],
 "whale": [
-"ALAB",
-"AMZN",
+"AMAT",
+"AMD",
 "AVTX",
 "CDW",
 "CPNG",
 "EA",
+"FIGR",
 "GOOG",
 "GOOGL",
-"ICE",
+"GPN",
 "INSM",
-"LLY",
-"MAS",
+"INTC",
 "META",
-"MRVL",
-"MU",
-"NXPI",
+"NCLH",
+"ORCL",
 "SNOW",
 "SPGI",
-"VST"
+"STM",
+"TSM"
 ]
 }
