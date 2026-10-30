@@ -1,6 +1,6 @@
 {
- "last_review": "2026-10-30 19:40",
- "summary": "코스피 −3.48% 마감에 이어 유럽도 AI 지출 우려로 기술주 약세, 빅테크 시총 9천억$ 증발(FT). 반대로 키옥시아 영업익 22배·대만 3분기 GDP 두 자릿수 성장 등 AI 실수요 숫자는 강하다 — 주가는 지출자 쪽을 판다. 셰브론은 디젤 정제 마진으로 실적 상회, 에너지 칸은 실적이 받친다. 美 9월 물가 3.6% 끈적. 위험 회피 유지.",
+ "last_review": "2026-10-30 20:35",
+ "summary": "나스닥 선물 −2% 안팎 — 아마존·인텔 실적 뒤 AI 지출 우려가 이어지고 코스피 −3.48%·닛케이 −2%대 마감, 홍콩 H주만 저가 매수로 +1.37%. 반대로 엑손·셰브론·BP 정제 마진 실적 상회, 파나소닉·폭스콘은 AI 수요 강하다고 말한다 — 매도는 지출자에, 돈은 공급사·에너지로. 위험 회피 유지.",
  "regime": "위험 회피",
  "theses": [
   {
@@ -106,7 +106,7 @@
    "loss": 22,
    "avg": -2.62,
    "open": 5,
-   "at": "2026-10-30 19:36"
+   "at": "2026-10-30 20:36"
   }
  },
  "bets": [
@@ -145,7 +145,7 @@
    "target": "entry +5%",
    "stop": "entry −3%",
    "horizon": "1주",
-   "why": "셸 3분기 정유 마진 사상 최고·역대 2위 이익·자사주 확대(gn_bbg n/WdFMXpMRndPLVpFMEY5OTl4Z29DRG1Fd0NvMTFnaWpCZXNTTmxtYk8tdwoc5, cnbc_top 10/29) · 셸 3Q 지표 정유마진 42$/bbl(2Q 24$, +75%, oilprice 10/7 https://oilprice.com/Latest-Energy-News/World-News/Shells-Refining-Margin-Jumps-75-as-Fuel-Supplies-Dry-Up.amp.html) · 선코어 3Q 발표 11/3 장 마감 뒤(boereport 10/20 https://boereport.com/2026/10/20/suncor-energy-to-release-third-quarter-2026-financial-results/amp/) · 반대: 이란 외교 진전(bbg_mkt 10/29)·컵 점수 54.4로 낮음·60일 id −0.13 · 18:35 보강: 토탈 실적일 급등(investing_en)·SK이노 3Q 영업익 3.7조 역대 최대(mk) — 정유 기록 3곳째",
+   "why": "셸 3분기 정유 마진 사상 최고·역대 2위 이익·자사주 확대(gn_bbg n/WdFMXpMRndPLVpFMEY5OTl4Z29DRG1Fd0NvMTFnaWpCZXNTTmxtYk8tdwoc5, cnbc_top 10/29) · 셸 3Q 지표 정유마진 42$/bbl(2Q 24$, +75%, oilprice 10/7 https://oilprice.com/Latest-Energy-News/World-News/Shells-Refining-Margin-Jumps-75-as-Fuel-Supplies-Dry-Up.amp.html) · 선코어 3Q 발표 11/3 장 마감 뒤(boereport 10/20 https://boereport.com/2026/10/20/suncor-energy-to-release-third-quarter-2026-financial-results/amp/) · 반대: 이란 외교 진전(bbg_mkt 10/29)·컵 점수 54.4로 낮음·60일 id −0.13 · 18:35 보강: 토탈 실적일 급등(investing_en)·SK이노 3Q 영업익 3.7조 역대 최대(mk) — 정유 기록 3곳째 · 10/30 20:35 보탬: 엑손·셰브론 정제 마진 실적 상회(bbg, FT) — SU 하류(정제) 비중 큼",
    "sig": "☕ cup_eye 10/26 (kick_cands SU|2026-10-26, score 54.4, lv 79.73)",
    "edge": "메이저가 「정유 기록」을 숫자로 확인한 날 — 정유 비중 큰 북미 통합사는 11/3 실적 전이라 아직 같은 숫자를 못 보여 줌",
    "src": "스캐너",
@@ -2330,6 +2330,6 @@
   "back": "그림자 15건↑·승률 45%↑·평균 + 면 그 시장 다시 진짜로",
   "shadow": {},
   "live_again": [],
-  "at": "2026-10-30 19:36"
+  "at": "2026-10-30 20:36"
  }
 }
