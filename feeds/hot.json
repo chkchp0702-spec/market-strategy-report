@@ -1,12 +1,7 @@
 {
- "at": "2026-10-30 23:55",
+ "at": "2026-10-31 00:50",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
-  "n/wcnbccom20261027federalreserveratehiketimingexpectationshtml": {
-   "lv": 1,
-   "why": "FOMC(29일 새벽) watch·고금리 가설(0.42) — CNBC 설문 「인상은 오지만 이번 주는 아님」: 동결 우세 확인, 다음 회의 인상 꼬리는 단기채 칸 유지 근거",
-   "at": "2026-10-27 20:35"
-  },
   "jeunkim/224455797355": {
    "lv": 1,
    "why": "포트 칸 배분 — 10월 SOX −12% vs XLP +9%·XLE +13%, 동일가중 S&P 가 4%p 앞선 35년 만의 반전(야후 번역)",
@@ -47,11 +42,6 @@
    "why": "반도체 칸·크레딧 가설 반대 숫자 — AI 매도장 속 키옥시아 영업익 22배·중간배당, 실수요는 살아 있음",
    "at": "2026-10-30 19:40"
   },
-  "n/reapsrecordoilrefiningprofitsonwardrivengasolinedieselspikes": {
-   "lv": 1,
-   "why": "엑손·셰브론 정제 마진 실적 상회(BP 포함 3곳째) — 하류 비중 큰 SU(열린 bet ☕ 컵 10/26)·에너지 칸을 받침",
-   "at": "2026-10-30 20:35"
-  },
   "n/zdFcWNmZ3FGM2NkV2ZqMWp3VkdzZU5LNDRiaXlBd1JVeXRZT0NjamY0WQoc5": {
    "lv": 1,
    "why": "「고금리 정점 통과」 가설(0.40) 반대 숫자 — 9월 물가 3.6%, 소비 실질 감소: 스태그 쪽",
@@ -72,10 +62,20 @@
    "why": "바킨 「점진적 인상」 지지 — 고금리 정점 가설(0.4) 반대 재료, 美 10년 4.95 판정과 연결",
    "at": "2026-10-30 23:55"
   },
-  "n/qVGw1a2ppVk9hLXh5N3EzbFlIdzJ3d3V0Ui1RRzVLV1JxcjdVWmJpSm1Soc5": {
+  "n/ccom20261030amazonintelearningsbigtechaispendingconcernshtml": {
    "lv": 1,
-   "why": "모건스탠리 S&P −8% 경고(AI 부채+긴축) — 위험 회피 국면·주식 비중 칸",
-   "at": "2026-10-30 23:55"
+   "why": "반도체 칸·AI 크레딧 가설(0.8) — 인텔 50여 년 만의 최악 하루, 나스닥 −2.6% 확대(−3% 🔴 경계)",
+   "at": "2026-10-31 00:50"
+  },
+  "n/icles20261030cztellsmuskbadtimetotrollafterrecordbinancehack": {
+   "lv": 1,
+   "why": "위험 회피 국면 보탬 — 바이낸스 사상 최대 해킹에 코인 급락, 위험자산 동반 매도",
+   "at": "2026-10-31 00:50"
+  },
+  "n/s20261030rarespeedboatattackinhormuzignitestankersengineroom": {
+   "lv": 1,
+   "why": "호르무즈 고속정 공격 — 에너지 칸·열린 SU bet(☕ 컵 10/26) 유가 방향",
+   "at": "2026-10-31 00:50"
   }
  }
 }
