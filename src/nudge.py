@@ -56,7 +56,7 @@ def close_msg(H, LA, now):
     ex = (P.get("kick") or 0) - (P.get("spy") or 0)
     dd = str(P.get("d1_date") or "")[5:].replace("-", "/")
     title = f"📊 {now.month}/{now.day} 마감 · 내 포트 성적표"
-    body = (f"💼 {dd}(미국) 기본 {sg(d1, 2)} · ⚡ 킥 {sg(d1k, 2)} · S&P {sg(d1s, 2)} → {'이겼어요 👍' if win else '졌어요'}\n"
+    body = (f"💼 {dd}(미국) 기본 {sg(d1, 2)} · ⚡ 공격 {sg(d1k, 2)} · S&P {sg(d1s, 2)} → {'이겼어요 👍' if win else '졌어요'}\n"
             f"누적 킥 {sg(P.get('kick'), 2)} (S&P보다 {ex:+.2f}%p)\n"
             f"🇰🇷 오늘 코스피 {sg(ks.get('change_pct'), 2)} · 코스닥 {sg(kq.get('change_pct'), 2)}")
     return title, body, APP + "#port"
@@ -68,7 +68,7 @@ def week_msg(H, now):
         return None
     r = W.get("rep") or {}
     nx = (W.get("next") or [])[:2]
-    best = max([("💼 기본", W.get("base")), ("⚡ 킥", W.get("kick")), ("🎯 집중", W.get("conc"))], key=lambda x: -999 if x[1] is None else x[1])
+    best = max([("💼 기본", W.get("base")), ("⚡ 공격", W.get("kick")), ("🎯 집중", W.get("conc"))], key=lambda x: -999 if x[1] is None else x[1])
     title = f"📅 이번 주 복기 · {now.month}/{now.day}"
     body = (f"{best[0]} {sg(best[1], 2)} vs S&P {sg(W.get('spy'), 2)} · 코스피 {sg(W.get('kospi'), 2)}\n"
             f"시황 예고 {r.get('win', 0)}맞음 · {r.get('loss', 0)}틀림 (채점 {r.get('n', 0)}건)\n"

@@ -162,7 +162,7 @@ def main() -> int:
     S.append({"k": "focus", "ic": "🎯", "t": "오늘의 집중 테마", "n": fs.get("n"), "win": fs.get("hit"), "avg": fs.get("avg_ex"),
               "rate": round(fs["hit"] / fs["n"] * 100) if fs.get("n") else None, "note": f"채점 중 {len(fs.get('open') or [])}개 (S&P 대비 5일)"})
     S.append({"k": "port", "ic": "💼", "t": "포트 vs 시장", "n": port["n_bench"], "win": port["beat_kick"], "loss": port["n_bench"] - port["beat_kick"],
-              "note": f"⚡ 킥 {kick or 0:+.2f}%는 시장 {port['n_bench']}곳 중 {port['beat_kick']}곳, 💼 기본 {base or 0:+.2f}%는 {port['beat_base']}곳보다 앞섬"})
+              "note": f"⚡ 공격 포트 {kick or 0:+.2f}%는 시장 {port['n_bench']}곳 중 {port['beat_kick']}곳, 💼 기본 {base or 0:+.2f}%는 {port['beat_base']}곳보다 앞섬"})
     W = K.get("whale") or {}
     if W:
         S.append({"k": "whale", "ic": "🐋", "t": "고래 바스켓", "avg": W.get("ret"), "note": f"{W.get('q')} 13F 큰 신규 {len(W.get('rows') or [])}종목 · S&P {ks.get('spy', 0):+.2f}%"})

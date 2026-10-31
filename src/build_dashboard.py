@@ -112,7 +112,7 @@ def body(d: dict, led: dict) -> str:
     h.append(f'<div class="one">{d["one_liner"]}</div>')
     k = d.get("kick") or {}
     if k:
-        h.append(f'<div class="one" style="border-color:#d98a1a;background:#fff8ec;font-size:14.5px"><b style="color:#b06a00">⚡ 킥</b> ' + (f'오늘은 킥 없음 — {k.get("why", "")}' if k.get("none") else f'{k.get("title", "")} <span style="color:#5a6472;font-weight:500">→ {k.get("so", "")}</span>') + '</div>')
+        h.append(f'<div class="one" style="border-color:#d98a1a;background:#fff8ec;font-size:14.5px"><b style="color:#b06a00">🔑 오늘의 핵심</b> ' + (f'오늘은 특별한 핵심 없음 — {k.get("why", "")}' if k.get("none") else f'{k.get("title", "")} <span style="color:#5a6472;font-weight:500">→ {k.get("so", "")}</span>') + '</div>')
     h.append('<h2>숫자</h2><div class="kpis">')
     for i in s.get("kpis_pick", range(6)):
         k = d["kpis"][i]

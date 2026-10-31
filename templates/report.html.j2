@@ -21,7 +21,7 @@
  {% endif %}
 
  <div class="one"><div class="k">오늘의 한 줄</div><p>{{ d.one_liner | safe }}</p>
- {% if d.kick %}<div class="kick">{% if d.kick.none %}<b>⚡ 킥</b> 오늘은 킥 없음 — {{ d.kick.why | safe }}{% else %}<b>⚡ 킥</b> {{ d.kick.title | safe }} <span class="so">→ {{ d.kick.so | safe }}</span>{% endif %}</div>{% endif %}</div>
+ {% if d.kick %}<div class="kick">{% if d.kick.none %}<b>🔑 오늘의 핵심</b> 오늘은 특별한 핵심 없음 — {{ d.kick.why | safe }}{% else %}<b>🔑 오늘의 핵심</b> {{ d.kick.title | safe }} <span class="so">→ {{ d.kick.so | safe }}</span>{% endif %}</div>{% endif %}</div>
 
  {% for row in [d.kpis[:4], d.kpis[4:8]] %}
  <div class="g4" {% if not loop.first %}style="margin-top:8px"{% endif %}>
@@ -161,7 +161,7 @@
    <tr><th style="width:46px">실제<br>비중</th><th style="width:72px">무엇</th><th>실제로 담는 것</th><th>어제 본 것</th><th style="width:62px">판정</th><th style="width:132px">바꿀 조건</th></tr>
    {% for a in alloc_rows %}<tr{% if a.kick %} style="background:#fff1f0"{% endif %}><td><b>{{ a.pct }}%</b>{% if not a.kick and kick_alloc and kick_alloc.kw %}<br><span style="font-size:6.3pt;color:#7a8494">기본 {{ a.base }}</span>{% endif %}</td><td>{{ a.name }}</td><td>{{ a.instruments }}</td><td>{{ a.seen }}</td><td class="{{ a.verdict_cls }}">{{ a.verdict }}</td><td>{{ a.rule }}</td></tr>{% endfor %}
   </table>
-  <div class="note" style="margin-top:3px">{% if kick_alloc and kick_alloc.kw %}⚡ 킥 포함 = 실제로 들고 있는 포트 — ⚡ 킥 {{ kick_alloc.kw }}%만큼 기본 칸을 같은 비율로 줄임(「기본 n」 = 킥 빼기 전 비중). {% endif %}{{ d.allocation_note }}</div>
+  <div class="note" style="margin-top:3px">{% if kick_alloc and kick_alloc.kw %}⚡ 공격 포트 = 실제로 들고 있는 포트 — ⚡ 공격 몫 {{ kick_alloc.kw }}%만큼 기본 칸을 같은 비율로 줄임(「기본 n」 = 공격 몫 빼기 전 비중). {% endif %}{{ d.allocation_note }}</div>
  </div>
  <div class="g2" style="margin-top:7px">
   <div class="box"><h3>경우의 수 — 확률</h3>

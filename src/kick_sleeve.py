@@ -513,12 +513,14 @@ def main() -> int:
                   | {t for v in FZ.values() for t in v.get("t", [])})
     start = (dt.date.fromisoformat(START) - dt.timedelta(days=130)).isoformat()   # 🐸 ID60 계산에 신호일 전 60거래일 필요
     df = yf.download(tick, start=start, interval="1d", auto_adjust=True, progress=False, group_by="ticker", threads=True)
-    CL = {}
+    CL, LO, OPN = {}, {}, {}
     for t in tick:
         try:
             s = df[t]["Close"].dropna()
             if len(s):
                 CL[t] = s
+                LO[t] = df[t]["Low"].dropna()       # 10/31 손절을 장중 저가로 확인 (종가만 보면 −5% 넘게 빠진 뒤에야 팔림)
+                OPN[t] = df[t]["Open"].dropna()
         except Exception:
             pass
     # 🎰 Q16-3 MAX 거름망 — 미국 ☕·📈 후보의 신호일 「전」 20거래일 하루 최대 상승률(%)
@@ -675,6 +677,17 @@ def main() -> int:
         a = s[s.index.strftime("%Y-%m-%d") <= d]
         return float(a.iloc[-1]) if len(a) else None
 
+    def bar(t, d):    # 그날 정확한 (시가, 저가) — 없으면 (None, None)
+        try:
+            o_, l_ = OPN.get(t), LO.get(t)
+            if o_ is None or l_ is None:
+                return None, None
+            k_ = o_.index.strftime("%Y-%m-%d") == d
+            m_ = l_.index.strftime("%Y-%m-%d") == d
+            return (float(o_[k_].iloc[-1]) if k_.any() else None), (float(l_[m_].iloc[-1]) if m_.any() else None)
+        except Exception:
+            return None, None
+
     def ma20(t, d):
         s = CL.get(t)
         a = s[s.index.strftime("%Y-%m-%d") <= d] if s is not None else []
@@ -746,7 +759,20 @@ def main() -> int:
                 r = c / p["entry"] - 1
                 why = None
                 xr = XR.get(p["src"])
-                if xr:                                   # 🏔📊🩹 새 아이디어는 검증한 그대로의 출구
+                # 🛑 10/31 사용자 「−5% 손절 라인이 제대로 작동 안한 거 같은데?」 — 예전엔 종가만 봐서 DDOG −11%·OKTA −14%처럼 하루 급락 뒤 종가에 팔림.
+                #    → 실제 손절 주문처럼: 장중 저가가 손절가에 닿으면 손절가에 팔림 · 시가부터 이미 아래(갭 하락)면 시가에 팔림
+                stp_ = xr.get("stop") if xr else STOP
+                if stp_ is not None:
+                    o_, l_ = bar(p["code"], d)
+                    sp_ = p["entry"] * (1 + stp_)
+                    if l_ is not None and l_ <= sp_:
+                        c = min(o_, sp_) if o_ is not None else sp_
+                        p["last"] = c
+                        r = c / p["entry"] - 1
+                        why = "손절 " + f"{stp_ * 100:.0f}%".replace("-", "−") + (" (갭 하락 · 시가에 정리)" if o_ is not None and o_ < sp_ else "")
+                if why:
+                    pass
+                elif xr:                                   # 🏔📊🩹 새 아이디어는 검증한 그대로의 출구
                     m5 = ma5(p["code"], d) if xr.get("ma5") else None
                     if xr.get("stop") is not None and r <= xr["stop"]:
                         why = f"손절 {xr['stop'] * 100:.0f}%"
@@ -1159,7 +1185,7 @@ def main() -> int:
         "by_src": {SRC_NAME.get(k, k): v for k, v in ADAPT.items()},
         "src_names": SRC_NAME,
         "note": (f"🧪 {RF}부터 킥 포트 = 규칙을 적용한 기본 칸 {round((1 - SLEEVE - WS2) * 100)}% (① 국면 현금 ③ 강한 칸 기울이기 ④ 추세 브레이크) + 돌파 {round(SLEEVE * 100)}% + 🐋 고래 {round(WS2 * 100)}%. 💼 기본 포트(리포트 그대로)와 S&P500을 같이 놓고 이기는지 본다. " if last_d >= RF else "") +
-                f"⚡ 킥 포트 = 기본 포트에서 현금 {round((SLEEVE + WS) * 100)}%p 를 떼어 「성과가 확인된 신호」(🐋 고래 · ☕ 컵 · 📈 갭 · 🤫 매집 — 표본 20건↑·손익비 1.5↑)에만 담은 것. "
+                f"⚡ 공격 포트 = 기본 포트에서 현금 {round((SLEEVE + WS) * 100)}%p 를 떼어 「성과가 확인된 신호」(🐋 고래 · ☕ 컵 · 📈 갭 · 🤫 매집 — 표본 20건↑·손익비 1.5↑)에만 담은 것. "
                 f"☕📈🤫 돌파는 확인된 순간 {round(SLEEVE / SLOTS * 100, 1)}%씩(−5% 손절 · +15% 절반 익절), 🐋 고래는 13F 큰 신규를 같은 비중으로 분기 동안(−30%만 정리). "
                 "아직 확인 안 된 신호는 표본이 차면 저절로 들어온다. 10/9 이전은 같은 규칙으로 되짚은 계산. 현지 통화 기준·수수료 제외. 매수 추천 아님.",
     }
@@ -1182,7 +1208,7 @@ def main() -> int:
         msg = "\n".join(line(e) for e in new)
         try:
             urllib.request.urlopen(urllib.request.Request("https://ntfy.sh/", data=json.dumps({
-                "topic": "chkchp-ch-kick", "title": f"⚡ 킥 {len(new)}건 — 오늘 할 일", "message": msg[:400],
+                "topic": "chkchp-ch-kick", "title": f"⚡ 공격 포트 {len(new)}건 — 오늘 할 일", "message": msg[:400],
                 "click": "https://chkchp0702-spec.github.io/daily-app/#port~pokick", "tags": ["zap"]}).encode(),
                 headers={"Content-Type": "application/json"}), timeout=15).read()
         except Exception as e:

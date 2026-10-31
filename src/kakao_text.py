@@ -8,7 +8,7 @@ def kakao_text(d: dict) -> str:
     lines = [f"[시황 {int(m)}/{int(dd)} {d['edition_label']}]"]
     k = d.get("kick") or {}
     if k and not k.get("none") and k.get("title"):
-        lines.append("⚡ 킥: " + re.sub(r"<[^>]+>", "", k["title"]) + (" → " + re.sub(r"<[^>]+>", "", k.get("so", "")) if k.get("so") else ""))
+        lines.append("🔑 오늘의 핵심: " + re.sub(r"<[^>]+>", "", k["title"]) + (" → " + re.sub(r"<[^>]+>", "", k.get("so", "")) if k.get("so") else ""))
     ld = d.get("leaders") or {}
     if ld.get("title"):
         lines.append("🔥 주도: " + re.sub(r"<[^>]+>", "", ld["title"]) + (" → " + re.sub(r"<[^>]+>", "", ld.get("so", "")) if ld.get("so") else ""))

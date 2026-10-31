@@ -107,10 +107,10 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
         alloc_rows.append(r)
     if kick_alloc and kw > 0:
         st = kick_alloc["stat"]
-        alloc_rows.insert(0, {"pct": kw, "base": 0, "name": "⚡ 킥 (신호 종목)", "kick": True,
+        alloc_rows.insert(0, {"pct": kw, "base": 0, "name": "⚡ 공격 몫 (신호 종목)", "kick": True,
                               "instruments": " · ".join(f'{o["name"]} {o["w"]}%({"%+.1f" % o["r"] if o.get("r") is not None else "–"}%)' for o in kick_alloc["open"][:12])
                                              + (f' 외 {len(kick_alloc["open"]) - 12}개' if len(kick_alloc["open"]) > 12 else ""),
-                              "seen": f'누적 ⚡ 킥 {st.get("kick", 0):+.2f}% · 💼 기본 {st.get("base", 0):+.2f}% · S&P {st.get("spy", 0):+.2f}%',
+                              "seen": f'누적 ⚡ 공격 포트 {st.get("kick", 0):+.2f}% · 💼 기본 {st.get("base", 0):+.2f}% · S&P {st.get("spy", 0):+.2f}%',
                               "verdict": "신호대로", "verdict_cls": "gd",
                               "rule": "🐋 분기 보유 · −30% 정리 / 🧭 50일 저가 이탈 · ☕📈 손절·익절·보유기간"})
 
