@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "OpenAI, 투자자 반발에 기업가치 목표 1.4조→1.25조 달러로 하향",
+   "url": "https://winbuzzer.com/2026/10/27/openai-lowers-valuation-target-to-1-25-trillion-xcxwbn/",
+   "press": "WinBuzzer",
+   "at": "2026-10-31 09:40",
+   "why": "AI 크레딧 가설 — 비상장 AI 자금줄도 가격 저항, 빅테크 차입 공급 폭증과 같은 방향",
+   "summary": "약 300억$ 라운드 기업가치 목표 1.4조$→1.25조$(−1,500억$). 10/31 HANAchina: 유치 목표액도 100억$ 축소."
+  },
+  {
    "title": "애플, 11/2(월) 회계 4분기 실적 발표 — 기술주 투매 뒤 첫 빅테크 시험대",
    "url": "https://www.mactrast.com/2026/10/apple-to-announce-fiscal-q4-2026-earnings-on-november-2/",
    "press": "MacTrast",
@@ -631,14 +639,6 @@
    "at": "2026-10-29 05:45",
    "why": "AI capex 속도 — 분기 514억$로 전년 2배, 반도체·기판 공급망 수요 근거 / 지분 평가손 87억$는 일회성",
    "summary": "매출 1,276억$ +25%(예상 1,272억$), EPS 2.12$(예상 3.02$, 지분 평가손 0.55$ 포함). 구글 클라우드 307억$ +103%, 영업익 111억$. 분기 capex 514억$, 누적 1,320억$."
-  },
-  {
-   "title": "연준 금리 동결, 2명은 인상 소수의견 — 12월 인상 신호",
-   "url": "https://www.cnn.com/2026/10/28/business/live-news/federal-reserve-interest-rate-october",
-   "press": "CNN",
-   "at": "2026-10-29 03:45",
-   "why": "금리 가설·현금·단기채 칸 — 매파 동결의 강도(반대표 2명) 확인",
-   "summary": "기준금리 3.75~4.00% 동결, 쿡·해맥 0.25%p 인상 주장. 채권시장 12월 인상 확률 약 90%(블룸버그)."
   }
  ],
  "at": "2026-10-31 08:35"
