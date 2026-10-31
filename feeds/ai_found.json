@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "마벨, 광부품 공급사 루멘텀 인수 막바지 협상 — 이르면 다음 주 발표, LITE 시간외 +17%",
+   "url": "https://www.newsquawk.com/headlines/marvell-mrvl-is-said-to-be-in-talks-to-buy-lumentum-holdings-lite",
+   "press": "Newsquawk",
+   "at": "2026-10-31 12:45",
+   "why": "AI 광연결 공급망 재편 — 반도체 칸·SMH, 📈 갭 신호에서 「인수 타깃 갭」은 따로 봐야 함",
+   "summary": "마벨이 루멘텀 인수를 위해 진전된 협상 중, 거래는 다음 주 가능(보도). 루멘텀 시간외 약 +17%. 인수가·조건 미확인."
+  },
+  {
    "title": "엔비디아, Nscale 웨스트버지니아 AI 데이터센터 대출 보증인 검토",
    "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-weighs-playing-cosigner-nscale-012005707.html",
    "press": "Yahoo Finance",
@@ -631,15 +639,7 @@
    "at": "2026-10-29 07:35",
    "why": "10/28 앤트로픽 연계 텍사스 DC 대출 매각 연기의 원인 — AI 크레딧 가설을 전력 제약 쪽으로 재해석",
    "summary": "텍사스가 신규 데이터센터의 전력망 연결 승인을 보류하고 주 전체 전력망 점검 착수. 은행들은 이 보류 때문에 150억$ 대출 일부 매각을 미룸(bloomberg 10/28)."
-  },
-  {
-   "title": "텍사스 점검으로 데이터센터 부하 49.8GW 지연 가능",
-   "url": "https://www.powermag.com/texas-audit-could-delay-49-8-gw-of-data-center-load-cost-projects-up-to-15-billion/",
-   "press": "POWER Magazine",
-   "at": "2026-10-29 07:35",
-   "why": "전력 병목이 AI capex 집행 속도를 늦출 수 있는 변수 — 한국 HBM 밸류체인(타이거일렉 bet) 수요 시점 점검",
-   "summary": "텍사스 점검이 49.8GW 규모 데이터센터 부하를 늦추고 프로젝트 비용을 최대 150억$ 올릴 수 있다는 분석."
   }
  ],
- "at": "2026-10-31 08:35"
+ "at": "2026-10-31 12:45"
 }
