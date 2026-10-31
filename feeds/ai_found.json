@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아, Nscale 웨스트버지니아 AI 데이터센터 대출 보증인 검토",
+   "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-weighs-playing-cosigner-nscale-012005707.html",
+   "press": "Yahoo Finance",
+   "at": "2026-10-31 11:40",
+   "why": "AI 크레딧 가설 — 칩 공급사가 고객 빚을 보증하는 「공급사 금융」, 반도체 칸·SMH 위험 신호",
+   "summary": "Nscale(앤트로픽과 450억$ 컴퓨트 계약, 8GW 몬아크 캠퍼스) 자금 조달에 엔비디아가 보증 검토. 앞서 OpenAI 데이터센터 보증도 1,200억$ 미만으로 축소 보도(WSJ). 보증 규모 미확인."
+  },
+  {
+   "title": "코어위브 채권, 부실채권처럼 거래 — AI 지출이 재무제표를 앞지른다",
+   "url": "https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/",
+   "press": "investingLive",
+   "at": "2026-10-31 11:40",
+   "why": "AI 크레딧 가설 — 가장 약한 AI 차입자의 채권 스프레드가 크레딧 필터의 선행 계기판",
+   "summary": "코어위브 무담보채 스프레드 1,000bp↑(HANAchina/71287 인용)·수익률 15% 근처 보도. 10월 나스닥100 −3.3%·M7 −6%↑. 날짜별 수치는 원문 확인."
+  },
+  {
    "title": "앤트로픽 IPO 서류(S-1): 폭발적 성장과 막대한 비용·위험",
    "url": "https://aljazeera.com/economy/2026/10/26/anthropics-ipo-filing-shows-explosive-growth-risks-and-staggering-costs",
    "press": "Al Jazeera",
@@ -623,22 +639,6 @@
    "at": "2026-10-29 07:35",
    "why": "전력 병목이 AI capex 집행 속도를 늦출 수 있는 변수 — 한국 HBM 밸류체인(타이거일렉 bet) 수요 시점 점검",
    "summary": "텍사스 점검이 49.8GW 규모 데이터센터 부하를 늦추고 프로젝트 비용을 최대 150억$ 올릴 수 있다는 분석."
-  },
-  {
-   "title": "SK하이닉스, 반토막 뒤 사상 최대 290억$ 자사주 매입·소각",
-   "url": "https://www.koreajoongangdaily.com/business/sk-hynix-launches-record-29b-share-buyback-and-cancellation-after-stock-loses-half-its-value/12832819",
-   "press": "코리아중앙데일리",
-   "at": "2026-10-29 06:35",
-   "why": "한국 반도체 칸 매수 공백 해소 — 「자사주 재개 = 대형 반도체 재진입」 아이디어(10/16) 첫 표본",
-   "summary": "속보: 주주환원 100조(배당 30조·소각 60조, mt_stock). 10/28 삼전·닉스 7~8%↑."
-  },
-  {
-   "title": "마이크로소프트 1분기 애저 +48%·매출 예상 상회, 시간외 +4%",
-   "url": "https://www.marketscreener.com/news/microsoft-beats-quarterly-cloud-revenue-estimates-ce785cd3d980f624",
-   "press": "MarketScreener(Reuters)",
-   "at": "2026-10-29 05:45",
-   "why": "AI 투자 사이클·크레딧 가설 — 하이퍼스케일러 수요 확인, 테스트·기판 공급망(타이거일렉 가설)과 이어짐",
-   "summary": "매출 922.8억$(예상 906.2억$), 조정 EPS 4.89$(4.71$). 애저 331.7억$ +48%. 분기 capex 452억$(자체 전망 500억$ 하회). 시간외 553$ +4.2%."
   }
  ],
  "at": "2026-10-31 08:35"
