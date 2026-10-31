@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "모건스탠리 로드맵 — 조정은 S&P 약 7,150에서 세 가지 촉매로 끝나고 이후 8,000",
+   "url": "https://investinglive.com/stock-market-update/roadmap-morgan-stanley-sees-three-catalysts-ending-the-correction-to-~7150-then-s-p-500-to-8-000/",
+   "press": "investingLive",
+   "at": "2026-10-31 13:40",
+   "why": "위험 회피 국면의 바닥 기준선 — SPY·QQQ 비중 bet 타이밍(선거·실적·고용 다음 주)",
+   "summary": "모건스탠리가 현재 조정이 S&P 약 7,150 부근에서 세 가지 촉매로 끝나고 이후 8,000을 본다는 로드맵(제목 기준, 세부 촉매·게시일 본문 미확인). 같은 주 「AI 부채·연준 긴축이면 −8%」 경고(gn_us_ib)와 양쪽 시나리오."
+  },
+  {
+   "title": "호르무즈서 유조선들 미확인 발사체 피격 — 선박 공격 확대",
+   "url": "https://gulfnews.com/world/mena/tankers-hit-by-unknown-projectiles-in-strait-of-hormuz-as-ship-attacks-escalate-1.500729052",
+   "press": "Gulf News",
+   "at": "2026-10-31 13:40",
+   "why": "열린 SU·대기 COP(11/2 시가) 에너지 bets 근거 — 주말 사이 확전이면 월요일 시가 갭 위험",
+   "summary": "UKMTO 확인 피격 보고 연속, 이란 「기뢰 피격」 주장과 겹침. 게시 시각·피해 척수는 본문 미확인."
+  },
+  {
    "title": "마벨, 광부품 공급사 루멘텀 인수 막바지 협상 — 이르면 다음 주 발표, LITE 시간외 +17%",
    "url": "https://www.newsquawk.com/headlines/marvell-mrvl-is-said-to-be-in-talks-to-buy-lumentum-holdings-lite",
    "press": "Newsquawk",
@@ -623,22 +639,6 @@
    "at": "2026-10-29 08:35",
    "why": "크레딧 가설·한국 HBM 밸류체인(타이거일렉 bet) — capex 하향이 수요 둔화가 아닌 공급 지연인지 확인",
    "summary": "FY27 1분기 매출 922.8억$(컨센 906.9억$ 상회)·2분기 가이던스 960~971억$. 2026 capex 전망 약 1,750억→1,700억$로 낮췄고 이유는 GPU 공급 지연(연합인포맥스 인용)."
-  },
-  {
-   "title": "MS CFO, 올해 자본지출 약 1,700억 달러 전망",
-   "url": "https://cryptobriefing.com/microsoft-cfo-170-billion-capex-outlook/",
-   "press": "Crypto Briefing",
-   "at": "2026-10-29 08:35",
-   "why": "하이퍼스케일러 capex 「실적치 vs 전망」 필터(ideas 10/29 05:45)의 첫 하향 사례",
-   "summary": "후드 CFO 「2026 capex 약 1,700억$」. 분기 2분기 capex 500억$ 상회 언급(kwusa/61536). 수요가 공급을 계속 웃돈다는 설명."
-  },
-  {
-   "title": "텍사스 주지사, 데이터센터 전력망 승인 보류",
-   "url": "https://www.eenews.net/articles/texas-governor-puts-data-center-grid-approvals-on-hold/",
-   "press": "E&E News",
-   "at": "2026-10-29 07:35",
-   "why": "10/28 앤트로픽 연계 텍사스 DC 대출 매각 연기의 원인 — AI 크레딧 가설을 전력 제약 쪽으로 재해석",
-   "summary": "텍사스가 신규 데이터센터의 전력망 연결 승인을 보류하고 주 전체 전력망 점검 착수. 은행들은 이 보류 때문에 150억$ 대출 일부 매각을 미룸(bloomberg 10/28)."
   }
  ],
  "at": "2026-10-31 12:45"
