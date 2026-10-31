@@ -36,6 +36,10 @@ ROOT = Path(__file__).resolve().parent.parent
 PORT = ROOT / "market" / "port.json"
 CANDS = ROOT / "market" / "kick_cands.json"
 OUT = ROOT / "market" / "kick.json"
+# 🐋 10/31 사용자 「지금 이게 공격포트가 맞다고?」 — whale40 이 같은 분기 목록에 펀드를 더 넣으면(10/30 40→46개) 상위 10이 바뀌어
+#    10/02 에 산 바스켓이 소급으로 바뀌던 문제(ROP +32%·TOST 가 「안 판 채」 사라지고 ABT·DT 가 「10/02 에 산 것」으로 끼어듦).
+#    → 분기마다 처음 고른 종목을 여기 얼려 두고 그 분기 동안은 그대로 씀 (새 분기 목록이 나올 때만 바꿈)
+WFZ = ROOT / "market" / "whale_basket.json"
 RAW = "https://raw.githubusercontent.com/chkchp0702-spec/daily-app/main/"
 PARAMS = ROOT / "market" / "kick_params.json"      # 엣지 연구(주간)가 고치는 손잡이
 _DEF = {"sleeve": 0.15, "slots": 5, "stop": -0.05, "take": 0.15, "time_d": 15, "time_min": 0.03, "brake": -0.06, "brake_d": 10, "max_new": 2, "reentry": 10,
@@ -500,7 +504,13 @@ def main() -> int:
     whale = set(C.get("whale", []))
     import yfinance as yf
     WL = whale_lists() if WS > 0 else []
-    tick = sorted({c["code"] for c in cands + shadow_c} | {"SGOV", "SPY"} | {r["t"] for _, _, rows in WL for r in rows[:WN * 2]})
+    try:
+        FZ = json.loads(WFZ.read_text(encoding="utf-8"))
+    except Exception:
+        FZ = {}
+    FZ0 = json.dumps(FZ, sort_keys=True)
+    tick = sorted({c["code"] for c in cands + shadow_c} | {"SGOV", "SPY"} | {r["t"] for _, _, rows in WL for r in rows[:WN * 2]}
+                  | {t for v in FZ.values() for t in v.get("t", [])})
     start = (dt.date.fromisoformat(START) - dt.timedelta(days=130)).isoformat()   # 🐸 ID60 계산에 신호일 전 60거래일 필요
     df = yf.download(tick, start=start, interval="1d", auto_adjust=True, progress=False, group_by="ticker", threads=True)
     CL = {}
@@ -897,7 +907,13 @@ def main() -> int:
         cur = [x for x in WL if x[0] <= d]
         if cur and (wq is None or cur[-1][1] != wq):
             q, rows = cur[-1][1], cur[-1][2]
-            pick = [r for r in rows if r["t"] in CL and px(r["t"], d)][:WN]
+            if q in FZ:      # 얼려 둔 분기 바스켓 그대로 (목록이 나중에 바뀌어도 소급 안 함)
+                rm = {r["t"]: r for r in rows}
+                pick = [rm.get(t) or {"t": t, "n": 1, "w": 0, "by": []} for t in FZ[q]["t"] if t in CL and px(t, d)]
+            else:
+                pick = [r for r in rows if r["t"] in CL and px(r["t"], d)][:WN]
+                if pick:
+                    FZ[q] = {"d0": d, "t": [r["t"] for r in pick], "why": "이 분기 처음 고른 종목 — 분기 동안 고정"}
             if pick:
                 old = {b["t"] for b in wbask}
                 wbask = [{**r, "d0": d, "entry": px(r["t"], d), "on": True, "exit": None} for r in pick]
@@ -920,6 +936,8 @@ def main() -> int:
         else:
             wval[0] = wv
     wsv = dict(zip(D, wval))
+    if json.dumps(FZ, sort_keys=True) != FZ0:
+        WFZ.write_text(json.dumps(FZ, ensure_ascii=False, indent=1), encoding="utf-8")
 
     # 🧭 자산 추세 칸 — 과거 검증 ✅(🧪면 절반)일 때만, trend_from 부터 기본 칸에서 떼어 냄
     TB = IB.get("trend") or {}
