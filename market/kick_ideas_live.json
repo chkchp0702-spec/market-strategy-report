@@ -1,115 +1,49 @@
 {
-"at": "2026-10-30 11:01",
+"at": "2026-10-31 10:40",
 "signals": [
 {
 "src": "pead",
-"code": "ADT",
-"name": "ADT Inc. Common Stock",
+"code": "GDYN",
+"name": "Grid Dynamics Holdings, Inc.",
 "mkt": "US",
-"d": "2026-10-29",
-"vr": 22.0,
-"gap": 33.3,
-"px": 9.87,
+"d": "2026-10-30",
+"vr": 8.7,
+"gap": 10.3,
+"px": 13.36,
 "score": 30.0
 },
 {
 "src": "pead",
-"code": "BHC",
-"name": "Bausch Health Companies Inc. Common Stock",
+"code": "MEOH",
+"name": "Methanex Corporation",
 "mkt": "US",
-"d": "2026-10-29",
-"vr": 14.6,
-"gap": 10.7,
-"px": 8.91,
+"d": "2026-10-30",
+"vr": 4.0,
+"gap": 6.7,
+"px": 71.57,
+"score": 20.1
+},
+{
+"src": "pead",
+"code": "OSPN",
+"name": "OneSpan Inc.",
+"mkt": "US",
+"d": "2026-10-30",
+"vr": 6.8,
+"gap": 23.4,
+"px": 25.66,
 "score": 30.0
 },
 {
 "src": "pead",
-"code": "CROX",
-"name": "Crocs, Inc.",
+"code": "REGN",
+"name": "Regeneron Pharmaceuticals, Inc.",
 "mkt": "US",
-"d": "2026-10-29",
-"vr": 4.6,
-"gap": 17.0,
-"px": 150.26,
-"score": 23.0
-},
-{
-"src": "pead",
-"code": "DFIN",
-"name": "Donnelley Financial Solutions, Inc. Common Stock",
-"mkt": "US",
-"d": "2026-10-29",
-"vr": 3.1,
-"gap": 7.3,
-"px": 61.07,
-"score": 15.4
-},
-{
-"src": "pead",
-"code": "FCN",
-"name": "FTI Consulting, Inc. Common Stock",
-"mkt": "US",
-"d": "2026-10-29",
-"vr": 3.0,
-"gap": 7.6,
-"px": 181.24,
-"score": 15.2
-},
-{
-"src": "pead",
-"code": "GKOS",
-"name": "Glaukos Corporation Common Stock",
-"mkt": "US",
-"d": "2026-10-29",
-"vr": 6.1,
-"gap": 16.3,
-"px": 242.48,
-"score": 30.0
-},
-{
-"src": "pead",
-"code": "MAX",
-"name": "MediaAlpha, Inc. Class A Common Stock",
-"mkt": "US",
-"d": "2026-10-29",
-"vr": 3.6,
-"gap": 19.8,
-"px": 14.13,
-"score": 18.0
-},
-{
-"src": "pead",
-"code": "PRCH",
-"name": "Porch Group, Inc.",
-"mkt": "US",
-"d": "2026-10-29",
-"vr": 5.1,
-"gap": 19.4,
-"px": 20.89,
-"score": 25.5
-},
-{
-"src": "pead",
-"code": "TDOC",
-"name": "Teladoc Health, Inc. Common Stock",
-"mkt": "US",
-"d": "2026-10-29",
-"vr": 5.7,
-"gap": 15.1,
-"px": 8.73,
-"score": 28.3
-},
-{
-"src": "pead",
-"code": "WST",
-"name": "West Pharmaceutical Services, Inc. Common Stock",
-"mkt": "US",
-"d": "2026-10-29",
-"vr": 3.4,
-"gap": 4.2,
-"px": 416.67,
-"score": 16.8
+"d": "2026-10-30",
+"vr": 4.2,
+"gap": 6.2,
+"px": 927.89,
+"score": 20.9
 }
 ],
 "state": {
@@ -123,16 +57,16 @@
 "index_US": {
 "sym": "^GSPC",
 "above200": true,
-"d": "2026-10-29"
+"d": "2026-10-30"
 },
-"scanned_US": 9141,
+"scanned_US": 9147,
 "dip": {
 "sym": "QQQ",
-"d": "2026-10-29",
-"close": 715.34,
-"ma200": 678.01,
-"ma5": 715.76,
-"rsi2": 33.7,
+"d": "2026-10-30",
+"close": 690.49,
+"ma200": 678.38,
+"ma5": 712.98,
+"rsi2": 8.4,
 "th": 5.0,
 "signal": false
 },
@@ -142,74 +76,74 @@
 "GLD": {
 "on": false,
 "since": "2026-03-23",
-"close": 368.57,
+"close": 355.78,
 "hi": 429.42,
 "lo": 364.33,
-"d": "2026-10-29"
+"d": "2026-10-30"
 },
 "USO": {
 "on": true,
 "since": "2026-09-10",
-"close": 168.19,
+"close": 168.83,
 "hi": 169.96,
 "lo": 125.41,
-"d": "2026-10-29"
+"d": "2026-10-30"
 },
 "TLT": {
 "on": false,
 "since": null,
-"close": 81.49,
+"close": 81.84,
 "hi": 86.44,
 "lo": 76.43,
-"d": "2026-10-29"
+"d": "2026-10-30"
 },
 "UUP": {
 "on": true,
 "since": "2026-03-12",
-"close": 29.04,
+"close": 29.0,
 "hi": 29.25,
 "lo": 27.87,
-"d": "2026-10-29"
+"d": "2026-10-30"
 },
 "SPY": {
 "on": true,
 "since": "2026-04-15",
-"close": 769.36,
+"close": 755.72,
 "hi": 781.62,
 "lo": 747.74,
-"d": "2026-10-29"
+"d": "2026-10-30"
 },
 "QQQ": {
-"on": true,
-"since": "2026-09-22",
-"close": 715.34,
+"on": false,
+"since": "2026-10-30",
+"close": 690.49,
 "hi": 762.86,
 "lo": 699.27,
-"d": "2026-10-29"
+"d": "2026-10-30"
 },
 "EFA": {
 "on": true,
 "since": "2026-07-06",
-"close": 104.35,
+"close": 103.37,
 "hi": 108.89,
 "lo": 102.0,
-"d": "2026-10-29"
+"d": "2026-10-30"
 },
 "EEM": {
 "on": false,
 "since": "2026-07-29",
-"close": 62.72,
+"close": 61.04,
 "hi": 71.57,
 "lo": 61.25,
-"d": "2026-10-29"
+"d": "2026-10-30"
 },
 "DBC": {
 "on": true,
 "since": "2026-09-01",
-"close": 33.72,
+"close": 33.61,
 "hi": 34.14,
 "lo": 30.27,
-"d": "2026-10-29"
+"d": "2026-10-30"
 }
 }
 }
@@ -542,6 +476,50 @@
 "gap": 4.2,
 "px": 416.67,
 "score": 16.8
+},
+{
+"src": "pead",
+"code": "GDYN",
+"name": "Grid Dynamics Holdings, Inc.",
+"mkt": "US",
+"d": "2026-10-30",
+"vr": 8.7,
+"gap": 10.3,
+"px": 13.36,
+"score": 30.0
+},
+{
+"src": "pead",
+"code": "MEOH",
+"name": "Methanex Corporation",
+"mkt": "US",
+"d": "2026-10-30",
+"vr": 4.0,
+"gap": 6.7,
+"px": 71.57,
+"score": 20.1
+},
+{
+"src": "pead",
+"code": "OSPN",
+"name": "OneSpan Inc.",
+"mkt": "US",
+"d": "2026-10-30",
+"vr": 6.8,
+"gap": 23.4,
+"px": 25.66,
+"score": 30.0
+},
+{
+"src": "pead",
+"code": "REGN",
+"name": "Regeneron Pharmaceuticals, Inc.",
+"mkt": "US",
+"d": "2026-10-30",
+"vr": 4.2,
+"gap": 6.2,
+"px": 927.89,
+"score": 20.9
 }
 ]
 }
