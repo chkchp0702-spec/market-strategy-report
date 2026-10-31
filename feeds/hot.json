@@ -1,5 +1,5 @@
 {
- "at": "2026-10-31 12:45",
+ "at": "2026-10-31 14:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/0yMnBtSGFES1k1LWU5YXNoaWEtQTZacmZQMUJYYXd1QjAydnJJcXRIV2coc5": {
@@ -42,11 +42,6 @@
    "why": "댈러스 로건 「두 번 더 인상·속도는 점진」 — 고금리 정점 가설(10년 4.95 판정)의 반대 재료",
    "at": "2026-10-31 03:35"
   },
-  "n/i1uVk0zLTg3QzJnaHREUFFuRXdlbVpKWUNydDlaSTNKT2pkWEUxZ3BzMAoc5": {
-   "lv": 1,
-   "why": "키옥시아 쇼크 애프터마켓 하닉 −8% — 월요일 한국 반도체(091160) 갭다운 위험",
-   "at": "2026-10-31 05:35"
-  },
   "n/httpswwwynacokrviewAKR20261031005200072": {
    "lv": 1,
    "why": "브렌트 6개월 최고(이란 확전) — 열린 SU·대기 COP 에너지 bets 근거",
@@ -86,11 +81,6 @@
    "lv": 1,
    "why": "AI 크레딧 가설(0.88) — 엔비디아가 고객(Nscale) 대출 보증 검토 = 공급사 금융, 반도체 칸 위험 신호",
    "at": "2026-10-31 11:40"
-  },
-  "n/ZJMnlTaXBYbkpVNkdnNXQwWFM3ajJMdkNLaXFFVDhyemhrQ3RQZnY4eDAoc5": {
-   "lv": 1,
-   "why": "바이낸스 사상 최대 해킹·거래 중단 — 🎯 집중 「피할 것」 IBIT(비트코인) 확인, 주말 위험 회피를 크립토로 넓힘",
-   "at": "2026-10-31 12:45"
   }
  }
 }

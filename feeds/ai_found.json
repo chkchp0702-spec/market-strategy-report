@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "미 중간선거·애플 실적·고용 — 기술주 투매 직후 맞는 큰 한 주(11/2~6)",
+   "url": "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html",
+   "press": "CNBC",
+   "at": "2026-10-31 14:40",
+   "why": "다음 주 이벤트 3개가 몰림 — 이벤트 통과 뒤 ETF 비중 bet 창(ideas 10/31 13:40)·고금리 정점 가설 11/2 판정과 이어짐",
+   "summary": "나스닥 −2.86%·인텔 −29% 직후 맞는 주. 11/3 중간선거, 애플 실적, 주말 고용 보고서가 연달아 있다(게시 10/30)."
+  },
+  {
+   "title": "이란 공격 격화에도 유조선은 호르무즈 통과 지속",
+   "url": "https://www.cnbc.com/amp/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html",
+   "press": "CNBC",
+   "at": "2026-10-31 14:40",
+   "why": "COP(11/2 시가 대기)·SU(열림) 에너지 bets 의 공급 차질 논지 — 물동량이 유지되면 유가 급등 지속성이 약해짐",
+   "summary": "호르무즈 유조선 피격 뒤에도 원유 흐름은 이어지는 중(10/30). 같은 날 유가 6개월 최고·10월 4개월 연속 상승 마감(CNBC)."
+  },
+  {
    "title": "모건스탠리 로드맵 — 조정은 S&P 약 7,150에서 세 가지 촉매로 끝나고 이후 8,000",
    "url": "https://investinglive.com/stock-market-update/roadmap-morgan-stanley-sees-three-catalysts-ending-the-correction-to-~7150-then-s-p-500-to-8-000/",
    "press": "investingLive",
@@ -623,22 +639,6 @@
    "at": "2026-10-29 09:35",
    "why": "한국 반도체 칸·「외국인 복귀 전 비중 확대 금지」 가설 — 확정 실적·HBM4 코멘트가 외국인 수급 판정 재료",
    "summary": "잠정 영업익 107.4조 원(10/8) 뒤 확정 발표. 메모리 부문 영업익 약 110조 원 추정. 하이닉스 4Q 100조 전망과 함께 사이클 지속성 확인 여부."
-  },
-  {
-   "title": "삼성 3분기 영업익 약 800억 달러 잠정 — AI 메모리 수요",
-   "url": "https://www.cnbc.com/2026/10/08/samsung-q3-earnings.html",
-   "press": "CNBC",
-   "at": "2026-10-29 09:35",
-   "why": "오늘 확정치와 잠정치 비교 기준(서프라이즈 크기 채점)",
-   "summary": "10/8 잠정 영업익 사상 최대(약 800억$). 메모리 가격 상승이 주도."
-  },
-  {
-   "title": "마이크로소프트, 클라우드 성장 가속 — 지출도 함께 가속",
-   "url": "https://fortune.com/2026/10/28/microsofts-cloud-growth-accelerates-and-so-too-does-the-spending/",
-   "press": "Fortune",
-   "at": "2026-10-29 08:35",
-   "why": "크레딧 가설·한국 HBM 밸류체인(타이거일렉 bet) — capex 하향이 수요 둔화가 아닌 공급 지연인지 확인",
-   "summary": "FY27 1분기 매출 922.8억$(컨센 906.9억$ 상회)·2분기 가이던스 960~971억$. 2026 capex 전망 약 1,750억→1,700억$로 낮췄고 이유는 GPU 공급 지연(연합인포맥스 인용)."
   }
  ],
  "at": "2026-10-31 12:45"
