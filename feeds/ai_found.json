@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "앤트로픽 IPO 서류(S-1): 폭발적 성장과 막대한 비용·위험",
+   "url": "https://aljazeera.com/economy/2026/10/26/anthropics-ipo-filing-shows-explosive-growth-risks-and-staggering-costs",
+   "press": "Al Jazeera",
+   "at": "2026-10-31 10:40",
+   "why": "AI 크레딧 가설 — 비상장 AI 대형사의 컴퓨트 비용·약정이 빅테크 차입과 같은 줄기, 블룸버그 「숨겨진 부채 9,000억$」 보도의 원문 맥락",
+   "summary": "10/26 S-1 제출(나스닥 ANT). 매출 급증과 함께 컴퓨트 비용이 매우 크다는 점을 위험 요인으로 명시. 숫자 세부는 원문 확인(블룸버그 9,000억$ 수치는 미확인)."
+  },
+  {
    "title": "OpenAI, 투자자 반발에 기업가치 목표 1.4조→1.25조 달러로 하향",
    "url": "https://winbuzzer.com/2026/10/27/openai-lowers-valuation-target-to-1-25-trillion-xcxwbn/",
    "press": "WinBuzzer",
@@ -631,14 +639,6 @@
    "at": "2026-10-29 05:45",
    "why": "AI 투자 사이클·크레딧 가설 — 하이퍼스케일러 수요 확인, 테스트·기판 공급망(타이거일렉 가설)과 이어짐",
    "summary": "매출 922.8억$(예상 906.2억$), 조정 EPS 4.89$(4.71$). 애저 331.7억$ +48%. 분기 capex 452억$(자체 전망 500억$ 하회). 시간외 553$ +4.2%."
-  },
-  {
-   "title": "알파벳, 클라우드 +103%에도 EPS 미스로 −7%",
-   "url": "https://www.investing.com/news/stock-market-news/alphabet-shares-tumble-65-as-earnings-miss-overshadows-cloud-boom-4980569",
-   "press": "Investing.com",
-   "at": "2026-10-29 05:45",
-   "why": "AI capex 속도 — 분기 514억$로 전년 2배, 반도체·기판 공급망 수요 근거 / 지분 평가손 87억$는 일회성",
-   "summary": "매출 1,276억$ +25%(예상 1,272억$), EPS 2.12$(예상 3.02$, 지분 평가손 0.55$ 포함). 구글 클라우드 307억$ +103%, 영업익 111억$. 분기 capex 514억$, 누적 1,320억$."
   }
  ],
  "at": "2026-10-31 08:35"
