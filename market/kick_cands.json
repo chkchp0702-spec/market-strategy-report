@@ -5195,6 +5195,38 @@
 "lv": 137.02,
 "max20": 3.6,
 "id60": -0.133
+},
+"GDYN|2026-10-30|pead": {
+"code": "GDYN",
+"name": "Grid Dynamics Holdings, Inc.",
+"mkt": "US",
+"d": "2026-10-30",
+"src": "pead",
+"score": 80.0
+},
+"MEOH|2026-10-30|pead": {
+"code": "MEOH",
+"name": "Methanex Corporation",
+"mkt": "US",
+"d": "2026-10-30",
+"src": "pead",
+"score": 70.1
+},
+"OSPN|2026-10-30|pead": {
+"code": "OSPN",
+"name": "OneSpan Inc.",
+"mkt": "US",
+"d": "2026-10-30",
+"src": "pead",
+"score": 80.0
+},
+"REGN|2026-10-30|pead": {
+"code": "REGN",
+"name": "Regeneron Pharmaceuticals, Inc.",
+"mkt": "US",
+"d": "2026-10-30",
+"src": "pead",
+"score": 70.9
 }
 },
 "sent": [
