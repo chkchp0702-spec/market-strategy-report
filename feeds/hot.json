@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02 01:35",
+ "at": "2026-11-02 02:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -62,10 +62,15 @@
    "why": "방어주 XLP 사상 최고·1998년 이후 최고의 달 — 위험 회피 국면 확인, 주 킥 성장주 칸 역풍",
    "at": "2026-11-02 01:35"
   },
-  "n/dTd3FnOVhTM2I5RWNwTmdEd2hUdGFUbjMwZVVzQTVBS2hCVFozSi0xZGcoc5": {
+  "n/d4dFJtb0JaeXpjX2otZnZlU0ZBRjh5MllKbzZIc2RnSVJlR2dJWDRDOHAoc5": {
    "lv": 1,
-   "why": "대만 경제부 대중 반도체 수출 통제 확대 검토 — 반도체 칸·AI 하드웨어 공급망 가설과 직결",
-   "at": "2026-11-02 01:35"
+   "why": "중국 증시 부양 회의 보도 — 홍콩·중국 ETF 반등 재료, 기대 보도일과 실제 발표 반응 구분",
+   "at": "2026-11-02 02:35"
+  },
+  "n/luajVOczZYeFdVSWhjV1UtZzFDc2dQamdTa0pvX0F5QUlzcGlyUXBCRVIoc5": {
+   "lv": 1,
+   "why": "반도체 수출 두 달 연속 500억$↑ — 한국 반도체 실물 vs 외국인 매도 괴리(외인 매도 watch), 월요일 개장 반응",
+   "at": "2026-11-02 02:35"
   }
  }
 }
