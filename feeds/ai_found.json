@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "모건스탠리 윌슨 「중간선거 누가 이기든 하락은 매수 기회」",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-01/mike-wilson-says-buy-stock-dip-regardless-of-who-wins-midterms",
+   "press": "Bloomberg",
+   "at": "2026-11-01 23:35",
+   "why": "위험 회피 국면의 대형 IB 반대 의견 — 선거(11/3) 뒤 지수 ETF 반등 그림자 채점과 연결",
+   "summary": "윌슨: 앞으로 몇 차례 「정리 이벤트」가 일시적 추가 하락을 만들 수 있으나 재진입 기회. 모건스탠리 S&P 8,000 전망 유지(gn_us_mkt)."
+  },
+  {
+   "title": "코노코필립스, 3분기 실적 컨퍼런스콜 11/5(목)",
+   "url": "https://finviz.com/news/395338/conocophillips-to-hold-third-quarter-earnings-conference-call-on-thursday-nov-5",
+   "press": "Finviz/Business Wire",
+   "at": "2026-11-01 23:35",
+   "why": "COP bet(11/2 시가 진입·1주) 기한 안에 실적 — 실적 갭이 손절 −3%를 넘을 수 있음",
+   "summary": "3분기 실적 11/5 발표. 이란 Sinokor 조치·OPEC+ 12월 동결로 유가 변수 동시 진행."
+  },
+  {
+   "title": "선코어, 3분기 순이익 감소",
+   "url": "https://www.stockopedia.com/share-prices/suncor-energy-canada-TSE:SU/news/canada-apos-s-suncor-energy-q3-net-earnings-fall-019e69f2-9f5a-7540-b7de-ff6d191bf0c8/",
+   "press": "Stockopedia",
+   "at": "2026-11-01 23:35",
+   "why": "열린 SU bet(+2.0%, 2/5거래일)의 실적 재료 — 세부 숫자 미확인",
+   "summary": "선코어 3분기 순이익 전년 대비 감소 보도(세부 숫자 미확인)."
+  },
+  {
    "title": "이란 호르무즈 당국, 韓 선사 Sinokor 선단 전체 블랙리스트",
    "url": "https://www.seatrade-maritime.com/security/iran-s-hormuz-authority-blacklists-entire-sinokor-fleet",
    "press": "Seatrade Maritime",
@@ -615,30 +639,6 @@
    "at": "2026-10-29 14:45",
    "why": "반도체 칸·크레딧(AI 차입) 가설 — 같은 AI 지출이 MS엔 보상, 알파벳엔 벌(이익 훼손)",
    "summary": "19:39 ET 나스닥100 선물 −1.2%(29,619.5)·S&P −0.5%·다우 −0.06%. 알파벳 3분기 이익 미스로 시간외 −9.8%(AI·데이터센터 지출 부담), MS 매출·이익 상회로 +2.7%."
-  },
-  {
-   "title": "UBS, 한국 전략 — EPS 상향 둔화·거시 역풍에 코스피 목표 8,000으로 하향",
-   "url": "https://news.futunn.com/en/post/79498055/south-korea-strategy-slowing-eps-upgrades-and-intensifying-macro-headwinds",
-   "press": "Futu(UBS 리포트 요약)",
-   "at": "2026-10-29 13:40",
-   "why": "오늘 HANAchina 「UBS 재차 하향」 원문 근거 — 한국 칸 비중·외국인 수급 가설과 직결",
-   "summary": "코스피 목표 약 −10% 하향(8,000). 이유: 금리 인상·유가 상승·EPS 상향 속도 둔화. 2027년 회복 기대는 유지(게시 날짜 미확인)."
-  },
-  {
-   "title": "LG화학, 자회사 LG에너지솔루션 주식 575만 주 처분 결정(공시)",
-   "url": "https://www.digitaltoday.co.kr/aigongsi/amp/3512/lgchem-lg-energy-solution-stock-disposal",
-   "press": "디지털투데이",
-   "at": "2026-10-29 12:40",
-   "why": "대주주 지분 매각 오버행 — 엔솔 공시 당일 9%대 급락(한경 피드), D+5 반등률 채점 표본",
-   "summary": "LG화학이 LG엔솔 주식 575만 주 처분 결정(공시 요약 기사) · 피드 한경 「2.5조 지분 처분에 엔솔 9%대 급락」 · 처분 방식(PRS 등) 세부는 미확인"
-  },
-  {
-   "title": "美 10년물, 워시 발언에 하락 — FOMC 동결 뒤",
-   "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/592994",
-   "press": "Trading Economics",
-   "at": "2026-10-29 12:40",
-   "why": "watch 「美 10년 5% 이틀째」 판정 — FOMC 뒤 마감이 5% 아래면 장기채·금리 민감 가설(0.36) 재검토",
-   "summary": "FOMC 동결 뒤 10년 4.995%(전일 5.045%, −5bp)·30년 5.318%(−4bp)(latest.json 23:02 EDT) · 기사 세부 수치는 미확인"
   }
  ],
  "at": "2026-11-01 22:35"
