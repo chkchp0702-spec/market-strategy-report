@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02 03:40",
+ "at": "2026-11-02 04:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -47,25 +47,20 @@
    "why": "골드만 「AI 지출 둔화로 S&P 이익 성장 둔화」 — 핵심 가설 AI 크레딧(0.88) 쪽 근거, 반도체 칸 추격 금지 유지",
    "at": "2026-11-01 23:35"
   },
-  "n/m84cUpfVGpuQ0VmaGNsZUlxUVQ0dk4zQUE2cWFzUk8yM1R3cjc3dEczVwoc5": {
-   "lv": 1,
-   "why": "WSJ: OpenAI 300억$ 목표 라운드 절반도 못 모음 — 핵심 가설 AI 크레딧(0.88) 직접 근거, AI 자금줄 둔화 → 반도체 칸 추격 금지 유지",
-   "at": "2026-11-02 00:35"
-  },
   "n/swwwftcomcontentfdc9a85dd2c4465f99ca609d68b6d443syn25a6b1a61": {
    "lv": 1,
    "why": "FT: 정크본드 급락 「피바다」·채권자 회피 전술 — 크레딧 스트레스 확산, AI 크레딧 가설·watch 美 10년 5%와 연결",
    "at": "2026-11-02 00:35"
   },
-  "n/yutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
-   "lv": 1,
-   "why": "방어주 XLP 사상 최고·1998년 이후 최고의 달 — 위험 회피 국면 확인, 주 킥 성장주 칸 역풍",
-   "at": "2026-11-02 01:35"
-  },
   "n/d4dFJtb0JaeXpjX2otZnZlU0ZBRjh5MllKbzZIc2RnSVJlR2dJWDRDOHAoc5": {
    "lv": 1,
    "why": "중국 증시 부양 회의 보도 — 홍콩·중국 ETF 반등 재료, 기대 보도일과 실제 발표 반응 구분",
    "at": "2026-11-02 02:35"
+  },
+  "n/TA0UjVXa2x0azZEYXRSTlJvUmVDazV6OHBoOVJHWlVCN3JETXpQUVFQUQoc5": {
+   "lv": 1,
+   "why": "AI 크레딧 가설(0.88) — 빅테크 AI 비용이 이익을 앞질러 채권시장 시험대, 이번 주 실적·고용과 함께 확인",
+   "at": "2026-11-02 04:40"
   }
  }
 }

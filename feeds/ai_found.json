@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "JP모건 자산운용: AI 관련 부채는 발행사 문제인가, 크레딧 시장 전체 문제인가",
+   "url": "https://am.jpmorgan.com/us/en/asset-management/liq/insights/market-insights/market-updates/on-the-minds-of-investors/is-ai-related-debt-an-issuer-problem-or-a-concern-for-broader-credit-markets",
+   "press": "J.P. Morgan AM",
+   "at": "2026-11-02 04:40",
+   "why": "🧠 가설 「다음 약한 고리는 AI 차입(크레딧)」 0.88 — 대형 운용사의 반대 관점(발행사 개별 문제) 점검용",
+   "summary": "빅테크 AI 투자 자금의 채권 조달 급증이 크레딧 시장 전체로 번질지 vs 개별 발행사 문제로 그칠지를 다룬 운용사 시각. 게시 날짜·세부 숫자는 미확인 — 원문 확인 필요."
+  },
+  {
    "title": "이번 주 증시에서 볼 3가지 — 중간선거·애플 등 실적·10월 고용",
    "url": "https://www.cnbc.com/investingclub/2026/11/01/3-big-things-were-watching-in-the-stock-market-this-week.html",
    "press": "CNBC",
@@ -631,14 +639,6 @@
    "at": "2026-10-29 19:35",
    "why": "🧠 AI 차입(크레딧) 가설·AI 소프트웨어 칸 — 같은 밤 알파벳 −10%와 갈림: 시장은 매출보다 capex·현금흐름 절제를 보상",
    "summary": "MSFT 매출·이익 컨센 상회, 애저 +48%, 다음 분기 더 빠를 것이라 언급. 시간외 +4%(CNBC). 247wallst는 「capex 예상보다 가벼움」 — 오라클 차입 제한 +11%, 알파벳 지출 확대 −10%와 같은 방향."
-  },
-  {
-   "title": "라가르드 ECB 총재 2027년 2월 7일 조기 퇴임(ECB 보도자료)",
-   "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
-   "press": "ECB",
-   "at": "2026-10-29 19:35",
-   "why": "유로·유럽 금리 — 오늘 밤 ECB 회의 앞 후임 경쟁(bbg_econ), 달러·고금리 정점 가설 점검",
-   "summary": "ECB 공식 발표: 2/7 퇴임. 블룸버그 「후임 경쟁 점화」. 유로 옵션·차트는 ECB 앞 약세 쪽(bbg_mkt). 금리 반응 수치 미확인."
   }
  ],
  "at": "2026-11-02 03:40"
