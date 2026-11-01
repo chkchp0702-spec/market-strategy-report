@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "이번 주 증시에서 볼 3가지 — 중간선거·애플 등 실적·10월 고용",
+   "url": "https://www.cnbc.com/investingclub/2026/11/01/3-big-things-were-watching-in-the-stock-market-this-week.html",
+   "press": "CNBC",
+   "at": "2026-11-02 03:40",
+   "why": "나스닥 3일 −8% 뒤 이번 주 촉매 정리 — 위험 회피 국면이 이어질지 판단할 일정표",
+   "summary": "11/3 중간선거, 애플·AMD·팔란티어 실적, 금요일 10월 고용. 수치는 원문 확인(미확인)."
+  },
+  {
+   "title": "인텔 폭락·52년 만 최저 — AI 기술주 매도 확산",
+   "url": "https://en.koreadaily.com/intel-stock-crash-ai-tech-selloff/",
+   "press": "Korea Daily",
+   "at": "2026-11-02 03:40",
+   "why": "AI 크레딧 가설(0.88)·반도체 칸 — 인텔 −28%가 한국 반도체 월요일 개장에 미칠 충격",
+   "summary": "10/30 인텔 하루 −28%(피드 gn_kr_global 속보)·AMD·샌디스크 두 자릿수 하락. 「52년 최저」 표현은 원문 기준."
+  },
+  {
    "title": "골드만삭스: 2027년 S&P500 EPS 415달러 전망, 좁은 주도주는 위험",
    "url": "https://investinglive.com/stock-market-update/goldman-sachs-sees-s-p-500-earnings-at-415-in-2027-but-warns-narrow-leadership-is-a-risk/",
    "press": "investingLive",
@@ -623,23 +639,7 @@
    "at": "2026-10-29 19:35",
    "why": "유로·유럽 금리 — 오늘 밤 ECB 회의 앞 후임 경쟁(bbg_econ), 달러·고금리 정점 가설 점검",
    "summary": "ECB 공식 발표: 2/7 퇴임. 블룸버그 「후임 경쟁 점화」. 유로 옵션·차트는 ECB 앞 약세 쪽(bbg_mkt). 금리 반응 수치 미확인."
-  },
-  {
-   "title": "토탈에너지스 3분기 정유 마진 146% 상승(3분기 트레이딩 업데이트)",
-   "url": "https://www.economiematin.fr/?p=234472",
-   "press": "Économie Matin",
-   "at": "2026-10-29 18:35",
-   "why": "⚡ SU bet·에너지 칸 — 셸·토탈·SK이노 정유 기록이 이어지는 「정유 > 원유」 줄기, 북미 정유 실적(SU 11/3) 선반영 근거",
-   "summary": "토탈 3분기 정유 마진이 전 분기 대비 146% 상승했다고 밝힘(트레이딩 업데이트, 발표일 10월 중순·정확 일자 미확인). 오늘(10/29) 토탈 주가 실적일 급등(investing_en), 같은 날 WTI 100.7$(−2%) — 원유가 빠져도 정유는 강함."
-  },
-  {
-   "title": "셸 3분기 지표 정유 마진 42$/bbl — 2분기 24$에서 75% 급등, 사상 최고",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Shells-Refining-Margin-Jumps-75-as-Fuel-Supplies-Dry-Up.amp.html",
-   "press": "OilPrice",
-   "at": "2026-10-29 17:35",
-   "why": "에너지 칸 — 10/29 실적에서 「정유 기록」 확인, 원유 생산보다 정유 비중 큰 종목(☕ SU) 쪽 재료",
-   "summary": "셸 3Q 업데이트(10/7): 지표 정유 마진 2Q 24$ → 3Q 42$/bbl(기록, +75%). 10/29 실적 발표에서 역대 2위 이익·자사주 확대(Bloomberg·CNBC 헤드라인)."
   }
  ],
- "at": "2026-11-01 22:35"
+ "at": "2026-11-02 03:40"
 }
