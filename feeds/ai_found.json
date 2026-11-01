@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "모건스탠리: 반도체주 지지선은 지금보다 최대 15% 아래일 수 있다",
+   "url": "https://qz.com/morgan-stanley-chip-stocks-support-15-percent-lower-102626",
+   "press": "Quartz",
+   "at": "2026-11-02 07:45",
+   "why": "반도체 칸·한국 반도체 ETF(091160) 반등 시점 판단 — IB가 아직 바닥 아님을 경고",
+   "summary": "모건스탠리, 반도체 지수 지지선이 현재보다 최대 15% 낮을 수 있다고 경고. 인텔 −28% 급락(10/30) 이후 반도체 투매와 맞물림."
+  },
+  {
+   "title": "한국 개인 선호 SOXL 25% 급락 — 월가는 반등 신호 대기",
+   "url": "https://en.bloomingbit.io/feed/news/123354",
+   "press": "Bloomingbit",
+   "at": "2026-11-02 07:45",
+   "why": "한국 개인의 레버리지 반도체 쏠림 — 반대매매·심리 지표(투매 끝물 여부), 한국 반도체 ETF 개장 반응과 연결",
+   "summary": "반도체 3배 레버리지 SOXL 약 −25% 급락. 월가는 반등 신호 확인 전 관망(제목 기준, 세부 숫자 미확인)."
+  },
+  {
    "title": "「25조 체코 원전」 시공 협상 결렬",
    "url": "https://www.seoul.co.kr/news/newsView.php?id=20261030029003",
    "press": "서울신문",
@@ -623,22 +639,6 @@
    "at": "2026-10-29 23:45",
    "why": "알파벳 −13% 다음 날 AI 투자 심리 — 아마존 반응이 나스닥·반도체 칸 방향 결정",
    "summary": "옵션 내재 변동·컨센 세부치는 미확인 — 발표 뒤 D+1 반응으로 채점."
-  },
-  {
-   "title": "월가 주요 투자의견: 팔란티어(JP모건 비중확대 개시)·마이크론·메타·알파벳",
-   "url": "https://www-web.itiger.com/news/1100689733",
-   "press": "Tiger Brokers",
-   "at": "2026-10-29 22:45",
-   "why": "PLTR ☕ cup_eye 10/27 신호 + JP모건 개시 의견이 겹침 → 선제 bet 근거",
-   "summary": "JP모건이 팔란티어를 비중확대로 신규 커버(「파괴적 AI 리더」). 같은 날 알파벳 실적 하회 뒤 목표가 하향 다수. PLTR 10/22 종가 201.72$(heygotrade)."
-  },
-  {
-   "title": "美 3분기 GDP 연율 3.4% — 예상 3.2% 상회",
-   "url": "https://www.fxstreet.com/news/united-states-economy-grows-34-in-third-quarter-vs-32-expected-202610291232",
-   "press": "FXStreet",
-   "at": "2026-10-29 21:45",
-   "why": "고금리 가설(10년 5%) — 성장 상회 + 12월 인상 확률 80%대 → 금리 민감 칸·AI 크레딧에 부담",
-   "summary": "3Q GDP 3.4%(예상 3.2%, 2Q 약 2.2%). 9월 PCE 예상: 헤드라인 3.6%·코어 3.1%(전년, pomegra) — 실제치 미확인."
   }
  ],
  "at": "2026-11-02 03:40"
