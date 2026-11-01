@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "OpenAI, 300억$ 라운드 밸류 목표 1.4조→1.25조$로 낮춤(Coatue·UAE 주도)",
+   "url": "https://aiweekly.co/fr/alerts/openai-rabat-sa-cible-1-250-md-pour-son-round-de-30-md-men-par-coatue-et-des",
+   "press": "AI Weekly",
+   "at": "2026-11-02 00:35",
+   "why": "AI 자금줄 둔화 — WSJ 「목표 절반도 못 모음」(피드)과 같은 방향, AI 크레딧 가설(0.88)·반도체 칸",
+   "summary": "목표 밸류 1.4조$ 저항 → 1.25조$ 하향 보도. 모집액 300억$ 중 실제 확보 규모는 WSJ 「절반 미만」(세부 미확인)."
+  },
+  {
+   "title": "정크 등급 강등 채권 늘어 — 크레딧 균열 신호",
+   "url": "https://news.bgov.com/capital-markets/more-bonds-are-being-cut-to-junk-in-latest-sign-of-credit-cracks",
+   "press": "Bloomberg Government",
+   "at": "2026-11-02 00:35",
+   "why": "FT 「정크 피바다」와 함께 크레딧 스트레스 확산 — AI 크레딧 가설 근거, 하이일드 비중 회피",
+   "summary": "투자등급→정크 강등 증가(게재일·수치 미확인). 같은 주 FT 정크본드 급락 기사와 같은 방향."
+  },
+  {
    "title": "모건스탠리 윌슨 「중간선거 누가 이기든 하락은 매수 기회」",
    "url": "https://www.bloomberg.com/news/articles/2026-11-01/mike-wilson-says-buy-stock-dip-regardless-of-who-wins-midterms",
    "press": "Bloomberg",
@@ -623,22 +639,6 @@
    "at": "2026-10-29 16:35",
    "why": "반도체 칸·삼성 — 10/29 실적·30조 배당에도 −4.1%, 8/24 환원 발표 때도 급락: 「삼성 이벤트일 하락 징크스」 두 번째 표본",
    "summary": "8/24 110조 원(약 800억$) 환원 발표 당일 삼성 −8%대·코스피 −3%대(JoongAng Daily). 10/29 3분기 영업익 107조·현금배당 30조 확정에도 −4.1%, 코스피 −1.24% 5,930."
-  },
-  {
-   "title": "코스피, 삼성 주주환원 발표 뒤 3% 넘게 하락 마감(8월)",
-   "url": "https://www.koreajoongangdaily.com/business/kospi-closes-over-3-lower-amid-samsungs-shareholder-return-plan/12840853",
-   "press": "Korea JoongAng Daily",
-   "at": "2026-10-29 16:35",
-   "why": "한국 ETF 칸 — 삼성 이벤트 급락일 뒤 지수 D+5 경로를 이번(10/29)과 비교할 기준점",
-   "summary": "8월 삼성 환원 계획 발표일 코스피 −3%↑ 마감. 이번 10/29는 −1.24%·코스닥 −2.34%로 충격 폭은 작음."
-  },
-  {
-   "title": "美 선물 하락 — 알파벳 실적 실망에 시간외 급락, MS는 강세",
-   "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-drop-as-alphabet-slides-on-soft-earnings-microsoft-firms-4981271",
-   "press": "Investing.com",
-   "at": "2026-10-29 14:45",
-   "why": "반도체 칸·크레딧(AI 차입) 가설 — 같은 AI 지출이 MS엔 보상, 알파벳엔 벌(이익 훼손)",
-   "summary": "19:39 ET 나스닥100 선물 −1.2%(29,619.5)·S&P −0.5%·다우 −0.06%. 알파벳 3분기 이익 미스로 시간외 −9.8%(AI·데이터센터 지출 부담), MS 매출·이익 상회로 +2.7%."
   }
  ],
  "at": "2026-11-01 22:35"
