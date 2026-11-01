@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "오픈AI, 앤트로픽 11월 중순 IPO 전 1.4조$ 가치 300억$ 라운드 서둘러",
+   "url": "https://aiweekly.co/alerts/openai-races-to-lock-30b-round-at-14t-valuation-before-anthropics-mid-november",
+   "press": "AI Weekly",
+   "at": "2026-11-02 05:45",
+   "why": "AI 크레딧 가설 — WSJ 「목표 절반 못 채움」과 짝, AI 자금 조달 경쟁·밸류 부담",
+   "summary": "목표 300억$·가치 1.4조$+ (보도 기준). WSJ 11/1: 실제 모은 돈은 목표의 절반 미만."
+  },
+  {
+   "title": "VIX 선물, 중간선거 앞두고 불안 확대 신호",
+   "url": "https://cryptobriefing.com/traders-brace-volatility-us-midterm-elections/",
+   "press": "Crypto Briefing",
+   "at": "2026-11-02 05:45",
+   "why": "11/3 중간선거 이벤트 — 선거 뒤 변동성 눌림 관찰(ideas 03:35)",
+   "summary": "선거 주간 VIX 선물 기간구조에 불안 반영(세부 숫자 미확인)."
+  },
+  {
    "title": "JP모건 자산운용: AI 관련 부채는 발행사 문제인가, 크레딧 시장 전체 문제인가",
    "url": "https://am.jpmorgan.com/us/en/asset-management/liq/insights/market-insights/market-updates/on-the-minds-of-investors/is-ai-related-debt-an-issuer-problem-or-a-concern-for-broader-credit-markets",
    "press": "J.P. Morgan AM",
@@ -623,22 +639,6 @@
    "at": "2026-10-29 20:35",
    "why": "전력·AI 인프라 칸 — 호실적에도 주가 하락(연합인포맥스 kwusa/61575): 알파벳 뒤 AI 인프라 「좋은 숫자도 판다」 국면 확인",
    "summary": "EPS 7.13$·매출 20.7B$로 컨센 상회. 발전기 수주잔고 720억$대(10월 보도)에도 장전 하락 — 10월 고점 대비 이미 −10%대 조정 중."
-  },
-  {
-   "title": "일라이 릴리, 비만약 호조로 2026 가이던스 올해 세 번째 상향",
-   "url": "https://tradersunion.com/news/stocks/show/2913526-eli-lilly-glp1-growth-outlook/",
-   "press": "TradersUnion",
-   "at": "2026-10-29 20:35",
-   "why": "방어·헬스케어 쪽 — AI 하드웨어 약세 날 실적 상향 대형주(LLY·MRK)로 자금 이동 여부 관찰",
-   "summary": "매출 전망 상향(젭바운드·마운자로), 거래 관련 비용으로 이익 전망은 소폭 하향(investing_en). 머크도 같은 날 이익 전망 상향(CNBC)."
-  },
-  {
-   "title": "마이크로소프트 실적 뒤 +4% — 애저 48% 성장, 설비투자는 예상보다 가벼움",
-   "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
-   "press": "CNBC",
-   "at": "2026-10-29 19:35",
-   "why": "🧠 AI 차입(크레딧) 가설·AI 소프트웨어 칸 — 같은 밤 알파벳 −10%와 갈림: 시장은 매출보다 capex·현금흐름 절제를 보상",
-   "summary": "MSFT 매출·이익 컨센 상회, 애저 +48%, 다음 분기 더 빠를 것이라 언급. 시간외 +4%(CNBC). 247wallst는 「capex 예상보다 가벼움」 — 오라클 차입 제한 +11%, 알파벳 지출 확대 −10%와 같은 방향."
   }
  ],
  "at": "2026-11-02 03:40"
