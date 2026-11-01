@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "대만, 미국에 맞춰 대중 AI 칩 수출 통제 검토",
+   "url": "https://news.bloomberglaw.com/artificial-intelligence/taiwan-mulls-curbs-on-ai-chip-exports-to-china-to-align-with-us",
+   "press": "Bloomberg Law",
+   "at": "2026-11-02 01:35",
+   "why": "반도체 칸·AI 하드웨어 — 11/2 대만 경제부 「대중 반도체 수출 통제 확대 검토」(피드 gn_hk)와 같은 흐름",
+   "summary": "화웨이 등 일부에서 중국 전체로 AI 칩 수출 통제 확대 검토. 구체 시행일·품목 범위는 미확인."
+  },
+  {
    "title": "OpenAI, 300억$ 라운드 밸류 목표 1.4조→1.25조$로 낮춤(Coatue·UAE 주도)",
    "url": "https://aiweekly.co/fr/alerts/openai-rabat-sa-cible-1-250-md-pour-son-round-de-30-md-men-par-coatue-et-des",
    "press": "AI Weekly",
@@ -631,14 +639,6 @@
    "at": "2026-10-29 17:35",
    "why": "☕ SU 컵 신호(10/26) bet 기한(1주) 안의 실적 이벤트 — 정유 마진 기록이 숫자로 나오는 날",
    "summary": "11/3 MT 18시 전 발표, 11/4 09:30 ET 웹캐스트. 셸 정유 마진 사상 최고 확인 뒤라 북미 정유 비중 큰 통합사 기대 선반영 여부가 관건."
-  },
-  {
-   "title": "삼성, 사상 최대 110조 원 주주환원 승인했지만 주가 하락(8월 선례)",
-   "url": "https://thenextweb.com/news/samsung-shareholder-return-110-trillion-won-record",
-   "press": "The Next Web",
-   "at": "2026-10-29 16:35",
-   "why": "반도체 칸·삼성 — 10/29 실적·30조 배당에도 −4.1%, 8/24 환원 발표 때도 급락: 「삼성 이벤트일 하락 징크스」 두 번째 표본",
-   "summary": "8/24 110조 원(약 800억$) 환원 발표 당일 삼성 −8%대·코스피 −3%대(JoongAng Daily). 10/29 3분기 영업익 107조·현금배당 30조 확정에도 −4.1%, 코스피 −1.24% 5,930."
   }
  ],
  "at": "2026-11-01 22:35"
