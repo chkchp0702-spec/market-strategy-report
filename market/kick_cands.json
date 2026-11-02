@@ -5373,6 +5373,26 @@
 "src": "earn",
 "score": 45.8,
 "lv": 10.58
+},
+"RELY|2026-11-02": {
+"code": "RELY",
+"name": "Remitly Global, Inc. - Common stock",
+"mkt": "US",
+"d": "2026-11-02",
+"src": "cup",
+"score": 74.3,
+"lv": 25.7,
+"max20": 5.2,
+"id60": 0.017
+},
+"EMA|2026-11-01": {
+"code": "EMA",
+"name": "Emera Incorporated Common Shares",
+"mkt": "US",
+"d": "2026-11-01",
+"src": "accum",
+"score": 41.0,
+"lv": 49.56
 }
 },
 "sent": [
