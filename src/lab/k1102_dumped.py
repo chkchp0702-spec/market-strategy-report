@@ -86,7 +86,7 @@ def changes_fja():
     ls = requests.get("https://api.github.com/repos/fja05680/sp500/contents", timeout=60).json()
     def _k(f):
         m = re.search(r"\((\d\d)-(\d\d)-(\d{4})\)", f["name"])
-        return (m.group(3) + m.group(1) + m.group(2)) if m else "0"
+        return (m.group(3) + m.group(1) + m.group(2)) if m else ("9" if "Updated" in f["name"] else "0")
     fs = sorted([f for f in ls if f["name"].startswith("S&P 500 Historical Components") and f["name"].endswith(".csv")],
                 key=_k)
     print("fja files", [f["name"] for f in fs])
