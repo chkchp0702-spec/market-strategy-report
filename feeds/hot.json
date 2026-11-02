@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02 20:40",
+ "at": "2026-11-02 21:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -52,21 +52,6 @@
    "why": "AI 크레딧 가설(0.88) — 알파벳 FCF 적자 속 올해 두 번째 유로채, 🐋 GOOGL 신호 종목",
    "at": "2026-11-02 18:40"
   },
-  "n/yYm1HWkhGaENSTTlxMXlhMzBQcjkxTjVwZG14X0tUUER5aVF5STg4Umowoc5": {
-   "lv": 1,
-   "why": "고금리 정점 가설(0.55) — 11/4 리펀딩 발행 구조 대개편 예고, 美 10년 4.95 판정과 직결",
-   "at": "2026-11-02 18:40"
-  },
-  "n/zhVeS1FLUVNVUprU05ZQlBhTXBXcXBadzI4WmlHYVVCZzdRVEVEN1hsVQoc5": {
-   "lv": 1,
-   "why": "고금리 정점 가설(0.55) 반대 — 댈러스 로건 「최소 2번 더 인상(50bp↑)」, 10년 5% 재돌파 위험",
-   "at": "2026-11-02 19:40"
-  },
-  "n/httpswwwverdictcoukopenaicutsfundinggoal20bntsrcrss": {
-   "lv": 1,
-   "why": "AI 크레딧 가설(0.88) 보강 — 오픈AI 펀딩 목표 200억$로 축소, AI 자금 조달 줄이 마른다",
-   "at": "2026-11-02 19:40"
-  },
   "n/httpwwwedailycokrnewsnewspathaspnewsid04939686645641784": {
    "lv": 1,
    "why": "AI 크레딧 가설(0.88) 보강 — S&P, 메타 신용전망 「부정적」 하향(AI capex로 현금흐름 악화) · 🐋 META 신호 종목",
@@ -76,6 +61,16 @@
    "lv": 1,
    "why": "AI 크레딧·반도체 추격 금지 쪽 — 씨티, 하이퍼스케일러 롱 베팅 접음(같은 날 AI 매출 추정은 상향 = IB 갈림)",
    "at": "2026-11-02 20:40"
+  },
+  "n/102marvelltobuylumentumin115billiondealinaidatacenterbethtml": {
+   "lv": 2,
+   "why": "섹터 칸 「광통신」 보유 LITE 직격 — 마벨이 전액 주식으로 인수(주당 1,132$·10/28 대비 +23.9%), LITE 는 이제 MRVL 주가를 따라간다",
+   "at": "2026-11-02 21:45"
+  },
+  "n/eos20261102fedmayneedtotalof4or5ratehikeseconomistduttavideo": {
+   "lv": 1,
+   "why": "고금리 정점 가설(0.52) 반대 — 이코노미스트 더타 「인상 총 4~5번 필요」, 로건 발언에 이어 매파 쪽 무게",
+   "at": "2026-11-02 21:45"
   }
  }
 }

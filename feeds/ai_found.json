@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "마벨, 루멘텀을 전액 주식 1,150억$에 인수 — 주당 1,132$, 소문 전 대비 +23.9%",
+   "url": "https://www.globalbankingandfinance.com/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet/",
+   "press": "Global Banking & Finance(로이터 인용)",
+   "at": "2026-11-02 21:45",
+   "why": "섹터 칸 광통신 LITE 직격 — 주식교환이라 LITE 수익률이 MRVL 주가에 묶임 · 광통신 동종(COHR 장전 +6.7%) 재평가",
+   "summary": "총액 1,150억$(지분가치 1,025억$) 전액 주식 · 주당 1,132$ = 10/28 비교란 전 종가 대비 +23.9% · 발표일 MRVL 장전 +2.8%·LITE 거래정지, 소문 뒤 LITE −8%·MRVL −22%"
+  },
+  {
+   "title": "마벨, 루멘텀 1,150억$ 전액 주식 인수 발표",
+   "url": "https://www.investing.com/news/company-news/marvell-to-acquire-lumentum-for-115-billion-in-allstock-deal-93CH-4991177",
+   "press": "Investing.com",
+   "at": "2026-11-02 21:45",
+   "why": "AI 크레딧 가설 — 빚이 아닌 주식으로 산 초대형 AI 딜(차입 부담 피함) · 광통신 칸",
+   "summary": "AI 데이터센터 광 인터커넥트 결합 · 전액 주식 · 세부 교환비율은 미확인"
+  },
+  {
    "title": "BofA: 하이퍼스케일러 회사채 발행 2026년 연 1,000억 달러 수준 지속",
    "url": "https://www.fi-desk.com/bofa-deluge-of-hyperscaler-issuance-steady-at-us100bn-in-2026/",
    "press": "FI Desk",
@@ -623,22 +639,6 @@
    "at": "2026-10-30 16:40",
    "why": "피드 「BofA, 닷컴 직전과 같은 버블 경고」(10/30)와 같은 흐름 — AI 차입·크레딧 가설 보강",
    "summary": "BofA 「닷컴 붕괴 전 신호와 같은 버블 경고」(피드 헤드라인, 수치 미확인) · 알파벳 −11%대 capex 쇼크 직후"
-  },
-  {
-   "title": "일본은행 1.25% 동결 — 「기조적 물가 2% 도달」 판단",
-   "url": "https://www.newsbytesapp.com/news/business/bank-of-japan-holds-125-rate-as-inflation-reaches-2/tldr",
-   "press": "NewsBytes",
-   "at": "2026-10-30 15:40",
-   "why": "12월 인상 길 열림 — 엔 강세·일본 반도체 신호·글로벌 장기금리와 이어짐",
-   "summary": "기준금리 1.25% 유지(9명 중 반대 1명) · 물가 2% 목표 도달 13년 만에 인정(연합·머니투데이 피드 교차 확인) · 시장은 12월 인상에 무게"
-  },
-  {
-   "title": "애널리스트 다수, 다음 BOJ 인상 12월 예상 — 10월 인상 예상은 0명(블룸버그 설문)",
-   "url": "https://investinglive.com/central-banks/most-analysts-now-expect-the-next-boj-rate-hike-in-december-none-see-october-move-bloomberg/",
-   "press": "investingLive",
-   "at": "2026-10-30 15:40",
-   "why": "오늘 동결은 예상대로 — 깜짝 아님, 12월 회의가 다음 엔 변곡점",
-   "summary": "블룸버그 설문 다수 12월 인상 예상 · 10월 인상 예상 없음 · 설문 날짜 미확인"
   }
  ],
  "at": "2026-11-02 20:40"
