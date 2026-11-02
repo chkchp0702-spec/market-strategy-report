@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "알파벳, 대규모 AI 지출 속 유로 회사채 시장 복귀(약 30억€)",
+   "url": "https://www.itiger.com/news/1107943849",
+   "press": "Tiger Brokers",
+   "at": "2026-11-02 18:40",
+   "why": "AI 크레딧 가설·🐋 GOOGL(10/29 고래 신호) — FCF 적자 회사의 채권 조달 반복",
+   "summary": "알파벳이 AI 투자 자금 위해 유로채 발행(약 30억€, 기사 날짜 미확인). 피드: 3Q capex 514억$가 영업현금흐름 423억$를 넘어 FCF −91억$(kimu_nim/47818)."
+  },
+  {
+   "title": "키옥시아 주가, 한 달 새 50% 급락",
+   "url": "https://www.kucoin.com/news/flash/japanese-semiconductor-giant-kioxia-s-stock-plunges-50-in-a-month",
+   "press": "KuCoin News",
+   "at": "2026-11-02 18:40",
+   "why": "반도체 칸·091160 — 낸드 가격 둔화 쇼크의 깊이, 하이닉스·삼성 되돌림 판단",
+   "summary": "키옥시아 한 달 −50%(기사 날짜 미확인). 피드: 11/2 도쿄장 키옥시아 안값 경신으로 닛케이 −208엔(63,081)."
+  },
+  {
    "title": "도이체방크, 美 기술주 투자의견 상향 — 「매도세가 지나쳤다」",
    "url": "https://www.investing.com/news/stock-market-news/deutsche-bank-upgrades-us-techsays-selloff-has-gone-too-far-4990112",
    "press": "Investing.com",
@@ -623,22 +639,6 @@
    "at": "2026-10-30 13:40",
    "why": "크레딧(AI 차입) 가설 0.8 — 빅테크 채권 발행 증가가 신용 스프레드를 넓힐 수 있다는 IB 시각, 오늘 「S&P −8% 가능」 경고와 같은 선",
    "summary": "모건스탠리 — AI 설비투자 자금 상당 부분이 회사채·사모 크레딧으로 조달될 것이라 크레딧 시장 부담 경고. 게시 날짜 미확인(오늘 피드의 MS 「S&P 8% 하락 가능」 경고와 같은 맥락)."
-  },
-  {
-   "title": "기술주 급락에 국채 랠리 — 붐볐던 채권 매도 베팅이 타격",
-   "url": "https://finviz.com/news/403811/treasuries-rallied-as-tech-slid-and-the-crowded-bet-against-bonds-felt-it",
-   "press": "Finviz(재게재)",
-   "at": "2026-10-30 12:40",
-   "why": "🧠 「고금리 정점 통과」 가설(0.40)·중장기채 vs 단기채 판단과 직결",
-   "summary": "기술주 매도가 안전자산 수요로 이어져 국채 금리 하락, 채권 숏 포지션이 손실. 게재 날짜는 미확인 — 같은 흐름은 gn_bbg 「Treasuries Extend Rally」(10/30)로 확인."
-  },
-  {
-   "title": "삼성전자 3분기 영업익 사상 최대에도 기대 하회에 주가 하락",
-   "url": "https://www.koreajoongangdaily.com/business/samsungs-record-804b-q3-profit-fails-to-impress-investors/12944742",
-   "press": "Korea JoongAng Daily",
-   "at": "2026-10-30 10:35",
-   "why": "한국 반도체 칸 — 사상 최대 실적·환원에도 주가가 못 버팀 = 기대 과열 확인",
-   "summary": "분기 영업익 100조 원대 사상 최대에도 컨센 하회로 주가 하락. 오늘 코스피 −4% 매도 사이드카와 함께 삼전닉스 5~8% 하락."
   }
  ],
  "at": "2026-11-02 16:40"
