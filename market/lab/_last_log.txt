@@ -1,3 +1,7 @@
-fetched https://en.wikipedia.org/wiki/List_of_S%26P_500_companies 200 570566
+fetched https://en.wikipedia.org/wiki/List_of_S%26P_500_companies 200 570550
+table 0 504 rows | Symbol Security GICS Sector GICS Sub-Industry Headquarters Location Date added CIK Founded MMM 3M Industrials Industrial Conglomerates Saint Paul, Minnesota 1957-03-04 0000066740 1902 AOS A. O. Smith 
+table 1 12 rows | v t e S&P 500 companies Communication services Alphabet Inc. AT&T Charter Communications Comcast EchoStar Fox Corporation Live Nation Entertainment Meta Platforms Netflix News Corp Omnicom Group Reddi
 fetched https://en.wikipedia.org/w/api.php?action=parse&page=List_of_S%26P_500_companies&prop=text&format=json&formatversion=2 200 282847
+table 0 504 rows | Symbol Security GICS Sector GICS Sub-Industry Headquarters Location Date added CIK Founded MMM 3M Industrials Industrial Conglomerates Saint Paul, Minnesota 1957-03-04 0000066740 1902 AOS A. O. Smith 
+table 1 12 rows | v t e S&P 500 companies Communication services Alphabet Inc. AT&T Charter Communications Comcast EchoStar Fox Corporation Live Nation Entertainment Meta Platforms Netflix News Corp Omnicom Group Reddi
 변경 표 못 찾음
