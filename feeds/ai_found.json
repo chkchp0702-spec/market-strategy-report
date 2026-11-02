@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 선물 11월 첫날 상승 — 팔란티어 실적 대기",
+   "url": "https://www.tipranks.com/news/u-s-stock-futures-rise-as-november-trading-kicks-off-palantir-pltr-earnings-on-deck",
+   "press": "TipRanks",
+   "at": "2026-11-03 03:00",
+   "why": "PLTR(kick_cands 📊 실적 10/29) 장 마감 뒤 실적 — 실적 신호 종목 반응 채점 재료",
+   "summary": "11/2 美 선물 상승 출발, 팔란티어 실적이 이번 주 첫 대형 AI 소프트웨어 이벤트. 장중 S&P +0.5%·나스닥 +0.5%(CNBC 12:25 EST)."
+  },
+  {
+   "title": "美 국채금리 하락 — 이란 긴장 완화 기대에 유가 급락",
+   "url": "https://ground.news/article/us-treasury-yields-fall-as-oil-prices-plunge-on-iran-de-escalation-hopes",
+   "press": "Ground News",
+   "at": "2026-11-03 03:00",
+   "why": "watch 美 10년 4.95 이틀 판정 — 오늘 마감 4.95 아래면 고금리 정점 0.55",
+   "summary": "WTI −7%(96.8$)·브렌트 105$, 10년 4.88%(−5bp, CNBC 12:25 EST)."
+  },
+  {
    "title": "앤트로픽, IPO 몇 주 앞두고 막대한 공급사 부채(구매약정) 공개",
    "url": "https://www.ifre.com/equities/2493228/anthropic-reveals-huge-supplier-liabilities-just-weeks-ahead-of-potential-ipo",
    "press": "IFR",
@@ -623,22 +639,6 @@
    "at": "2026-10-30 20:35",
    "why": "AI 지출자 매도 vs 에너지(정제) 강세 회전 — SU bet·에너지 칸과 이어짐",
    "summary": "프리마켓 인텔·아마존·엔비디아 약세, 엑손 상승(정제 마진). 수치·날짜 미확인."
-  },
-  {
-   "title": "美 3분기 PCE 전년비 3.7% 횡보 — 서비스 물가 끈적",
-   "url": "https://datatrack.trendforce.com/blog/content/63266/us-2026-q3-pce-yoy-growth-flat-at-37-slightly-above-expectations-showing-sticky-services-inflation",
-   "press": "TrendForce",
-   "at": "2026-10-30 19:40",
-   "why": "美 10년 5% watch·고금리 정점 가설 — 물가가 안 내려와 인상 확률 재료(게시 시각 미확인)",
-   "summary": "3분기 PCE 전년비 3.7%로 횡보, 예상 소폭 상회. 서비스 물가가 끈적하다는 해석. 피드의 9월 물가 3.6%와 같은 방향."
-  },
-  {
-   "title": "유가 하락 — 다만 기뢰 공포로 긴장 지속",
-   "url": "https://www.cash.ch/news/top-news/olpreis-fallt-lage-wegen-seeminen-furcht-aber-angespannt-917189",
-   "press": "cash.ch",
-   "at": "2026-10-30 19:40",
-   "why": "에너지 칸·호르무즈 반복 체감 규칙 — 기뢰 헤드라인에도 유가가 내리는 장면(날짜 미확인)",
-   "summary": "호르무즈 기뢰 우려 속에서도 유가는 하락. 헤드라인과 가격 방향이 엇갈림 — 16:40 아이디어(3번째 헤드라인부터 진입 신호로 안 씀)와 같은 그림."
   }
  ],
  "at": "2026-11-02 20:40"
