@@ -81,8 +81,35 @@ def changes():
     return rows
 
 
+def changes_fja():
+    """위키 표가 페이지에서 빠짐(11/02 확인) → 공개 자료 fja05680/sp500 의 날짜별 구성 종목 CSV 로 편출 날짜 복원."""
+    ls = requests.get("https://api.github.com/repos/fja05680/sp500/contents", timeout=60).json()
+    fs = sorted([f for f in ls if f["name"].startswith("S&P 500 Historical Components") and f["name"].endswith(".csv")],
+                key=lambda f: f["name"])
+    f = fs[-1]
+    print("fja file", f["name"])
+    import io
+    df = pd.read_csv(io.StringIO(requests.get(f["download_url"], timeout=120).text))
+    df.columns = [c.strip().lower() for c in df.columns]
+    df["date"] = pd.to_datetime(df["date"]); df = df.sort_values("date")
+    rows, prev = [], None
+    for _, r in df.iterrows():
+        cur = {x.strip() for x in str(r["tickers"]).split(",") if x.strip()}
+        if prev is not None:
+            for t in prev - cur:
+                base = re.sub(r"-\d{6}$", "", t)
+                rows.append({"date": r["date"].strftime("%Y-%m-%d"), "add": "", "rem": base, "rem_name": t, "why": "fja"})
+        prev = cur
+    print("fja removals", len(rows), rows[-3:])
+    return rows
+
+
 def main():
-    ev = [r for r in changes() if r["rem"] and r["date"] >= "2007-01-01"]
+    try:
+        src = changes()
+    except BaseException as e:
+        print("wiki fail → fja", e); src = changes_fja()
+    ev = [r for r in src if r["rem"] and r["date"] >= "2007-01-01"]
     print("changes rows with removal since 2007:", len(ev))
     tick = sorted({r["rem"].replace(".", "-").split()[0] for r in ev})
     px = yf.download(tick + ["SPY", "MDY"], start="2006-06-01", auto_adjust=True, progress=False, threads=True)["Close"]
