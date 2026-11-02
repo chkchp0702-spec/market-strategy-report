@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "도이체방크, 美 기술주 투자의견 상향 — 「매도세가 지나쳤다」",
+   "url": "https://www.investing.com/news/stock-market-news/deutsche-bank-upgrades-us-techsays-selloff-has-gone-too-far-4990112",
+   "press": "Investing.com",
+   "at": "2026-11-02 17:40",
+   "why": "AI 크레딧 가설(0.88)·반도체 칸 추격 금지와 반대 — 대형 IB 첫 「과매도」 판단, 나스닥 10/30 −2.86% 뒤",
+   "summary": "도이체방크가 美 기술 섹터 의견 상향(제목 기준). 나스닥 10/30 25,437(−2.86%, CNBC). 목표·세부 숫자는 미확인."
+  },
+  {
+   "title": "골드만삭스 「AI 투자 모멘텀 둔화로 S&P 500 이익 성장 느려진다」",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNUlVOFBsTDRsUmljMTlBZFM1ZW1JX3hTeS1YY2ZXTUpob0Fsbl9wX01IbzQzWk5FTFFOdkd3LUtRWE1aMGo2eDhxU3NndjdEZnAydzVSdW1HalNfd3FITkdCeXJOWWdha3B4cEpwVFdNY2hJcmlZTWFnV0dhSklzNzV3YzBITFhpQ09GUTd4ZVptdW9NaDRyaVVqTXFnU3ZCUDlUMlZJMV84c3VIRzY1TUlBeVFEMW90U25VVUowMDVBM2kzY2Y1Ry1rbDRWR1F1andqdmpLa1JWZw?oc=5",
+   "press": "Google News(gn_us_ib)",
+   "at": "2026-11-02 17:40",
+   "why": "AI 크레딧 가설 보강 — capex 둔화가 이익 성장 둔화로, 같은 날 도이체 상향과 IB 판단 갈림",
+   "summary": "골드만, AI 지출 모멘텀 약화로 S&P 이익 성장 둔화 전망(제목 기준). 같은 날 BofA는 「capex 피크 낮아져도 사이클 길어짐」. 성장률 숫자는 미확인."
+  },
+  {
    "title": "엔비디아, 메타에 30억 달러 투자·Muse AI 협업 — 칩 회사가 고객에 돈을 대는 구조",
    "url": "https://www.techspot.com/news/114352-meta-gets-3-billion-nvidia-companies-team-up.html",
    "press": "TechSpot",
@@ -623,22 +639,6 @@
    "at": "2026-10-30 10:35",
    "why": "한국 반도체 칸 — 사상 최대 실적·환원에도 주가가 못 버팀 = 기대 과열 확인",
    "summary": "분기 영업익 100조 원대 사상 최대에도 컨센 하회로 주가 하락. 오늘 코스피 −4% 매도 사이드카와 함께 삼전닉스 5~8% 하락."
-  },
-  {
-   "title": "삼성 「2027년 HBM 물량 완판·메모리 공급 부족 2028년까지」, HBM4 매출 3배",
-   "url": "https://www.digitaltoday.co.kr/en/view/121461/samsung-electronics-memory-demand-rise-hbm4-sales-triple",
-   "press": "Digital Today",
-   "at": "2026-10-30 10:35",
-   "why": "메모리 업황 숫자는 견조 — 주가 하락이 업황이 아닌 美 AI 지출 우려(알파벳·아마존)에서 온 것인지 가르는 근거",
-   "summary": "HBM4 매출 3배, 2027년 HBM 물량 매진, 고객 10곳과 장기 계약. 4분기 메모리 출하 증가는 10%대 초중반에 그침(sedaily)."
-  },
-  {
-   "title": "바이낸스, 대형 해킹 확인 — 25억 달러 이상 동결",
-   "url": "https://www.freemalaysiatoday.com/category/business/2026/10/30/crypto-platform-binance-confirms-major-hack-more-than-us-2-5bil-frozen",
-   "press": "Free Malaysia Today(AFP)",
-   "at": "2026-10-30 09:35",
-   "why": "위험 회피 확산 경로 — 크레딧·AI 차입 가설과 같은 방향, 미국 장 성장주 신호 거르기",
-   "summary": "바이낸스가 해킹을 확인, 테더·서클 등이 25억 달러 이상 동결. 피해 규모 보도는 23.8억~58억 달러로 엇갈려 미확인. 비트코인 7.8만 달러대로 급락(investing_kr)."
   }
  ],
  "at": "2026-11-02 16:40"
