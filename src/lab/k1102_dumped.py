@@ -27,13 +27,29 @@ DS, HS = [0, 5, 20], [20, 60, 120, 250]
 
 
 def changes():
-    url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
-    h = requests.get(url, headers={"User-Agent": "Mozilla/5.0 (research script)"}, timeout=60).text
-    soup = BeautifulSoup(h, "html.parser")
-    tab = soup.find("table", {"id": "changes"})
+    ua = {"User-Agent": "k1102-lab/1.0 (https://github.com/chkchp0702-spec/market-strategy-report; research)"}
+    tab = None
+    for url in ["https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+                "https://en.wikipedia.org/w/api.php?action=parse&page=List_of_S%26P_500_companies&prop=text&format=json&formatversion=2"]:
+        try:
+            rq = requests.get(url, headers=ua, timeout=60)
+            h = rq.text
+            if "api.php" in url:
+                h = rq.json()["parse"]["text"]
+        except Exception as e:
+            print("fetch fail", url, e); continue
+        print("fetched", url, rq.status_code, len(h))
+        soup = BeautifulSoup(h, "html.parser")
+        tab = soup.find("table", {"id": "changes"})
+        if tab is None:
+            for tb in soup.find_all("table"):
+                tx = tb.get_text(" ")[:3000]
+                if "Removed" in tx and "Reason" in tx:
+                    tab = tb; break
+        if tab is not None:
+            break
     if tab is None:
-        tabs = soup.find_all("table", class_="wikitable")
-        tab = tabs[1]
+        raise SystemExit("변경 표 못 찾음")
     rows = []
     for tr in tab.find_all("tr"):
         td = [c.get_text(" ", strip=True) for c in tr.find_all("td")]
