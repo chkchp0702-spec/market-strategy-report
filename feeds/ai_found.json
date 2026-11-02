@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 증시 11/2 장중 — 오라클 −6.4%(100억$ 주식 매각)·마벨 −9.5%·루멘텀 −15.2%, 브렌트 −7% 104$",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-2-2026",
+   "press": "StockTitan",
+   "at": "2026-11-03 05:45",
+   "why": "AI 차입(크레딧) 가설 — 빅테크가 채권에 이어 주식으로도 조달, 하드웨어 약세와 함께 「보여 줘」 국면",
+   "summary": "S&P 오전 +1% → 12:55 ET +0.3%로 상승폭 축소. 오라클 100억$ 주식 매각에 −6.38%. 브렌트 −7%대 약 104$."
+  },
+  {
+   "title": "팔란티어, 실적 발표 앞두고 매출 성장·현금흐름 우려에 하락 반전",
+   "url": "https://fxleaders.com/news/2026/11/02/pltr-stock-reverses-down-on-revenue-growth-and-cash-flow-with-palantir-to-report-third-quarter-financial-results-after-market-close",
+   "press": "FX Leaders",
+   "at": "2026-11-03 05:45",
+   "why": "PLTR(📊 실적 신호 10/29) 장 마감 뒤 실적 — 옵션 시장 ±11~13% 변동 예상(tipranks), D+1 갭으로 earn 신호 채점",
+   "summary": "실적 당일 장중 하락 반전. 회사 가이던스 매출 21.6억$ 대비 시장 기대가 그 위(financefeeds)."
+  },
+  {
    "title": "루멘텀 8-K — 마벨 인수 합병 계약 공시(SEC)",
    "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169dex991.htm",
    "press": "SEC EDGAR",
@@ -623,23 +639,7 @@
    "at": "2026-10-30 23:05",
    "why": "PC 부진·턴어라운드 의문 — AMD −10%·델 −13%·엔비디아 −3%로 번짐(feed 동일 사건), 반도체 칸 추가 축소 조건 점검",
    "summary": "인텔 실적은 상회했지만 4분기 가이던스·PC 부진으로 −25%. AMD −10%, 델 −13%, 엔비디아 −3%(프리마켓 기준, 피드 yahoo 제목)."
-  },
-  {
-   "title": "색소 마켓 퀵테이크 — 아마존·인텔이 미국 기술주를 흔들다 (10/30)",
-   "url": "https://www.home.saxo/content/articles/macro/market-quick-take---now-amazon-and-intel-spook-us-tech---30-october-2026-30102026",
-   "press": "Saxo",
-   "at": "2026-10-30 22:10",
-   "why": "반도체·킥 PLTR — 미국장 시가 전 자산별 정리(금리·금·달러)",
-   "summary": "아마존·인텔 실적 뒤 AI 지출 우려가 미국 기술주로 번짐. 세부 숫자는 원문 확인(미확인)."
-  },
-  {
-   "title": "TheStreet 실시간 — 나스닥 선물 하락, 아마존·인텔 손실이 월가를 흔들다 (10/30)",
-   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-30-2026",
-   "press": "TheStreet",
-   "at": "2026-10-30 22:10",
-   "why": "오늘 미국장 실시간 — 지출자 매도/에너지 강세 회전이 본장에서 유지되나 확인",
-   "summary": "나스닥 선물 −2% 안팎(피드 CNBC 「2% 넘게」). 장중 숫자는 원문 확인."
   }
  ],
- "at": "2026-11-02 20:40"
+ "at": "2026-11-03 05:45"
 }

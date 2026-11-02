@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03 04:35",
+ "at": "2026-11-03 05:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -47,10 +47,20 @@
    "why": "ISM 10월 55.5(예상 54.5)·생산 2021년來 최대·가격 압력 지속 — 고금리 정점 가설(10년 4.95 판정) 반대 재료",
    "at": "2026-11-03 00:55"
   },
-  "n/billionfrompotentialbondofferingsbloombergnewsreports4992542": {
+  "n/7764c632acae61a78db5f3bd39thes26p500turnsredit27shtmltsrcrss": {
    "lv": 1,
-   "why": "메타 최소 200억$ 추가 회사채(bbg) — S&P 전망 「부정적」 하루 만, AI 크레딧 가설(0.90) 보강 · 🐋 META 신호 종목",
-   "at": "2026-11-03 03:35"
+   "why": "S&P 장중 +1%→마이너스 반전(약 1년 만 최대 반전) — 위험 회피 국면·VIX 21, CROX bet·킥 모멘텀 종목 동반 약세 점검",
+   "at": "2026-11-03 05:45"
+  },
+  "n/swwwbloombergcomnewsvideos20261102bloombergtech11022026video": {
+   "lv": 1,
+   "why": "오라클 200억$ 자금 조달(주식 100억$ 포함) 개시·주가 −6% — AI 차입(크레딧) 가설 0.90 직접 근거",
+   "at": "2026-11-03 05:45"
+  },
+  "n/WJ0VGl5WkxOZ1dkZ1pBMmswTnJSV3E3YzZhWk91U0YyODZxdmhLem5sZAoc5": {
+   "lv": 1,
+   "why": "美 10년 4.871% — 9/10 이후 최저, 고금리 정점 가설 0.52→판정 구간(5% 아래 유지)",
+   "at": "2026-11-03 05:45"
   }
  }
 }
