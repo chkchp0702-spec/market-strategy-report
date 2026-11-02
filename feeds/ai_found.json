@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "인텔, 4분기 가이던스 실망에 25%대 급락 — PC 침체·공급 제약",
+   "url": "https://tech-insider.org/intel-plunges-25-q4-guidance-15-16-billion-pc-slump-2026/",
+   "press": "Tech Insider",
+   "at": "2026-11-02 13:40",
+   "why": "10/30 나스닥 −2.86%·필리 급락의 출발점 — AI 하드웨어 「뉴스에 판다」 줄기, AI 크레딧 가설 0.88 배경",
+   "summary": "4분기 매출 가이던스 150~160억$로 기대 하회, 장외 −23%·프리마켓 −25.6%(kucoin, 1974년 이후 최악). 국내 보도는 하루 −29%(피드). 정확한 종가 낙폭은 미확인."
+  },
+  {
+   "title": "한국 S&P 글로벌 제조업 PMI 10월",
+   "url": "https://focus-economics.com/countries/korea/news/pmi/manufacturing-pmi-largely-unchanged-in-october",
+   "press": "FocusEconomics",
+   "at": "2026-11-02 13:40",
+   "why": "수출 급증과 제조업 체감 둔화의 엇갈림 — 반도체 쏠림, 수출주 칸 판단",
+   "summary": "인베스팅 11/2: 한국 제조업 PMI 10월 8개월 최저로 둔화. 수치는 원문 확인 필요(검색 결과는 날짜 미확인)."
+  },
+  {
    "title": "Newsquawk 주간 美 실적 추정 — 애플·AMD·팔란티어·퀄컴 이번 주",
    "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-us-earnings-estimates-earnings-season-continues-with-highlights-including-aapl-amd-pltr-and-qcom",
    "press": "Newsquawk",
@@ -623,22 +639,6 @@
    "at": "2026-10-30 03:35",
    "why": "광통신 밸류에이션 정점 신호 여부 — 칸 비중 판단에 참고",
    "summary": "루멘텀 가치 약 830억$·매출 28배로 거론(2차 출처, 미확인). 마벨 주가는 소식에 하락(barrons 제목)."
-  },
-  {
-   "title": "파트너스그룹, 美 대표 에버그린 PE 펀드 환매 압박 — 사모 환매 우려 확산",
-   "url": "https://www.wealthprofessional.ca/investments/alternative-investments/partners-group-flags-us-fund-under-redemption-pressure-as-private-equity-withdrawal-fears-deepen/392630",
-   "press": "Wealth Professional",
-   "at": "2026-10-30 02:35",
-   "why": "크레딧(AI 차입) 가설 — 사모·사모대출 유동성 미스매치, BDC(MFIC 등 우리 PEAD 신호) 진입 판단과 이어짐",
-   "summary": "FT 보도(10/29): 환매 요청 2배로 증가. 환매 상한 적용 가능성·KKR·블랙스톤 등 동반 약세 보도(sherwood). 세부 숫자 미확인."
-  },
-  {
-   "title": "다우 −506P·알파벳 급락 — 오늘의 증시",
-   "url": "https://www.kiplinger.com/investing/stocks/dow-dives-506-points-as-alphabet-stock-sinks-stock-market-today",
-   "press": "Kiplinger",
-   "at": "2026-10-30 02:35",
-   "why": "위험 회피 국면 판정 — 알파벳 쇼크가 나스닥 넘어 다우까지 번졌는지",
-   "summary": "제목 기준 다우 −506P·알파벳 하락 주도. 작성 시점·마감치 미확인(latest 13:01 EDT S&P −0.34%)."
   }
  ],
  "at": "2026-11-02 03:40"
