@@ -84,8 +84,12 @@ def changes():
 def changes_fja():
     """위키 표가 페이지에서 빠짐(11/02 확인) → 공개 자료 fja05680/sp500 의 날짜별 구성 종목 CSV 로 편출 날짜 복원."""
     ls = requests.get("https://api.github.com/repos/fja05680/sp500/contents", timeout=60).json()
+    def _k(f):
+        m = re.search(r"\((\d\d)-(\d\d)-(\d{4})\)", f["name"])
+        return (m.group(3) + m.group(1) + m.group(2)) if m else "0"
     fs = sorted([f for f in ls if f["name"].startswith("S&P 500 Historical Components") and f["name"].endswith(".csv")],
-                key=lambda f: f["name"])
+                key=_k)
+    print("fja files", [f["name"] for f in fs])
     f = fs[-1]
     print("fja file", f["name"])
     import io
@@ -100,7 +104,7 @@ def changes_fja():
                 base = re.sub(r"-\d{6}$", "", t)
                 rows.append({"date": r["date"].strftime("%Y-%m-%d"), "add": "", "rem": base, "rem_name": t, "why": "fja"})
         prev = cur
-    print("fja removals", len(rows), rows[-3:])
+    rows.sort(key=lambda x: x["date"]); print("fja removals", len(rows), rows[-3:])
     return rows
 
 
@@ -146,8 +150,8 @@ def main():
                     pb = seg.iloc[-1]
                 rr = (pb / pa - 1) * 100 - COST
                 trades.append({"t": t, "date": idx[a].strftime("%Y-%m-%d"), "D": D, "H": H, "r": rr,
-                               "xs": rr - (spy.iloc[b] / spy.iloc[a] - 1) * 100,
-                               "xm": rr - (mdy.iloc[b] / mdy.iloc[a] - 1) * 100,
+                               "exs": rr - (spy.iloc[b] / spy.iloc[a] - 1) * 100,
+                               "exm": rr - (mdy.iloc[b] / mdy.iloc[a] - 1) * 100,
                                "pre1y": (s.iloc[e - 1] / pre250.dropna().iloc[0] - 1) * 100 if len(pre250.dropna()) else None})
     df = pd.DataFrame(trades)
     print("trades:", len(df), skipped)
@@ -155,9 +159,9 @@ def main():
     def st(g):
         if len(g) == 0:
             return None
-        w, l = g.xs[g.xs > 0].sum(), -g.xs[g.xs < 0].sum()
-        return {"n": int(len(g)), "names": int(g.t.nunique()), "r": round(g.r.mean(), 2), "xs": round(g.xs.mean(), 2),
-                "xs_med": round(g.xs.median(), 2), "xm": round(g.xm.mean(), 2), "win_xs": int(round((g.xs > 0).mean() * 100)),
+        w, l = g.exs[g.exs > 0].sum(), -g.exs[g.exs < 0].sum()
+        return {"n": int(len(g)), "names": int(g.t.nunique()), "r": round(g.r.mean(), 2), "xs": round(g.exs.mean(), 2),
+                "xs_med": round(g.exs.median(), 2), "xm": round(g.exm.mean(), 2), "win_xs": int(round((g.exs > 0).mean() * 100)),
                 "pf_xs": round(w / l, 2) if l > 0 else None}
 
     isd = df[(df.date >= IS_START) & (df.date <= IS_END)]
@@ -218,7 +222,7 @@ def main():
            "basket_best": basket, "verdict": verdict,
            "pre1y_med": round(float(g.pre1y.dropna().median()), 1) if len(g) else None,
            "caveat": "생존 편향: 파산·상장폐지 종목은 yfinance 에 없음(위로 치우침) · 티커 재사용 못 거름 · 위키 표 누락 가능",
-           "sample": g.head(15)[["t", "date", "r", "xs"]].round(2).to_dict("records")}
+           "sample": g.head(15)[["t", "date", "r", "exs"]].round(2).to_dict("records")}
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1))
     print(json.dumps({k: out[k] for k in ["best_is", "verdict", "basket_best"]}, ensure_ascii=False))
     print(json.dumps(grid, ensure_ascii=False))
