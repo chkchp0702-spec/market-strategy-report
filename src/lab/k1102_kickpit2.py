@@ -33,7 +33,7 @@ from k1024_pead import kick_x, dq_of
 import accum_bt as AB
 import k1102_pit as PIT
 
-OUT = Path("market/lab/k1102_kickpit.json")
+OUT = Path("market/lab/k1102_kickpit2.json")
 SIZE = 0.19
 DEF = {"pg": 0.05, "pv": 2.0, "ch": 4, "crs": 0.5}
 
