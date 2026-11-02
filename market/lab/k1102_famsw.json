@@ -1,0 +1,540 @@
+{
+ "at": "2026-11-02 16:15",
+ "from": "2008-07-01",
+ "to": "2026-10-30",
+ "log": {
+  "requested": 977,
+  "got": 664,
+  "failed_or_short": 313,
+  "n_ever": 977,
+  "n_dl": 659
+ },
+ "spy": {
+  "is": {
+   "cagr": 9.03,
+   "vol": 21.4,
+   "mdd": -47.2,
+   "sharpe": 0.51,
+   "ex": 0.0,
+   "win12": 0,
+   "beat_years": 0,
+   "years": 9
+  },
+  "oos": {
+   "cagr": 14.88,
+   "vol": 18.1,
+   "mdd": -33.7,
+   "sharpe": 0.86,
+   "ex": 0.0,
+   "win12": 0,
+   "beat_years": 0,
+   "years": 10
+  }
+ },
+ "rows": {
+  "EPC_9": {
+   "label": "E+P+C 컵≤+5% · 9%",
+   "size": 0.09,
+   "kw": {},
+   "sw": null,
+   "is": {
+    "cagr": 10.77,
+    "vol": 13.0,
+    "mdd": -19.3,
+    "sharpe": 0.85,
+    "ex": 1.74,
+    "win12": 44,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 255
+   },
+   "oos": {
+    "cagr": 14.51,
+    "vol": 13.6,
+    "mdd": -20.4,
+    "sharpe": 1.06,
+    "ex": -0.37,
+    "win12": 42,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 295
+   },
+   "tr_is": {
+    "n": 276,
+    "avg": 2.11,
+    "win": 47,
+    "pf": 1.69
+   },
+   "tr_oos": {
+    "n": 345,
+    "avg": 0.93,
+    "win": 36,
+    "pf": 1.26
+   }
+  },
+  "EP_9": {
+   "label": "E+P · 9%",
+   "size": 0.09,
+   "kw": {},
+   "sw": null,
+   "is": {
+    "cagr": 10.72,
+    "vol": 12.9,
+    "mdd": -17.7,
+    "sharpe": 0.85,
+    "ex": 1.69,
+    "win12": 39,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 239
+   },
+   "oos": {
+    "cagr": 15.19,
+    "vol": 13.7,
+    "mdd": -21.1,
+    "sharpe": 1.11,
+    "ex": 0.31,
+    "win12": 49,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 282
+   },
+   "tr_is": {
+    "n": 239,
+    "avg": 2.16,
+    "win": 43,
+    "pf": 1.8
+   },
+   "tr_oos": {
+    "n": 304,
+    "avg": 2.23,
+    "win": 42,
+    "pf": 1.73
+   }
+  },
+  "EPCx_9": {
+   "label": "E+P+C 실제 컵 거름 ≤+12% · 9%",
+   "size": 0.09,
+   "kw": {
+    "ext": 1.12
+   },
+   "sw": null,
+   "is": {
+    "cagr": 11.0,
+    "vol": 13.0,
+    "mdd": -19.1,
+    "sharpe": 0.87,
+    "ex": 1.97,
+    "win12": 45,
+    "beat_years": 4,
+    "years": 9,
+    "turn": 254
+   },
+   "oos": {
+    "cagr": 14.65,
+    "vol": 13.6,
+    "mdd": -19.8,
+    "sharpe": 1.07,
+    "ex": -0.23,
+    "win12": 44,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 298
+   },
+   "tr_is": {
+    "n": 275,
+    "avg": 2.52,
+    "win": 47,
+    "pf": 1.85
+   },
+   "tr_oos": {
+    "n": 352,
+    "avg": 1.08,
+    "win": 36,
+    "pf": 1.3
+   }
+  },
+  "SW_9": {
+   "label": "🆕 무리 스위치 504·vsE · 9%",
+   "size": 0.09,
+   "kw": {
+    "ext": 1.12
+   },
+   "sw": [
+    504,
+    "vsE"
+   ],
+   "is": {
+    "cagr": 10.38,
+    "vol": 12.9,
+    "mdd": -18.5,
+    "sharpe": 0.83,
+    "ex": 1.36,
+    "win12": 36,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 256
+   },
+   "oos": {
+    "cagr": 14.76,
+    "vol": 13.6,
+    "mdd": -21.1,
+    "sharpe": 1.08,
+    "ex": -0.12,
+    "win12": 44,
+    "beat_years": 4,
+    "years": 10,
+    "turn": 282
+   },
+   "tr_is": {
+    "n": 278,
+    "avg": 1.34,
+    "win": 42,
+    "pf": 1.46
+   },
+   "tr_oos": {
+    "n": 306,
+    "avg": 1.49,
+    "win": 39,
+    "pf": 1.48
+   }
+  },
+  "EPC_19": {
+   "label": "E+P+C 컵≤+5% · 19%",
+   "size": 0.19,
+   "kw": {},
+   "sw": null,
+   "is": {
+    "cagr": 10.77,
+    "vol": 13.0,
+    "mdd": -20.8,
+    "sharpe": 0.85,
+    "ex": 1.75,
+    "win12": 46,
+    "beat_years": 4,
+    "years": 9,
+    "turn": 366
+   },
+   "oos": {
+    "cagr": 13.49,
+    "vol": 13.5,
+    "mdd": -19.8,
+    "sharpe": 1.01,
+    "ex": -1.4,
+    "win12": 36,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 416
+   },
+   "tr_is": {
+    "n": 276,
+    "avg": 2.11,
+    "win": 47,
+    "pf": 1.69
+   },
+   "tr_oos": {
+    "n": 345,
+    "avg": 0.93,
+    "win": 36,
+    "pf": 1.26
+   }
+  },
+  "EP_19": {
+   "label": "E+P · 19%",
+   "size": 0.19,
+   "kw": {},
+   "sw": null,
+   "is": {
+    "cagr": 10.66,
+    "vol": 12.8,
+    "mdd": -17.5,
+    "sharpe": 0.85,
+    "ex": 1.63,
+    "win12": 36,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 334
+   },
+   "oos": {
+    "cagr": 14.91,
+    "vol": 13.5,
+    "mdd": -21.3,
+    "sharpe": 1.1,
+    "ex": 0.03,
+    "win12": 47,
+    "beat_years": 6,
+    "years": 10,
+    "turn": 387
+   },
+   "tr_is": {
+    "n": 239,
+    "avg": 2.16,
+    "win": 43,
+    "pf": 1.8
+   },
+   "tr_oos": {
+    "n": 304,
+    "avg": 2.23,
+    "win": 42,
+    "pf": 1.73
+   }
+  },
+  "EPCx_19": {
+   "label": "E+P+C 실제 컵 거름 ≤+12% · 19%",
+   "size": 0.19,
+   "kw": {
+    "ext": 1.12
+   },
+   "sw": null,
+   "is": {
+    "cagr": 11.26,
+    "vol": 13.0,
+    "mdd": -20.5,
+    "sharpe": 0.89,
+    "ex": 2.23,
+    "win12": 47,
+    "beat_years": 5,
+    "years": 9,
+    "turn": 366
+   },
+   "oos": {
+    "cagr": 13.79,
+    "vol": 13.5,
+    "mdd": -18.4,
+    "sharpe": 1.03,
+    "ex": -1.09,
+    "win12": 40,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 421
+   },
+   "tr_is": {
+    "n": 275,
+    "avg": 2.52,
+    "win": 47,
+    "pf": 1.85
+   },
+   "tr_oos": {
+    "n": 352,
+    "avg": 1.08,
+    "win": 36,
+    "pf": 1.3
+   }
+  },
+  "SW_19": {
+   "label": "🆕 무리 스위치 504·vsE · 19%",
+   "size": 0.19,
+   "kw": {
+    "ext": 1.12
+   },
+   "sw": [
+    504,
+    "vsE"
+   ],
+   "is": {
+    "cagr": 9.96,
+    "vol": 12.8,
+    "mdd": -19.1,
+    "sharpe": 0.81,
+    "ex": 0.93,
+    "win12": 31,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 369
+   },
+   "oos": {
+    "cagr": 14.01,
+    "vol": 13.4,
+    "mdd": -21.3,
+    "sharpe": 1.05,
+    "ex": -0.87,
+    "win12": 39,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 387
+   },
+   "tr_is": {
+    "n": 278,
+    "avg": 1.34,
+    "win": 42,
+    "pf": 1.46
+   },
+   "tr_oos": {
+    "n": 306,
+    "avg": 1.49,
+    "win": 39,
+    "pf": 1.48
+   }
+  }
+ },
+ "shake": [
+  {
+   "label": "흔들기 스위치 378·vsE · 9%",
+   "is": {
+    "cagr": 10.59,
+    "vol": 12.9,
+    "mdd": -18.5,
+    "sharpe": 0.84,
+    "ex": 1.57,
+    "win12": 42,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 243
+   },
+   "oos": {
+    "cagr": 14.63,
+    "vol": 13.6,
+    "mdd": -20.6,
+    "sharpe": 1.07,
+    "ex": -0.25,
+    "win12": 47,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 282
+   }
+  },
+  {
+   "label": "흔들기 스위치 630·vsE · 9%",
+   "is": {
+    "cagr": 10.39,
+    "vol": 12.9,
+    "mdd": -18.5,
+    "sharpe": 0.83,
+    "ex": 1.37,
+    "win12": 38,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 249
+   },
+   "oos": {
+    "cagr": 14.48,
+    "vol": 13.7,
+    "mdd": -21.0,
+    "sharpe": 1.06,
+    "ex": -0.4,
+    "win12": 40,
+    "beat_years": 4,
+    "years": 10,
+    "turn": 278
+   }
+  },
+  {
+   "label": "흔들기 스위치 504·vs0 · 9%",
+   "is": {
+    "cagr": 10.44,
+    "vol": 13.0,
+    "mdd": -18.8,
+    "sharpe": 0.83,
+    "ex": 1.42,
+    "win12": 39,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 250
+   },
+   "oos": {
+    "cagr": 14.75,
+    "vol": 13.6,
+    "mdd": -21.0,
+    "sharpe": 1.08,
+    "ex": -0.14,
+    "win12": 46,
+    "beat_years": 4,
+    "years": 10,
+    "turn": 274
+   }
+  },
+  {
+   "label": "흔들기 E+P 갭4% · 9%",
+   "is": {
+    "cagr": 11.0,
+    "vol": 12.9,
+    "mdd": -17.6,
+    "sharpe": 0.87,
+    "ex": 1.98,
+    "win12": 39,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 227
+   },
+   "oos": {
+    "cagr": 14.82,
+    "vol": 13.6,
+    "mdd": -21.3,
+    "sharpe": 1.09,
+    "ex": -0.07,
+    "win12": 45,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 280
+   }
+  },
+  {
+   "label": "흔들기 E+P 갭6% · 9%",
+   "is": {
+    "cagr": 10.73,
+    "vol": 12.9,
+    "mdd": -17.8,
+    "sharpe": 0.85,
+    "ex": 1.71,
+    "win12": 38,
+    "beat_years": 2,
+    "years": 9,
+    "turn": 226
+   },
+   "oos": {
+    "cagr": 14.7,
+    "vol": 13.6,
+    "mdd": -20.1,
+    "sharpe": 1.08,
+    "ex": -0.19,
+    "win12": 41,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 288
+   }
+  }
+ ],
+ "vs_real_base": {
+  "EP_9": {
+   "is": -0.28,
+   "oos": 0.54,
+   "sh_is": -0.02,
+   "sh_oos": 0.04,
+   "mdd_oos": -1.3
+  },
+  "SW_9": {
+   "is": -0.62,
+   "oos": 0.11,
+   "sh_is": -0.04,
+   "sh_oos": 0.01,
+   "mdd_oos": -1.3
+  },
+  "EPC_9": {
+   "is": -0.23,
+   "oos": -0.14,
+   "sh_is": -0.02,
+   "sh_oos": -0.01,
+   "mdd_oos": -0.6
+  },
+  "shake_oos_vs_base": [
+   -0.02,
+   -0.17,
+   0.1,
+   0.17,
+   0.05
+  ],
+  "shake_is_vs_base": [
+   -0.41,
+   -0.61,
+   -0.56,
+   0.0,
+   -0.27
+  ]
+ },
+ "verdict": {
+  "EP_9": "➖ 뒤에서만",
+  "SW_9": "➖ 뒤에서만"
+ },
+ "sec": 189,
+ "note": "기준 = EPCx_9(실제 크기 9%·실제 컵 거름 ≤피벗+12%) · PIT(그날 S&P500 구성 종목) · 무리 스위치는 끝난 사건만(하루 늦춤) · 상장폐지 종목 빠짐(위로 치우침) · 🎯·🔗·🐋 미포함 · 매수 추천 아님"
+}
