@@ -5393,6 +5393,25 @@
 "src": "accum",
 "score": 41.0,
 "lv": 49.56
+},
+"RLI|2026-11-02": {
+"code": "RLI",
+"name": "RLI Corp. Common Stock (DE)",
+"mkt": "US",
+"d": "2026-11-02",
+"src": "cup_eye",
+"score": 70.4,
+"lv": 67.35,
+"max20": 4.9,
+"id60": -0.017
+},
+"ROP|2026-11-03|whale": {
+"code": "ROP",
+"name": "ROP",
+"mkt": "US",
+"d": "2026-11-03",
+"src": "whale",
+"score": 40
 }
 },
 "sent": [
@@ -5409,24 +5428,27 @@
 "2026-10-16|팔기|OKTA"
 ],
 "whale": [
-"AMAT",
 "AMD",
 "AVTX",
+"AXTA",
+"BKNG",
 "CDW",
 "CPNG",
+"CRH",
+"DFTX",
 "EA",
-"FIGR",
 "GOOG",
 "GOOGL",
-"GPN",
+"HPE",
 "INSM",
-"INTC",
+"KVUE",
 "META",
+"MU",
 "NCLH",
-"SNDK",
-"SNOW",
-"SPGI",
-"STM",
-"TSM"
+"ORCL",
+"REGN",
+"RIG",
+"ROP",
+"SPGI"
 ]
 }
