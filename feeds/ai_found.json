@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "루멘텀 8-K — 마벨 인수 합병 계약 공시(SEC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169dex991.htm",
+   "press": "SEC EDGAR",
+   "at": "2026-11-03 04:35",
+   "why": "AI 광학 대형 M&A — 인수자 주가 희석·프리미엄 우려(10/29 보도 때 MRVL −13%), AI 크레딧·AI 하드웨어 「보여 줘」 국면 재료",
+   "summary": "11/2 루멘텀이 마벨과의 합병 계약을 8-K·425로 공시. 피드(gn_jp)는 인수액 약 18조엔 보도, 발표일 LITE −14.9%(fool). 세부 조건은 미확인."
+  },
+  {
+   "title": "델·HPE, 슈퍼마이크로 실적 경고 뒤 AI 서버주 동반 하락",
+   "url": "https://tr.tradingview.com/news/gurufocus%3A6df158a80094b%3A0-dell-and-hpe-shares-fall-after-super-micro-s-weak-earnings-shake-ai-server-sector",
+   "press": "GuruFocus via TradingView",
+   "at": "2026-11-03 04:35",
+   "why": "AI 서버 하드웨어 약세 확산 — 반도체 칸 추격 금지·하드웨어 「뉴스에 판다」 패턴과 연결",
+   "summary": "11/2 장중 슈퍼마이크로 −5%(실적 앞)·델 −4%·HPE −3%(yahoo 피드 헤드라인). 같은 날 세레브라스 급락·LITE −14.9%로 AI 하드웨어만 약세, 지수는 상승."
+  },
+  {
    "title": "美 선물 11월 첫날 상승 — 팔란티어 실적 대기",
    "url": "https://www.tipranks.com/news/u-s-stock-futures-rise-as-november-trading-kicks-off-palantir-pltr-earnings-on-deck",
    "press": "TipRanks",
@@ -623,22 +639,6 @@
    "at": "2026-10-30 22:10",
    "why": "오늘 미국장 실시간 — 지출자 매도/에너지 강세 회전이 본장에서 유지되나 확인",
    "summary": "나스닥 선물 −2% 안팎(피드 CNBC 「2% 넘게」). 장중 숫자는 원문 확인."
-  },
-  {
-   "title": "마벨, 엔비디아가 투자한 루멘텀 인수 막바지 협상 — 루멘텀 시간외 약 +17%",
-   "url": "https://www.rootdata.com/news/806163",
-   "press": "RootData(보도 인용)",
-   "at": "2026-10-30 20:35",
-   "why": "AI 광통신 통합 — 빅테크 매도장에서도 공급사 쪽 M&A 수요는 살아 있음(지출자 vs 공급사 아이디어 근거). 우리 신호 종목은 아님",
-   "summary": "마벨이 루멘텀 인수 막바지 협상, 이르면 다음 주 발표 가능(phemex 인용). 루멘텀 시간외 약 +17%. 날짜·조건 미확인."
-  },
-  {
-   "title": "인텔·아마존·엔비디아 프리마켓 하락, 애플·엑손 상승",
-   "url": "https://www.streetinsider.com/General+News/Intel%2C+Amazon%2C+Nvidia%2C+Snap+fell+premarket%3B+Apple%2C+Exxon+rise/23543914.html",
-   "press": "StreetInsider",
-   "at": "2026-10-30 20:35",
-   "why": "AI 지출자 매도 vs 에너지(정제) 강세 회전 — SU bet·에너지 칸과 이어짐",
-   "summary": "프리마켓 인텔·아마존·엔비디아 약세, 엑손 상승(정제 마진). 수치·날짜 미확인."
   }
  ],
  "at": "2026-11-02 20:40"
