@@ -1,10 +1,3 @@
-Traceback (most recent call last):
-  File "/home/runner/work/market-strategy-report/market-strategy-report/src/lab/k1102_dumped.py", line 167, in <module>
-    main()
-  File "/home/runner/work/market-strategy-report/market-strategy-report/src/lab/k1102_dumped.py", line 51, in main
-    ev = [r for r in changes() if r["rem"] and r["date"] >= "2007-01-01"]
-                     ^^^^^^^^^
-  File "/home/runner/work/market-strategy-report/market-strategy-report/src/lab/k1102_dumped.py", line 36, in changes
-    tab = tabs[1]
-          ~~~~^^^
-IndexError: list index out of range
+fetched https://en.wikipedia.org/wiki/List_of_S%26P_500_companies 200 570566
+fetched https://en.wikipedia.org/w/api.php?action=parse&page=List_of_S%26P_500_companies&prop=text&format=json&formatversion=2 200 282847
+변경 표 못 찾음
