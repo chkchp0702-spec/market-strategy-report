@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02 15:35",
+ "at": "2026-11-02 16:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -12,25 +12,10 @@
    "why": "10월 외국인 코스피 −19.7조·오늘 −1.6조 — 「외국인 매도 멈춤」 watch 판정 숫자",
    "at": "2026-10-30 17:40"
   },
-  "HANAchina/71332": {
-   "lv": 1,
-   "why": "中 10월 제조업 PMI 49.3(예상 49.9) 50 하회 전환 — ideas 「PMI 전환월 아시아 ETF 필터」 첫 실측",
-   "at": "2026-11-01 22:35"
-  },
-  "n/DZZMUNxaldKTnhSa1VQMndXN0hmQjdSeWtBWTVKYV92VGpTU1dnSGNPOAoc5": {
-   "lv": 1,
-   "why": "골드만 「AI 지출 둔화로 S&P 이익 성장 둔화」 — 핵심 가설 AI 크레딧(0.88) 쪽 근거, 반도체 칸 추격 금지 유지",
-   "at": "2026-11-01 23:35"
-  },
   "n/swwwftcomcontentfdc9a85dd2c4465f99ca609d68b6d443syn25a6b1a61": {
    "lv": 1,
    "why": "FT: 정크본드 급락 「피바다」·채권자 회피 전술 — 크레딧 스트레스 확산, AI 크레딧 가설·watch 美 10년 5%와 연결",
    "at": "2026-11-02 00:35"
-  },
-  "n/yYm1HWkhGaENSTTlxMXlhMzBQcjkxTjVwZG14X0tUUER5aVF5STg4Umowoc5": {
-   "lv": 1,
-   "why": "11/4 재무부 분기 리펀딩 — 장기물 증액 여부가 「고금리 정점」 가설·10년 4.95% 판정과 직결",
-   "at": "2026-11-02 06:40"
   },
   "n/ndOTkQ3VjNJME9CUUF6VGZHdW8tOENBT29QZEowOE5oWU5oMUk2M2xmWgoc5": {
    "lv": 1,
@@ -42,80 +27,30 @@
    "why": "FT 「걸프, 美·이란 전쟁 재개 대비」 — 유가 120$ 근접, 대기 bet COP·진행 SU(에너지) 직결, 위험 회피 국면 연장 재료",
    "at": "2026-11-02 08:40"
   },
-  "n/1RkWU4tOTV2aU9XUDQyUkFQN2tWVGliQWpSTlBmaWZfR1FJRlZRV3F4Ygoc5": {
-   "lv": 1,
-   "why": "월가 「깜짝실적 크록스 재평가 시작」 — 오늘 시가 진입 대기 bet CROX(📈 PEAD 10/29 신호)와 같은 방향",
-   "at": "2026-11-02 08:40"
-  },
   "HANAchina/71368": {
    "lv": 1,
    "why": "키옥시아 개장 매도 잔량에 거래 불성립(하한가) — 한국 메모리(하닉·삼전)·반도체 ETF 091160 갭다운 연장 위험, 하닉 「추격 금지」 watch",
    "at": "2026-11-02 09:40"
-  },
-  "n/5V0d6VjNOdGVrOXh2UTVNYThmcml0QXVUYl8yaWJRalpuM0g1TTZmYmJhoc5": {
-   "lv": 1,
-   "why": "금리 상승이 원전 소형주(OKLO·SMR) 1주 −15% — 「고금리 정점」 가설(0.55)의 반대 증거, 11/4 리펀딩 판정과 직결",
-   "at": "2026-11-02 09:40"
-  },
-  "n/dBWGFidzN3RENSSkhPV3h5MnY3QWVGMk9oSm1YbDNWNFY5OFpEaDFZeFEoc5": {
-   "lv": 1,
-   "why": "코스피 −1.62% 출발 → 보합·장중 상승 전환 — 키옥시아 하한가에도 한국 반도체 갭 되메움, 09:40 아이디어(동종 대장주 하한가 날 091160 갭 되메움)의 첫 표본",
-   "at": "2026-11-02 10:40"
-  },
-  "n/261102foreignersmakerecordwithdrawalfromtaiwanstocksonairout": {
-   "lv": 1,
-   "why": "외국인 대만 주식 사상 최대 순매도(AI 투매) — 아시아 반도체 수급 반전 신호, 한국 반도체 ETF·AI 크레딧 가설(0.88)과 대조",
-   "at": "2026-11-02 10:40"
-  },
-  "n/httpskrinvestingcomnewscommoditiesnewsarticle2152690": {
-   "lv": 1,
-   "why": "트럼프 「중간선거 앞 이란과 외교 협상 선호」에 유가 하락 — 08:40 「걸프 전쟁 재개 대비」와 반대 재료, 오늘 시가 진입 대기 bet COP·진행 SU(에너지) 직결",
-   "at": "2026-11-02 11:35"
   },
   "n/261102oaktreeshowardmarkssaysaistumbleshaveboostedskepticism": {
    "lv": 1,
    "why": "하워드 마크스 「AI 헛디딤이 회의론 키움」 — AI 크레딧 가설(0.88) 보강, 반도체 칸 추격 금지 쪽",
    "at": "2026-11-02 12:40"
   },
-  "n/ms1alJUYzZZN1Q0TGFNTEk3MTBwbGhsZ0RHbDFQWlVyMnlvU2QzbFpERQoc5": {
-   "lv": 1,
-   "why": "모건스탠리 윌슨 「S&P 9% 하락 뒤 8,000 랠리」 — 단기 조정 폭 기준선, 현금·단기채 칸 대기 근거",
-   "at": "2026-11-02 12:40"
-  },
-  "n/httpskrinvestingcomnewseconomicindicatorsarticle2152785": {
-   "lv": 1,
-   "why": "한국 10월 제조업 PMI 8개월 최저 — 수출 1조$·반도체 쏠림 49%와 엇갈림, 외국인 매도·원화 watch 와 이어짐",
-   "at": "2026-11-02 13:40"
-  },
-  "n/NObEdncUhxRmZUUW1rSkM0V3Y4VlVsN1B2Wjl4aC12bDY4NzdnU1NVYmcoc5": {
-   "lv": 1,
-   "why": "美 재무부 발행 가이던스 3년 만 대개편 예고(11/4 리펀딩) — 고금리 정점 0.55·10년 4.95 판정 직결",
-   "at": "2026-11-02 13:40"
-  },
-  "n/NY2pMdnZPeTFSU1cyTFpaM0RELWxYX1lsRk1Sa2VicHJyYXN6MlU4dnJPoc5": {
-   "lv": 1,
-   "why": "코스피 −1%대 출발 → 기관 1조 매수로 +3% 반전 — 대만 기록 매도와 갈림, 한국 ETF vs 대만 상대강도 아이디어(10:40) 표본",
-   "at": "2026-11-02 14:35"
-  },
   "n/nJwM2w0RHU3M25Dc2FJRkUwU2hHQXlNeFNzM1ZxeGtTQWk0X0JFRmNRQQoc5": {
    "lv": 1,
    "why": "금값 1년 최저 뒤 반등 — 포트 금 칸·뼈대 금 규칙 점검 신호",
    "at": "2026-11-02 14:35"
   },
-  "n/ZUFhfczAtQUwyeWVkczFBenFvTTRNWWZ5b21laWQ4cGtzSGs0eEZPLU5Goc5": {
-   "lv": 1,
-   "why": "AI 크레딧 가설(0.88) 직격 — S&P 메타 전망 「부정적」(FCF 마이너스 전환), 빅테크 첫 신평사 경고",
-   "at": "2026-11-02 15:35"
-  },
-  "n/ySlgtencwU1ZvN3ZGdklrTjZZb0o1dkNSd3FnREhWSDdPcFlVNlkyZ3lOoc5": {
-   "lv": 1,
-   "why": "美 CCC 회사채 금리 18% 돌파 — 크레딧 스트레스가 정크 하단부터 번짐, AI 크레딧 가설·위험 회피 국면 근거",
-   "at": "2026-11-02 15:35"
-  },
   "HANAchina/71397": {
    "lv": 1,
    "why": "골드만 「NAND 공급 부족 2027년까지」 — 키옥시아 쇼크(가격 둔화)와 반대 판단, 091160 반도체 칸 되돌림 판단 재료",
    "at": "2026-11-02 15:35"
+  },
+  "n/1aFhjOUNoQ015NWRQaHhFQTBwQ2cyc3VBVlROSTB6S0Q2WHNRTjVuNUxnoc5": {
+   "lv": 1,
+   "why": "AI 크레딧 가설(0.88) 직격 — 엔비디아 등 칩 3사 메타 50억$ 투자, WSJ 「AI 순환 금융 손실 증폭」; 반도체 칸 추격 금지 근거",
+   "at": "2026-11-02 16:40"
   }
  }
 }

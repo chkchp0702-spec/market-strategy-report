@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아, 메타에 30억 달러 투자·Muse AI 협업 — 칩 회사가 고객에 돈을 대는 구조",
+   "url": "https://www.techspot.com/news/114352-meta-gets-3-billion-nvidia-companies-team-up.html",
+   "press": "TechSpot",
+   "at": "2026-11-02 16:40",
+   "why": "AI 크레딧 가설(0.88) — 공급사→고객 투자(순환 금융)가 커질수록 AI 수요의 질 의심, 반도체 칸 추격 금지 근거",
+   "summary": "엔비디아가 메타 주식 30억 달러 인수(10/27 보도). 11/2 국내 보도(gn_kr_global)는 WSJ 인용 「칩 3사 합계 50억 달러, 순환 금융이 손실 증폭 위험」. 3사 합계 숫자는 미확인."
+  },
+  {
+   "title": "메타, 테크 기업 사상 최대 규모 주식 발행 추진 보도",
+   "url": "https://blockspace.media/short/meta-seeks-the-largest-equity-offering-ever-for-a-tech-company/",
+   "press": "Blockspace",
+   "at": "2026-11-02 16:40",
+   "why": "AI 크레딧 — S&P 전망 부정적(10/30) 뒤 빚 대신 주식으로 조달 = 기존 주주 희석, 메가캡 AI 칸 리스크",
+   "summary": "메타가 대규모 주식 발행을 추진한다는 보도(엔비디아 등 전략 투자자 참여). 정확한 규모·날짜는 미확인 — 원문 확인 필요."
+  },
+  {
    "title": "S&P, 메타 신용등급 전망 「부정적」으로 하향 — AI 지출로 현금흐름 악화",
    "url": "https://thenextweb.com/news/meta-sp-outlook-negative-ai-spending",
    "press": "The Next Web",
@@ -623,23 +639,7 @@
    "at": "2026-10-30 09:35",
    "why": "위험 회피 확산 경로 — 크레딧·AI 차입 가설과 같은 방향, 미국 장 성장주 신호 거르기",
    "summary": "바이낸스가 해킹을 확인, 테더·서클 등이 25억 달러 이상 동결. 피해 규모 보도는 23.8억~58억 달러로 엇갈려 미확인. 비트코인 7.8만 달러대로 급락(investing_kr)."
-  },
-  {
-   "title": "바이낸스 해킹 공포에 가상자산 1시간 청산 6.28억 달러",
-   "url": "https://beincrypto.com/crypto-liquidations-binance-hack-fears/",
-   "press": "BeInCrypto",
-   "at": "2026-10-30 09:35",
-   "why": "레버리지 청산 연쇄가 미국 장 고베타 성장주(PLTR bet)로 번지는지 확인",
-   "summary": "해킹 우려 직후 1시간 동안 청산 6.28억 달러. 비트코인 7.9만 달러 아래."
-  },
-  {
-   "title": "BOJ 10월 미리보기: 「매파적 동결」 예상 — 물가 끈적",
-   "url": "https://finance.yahoo.com/economy/policy/articles/boj-preview-october-hawkish-hold-042012157.html",
-   "press": "Yahoo Finance",
-   "at": "2026-10-30 09:35",
-   "why": "오늘 15:30 JST 결정 — 엔 강세(157엔대)·아시아 장 변동성, 도쿄 근원물가 목표 상회(bbg_econ)",
-   "summary": "동결 우세지만 매파 신호 예상. 10월 도쿄 근원물가 BOJ 2% 목표 상회 지속. 결정 결과는 이 시점 미확인."
   }
  ],
- "at": "2026-11-02 15:35"
+ "at": "2026-11-02 16:40"
 }
