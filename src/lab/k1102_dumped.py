@@ -61,16 +61,23 @@ def changes():
             break
     if tab is None:
         raise SystemExit("변경 표 못 찾음")
-    rows = []
+    rows, last = [], None
     for tr in tab.find_all("tr"):
         td = [c.get_text(" ", strip=True) for c in tr.find_all(["td", "th"])]
-        if len(td) < 6:
-            continue
-        try:
-            d = pd.to_datetime(td[0])
-        except Exception:
+        d = None
+        if len(td) >= 6:
+            try:
+                d = pd.to_datetime(td[0])
+            except Exception:
+                d = None
+        if d is not None:
+            last = d
+        elif len(td) == 5 and last is not None:   # 날짜 칸 rowspan
+            td = [""] + td; d = last
+        else:
             continue
         rows.append({"date": d.strftime("%Y-%m-%d"), "add": td[1], "rem": td[3], "rem_name": td[4], "why": td[5][:160]})
+    print("rows parsed", len(rows), rows[:2])
     return rows
 
 
