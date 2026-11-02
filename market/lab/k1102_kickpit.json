@@ -1,0 +1,587 @@
+{
+ "at": "2026-11-02 14:25",
+ "from": "2008-07-01",
+ "to": "2026-10-30",
+ "log": {
+  "requested": 977,
+  "got": 664,
+  "failed_or_short": 313,
+  "n_ever": 977,
+  "n_dl": 659,
+  "n_today_dl": 498
+ },
+ "spy": {
+  "is": {
+   "cagr": 9.03,
+   "vol": 21.4,
+   "mdd": -47.2,
+   "sharpe": 0.51,
+   "ex": 0.0,
+   "win12": 0,
+   "beat_years": 0,
+   "years": 9
+  },
+  "oos": {
+   "cagr": 14.88,
+   "vol": 18.1,
+   "mdd": -33.7,
+   "sharpe": 0.86,
+   "ex": 0.0,
+   "win12": 0,
+   "beat_years": 0,
+   "years": 10
+  }
+ },
+ "rows": {
+  "E": {
+   "label": "E ETF 돌파만",
+   "fams": "E",
+   "kw": {},
+   "is": {
+    "cagr": 10.04,
+    "vol": 12.2,
+    "mdd": -15.6,
+    "sharpe": 0.84,
+    "ex": 1.01,
+    "win12": 23,
+    "beat_years": 1,
+    "years": 9,
+    "turn": 275
+   },
+   "oos": {
+    "cagr": 14.71,
+    "vol": 13.0,
+    "mdd": -17.6,
+    "sharpe": 1.12,
+    "ex": -0.17,
+    "win12": 43,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 334
+   },
+   "tr_is": {
+    "n": 172,
+    "avg": 2.2,
+    "win": 48,
+    "pf": 2.26
+   },
+   "tr_oos": {
+    "n": 232,
+    "avg": 2.44,
+    "win": 47,
+    "pf": 2.05
+   },
+   "sig_oos": {
+    "E": 2348,
+    "P": 0,
+    "C": 0
+   }
+  },
+  "EPC_102": {
+   "label": "E+P+C 오늘 102개(지금까지)",
+   "fams": "EPC",
+   "kw": {},
+   "is": {
+    "cagr": 10.67,
+    "vol": 12.8,
+    "mdd": -18.0,
+    "sharpe": 0.85,
+    "ex": 1.64,
+    "win12": 34,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 345
+   },
+   "oos": {
+    "cagr": 15.16,
+    "vol": 13.4,
+    "mdd": -20.2,
+    "sharpe": 1.12,
+    "ex": 0.27,
+    "win12": 47,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 392
+   },
+   "tr_is": {
+    "n": 252,
+    "avg": 2.04,
+    "win": 46,
+    "pf": 1.83
+   },
+   "tr_oos": {
+    "n": 312,
+    "avg": 2.34,
+    "win": 43,
+    "pf": 1.84
+   },
+   "sig_oos": {
+    "E": 2348,
+    "P": 237,
+    "C": 848
+   }
+  },
+  "EPC_today": {
+   "label": "E+P+C 오늘 S&P500 종목 전체기간",
+   "fams": "EPC",
+   "kw": {},
+   "is": {
+    "cagr": 9.76,
+    "vol": 13.1,
+    "mdd": -21.3,
+    "sharpe": 0.78,
+    "ex": 0.73,
+    "win12": 25,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 362
+   },
+   "oos": {
+    "cagr": 14.39,
+    "vol": 13.6,
+    "mdd": -16.8,
+    "sharpe": 1.06,
+    "ex": -0.49,
+    "win12": 52,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 432
+   },
+   "tr_is": {
+    "n": 274,
+    "avg": 1.36,
+    "win": 36,
+    "pf": 1.37
+   },
+   "tr_oos": {
+    "n": 365,
+    "avg": 1.57,
+    "win": 39,
+    "pf": 1.47
+   },
+   "sig_oos": {
+    "E": 2348,
+    "P": 1188,
+    "C": 3949
+   }
+  },
+  "EPC_pit": {
+   "label": "E+P+C 그날 구성 종목",
+   "fams": "EPC",
+   "kw": {},
+   "is": {
+    "cagr": 10.77,
+    "vol": 13.0,
+    "mdd": -20.8,
+    "sharpe": 0.85,
+    "ex": 1.75,
+    "win12": 46,
+    "beat_years": 4,
+    "years": 9,
+    "turn": 366
+   },
+   "oos": {
+    "cagr": 13.49,
+    "vol": 13.5,
+    "mdd": -19.8,
+    "sharpe": 1.01,
+    "ex": -1.4,
+    "win12": 36,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 416
+   },
+   "tr_is": {
+    "n": 276,
+    "avg": 2.11,
+    "win": 47,
+    "pf": 1.69
+   },
+   "tr_oos": {
+    "n": 345,
+    "avg": 0.93,
+    "win": 36,
+    "pf": 1.26
+   },
+   "sig_oos": {
+    "E": 2348,
+    "P": 1010,
+    "C": 3829
+   }
+  },
+  "EP_pit": {
+   "label": "E+P 그날 구성 종목",
+   "fams": "EP",
+   "kw": {},
+   "is": {
+    "cagr": 10.66,
+    "vol": 12.8,
+    "mdd": -17.5,
+    "sharpe": 0.85,
+    "ex": 1.63,
+    "win12": 36,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 334
+   },
+   "oos": {
+    "cagr": 14.91,
+    "vol": 13.5,
+    "mdd": -21.3,
+    "sharpe": 1.1,
+    "ex": 0.03,
+    "win12": 47,
+    "beat_years": 6,
+    "years": 10,
+    "turn": 387
+   },
+   "tr_is": {
+    "n": 239,
+    "avg": 2.16,
+    "win": 43,
+    "pf": 1.8
+   },
+   "tr_oos": {
+    "n": 304,
+    "avg": 2.23,
+    "win": 42,
+    "pf": 1.73
+   },
+   "sig_oos": {
+    "E": 2348,
+    "P": 1010,
+    "C": 0
+   }
+  },
+  "EC_pit": {
+   "label": "E+C 그날 구성 종목",
+   "fams": "EC",
+   "kw": {},
+   "is": {
+    "cagr": 10.0,
+    "vol": 13.0,
+    "mdd": -20.0,
+    "sharpe": 0.8,
+    "ex": 0.97,
+    "win12": 34,
+    "beat_years": 4,
+    "years": 9,
+    "turn": 354
+   },
+   "oos": {
+    "cagr": 13.71,
+    "vol": 13.5,
+    "mdd": -20.0,
+    "sharpe": 1.02,
+    "ex": -1.17,
+    "win12": 43,
+    "beat_years": 6,
+    "years": 10,
+    "turn": 404
+   },
+   "tr_is": {
+    "n": 262,
+    "avg": 1.55,
+    "win": 43,
+    "pf": 1.48
+   },
+   "tr_oos": {
+    "n": 330,
+    "avg": 1.21,
+    "win": 37,
+    "pf": 1.34
+   },
+   "sig_oos": {
+    "E": 2348,
+    "P": 0,
+    "C": 3829
+   }
+  },
+  "PC_pit": {
+   "label": "P+C 만 그날 구성 종목",
+   "fams": "PC",
+   "kw": {},
+   "is": {
+    "cagr": 10.66,
+    "vol": 13.0,
+    "mdd": -20.4,
+    "sharpe": 0.84,
+    "ex": 1.64,
+    "win12": 43,
+    "beat_years": 4,
+    "years": 9,
+    "turn": 368
+   },
+   "oos": {
+    "cagr": 13.51,
+    "vol": 13.6,
+    "mdd": -20.5,
+    "sharpe": 1.0,
+    "ex": -1.37,
+    "win12": 35,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 447
+   },
+   "tr_is": {
+    "n": 278,
+    "avg": 2.09,
+    "win": 44,
+    "pf": 1.61
+   },
+   "tr_oos": {
+    "n": 387,
+    "avg": 0.91,
+    "win": 34,
+    "pf": 1.24
+   },
+   "sig_oos": {
+    "E": 0,
+    "P": 1010,
+    "C": 3829
+   }
+  },
+  "E_vw": {
+   "label": "지금 킥 대용(ETF 돌파·변동성 맞춤 자리 — 지난 밤들 기준)",
+   "is": {
+    "cagr": 10.04,
+    "vol": 12.2,
+    "mdd": -15.6,
+    "sharpe": 0.84,
+    "ex": 1.01,
+    "win12": 23,
+    "beat_years": 1,
+    "years": 9,
+    "turn": 275
+   },
+   "oos": {
+    "cagr": 14.71,
+    "vol": 13.0,
+    "mdd": -17.6,
+    "sharpe": 1.12,
+    "ex": -0.17,
+    "win12": 43,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 334
+   }
+  }
+ },
+ "shake": [
+  {
+   "what": "실적 갭 4%",
+   "is": {
+    "cagr": 10.89,
+    "vol": 13.0,
+    "mdd": -20.6,
+    "sharpe": 0.86,
+    "ex": 1.87,
+    "win12": 46,
+    "beat_years": 4,
+    "years": 9,
+    "turn": 364
+   },
+   "oos": {
+    "cagr": 13.63,
+    "vol": 13.5,
+    "mdd": -19.8,
+    "sharpe": 1.01,
+    "ex": -1.25,
+    "win12": 40,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 424
+   },
+   "tr_oos": {
+    "n": 355,
+    "avg": 1.02,
+    "win": 36,
+    "pf": 1.29
+   }
+  },
+  {
+   "what": "실적 갭 6%",
+   "is": {
+    "cagr": 10.86,
+    "vol": 13.0,
+    "mdd": -20.5,
+    "sharpe": 0.86,
+    "ex": 1.84,
+    "win12": 44,
+    "beat_years": 4,
+    "years": 9,
+    "turn": 353
+   },
+   "oos": {
+    "cagr": 13.55,
+    "vol": 13.5,
+    "mdd": -19.7,
+    "sharpe": 1.01,
+    "ex": -1.34,
+    "win12": 37,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 425
+   },
+   "tr_oos": {
+    "n": 358,
+    "avg": 1.01,
+    "win": 35,
+    "pf": 1.28
+   }
+  },
+  {
+   "what": "컵 손잡이 3일",
+   "is": {
+    "cagr": 10.43,
+    "vol": 13.1,
+    "mdd": -21.8,
+    "sharpe": 0.83,
+    "ex": 1.41,
+    "win12": 38,
+    "beat_years": 5,
+    "years": 9,
+    "turn": 378
+   },
+   "oos": {
+    "cagr": 13.7,
+    "vol": 13.6,
+    "mdd": -20.0,
+    "sharpe": 1.02,
+    "ex": -1.18,
+    "win12": 38,
+    "beat_years": 4,
+    "years": 10,
+    "turn": 440
+   },
+   "tr_oos": {
+    "n": 378,
+    "avg": 0.97,
+    "win": 37,
+    "pf": 1.28
+   }
+  },
+  {
+   "what": "컵 손잡이 5일",
+   "is": {
+    "cagr": 10.59,
+    "vol": 12.9,
+    "mdd": -19.4,
+    "sharpe": 0.84,
+    "ex": 1.56,
+    "win12": 36,
+    "beat_years": 3,
+    "years": 9,
+    "turn": 356
+   },
+   "oos": {
+    "cagr": 13.96,
+    "vol": 13.5,
+    "mdd": -20.3,
+    "sharpe": 1.04,
+    "ex": -0.92,
+    "win12": 36,
+    "beat_years": 4,
+    "years": 10,
+    "turn": 431
+   },
+   "tr_oos": {
+    "n": 365,
+    "avg": 1.2,
+    "win": 38,
+    "pf": 1.35
+   }
+  },
+  {
+   "what": "거래 1.6배",
+   "is": {
+    "cagr": 10.83,
+    "vol": 13.0,
+    "mdd": -20.9,
+    "sharpe": 0.86,
+    "ex": 1.81,
+    "win12": 42,
+    "beat_years": 4,
+    "years": 9,
+    "turn": 365
+   },
+   "oos": {
+    "cagr": 13.38,
+    "vol": 13.4,
+    "mdd": -19.8,
+    "sharpe": 1.0,
+    "ex": -1.5,
+    "win12": 37,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 406
+   },
+   "tr_oos": {
+    "n": 331,
+    "avg": 0.92,
+    "win": 37,
+    "pf": 1.26
+   }
+  },
+  {
+   "what": "거래 2.4배",
+   "is": {
+    "cagr": 11.02,
+    "vol": 13.0,
+    "mdd": -20.8,
+    "sharpe": 0.87,
+    "ex": 1.99,
+    "win12": 48,
+    "beat_years": 4,
+    "years": 9,
+    "turn": 358
+   },
+   "oos": {
+    "cagr": 13.09,
+    "vol": 13.4,
+    "mdd": -19.9,
+    "sharpe": 0.98,
+    "ex": -1.8,
+    "win12": 35,
+    "beat_years": 5,
+    "years": 10,
+    "turn": 424
+   },
+   "tr_oos": {
+    "n": 356,
+    "avg": 0.67,
+    "win": 35,
+    "pf": 1.18
+   }
+  }
+ ],
+ "E_minus_EPCpit": {
+  "cagr_is": -0.73,
+  "cagr_oos": 1.22,
+  "sharpe_is": -0.01,
+  "sharpe_oos": 0.11,
+  "shake_cagr_oos": [
+   1.08,
+   1.16,
+   1.01,
+   0.75,
+   1.33,
+   1.62
+  ],
+  "shake_sharpe_oos": [
+   0.11,
+   0.11,
+   0.1,
+   0.08,
+   0.12,
+   0.14
+  ]
+ },
+ "bias_102_minus_pit": {
+  "cagr_is": -0.1,
+  "cagr_oos": 1.67
+ },
+ "verdict": "➖ 뒤에서만 나음",
+ "sec": 240,
+ "note": "틀 = k1028_order(C안 뼈대 + 변동성 맞춤 · 킥 칸 19% · 같은 순위) · PIT = fja05680/sp500 날짜별 구성 종목, 상장폐지 종목은 yfinance 에 없어 아직 위로 치우침 · 실제 킥의 다른 신호(lead·고래 등)는 못 넣음 · 매수 추천 아님"
+}
