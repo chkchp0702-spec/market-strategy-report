@@ -42,17 +42,28 @@ def changes():
         soup = BeautifulSoup(h, "html.parser")
         tab = soup.find("table", {"id": "changes"})
         if tab is None:
-            for tb in soup.find_all("table"):
-                tx = tb.get_text(" ")[:3000]
-                if "Removed" in tx and "Reason" in tx:
-                    tab = tb; break
+            tbs = soup.find_all("table")
+            for i, tb in enumerate(tbs):
+                print("table", i, len(tb.find_all("tr")), "rows |", tb.get_text(" ", strip=True)[:200])
+            best_n = 0
+            for tb in tbs:
+                n = 0
+                for tr in tb.find_all("tr")[:40]:
+                    c = tr.find_all(["td", "th"])
+                    if len(c) >= 5:
+                        try:
+                            pd.to_datetime(c[0].get_text(" ", strip=True)); n += 1
+                        except Exception:
+                            pass
+                if n > best_n and n >= 10:
+                    best_n, tab = n, tb
         if tab is not None:
             break
     if tab is None:
         raise SystemExit("변경 표 못 찾음")
     rows = []
     for tr in tab.find_all("tr"):
-        td = [c.get_text(" ", strip=True) for c in tr.find_all("td")]
+        td = [c.get_text(" ", strip=True) for c in tr.find_all(["td", "th"])]
         if len(td) < 6:
             continue
         try:
