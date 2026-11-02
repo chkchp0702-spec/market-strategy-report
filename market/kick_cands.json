@@ -5254,6 +5254,125 @@
 "src": "cup_eye",
 "score": 64.3,
 "lv": 1292.79
+},
+"AR|2026-11-02": {
+"code": "AR",
+"name": "Antero Resources Corporation Common St",
+"mkt": "US",
+"d": "2026-11-02",
+"src": "cup",
+"score": 66.5,
+"lv": 39.29,
+"max20": 6.1,
+"id60": -0.117
+},
+"WST|2026-11-02": {
+"code": "WST",
+"name": "West Pharmaceutical Services, Inc. Com",
+"mkt": "US",
+"d": "2026-11-02",
+"src": "cup",
+"score": 55.2,
+"lv": 383.09,
+"max20": 3.2,
+"id60": -0.1,
+"agree": [
+"📊"
+]
+},
+"PBA|2026-11-02": {
+"code": "PBA",
+"name": "Pembina Pipeline Corp. Ordinary Shares",
+"mkt": "US",
+"d": "2026-11-02",
+"src": "cup",
+"score": 49.1,
+"lv": 51.11,
+"max20": 4.0,
+"id60": -0.083
+},
+"MDT|2026-11-02": {
+"code": "MDT",
+"name": "Medtronic plc. Ordinary Shares",
+"mkt": "US",
+"d": "2026-11-02",
+"src": "cup",
+"score": 48.0,
+"lv": 96.6,
+"max20": 3.9,
+"id60": 0.0
+},
+"BHC|2026-10-31|e": {
+"code": "BHC",
+"name": "Bausch Health Companies Inc. Common St",
+"mkt": "US",
+"d": "2026-10-31",
+"src": "earn",
+"score": 75.6,
+"lv": 7.08
+},
+"REGN|2026-10-31|e": {
+"code": "REGN",
+"name": "Regeneron Pharmaceuticals, Inc. - Comm",
+"mkt": "US",
+"d": "2026-10-31",
+"src": "earn",
+"score": 68.6,
+"lv": 859.34
+},
+"GDYN|2026-10-31|e": {
+"code": "GDYN",
+"name": "Grid Dynamics Holdings, Inc. - Class A",
+"mkt": "US",
+"d": "2026-10-31",
+"src": "earn",
+"score": 67.8,
+"lv": 9.63
+},
+"OPRT|2026-11-02|e": {
+"code": "OPRT",
+"name": "Oportun Financial Corporation - common",
+"mkt": "US",
+"d": "2026-11-02",
+"src": "earn",
+"score": 77.6,
+"lv": 6.46
+},
+"MTW|2026-11-02|e": {
+"code": "MTW",
+"name": "Manitowoc Company, Inc. (The) Common S",
+"mkt": "US",
+"d": "2026-11-02",
+"src": "earn",
+"score": 70.0,
+"lv": 14.83
+},
+"EHC|2026-11-02|e": {
+"code": "EHC",
+"name": "Encompass Health Corporation Common St",
+"mkt": "US",
+"d": "2026-11-02",
+"src": "earn",
+"score": 69.2,
+"lv": 129.96
+},
+"CLF|2026-11-02|e": {
+"code": "CLF",
+"name": "Cleveland-Cliffs Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-02",
+"src": "earn",
+"score": 50.0,
+"lv": 13.22
+},
+"GO|2026-11-02|e": {
+"code": "GO",
+"name": "Grocery Outlet Holding Corp. - Common ",
+"mkt": "US",
+"d": "2026-11-02",
+"src": "earn",
+"score": 45.8,
+"lv": 10.58
 }
 },
 "sent": [
