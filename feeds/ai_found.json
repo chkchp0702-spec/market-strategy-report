@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "AI 광통신 일제 매도에 루멘텀 하락",
+   "url": "https://www.tikr.com/blog/widespread-ai-photonics-selloff-drags-down-lumentum-stock",
+   "press": "TIKR",
+   "at": "2026-11-03 08:35",
+   "why": "마벨의 루멘텀 인수설(10/29 마벨 −13%) 뒤 광통신 업종 전반 매도 — COHR·AAOI 상향과 엇갈림, 반도체 확산 여부 관찰",
+   "summary": "인수 프리미엄·희석·규제 우려로 마벨 하루 시총 290억$ 증발(fourweekmba), 광통신 동반 약세."
+  },
+  {
    "title": "팔란티어, 3분기 호실적 뒤 연간 가이던스 상향 — 시간외 강세",
    "url": "https://seekingalpha.com/news/4662192-palantir-perks-up-as-it-boosts-full-year-forecast-after-stellar-q3-results",
    "press": "Seeking Alpha",
@@ -631,14 +639,6 @@
    "at": "2026-10-30 23:55",
    "why": "🧠 「다음 약한 고리는 AI 차입」 가설(0.8)의 계기판 — 주식 매도와 크레딧 스트레스가 같이 가는지",
    "summary": "오라클·엔비디아·알파벳 CDS 프리미엄 사상 최고 보도(날짜·수치 미확인). 같은 날 블룸버그 「AI Debt Fears Hit Fresh Record Highs」."
-  },
-  {
-   "title": "AI 신용 우려로 기술주 부도보험료 사상 최고",
-   "url": "https://cryptobriefing.com/tech-credit-risk-hits-highs-ai-debt/",
-   "press": "Crypto Briefing",
-   "at": "2026-10-30 23:55",
-   "why": "크레딧 가설 근거 보강 — 빅테크 채권 공급 급증과 이익 우려",
-   "summary": "빅테크 CDS 거래·가격 동반 급등, AI 차입 물량이 원인으로 지목(세부 숫자 미확인)."
   }
  ],
  "at": "2026-11-03 05:45"
