@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02 19:40",
+ "at": "2026-11-02 20:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -66,6 +66,16 @@
    "lv": 1,
    "why": "AI 크레딧 가설(0.88) 보강 — 오픈AI 펀딩 목표 200억$로 축소, AI 자금 조달 줄이 마른다",
    "at": "2026-11-02 19:40"
+  },
+  "n/httpwwwedailycokrnewsnewspathaspnewsid04939686645641784": {
+   "lv": 1,
+   "why": "AI 크레딧 가설(0.88) 보강 — S&P, 메타 신용전망 「부정적」 하향(AI capex로 현금흐름 악화) · 🐋 META 신호 종목",
+   "at": "2026-11-02 20:40"
+  },
+  "n/escitigivinguponthisbigtechtrade181b0deamodmw_rss_topstories": {
+   "lv": 1,
+   "why": "AI 크레딧·반도체 추격 금지 쪽 — 씨티, 하이퍼스케일러 롱 베팅 접음(같은 날 AI 매출 추정은 상향 = IB 갈림)",
+   "at": "2026-11-02 20:40"
   }
  }
 }
