@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "S&P, 메타 신용등급 전망 「부정적」으로 하향 — AI 지출로 현금흐름 악화",
+   "url": "https://thenextweb.com/news/meta-sp-outlook-negative-ai-spending",
+   "press": "The Next Web",
+   "at": "2026-11-02 15:35",
+   "why": "AI 크레딧 가설(0.88) — 빅테크 신용 경고가 신평사 공식 조치로, AI 소프트웨어·반도체 칸 리스크",
+   "summary": "S&P 가 AI 설비투자 확대로 자유현금흐름이 마이너스로 돌아설 수 있다며 메타 등급 전망을 안정적→부정적(10/30, Reuters 계열 보도). 같은 주 JP모건 메타 「중립」 하향. 세부 숫자는 원문 확인."
+  },
+  {
+   "title": "골드만, NAND 타이트 2028년까지 — 키옥시아 목표가 거의 두 배",
+   "url": "https://borecraft.com/?p=16006",
+   "press": "borecraft",
+   "at": "2026-11-02 15:35",
+   "why": "키옥시아 낸드 가격 둔화 쇼크와 반대 판단 — 한국 반도체 칸(091160) 되돌림 여부 재료",
+   "summary": "골드만이 NAND 공급 부족이 2027~2028년까지 이어진다고 보고 삼성·SK하이닉스 지지(HANAchina 11/2). 발표 날짜·목표가 숫자는 원문 확인 필요(미확인)."
+  },
+  {
    "title": "앨버타·연방정부·오일샌드 업체 「패스웨이즈」 합의 — 증산과 탄소포집 연계",
    "url": "https://www.ctvnews.ca/business/article/alberta-ottawa-and-oilsands-companies-reach-pathways-agreement/",
    "press": "CTV News",
@@ -623,23 +639,7 @@
    "at": "2026-10-30 09:35",
    "why": "오늘 15:30 JST 결정 — 엔 강세(157엔대)·아시아 장 변동성, 도쿄 근원물가 목표 상회(bbg_econ)",
    "summary": "동결 우세지만 매파 신호 예상. 10월 도쿄 근원물가 BOJ 2% 목표 상회 지속. 결정 결과는 이 시점 미확인."
-  },
-  {
-   "title": "리오틴토, 몽골 오유톨고이 지하 구리광산 지진성 사고로 가동 중단",
-   "url": "https://www.mining.com/web/rio-tinto-pauses-oyu-tolgoi-underground-copper-mine-after-seismic-event/",
-   "press": "MINING.COM",
-   "at": "2026-10-30 08:35",
-   "why": "구리 공급 충격 — 우리 칸엔 구리 노출 없음, 구리·광산 ETF 신호 생기면 근거",
-   "summary": "세계 최대급 신규 구리광산 지하 작업 중단(10/29 발표). 재개 시점·생산 영향 규모는 미확인. HANAchina 「中 구리 선행지표 양산 프리미엄」과 같은 방향."
-  },
-  {
-   "title": "CENTCOM, 이란 공격 새 옵션 마련 — 트럼프, 중간선거 뒤 확전 저울질",
-   "url": "https://thenationaldesk.com/news/americas-news-now/centcom-drafts-new-iran-strike-options-as-trump-weighs-post-midterm-escalation-president-oil-strait-hormuz",
-   "press": "The National Desk",
-   "at": "2026-10-30 07:35",
-   "why": "에너지 칸·SU bet·OXY 🎯 — 공격 시점이 선거(11/3) 뒤로 밀리는지가 유가 1주 방향을 가른다",
-   "summary": "중부사령부가 이란 에너지 시설·미사일 겨냥 새 타격 옵션을 마련, 호르무즈 해협 위험 언급. 트럼프는 10/9 중간선거 전 공격 배제(Malay Mail). 기사 날짜 정확한 시각은 미확인."
   }
  ],
- "at": "2026-11-02 03:40"
+ "at": "2026-11-02 15:35"
 }
