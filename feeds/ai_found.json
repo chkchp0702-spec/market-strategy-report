@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "오라클 장중 −4% — 100억$ 회사채 발행이 AI 부채 걱정 되살려, 코어위브 +2%",
+   "url": "https://247wallst.com/investing/2026/11/02/oracle-declines-4-as-10-billion-bond-sale-revives-ai-debt-worries-coreweave-advances-2-microsoft-holds-steady/",
+   "press": "24/7 Wall St.",
+   "at": "2026-11-02 23:40",
+   "why": "AI 크레딧 가설(0.89) — 하이퍼스케일러 자금 조달이 채권에서 주식(희석)까지 번짐, 반도체 칸 추격 금지 쪽",
+   "summary": "ORCL 125.43$(−4%, 연초 대비 −33%) · 1분기(FY27) FCF −54억$·이자비용 14억$(+55%)·RPO 6,640억$ · 연초 250억$ 채권·200억$ 주식 프로그램에 이어 추가"
+  },
+  {
+   "title": "오라클, 보통주 100억$ 매각 신고",
+   "url": "https://www.newsquawk.com/headlines/oracle-orcl-filed-to-sell-usd-10bln-of-common-stock",
+   "press": "Newsquawk",
+   "at": "2026-11-02 23:40",
+   "why": "빚 대신 주식 = 크레딧 시장 한도 신호 — 마벨-루멘텀 전액 주식 인수와 같은 흐름(차입 회피)",
+   "summary": "11/2 장전 보통주 100억$ 신고 · 같은 날 투자등급 달러채 100억$ 별도(블룸버그) · 총 200억$"
+  },
+  {
    "title": "마벨, 루멘텀을 전액 주식 1,150억$에 인수 — 주당 1,132$, 소문 전 대비 +23.9%",
    "url": "https://www.globalbankingandfinance.com/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet/",
    "press": "Global Banking & Finance(로이터 인용)",
@@ -623,22 +639,6 @@
    "at": "2026-10-30 17:40",
    "why": "킥 USO·DBC·에너지 칸 — IB 유가 전망 기준선(게시 날짜 미확인)",
    "summary": "HSBC 2026 브렌트 평균 95달러로 상향(호르무즈 봉쇄 가정) · 골드만은 봉쇄 한 달 더 이어지면 100달러 위 유지 전망(yahoo, 날짜 미확인)"
-  },
-  {
-   "title": "이란 해군, 유조선 화재 뒤 호르무즈 동쪽 기뢰 확인",
-   "url": "https://247wallst.com/cards/xpost-01m5yq8s7cvpdrdh9ewem2v7br",
-   "press": "24/7 Wall St.",
-   "at": "2026-10-30 16:40",
-   "why": "킥 보유 USO·DBC 와 🎯 OXY — 기뢰 헤드라인이 10/17·10/20·10/30 반복",
-   "summary": "이란 측 기뢰 존재 확인 보도(게시 시각 미확인) · CNBC 10/30: 이란 「유조선 4척 기뢰 피격」 주장, 미국 「항로 정리됨」과 충돌"
-  },
-  {
-   "title": "BofA 하트넷, 주식 버블 위험 재경고",
-   "url": "https://www.bloomberglinea.com/mercados/hartnett-de-bofa-vuelve-a-alertar-sobre-el-riesgo-creciente-de-una-burbuja-bursatil/",
-   "press": "Bloomberg Línea",
-   "at": "2026-10-30 16:40",
-   "why": "피드 「BofA, 닷컴 직전과 같은 버블 경고」(10/30)와 같은 흐름 — AI 차입·크레딧 가설 보강",
-   "summary": "BofA 「닷컴 붕괴 전 신호와 같은 버블 경고」(피드 헤드라인, 수치 미확인) · 알파벳 −11%대 capex 쇼크 직후"
   }
  ],
  "at": "2026-11-02 20:40"
