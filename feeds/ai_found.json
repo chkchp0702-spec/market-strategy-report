@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "베이징, 기술주 급락 뒤 증시 안정 조치 착수",
+   "url": "https://scmp.com/business/banking-finance/article/3370506/beijing-moves-steady-share-market-after-sharp-tech-sell",
+   "press": "SCMP",
+   "at": "2026-11-02 09:40",
+   "why": "중국 A주 급락 뒤 인민은행·증감회 11/2 회의 — 홍콩·중국 ETF(2800.HK·FXI) 「보도일 vs 발표일」 반응 채점(ideas 11/02 02:35)과 직결",
+   "summary": "기술주 급락 뒤 당국이 시장 안정 수단 사용을 논의. 구체 규모는 발표 전(미확인)."
+  },
+  {
+   "title": "중국 증감회, 시장 안정 회의 개최 — 관영 매체",
+   "url": "https://www.thestandard.com.hk/finance/article/337650/China-securities-regulator-to-hold-market-stability-meeting-state-media-reports",
+   "press": "The Standard",
+   "at": "2026-11-02 09:40",
+   "why": "같은 사건 두 번째 출처 — 부양 발표 시 아시아 위험 회피 완화 여부(한국 개장 −1.6%) 확인용",
+   "summary": "증감회가 시장 안정 회의를 연다고 관영 매체 보도. 내용은 발표 뒤 확인."
+  },
+  {
    "title": "모건스탠리: 반도체주 지지선은 지금보다 최대 15% 아래일 수 있다",
    "url": "https://qz.com/morgan-stanley-chip-stocks-support-15-percent-lower-102626",
    "press": "Quartz",
@@ -623,22 +639,6 @@
    "at": "2026-10-30 00:50",
    "why": "AI 소프트웨어 칸 — 기술주만 빠지고 나머지는 버티는 「좁은 하락」인지 확인용",
    "summary": "나스닥 약세·다우 상대 강세(제목 기준). 세부 숫자 미확인."
-  },
-  {
-   "title": "아마존 3분기 실적 미리보기 — capex 전망·잉여현금흐름이 관건, AWS가 실적 좌우",
-   "url": "https://www.itiger.com/news/1131532249",
-   "press": "Tiger Brokers",
-   "at": "2026-10-29 23:45",
-   "why": "크레딧(AI 차입) 가설·「capex·현금흐름 방향이 실적일 반응을 가른다」 아이디어 — 오늘 밤 아마존이 남은 빅테크 시험",
-   "summary": "핵심 포인트: capex 가이던스와 FCF, AWS 성장률. 세부 숫자는 원문 확인(미확인)."
-  },
-  {
-   "title": "아마존 3분기 실적 프리뷰(페퍼스톤)",
-   "url": "https://pepperstone.com/en/insights/market-analysis/equities/amazon-q3-2026-earnings-preview",
-   "press": "Pepperstone",
-   "at": "2026-10-29 23:45",
-   "why": "알파벳 −13% 다음 날 AI 투자 심리 — 아마존 반응이 나스닥·반도체 칸 방향 결정",
-   "summary": "옵션 내재 변동·컨센 세부치는 미확인 — 발표 뒤 D+1 반응으로 채점."
   }
  ],
  "at": "2026-11-02 03:40"

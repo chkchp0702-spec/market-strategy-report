@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02 08:40",
+ "at": "2026-11-02 09:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -12,35 +12,10 @@
    "why": "10월 외국인 코스피 −19.7조·오늘 −1.6조 — 「외국인 매도 멈춤」 watch 판정 숫자",
    "at": "2026-10-30 17:40"
   },
-  "kimu_nim/47733": {
-   "lv": 1,
-   "why": "AI 크레딧 가설(0.85) 직격 — 블랙스톤 「앤트로픽 상장 뒤 투자등급 어려움」, AI 차입 비용 상승",
-   "at": "2026-10-31 02:35"
-  },
-  "kimu_nim/47741": {
-   "lv": 1,
-   "why": "이란-카타르 12시간 협상 「긍정적 진전」 — COP 대기·SU 진행 에너지 bets 반대 재료, 월요일 유가 갭",
-   "at": "2026-10-31 18:40"
-  },
-  "HANAchina/71313": {
-   "lv": 1,
-   "why": "韓 10월 수출 +93.7%(컨센 +88.6%)·DRAM 수출 338억$ — 코스피 10월 −16%와 엇갈린 숫자, 반도체 칸·한국 ETF(091160) 반등 근거",
-   "at": "2026-11-01 22:35"
-  },
   "HANAchina/71332": {
    "lv": 1,
    "why": "中 10월 제조업 PMI 49.3(예상 49.9) 50 하회 전환 — ideas 「PMI 전환월 아시아 ETF 필터」 첫 실측",
    "at": "2026-11-01 22:35"
-  },
-  "HANAchina/71316": {
-   "lv": 1,
-   "why": "이란, 韓 Sinokor(해역 VLCC 절반↑) 전 선박 11/1부터 조치 경고 — 유조선 운임·유가, COP bet(11/2 시가)·에너지 칸",
-   "at": "2026-11-01 22:35"
-  },
-  "n/20261101mikewilsonsaysbuystockdipregardlessofwhowinsmidterms": {
-   "lv": 1,
-   "why": "모건스탠리 윌슨 「선거 결과와 무관하게 정리 이벤트 뒤 저가 매수」 — 위험 회피 국면의 반대 신호, 선거 뒤 SPY 반등 아이디어(10/31 19:40)와 연결",
-   "at": "2026-11-01 23:35"
   },
   "n/DZZMUNxaldKTnhSa1VQMndXN0hmQjdSeWtBWTVKYV92VGpTU1dnSGNPOAoc5": {
    "lv": 1,
@@ -51,21 +26,6 @@
    "lv": 1,
    "why": "FT: 정크본드 급락 「피바다」·채권자 회피 전술 — 크레딧 스트레스 확산, AI 크레딧 가설·watch 美 10년 5%와 연결",
    "at": "2026-11-02 00:35"
-  },
-  "n/d4dFJtb0JaeXpjX2otZnZlU0ZBRjh5MllKbzZIc2RnSVJlR2dJWDRDOHAoc5": {
-   "lv": 1,
-   "why": "중국 증시 부양 회의 보도 — 홍콩·중국 ETF 반등 재료, 기대 보도일과 실제 발표 반응 구분",
-   "at": "2026-11-02 02:35"
-  },
-  "n/TA0UjVXa2x0azZEYXRSTlJvUmVDazV6OHBoOVJHWlVCN3JETXpQUVFQUQoc5": {
-   "lv": 1,
-   "why": "AI 크레딧 가설(0.88) — 빅테크 AI 비용이 이익을 앞질러 채권시장 시험대, 이번 주 실적·고용과 함께 확인",
-   "at": "2026-11-02 04:40"
-  },
-  "n/m84cUpfVGpuQ0VmaGNsZUlxUVQ0dk4zQUE2cWFzUk8yM1R3cjc3dEczVwoc5": {
-   "lv": 1,
-   "why": "AI 크레딧 가설(0.88) — 오픈AI 300억$ 목표 절반 못 채움 = AI 자금줄 마름 신호",
-   "at": "2026-11-02 05:45"
   },
   "n/yYm1HWkhGaENSTTlxMXlhMzBQcjkxTjVwZG14X0tUUER5aVF5STg4Umowoc5": {
    "lv": 1,
@@ -86,6 +46,16 @@
    "lv": 1,
    "why": "월가 「깜짝실적 크록스 재평가 시작」 — 오늘 시가 진입 대기 bet CROX(📈 PEAD 10/29 신호)와 같은 방향",
    "at": "2026-11-02 08:40"
+  },
+  "HANAchina/71368": {
+   "lv": 1,
+   "why": "키옥시아 개장 매도 잔량에 거래 불성립(하한가) — 한국 메모리(하닉·삼전)·반도체 ETF 091160 갭다운 연장 위험, 하닉 「추격 금지」 watch",
+   "at": "2026-11-02 09:40"
+  },
+  "n/5V0d6VjNOdGVrOXh2UTVNYThmcml0QXVUYl8yaWJRalpuM0g1TTZmYmJhoc5": {
+   "lv": 1,
+   "why": "금리 상승이 원전 소형주(OKLO·SMR) 1주 −15% — 「고금리 정점」 가설(0.55)의 반대 증거, 11/4 리펀딩 판정과 직결",
+   "at": "2026-11-02 09:40"
   }
  }
 }
