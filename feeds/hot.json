@@ -1,5 +1,5 @@
 {
- "at": "2026-11-02 18:40",
+ "at": "2026-11-02 19:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -47,21 +47,6 @@
    "why": "골드만 「NAND 공급 부족 2027년까지」 — 키옥시아 쇼크(가격 둔화)와 반대 판단, 091160 반도체 칸 되돌림 판단 재료",
    "at": "2026-11-02 15:35"
   },
-  "n/1aFhjOUNoQ015NWRQaHhFQTBwQ2cyc3VBVlROSTB6S0Q2WHNRTjVuNUxnoc5": {
-   "lv": 1,
-   "why": "AI 크레딧 가설(0.88) 직격 — 엔비디아 등 칩 3사 메타 50억$ 투자, WSJ 「AI 순환 금융 손실 증폭」; 반도체 칸 추격 금지 근거",
-   "at": "2026-11-02 16:40"
-  },
-  "n/ewsdeutschebankupgradesustechsaysselloffhasgonetoofar4990112": {
-   "lv": 1,
-   "why": "도이체 「美 테크 매도 과도」 상향 — AI 크레딧 가설(0.88)과 반대 판단, 반도체 칸 추격 금지 vs 되돌림 갈림",
-   "at": "2026-11-02 17:40"
-  },
-  "n/UlBeVFEMW90U25VVUowMDVBM2kzY2Y1Ry1rbDRWR1F1andqdmpLa1JWZwoc5": {
-   "lv": 1,
-   "why": "골드만 「AI 투자 모멘텀 둔화로 S&P 이익 성장 둔화」 — AI 크레딧 가설 보강, 반도체 칸 7 유지 근거",
-   "at": "2026-11-02 17:40"
-  },
   "n/OWU94bXJnaEFMckdlRnZ6WElLeUlmYVpjUGlETzU4UkpXV2NSUFFPYmlCoc5": {
    "lv": 1,
    "why": "AI 크레딧 가설(0.88) — 알파벳 FCF 적자 속 올해 두 번째 유로채, 🐋 GOOGL 신호 종목",
@@ -71,6 +56,16 @@
    "lv": 1,
    "why": "고금리 정점 가설(0.55) — 11/4 리펀딩 발행 구조 대개편 예고, 美 10년 4.95 판정과 직결",
    "at": "2026-11-02 18:40"
+  },
+  "n/zhVeS1FLUVNVUprU05ZQlBhTXBXcXBadzI4WmlHYVVCZzdRVEVEN1hsVQoc5": {
+   "lv": 1,
+   "why": "고금리 정점 가설(0.55) 반대 — 댈러스 로건 「최소 2번 더 인상(50bp↑)」, 10년 5% 재돌파 위험",
+   "at": "2026-11-02 19:40"
+  },
+  "n/httpswwwverdictcoukopenaicutsfundinggoal20bntsrcrss": {
+   "lv": 1,
+   "why": "AI 크레딧 가설(0.88) 보강 — 오픈AI 펀딩 목표 200억$로 축소, AI 자금 조달 줄이 마른다",
+   "at": "2026-11-02 19:40"
   }
  }
 }
