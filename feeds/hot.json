@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03 00:55",
+ "at": "2026-11-03 02:10",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -27,39 +27,19 @@
    "why": "FT 「걸프, 美·이란 전쟁 재개 대비」 — 유가 120$ 근접, 대기 bet COP·진행 SU(에너지) 직결, 위험 회피 국면 연장 재료",
    "at": "2026-11-02 08:40"
   },
-  "n/nJwM2w0RHU3M25Dc2FJRkUwU2hHQXlNeFNzM1ZxeGtTQWk0X0JFRmNRQQoc5": {
-   "lv": 1,
-   "why": "금값 1년 최저 뒤 반등 — 포트 금 칸·뼈대 금 규칙 점검 신호",
-   "at": "2026-11-02 14:35"
-  },
   "HANAchina/71397": {
    "lv": 1,
    "why": "골드만 「NAND 공급 부족 2027년까지」 — 키옥시아 쇼크(가격 둔화)와 반대 판단, 091160 반도체 칸 되돌림 판단 재료",
    "at": "2026-11-02 15:35"
-  },
-  "n/OWU94bXJnaEFMckdlRnZ6WElLeUlmYVpjUGlETzU4UkpXV2NSUFFPYmlCoc5": {
-   "lv": 1,
-   "why": "AI 크레딧 가설(0.88) — 알파벳 FCF 적자 속 올해 두 번째 유로채, 🐋 GOOGL 신호 종목",
-   "at": "2026-11-02 18:40"
   },
   "n/httpwwwedailycokrnewsnewspathaspnewsid04939686645641784": {
    "lv": 1,
    "why": "AI 크레딧 가설(0.88) 보강 — S&P, 메타 신용전망 「부정적」 하향(AI capex로 현금흐름 악화) · 🐋 META 신호 종목",
    "at": "2026-11-02 20:40"
   },
-  "n/eos20261102fedmayneedtotalof4or5ratehikeseconomistduttavideo": {
-   "lv": 1,
-   "why": "고금리 정점 가설(0.52) 반대 — 이코노미스트 더타 「인상 총 4~5번 필요」, 로건 발언에 이어 매파 쪽 무게",
-   "at": "2026-11-02 21:45"
-  },
   "n/lefilestosell20billioninnewstockbondstofinanceaibuildouthtml": {
    "lv": 1,
    "why": "AI 크레딧 가설(0.89) 보강 — 오라클 주식 100억$+채권 100억$ 동시 조달, FCF −54억$·이자비용 +55%, 장중 −4%",
-   "at": "2026-11-02 23:40"
-  },
-  "n/NObEdncUhxRmZUUW1rSkM0V3Y4VlVsN1B2Wjl4aC12bDY4NzdnU1NVYmcoc5": {
-   "lv": 1,
-   "why": "고금리 정점 가설(0.52) 판정 재료 — 11/4 리펀딩에서 장기채 발행 축소·T-bill 의존 확대 가능성(10년 5% 선)",
    "at": "2026-11-02 23:40"
   },
   "n/20261102usfactoryactivitypicksupproductiongrowsmostsince2021": {
@@ -71,6 +51,11 @@
    "lv": 1,
    "why": "오픈AI 300억$ 목표의 절반도 못 모음 — 오라클 증자에 이은 AI 자금줄 경고, AI 크레딧 가설 근거",
    "at": "2026-11-03 00:55"
+  },
+  "n/hISjFCcjRGYkZwdEpmeEczaXkyYzM1QnhqTElPNTJnMzd0Q1pWdFBnMFUoc5": {
+   "lv": 1,
+   "why": "멀티전략 펀드 같은 쪽 쏠림 — AI 크레딧 가설(0.91)과 겹치는 '한꺼번에 청산' 위험, 집중 칸·킥 모멘텀 종목 동반 급락 경로",
+   "at": "2026-11-03 02:10"
   }
  }
 }

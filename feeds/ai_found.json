@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "앤트로픽, IPO 몇 주 앞두고 막대한 공급사 부채(구매약정) 공개",
+   "url": "https://www.ifre.com/equities/2493228/anthropic-reveals-huge-supplier-liabilities-just-weeks-ahead-of-potential-ipo",
+   "press": "IFR",
+   "at": "2026-11-03 02:10",
+   "why": "AI 크레딧 가설 — 비상장 AI 의 장기 컴퓨트 약정이 공급사(클라우드·칩) 매출의 담보가 되는 구조",
+   "summary": "S-1 수정본에 장기 컴퓨트·공급 약정 공개(피드 cnbc_top 은 8,954억$ 보도). 약정 상대방 매출 가시성↑ vs 이행 위험은 앤트로픽 조달에 달림."
+  },
+  {
+   "title": "앤트로픽 IPO 초안 — 매출 약 15배, 컴퓨트 계약 6,000억$",
+   "url": "https://investinglive.com/stocks/anthropic-ipo-draft-shows-nearly-15-fold-revenue-jump-and-600-billion-in-compute-deals/",
+   "press": "investingLive",
+   "at": "2026-11-03 02:10",
+   "why": "AI 인프라 공급사(반도체·전력·광통신 칸) 수요 근거 vs 차입 의존 — 같은 사건의 두 면",
+   "summary": "매출 급증·대규모 컴퓨트 계약(초안 기준 6,000억$, 이후 수정본은 더 큼). 수치는 보도 시점별로 다름 — 확정치는 S-1."
+  },
+  {
    "title": "美 ISM 제조업 10월 55.5 — 예상 54.5 상회, 생산 2021년 이후 최대폭",
    "url": "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-55-5-october-2026-ism-manufacturing-pmi-report-302925617.html",
    "press": "ISM(PR Newswire)",
@@ -623,22 +639,6 @@
    "at": "2026-10-30 19:40",
    "why": "에너지 칸·호르무즈 반복 체감 규칙 — 기뢰 헤드라인에도 유가가 내리는 장면(날짜 미확인)",
    "summary": "호르무즈 기뢰 우려 속에서도 유가는 하락. 헤드라인과 가격 방향이 엇갈림 — 16:40 아이디어(3번째 헤드라인부터 진입 신호로 안 씀)와 같은 그림."
-  },
-  {
-   "title": "MS 9년 만의 회사채 250억 달러 — 주문 1,150억 달러 몰려",
-   "url": "https://www.briefs.co/news/microsoft-s-25-billion-bond-sale-draws-a-towering-order-book/",
-   "press": "Briefs",
-   "at": "2026-10-30 18:35",
-   "why": "AI 크레딧 가설(0.8) — 빅테크 발행 급증에도 수요 4.6배, 스트레스 판정은 아직",
-   "summary": "2017년 이후 첫 대형 미국 회사채, 최소 250억$ · 주문장 약 1,150억$ · AI 인프라 자금"
-  },
-  {
-   "title": "이란 「호르무즈서 초대형 유조선 기뢰 피격」",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Supertanker-Hit-by-Mines-in-Strait-of-Hormuz.amp.html",
-   "press": "OilPrice",
-   "at": "2026-10-30 18:35",
-   "why": "킥 USO·DBC·🎯 OXY 유가 방향 — 같은 위협 헤드라인 반복 체감 규칙(아이디어 10/30 16:40) 검증 사례",
-   "summary": "이란 측 발표로 초대형 유조선 기뢰 피격 · 유가 위험 프리미엄 재확대(숫자 미확인)"
   }
  ],
  "at": "2026-11-02 20:40"
