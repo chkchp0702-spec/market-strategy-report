@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "앨버타·연방정부·오일샌드 업체 「패스웨이즈」 합의 — 증산과 탄소포집 연계",
+   "url": "https://www.ctvnews.ca/business/article/alberta-ottawa-and-oilsands-companies-reach-pathways-agreement/",
+   "press": "CTV News",
+   "at": "2026-11-02 14:35",
+   "why": "임페리얼오일(IMO, ☕ 컵 10/30 신호) 증산·탄소포집 협상 막바지(gn_kr_bbg 11/2) 배경 — 회사 고유 재료 vs 유가 하락 역풍",
+   "summary": "오일샌드 증산을 탄소포집(CCS) 투자와 묶는 정부·업계 합의. 최종 투자 결정 시점은 2027년 말 목표(boereport 8/18). 11/2 협상 막바지 보도의 세부 숫자는 미확인."
+  },
+  {
+   "title": "SK이노베이션·에쓰오일 3분기 영업익 세 자릿수 급증 전망 → 에쓰오일 1조4,067억(+514%) 발표",
+   "url": "https://biz.heraldcorp.com/article/10915798",
+   "press": "헤럴드경제",
+   "at": "2026-11-02 14:35",
+   "why": "정제마진 호황 확인 — 다만 유가 −3%(이란 외교) 속 4분기 지속성은 별개, 010950 bet 10/16 손절 이력",
+   "summary": "연합 11/2: 에쓰오일 3분기 영업익 1조4,067억 원(전년비 +514%). 헤럴드 사전 전망은 정유사 세 자릿수 증가. 주가 반응 미확인."
+  },
+  {
    "title": "인텔, 4분기 가이던스 실망에 25%대 급락 — PC 침체·공급 제약",
    "url": "https://tech-insider.org/intel-plunges-25-q4-guidance-15-16-billion-pc-slump-2026/",
    "press": "Tech Insider",
@@ -623,22 +639,6 @@
    "at": "2026-10-30 07:35",
    "why": "에너지 칸·SU bet·OXY 🎯 — 공격 시점이 선거(11/3) 뒤로 밀리는지가 유가 1주 방향을 가른다",
    "summary": "중부사령부가 이란 에너지 시설·미사일 겨냥 새 타격 옵션을 마련, 호르무즈 해협 위험 언급. 트럼프는 10/9 중간선거 전 공격 배제(Malay Mail). 기사 날짜 정확한 시각은 미확인."
-  },
-  {
-   "title": "마벨, 루멘텀 인수 막바지 협상 — AI 광학 메가딜(블룸버그 보도)",
-   "url": "https://www.digitimes.com/news/a20261029PD222/marvell-data-bloomberg-component-photonics.html",
-   "press": "DIGITIMES",
-   "at": "2026-10-30 03:35",
-   "why": "광통신 칸(루멘텀) 직결 — 피인수 프리미엄 vs 인수자 마벨 약세",
-   "summary": "블룸버그 10/28 보도: 마벨이 루멘텀 인수 막바지 협상. 거래 규모·조건 미확정(미확인)."
-  },
-  {
-   "title": "마벨, 시가총액 830억$ 루멘텀 인수 근접 — 매출의 28배",
-   "url": "https://fourweekmba.com/ai-marvell-said-to-near-deal-for-83b-lumentum-worth-28x-sales/",
-   "press": "FourWeekMBA",
-   "at": "2026-10-30 03:35",
-   "why": "광통신 밸류에이션 정점 신호 여부 — 칸 비중 판단에 참고",
-   "summary": "루멘텀 가치 약 830억$·매출 28배로 거론(2차 출처, 미확인). 마벨 주가는 소식에 하락(barrons 제목)."
   }
  ],
  "at": "2026-11-02 03:40"
