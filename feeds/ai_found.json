@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "팔란티어, 3분기 호실적 뒤 연간 가이던스 상향 — 시간외 강세",
+   "url": "https://seekingalpha.com/news/4662192-palantir-perks-up-as-it-boosts-full-year-forecast-after-stellar-q3-results",
+   "press": "Seeking Alpha",
+   "at": "2026-11-03 06:45",
+   "why": "PLTR 📊 실적 신호(10/29) — 실적 뒤 D+1 진입 규칙 후보 채점 재료",
+   "summary": "매출 23.1억$(+96%)·美 상업 매출 9.84억$(+148%)이 정부(9.53억$) 첫 추월(CNBC). 연간 가이던스 상향, 시간외 소폭 강세. Motley Fool 「신규 계약 둔화」 지적."
+  },
+  {
+   "title": "나스닥, 조정 구간 진입 — 증시 하락 마감",
+   "url": "https://www.wral.com/nasdaq-enters-correction-territory-as-stocks-close-lower/20086373/",
+   "press": "WRAL(AP)",
+   "at": "2026-11-03 06:45",
+   "why": "반도체·AI 하드웨어 약세 확산 — 반도체 칸 추격 금지·킥 신규 진입 보류 근거",
+   "summary": "11/2 나스닥 −1.07%·S&P 하락·다우 상승 혼조 마감(연합). 유가 −7%(WTI 96$선)·10년 4.8%대에도 인텔발 메모리·스토리지 매도 확산(yahoo)."
+  },
+  {
    "title": "美 증시 11/2 장중 — 오라클 −6.4%(100억$ 주식 매각)·마벨 −9.5%·루멘텀 −15.2%, 브렌트 −7% 104$",
    "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-2-2026",
    "press": "StockTitan",
@@ -623,22 +639,6 @@
    "at": "2026-10-30 23:55",
    "why": "크레딧 가설 근거 보강 — 빅테크 채권 공급 급증과 이익 우려",
    "summary": "빅테크 CDS 거래·가격 동반 급등, AI 차입 물량이 원인으로 지목(세부 숫자 미확인)."
-  },
-  {
-   "title": "美 프리마켓: 인텔 −25%·아마존 약 −7%·메모리주 약세(샌디스크 −8%↑)·금 4,000달러 이탈",
-   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262260652-intel-amazon-stock-drop-memory-stocks-sandisk-gold-price-tradingkey",
-   "press": "TradingKey",
-   "at": "2026-10-30 23:05",
-   "why": "반도체 칸·메모리(하이닉스 연동) 동반 매도 — 공급사도 버티지 못하는지 확인 포인트",
-   "summary": "인텔 가이던스 실망으로 −25%, 아마존 AI 지출·현금 소진 우려로 약 −7%. 메모리 SanDisk −8% 이상, 금은 4,000달러 아래."
-  },
-  {
-   "title": "인텔 −25%, 암울한 전망에 세계 반도체 동반 급락",
-   "url": "https://live.euronext.com/en/financial-news/intel-plunges-25-triggers-global-chip-rout-bleak-outlook",
-   "press": "Reuters(Euronext)",
-   "at": "2026-10-30 23:05",
-   "why": "PC 부진·턴어라운드 의문 — AMD −10%·델 −13%·엔비디아 −3%로 번짐(feed 동일 사건), 반도체 칸 추가 축소 조건 점검",
-   "summary": "인텔 실적은 상회했지만 4분기 가이던스·PC 부진으로 −25%. AMD −10%, 델 −13%, 엔비디아 −3%(프리마켓 기준, 피드 yahoo 제목)."
   }
  ],
  "at": "2026-11-03 05:45"
