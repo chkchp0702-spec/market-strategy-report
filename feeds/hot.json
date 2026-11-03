@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04 00:40",
+ "at": "2026-11-04 01:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -86,6 +86,16 @@
    "lv": 1,
    "why": "🐻 하락장 watch — S&P 고점 −3% 안인데 종목 60%가 하락장, 지수 밑 체력 붕괴(동일가중·소형 칸 판단)",
    "at": "2026-11-04 00:40"
+  },
+  "n/VEyNzJHQWd2RzlvcjJiZ29pUWVaUjVIaGZicVRIOVRyNC1WemFpVVhpQQoc5": {
+   "lv": 1,
+   "why": "🐻 하락장 판정 watch — 中 A주도 하락장 진입·당국 부양 회의, 코스피 하락장과 같은 날 아시아 동반",
+   "at": "2026-11-04 01:40"
+  },
+  "n/I2TklxMTlHa3lobHU0WjVUT3lPRDBMcDJnckxTQnBOLXl6RjM0M1BVZ1Eoc5": {
+   "lv": 1,
+   "why": "금 칸 — 금·은 선물 1년 최저, gold_test 판정과 직결",
+   "at": "2026-11-04 01:40"
   }
  }
 }
