@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "[개장시황] 코스피·코스닥, 외국인·기관 '팔자'에 동반 하락",
+   "url": "https://www.newspim.com/news/view/20261103000241",
+   "press": "뉴스핌",
+   "at": "2026-11-03 09:45",
+   "why": "🐻 하락장 watch — 외국인 복귀 조건(foreign_return 0/3) 계속 깨짐, 반도체 칸",
+   "summary": "11/3 개장 코스피 −2.46% 5,715 출발 뒤 5,600선까지 밀림, 외국인·기관 동반 순매도. 삼전·하닉 장초반 −4~5%."
+  },
+  {
+   "title": "홍콩 투자 서밋 — 금융 수장들 AI 투자 공식 재검토",
+   "url": "https://www.thestandard.com.hk/finance/article/346519/Finance-chiefs-to-rethink-AI-playbook-other-key-themes-at-Nov-investment-summit-in-HK",
+   "press": "The Standard",
+   "at": "2026-11-03 09:45",
+   "why": "골드만·모건스탠리 CEO 발언(오늘) — AI 크레딧 가설 0.92 의 반대/보강 재료",
+   "summary": "11월 홍콩 글로벌 금융리더 투자 서밋 주제: AI 플레이북 재검토·무역. 세부 발언은 미확인."
+  },
+  {
    "title": "AI 광통신 일제 매도에 루멘텀 하락",
    "url": "https://www.tikr.com/blog/widespread-ai-photonics-selloff-drags-down-lumentum-stock",
    "press": "TIKR",
@@ -623,22 +639,6 @@
    "at": "2026-10-31 02:35",
    "why": "🧠 「다음 약한 고리는 AI 차입」 가설(0.85) — AI 기업 차입 비용·빅테크 공급사 금융 위험의 계기판",
    "summary": "앤트로픽 BB 정크 등급 보도. 블랙스톤도 「상장 뒤 투자등급 확보 어려울 수 있다」고 투자자에게 전달(FT 10/30). 칩 금융엔 10%↑ 금리 제시 보도(st-hakky)."
-  },
-  {
-   "title": "세인트루이스 연은 무살렘 「인플레 위험 높아 추가 인상 필요할 듯」",
-   "url": "https://investinglive.com/central-banks/icymi-fed-s-musalem-says-more-rate-hikes-likely-needed-as-inflation-risks-stay-elevated/",
-   "press": "investingLive",
-   "at": "2026-10-31 02:35",
-   "why": "🧠 고금리 정점 가설(0.40)·현금/단기채 칸 — 연준 매파 발언 vs 10년 하락 엇갈림",
-   "summary": "무살렘 「곧 추가 인상 필요」(블룸버그 10/30), 바킨 「점진적 인상」 지지와 같은 날. 그래도 美 10년 4.93%(−6bp) 하락 — 성장 공포가 우세."
-  },
-  {
-   "title": "AI 차입 우려에 빅테크 부도보험(CDS) 신고점 — 오라클·엔비디아·알파벳",
-   "url": "https://aiweekly.co/alerts/oracle-nvidia-alphabet-spacex-cds-hit-records-on-ai-debt",
-   "press": "AI Weekly",
-   "at": "2026-10-30 23:55",
-   "why": "🧠 「다음 약한 고리는 AI 차입」 가설(0.8)의 계기판 — 주식 매도와 크레딧 스트레스가 같이 가는지",
-   "summary": "오라클·엔비디아·알파벳 CDS 프리미엄 사상 최고 보도(날짜·수치 미확인). 같은 날 블룸버그 「AI Debt Fears Hit Fresh Record Highs」."
   }
  ],
  "at": "2026-11-03 05:45"
