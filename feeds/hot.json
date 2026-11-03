@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03 21:40",
+ "at": "2026-11-03 22:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -17,19 +17,9 @@
    "why": "모건스탠리 「반도체 지지선 지금보다 최대 −15% 아래」 — 반도체 칸 추격 금지·AI 크레딧(0.88) 쪽, DB 「대형 테크 상대성과 채널 하단」 반대 의견과 함께 볼 것",
    "at": "2026-11-02 07:45"
   },
-  "n/20261102usfactoryactivitypicksupproductiongrowsmostsince2021": {
-   "lv": 1,
-   "why": "ISM 10월 55.5(예상 54.5)·생산 2021년來 최대·가격 압력 지속 — 고금리 정점 가설(10년 4.95 판정) 반대 재료",
-   "at": "2026-11-03 00:55"
-  },
   "n/261102southkoreainflationholdsfirmbolsteringcaseformorehikes": {
    "lv": 1,
    "why": "한국 10월 CPI 2.8%·석유류 +14.9% — 한은 추가 인상 논리 → 단기채·은행 칸, 원화 강세 watch",
-   "at": "2026-11-03 08:35"
-  },
-  "n/swwwftcomcontentf6ad8c32cacb48adad85a9a7edac3f16syn25a6b1a61": {
-   "lv": 1,
-   "why": "애플 메모리 원가 경고 — 메모리 가격 강세 = 하닉·삼전 이익엔 +, 세트·AI 하드웨어 마진엔 − (AI 크레딧·반도체 가설)",
    "at": "2026-11-03 08:35"
   },
   "globalmktinsight/7817": {
@@ -57,45 +47,30 @@
    "why": "심텍 3Q 영업익 1,018억(컨센 +19.5%) — 급락장 속 AI 기판 실적은 서프라이즈, 업황·주가 괴리(한투 커버리지 재개와 같은 방향)",
    "at": "2026-11-03 16:45"
   },
-  "n/ergcomnewsvideos20261103horizonsmiddleeastafrica1132026video": {
-   "lv": 1,
-   "why": "美 이란 케슘섬 타격·호르무즈 협상 교착 — 에너지 칸·AR(가스형 컵) 대기 bet 유가 꼬리",
-   "at": "2026-11-03 17:45"
-  },
   "HANAchina/71482": {
    "lv": 1,
    "why": "모건스탠리 윌슨 「美 조정 막바지·중간선거 뒤 저가 매수」 — 🐻 하락장 watch 의 「조정으로 끝」 쪽 반론, 판정은 11/4~6 나스닥 25,000·VIX 18 숫자로",
    "at": "2026-11-03 18:45"
-  },
-  "n/BxekJldThIQ0F5dFBZaTZJZTJTQU5TUmt1TXZZUHdaWDZMZGVwUW1RblEoc5": {
-   "lv": 1,
-   "why": "핌코 CEO 「AI 금융 조달 지나쳐질 길」 — 핵심 가설 AI 크레딧 스트레스(0.92) 근거, 최대 채권 운용사 경고",
-   "at": "2026-11-03 18:45"
-  },
-  "n/PQjIydXY0TmUyRGpXYUV6ak9yaE5sSU9qQWpSQzhIMDZ5TFMwcjBsdk5Noc5": {
-   "lv": 1,
-   "why": "AI 크레딧 가설(0.92) — 오라클이 빚 대신 11% 할인 유상증자, AI 조달이 지분으로 옮겨감",
-   "at": "2026-11-03 19:45"
   },
   "n/m84cUpfVGpuQ0VmaGNsZUlxUVQ0dk4zQUE2cWFzUk8yM1R3cjc3dEczVwoc5": {
    "lv": 1,
    "why": "AI 크레딧 가설 — OpenAI 300억$ 목표 절반 못 채움, AI 자금줄 마르는 신호",
    "at": "2026-11-03 19:45"
   },
-  "n/nsharesslideasapplemarginwarningtriggerglobaltechrout4993704": {
-   "lv": 1,
-   "why": "애플 12월 분기 총마진 45~46%(직전 47.9%) — 메모리 원가 상승 = 반도체 칸(메모리 공급사 수혜)·AI 매도장 심리와 이어짐",
-   "at": "2026-11-03 20:40"
-  },
-  "n/httpswwwcnbccom20261103iranusvancetrumpstrikeshtml": {
-   "lv": 1,
-   "why": "美 이란 케슘섬 공습·카타르 36시간 중재 — 유가 반등, AR(천연가스) 대기 bet·에너지 칸 변동성 직결",
-   "at": "2026-11-03 21:40"
-  },
   "HANAchina/71489": {
    "lv": 1,
    "why": "中 DDR 공급 부족·가격 30% 인상 — 애플 마진 경고와 같은 방향, 메모리 공급사 가격 결정력 근거(반도체 칸)",
    "at": "2026-11-03 21:40"
+  },
+  "kimu_nim/47958": {
+   "lv": 1,
+   "why": "AI 크레딧 가설(0.92) 직격 — 골드만: 하이퍼스케일러 채권 발행이 26년 연간 전망 2,500억$ 이미 넘음",
+   "at": "2026-11-03 22:45"
+  },
+  "kimu_nim/47963": {
+   "lv": 1,
+   "why": "⛽ 에너지 칸·AR bet — 알자지라 「美, 이란 양해각서 초안 승인」, 브렌트 105$ 아래(HANAchina/71493), 원문 미확인",
+   "at": "2026-11-03 22:45"
   }
  }
 }

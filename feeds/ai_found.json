@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "애플 新 CEO 터너스 첫 시험 — 세계 메모리 위기가 이익을 깎는다",
+   "url": "https://cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
+   "press": "CNBC",
+   "at": "2026-11-03 22:45",
+   "why": "반도체 칸 — OEM 마진 압박 = 메모리 공급사 가격 결정력(MU·091160.KS 페어 관찰)",
+   "summary": "애플이 메모리 원가를 「전례 없는」 수준이라 부르며 마진 전망 약세. 시간외 시총 약 1,400억$ 증발(feed 헤드라인 기준, 세부 수치 미확인)."
+  },
+  {
+   "title": "11/3 증시: 美 중간선거 당일 선물 혼조 — 애플·팔란티어 실적 뒤 하락",
+   "url": "https://www.tipranks.com/news/stock-market-today-nov-3-futures-mixed-on-midterm-election-day-apple-and-palantir-shares-slide-after-earnings",
+   "press": "TipRanks",
+   "at": "2026-11-03 22:45",
+   "why": "🐻 하락장 판정 watch — 선거 결과·11/4 리펀딩·11/6 고용 전 美 지수 방향",
+   "summary": "선거 당일 선물 혼조, AAPL·PLTR 실적 뒤 약세. 다우 장중 −300P(IBD 헤드라인). 정확한 지수 숫자는 미확인."
+  },
+  {
    "title": "애플, 실적 상회에도 마진 전망 약해 하락 · 팔란티어 실적 뒤 −8%",
    "url": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
    "press": "CNBC",
@@ -623,23 +639,7 @@
    "at": "2026-10-31 11:40",
    "why": "AI 크레딧 가설 — 가장 약한 AI 차입자의 채권 스프레드가 크레딧 필터의 선행 계기판",
    "summary": "코어위브 무담보채 스프레드 1,000bp↑(HANAchina/71287 인용)·수익률 15% 근처 보도. 10월 나스닥100 −3.3%·M7 −6%↑. 날짜별 수치는 원문 확인."
-  },
-  {
-   "title": "앤트로픽 IPO 서류(S-1): 폭발적 성장과 막대한 비용·위험",
-   "url": "https://aljazeera.com/economy/2026/10/26/anthropics-ipo-filing-shows-explosive-growth-risks-and-staggering-costs",
-   "press": "Al Jazeera",
-   "at": "2026-10-31 10:40",
-   "why": "AI 크레딧 가설 — 비상장 AI 대형사의 컴퓨트 비용·약정이 빅테크 차입과 같은 줄기, 블룸버그 「숨겨진 부채 9,000억$」 보도의 원문 맥락",
-   "summary": "10/26 S-1 제출(나스닥 ANT). 매출 급증과 함께 컴퓨트 비용이 매우 크다는 점을 위험 요인으로 명시. 숫자 세부는 원문 확인(블룸버그 9,000억$ 수치는 미확인)."
-  },
-  {
-   "title": "OpenAI, 투자자 반발에 기업가치 목표 1.4조→1.25조 달러로 하향",
-   "url": "https://winbuzzer.com/2026/10/27/openai-lowers-valuation-target-to-1-25-trillion-xcxwbn/",
-   "press": "WinBuzzer",
-   "at": "2026-10-31 09:40",
-   "why": "AI 크레딧 가설 — 비상장 AI 자금줄도 가격 저항, 빅테크 차입 공급 폭증과 같은 방향",
-   "summary": "약 300억$ 라운드 기업가치 목표 1.4조$→1.25조$(−1,500억$). 10/31 HANAchina: 유치 목표액도 100억$ 축소."
   }
  ],
- "at": "2026-11-03 11:45"
+ "at": "2026-11-03 22:45"
 }
