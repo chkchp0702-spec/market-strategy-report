@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04 06:40",
+ "at": "2026-11-04 07:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -47,25 +47,10 @@
    "why": "中 DDR 공급 부족·가격 30% 인상 — 애플 마진 경고와 같은 방향, 메모리 공급사 가격 결정력 근거(반도체 칸)",
    "at": "2026-11-03 21:40"
   },
-  "kimu_nim/47958": {
-   "lv": 1,
-   "why": "AI 크레딧 가설(0.92) 직격 — 골드만: 하이퍼스케일러 채권 발행이 26년 연간 전망 2,500억$ 이미 넘음",
-   "at": "2026-11-03 22:45"
-  },
-  "kimu_nim/47963": {
-   "lv": 1,
-   "why": "⛽ 에너지 칸·AR bet — 알자지라 「美, 이란 양해각서 초안 승인」, 브렌트 105$ 아래(HANAchina/71493), 원문 미확인",
-   "at": "2026-11-03 22:45"
-  },
   "kimu_nim/47974": {
    "lv": 1,
    "why": "AI 크레딧 가설(0.92) — 메타 최소 200억$ 채권, 하이퍼스케일러 빚 공급 근거 +1 · META 🐋 10/29 신호와 방향 충돌",
    "at": "2026-11-04 00:40"
-  },
-  "n/I2TklxMTlHa3lobHU0WjVUT3lPRDBMcDJnckxTQnBOLXl6RjM0M1BVZ1Eoc5": {
-   "lv": 1,
-   "why": "금 칸 — 금·은 선물 1년 최저, gold_test 판정과 직결",
-   "at": "2026-11-04 01:40"
   },
   "n/NIbmxBYy12RE40VE5jVjRyYnF4RlJXRHZSdURHVXltbDJyVjVIOEZhZHcoc5": {
    "lv": 1,
@@ -92,10 +77,15 @@
    "why": "반도체 칸·한국 반도체(091160.KS) — AMD 데이터센터 매출 거의 2배·시간외 +7%, 오늘 한국 개장 갭과 「호실적 뒤 하락」 카운터(ideas 10/31) 직결",
    "at": "2026-11-04 06:40"
   },
-  "n/m84cUpfVGpuQ0VmaGNsZUlxUVQ0dk4zQUE2cWFzUk8yM1R3cjc3dEczVwoc5": {
+  "n/pdEVYMG9XdEpQS1U4aFo3aFdXUHduZjlRMlFJelhwMEJLSTZ0cWx0NGFFoc5": {
    "lv": 1,
-   "why": "🧠 AI 크레딧 가설(0.92) — OpenAI 조달 목표 300억$ 절반 미만, AI 최종 수요자 자금줄 압박",
-   "at": "2026-11-04 06:40"
+   "why": "🧠 AI 크레딧 가설(0.92) — 빅테크 숨은 AI 부채 6개월 새 90%↑ 3.2조$, 메타·오라클 조달과 같은 줄기",
+   "at": "2026-11-04 07:40"
+  },
+  "n/0261103dollarriseswithusyieldsasfocusoniranoutweighselection": {
+   "lv": 1,
+   "why": "고금리 정점 가설(0.50)·원달러 — 금리·달러 동반 상승, 달러 한 달 최대 상승(외국인 매도 압력)",
+   "at": "2026-11-04 07:40"
   }
  }
 }
