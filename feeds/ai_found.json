@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "골드만삭스, 12월 브렌트 전망 105$로 상향 — 중동 위험 프리미엄 약 27$ 반영",
+   "url": "https://finance.yahoo.com/markets/commodities/articles/goldman-sachs-raises-december-brent-090000226.html",
+   "press": "Yahoo Finance",
+   "at": "2026-11-04 04:45",
+   "why": "에너지 칸·⚡ AR(☕ 컵 11/2) — IB 상향과 이란 외교 기대 유가 하락이 엇갈리는 구간",
+   "summary": "12월 브렌트 105$·WTI 94$로 상향(exchangerates.org.uk 11/3) · 위험 프리미엄 약 27$(biggo) · 공급 차질 지속 시 상단 140$ 경고(energynow)"
+  },
+  {
+   "title": "브렌트 외교 기대에 110$ 아래로 — 골드만은 140$ 위험 경고",
+   "url": "https://invezz.com/ng/news/2026/11/02/brent-drops-below-dollar110-on-diplomacy-hopes-but-goldman-sachs-flags-dollar140-warning/",
+   "press": "Invezz",
+   "at": "2026-11-04 04:45",
+   "why": "에너지 컵 bets 손절이 몰린 「지정학 왕복」 구간 확인 — 원유형 컵 bet 보류 규칙(ideas 11/03 04:35) 근거",
+   "summary": "미·이란 외교 기대로 브렌트 110$ 하회 · 골드만 꼬리위험 140$ · 현재 WTI 96$ 안팎(latest)"
+  },
+  {
+   "title": "엔비디아 등 빅테크가 월가 끌어올려 — 애플 하락 상쇄",
+   "url": "https://www.washingtontimes.com/news/2026/nov/3/nvidia-big-tech-stocks-lifting-wall-street-make-drop-apple/",
+   "press": "AP/Washington Times",
+   "at": "2026-11-04 04:45",
+   "why": "🐻 하락장 watch — 선거일 칩 반등이 지수를 받치는 구조(폭은 여전히 좁음)",
+   "summary": "S&P 7,577(+0.48%)·나스닥 25,398(+0.93%)·다우 −0.31%·VIX 20.6(CNBC 14:10 EST) · 10년 4.948%"
+  },
+  {
    "title": "엔비디아, 11/6 네이버 1조원 지분 대금 납입 — 3대 주주로",
    "url": "https://www.digitaltoday.co.kr/en/view/121589/nvidia-to-pay-1-billion-in-naver-equity-investment-on-nov-6-set-to-become-third-largest-shareholder",
    "press": "디지털투데이",
@@ -615,31 +639,7 @@
    "at": "2026-11-01 23:35",
    "why": "열린 SU bet(+2.0%, 2/5거래일)의 실적 재료 — 세부 숫자 미확인",
    "summary": "선코어 3분기 순이익 전년 대비 감소 보도(세부 숫자 미확인)."
-  },
-  {
-   "title": "이란 호르무즈 당국, 韓 선사 Sinokor 선단 전체 블랙리스트",
-   "url": "https://www.seatrade-maritime.com/security/iran-s-hormuz-authority-blacklists-entire-sinokor-fleet",
-   "press": "Seatrade Maritime",
-   "at": "2026-11-01 22:35",
-   "why": "에너지 칸·COP bet — 유조선 공급 축소·운임 상승이 유가 하방을 막는다",
-   "summary": "이란이 Sinokor 선박들의 통항 협정 위반을 이유로 11/1부터 조치 예고. Sinokor는 해당 해역 VLCC 운송능력 절반 이상(중국언론 인용). 세부 숫자 미확인."
-  },
-  {
-   "title": "이란, Sinokor 선박에 호르무즈 조치 예고",
-   "url": "https://gcaptain.com/iran-says-it-will-take-action-against-sinokor-ships-in-hormuz/",
-   "press": "gCaptain",
-   "at": "2026-11-01 22:35",
-   "why": "IMO 사무총장 「호르무즈 여전히 안전하지 않음」(bbg 11/1)과 겹쳐 주말 협상 진전 기대를 상쇄",
-   "summary": "이란-카타르 협상 「진전」 발언과 동시에 해운 압박은 확대. 유가 방향은 월요일 개장 확인 필요."
-  },
-  {
-   "title": "OPEC+ 12월 생산 목표 동결",
-   "url": "https://www.cnbc.com/2026/10/31/opec-oil-output-targets-december.html",
-   "press": "CNBC",
-   "at": "2026-11-01 22:35",
-   "why": "에너지 칸 — 공급 추가 없음, 브렌트 110$대 유지 쪽",
-   "summary": "OPEC+ 12월 할당량 기존 수준 유지 합의(10/31)."
   }
  ],
- "at": "2026-11-03 22:45"
+ "at": "2026-11-04 04:45"
 }
