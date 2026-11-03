@@ -5412,6 +5412,30 @@
 "d": "2026-11-03",
 "src": "whale",
 "score": 40
+},
+"IDXX|2026-11-02|pead": {
+"code": "IDXX",
+"name": "IDEXX Laboratories, Inc.",
+"mkt": "US",
+"d": "2026-11-02",
+"src": "pead",
+"score": 69.4
+},
+"MGRC|2026-11-02|pead": {
+"code": "MGRC",
+"name": "McGrath RentCorp",
+"mkt": "US",
+"d": "2026-11-02",
+"src": "pead",
+"score": 80.0
+},
+"PERI|2026-11-02|pead": {
+"code": "PERI",
+"name": "Perion Network Ltd",
+"mkt": "US",
+"d": "2026-11-02",
+"src": "pead",
+"score": 80.0
 }
 },
 "sent": [
