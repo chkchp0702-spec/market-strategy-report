@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "핌코, AI 관련 채권 수십억 달러 처분해 손실 회피",
+   "url": "https://www.advisorperspectives.com/articles/2026/10/28/pimco-offloads-billions-ai-debt-skirt-losses",
+   "press": "Advisor Perspectives(블룸버그 전재)",
+   "at": "2026-11-03 18:45",
+   "why": "AI 크레딧 가설(0.92) — 핌코 CEO 11/3 「AI 조달 과잉」 경고와 같은 줄기, 운용사가 실제로 AI 채권을 덜어냄",
+   "summary": "10/28 보도: 핌코가 AI 인프라 관련 회사채 수십억 달러 규모를 매각해 손실을 피함(제목 기준, 세부 금액 미확인). 11/3 CEO 「AI 금융이 너무 많아지는 길」 발언(블룸버그)으로 이어짐."
+  },
+  {
    "title": "코스피, 외인·기관 동반 '팔자'에 낙폭 확대…5600선으로 후퇴",
    "url": "https://www.g-enews.com/article/Securities/2026/11/202611031326047978923c501012_1",
    "press": "글로벌이코노믹",
@@ -631,14 +639,6 @@
    "at": "2026-10-31 07:35",
    "why": "AI 크레딧 가설 — 빅테크 차입 규모가 신용 스트레스의 연료(메타 전망 하향과 같은 줄기)",
    "summary": "제목 기준 아마존 2026년 누적 차입 800억$ 초과·첫 파운드화 채권(본문·날짜 미확인). 별도로 10/30 아마존 최대 800억$ 대출 한도·지출 약정 8,830억$(HANAchina 텔레그램, wallstreetcn)."
-  },
-  {
-   "title": "메타 3분기 해부: capex가 영업현금을 21억$ 넘어섰다",
-   "url": "https://fourweekmba.com/ai-metas-q3-explained-capex-outran-its-cash-by-2-1-billion/",
-   "press": "FourWeekMBA",
-   "at": "2026-10-31 06:40",
-   "why": "AI 크레딧 가설 — S&P 의 메타 전망 「부정적」 하향(10/30)의 근거인 현금흐름 역전을 숫자로",
-   "summary": "메타 3분기 설비투자가 영업현금흐름을 약 21억 달러 초과(제목 기준, 본문 미확인). 같은 날 S&P 글로벌이 현금흐름 우려로 메타 신용 전망을 부정적으로 하향(investing.com)."
   }
  ],
  "at": "2026-11-03 11:45"
