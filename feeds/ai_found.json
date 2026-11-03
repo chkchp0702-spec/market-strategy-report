@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "미국, 이란 케슘섬 타격 — 트럼프는 전쟁 위험 축소 발언",
+   "url": "https://www.wsj.com/world/middle-east/u-s-strikes-irans-qeshm-island-as-trump-talks-down-war-risks-79d73d3d",
+   "press": "WSJ",
+   "at": "2026-11-03 10:45",
+   "why": "전일 WTI −7%(이란 합의 기대)·에너지 섹터 −3.97% 뒤 반전 위험 — 유가·에너지 칸",
+   "summary": "WSJ: 공격 목적은 「호르무즈 해협 방어」, 이란의 상선 공격 능력 억제. 보도 직후 WTI 선물 소폭 상승·S&P·NDX 선물 상승 유지(globalmktinsight/7817) — 시장 반응은 안정적"
+  },
+  {
+   "title": "美 케슘섬 공습에 유가 반등",
+   "url": "https://www.heygotrade.com/en/news/oil-climbs-97-iran-tensions-us-strikes-qeshm-island/",
+   "press": "Gotrade",
+   "at": "2026-11-03 10:45",
+   "why": "이란 합의 기대로 빠진 유가가 되돌려지는지 — 에너지 칸·인플레 기대·10년 금리",
+   "summary": "제목 「유가 97달러 향해 상승」 — 기준 유종·시점 미확인. 한국 10월 CPI 석유류 +14.9%와 겹쳐 금리 부담 요인"
+  },
+  {
    "title": "[개장시황] 코스피·코스닥, 외국인·기관 '팔자'에 동반 하락",
    "url": "https://www.newspim.com/news/view/20261103000241",
    "press": "뉴스핌",
@@ -623,22 +639,6 @@
    "at": "2026-10-31 03:35",
    "why": "고금리 정점 가설(10년 4.95 경계)의 반대 재료 — 단기채·중장기채 칸 판단",
    "summary": "로건 「최소 두 차례 인상 필요, 속도는 점진적」(블룸버그 10/30) · 같은 날 10년 4.989→4.933% 하락 = 시장은 매파 발언보다 성장 걱정에 반응"
-  },
-  {
-   "title": "모건스탠리 윌슨 「선거 뒤 반등 보지만 유동성·AI 크레딧 위험 경고」",
-   "url": "https://www.roic.ai/news/morgan-stanleys-wilson-sees-post-election-market-rebound-but-flags-liquidity-and-ai-credit-risks-10-26-2026",
-   "press": "roic.ai",
-   "at": "2026-10-31 03:35",
-   "why": "AI 크레딧 가설 0.85·중간선거(11/3) 뒤 반등 시나리오 — 뼈대 주식 칸 비중 판단",
-   "summary": "윌슨: 중간선거 뒤 반등 가능하나 유동성·AI 차입이 위험 · 10/30 「S&P −8% 가능」 경고 보도(gn_us_ib) · S&P 10/30 장중 7,563(−2.0%, CNBC)"
-  },
-  {
-   "title": "앤트로픽, 2조$ 상장 추진 중 신용등급 BB(정크) 평가",
-   "url": "https://dealroom.co/news/163182-anthropic-rated-junk-at-bb-as-it-chases-2t-ipo/",
-   "press": "Dealroom",
-   "at": "2026-10-31 02:35",
-   "why": "🧠 「다음 약한 고리는 AI 차입」 가설(0.85) — AI 기업 차입 비용·빅테크 공급사 금융 위험의 계기판",
-   "summary": "앤트로픽 BB 정크 등급 보도. 블랙스톤도 「상장 뒤 투자등급 확보 어려울 수 있다」고 투자자에게 전달(FT 10/30). 칩 금융엔 10%↑ 금리 제시 보도(st-hakky)."
   }
  ],
  "at": "2026-11-03 05:45"
