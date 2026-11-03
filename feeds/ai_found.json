@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "헤지펀드, 한 주 만에 2년치 AI 순매수 지워 — 골드만 「디레버리징 이제 시작일 수도」",
+   "url": "https://www.itiger.com/news/1150649522",
+   "press": "Tiger Brokers(골드만 프라임북 인용)",
+   "at": "2026-11-03 23:40",
+   "why": "AI 크레딧 가설(0.92)·🧭 AI 칸 — 수급 청산이 진행 중인지 끝났는지 가르는 숫자",
+   "summary": "골드만 프라임북: 헤지펀드 AI 관련 순매수 2년치가 한 주에 소멸·AI 비중 2023 이후 첫 언더웨이트(yahoo 11/3) · AI 주 3주간 시총 약 5조$ 감소"
+  },
+  {
    "title": "애플 新 CEO 터너스 첫 시험 — 세계 메모리 위기가 이익을 깎는다",
    "url": "https://cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
    "press": "CNBC",
@@ -631,14 +639,6 @@
    "at": "2026-10-31 11:40",
    "why": "AI 크레딧 가설 — 칩 공급사가 고객 빚을 보증하는 「공급사 금융」, 반도체 칸·SMH 위험 신호",
    "summary": "Nscale(앤트로픽과 450억$ 컴퓨트 계약, 8GW 몬아크 캠퍼스) 자금 조달에 엔비디아가 보증 검토. 앞서 OpenAI 데이터센터 보증도 1,200억$ 미만으로 축소 보도(WSJ). 보증 규모 미확인."
-  },
-  {
-   "title": "코어위브 채권, 부실채권처럼 거래 — AI 지출이 재무제표를 앞지른다",
-   "url": "https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/",
-   "press": "investingLive",
-   "at": "2026-10-31 11:40",
-   "why": "AI 크레딧 가설 — 가장 약한 AI 차입자의 채권 스프레드가 크레딧 필터의 선행 계기판",
-   "summary": "코어위브 무담보채 스프레드 1,000bp↑(HANAchina/71287 인용)·수익률 15% 근처 보도. 10월 나스닥100 −3.3%·M7 −6%↑. 날짜별 수치는 원문 확인."
   }
  ],
  "at": "2026-11-03 22:45"
