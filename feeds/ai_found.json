@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "AMD, 데이터센터 매출 거의 2배 — 시간외 +7%",
+   "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
+   "press": "CNBC",
+   "at": "2026-11-04 06:40",
+   "why": "반도체 칸·한국 반도체 ETF — AI 칩 수요 확인, 오늘 한국 개장 갭 방향",
+   "summary": "3분기 예상 상회·AI 칩 판매 호조로 데이터센터 매출 거의 2배, 시간외 +7% · 같은 밤 SMCI 전망 상회·아리스타 상회 vs 스카이웍스 부진 전망 −12%(investing_kr)"
+  },
+  {
+   "title": "美 주요 지수 11/3 마감 — 빅테크 반등이 받친 혼조",
+   "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-211437939.html",
+   "press": "Yahoo Finance(AP)",
+   "at": "2026-11-04 06:40",
+   "why": "🐻 하락장 판정 watch — S&P 7,040 기준 대비 위치",
+   "summary": "S&P 7,568.92(+0.36%)·나스닥 25,372(+0.83%)·다우 51,787(−0.38%)·VIX 20.83 · 10년 4.966%(CNBC 마감) · 애플 약세"
+  },
+  {
    "title": "美 증시: 다우 약세 속 S&P·나스닥 상승 — 칩 반등, AMD 실적 대기",
    "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html",
    "press": "Yahoo Finance",
@@ -623,22 +639,6 @@
    "at": "2026-11-02 00:35",
    "why": "AI 자금줄 둔화 — WSJ 「목표 절반도 못 모음」(피드)과 같은 방향, AI 크레딧 가설(0.88)·반도체 칸",
    "summary": "목표 밸류 1.4조$ 저항 → 1.25조$ 하향 보도. 모집액 300억$ 중 실제 확보 규모는 WSJ 「절반 미만」(세부 미확인)."
-  },
-  {
-   "title": "정크 등급 강등 채권 늘어 — 크레딧 균열 신호",
-   "url": "https://news.bgov.com/capital-markets/more-bonds-are-being-cut-to-junk-in-latest-sign-of-credit-cracks",
-   "press": "Bloomberg Government",
-   "at": "2026-11-02 00:35",
-   "why": "FT 「정크 피바다」와 함께 크레딧 스트레스 확산 — AI 크레딧 가설 근거, 하이일드 비중 회피",
-   "summary": "투자등급→정크 강등 증가(게재일·수치 미확인). 같은 주 FT 정크본드 급락 기사와 같은 방향."
-  },
-  {
-   "title": "모건스탠리 윌슨 「중간선거 누가 이기든 하락은 매수 기회」",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-01/mike-wilson-says-buy-stock-dip-regardless-of-who-wins-midterms",
-   "press": "Bloomberg",
-   "at": "2026-11-01 23:35",
-   "why": "위험 회피 국면의 대형 IB 반대 의견 — 선거(11/3) 뒤 지수 ETF 반등 그림자 채점과 연결",
-   "summary": "윌슨: 앞으로 몇 차례 「정리 이벤트」가 일시적 추가 하락을 만들 수 있으나 재진입 기회. 모건스탠리 S&P 8,000 전망 유지(gn_us_mkt)."
   }
  ],
  "at": "2026-11-04 05:45"
