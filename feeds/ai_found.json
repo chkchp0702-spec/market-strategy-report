@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "코스피, 외인·기관 동반 '팔자'에 낙폭 확대…5600선으로 후퇴",
+   "url": "https://www.g-enews.com/article/Securities/2026/11/202611031326047978923c501012_1",
+   "press": "글로벌이코노믹",
+   "at": "2026-11-03 13:26",
+   "why": "🐻 하락장선 5,665 판정 — 외인·기관 동반 매도 구조 확인",
+   "summary": "코스피 5,600선 후퇴, 외국인·기관 동시 순매도. 삼전·하닉 약세 주도."
+  },
+  {
+   "title": "코스피 5,630선까지 추락…외국인 1조2천억 매도, 삼성전자·SK하이닉스 급락",
+   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16266954",
+   "press": "톱스타뉴스",
+   "at": "2026-11-03 14:00",
+   "why": "외국인 매도 멈춤 watch — 10월 −19.7조에 이어 11월 첫 주도 매도 지속",
+   "summary": "외국인 약 1.2조 순매도, 반도체 대형주 급락으로 코스피 5,630선."
+  },
+  {
    "title": "마벨, 루멘텀 인수 보도에 하루 −13.2% — 시가총액 약 290억$ 증발",
    "url": "https://www.heygotrade.com/en/news/marvell-mrvl-stock-news-october-30-2026/",
    "press": "Gotrade",
@@ -623,22 +639,6 @@
    "at": "2026-10-31 06:40",
    "why": "AI 크레딧 가설 — S&P 의 메타 전망 「부정적」 하향(10/30)의 근거인 현금흐름 역전을 숫자로",
    "summary": "메타 3분기 설비투자가 영업현금흐름을 약 21억 달러 초과(제목 기준, 본문 미확인). 같은 날 S&P 글로벌이 현금흐름 우려로 메타 신용 전망을 부정적으로 하향(investing.com)."
-  },
-  {
-   "title": "이란 확전 우려에 국제유가 2%대 급등…브렌트유 6개월 만에 최고",
-   "url": "https://www.yna.co.kr/view/AKR20261031005200072",
-   "press": "연합뉴스",
-   "at": "2026-10-31 05:35",
-   "why": "열린 SU·대기 COP 에너지 bets와 고유가→인플레 경로(고금리 가설) 점검",
-   "summary": "이란 확전 우려로 유가 2%대 상승, 브렌트 6개월 최고 · 같은 날 BP 3분기 이익 18년 최고(정제 마진 급등, bbg) · 나스닥 −2.9% 투매일에 에너지만 역행"
-  },
-  {
-   "title": "바이낸스 63억$ 해킹 추정 — 사상 최대 코인 탈취, 비트코인 하락",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNW1MdGRoUFFwNW96WUJ5SHUzUUdhT1NVeXVZN2dBc0hQeGxzNkNvSTNiMG4xQTFHTTVCdVEwaTdJSmNDaUtXaU5KRWI2VmdSRUNybkNzeHdvbXVaZWZnZ01EbEdzdTZpemNiY0E0dDdTLTNGa3dCNXpqU1JEVXZFOHJGekRMY3hOMUFwRVBGckNZdTd2WUREakdBY1EtRV90SXM5aC1sRFdvMzJGT29wOQ?oc=5",
-   "press": "Bloomberg(구글뉴스 경유)",
-   "at": "2026-10-31 05:35",
-   "why": "위험 자산 심리 악화 겹침 — 코인 연동 종목·심리 계기판 점검",
-   "summary": "바이낸스 추정 피해 63억$(약 8.4조 원, 연합 「20분 만에」·北 배후 추정) · 비트코인 76,238$(−5.6%, Yahoo) · 주식 투매와 같은 날"
   }
  ],
  "at": "2026-11-03 11:45"
