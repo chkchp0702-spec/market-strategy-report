@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "마벨, 루멘텀 인수 보도에 하루 −13.2% — 시가총액 약 290억$ 증발",
+   "url": "https://www.heygotrade.com/en/news/marvell-mrvl-stock-news-october-30-2026/",
+   "press": "Gotrade",
+   "at": "2026-11-03 11:45",
+   "why": "11/3 1,150억$ 전액 주식 인수 확정 — 인수자 희석·프리미엄 우려가 광통신 내 분화(COHR·AAOI vs MRVL) 관찰과 이어짐",
+   "summary": "10/29 인수 협상 보도에 MRVL −13.2% · 시장은 인수 프리미엄·신주 발행 희석·규제 심사를 우려 · 11/3 확정 규모 1,150억$(전액 주식)"
+  },
+  {
+   "title": "OpenAI, 300억$ 라운드 기업가치 목표 1.4조→1.25조$로 낮춰",
+   "url": "https://www.boersen-zeitung.de/unternehmen-branchen/openai-schraubt-bewertungsziel-bei-funding-runde-herunter",
+   "press": "Börsen-Zeitung",
+   "at": "2026-11-03 11:45",
+   "why": "AI 크레딧 가설(0.92) — 자금 조달 목표 미달(WSJ)과 함께 AI 자본 조달 피로의 근거",
+   "summary": "투자자 저항으로 목표 기업가치 1.4조$ → 1.25조$ 하향 보도 · 라운드 규모 300억$(코투·UAE 투자자 주도 보도) · 날짜·확정 여부 미확인"
+  },
+  {
    "title": "미국, 이란 케슘섬 타격 — 트럼프는 전쟁 위험 축소 발언",
    "url": "https://www.wsj.com/world/middle-east/u-s-strikes-irans-qeshm-island-as-trump-talks-down-war-risks-79d73d3d",
    "press": "WSJ",
@@ -623,23 +639,7 @@
    "at": "2026-10-31 05:35",
    "why": "위험 자산 심리 악화 겹침 — 코인 연동 종목·심리 계기판 점검",
    "summary": "바이낸스 추정 피해 63억$(약 8.4조 원, 연합 「20분 만에」·北 배후 추정) · 비트코인 76,238$(−5.6%, Yahoo) · 주식 투매와 같은 날"
-  },
-  {
-   "title": "뉴욕증시 마감 30분 전 — 나스닥 −3.4%, 6월 이후 최악의 날 · 무살렘·바킨 인상론에 12월 인상 기대↑",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html",
-   "press": "Yahoo Finance",
-   "at": "2026-10-31 04:45",
-   "why": "뼈대 주식·반도체·광통신 칸과 고금리 정점 가설(10년 4.92%)·AI 크레딧 가설 동시 점검",
-   "summary": "S&P 7,557.69(−2.11%)·다우 51,682(−1.26%)·나스닥 25,303(−3.37%)·VIX 21.85(+27%) · 10년 4.923%(−6.6bp)·WTI 104.2$·금 3,889$(−3.5%)·비트코인 76,238$(−5.6%, 바이낸스 해킹)"
-  },
-  {
-   "title": "댈러스 연은 로건 「물가 잡으려면 금리 더 올려야」",
-   "url": "https://www.bondbuyer.com/articles/feds-logan-says-more-rate-hikes-needed-to-slow-hot-inflation",
-   "press": "Bond Buyer",
-   "at": "2026-10-31 03:35",
-   "why": "고금리 정점 가설(10년 4.95 경계)의 반대 재료 — 단기채·중장기채 칸 판단",
-   "summary": "로건 「최소 두 차례 인상 필요, 속도는 점진적」(블룸버그 10/30) · 같은 날 10년 4.989→4.933% 하락 = 시장은 매파 발언보다 성장 걱정에 반응"
   }
  ],
- "at": "2026-11-03 05:45"
+ "at": "2026-11-03 11:45"
 }
