@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 증시: 다우 약세 속 S&P·나스닥 상승 — 칩 반등, AMD 실적 대기",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html",
+   "press": "Yahoo Finance",
+   "at": "2026-11-04 05:45",
+   "why": "🧭 미국·AI 칸 — 칩 반등이 지수를 받치지만 폭은 좁음, AMD 실적이 SMH D+1 방향 결정",
+   "summary": "S&P 7,566(+0.33%)·나스닥 25,360(+0.78%)·다우 −0.43%(CNBC 15:12 EST) · 엔비디아 +2.2%·마이크론 +1.9% · 10년 4.946%"
+  },
+  {
+   "title": "선거일: 주식 신호로 보는 1순위 쟁점(CNBC Investing Club)",
+   "url": "https://www.cnbc.com/investingclub/2026/11/03/election-day-here-is-the-no-1-issue-were-watching-as-a-signal-for-stocks.html",
+   "press": "CNBC",
+   "at": "2026-11-04 05:45",
+   "why": "중간선거 결과(블루웨이브 여부)가 AI 데이터센터·에너지 정책 기대와 이어짐 — 개표 뒤 첫날 반응 확인용",
+   "summary": "텍사스 등 결과가 AI 데이터센터 거래를 흔들 수 있다는 관측(cnbc_top) · 트럼프 지지율 바닥·68% 물가 불만(머니투데이)"
+  },
+  {
    "title": "골드만삭스, 12월 브렌트 전망 105$로 상향 — 중동 위험 프리미엄 약 27$ 반영",
    "url": "https://finance.yahoo.com/markets/commodities/articles/goldman-sachs-raises-december-brent-090000226.html",
    "press": "Yahoo Finance",
@@ -623,23 +639,7 @@
    "at": "2026-11-01 23:35",
    "why": "위험 회피 국면의 대형 IB 반대 의견 — 선거(11/3) 뒤 지수 ETF 반등 그림자 채점과 연결",
    "summary": "윌슨: 앞으로 몇 차례 「정리 이벤트」가 일시적 추가 하락을 만들 수 있으나 재진입 기회. 모건스탠리 S&P 8,000 전망 유지(gn_us_mkt)."
-  },
-  {
-   "title": "코노코필립스, 3분기 실적 컨퍼런스콜 11/5(목)",
-   "url": "https://finviz.com/news/395338/conocophillips-to-hold-third-quarter-earnings-conference-call-on-thursday-nov-5",
-   "press": "Finviz/Business Wire",
-   "at": "2026-11-01 23:35",
-   "why": "COP bet(11/2 시가 진입·1주) 기한 안에 실적 — 실적 갭이 손절 −3%를 넘을 수 있음",
-   "summary": "3분기 실적 11/5 발표. 이란 Sinokor 조치·OPEC+ 12월 동결로 유가 변수 동시 진행."
-  },
-  {
-   "title": "선코어, 3분기 순이익 감소",
-   "url": "https://www.stockopedia.com/share-prices/suncor-energy-canada-TSE:SU/news/canada-apos-s-suncor-energy-q3-net-earnings-fall-019e69f2-9f5a-7540-b7de-ff6d191bf0c8/",
-   "press": "Stockopedia",
-   "at": "2026-11-01 23:35",
-   "why": "열린 SU bet(+2.0%, 2/5거래일)의 실적 재료 — 세부 숫자 미확인",
-   "summary": "선코어 3분기 순이익 전년 대비 감소 보도(세부 숫자 미확인)."
   }
  ],
- "at": "2026-11-04 04:45"
+ "at": "2026-11-04 05:45"
 }
