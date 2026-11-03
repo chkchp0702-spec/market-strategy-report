@@ -1,5 +1,5 @@
 {
- "at": "2026-11-03 16:45",
+ "at": "2026-11-03 17:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -52,25 +52,20 @@
    "why": "AI 크레딧 가설(0.92) — 오라클 AI 투자용 보통주 100억$ 발행·채권 200억$ 조달, 빅테크 차입 확대 직접 근거",
    "at": "2026-11-03 13:45"
   },
-  "n/m84cUpfVGpuQ0VmaGNsZUlxUVQ0dk4zQUE2cWFzUk8yM1R3cjc3dEczVwoc5": {
-   "lv": 1,
-   "why": "AI 크레딧 가설(0.92) — 오라클 증자에 이어 오픈AI도 300억$ 목표 절반 미만 조달, AI 자금줄 경색 직접 근거",
-   "at": "2026-11-03 15:45"
-  },
-  "n/XdjNmNMZHN4VFl2dktYaDhCNm9HUGZxMVNRVEZ1TUU3NmxpTTh0NzU0Zwoc5": {
-   "lv": 2,
-   "why": "🐻 코스피 5,648.79 종가 — 고점 대비 −20.2%, 하락장선 5,665 아래 첫 마감(현금화 판단 watch 확정)",
-   "at": "2026-11-03 16:45"
-  },
-  "n/tnewsnvidiatellsdatacenterpartnerstolimitchinasalesft4993618": {
-   "lv": 1,
-   "why": "엔비디아 中 판매 제한 지침(FT) — 반도체 칸·AI 이익 가설, 오늘 하이닉스 −5.8%의 재료",
-   "at": "2026-11-03 16:45"
-  },
   "kimu_nim/47934": {
    "lv": 1,
    "why": "심텍 3Q 영업익 1,018억(컨센 +19.5%) — 급락장 속 AI 기판 실적은 서프라이즈, 업황·주가 괴리(한투 커버리지 재개와 같은 방향)",
    "at": "2026-11-03 16:45"
+  },
+  "n/nsharesslideasapplemarginwarningtriggerglobaltechrout4993704": {
+   "lv": 1,
+   "why": "애플 메모리 원가 마진 경고 → 유럽 기술주 급락 — AI·하드웨어 매도 확산, 반도체 칸·AI 크레딧 가설(메모리는 MU·SNDK 소폭 상승)",
+   "at": "2026-11-03 17:45"
+  },
+  "n/ergcomnewsvideos20261103horizonsmiddleeastafrica1132026video": {
+   "lv": 1,
+   "why": "美 이란 케슘섬 타격·호르무즈 협상 교착 — 에너지 칸·AR(가스형 컵) 대기 bet 유가 꼬리",
+   "at": "2026-11-03 17:45"
   }
  }
 }
