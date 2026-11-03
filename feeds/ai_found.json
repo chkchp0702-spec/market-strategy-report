@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "골드만 몰라비 「S&P 500 종목 60%가 하락장 영역」 — 지수는 고점 3% 안",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-03/goldman-s-molavi-says-60-of-s-p-500-is-in-bear-market-territory",
+   "press": "Bloomberg",
+   "at": "2026-11-04 00:01",
+   "why": "🐻 하락장 판정 watch·포트 미국 칸 — 지수(시총가중)와 종목 체력이 갈라진 정도",
+   "summary": "S&P 500 지수는 최고치 대비 약 3% 이내인데 구성 종목의 60%는 하락장(−20%↓) 영역 · 소수 대형주가 지수를 떠받치는 폭 붕괴 구간"
+  },
+  {
+   "title": "美 9월 구인 4개월 최고·해고 1년여 최저 — 노동 수요 다시 단단",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-03/us-job-openings-jump-to-highest-level-since-may-layoffs-fall",
+   "press": "Bloomberg",
+   "at": "2026-11-04 00:03",
+   "why": "美 10년 5% watch·고금리 정점 가설(0.55) 반대 재료 — 11/6 고용 앞 금리 상방",
+   "summary": "9월 JOLTS 구인 예상 밖 급증(5월 이후 최고)·해고 1년여 최저 · 장 초반 10년 4.94%(+4.7bp, CNBC 09:58 EST)"
+  },
+  {
    "title": "헤지펀드, 한 주 만에 2년치 AI 순매수 지워 — 골드만 「디레버리징 이제 시작일 수도」",
    "url": "https://www.itiger.com/news/1150649522",
    "press": "Tiger Brokers(골드만 프라임북 인용)",
@@ -623,22 +639,6 @@
    "at": "2026-10-31 13:40",
    "why": "열린 SU·대기 COP(11/2 시가) 에너지 bets 근거 — 주말 사이 확전이면 월요일 시가 갭 위험",
    "summary": "UKMTO 확인 피격 보고 연속, 이란 「기뢰 피격」 주장과 겹침. 게시 시각·피해 척수는 본문 미확인."
-  },
-  {
-   "title": "마벨, 광부품 공급사 루멘텀 인수 막바지 협상 — 이르면 다음 주 발표, LITE 시간외 +17%",
-   "url": "https://www.newsquawk.com/headlines/marvell-mrvl-is-said-to-be-in-talks-to-buy-lumentum-holdings-lite",
-   "press": "Newsquawk",
-   "at": "2026-10-31 12:45",
-   "why": "AI 광연결 공급망 재편 — 반도체 칸·SMH, 📈 갭 신호에서 「인수 타깃 갭」은 따로 봐야 함",
-   "summary": "마벨이 루멘텀 인수를 위해 진전된 협상 중, 거래는 다음 주 가능(보도). 루멘텀 시간외 약 +17%. 인수가·조건 미확인."
-  },
-  {
-   "title": "엔비디아, Nscale 웨스트버지니아 AI 데이터센터 대출 보증인 검토",
-   "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-weighs-playing-cosigner-nscale-012005707.html",
-   "press": "Yahoo Finance",
-   "at": "2026-10-31 11:40",
-   "why": "AI 크레딧 가설 — 칩 공급사가 고객 빚을 보증하는 「공급사 금융」, 반도체 칸·SMH 위험 신호",
-   "summary": "Nscale(앤트로픽과 450억$ 컴퓨트 계약, 8GW 몬아크 캠퍼스) 자금 조달에 엔비디아가 보증 검토. 앞서 OpenAI 데이터센터 보증도 1,200억$ 미만으로 축소 보도(WSJ). 보증 규모 미확인."
   }
  ],
  "at": "2026-11-03 22:45"
