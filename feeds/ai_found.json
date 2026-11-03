@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "애플, 실적 상회에도 마진 전망 약해 하락 · 팔란티어 실적 뒤 −8%",
+   "url": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
+   "press": "CNBC",
+   "at": "2026-11-03 20:40",
+   "why": "AI·대형 기술주 실적 반응이 「숫자 좋아도 하락」 — 반도체·AI 소프트웨어 칸 심리 점검",
+   "summary": "애플 4분기 실적은 예상 상회했으나 마진 가이던스 약세로 주가 하락. 팔란티어는 실적 뒤 약 8% 하락(제목 기준, 세부 미확인)."
+  },
+  {
+   "title": "애플, 메모리 가격 급등에 마진 압박 — 시간외 −2.7%, 마이크론·샌디스크는 소폭 상승",
+   "url": "https://stocktwits.com/news-articles/markets/equity/aapl-stock-tumbles-overnight-on-margin-pressure-from-surging-memory-prices-mu-sndk-inch-higher/cNGQxyuR95f",
+   "press": "Stocktwits",
+   "at": "2026-11-03 20:40",
+   "why": "메모리 원가가 완제품 업체 마진을 깎는다 = 메모리 공급사 가격 결정력 확인(반도체 칸)",
+   "summary": "12월 분기 총마진 45~46% 전망(직전 47.9%), CFO 「메모리 비용으로 약 1%p 하락」. AAPL 시간외 −2.7%, MU +0.8%·SNDK +1%. 메모리 비용 내년까지 상승 예상."
+  },
+  {
    "title": "핌코, AI 관련 채권 수십억 달러 처분해 손실 회피",
    "url": "https://www.advisorperspectives.com/articles/2026/10/28/pimco-offloads-billions-ai-debt-skirt-losses",
    "press": "Advisor Perspectives(블룸버그 전재)",
@@ -623,22 +639,6 @@
    "at": "2026-10-31 09:40",
    "why": "AI 크레딧 가설 — 비상장 AI 자금줄도 가격 저항, 빅테크 차입 공급 폭증과 같은 방향",
    "summary": "약 300억$ 라운드 기업가치 목표 1.4조$→1.25조$(−1,500억$). 10/31 HANAchina: 유치 목표액도 100억$ 축소."
-  },
-  {
-   "title": "애플, 11/2(월) 회계 4분기 실적 발표 — 기술주 투매 뒤 첫 빅테크 시험대",
-   "url": "https://www.mactrast.com/2026/10/apple-to-announce-fiscal-q4-2026-earnings-on-november-2/",
-   "press": "MacTrast",
-   "at": "2026-10-31 08:35",
-   "why": "나스닥 −2.86%·엔비디아 시총 2위 추락 뒤 애플이 시총 1위 — 11/2 실적이 QQQ·뼈대 주식 칸 방향을 가르는 첫 재료(선거 11/3 전날)",
-   "summary": "애플 회계 4Q(9월 분기) 실적 11/2 장 마감 후 발표 예정. 10/30 반도체 매도에 애플이 시총 1위 복귀(gn_kr_sector). 컨센 숫자는 미확인."
-  },
-  {
-   "title": "아마존, 첫 파운드화 채권 — 2026년 차입이 800억$ 넘어",
-   "url": "https://cryptobriefing.com/amazon-debut-sterling-bond-sale/",
-   "press": "Crypto Briefing",
-   "at": "2026-10-31 07:35",
-   "why": "AI 크레딧 가설 — 빅테크 차입 규모가 신용 스트레스의 연료(메타 전망 하향과 같은 줄기)",
-   "summary": "제목 기준 아마존 2026년 누적 차입 800억$ 초과·첫 파운드화 채권(본문·날짜 미확인). 별도로 10/30 아마존 최대 800억$ 대출 한도·지출 약정 8,830억$(HANAchina 텔레그램, wallstreetcn)."
   }
  ],
  "at": "2026-11-03 11:45"
