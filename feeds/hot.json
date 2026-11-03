@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04 01:40",
+ "at": "2026-11-04 02:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -37,11 +37,6 @@
    "why": "AI 크레딧 가설(0.92) — 오라클 AI 투자용 보통주 100억$ 발행·채권 200억$ 조달, 빅테크 차입 확대 직접 근거",
    "at": "2026-11-03 13:45"
   },
-  "kimu_nim/47934": {
-   "lv": 1,
-   "why": "심텍 3Q 영업익 1,018억(컨센 +19.5%) — 급락장 속 AI 기판 실적은 서프라이즈, 업황·주가 괴리(한투 커버리지 재개와 같은 방향)",
-   "at": "2026-11-03 16:45"
-  },
   "HANAchina/71482": {
    "lv": 1,
    "why": "모건스탠리 윌슨 「美 조정 막바지·중간선거 뒤 저가 매수」 — 🐻 하락장 watch 의 「조정으로 끝」 쪽 반론, 판정은 11/4~6 나스닥 25,000·VIX 18 숫자로",
@@ -62,24 +57,9 @@
    "why": "⛽ 에너지 칸·AR bet — 알자지라 「美, 이란 양해각서 초안 승인」, 브렌트 105$ 아래(HANAchina/71493), 원문 미확인",
    "at": "2026-11-03 22:45"
   },
-  "n/NObEdncUhxRmZUUW1rSkM0V3Y4VlVsN1B2Wjl4aC12bDY4NzdnU1NVYmcoc5": {
-   "lv": 1,
-   "why": "美 10년 고금리 정점 가설(0.55) — 11/4 리펀딩 지침 3년 만 최대 개편·장기물 발행 축소 보도, 확정이면 10년 4.80 아래 쪽 재료",
-   "at": "2026-11-03 23:40"
-  },
-  "n/ksashedgefundsgounderweightaiforthefirsttimesince2023tsrcrss": {
-   "lv": 1,
-   "why": "AI 크레딧 가설(0.92)·🧭 AI 칸 — 헤지펀드 AI 비중 2023 이후 첫 언더웨이트, 3주 5조$ 증발: 포지션 청산 막바지 여부를 볼 수급 숫자",
-   "at": "2026-11-03 23:40"
-  },
   "kimu_nim/47974": {
    "lv": 1,
    "why": "AI 크레딧 가설(0.92) — 메타 최소 200억$ 채권, 하이퍼스케일러 빚 공급 근거 +1 · META 🐋 10/29 신호와 방향 충돌",
-   "at": "2026-11-04 00:40"
-  },
-  "n/es20261103usjobopeningsjumptohighestlevelsincemaylayoffsfall": {
-   "lv": 1,
-   "why": "美 10년 5% watch·고금리 정점(0.55) 반대 재료 — 9월 구인 4개월 최고·해고 1년 최저, 11/6 고용 앞 금리 상방",
    "at": "2026-11-04 00:40"
   },
   "n/es20261103goldmansmolavisays60ofsp500isinbearmarketterritory": {
@@ -87,15 +67,20 @@
    "why": "🐻 하락장 watch — S&P 고점 −3% 안인데 종목 60%가 하락장, 지수 밑 체력 붕괴(동일가중·소형 칸 판단)",
    "at": "2026-11-04 00:40"
   },
-  "n/VEyNzJHQWd2RzlvcjJiZ29pUWVaUjVIaGZicVRIOVRyNC1WemFpVVhpQQoc5": {
-   "lv": 1,
-   "why": "🐻 하락장 판정 watch — 中 A주도 하락장 진입·당국 부양 회의, 코스피 하락장과 같은 날 아시아 동반",
-   "at": "2026-11-04 01:40"
-  },
   "n/I2TklxMTlHa3lobHU0WjVUT3lPRDBMcDJnckxTQnBOLXl6RjM0M1BVZ1Eoc5": {
    "lv": 1,
    "why": "금 칸 — 금·은 선물 1년 최저, gold_test 판정과 직결",
    "at": "2026-11-04 01:40"
+  },
+  "n/vesting20261103coreweavesbondyieldisawarningforaidebttsrcrss": {
+   "lv": 1,
+   "why": "AI 크레딧 가설(0.92) 직접 근거 — 코어위브 채권 수익률 15%대, AI 부채 노출 종목 점검",
+   "at": "2026-11-04 02:45"
+  },
+  "n/hKRWJtcjRQMlY2bDNqMVlHamxuMUZKTDljNDBDNC0yRndGYlNpTGVzZWMoc5": {
+   "lv": 1,
+   "why": "마벨 1,150억$ 전량 주식 인수 확정 — AI 인프라 대형 M&A·주식 희석, SMH 칸 영향",
+   "at": "2026-11-04 02:45"
   }
  }
 }

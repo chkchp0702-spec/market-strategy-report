@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "코어위브 채권, 부실채권처럼 거래 — AI 지출이 재무구조를 앞질러",
+   "url": "https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/",
+   "press": "investingLive",
+   "at": "2026-11-04 02:45",
+   "why": "🧠 AI 크레딧 가설(0.92)의 핵심 확인 지표 — 네오클라우드 부채 스트레스가 하이퍼스케일러 채권으로 번지는지",
+   "summary": "코어위브 회사채 수익률 15% 안팎·주가 13~16% 급락 보도. 사모신용의 AI 데이터센터 대출 위험이 부각."
+  },
+  {
+   "title": "골드만 집계: 올해 AI 관련 채권 발행 5,000억$, 연말 7,500억$ 페이스(FT)",
+   "url": "https://aiweekly.co/alerts/ft-goldman-sachs-tallies-500b-in-ai-linked-debt-issued-in-2026-track-to-hit",
+   "press": "AI Weekly(FT 인용)",
+   "at": "2026-11-04 02:45",
+   "why": "하이퍼스케일러 채권 발행 누적 = AI 칸 비중 신호(ideas 11/03 22:45)의 숫자 근거",
+   "summary": "2026년 AI 연계 부채 5,000억$ 발행, 연말 7,500억$ 예상. 메타 추가 200억$ 채권 계획 보도와 같은 줄기."
+  },
+  {
    "title": "中 CSI 300, AI주 급락에 하락장 영역 진입",
    "url": "https://www.investing.com/news/stock-market-news/chinas-csi-300-slips-into-bearmarket-territory-as-ai-rout-deepens-4964628",
    "press": "Investing.com",
@@ -623,22 +639,6 @@
    "at": "2026-10-31 19:40",
    "why": "11/3 중간선거 — 유틸리티·전력 요금(고금리 정점 가설의 금리 민감주 칸)과 ETF 비중 bet 창",
    "summary": "제목 기준: 민주당 우세 가능성에 섹터별 승자·패자 정리. 본문 숫자 미확인."
-  },
-  {
-   "title": "전기요금·데이터센터, 2026 중간선거 쟁점으로",
-   "url": "https://brp-prod-bcc.bloomberg.com/features/2026-power-bills-midterm-election-issue/",
-   "press": "Bloomberg",
-   "at": "2026-10-31 19:40",
-   "why": "유틸리티 칸 — 요금 인상 정치 압력은 규제 유틸리티 이익률에 부담",
-   "summary": "데이터센터발 전력요금 상승이 유권자 불만으로 선거 쟁점화. 수치 미확인."
-  },
-  {
-   "title": "미 중간선거·애플 실적·고용 — 기술주 투매 직후 맞는 큰 한 주(11/2~6)",
-   "url": "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html",
-   "press": "CNBC",
-   "at": "2026-10-31 14:40",
-   "why": "다음 주 이벤트 3개가 몰림 — 이벤트 통과 뒤 ETF 비중 bet 창(ideas 10/31 13:40)·고금리 정점 가설 11/2 판정과 이어짐",
-   "summary": "나스닥 −2.86%·인텔 −29% 직후 맞는 주. 11/3 중간선거, 애플 실적, 주말 고용 보고서가 연달아 있다(게시 10/30)."
   }
  ],
  "at": "2026-11-03 22:45"
