@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04 12:40",
+ "at": "2026-11-04 13:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -81,6 +81,16 @@
    "lv": 1,
    "why": "🧠 AI 크레딧 가설(0.92) — S&P, 메타 AA− 등급 전망 「부정적」(AI 투자·현금흐름 부담) · META 🐋 고래 신호 10/29 와 반대 재료",
    "at": "2026-11-04 12:40"
+  },
+  "n/BcWNCWFY3d1hwSW1KTWE2TzhYTWFzc1hYNjVWS2JXRmgwek12ZmtpNk1noc5": {
+   "lv": 1,
+   "why": "한국 반도체 칸(091160.KS) — 美, SK하이닉스 中공장 장비 수출 보류: 민주 스윕·AI 우려에 수출규제 리스크까지 겹침",
+   "at": "2026-11-04 13:40"
+  },
+  "n/VNMQUUxT3IzMi1IVG5fSzFCakhGTV9mRVFqR0xNVVJLczhrYlJReVJKQQoc5": {
+   "lv": 1,
+   "why": "원·달러 watch — 블루웨이브에 DXY·나스닥100선물 급락, 달러-원 1,330원대(1,320 하회면 수출주 환율 역풍 재개)",
+   "at": "2026-11-04 13:40"
   }
  }
 }
