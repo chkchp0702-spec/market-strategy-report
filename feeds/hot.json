@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04 21:35",
+ "at": "2026-11-04 22:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -106,6 +106,16 @@
    "lv": 1,
    "why": "美 10년 4.95 경계 watch·고금리 정점(0.50) — 민주당 승리에 채권 랠리 4.93%, 리펀딩 발표 직전",
    "at": "2026-11-04 21:35"
+  },
+  "n/sinks17astexaselectionputsaidatacenterexpansionatrisk4999248": {
+   "lv": 1,
+   "why": "AI 차입·인프라 가설(0.92) — 선거 뒤 데이터센터 규제가 실제 주가로(사이퍼 −17%)",
+   "at": "2026-11-04 22:35"
+  },
+  "n/added86000jobsinoctoberslightlyhigherthanexpectedadpsayshtml": {
+   "lv": 1,
+   "why": "고금리 정점 가설 — ADP 8.6만 소폭 상회, 금요일 고용 전 금리 경로 재료",
+   "at": "2026-11-04 22:35"
   }
  }
 }
