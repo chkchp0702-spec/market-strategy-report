@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04 19:40",
+ "at": "2026-11-04 20:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -42,35 +42,15 @@
    "why": "🧠 AI 크레딧 가설(0.92) — 빅테크 숨은 AI 부채 6개월 새 90%↑ 3.2조$, 메타·오라클 조달과 같은 줄기",
    "at": "2026-11-04 07:40"
   },
-  "HANAchina/71500": {
-   "lv": 1,
-   "why": "🧠 AI 크레딧 가설(0.92) — 美 투자등급 기술기업 조달 프리미엄 2003년 이후 최고, 같은 밤 메타 150억$ 5트랜치 발행",
-   "at": "2026-11-04 08:40"
-  },
-  "kimu_nim/48041": {
-   "lv": 1,
-   "why": "AI 크레딧 가설(0.92) — 애크먼·엘리엇 「약세장 경고등」, 순환 투자·부채 데이터센터를 위험으로 지목",
-   "at": "2026-11-04 11:40"
-  },
   "n/20261104kospislumpsasdemocratsuselectionleadspurschipselloff": {
    "lv": 2,
    "why": "🐻 하락장 watch — 코스피 D+1 갭 반등(+2.4%) 반나절 만에 −3.1%(5,474)로 뒤집힘, 5,665 아래 · 美 민주 스윕에 한국 AI 반도체 직격(091160.KS·반도체 칸)",
-   "at": "2026-11-04 12:40"
-  },
-  "n/yV1Jlci1Udm9oR1RmWERXeldzYVN5SXlubFF1X2dXSkJabTl5bE1ieW9Noc5": {
-   "lv": 1,
-   "why": "🗳️ 선거 watch — 민주 하원 탈환 확정(DDHQ), 상원도 텍사스(탈라리코)까지 → 스윕 쪽, 킥 SPY·위험 회피 국면",
    "at": "2026-11-04 12:40"
   },
   "n/9WUDRCaHlQcVRUM0F0S1dFVjJkcC0xRkU3Z1c4Nm9ZczdzcnppT2QxOUEoc5": {
    "lv": 1,
    "why": "🧠 AI 크레딧 가설(0.92) — S&P, 메타 AA− 등급 전망 「부정적」(AI 투자·현금흐름 부담) · META 🐋 고래 신호 10/29 와 반대 재료",
    "at": "2026-11-04 12:40"
-  },
-  "n/l1dU1OOXRMdDVyOWJuMy1mWnhnRVVmTUpPamYybnZwcWlUY3NXd2t5UVEoc5": {
-   "lv": 1,
-   "why": "민주 상원 장악 확정(DDHQ) — 하원과 함께 스윕 확정, 🗳️ watch·고금리 정점(재정 제동)·AI 크레딧 가설",
-   "at": "2026-11-04 14:40"
   },
   "kimu_nim/48058": {
    "lv": 1,
@@ -87,25 +67,10 @@
    "why": "불러드 「12월 인상」 — 고금리 정점 가설(0.50)에 반대 근거, 현금·단기채 칸 유지 쪽",
    "at": "2026-11-04 15:40"
   },
-  "n/httpswwwynacokrviewAKR20261104133251008": {
-   "lv": 1,
-   "why": "🐻 하락장 판정 watch — 장중 −4%→+0.62% 마감인데 외국인 2.5조 순매도(개인·기관 흡수): V자가 외국인 아닌 국내 자금 반등",
-   "at": "2026-11-04 16:40"
-  },
   "n/s20261104metastartsdebuteurobondsaleafter15billiondollardeal": {
    "lv": 1,
    "why": "🧠 테제 「AI 차입 약한 고리」 — 메타 하루 전 달러채 150억$에 이어 첫 유로채, 하이퍼스케일러 조달처 넓히기",
    "at": "2026-11-04 17:40"
-  },
-  "n/nutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
-   "lv": 1,
-   "why": "민주 스윕 → 텍사스 데이터센터 AI주 하락 — AI·데이터센터 규제 우려가 미국 정규장까지 번지는지(🗳️ watch)",
-   "at": "2026-11-04 17:40"
-  },
-  "n/iutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
-   "lv": 1,
-   "why": "🗳️ 선거 watch — 아시아 장 −2% 선물이 「블루 쓰나미 소화」로 녹색 전환: 「정치 갭 되돌림」 판정 쪽, 오늘 밤 정규장 마감으로 확정",
-   "at": "2026-11-04 18:40"
   },
   "n/DZZMUNxaldKTnhSa1VQMndXN0hmQjdSeWtBWTVKYV92VGpTU1dnSGNPOAoc5": {
    "lv": 1,
@@ -121,6 +86,16 @@
    "lv": 1,
    "why": "오라클 부채 창구 좁아져 주식 발행 — 「AI 차입이 다음 약한 고리」 가설(0.92) 직접 근거",
    "at": "2026-11-04 19:40"
+  },
+  "n/wwwcnbccom20261104eurozonecpiinflationoctoberecbratehikehtml": {
+   "lv": 1,
+   "why": "유로존 물가 4% 3년 만 — ECB 인상 임박 → 고금리 정점 테제(conf 0.50)·금융 칸 EUFN·달러 약세 흐름과 이어짐",
+   "at": "2026-11-04 20:40"
+  },
+  "n/ssilverliningfromdemocraticsweep3d1d6f07modmw_rss_topstories": {
+   "lv": 1,
+   "why": "골드만 전략가 「AI 거래 과매도」 — 민주당 스윕 뒤 AI 차입 테제(0.92)·반도체 칸 반등 여부 판단 재료",
+   "at": "2026-11-04 20:40"
   }
  }
 }
