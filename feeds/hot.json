@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05 03:35",
+ "at": "2026-11-05 04:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -22,20 +22,10 @@
    "why": "AI 크레딧 가설(0.92) — 오라클 AI 투자용 보통주 100억$ 발행·채권 200억$ 조달, 빅테크 차입 확대 직접 근거",
    "at": "2026-11-03 13:45"
   },
-  "n/J3RUhNZ2RIU3ZzM2g4MGowQlpCVHFZdlIxdGRDbmNaWmNqUmZDQzF5SWkoc5": {
-   "lv": 1,
-   "why": "9월 구인 급증·해고 18개월 최저 — 워시 연준 인상 여지↑, 美 10년 5% 경계 watch와 직결",
-   "at": "2026-11-04 05:45"
-  },
   "n/pdEVYMG9XdEpQS1U4aFo3aFdXUHduZjlRMlFJelhwMEJLSTZ0cWx0NGFFoc5": {
    "lv": 1,
    "why": "🧠 AI 크레딧 가설(0.92) — 빅테크 숨은 AI 부채 6개월 새 90%↑ 3.2조$, 메타·오라클 조달과 같은 줄기",
    "at": "2026-11-04 07:40"
-  },
-  "n/9WUDRCaHlQcVRUM0F0S1dFVjJkcC0xRkU3Z1c4Nm9ZczdzcnppT2QxOUEoc5": {
-   "lv": 1,
-   "why": "🧠 AI 크레딧 가설(0.92) — S&P, 메타 AA− 등급 전망 「부정적」(AI 투자·현금흐름 부담) · META 🐋 고래 신호 10/29 와 반대 재료",
-   "at": "2026-11-04 12:40"
   },
   "kimu_nim/48058": {
    "lv": 1,
@@ -92,10 +82,10 @@
    "why": "브렌트 94달러(−9%) — 에너지 칸 13% 조건 brent_95(→10) 장중 도달, OXY·COP 신호 직격",
    "at": "2026-11-05 03:35"
   },
-  "n/0261104hyperscalersleadcreditmarketgainsamidbroadriskonrally": {
+  "n/tpswwwcnbccom20261104datacenterballotmeasures2026midtermhtml": {
    "lv": 1,
-   "why": "크레딧 시장 「데이터센터 둔화」 베팅 — AI 차입 가설(0.92)·반도체 칸",
-   "at": "2026-11-05 03:35"
+   "why": "AI 차입 가설 — 데이터센터 주민투표 1곳 빼고 모두 부결: 인허가·전력 리스크가 크레딧 약세로 이어짐",
+   "at": "2026-11-05 04:40"
   }
  }
 }
