@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05 00:34",
+ "at": "2026-11-05 01:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -77,15 +77,15 @@
    "why": "리펀딩 쿠폰 입찰 규모 동결·가이던스 수정 — 고금리 정점(0.50) 가설·10년 4.92% 직결",
    "at": "2026-11-04 23:35"
   },
-  "n/oVGRSNjNicGs2bDBTc09vbjNvQ0dDek84NDdBc1RUWmZ2c0REb0ROblpJoc5": {
-   "lv": 1,
-   "why": "민주당 스윕 뒤 다우 +1,000p — 🐻 하락장 판정·현금화 watch 와 직결, 「불확실성 해소」 랠리인지 마감 확인",
-   "at": "2026-11-05 00:34"
-  },
   "n/ZTFhOczlQeXZOTTJYNVpaanhzREdCTURHR2g2Y0hETkFZNmJNTS0wVklnoc5": {
    "lv": 1,
    "why": "메모리 가격 경고 누적·MU 하락 — 한국 반도체(091160)·하닉 watch, 지수 랠리 속 AI 안의 갈림 가설",
    "at": "2026-11-05 00:34"
+  },
+  "n/261104coreweavebondshitnewlowsastexasdatacentersincrosshairs": {
+   "lv": 1,
+   "why": "AI 차입 가설(0.92) 직격 — 코어위브 채권 신저가, 지수 급등일에도 AI 크레딧은 약세",
+   "at": "2026-11-05 01:40"
   }
  }
 }
