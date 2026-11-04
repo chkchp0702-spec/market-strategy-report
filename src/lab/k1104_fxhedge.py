@@ -30,9 +30,9 @@ SW = 0.001         # 헤지 비율 바꿀 때 |Δh| × 0.1%
 
 def fred(sid, log):
     import requests
-    for att in range(4):
+    for att in range(2):
         try:
-            r = requests.get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}", timeout=60,
+            r = requests.get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}", timeout=(10, 90),
                              headers={"User-Agent": "Mozilla/5.0 (research script)"})
             if r.status_code == 200 and "," in r.text[:200]:
                 d = pd.read_csv(io.StringIO(r.text))
@@ -99,17 +99,24 @@ def main():
     ch = fx.pct_change()
     fx[(ch.abs() > 0.08)] = np.nan
     fx = fx.ffill().reindex(idx.union(fx.index)).ffill().reindex(idx)
-    kr = None
-    for sid in ("IR3TIB01KRM156N", "IRSTCI01KRM156N"):
-        kr = fred(sid, log)
-        if kr is not None and len(kr) > 100:
-            log["kr_used"] = sid
-            break
-    if kr is None:
-        OUT.write_text(json.dumps({"error": "한국 금리 자료 못 받음", "log": log}, ensure_ascii=False, indent=1))
-        return
-    # 월 자료 → 그달 내내 같은 값(발표 늦음 감안 한 달 늦춤)
-    krd = kr.copy(); krd.index = krd.index + pd.offsets.MonthEnd(1)
+    kr = fred("IR3TIB01KRM156N", log)
+    if kr is not None and len(kr) > 100:
+        log["kr_used"] = "FRED IR3TIB01KRM156N (한 달 늦춤)"
+        krd = kr.copy(); krd.index = krd.index + pd.offsets.MonthEnd(1)
+    else:
+        # FRED 가 막히면 한국은행 기준금리 변경 일정 + 0.15%p(CD 3개월 ≈ 기준금리 위) — 2018-11 뒤는 bluesharehub 정리 확인
+        sched = [("2006-01-01", 3.75), ("2006-02-09", 4.00), ("2006-06-08", 4.25), ("2006-08-10", 4.50), ("2007-07-12", 4.75),
+                 ("2007-08-09", 5.00), ("2008-08-07", 5.25), ("2008-10-09", 5.00), ("2008-10-27", 4.25), ("2008-11-07", 4.00),
+                 ("2008-12-11", 3.00), ("2009-01-09", 2.50), ("2009-02-12", 2.00), ("2010-07-09", 2.25), ("2010-11-16", 2.50),
+                 ("2011-01-13", 2.75), ("2011-03-10", 3.00), ("2011-06-10", 3.25), ("2012-07-12", 3.00), ("2012-10-11", 2.75),
+                 ("2013-05-09", 2.50), ("2014-08-14", 2.25), ("2014-10-15", 2.00), ("2015-03-12", 1.75), ("2015-06-11", 1.50),
+                 ("2016-06-09", 1.25), ("2017-11-30", 1.50), ("2018-11-30", 1.75), ("2019-07-18", 1.50), ("2019-10-16", 1.25),
+                 ("2020-03-17", 0.75), ("2020-05-28", 0.50), ("2021-08-26", 0.75), ("2021-11-25", 1.00), ("2022-01-14", 1.25),
+                 ("2022-04-14", 1.50), ("2022-05-26", 1.75), ("2022-07-13", 2.25), ("2022-08-25", 2.50), ("2022-10-12", 3.00),
+                 ("2022-11-24", 3.25), ("2023-01-13", 3.50), ("2024-10-11", 3.25), ("2024-11-28", 3.00), ("2025-02-25", 2.75),
+                 ("2025-05-29", 2.50), ("2026-07-16", 2.75), ("2026-08-27", 3.00)]
+        krd = pd.Series({pd.Timestamp(a): v + 0.15 for a, v in sched})
+        log["kr_used"] = "한국은행 기준금리 일정 + 0.15%p (FRED 막힘)"
     krd = krd.reindex(idx.union(krd.index)).ffill().reindex(idx)
     usd = irx.reindex(idx.union(irx.index)).ffill().reindex(idx)
     carry = (krd - usd)                       # %p, 헤지하면 받는(+)/내는(−) 금리차
@@ -146,9 +153,11 @@ def main():
             raise ValueError(rule)
         return h.fillna(0.0).shift(1).fillna(0.0)     # 어제 종가로 정하고 오늘부터
 
+    CM = {"m": 1.0}
+
     def krw_ret(usd_r, h):
         un = (1 + usd_r) * (1 + fxr) - 1
-        hd = usd_r + (carry / 100 - FEE_H) / 252
+        hd = usd_r + (carry * CM["m"] / 100 - FEE_H) / 252
         r = (1 - h) * un + h * hd
         r = r - h.diff().abs().fillna(0.0) * SW
         return r
@@ -226,6 +235,12 @@ def main():
             sh[nm] = dlt(B, r)
             print(port, "SHAKE", nm, sh[nm], flush=True)
         res[port]["shake"] = sh
+        cs = {}
+        for m in (0.5, 0.0):     # 금리차를 절반·0 으로 놓아도(자료 근사 오차) 남나
+            CM["m"] = m; cs[f"carry_x{m:g}"] = dlt(ev("none", port), ev(rule, port, **kw))
+        CM["m"] = 1.0
+        res[port]["carry_sens"] = cs
+        print(port, "CARRY", cs, flush=True)
         # 비용 민감도: 헤지 비용 연 0.4%
     out["res"] = res
     out["note"] = ("원화 기준 · 💼 = G_PORT(S&P 47.5·나스닥 47.5·금 5) 목표 15%·아래 30% · 🎯 = G_CONC 목표 22%·아래 70% · "
