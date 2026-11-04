@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "색소 — 2026 美 중간선거 투자자 플레이북",
+   "url": "https://www.home.saxo/en-gb/content/articles/equities/us-midterms-investor-playbook-06102026",
+   "press": "Saxo",
+   "at": "2026-11-05 02:40",
+   "why": "선거 결과별 업종 지도 — 민주당 스윕 뒤 병원↑·AI 인프라↓ 쏠림이 각본대로인지 대조",
+   "summary": "10/6자 선거 전 시나리오 정리(원문 숫자 미확인). 오늘 실제: 병원·대형 테크↑, 엔비디아·네오클라우드↓."
+  },
+  {
    "title": "코어위브, 채권 스트레스에 1주 −23% — CEO 「시장이 비합리적」",
    "url": "https://www.tikr.com/blog/coreweave-sinks-23-in-a-week-on-bond-distress-its-ceo-says-the-market-acts-irrationally",
    "press": "TIKR",
@@ -623,22 +631,6 @@
    "at": "2026-11-02 12:40",
    "why": "AI 크레딧(0.88)·반도체 칸 — 이번 주 AMD·애플 실적이 AI 지출 회수 판정",
    "summary": "이번 주 실적 하이라이트 AAPL·AMD·PLTR·QCOM. 세부 컨센서스 숫자는 원문 확인 필요(미확인)."
-  },
-  {
-   "title": "삭소 「이번 주 볼 것」(10/30) — 중간선거·고용·빅테크 실적",
-   "url": "https://www.home.saxo/en-gb/content/articles/equities/week-ahead-30-oct-30102026",
-   "press": "Saxo",
-   "at": "2026-11-02 12:40",
-   "why": "고금리 정점(0.55)·현금 칸 — 11/3 선거·11/4 리펀딩·11/6 고용 일정 한곳 정리",
-   "summary": "10/30 주간 전망. 숫자 세부는 원문 확인 필요(미확인)."
-  },
-  {
-   "title": "유가 114달러 근처지만 골드만 「20% 내려 90달러」 전망 — 이유는",
-   "url": "https://invezz.com/news/2026/10/29/oil-prices-near-114-but-goldman-sees-a-20-drop-to-90-heres-why/",
-   "press": "Invezz",
-   "at": "2026-11-02 11:35",
-   "why": "에너지 bet COP(대기)·SU(진행)의 상단 근거 약화 — 유가 고점 논쟁",
-   "summary": "10/29 기사: 브렌트 114달러 부근에서도 골드만은 연말 90달러(약 −20%)를 기본 경로로 봄. 세부 근거는 원문 확인 필요."
   }
  ],
  "at": "2026-11-04 12:40"

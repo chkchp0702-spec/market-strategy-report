@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05 01:40",
+ "at": "2026-11-05 02:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -72,11 +72,6 @@
    "why": "고금리 정점 가설 — ADP 8.6만 소폭 상회, 금요일 고용 전 금리 경로 재료",
    "at": "2026-11-04 22:35"
   },
-  "n/eos20261104usrevampsdebtsaleguidanceholdsauctionssteadyvideo": {
-   "lv": 1,
-   "why": "리펀딩 쿠폰 입찰 규모 동결·가이던스 수정 — 고금리 정점(0.50) 가설·10년 4.92% 직결",
-   "at": "2026-11-04 23:35"
-  },
   "n/ZTFhOczlQeXZOTTJYNVpaanhzREdCTURHR2g2Y0hETkFZNmJNTS0wVklnoc5": {
    "lv": 1,
    "why": "메모리 가격 경고 누적·MU 하락 — 한국 반도체(091160)·하닉 watch, 지수 랠리 속 AI 안의 갈림 가설",
@@ -86,6 +81,11 @@
    "lv": 1,
    "why": "AI 차입 가설(0.92) 직격 — 코어위브 채권 신저가, 지수 급등일에도 AI 크레딧은 약세",
    "at": "2026-11-05 01:40"
+  },
+  "n/0261104bigtechstockssoarastradersbetdemocratswillslowaispend": {
+   "lv": 1,
+   "why": "AI 차입 가설 — 「민주당이 AI 투자 늦춘다」 베팅: MSFT↑ vs NVDA·네오클라우드↓, AI 인프라 칸 분리",
+   "at": "2026-11-05 02:40"
   }
  }
 }
