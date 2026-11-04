@@ -1,5 +1,5 @@
 {
- "at": "2026-11-04 17:40",
+ "at": "2026-11-04 18:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -101,6 +101,16 @@
    "lv": 1,
    "why": "민주 스윕 → 텍사스 데이터센터 AI주 하락 — AI·데이터센터 규제 우려가 미국 정규장까지 번지는지(🗳️ watch)",
    "at": "2026-11-04 17:40"
+  },
+  "n/iutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
+   "lv": 1,
+   "why": "🗳️ 선거 watch — 아시아 장 −2% 선물이 「블루 쓰나미 소화」로 녹색 전환: 「정치 갭 되돌림」 판정 쪽, 오늘 밤 정규장 마감으로 확정",
+   "at": "2026-11-04 18:40"
+  },
+  "n/DZZMUNxaldKTnhSa1VQMndXN0hmQjdSeWtBWTVKYV92VGpTU1dnSGNPOAoc5": {
+   "lv": 1,
+   "why": "🧠 AI 크레딧 가설(0.92)·SPY 칸 — 골드만 「AI 투자 모멘텀 둔화로 S&P 이익 증가율 둔화」",
+   "at": "2026-11-04 18:40"
   }
  }
 }
