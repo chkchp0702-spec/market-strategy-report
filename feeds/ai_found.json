@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 재무부, 2027년까지 입찰 규모 유지 시사(리펀딩)",
+   "url": "https://www.pulse.bot/bonds/news/us-treasury-holds-auction-sizes-steady-through-2027-signaling-stable-borrowing-strategy-63300ae8-81d7-4d46-9b3c-a6e4aba9810c/",
+   "press": "pulse.bot",
+   "at": "2026-11-05 05:35",
+   "why": "고금리 정점 가설(0.50) — 장기물 공급 부담이 늘지 않으면 10년 4.9%↓ 유지에 +",
+   "summary": "쿠폰 입찰 규모 동결 기조(기사 날짜 미확인). 11/4 리펀딩 결과와 같은 건인지 원문 확인 필요."
+  },
+  {
+   "title": "비스트라 1년 −28% — 할인인가 경고인가",
+   "url": "https://www.tikr.com/blog/vistra-stock-is-down-28-over-the-past-year-discount-or-warning-sign",
+   "press": "TIKR",
+   "at": "2026-11-05 05:35",
+   "why": "VST(🐋 고래 10/29) — 11/4 민주당 스윕에 전력·에너지주 급락, 「과민반응」 의견(mw_top)과 대조",
+   "summary": "1년 −28%(기사 기준, 날짜 미확인). 데이터센터 전력 기대가 이미 주가에서 빠지는 중이라는 논지."
+  },
+  {
    "title": "브렌트, 미·이란 평화 틀 보도에 100달러 붕괴",
    "url": "https://bingx.com/en/flash-news/post/brent-crude-drops-intraday-slips-below-on-report-of-us-iran-peace-framework",
    "press": "BingX 플래시",
@@ -623,22 +639,6 @@
    "at": "2026-11-02 15:35",
    "why": "키옥시아 낸드 가격 둔화 쇼크와 반대 판단 — 한국 반도체 칸(091160) 되돌림 여부 재료",
    "summary": "골드만이 NAND 공급 부족이 2027~2028년까지 이어진다고 보고 삼성·SK하이닉스 지지(HANAchina 11/2). 발표 날짜·목표가 숫자는 원문 확인 필요(미확인)."
-  },
-  {
-   "title": "앨버타·연방정부·오일샌드 업체 「패스웨이즈」 합의 — 증산과 탄소포집 연계",
-   "url": "https://www.ctvnews.ca/business/article/alberta-ottawa-and-oilsands-companies-reach-pathways-agreement/",
-   "press": "CTV News",
-   "at": "2026-11-02 14:35",
-   "why": "임페리얼오일(IMO, ☕ 컵 10/30 신호) 증산·탄소포집 협상 막바지(gn_kr_bbg 11/2) 배경 — 회사 고유 재료 vs 유가 하락 역풍",
-   "summary": "오일샌드 증산을 탄소포집(CCS) 투자와 묶는 정부·업계 합의. 최종 투자 결정 시점은 2027년 말 목표(boereport 8/18). 11/2 협상 막바지 보도의 세부 숫자는 미확인."
-  },
-  {
-   "title": "SK이노베이션·에쓰오일 3분기 영업익 세 자릿수 급증 전망 → 에쓰오일 1조4,067억(+514%) 발표",
-   "url": "https://biz.heraldcorp.com/article/10915798",
-   "press": "헤럴드경제",
-   "at": "2026-11-02 14:35",
-   "why": "정제마진 호황 확인 — 다만 유가 −3%(이란 외교) 속 4분기 지속성은 별개, 010950 bet 10/16 손절 이력",
-   "summary": "연합 11/2: 에쓰오일 3분기 영업익 1조4,067억 원(전년비 +514%). 헤럴드 사전 전망은 정유사 세 자릿수 증가. 주가 반응 미확인."
   }
  ],
  "at": "2026-11-04 12:40"
