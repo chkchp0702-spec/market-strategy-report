@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05 02:40",
+ "at": "2026-11-05 03:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -86,6 +86,16 @@
    "lv": 1,
    "why": "AI 차입 가설 — 「민주당이 AI 투자 늦춘다」 베팅: MSFT↑ vs NVDA·네오클라우드↓, AI 인프라 칸 분리",
    "at": "2026-11-05 02:40"
+  },
+  "n/swwwftcomcontentb526f876810a4e748b8d4ffca04b29c7syn25a6b1a61": {
+   "lv": 2,
+   "why": "브렌트 94달러(−9%) — 에너지 칸 13% 조건 brent_95(→10) 장중 도달, OXY·COP 신호 직격",
+   "at": "2026-11-05 03:35"
+  },
+  "n/0261104hyperscalersleadcreditmarketgainsamidbroadriskonrally": {
+   "lv": 1,
+   "why": "크레딧 시장 「데이터센터 둔화」 베팅 — AI 차입 가설(0.92)·반도체 칸",
+   "at": "2026-11-05 03:35"
   }
  }
 }
