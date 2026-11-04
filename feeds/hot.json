@@ -1,16 +1,11 @@
 {
- "at": "2026-11-05 06:40",
+ "at": "2026-11-05 07:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
    "lv": 1,
    "why": "ECB 수장 2/7 조기 퇴임(공식) — 오늘 밤 ECB 회의·유로 약세·12월 인상 기대와 이어짐, 고금리 정점 가설 점검",
    "at": "2026-10-29 19:35"
-  },
-  "n/ndOTkQ3VjNJME9CUUF6VGZHdW8tOENBT29QZEowOE5oWU5oMUk2M2xmWgoc5": {
-   "lv": 1,
-   "why": "모건스탠리 「반도체 지지선 지금보다 최대 −15% 아래」 — 반도체 칸 추격 금지·AI 크레딧(0.88) 쪽, DB 「대형 테크 상대성과 채널 하단」 반대 의견과 함께 볼 것",
-   "at": "2026-11-02 07:45"
   },
   "globalmktinsight/7817": {
    "lv": 1,
@@ -40,11 +35,6 @@
   "n/hNml2cWtGY25lVGFIY0F3SW9WOXRxdFA3Z0tLVDVZdVFKQVBGMW9fNVlYoc5": {
    "lv": 1,
    "why": "中 인민은행 자사주 매입 재대출 금리 1%로 인하 → 과창50 +10% 근접 · 아시아 반도체 「규제 디커플링」 아이디어(11/04 15:40)와 이어짐",
-   "at": "2026-11-04 19:40"
-  },
-  "n/1MVTZ0bUQ3LVNKOTJhYUZ4OG1mTG5JTWsycjlaeTRYemJmUTZWUW82Rmcoc5": {
-   "lv": 1,
-   "why": "오라클 부채 창구 좁아져 주식 발행 — 「AI 차입이 다음 약한 고리」 가설(0.92) 직접 근거",
    "at": "2026-11-04 19:40"
   },
   "n/wwwcnbccom20261104eurozonecpiinflationoctoberecbratehikehtml": {
@@ -86,6 +76,11 @@
    "lv": 1,
    "why": "고금리 정점 가설 — 리펀딩 지침 개편으로 월가가 국채 발행 전망 수정, 10년 4.886% 마감과 함께 0.50→0.55 근거",
    "at": "2026-11-05 06:40"
+  },
+  "n/v4oraclefallsoncanceled7billiontencentchipleasingdealtsrcrss": {
+   "lv": 1,
+   "why": "AI 차입 가설(0.92) — 오라클·텐센트 70억$ 칩 임대 취소, AI 인프라 계약 되돌림 첫 사례",
+   "at": "2026-11-05 07:40"
   }
  }
 }
