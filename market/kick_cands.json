@@ -5660,6 +5660,17 @@
 "lv": 256.07,
 "max20": 4.2,
 "id60": 0.0
+},
+"ASH|2026-11-04": {
+"code": "ASH",
+"name": "Ashland Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-04",
+"src": "cup_eye",
+"score": 66.2,
+"lv": 76.4,
+"max20": 2.6,
+"id60": -0.017
 }
 },
 "sent": [
@@ -5678,25 +5689,22 @@
 "2026-11-04|팔기|PR"
 ],
 "whale": [
-"ALKS",
-"AMD",
-"APO",
 "AVTX",
 "BKNG",
 "CDW",
+"CG",
+"CLF",
+"CNC",
 "CPNG",
-"CRL",
 "CVS",
-"EA",
 "GOOGL",
-"HPE",
 "INSM",
 "META",
+"MPC",
 "NCLH",
-"ORCL",
-"RIG",
-"SPGI",
-"VST",
-"ZYME"
+"NEM",
+"NRIX",
+"SIRI",
+"SPGI"
 ]
 }
