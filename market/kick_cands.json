@@ -5605,6 +5605,61 @@
 "src": "focus",
 "score": 70,
 "theme": "헬스케어"
+},
+"COR|2026-11-04": {
+"code": "COR",
+"name": "Cencora, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-04",
+"src": "cup_eye",
+"score": 75.0,
+"lv": 345.81,
+"max20": 2.1,
+"id60": -0.033
+},
+"SPOT|2026-11-04": {
+"code": "SPOT",
+"name": "Spotify Technology S.A. Ordinary Share",
+"mkt": "US",
+"d": "2026-11-04",
+"src": "cup_eye",
+"score": 66.4,
+"lv": 594.39,
+"max20": 11.1,
+"id60": -0.033
+},
+"ATRC|2026-11-04": {
+"code": "ATRC",
+"name": "AtriCure, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-11-04",
+"src": "cup_eye",
+"score": 61.1,
+"lv": 63.06,
+"max20": 5.6,
+"id60": -0.15
+},
+"ULTA|2026-11-04": {
+"code": "ULTA",
+"name": "Ulta Beauty, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-11-04",
+"src": "cup_eye",
+"score": 59.6,
+"lv": 637.9,
+"max20": 4.7,
+"id60": 0.033
+},
+"PKG|2026-11-04": {
+"code": "PKG",
+"name": "Packaging Corporation of America Commo",
+"mkt": "US",
+"d": "2026-11-04",
+"src": "cup_eye",
+"score": 49.0,
+"lv": 256.07,
+"max20": 4.2,
+"id60": 0.0
 }
 },
 "sent": [
