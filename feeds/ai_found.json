@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "민주당 중간선거 우려에도 마이크론·샌디스크·SK하이닉스 프리마켓 상승 이유",
+   "url": "https://www.tipranks.com/news/why-micron-sandisk-and-sk-hynix-stocks-are-rising-in-premarket-despite-midterm-concerns-november-4",
+   "press": "TipRanks",
+   "at": "2026-11-05 00:34",
+   "why": "한국 반도체 ETF(091160)·하닉 — 선거 뒤 메모리주 방향이 프리마켓↑ vs 장중 경고로 엇갈림",
+   "summary": "11/4 프리마켓 메모리 3사 상승 배경 기사 — 원문 숫자 미확인. 같은 날 배런스는 「메모리 가격 경고 누적·MU 하락」 보도."
+  },
+  {
+   "title": "마이크론, 중간선거 결과가 AI 트레이드를 흐리며 하락",
+   "url": "https://moneycheck.com/micron-mu-stock-slips-as-midterm-results-cloud-the-ai-trade-heres-why",
+   "press": "MoneyCheck",
+   "at": "2026-11-05 00:34",
+   "why": "AI 차입·AI 안의 갈림 가설 — 지수 +2%대 랠리 속 메모리·네오클라우드만 약세",
+   "summary": "민주당 스윕 → AI 데이터센터 규제·전력 반발 우려로 MU 하락 — 원문 숫자 미확인."
+  },
+  {
    "title": "美 재무부, 11월 리펀딩 — 쿠폰 입찰 규모 유지·발행 가이던스 손질",
    "url": "https://marketnews.com/mni-brief-us-treasury-maintains-steady-issuance-guidance",
    "press": "MNI",
@@ -623,22 +639,6 @@
    "at": "2026-11-02 09:40",
    "why": "중국 A주 급락 뒤 인민은행·증감회 11/2 회의 — 홍콩·중국 ETF(2800.HK·FXI) 「보도일 vs 발표일」 반응 채점(ideas 11/02 02:35)과 직결",
    "summary": "기술주 급락 뒤 당국이 시장 안정 수단 사용을 논의. 구체 규모는 발표 전(미확인)."
-  },
-  {
-   "title": "중국 증감회, 시장 안정 회의 개최 — 관영 매체",
-   "url": "https://www.thestandard.com.hk/finance/article/337650/China-securities-regulator-to-hold-market-stability-meeting-state-media-reports",
-   "press": "The Standard",
-   "at": "2026-11-02 09:40",
-   "why": "같은 사건 두 번째 출처 — 부양 발표 시 아시아 위험 회피 완화 여부(한국 개장 −1.6%) 확인용",
-   "summary": "증감회가 시장 안정 회의를 연다고 관영 매체 보도. 내용은 발표 뒤 확인."
-  },
-  {
-   "title": "모건스탠리: 반도체주 지지선은 지금보다 최대 15% 아래일 수 있다",
-   "url": "https://qz.com/morgan-stanley-chip-stocks-support-15-percent-lower-102626",
-   "press": "Quartz",
-   "at": "2026-11-02 07:45",
-   "why": "반도체 칸·한국 반도체 ETF(091160) 반등 시점 판단 — IB가 아직 바닥 아님을 경고",
-   "summary": "모건스탠리, 반도체 지수 지지선이 현재보다 최대 15% 낮을 수 있다고 경고. 인텔 −28% 급락(10/30) 이후 반도체 투매와 맞물림."
   }
  ],
  "at": "2026-11-04 12:40"
