@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "美 재무부, 11월 리펀딩 — 쿠폰 입찰 규모 유지·발행 가이던스 손질",
+   "url": "https://marketnews.com/mni-brief-us-treasury-maintains-steady-issuance-guidance",
+   "press": "MNI",
+   "at": "2026-11-04 23:35",
+   "why": "고금리 정점 가설(중장기채·유틸리티) — 공급 충격 없음 확인",
+   "summary": "쿠폰 입찰 규모 동결, 「적어도 향후 몇 분기」 문구 손질(bbg_mkt 동일 보도). 발표 뒤 美 10년 4.92%·30년 5.30%(CNBC 23:18 KST). 세부 숫자 미확인."
+  },
+  {
    "title": "재무부 차입 추정치 — 11/4 리펀딩이 정할 것(장기물 바이백)",
    "url": "https://marketsandnews.com/rates/treasury-quarterly-refunding-november-4-2026-buybacks-yields/",
    "press": "Markets and News",
@@ -631,22 +639,6 @@
    "at": "2026-11-02 07:45",
    "why": "반도체 칸·한국 반도체 ETF(091160) 반등 시점 판단 — IB가 아직 바닥 아님을 경고",
    "summary": "모건스탠리, 반도체 지수 지지선이 현재보다 최대 15% 낮을 수 있다고 경고. 인텔 −28% 급락(10/30) 이후 반도체 투매와 맞물림."
-  },
-  {
-   "title": "한국 개인 선호 SOXL 25% 급락 — 월가는 반등 신호 대기",
-   "url": "https://en.bloomingbit.io/feed/news/123354",
-   "press": "Bloomingbit",
-   "at": "2026-11-02 07:45",
-   "why": "한국 개인의 레버리지 반도체 쏠림 — 반대매매·심리 지표(투매 끝물 여부), 한국 반도체 ETF 개장 반응과 연결",
-   "summary": "반도체 3배 레버리지 SOXL 약 −25% 급락. 월가는 반등 신호 확인 전 관망(제목 기준, 세부 숫자 미확인)."
-  },
-  {
-   "title": "「25조 체코 원전」 시공 협상 결렬",
-   "url": "https://www.seoul.co.kr/news/newsView.php?id=20261030029003",
-   "press": "서울신문",
-   "at": "2026-11-02 06:40",
-   "why": "한국 원전 밸류체인(시공·주기기) 기대 꺾임 — 한국 개별 종목은 👻 그림자, 원전 테마는 ETF로만 관찰",
-   "summary": "10/30 보도: 체코 두코바니 원전 시공 협상 결렬. 정부 비상관리체제 가동(einfomax 11/1)."
   }
  ],
  "at": "2026-11-04 12:40"
