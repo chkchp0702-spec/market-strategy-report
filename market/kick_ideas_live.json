@@ -1,61 +1,72 @@
 {
-"at": "2026-11-03 12:31",
+"at": "2026-11-04 11:27",
 "signals": [
 {
 "src": "pead",
-"code": "IDXX",
-"name": "IDEXX Laboratories, Inc.",
+"code": "FISV",
+"name": "Fiserv, Inc.",
 "mkt": "US",
-"d": "2026-11-02",
+"d": "2026-11-03",
+"vr": 3.0,
+"gap": 8.9,
+"px": 58.4,
+"score": 15.0
+},
+{
+"src": "pead",
+"code": "IBTA",
+"name": "Ibotta, Inc. Class A Common Stock",
+"mkt": "US",
+"d": "2026-11-03",
+"vr": 9.9,
+"gap": 17.3,
+"px": 60.35,
+"score": 30.0
+},
+{
+"src": "pead",
+"code": "SRAD",
+"name": "Sportradar Group AG - Class A Ordinary Shares",
+"mkt": "US",
+"d": "2026-11-03",
 "vr": 3.9,
-"gap": 13.4,
-"px": 671.64,
-"score": 19.4
+"gap": 14.5,
+"px": 14.2,
+"score": 19.5
 },
 {
 "src": "pead",
-"code": "MGRC",
-"name": "McGrath RentCorp",
+"code": "TBBB",
+"name": "BBB Foods Inc. Class A Common Shares",
 "mkt": "US",
-"d": "2026-11-02",
-"vr": 8.2,
-"gap": 4.4,
-"px": 129.44,
-"score": 30.0
-},
-{
-"src": "pead",
-"code": "PERI",
-"name": "Perion Network Ltd",
-"mkt": "US",
-"d": "2026-11-02",
-"vr": 19.6,
-"gap": 31.3,
-"px": 11.41,
-"score": 30.0
+"d": "2026-11-03",
+"vr": 3.8,
+"gap": 5.3,
+"px": 62.97,
+"score": 19.2
 }
 ],
 "state": {
 "index_KR": {
 "sym": "^KS11",
 "above200": false,
-"d": "2026-11-03"
+"d": "2026-11-04"
 },
-"scanned_KR": 2613,
+"scanned_KR": 2614,
 "us_source": "US.json 전 종목 5940 + ETF 4929 (2026-11-01)",
 "index_US": {
 "sym": "^GSPC",
 "above200": true,
-"d": "2026-11-02"
+"d": "2026-11-03"
 },
-"scanned_US": 9146,
+"scanned_US": 9143,
 "dip": {
 "sym": "QQQ",
-"d": "2026-11-02",
-"close": 681.09,
-"ma200": 678.68,
-"ma5": 706.76,
-"rsi2": 5.4,
+"d": "2026-11-03",
+"close": 685.28,
+"ma200": 679.01,
+"ma5": 699.56,
+"rsi2": 28.5,
 "th": 5.0,
 "signal": false
 },
@@ -65,74 +76,74 @@
 "GLD": {
 "on": false,
 "since": "2026-03-23",
-"close": 361.65,
+"close": 359.26,
 "hi": 429.42,
 "lo": 354.67,
-"d": "2026-11-02"
+"d": "2026-11-03"
 },
 "USO": {
 "on": true,
 "since": "2026-09-10",
-"close": 156.87,
+"close": 158.17,
 "hi": 171.82,
 "lo": 125.41,
-"d": "2026-11-02"
+"d": "2026-11-03"
 },
 "TLT": {
 "on": false,
 "since": null,
-"close": 81.73,
-"hi": 86.44,
+"close": 81.11,
+"hi": 86.78,
 "lo": 76.43,
-"d": "2026-11-02"
+"d": "2026-11-03"
 },
 "UUP": {
 "on": true,
 "since": "2026-03-12",
-"close": 28.96,
+"close": 29.01,
 "hi": 29.25,
-"lo": 27.89,
-"d": "2026-11-02"
+"lo": 27.92,
+"d": "2026-11-03"
 },
 "SPY": {
 "on": true,
 "since": "2026-04-15",
-"close": 752.1,
+"close": 754.35,
 "hi": 781.62,
 "lo": 747.74,
-"d": "2026-11-02"
+"d": "2026-11-03"
 },
 "QQQ": {
 "on": false,
 "since": "2026-10-30",
-"close": 681.09,
+"close": 685.28,
 "hi": 762.86,
-"lo": 683.45,
-"d": "2026-11-02"
+"lo": 680.33,
+"d": "2026-11-03"
 },
 "EFA": {
 "on": true,
 "since": "2026-07-06",
-"close": 103.7,
+"close": 103.08,
 "hi": 108.89,
 "lo": 102.0,
-"d": "2026-11-02"
+"d": "2026-11-03"
 },
 "EEM": {
 "on": false,
 "since": "2026-07-29",
-"close": 61.11,
+"close": 61.1,
 "hi": 71.57,
 "lo": 60.58,
-"d": "2026-11-02"
+"d": "2026-11-03"
 },
 "DBC": {
 "on": true,
 "since": "2026-09-01",
-"close": 32.46,
+"close": 32.44,
 "hi": 34.14,
 "lo": 30.27,
-"d": "2026-11-02"
+"d": "2026-11-03"
 }
 }
 }
@@ -542,6 +553,50 @@
 "gap": 31.3,
 "px": 11.41,
 "score": 30.0
+},
+{
+"src": "pead",
+"code": "FISV",
+"name": "Fiserv, Inc.",
+"mkt": "US",
+"d": "2026-11-03",
+"vr": 3.0,
+"gap": 8.9,
+"px": 58.4,
+"score": 15.0
+},
+{
+"src": "pead",
+"code": "IBTA",
+"name": "Ibotta, Inc. Class A Common Stock",
+"mkt": "US",
+"d": "2026-11-03",
+"vr": 9.9,
+"gap": 17.3,
+"px": 60.35,
+"score": 30.0
+},
+{
+"src": "pead",
+"code": "SRAD",
+"name": "Sportradar Group AG - Class A Ordinary Shares",
+"mkt": "US",
+"d": "2026-11-03",
+"vr": 3.9,
+"gap": 14.5,
+"px": 14.2,
+"score": 19.5
+},
+{
+"src": "pead",
+"code": "TBBB",
+"name": "BBB Foods Inc. Class A Common Shares",
+"mkt": "US",
+"d": "2026-11-03",
+"vr": 3.8,
+"gap": 5.3,
+"px": 62.97,
+"score": 19.2
 }
 ]
 }
