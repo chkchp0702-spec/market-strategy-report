@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05 10:40",
+ "at": "2026-11-05 11:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -86,6 +86,16 @@
    "lv": 1,
    "why": "반도체 칸 반대 근거 — 노무라 「DRAM ASP 2028년 말까지 고점 유지」, 급락이 실적이 아닌 규제 공포라는 쪽",
    "at": "2026-11-05 10:40"
+  },
+  "n/ndFOTc1SHkxeW5GbUpxdXpENU5FMjc0N1BJTHpLWWt1RjQzbTl1SVhTUQoc5": {
+   "lv": 1,
+   "why": "국고 10년 3.892% 6개월 최저 — 고금리 정점 가설(0.55)·중장기채 칸 쪽 근거, 주식 급락의 안전자산 이동",
+   "at": "2026-11-05 11:45"
+  },
+  "n/nbccom20261105nextdcgoodmangroupdigitalrealtydatacentershtml": {
+   "lv": 1,
+   "why": "NextDC +43%(굿맨·디지털리얼티 지분 매입) — 美 규제 공포 속 데이터센터 자산엔 전략적 매수, AI 차입 가설 반대 근거",
+   "at": "2026-11-05 11:45"
   }
  }
 }
