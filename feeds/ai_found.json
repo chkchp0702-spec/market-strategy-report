@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "헤지펀드, 2025년에 산 AI 주식을 5거래일 만에 전부 되팔았다",
+   "url": "https://www.forbes.com/sites/jonmarkman/2026/11/02/hedge-funds-reversed-all-their-2025-ai-stock-buying-in-five-days/",
+   "press": "Forbes",
+   "at": "2026-11-06 05:40",
+   "why": "AI 차입 가설(0.92)·반도체 칸 — 이번 투매의 주체가 헤지펀드 디레버리징임을 보여줌(기계적 매도 → 끝나면 빠른 반등 가능)",
+   "summary": "헤지펀드 AI 순매수 1년치가 5일 만에 반전(Forbes 11/2). 11/5 investing 「AI 급락이 헤지펀드 구조조정 또 촉발」과 이어짐."
+  },
+  {
+   "title": "나스닥, 조정 국면으로 급락",
+   "url": "https://www.axios.com/2026/11/05/nasdaq-plummets-correction",
+   "press": "Axios",
+   "at": "2026-11-06 05:40",
+   "why": "🐻 하락장 판정 watch — 나스닥 고점 대비 −10% 조정 진입 확인",
+   "summary": "선거 뒤 칩주 투매로 나스닥 조정 영역 진입(Axios 11/5). 장중 나스닥 −5.1%·S&P −4.0%·VIX 26(latest 14:32 EST)."
+  },
+  {
    "title": "스페이스X, 아폴로 주도 400억$ 차입으로 엔비디아 칩 구매 추진(FT) — 배경 기사",
    "url": "https://investinglive.com/stocks/spacex-seeks-40-billion-in-debt-led-by-apollo-to-fund-nvidia-chip-order-ft-says/",
    "press": "investingLive",
@@ -623,22 +639,6 @@
    "at": "2026-11-03 23:40",
    "why": "AI 크레딧 가설(0.92)·🧭 AI 칸 — 수급 청산이 진행 중인지 끝났는지 가르는 숫자",
    "summary": "골드만 프라임북: 헤지펀드 AI 관련 순매수 2년치가 한 주에 소멸·AI 비중 2023 이후 첫 언더웨이트(yahoo 11/3) · AI 주 3주간 시총 약 5조$ 감소"
-  },
-  {
-   "title": "애플 新 CEO 터너스 첫 시험 — 세계 메모리 위기가 이익을 깎는다",
-   "url": "https://cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
-   "press": "CNBC",
-   "at": "2026-11-03 22:45",
-   "why": "반도체 칸 — OEM 마진 압박 = 메모리 공급사 가격 결정력(MU·091160.KS 페어 관찰)",
-   "summary": "애플이 메모리 원가를 「전례 없는」 수준이라 부르며 마진 전망 약세. 시간외 시총 약 1,400억$ 증발(feed 헤드라인 기준, 세부 수치 미확인)."
-  },
-  {
-   "title": "11/3 증시: 美 중간선거 당일 선물 혼조 — 애플·팔란티어 실적 뒤 하락",
-   "url": "https://www.tipranks.com/news/stock-market-today-nov-3-futures-mixed-on-midterm-election-day-apple-and-palantir-shares-slide-after-earnings",
-   "press": "TipRanks",
-   "at": "2026-11-03 22:45",
-   "why": "🐻 하락장 판정 watch — 선거 결과·11/4 리펀딩·11/6 고용 전 美 지수 방향",
-   "summary": "선거 당일 선물 혼조, AAPL·PLTR 실적 뒤 약세. 다우 장중 −300P(IBD 헤드라인). 정확한 지수 숫자는 미확인."
   }
  ],
  "at": "2026-11-06 02:40"
