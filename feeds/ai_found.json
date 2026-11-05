@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "노무라 글로벌 메모리 리포트 — 삼성·SK하이닉스 메모리 슈퍼사이클 2028년까지",
+   "url": "https://www.mt.co.kr/en/stock/2026/10/21/2026102110162736502",
+   "press": "머니투데이",
+   "at": "2026-11-05 10:40",
+   "why": "오늘 하닉 −10% 급락의 반대 근거 — 실적 사이클은 그대로라는 IB 시각(반도체 칸·091160 watch)",
+   "summary": "노무라 10/20 리포트: DRAM 공급 증가가 2028년까지 수요에 못 미침, 가격 고점 유지 전망. 11/5 텔레그램(kimu_nim/48155)도 같은 ASP 전망 재인용."
+  },
+  {
    "title": "히노호사, 텍사스 신규 데이터센터 승인 중단 요구 — 입법 전까지 멈춤",
    "url": "https://www.fox7austin.com/news/hinojosa-urges-gov-abbott-pause-new-data-centers-until-lawmakers-act",
    "press": "FOX 7 Austin",
@@ -631,14 +639,6 @@
    "at": "2026-11-02 18:40",
    "why": "반도체 칸·091160 — 낸드 가격 둔화 쇼크의 깊이, 하이닉스·삼성 되돌림 판단",
    "summary": "키옥시아 한 달 −50%(기사 날짜 미확인). 피드: 11/2 도쿄장 키옥시아 안값 경신으로 닛케이 −208엔(63,081)."
-  },
-  {
-   "title": "도이체방크, 美 기술주 투자의견 상향 — 「매도세가 지나쳤다」",
-   "url": "https://www.investing.com/news/stock-market-news/deutsche-bank-upgrades-us-techsays-selloff-has-gone-too-far-4990112",
-   "press": "Investing.com",
-   "at": "2026-11-02 17:40",
-   "why": "AI 크레딧 가설(0.88)·반도체 칸 추격 금지와 반대 — 대형 IB 첫 「과매도」 판단, 나스닥 10/30 −2.86% 뒤",
-   "summary": "도이체방크가 美 기술 섹터 의견 상향(제목 기준). 나스닥 10/30 25,437(−2.86%, CNBC). 목표·세부 숫자는 미확인."
   }
  ],
  "at": "2026-11-05 09:45"
