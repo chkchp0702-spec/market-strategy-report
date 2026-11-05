@@ -1,36 +1,13 @@
-BASE 14.3 14.69 18.12
-A4_h126_w11 13.28 {'is': {'cagr': -9.57, 'mdd': -10.4, 'sharpe': -0.61, 'vol': 0.0}, 'oos': {'cagr': -5.42, 'mdd': -4.3, 'sharpe': -0.36, 'vol': 1.1}}
-A4_h126_w21 13.42 {'is': {'cagr': -11.17, 'mdd': -10.8, 'sharpe': -0.72, 'vol': 0.0}, 'oos': {'cagr': -5.53, 'mdd': -3.1, 'sharpe': -0.36, 'vol': 0.9}}
-A4_h126_w63 13.28 {'is': {'cagr': -10.37, 'mdd': -9.8, 'sharpe': -0.66, 'vol': 0.0}, 'oos': {'cagr': -6.44, 'mdd': -5.6, 'sharpe': -0.39, 'vol': 0.4}}
-A4_h252_w11 13.0 {'is': {'cagr': -3.39, 'mdd': 1.4, 'sharpe': -0.21, 'vol': 0.0}, 'oos': {'cagr': -1.58, 'mdd': -4.3, 'sharpe': -0.15, 'vol': 1.1}}
-A4_h252_w21 13.56 {'is': {'cagr': -3.72, 'mdd': 0.3, 'sharpe': -0.23, 'vol': 0.0}, 'oos': {'cagr': -2.15, 'mdd': -5.0, 'sharpe': -0.18, 'vol': 0.9}}
-A4_h252_w63 13.7 {'is': {'cagr': -4.12, 'mdd': -3.9, 'sharpe': -0.25, 'vol': 0.0}, 'oos': {'cagr': -2.7, 'mdd': -6.1, 'sharpe': -0.2, 'vol': 0.8}}
-A4_h504_w11 13.0 {'is': {'cagr': -2.3, 'mdd': 2.1, 'sharpe': -0.14, 'vol': 0.0}, 'oos': {'cagr': -1.43, 'mdd': -6.5, 'sharpe': -0.1, 'vol': 0.3}}
-A4_h504_w21 13.84 {'is': {'cagr': -3.18, 'mdd': -0.3, 'sharpe': -0.2, 'vol': 0.1}, 'oos': {'cagr': -2.9, 'mdd': -7.4, 'sharpe': -0.2, 'vol': 0.6}}
-A4_h504_w63 14.12 {'is': {'cagr': -2.42, 'mdd': -6.5, 'sharpe': -0.15, 'vol': 0.0}, 'oos': {'cagr': -4.44, 'mdd': -7.6, 'sharpe': -0.3, 'vol': 0.8}}
-A5_h126_w11 13.28 {'is': {'cagr': -9.51, 'mdd': -10.5, 'sharpe': -0.6, 'vol': 0.0}, 'oos': {'cagr': -5.47, 'mdd': -4.3, 'sharpe': -0.37, 'vol': 1.1}}
-A5_h126_w21 13.42 {'is': {'cagr': -10.84, 'mdd': -10.8, 'sharpe': -0.69, 'vol': 0.0}, 'oos': {'cagr': -5.5, 'mdd': -2.9, 'sharpe': -0.36, 'vol': 0.9}}
-A5_h126_w63 13.56 {'is': {'cagr': -10.61, 'mdd': -10.3, 'sharpe': -0.68, 'vol': 0.1}, 'oos': {'cagr': -5.99, 'mdd': -5.6, 'sharpe': -0.38, 'vol': 0.6}}
-A5_h252_w11 13.14 {'is': {'cagr': -3.24, 'mdd': 0.8, 'sharpe': -0.2, 'vol': 0.0}, 'oos': {'cagr': -1.93, 'mdd': -4.4, 'sharpe': -0.18, 'vol': 1.2}}
-A5_h252_w21 13.56 {'is': {'cagr': -3.69, 'mdd': -1.2, 'sharpe': -0.23, 'vol': 0.0}, 'oos': {'cagr': -2.0, 'mdd': -5.0, 'sharpe': -0.17, 'vol': 0.9}}
-A5_h252_w63 13.84 {'is': {'cagr': -4.42, 'mdd': -5.9, 'sharpe': -0.28, 'vol': 0.1}, 'oos': {'cagr': -2.41, 'mdd': -6.3, 'sharpe': -0.19, 'vol': 0.9}}
-A5_h504_w11 13.28 {'is': {'cagr': -1.14, 'mdd': 1.5, 'sharpe': -0.07, 'vol': 0.0}, 'oos': {'cagr': -0.69, 'mdd': -6.5, 'sharpe': -0.07, 'vol': 0.5}}
-A5_h504_w21 13.84 {'is': {'cagr': -2.44, 'mdd': 0.0, 'sharpe': -0.15, 'vol': 0.0}, 'oos': {'cagr': -2.79, 'mdd': -7.4, 'sharpe': -0.19, 'vol': 0.6}}
-A5_h504_w63 14.12 {'is': {'cagr': -2.32, 'mdd': -6.7, 'sharpe': -0.14, 'vol': 0.0}, 'oos': {'cagr': -4.44, 'mdd': -7.6, 'sharpe': -0.3, 'vol': 0.8}}
-A4T_h126_w11 13.84 {'is': {'cagr': -11.61, 'mdd': -10.7, 'sharpe': -0.75, 'vol': 0.0}, 'oos': {'cagr': -4.48, 'mdd': -2.4, 'sharpe': -0.32, 'vol': 1.2}}
-A4T_h126_w21 13.84 {'is': {'cagr': -12.73, 'mdd': -11.9, 'sharpe': -0.82, 'vol': 0.0}, 'oos': {'cagr': -4.48, 'mdd': -2.8, 'sharpe': -0.31, 'vol': 1.1}}
-A4T_h126_w63 13.56 {'is': {'cagr': -11.36, 'mdd': -10.3, 'sharpe': -0.73, 'vol': 0.0}, 'oos': {'cagr': -5.21, 'mdd': -5.5, 'sharpe': -0.33, 'vol': 0.5}}
-A4T_h252_w11 13.56 {'is': {'cagr': -4.64, 'mdd': 0.5, 'sharpe': -0.29, 'vol': 0.0}, 'oos': {'cagr': -1.92, 'mdd': -8.9, 'sharpe': -0.18, 'vol': 1.3}}
-A4T_h252_w21 13.84 {'is': {'cagr': -5.21, 'mdd': 0.7, 'sharpe': -0.33, 'vol': 0.0}, 'oos': {'cagr': -2.0, 'mdd': -6.8, 'sharpe': -0.18, 'vol': 1.2}}
-A4T_h252_w63 13.98 {'is': {'cagr': -5.57, 'mdd': -5.5, 'sharpe': -0.35, 'vol': 0.1}, 'oos': {'cagr': -2.74, 'mdd': -8.3, 'sharpe': -0.21, 'vol': 0.9}}
-A4T_h504_w11 13.84 {'is': {'cagr': -2.84, 'mdd': 1.1, 'sharpe': -0.18, 'vol': 0.0}, 'oos': {'cagr': -0.42, 'mdd': -6.2, 'sharpe': -0.07, 'vol': 0.8}}
-A4T_h504_w21 14.12 {'is': {'cagr': -4.08, 'mdd': -1.4, 'sharpe': -0.25, 'vol': 0.0}, 'oos': {'cagr': -1.69, 'mdd': -4.3, 'sharpe': -0.14, 'vol': 0.8}}
-A4T_h504_w63 14.41 {'is': {'cagr': -3.42, 'mdd': -6.7, 'sharpe': -0.21, 'vol': 0.0}, 'oos': {'cagr': -4.33, 'mdd': -5.3, 'sharpe': -0.31, 'vol': 1.1}}
-VC {'is': {'cagr': -3.41, 'mdd': -15.4, 'sharpe': -0.21, 'vol': 0.0}, 'oos': {'cagr': -3.71, 'mdd': -8.5, 'sharpe': -0.26, 'vol': 0.8}}
-BLEND {'is': {'cagr': -0.25, 'mdd': 2.2, 'sharpe': 0.07, 'vol': -1.2}, 'oos': {'cagr': -0.1, 'mdd': -7.8, 'sharpe': -0.18, 'vol': 3.1}}
-SHAKE hl-20 {'is': {'cagr': -1.16, 'mdd': 1.5, 'sharpe': -0.08, 'vol': 0.1}, 'oos': {'cagr': -1.29, 'mdd': -7.0, 'sharpe': -0.11, 'vol': 0.6}}
-SHAKE hl+20 {'is': {'cagr': -0.33, 'mdd': 1.5, 'sharpe': -0.02, 'vol': 0.0}, 'oos': {'cagr': -0.97, 'mdd': -7.2, 'sharpe': -0.09, 'vol': 0.6}}
-SHAKE win-20 {'is': {'cagr': -2.82, 'mdd': 3.0, 'sharpe': -0.18, 'vol': 0.0}, 'oos': {'cagr': -1.18, 'mdd': -6.0, 'sharpe': -0.08, 'vol': 0.1}}
-SHAKE win+20 {'is': {'cagr': -2.09, 'mdd': 0.7, 'sharpe': -0.13, 'vol': 0.0}, 'oos': {'cagr': -1.45, 'mdd': -6.5, 'sharpe': -0.11, 'vol': 0.5}}
-SHAKE step10 {'is': {'cagr': -1.4, 'mdd': 2.3, 'sharpe': -0.08, 'vol': 0.0}, 'oos': {'cagr': -0.17, 'mdd': -5.6, 'sharpe': -0.04, 'vol': 0.5}}
-JUDGE {'pick': 'A5_h504_w11', 'is': -1.14, 'oos': -0.69, 'oos_mdd': -6.5, 'shake_ok': False, 'cost25_oos': 0.55, 'oos_pos': 0, 'n': 27, 'is_pos': 0, 'verdict': '❌'}
+0.001 P 24.56 {'is': {'cagr': 0.89, 'mdd': 0.0, 'sharpe': 0.06, 'vol': 0.0}, 'oos': {'cagr': 0.1, 'mdd': -3.0, 'sharpe': 0.0, 'vol': 0.0}}
+0.001 CTA 20.5 {'is': {'cagr': 0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0}, 'oos': {'cagr': 0.48, 'mdd': -0.4, 'sharpe': 0.01, 'vol': 0.3}}
+0.001 P+CTA 23.75 {'is': {'cagr': 0.99, 'mdd': 0.1, 'sharpe': 0.06, 'vol': 0.0}, 'oos': {'cagr': 0.9, 'mdd': -3.2, 'sharpe': 0.02, 'vol': 0.4}}
+0.0025 P 25.38 {'is': {'cagr': 0.84, 'mdd': -0.3, 'sharpe': 0.05, 'vol': 0.0}, 'oos': {'cagr': 0.13, 'mdd': -3.2, 'sharpe': 0.0, 'vol': 0.1}}
+0.0025 CTA 22.12 {'is': {'cagr': 0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0}, 'oos': {'cagr': 0.57, 'mdd': -0.9, 'sharpe': 0.0, 'vol': 0.4}}
+0.0025 P+CTA 25.38 {'is': {'cagr': 0.82, 'mdd': -0.3, 'sharpe': 0.05, 'vol': 0.0}, 'oos': {'cagr': 0.78, 'mdd': -4.1, 'sharpe': 0.01, 'vol': 0.5}}
+SHAKE th0.4 {'tgt': 23.75, 'd': {'is': {'cagr': 0.89, 'mdd': 0.1, 'sharpe': 0.05, 'vol': 0.0}, 'oos': {'cagr': 0.83, 'mdd': -3.5, 'sharpe': 0.02, 'vol': 0.4}}}
+SHAKE th0.6 {'tgt': 24.56, 'd': {'is': {'cagr': 0.88, 'mdd': 0.0, 'sharpe': 0.06, 'vol': 0.0}, 'oos': {'cagr': 0.07, 'mdd': -2.6, 'sharpe': -0.01, 'vol': 0.2}}}
+SHAKE W4 {'tgt': 24.56, 'd': {'is': {'cagr': 0.82, 'mdd': 0.0, 'sharpe': 0.05, 'vol': 0.0}, 'oos': {'cagr': 0.62, 'mdd': -2.5, 'sharpe': 0.02, 'vol': 0.2}}}
+SHAKE W6 {'tgt': 23.75, 'd': {'is': {'cagr': 0.97, 'mdd': 0.1, 'sharpe': 0.06, 'vol': 0.0}, 'oos': {'cagr': 0.6, 'mdd': -3.5, 'sharpe': 0.03, 'vol': 0.1}}}
+SHAKE floor0.24 {'tgt': 23.75, 'd': {'is': {'cagr': 0.93, 'mdd': 0.1, 'sharpe': 0.06, 'vol': 0.0}, 'oos': {'cagr': 0.87, 'mdd': -3.2, 'sharpe': 0.02, 'vol': 0.4}}}
+SHAKE floor0.36 {'tgt': 23.75, 'd': {'is': {'cagr': 0.85, 'mdd': -0.2, 'sharpe': 0.05, 'vol': 0.0}, 'oos': {'cagr': 0.94, 'mdd': -3.2, 'sharpe': 0.02, 'vol': 0.4}}}
+JUDGE {'is': 0.99, 'oos': 0.9, 'oos_sharpe': 0.02, 'oos_mdd': -3.2, 'shake_ok': True, 'shake_min': 0.07, 'cost25_oos': 0.78, 'verdict': '🟡'}
