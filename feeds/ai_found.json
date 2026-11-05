@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "Procore 3분기 호실적·가이던스 상향에 7.7% 급등",
+   "url": "https://www.itiger.com/news/1158853959",
+   "press": "Tiger Brokers(Stock Track)",
+   "at": "2026-11-05 19:40",
+   "why": "🎯 PEAD 11/4 신호 PCOR — 오늘 bet 20261105-19 근거",
+   "summary": "3분기 실적·연간 가이던스 상향 뒤 주가 +7.73%(기사 날짜 미확인). 피드: Citizens 목표가 91달러 상향."
+  },
+  {
+   "title": "Mizuho, Procore 목표가 75→85달러 상향",
+   "url": "https://www.tipranks.com/news/the-fly/procore-price-target-raised-to-85-from-75-at-mizuho",
+   "press": "TipRanks/The Fly",
+   "at": "2026-11-05 19:40",
+   "why": "PCOR 실적 뒤 목표가 상향 연쇄 여부 확인",
+   "summary": "Mizuho 목표가 85달러(날짜 미확인)."
+  },
+  {
    "title": "마이크로소프트, Nscale 계약 철회 — 350억$ IPO 위험",
    "url": "https://computing.co.uk/news/2026/ai/microsoft-exits-nscale-deal-ipo-at-risk",
    "press": "Computing",
@@ -623,22 +639,6 @@
    "at": "2026-11-03 05:45",
    "why": "PLTR(📊 실적 신호 10/29) 장 마감 뒤 실적 — 옵션 시장 ±11~13% 변동 예상(tipranks), D+1 갭으로 earn 신호 채점",
    "summary": "실적 당일 장중 하락 반전. 회사 가이던스 매출 21.6억$ 대비 시장 기대가 그 위(financefeeds)."
-  },
-  {
-   "title": "루멘텀 8-K — 마벨 인수 합병 계약 공시(SEC)",
-   "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169dex991.htm",
-   "press": "SEC EDGAR",
-   "at": "2026-11-03 04:35",
-   "why": "AI 광학 대형 M&A — 인수자 주가 희석·프리미엄 우려(10/29 보도 때 MRVL −13%), AI 크레딧·AI 하드웨어 「보여 줘」 국면 재료",
-   "summary": "11/2 루멘텀이 마벨과의 합병 계약을 8-K·425로 공시. 피드(gn_jp)는 인수액 약 18조엔 보도, 발표일 LITE −14.9%(fool). 세부 조건은 미확인."
-  },
-  {
-   "title": "델·HPE, 슈퍼마이크로 실적 경고 뒤 AI 서버주 동반 하락",
-   "url": "https://tr.tradingview.com/news/gurufocus%3A6df158a80094b%3A0-dell-and-hpe-shares-fall-after-super-micro-s-weak-earnings-shake-ai-server-sector",
-   "press": "GuruFocus via TradingView",
-   "at": "2026-11-03 04:35",
-   "why": "AI 서버 하드웨어 약세 확산 — 반도체 칸 추격 금지·하드웨어 「뉴스에 판다」 패턴과 연결",
-   "summary": "11/2 장중 슈퍼마이크로 −5%(실적 앞)·델 −4%·HPE −3%(yahoo 피드 헤드라인). 같은 날 세레브라스 급락·LITE −14.9%로 AI 하드웨어만 약세, 지수는 상승."
   }
  ],
  "at": "2026-11-05 16:40"

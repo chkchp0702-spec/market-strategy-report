@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05 18:40",
+ "at": "2026-11-05 19:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -141,6 +141,16 @@
    "lv": 1,
    "why": "반도체 칸 — JP모건 「10월 헤지펀드 AI 청산 7월보다 강해, 11월 말부터 재구축 예상」: 한국 반도체 투매 뒤 반등 시점 가늠",
    "at": "2026-11-05 18:40"
+  },
+  "n/centermicrosoftrejectstexasexpansionoptioncNG1X30R9Entsrcrss": {
+   "lv": 1,
+   "why": "MS 하이퍼스케일러 계약 철회 3건째(영국→텍사스) — AI 차입 가설 0.92·네오클라우드 자금줄",
+   "at": "2026-11-05 19:40"
+  },
+  "n/ualcommfalls3ashandsetrevenuemissesestimatescostsrise5001230": {
+   "lv": 1,
+   "why": "퀄컴 장전 −10% 마진 부담 — 반도체 칸·코스피 반도체 투매 다음 날 美 반도체 마감 확인용",
+   "at": "2026-11-05 19:40"
   }
  }
 }
