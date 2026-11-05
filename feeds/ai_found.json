@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "대만 가권지수 TSMC 하락 연장·외국인 매도에 4만5천 아래 마감",
+   "url": "https://www.kotakneo.com/news/global-markets/taiwan-weighted-index-falls-as-tsmc-shares-and-foreign-investor-selling-weigh-on-market",
+   "press": "Kotak Neo",
+   "at": "2026-11-05 15:40",
+   "why": "아시아 칩 동반 투매 — 한국 반도체 칸(091160)과 같은 외국인 매도 흐름 확인",
+   "summary": "11/5 대만 가권 −3.28%(investing_en 피드) · 기사 날짜 미확인"
+  },
+  {
    "title": "MS, 영국 Nscale 수십억 달러 AI 계약 거절 — 텍사스 DC 계약 2배 확대 옵션 포기",
    "url": "https://www.ft.com/content/668e6ef8-88a1-4bef-8664-8f495baf09f8",
    "press": "Financial Times",
@@ -631,14 +639,6 @@
    "at": "2026-11-03 00:55",
    "why": "가격지수 고공 = 연준 매파(로건·더타) 근거 — 금리 민감 칸 판단에 필요",
    "summary": "헤드라인 55.5, 생산 급증. 가격 지수는 여전히 높아 인플레 압력 지속 해석."
-  },
-  {
-   "title": "오라클 장중 −4% — 100억$ 회사채 발행이 AI 부채 걱정 되살려, 코어위브 +2%",
-   "url": "https://247wallst.com/investing/2026/11/02/oracle-declines-4-as-10-billion-bond-sale-revives-ai-debt-worries-coreweave-advances-2-microsoft-holds-steady/",
-   "press": "24/7 Wall St.",
-   "at": "2026-11-02 23:40",
-   "why": "AI 크레딧 가설(0.89) — 하이퍼스케일러 자금 조달이 채권에서 주식(희석)까지 번짐, 반도체 칸 추격 금지 쪽",
-   "summary": "ORCL 125.43$(−4%, 연초 대비 −33%) · 1분기(FY27) FCF −54억$·이자비용 14억$(+55%)·RPO 6,640억$ · 연초 250억$ 채권·200억$ 주식 프로그램에 이어 추가"
   }
  ],
  "at": "2026-11-05 11:45"
