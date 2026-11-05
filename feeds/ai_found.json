@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "세미애널리시스: 데이터센터 반발, 초당적으로 번진다",
+   "url": "https://newsletter.semianalysis.com/p/the-datacenter-backlash-goes-bipartisan",
+   "press": "SemiAnalysis",
+   "at": "2026-11-05 13:45",
+   "why": "AI 차입 가설·반도체 칸 — 美 DC 규제가 한쪽 정당 이슈가 아니라는 근거, 한국 반도체 급락(오늘 하닉 −9%대)의 배경",
+   "summary": "중간선거 뒤 데이터센터 반발이 양당으로 확산. 2027 증설은 대부분 착공 단계라 「확정」, 2028 계획이 변수(피드 HANAchina/71583 요약). 게재일 미확인."
+  },
+  {
+   "title": "중간선거 「일시 중단」 공약이 2028년 데이터센터 30GW를 덮는다",
+   "url": "https://fourweekmba.com/ai-midterm-pause-pledges-cover-30-gw-of-2028-data-centers/",
+   "press": "FourWeekMBA",
+   "at": "2026-11-05 13:45",
+   "why": "반도체·AI 소프트웨어 칸 — 규제 노출 규모(GW) 숫자, 2028 수요 위험 크기 가늠",
+   "summary": "당선인들의 DC 중단·규제 공약 지역에 2028년 예정 약 30GW 해당(제목 기준). 연합: 주지사 당선인 36명 중 34명 「DC 규제」 입장(yna 11/5). 세부 수치 미확인."
+  },
+  {
+   "title": "오라클, 주식·채권 동시 발행 — AI 투자 자금 조달에 주가 −7%",
+   "url": "https://www.tikr.com/blog/oracle-sinks-7-on-20-billion-stock-and-bond-sale-to-fund-ai-buildout",
+   "press": "TIKR",
+   "at": "2026-11-05 13:45",
+   "why": "가설 「AI 차입이 약한 고리」(0.92) 직격 — 하이퍼스케일러가 채권만으론 부족해 주식 희석까지",
+   "summary": "주식 100억$+채권 100억$ 동시 발행 신청, 발표일 주가 −7%(제목 기준). 피드 「Oracle Sells Cheap Stock As Its Debt Window Narrows」(11/5)와 같은 사건으로 보임 — 날짜 미확인."
+  },
+  {
    "title": "코스피 장중 4%↑ 급락·매도 사이드카 발동(증권시장)",
    "url": "https://ground.news/article/kospi-plunges-over-4-during-trading-sell-side-circuit-breaker-triggered-in-securities-market",
    "press": "Ground News",
@@ -615,30 +639,6 @@
    "at": "2026-11-02 21:45",
    "why": "섹터 칸 광통신 LITE 직격 — 주식교환이라 LITE 수익률이 MRVL 주가에 묶임 · 광통신 동종(COHR 장전 +6.7%) 재평가",
    "summary": "총액 1,150억$(지분가치 1,025억$) 전액 주식 · 주당 1,132$ = 10/28 비교란 전 종가 대비 +23.9% · 발표일 MRVL 장전 +2.8%·LITE 거래정지, 소문 뒤 LITE −8%·MRVL −22%"
-  },
-  {
-   "title": "마벨, 루멘텀 1,150억$ 전액 주식 인수 발표",
-   "url": "https://www.investing.com/news/company-news/marvell-to-acquire-lumentum-for-115-billion-in-allstock-deal-93CH-4991177",
-   "press": "Investing.com",
-   "at": "2026-11-02 21:45",
-   "why": "AI 크레딧 가설 — 빚이 아닌 주식으로 산 초대형 AI 딜(차입 부담 피함) · 광통신 칸",
-   "summary": "AI 데이터센터 광 인터커넥트 결합 · 전액 주식 · 세부 교환비율은 미확인"
-  },
-  {
-   "title": "BofA: 하이퍼스케일러 회사채 발행 2026년 연 1,000억 달러 수준 지속",
-   "url": "https://www.fi-desk.com/bofa-deluge-of-hyperscaler-issuance-steady-at-us100bn-in-2026/",
-   "press": "FI Desk",
-   "at": "2026-11-02 20:40",
-   "why": "AI 크레딧 가설 — 빅테크 채권 공급 부담, 알파벳 유로채·메타 전망 하향과 같은 줄",
-   "summary": "BofA 추정 하이퍼스케일러 발행 연 약 1,000억$. 게재 날짜 미확인."
-  },
-  {
-   "title": "댈러스 연은 로건 「연준 최소 두 번 더 인상 필요」",
-   "url": "https://www.kitco.com/news/off-the-wire/2026-10-30/fed-needs-least-two-more-rate-hikes-logan-says",
-   "press": "Kitco(로이터)",
-   "at": "2026-11-02 19:40",
-   "why": "고금리 정점 가설(0.55)·중장기채 칸 — 연준 매파 위원 「50bp 이상 더」",
-   "summary": "로건: 금리 25bp씩 최소 2번 더 올려야 물가 안정(10/30). 무살렘도 추가 인상 신호(political.org). 美 2년 4.60%·10년 4.93%(latest)."
   }
  ],
  "at": "2026-11-05 11:45"
