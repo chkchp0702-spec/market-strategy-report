@@ -1,56 +1,37 @@
-c10_W4_t4_f48 {'cagr': 0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.71, 'mdd': -0.5, 'sharpe': 0.02, 'vol': 0.3, 'same_risk': 0.3}
-c10_W4_t4_f60 {'cagr': 0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.88, 'mdd': -0.7, 'sharpe': 0.03, 'vol': 0.4, 'same_risk': 0.45}
-c10_W4_t4_f72 {'cagr': 0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 1.05, 'mdd': -0.9, 'sharpe': 0.03, 'vol': 0.6, 'same_risk': 0.45}
-c10_W4_t5_f48 {'cagr': -0.05, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.53, 'mdd': 0.6, 'sharpe': 0.02, 'vol': 0.2, 'same_risk': 0.3}
-c10_W4_t5_f60 {'cagr': -0.05, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.0, 'same_risk': -0.14} | {'cagr': 0.66, 'mdd': 0.7, 'sharpe': 0.03, 'vol': 0.2, 'same_risk': 0.45}
-c10_W4_t5_f72 {'cagr': -0.06, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.0, 'same_risk': -0.14} | {'cagr': 0.8, 'mdd': 0.8, 'sharpe': 0.03, 'vol': 0.3, 'same_risk': 0.45}
-c10_W4_t6_f48 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.04, 'mdd': 0.1, 'sharpe': 0.0, 'vol': 0.1, 'same_risk': 0.0}
-c10_W4_t6_f60 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.05, 'mdd': 0.1, 'sharpe': 0.01, 'vol': 0.1, 'same_risk': 0.15}
-c10_W4_t6_f72 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.06, 'mdd': 0.0, 'sharpe': 0.01, 'vol': 0.1, 'same_risk': 0.15}
-c10_W5_t4_f48 {'cagr': -0.12, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.52, 'mdd': -0.7, 'sharpe': 0.01, 'vol': 0.4, 'same_risk': 0.15}
-c10_W5_t4_f60 {'cagr': -0.14, 'mdd': 0.0, 'sharpe': -0.02, 'vol': 0.1, 'same_risk': -0.29} | {'cagr': 0.63, 'mdd': -1.0, 'sharpe': 0.01, 'vol': 0.5, 'same_risk': 0.15}
-c10_W5_t4_f72 {'cagr': -0.18, 'mdd': 0.0, 'sharpe': -0.02, 'vol': 0.2, 'same_risk': -0.29} | {'cagr': 0.75, 'mdd': -1.2, 'sharpe': 0.0, 'vol': 0.7, 'same_risk': 0.0}
-c10_W5_t5_f48 {'cagr': 0.03, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.1, 'same_risk': 0.0} | {'cagr': 0.5, 'mdd': -0.6, 'sharpe': 0.01, 'vol': 0.4, 'same_risk': 0.15}
-c10_W5_t5_f60 {'cagr': 0.04, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.1, 'same_risk': 0.0} | {'cagr': 0.62, 'mdd': -0.7, 'sharpe': 0.01, 'vol': 0.5, 'same_risk': 0.15}
-c10_W5_t5_f72 {'cagr': 0.04, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.1, 'same_risk': 0.0} | {'cagr': 0.75, 'mdd': -0.9, 'sharpe': 0.0, 'vol': 0.7, 'same_risk': 0.0}
-c10_W5_t6_f48 {'cagr': -0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': -0.01, 'mdd': 0.6, 'sharpe': -0.01, 'vol': 0.2, 'same_risk': -0.15}
-c10_W5_t6_f60 {'cagr': -0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': -0.02, 'mdd': 0.7, 'sharpe': -0.01, 'vol': 0.3, 'same_risk': -0.15}
-c10_W5_t6_f72 {'cagr': -0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': -0.03, 'mdd': 0.8, 'sharpe': -0.02, 'vol': 0.3, 'same_risk': -0.3}
-c10_W6_t4_f48 {'cagr': -0.01, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.57, 'mdd': 0.4, 'sharpe': 0.01, 'vol': 0.5, 'same_risk': 0.15}
-c10_W6_t4_f60 {'cagr': -0.01, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.2, 'same_risk': -0.14} | {'cagr': 0.72, 'mdd': 0.4, 'sharpe': 0.0, 'vol': 0.6, 'same_risk': 0.0}
-c10_W6_t4_f72 {'cagr': -0.03, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.2, 'same_risk': -0.14} | {'cagr': 0.87, 'mdd': -0.4, 'sharpe': 0.0, 'vol': 0.8, 'same_risk': 0.0}
-c10_W6_t5_f48 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.26, 'mdd': -0.9, 'sharpe': 0.01, 'vol': 0.2, 'same_risk': 0.15}
-c10_W6_t5_f60 {'cagr': 0.01, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.32, 'mdd': -1.2, 'sharpe': 0.01, 'vol': 0.2, 'same_risk': 0.15}
-c10_W6_t5_f72 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.2, 'same_risk': -0.14} | {'cagr': 0.38, 'mdd': -1.5, 'sharpe': 0.01, 'vol': 0.3, 'same_risk': 0.15}
-c10_W6_t6_f48 {'cagr': -0.06, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.25, 'mdd': -0.7, 'sharpe': 0.01, 'vol': 0.2, 'same_risk': 0.15}
-c10_W6_t6_f60 {'cagr': -0.05, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.28, 'mdd': -0.8, 'sharpe': 0.01, 'vol': 0.2, 'same_risk': 0.15}
-c10_W6_t6_f72 {'cagr': -0.07, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.2, 'same_risk': -0.14} | {'cagr': 0.34, 'mdd': -1.0, 'sharpe': 0.01, 'vol': 0.2, 'same_risk': 0.15}
-c25_W4_t4_f48 {'cagr': 0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.64, 'mdd': -0.7, 'sharpe': 0.02, 'vol': 0.3, 'same_risk': 0.3}
-c25_W4_t4_f60 {'cagr': 0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.79, 'mdd': -0.9, 'sharpe': 0.02, 'vol': 0.4, 'same_risk': 0.3}
-c25_W4_t4_f72 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.93, 'mdd': -1.2, 'sharpe': 0.02, 'vol': 0.5, 'same_risk': 0.3}
-c25_W4_t5_f48 {'cagr': -0.05, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.48, 'mdd': 0.4, 'sharpe': 0.02, 'vol': 0.1, 'same_risk': 0.3}
-c25_W4_t5_f60 {'cagr': -0.06, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.6, 'mdd': 0.5, 'sharpe': 0.02, 'vol': 0.1, 'same_risk': 0.3}
-c25_W4_t5_f72 {'cagr': -0.07, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.72, 'mdd': 0.6, 'sharpe': 0.03, 'vol': 0.2, 'same_risk': 0.45}
-c25_W4_t6_f48 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0}
-c25_W4_t6_f60 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.03, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0}
-c25_W4_t6_f72 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.03, 'mdd': -0.1, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0}
-c25_W5_t4_f48 {'cagr': -0.12, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.0, 'same_risk': -0.14} | {'cagr': 0.45, 'mdd': -0.9, 'sharpe': 0.01, 'vol': 0.3, 'same_risk': 0.15}
-c25_W5_t4_f60 {'cagr': -0.14, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.55, 'mdd': -1.2, 'sharpe': 0.0, 'vol': 0.4, 'same_risk': 0.0}
-c25_W5_t4_f72 {'cagr': -0.19, 'mdd': 0.0, 'sharpe': -0.02, 'vol': 0.1, 'same_risk': -0.29} | {'cagr': 0.64, 'mdd': -1.5, 'sharpe': 0.0, 'vol': 0.6, 'same_risk': 0.0}
-c25_W5_t5_f48 {'cagr': 0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.44, 'mdd': -0.7, 'sharpe': 0.01, 'vol': 0.3, 'same_risk': 0.15}
-c25_W5_t5_f60 {'cagr': 0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.55, 'mdd': -0.9, 'sharpe': 0.0, 'vol': 0.4, 'same_risk': 0.0}
-c25_W5_t5_f72 {'cagr': 0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.65, 'mdd': -1.1, 'sharpe': 0.0, 'vol': 0.6, 'same_risk': 0.0}
-c25_W5_t6_f48 {'cagr': -0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': -0.04, 'mdd': 0.5, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.15}
-c25_W5_t6_f60 {'cagr': -0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': -0.06, 'mdd': 0.6, 'sharpe': -0.01, 'vol': 0.2, 'same_risk': -0.15}
-c25_W5_t6_f72 {'cagr': -0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': -0.08, 'mdd': 0.7, 'sharpe': -0.02, 'vol': 0.2, 'same_risk': -0.3}
-c25_W6_t4_f48 {'cagr': -0.04, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.0, 'same_risk': -0.14} | {'cagr': 0.47, 'mdd': 0.1, 'sharpe': 0.0, 'vol': 0.4, 'same_risk': 0.0}
-c25_W6_t4_f60 {'cagr': -0.04, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.59, 'mdd': 0.1, 'sharpe': 0.0, 'vol': 0.5, 'same_risk': 0.0}
-c25_W6_t4_f72 {'cagr': -0.08, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.71, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.7, 'same_risk': 0.0}
-c25_W6_t5_f48 {'cagr': -0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.18, 'mdd': -1.1, 'sharpe': 0.0, 'vol': 0.1, 'same_risk': 0.0}
-c25_W6_t5_f60 {'cagr': -0.01, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.22, 'mdd': -1.5, 'sharpe': 0.0, 'vol': 0.1, 'same_risk': 0.0}
-c25_W6_t5_f72 {'cagr': -0.03, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.26, 'mdd': -1.9, 'sharpe': 0.0, 'vol': 0.2, 'same_risk': 0.0}
-c25_W6_t6_f48 {'cagr': -0.07, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.0, 'same_risk': -0.14} | {'cagr': 0.22, 'mdd': -0.7, 'sharpe': 0.01, 'vol': 0.1, 'same_risk': 0.15}
-c25_W6_t6_f60 {'cagr': -0.07, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.25, 'mdd': -0.9, 'sharpe': 0.01, 'vol': 0.1, 'same_risk': 0.15}
-c25_W6_t6_f72 {'cagr': -0.1, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.3, 'mdd': -1.1, 'sharpe': 0.01, 'vol': 0.2, 'same_risk': 0.15}
-c10 {'oos_cagr_pos': 24, 'n': 27, 'oos_same_risk_mean': 0.14, 'oos_cagr_mean': 0.46, 'is_cagr_mean': -0.03}
-c25 {'oos_cagr_pos': 24, 'n': 27, 'oos_same_risk_mean': 0.08, 'oos_cagr_mean': 0.39, 'is_cagr_mean': -0.04}
+LS {"b0.01_H1": {"is": {"n": 127, "bp": 36.4, "t": 1.25}, "oos": {"n": 90, "bp": -4.1, "t": -0.12}}, "b0.01_H2": {"is": {"n": 247, "bp": 2.1, "t": 0.11}, "oos": {"n": 173, "bp": 9.9, "t": 0.43}}, "b0.01_H3": {"is": {"n": 356, "bp": 3.3, "t": 0.21}, "oos": {"n": 261, "bp": 33.7, "t": 2.05}}, "b0.01_H5": {"is": {"n": 544, "bp": 3.6, "t": 0.31}, "oos": {"n": 414, "bp": 6.6, "t": 0.57}}, "b0.015_H1": {"is": {"n": 78, "bp": 54.3, "t": 1.32}, "oos": {"n": 58, "bp": -17.6, "t": -0.36}}, "b0.015_H2": {"is": {"n": 157, "bp": 18.2, "t": 0.66}, "oos": {"n": 111, "bp": 5.6, "t": 0.17}}, "b0.015_H3": {"is": {"n": 227, "bp": 29.1, "t": 1.34}, "oos": {"n": 164, "bp": 44.9, "t": 1.9}}, "b0.015_H5": {"is": {"n": 344, "bp": 9.7, "t": 0.61}, "oos": {"n": 273, "bp": 3.3, "t": 0.21}}, "b0.02_H1": {"is": {"n": 38, "bp": 3.7, "t": 0.06}, "oos": {"n": 31, "bp": 24.0, "t": 0.55}}, "b0.02_H2": {"is": {"n": 74, "bp": -9.4, "t": -0.25}, "oos": {"n": 59, "bp": 7.6, "t": 0.24}}, "b0.02_H3": {"is": {"n": 107, "bp": 13.8, "t": 0.39}, "oos": {"n": 87, "bp": 28.6, "t": 0.84}}, "b0.02_H5": {"is": {"n": 172, "bp": -19.5, "t": -0.74}, "oos": {"n": 146, "bp": 7.0, "t": 0.25}}, "b0.025_H1": {"is": {"n": 25, "bp": -104.9, "t": -1.6}, "oos": {"n": 19, "bp": -9.9, "t": -0.3}}, "b0.025_H2": {"is": {"n": 51, "bp": -29.0, "t": -0.68}, "oos": {"n": 36, "bp": -55.6, "t": -1.53}}, "b0.025_H3": {"is": {"n": 76, "bp": -6.3, "t": -0.14}, "oos": {"n": 51, "bp": -5.6, "t": -0.11}}, "b0.025_H5": {"is": {"n": 131, "bp": -40.8, "t": -1.28}, "oos": {"n": 83, "bp": -15.1, "t": -0.34}}}
+BASE {'is': {'cagr': np.float64(14.69), 'vol': np.float64(14.3), 'mdd': np.float64(-16.7), 'sharpe': np.float64(1.03), 'ex': np.float64(5.66), 'win12': 65, 'beat_years': 7, 'years': 9, 'turn': 1015}, 'oos': {'cagr': np.float64(18.12), 'vol': np.float64(15.0), 'mdd': np.float64(-19.4), 'sharpe': np.float64(1.19), 'ex': np.float64(3.09), 'win12': 72, 'beat_years': 7, 'years': 10, 'turn': 1103}}
+band_d0.01_H2_f0.3 {'d': {'is': {'cagr': -1.11, 'mdd': -1.3, 'sharpe': -0.09, 'vol': 0.4}, 'oos': {'cagr': -0.49, 'mdd': -1.8, 'sharpe': -0.04, 'vol': 0.2}}, 'turn': [1457, 1428], 'on_days': 565}
+band_d0.01_H2_f0.6 {'d': {'is': {'cagr': -2.13, 'mdd': -5.1, 'sharpe': -0.18, 'vol': 1.0}, 'oos': {'cagr': -1.09, 'mdd': -6.9, 'sharpe': -0.11, 'vol': 0.7}}, 'turn': [1904, 1748], 'on_days': 565}
+band_d0.01_H3_f0.3 {'d': {'is': {'cagr': -1.13, 'mdd': -4.1, 'sharpe': -0.09, 'vol': 0.4}, 'oos': {'cagr': 0.19, 'mdd': -0.1, 'sharpe': 0.0, 'vol': 0.1}}, 'turn': [1433, 1406], 'on_days': 815}
+band_d0.01_H3_f0.6 {'d': {'is': {'cagr': -2.22, 'mdd': -10.1, 'sharpe': -0.2, 'vol': 1.3}, 'oos': {'cagr': 0.33, 'mdd': -1.7, 'sharpe': -0.02, 'vol': 0.6}}, 'turn': [1857, 1707], 'on_days': 815}
+band_d0.01_H5_f0.3 {'d': {'is': {'cagr': -1.03, 'mdd': -5.0, 'sharpe': -0.09, 'vol': 0.4}, 'oos': {'cagr': -0.31, 'mdd': 0.3, 'sharpe': -0.03, 'vol': 0.1}}, 'turn': [1403, 1367], 'on_days': 1240}
+band_d0.01_H5_f0.6 {'d': {'is': {'cagr': -2.03, 'mdd': -9.5, 'sharpe': -0.2, 'vol': 1.5}, 'oos': {'cagr': -0.77, 'mdd': -2.9, 'sharpe': -0.09, 'vol': 0.7}}, 'turn': [1796, 1627], 'on_days': 1240}
+band_d0.015_H2_f0.3 {'d': {'is': {'cagr': -0.76, 'mdd': -1.2, 'sharpe': -0.07, 'vol': 0.4}, 'oos': {'cagr': -0.35, 'mdd': -1.6, 'sharpe': -0.03, 'vol': 0.2}}, 'turn': [1305, 1322], 'on_days': 339}
+band_d0.015_H2_f0.6 {'d': {'is': {'cagr': -1.46, 'mdd': -5.0, 'sharpe': -0.14, 'vol': 1.0}, 'oos': {'cagr': -0.76, 'mdd': -6.5, 'sharpe': -0.08, 'vol': 0.6}}, 'turn': [1596, 1541], 'on_days': 339}
+band_d0.015_H3_f0.3 {'d': {'is': {'cagr': -0.07, 'mdd': -3.1, 'sharpe': -0.03, 'vol': 0.4}, 'oos': {'cagr': 0.84, 'mdd': 0.2, 'sharpe': 0.04, 'vol': 0.1}}, 'turn': [1262, 1318], 'on_days': 495}
+band_d0.015_H3_f0.6 {'d': {'is': {'cagr': -0.05, 'mdd': -7.9, 'sharpe': -0.07, 'vol': 1.2}, 'oos': {'cagr': 1.63, 'mdd': -0.2, 'sharpe': 0.05, 'vol': 0.5}}, 'turn': [1511, 1533], 'on_days': 495}
+band_d0.015_H5_f0.3 {'d': {'is': {'cagr': -0.69, 'mdd': -4.1, 'sharpe': -0.07, 'vol': 0.5}, 'oos': {'cagr': 0.09, 'mdd': -0.2, 'sharpe': -0.01, 'vol': 0.2}}, 'turn': [1210, 1268], 'on_days': 779}
+band_d0.015_H5_f0.6 {'d': {'is': {'cagr': -1.36, 'mdd': -7.7, 'sharpe': -0.16, 'vol': 1.5}, 'oos': {'cagr': 0.0, 'mdd': -4.2, 'sharpe': -0.05, 'vol': 0.8}}, 'turn': [1412, 1432], 'on_days': 779}
+band_d0.02_H2_f0.3 {'d': {'is': {'cagr': -0.72, 'mdd': -4.3, 'sharpe': -0.06, 'vol': 0.3}, 'oos': {'cagr': -0.48, 'mdd': -0.7, 'sharpe': -0.03, 'vol': 0.0}}, 'turn': [1153, 1212], 'on_days': 179}
+band_d0.02_H2_f0.6 {'d': {'is': {'cagr': -1.36, 'mdd': -8.2, 'sharpe': -0.12, 'vol': 0.6}, 'oos': {'cagr': -0.97, 'mdd': -1.6, 'sharpe': -0.07, 'vol': 0.1}}, 'turn': [1292, 1324], 'on_days': 179}
+band_d0.02_H3_f0.3 {'d': {'is': {'cagr': -0.42, 'mdd': -1.5, 'sharpe': -0.05, 'vol': 0.4}, 'oos': {'cagr': 0.14, 'mdd': -0.1, 'sharpe': 0.0, 'vol': 0.0}}, 'turn': [1149, 1211], 'on_days': 264}
+band_d0.02_H3_f0.6 {'d': {'is': {'cagr': -0.74, 'mdd': -3.1, 'sharpe': -0.1, 'vol': 1.0}, 'oos': {'cagr': 0.23, 'mdd': -1.0, 'sharpe': -0.01, 'vol': 0.3}}, 'turn': [1286, 1321], 'on_days': 264}
+band_d0.02_H5_f0.3 {'d': {'is': {'cagr': -1.34, 'mdd': -3.2, 'sharpe': -0.11, 'vol': 0.6}, 'oos': {'cagr': -0.41, 'mdd': 0.1, 'sharpe': -0.04, 'vol': 0.2}}, 'turn': [1139, 1202], 'on_days': 429}
+band_d0.02_H5_f0.6 {'d': {'is': {'cagr': -2.48, 'mdd': -6.3, 'sharpe': -0.22, 'vol': 1.4}, 'oos': {'cagr': -0.88, 'mdd': -1.6, 'sharpe': -0.1, 'vol': 0.7}}, 'turn': [1266, 1302], 'on_days': 429}
+band_d0.025_H2_f0.3 {'d': {'is': {'cagr': -0.72, 'mdd': -2.4, 'sharpe': -0.05, 'vol': 0.2}, 'oos': {'cagr': -0.77, 'mdd': 0.3, 'sharpe': -0.05, 'vol': 0.0}}, 'turn': [1115, 1166], 'on_days': 120}
+band_d0.025_H2_f0.6 {'d': {'is': {'cagr': -1.36, 'mdd': -4.2, 'sharpe': -0.1, 'vol': 0.3}, 'oos': {'cagr': -1.54, 'mdd': -2.4, 'sharpe': -0.1, 'vol': 0.1}}, 'turn': [1216, 1231], 'on_days': 120}
+band_d0.025_H3_f0.3 {'d': {'is': {'cagr': -0.47, 'mdd': -1.0, 'sharpe': -0.04, 'vol': 0.2}, 'oos': {'cagr': -0.31, 'mdd': 0.7, 'sharpe': -0.03, 'vol': 0.1}}, 'turn': [1117, 1161], 'on_days': 178}
+band_d0.025_H3_f0.6 {'d': {'is': {'cagr': -0.87, 'mdd': -3.4, 'sharpe': -0.09, 'vol': 0.6}, 'oos': {'cagr': -0.63, 'mdd': -1.3, 'sharpe': -0.06, 'vol': 0.4}}, 'turn': [1221, 1220], 'on_days': 178}
+band_d0.025_H5_f0.3 {'d': {'is': {'cagr': -1.37, 'mdd': -3.7, 'sharpe': -0.11, 'vol': 0.4}, 'oos': {'cagr': -0.58, 'mdd': -0.4, 'sharpe': -0.05, 'vol': 0.2}}, 'turn': [1093, 1147], 'on_days': 293}
+band_d0.025_H5_f0.6 {'d': {'is': {'cagr': -2.73, 'mdd': -9.8, 'sharpe': -0.22, 'vol': 1.1}, 'oos': {'cagr': -1.19, 'mdd': -3.4, 'sharpe': -0.11, 'vol': 0.7}}, 'turn': [1171, 1192], 'on_days': 293}
+avg_th0.005_H2_f0.6 {'d': {'is': {'cagr': -0.82, 'mdd': -5.3, 'sharpe': -0.11, 'vol': 1.1}, 'oos': {'cagr': -0.28, 'mdd': -6.9, 'sharpe': -0.06, 'vol': 0.7}}, 'turn': [1378, 1290], 'on_days': 282}
+avg_th0.005_H3_f0.6 {'d': {'is': {'cagr': -1.22, 'mdd': -7.3, 'sharpe': -0.15, 'vol': 1.4}, 'oos': {'cagr': 1.5, 'mdd': -0.2, 'sharpe': 0.04, 'vol': 0.6}}, 'turn': [1322, 1289], 'on_days': 388}
+avg_th0.01_H2_f0.6 {'d': {'is': {'cagr': -0.86, 'mdd': -2.3, 'sharpe': -0.1, 'vol': 0.8}, 'oos': {'cagr': -0.36, 'mdd': -6.9, 'sharpe': -0.06, 'vol': 0.6}}, 'turn': [1124, 1165], 'on_days': 84}
+avg_th0.01_H3_f0.6 {'d': {'is': {'cagr': -1.58, 'mdd': -6.1, 'sharpe': -0.15, 'vol': 1.0}, 'oos': {'cagr': 0.89, 'mdd': 0.0, 'sharpe': 0.01, 'vol': 0.6}}, 'turn': [1119, 1171], 'on_days': 112}
+SHAKE f-20 {'is': {'cagr': -0.08, 'mdd': -2.6, 'sharpe': -0.02, 'vol': 0.3}, 'oos': {'cagr': 0.67, 'mdd': 0.2, 'sharpe': 0.03, 'vol': 0.0}}
+SHAKE f+20 {'is': {'cagr': -0.06, 'mdd': -3.9, 'sharpe': -0.04, 'vol': 0.5}, 'oos': {'cagr': 1.0, 'mdd': 0.2, 'sharpe': 0.04, 'vol': 0.2}}
+SHAKE d-20 {'is': {'cagr': -1.01, 'mdd': -3.4, 'sharpe': -0.08, 'vol': 0.4}, 'oos': {'cagr': -0.1, 'mdd': -0.5, 'sharpe': -0.02, 'vol': 0.2}}
+SHAKE d+20 {'is': {'cagr': 0.76, 'mdd': -2.7, 'sharpe': 0.02, 'vol': 0.4}, 'oos': {'cagr': 0.02, 'mdd': 0.7, 'sharpe': -0.01, 'vol': 0.2}}
+SHAKE H-1 {'is': {'cagr': -0.76, 'mdd': -1.2, 'sharpe': -0.07, 'vol': 0.4}, 'oos': {'cagr': -0.35, 'mdd': -1.6, 'sharpe': -0.03, 'vol': 0.2}}
+SHAKE H+1 {'is': {'cagr': -0.14, 'mdd': -4.7, 'sharpe': -0.04, 'vol': 0.5}, 'oos': {'cagr': -0.19, 'mdd': -0.9, 'sharpe': -0.02, 'vol': 0.1}}
+PICK band_d0.015_H3_f0.3 {'raw': {'is': {'cagr': -0.07, 'mdd': -3.1, 'sharpe': -0.03, 'vol': 0.4}, 'oos': {'cagr': 0.84, 'mdd': 0.2, 'sharpe': 0.04, 'vol': 0.1}}, 'is': {'cagr': np.float64(14.62), 'vol': np.float64(14.7), 'mdd': np.float64(-19.8), 'sharpe': np.float64(1.0), 'ex': np.float64(5.6), 'win12': 64, 'beat_years': 7, 'years': 9, 'turn': 1262}, 'oos': {'cagr': np.float64(18.96), 'vol': np.float64(15.1), 'mdd': np.float64(-19.2), 'sharpe': np.float64(1.23), 'ex': np.float64(3.93), 'win12': 76, 'beat_years': 7, 'years': 10, 'turn': 1318}, 'yr': {'2017': 0.21, '2018': 0.19, '2019': 0.14, '2020': 6.55, '2021': 1.35, '2022': 0.22, '2023': 2.32, '2024': -0.87, '2025': 0.52, '2026': -1.47}, 'matched_tgt': 16.0, 'matched': {'is': {'cagr': -1.13, 'mdd': -2.3, 'sharpe': -0.07, 'vol': 0.0}, 'oos': {'cagr': 0.1, 'mdd': 2.1, 'sharpe': 0.05, 'vol': -0.7}}, 'cost25': {'is': {'cagr': -0.48, 'mdd': -3.3, 'sharpe': -0.05, 'vol': 0.3}, 'oos': {'cagr': 0.45, 'mdd': 0.1, 'sharpe': 0.02, 'vol': 0.1}}} {'is_ge0': False, 'oos_matched': 0.1, 'shake_ok': False, 'verdict': '❌'}
