@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "민주당 지도부 「데이터센터 모라토리엄」 요구에 반발 확산",
+   "url": "https://news.bgov.com/bloomberg-government-news/top-democrats-call-for-data-center-moratorium-stokes-opposition",
+   "press": "Bloomberg Government",
+   "at": "2026-11-06 07:40",
+   "why": "이번 AI 투매의 핵심 재료(데이터센터 규제) — 반도체·AI 소프트웨어 칸, AI 차입 가설(0.92)",
+   "summary": "민주당 지도부의 데이터센터 신규 건설 중단 요구와 업계 반발(게재일 미확인). 11/5 마감 브리핑 UBS 「2028년 예정 증설 물량 약 30% 건설 중단 위험」(kimu_nim/48217)과 같은 줄기."
+  },
+  {
+   "title": "계획된 美 데이터센터 절반이 지연될 수 있다 — 키머리지",
+   "url": "https://news.bgov.com/artificial-intelligence/half-of-planned-us-data-centers-may-face-delays-kimmeridge-says",
+   "press": "Bloomberg Government",
+   "at": "2026-11-06 07:40",
+   "why": "전력·인허가 병목 → AI CAPEX 속도 둔화 = 반도체 칸 실적 기대 하향 위험",
+   "summary": "키머리지 「계획된 美 데이터센터 절반 지연 가능」(게재일 미확인). 규제 + 전력 병목이 겹치면 2027 CAPEX 추정치 하향 쪽."
+  },
+  {
    "title": "헤지펀드, 2025년에 산 AI 주식을 5거래일 만에 전부 되팔았다",
    "url": "https://www.forbes.com/sites/jonmarkman/2026/11/02/hedge-funds-reversed-all-their-2025-ai-stock-buying-in-five-days/",
    "press": "Forbes",
@@ -623,23 +639,7 @@
    "at": "2026-11-04 00:01",
    "why": "🐻 하락장 판정 watch·포트 미국 칸 — 지수(시총가중)와 종목 체력이 갈라진 정도",
    "summary": "S&P 500 지수는 최고치 대비 약 3% 이내인데 구성 종목의 60%는 하락장(−20%↓) 영역 · 소수 대형주가 지수를 떠받치는 폭 붕괴 구간"
-  },
-  {
-   "title": "美 9월 구인 4개월 최고·해고 1년여 최저 — 노동 수요 다시 단단",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-03/us-job-openings-jump-to-highest-level-since-may-layoffs-fall",
-   "press": "Bloomberg",
-   "at": "2026-11-04 00:03",
-   "why": "美 10년 5% watch·고금리 정점 가설(0.55) 반대 재료 — 11/6 고용 앞 금리 상방",
-   "summary": "9월 JOLTS 구인 예상 밖 급증(5월 이후 최고)·해고 1년여 최저 · 장 초반 10년 4.94%(+4.7bp, CNBC 09:58 EST)"
-  },
-  {
-   "title": "헤지펀드, 한 주 만에 2년치 AI 순매수 지워 — 골드만 「디레버리징 이제 시작일 수도」",
-   "url": "https://www.itiger.com/news/1150649522",
-   "press": "Tiger Brokers(골드만 프라임북 인용)",
-   "at": "2026-11-03 23:40",
-   "why": "AI 크레딧 가설(0.92)·🧭 AI 칸 — 수급 청산이 진행 중인지 끝났는지 가르는 숫자",
-   "summary": "골드만 프라임북: 헤지펀드 AI 관련 순매수 2년치가 한 주에 소멸·AI 비중 2023 이후 첫 언더웨이트(yahoo 11/3) · AI 주 3주간 시총 약 5조$ 감소"
   }
  ],
- "at": "2026-11-06 02:40"
+ "at": "2026-11-06 07:40"
 }
