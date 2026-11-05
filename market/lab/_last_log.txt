@@ -1,58 +1,41 @@
-무리 크기 {'E': 24, 'S': 102}
-E rel None 63 0.84 14.79 -17.6 1.13 {'n': 232, 'avg': 2.44, 'win': 47, 'pf': np.float64(2.05)} -13.89
-E rel None 126 0.84 14.79 -17.6 1.13 {'n': 232, 'avg': 2.44, 'win': 47, 'pf': np.float64(2.05)} -13.89
-E rel 0.2 63 0.82 15.05 -16.6 1.15 {'n': 219, 'avg': 2.79, 'win': 51, 'pf': np.float64(2.26)} -13.89
-E rel 0.2 126 0.84 14.71 -17.0 1.13 {'n': 249, 'avg': 2.2, 'win': 46, 'pf': np.float64(1.95)} -13.89
-E rel 0.33 63 0.83 14.73 -17.6 1.12 {'n': 226, 'avg': 2.45, 'win': 46, 'pf': np.float64(2.02)} -14.24
-E rel 0.33 126 0.83 14.88 -17.2 1.14 {'n': 237, 'avg': 2.56, 'win': 49, 'pf': np.float64(2.15)} -13.89
-E rel 0.5 63 0.83 14.99 -17.0 1.14 {'n': 208, 'avg': 2.88, 'win': 50, 'pf': np.float64(2.31)} -11.99
-E rel 0.5 126 0.82 14.62 -17.2 1.11 {'n': 214, 'avg': 2.41, 'win': 48, 'pf': np.float64(2.01)} -14.24
-E fip None 63 0.82 14.22 -17.3 1.08 {'n': 245, 'avg': 1.77, 'win': 42, 'pf': np.float64(1.72)} -13.89
-E fip None 126 0.83 14.58 -16.9 1.11 {'n': 226, 'avg': 2.28, 'win': 47, 'pf': np.float64(1.97)} -12.12
-E fip 0.2 63 0.81 14.57 -16.5 1.11 {'n': 229, 'avg': 2.17, 'win': 46, 'pf': np.float64(1.9)} -13.89
-E fip 0.2 126 0.83 14.3 -17.8 1.09 {'n': 228, 'avg': 2.02, 'win': 48, 'pf': np.float64(1.87)} -12.77
-E fip 0.33 63 0.83 14.23 -18.5 1.09 {'n': 233, 'avg': 1.88, 'win': 46, 'pf': np.float64(1.78)} -14.24
-E fip 0.33 126 0.83 14.43 -18.3 1.1 {'n': 214, 'avg': 2.36, 'win': 47, 'pf': np.float64(2.01)} -14.24
-E fip 0.5 63 0.82 14.84 -17.2 1.13 {'n': 217, 'avg': 2.67, 'win': 50, 'pf': np.float64(2.23)} -11.99
-E fip 0.5 126 0.81 14.32 -17.4 1.09 {'n': 219, 'avg': 2.07, 'win': 47, 'pf': np.float64(1.85)} -14.24
-E mix None 63 0.82 14.29 -17.3 1.09 {'n': 243, 'avg': 1.88, 'win': 44, 'pf': np.float64(1.77)} -13.89
-E mix None 126 0.83 14.34 -17.4 1.1 {'n': 244, 'avg': 1.92, 'win': 45, 'pf': np.float64(1.77)} -13.89
-E mix 0.2 63 0.83 14.48 -16.5 1.11 {'n': 237, 'avg': 2.1, 'win': 47, 'pf': np.float64(1.87)} -13.89
-E mix 0.2 126 0.83 14.27 -17.0 1.09 {'n': 250, 'avg': 1.86, 'win': 46, 'pf': np.float64(1.78)} -13.89
-E mix 0.33 63 0.83 14.27 -17.7 1.09 {'n': 246, 'avg': 1.82, 'win': 45, 'pf': np.float64(1.74)} -14.24
-E mix 0.33 126 0.84 14.8 -16.4 1.13 {'n': 229, 'avg': 2.61, 'win': 48, 'pf': np.float64(2.13)} -13.89
-E mix 0.5 63 0.82 15.03 -16.8 1.15 {'n': 217, 'avg': 2.86, 'win': 50, 'pf': np.float64(2.37)} -11.99
-E mix 0.5 126 0.83 14.93 -17.1 1.14 {'n': 219, 'avg': 2.75, 'win': 50, 'pf': np.float64(2.19)} -14.24
-E 고른 rel None 63 0.84 {'cagr': np.float64(14.79), 'vol': np.float64(13.0), 'mdd': np.float64(-17.6), 'sharpe': np.float64(1.13), 'ex': np.float64(-0.23), 'win12': 43, 'beat_years': 5, 'years': 10, 'turn': 333} ➖ 애매 {'beat': False, 'mdd': True, 'sharpe': False} False
-  흔들기 ID 50일 14.79 -17.6 1.13 -0.23
-  흔들기 ID 76일 14.79 -17.6 1.13 -0.23
-S rel None 63 0.86 14.76 -20.8 1.08 {'n': 363, 'avg': 1.72, 'win': 40, 'pf': np.float64(1.51)} -17.9
-S rel None 126 0.86 14.76 -20.8 1.08 {'n': 363, 'avg': 1.72, 'win': 40, 'pf': np.float64(1.51)} -17.9
-S rel 0.2 63 0.87 14.51 -22.0 1.07 {'n': 380, 'avg': 1.44, 'win': 41, 'pf': np.float64(1.41)} -17.9
-S rel 0.2 126 0.88 14.75 -20.0 1.08 {'n': 382, 'avg': 1.57, 'win': 41, 'pf': np.float64(1.5)} -21.91
-S rel 0.33 63 0.87 13.82 -21.2 1.02 {'n': 368, 'avg': 0.94, 'win': 39, 'pf': np.float64(1.27)} -21.78
-S rel 0.33 126 0.87 14.89 -20.1 1.1 {'n': 362, 'avg': 1.69, 'win': 41, 'pf': np.float64(1.51)} -17.72
-S rel 0.5 63 0.9 14.39 -22.5 1.07 {'n': 337, 'avg': 1.47, 'win': 39, 'pf': np.float64(1.43)} -18.74
-S rel 0.5 126 0.87 14.97 -20.3 1.1 {'n': 327, 'avg': 1.9, 'win': 42, 'pf': np.float64(1.55)} -18.74
-S fip None 63 0.86 14.17 -21.9 1.06 {'n': 327, 'avg': 1.35, 'win': 40, 'pf': np.float64(1.41)} -18.9
-S fip None 126 0.8 13.77 -20.4 1.04 {'n': 290, 'avg': 1.09, 'win': 41, 'pf': np.float64(1.34)} -14.67
-S fip 0.2 63 0.82 14.21 -22.8 1.06 {'n': 341, 'avg': 1.34, 'win': 41, 'pf': np.float64(1.41)} -17.9
-S fip 0.2 126 0.83 13.18 -21.1 1.0 {'n': 321, 'avg': 0.55, 'win': 39, 'pf': np.float64(1.16)} -17.72
-S fip 0.33 63 0.86 14.12 -21.3 1.05 {'n': 328, 'avg': 1.38, 'win': 39, 'pf': np.float64(1.42)} -17.9
-S fip 0.33 126 0.85 13.52 -21.0 1.02 {'n': 336, 'avg': 0.83, 'win': 40, 'pf': np.float64(1.25)} -17.72
-S fip 0.5 63 0.91 13.8 -21.6 1.03 {'n': 332, 'avg': 1.13, 'win': 41, 'pf': np.float64(1.33)} -17.9
-S fip 0.5 126 0.84 14.21 -20.5 1.06 {'n': 327, 'avg': 1.39, 'win': 42, 'pf': np.float64(1.43)} -17.72
-S mix None 63 0.92 14.37 -21.2 1.07 {'n': 337, 'avg': 1.53, 'win': 41, 'pf': np.float64(1.45)} -17.72
-S mix None 126 0.94 14.44 -20.8 1.07 {'n': 324, 'avg': 1.57, 'win': 44, 'pf': np.float64(1.49)} -17.9
-S mix 0.2 63 0.85 14.36 -22.3 1.07 {'n': 336, 'avg': 1.42, 'win': 40, 'pf': np.float64(1.42)} -17.72
-S mix 0.2 126 0.91 13.85 -21.1 1.03 {'n': 309, 'avg': 1.13, 'win': 41, 'pf': np.float64(1.34)} -17.9
-S mix 0.33 63 0.88 13.54 -21.5 1.01 {'n': 339, 'avg': 0.9, 'win': 39, 'pf': np.float64(1.26)} -17.9
-S mix 0.33 126 0.98 14.46 -20.1 1.07 {'n': 354, 'avg': 1.45, 'win': 42, 'pf': np.float64(1.46)} -17.9
-S mix 0.5 63 0.92 13.51 -21.8 1.01 {'n': 317, 'avg': 1.02, 'win': 38, 'pf': np.float64(1.29)} -17.9
-S mix 0.5 126 0.94 14.41 -20.0 1.07 {'n': 340, 'avg': 1.53, 'win': 42, 'pf': np.float64(1.46)} -18.9
-S 고른 mix 0.33 126 0.98 {'cagr': np.float64(14.46), 'vol': np.float64(13.5), 'mdd': np.float64(-20.1), 'sharpe': np.float64(1.07), 'ex': np.float64(-0.57), 'win12': 48, 'beat_years': 5, 'years': 10, 'turn': 423} ➖ 애매 {'beat': False, 'mdd': True, 'sharpe': False} False
-  흔들기 위 26% 빼기 14.73 -19.0 1.09 -0.29
-  흔들기 위 40% 빼기 13.84 -21.1 1.03 -1.19
-  흔들기 ID 101일 13.64 -21.8 1.02 -1.39
-  흔들기 ID 151일 14.85 -19.9 1.1 -0.18
-SPY {'cagr': np.float64(15.03), 'vol': np.float64(18.1), 'mdd': np.float64(-33.7), 'sharpe': np.float64(0.87), 'ex': np.float64(0.0), 'win12': 0, 'beat_years': 0, 'years': 10} 종합 ➖ 애매
+BASE {'cagr': np.float64(14.69), 'vol': np.float64(14.3), 'mdd': np.float64(-16.7), 'sharpe': np.float64(1.03), 'ex': np.float64(5.66), 'win12': 65, 'beat_years': 7, 'years': 9, 'turn': 1015} {'cagr': np.float64(17.97), 'vol': np.float64(14.9), 'mdd': np.float64(-19.4), 'sharpe': np.float64(1.18), 'ex': np.float64(3.12), 'win12': 72, 'beat_years': 7, 'years': 10, 'turn': 1104}
+fade_W5_t3 13.0 10.3 {'cagr': -0.26, 'mdd': 0.1, 'sharpe': -0.02, 'vol': 0.1, 'turn': 677.0} | {'cagr': -0.72, 'mdd': -2.7, 'sharpe': -0.07, 'vol': 0.5, 'turn': 468.0}
+fade_W5_t5 2.2 2.5 {'cagr': -0.6, 'mdd': 0.0, 'sharpe': -0.04, 'vol': 0.1, 'turn': 169.0} | {'cagr': 0.06, 'mdd': -0.4, 'sharpe': -0.02, 'vol': 0.5, 'turn': 127.0}
+fade_W5_t8 0.1 0.2 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'turn': 0.0} | {'cagr': 0.06, 'mdd': 0.0, 'sharpe': 0.01, 'vol': 0.1, 'turn': 0.0}
+fade_W10_t3 24.8 23.2 {'cagr': -1.43, 'mdd': -2.0, 'sharpe': -0.13, 'vol': 0.7, 'turn': 778.0} | {'cagr': -1.92, 'mdd': -0.4, 'sharpe': -0.14, 'vol': 0.7, 'turn': 592.0}
+fade_W10_t5 7.1 7.5 {'cagr': -0.35, 'mdd': 0.0, 'sharpe': -0.04, 'vol': 0.3, 'turn': 294.0} | {'cagr': -0.36, 'mdd': -0.4, 'sharpe': -0.06, 'vol': 0.7, 'turn': 221.0}
+fade_W10_t8 0.7 0.8 {'cagr': -0.31, 'mdd': 0.0, 'sharpe': -0.03, 'vol': 0.2, 'turn': 36.0} | {'cagr': -0.03, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'turn': 44.0}
+fade_W20_t3 42.6 38.5 {'cagr': -1.41, 'mdd': -0.9, 'sharpe': -0.13, 'vol': 0.9, 'turn': 885.0} | {'cagr': -4.51, 'mdd': -6.6, 'sharpe': -0.31, 'vol': 1.1, 'turn': 508.0}
+fade_W20_t5 17.7 19.4 {'cagr': -0.02, 'mdd': 0.3, 'sharpe': -0.04, 'vol': 0.7, 'turn': 411.0} | {'cagr': -3.14, 'mdd': -6.6, 'sharpe': -0.22, 'vol': 0.9, 'turn': 354.0}
+fade_W20_t8 3.2 3.8 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': -0.02, 'vol': 0.3, 'turn': 87.0} | {'cagr': -0.44, 'mdd': -2.5, 'sharpe': -0.07, 'vol': 0.8, 'turn': 129.0}
+fadeDn_W5_t3 7.0 5.9 {'cagr': 0.11, 'mdd': 0.2, 'sharpe': -0.01, 'vol': 0.2, 'turn': 30.0} | {'cagr': 0.18, 'mdd': -2.5, 'sharpe': -0.02, 'vol': 0.6, 'turn': 76.0}
+fadeDn_W5_t5 1.3 1.9 {'cagr': 0.04, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.1, 'turn': 14.0} | {'cagr': 0.62, 'mdd': -0.7, 'sharpe': 0.01, 'vol': 0.5, 'turn': 39.0}
+fadeDn_W5_t8 0.1 0.2 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'turn': 0.0} | {'cagr': 0.06, 'mdd': 0.0, 'sharpe': 0.01, 'vol': 0.1, 'turn': 0.0}
+fadeDn_W10_t3 12.2 12.3 {'cagr': 0.01, 'mdd': -2.6, 'sharpe': -0.05, 'vol': 0.9, 'turn': 62.0} | {'cagr': -0.25, 'mdd': -0.4, 'sharpe': -0.07, 'vol': 1.0, 'turn': 60.0}
+fadeDn_W10_t5 3.8 4.9 {'cagr': -0.28, 'mdd': 0.0, 'sharpe': -0.04, 'vol': 0.3, 'turn': 21.0} | {'cagr': 0.4, 'mdd': -0.4, 'sharpe': -0.02, 'vol': 0.8, 'turn': 50.0}
+fadeDn_W10_t8 0.4 0.6 {'cagr': -0.27, 'mdd': 0.0, 'sharpe': -0.03, 'vol': 0.2, 'turn': 8.0} | {'cagr': 0.2, 'mdd': 0.0, 'sharpe': 0.01, 'vol': 0.2, 'turn': 7.0}
+fadeDn_W20_t3 20.7 19.3 {'cagr': 1.45, 'mdd': -1.4, 'sharpe': 0.01, 'vol': 1.2, 'turn': 91.0} | {'cagr': -0.98, 'mdd': -4.1, 'sharpe': -0.14, 'vol': 1.5, 'turn': 3.0}
+fadeDn_W20_t5 9.3 11.0 {'cagr': 1.06, 'mdd': 1.6, 'sharpe': 0.01, 'vol': 0.8, 'turn': 54.0} | {'cagr': -1.18, 'mdd': -5.4, 'sharpe': -0.12, 'vol': 1.1, 'turn': 52.0}
+fadeDn_W20_t8 2.1 2.6 {'cagr': 0.04, 'mdd': 0.0, 'sharpe': -0.02, 'vol': 0.3, 'turn': 18.0} | {'cagr': -0.02, 'mdd': -2.5, 'sharpe': -0.05, 'vol': 0.9, 'turn': 32.0}
+follow_W5_t3 7.0 5.9 {'cagr': -1.86, 'mdd': -0.7, 'sharpe': -0.08, 'vol': -0.6, 'turn': 800.0} | {'cagr': -3.16, 'mdd': -1.4, 'sharpe': -0.13, 'vol': -0.7, 'turn': 640.0}
+follow_W5_t5 1.3 1.9 {'cagr': 0.28, 'mdd': 0.0, 'sharpe': 0.02, 'vol': -0.1, 'turn': 94.0} | {'cagr': -2.1, 'mdd': -1.2, 'sharpe': -0.09, 'vol': -0.3, 'turn': 186.0}
+follow_W5_t8 0.1 0.2 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'turn': 0.0} | {'cagr': -0.67, 'mdd': 0.0, 'sharpe': -0.03, 'vol': 0.0, 'turn': 31.0}
+follow_W10_t3 12.2 12.3 {'cagr': -1.77, 'mdd': -1.3, 'sharpe': -0.04, 'vol': -1.1, 'turn': 926.0} | {'cagr': -3.12, 'mdd': -1.5, 'sharpe': -0.1, 'vol': -1.2, 'turn': 742.0}
+follow_W10_t5 3.8 4.9 {'cagr': 1.61, 'mdd': 0.0, 'sharpe': 0.14, 'vol': -0.6, 'turn': 279.0} | {'cagr': -1.65, 'mdd': -0.2, 'sharpe': -0.04, 'vol': -0.7, 'turn': 354.0}
+follow_W10_t8 0.4 0.6 {'cagr': 0.16, 'mdd': 0.0, 'sharpe': 0.01, 'vol': 0.0, 'turn': 27.0} | {'cagr': -0.62, 'mdd': 0.0, 'sharpe': -0.02, 'vol': -0.2, 'turn': 70.0}
+follow_W20_t3 20.7 19.3 {'cagr': -2.93, 'mdd': -2.7, 'sharpe': -0.1, 'vol': -1.4, 'turn': 1040.0} | {'cagr': -2.29, 'mdd': -3.7, 'sharpe': -0.02, 'vol': -1.5, 'turn': 780.0}
+follow_W20_t5 9.3 11.0 {'cagr': -0.8, 'mdd': -3.2, 'sharpe': 0.01, 'vol': -0.9, 'turn': 534.0} | {'cagr': -2.6, 'mdd': -2.8, 'sharpe': -0.08, 'vol': -1.0, 'turn': 552.0}
+follow_W20_t8 2.1 2.6 {'cagr': 0.41, 'mdd': 0.0, 'sharpe': 0.03, 'vol': -0.1, 'turn': 98.0} | {'cagr': -0.95, 'mdd': 0.4, 'sharpe': -0.02, 'vol': -0.5, 'turn': 165.0}
+PICK follow_W10_t5 {'is': {'cagr': 1.61, 'mdd': 0.0, 'sharpe': 0.14, 'vol': -0.6, 'turn': 279.0}, 'oos': {'cagr': -1.65, 'mdd': -0.2, 'sharpe': -0.04, 'vol': -0.7, 'turn': 354.0}}
+SAMERISK 31.98 {'is': {'cagr': 1.72, 'mdd': 0.0, 'sharpe': 0.13, 'vol': -0.3, 'turn': 275.0}, 'oos': {'cagr': -1.92, 'mdd': -3.8, 'sharpe': -0.09, 'vol': -0.2, 'turn': 331.0}}
+SHAKE W-20 {'cagr': 0.86, 'mdd': -0.8, 'sharpe': 0.09, 'vol': -0.5, 'turn': 274.0} {'cagr': -3.23, 'mdd': -1.6, 'sharpe': -0.15, 'vol': -0.4, 'turn': 310.0}
+SHAKE W+20 {'cagr': 1.2, 'mdd': 0.0, 'sharpe': 0.12, 'vol': -0.6, 'turn': 410.0} {'cagr': 0.18, 'mdd': 2.5, 'sharpe': 0.08, 'vol': -0.8, 'turn': 380.0}
+SHAKE th-20 {'cagr': 0.16, 'mdd': -0.6, 'sharpe': 0.06, 'vol': -0.8, 'turn': 565.0} {'cagr': -0.83, 'mdd': 1.0, 'sharpe': 0.03, 'vol': -0.9, 'turn': 482.0}
+SHAKE th+20 {'cagr': 0.77, 'mdd': 0.0, 'sharpe': 0.08, 'vol': -0.4, 'turn': 159.0} {'cagr': -0.71, 'mdd': -1.9, 'sharpe': -0.01, 'vol': -0.4, 'turn': 200.0}
+SHAKE f-20 {'cagr': 1.3, 'mdd': 0.0, 'sharpe': 0.12, 'vol': -0.5, 'turn': 222.0} {'cagr': -1.29, 'mdd': 0.2, 'sharpe': -0.02, 'vol': -0.6, 'turn': 282.0}
+SHAKE f+20 {'cagr': 1.9, 'mdd': 0.0, 'sharpe': 0.16, 'vol': -0.6, 'turn': 336.0} {'cagr': -2.02, 'mdd': -0.5, 'sharpe': -0.07, 'vol': -0.7, 'turn': 431.0}
+C25 {'is': {'cagr': 1.11, 'mdd': 0.0, 'sharpe': 0.1, 'vol': -0.6, 'turn': 279.0}, 'oos': {'cagr': -2.23, 'mdd': -1.1, 'sharpe': -0.09, 'vol': -0.7, 'turn': 354.0}}
+DEST IEF {'cagr': -1.56, 'mdd': 0.0, 'sharpe': -0.09, 'vol': -0.1, 'turn': 0.0} | {'cagr': -1.25, 'mdd': -0.7, 'sharpe': -0.06, 'vol': -0.1, 'turn': -1.0}
+DEST BIL {'cagr': -2.84, 'mdd': 0.0, 'sharpe': -0.17, 'vol': -0.1, 'turn': -1.0} | {'cagr': -2.2, 'mdd': -1.0, 'sharpe': -0.11, 'vol': -0.1, 'turn': -1.0}
+DEST GLD {'cagr': -1.5, 'mdd': 0.0, 'sharpe': -0.1, 'vol': 0.2, 'turn': 0.0} | {'cagr': -3.71, 'mdd': -1.7, 'sharpe': -0.23, 'vol': 0.3, 'turn': -2.0}
+DEST TLTBIL {'cagr': -1.42, 'mdd': 0.0, 'sharpe': -0.08, 'vol': -0.1, 'turn': 0.0} | {'cagr': -1.1, 'mdd': -0.5, 'sharpe': -0.05, 'vol': -0.1, 'turn': -1.0}

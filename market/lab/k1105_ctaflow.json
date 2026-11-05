@@ -1,0 +1,770 @@
+{
+ "at": "2026-11-05 10:07",
+ "cta": {
+  "fade_W5_t3": {
+   "d": {
+    "is": {
+     "cagr": -0.26,
+     "mdd": 0.1,
+     "sharpe": -0.02,
+     "vol": 0.1,
+     "turn": 677.0
+    },
+    "oos": {
+     "cagr": -0.72,
+     "mdd": -2.7,
+     "sharpe": -0.07,
+     "vol": 0.5,
+     "turn": 468.0
+    }
+   },
+   "on_is": 13.0,
+   "on_oos": 10.3
+  },
+  "fade_W5_t5": {
+   "d": {
+    "is": {
+     "cagr": -0.6,
+     "mdd": 0.0,
+     "sharpe": -0.04,
+     "vol": 0.1,
+     "turn": 169.0
+    },
+    "oos": {
+     "cagr": 0.06,
+     "mdd": -0.4,
+     "sharpe": -0.02,
+     "vol": 0.5,
+     "turn": 127.0
+    }
+   },
+   "on_is": 2.2,
+   "on_oos": 2.5
+  },
+  "fade_W5_t8": {
+   "d": {
+    "is": {
+     "cagr": 0.0,
+     "mdd": 0.0,
+     "sharpe": 0.0,
+     "vol": 0.0,
+     "turn": 0.0
+    },
+    "oos": {
+     "cagr": 0.06,
+     "mdd": 0.0,
+     "sharpe": 0.01,
+     "vol": 0.1,
+     "turn": 0.0
+    }
+   },
+   "on_is": 0.1,
+   "on_oos": 0.2
+  },
+  "fade_W10_t3": {
+   "d": {
+    "is": {
+     "cagr": -1.43,
+     "mdd": -2.0,
+     "sharpe": -0.13,
+     "vol": 0.7,
+     "turn": 778.0
+    },
+    "oos": {
+     "cagr": -1.92,
+     "mdd": -0.4,
+     "sharpe": -0.14,
+     "vol": 0.7,
+     "turn": 592.0
+    }
+   },
+   "on_is": 24.8,
+   "on_oos": 23.2
+  },
+  "fade_W10_t5": {
+   "d": {
+    "is": {
+     "cagr": -0.35,
+     "mdd": 0.0,
+     "sharpe": -0.04,
+     "vol": 0.3,
+     "turn": 294.0
+    },
+    "oos": {
+     "cagr": -0.36,
+     "mdd": -0.4,
+     "sharpe": -0.06,
+     "vol": 0.7,
+     "turn": 221.0
+    }
+   },
+   "on_is": 7.1,
+   "on_oos": 7.5
+  },
+  "fade_W10_t8": {
+   "d": {
+    "is": {
+     "cagr": -0.31,
+     "mdd": 0.0,
+     "sharpe": -0.03,
+     "vol": 0.2,
+     "turn": 36.0
+    },
+    "oos": {
+     "cagr": -0.03,
+     "mdd": 0.0,
+     "sharpe": -0.01,
+     "vol": 0.1,
+     "turn": 44.0
+    }
+   },
+   "on_is": 0.7,
+   "on_oos": 0.8
+  },
+  "fade_W20_t3": {
+   "d": {
+    "is": {
+     "cagr": -1.41,
+     "mdd": -0.9,
+     "sharpe": -0.13,
+     "vol": 0.9,
+     "turn": 885.0
+    },
+    "oos": {
+     "cagr": -4.51,
+     "mdd": -6.6,
+     "sharpe": -0.31,
+     "vol": 1.1,
+     "turn": 508.0
+    }
+   },
+   "on_is": 42.6,
+   "on_oos": 38.5
+  },
+  "fade_W20_t5": {
+   "d": {
+    "is": {
+     "cagr": -0.02,
+     "mdd": 0.3,
+     "sharpe": -0.04,
+     "vol": 0.7,
+     "turn": 411.0
+    },
+    "oos": {
+     "cagr": -3.14,
+     "mdd": -6.6,
+     "sharpe": -0.22,
+     "vol": 0.9,
+     "turn": 354.0
+    }
+   },
+   "on_is": 17.7,
+   "on_oos": 19.4
+  },
+  "fade_W20_t8": {
+   "d": {
+    "is": {
+     "cagr": 0.0,
+     "mdd": 0.0,
+     "sharpe": -0.02,
+     "vol": 0.3,
+     "turn": 87.0
+    },
+    "oos": {
+     "cagr": -0.44,
+     "mdd": -2.5,
+     "sharpe": -0.07,
+     "vol": 0.8,
+     "turn": 129.0
+    }
+   },
+   "on_is": 3.2,
+   "on_oos": 3.8
+  },
+  "fadeDn_W5_t3": {
+   "d": {
+    "is": {
+     "cagr": 0.11,
+     "mdd": 0.2,
+     "sharpe": -0.01,
+     "vol": 0.2,
+     "turn": 30.0
+    },
+    "oos": {
+     "cagr": 0.18,
+     "mdd": -2.5,
+     "sharpe": -0.02,
+     "vol": 0.6,
+     "turn": 76.0
+    }
+   },
+   "on_is": 7.0,
+   "on_oos": 5.9
+  },
+  "fadeDn_W5_t5": {
+   "d": {
+    "is": {
+     "cagr": 0.04,
+     "mdd": 0.0,
+     "sharpe": 0.0,
+     "vol": 0.1,
+     "turn": 14.0
+    },
+    "oos": {
+     "cagr": 0.62,
+     "mdd": -0.7,
+     "sharpe": 0.01,
+     "vol": 0.5,
+     "turn": 39.0
+    }
+   },
+   "on_is": 1.3,
+   "on_oos": 1.9
+  },
+  "fadeDn_W5_t8": {
+   "d": {
+    "is": {
+     "cagr": 0.0,
+     "mdd": 0.0,
+     "sharpe": 0.0,
+     "vol": 0.0,
+     "turn": 0.0
+    },
+    "oos": {
+     "cagr": 0.06,
+     "mdd": 0.0,
+     "sharpe": 0.01,
+     "vol": 0.1,
+     "turn": 0.0
+    }
+   },
+   "on_is": 0.1,
+   "on_oos": 0.2
+  },
+  "fadeDn_W10_t3": {
+   "d": {
+    "is": {
+     "cagr": 0.01,
+     "mdd": -2.6,
+     "sharpe": -0.05,
+     "vol": 0.9,
+     "turn": 62.0
+    },
+    "oos": {
+     "cagr": -0.25,
+     "mdd": -0.4,
+     "sharpe": -0.07,
+     "vol": 1.0,
+     "turn": 60.0
+    }
+   },
+   "on_is": 12.2,
+   "on_oos": 12.3
+  },
+  "fadeDn_W10_t5": {
+   "d": {
+    "is": {
+     "cagr": -0.28,
+     "mdd": 0.0,
+     "sharpe": -0.04,
+     "vol": 0.3,
+     "turn": 21.0
+    },
+    "oos": {
+     "cagr": 0.4,
+     "mdd": -0.4,
+     "sharpe": -0.02,
+     "vol": 0.8,
+     "turn": 50.0
+    }
+   },
+   "on_is": 3.8,
+   "on_oos": 4.9
+  },
+  "fadeDn_W10_t8": {
+   "d": {
+    "is": {
+     "cagr": -0.27,
+     "mdd": 0.0,
+     "sharpe": -0.03,
+     "vol": 0.2,
+     "turn": 8.0
+    },
+    "oos": {
+     "cagr": 0.2,
+     "mdd": 0.0,
+     "sharpe": 0.01,
+     "vol": 0.2,
+     "turn": 7.0
+    }
+   },
+   "on_is": 0.4,
+   "on_oos": 0.6
+  },
+  "fadeDn_W20_t3": {
+   "d": {
+    "is": {
+     "cagr": 1.45,
+     "mdd": -1.4,
+     "sharpe": 0.01,
+     "vol": 1.2,
+     "turn": 91.0
+    },
+    "oos": {
+     "cagr": -0.98,
+     "mdd": -4.1,
+     "sharpe": -0.14,
+     "vol": 1.5,
+     "turn": 3.0
+    }
+   },
+   "on_is": 20.7,
+   "on_oos": 19.3
+  },
+  "fadeDn_W20_t5": {
+   "d": {
+    "is": {
+     "cagr": 1.06,
+     "mdd": 1.6,
+     "sharpe": 0.01,
+     "vol": 0.8,
+     "turn": 54.0
+    },
+    "oos": {
+     "cagr": -1.18,
+     "mdd": -5.4,
+     "sharpe": -0.12,
+     "vol": 1.1,
+     "turn": 52.0
+    }
+   },
+   "on_is": 9.3,
+   "on_oos": 11.0
+  },
+  "fadeDn_W20_t8": {
+   "d": {
+    "is": {
+     "cagr": 0.04,
+     "mdd": 0.0,
+     "sharpe": -0.02,
+     "vol": 0.3,
+     "turn": 18.0
+    },
+    "oos": {
+     "cagr": -0.02,
+     "mdd": -2.5,
+     "sharpe": -0.05,
+     "vol": 0.9,
+     "turn": 32.0
+    }
+   },
+   "on_is": 2.1,
+   "on_oos": 2.6
+  },
+  "follow_W5_t3": {
+   "d": {
+    "is": {
+     "cagr": -1.86,
+     "mdd": -0.7,
+     "sharpe": -0.08,
+     "vol": -0.6,
+     "turn": 800.0
+    },
+    "oos": {
+     "cagr": -3.16,
+     "mdd": -1.4,
+     "sharpe": -0.13,
+     "vol": -0.7,
+     "turn": 640.0
+    }
+   },
+   "on_is": 7.0,
+   "on_oos": 5.9
+  },
+  "follow_W5_t5": {
+   "d": {
+    "is": {
+     "cagr": 0.28,
+     "mdd": 0.0,
+     "sharpe": 0.02,
+     "vol": -0.1,
+     "turn": 94.0
+    },
+    "oos": {
+     "cagr": -2.1,
+     "mdd": -1.2,
+     "sharpe": -0.09,
+     "vol": -0.3,
+     "turn": 186.0
+    }
+   },
+   "on_is": 1.3,
+   "on_oos": 1.9
+  },
+  "follow_W5_t8": {
+   "d": {
+    "is": {
+     "cagr": 0.0,
+     "mdd": 0.0,
+     "sharpe": 0.0,
+     "vol": 0.0,
+     "turn": 0.0
+    },
+    "oos": {
+     "cagr": -0.67,
+     "mdd": 0.0,
+     "sharpe": -0.03,
+     "vol": 0.0,
+     "turn": 31.0
+    }
+   },
+   "on_is": 0.1,
+   "on_oos": 0.2
+  },
+  "follow_W10_t3": {
+   "d": {
+    "is": {
+     "cagr": -1.77,
+     "mdd": -1.3,
+     "sharpe": -0.04,
+     "vol": -1.1,
+     "turn": 926.0
+    },
+    "oos": {
+     "cagr": -3.12,
+     "mdd": -1.5,
+     "sharpe": -0.1,
+     "vol": -1.2,
+     "turn": 742.0
+    }
+   },
+   "on_is": 12.2,
+   "on_oos": 12.3
+  },
+  "follow_W10_t5": {
+   "d": {
+    "is": {
+     "cagr": 1.61,
+     "mdd": 0.0,
+     "sharpe": 0.14,
+     "vol": -0.6,
+     "turn": 279.0
+    },
+    "oos": {
+     "cagr": -1.65,
+     "mdd": -0.2,
+     "sharpe": -0.04,
+     "vol": -0.7,
+     "turn": 354.0
+    }
+   },
+   "on_is": 3.8,
+   "on_oos": 4.9
+  },
+  "follow_W10_t8": {
+   "d": {
+    "is": {
+     "cagr": 0.16,
+     "mdd": 0.0,
+     "sharpe": 0.01,
+     "vol": 0.0,
+     "turn": 27.0
+    },
+    "oos": {
+     "cagr": -0.62,
+     "mdd": 0.0,
+     "sharpe": -0.02,
+     "vol": -0.2,
+     "turn": 70.0
+    }
+   },
+   "on_is": 0.4,
+   "on_oos": 0.6
+  },
+  "follow_W20_t3": {
+   "d": {
+    "is": {
+     "cagr": -2.93,
+     "mdd": -2.7,
+     "sharpe": -0.1,
+     "vol": -1.4,
+     "turn": 1040.0
+    },
+    "oos": {
+     "cagr": -2.29,
+     "mdd": -3.7,
+     "sharpe": -0.02,
+     "vol": -1.5,
+     "turn": 780.0
+    }
+   },
+   "on_is": 20.7,
+   "on_oos": 19.3
+  },
+  "follow_W20_t5": {
+   "d": {
+    "is": {
+     "cagr": -0.8,
+     "mdd": -3.2,
+     "sharpe": 0.01,
+     "vol": -0.9,
+     "turn": 534.0
+    },
+    "oos": {
+     "cagr": -2.6,
+     "mdd": -2.8,
+     "sharpe": -0.08,
+     "vol": -1.0,
+     "turn": 552.0
+    }
+   },
+   "on_is": 9.3,
+   "on_oos": 11.0
+  },
+  "follow_W20_t8": {
+   "d": {
+    "is": {
+     "cagr": 0.41,
+     "mdd": 0.0,
+     "sharpe": 0.03,
+     "vol": -0.1,
+     "turn": 98.0
+    },
+    "oos": {
+     "cagr": -0.95,
+     "mdd": 0.4,
+     "sharpe": -0.02,
+     "vol": -0.5,
+     "turn": 165.0
+    }
+   },
+   "on_is": 2.1,
+   "on_oos": 2.6
+  }
+ },
+ "dest": {
+  "IEF": {
+   "is": {
+    "cagr": -1.56,
+    "mdd": 0.0,
+    "sharpe": -0.09,
+    "vol": -0.1,
+    "turn": 0.0
+   },
+   "oos": {
+    "cagr": -1.25,
+    "mdd": -0.7,
+    "sharpe": -0.06,
+    "vol": -0.1,
+    "turn": -1.0
+   }
+  },
+  "BIL": {
+   "is": {
+    "cagr": -2.84,
+    "mdd": 0.0,
+    "sharpe": -0.17,
+    "vol": -0.1,
+    "turn": -1.0
+   },
+   "oos": {
+    "cagr": -2.2,
+    "mdd": -1.0,
+    "sharpe": -0.11,
+    "vol": -0.1,
+    "turn": -1.0
+   }
+  },
+  "GLD": {
+   "is": {
+    "cagr": -1.5,
+    "mdd": 0.0,
+    "sharpe": -0.1,
+    "vol": 0.2,
+    "turn": 0.0
+   },
+   "oos": {
+    "cagr": -3.71,
+    "mdd": -1.7,
+    "sharpe": -0.23,
+    "vol": 0.3,
+    "turn": -2.0
+   }
+  },
+  "TLTBIL": {
+   "is": {
+    "cagr": -1.42,
+    "mdd": 0.0,
+    "sharpe": -0.08,
+    "vol": -0.1,
+    "turn": 0.0
+   },
+   "oos": {
+    "cagr": -1.1,
+    "mdd": -0.5,
+    "sharpe": -0.05,
+    "vol": -0.1,
+    "turn": -1.0
+   }
+  }
+ },
+ "base": {
+  "is": {
+   "cagr": 14.69,
+   "vol": 14.3,
+   "mdd": -16.7,
+   "sharpe": 1.03,
+   "ex": 5.66,
+   "win12": 65,
+   "beat_years": 7,
+   "years": 9,
+   "turn": 1015
+  },
+  "oos": {
+   "cagr": 17.97,
+   "vol": 14.9,
+   "mdd": -19.4,
+   "sharpe": 1.18,
+   "ex": 3.12,
+   "win12": 72,
+   "beat_years": 7,
+   "years": 10,
+   "turn": 1104
+  }
+ },
+ "pick": "follow_W10_t5",
+ "same_risk": {
+  "tgt": 31.98,
+  "d": {
+   "is": {
+    "cagr": 1.72,
+    "mdd": 0.0,
+    "sharpe": 0.13,
+    "vol": -0.3,
+    "turn": 275.0
+   },
+   "oos": {
+    "cagr": -1.92,
+    "mdd": -3.8,
+    "sharpe": -0.09,
+    "vol": -0.2,
+    "turn": 331.0
+   }
+  }
+ },
+ "shake": {
+  "W-20": {
+   "is": {
+    "cagr": 0.86,
+    "mdd": -0.8,
+    "sharpe": 0.09,
+    "vol": -0.5,
+    "turn": 274.0
+   },
+   "oos": {
+    "cagr": -3.23,
+    "mdd": -1.6,
+    "sharpe": -0.15,
+    "vol": -0.4,
+    "turn": 310.0
+   }
+  },
+  "W+20": {
+   "is": {
+    "cagr": 1.2,
+    "mdd": 0.0,
+    "sharpe": 0.12,
+    "vol": -0.6,
+    "turn": 410.0
+   },
+   "oos": {
+    "cagr": 0.18,
+    "mdd": 2.5,
+    "sharpe": 0.08,
+    "vol": -0.8,
+    "turn": 380.0
+   }
+  },
+  "th-20": {
+   "is": {
+    "cagr": 0.16,
+    "mdd": -0.6,
+    "sharpe": 0.06,
+    "vol": -0.8,
+    "turn": 565.0
+   },
+   "oos": {
+    "cagr": -0.83,
+    "mdd": 1.0,
+    "sharpe": 0.03,
+    "vol": -0.9,
+    "turn": 482.0
+   }
+  },
+  "th+20": {
+   "is": {
+    "cagr": 0.77,
+    "mdd": 0.0,
+    "sharpe": 0.08,
+    "vol": -0.4,
+    "turn": 159.0
+   },
+   "oos": {
+    "cagr": -0.71,
+    "mdd": -1.9,
+    "sharpe": -0.01,
+    "vol": -0.4,
+    "turn": 200.0
+   }
+  },
+  "f-20": {
+   "is": {
+    "cagr": 1.3,
+    "mdd": 0.0,
+    "sharpe": 0.12,
+    "vol": -0.5,
+    "turn": 222.0
+   },
+   "oos": {
+    "cagr": -1.29,
+    "mdd": 0.2,
+    "sharpe": -0.02,
+    "vol": -0.6,
+    "turn": 282.0
+   }
+  },
+  "f+20": {
+   "is": {
+    "cagr": 1.9,
+    "mdd": 0.0,
+    "sharpe": 0.16,
+    "vol": -0.6,
+    "turn": 336.0
+   },
+   "oos": {
+    "cagr": -2.02,
+    "mdd": -0.5,
+    "sharpe": -0.07,
+    "vol": -0.7,
+    "turn": 431.0
+   }
+  }
+ },
+ "c25": {
+  "is": {
+   "cagr": 1.11,
+   "mdd": 0.0,
+   "sharpe": 0.1,
+   "vol": -0.6,
+   "turn": 279.0
+  },
+  "oos": {
+   "cagr": -2.23,
+   "mdd": -1.1,
+   "sharpe": -0.09,
+   "vol": -0.7,
+   "turn": 354.0
+  }
+ },
+ "note": "🎯 목표 22·한도 70·월말 흐름 켜진 지금 규칙 대비 d · 비용 0.1% · ETF 만 → 생존 편향 없음 · CTA 위치는 SPY 하나로 근사(실제 CTA 는 선물·여러 시장) · 매수 추천 아님"
+}
