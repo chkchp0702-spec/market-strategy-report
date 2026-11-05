@@ -1,5 +1,5 @@
 {
- "at": "2026-11-06 07:40",
+ "at": "2026-11-06 08:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7817": {
@@ -22,11 +22,6 @@
    "why": "고금리 정점 가설 — ADP 8.6만 소폭 상회, 금요일 고용 전 금리 경로 재료",
    "at": "2026-11-04 22:35"
   },
-  "n/ZTFhOczlQeXZOTTJYNVpaanhzREdCTURHR2g2Y0hETkFZNmJNTS0wVklnoc5": {
-   "lv": 1,
-   "why": "메모리 가격 경고 누적·MU 하락 — 한국 반도체(091160)·하닉 watch, 지수 랠리 속 AI 안의 갈림 가설",
-   "at": "2026-11-05 00:34"
-  },
   "n/swwwftcomcontentb526f876810a4e748b8d4ffca04b29c7syn25a6b1a61": {
    "lv": 2,
    "why": "브렌트 94달러(−9%) — 에너지 칸 13% 조건 brent_95(→10) 장중 도달, OXY·COP 신호 직격",
@@ -37,39 +32,14 @@
    "why": "에너지 칸 13% — 골드만 브렌트 105$ 상향, 조건 brent_95(→10) 발동 직전과 반대 방향 근거",
    "at": "2026-11-05 09:45"
   },
-  "HANAchina/71579": {
-   "lv": 1,
-   "why": "JP모건 「데이터센터 증설→희소성 경쟁」 — 가설 「AI 차입이 약한 고리」의 반대 근거(기존 DC 자산 가치↑)",
-   "at": "2026-11-05 12:40"
-  },
   "HANAchina/71583": {
    "lv": 1,
    "why": "세미애널리시스 「중간선거 DC 충격」 — 2027 증설은 확정, 2028 변수 — 한국 반도체 급락의 근거가 「먼 미래 위험」임을 가늠",
    "at": "2026-11-05 13:45"
   },
-  "kimu_nim/48176": {
-   "lv": 1,
-   "why": "에너지 칸 13%·조건 brent_95 — 호르무즈 유조선 화재+美 이란 작전 준비(악시오스): 유가 급락 되돌림 위험",
-   "at": "2026-11-05 13:45"
-  },
-  "n/httpswwwcnbccom20261105nintendoearningsswitch2saleshtml": {
-   "lv": 1,
-   "why": "메모리 값 급등이 소비 기기 수요를 깎는 첫 숫자(스위치2 판매 −41%) — 091160·메모리 가격 가설의 반대편 근거",
-   "at": "2026-11-05 16:40"
-  },
   "HANAchina/71592": {
    "lv": 1,
    "why": "AI 차입 가설(0.92) — MS가 Nscale 영국 30억$ 임대 취소에 이어 텍사스 500MW 증설 옵션도 포기: 네오클라우드 자금줄·IPO(350억$) 압박",
-   "at": "2026-11-05 18:40"
-  },
-  "n/20261105micronpausesworkon45billiontaiwanplantafterlaborspat": {
-   "lv": 1,
-   "why": "메모리 공급 — 마이크론 대만 45억$ 공장 노사분쟁으로 중단(블룸버그): 공급 증설 지연 = DRAM 가격 가설·091160 반대편 투매와 엇갈리는 근거",
-   "at": "2026-11-05 18:40"
-  },
-  "kimu_nim/48185": {
-   "lv": 1,
-   "why": "반도체 칸 — JP모건 「10월 헤지펀드 AI 청산 7월보다 강해, 11월 말부터 재구축 예상」: 한국 반도체 투매 뒤 반등 시점 가늠",
    "at": "2026-11-05 18:40"
   },
   "n/dmMTQ5TXhMOHZYVjM4TDQ2U2ZlMi1ibXVITU56VkRVeHpXZkhGaFpmZUEoc5": {
@@ -92,11 +62,6 @@
    "why": "파나소닉 CCL 공장 폭발 — 고급 CCL 공급 약 4% 차질 위험, AI 기판 소재 가격 쪽(미확인)",
    "at": "2026-11-05 21:45"
   },
-  "kimu_nim/48190": {
-   "lv": 1,
-   "why": "AI 차입 가설(0.92) 직격 — CRWV 채권 가격 또 신저점: 칩주 하락을 크레딧 시장이 먼저 말함",
-   "at": "2026-11-05 22:40"
-  },
   "n/261105usstockfuturesdivergeaschipselloffextendsintosecondday": {
    "lv": 1,
    "why": "반도체 칸·091160 — 선거 뒤 칩 매도 이틀째, 지수 선물은 엇갈림(K자 지속)",
@@ -107,95 +72,25 @@
    "why": "에너지 칸 조건 brent_95 — 브렌트 96$ 재돌파(+2.5%): 95↓ 종가 확정 안 됨, 발동 보류 유지",
    "at": "2026-11-05 22:40"
   },
-  "kimu_nim/48198": {
-   "lv": 1,
-   "why": "AI 차입 가설(0.92) 근거 — JPM AM: AI 기업 부외 약정 4.49조$(전체 5.25조의 86%), NVDA 92%·GOOGL 91% 부외",
-   "at": "2026-11-05 23:45"
-  },
-  "n/httpswwwcnbccom20261104stockmarkettodayliveupdateshtml": {
-   "lv": 2,
-   "why": "나스닥 −3.8% 조정 진입·S&P −2.2%·VIX +38% — 🐻 하락장 판정 watch·반도체 칸·킥 보유 전반 직격",
-   "at": "2026-11-06 00:35"
-  },
-  "kimu_nim/48199": {
-   "lv": 1,
-   "why": "나스닥 선물 급락 vs 美 금리선물 폭등 — 고금리 정점 가설(0.55) 쪽 근거, 주식→채권 이동",
-   "at": "2026-11-06 00:35"
-  },
-  "kimu_nim/48202": {
-   "lv": 1,
-   "why": "고금리 정점 가설(0.55) 해석 전환 — 금리 하락 이유가 「경기둔화·AI CAPEX 축소」, 금리↓=주식↑ 공식이 깨짐",
-   "at": "2026-11-06 01:40"
-  },
   "n/FWdHQ4N0RURVQtV3V3M3k1azBZbDlYT2FRSDRDTlBqMGEzZnVSQmo4R1Eoc5": {
    "lv": 1,
    "why": "🐻 현금화 watch — 골드만 「주식은 지지, 단기 현금 비중 확대」: 현금·단기채 칸 유지 근거",
    "at": "2026-11-06 01:40"
-  },
-  "n/20261105spacexdefaultriskhitsfreshpeakastechledselloffbuilds": {
-   "lv": 1,
-   "why": "AI 차입 가설(0.92) — 스페이스X 부도위험 신고점: 칩 매도가 크레딧으로 번짐",
-   "at": "2026-11-06 01:40"
-  },
-  "n/0JsYy1lQTFkR3VJVkFyel9KeFFCdDNWWE4xeEE4aDNTYmZEejVrcEhPQQoc5": {
-   "lv": 1,
-   "why": "🐻 하락장 판정·고금리 정점(0.55) — 실업수당 57년 최저·3분기 생산성 급증: 주식 투매는 경기 아닌 AI 쏠림 청산이라는 반대 근거",
-   "at": "2026-11-06 02:40"
-  },
-  "n/ZQkRNWUFTbGZRYjFxTkJscXlRWW4weHRtbFlTQ01TejlCdHRNQ2FvcnYzoc5": {
-   "lv": 1,
-   "why": "고금리 정점 가설(0.55) — 선거 뒤 12월 인상 전망 후퇴(동결 확률 33%): 금리 정점 쪽 근거, 중장기채 칸",
-   "at": "2026-11-06 02:40"
-  },
-  "n/7sp500plungeswallstreetcircuitbreakertrumprecordhighstsrcrss": {
-   "lv": 2,
-   "why": "S&P −3.9%·나스닥 −5.2%·VIX +59% — 지수 −3%↓ 급변, 🐻 하락장 판정 watch·킥 보유·포트 전 칸 직격",
-   "at": "2026-11-06 03:40"
-  },
-  "n/esinks9aswallstreetdumpssoftwaresaiwinnersoktadrops10tsrcrss": {
-   "lv": 1,
-   "why": "매도가 칩→소프트웨어 AI 승자로 번짐(PLTR −10%·CRWD −9%) — AI 소프트웨어 칸·열린 PCOR bet 직격",
-   "at": "2026-11-06 03:40"
-  },
-  "n/eos20261105aiselloffhasroomtogoonmechanicalsellingtchirvideo": {
-   "lv": 1,
-   "why": "「기계적 매도 더 남음」(Tchir) — VIX 하락 전환일 전 재진입 서두르지 말라는 근거, 🐻 watch",
-   "at": "2026-11-06 03:40"
-  },
-  "n/5fZFN4LXpOSjAwRzJTRDRfZm1QSklFc05NRTAxd19aaWw4OFpSWHJ6WDgoc5": {
-   "lv": 1,
-   "why": "中, 엔비디아 AI칩 약 60만 개 홍콩 통관 보류 — 칩 수요 쪽 새 악재, AI 차입 가설(공급자 쪽 위험)·SMH 약세와 이어짐",
-   "at": "2026-11-06 04:40"
-  },
-  "n/VUDc3dDA5cng5TC1mak5NM3pLckZRdGU1TjJpdjI0dndMUGQwNTRlZFY0oc5": {
-   "lv": 1,
-   "why": "골드만·아폴로가 스페이스X 400억$ AI칩 금융을 다른 투자자에게 넘기려 함 — AI 차입이 소화 안 되는 신호(AI 차입 가설 0.92)",
-   "at": "2026-11-06 04:40"
-  },
-  "n/httpskrinvestingcomnewsstockmarketnewsarticle2162602": {
-   "lv": 1,
-   "why": "AI 차입 가설(0.92)·반도체 칸 — AI 급락이 헤지펀드 디레버리징을 또 부름(기계적 매도 지속): VIX 꺾이는 날 전 재진입 보류 근거",
-   "at": "2026-11-06 05:40"
   },
   "n/lMWEZkLTdtNGxPWnBXRVRNSTdHMGRaamk1OVNEd2dzc0VnbEFfQ3V4Mm8oc5": {
    "lv": 1,
    "why": "고금리 정점(0.55)·🐻 watch — 투매 뒤 금요일 10월 고용이 안도 또는 추가 하락의 다음 변곡",
    "at": "2026-11-06 05:40"
   },
-  "n/tailtradersdumpthemoststocksinsingledaysincecovidselloffhtml": {
+  "kimu_nim/48248": {
    "lv": 1,
-   "why": "개인 하루 순매도 코로나 이후 최대 — 디레버리징 끝(항복) 신호 후보, SMH 재진입 관찰과 이어짐",
-   "at": "2026-11-06 06:40"
+   "why": "AI 차입 가설(0.92) — 하루새 IREN ARR 4B$ 지연·AAOI 광트랜시버 캐파 하향·CRWV CDS 1164bp·노스웨스턴 데이터센터 계약 해지: 규제 공포를 넘어 실행 속도·자금 균열, 광통신·반도체 칸",
+   "at": "2026-11-06 08:40"
   },
-  "n/oraise75bfrombondofferingamidmarketselloffcNG1HDrR948tsrcrss": {
+  "n/httpwwwedailycokrnewsnewspathaspnewsid03309526645643096": {
    "lv": 1,
-   "why": "투매 중 애플 75억$ 채권 발행 — 「AI 차입(크레딧)」 가설: 빅테크 회사채 공급·스프레드 점검",
-   "at": "2026-11-06 06:40"
-  },
-  "kimu_nim/48217": {
-   "lv": 1,
-   "why": "뉴욕 마감 숫자 한 장 — SOX −12.25%·VIX +70%·12월 인상 확률 70%·UBS 데이터센터 30% 중단 위험 → AI 차입 가설·반도체 칸",
-   "at": "2026-11-06 07:40"
+   "why": "한국장 개장 전 삼성전자·SK하이닉스 프리마켓 −10%대 — 반도체(HBM) 칸·한국 비중, SOX −12% 그대로 전이",
+   "at": "2026-11-06 08:40"
   }
  }
 }
