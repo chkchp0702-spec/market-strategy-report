@@ -1,5 +1,5 @@
 {
- "at": "2026-11-06 02:40",
+ "at": "2026-11-06 03:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7817": {
@@ -146,6 +146,21 @@
    "lv": 1,
    "why": "고금리 정점 가설(0.55) — 선거 뒤 12월 인상 전망 후퇴(동결 확률 33%): 금리 정점 쪽 근거, 중장기채 칸",
    "at": "2026-11-06 02:40"
+  },
+  "n/7sp500plungeswallstreetcircuitbreakertrumprecordhighstsrcrss": {
+   "lv": 2,
+   "why": "S&P −3.9%·나스닥 −5.2%·VIX +59% — 지수 −3%↓ 급변, 🐻 하락장 판정 watch·킥 보유·포트 전 칸 직격",
+   "at": "2026-11-06 03:40"
+  },
+  "n/esinks9aswallstreetdumpssoftwaresaiwinnersoktadrops10tsrcrss": {
+   "lv": 1,
+   "why": "매도가 칩→소프트웨어 AI 승자로 번짐(PLTR −10%·CRWD −9%) — AI 소프트웨어 칸·열린 PCOR bet 직격",
+   "at": "2026-11-06 03:40"
+  },
+  "n/eos20261105aiselloffhasroomtogoonmechanicalsellingtchirvideo": {
+   "lv": 1,
+   "why": "「기계적 매도 더 남음」(Tchir) — VIX 하락 전환일 전 재진입 서두르지 말라는 근거, 🐻 watch",
+   "at": "2026-11-06 03:40"
   }
  }
 }
