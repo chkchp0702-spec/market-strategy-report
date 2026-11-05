@@ -5882,6 +5882,132 @@
 "src": "ins",
 "score": 79.3,
 "note": "기회형 내부자 3명 · 1,432천 달러 (10일 안 공시)"
+},
+"RYAN|2026-11-05": {
+"code": "RYAN",
+"name": "Ryan Specialty Holdings, Inc. Class A ",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "cup_eye",
+"score": 64.1,
+"lv": 44.65,
+"max20": 5.4,
+"id60": -0.15
+},
+"CME|2026-11-05": {
+"code": "CME",
+"name": "CME Group Inc. - Class A Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "cup_eye",
+"score": 52.2,
+"lv": 309.71,
+"max20": 3.4,
+"id60": -0.133
+},
+"HQY|2026-11-05": {
+"code": "HQY",
+"name": "HealthEquity, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "cup_eye",
+"score": 43.9,
+"lv": 105.66,
+"max20": 6.7,
+"id60": -0.067
+},
+"LIVN|2026-11-05|e": {
+"code": "LIVN",
+"name": "LivaNova PLC - Ordinary Shares",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "earn",
+"score": 83.8,
+"lv": 85.76
+},
+"TREX|2026-11-05|e": {
+"code": "TREX",
+"name": "Trex Company, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "earn",
+"score": 75.0,
+"lv": 52.38,
+"agree": [
+"☕"
+]
+},
+"GWW|2026-11-05|e": {
+"code": "GWW",
+"name": "W.W. Grainger, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "earn",
+"score": 72.2,
+"lv": 1419.91
+},
+"SWK|2026-11-05|e": {
+"code": "SWK",
+"name": "Stanley Black & Decker, Inc. Common St",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "earn",
+"score": 69.8,
+"lv": 107.67
+},
+"GKOS|2026-11-05|e": {
+"code": "GKOS",
+"name": "Glaukos Corporation Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "earn",
+"score": 68.2,
+"lv": 187.94
+},
+"LMB|2026-11-05|e": {
+"code": "LMB",
+"name": "Limbach Holdings, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "earn",
+"score": 68.0,
+"lv": 54.39
+},
+"ERIC|2026-11-05|e": {
+"code": "ERIC",
+"name": "Ericsson - American Depositary Shares ",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "earn",
+"score": 66.8,
+"lv": 10.44
+},
+"FCN|2026-11-05|e": {
+"code": "FCN",
+"name": "FTI Consulting, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "earn",
+"score": 66.2,
+"lv": 164.38
+},
+"LH|2026-11-05|e": {
+"code": "LH",
+"name": "Labcorp Holdings Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "earn",
+"score": 65.0,
+"lv": 341.8
+},
+"JILL|2026-11-05|e": {
+"code": "JILL",
+"name": "J. Jill, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "earn",
+"score": 54.8,
+"lv": 20.89
 }
 },
 "sent": [
