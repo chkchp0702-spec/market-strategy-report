@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "코스피 장중 4%↑ 급락·매도 사이드카 발동(증권시장)",
+   "url": "https://ground.news/article/kospi-plunges-over-4-during-trading-sell-side-circuit-breaker-triggered-in-securities-market",
+   "press": "Ground News",
+   "at": "2026-11-05 12:40",
+   "why": "사이드카 이벤트 그림자 채점(091160·069500) 기준일 기록",
+   "summary": "코스피 장중 −4%↑에 유가증권 매도 사이드카. latest 기준 삼성전자 −7%·SK하이닉스 −9.4%, 외국인 −1.8조(미확인 단위 억원 −17,983)."
+  },
+  {
+   "title": "코스피 8%대 폭락 — 연준 우려에 기술주 붕괴(6/8 선례)",
+   "url": "https://www.thestar.com.my/business/business-news/2026/06/08/south-korea039s-kospi-craters-over-8-as-fed-fears-spark-tech-rout",
+   "press": "The Star",
+   "at": "2026-11-05 12:40",
+   "why": "올해 코스피 급락일 선례 — 사이드카·급락 뒤 D+5 반등/추가 하락 표본 확보용",
+   "summary": "2026-06-08 코스피 −8%대, 연준 우려 기술주 투매. 6/23에도 약 −10%(Korea Times) — 올해 대형 급락일 표본."
+  },
+  {
    "title": "NEXTDC 10% 급등 — 큰 소식이 매수 근거가 되나(10/28)",
    "url": "https://www.fool.com.au/2026/10/28/up-10-does-todays-big-news-make-nextdc-shares-a-buy/",
    "press": "Motley Fool AU",
@@ -623,22 +639,6 @@
    "at": "2026-11-02 19:40",
    "why": "고금리 정점 가설(0.55)·중장기채 칸 — 연준 매파 위원 「50bp 이상 더」",
    "summary": "로건: 금리 25bp씩 최소 2번 더 올려야 물가 안정(10/30). 무살렘도 추가 인상 신호(political.org). 美 2년 4.60%·10년 4.93%(latest)."
-  },
-  {
-   "title": "오픈AI, 기술주 급락 속 펀딩 목표 200억$로 축소",
-   "url": "https://www.verdict.co.uk/openai-cuts-funding-goal-20bn/",
-   "press": "Verdict",
-   "at": "2026-11-02 19:40",
-   "why": "AI 크레딧 가설(0.88) — 비상장 AI 자금줄 위축, 반도체·하이퍼스케일러 칸 수요 기대 약화",
-   "summary": "오픈AI가 시장 변동성·투자자 신중으로 조달 목표·밸류 하향(피드 제목 200억$, thenextweb 앞서 1.25조$ 밸류·300억$ 보도). 하이퍼스케일러 5사 시총 1조$ 감소(닛케이 피드)."
-  },
-  {
-   "title": "알파벳, 대규모 AI 지출 속 유로 회사채 시장 복귀(약 30억€)",
-   "url": "https://www.itiger.com/news/1107943849",
-   "press": "Tiger Brokers",
-   "at": "2026-11-02 18:40",
-   "why": "AI 크레딧 가설·🐋 GOOGL(10/29 고래 신호) — FCF 적자 회사의 채권 조달 반복",
-   "summary": "알파벳이 AI 투자 자금 위해 유로채 발행(약 30억€, 기사 날짜 미확인). 피드: 3Q capex 514억$가 영업현금흐름 423억$를 넘어 FCF −91억$(kimu_nim/47818)."
   }
  ],
  "at": "2026-11-05 11:45"
