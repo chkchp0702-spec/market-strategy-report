@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "닌텐도 스위치2 판매 41% 급감 — 가격 인상·메모리 대란 영향",
+   "url": "https://www.cnbc.com/2026/11/05/nintendo-earnings-switch-2-sales.html",
+   "press": "CNBC",
+   "at": "2026-11-05 16:40",
+   "why": "메모리 가격 상승이 소비 기기 수요를 깎기 시작 — 한국 메모리(091160) 실적의 수요 쪽 위험",
+   "summary": "스위치2 판매 −41%(CNBC 제목) · 블룸버그: 메모리 비용으로 이익 감소 · 세부 숫자 미확인"
+  },
+  {
+   "title": "BOE, 3년 만의 첫 금리 인상 앞둬 — 결정 가이드",
+   "url": "https://www.mpamag.com/uk/news/general/heres-what-to-expect-from-todays-bank-of-england-announcement/564265",
+   "press": "MPA / Bloomberg",
+   "at": "2026-11-05 16:40",
+   "why": "주요 중앙은행 인상 재개 여부 — 고금리 정점 가설·장기채 칸",
+   "summary": "블룸버그 「BOE Poised for First Rate Hike in Three Years」(11/5) · 결정 오늘 밤 · 폭 미확인"
+  },
+  {
    "title": "대만 가권지수 TSMC 하락 연장·외국인 매도에 4만5천 아래 마감",
    "url": "https://www.kotakneo.com/news/global-markets/taiwan-weighted-index-falls-as-tsmc-shares-and-foreign-investor-selling-weigh-on-market",
    "press": "Kotak Neo",
@@ -623,23 +639,7 @@
    "at": "2026-11-03 02:10",
    "why": "AI 인프라 공급사(반도체·전력·광통신 칸) 수요 근거 vs 차입 의존 — 같은 사건의 두 면",
    "summary": "매출 급증·대규모 컴퓨트 계약(초안 기준 6,000억$, 이후 수정본은 더 큼). 수치는 보도 시점별로 다름 — 확정치는 S-1."
-  },
-  {
-   "title": "美 ISM 제조업 10월 55.5 — 예상 54.5 상회, 생산 2021년 이후 최대폭",
-   "url": "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-55-5-october-2026-ism-manufacturing-pmi-report-302925617.html",
-   "press": "ISM(PR Newswire)",
-   "at": "2026-11-03 00:55",
-   "why": "고금리 정점 가설 반대 재료 — 경기 강하면 12월 인상 기대↑, 10년 4.95 판정에 영향",
-   "summary": "10월 제조업 PMI 55.5(예상 54.5~54.6). 생산 지수 2021년 이후 최대 상승. 발표 뒤에도 10년물 장중 4.89%로 하락(유가 −7% 영향 우세)."
-  },
-  {
-   "title": "ISM 제조업 55.5로 점프 — 생산 급증, 그러나 가격 압력 지속",
-   "url": "https://www.actionforex.com/live-comments/659568-us-ism-manufacturing-jumps-to-55-5-as-production-surges-but-price-pressures-persist/",
-   "press": "ActionForex",
-   "at": "2026-11-03 00:55",
-   "why": "가격지수 고공 = 연준 매파(로건·더타) 근거 — 금리 민감 칸 판단에 필요",
-   "summary": "헤드라인 55.5, 생산 급증. 가격 지수는 여전히 높아 인플레 압력 지속 해석."
   }
  ],
- "at": "2026-11-05 11:45"
+ "at": "2026-11-05 16:40"
 }
