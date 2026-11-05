@@ -1,12 +1,7 @@
 {
- "at": "2026-11-05 19:40",
+ "at": "2026-11-05 20:34",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
-  "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
-   "lv": 1,
-   "why": "ECB 수장 2/7 조기 퇴임(공식) — 오늘 밤 ECB 회의·유로 약세·12월 인상 기대와 이어짐, 고금리 정점 가설 점검",
-   "at": "2026-10-29 19:35"
-  },
   "globalmktinsight/7817": {
    "lv": 1,
    "why": "美 이란 케슘섬 공습(WSJ) — 전일 WTI −7%를 만든 이란 합의 기대와 정면 충돌, 에너지 칸·유가 watch",
@@ -16,11 +11,6 @@
    "lv": 1,
    "why": "AI 크레딧 가설(0.92) — 오라클 AI 투자용 보통주 100억$ 발행·채권 200억$ 조달, 빅테크 차입 확대 직접 근거",
    "at": "2026-11-03 13:45"
-  },
-  "n/STEtuMDRCdTNvbE5CaURJTjd2WjF6SC0xaHNldU4xT1BZUWhQSnQtVUtnoc5": {
-   "lv": 1,
-   "why": "불러드 「12월 인상」 — 고금리 정점 가설(0.50)에 반대 근거, 현금·단기채 칸 유지 쪽",
-   "at": "2026-11-04 15:40"
   },
   "n/hNml2cWtGY25lVGFIY0F3SW9WOXRxdFA3Z0tLVDVZdVFKQVBGMW9fNVlYoc5": {
    "lv": 1,
@@ -47,11 +37,6 @@
    "why": "브렌트 94달러(−9%) — 에너지 칸 13% 조건 brent_95(→10) 장중 도달, OXY·COP 신호 직격",
    "at": "2026-11-05 03:35"
   },
-  "kimu_nim/48149": {
-   "lv": 1,
-   "why": "AI 차입 가설(0.92) — 블룸버그: 美 신규 데이터센터 계획 절반이 규제 노출, 텍사스 13GW 인허가 중단 공약",
-   "at": "2026-11-05 09:45"
-  },
   "n/jdIQnhPSHdURXJJWVpLLThURkUtVmxjT1BFMk1jX3hhYlhraVpiSENadQoc5": {
    "lv": 1,
    "why": "에너지 칸 13% — 골드만 브렌트 105$ 상향, 조건 brent_95(→10) 발동 직전과 반대 방향 근거",
@@ -62,24 +47,9 @@
    "why": "반도체 칸 반대 근거 — 노무라 「DRAM ASP 2028년 말까지 고점 유지」, 급락이 실적이 아닌 규제 공포라는 쪽",
    "at": "2026-11-05 10:40"
   },
-  "n/nbccom20261105nextdcgoodmangroupdigitalrealtydatacentershtml": {
-   "lv": 1,
-   "why": "NextDC +43%(굿맨·디지털리얼티 지분 매입) — 美 규제 공포 속 데이터센터 자산엔 전략적 매수, AI 차입 가설 반대 근거",
-   "at": "2026-11-05 11:45"
-  },
-  "n/HpMbXMxdEl6aF9jVTREZDE1ZUM3TFFHa09vd2FKdTJpS0h0c3RaaTNZegoc5": {
-   "lv": 1,
-   "why": "코스피 5%대·5,300대 — 사이드카 뒤 낙폭 확대, 091160·069500 사이드카 이벤트 그림자 채점 대상",
-   "at": "2026-11-05 12:40"
-  },
   "HANAchina/71579": {
    "lv": 1,
    "why": "JP모건 「데이터센터 증설→희소성 경쟁」 — 가설 「AI 차입이 약한 고리」의 반대 근거(기존 DC 자산 가치↑)",
-   "at": "2026-11-05 12:40"
-  },
-  "n/FWdHQ4N0RURVQtV3V3M3k1azBZbDlYT2FRSDRDTlBqMGEzZnVSQmo4R1Eoc5": {
-   "lv": 1,
-   "why": "골드만 「주식 유지·단기 현금 비중↑」 — 포트 현금·단기채 칸 판단과 직결",
    "at": "2026-11-05 12:40"
   },
   "HANAchina/71583": {
@@ -97,21 +67,6 @@
    "why": "AI 차입 가설(0.92) — MS가 Nscale 텍사스 DC 계약 2배 확대 옵션 거절, IPO 앞 네오클라우드 자금줄 좁아짐",
    "at": "2026-11-05 14:40"
   },
-  "n/kmarketnewstoyotaprofitsurges34firstriseinsixquarters5002210": {
-   "lv": 1,
-   "why": "블루웨이브 로테이션(칩↓·자동차↑) — 도요타 6분기 만 첫 이익 증가·연간 전망 상향, 자동차 쪽 이동에 실적 근거",
-   "at": "2026-11-05 14:40"
-  },
-  "n/httpswwwynacokrviewAKR20261105070051008": {
-   "lv": 2,
-   "why": "코스피 5,342(−6.01%)·코스닥 −5.77% 마감, 삼전 −9%·하닉 −10.8% — 반도체 칸·🐻 하락장 판정(현금화 watch) 직격",
-   "at": "2026-11-05 15:40"
-  },
-  "n/httpswwwynacokrviewAKR20261105119100009": {
-   "lv": 1,
-   "why": "AI 차입 가설(0.92) — 메타 사장 「신규 DC 건설 매우 어려워질 것」: 증설 막힘 = 기존 DC 자산 희소성↑, 신규 차입 증설은 부담",
-   "at": "2026-11-05 15:40"
-  },
   "n/httpswwwcnbccom20261105nintendoearningsswitch2saleshtml": {
    "lv": 1,
    "why": "메모리 값 급등이 소비 기기 수요를 깎는 첫 숫자(스위치2 판매 −41%) — 091160·메모리 가격 가설의 반대편 근거",
@@ -121,11 +76,6 @@
    "lv": 1,
    "why": "오늘 밤 BOE 3년 만의 인상 예상 — 고금리 정점 가설(0.55)·채권 칸 금리 경로 점검",
    "at": "2026-11-05 16:40"
-  },
-  "n/httpswwwynacokrviewAKR20261105151251008": {
-   "lv": 1,
-   "why": "채권 칸·고금리 정점 가설(0.55) — 블루웨이브 파급에 국고채 금리 일제히 하락: 주식 투매가 채권 랠리로 이어짐",
-   "at": "2026-11-05 17:40"
   },
   "HANAchina/71592": {
    "lv": 1,
@@ -142,15 +92,15 @@
    "why": "반도체 칸 — JP모건 「10월 헤지펀드 AI 청산 7월보다 강해, 11월 말부터 재구축 예상」: 한국 반도체 투매 뒤 반등 시점 가늠",
    "at": "2026-11-05 18:40"
   },
-  "n/centermicrosoftrejectstexasexpansionoptioncNG1X30R9Entsrcrss": {
+  "n/marketnewsusstockindexfuturessteadyaftermidtermsrally5001919": {
    "lv": 1,
-   "why": "MS 하이퍼스케일러 계약 철회 3건째(영국→텍사스) — AI 차입 가설 0.92·네오클라우드 자금줄",
-   "at": "2026-11-05 19:40"
+   "why": "나스닥 선물 하락·칩주 압박 — 코스피 −6% 다음 美 반도체 괴리 확인(watch 美 선거·반도체 칸)",
+   "at": "2026-11-05 20:34"
   },
-  "n/ualcommfalls3ashandsetrevenuemissesestimatescostsrise5001230": {
+  "n/dmMTQ5TXhMOHZYVjM4TDQ2U2ZlMi1ibXVITU56VkRVeHpXZkhGaFpmZUEoc5": {
    "lv": 1,
-   "why": "퀄컴 장전 −10% 마진 부담 — 반도체 칸·코스피 반도체 투매 다음 날 美 반도체 마감 확인용",
-   "at": "2026-11-05 19:40"
+   "why": "오픈AI 데이터센터 추진 방식 전면 수정 — AI 차입 가설(0.92) 수요 쪽 균열 4건째",
+   "at": "2026-11-05 20:34"
   }
  }
 }

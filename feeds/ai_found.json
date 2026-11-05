@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "오픈AI, 중간선거 뒤 AI 정책 공세·데이터센터를 「AI 컴퓨트 캠퍼스」로 개명 추진",
+   "url": "https://cryptobriefing.com/openai-rebrand-data-centers-ai-compute-campuses/",
+   "press": "Crypto Briefing",
+   "at": "2026-11-05 20:34",
+   "why": "AI 차입 가설 — 민주당 스윕 뒤 데이터센터 반발 대응, 직접 건설보다 임차 쪽(공급자 차입 위험)",
+   "summary": "선거 뒤 워싱턴 AI 논쟁 재구성·데이터센터 명칭 변경 계획 보도. 구체 숫자 미확인."
+  },
+  {
+   "title": "영란은행 11월 회의 — 3년 만의 첫 인상 여부(오늘 21:00 KST 발표)",
+   "url": "https://www.sovereignmagazine.com/article/bank-of-england-rate-rise-november-2026-mortgage",
+   "press": "Sovereign Magazine",
+   "at": "2026-11-05 20:34",
+   "why": "고금리 정점 가설(0.55) — 美 금리 하락과 유럽(BoE 인상·ECB 12월 인상론) 엇갈림",
+   "summary": "FT 「BoE 3년 만 첫 인상 예정」(피드 ft_mkt)·ECB 지그만 「12월 인상 가능성 상당」(bbg_econ). 결과 미확인."
+  },
+  {
    "title": "Procore 3분기 호실적·가이던스 상향에 7.7% 급등",
    "url": "https://www.itiger.com/news/1158853959",
    "press": "Tiger Brokers(Stock Track)",
@@ -623,23 +639,7 @@
    "at": "2026-11-03 06:45",
    "why": "반도체·AI 하드웨어 약세 확산 — 반도체 칸 추격 금지·킥 신규 진입 보류 근거",
    "summary": "11/2 나스닥 −1.07%·S&P 하락·다우 상승 혼조 마감(연합). 유가 −7%(WTI 96$선)·10년 4.8%대에도 인텔발 메모리·스토리지 매도 확산(yahoo)."
-  },
-  {
-   "title": "美 증시 11/2 장중 — 오라클 −6.4%(100억$ 주식 매각)·마벨 −9.5%·루멘텀 −15.2%, 브렌트 −7% 104$",
-   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-2-2026",
-   "press": "StockTitan",
-   "at": "2026-11-03 05:45",
-   "why": "AI 차입(크레딧) 가설 — 빅테크가 채권에 이어 주식으로도 조달, 하드웨어 약세와 함께 「보여 줘」 국면",
-   "summary": "S&P 오전 +1% → 12:55 ET +0.3%로 상승폭 축소. 오라클 100억$ 주식 매각에 −6.38%. 브렌트 −7%대 약 104$."
-  },
-  {
-   "title": "팔란티어, 실적 발표 앞두고 매출 성장·현금흐름 우려에 하락 반전",
-   "url": "https://fxleaders.com/news/2026/11/02/pltr-stock-reverses-down-on-revenue-growth-and-cash-flow-with-palantir-to-report-third-quarter-financial-results-after-market-close",
-   "press": "FX Leaders",
-   "at": "2026-11-03 05:45",
-   "why": "PLTR(📊 실적 신호 10/29) 장 마감 뒤 실적 — 옵션 시장 ±11~13% 변동 예상(tipranks), D+1 갭으로 earn 신호 채점",
-   "summary": "실적 당일 장중 하락 반전. 회사 가이던스 매출 21.6억$ 대비 시장 기대가 그 위(financefeeds)."
   }
  ],
- "at": "2026-11-05 16:40"
+ "at": "2026-11-05 20:34"
 }
