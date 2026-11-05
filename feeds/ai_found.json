@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "AI 공포가 민주당 스윕을 덮었다 — 나스닥 조정 진입",
+   "url": "https://www.thenationalnews.com/business/markets/2026/11/05/ai-fears-overtake-democratic-sweep-as-nasdaq-enters-correction-territory/",
+   "press": "The National",
+   "at": "2026-11-06 02:40",
+   "why": "🐻 하락장 판정 watch·반도체 칸 — 선거 재료가 「AI 데이터센터 지연」 공포로 바뀐 경로 정리",
+   "summary": "나스닥 조정(고점 −10%) 진입, 칩·AI 인프라주 주도 매도. 선거 결과보다 데이터센터 인허가·전력 반발이 핵심 재료로 부각."
+  },
+  {
+   "title": "AI·반도체주 주도 매도에 나스닥 조정 향해",
+   "url": "https://yournews.com/2026/11/05/7254236/nasdaq-heads-for-correction-as-ai-and-chip-stocks-lead/",
+   "press": "YourNews",
+   "at": "2026-11-06 02:40",
+   "why": "반도체 칸·091160 — 美 칩 매도 이틀째, 한국 반도체 다음 장 갭 위험",
+   "summary": "latest 12:23 EST 기준 S&P 7,423(−3.46%)·나스닥 24,550(−4.61%)·VIX 24.7(+49%)·엔비디아 −7.5%·마이크론 −12.8%."
+  },
+  {
    "title": "나스닥 조정 구간 진입 — 중간선거 결과가 AI 붐에 새 의문",
    "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges",
    "press": "CNN",
@@ -623,23 +639,7 @@
    "at": "2026-11-03 20:40",
    "why": "AI·대형 기술주 실적 반응이 「숫자 좋아도 하락」 — 반도체·AI 소프트웨어 칸 심리 점검",
    "summary": "애플 4분기 실적은 예상 상회했으나 마진 가이던스 약세로 주가 하락. 팔란티어는 실적 뒤 약 8% 하락(제목 기준, 세부 미확인)."
-  },
-  {
-   "title": "애플, 메모리 가격 급등에 마진 압박 — 시간외 −2.7%, 마이크론·샌디스크는 소폭 상승",
-   "url": "https://stocktwits.com/news-articles/markets/equity/aapl-stock-tumbles-overnight-on-margin-pressure-from-surging-memory-prices-mu-sndk-inch-higher/cNGQxyuR95f",
-   "press": "Stocktwits",
-   "at": "2026-11-03 20:40",
-   "why": "메모리 원가가 완제품 업체 마진을 깎는다 = 메모리 공급사 가격 결정력 확인(반도체 칸)",
-   "summary": "12월 분기 총마진 45~46% 전망(직전 47.9%), CFO 「메모리 비용으로 약 1%p 하락」. AAPL 시간외 −2.7%, MU +0.8%·SNDK +1%. 메모리 비용 내년까지 상승 예상."
-  },
-  {
-   "title": "핌코, AI 관련 채권 수십억 달러 처분해 손실 회피",
-   "url": "https://www.advisorperspectives.com/articles/2026/10/28/pimco-offloads-billions-ai-debt-skirt-losses",
-   "press": "Advisor Perspectives(블룸버그 전재)",
-   "at": "2026-11-03 18:45",
-   "why": "AI 크레딧 가설(0.92) — 핌코 CEO 11/3 「AI 조달 과잉」 경고와 같은 줄기, 운용사가 실제로 AI 채권을 덜어냄",
-   "summary": "10/28 보도: 핌코가 AI 인프라 관련 회사채 수십억 달러 규모를 매각해 손실을 피함(제목 기준, 세부 금액 미확인). 11/3 CEO 「AI 금융이 너무 많아지는 길」 발언(블룸버그)으로 이어짐."
   }
  ],
- "at": "2026-11-06 01:40"
+ "at": "2026-11-06 02:40"
 }
