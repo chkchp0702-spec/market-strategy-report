@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "히노호사, 텍사스 신규 데이터센터 승인 중단 요구 — 입법 전까지 멈춤",
+   "url": "https://www.fox7austin.com/news/hinojosa-urges-gov-abbott-pause-new-data-centers-until-lawmakers-act",
+   "press": "FOX 7 Austin",
+   "at": "2026-11-05 09:45",
+   "why": "AI 차입 가설 — 주지사 당선자의 데이터센터 중단 공약 원문(텍사스 = 2028 신규 용량 ~30%), 오늘 삼전닉스 급락 재료",
+   "summary": "민주당 히노호사가 입법부가 규칙을 정할 때까지 신규 데이터센터 중단을 요구. 기사 날짜는 선거 전(미확인) — 당선 뒤 실행 여부가 관건."
+  },
+  {
+   "title": "코스피 2% 하락, 美 반도체 약세에 삼성·SK하이닉스 급락",
+   "url": "https://www.pulse.bot/asia-stocks/news/kospi-slides-2-as-samsung-and-sk-hynix-tumble-on-us-semiconductor-weakness-aec3e1b2-1653-4087-96aa-f0c072f3a29b/",
+   "press": "pulse.bot",
+   "at": "2026-11-05 09:45",
+   "why": "반도체(HBM) 칸·한국 반도체 ETF(091160) — 美 지수 랠리와 한국 반도체 괴리",
+   "summary": "코스피 −2%대, 삼성·하이닉스 동반 급락. 기사 날짜 미확인 — 오늘 피드(머니투데이: 코스피 −2.3%·하닉 −6%대)와 같은 흐름."
+  },
+  {
    "title": "Fiserv 3분기(FY2026) 실적 발표 8-K 원문",
    "url": "https://www.sec.gov/Archives/edgar/data/0000798354/000079835426000039/fisvq326earningsrelease.htm",
    "press": "SEC EDGAR",
@@ -623,31 +639,7 @@
    "at": "2026-11-02 17:40",
    "why": "AI 크레딧 가설(0.88)·반도체 칸 추격 금지와 반대 — 대형 IB 첫 「과매도」 판단, 나스닥 10/30 −2.86% 뒤",
    "summary": "도이체방크가 美 기술 섹터 의견 상향(제목 기준). 나스닥 10/30 25,437(−2.86%, CNBC). 목표·세부 숫자는 미확인."
-  },
-  {
-   "title": "골드만삭스 「AI 투자 모멘텀 둔화로 S&P 500 이익 성장 느려진다」",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNUlVOFBsTDRsUmljMTlBZFM1ZW1JX3hTeS1YY2ZXTUpob0Fsbl9wX01IbzQzWk5FTFFOdkd3LUtRWE1aMGo2eDhxU3NndjdEZnAydzVSdW1HalNfd3FITkdCeXJOWWdha3B4cEpwVFdNY2hJcmlZTWFnV0dhSklzNzV3YzBITFhpQ09GUTd4ZVptdW9NaDRyaVVqTXFnU3ZCUDlUMlZJMV84c3VIRzY1TUlBeVFEMW90U25VVUowMDVBM2kzY2Y1Ry1rbDRWR1F1andqdmpLa1JWZw?oc=5",
-   "press": "Google News(gn_us_ib)",
-   "at": "2026-11-02 17:40",
-   "why": "AI 크레딧 가설 보강 — capex 둔화가 이익 성장 둔화로, 같은 날 도이체 상향과 IB 판단 갈림",
-   "summary": "골드만, AI 지출 모멘텀 약화로 S&P 이익 성장 둔화 전망(제목 기준). 같은 날 BofA는 「capex 피크 낮아져도 사이클 길어짐」. 성장률 숫자는 미확인."
-  },
-  {
-   "title": "엔비디아, 메타에 30억 달러 투자·Muse AI 협업 — 칩 회사가 고객에 돈을 대는 구조",
-   "url": "https://www.techspot.com/news/114352-meta-gets-3-billion-nvidia-companies-team-up.html",
-   "press": "TechSpot",
-   "at": "2026-11-02 16:40",
-   "why": "AI 크레딧 가설(0.88) — 공급사→고객 투자(순환 금융)가 커질수록 AI 수요의 질 의심, 반도체 칸 추격 금지 근거",
-   "summary": "엔비디아가 메타 주식 30억 달러 인수(10/27 보도). 11/2 국내 보도(gn_kr_global)는 WSJ 인용 「칩 3사 합계 50억 달러, 순환 금융이 손실 증폭 위험」. 3사 합계 숫자는 미확인."
-  },
-  {
-   "title": "메타, 테크 기업 사상 최대 규모 주식 발행 추진 보도",
-   "url": "https://blockspace.media/short/meta-seeks-the-largest-equity-offering-ever-for-a-tech-company/",
-   "press": "Blockspace",
-   "at": "2026-11-02 16:40",
-   "why": "AI 크레딧 — S&P 전망 부정적(10/30) 뒤 빚 대신 주식으로 조달 = 기존 주주 희석, 메가캡 AI 칸 리스크",
-   "summary": "메타가 대규모 주식 발행을 추진한다는 보도(엔비디아 등 전략 투자자 참여). 정확한 규모·날짜는 미확인 — 원문 확인 필요."
   }
  ],
- "at": "2026-11-04 12:40"
+ "at": "2026-11-05 09:45"
 }

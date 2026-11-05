@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05 07:40",
+ "at": "2026-11-05 09:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/wwwecbeuropaeupressprdate2026htmlecbpr261029abbb6dc64benhtml": {
@@ -17,20 +17,10 @@
    "why": "AI 크레딧 가설(0.92) — 오라클 AI 투자용 보통주 100억$ 발행·채권 200억$ 조달, 빅테크 차입 확대 직접 근거",
    "at": "2026-11-03 13:45"
   },
-  "kimu_nim/48058": {
-   "lv": 1,
-   "why": "한투 김대준 「선거 충격 1~2일 내 소화·AI 규제는 전력 환경세 수준」 — 🐻 하락장 watch·현금화 판단(장중 저점 매도 경계)",
-   "at": "2026-11-04 14:40"
-  },
   "n/STEtuMDRCdTNvbE5CaURJTjd2WjF6SC0xaHNldU4xT1BZUWhQSnQtVUtnoc5": {
    "lv": 1,
    "why": "불러드 「12월 인상」 — 고금리 정점 가설(0.50)에 반대 근거, 현금·단기채 칸 유지 쪽",
    "at": "2026-11-04 15:40"
-  },
-  "n/s20261104metastartsdebuteurobondsaleafter15billiondollardeal": {
-   "lv": 1,
-   "why": "🧠 테제 「AI 차입 약한 고리」 — 메타 하루 전 달러채 150억$에 이어 첫 유로채, 하이퍼스케일러 조달처 넓히기",
-   "at": "2026-11-04 17:40"
   },
   "n/hNml2cWtGY25lVGFIY0F3SW9WOXRxdFA3Z0tLVDVZdVFKQVBGMW9fNVlYoc5": {
    "lv": 1,
@@ -72,15 +62,20 @@
    "why": "AI 차입 가설 — 빅테크가 AI 사용 예산을 줄이기 시작(애플), 「AI 투자 둔화」 베팅과 같은 방향",
    "at": "2026-11-05 05:35"
   },
-  "n/61104wallstreetrevisestreasurysalesforecastsonguidancerevamp": {
+  "n/httpswwwynacokrviewAKR20261105040800008": {
    "lv": 1,
-   "why": "고금리 정점 가설 — 리펀딩 지침 개편으로 월가가 국채 발행 전망 수정, 10년 4.886% 마감과 함께 0.50→0.55 근거",
-   "at": "2026-11-05 06:40"
+   "why": "AI 차입·규제 가설 — 美 데이터센터 규제 우려로 삼전닉스 3~6% 급락·코스피 −2.3%, 반도체(HBM) 칸·091160 watch 직격",
+   "at": "2026-11-05 09:45"
   },
-  "n/v4oraclefallsoncanceled7billiontencentchipleasingdealtsrcrss": {
+  "kimu_nim/48149": {
    "lv": 1,
-   "why": "AI 차입 가설(0.92) — 오라클·텐센트 70억$ 칩 임대 취소, AI 인프라 계약 되돌림 첫 사례",
-   "at": "2026-11-05 07:40"
+   "why": "AI 차입 가설(0.92) — 블룸버그: 美 신규 데이터센터 계획 절반이 규제 노출, 텍사스 13GW 인허가 중단 공약",
+   "at": "2026-11-05 09:45"
+  },
+  "n/jdIQnhPSHdURXJJWVpLLThURkUtVmxjT1BFMk1jX3hhYlhraVpiSENadQoc5": {
+   "lv": 1,
+   "why": "에너지 칸 13% — 골드만 브렌트 105$ 상향, 조건 brent_95(→10) 발동 직전과 반대 방향 근거",
+   "at": "2026-11-05 09:45"
   }
  }
 }
