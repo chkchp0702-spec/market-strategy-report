@@ -1,16 +1,11 @@
 {
- "at": "2026-11-05 23:45",
+ "at": "2026-11-06 00:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7817": {
    "lv": 1,
    "why": "美 이란 케슘섬 공습(WSJ) — 전일 WTI −7%를 만든 이란 합의 기대와 정면 충돌, 에너지 칸·유가 watch",
    "at": "2026-11-03 10:45"
-  },
-  "n/httpwwwedailycokrnewsnewspathaspnewsid01784326645642112": {
-   "lv": 1,
-   "why": "AI 크레딧 가설(0.92) — 오라클 AI 투자용 보통주 100억$ 발행·채권 200억$ 조달, 빅테크 차입 확대 직접 근거",
-   "at": "2026-11-03 13:45"
   },
   "n/hNml2cWtGY25lVGFIY0F3SW9WOXRxdFA3Z0tLVDVZdVFKQVBGMW9fNVlYoc5": {
    "lv": 1,
@@ -61,11 +56,6 @@
    "lv": 1,
    "why": "에너지 칸 13%·조건 brent_95 — 호르무즈 유조선 화재+美 이란 작전 준비(악시오스): 유가 급락 되돌림 위험",
    "at": "2026-11-05 13:45"
-  },
-  "n/swwwftcomcontent668e6ef888a14bef86648f495baf09f8syn25a6b1a61": {
-   "lv": 1,
-   "why": "AI 차입 가설(0.92) — MS가 Nscale 텍사스 DC 계약 2배 확대 옵션 거절, IPO 앞 네오클라우드 자금줄 좁아짐",
-   "at": "2026-11-05 14:40"
   },
   "n/httpswwwcnbccom20261105nintendoearningsswitch2saleshtml": {
    "lv": 1,
@@ -127,10 +117,20 @@
    "why": "AI 차입 가설(0.92) 근거 — JPM AM: AI 기업 부외 약정 4.49조$(전체 5.25조의 86%), NVDA 92%·GOOGL 91% 부외",
    "at": "2026-11-05 23:45"
   },
-  "n/RoNHdpU3RkUm9XMm1xdmtWRjZYYXF5QTFpb1B5bUpHS3M1eEJra25ySWcoc5": {
+  "n/httpswwwcnbccom20261104stockmarkettodayliveupdateshtml": {
+   "lv": 2,
+   "why": "나스닥 −3.8% 조정 진입·S&P −2.2%·VIX +38% — 🐻 하락장 판정 watch·반도체 칸·킥 보유 전반 직격",
+   "at": "2026-11-06 00:35"
+  },
+  "n/pensmemorychiproutrefyahoofinancetlnkyf2611055324ff3rtsrcrss": {
    "lv": 1,
-   "why": "광통신·AI 인프라 — 마벨, 루멘텀 1,150억$ 전액 주식 인수(공개 테크 M&A 최대): 칩 매도 중 공급망 통합",
-   "at": "2026-11-05 23:45"
+   "why": "퀄컴 휴대폰 칩 −26% → 범용 D램 수요 균열 — 반도체 칸·091160·노무라 「ASP 고점 유지」 반대 근거",
+   "at": "2026-11-06 00:35"
+  },
+  "kimu_nim/48199": {
+   "lv": 1,
+   "why": "나스닥 선물 급락 vs 美 금리선물 폭등 — 고금리 정점 가설(0.55) 쪽 근거, 주식→채권 이동",
+   "at": "2026-11-06 00:35"
   }
  }
 }

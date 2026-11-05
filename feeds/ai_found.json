@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "「고약한」 칩 매도가 나스닥을 조정 구간으로 밀어 넣다",
+   "url": "https://www.cityam.com/chip-stocks-push-nasdaq-into-correction/",
+   "press": "City AM",
+   "at": "2026-11-06 00:35",
+   "why": "🐻 하락장 판정·반도체 칸 — 美 지수도 기술주 중심 조정 진입 확인",
+   "summary": "칩주 매도 사흘째가 나스닥을 고점 대비 −10% 조정 구간으로. 장중 나스닥 −3.8%·S&P −2.2%·VIX 23(CNBC 10:19 EST)."
+  },
+  {
+   "title": "모건스탠리 윌슨 「조정 끝나기 전 마지막 한 번의 매도」",
+   "url": "https://investinglive.com/stock-market-update/morgan-stanley-s-wilson-sees-one-final-sell-off-before-us-stock-correction-ends/",
+   "press": "investingLive",
+   "at": "2026-11-06 00:35",
+   "why": "현금화 판단 — 투매 당일보다 「마지막 매도 뒤 풀리는 날」 기다리는 근거(날짜 미확인)",
+   "summary": "윌슨은 美 주식 조정이 끝나기 전 마지막 매도 구간을 예상. 게시 시점 미확인 — 이번 조정에 그대로 적용은 주의."
+  },
+  {
    "title": "마벨, 루멘텀을 1,150억 달러 전액 주식으로 인수 — 공개 테크 M&A 사상 최대",
    "url": "https://lightreading.com/ai-machine-learning/marvell-strikes-115b-deal-for-lumentum",
    "press": "Light Reading",
@@ -623,22 +639,6 @@
    "at": "2026-11-03 11:45",
    "why": "11/3 1,150억$ 전액 주식 인수 확정 — 인수자 희석·프리미엄 우려가 광통신 내 분화(COHR·AAOI vs MRVL) 관찰과 이어짐",
    "summary": "10/29 인수 협상 보도에 MRVL −13.2% · 시장은 인수 프리미엄·신주 발행 희석·규제 심사를 우려 · 11/3 확정 규모 1,150억$(전액 주식)"
-  },
-  {
-   "title": "OpenAI, 300억$ 라운드 기업가치 목표 1.4조→1.25조$로 낮춰",
-   "url": "https://www.boersen-zeitung.de/unternehmen-branchen/openai-schraubt-bewertungsziel-bei-funding-runde-herunter",
-   "press": "Börsen-Zeitung",
-   "at": "2026-11-03 11:45",
-   "why": "AI 크레딧 가설(0.92) — 자금 조달 목표 미달(WSJ)과 함께 AI 자본 조달 피로의 근거",
-   "summary": "투자자 저항으로 목표 기업가치 1.4조$ → 1.25조$ 하향 보도 · 라운드 규모 300억$(코투·UAE 투자자 주도 보도) · 날짜·확정 여부 미확인"
-  },
-  {
-   "title": "미국, 이란 케슘섬 타격 — 트럼프는 전쟁 위험 축소 발언",
-   "url": "https://www.wsj.com/world/middle-east/u-s-strikes-irans-qeshm-island-as-trump-talks-down-war-risks-79d73d3d",
-   "press": "WSJ",
-   "at": "2026-11-03 10:45",
-   "why": "전일 WTI −7%(이란 합의 기대)·에너지 섹터 −3.97% 뒤 반전 위험 — 유가·에너지 칸",
-   "summary": "WSJ: 공격 목적은 「호르무즈 해협 방어」, 이란의 상선 공격 능력 억제. 보도 직후 WTI 선물 소폭 상승·S&P·NDX 선물 상승 유지(globalmktinsight/7817) — 시장 반응은 안정적"
   }
  ],
  "at": "2026-11-05 21:45"
