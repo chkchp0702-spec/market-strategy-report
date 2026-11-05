@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "마이크로소프트, Nscale 계약 철회 — 350억$ IPO 위험",
+   "url": "https://computing.co.uk/news/2026/ai/microsoft-exits-nscale-deal-ipo-at-risk",
+   "press": "Computing",
+   "at": "2026-11-05 18:40",
+   "why": "AI 차입 가설(0.92) — 하이퍼스케일러가 네오클라우드 임대를 줄이기 시작: 공급 측 차입 위험이 임차인보다 큼",
+   "summary": "MS가 영국 에식스 DC 임대(약 30억$) 철회, 이어 텍사스 약 500MW 증설 옵션도 포기(하나중국 요약). Nscale 상반기 순손실 10억$, 계약 잔고 1,030억$."
+  },
+  {
+   "title": "Nscale, 전력 지연에 MS 계약 잃어 — AI 증설 위협",
+   "url": "https://datacenterknowledge.com/build-design/microsoft-exits-nscale-data-center-deal-over-uk-power-delays",
+   "press": "Data Center Knowledge",
+   "at": "2026-11-05 18:40",
+   "why": "DC 증설 병목이 규제·전력 — 기존 DC 자산 희소성(DLR·EQIX) vs 신규 차입 증설 위험 페어 아이디어 근거",
+   "summary": "철회 사유로 영국 전력 연결 지연을 지목. 전력·인허가가 증설의 병목."
+  },
+  {
    "title": "도요타 주가 17% 급등 — 美 하이브리드 수요 강세",
    "url": "https://www.ft.com/content/4c40362a-8994-43e1-8000-68cd92cf7d51",
    "press": "FT",
@@ -623,22 +639,6 @@
    "at": "2026-11-03 04:35",
    "why": "AI 서버 하드웨어 약세 확산 — 반도체 칸 추격 금지·하드웨어 「뉴스에 판다」 패턴과 연결",
    "summary": "11/2 장중 슈퍼마이크로 −5%(실적 앞)·델 −4%·HPE −3%(yahoo 피드 헤드라인). 같은 날 세레브라스 급락·LITE −14.9%로 AI 하드웨어만 약세, 지수는 상승."
-  },
-  {
-   "title": "美 선물 11월 첫날 상승 — 팔란티어 실적 대기",
-   "url": "https://www.tipranks.com/news/u-s-stock-futures-rise-as-november-trading-kicks-off-palantir-pltr-earnings-on-deck",
-   "press": "TipRanks",
-   "at": "2026-11-03 03:00",
-   "why": "PLTR(kick_cands 📊 실적 10/29) 장 마감 뒤 실적 — 실적 신호 종목 반응 채점 재료",
-   "summary": "11/2 美 선물 상승 출발, 팔란티어 실적이 이번 주 첫 대형 AI 소프트웨어 이벤트. 장중 S&P +0.5%·나스닥 +0.5%(CNBC 12:25 EST)."
-  },
-  {
-   "title": "美 국채금리 하락 — 이란 긴장 완화 기대에 유가 급락",
-   "url": "https://ground.news/article/us-treasury-yields-fall-as-oil-prices-plunge-on-iran-de-escalation-hopes",
-   "press": "Ground News",
-   "at": "2026-11-03 03:00",
-   "why": "watch 美 10년 4.95 이틀 판정 — 오늘 마감 4.95 아래면 고금리 정점 0.55",
-   "summary": "WTI −7%(96.8$)·브렌트 105$, 10년 4.88%(−5bp, CNBC 12:25 EST)."
   }
  ],
  "at": "2026-11-05 16:40"
