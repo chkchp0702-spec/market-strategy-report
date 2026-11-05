@@ -5699,6 +5699,15 @@
 "score": 62.2,
 "lv": 30930.9,
 "china_off": true
+},
+"0811.HK|2026-10-27": {
+"code": "0811.HK",
+"name": "XINHUA WINSHARE",
+"mkt": "HK",
+"d": "2026-10-27",
+"src": "accum",
+"score": 63.0,
+"lv": 8.825
 }
 },
 "sent": [
