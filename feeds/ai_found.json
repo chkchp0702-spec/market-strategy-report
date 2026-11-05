@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "MS, 영국 Nscale 수십억 달러 AI 계약 거절 — 텍사스 DC 계약 2배 확대 옵션 포기",
+   "url": "https://www.ft.com/content/668e6ef8-88a1-4bef-8664-8f495baf09f8",
+   "press": "Financial Times",
+   "at": "2026-11-05 14:40",
+   "why": "AI 차입 가설 — 빅테크가 네오클라우드 증설 물량을 덜 받는다 = 차입 DC 수요 신호 약화(10/18 영국 DC 철수에 이은 두 번째)",
+   "summary": "IPO 앞둔 Nscale 에 새 타격. MS 가 텍사스 데이터센터 계약을 두 배 넘게 늘릴 옵션을 행사하지 않음(FT). 10/18 영국 DC 철수 보도(Telegraph)에 이어 연속."
+  },
+  {
+   "title": "SemiAnalysis: 2027년 DC 50GW 는 정책 충격에서 보호, 2028년 신규 62.2GW 중 90%↑ 미착공·승인 지연 위험 — 텍사스가 최대 변수",
+   "url": "https://t.me/kimu_nim/48179",
+   "press": "김현석 텔레그램(SemiAnalysis 요약)",
+   "at": "2026-11-05 14:40",
+   "why": "한국 반도체 급락의 근거(데이터센터 규제)는 2028년 이야기 — 2027년 수요는 거의 확정, 공포와 실적 시차",
+   "summary": "2027년 약 50GW 생산능력은 물리적으로 정책 충격에서 거의 보호. 2028년 신규 62.2GW 의 90% 이상이 미착공. 텍사스 결과가 최대 변수."
+  },
+  {
    "title": "세미애널리시스: 데이터센터 반발, 초당적으로 번진다",
    "url": "https://newsletter.semianalysis.com/p/the-datacenter-backlash-goes-bipartisan",
    "press": "SemiAnalysis",
@@ -623,22 +639,6 @@
    "at": "2026-11-02 23:40",
    "why": "AI 크레딧 가설(0.89) — 하이퍼스케일러 자금 조달이 채권에서 주식(희석)까지 번짐, 반도체 칸 추격 금지 쪽",
    "summary": "ORCL 125.43$(−4%, 연초 대비 −33%) · 1분기(FY27) FCF −54억$·이자비용 14억$(+55%)·RPO 6,640억$ · 연초 250억$ 채권·200억$ 주식 프로그램에 이어 추가"
-  },
-  {
-   "title": "오라클, 보통주 100억$ 매각 신고",
-   "url": "https://www.newsquawk.com/headlines/oracle-orcl-filed-to-sell-usd-10bln-of-common-stock",
-   "press": "Newsquawk",
-   "at": "2026-11-02 23:40",
-   "why": "빚 대신 주식 = 크레딧 시장 한도 신호 — 마벨-루멘텀 전액 주식 인수와 같은 흐름(차입 회피)",
-   "summary": "11/2 장전 보통주 100억$ 신고 · 같은 날 투자등급 달러채 100억$ 별도(블룸버그) · 총 200억$"
-  },
-  {
-   "title": "마벨, 루멘텀을 전액 주식 1,150억$에 인수 — 주당 1,132$, 소문 전 대비 +23.9%",
-   "url": "https://www.globalbankingandfinance.com/marvell-buy-lumentum-115-billion-deal-ai-data-center-bet/",
-   "press": "Global Banking & Finance(로이터 인용)",
-   "at": "2026-11-02 21:45",
-   "why": "섹터 칸 광통신 LITE 직격 — 주식교환이라 LITE 수익률이 MRVL 주가에 묶임 · 광통신 동종(COHR 장전 +6.7%) 재평가",
-   "summary": "총액 1,150억$(지분가치 1,025억$) 전액 주식 · 주당 1,132$ = 10/28 비교란 전 종가 대비 +23.9% · 발표일 MRVL 장전 +2.8%·LITE 거래정지, 소문 뒤 LITE −8%·MRVL −22%"
   }
  ],
  "at": "2026-11-05 11:45"
