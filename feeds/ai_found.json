@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "마벨, 루멘텀을 1,150억 달러 전액 주식으로 인수 — 공개 테크 M&A 사상 최대",
+   "url": "https://lightreading.com/ai-machine-learning/marvell-strikes-115b-deal-for-lumentum",
+   "press": "Light Reading",
+   "at": "2026-11-05 23:45",
+   "why": "광통신(LITE·COHR)·AI 인프라 — 칩 매도 이틀째에 나온 공급망 통합, AI 연결 수요 신호",
+   "summary": "마벨이 엔비디아가 투자한 루멘텀을 전액 주식 1,150억 달러에 인수 합의(SEC 8-K·425 제출). 광 연결·스케일업 공급을 한 회사로 묶는 구조."
+  },
+  {
+   "title": "루멘텀 8-K: 마벨 합병 계약 공시",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169dex991.htm",
+   "press": "SEC",
+   "at": "2026-11-05 23:45",
+   "why": "원문 공시 — 조건·교환비율 확인용",
+   "summary": "합병 보도자료 원문(Exhibit 99.1). 세부 교환비율은 원문 참조(이 검토에서 미확인)."
+  },
+  {
    "title": "선거 뒤 AI 칩 매도, 이틀째 전 세계로 확산",
    "url": "https://qz.com/ai-chip-stocks-selloff-democratic-sweep-data-centers-110526",
    "press": "Quartz",
@@ -623,22 +639,6 @@
    "at": "2026-11-03 10:45",
    "why": "전일 WTI −7%(이란 합의 기대)·에너지 섹터 −3.97% 뒤 반전 위험 — 유가·에너지 칸",
    "summary": "WSJ: 공격 목적은 「호르무즈 해협 방어」, 이란의 상선 공격 능력 억제. 보도 직후 WTI 선물 소폭 상승·S&P·NDX 선물 상승 유지(globalmktinsight/7817) — 시장 반응은 안정적"
-  },
-  {
-   "title": "美 케슘섬 공습에 유가 반등",
-   "url": "https://www.heygotrade.com/en/news/oil-climbs-97-iran-tensions-us-strikes-qeshm-island/",
-   "press": "Gotrade",
-   "at": "2026-11-03 10:45",
-   "why": "이란 합의 기대로 빠진 유가가 되돌려지는지 — 에너지 칸·인플레 기대·10년 금리",
-   "summary": "제목 「유가 97달러 향해 상승」 — 기준 유종·시점 미확인. 한국 10월 CPI 석유류 +14.9%와 겹쳐 금리 부담 요인"
-  },
-  {
-   "title": "[개장시황] 코스피·코스닥, 외국인·기관 '팔자'에 동반 하락",
-   "url": "https://www.newspim.com/news/view/20261103000241",
-   "press": "뉴스핌",
-   "at": "2026-11-03 09:45",
-   "why": "🐻 하락장 watch — 외국인 복귀 조건(foreign_return 0/3) 계속 깨짐, 반도체 칸",
-   "summary": "11/3 개장 코스피 −2.46% 5,715 출발 뒤 5,600선까지 밀림, 외국인·기관 동반 순매도. 삼전·하닉 장초반 −4~5%."
   }
  ],
  "at": "2026-11-05 21:45"
