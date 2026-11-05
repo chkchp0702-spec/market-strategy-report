@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "나스닥 조정 구간 진입 — 중간선거 결과가 AI 붐에 새 의문",
+   "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges",
+   "press": "CNN",
+   "at": "2026-11-06 01:40",
+   "why": "🐻 하락장 판정·반도체 칸 — 美 조정의 원인이 「데이터센터 규제」 정책 위험",
+   "summary": "민주당 스윕 뒤 데이터센터 규제·AI 지출 지연 우려로 칩·AI주 투매, 나스닥 고점 대비 −10% 조정 진입. S&P 장중 −3%대(피드 gn_us_mkt)."
+  },
+  {
+   "title": "AI 공포가 스페이스X 채권에 200bp 프리미엄을 얹었다",
+   "url": "https://www.semafor.com/article/10/26/2026/ai-fears-add-a-200-basis-point-premium-to-spacexs-debt",
+   "press": "Semafor",
+   "at": "2026-11-06 01:40",
+   "why": "AI 차입 가설(0.92) — AI 차입 기업 크레딧 스프레드가 주식보다 먼저 벌어짐",
+   "summary": "스페이스X 채권 AI 우려로 약 200bp 가산(10/26). 11/5 블룸버그 「스페이스X 부도위험 신고점」(피드)으로 이어짐."
+  },
+  {
+   "title": "민주당 스윕 뒤 나스닥 5% 급락 — AMD·테슬라·엔비디아·비트코인 동반 하락",
+   "url": "https://www.trendingtopics.eu/ai-stocks-and-cryptocurrencies-crash-hard-after-democrats-midterm-win/",
+   "press": "Trending Topics",
+   "at": "2026-11-06 01:40",
+   "why": "반도체 칸·091160 — 위험자산 전반(코인 포함) 동반 청산, 레버리지(SOXL) 쏠림 청산 위험",
+   "summary": "나스닥100 장중 −5%, AMD −13%·NVDA −7%·INTC −8%(yahoo 피드). 블룸버그 「나스닥100 1.8조$ 손실 위기」."
+  },
+  {
    "title": "「고약한」 칩 매도가 나스닥을 조정 구간으로 밀어 넣다",
    "url": "https://www.cityam.com/chip-stocks-push-nasdaq-into-correction/",
    "press": "City AM",
@@ -615,31 +639,7 @@
    "at": "2026-11-03 18:45",
    "why": "AI 크레딧 가설(0.92) — 핌코 CEO 11/3 「AI 조달 과잉」 경고와 같은 줄기, 운용사가 실제로 AI 채권을 덜어냄",
    "summary": "10/28 보도: 핌코가 AI 인프라 관련 회사채 수십억 달러 규모를 매각해 손실을 피함(제목 기준, 세부 금액 미확인). 11/3 CEO 「AI 금융이 너무 많아지는 길」 발언(블룸버그)으로 이어짐."
-  },
-  {
-   "title": "코스피, 외인·기관 동반 '팔자'에 낙폭 확대…5600선으로 후퇴",
-   "url": "https://www.g-enews.com/article/Securities/2026/11/202611031326047978923c501012_1",
-   "press": "글로벌이코노믹",
-   "at": "2026-11-03 13:26",
-   "why": "🐻 하락장선 5,665 판정 — 외인·기관 동반 매도 구조 확인",
-   "summary": "코스피 5,600선 후퇴, 외국인·기관 동시 순매도. 삼전·하닉 약세 주도."
-  },
-  {
-   "title": "코스피 5,630선까지 추락…외국인 1조2천억 매도, 삼성전자·SK하이닉스 급락",
-   "url": "https://www.topstarnews.net/news/articleView.html?idxno=16266954",
-   "press": "톱스타뉴스",
-   "at": "2026-11-03 14:00",
-   "why": "외국인 매도 멈춤 watch — 10월 −19.7조에 이어 11월 첫 주도 매도 지속",
-   "summary": "외국인 약 1.2조 순매도, 반도체 대형주 급락으로 코스피 5,630선."
-  },
-  {
-   "title": "마벨, 루멘텀 인수 보도에 하루 −13.2% — 시가총액 약 290억$ 증발",
-   "url": "https://www.heygotrade.com/en/news/marvell-mrvl-stock-news-october-30-2026/",
-   "press": "Gotrade",
-   "at": "2026-11-03 11:45",
-   "why": "11/3 1,150억$ 전액 주식 인수 확정 — 인수자 희석·프리미엄 우려가 광통신 내 분화(COHR·AAOI vs MRVL) 관찰과 이어짐",
-   "summary": "10/29 인수 협상 보도에 MRVL −13.2% · 시장은 인수 프리미엄·신주 발행 희석·규제 심사를 우려 · 11/3 확정 규모 1,150억$(전액 주식)"
   }
  ],
- "at": "2026-11-05 21:45"
+ "at": "2026-11-06 01:40"
 }
