@@ -1,0 +1,528 @@
+{
+ "at": "2026-11-05 12:10",
+ "from": "2008-07-01",
+ "to": "2026-11-04",
+ "corr": {
+  "is": 0.984,
+  "oos": 0.986
+ },
+ "cash_ann": 1.4,
+ "port": {
+  "is": {
+   "cagr": 14.24,
+   "vol": 12.9,
+   "mdd": -14.2,
+   "sharpe": 1.1,
+   "ex": 5.21,
+   "win12": 57,
+   "beat_years": 6,
+   "years": 9
+  },
+  "oos": {
+   "cagr": 17.42,
+   "vol": 13.1,
+   "mdd": -15.3,
+   "sharpe": 1.29,
+   "ex": 2.39,
+   "win12": 71,
+   "beat_years": 6,
+   "years": 10
+  }
+ },
+ "conc": {
+  "is": {
+   "cagr": 14.69,
+   "vol": 14.3,
+   "mdd": -16.7,
+   "sharpe": 1.03,
+   "ex": 5.66,
+   "win12": 65,
+   "beat_years": 7,
+   "years": 9
+  },
+  "oos": {
+   "cagr": 18.12,
+   "vol": 15.0,
+   "mdd": -19.4,
+   "sharpe": 1.19,
+   "ex": 3.09,
+   "win12": 72,
+   "beat_years": 7,
+   "years": 10
+  }
+ },
+ "blend": {
+  "0.0": {
+   "is": {
+    "cagr": 14.24,
+    "vol": 12.9,
+    "mdd": -14.2,
+    "sharpe": 1.1,
+    "ex": 5.21,
+    "win12": 57,
+    "beat_years": 6,
+    "years": 9
+   },
+   "oos": {
+    "cagr": 17.42,
+    "vol": 13.1,
+    "mdd": -15.3,
+    "sharpe": 1.29,
+    "ex": 2.39,
+    "win12": 71,
+    "beat_years": 6,
+    "years": 10
+   },
+   "k": 0.902,
+   "vs_conc_same_risk": {
+    "is": {
+     "cagr": 0.96,
+     "vol": 0.0,
+     "mdd": 1.0,
+     "sharpe": 0.07
+    },
+    "oos": {
+     "cagr": 0.81,
+     "vol": -0.4,
+     "mdd": 2.1,
+     "sharpe": 0.08
+    }
+   }
+  },
+  "0.1": {
+   "is": {
+    "cagr": 14.29,
+    "vol": 13.0,
+    "mdd": -14.4,
+    "sharpe": 1.09,
+    "ex": 5.26,
+    "win12": 58,
+    "beat_years": 6,
+    "years": 9
+   },
+   "oos": {
+    "cagr": 17.49,
+    "vol": 13.3,
+    "mdd": -15.4,
+    "sharpe": 1.28,
+    "ex": 2.46,
+    "win12": 71,
+    "beat_years": 6,
+    "years": 10
+   },
+   "k": 0.909,
+   "vs_conc_same_risk": {
+    "is": {
+     "cagr": 0.91,
+     "vol": 0.0,
+     "mdd": 0.9,
+     "sharpe": 0.06
+    },
+    "oos": {
+     "cagr": 0.78,
+     "vol": -0.3,
+     "mdd": 2.2,
+     "sharpe": 0.07
+    }
+   }
+  },
+  "0.2": {
+   "is": {
+    "cagr": 14.33,
+    "vol": 13.2,
+    "mdd": -14.6,
+    "sharpe": 1.08,
+    "ex": 5.31,
+    "win12": 59,
+    "beat_years": 6,
+    "years": 9
+   },
+   "oos": {
+    "cagr": 17.56,
+    "vol": 13.4,
+    "mdd": -15.5,
+    "sharpe": 1.27,
+    "ex": 2.53,
+    "win12": 71,
+    "beat_years": 6,
+    "years": 10
+   },
+   "k": 0.923,
+   "vs_conc_same_risk": {
+    "is": {
+     "cagr": 0.75,
+     "vol": 0.0,
+     "mdd": 0.9,
+     "sharpe": 0.05
+    },
+    "oos": {
+     "cagr": 0.63,
+     "vol": -0.4,
+     "mdd": 2.3,
+     "sharpe": 0.06
+    }
+   }
+  },
+  "0.3": {
+   "is": {
+    "cagr": 14.38,
+    "vol": 13.3,
+    "mdd": -14.8,
+    "sharpe": 1.08,
+    "ex": 5.35,
+    "win12": 59,
+    "beat_years": 7,
+    "years": 9
+   },
+   "oos": {
+    "cagr": 17.63,
+    "vol": 13.6,
+    "mdd": -15.7,
+    "sharpe": 1.26,
+    "ex": 2.6,
+    "win12": 71,
+    "beat_years": 6,
+    "years": 10
+   },
+   "k": 0.93,
+   "vs_conc_same_risk": {
+    "is": {
+     "cagr": 0.7,
+     "vol": 0.0,
+     "mdd": 0.8,
+     "sharpe": 0.05
+    },
+    "oos": {
+     "cagr": 0.59,
+     "vol": -0.3,
+     "mdd": 2.3,
+     "sharpe": 0.06
+    }
+   }
+  },
+  "0.4": {
+   "is": {
+    "cagr": 14.42,
+    "vol": 13.4,
+    "mdd": -15.0,
+    "sharpe": 1.07,
+    "ex": 5.4,
+    "win12": 60,
+    "beat_years": 7,
+    "years": 9
+   },
+   "oos": {
+    "cagr": 17.7,
+    "vol": 13.8,
+    "mdd": -16.2,
+    "sharpe": 1.25,
+    "ex": 2.67,
+    "win12": 71,
+    "beat_years": 6,
+    "years": 10
+   },
+   "k": 0.937,
+   "vs_conc_same_risk": {
+    "is": {
+     "cagr": 0.64,
+     "vol": 0.0,
+     "mdd": 0.7,
+     "sharpe": 0.04
+    },
+    "oos": {
+     "cagr": 0.55,
+     "vol": -0.2,
+     "mdd": 1.9,
+     "sharpe": 0.05
+    }
+   }
+  },
+  "0.5": {
+   "is": {
+    "cagr": 14.47,
+    "vol": 13.6,
+    "mdd": -15.3,
+    "sharpe": 1.06,
+    "ex": 5.44,
+    "win12": 60,
+    "beat_years": 7,
+    "years": 9
+   },
+   "oos": {
+    "cagr": 17.77,
+    "vol": 14.0,
+    "mdd": -16.8,
+    "sharpe": 1.24,
+    "ex": 2.74,
+    "win12": 72,
+    "beat_years": 6,
+    "years": 10
+   },
+   "k": 0.951,
+   "vs_conc_same_risk": {
+    "is": {
+     "cagr": 0.49,
+     "vol": 0.0,
+     "mdd": 0.6,
+     "sharpe": 0.03
+    },
+    "oos": {
+     "cagr": 0.41,
+     "vol": -0.2,
+     "mdd": 1.6,
+     "sharpe": 0.04
+    }
+   }
+  },
+  "0.6": {
+   "is": {
+    "cagr": 14.51,
+    "vol": 13.7,
+    "mdd": -15.5,
+    "sharpe": 1.06,
+    "ex": 5.49,
+    "win12": 61,
+    "beat_years": 7,
+    "years": 9
+   },
+   "oos": {
+    "cagr": 17.84,
+    "vol": 14.2,
+    "mdd": -17.3,
+    "sharpe": 1.23,
+    "ex": 2.81,
+    "win12": 72,
+    "beat_years": 6,
+    "years": 10
+   },
+   "k": 0.958,
+   "vs_conc_same_risk": {
+    "is": {
+     "cagr": 0.43,
+     "vol": 0.0,
+     "mdd": 0.6,
+     "sharpe": 0.03
+    },
+    "oos": {
+     "cagr": 0.37,
+     "vol": -0.1,
+     "mdd": 1.2,
+     "sharpe": 0.03
+    }
+   }
+  },
+  "0.7": {
+   "is": {
+    "cagr": 14.56,
+    "vol": 13.9,
+    "mdd": -15.7,
+    "sharpe": 1.05,
+    "ex": 5.53,
+    "win12": 62,
+    "beat_years": 7,
+    "years": 9
+   },
+   "oos": {
+    "cagr": 17.91,
+    "vol": 14.4,
+    "mdd": -17.8,
+    "sharpe": 1.22,
+    "ex": 2.88,
+    "win12": 72,
+    "beat_years": 6,
+    "years": 10
+   },
+   "k": 0.972,
+   "vs_conc_same_risk": {
+    "is": {
+     "cagr": 0.28,
+     "vol": 0.0,
+     "mdd": 0.6,
+     "sharpe": 0.02
+    },
+    "oos": {
+     "cagr": 0.22,
+     "vol": -0.1,
+     "mdd": 1.0,
+     "sharpe": 0.02
+    }
+   }
+  },
+  "0.8": {
+   "is": {
+    "cagr": 14.6,
+    "vol": 14.0,
+    "mdd": -16.0,
+    "sharpe": 1.04,
+    "ex": 5.57,
+    "win12": 63,
+    "beat_years": 7,
+    "years": 9
+   },
+   "oos": {
+    "cagr": 17.98,
+    "vol": 14.5,
+    "mdd": -18.3,
+    "sharpe": 1.21,
+    "ex": 2.95,
+    "win12": 72,
+    "beat_years": 6,
+    "years": 10
+   },
+   "k": 0.979,
+   "vs_conc_same_risk": {
+    "is": {
+     "cagr": 0.22,
+     "vol": 0.0,
+     "mdd": 0.4,
+     "sharpe": 0.01
+    },
+    "oos": {
+     "cagr": 0.19,
+     "vol": -0.1,
+     "mdd": 0.7,
+     "sharpe": 0.01
+    }
+   }
+  },
+  "0.9": {
+   "is": {
+    "cagr": 14.64,
+    "vol": 14.2,
+    "mdd": -16.4,
+    "sharpe": 1.04,
+    "ex": 5.62,
+    "win12": 64,
+    "beat_years": 7,
+    "years": 9
+   },
+   "oos": {
+    "cagr": 18.05,
+    "vol": 14.7,
+    "mdd": -18.9,
+    "sharpe": 1.2,
+    "ex": 3.02,
+    "win12": 72,
+    "beat_years": 6,
+    "years": 10
+   },
+   "k": 0.993,
+   "vs_conc_same_risk": {
+    "is": {
+     "cagr": 0.06,
+     "vol": 0.0,
+     "mdd": 0.2,
+     "sharpe": 0.01
+    },
+    "oos": {
+     "cagr": 0.04,
+     "vol": -0.1,
+     "mdd": 0.3,
+     "sharpe": 0.01
+    }
+   }
+  },
+  "1.0": {
+   "is": {
+    "cagr": 14.69,
+    "vol": 14.3,
+    "mdd": -16.7,
+    "sharpe": 1.03,
+    "ex": 5.66,
+    "win12": 65,
+    "beat_years": 7,
+    "years": 9
+   },
+   "oos": {
+    "cagr": 18.12,
+    "vol": 15.0,
+    "mdd": -19.4,
+    "sharpe": 1.19,
+    "ex": 3.09,
+    "win12": 72,
+    "beat_years": 7,
+    "years": 10
+   },
+   "k": 1.0,
+   "vs_conc_same_risk": {
+    "is": {
+     "cagr": 0.0,
+     "vol": 0.0,
+     "mdd": 0.0,
+     "sharpe": 0.0
+    },
+    "oos": {
+     "cagr": 0.0,
+     "vol": 0.0,
+     "mdd": 0.0,
+     "sharpe": 0.0
+    }
+   }
+  }
+ },
+ "invvol": {
+  "is": {
+   "cagr": 14.47,
+   "vol": 13.5,
+   "mdd": -15.2,
+   "sharpe": 1.07,
+   "ex": 5.45,
+   "win12": 60,
+   "beat_years": 7,
+   "years": 9
+  },
+  "oos": {
+   "cagr": 17.73,
+   "vol": 13.9,
+   "mdd": -16.6,
+   "sharpe": 1.25,
+   "ex": 2.7,
+   "win12": 72,
+   "beat_years": 6,
+   "years": 10
+  },
+  "w_mean": 0.48,
+  "vs_conc_same_risk": {
+   "is": {
+    "cagr": 0.59,
+    "vol": 0.0,
+    "mdd": 0.6,
+    "sharpe": 0.04
+   },
+   "oos": {
+    "cagr": 0.48,
+    "vol": -0.2,
+    "mdd": 1.7,
+    "sharpe": 0.05
+   }
+  }
+ },
+ "is_pick": "0.1",
+ "shake": {
+  "0.08": {
+   "is": {
+    "cagr": 0.9,
+    "mdd": 1.0,
+    "sharpe": 0.06
+   },
+   "oos": {
+    "cagr": 0.77,
+    "mdd": 2.2,
+    "sharpe": 0.08
+   }
+  },
+  "0.12": {
+   "is": {
+    "cagr": 0.82,
+    "mdd": 1.0,
+    "sharpe": 0.06
+   },
+   "oos": {
+    "cagr": 0.68,
+    "mdd": 2.3,
+    "sharpe": 0.07
+   }
+  }
+ },
+ "note": "레버리지 없음 · ETF 만, 생존 편향 없음 · ⚡ 킥(고래 15·돌파 4)은 💼 뼈대 81% 라 💼 로 대신 · 매수 추천 아님"
+}
