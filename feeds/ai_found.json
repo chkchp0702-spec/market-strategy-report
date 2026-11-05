@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "도요타 주가 17% 급등 — 美 하이브리드 수요 강세",
+   "url": "https://www.ft.com/content/4c40362a-8994-43e1-8000-68cd92cf7d51",
+   "press": "FT",
+   "at": "2026-11-05 17:40",
+   "why": "블루웨이브 로테이션(아시아 칩↓·자동차↑) 실적 근거 — 일본 수출주 관세 완화 랠리와 같은 방향",
+   "summary": "도요타 +17%(FT 제목). 6분기 만의 이익 증가·연간 전망 상향(investing 14:40 기사). 소니도 2분기 두 자릿수 이익 증가·연간 전망 상향(SA)."
+  },
+  {
+   "title": "대만 칩 메이커, 사상 가장 밝게 빛나다",
+   "url": "https://www.ft.com/content/55cfdc9f-e465-4969-b8a5-f0cc52f43550",
+   "press": "FT",
+   "at": "2026-11-05 17:40",
+   "why": "한국 칩 −6% 투매와 대비 — 같은 AI 공급망 안에서 한국만 외국인 이탈이 몰렸는지 가늠(091160 vs 대만)",
+   "summary": "FT 분석 기사(본문 수치 미확인). 같은 날 블룸버그 「블루웨이브가 한국 대형주를 가라앉히자 중국 증시 급등」."
+  },
+  {
    "title": "닌텐도 스위치2 판매 41% 급감 — 가격 인상·메모리 대란 영향",
    "url": "https://www.cnbc.com/2026/11/05/nintendo-earnings-switch-2-sales.html",
    "press": "CNBC",
@@ -623,22 +639,6 @@
    "at": "2026-11-03 03:00",
    "why": "watch 美 10년 4.95 이틀 판정 — 오늘 마감 4.95 아래면 고금리 정점 0.55",
    "summary": "WTI −7%(96.8$)·브렌트 105$, 10년 4.88%(−5bp, CNBC 12:25 EST)."
-  },
-  {
-   "title": "앤트로픽, IPO 몇 주 앞두고 막대한 공급사 부채(구매약정) 공개",
-   "url": "https://www.ifre.com/equities/2493228/anthropic-reveals-huge-supplier-liabilities-just-weeks-ahead-of-potential-ipo",
-   "press": "IFR",
-   "at": "2026-11-03 02:10",
-   "why": "AI 크레딧 가설 — 비상장 AI 의 장기 컴퓨트 약정이 공급사(클라우드·칩) 매출의 담보가 되는 구조",
-   "summary": "S-1 수정본에 장기 컴퓨트·공급 약정 공개(피드 cnbc_top 은 8,954억$ 보도). 약정 상대방 매출 가시성↑ vs 이행 위험은 앤트로픽 조달에 달림."
-  },
-  {
-   "title": "앤트로픽 IPO 초안 — 매출 약 15배, 컴퓨트 계약 6,000억$",
-   "url": "https://investinglive.com/stocks/anthropic-ipo-draft-shows-nearly-15-fold-revenue-jump-and-600-billion-in-compute-deals/",
-   "press": "investingLive",
-   "at": "2026-11-03 02:10",
-   "why": "AI 인프라 공급사(반도체·전력·광통신 칸) 수요 근거 vs 차입 의존 — 같은 사건의 두 면",
-   "summary": "매출 급증·대규모 컴퓨트 계약(초안 기준 6,000억$, 이후 수정본은 더 큼). 수치는 보도 시점별로 다름 — 확정치는 S-1."
   }
  ],
  "at": "2026-11-05 16:40"
