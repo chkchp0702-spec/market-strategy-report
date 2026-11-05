@@ -1,14 +1,15 @@
-CORR {'is': 0.984, 'oos': 0.986} cash 1.4
-0.0 14.24 17.42 1.29 {'is': {'cagr': 0.96, 'vol': 0.0, 'mdd': 1.0, 'sharpe': 0.07}, 'oos': {'cagr': 0.81, 'vol': -0.4, 'mdd': 2.1, 'sharpe': 0.08}}
-0.1 14.29 17.49 1.28 {'is': {'cagr': 0.91, 'vol': 0.0, 'mdd': 0.9, 'sharpe': 0.06}, 'oos': {'cagr': 0.78, 'vol': -0.3, 'mdd': 2.2, 'sharpe': 0.07}}
-0.2 14.33 17.56 1.27 {'is': {'cagr': 0.75, 'vol': 0.0, 'mdd': 0.9, 'sharpe': 0.05}, 'oos': {'cagr': 0.63, 'vol': -0.4, 'mdd': 2.3, 'sharpe': 0.06}}
-0.3 14.38 17.63 1.26 {'is': {'cagr': 0.7, 'vol': 0.0, 'mdd': 0.8, 'sharpe': 0.05}, 'oos': {'cagr': 0.59, 'vol': -0.3, 'mdd': 2.3, 'sharpe': 0.06}}
-0.4 14.42 17.7 1.25 {'is': {'cagr': 0.64, 'vol': 0.0, 'mdd': 0.7, 'sharpe': 0.04}, 'oos': {'cagr': 0.55, 'vol': -0.2, 'mdd': 1.9, 'sharpe': 0.05}}
-0.5 14.47 17.77 1.24 {'is': {'cagr': 0.49, 'vol': 0.0, 'mdd': 0.6, 'sharpe': 0.03}, 'oos': {'cagr': 0.41, 'vol': -0.2, 'mdd': 1.6, 'sharpe': 0.04}}
-0.6 14.51 17.84 1.23 {'is': {'cagr': 0.43, 'vol': 0.0, 'mdd': 0.6, 'sharpe': 0.03}, 'oos': {'cagr': 0.37, 'vol': -0.1, 'mdd': 1.2, 'sharpe': 0.03}}
-0.7 14.56 17.91 1.22 {'is': {'cagr': 0.28, 'vol': 0.0, 'mdd': 0.6, 'sharpe': 0.02}, 'oos': {'cagr': 0.22, 'vol': -0.1, 'mdd': 1.0, 'sharpe': 0.02}}
-0.8 14.6 17.98 1.21 {'is': {'cagr': 0.22, 'vol': 0.0, 'mdd': 0.4, 'sharpe': 0.01}, 'oos': {'cagr': 0.19, 'vol': -0.1, 'mdd': 0.7, 'sharpe': 0.01}}
-0.9 14.64 18.05 1.2 {'is': {'cagr': 0.06, 'vol': 0.0, 'mdd': 0.2, 'sharpe': 0.01}, 'oos': {'cagr': 0.04, 'vol': -0.1, 'mdd': 0.3, 'sharpe': 0.01}}
-1.0 14.69 18.12 1.19 {'is': {'cagr': 0.0, 'vol': 0.0, 'mdd': 0.0, 'sharpe': 0.0}, 'oos': {'cagr': 0.0, 'vol': 0.0, 'mdd': 0.0, 'sharpe': 0.0}}
-INVVOL {'is': {'cagr': np.float64(14.47), 'vol': np.float64(13.5), 'mdd': np.float64(-15.2), 'sharpe': np.float64(1.07), 'ex': np.float64(5.45), 'win12': 60, 'beat_years': 7, 'years': 9}, 'oos': {'cagr': np.float64(17.73), 'vol': np.float64(13.9), 'mdd': np.float64(-16.6), 'sharpe': np.float64(1.25), 'ex': np.float64(2.7), 'win12': 72, 'beat_years': 6, 'years': 10}, 'w_mean': 0.48, 'vs_conc_same_risk': {'is': {'cagr': 0.59, 'vol': 0.0, 'mdd': 0.6, 'sharpe': 0.04}, 'oos': {'cagr': 0.48, 'vol': -0.2, 'mdd': 1.7, 'sharpe': 0.05}}}
-PICK 0.1 {'is': {'cagr': np.float64(14.29), 'vol': np.float64(13.0), 'mdd': np.float64(-14.4), 'sharpe': np.float64(1.09), 'ex': np.float64(5.26), 'win12': 58, 'beat_years': 6, 'years': 9}, 'oos': {'cagr': np.float64(17.49), 'vol': np.float64(13.3), 'mdd': np.float64(-15.4), 'sharpe': np.float64(1.28), 'ex': np.float64(2.46), 'win12': 71, 'beat_years': 6, 'years': 10}, 'k': np.float64(0.909), 'vs_conc_same_risk': {'is': {'cagr': 0.91, 'vol': 0.0, 'mdd': 0.9, 'sharpe': 0.06}, 'oos': {'cagr': 0.78, 'vol': -0.3, 'mdd': 2.2, 'sharpe': 0.07}}} {'0.08': {'is': {'cagr': 0.9, 'mdd': 1.0, 'sharpe': 0.06}, 'oos': {'cagr': 0.77, 'mdd': 2.2, 'sharpe': 0.08}}, '0.12': {'is': {'cagr': 0.82, 'mdd': 1.0, 'sharpe': 0.06}, 'oos': {'cagr': 0.68, 'mdd': 2.3, 'sharpe': 0.07}}}
+0.001 P 24.56 {'is': {'cagr': 0.89, 'mdd': 0.0, 'sharpe': 0.06, 'vol': 0.0}, 'oos': {'cagr': 0.1, 'mdd': -3.0, 'sharpe': 0.0, 'vol': 0.0}}
+0.001 F30 28.62 {'is': {'cagr': 0.6, 'mdd': 1.3, 'sharpe': 0.04, 'vol': 0.0}, 'oos': {'cagr': -0.4, 'mdd': -2.4, 'sharpe': -0.04, 'vol': 0.3}}
+0.001 G 33.5 {'is': {'cagr': -0.38, 'mdd': -1.7, 'sharpe': -0.03, 'vol': 0.0}, 'oos': {'cagr': -0.07, 'mdd': -2.2, 'sharpe': -0.02, 'vol': 0.1}}
+0.001 F50 27.0 {'is': {'cagr': 0.33, 'mdd': 1.5, 'sharpe': 0.02, 'vol': 0.0}, 'oos': {'cagr': -0.09, 'mdd': -1.7, 'sharpe': -0.02, 'vol': 0.2}}
+0.001 PG70 17.25 {'is': {'cagr': -0.89, 'mdd': -4.2, 'sharpe': -0.06, 'vol': 0.0}, 'oos': {'cagr': -0.32, 'mdd': 1.0, 'sharpe': 0.02, 'vol': -0.6}}
+0.0025 P 25.38 {'is': {'cagr': 0.84, 'mdd': -0.3, 'sharpe': 0.05, 'vol': 0.0}, 'oos': {'cagr': 0.13, 'mdd': -3.2, 'sharpe': 0.0, 'vol': 0.1}}
+0.0025 F30 30.25 {'is': {'cagr': 0.59, 'mdd': 1.2, 'sharpe': 0.03, 'vol': 0.0}, 'oos': {'cagr': -0.37, 'mdd': -2.5, 'sharpe': -0.04, 'vol': 0.4}}
+0.0025 G 33.5 {'is': {'cagr': -0.28, 'mdd': -1.7, 'sharpe': -0.02, 'vol': 0.0}, 'oos': {'cagr': 0.06, 'mdd': -1.9, 'sharpe': -0.01, 'vol': 0.2}}
+0.0025 F50 28.62 {'is': {'cagr': 0.37, 'mdd': 1.2, 'sharpe': 0.02, 'vol': 0.0}, 'oos': {'cagr': -0.2, 'mdd': -2.4, 'sharpe': -0.03, 'vol': 0.3}}
+0.0025 PG70 17.25 {'is': {'cagr': -0.81, 'mdd': -4.3, 'sharpe': -0.05, 'vol': 0.0}, 'oos': {'cagr': -0.25, 'mdd': 1.4, 'sharpe': 0.02, 'vol': -0.6}}
+SHAKE tgt-20 {'tgt': 21.31, 'd': {'is': {'cagr': 1.56, 'mdd': 0.2, 'sharpe': 0.1, 'vol': 0.0}, 'oos': {'cagr': 0.9, 'mdd': -3.0, 'sharpe': 0.04, 'vol': 0.2}}}
+SHAKE tgt+20 {'tgt': 27.0, 'd': {'is': {'cagr': 0.6, 'mdd': -1.0, 'sharpe': 0.04, 'vol': 0.0}, 'oos': {'cagr': 0.05, 'mdd': -2.0, 'sharpe': 0.01, 'vol': -0.1}}}
+SHAKE floor-20 {'tgt': 22.94, 'd': {'is': {'cagr': 0.55, 'mdd': -1.6, 'sharpe': 0.03, 'vol': 0.0}, 'oos': {'cagr': 0.11, 'mdd': -1.9, 'sharpe': 0.0, 'vol': 0.0}}}
+SHAKE floor+20 {'tgt': 29.44, 'd': {'is': {'cagr': 0.88, 'mdd': 0.3, 'sharpe': 0.05, 'vol': 0.0}, 'oos': {'cagr': 0.48, 'mdd': -3.1, 'sharpe': 0.02, 'vol': 0.1}}}
+JUDGE {'pick': 'P', 'is': 0.89, 'oos': 0.1, 'shake_ok': True, 'cost25_oos': 0.13, 'verdict': '❌'}
