@@ -1,41 +1,56 @@
-BASE {'cagr': np.float64(14.69), 'vol': np.float64(14.3), 'mdd': np.float64(-16.7), 'sharpe': np.float64(1.03), 'ex': np.float64(5.66), 'win12': 65, 'beat_years': 7, 'years': 9, 'turn': 1015} {'cagr': np.float64(17.97), 'vol': np.float64(14.9), 'mdd': np.float64(-19.4), 'sharpe': np.float64(1.18), 'ex': np.float64(3.12), 'win12': 72, 'beat_years': 7, 'years': 10, 'turn': 1104}
-fade_W5_t3 13.0 10.3 {'cagr': -0.26, 'mdd': 0.1, 'sharpe': -0.02, 'vol': 0.1, 'turn': 677.0} | {'cagr': -0.72, 'mdd': -2.7, 'sharpe': -0.07, 'vol': 0.5, 'turn': 468.0}
-fade_W5_t5 2.2 2.5 {'cagr': -0.6, 'mdd': 0.0, 'sharpe': -0.04, 'vol': 0.1, 'turn': 169.0} | {'cagr': 0.06, 'mdd': -0.4, 'sharpe': -0.02, 'vol': 0.5, 'turn': 127.0}
-fade_W5_t8 0.1 0.2 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'turn': 0.0} | {'cagr': 0.06, 'mdd': 0.0, 'sharpe': 0.01, 'vol': 0.1, 'turn': 0.0}
-fade_W10_t3 24.8 23.2 {'cagr': -1.43, 'mdd': -2.0, 'sharpe': -0.13, 'vol': 0.7, 'turn': 778.0} | {'cagr': -1.92, 'mdd': -0.4, 'sharpe': -0.14, 'vol': 0.7, 'turn': 592.0}
-fade_W10_t5 7.1 7.5 {'cagr': -0.35, 'mdd': 0.0, 'sharpe': -0.04, 'vol': 0.3, 'turn': 294.0} | {'cagr': -0.36, 'mdd': -0.4, 'sharpe': -0.06, 'vol': 0.7, 'turn': 221.0}
-fade_W10_t8 0.7 0.8 {'cagr': -0.31, 'mdd': 0.0, 'sharpe': -0.03, 'vol': 0.2, 'turn': 36.0} | {'cagr': -0.03, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'turn': 44.0}
-fade_W20_t3 42.6 38.5 {'cagr': -1.41, 'mdd': -0.9, 'sharpe': -0.13, 'vol': 0.9, 'turn': 885.0} | {'cagr': -4.51, 'mdd': -6.6, 'sharpe': -0.31, 'vol': 1.1, 'turn': 508.0}
-fade_W20_t5 17.7 19.4 {'cagr': -0.02, 'mdd': 0.3, 'sharpe': -0.04, 'vol': 0.7, 'turn': 411.0} | {'cagr': -3.14, 'mdd': -6.6, 'sharpe': -0.22, 'vol': 0.9, 'turn': 354.0}
-fade_W20_t8 3.2 3.8 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': -0.02, 'vol': 0.3, 'turn': 87.0} | {'cagr': -0.44, 'mdd': -2.5, 'sharpe': -0.07, 'vol': 0.8, 'turn': 129.0}
-fadeDn_W5_t3 7.0 5.9 {'cagr': 0.11, 'mdd': 0.2, 'sharpe': -0.01, 'vol': 0.2, 'turn': 30.0} | {'cagr': 0.18, 'mdd': -2.5, 'sharpe': -0.02, 'vol': 0.6, 'turn': 76.0}
-fadeDn_W5_t5 1.3 1.9 {'cagr': 0.04, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.1, 'turn': 14.0} | {'cagr': 0.62, 'mdd': -0.7, 'sharpe': 0.01, 'vol': 0.5, 'turn': 39.0}
-fadeDn_W5_t8 0.1 0.2 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'turn': 0.0} | {'cagr': 0.06, 'mdd': 0.0, 'sharpe': 0.01, 'vol': 0.1, 'turn': 0.0}
-fadeDn_W10_t3 12.2 12.3 {'cagr': 0.01, 'mdd': -2.6, 'sharpe': -0.05, 'vol': 0.9, 'turn': 62.0} | {'cagr': -0.25, 'mdd': -0.4, 'sharpe': -0.07, 'vol': 1.0, 'turn': 60.0}
-fadeDn_W10_t5 3.8 4.9 {'cagr': -0.28, 'mdd': 0.0, 'sharpe': -0.04, 'vol': 0.3, 'turn': 21.0} | {'cagr': 0.4, 'mdd': -0.4, 'sharpe': -0.02, 'vol': 0.8, 'turn': 50.0}
-fadeDn_W10_t8 0.4 0.6 {'cagr': -0.27, 'mdd': 0.0, 'sharpe': -0.03, 'vol': 0.2, 'turn': 8.0} | {'cagr': 0.2, 'mdd': 0.0, 'sharpe': 0.01, 'vol': 0.2, 'turn': 7.0}
-fadeDn_W20_t3 20.7 19.3 {'cagr': 1.45, 'mdd': -1.4, 'sharpe': 0.01, 'vol': 1.2, 'turn': 91.0} | {'cagr': -0.98, 'mdd': -4.1, 'sharpe': -0.14, 'vol': 1.5, 'turn': 3.0}
-fadeDn_W20_t5 9.3 11.0 {'cagr': 1.06, 'mdd': 1.6, 'sharpe': 0.01, 'vol': 0.8, 'turn': 54.0} | {'cagr': -1.18, 'mdd': -5.4, 'sharpe': -0.12, 'vol': 1.1, 'turn': 52.0}
-fadeDn_W20_t8 2.1 2.6 {'cagr': 0.04, 'mdd': 0.0, 'sharpe': -0.02, 'vol': 0.3, 'turn': 18.0} | {'cagr': -0.02, 'mdd': -2.5, 'sharpe': -0.05, 'vol': 0.9, 'turn': 32.0}
-follow_W5_t3 7.0 5.9 {'cagr': -1.86, 'mdd': -0.7, 'sharpe': -0.08, 'vol': -0.6, 'turn': 800.0} | {'cagr': -3.16, 'mdd': -1.4, 'sharpe': -0.13, 'vol': -0.7, 'turn': 640.0}
-follow_W5_t5 1.3 1.9 {'cagr': 0.28, 'mdd': 0.0, 'sharpe': 0.02, 'vol': -0.1, 'turn': 94.0} | {'cagr': -2.1, 'mdd': -1.2, 'sharpe': -0.09, 'vol': -0.3, 'turn': 186.0}
-follow_W5_t8 0.1 0.2 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'turn': 0.0} | {'cagr': -0.67, 'mdd': 0.0, 'sharpe': -0.03, 'vol': 0.0, 'turn': 31.0}
-follow_W10_t3 12.2 12.3 {'cagr': -1.77, 'mdd': -1.3, 'sharpe': -0.04, 'vol': -1.1, 'turn': 926.0} | {'cagr': -3.12, 'mdd': -1.5, 'sharpe': -0.1, 'vol': -1.2, 'turn': 742.0}
-follow_W10_t5 3.8 4.9 {'cagr': 1.61, 'mdd': 0.0, 'sharpe': 0.14, 'vol': -0.6, 'turn': 279.0} | {'cagr': -1.65, 'mdd': -0.2, 'sharpe': -0.04, 'vol': -0.7, 'turn': 354.0}
-follow_W10_t8 0.4 0.6 {'cagr': 0.16, 'mdd': 0.0, 'sharpe': 0.01, 'vol': 0.0, 'turn': 27.0} | {'cagr': -0.62, 'mdd': 0.0, 'sharpe': -0.02, 'vol': -0.2, 'turn': 70.0}
-follow_W20_t3 20.7 19.3 {'cagr': -2.93, 'mdd': -2.7, 'sharpe': -0.1, 'vol': -1.4, 'turn': 1040.0} | {'cagr': -2.29, 'mdd': -3.7, 'sharpe': -0.02, 'vol': -1.5, 'turn': 780.0}
-follow_W20_t5 9.3 11.0 {'cagr': -0.8, 'mdd': -3.2, 'sharpe': 0.01, 'vol': -0.9, 'turn': 534.0} | {'cagr': -2.6, 'mdd': -2.8, 'sharpe': -0.08, 'vol': -1.0, 'turn': 552.0}
-follow_W20_t8 2.1 2.6 {'cagr': 0.41, 'mdd': 0.0, 'sharpe': 0.03, 'vol': -0.1, 'turn': 98.0} | {'cagr': -0.95, 'mdd': 0.4, 'sharpe': -0.02, 'vol': -0.5, 'turn': 165.0}
-PICK follow_W10_t5 {'is': {'cagr': 1.61, 'mdd': 0.0, 'sharpe': 0.14, 'vol': -0.6, 'turn': 279.0}, 'oos': {'cagr': -1.65, 'mdd': -0.2, 'sharpe': -0.04, 'vol': -0.7, 'turn': 354.0}}
-SAMERISK 31.98 {'is': {'cagr': 1.72, 'mdd': 0.0, 'sharpe': 0.13, 'vol': -0.3, 'turn': 275.0}, 'oos': {'cagr': -1.92, 'mdd': -3.8, 'sharpe': -0.09, 'vol': -0.2, 'turn': 331.0}}
-SHAKE W-20 {'cagr': 0.86, 'mdd': -0.8, 'sharpe': 0.09, 'vol': -0.5, 'turn': 274.0} {'cagr': -3.23, 'mdd': -1.6, 'sharpe': -0.15, 'vol': -0.4, 'turn': 310.0}
-SHAKE W+20 {'cagr': 1.2, 'mdd': 0.0, 'sharpe': 0.12, 'vol': -0.6, 'turn': 410.0} {'cagr': 0.18, 'mdd': 2.5, 'sharpe': 0.08, 'vol': -0.8, 'turn': 380.0}
-SHAKE th-20 {'cagr': 0.16, 'mdd': -0.6, 'sharpe': 0.06, 'vol': -0.8, 'turn': 565.0} {'cagr': -0.83, 'mdd': 1.0, 'sharpe': 0.03, 'vol': -0.9, 'turn': 482.0}
-SHAKE th+20 {'cagr': 0.77, 'mdd': 0.0, 'sharpe': 0.08, 'vol': -0.4, 'turn': 159.0} {'cagr': -0.71, 'mdd': -1.9, 'sharpe': -0.01, 'vol': -0.4, 'turn': 200.0}
-SHAKE f-20 {'cagr': 1.3, 'mdd': 0.0, 'sharpe': 0.12, 'vol': -0.5, 'turn': 222.0} {'cagr': -1.29, 'mdd': 0.2, 'sharpe': -0.02, 'vol': -0.6, 'turn': 282.0}
-SHAKE f+20 {'cagr': 1.9, 'mdd': 0.0, 'sharpe': 0.16, 'vol': -0.6, 'turn': 336.0} {'cagr': -2.02, 'mdd': -0.5, 'sharpe': -0.07, 'vol': -0.7, 'turn': 431.0}
-C25 {'is': {'cagr': 1.11, 'mdd': 0.0, 'sharpe': 0.1, 'vol': -0.6, 'turn': 279.0}, 'oos': {'cagr': -2.23, 'mdd': -1.1, 'sharpe': -0.09, 'vol': -0.7, 'turn': 354.0}}
-DEST IEF {'cagr': -1.56, 'mdd': 0.0, 'sharpe': -0.09, 'vol': -0.1, 'turn': 0.0} | {'cagr': -1.25, 'mdd': -0.7, 'sharpe': -0.06, 'vol': -0.1, 'turn': -1.0}
-DEST BIL {'cagr': -2.84, 'mdd': 0.0, 'sharpe': -0.17, 'vol': -0.1, 'turn': -1.0} | {'cagr': -2.2, 'mdd': -1.0, 'sharpe': -0.11, 'vol': -0.1, 'turn': -1.0}
-DEST GLD {'cagr': -1.5, 'mdd': 0.0, 'sharpe': -0.1, 'vol': 0.2, 'turn': 0.0} | {'cagr': -3.71, 'mdd': -1.7, 'sharpe': -0.23, 'vol': 0.3, 'turn': -2.0}
-DEST TLTBIL {'cagr': -1.42, 'mdd': 0.0, 'sharpe': -0.08, 'vol': -0.1, 'turn': 0.0} | {'cagr': -1.1, 'mdd': -0.5, 'sharpe': -0.05, 'vol': -0.1, 'turn': -1.0}
+c10_W4_t4_f48 {'cagr': 0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.71, 'mdd': -0.5, 'sharpe': 0.02, 'vol': 0.3, 'same_risk': 0.3}
+c10_W4_t4_f60 {'cagr': 0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.88, 'mdd': -0.7, 'sharpe': 0.03, 'vol': 0.4, 'same_risk': 0.45}
+c10_W4_t4_f72 {'cagr': 0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 1.05, 'mdd': -0.9, 'sharpe': 0.03, 'vol': 0.6, 'same_risk': 0.45}
+c10_W4_t5_f48 {'cagr': -0.05, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.53, 'mdd': 0.6, 'sharpe': 0.02, 'vol': 0.2, 'same_risk': 0.3}
+c10_W4_t5_f60 {'cagr': -0.05, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.0, 'same_risk': -0.14} | {'cagr': 0.66, 'mdd': 0.7, 'sharpe': 0.03, 'vol': 0.2, 'same_risk': 0.45}
+c10_W4_t5_f72 {'cagr': -0.06, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.0, 'same_risk': -0.14} | {'cagr': 0.8, 'mdd': 0.8, 'sharpe': 0.03, 'vol': 0.3, 'same_risk': 0.45}
+c10_W4_t6_f48 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.04, 'mdd': 0.1, 'sharpe': 0.0, 'vol': 0.1, 'same_risk': 0.0}
+c10_W4_t6_f60 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.05, 'mdd': 0.1, 'sharpe': 0.01, 'vol': 0.1, 'same_risk': 0.15}
+c10_W4_t6_f72 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.06, 'mdd': 0.0, 'sharpe': 0.01, 'vol': 0.1, 'same_risk': 0.15}
+c10_W5_t4_f48 {'cagr': -0.12, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.52, 'mdd': -0.7, 'sharpe': 0.01, 'vol': 0.4, 'same_risk': 0.15}
+c10_W5_t4_f60 {'cagr': -0.14, 'mdd': 0.0, 'sharpe': -0.02, 'vol': 0.1, 'same_risk': -0.29} | {'cagr': 0.63, 'mdd': -1.0, 'sharpe': 0.01, 'vol': 0.5, 'same_risk': 0.15}
+c10_W5_t4_f72 {'cagr': -0.18, 'mdd': 0.0, 'sharpe': -0.02, 'vol': 0.2, 'same_risk': -0.29} | {'cagr': 0.75, 'mdd': -1.2, 'sharpe': 0.0, 'vol': 0.7, 'same_risk': 0.0}
+c10_W5_t5_f48 {'cagr': 0.03, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.1, 'same_risk': 0.0} | {'cagr': 0.5, 'mdd': -0.6, 'sharpe': 0.01, 'vol': 0.4, 'same_risk': 0.15}
+c10_W5_t5_f60 {'cagr': 0.04, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.1, 'same_risk': 0.0} | {'cagr': 0.62, 'mdd': -0.7, 'sharpe': 0.01, 'vol': 0.5, 'same_risk': 0.15}
+c10_W5_t5_f72 {'cagr': 0.04, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.1, 'same_risk': 0.0} | {'cagr': 0.75, 'mdd': -0.9, 'sharpe': 0.0, 'vol': 0.7, 'same_risk': 0.0}
+c10_W5_t6_f48 {'cagr': -0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': -0.01, 'mdd': 0.6, 'sharpe': -0.01, 'vol': 0.2, 'same_risk': -0.15}
+c10_W5_t6_f60 {'cagr': -0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': -0.02, 'mdd': 0.7, 'sharpe': -0.01, 'vol': 0.3, 'same_risk': -0.15}
+c10_W5_t6_f72 {'cagr': -0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': -0.03, 'mdd': 0.8, 'sharpe': -0.02, 'vol': 0.3, 'same_risk': -0.3}
+c10_W6_t4_f48 {'cagr': -0.01, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.57, 'mdd': 0.4, 'sharpe': 0.01, 'vol': 0.5, 'same_risk': 0.15}
+c10_W6_t4_f60 {'cagr': -0.01, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.2, 'same_risk': -0.14} | {'cagr': 0.72, 'mdd': 0.4, 'sharpe': 0.0, 'vol': 0.6, 'same_risk': 0.0}
+c10_W6_t4_f72 {'cagr': -0.03, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.2, 'same_risk': -0.14} | {'cagr': 0.87, 'mdd': -0.4, 'sharpe': 0.0, 'vol': 0.8, 'same_risk': 0.0}
+c10_W6_t5_f48 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.26, 'mdd': -0.9, 'sharpe': 0.01, 'vol': 0.2, 'same_risk': 0.15}
+c10_W6_t5_f60 {'cagr': 0.01, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.32, 'mdd': -1.2, 'sharpe': 0.01, 'vol': 0.2, 'same_risk': 0.15}
+c10_W6_t5_f72 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.2, 'same_risk': -0.14} | {'cagr': 0.38, 'mdd': -1.5, 'sharpe': 0.01, 'vol': 0.3, 'same_risk': 0.15}
+c10_W6_t6_f48 {'cagr': -0.06, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.25, 'mdd': -0.7, 'sharpe': 0.01, 'vol': 0.2, 'same_risk': 0.15}
+c10_W6_t6_f60 {'cagr': -0.05, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.28, 'mdd': -0.8, 'sharpe': 0.01, 'vol': 0.2, 'same_risk': 0.15}
+c10_W6_t6_f72 {'cagr': -0.07, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.2, 'same_risk': -0.14} | {'cagr': 0.34, 'mdd': -1.0, 'sharpe': 0.01, 'vol': 0.2, 'same_risk': 0.15}
+c25_W4_t4_f48 {'cagr': 0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.64, 'mdd': -0.7, 'sharpe': 0.02, 'vol': 0.3, 'same_risk': 0.3}
+c25_W4_t4_f60 {'cagr': 0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.79, 'mdd': -0.9, 'sharpe': 0.02, 'vol': 0.4, 'same_risk': 0.3}
+c25_W4_t4_f72 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.93, 'mdd': -1.2, 'sharpe': 0.02, 'vol': 0.5, 'same_risk': 0.3}
+c25_W4_t5_f48 {'cagr': -0.05, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.48, 'mdd': 0.4, 'sharpe': 0.02, 'vol': 0.1, 'same_risk': 0.3}
+c25_W4_t5_f60 {'cagr': -0.06, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.6, 'mdd': 0.5, 'sharpe': 0.02, 'vol': 0.1, 'same_risk': 0.3}
+c25_W4_t5_f72 {'cagr': -0.07, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.72, 'mdd': 0.6, 'sharpe': 0.03, 'vol': 0.2, 'same_risk': 0.45}
+c25_W4_t6_f48 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0}
+c25_W4_t6_f60 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.03, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0}
+c25_W4_t6_f72 {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.03, 'mdd': -0.1, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0}
+c25_W5_t4_f48 {'cagr': -0.12, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.0, 'same_risk': -0.14} | {'cagr': 0.45, 'mdd': -0.9, 'sharpe': 0.01, 'vol': 0.3, 'same_risk': 0.15}
+c25_W5_t4_f60 {'cagr': -0.14, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.55, 'mdd': -1.2, 'sharpe': 0.0, 'vol': 0.4, 'same_risk': 0.0}
+c25_W5_t4_f72 {'cagr': -0.19, 'mdd': 0.0, 'sharpe': -0.02, 'vol': 0.1, 'same_risk': -0.29} | {'cagr': 0.64, 'mdd': -1.5, 'sharpe': 0.0, 'vol': 0.6, 'same_risk': 0.0}
+c25_W5_t5_f48 {'cagr': 0.01, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.44, 'mdd': -0.7, 'sharpe': 0.01, 'vol': 0.3, 'same_risk': 0.15}
+c25_W5_t5_f60 {'cagr': 0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.55, 'mdd': -0.9, 'sharpe': 0.0, 'vol': 0.4, 'same_risk': 0.0}
+c25_W5_t5_f72 {'cagr': 0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.65, 'mdd': -1.1, 'sharpe': 0.0, 'vol': 0.6, 'same_risk': 0.0}
+c25_W5_t6_f48 {'cagr': -0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': -0.04, 'mdd': 0.5, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.15}
+c25_W5_t6_f60 {'cagr': -0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': -0.06, 'mdd': 0.6, 'sharpe': -0.01, 'vol': 0.2, 'same_risk': -0.15}
+c25_W5_t6_f72 {'cagr': -0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': -0.08, 'mdd': 0.7, 'sharpe': -0.02, 'vol': 0.2, 'same_risk': -0.3}
+c25_W6_t4_f48 {'cagr': -0.04, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.0, 'same_risk': -0.14} | {'cagr': 0.47, 'mdd': 0.1, 'sharpe': 0.0, 'vol': 0.4, 'same_risk': 0.0}
+c25_W6_t4_f60 {'cagr': -0.04, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.59, 'mdd': 0.1, 'sharpe': 0.0, 'vol': 0.5, 'same_risk': 0.0}
+c25_W6_t4_f72 {'cagr': -0.08, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.71, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.7, 'same_risk': 0.0}
+c25_W6_t5_f48 {'cagr': -0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0, 'same_risk': 0.0} | {'cagr': 0.18, 'mdd': -1.1, 'sharpe': 0.0, 'vol': 0.1, 'same_risk': 0.0}
+c25_W6_t5_f60 {'cagr': -0.01, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.22, 'mdd': -1.5, 'sharpe': 0.0, 'vol': 0.1, 'same_risk': 0.0}
+c25_W6_t5_f72 {'cagr': -0.03, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.26, 'mdd': -1.9, 'sharpe': 0.0, 'vol': 0.2, 'same_risk': 0.0}
+c25_W6_t6_f48 {'cagr': -0.07, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.0, 'same_risk': -0.14} | {'cagr': 0.22, 'mdd': -0.7, 'sharpe': 0.01, 'vol': 0.1, 'same_risk': 0.15}
+c25_W6_t6_f60 {'cagr': -0.07, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.25, 'mdd': -0.9, 'sharpe': 0.01, 'vol': 0.1, 'same_risk': 0.15}
+c25_W6_t6_f72 {'cagr': -0.1, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.1, 'same_risk': -0.14} | {'cagr': 0.3, 'mdd': -1.1, 'sharpe': 0.01, 'vol': 0.2, 'same_risk': 0.15}
+c10 {'oos_cagr_pos': 24, 'n': 27, 'oos_same_risk_mean': 0.14, 'oos_cagr_mean': 0.46, 'is_cagr_mean': -0.03}
+c25 {'oos_cagr_pos': 24, 'n': 27, 'oos_same_risk_mean': 0.08, 'oos_cagr_mean': 0.39, 'is_cagr_mean': -0.04}
