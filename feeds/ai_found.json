@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "앱러빈, 사상 최대 3분기·강한 전망에 30% 급등 — 매그나이트 +17%",
+   "url": "https://247wallst.com/investing/2026/11/05/applovin-soars-30-on-record-quarter-and-strong-outlook-magnite-surges-17-trade-desk-falls-2/",
+   "press": "24/7 Wall St.",
+   "at": "2026-11-06 14:40",
+   "why": "⚡ APP bet(📈 PEAD 11/5 신호) — 나스닥 −5.5% 날 실적 주도 역행 상승",
+   "summary": "11/5 APP 약 +30%, MGNI +17%, TTD −2%. 광고 테크 안에서도 실적 차별화."
+  },
+  {
+   "title": "코스피 9개월 만에 5000선 붕괴…올해 11번째 서킷브레이커",
+   "url": "https://www.news1.kr/finance/market-exr/6345161",
+   "press": "뉴스1",
+   "at": "2026-11-06 14:40",
+   "why": "🐻 하락장 판정·CB 다음 날 069500 그림자 아이디어 — 올해 CB 11번째라 표본이 생각보다 많다",
+   "summary": "11/6 개장 직후 8%대↓ CB, 5,000 붕괴. 올해 11번째 CB(뉴스1). 종가는 미확인."
+  },
+  {
+   "title": "다우 1,800p 폭락·나스닥 조정 진입 — AI 매도 라이브",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
+   "press": "Yahoo Finance",
+   "at": "2026-11-06 14:40",
+   "why": "반도체·AI 소프트웨어 칸 — 11/5 美 마감 정리, 고용 전 출발점",
+   "summary": "S&P −4.36%(7,353)·나스닥 −5.52%·다우 −3.44%, VIX 28.18(+70%) (latest.json)."
+  },
+  {
    "title": "대만 증시 사상 최대 낙폭, 한국 매매 중단 — AI 투매 가속",
    "url": "https://asia.nikkei.com/business/markets/south-korean-exchange-halts-trading-as-ai-stock-sell-off-accelerates",
    "press": "Nikkei Asia",
@@ -615,31 +639,7 @@
    "at": "2026-11-04 04:45",
    "why": "에너지 컵 bets 손절이 몰린 「지정학 왕복」 구간 확인 — 원유형 컵 bet 보류 규칙(ideas 11/03 04:35) 근거",
    "summary": "미·이란 외교 기대로 브렌트 110$ 하회 · 골드만 꼬리위험 140$ · 현재 WTI 96$ 안팎(latest)"
-  },
-  {
-   "title": "엔비디아 등 빅테크가 월가 끌어올려 — 애플 하락 상쇄",
-   "url": "https://www.washingtontimes.com/news/2026/nov/3/nvidia-big-tech-stocks-lifting-wall-street-make-drop-apple/",
-   "press": "AP/Washington Times",
-   "at": "2026-11-04 04:45",
-   "why": "🐻 하락장 watch — 선거일 칩 반등이 지수를 받치는 구조(폭은 여전히 좁음)",
-   "summary": "S&P 7,577(+0.48%)·나스닥 25,398(+0.93%)·다우 −0.31%·VIX 20.6(CNBC 14:10 EST) · 10년 4.948%"
-  },
-  {
-   "title": "엔비디아, 11/6 네이버 1조원 지분 대금 납입 — 3대 주주로",
-   "url": "https://www.digitaltoday.co.kr/en/view/121589/nvidia-to-pay-1-billion-in-naver-equity-investment-on-nov-6-set-to-become-third-largest-shareholder",
-   "press": "디지털투데이",
-   "at": "2026-11-04 03:36",
-   "why": "한국 AI 소프트웨어 쪽 외국 전략자금 유입 날짜(11/6) — 코스피 하락장 속 외국인 매도 멈춤 판정(watch)과 별개로 보는 이벤트",
-   "summary": "엔비디아가 11/6 약 10억$(1.3조 원) 신주 대금을 납입해 지분 4%대·3대 주주가 된다. 7월 발표된 건의 납입 일정 확정."
-  },
-  {
-   "title": "네이버, 나머지 90억$ 브룩필드 주선 조달 추진 — 엔비디아 3대 주주",
-   "url": "https://www.koreaherald.com/article/10821497",
-   "press": "Korea Herald",
-   "at": "2026-11-04 03:36",
-   "why": "AI 인프라 조달 규모가 한국 기업까지 번짐 — AI 크레딧 가설(0.92)의 아시아 쪽 사례",
-   "summary": "엔비디아 10억$ 지분투자 외 나머지 약 90억$를 브룩필드 주선 자금으로 조달 추진. 대형 AI 투자 자금이 부채·외부 자본에 기대는 흐름."
   }
  ],
- "at": "2026-11-06 10:40"
+ "at": "2026-11-06 14:40"
 }
