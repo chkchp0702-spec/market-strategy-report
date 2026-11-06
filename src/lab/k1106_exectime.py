@@ -99,8 +99,9 @@ def run(C, ON, ID, reg, idx, sc, sig, fs, G, Rd, mode, cost, band=0.05):
 
 def main():
     C = load()
-    px = ydl(["^IRX", "SPY", "QQQ", "GLD"] + TREND_U, start="2006-01-01")
+    px = ydl(["^IRX", "IEF", "SPY", "QQQ", "GLD"] + TREND_U, start="2006-01-01")
     irx = px.pop("^IRX")["close"]
+    C["IEF"] = px.pop("IEF")["close"].reindex(C.index).ffill()
     O = {}
     for k in ["SPY", "QQQ", "GLD"]:
         O[k] = px.pop(k)
