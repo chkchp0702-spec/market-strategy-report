@@ -6211,6 +6211,70 @@
 "src": "ins",
 "score": 71.5,
 "note": "기회형 내부자 3명 · 646천 달러 (10일 안 공시)"
+},
+"BAH|2026-11-06": {
+"code": "BAH",
+"name": "Booz Allen Hamilton Holding Corporatio",
+"mkt": "US",
+"d": "2026-11-06",
+"src": "cup_eye",
+"score": 71.9,
+"lv": 84.97,
+"max20": 6.4,
+"id60": -0.05
+},
+"HTFL|2026-11-06": {
+"code": "HTFL",
+"name": "Heartflow, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-11-06",
+"src": "cup_eye",
+"score": 62.1,
+"lv": 51.24,
+"max20": 9.0,
+"id60": 0.033
+},
+"STE|2026-11-06": {
+"code": "STE",
+"name": "STERIS plc (Ireland) Ordinary Shares",
+"mkt": "US",
+"d": "2026-11-06",
+"src": "cup_eye",
+"score": 62.0,
+"lv": 234.57,
+"max20": 7.2,
+"id60": 0.167
+},
+"PLSE|2026-11-06": {
+"code": "PLSE",
+"name": "Pulse Biosciences, Inc - Common Stock",
+"mkt": "US",
+"d": "2026-11-06",
+"src": "cup_eye",
+"score": 44.3,
+"lv": 56.57,
+"max20": 9.3,
+"id60": 0.0
+},
+"LTH|2026-11-06": {
+"code": "LTH",
+"name": "Life Time Group Holdings, Inc. Common ",
+"mkt": "US",
+"d": "2026-11-06",
+"src": "cup_eye",
+"score": 38.1,
+"lv": 47.37,
+"max20": 6.3,
+"id60": -0.1
+},
+"CRCT|2026-11-06|e": {
+"code": "CRCT",
+"name": "Cricut, Inc. - Class A common stock",
+"mkt": "US",
+"d": "2026-11-06",
+"src": "earn",
+"score": 64.2,
+"lv": 6.82
 }
 },
 "sent": [
@@ -6227,7 +6291,8 @@
 "2026-10-16|팔기|OKTA",
 "2026-11-04|팔기|LIFE",
 "2026-11-04|팔기|PR",
-"2026-11-05|팔기|LGND"
+"2026-11-05|팔기|LGND",
+"2026-11-06|팔기|PAGP"
 ],
 "whale": [
 "BKNG",
