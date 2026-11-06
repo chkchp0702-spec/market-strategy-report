@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "대만 증시 사상 최대 낙폭, 한국 매매 중단 — AI 투매 가속",
+   "url": "https://asia.nikkei.com/business/markets/south-korean-exchange-halts-trading-as-ai-stock-sell-off-accelerates",
+   "press": "Nikkei Asia",
+   "at": "2026-11-06 13:40",
+   "why": "반도체 칸·091160 관찰 — 대만 가권 장중 약 9% 폭락이 사상 최대 낙폭으로 기록, 아시아 반도체 투매의 정점 여부",
+   "summary": "대만 가권 장중 한때 약 9% 하락(einfomax 상보 동일)·닛케이 장중 7%↓·코스피 CB. 세부 종가는 미확인."
+  },
+  {
+   "title": "Bloomberg 美 증시 라이브 11/6 — 고용 지표 앞 선물 반등",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-05/stock-market-today-dow-s-p-live-updates",
+   "press": "Bloomberg",
+   "at": "2026-11-06 13:40",
+   "why": "🗳️ 중간선거·🐻 하락장 판정 watch — 오늘 밤 10월 고용이 투매 이후 첫 변곡",
+   "summary": "「2020 이후 최악의 투매, 숨을 곳 없다」(gn_bbg) 뒤 다우 선물 상승(gn_us_fed). 선물 수치는 미확인."
+  },
+  {
    "title": "코스피 8% 급락 서킷브레이커·5,000 붕괴, 닛케이 −6% — 하닉·삼전 10%↑ 급락",
    "url": "https://www.tradingkey.com/analysis/stocks/more/262287971-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-mu-sox-tradingkey",
    "press": "TradingKey",
@@ -623,22 +639,6 @@
    "at": "2026-11-04 03:36",
    "why": "AI 인프라 조달 규모가 한국 기업까지 번짐 — AI 크레딧 가설(0.92)의 아시아 쪽 사례",
    "summary": "엔비디아 10억$ 지분투자 외 나머지 약 90억$를 브룩필드 주선 자금으로 조달 추진. 대형 AI 투자 자금이 부채·외부 자본에 기대는 흐름."
-  },
-  {
-   "title": "코어위브 채권, 부실채권처럼 거래 — AI 지출이 재무구조를 앞질러",
-   "url": "https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/",
-   "press": "investingLive",
-   "at": "2026-11-04 02:45",
-   "why": "🧠 AI 크레딧 가설(0.92)의 핵심 확인 지표 — 네오클라우드 부채 스트레스가 하이퍼스케일러 채권으로 번지는지",
-   "summary": "코어위브 회사채 수익률 15% 안팎·주가 13~16% 급락 보도. 사모신용의 AI 데이터센터 대출 위험이 부각."
-  },
-  {
-   "title": "골드만 집계: 올해 AI 관련 채권 발행 5,000억$, 연말 7,500억$ 페이스(FT)",
-   "url": "https://aiweekly.co/alerts/ft-goldman-sachs-tallies-500b-in-ai-linked-debt-issued-in-2026-track-to-hit",
-   "press": "AI Weekly(FT 인용)",
-   "at": "2026-11-04 02:45",
-   "why": "하이퍼스케일러 채권 발행 누적 = AI 칸 비중 신호(ideas 11/03 22:45)의 숫자 근거",
-   "summary": "2026년 AI 연계 부채 5,000억$ 발행, 연말 7,500억$ 예상. 메타 추가 200억$ 채권 계획 보도와 같은 줄기."
   }
  ],
  "at": "2026-11-06 10:40"
