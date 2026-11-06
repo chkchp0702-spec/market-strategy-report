@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "코스피 8% 급락에 서킷브레이커 — 3개월 만 최저권",
+   "url": "https://finance.yahoo.com/markets/world-indices/articles/kospi-hits-near-3-month-050357728.html",
+   "press": "Yahoo Finance",
+   "at": "2026-11-06 09:45",
+   "why": "🐻 현금화 watch·반도체 칸 — 美 SOX −12% 충격이 한국 지수 매매중단까지 번짐",
+   "summary": "코스피 장중 8%대 하락으로 5,000선 붕괴·서킷브레이커 발동(20분 매매중단). 삼전 −9%·하닉 −11%대(연합 속보). 코스닥 이틀 연속 매도 사이드카."
+  },
+  {
+   "title": "아시아 증시, 코스피 매매중단 속 기술주 투매 — 중국은 상대 강세",
+   "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-mixed-chip-rout-042442281.html",
+   "press": "Yahoo Finance/Investing.com",
+   "at": "2026-11-06 09:45",
+   "why": "아시아 비중 — 반도체 국가(한·일·대만) vs 중국 분화, 집중 ETF 국가 선택에 참고",
+   "summary": "칩 투매로 코스피 매매중단, 일본도 하락. 중국 본토는 상대적으로 선방(게재 시각 미확인)."
+  },
+  {
    "title": "민주당 지도부 「데이터센터 모라토리엄」 요구에 반발 확산",
    "url": "https://news.bgov.com/bloomberg-government-news/top-democrats-call-for-data-center-moratorium-stokes-opposition",
    "press": "Bloomberg Government",
@@ -623,22 +639,6 @@
    "at": "2026-11-04 01:40",
    "why": "中 AI 거품 논쟁 — 한국 반도체 칸 수급(외국인 −1.5조)과 같은 뿌리인지 확인용",
    "summary": "AI 관련 중국주 급락 배경 정리 · 수익 대비 과열된 밸류·당국 규제 강화 우려"
-  },
-  {
-   "title": "AMD +5%·인텔 +4% — AMD 실적 앞두고 칩주 반등",
-   "url": "https://247wallst.com/investing/2026/11/03/amd-advances-5-intel-rises-4-marvell-gains-2-as-chip-stocks-bounce-ahead-of-amd-earnings",
-   "press": "24/7 Wall St.",
-   "at": "2026-11-04 01:40",
-   "why": "반도체 칸 7% — 11/3 장 마감 뒤 AMD 실적이 칩 반등 지속 여부를 가른다",
-   "summary": "11/3 장중 AMD +5%·INTC +4%·MRVL +2% · AMD 3분기 실적 장 마감 뒤 발표(숫자 미확인)"
-  },
-  {
-   "title": "골드만 몰라비 「S&P 500 종목 60%가 하락장 영역」 — 지수는 고점 3% 안",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-03/goldman-s-molavi-says-60-of-s-p-500-is-in-bear-market-territory",
-   "press": "Bloomberg",
-   "at": "2026-11-04 00:01",
-   "why": "🐻 하락장 판정 watch·포트 미국 칸 — 지수(시총가중)와 종목 체력이 갈라진 정도",
-   "summary": "S&P 500 지수는 최고치 대비 약 3% 이내인데 구성 종목의 60%는 하락장(−20%↓) 영역 · 소수 대형주가 지수를 떠받치는 폭 붕괴 구간"
   }
  ],
  "at": "2026-11-06 07:40"
