@@ -1,226 +1,270 @@
 {
-"at": "2026-11-05 11:35",
+"at": "2026-11-06 11:34",
 "signals": [
 {
 "src": "pead",
-"code": "CNC",
-"name": "Centene Corporation Common Stock",
+"code": "ACHC",
+"name": "Acadia Healthcare Company, Inc.",
 "mkt": "US",
-"d": "2026-11-04",
-"vr": 3.2,
-"gap": 4.7,
-"px": 76.01,
-"score": 16.0
-},
-{
-"src": "pead",
-"code": "CRCT",
-"name": "Cricut, Inc. - Class A common stock",
-"mkt": "US",
-"d": "2026-11-04",
-"vr": 11.5,
-"gap": 17.3,
-"px": 8.88,
-"score": 30.0
-},
-{
-"src": "pead",
-"code": "FLYW",
-"name": "Flywire Corporation - Voting Common Stock",
-"mkt": "US",
-"d": "2026-11-04",
-"vr": 4.5,
-"gap": 9.1,
-"px": 21.81,
-"score": 22.6
-},
-{
-"src": "pead",
-"code": "GIC",
-"name": "Global Industrial Company Common Stock",
-"mkt": "US",
-"d": "2026-11-04",
+"d": "2026-11-05",
 "vr": 3.4,
-"gap": 9.9,
-"px": 47.57,
-"score": 17.0
+"gap": 15.3,
+"px": 34.79,
+"score": 17.2
 },
 {
 "src": "pead",
-"code": "HELE",
-"name": "Helen of Troy Limited",
+"code": "ADMA",
+"name": "ADMA Biologics Inc",
 "mkt": "US",
-"d": "2026-11-04",
-"vr": 6.2,
-"gap": 15.4,
-"px": 37.04,
-"score": 30.0
+"d": "2026-11-05",
+"vr": 4.9,
+"gap": 14.6,
+"px": 13.21,
+"score": 24.6
 },
 {
 "src": "pead",
-"code": "KD",
-"name": "Kyndryl Holdings, Inc. Common Stock",
+"code": "APP",
+"name": "Applovin Corporation",
 "mkt": "US",
-"d": "2026-11-04",
-"vr": 3.8,
-"gap": 15.2,
-"px": 16.84,
-"score": 19.0
-},
-{
-"src": "pead",
-"code": "LIVN",
-"name": "LivaNova PLC",
-"mkt": "US",
-"d": "2026-11-04",
-"vr": 6.1,
-"gap": 12.2,
-"px": 94.19,
-"score": 30.0
-},
-{
-"src": "pead",
-"code": "OPRT",
-"name": "Oportun Financial Corporation - common stock",
-"mkt": "US",
-"d": "2026-11-04",
+"d": "2026-11-05",
 "vr": 4.6,
-"gap": 19.5,
-"px": 13.01,
-"score": 22.9
+"gap": 28.7,
+"px": 356.1,
+"score": 23.2
 },
 {
 "src": "pead",
-"code": "PCOR",
-"name": "Procore Technologies, Inc. Common Stock",
+"code": "ARDT",
+"name": "Ardent Health, Inc. Common Stock",
 "mkt": "US",
-"d": "2026-11-04",
+"d": "2026-11-05",
+"vr": 5.4,
+"gap": 12.8,
+"px": 15.9,
+"score": 27.2
+},
+{
+"src": "pead",
+"code": "BSY",
+"name": "Bentley Systems, Incorporated",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.9,
+"gap": 4.2,
+"px": 44.94,
+"score": 19.5
+},
+{
+"src": "pead",
+"code": "CARS",
+"name": "Cars.com Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.1,
+"gap": 5.1,
+"px": 13.56,
+"score": 15.6
+},
+{
+"src": "pead",
+"code": "COLD",
+"name": "Americold Realty Trust, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.3,
+"gap": 4.0,
+"px": 15.81,
+"score": 16.6
+},
+{
+"src": "pead",
+"code": "CPAY",
+"name": "Corpay, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.8,
+"gap": 8.6,
+"px": 447.0,
+"score": 18.9
+},
+{
+"src": "pead",
+"code": "DEO",
+"name": "Diageo plc Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.6,
+"gap": 3.1,
+"px": 100.25,
+"score": 17.8
+},
+{
+"src": "pead",
+"code": "ENOV",
+"name": "Enovis Corporation Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
 "vr": 3.2,
-"gap": 6.0,
-"px": 75.6,
+"gap": 16.4,
+"px": 28.62,
 "score": 15.8
 },
 {
 "src": "pead",
-"code": "SHLS",
-"name": "Shoals Technologies Group, Inc.",
+"code": "EPAM",
+"name": "EPAM Systems, Inc. Common Stock",
 "mkt": "US",
-"d": "2026-11-04",
-"vr": 6.7,
-"gap": 4.6,
-"px": 9.16,
-"score": 30.0
+"d": "2026-11-05",
+"vr": 3.3,
+"gap": 13.7,
+"px": 165.7,
+"score": 16.6
 },
 {
 "src": "pead",
-"code": "SWK",
-"name": "Stanley Black & Decker, Inc. Common Stock",
+"code": "FWONA",
+"name": "Liberty Media Corporation - Series A Common Stock",
 "mkt": "US",
-"d": "2026-11-04",
+"d": "2026-11-05",
+"vr": 4.2,
+"gap": 7.7,
+"px": 99.72,
+"score": 20.8
+},
+{
+"src": "pead",
+"code": "IBN",
+"name": "ICICI Bank Limited Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
 "vr": 4.0,
-"gap": 6.6,
-"px": 118.33,
-"score": 20.2
-},
-{
-"src": "pead",
-"code": "TREE",
-"name": "LendingTree, Inc.",
-"mkt": "US",
-"d": "2026-11-04",
-"vr": 4.3,
-"gap": 9.6,
-"px": 38.35,
-"score": 21.5
-},
-{
-"src": "pead",
-"code": "TREX",
-"name": "Trex Company, Inc. Common Stock",
-"mkt": "US",
-"d": "2026-11-04",
-"vr": 3.5,
-"gap": 7.9,
-"px": 57.15,
-"score": 17.7
-},
-{
-"src": "pead",
-"code": "TRNS",
-"name": "Transcat, Inc.",
-"mkt": "US",
-"d": "2026-11-04",
-"vr": 5.5,
-"gap": 10.6,
-"px": 108.13,
-"score": 27.7
-},
-{
-"src": "pead",
-"code": "VRDN",
-"name": "Viridian Therapeutics, Inc.",
-"mkt": "US",
-"d": "2026-11-04",
-"vr": 6.0,
-"gap": 12.4,
-"px": 29.055,
-"score": 30.0
-},
-{
-"src": "pead",
-"code": "XYZ",
-"name": "Block, Inc. Class A Common Stock,",
-"mkt": "US",
-"d": "2026-11-04",
-"vr": 4.7,
-"gap": 10.5,
-"px": 87.63,
-"score": 23.4
-},
-{
-"src": "pead",
-"code": "YOU",
-"name": "Clear Secure, Inc. Class A Common Stock",
-"mkt": "US",
-"d": "2026-11-04",
-"vr": 4.0,
-"gap": 7.6,
-"px": 59.08,
+"gap": 3.8,
+"px": 32.53,
 "score": 19.8
 },
 {
 "src": "pead",
-"code": "ZBH",
-"name": "Zimmer Biomet Holdings, Inc. Common Stock",
+"code": "MGNI",
+"name": "Magnite, Inc.",
 "mkt": "US",
-"d": "2026-11-04",
-"vr": 3.1,
-"gap": 9.1,
-"px": 110.15,
-"score": 15.4
+"d": "2026-11-05",
+"vr": 4.5,
+"gap": 13.0,
+"px": 27.52,
+"score": 22.6
+},
+{
+"src": "pead",
+"code": "PLMR",
+"name": "Palomar Holdings, Inc. - Common stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.0,
+"gap": 4.1,
+"px": 155.67,
+"score": 15.2
+},
+{
+"src": "pead",
+"code": "PTLO",
+"name": "Portillo's Inc.",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 5.3,
+"gap": 10.8,
+"px": 7.02,
+"score": 26.5
+},
+{
+"src": "pead",
+"code": "SEZL",
+"name": "Sezzle Inc.",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 4.0,
+"gap": 26.4,
+"px": 155.0,
+"score": 19.9
+},
+{
+"src": "pead",
+"code": "TM",
+"name": "Toyota Motor Corporation Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.4,
+"gap": 9.6,
+"px": 218.11,
+"score": 17.0
+},
+{
+"src": "pead",
+"code": "U",
+"name": "Unity Software Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 5.0,
+"gap": 13.2,
+"px": 48.8,
+"score": 25.2
+},
+{
+"src": "pead",
+"code": "VCEL",
+"name": "Vericel Corporation",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 4.8,
+"gap": 11.1,
+"px": 51.78,
+"score": 24.0
+},
+{
+"src": "pead",
+"code": "VERX",
+"name": "Vertex, Inc.",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.6,
+"gap": 14.4,
+"px": 17.59,
+"score": 18.0
+},
+{
+"src": "pead",
+"code": "XERS",
+"name": "Xeris Biopharma Holdings, Inc.",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 4.9,
+"gap": 19.6,
+"px": 13.08,
+"score": 24.6
 }
 ],
 "state": {
 "index_KR": {
 "sym": "^KS11",
 "above200": false,
-"d": "2026-11-05"
+"d": "2026-11-06"
 },
-"scanned_KR": 2612,
+"scanned_KR": 2613,
 "us_source": "US.json 전 종목 5940 + ETF 4929 (2026-11-01)",
 "index_US": {
 "sym": "^GSPC",
 "above200": true,
-"d": "2026-11-04"
+"d": "2026-11-05"
 },
-"scanned_US": 9143,
+"scanned_US": 9144,
 "dip": {
 "sym": "QQQ",
-"d": "2026-11-04",
-"close": 691.95,
-"ma200": 679.44,
-"ma5": 692.83,
-"rsi2": 59.7,
+"d": "2026-11-05",
+"close": 647.05,
+"ma200": 679.61,
+"ma5": 679.17,
+"rsi2": 8.7,
 "th": 5.0,
 "signal": false
 },
@@ -230,74 +274,74 @@
 "GLD": {
 "on": false,
 "since": "2026-03-23",
-"close": 372.49,
+"close": 375.49,
 "hi": 429.42,
 "lo": 354.67,
-"d": "2026-11-04"
+"d": "2026-11-05"
 },
 "USO": {
 "on": true,
 "since": "2026-09-10",
-"close": 145.41,
+"close": 148.21,
 "hi": 171.82,
 "lo": 125.41,
-"d": "2026-11-04"
+"d": "2026-11-05"
 },
 "TLT": {
 "on": false,
 "since": null,
-"close": 81.76,
+"close": 81.93,
 "hi": 86.78,
 "lo": 76.43,
-"d": "2026-11-04"
+"d": "2026-11-05"
 },
 "UUP": {
 "on": true,
 "since": "2026-03-12",
-"close": 28.9,
+"close": 28.92,
 "hi": 29.25,
 "lo": 27.92,
-"d": "2026-11-04"
+"d": "2026-11-05"
 },
 "SPY": {
-"on": true,
-"since": "2026-04-15",
-"close": 766.81,
+"on": false,
+"since": "2026-11-05",
+"close": 733.0,
 "hi": 781.62,
 "lo": 747.74,
-"d": "2026-11-04"
+"d": "2026-11-05"
 },
 "QQQ": {
 "on": false,
 "since": "2026-10-30",
-"close": 691.95,
+"close": 647.05,
 "hi": 762.86,
 "lo": 680.33,
-"d": "2026-11-04"
+"d": "2026-11-05"
 },
 "EFA": {
 "on": true,
 "since": "2026-07-06",
-"close": 105.72,
+"close": 102.7,
 "hi": 108.89,
 "lo": 102.0,
-"d": "2026-11-04"
+"d": "2026-11-05"
 },
 "EEM": {
 "on": false,
 "since": "2026-07-29",
-"close": 61.62,
+"close": 58.05,
 "hi": 71.57,
 "lo": 60.58,
-"d": "2026-11-04"
+"d": "2026-11-05"
 },
 "DBC": {
 "on": true,
 "since": "2026-09-01",
-"close": 31.29,
+"close": 31.47,
 "hi": 34.14,
 "lo": 30.27,
-"d": "2026-11-04"
+"d": "2026-11-05"
 }
 }
 }
@@ -949,6 +993,248 @@
 "gap": 9.1,
 "px": 110.15,
 "score": 15.4
+},
+{
+"src": "pead",
+"code": "ACHC",
+"name": "Acadia Healthcare Company, Inc.",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.4,
+"gap": 15.3,
+"px": 34.79,
+"score": 17.2
+},
+{
+"src": "pead",
+"code": "ADMA",
+"name": "ADMA Biologics Inc",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 4.9,
+"gap": 14.6,
+"px": 13.21,
+"score": 24.6
+},
+{
+"src": "pead",
+"code": "APP",
+"name": "Applovin Corporation",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 4.6,
+"gap": 28.7,
+"px": 356.1,
+"score": 23.2
+},
+{
+"src": "pead",
+"code": "ARDT",
+"name": "Ardent Health, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 5.4,
+"gap": 12.8,
+"px": 15.9,
+"score": 27.2
+},
+{
+"src": "pead",
+"code": "BSY",
+"name": "Bentley Systems, Incorporated",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.9,
+"gap": 4.2,
+"px": 44.94,
+"score": 19.5
+},
+{
+"src": "pead",
+"code": "CARS",
+"name": "Cars.com Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.1,
+"gap": 5.1,
+"px": 13.56,
+"score": 15.6
+},
+{
+"src": "pead",
+"code": "COLD",
+"name": "Americold Realty Trust, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.3,
+"gap": 4.0,
+"px": 15.81,
+"score": 16.6
+},
+{
+"src": "pead",
+"code": "CPAY",
+"name": "Corpay, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.8,
+"gap": 8.6,
+"px": 447.0,
+"score": 18.9
+},
+{
+"src": "pead",
+"code": "DEO",
+"name": "Diageo plc Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.6,
+"gap": 3.1,
+"px": 100.25,
+"score": 17.8
+},
+{
+"src": "pead",
+"code": "ENOV",
+"name": "Enovis Corporation Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.2,
+"gap": 16.4,
+"px": 28.62,
+"score": 15.8
+},
+{
+"src": "pead",
+"code": "EPAM",
+"name": "EPAM Systems, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.3,
+"gap": 13.7,
+"px": 165.7,
+"score": 16.6
+},
+{
+"src": "pead",
+"code": "FWONA",
+"name": "Liberty Media Corporation - Series A Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 4.2,
+"gap": 7.7,
+"px": 99.72,
+"score": 20.8
+},
+{
+"src": "pead",
+"code": "IBN",
+"name": "ICICI Bank Limited Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 4.0,
+"gap": 3.8,
+"px": 32.53,
+"score": 19.8
+},
+{
+"src": "pead",
+"code": "MGNI",
+"name": "Magnite, Inc.",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 4.5,
+"gap": 13.0,
+"px": 27.52,
+"score": 22.6
+},
+{
+"src": "pead",
+"code": "PLMR",
+"name": "Palomar Holdings, Inc. - Common stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.0,
+"gap": 4.1,
+"px": 155.67,
+"score": 15.2
+},
+{
+"src": "pead",
+"code": "PTLO",
+"name": "Portillo's Inc.",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 5.3,
+"gap": 10.8,
+"px": 7.02,
+"score": 26.5
+},
+{
+"src": "pead",
+"code": "SEZL",
+"name": "Sezzle Inc.",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 4.0,
+"gap": 26.4,
+"px": 155.0,
+"score": 19.9
+},
+{
+"src": "pead",
+"code": "TM",
+"name": "Toyota Motor Corporation Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.4,
+"gap": 9.6,
+"px": 218.11,
+"score": 17.0
+},
+{
+"src": "pead",
+"code": "U",
+"name": "Unity Software Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 5.0,
+"gap": 13.2,
+"px": 48.8,
+"score": 25.2
+},
+{
+"src": "pead",
+"code": "VCEL",
+"name": "Vericel Corporation",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 4.8,
+"gap": 11.1,
+"px": 51.78,
+"score": 24.0
+},
+{
+"src": "pead",
+"code": "VERX",
+"name": "Vertex, Inc.",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 3.6,
+"gap": 14.4,
+"px": 17.59,
+"score": 18.0
+},
+{
+"src": "pead",
+"code": "XERS",
+"name": "Xeris Biopharma Holdings, Inc.",
+"mkt": "US",
+"d": "2026-11-05",
+"vr": 4.9,
+"gap": 19.6,
+"px": 13.08,
+"score": 24.6
 }
 ]
 }
