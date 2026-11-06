@@ -6275,6 +6275,33 @@
 "src": "earn",
 "score": 64.2,
 "lv": 6.82
+},
+"MHD|2026-10-31": {
+"code": "MHD",
+"name": "Blackrock MuniHoldings Fund, Inc. Comm",
+"mkt": "US",
+"d": "2026-10-31",
+"src": "accum",
+"score": 63.0,
+"lv": 10.96
+},
+"NVG|2026-10-31": {
+"code": "NVG",
+"name": "Nuveen AMT-Free Municipal Credit Incom",
+"mkt": "US",
+"d": "2026-10-31",
+"src": "accum",
+"score": 59.0,
+"lv": 11.57
+},
+"MYI|2026-10-31": {
+"code": "MYI",
+"name": "Blackrock MuniYield Quality Fund III, ",
+"mkt": "US",
+"d": "2026-10-31",
+"src": "accum",
+"score": 44.0,
+"lv": 10.26
 }
 },
 "sent": [
