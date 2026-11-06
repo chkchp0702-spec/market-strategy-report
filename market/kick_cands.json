@@ -6026,6 +6026,191 @@
 "src": "cup",
 "score": 56.9,
 "lv": 2196.19
+},
+"ACHC|2026-11-05|pead": {
+"code": "ACHC",
+"name": "Acadia Healthcare Company, Inc.",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 67.2
+},
+"ADMA|2026-11-05|pead": {
+"code": "ADMA",
+"name": "ADMA Biologics Inc",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 74.6
+},
+"APP|2026-11-05|pead": {
+"code": "APP",
+"name": "Applovin Corporation",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 73.2
+},
+"ARDT|2026-11-05|pead": {
+"code": "ARDT",
+"name": "Ardent Health, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 77.2
+},
+"BSY|2026-11-05|pead": {
+"code": "BSY",
+"name": "Bentley Systems, Incorporated",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 69.5
+},
+"CARS|2026-11-05|pead": {
+"code": "CARS",
+"name": "Cars.com Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 65.6
+},
+"COLD|2026-11-05|pead": {
+"code": "COLD",
+"name": "Americold Realty Trust, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 66.6
+},
+"CPAY|2026-11-05|pead": {
+"code": "CPAY",
+"name": "Corpay, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 68.9
+},
+"DEO|2026-11-05|pead": {
+"code": "DEO",
+"name": "Diageo plc Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 67.8
+},
+"ENOV|2026-11-05|pead": {
+"code": "ENOV",
+"name": "Enovis Corporation Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 65.8
+},
+"EPAM|2026-11-05|pead": {
+"code": "EPAM",
+"name": "EPAM Systems, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 66.6
+},
+"FWONA|2026-11-05|pead": {
+"code": "FWONA",
+"name": "Liberty Media Corporation - Series A Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 70.8
+},
+"IBN|2026-11-05|pead": {
+"code": "IBN",
+"name": "ICICI Bank Limited Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 69.8
+},
+"MGNI|2026-11-05|pead": {
+"code": "MGNI",
+"name": "Magnite, Inc.",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 72.6
+},
+"PLMR|2026-11-05|pead": {
+"code": "PLMR",
+"name": "Palomar Holdings, Inc. - Common stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 65.2
+},
+"PTLO|2026-11-05|pead": {
+"code": "PTLO",
+"name": "Portillo's Inc.",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 76.5
+},
+"SEZL|2026-11-05|pead": {
+"code": "SEZL",
+"name": "Sezzle Inc.",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 69.9
+},
+"TM|2026-11-05|pead": {
+"code": "TM",
+"name": "Toyota Motor Corporation Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 67.0
+},
+"U|2026-11-05|pead": {
+"code": "U",
+"name": "Unity Software Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 75.2
+},
+"VCEL|2026-11-05|pead": {
+"code": "VCEL",
+"name": "Vericel Corporation",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 74.0
+},
+"VERX|2026-11-05|pead": {
+"code": "VERX",
+"name": "Vertex, Inc.",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 68.0
+},
+"XERS|2026-11-05|pead": {
+"code": "XERS",
+"name": "Xeris Biopharma Holdings, Inc.",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "pead",
+"score": 74.6
+},
+"LBRT|2026-11-05|ins": {
+"code": "LBRT",
+"name": "LBRT",
+"mkt": "US",
+"d": "2026-11-05",
+"src": "ins",
+"score": 71.5,
+"note": "기회형 내부자 3명 · 646천 달러 (10일 안 공시)"
 }
 },
 "sent": [
