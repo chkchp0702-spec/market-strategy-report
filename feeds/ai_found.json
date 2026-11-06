@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "코스피 8% 급락 서킷브레이커·5,000 붕괴, 닛케이 −6% — 하닉·삼전 10%↑ 급락",
+   "url": "https://www.tradingkey.com/analysis/stocks/more/262287971-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-mu-sox-tradingkey",
+   "press": "TradingKey",
+   "at": "2026-11-06 10:40",
+   "why": "반도체 칸·091160 관찰 — 美 SOX 충격이 한·일 반도체 동시 투매로",
+   "summary": "코스피 8% 급락으로 1단계 서킷브레이커·5,000 하회, 닛케이 −6%. SK하이닉스·삼성전자 10% 넘게 하락, 소프트뱅크·키옥시아 동반 급락."
+  },
+  {
+   "title": "美 증시 투매에 아시아 반도체 급락 — 하이닉스·삼성·소프트뱅크·TSMC",
+   "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
+   "press": "CNBC",
+   "at": "2026-11-06 10:40",
+   "why": "AI 차입 가설(0.92)·반도체 칸 — 대만 가권 장초 −8%까지 번져 아시아 AI 공급망 전체 디레버리징",
+   "summary": "나스닥 투매 여파로 아시아 반도체 일제히 급락. 대만 가권 장 초반 8% 하락(HANAchina/71633). 中 10년 국채 1.58% 사상 최저(안전자산 쏠림)."
+  },
+  {
    "title": "코스피 8% 급락에 서킷브레이커 — 3개월 만 최저권",
    "url": "https://finance.yahoo.com/markets/world-indices/articles/kospi-hits-near-3-month-050357728.html",
    "press": "Yahoo Finance",
@@ -623,23 +639,7 @@
    "at": "2026-11-04 02:45",
    "why": "하이퍼스케일러 채권 발행 누적 = AI 칸 비중 신호(ideas 11/03 22:45)의 숫자 근거",
    "summary": "2026년 AI 연계 부채 5,000억$ 발행, 연말 7,500억$ 예상. 메타 추가 200억$ 채권 계획 보도와 같은 줄기."
-  },
-  {
-   "title": "中 CSI 300, AI주 급락에 하락장 영역 진입",
-   "url": "https://www.investing.com/news/stock-market-news/chinas-csi-300-slips-into-bearmarket-territory-as-ai-rout-deepens-4964628",
-   "press": "Investing.com",
-   "at": "2026-11-04 01:40",
-   "why": "🐻 하락장 watch — 한국(코스피 −20%↓)·중국 동시 하락장, 아시아 AI 쏠림 해소 흐름",
-   "summary": "CSI 300 고점 대비 −20% 넘어 하락장 · AI·반도체 대형주 매도가 주도 · 같은 주 대만도 −3.8%"
-  },
-  {
-   "title": "중국 AI·테크 붐은 왜 증시를 못 살리나",
-   "url": "https://www.cnn.com/2026/10/30/markets/china-ai-stocks-selloff-intl-hnk",
-   "press": "CNN",
-   "at": "2026-11-04 01:40",
-   "why": "中 AI 거품 논쟁 — 한국 반도체 칸 수급(외국인 −1.5조)과 같은 뿌리인지 확인용",
-   "summary": "AI 관련 중국주 급락 배경 정리 · 수익 대비 과열된 밸류·당국 규제 강화 우려"
   }
  ],
- "at": "2026-11-06 07:40"
+ "at": "2026-11-06 10:40"
 }
