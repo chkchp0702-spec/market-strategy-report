@@ -60,14 +60,13 @@ def run(C, ON, ID, reg, idx, sc, sig, fs, G, Rd, mode, cost, band=0.05):
         if w is None:
             w = tg(i - 1, 0.0, 0.0); last = dict(w)
         tv_tot = 0.0
+        r1, w = drift(w, ON, d)          # 밤 몫은 옛 비중으로 (11/6 고침: 처음엔 체결을 밤 앞에 둬서 o1 = c0 이 됐음)
         # 시가 체결
         for p in [p for p in pend if p[0] == i and p[1] == "o"]:
             w, tv = trade(w, p[2], p[3]); tv_tot += tv
         pend = [p for p in pend if not (p[0] == i and p[1] == "o")]
-        r1, w = drift(w, ON, d)
-        r1 -= tv_tot * cost
         r2, w = drift(w, ID, d)
-        r = (1 + r1) * (1 + r2) - 1
+        r = (1 + r1) * (1 + r2) - 1 - tv_tot * cost * (1 + r1)
         tv_c = 0.0
         for p in [p for p in pend if p[0] == i and p[1] == "c"]:
             w, tv = trade(w, p[2], p[3]); tv_c += tv
