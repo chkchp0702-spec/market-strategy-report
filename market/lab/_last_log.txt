@@ -1,27 +1,12 @@
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3816, in get_loc
-    return self._engine.get_loc(casted_key)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "pandas/_libs/index.pyx", line 172, in pandas._libs.index.IndexEngine.get_loc
-  File "pandas/_libs/index.pyx", line 201, in pandas._libs.index.IndexEngine.get_loc
-  File "pandas/_libs/hashtable_class_helper.pxi", line 7726, in pandas._libs.hashtable.PyObjectHashTable.get_item
-  File "pandas/_libs/hashtable_class_helper.pxi", line 7734, in pandas._libs.hashtable.PyObjectHashTable.get_item
-KeyError: 'IEF'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/runner/work/market-strategy-report/market-strategy-report/src/lab/k1106_exectime.py", line 173, in <module>
-    main()
-  File "/home/runner/work/market-strategy-report/market-strategy-report/src/lab/k1106_exectime.py", line 117, in main
-    DM, DQ = drifts(C)
-             ^^^^^^^^^
-  File "/home/runner/work/market-strategy-report/market-strategy-report/src/lab/k1028_qflow.py", line 33, in drifts
-    S = C["SPY"].pct_change().fillna(0.0); B = C["IEF"].pct_change().fillna(0.0)
-                                               ~^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/core/frame.py", line 4330, in __getitem__
-    indexer = self.columns.get_loc(key)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3823, in get_loc
-    raise KeyError(key) from err
-KeyError: 'IEF'
+CHECK {'is': {'cagr': np.float64(14.84), 'vol': np.float64(14.2), 'mdd': np.float64(-16.3), 'sharpe': np.float64(1.05), 'ex': np.float64(5.81), 'win12': 64, 'beat_years': 7, 'years': 9, 'turn': 1015}, 'oos': {'cagr': np.float64(17.21), 'vol': np.float64(15.0), 'mdd': np.float64(-18.8), 'sharpe': np.float64(1.14), 'ex': np.float64(2.72), 'win12': 70, 'beat_years': 7, 'years': 10, 'turn': 1105}}
+0.001 c0 {'cagr': np.float64(14.84), 'vol': np.float64(14.2), 'mdd': np.float64(-16.3), 'sharpe': np.float64(1.05), 'ex': np.float64(5.81), 'win12': 64, 'beat_years': 7, 'years': 9, 'turn': 1015} {'cagr': np.float64(17.21), 'vol': np.float64(15.0), 'mdd': np.float64(-18.8), 'sharpe': np.float64(1.14), 'ex': np.float64(2.72), 'win12': 70, 'beat_years': 7, 'years': 10, 'turn': 1105}
+0.001 o1 {'cagr': np.float64(14.85), 'vol': np.float64(14.2), 'mdd': np.float64(-16.3), 'sharpe': np.float64(1.05), 'ex': np.float64(5.82), 'win12': 64, 'beat_years': 7, 'years': 9, 'turn': 1008} {'cagr': np.float64(17.22), 'vol': np.float64(15.0), 'mdd': np.float64(-18.8), 'sharpe': np.float64(1.14), 'ex': np.float64(2.72), 'win12': 70, 'beat_years': 7, 'years': 10, 'turn': 1109}
+0.001 c1 {'cagr': np.float64(11.28), 'vol': np.float64(14.2), 'mdd': np.float64(-18.3), 'sharpe': np.float64(0.82), 'ex': np.float64(2.26), 'win12': 39, 'beat_years': 5, 'years': 9, 'turn': 1008} {'cagr': np.float64(14.67), 'vol': np.float64(15.1), 'mdd': np.float64(-19.4), 'sharpe': np.float64(0.98), 'ex': np.float64(0.17), 'win12': 57, 'beat_years': 6, 'years': 10, 'turn': 1108}
+0.001 h1 {'cagr': np.float64(13.11), 'vol': np.float64(14.1), 'mdd': np.float64(-16.0), 'sharpe': np.float64(0.95), 'ex': np.float64(4.08), 'win12': 51, 'beat_years': 6, 'years': 9, 'turn': 1008} {'cagr': np.float64(15.98), 'vol': np.float64(14.9), 'mdd': np.float64(-18.8), 'sharpe': np.float64(1.07), 'ex': np.float64(1.48), 'win12': 66, 'beat_years': 7, 'years': 10, 'turn': 1108}
+0.001 o2 {'cagr': np.float64(11.8), 'vol': np.float64(14.2), 'mdd': np.float64(-15.9), 'sharpe': np.float64(0.86), 'ex': np.float64(2.78), 'win12': 41, 'beat_years': 5, 'years': 9, 'turn': 875} {'cagr': np.float64(15.17), 'vol': np.float64(15.1), 'mdd': np.float64(-18.6), 'sharpe': np.float64(1.02), 'ex': np.float64(0.67), 'win12': 63, 'beat_years': 5, 'years': 10, 'turn': 931}
+0.0025 c0 {'cagr': np.float64(13.1), 'vol': np.float64(14.2), 'mdd': np.float64(-16.5), 'sharpe': np.float64(0.94), 'ex': np.float64(4.07), 'win12': 48, 'beat_years': 5, 'years': 9, 'turn': 1015} {'cagr': np.float64(15.29), 'vol': np.float64(15.0), 'mdd': np.float64(-20.1), 'sharpe': np.float64(1.03), 'ex': np.float64(0.79), 'win12': 54, 'beat_years': 5, 'years': 10, 'turn': 1105}
+0.0025 o1 {'cagr': np.float64(13.12), 'vol': np.float64(14.2), 'mdd': np.float64(-16.5), 'sharpe': np.float64(0.94), 'ex': np.float64(4.1), 'win12': 48, 'beat_years': 5, 'years': 9, 'turn': 1008} {'cagr': np.float64(15.29), 'vol': np.float64(15.0), 'mdd': np.float64(-20.1), 'sharpe': np.float64(1.03), 'ex': np.float64(0.79), 'win12': 54, 'beat_years': 5, 'years': 10, 'turn': 1109}
+0.0025 c1 {'cagr': np.float64(9.61), 'vol': np.float64(14.3), 'mdd': np.float64(-19.9), 'sharpe': np.float64(0.72), 'ex': np.float64(0.59), 'win12': 28, 'beat_years': 3, 'years': 9, 'turn': 1008} {'cagr': np.float64(12.79), 'vol': np.float64(15.1), 'mdd': np.float64(-20.2), 'sharpe': np.float64(0.87), 'ex': np.float64(-1.71), 'win12': 39, 'beat_years': 4, 'years': 10, 'turn': 1108}
+0.0025 h1 {'cagr': np.float64(11.41), 'vol': np.float64(14.1), 'mdd': np.float64(-16.2), 'sharpe': np.float64(0.84), 'ex': np.float64(2.38), 'win12': 39, 'beat_years': 5, 'years': 9, 'turn': 1008} {'cagr': np.float64(14.08), 'vol': np.float64(15.0), 'mdd': np.float64(-20.1), 'sharpe': np.float64(0.96), 'ex': np.float64(-0.42), 'win12': 49, 'beat_years': 6, 'years': 10, 'turn': 1108}
+0.0025 o2 {'cagr': np.float64(10.35), 'vol': np.float64(14.2), 'mdd': np.float64(-16.9), 'sharpe': np.float64(0.76), 'ex': np.float64(1.32), 'win12': 30, 'beat_years': 3, 'years': 9, 'turn': 875} {'cagr': np.float64(13.57), 'vol': np.float64(15.1), 'mdd': np.float64(-19.7), 'sharpe': np.float64(0.92), 'ex': np.float64(-0.93), 'win12': 49, 'beat_years': 5, 'years': 10, 'turn': 931}
+JUDGE {'is': 3.57, 'oos': 2.55, 'oos_mdd': 0.6, 'oos_vol': -0.1, 'cost25_oos': 2.5, 'lag_cost_c1': -2.54, 'lag_cost_o1': 0.01, 'verdict': '✅'}
