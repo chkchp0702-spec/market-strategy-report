@@ -6313,6 +6313,32 @@
 "lv": 55.17,
 "max20": 4.8,
 "id60": 0.1
+},
+"CYRX|2026-11-06|pead": {
+"code": "CYRX",
+"name": "CryoPort, Inc.",
+"mkt": "US",
+"d": "2026-11-06",
+"src": "pead",
+"score": 66.3
+},
+"LKQ|2026-11-06|ins": {
+"code": "LKQ",
+"name": "LKQ",
+"mkt": "US",
+"d": "2026-11-06",
+"src": "ins",
+"score": 72.9,
+"note": "기회형 내부자 3명 · 793천 달러 (10일 안 공시)"
+},
+"MTDR|2026-11-06|ins": {
+"code": "MTDR",
+"name": "MTDR",
+"mkt": "US",
+"d": "2026-11-06",
+"src": "ins",
+"score": 66.8,
+"note": "기회형 내부자 3명 · 177천 달러 (10일 안 공시)"
 }
 },
 "sent": [
