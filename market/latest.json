@@ -1,5 +1,5 @@
 {
- "fetched_kst": "2026-11-07 09:10",
+ "fetched_kst": "2026-11-07 09:53",
  "items": {
   "sp500": {
    "value": 7376.86,
@@ -35,16 +35,15 @@
    "name": "다우"
   },
   "vix": {
-   "value": 25.49,
+   "value": 25.64,
    "prev": 28.18,
-   "change": -2.69,
-   "change_pct": -9.55,
-   "asof_utc": "2026-11-06T15:58:46.000-0500",
-   "asof_kst": "3:58 PM EST",
+   "change": -2.54,
+   "change_pct": -9.01,
+   "asof_utc": "2026-11-06T16:15:01.000-0500",
+   "asof_kst": "4:15 PM EST",
    "market_state": "REG_MKT",
-   "src": "CNBC .VIX (이전 값 — 2026-11-07 05:58 수집)",
-   "name": "VIX",
-   "stale": true
+   "src": "CNBC .VIX",
+   "name": "VIX"
   },
   "us10y": {
    "value": 4.859,
@@ -255,7 +254,6 @@
   "yahoo ^IXIC": "HTTP Error 429: Too Many Requests",
   "yahoo ^DJI": "HTTP Error 429: Too Many Requests",
   "yahoo ^VIX": "HTTP Error 429: Too Many Requests",
-  "cnbc .VIX": "CBOE Volatility Index",
   "yahoo ^TNX": "HTTP Error 429: Too Many Requests",
   "yahoo ^TYX": "HTTP Error 429: Too Many Requests",
   "yahoo 2YY=F": "HTTP Error 429: Too Many Requests",
