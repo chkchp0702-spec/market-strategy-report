@@ -1,17 +1,6 @@
 {
-"at": "2026-11-06 11:34",
+"at": "2026-11-07 11:01",
 "signals": [
-{
-"src": "pead",
-"code": "ACHC",
-"name": "Acadia Healthcare Company, Inc.",
-"mkt": "US",
-"d": "2026-11-05",
-"vr": 3.4,
-"gap": 15.3,
-"px": 34.79,
-"score": 17.2
-},
 {
 "src": "pead",
 "code": "ADMA",
@@ -29,10 +18,10 @@
 "name": "Applovin Corporation",
 "mkt": "US",
 "d": "2026-11-05",
-"vr": 4.6,
+"vr": 4.7,
 "gap": 28.7,
 "px": 356.1,
-"score": 23.2
+"score": 23.3
 },
 {
 "src": "pead",
@@ -80,36 +69,14 @@
 },
 {
 "src": "pead",
-"code": "CPAY",
-"name": "Corpay, Inc. Common Stock",
+"code": "CYRX",
+"name": "CryoPort, Inc.",
 "mkt": "US",
-"d": "2026-11-05",
-"vr": 3.8,
-"gap": 8.6,
-"px": 447.0,
-"score": 18.9
-},
-{
-"src": "pead",
-"code": "DEO",
-"name": "Diageo plc Common Stock",
-"mkt": "US",
-"d": "2026-11-05",
-"vr": 3.6,
-"gap": 3.1,
-"px": 100.25,
-"score": 17.8
-},
-{
-"src": "pead",
-"code": "ENOV",
-"name": "Enovis Corporation Common Stock",
-"mkt": "US",
-"d": "2026-11-05",
-"vr": 3.2,
-"gap": 16.4,
-"px": 28.62,
-"score": 15.8
+"d": "2026-11-06",
+"vr": 3.3,
+"gap": 9.0,
+"px": 19.1,
+"score": 16.3
 },
 {
 "src": "pead",
@@ -132,17 +99,6 @@
 "gap": 7.7,
 "px": 99.72,
 "score": 20.8
-},
-{
-"src": "pead",
-"code": "IBN",
-"name": "ICICI Bank Limited Common Stock",
-"mkt": "US",
-"d": "2026-11-05",
-"vr": 4.0,
-"gap": 3.8,
-"px": 32.53,
-"score": 19.8
 },
 {
 "src": "pead",
@@ -190,36 +146,14 @@
 },
 {
 "src": "pead",
-"code": "TM",
-"name": "Toyota Motor Corporation Common Stock",
-"mkt": "US",
-"d": "2026-11-05",
-"vr": 3.4,
-"gap": 9.6,
-"px": 218.11,
-"score": 17.0
-},
-{
-"src": "pead",
 "code": "U",
 "name": "Unity Software Inc. Common Stock",
 "mkt": "US",
 "d": "2026-11-05",
-"vr": 5.0,
+"vr": 5.1,
 "gap": 13.2,
 "px": 48.8,
-"score": 25.2
-},
-{
-"src": "pead",
-"code": "VCEL",
-"name": "Vericel Corporation",
-"mkt": "US",
-"d": "2026-11-05",
-"vr": 4.8,
-"gap": 11.1,
-"px": 51.78,
-"score": 24.0
+"score": 25.6
 },
 {
 "src": "pead",
@@ -250,21 +184,21 @@
 "above200": false,
 "d": "2026-11-06"
 },
-"scanned_KR": 2613,
+"scanned_KR": 2612,
 "us_source": "US.json 전 종목 5940 + ETF 4929 (2026-11-01)",
 "index_US": {
 "sym": "^GSPC",
 "above200": true,
-"d": "2026-11-05"
+"d": "2026-11-06"
 },
-"scanned_US": 9144,
+"scanned_US": 9140,
 "dip": {
 "sym": "QQQ",
-"d": "2026-11-05",
-"close": 647.05,
-"ma200": 679.61,
-"ma5": 679.17,
-"rsi2": 8.7,
+"d": "2026-11-06",
+"close": 656.1,
+"ma200": 679.79,
+"ma5": 672.29,
+"rsi2": 32.1,
 "th": 5.0,
 "signal": false
 },
@@ -274,74 +208,74 @@
 "GLD": {
 "on": false,
 "since": "2026-03-23",
-"close": 375.49,
+"close": 372.52,
 "hi": 429.42,
 "lo": 354.67,
-"d": "2026-11-05"
+"d": "2026-11-06"
 },
 "USO": {
 "on": true,
 "since": "2026-09-10",
-"close": 148.21,
+"close": 148.41,
 "hi": 171.82,
-"lo": 125.41,
-"d": "2026-11-05"
+"lo": 127.48,
+"d": "2026-11-06"
 },
 "TLT": {
 "on": false,
 "since": null,
-"close": 81.93,
+"close": 81.92,
 "hi": 86.78,
 "lo": 76.43,
-"d": "2026-11-05"
+"d": "2026-11-06"
 },
 "UUP": {
 "on": true,
 "since": "2026-03-12",
-"close": 28.92,
+"close": 29.13,
 "hi": 29.25,
 "lo": 27.92,
-"d": "2026-11-05"
+"d": "2026-11-06"
 },
 "SPY": {
 "on": false,
 "since": "2026-11-05",
-"close": 733.0,
+"close": 735.29,
 "hi": 781.62,
-"lo": 747.74,
-"d": "2026-11-05"
+"lo": 732.71,
+"d": "2026-11-06"
 },
 "QQQ": {
 "on": false,
 "since": "2026-10-30",
-"close": 647.05,
+"close": 656.1,
 "hi": 762.86,
-"lo": 680.33,
-"d": "2026-11-05"
+"lo": 647.05,
+"d": "2026-11-06"
 },
 "EFA": {
-"on": true,
-"since": "2026-07-06",
-"close": 102.7,
+"on": false,
+"since": "2026-11-06",
+"close": 101.89,
 "hi": 108.89,
 "lo": 102.0,
-"d": "2026-11-05"
+"d": "2026-11-06"
 },
 "EEM": {
 "on": false,
 "since": "2026-07-29",
-"close": 58.05,
+"close": 59.33,
 "hi": 71.57,
-"lo": 60.58,
-"d": "2026-11-05"
+"lo": 58.0,
+"d": "2026-11-06"
 },
 "DBC": {
 "on": true,
 "since": "2026-09-01",
-"close": 31.47,
+"close": 31.54,
 "hi": 34.14,
-"lo": 30.27,
-"d": "2026-11-05"
+"lo": 30.54,
+"d": "2026-11-06"
 }
 }
 }
@@ -1022,10 +956,10 @@
 "name": "Applovin Corporation",
 "mkt": "US",
 "d": "2026-11-05",
-"vr": 4.6,
+"vr": 4.7,
 "gap": 28.7,
 "px": 356.1,
-"score": 23.2
+"score": 23.3
 },
 {
 "src": "pead",
@@ -1198,10 +1132,10 @@
 "name": "Unity Software Inc. Common Stock",
 "mkt": "US",
 "d": "2026-11-05",
-"vr": 5.0,
+"vr": 5.1,
 "gap": 13.2,
 "px": 48.8,
-"score": 25.2
+"score": 25.6
 },
 {
 "src": "pead",
@@ -1235,6 +1169,17 @@
 "gap": 19.6,
 "px": 13.08,
 "score": 24.6
+},
+{
+"src": "pead",
+"code": "CYRX",
+"name": "CryoPort, Inc.",
+"mkt": "US",
+"d": "2026-11-06",
+"vr": 3.3,
+"gap": 9.0,
+"px": 19.1,
+"score": 16.3
 }
 ]
 }
