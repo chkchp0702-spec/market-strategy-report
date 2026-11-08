@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 중간선거 뒤 전례 없는 부채 교착 위험(Börsen-Zeitung)",
+   "url": "https://www.boersen-zeitung.de/konjunktur-politik/us-markt-droht-nach-kongresswahlen-beispielloses-schulden-patt",
+   "press": "Börsen-Zeitung",
+   "at": "2026-11-09 06:40",
+   "why": "민주 의회 vs 트럼프 → 부채한도·예산 교착 = 장기채 기간 프리미엄 — 「고금리 정점」 가설·중장기채 칸 반대 재료",
+   "summary": "선거 뒤 의회·백악관 분점으로 부채 교착 위험 거론. 구체 시한·금액은 미확인."
+  },
+  {
+   "title": "코어위브 3분기 실적(11/10) 미리보기 — AI 지출 파도 지속?",
+   "url": "https://www.nasdaq.com/articles/eps-watch-can-coreweave-keep-riding-ai-spending-wave",
+   "press": "Nasdaq/Zacks",
+   "at": "2026-11-09 06:40",
+   "why": "AI 차입 가설(0.92)의 이번 주 시험대 — CRWV 채권·주가가 AI 인프라 신용 스트레스 바로미터",
+   "summary": "데이터센터 지연으로 연간 매출 가이던스 하향 이력(itiger). 옵션 내재 변동 두 자릿수 %(tipranks, 정확 수치 날짜 미확인)."
+  },
+  {
    "title": "BofA 하트넷 「민주당 스윕은 채권에 우호 — 4분기 역발상 채권 매수」",
    "url": "https://cryptobriefing.com/hartnett-democratic-sweep-bonds-contrarian/",
    "press": "Crypto Briefing",
@@ -623,22 +639,6 @@
    "at": "2026-11-05 00:34",
    "why": "AI 차입·AI 안의 갈림 가설 — 지수 +2%대 랠리 속 메모리·네오클라우드만 약세",
    "summary": "민주당 스윕 → AI 데이터센터 규제·전력 반발 우려로 MU 하락 — 원문 숫자 미확인."
-  },
-  {
-   "title": "美 재무부, 11월 리펀딩 — 쿠폰 입찰 규모 유지·발행 가이던스 손질",
-   "url": "https://marketnews.com/mni-brief-us-treasury-maintains-steady-issuance-guidance",
-   "press": "MNI",
-   "at": "2026-11-04 23:35",
-   "why": "고금리 정점 가설(중장기채·유틸리티) — 공급 충격 없음 확인",
-   "summary": "쿠폰 입찰 규모 동결, 「적어도 향후 몇 분기」 문구 손질(bbg_mkt 동일 보도). 발표 뒤 美 10년 4.92%·30년 5.30%(CNBC 23:18 KST). 세부 숫자 미확인."
-  },
-  {
-   "title": "재무부 차입 추정치 — 11/4 리펀딩이 정할 것(장기물 바이백)",
-   "url": "https://marketsandnews.com/rates/treasury-quarterly-refunding-november-4-2026-buybacks-yields/",
-   "press": "Markets and News",
-   "at": "2026-11-04 22:35",
-   "why": "고금리 정점 가설·美 10년 4.95 판정 — 오늘 리펀딩의 장기물 축소·바이백 확대 여부",
-   "summary": "11/4 분기 리펀딩 전 프리뷰: 장기물 바이백 확대 논의. 세부 숫자는 미확인."
   }
  ],
  "at": "2026-11-09 05:40"
