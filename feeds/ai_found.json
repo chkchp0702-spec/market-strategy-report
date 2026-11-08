@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "대만, AI 매도세 막으려 시장 안정 조치 가동(국가금융안정기금 개입·공매도 억제)",
+   "url": "https://www.siliconreport.com/taiwan-activates-market-stabilization-measures-to-stem-ai-selloff",
+   "press": "Silicon Report",
+   "at": "2026-11-09 08:40",
+   "why": "🐻 하락장 판정 watch — 한국(신용 담보 면제)에 이어 대만도 정책 바닥 조치, 아시아 반도체 강제 매도 정점 신호 후보",
+   "summary": "대만 당국이 국안기금 개입과 대차 매도 한도 축소·신용공매도 증거금 상향을 병행(HANAchina/71772: 10번째 개입, 과거 개입 1개월 뒤 상승 확률 약 77.7%). 세부 금액은 미확인."
+  },
+  {
+   "title": "「5조 달러 AI 폭락」 뒤 美 선물 반등 — CPI·실적 몰린 한 주",
+   "url": "https://tradezero.com/blog/stock-futures-jump-ahead-of-a-monster-week-after-a-usd5-trillion-ai-rout",
+   "press": "TradeZero",
+   "at": "2026-11-09 08:40",
+   "why": "美 선물 첫 반응이 황 조사 악재를 흡수 — 월요일 「풀리는 날」 확인(VIX 하락 전환) 여부와 SPY·QQQ 재진입 판단",
+   "summary": "일요일 밤 개장 美 지수 선물 반등, 이번 주 CPI·AI 실적이 방향 결정. 피드: 나스닥100 선물 장 초 낙폭 전부 회복·녹색 전환(kimu_nim/48365). 정확한 % 는 미확인."
+  },
+  {
    "title": "엔비디아 「황 CEO 관련 칩 전용 의혹은 조사 뒤 근거 없음」 반박(CNBC 보도 인용)",
    "url": "https://www.newsquawk.com/headlines/nvidia-nvda-responds-to-report-ceo-huang-was-target-of-chinese-asset-says-diversion-allegations-were-investigated-and-debunked-reports-cnbc",
    "press": "Newsquawk",
@@ -623,22 +639,6 @@
    "at": "2026-11-05 02:40",
    "why": "선거 결과별 업종 지도 — 민주당 스윕 뒤 병원↑·AI 인프라↓ 쏠림이 각본대로인지 대조",
    "summary": "10/6자 선거 전 시나리오 정리(원문 숫자 미확인). 오늘 실제: 병원·대형 테크↑, 엔비디아·네오클라우드↓."
-  },
-  {
-   "title": "코어위브, 채권 스트레스에 1주 −23% — CEO 「시장이 비합리적」",
-   "url": "https://www.tikr.com/blog/coreweave-sinks-23-in-a-week-on-bond-distress-its-ceo-says-the-market-acts-irrationally",
-   "press": "TIKR",
-   "at": "2026-11-05 01:40",
-   "why": "🧠 AI 차입(크레딧) 가설 — 네오클라우드 채권·주가 동반 약세 추적",
-   "summary": "코어위브 주가 1주 −23%, 채권 약세 동반(기사 날짜·숫자 원문 미확인). 오늘 블룸버그 「코어위브 채권 신저가 — 텍사스 데이터센터 규제 우려」와 같은 흐름."
-  },
-  {
-   "title": "시타델 증권 「4분기 美 주식 우호 — 5가지 순풍」",
-   "url": "https://investinglive.com/stock-market-update/citadel-securities-turns-constructive-on-us-stocks-for-q4-citing-five-tailwinds/",
-   "press": "investingLive",
-   "at": "2026-11-05 01:40",
-   "why": "🐻 하락장 판정·현금화 판단 — 연말 매수 주체(자사주·기관) 복귀 논리",
-   "summary": "시타델 증권 루브너, 4분기 미국 주식 우호 전환(계절성·자사주 등 5요인, 세부 숫자 원문 미확인). 오늘 피드 「Citadel sees year-end rally as biggest buyers return」와 같은 논지."
   }
  ],
  "at": "2026-11-09 05:40"
