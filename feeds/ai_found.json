@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "트럼프, 이란 공격 재개 가능성 낮춰 — 「선거 뒤 공격 재개」 우려 진정",
+   "url": "https://www.al-monitor.com/originals/2026/11/trump-raises-doubts-about-renewed-attacks-iran",
+   "press": "Al-Monitor",
+   "at": "2026-11-09 04:40",
+   "why": "브렌트 95 장부 조건(에너지 칸)·월요일 유가 갭 방향 — 후티 리야드 타격과 상쇄",
+   "summary": "트럼프가 중간선거 뒤 대이란 공격 재개에 의문 제기. 11/8 CNN 보도로 「협상 진전 시 공격 안 할 듯」 재확인(Reuters 피드). 유가 반응 숫자는 선물 개장 전이라 미확인."
+  },
+  {
+   "title": "앤트로픽, 데이터센터용 가스 발전 비용 상한 없이 부담 — 터빈 업체 수주잔고 확대",
+   "url": "https://www.ctol.digital/news/anthropic-s1-uncapped-gas-costs-baker-hughes-turbine-backlog/",
+   "press": "CTOL Digital",
+   "at": "2026-11-09 04:40",
+   "why": "AI 차입·전력 가설 — 데이터센터 반발 국면에서 자체 가스 발전(터빈·가스) 쪽으로 투자 이동",
+   "summary": "FT 보도 34억$·1.7GW 가스발전기 구매 약정 관련. 전력망 대신 자가 발전 → 베이커휴즈 등 터빈 수주잔고 수혜 해석. 세부 숫자는 원문 확인 필요."
+  },
+  {
    "title": "골드만삭스, 월가 「극단적 패닉」 감지 — 반등 가능성 언급",
    "url": "https://dolarhoy.com/mercado/goldman-sachs-detecto-panico-extremo-en-wall-street-y-anticipa-una-recuperacion-20261161570",
    "press": "DolarHoy",
@@ -623,23 +639,7 @@
    "at": "2026-11-04 20:40",
    "why": "🗳️ 중간선거 watch — 스윕 뒤 AI 규제·재정 경로에 대한 IB 해석 모음, 반도체·AI 소프트웨어 칸 판단 재료",
    "summary": "민주당 상·하원 장악 후 월가 분석가 반응 정리(원문 숫자는 이 세션에서 미확인 — 제목·요지 기준)."
-  },
-  {
-   "title": "S&P500·나스닥 선물, 기술주 실적·중간선거 결과 주시하며 상승",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-04/us-equity-futures-inch-higher-as-investors-await-midterm-results",
-   "press": "Bloomberg",
-   "at": "2026-11-04 20:40",
-   "why": "오늘 밤 정규장 「정치 갭 되돌림」 판정 — 선물 방향 확인용",
-   "summary": "선거 결과·AMD 등 기술주 실적에 美 지수 선물 소폭 상승(세부 숫자 미확인)."
-  },
-  {
-   "title": "BofA: 민주당 상·하원 장악 시 美 증시 10% 넘게 빠질 수 있다",
-   "url": "https://cryptobriefing.com/bofa-democrats-sweep-congress-stocks-decline/",
-   "press": "Crypto Briefing(BofA 인용)",
-   "at": "2026-11-04 16:40",
-   "why": "스윕 확정 — 오늘 밤 美 정규장 갭 판정·🐻 하락장 watch 의 하방 시나리오 기준",
-   "summary": "BofA 전략가가 민주당 스윕을 증시 −10%↑ 위험 시나리오로 제시(기사 기준, 원 리포트 미확인)."
   }
  ],
- "at": "2026-11-09 01:40"
+ "at": "2026-11-09 04:40"
 }
