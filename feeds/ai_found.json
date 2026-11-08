@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "기술주 반등에도 S&P 500 주간 2025년 4월 뒤 최악",
+   "url": "https://pro.thestreet.com/market-commentary/tech-bounces-but-the-sp-500-still-has-its-worst-week-since-april-2025",
+   "press": "TheStreet",
+   "at": "2026-11-09 00:40",
+   "why": "위험 회피 국면 판정 — 금요일 반등이 추세 전환인지 CPI·코어위브 주간에 확인",
+   "summary": "금요일 나스닥 반등에도 S&P 주간 낙폭은 2025년 4월 뒤 최대"
+  },
+  {
+   "title": "BofA: 반도체 업종, 2027년 1분기 회복 가능 — 3가지 시나리오",
+   "url": "https://placera.se/telegram/advanced-micro-devices-bofa-halvledarsektorn-kan-aterhamta-sig-under-forsta-kvartalet-2027-20261106",
+   "press": "Placera(BofA 인용)",
+   "at": "2026-11-09 00:40",
+   "why": "반도체 칸·SMH — 「저점 매수 vs 대기」 판단 기준, 지금 바로 사지 말고 회복 시점은 내년 1분기로 본다는 IB 견해",
+   "summary": "BofA 반도체 3시나리오: 회복은 2027년 1분기 가능 · 단기 추가 하락 여지 열어 둠(세부 수치 미확인)"
+  },
+  {
    "title": "민주당 승리, 美 데이터센터 확장 늦추고 국채금리 낮출 수 있다(로이터 인용)",
    "url": "https://timesofoman.com/article/178808-democratic-victories-threaten-to-slow-us-data-centre-expansion-ease-bond-yields-report",
    "press": "Times of Oman(Reuters)",
@@ -623,22 +639,6 @@
    "at": "2026-11-04 08:40",
    "why": "🧠 AI 크레딧 가설·반도체/AI 칸 — 빚 공급 과잉이 스프레드를 더 벌릴 수 있음",
    "summary": "美 IG 기술기업 평균 조달 비용의 시장 대비 프리미엄 2003년 이후 최고 · BNP 「2027 유로존 IG 순발행 +83%」 전망 · 같은 밤 메타 150억$ 5트랜치 美 채권(investing_en)"
-  },
-  {
-   "title": "2026 美 중간선거 개표 실시간 — 의회 다수당 결과",
-   "url": "https://edition.cnn.com/2026/11/03/politics/live-news/midterm-election-congress",
-   "press": "CNN",
-   "at": "2026-11-04 08:40",
-   "why": "오늘 한국·미국 장 방향 — 결과 확정 전(미확인), 선물은 AI 랠리에 소폭↑",
-   "summary": "개표 진행 중, 다수당 판정 미확인(08:40 KST) · 美 선물 소폭↑(CNBC·블룸버그) · AI 전력주 일제히 급등(gn_kr_sector)"
-  },
-  {
-   "title": "AMD, 데이터센터 매출 거의 2배 — 시간외 +7%",
-   "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html",
-   "press": "CNBC",
-   "at": "2026-11-04 06:40",
-   "why": "반도체 칸·한국 반도체 ETF — AI 칩 수요 확인, 오늘 한국 개장 갭 방향",
-   "summary": "3분기 예상 상회·AI 칩 판매 호조로 데이터센터 매출 거의 2배, 시간외 +7% · 같은 밤 SMCI 전망 상회·아리스타 상회 vs 스카이웍스 부진 전망 −12%(investing_kr)"
   }
  ],
  "at": "2026-11-06 14:40"
