@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "민주당 승리, 美 데이터센터 확장 늦추고 국채금리 낮출 수 있다(로이터 인용)",
+   "url": "https://timesofoman.com/article/178808-democratic-victories-threaten-to-slow-us-data-centre-expansion-ease-bond-yields-report",
+   "press": "Times of Oman(Reuters)",
+   "at": "2026-11-08 23:40",
+   "why": "AI 차입 가설·고금리 정점 가설 동시 — 규제 리스크는 AI 인프라엔 악재, 장기채엔 호재로 갈라짐",
+   "summary": "중간선거 블루웨이브로 데이터센터 인허가·전력 규제 강화 관측 → AI 설비투자 속도 둔화 우려, 국채금리 하락 요인으로 거론."
+  },
+  {
+   "title": "모닝 비드: 시장, 「블루웨이브가 데이터센터를 삼킬까」 걱정",
+   "url": "https://www.globalbankingandfinance.com/morning-bid-markets-fret-blue-wave-drown-data-centres/",
+   "press": "Global Banking & Finance(Reuters Morning Bid)",
+   "at": "2026-11-08 23:40",
+   "why": "이번 주 코어위브(11/10)·CPI 앞 AI 인프라 심리 — SMH·091160.KS 방향 관찰",
+   "summary": "정책 리스크가 AI 데이터센터 붐의 새 변수로 부상. 세부 숫자 미확인."
+  },
+  {
    "title": "월가 주간 전망 — 기술주 급락 속 美 물가 지표 대기",
    "url": "https://www.kitco.com/news/off-the-wire/2026-11-06/wall-st-week-ahead-tech-swoon-roils-market-us-inflation-data-tap",
    "press": "Reuters(Kitco)",
@@ -623,22 +639,6 @@
    "at": "2026-11-04 06:40",
    "why": "반도체 칸·한국 반도체 ETF — AI 칩 수요 확인, 오늘 한국 개장 갭 방향",
    "summary": "3분기 예상 상회·AI 칩 판매 호조로 데이터센터 매출 거의 2배, 시간외 +7% · 같은 밤 SMCI 전망 상회·아리스타 상회 vs 스카이웍스 부진 전망 −12%(investing_kr)"
-  },
-  {
-   "title": "美 주요 지수 11/3 마감 — 빅테크 반등이 받친 혼조",
-   "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-211437939.html",
-   "press": "Yahoo Finance(AP)",
-   "at": "2026-11-04 06:40",
-   "why": "🐻 하락장 판정 watch — S&P 7,040 기준 대비 위치",
-   "summary": "S&P 7,568.92(+0.36%)·나스닥 25,372(+0.83%)·다우 51,787(−0.38%)·VIX 20.83 · 10년 4.966%(CNBC 마감) · 애플 약세"
-  },
-  {
-   "title": "美 증시: 다우 약세 속 S&P·나스닥 상승 — 칩 반등, AMD 실적 대기",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html",
-   "press": "Yahoo Finance",
-   "at": "2026-11-04 05:45",
-   "why": "🧭 미국·AI 칸 — 칩 반등이 지수를 받치지만 폭은 좁음, AMD 실적이 SMH D+1 방향 결정",
-   "summary": "S&P 7,566(+0.33%)·나스닥 25,360(+0.78%)·다우 −0.43%(CNBC 15:12 EST) · 엔비디아 +2.2%·마이크론 +1.9% · 10년 4.946%"
   }
  ],
  "at": "2026-11-06 14:40"
