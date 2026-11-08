@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아 「황 CEO 관련 칩 전용 의혹은 조사 뒤 근거 없음」 반박(CNBC 보도 인용)",
+   "url": "https://www.newsquawk.com/headlines/nvidia-nvda-responds-to-report-ceo-huang-was-target-of-chinese-asset-says-diversion-allegations-were-investigated-and-debunked-reports-cnbc",
+   "press": "Newsquawk",
+   "at": "2026-11-09 07:40",
+   "why": "황 키맨 악재가 「개인 스캔들」에 그치나 「수출 통제 위반」으로 번지나 — AI 반도체(SMH·091160) 월요일 갭 크기 결정",
+   "summary": "엔비디아는 中 정보 자산 표적 보도에 대해 칩 전용 의혹은 이미 조사해 근거 없다고 반박. 이사회 독립 조사는 진행. 주가 영향 숫자는 미확인."
+  },
+  {
+   "title": "IC 설계사, 파운드리 원가 상승에 26년 말~27년 초 5%~두 자릿수 가격 인상 검토(TrendForce)",
+   "url": "https://www.trendforce.com/news/2026/10/05/news-ic-designers-reportedly-eye-5-to-double-digit-price-hikes-in-late-2026-early-2027-as-foundry-costs-rise/",
+   "press": "TrendForce",
+   "at": "2026-11-09 07:40",
+   "why": "파운드리 가격 인상(TSMC 27년 1월·PSMC 10~20%, HANAchina/71766) — 반도체 급락 속 실적 쪽 버팀목, 반도체 ETF 반등 신호 붙을 때 근거",
+   "summary": "파운드리 원가 상승을 반영해 팹리스들이 5%~두 자릿수 인상 검토. PSMC 3Q 로직 평균가 QoQ +8~10%(HANAchina 인용)."
+  },
+  {
    "title": "美 중간선거 뒤 전례 없는 부채 교착 위험(Börsen-Zeitung)",
    "url": "https://www.boersen-zeitung.de/konjunktur-politik/us-markt-droht-nach-kongresswahlen-beispielloses-schulden-patt",
    "press": "Börsen-Zeitung",
@@ -623,22 +639,6 @@
    "at": "2026-11-05 01:40",
    "why": "🐻 하락장 판정·현금화 판단 — 연말 매수 주체(자사주·기관) 복귀 논리",
    "summary": "시타델 증권 루브너, 4분기 미국 주식 우호 전환(계절성·자사주 등 5요인, 세부 숫자 원문 미확인). 오늘 피드 「Citadel sees year-end rally as biggest buyers return」와 같은 논지."
-  },
-  {
-   "title": "민주당 중간선거 우려에도 마이크론·샌디스크·SK하이닉스 프리마켓 상승 이유",
-   "url": "https://www.tipranks.com/news/why-micron-sandisk-and-sk-hynix-stocks-are-rising-in-premarket-despite-midterm-concerns-november-4",
-   "press": "TipRanks",
-   "at": "2026-11-05 00:34",
-   "why": "한국 반도체 ETF(091160)·하닉 — 선거 뒤 메모리주 방향이 프리마켓↑ vs 장중 경고로 엇갈림",
-   "summary": "11/4 프리마켓 메모리 3사 상승 배경 기사 — 원문 숫자 미확인. 같은 날 배런스는 「메모리 가격 경고 누적·MU 하락」 보도."
-  },
-  {
-   "title": "마이크론, 중간선거 결과가 AI 트레이드를 흐리며 하락",
-   "url": "https://moneycheck.com/micron-mu-stock-slips-as-midterm-results-cloud-the-ai-trade-heres-why",
-   "press": "MoneyCheck",
-   "at": "2026-11-05 00:34",
-   "why": "AI 차입·AI 안의 갈림 가설 — 지수 +2%대 랠리 속 메모리·네오클라우드만 약세",
-   "summary": "민주당 스윕 → AI 데이터센터 규제·전력 반발 우려로 MU 하락 — 원문 숫자 미확인."
   }
  ],
  "at": "2026-11-09 05:40"
