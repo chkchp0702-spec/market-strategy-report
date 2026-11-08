@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "골드만삭스, 월가 「극단적 패닉」 감지 — 반등 가능성 언급",
+   "url": "https://dolarhoy.com/mercado/goldman-sachs-detecto-panico-extremo-en-wall-street-y-anticipa-una-recuperacion-20261161570",
+   "press": "DolarHoy",
+   "at": "2026-11-09 03:40",
+   "why": "위험 회피 regime 의 역발상 근거 — 지수·ETF 칸 비중 판단",
+   "summary": "골드만 패닉지수 9.57(10점 만점) 극단 구간. 과거 이 구간 뒤 단기 반등이 잦았다는 해석 — 구체 통계는 원문 확인 필요(미확인)."
+  },
+  {
+   "title": "美 하원 3개 위원회, 젠슨 황에 「중국 스파이 연루 의혹」 비공개 브리핑 요구",
+   "url": "https://axios.com/2026/11/05/jensen-huang-nvidia-congress-china",
+   "press": "Axios",
+   "at": "2026-11-09 03:40",
+   "why": "AI 반도체 대장 규제 헤드라인 위험 — AI 차입·기술주 약세 가설과 이어짐",
+   "summary": "공화당 위원장들이 엔비디아 CEO 에 비공개 브리핑 요구(11/5). CNBC 11/8 초당적 압박 재보도 — 주가 영향은 월요일 개장 전 미확인."
+  },
+  {
    "title": "후티, 리야드 아람코 시설 타격 주장 — 예멘 교전 확대",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Claim-Strike-on-Aramco-Facility-in-Riyadh-as-Yemen-Fighting-Escalates.html",
    "press": "OilPrice",
@@ -623,22 +639,6 @@
    "at": "2026-11-04 16:40",
    "why": "스윕 확정 — 오늘 밤 美 정규장 갭 판정·🐻 하락장 watch 의 하방 시나리오 기준",
    "summary": "BofA 전략가가 민주당 스윕을 증시 −10%↑ 위험 시나리오로 제시(기사 기준, 원 리포트 미확인)."
-  },
-  {
-   "title": "마벨, 루멘텀 인수설에 하루 시총 290억$ 증발(10/29)",
-   "url": "https://fourweekmba.com/ai-marvell-lost-29b-of-value-in-a-day-on-lumentum-deal-talks/",
-   "press": "FourWeekMBA",
-   "at": "2026-11-04 16:40",
-   "why": "AI 광통신 M&A 발 변동 — 테제 「AI 차입(크레딧)」과 같은 결: 인수자금·희석 부담을 시장이 벌함",
-   "summary": "10/29 MRVL −12~13%(인수 프리미엄·신주 희석·규제 우려). 11/4 피드 「마벨 30% 급락」은 루멘텀 쪽 수치인지 미확인."
-  },
-  {
-   "title": "美 증시 전망(11/4): AMD 가이던스 상회로 시간외 급등, 중간선거 개표에 선물 하락",
-   "url": "https://www.techflowpost.com/en-US/article/35085",
-   "press": "TechFlow",
-   "at": "2026-11-04 10:40",
-   "why": "킥 SPY·반도체 칸 — 칩 호재보다 선거(민주 스윕) 불확실성이 지수를 끌어내리는지",
-   "summary": "S&P 선물 −0.6%·나스닥100 −0.5%·다우 −252pt · AMD 4분기 매출 가이던스 ~170억$(예상 162.3억) 시간외 +9%→+4% · 칼시 민주 상원 90%·하원 97%, JP모건 스윕 66% · 10년 4.951%(+5.8bp)"
   }
  ],
  "at": "2026-11-09 01:40"
