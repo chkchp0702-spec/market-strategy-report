@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "후티, 리야드 아람코 시설 타격 주장 — 예멘 교전 확대",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Claim-Strike-on-Aramco-Facility-in-Riyadh-as-Yemen-Fighting-Escalates.html",
+   "press": "OilPrice",
+   "at": "2026-11-09 02:40",
+   "why": "브렌트·에너지 칸 — 월요일 XLE·USO 시가 갭, brent_95 조건 근접",
+   "summary": "후티가 리야드 아람코 시설·금융지구 타격 주장(블룸버그도 '이례적 리야드 금융허브 타격' 보도). 유가 반응 숫자는 선물 개장(08:00 KST) 전이라 미확인."
+  },
+  {
+   "title": "유가 아닌 AI 붐이 실질금리를 구조적으로 끌어올린다",
+   "url": "https://www.pulse.bot/bonds/news/ai-boom-not-oil-shock-driving-real-yields-structurally-higher-a0c2ed67-9be3-492b-a86c-893d845e5449/",
+   "press": "Pulse (월가 전략 요약)",
+   "at": "2026-11-09 02:40",
+   "why": "AI 차입 가설·채권 칸 — 하이퍼스케일러 회사채 발행(메타 선거일 발행)이 장기물 공급 압력",
+   "summary": "월가 신호: 美 국채 금리 동력이 유가 충격에서 AI 설비투자 자금조달로 이동. 반론으로 PIMCO는 '경기 요인이 여전히 우선' 입장."
+  },
+  {
    "title": "EPS 점검: 코어위브, AI 지출 물결 계속 탈 수 있나",
    "url": "https://www.finanzen.net/nachricht/aktien/eps-watch-can-coreweave-keep-riding-the-ai-spending-wave-15243207",
    "press": "finanzen.net",
@@ -623,22 +639,6 @@
    "at": "2026-11-04 10:40",
    "why": "킥 SPY·반도체 칸 — 칩 호재보다 선거(민주 스윕) 불확실성이 지수를 끌어내리는지",
    "summary": "S&P 선물 −0.6%·나스닥100 −0.5%·다우 −252pt · AMD 4분기 매출 가이던스 ~170억$(예상 162.3억) 시간외 +9%→+4% · 칼시 민주 상원 90%·하원 97%, JP모건 스윕 66% · 10년 4.951%(+5.8bp)"
-  },
-  {
-   "title": "나스닥100 선물 1.5% 가까이 하락 — 민주당 스윕 확률 95%",
-   "url": "https://cryptobriefing.com/nasdaq-futures-drop-democratic-sweep-odds/",
-   "press": "Crypto Briefing",
-   "at": "2026-11-04 10:40",
-   "why": "🗳️ 선거 watch — 스윕 확률이 오를수록 기술주 선물 낙폭 확대(제목 기준, 본문 미확인)",
-   "summary": "제목: 나스닥100 선물 −1.5% 근접·스윕 확률 95% · 본문 열리지 않아 숫자 미확인"
-  },
-  {
-   "title": "민주당 하원 탈환 예상 — 개표 초반 격차는 불분명",
-   "url": "https://www.newsfromthestates.com/article/democrats-predicted-flip-us-house-margins-unclear-first-polls-close",
-   "press": "States Newsroom",
-   "at": "2026-11-04 09:40",
-   "why": "美 정책·재정 경로 — 분점 정부면 감세·재정 확대 제동 → 10년 금리·고금리 정점 가설(0.50)과 직결",
-   "summary": "첫 투표소 마감 시점 민주당 하원 탈환 예상, 의석 격차 미확정 · 美 선물 소폭 강세(bbg_mkt) · 최종 결과 미확인"
   }
  ],
  "at": "2026-11-09 01:40"
