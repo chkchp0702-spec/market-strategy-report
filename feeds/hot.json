@@ -1,106 +1,16 @@
 {
- "at": "2026-11-06 14:40",
+ "at": "2026-11-08 22:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
-  "globalmktinsight/7817": {
+  "n/1VoNlhWdXhjUWR6N01Ja0s3azR4RE1kbkdsR0llb2gtSlVVQjRKajIyQQoc5": {
    "lv": 1,
-   "why": "美 이란 케슘섬 공습(WSJ) — 전일 WTI −7%를 만든 이란 합의 기대와 정면 충돌, 에너지 칸·유가 watch",
-   "at": "2026-11-03 10:45"
+   "why": "10월 고용 16.5만 서프라이즈 → 12월 인상 베팅 상승 — 「고금리 정점」 가설·현금·단기채 칸 직결",
+   "at": "2026-11-08 22:45"
   },
-  "n/hNml2cWtGY25lVGFIY0F3SW9WOXRxdFA3Z0tLVDVZdVFKQVBGMW9fNVlYoc5": {
+  "n/EzTDZqa2E3ZVdrbi0ydHFSbFhMRXFOMnJFeDdFWWIxcVYxRWJSMzF6akEoc5": {
    "lv": 1,
-   "why": "中 인민은행 자사주 매입 재대출 금리 1%로 인하 → 과창50 +10% 근접 · 아시아 반도체 「규제 디커플링」 아이디어(11/04 15:40)와 이어짐",
-   "at": "2026-11-04 19:40"
-  },
-  "n/wwwcnbccom20261104eurozonecpiinflationoctoberecbratehikehtml": {
-   "lv": 1,
-   "why": "유로존 물가 4% 3년 만 — ECB 인상 임박 → 고금리 정점 테제(conf 0.50)·금융 칸 EUFN·달러 약세 흐름과 이어짐",
-   "at": "2026-11-04 20:40"
-  },
-  "n/added86000jobsinoctoberslightlyhigherthanexpectedadpsayshtml": {
-   "lv": 1,
-   "why": "고금리 정점 가설 — ADP 8.6만 소폭 상회, 금요일 고용 전 금리 경로 재료",
-   "at": "2026-11-04 22:35"
-  },
-  "n/swwwftcomcontentb526f876810a4e748b8d4ffca04b29c7syn25a6b1a61": {
-   "lv": 2,
-   "why": "브렌트 94달러(−9%) — 에너지 칸 13% 조건 brent_95(→10) 장중 도달, OXY·COP 신호 직격",
-   "at": "2026-11-05 03:35"
-  },
-  "n/jdIQnhPSHdURXJJWVpLLThURkUtVmxjT1BFMk1jX3hhYlhraVpiSENadQoc5": {
-   "lv": 1,
-   "why": "에너지 칸 13% — 골드만 브렌트 105$ 상향, 조건 brent_95(→10) 발동 직전과 반대 방향 근거",
-   "at": "2026-11-05 09:45"
-  },
-  "n/dmMTQ5TXhMOHZYVjM4TDQ2U2ZlMi1ibXVITU56VkRVeHpXZkhGaFpmZUEoc5": {
-   "lv": 1,
-   "why": "오픈AI 데이터센터 추진 방식 전면 수정 — AI 차입 가설(0.92) 수요 쪽 균열 4건째",
-   "at": "2026-11-05 20:34"
-  },
-  "n/20261105bankofenglandunanimouslyhikesrateswarnsof49inflation": {
-   "lv": 1,
-   "why": "BoE 3년 만에 인상 4.00%·인플레 4.9% 전망 — 美 금리 하락과 반대 방향, 고금리 정점 가설(0.55)의 해외 쪽 반대 근거",
-   "at": "2026-11-05 21:45"
-  },
-  "HANAchina/71605": {
-   "lv": 1,
-   "why": "에너지 칸 조건 brent_95 — 브렌트 96$ 재돌파(+2.5%): 95↓ 종가 확정 안 됨, 발동 보류 유지",
-   "at": "2026-11-05 22:40"
-  },
-  "n/FWdHQ4N0RURVQtV3V3M3k1azBZbDlYT2FRSDRDTlBqMGEzZnVSQmo4R1Eoc5": {
-   "lv": 1,
-   "why": "🐻 현금화 watch — 골드만 「주식은 지지, 단기 현금 비중 확대」: 현금·단기채 칸 유지 근거",
-   "at": "2026-11-06 01:40"
-  },
-  "n/lMWEZkLTdtNGxPWnBXRVRNSTdHMGRaamk1OVNEd2dzc0VnbEFfQ3V4Mm8oc5": {
-   "lv": 1,
-   "why": "고금리 정점(0.55)·🐻 watch — 투매 뒤 금요일 10월 고용이 안도 또는 추가 하락의 다음 변곡",
-   "at": "2026-11-06 05:40"
-  },
-  "kimu_nim/48271": {
-   "lv": 1,
-   "why": "🛢️ 브렌트 95 watch(에너지 칸) — 트럼프 이란 전쟁 재개 여부 「곧」 결정(Axios): brent_95 발동 보류 근거",
-   "at": "2026-11-06 09:45"
-  },
-  "HANAchina/71635": {
-   "lv": 1,
-   "why": "🫀 심리 계기판·반등 bet 타이밍 — CTA·레버리지 ETF 700억$ 매도 뒤 변동성 목표 펀드 500억$ 추가 매도 대기(중국언론, 수치 미확인) = 바닥 확인 전",
-   "at": "2026-11-06 10:40"
-  },
-  "n/httpswwwhankyungcomarticle202611060422i": {
-   "lv": 1,
-   "why": "정부 F4 가동·증안펀드·공매도 제한 거론 — 🐻 하락장 판정·CB 다음 날 069500 관찰과 직결(과거 2020·2023 정책 발표 뒤 반등 사례)",
-   "at": "2026-11-06 11:40"
-  },
-  "HANAchina/71643": {
-   "lv": 1,
-   "why": "BofA 로드쇼: 홍콩·상하이 큰손 메모리주 약세 전환 vs 메리츠 미주 채널체크 「수요 이상 없음」 — 반도체 칸(7%)·091160 관찰의 핵심 쟁점",
-   "at": "2026-11-06 11:40"
-  },
-  "n/httpswwwmkcokrnewsstock12200359": {
-   "lv": 1,
-   "why": "신용융자 담보비율 140% 의무 3개월 면제 — 반대매매 연쇄 차단, 🐻 하락장 판정·정책 바닥 신호(👀 069500·코스닥 다음 날)",
-   "at": "2026-11-06 12:40"
-  },
-  "HANAchina/71649": {
-   "lv": 1,
-   "why": "중국 AI 광모듈·서버주(이노라이트·이옵토링크·하이곤 등) 정오 자사주 매입 공시 러시 — 정책 방어, 중화권 반도체 상대 강세 관찰과 직결",
-   "at": "2026-11-06 13:40"
-  },
-  "HANAchina/71648": {
-   "lv": 1,
-   "why": "바클레이즈: 데이터센터 인허가 효율 4배↓·중간선거 DC 지지 주민투표 7건 전부 부결 — AI 차입(크레딧) 가설 0.92 근거",
-   "at": "2026-11-06 13:40"
-  },
-  "n/Hh6WlBhaW84M3dYenFzRTd1VXlKMXhPbEJEWE5VRC04VGxxZmk5VjNZOAoc5": {
-   "lv": 1,
-   "why": "⚡ APP bet — 📈 PEAD 신호 종목이 나스닥 −5.5% 날 2년 만 최대 상승: 투매 속 실적 주도 상대 강세",
-   "at": "2026-11-06 14:40"
-  },
-  "n/UtVHNxMG1LdkM0NjNHM0hlVGdtVU1tQmd3SnlPa283M1VxcG43NEVsRzcoc5": {
-   "lv": 1,
-   "why": "🐻 하락장 판정 — 헤지펀드 혼잡 거래 급속 청산: 기계적 매도 잔량 필터(ideas 10:40)와 직결",
-   "at": "2026-11-06 14:40"
+   "why": "외국인 삼전·하닉 7.6조 투매·보유율 수년 최저 — 반도체 칸·🐻 하락장 판정 수급 지표",
+   "at": "2026-11-08 22:45"
   }
  }
 }
