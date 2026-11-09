@@ -44,6 +44,8 @@ ET = ZoneInfo("America/New_York")
 ROOT = Path(__file__).resolve().parent.parent
 M = ROOT / "market"
 OUT, LOG, BT = M / "bear.json", M / "bear_log.json", M / "bear_bt.json"
+SIG = M / "bear_sig_bt.json"   # 🌱 11/09 A11/9-1 바닥 신호 4개의 과거 성적표 (--bt 때 같이 만듦 → live 가 bear.json 시장마다 hist 로 붙임)
+H6 = 126                        # 6개월 ≈ 126거래일
 APP = "https://chkchp0702-spec.github.io/daily-app/"
 
 MKTS = [  # key, 야후 코드, 이름, 나라, 장 마감(현지)
@@ -141,6 +143,123 @@ def advice(name, r):
     return f"{name} 바닥 신호 {n}/4 — 현금 {cash}%로 줄이며 3분의 1씩 다시 사기"
 
 
+# ───────────────────────── 🌱 바닥 신호 과거 성적표 (11/09 A11/9-1) ─────────────────────────
+def _med(v):
+    v = sorted(v)
+    if not v:
+        return None
+    k = len(v) // 2
+    return v[k] if len(v) % 2 else (v[k - 1] + v[k]) / 2
+
+
+def sig_history(cl, vx, dates, start=252):
+    """과거 🐻 하락장마다 바닥 신호 4개가 언제 켜졌나 · 신호 n개째 처음 켜진 날 뒤 6개월.
+       판정·신호는 judge() 그대로(과거엔 🇰🇷 ④ 외국인 자료가 없어 50일선 — bear_bt 와 같음).
+       「가짜 신호」 = 하락장 안에서 켜졌는데 그 뒤 더 낮은 종가(그 하락장의 바닥)가 나온 것.
+       「진짜」 = 바닥 날 이후 처음 켜진 날 — 바닥에서 며칠 뒤 · 바닥보다 몇 % 위."""
+    pb, rows = False, {}
+    eps, cur = [], None
+    for i in range(start, len(cl)):
+        j = judge(cl, vx, None, "us", pb, i)
+        pb = j["state"] == "🐻"
+        ons = [bool(c["on"]) for c in j["checks"]]
+        rows[i] = (ons, sum(ons))
+        if pb and cur is None:
+            cur = {"s": i, "days": []}
+        if cur is not None:
+            if not pb:
+                cur["e"] = i
+                eps.append(cur)
+                cur = None
+            else:
+                cur["days"].append(i)
+    if cur is not None:
+        cur["e"] = None
+        eps.append(cur)
+    out = []
+    for ep in eps:
+        ds = ep["days"]
+        b = min(ds, key=lambda i: (cl[i], i))   # 바닥(가장 낮은 종가 · 같으면 앞 날)
+        sigs = []
+        for k in range(4):
+            fakes = []
+            for i in ds:
+                prev = rows.get(i - 1, ([False] * 4, 0))[0][k]
+                if rows[i][0][k] and not prev and i < b:
+                    fakes.append(round((cl[b] / cl[i] - 1) * 100, 1))   # 켜진 뒤 바닥까지 더 빠진 폭
+            on = next((i for i in ds if i >= b and rows[i][0][k]), None)
+            sigs.append({"fake": len(fakes), "fake_more": min(fakes) if fakes else None,
+                         "on": dates[on] if on is not None else None,
+                         "after": (on - b) if on is not None else None,
+                         "up": round((cl[on] / cl[b] - 1) * 100, 1) if on is not None else None})
+        step = {}
+        for n in (2, 3, 4):
+            i = next((i for i in ds if rows[i][1] >= n), None)
+            if i is None:
+                step[str(n)] = None
+                continue
+            r6 = round((cl[i + H6] / cl[i] - 1) * 100, 1) if i + H6 < len(cl) else None
+            step[str(n)] = {"date": dates[i], "r6": r6, "early": i < b,
+                            "more": round((cl[b] / cl[i] - 1) * 100, 1) if i < b else 0.0}
+        hi = max(cl[max(0, b - 251):b + 1])
+        out.append({"in": dates[ep["s"]], "out": dates[ep["e"]] if ep["e"] is not None else "진행 중",
+                    "bottom": dates[b], "bottom_dd": round((cl[b] / hi - 1) * 100, 1),
+                    "len": len(ds), "sig": sigs, "step": step})
+    done = [x for x in out if x["out"] != "진행 중"]
+    names = ["저점 다지기", "20일선 회복", "공포 진정 (VIX 20↓)", "50일선 위 종가"]
+    summ = []
+    for k in range(4):
+        tr = [x["sig"][k] for x in done if x["sig"][k]["on"]]
+        fk = [x for x in done if x["sig"][k]["fake"]]
+        worst = min(fk, key=lambda x: x["sig"][k]["fake_more"]) if fk else None
+        summ.append({"k": names[k], "eps": len(done), "on": len(tr),
+                     "after": _med([s["after"] for s in tr]), "up": _med([s["up"] for s in tr]),
+                     "fake_eps": len(fk), "fake_n": sum(x["sig"][k]["fake"] for x in done),
+                     "fake_worst": worst and {"y": worst["in"][:4], "more": worst["sig"][k]["fake_more"]}})
+    steps = {}
+    for n in ("2", "3", "4"):
+        hit = [x for x in done if x["step"][n]]
+        r6 = [x for x in hit if x["step"][n]["r6"] is not None]
+        early = [x for x in hit if x["step"][n]["early"]]
+        wm = min(early, key=lambda x: x["step"][n]["more"]) if early else None
+        wr = min(r6, key=lambda x: x["step"][n]["r6"]) if r6 else None
+        steps[n] = {"eps": len(done), "hit": len(hit), "pos6": sum(x["step"][n]["r6"] > 0 for x in r6),
+                    "neg6": sum(x["step"][n]["r6"] <= 0 for x in r6), "early": len(early),
+                    "worst_more": wm and {"y": wm["in"][:4], "more": wm["step"][n]["more"]},
+                    "worst_r6": wr and {"y": wr["in"][:4], "r6": wr["step"][n]["r6"]},
+                    "med_r6": _med([x["step"][n]["r6"] for x in r6])}
+    now = out[-1] if out and out[-1]["out"] == "진행 중" else None
+    return {"episodes": out, "sig": summ, "step": steps,
+            "now": now and {"in": now["in"], "len": now["len"], "bottom": now["bottom"],
+                            "fake": [s["fake"] for s in now["sig"]]}}
+
+
+def hist_for(key, nat):
+    """bear_sig_bt.json → bear.json 시장 칸에 붙일 짧은 요약"""
+    j = rj(SIG, {}) or {}
+    m = next((x for x in j.get("markets", []) if x.get("key") == key), None)
+    if not m:
+        return None
+    h = {"at": j.get("at"), "from": m.get("from"), "sig": m["sig"], "step": m["step"], "now": m.get("now")}
+    if nat == "kr":
+        h["note4"] = "④ 과거 셈은 외국인 자료가 없어 50일선 위 종가로 대신"
+    return h
+
+
+def sig_line(h, k):
+    """알림 본문용 한 줄 (신호 k 가 새로 켜진 날)"""
+    try:
+        s = h["sig"][k]
+        if not s["on"]:
+            return f"과거 하락장 {s['eps']}번: 바닥 뒤엔 한 번도 안 켜짐"
+        t = f"과거 하락장 {s['eps']}번 중 {s['on']}번 켜짐 — 보통 바닥 {s['after']:.0f}거래일 뒤 · 바닥보다 {s['up']:+.0f}%"
+        if s["fake_eps"]:
+            t += f" · 켜졌다가 더 빠진 하락장 {s['fake_eps']}번"
+        return t
+    except Exception:
+        return ""
+
+
 # ───────────────────────── 시세 ─────────────────────────
 def complete(df, close_hm, tz):
     """장중(아직 안 끝난) 오늘 막대 버림"""
@@ -215,7 +334,13 @@ def live(dry=False):
             pb = judge(cl, vx, None, nat, pb, i)["state"] == "🐻"
         r = judge(cl, vx, ff if nat == "kr" else None, nat, pb)
         r.update({"key": key, "name": name, "nat": nat, "asof": str(s.index[-1].date()), "advice": advice(name, r)})
+        hh = hist_for(key, nat)
+        if hh:
+            r["hist"] = hh
         o = oldm.get(key)
+        if o and r["state"] != "🟢":   # 🌱 새로 켜진 바닥 신호 (알림 본문 한 줄 · 앱 「🟢 켜짐」)
+            oc = [bool(c.get("on")) for c in (o.get("checks") or [])]
+            r["fresh"] = [k for k, c in enumerate(r["checks"]) if c["on"] and k < len(oc) and not oc[k]]
         if o and (o.get("state") != r["state"] or o.get("cash") != r["cash"]):
             changed.append((o, r))
         r["since"] = o.get("since", r["asof"]) if o and o.get("state") == r["state"] else r["asof"]
@@ -242,7 +367,12 @@ def live(dry=False):
         if sent.get(r["key"]) == k:
             continue
         t = f"{r['state']} {r['name']} — 현금 {o.get('cash')}% → {r['cash']}%"
-        if notify(t, r["advice"] + f"\n낙폭 {r['dd']:+.1f}% · 바닥 신호 {r['n']}/4", dry):
+        body = r["advice"] + f"\n낙폭 {r['dd']:+.1f}% · 바닥 신호 {r['n']}/4"
+        for k in (r.get("fresh") or []):
+            ln = sig_line(r.get("hist") or {}, k)
+            if ln:
+                body += f"\n🌱 {r['checks'][k]['k']} 켜짐 — {ln}"
+        if notify(t, body, dry):
             sent[r["key"]] = k
     if first:   # 처음 켠 날: 지금 상태를 한 번 알림 (🟢 아닌 시장만)
         bad = [r for r in mk if r["state"] != "🟢"]
@@ -264,6 +394,7 @@ def backtest():
     vix = px.get("vix")
     res = {"at": dt.datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "rules": RULES,
            "note": "과거 검증 · 🇰🇷 ④는 외국인 대신 50일선 · 현금 연 2% · 비중 바꿀 때 0.1% · 배당 제외(가격지수)", "markets": []}
+    sigs = []
     for key, _, name, nat, _ in MKTS:
         s = px.get(key)
         if s is None or len(s) < 400:
@@ -296,6 +427,12 @@ def backtest():
                 eps.append(cur)
                 cur = None
             w_prev = w
+        try:
+            sh = sig_history(cl, vx, dates)
+            sh.update({"key": key, "name": name, "from": dates[252], "to": dates[-1]})
+            sigs.append(sh)
+        except Exception as e:
+            print("신호 성적 실패", key, e)
         yrs = (len(cl) - 252) / 252
         if cur is not None:
             cur.update({"out": "진행 중", "rule": round((nav / cur.pop("nav0") - 1) * 100, 1),
@@ -308,6 +445,13 @@ def backtest():
             "bear_days_pct": round(days_bear / (len(cl) - 252) * 100, 1), "switches_per_year": round(switches / yrs, 1),
             "episodes": eps[-12:]})
     BT.write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
+    if sigs:
+        SIG.write_text(json.dumps({"at": res["at"], "rules": RULES,
+                                   "note": "과거 🐻 하락장마다 바닥 신호가 언제 켜졌나 · 가짜 = 켜진 뒤 그 하락장 바닥이 더 낮게 나옴 · "
+                                           "진짜 = 바닥 뒤 처음 켜진 날 · 6개월 = 126거래일 · 🇰🇷 ④는 외국인 대신 50일선 · 가격지수 · 표본이 적어 「n번 중 m번」으로만 읽기",
+                                   "markets": sigs}, ensure_ascii=False, indent=1), encoding="utf-8")
+        for m in sigs:
+            print(m["name"], "신호 성적", json.dumps(m["step"], ensure_ascii=False))
     for m in res["markets"]:
         print(m["name"], "규칙", m["rule"], "보유", m["hold"])
     return 0

@@ -43,9 +43,11 @@ jobs:
       - name: 🐻 하락장 계기판 (11/09 · 시장별 판정·현금 권고·바닥 신호 — 바뀌면 알림 · 아침엔 과거 검증도)
         continue-on-error: true
         run: |
-          pip install -q yfinance pandas && python -m src.bear_gate
+          pip install -q yfinance pandas
           H=$(TZ=Asia/Seoul date +%H)
-          if [ ! -f market/bear_bt.json ] || { [ "$H" -ge 5 ] && [ "$H" -le 8 ]; }; then python -m src.bear_gate --bt || true; fi
+          # 🌱 11/09 A11/9-1: 과거 검증(bear_bt + 바닥 신호 성적표 bear_sig_bt)을 먼저 → 판정(bear.json)이 그 성적표를 시장마다 hist 로 붙임
+          if [ ! -f market/bear_bt.json ] || [ ! -f market/bear_sig_bt.json ] || { [ "$H" -ge 5 ] && [ "$H" -le 8 ]; }; then python -m src.bear_gate --bt || true; fi
+          python -m src.bear_gate
       - name: 🌃 한국 종가→다음 시가 그림자 기록 (저녁 수집 때만, 10/22)
         continue-on-error: true
         run: |
