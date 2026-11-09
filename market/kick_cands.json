@@ -6384,6 +6384,35 @@
 "src": "cup_eye",
 "score": 64.9,
 "lv": 26.83
+},
+"LFST|2026-11-09": {
+"code": "LFST",
+"name": "LifeStance Health Group, Inc. - Common",
+"mkt": "US",
+"d": "2026-11-09",
+"src": "cup_eye",
+"score": 68.3,
+"lv": 13.77,
+"max20": 6.3,
+"id60": -0.083
+},
+"IDXX|2026-11-09|e": {
+"code": "IDXX",
+"name": "IDEXX Laboratories, Inc. - Common Stoc",
+"mkt": "US",
+"d": "2026-11-09",
+"src": "earn",
+"score": 74.8,
+"lv": 624.15
+},
+"ZBH|2026-11-09|e": {
+"code": "ZBH",
+"name": "Zimmer Biomet Holdings, Inc. Common St",
+"mkt": "US",
+"d": "2026-11-09",
+"src": "earn",
+"score": 70.4,
+"lv": 102.86
 }
 },
 "sent": [
