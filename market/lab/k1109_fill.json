@@ -1,0 +1,1556 @@
+{
+ "at": "2026-11-09 14:10",
+ "from": "2008-07-01",
+ "to": "2026-11-06",
+ "spy": {
+  "is": {
+   "cagr": 9.03,
+   "vol": 21.4,
+   "mdd": -47.2,
+   "sharpe": 0.51,
+   "ex": 0.0,
+   "win12": 0,
+   "beat_years": 0,
+   "years": 9
+  },
+  "oos": {
+   "cagr": 14.53,
+   "vol": 18.1,
+   "mdd": -33.7,
+   "sharpe": 0.84,
+   "ex": 0.0,
+   "win12": 0,
+   "beat_years": 0,
+   "years": 10
+  }
+ },
+ "res": {
+  "conc": {
+   "base": {
+    "is": {
+     "cagr": 14.69,
+     "vol": 14.3,
+     "mdd": -16.7,
+     "sharpe": 1.03,
+     "ex": 5.66,
+     "win12": 65,
+     "beat_years": 7,
+     "years": 9,
+     "turn": 1015
+    },
+    "oos": {
+     "cagr": 17.53,
+     "vol": 15.0,
+     "mdd": -19.4,
+     "sharpe": 1.15,
+     "ex": 2.99,
+     "win12": 72,
+     "beat_years": 7,
+     "years": 10,
+     "turn": 1104
+    },
+    "q": 0.0,
+    "cap": 78.7
+   },
+   "cands": {
+    "QQQ_k0.5": {
+     "raw": {
+      "is": {
+       "cagr": 0.01,
+       "mdd": 0.0,
+       "sharpe": -0.02,
+       "vol": 0.3
+      },
+      "oos": {
+       "cagr": 0.6,
+       "mdd": -0.1,
+       "sharpe": 0.0,
+       "vol": 0.6
+      }
+     },
+     "raw_q": 32.7,
+     "tgt": 18.7,
+     "m": {
+      "is": {
+       "cagr": -0.32,
+       "mdd": 0.6,
+       "sharpe": -0.02,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": -0.14,
+       "mdd": 1.5,
+       "sharpe": 0.0,
+       "vol": 0.0
+      }
+     },
+     "m_is": {
+      "cagr": 14.37,
+      "vol": 14.3,
+      "mdd": -16.1,
+      "sharpe": 1.01,
+      "ex": 5.35,
+      "win12": 62,
+      "beat_years": 5,
+      "years": 9,
+      "turn": 1036
+     },
+     "m_oos": {
+      "cagr": 17.39,
+      "vol": 15.0,
+      "mdd": -17.9,
+      "sharpe": 1.15,
+      "ex": 2.86,
+      "win12": 68,
+      "beat_years": 6,
+      "years": 10,
+      "turn": 1127
+     },
+     "m_q": 22.7
+    },
+    "QQQ_k1": {
+     "raw": {
+      "is": {
+       "cagr": -0.08,
+       "mdd": 0.0,
+       "sharpe": -0.04,
+       "vol": 0.6
+      },
+      "oos": {
+       "cagr": 1.17,
+       "mdd": -0.6,
+       "sharpe": 0.0,
+       "vol": 1.0
+      }
+     },
+     "raw_q": 51.5,
+     "tgt": 17.6,
+     "m": {
+      "is": {
+       "cagr": -0.69,
+       "mdd": 0.5,
+       "sharpe": -0.04,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": -0.03,
+       "mdd": 2.1,
+       "sharpe": 0.0,
+       "vol": 0.0
+      }
+     },
+     "m_is": {
+      "cagr": 14.0,
+      "vol": 14.3,
+      "mdd": -16.2,
+      "sharpe": 0.99,
+      "ex": 4.97,
+      "win12": 60,
+      "beat_years": 6,
+      "years": 9,
+      "turn": 1049
+     },
+     "m_oos": {
+      "cagr": 17.5,
+      "vol": 15.0,
+      "mdd": -17.3,
+      "sharpe": 1.15,
+      "ex": 2.97,
+      "win12": 68,
+      "beat_years": 6,
+      "years": 10,
+      "turn": 1140
+     },
+     "m_q": 34.4
+    },
+    "QQQ_k2": {
+     "raw": {
+      "is": {
+       "cagr": 0.25,
+       "mdd": -0.3,
+       "sharpe": -0.03,
+       "vol": 0.7
+      },
+      "oos": {
+       "cagr": 1.57,
+       "mdd": -0.6,
+       "sharpe": 0.01,
+       "vol": 1.3
+      }
+     },
+     "raw_q": 64.9,
+     "tgt": 16.5,
+     "m": {
+      "is": {
+       "cagr": -1.24,
+       "mdd": 0.7,
+       "sharpe": -0.08,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": -0.03,
+       "mdd": 2.7,
+       "sharpe": 0.01,
+       "vol": -0.1
+      }
+     },
+     "m_is": {
+      "cagr": 13.45,
+      "vol": 14.3,
+      "mdd": -16.0,
+      "sharpe": 0.95,
+      "ex": 4.42,
+      "win12": 56,
+      "beat_years": 5,
+      "years": 9,
+      "turn": 1071
+     },
+     "m_oos": {
+      "cagr": 17.5,
+      "vol": 14.9,
+      "mdd": -16.7,
+      "sharpe": 1.16,
+      "ex": 2.97,
+      "win12": 68,
+      "beat_years": 6,
+      "years": 10,
+      "turn": 1154
+     },
+     "m_q": 42.3
+    },
+    "QQQ_kinf": {
+     "raw": {
+      "is": {
+       "cagr": 0.81,
+       "mdd": -1.2,
+       "sharpe": 0.0,
+       "vol": 0.9
+      },
+      "oos": {
+       "cagr": 1.63,
+       "mdd": -1.9,
+       "sharpe": -0.02,
+       "vol": 1.8
+      }
+     },
+     "raw_q": 78.4,
+     "tgt": 15.4,
+     "m": {
+      "is": {
+       "cagr": -1.22,
+       "mdd": 0.8,
+       "sharpe": -0.07,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": -0.09,
+       "mdd": 2.3,
+       "sharpe": 0.0,
+       "vol": 0.0
+      }
+     },
+     "m_is": {
+      "cagr": 13.47,
+      "vol": 14.3,
+      "mdd": -15.9,
+      "sharpe": 0.96,
+      "ex": 4.45,
+      "win12": 59,
+      "beat_years": 6,
+      "years": 9,
+      "turn": 1114
+     },
+     "m_oos": {
+      "cagr": 17.44,
+      "vol": 15.0,
+      "mdd": -17.1,
+      "sharpe": 1.15,
+      "ex": 2.91,
+      "win12": 66,
+      "beat_years": 6,
+      "years": 10,
+      "turn": 1189
+     },
+     "m_q": 53.5
+    },
+    "XLK_k0.5": {
+     "raw": {
+      "is": {
+       "cagr": -0.27,
+       "mdd": -0.1,
+       "sharpe": -0.03,
+       "vol": 0.2
+      },
+      "oos": {
+       "cagr": 0.92,
+       "mdd": 0.1,
+       "sharpe": 0.0,
+       "vol": 0.8
+      }
+     },
+     "raw_q": 32.7,
+     "tgt": 19.8,
+     "m": {
+      "is": {
+       "cagr": -0.35,
+       "mdd": 0.2,
+       "sharpe": -0.02,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.55,
+       "mdd": 0.9,
+       "sharpe": 0.01,
+       "vol": 0.3
+      }
+     },
+     "m_is": {
+      "cagr": 14.34,
+      "vol": 14.3,
+      "mdd": -16.5,
+      "sharpe": 1.01,
+      "ex": 5.31,
+      "win12": 62,
+      "beat_years": 6,
+      "years": 9,
+      "turn": 1025
+     },
+     "m_oos": {
+      "cagr": 18.08,
+      "vol": 15.3,
+      "mdd": -18.5,
+      "sharpe": 1.16,
+      "ex": 3.55,
+      "win12": 73,
+      "beat_years": 7,
+      "years": 10,
+      "turn": 1125
+     },
+     "m_q": 25.8
+    },
+    "XLK_k1": {
+     "raw": {
+      "is": {
+       "cagr": -0.64,
+       "mdd": 0.0,
+       "sharpe": -0.06,
+       "vol": 0.4
+      },
+      "oos": {
+       "cagr": 1.8,
+       "mdd": -0.3,
+       "sharpe": 0.01,
+       "vol": 1.4
+      }
+     },
+     "raw_q": 51.5,
+     "tgt": 18.15,
+     "m": {
+      "is": {
+       "cagr": -0.76,
+       "mdd": 0.5,
+       "sharpe": -0.05,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.76,
+       "mdd": 2.0,
+       "sharpe": 0.03,
+       "vol": 0.3
+      }
+     },
+     "m_is": {
+      "cagr": 13.93,
+      "vol": 14.3,
+      "mdd": -16.2,
+      "sharpe": 0.98,
+      "ex": 4.91,
+      "win12": 57,
+      "beat_years": 5,
+      "years": 9,
+      "turn": 1039
+     },
+     "m_oos": {
+      "cagr": 18.29,
+      "vol": 15.3,
+      "mdd": -17.4,
+      "sharpe": 1.18,
+      "ex": 3.76,
+      "win12": 74,
+      "beat_years": 8,
+      "years": 10,
+      "turn": 1140
+     },
+     "m_q": 36.9
+    },
+    "XLK_k2": {
+     "raw": {
+      "is": {
+       "cagr": -0.76,
+       "mdd": -0.3,
+       "sharpe": -0.08,
+       "vol": 0.5
+      },
+      "oos": {
+       "cagr": 2.76,
+       "mdd": 0.0,
+       "sharpe": 0.03,
+       "vol": 1.9
+      }
+     },
+     "raw_q": 64.9,
+     "tgt": 17.05,
+     "m": {
+      "is": {
+       "cagr": -1.33,
+       "mdd": 0.6,
+       "sharpe": -0.08,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.63,
+       "mdd": 2.3,
+       "sharpe": 0.01,
+       "vol": 0.4
+      }
+     },
+     "m_is": {
+      "cagr": 13.36,
+      "vol": 14.3,
+      "mdd": -16.1,
+      "sharpe": 0.95,
+      "ex": 4.33,
+      "win12": 55,
+      "beat_years": 5,
+      "years": 9,
+      "turn": 1052
+     },
+     "m_oos": {
+      "cagr": 18.16,
+      "vol": 15.4,
+      "mdd": -17.1,
+      "sharpe": 1.16,
+      "ex": 3.63,
+      "win12": 71,
+      "beat_years": 7,
+      "years": 10,
+      "turn": 1164
+     },
+     "m_q": 45.0
+    },
+    "XLK_kinf": {
+     "raw": {
+      "is": {
+       "cagr": -0.44,
+       "mdd": -1.2,
+       "sharpe": -0.06,
+       "vol": 0.6
+      },
+      "oos": {
+       "cagr": 2.83,
+       "mdd": -0.5,
+       "sharpe": 0.01,
+       "vol": 2.4
+      }
+     },
+     "raw_q": 78.4,
+     "tgt": 15.95,
+     "m": {
+      "is": {
+       "cagr": -1.83,
+       "mdd": 0.8,
+       "sharpe": -0.11,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 1.14,
+       "mdd": 1.6,
+       "sharpe": 0.04,
+       "vol": 0.5
+      }
+     },
+     "m_is": {
+      "cagr": 12.86,
+      "vol": 14.3,
+      "mdd": -15.9,
+      "sharpe": 0.92,
+      "ex": 3.83,
+      "win12": 52,
+      "beat_years": 5,
+      "years": 9,
+      "turn": 1099
+     },
+     "m_oos": {
+      "cagr": 18.67,
+      "vol": 15.5,
+      "mdd": -17.8,
+      "sharpe": 1.19,
+      "ex": 4.14,
+      "win12": 75,
+      "beat_years": 7,
+      "years": 10,
+      "turn": 1200
+     },
+     "m_q": 56.6
+    },
+    "S25Q75": {
+     "raw": {
+      "is": {
+       "cagr": 0.44,
+       "mdd": -1.0,
+       "sharpe": 0.0,
+       "vol": 0.4
+      },
+      "oos": {
+       "cagr": 1.07,
+       "mdd": -2.0,
+       "sharpe": 0.0,
+       "vol": 1.0
+      }
+     },
+     "raw_q": 50.0,
+     "tgt": 17.6,
+     "m": {
+      "is": {
+       "cagr": -0.25,
+       "mdd": -0.1,
+       "sharpe": -0.02,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.32,
+       "mdd": 1.4,
+       "sharpe": 0.0,
+       "vol": 0.3
+      }
+     },
+     "m_is": {
+      "cagr": 14.44,
+      "vol": 14.3,
+      "mdd": -16.8,
+      "sharpe": 1.01,
+      "ex": 5.42,
+      "win12": 64,
+      "beat_years": 6,
+      "years": 9,
+      "turn": 1056
+     },
+     "m_oos": {
+      "cagr": 17.85,
+      "vol": 15.3,
+      "mdd": -18.0,
+      "sharpe": 1.15,
+      "ex": 3.32,
+      "win12": 72,
+      "beat_years": 6,
+      "years": 10,
+      "turn": 1138
+     },
+     "m_q": 50.0
+    },
+    "Q100": {
+     "raw": {
+      "is": {
+       "cagr": 0.74,
+       "mdd": -1.8,
+       "sharpe": -0.01,
+       "vol": 0.9
+      },
+      "oos": {
+       "cagr": 2.21,
+       "mdd": -2.8,
+       "sharpe": -0.01,
+       "vol": 2.1
+      }
+     },
+     "raw_q": 100.0,
+     "tgt": 14.85,
+     "m": {
+      "is": {
+       "cagr": -0.82,
+       "mdd": 0.2,
+       "sharpe": -0.05,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.48,
+       "mdd": 1.0,
+       "sharpe": -0.01,
+       "vol": 0.6
+      }
+     },
+     "m_is": {
+      "cagr": 13.87,
+      "vol": 14.3,
+      "mdd": -16.5,
+      "sharpe": 0.98,
+      "ex": 4.84,
+      "win12": 61,
+      "beat_years": 6,
+      "years": 9,
+      "turn": 1137
+     },
+     "m_oos": {
+      "cagr": 18.01,
+      "vol": 15.6,
+      "mdd": -18.4,
+      "sharpe": 1.14,
+      "ex": 3.48,
+      "win12": 68,
+      "beat_years": 6,
+      "years": 10,
+      "turn": 1160
+     },
+     "m_q": 100.0
+    }
+   },
+   "is_pick": "QQQ_k0.5",
+   "shake": {
+    "tgt-20": {
+     "raw": {
+      "is": {
+       "cagr": -0.01,
+       "mdd": 0.0,
+       "sharpe": -0.01,
+       "vol": 0.2
+      },
+      "oos": {
+       "cagr": 0.4,
+       "mdd": 0.0,
+       "sharpe": 0.0,
+       "vol": 0.3
+      }
+     },
+     "m": {
+      "is": {
+       "cagr": -0.38,
+       "mdd": 0.2,
+       "sharpe": -0.02,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.19,
+       "mdd": 0.7,
+       "sharpe": 0.01,
+       "vol": -0.1
+      }
+     }
+    },
+    "tgt+20": {
+     "raw": {
+      "is": {
+       "cagr": 0.12,
+       "mdd": -0.5,
+       "sharpe": -0.02,
+       "vol": 0.4
+      },
+      "oos": {
+       "cagr": 1.01,
+       "mdd": -0.6,
+       "sharpe": 0.0,
+       "vol": 0.8
+      }
+     },
+     "m": {
+      "is": {
+       "cagr": -0.21,
+       "mdd": -0.4,
+       "sharpe": -0.01,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.46,
+       "mdd": 2.1,
+       "sharpe": 0.03,
+       "vol": -0.1
+      }
+     }
+    },
+    "floor-20": {
+     "raw": {
+      "is": {
+       "cagr": 0.01,
+       "mdd": 0.0,
+       "sharpe": -0.02,
+       "vol": 0.3
+      },
+      "oos": {
+       "cagr": 0.61,
+       "mdd": -0.1,
+       "sharpe": 0.0,
+       "vol": 0.5
+      }
+     },
+     "m": {
+      "is": {
+       "cagr": -0.39,
+       "mdd": 0.1,
+       "sharpe": -0.02,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.13,
+       "mdd": 2.0,
+       "sharpe": 0.01,
+       "vol": 0.0
+      }
+     }
+    },
+    "floor+20": {
+     "raw": {
+      "is": {
+       "cagr": 0.03,
+       "mdd": 0.0,
+       "sharpe": -0.02,
+       "vol": 0.3
+      },
+      "oos": {
+       "cagr": 0.64,
+       "mdd": 0.0,
+       "sharpe": 0.01,
+       "vol": 0.5
+      }
+     },
+     "m": {
+      "is": {
+       "cagr": -0.71,
+       "mdd": 0.4,
+       "sharpe": -0.04,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.03,
+       "mdd": 1.8,
+       "sharpe": 0.01,
+       "vol": -0.1
+      }
+     }
+    },
+    "k-20": {
+     "raw": {
+      "is": {
+       "cagr": -0.21,
+       "mdd": 0.0,
+       "sharpe": -0.03,
+       "vol": 0.3
+      },
+      "oos": {
+       "cagr": 0.53,
+       "mdd": 0.0,
+       "sharpe": 0.0,
+       "vol": 0.5
+      }
+     },
+     "m": {
+      "is": {
+       "cagr": -0.24,
+       "mdd": 0.6,
+       "sharpe": -0.01,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": -0.09,
+       "mdd": 1.5,
+       "sharpe": 0.0,
+       "vol": -0.1
+      }
+     }
+    },
+    "k+20": {
+     "raw": {
+      "is": {
+       "cagr": 0.18,
+       "mdd": 0.0,
+       "sharpe": -0.01,
+       "vol": 0.4
+      },
+      "oos": {
+       "cagr": 0.62,
+       "mdd": -0.4,
+       "sharpe": -0.01,
+       "vol": 0.7
+      }
+     },
+     "m": {
+      "is": {
+       "cagr": -0.41,
+       "mdd": 0.5,
+       "sharpe": -0.02,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": -0.11,
+       "mdd": 2.1,
+       "sharpe": 0.0,
+       "vol": -0.1
+      }
+     }
+    }
+   }
+  },
+  "port": {
+   "base": {
+    "is": {
+     "cagr": 10.54,
+     "vol": 12.1,
+     "mdd": -12.5,
+     "sharpe": 0.89,
+     "ex": 1.51,
+     "win12": 38,
+     "beat_years": 1,
+     "years": 9,
+     "turn": 216
+    },
+    "oos": {
+     "cagr": 14.58,
+     "vol": 13.1,
+     "mdd": -16.1,
+     "sharpe": 1.11,
+     "ex": 0.05,
+     "win12": 47,
+     "beat_years": 5,
+     "years": 10,
+     "turn": 242
+    },
+    "q": 0.0,
+    "cap": 51.9
+   },
+   "cands": {
+    "QQQ_k0.5": {
+     "raw": {
+      "is": {
+       "cagr": -0.01,
+       "mdd": -0.2,
+       "sharpe": -0.01,
+       "vol": 0.1
+      },
+      "oos": {
+       "cagr": 0.18,
+       "mdd": 0.0,
+       "sharpe": 0.0,
+       "vol": 0.2
+      }
+     },
+     "raw_q": 12.6,
+     "tgt": 14.62,
+     "m": {
+      "is": {
+       "cagr": -0.19,
+       "mdd": -0.2,
+       "sharpe": -0.01,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.09,
+       "mdd": 0.3,
+       "sharpe": 0.0,
+       "vol": 0.0
+      }
+     },
+     "m_is": {
+      "cagr": 10.35,
+      "vol": 12.1,
+      "mdd": -12.7,
+      "sharpe": 0.88,
+      "ex": 1.32,
+      "win12": 40,
+      "beat_years": 1,
+      "years": 9,
+      "turn": 228
+     },
+     "m_oos": {
+      "cagr": 14.67,
+      "vol": 13.1,
+      "mdd": -15.8,
+      "sharpe": 1.11,
+      "ex": 0.14,
+      "win12": 46,
+      "beat_years": 5,
+      "years": 10,
+      "turn": 256
+     },
+     "m_q": 11.6
+    },
+    "QQQ_k1": {
+     "raw": {
+      "is": {
+       "cagr": 0.09,
+       "mdd": -0.3,
+       "sharpe": -0.01,
+       "vol": 0.2
+      },
+      "oos": {
+       "cagr": 0.42,
+       "mdd": 0.0,
+       "sharpe": 0.0,
+       "vol": 0.3
+      }
+     },
+     "raw_q": 23.2,
+     "tgt": 14.62,
+     "m": {
+      "is": {
+       "cagr": 0.01,
+       "mdd": -0.1,
+       "sharpe": 0.0,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.25,
+       "mdd": 0.3,
+       "sharpe": 0.0,
+       "vol": 0.2
+      }
+     },
+     "m_is": {
+      "cagr": 10.55,
+      "vol": 12.1,
+      "mdd": -12.6,
+      "sharpe": 0.89,
+      "ex": 1.52,
+      "win12": 43,
+      "beat_years": 1,
+      "years": 9,
+      "turn": 231
+     },
+     "m_oos": {
+      "cagr": 14.83,
+      "vol": 13.3,
+      "mdd": -15.8,
+      "sharpe": 1.11,
+      "ex": 0.3,
+      "win12": 46,
+      "beat_years": 5,
+      "years": 10,
+      "turn": 259
+     },
+     "m_q": 21.7
+    },
+    "QQQ_k2": {
+     "raw": {
+      "is": {
+       "cagr": -0.11,
+       "mdd": -0.8,
+       "sharpe": -0.03,
+       "vol": 0.3
+      },
+      "oos": {
+       "cagr": 0.61,
+       "mdd": 0.0,
+       "sharpe": 0.0,
+       "vol": 0.5
+      }
+     },
+     "raw_q": 34.7,
+     "tgt": 14.25,
+     "m": {
+      "is": {
+       "cagr": -0.34,
+       "mdd": -0.5,
+       "sharpe": -0.03,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.36,
+       "mdd": 0.9,
+       "sharpe": 0.01,
+       "vol": 0.2
+      }
+     },
+     "m_is": {
+      "cagr": 10.2,
+      "vol": 12.1,
+      "mdd": -13.0,
+      "sharpe": 0.86,
+      "ex": 1.18,
+      "win12": 40,
+      "beat_years": 1,
+      "years": 9,
+      "turn": 245
+     },
+     "m_oos": {
+      "cagr": 14.94,
+      "vol": 13.3,
+      "mdd": -15.2,
+      "sharpe": 1.12,
+      "ex": 0.41,
+      "win12": 46,
+      "beat_years": 5,
+      "years": 10,
+      "turn": 278
+     },
+     "m_q": 31.0
+    },
+    "QQQ_kinf": {
+     "raw": {
+      "is": {
+       "cagr": 0.1,
+       "mdd": -1.4,
+       "sharpe": -0.03,
+       "vol": 0.5
+      },
+      "oos": {
+       "cagr": 0.89,
+       "mdd": 0.0,
+       "sharpe": 0.0,
+       "vol": 0.8
+      }
+     },
+     "raw_q": 51.4,
+     "tgt": 13.5,
+     "m": {
+      "is": {
+       "cagr": -0.66,
+       "mdd": -0.5,
+       "sharpe": -0.05,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.41,
+       "mdd": 1.6,
+       "sharpe": 0.02,
+       "vol": 0.0
+      }
+     },
+     "m_is": {
+      "cagr": 9.88,
+      "vol": 12.1,
+      "mdd": -13.0,
+      "sharpe": 0.84,
+      "ex": 0.85,
+      "win12": 40,
+      "beat_years": 1,
+      "years": 9,
+      "turn": 286
+     },
+     "m_oos": {
+      "cagr": 14.99,
+      "vol": 13.1,
+      "mdd": -14.5,
+      "sharpe": 1.13,
+      "ex": 0.46,
+      "win12": 46,
+      "beat_years": 5,
+      "years": 10,
+      "turn": 324
+     },
+     "m_q": 43.5
+    },
+    "XLK_k0.5": {
+     "raw": {
+      "is": {
+       "cagr": -0.01,
+       "mdd": -0.1,
+       "sharpe": 0.0,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.2,
+       "mdd": 0.0,
+       "sharpe": -0.01,
+       "vol": 0.2
+      }
+     },
+     "raw_q": 12.6,
+     "tgt": 15.0,
+     "m": {
+      "is": {
+       "cagr": -0.01,
+       "mdd": -0.1,
+       "sharpe": 0.0,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.2,
+       "mdd": 0.0,
+       "sharpe": -0.01,
+       "vol": 0.2
+      }
+     },
+     "m_is": {
+      "cagr": 10.53,
+      "vol": 12.1,
+      "mdd": -12.6,
+      "sharpe": 0.89,
+      "ex": 1.51,
+      "win12": 40,
+      "beat_years": 1,
+      "years": 9,
+      "turn": 214
+     },
+     "m_oos": {
+      "cagr": 14.78,
+      "vol": 13.3,
+      "mdd": -16.1,
+      "sharpe": 1.1,
+      "ex": 0.25,
+      "win12": 47,
+      "beat_years": 5,
+      "years": 10,
+      "turn": 245
+     },
+     "m_q": 12.6
+    },
+    "XLK_k1": {
+     "raw": {
+      "is": {
+       "cagr": -0.04,
+       "mdd": -0.1,
+       "sharpe": -0.01,
+       "vol": 0.1
+      },
+      "oos": {
+       "cagr": 0.58,
+       "mdd": 0.0,
+       "sharpe": 0.0,
+       "vol": 0.4
+      }
+     },
+     "raw_q": 23.2,
+     "tgt": 14.62,
+     "m": {
+      "is": {
+       "cagr": -0.09,
+       "mdd": 0.1,
+       "sharpe": 0.0,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.31,
+       "mdd": 0.6,
+       "sharpe": 0.0,
+       "vol": 0.2
+      }
+     },
+     "m_is": {
+      "cagr": 10.45,
+      "vol": 12.1,
+      "mdd": -12.4,
+      "sharpe": 0.89,
+      "ex": 1.43,
+      "win12": 40,
+      "beat_years": 1,
+      "years": 9,
+      "turn": 227
+     },
+     "m_oos": {
+      "cagr": 14.89,
+      "vol": 13.3,
+      "mdd": -15.5,
+      "sharpe": 1.11,
+      "ex": 0.36,
+      "win12": 46,
+      "beat_years": 5,
+      "years": 10,
+      "turn": 259
+     },
+     "m_q": 21.7
+    },
+    "XLK_k2": {
+     "raw": {
+      "is": {
+       "cagr": -0.24,
+       "mdd": -0.4,
+       "sharpe": -0.03,
+       "vol": 0.2
+      },
+      "oos": {
+       "cagr": 0.64,
+       "mdd": 0.0,
+       "sharpe": -0.01,
+       "vol": 0.7
+      }
+     },
+     "raw_q": 34.7,
+     "tgt": 14.44,
+     "m": {
+      "is": {
+       "cagr": -0.38,
+       "mdd": -0.3,
+       "sharpe": -0.03,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.56,
+       "mdd": 1.0,
+       "sharpe": 0.01,
+       "vol": 0.4
+      }
+     },
+     "m_is": {
+      "cagr": 10.16,
+      "vol": 12.1,
+      "mdd": -12.8,
+      "sharpe": 0.86,
+      "ex": 1.13,
+      "win12": 38,
+      "beat_years": 1,
+      "years": 9,
+      "turn": 234
+     },
+     "m_oos": {
+      "cagr": 15.14,
+      "vol": 13.5,
+      "mdd": -15.1,
+      "sharpe": 1.12,
+      "ex": 0.61,
+      "win12": 47,
+      "beat_years": 5,
+      "years": 10,
+      "turn": 286
+     },
+     "m_q": 32.0
+    },
+    "XLK_kinf": {
+     "raw": {
+      "is": {
+       "cagr": -0.5,
+       "mdd": -0.9,
+       "sharpe": -0.06,
+       "vol": 0.4
+      },
+      "oos": {
+       "cagr": 1.78,
+       "mdd": 0.0,
+       "sharpe": 0.04,
+       "vol": 1.0
+      }
+     },
+     "raw_q": 51.4,
+     "tgt": 13.88,
+     "m": {
+      "is": {
+       "cagr": -1.0,
+       "mdd": -0.9,
+       "sharpe": -0.08,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.96,
+       "mdd": 1.4,
+       "sharpe": 0.03,
+       "vol": 0.4
+      }
+     },
+     "m_is": {
+      "cagr": 9.54,
+      "vol": 12.1,
+      "mdd": -13.4,
+      "sharpe": 0.81,
+      "ex": 0.51,
+      "win12": 33,
+      "beat_years": 1,
+      "years": 9,
+      "turn": 271
+     },
+     "m_oos": {
+      "cagr": 15.54,
+      "vol": 13.5,
+      "mdd": -14.7,
+      "sharpe": 1.14,
+      "ex": 1.01,
+      "win12": 50,
+      "beat_years": 5,
+      "years": 10,
+      "turn": 323
+     },
+     "m_q": 45.4
+    },
+    "S25Q75": {
+     "raw": {
+      "is": {
+       "cagr": 0.46,
+       "mdd": -0.5,
+       "sharpe": 0.02,
+       "vol": 0.3
+      },
+      "oos": {
+       "cagr": 0.81,
+       "mdd": -0.2,
+       "sharpe": 0.01,
+       "vol": 0.6
+      }
+     },
+     "raw_q": 50.0,
+     "tgt": 14.06,
+     "m": {
+      "is": {
+       "cagr": 0.07,
+       "mdd": -0.3,
+       "sharpe": 0.0,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.64,
+       "mdd": 0.7,
+       "sharpe": 0.02,
+       "vol": 0.2
+      }
+     },
+     "m_is": {
+      "cagr": 10.61,
+      "vol": 12.1,
+      "mdd": -12.8,
+      "sharpe": 0.89,
+      "ex": 1.58,
+      "win12": 44,
+      "beat_years": 3,
+      "years": 9,
+      "turn": 259
+     },
+     "m_oos": {
+      "cagr": 15.22,
+      "vol": 13.3,
+      "mdd": -15.4,
+      "sharpe": 1.13,
+      "ex": 0.69,
+      "win12": 52,
+      "beat_years": 5,
+      "years": 10,
+      "turn": 292
+     },
+     "m_q": 50.0
+    },
+    "Q100": {
+     "raw": {
+      "is": {
+       "cagr": 0.7,
+       "mdd": -1.0,
+       "sharpe": 0.01,
+       "vol": 0.7
+      },
+      "oos": {
+       "cagr": 1.66,
+       "mdd": -1.5,
+       "sharpe": 0.02,
+       "vol": 1.1
+      }
+     },
+     "raw_q": 100.0,
+     "tgt": 13.12,
+     "m": {
+      "is": {
+       "cagr": -0.13,
+       "mdd": -0.3,
+       "sharpe": -0.01,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 1.02,
+       "mdd": 1.0,
+       "sharpe": 0.05,
+       "vol": 0.2
+      }
+     },
+     "m_is": {
+      "cagr": 10.41,
+      "vol": 12.1,
+      "mdd": -12.8,
+      "sharpe": 0.88,
+      "ex": 1.38,
+      "win12": 45,
+      "beat_years": 3,
+      "years": 9,
+      "turn": 321
+     },
+     "m_oos": {
+      "cagr": 15.6,
+      "vol": 13.3,
+      "mdd": -15.1,
+      "sharpe": 1.16,
+      "ex": 1.07,
+      "win12": 51,
+      "beat_years": 5,
+      "years": 10,
+      "turn": 337
+     },
+     "m_q": 100.0
+    }
+   },
+   "is_pick": "QQQ_k1",
+   "shake": {
+    "tgt-20": {
+     "raw": {
+      "is": {
+       "cagr": 0.08,
+       "mdd": 0.0,
+       "sharpe": 0.0,
+       "vol": 0.1
+      },
+      "oos": {
+       "cagr": 0.08,
+       "mdd": 0.0,
+       "sharpe": 0.0,
+       "vol": 0.1
+      }
+     },
+     "m": {
+      "is": {
+       "cagr": -0.06,
+       "mdd": 0.2,
+       "sharpe": -0.01,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": -0.18,
+       "mdd": 0.2,
+       "sharpe": -0.01,
+       "vol": 0.0
+      }
+     }
+    },
+    "tgt+20": {
+     "raw": {
+      "is": {
+       "cagr": 0.01,
+       "mdd": 0.0,
+       "sharpe": -0.03,
+       "vol": 0.4
+      },
+      "oos": {
+       "cagr": 0.73,
+       "mdd": 0.0,
+       "sharpe": 0.0,
+       "vol": 0.6
+      }
+     },
+     "m": {
+      "is": {
+       "cagr": -0.35,
+       "mdd": 0.9,
+       "sharpe": -0.02,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.35,
+       "mdd": 2.2,
+       "sharpe": 0.02,
+       "vol": -0.1
+      }
+     }
+    },
+    "floor-20": {
+     "raw": {
+      "is": {
+       "cagr": 0.09,
+       "mdd": -0.3,
+       "sharpe": -0.01,
+       "vol": 0.2
+      },
+      "oos": {
+       "cagr": 0.42,
+       "mdd": 0.0,
+       "sharpe": 0.0,
+       "vol": 0.3
+      }
+     },
+     "m": {
+      "is": {
+       "cagr": -0.24,
+       "mdd": -0.2,
+       "sharpe": -0.02,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.04,
+       "mdd": 0.7,
+       "sharpe": 0.0,
+       "vol": 0.0
+      }
+     }
+    },
+    "floor+20": {
+     "raw": {
+      "is": {
+       "cagr": 0.09,
+       "mdd": 0.0,
+       "sharpe": -0.01,
+       "vol": 0.2
+      },
+      "oos": {
+       "cagr": 0.43,
+       "mdd": 0.0,
+       "sharpe": 0.01,
+       "vol": 0.3
+      }
+     },
+     "m": {
+      "is": {
+       "cagr": -0.13,
+       "mdd": 0.4,
+       "sharpe": -0.01,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.07,
+       "mdd": 0.4,
+       "sharpe": 0.01,
+       "vol": 0.0
+      }
+     }
+    },
+    "k-20": {
+     "raw": {
+      "is": {
+       "cagr": 0.09,
+       "mdd": -0.2,
+       "sharpe": 0.0,
+       "vol": 0.1
+      },
+      "oos": {
+       "cagr": 0.28,
+       "mdd": 0.0,
+       "sharpe": -0.01,
+       "vol": 0.3
+      }
+     },
+     "m": {
+      "is": {
+       "cagr": -0.1,
+       "mdd": -0.2,
+       "sharpe": -0.01,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.26,
+       "mdd": 0.3,
+       "sharpe": 0.01,
+       "vol": 0.1
+      }
+     }
+    },
+    "k+20": {
+     "raw": {
+      "is": {
+       "cagr": 0.01,
+       "mdd": -0.5,
+       "sharpe": -0.01,
+       "vol": 0.2
+      },
+      "oos": {
+       "cagr": 0.57,
+       "mdd": -0.1,
+       "sharpe": 0.01,
+       "vol": 0.4
+      }
+     },
+     "m": {
+      "is": {
+       "cagr": -0.2,
+       "mdd": -0.2,
+       "sharpe": -0.02,
+       "vol": 0.0
+      },
+      "oos": {
+       "cagr": 0.28,
+       "mdd": 0.6,
+       "sharpe": 0.01,
+       "vol": 0.1
+      }
+     }
+    }
+   }
+  }
+ },
+ "note": "raw = 같은 목표(위험 더 짐), m = 앞 구간 변동성 맞춘 목표(같은 위험) — 판정은 m · q = S칸 중 채움 자산 평균 몫(%) · cap = 50/50 이 목표보다 덜 흔들린 날 비율 · 💼 는 k1104_core 와 같은 옛 기준판(월말 흐름 없음) · 매수 추천 아님"
+}
