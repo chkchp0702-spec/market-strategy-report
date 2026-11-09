@@ -1,5 +1,5 @@
 {
- "at": "2026-11-10 02:40",
+ "at": "2026-11-10 03:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/1pXRjJTVFpoZjN2NG9qblVQMXhHUC1vV3JxaHkxbVJiVkhldEZISHlCdwoc5": {
@@ -67,15 +67,20 @@
    "why": "고금리 정점 가설·CPI 하루 전 — 굴스비 「서비스 물가 재상승, 인플레 대응 실패 인정해야」 매파 발언",
    "at": "2026-11-10 01:40"
   },
-  "n/FUQjlWb0RGWi1mVTZQZGM5blo1Vm5OV3JBWTdsWVdoWGZhbmQtaTRLWEEoc5": {
-   "lv": 1,
-   "why": "NVDA 장중 −8.8%·시총 약 4천억$ 증발에도 S&P 상승 — AI 키맨 위험이 지수로 번지지 않는 분화, 🐻 현금 해제·AI 차입 가설 확인 재료",
-   "at": "2026-11-10 02:40"
-  },
   "n/1F5eWtkTDJOdGNUY0haUXR2UzFycVVsRFNhZ2lRNExBS3h5MTB6Q3JUdgoc5": {
    "lv": 1,
    "why": "씨티 「한은 이달 인상, 반도체 급락 시 내년 피벗」 — 한은 11/26 인상 가설·원화·🐻 코스피 현금 해제 조건과 직결",
    "at": "2026-11-10 02:40"
+  },
+  "n/swwwftcomcontent45dce79e275843f2a06c3c56db392f39syn25a6b1a61": {
+   "lv": 1,
+   "why": "사우디 동서 송유관 또 피격(메디나) — 당국 「운영 영향 없음」, 유가 하락 흐름 꺾을지가 🐻 현금 해제·CPI 경로와 이어짐",
+   "at": "2026-11-10 03:40"
+  },
+  "n/Ba1gxY1l6QW9IRlZaZkVuYWMxR3I4eVdOT1Z6MU1adkNaTU9MbGZhVC1Foc5": {
+   "lv": 1,
+   "why": "데일리 「추가 인상 가능성 높다」 — 굴스비·바킨에 이어 매파 3번째, 고금리 정점 가설 반대 근거 · CPI 전날",
+   "at": "2026-11-10 03:40"
   }
  }
 }
