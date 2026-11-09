@@ -1,5 +1,5 @@
 {
- "at": "2026-11-09 09:40",
+ "at": "2026-11-09 10:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/1VoNlhWdXhjUWR6N01Ja0s3azR4RE1kbkdsR0llb2gtSlVVQjRKajIyQQoc5": {
@@ -41,6 +41,16 @@
    "lv": 1,
    "why": "외국인 선물 누적 매도 20만 계약 근접 = 장기 평균 — 🐻 하락장 바닥 신호 후보(숏 포지션 소진)",
    "at": "2026-11-09 09:40"
+  },
+  "n/VBTGZPRXJiQU53QWNoVElVU3c0VWtfNlhGNjZFaWtMZGdHZ21uZ3IyNHcoc5": {
+   "lv": 1,
+   "why": "🐻 하락장 watch — 코스피 5,000 공방 뒤 개인·기관 쌍끌이로 5,100 회복, 대만·TOPIX +3% 아시아 동반 반발(정책 바닥 신호와 겹침)",
+   "at": "2026-11-09 10:45"
+  },
+  "n/FTTm90c2lWRW9ia0JTV3U2emFoVUhRdnUxMVhOVHlYQzBEdnQwQkppZmMoc5": {
+   "lv": 1,
+   "why": "반도체 반등 지속성 — BofA 「반도체 바닥 내년 1Q」, 오늘 반발을 바닥 확인으로 읽지 말라는 반대 재료(091160·SOXX)",
+   "at": "2026-11-09 10:45"
   }
  }
 }

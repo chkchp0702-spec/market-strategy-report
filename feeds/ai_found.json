@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "코어위브, 3분기 실적 발표일 공지(11/10 장 마감 뒤)",
+   "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
+   "press": "CoreWeave IR",
+   "at": "2026-11-09 10:45",
+   "why": "AI 차입 가설(0.92)·나스닥 조정 watch의 이번 주 변곡 — 네오클라우드 신용 판정일",
+   "summary": "공식 IR 공지 — 11/10(美) 장 마감 후 실적·컨퍼런스콜. 주가 한 달 −45%(Morningstar) 상태에서 맞는 첫 시험대."
+  },
+  {
+   "title": "아시아 반발 — 칩 반등·일본 연기금 자금 기대·이란 위험 완화",
+   "url": "https://investinglive.com/stock-market-update/asia-rallies-on-chip-rebound-and-japan-pension-flow-hopes-as-iran-risk-fades/",
+   "press": "investingLive",
+   "at": "2026-11-09 10:45",
+   "why": "🐻 하락장 watch — 대만 +3%(40,903)·TOPIX +3%와 같은 흐름, 반발이 칩 단독인지 아시아 전반인지 확인용",
+   "summary": "美 반도체 반등·트럼프 이란 공격 가능성 낮춤 발언으로 아시아 위험 선호 회복. 기사 날짜 미확인 — 피드 HANAchina/71780 숫자로 교차 확인."
+  },
+  {
    "title": "10월 고용 호조로 12월 연준 인상 확률 약 80%",
    "url": "https://www.bisnow.com/news/national/economy/80-likelihood-of-fed-rate-hike-following-job-gains-67292",
    "press": "Bisnow",
@@ -623,23 +639,7 @@
    "at": "2026-11-05 04:40",
    "why": "에너지 칸 조건 brent_95 — 하락 원인이 「평화 틀」 보도(공급 리스크 해소)라 종가·다음날 시가 확인 필요",
    "summary": "미·이란 평화 틀 보도에 브렌트 장중 100달러 아래. 기사 날짜·세부 숫자 원문 미확인(앱 시세 11/4 94.2달러, −9.1%)."
-  },
-  {
-   "title": "미 증시, 반도체 급락 — AI 투자 지출 우려",
-   "url": "https://www.tmgm.com/en/analysis/market-news/ai-meets-market-reality",
-   "press": "TMGM",
-   "at": "2026-11-05 04:40",
-   "why": "AI 차입 가설(0.92) — 빅테크 급등·반도체 하락 분리. 11/5 ideas 의 SOXX−SPY 괴리 그림자 채점과 이어짐",
-   "summary": "반도체가 하락하며 「AI 투자 현실 점검」 논리로 시장 주도가 바뀐다는 분석. 날짜 미확인(이번 선거 랠리 당일 기사인지 원문 확인 필요)."
-  },
-  {
-   "title": "브렌트, 이란 긴장 완화 조짐에 100달러 아래로",
-   "url": "https://inspenet.com/en/news/brent-crude-oil-falls-below-100-amid-signs-of-de-escalation-in-iran/",
-   "press": "Inspenet",
-   "at": "2026-11-05 03:35",
-   "why": "에너지 칸 13%·장부 조건 brent_95(→10) — 하락 이유가 공급 완화(이란)라 단기 반등 약할 수 있음",
-   "summary": "이란 긴장 완화 기대에 브렌트 100달러 하회. 앱 시세 기준 11/4 18:18 BST 94.2달러(−9.07%). 기사 날짜·세부 숫자 원문 미확인."
   }
  ],
- "at": "2026-11-09 05:40"
+ "at": "2026-11-09 10:45"
 }
