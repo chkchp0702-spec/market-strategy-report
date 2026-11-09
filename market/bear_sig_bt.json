@@ -1,0 +1,1242 @@
+{
+ "at": "2026-11-09 13:27",
+ "rules": {
+  "판정": "낙폭(252일 최고 종가 대비) > −10% 🟢 정상 · −10~−20% 🟡 조정 · −20% 이하 🐻 하락장 (🐻 은 낙폭 −10% 위 + 200일선 위까지 유지)",
+  "바닥 신호": "① 60일 저점 10거래일 안 깨짐 ② 20일선 위 2일 연속 ③ VIX 20 아래 ④ 🇰🇷 외국인 3일 연속 순매수 / 🇺🇸 50일선 위",
+  "현금": "🇰🇷 코스피: 🐻 하락장이면 주식 몫 전부 현금(100%) · 판정 풀릴 때까지 · 🟡 조정 0% / 🇺🇸 S&P·나스닥: 현금 규칙 꺼 둠(판정은 참고) — 11/09 사용자 · lab b1109_cash",
+  "등록": "2026-11-09 결과 보기 전 · 같은 날 오후 다시 사기 규칙만 시장별로 바꿈(lab b1109_floor · 사용자 확인)"
+ },
+ "note": "과거 🐻 하락장마다 바닥 신호가 언제 켜졌나 · 가짜 = 켜진 뒤 그 하락장 바닥이 더 낮게 나옴 · 진짜 = 바닥 뒤 처음 켜진 날 · 6개월 = 126거래일 · 🇰🇷 ④는 외국인 대신 50일선 · 가격지수 · 표본이 적어 「n번 중 m번」으로만 읽기",
+ "markets": [
+  {
+   "episodes": [
+    {
+     "in": "2000-02-21",
+     "out": "2001-11-08",
+     "bottom": "2001-09-17",
+     "bottom_dd": -31.0,
+     "len": 418,
+     "sig": [
+      {
+       "fake": 9,
+       "fake_more": -44.6,
+       "on": "2001-10-04",
+       "after": 10,
+       "up": 6.8
+      },
+      {
+       "fake": 13,
+       "fake_more": -48.3,
+       "on": "2001-10-10",
+       "after": 14,
+       "up": 7.4
+      },
+      {
+       "fake": 13,
+       "fake_more": -47.6,
+       "on": null,
+       "after": null,
+       "up": null
+      },
+      {
+       "fake": 12,
+       "fake_more": -48.4,
+       "on": "2001-10-22",
+       "after": 22,
+       "up": 12.8
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2001-11-08",
+       "r6": 49.7,
+       "early": false,
+       "after": 35,
+       "up": 22.2,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2002-06-26",
+     "out": "2003-07-16",
+     "bottom": "2003-03-17",
+     "bottom_dd": -45.0,
+     "len": 261,
+     "sig": [
+      {
+       "fake": 5,
+       "fake_more": -32.6,
+       "on": "2003-03-31",
+       "after": 10,
+       "up": 4.0
+      },
+      {
+       "fake": 8,
+       "fake_more": -34.2,
+       "on": "2003-03-21",
+       "after": 4,
+       "up": 11.7
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2003-05-09",
+       "after": 36,
+       "up": 20.2
+      },
+      {
+       "fake": 4,
+       "fake_more": -30.3,
+       "on": "2003-04-07",
+       "after": 15,
+       "up": 13.7
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2003-07-16",
+       "r6": 21.3,
+       "early": false,
+       "after": 83,
+       "up": 39.1,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2004-05-17",
+     "out": "2004-09-13",
+     "bottom": "2004-08-02",
+     "bottom_dd": -23.1,
+     "len": 84,
+     "sig": [
+      {
+       "fake": 1,
+       "fake_more": -11.8,
+       "on": "2004-08-16",
+       "after": 10,
+       "up": 7.5
+      },
+      {
+       "fake": 3,
+       "fake_more": -11.1,
+       "on": "2004-08-10",
+       "after": 6,
+       "up": 4.0
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2004-08-02",
+       "after": 0,
+       "up": 0.0
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2004-08-12",
+       "after": 8,
+       "up": 6.5
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2004-09-13",
+       "r6": 15.0,
+       "early": false,
+       "after": 30,
+       "up": 18.4,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2008-01-22",
+     "out": "2008-05-06",
+     "bottom": "2008-03-17",
+     "bottom_dd": -23.8,
+     "len": 69,
+     "sig": [
+      {
+       "fake": 1,
+       "fake_more": -7.2,
+       "on": "2008-03-31",
+       "after": 10,
+       "up": 8.2
+      },
+      {
+       "fake": 1,
+       "fake_more": -7.1,
+       "on": "2008-03-26",
+       "after": 7,
+       "up": 6.7
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2008-04-25",
+       "after": 28,
+       "up": 15.9
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2008-03-25",
+       "after": 6,
+       "up": 6.4
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2008-05-06",
+       "r6": -36.4,
+       "early": false,
+       "after": 33,
+       "up": 18.1,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2008-07-02",
+     "out": "2009-07-20",
+     "bottom": "2008-10-24",
+     "bottom_dd": -54.5,
+     "len": 263,
+     "sig": [
+      {
+       "fake": 2,
+       "fake_more": -40.5,
+       "on": "2008-11-07",
+       "after": 10,
+       "up": 20.9
+      },
+      {
+       "fake": 3,
+       "fake_more": -42.3,
+       "on": "2008-11-11",
+       "after": 12,
+       "up": 20.2
+      },
+      {
+       "fake": 2,
+       "fake_more": -37.9,
+       "on": null,
+       "after": null,
+       "up": null
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2008-12-10",
+       "after": 33,
+       "up": 22.1
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2009-07-20",
+       "r6": 15.8,
+       "early": false,
+       "after": 184,
+       "up": 57.5,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2011-08-19",
+     "out": "2012-02-09",
+     "bottom": "2011-09-26",
+     "bottom_dd": -25.9,
+     "len": 117,
+     "sig": [
+      {
+       "fake": 1,
+       "fake_more": -7.5,
+       "on": "2011-10-12",
+       "after": 10,
+       "up": 9.5
+      },
+      {
+       "fake": 3,
+       "fake_more": -12.1,
+       "on": "2011-10-12",
+       "after": 10,
+       "up": 9.5
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2012-01-19",
+       "after": 80,
+       "up": 15.9
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2011-10-14",
+       "after": 12,
+       "up": 11.1
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2012-02-09",
+       "r6": -3.4,
+       "early": false,
+       "after": 93,
+       "up": 21.9,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2018-10-25",
+     "out": "2019-11-04",
+     "bottom": "2019-08-07",
+     "bottom_dd": -18.9,
+     "len": 252,
+     "sig": [
+      {
+       "fake": 3,
+       "fake_more": -9.4,
+       "on": "2019-08-22",
+       "after": 10,
+       "up": 2.2
+      },
+      {
+       "fake": 6,
+       "fake_more": -12.7,
+       "on": "2019-09-02",
+       "after": 17,
+       "up": 3.1
+      },
+      {
+       "fake": 6,
+       "fake_more": -10.2,
+       "on": "2019-08-07",
+       "after": 0,
+       "up": 0.0
+      },
+      {
+       "fake": 10,
+       "fake_more": -13.8,
+       "on": "2019-09-09",
+       "after": 22,
+       "up": 5.8
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2019-11-04",
+       "r6": -9.1,
+       "early": false,
+       "after": 58,
+       "up": 11.5,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2020-03-13",
+     "out": "2020-06-01",
+     "bottom": "2020-03-19",
+     "bottom_dd": -35.7,
+     "len": 52,
+     "sig": [
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2020-04-02",
+       "after": 10,
+       "up": 18.3
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2020-04-06",
+       "after": 12,
+       "up": 22.9
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": null,
+       "after": null,
+       "up": null
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2020-04-17",
+       "after": 20,
+       "up": 31.3
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2020-06-01",
+       "r6": 27.6,
+       "early": false,
+       "after": 48,
+       "up": 41.7,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2022-01-27",
+     "out": "2023-04-05",
+     "bottom": "2022-09-30",
+     "bottom_dd": -31.4,
+     "len": 291,
+     "sig": [
+      {
+       "fake": 3,
+       "fake_more": -19.5,
+       "on": "2022-10-18",
+       "after": 10,
+       "up": 4.4
+      },
+      {
+       "fake": 5,
+       "fake_more": -21.4,
+       "on": "2022-10-19",
+       "after": 11,
+       "up": 3.8
+      },
+      {
+       "fake": 5,
+       "fake_more": -22.2,
+       "on": "2022-12-01",
+       "after": 42,
+       "up": 15.0
+      },
+      {
+       "fake": 6,
+       "fake_more": -21.4,
+       "on": "2022-11-01",
+       "after": 20,
+       "up": 8.3
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2023-04-05",
+       "r6": -0.6,
+       "early": false,
+       "after": 127,
+       "up": 15.8,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2025-04-09",
+     "out": "2025-05-12",
+     "bottom": "2025-04-09",
+     "bottom_dd": -20.7,
+     "len": 20,
+     "sig": [
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2025-04-23",
+       "after": 10,
+       "up": 10.1
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2025-04-22",
+       "after": 9,
+       "up": 8.4
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": null,
+       "after": null,
+       "up": null
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2025-04-28",
+       "after": 13,
+       "up": 11.1
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2025-05-12",
+       "r6": 53.9,
+       "early": false,
+       "after": 20,
+       "up": 13.7,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2026-07-08",
+     "out": "진행 중",
+     "bottom": "2026-11-06",
+     "bottom_dd": -44.5,
+     "len": 82,
+     "sig": [
+      {
+       "fake": 1,
+       "fake_more": -25.7,
+       "on": null,
+       "after": null,
+       "up": null
+      },
+      {
+       "fake": 4,
+       "fake_more": -27.8,
+       "on": null,
+       "after": null,
+       "up": null
+      },
+      {
+       "fake": 2,
+       "fake_more": -11.0,
+       "on": null,
+       "after": null,
+       "up": null
+      },
+      {
+       "fake": 2,
+       "fake_more": -27.7,
+       "on": null,
+       "after": null,
+       "up": null
+      }
+     ],
+     "step": {
+      "out": null
+     }
+    }
+   ],
+   "sig": [
+    {
+     "k": "저점 다지기",
+     "eps": 10,
+     "on": 10,
+     "after": 10.0,
+     "up": 7.85,
+     "fake_eps": 8,
+     "fake_n": 25,
+     "fake_worst": {
+      "y": "2000",
+      "more": -44.6
+     }
+    },
+    {
+     "k": "20일선 회복",
+     "eps": 10,
+     "on": 10,
+     "after": 10.5,
+     "up": 7.9,
+     "fake_eps": 8,
+     "fake_n": 42,
+     "fake_worst": {
+      "y": "2000",
+      "more": -48.3
+     }
+    },
+    {
+     "k": "공포 진정 (VIX 20↓)",
+     "eps": 10,
+     "on": 6,
+     "after": 32.0,
+     "up": 15.45,
+     "fake_eps": 4,
+     "fake_n": 26,
+     "fake_worst": {
+      "y": "2000",
+      "more": -47.6
+     }
+    },
+    {
+     "k": "50일선 위 종가",
+     "eps": 10,
+     "on": 10,
+     "after": 17.5,
+     "up": 11.1,
+     "fake_eps": 4,
+     "fake_n": 32,
+     "fake_worst": {
+      "y": "2000",
+      "more": -48.4
+     }
+    }
+   ],
+   "stages": [
+    {
+     "lv": "out",
+     "label": "하락장 판정 풀림 → 현금 0% (다 다시 삼)",
+     "eps": 10,
+     "hit": 10,
+     "pos6": 6,
+     "neg6": 4,
+     "early": 0,
+     "worst_more": null,
+     "after": 53.0,
+     "up": 20.15,
+     "med_r6": 15.4,
+     "same_prev": 0
+    }
+   ],
+   "rule": "K100",
+   "now": {
+    "in": "2026-07-08",
+    "len": 82,
+    "bottom": "2026-11-06",
+    "fake": [
+     1,
+     4,
+     2,
+     2
+    ]
+   },
+   "key": "kospi",
+   "name": "코스피",
+   "from": "2000-01-07",
+   "to": "2026-11-06"
+  },
+  {
+   "episodes": [
+    {
+     "in": "2001-03-12",
+     "out": "2003-05-30",
+     "bottom": "2002-10-09",
+     "bottom_dd": -33.8,
+     "len": 555,
+     "sig": [
+      {
+       "fake": 6,
+       "fake_more": -38.0,
+       "on": "2002-10-23",
+       "after": 10,
+       "up": 15.4
+      },
+      {
+       "fake": 14,
+       "fake_more": -37.1,
+       "on": "2002-10-14",
+       "after": 3,
+       "up": 8.3
+      },
+      {
+       "fake": 14,
+       "fake_more": -39.5,
+       "on": "2003-05-09",
+       "after": 146,
+       "up": 20.2
+      },
+      {
+       "fake": 9,
+       "fake_more": -37.3,
+       "on": "2002-10-15",
+       "after": 4,
+       "up": 13.5
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2003-05-30",
+       "r6": 9.8,
+       "early": false,
+       "after": 160,
+       "up": 24.1,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2008-07-09",
+     "out": "2009-09-28",
+     "bottom": "2009-03-09",
+     "bottom_dd": -52.6,
+     "len": 308,
+     "sig": [
+      {
+       "fake": 3,
+       "fake_more": -46.4,
+       "on": "2009-03-23",
+       "after": 10,
+       "up": 21.6
+      },
+      {
+       "fake": 9,
+       "fake_more": -48.0,
+       "on": "2009-03-13",
+       "after": 4,
+       "up": 11.8
+      },
+      {
+       "fake": 3,
+       "fake_more": -47.9,
+       "on": null,
+       "after": null,
+       "up": null
+      },
+      {
+       "fake": 8,
+       "fake_more": -48.2,
+       "on": "2009-03-23",
+       "after": 10,
+       "up": 21.6
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2009-09-28",
+       "r6": 10.4,
+       "early": false,
+       "after": 141,
+       "up": 57.1,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2020-03-12",
+     "out": "2020-06-01",
+     "bottom": "2020-03-23",
+     "bottom_dd": -33.9,
+     "len": 55,
+     "sig": [
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2020-04-06",
+       "after": 10,
+       "up": 19.1
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2020-04-07",
+       "after": 11,
+       "up": 18.9
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": null,
+       "after": null,
+       "up": null
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2020-04-17",
+       "after": 18,
+       "up": 28.5
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2020-06-01",
+       "r6": 19.1,
+       "early": false,
+       "after": 48,
+       "up": 36.6,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2022-06-13",
+     "out": "2023-02-02",
+     "bottom": "2022-10-12",
+     "bottom_dd": -25.4,
+     "len": 161,
+     "sig": [
+      {
+       "fake": 1,
+       "fake_more": -6.5,
+       "on": "2022-10-26",
+       "after": 10,
+       "up": 7.1
+      },
+      {
+       "fake": 2,
+       "fake_more": -8.3,
+       "on": "2022-10-19",
+       "after": 5,
+       "up": 3.3
+      },
+      {
+       "fake": 2,
+       "fake_more": -16.4,
+       "on": "2022-12-01",
+       "after": 35,
+       "up": 14.0
+      },
+      {
+       "fake": 2,
+       "fake_more": -12.1,
+       "on": "2022-10-28",
+       "after": 12,
+       "up": 9.1
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2023-02-02",
+       "r6": 7.1,
+       "early": false,
+       "after": 77,
+       "up": 16.9,
+       "more": 0.0
+      }
+     }
+    }
+   ],
+   "sig": [
+    {
+     "k": "저점 다지기",
+     "eps": 4,
+     "on": 4,
+     "after": 10.0,
+     "up": 17.25,
+     "fake_eps": 3,
+     "fake_n": 10,
+     "fake_worst": {
+      "y": "2008",
+      "more": -46.4
+     }
+    },
+    {
+     "k": "20일선 회복",
+     "eps": 4,
+     "on": 4,
+     "after": 4.5,
+     "up": 10.05,
+     "fake_eps": 3,
+     "fake_n": 25,
+     "fake_worst": {
+      "y": "2008",
+      "more": -48.0
+     }
+    },
+    {
+     "k": "공포 진정 (VIX 20↓)",
+     "eps": 4,
+     "on": 2,
+     "after": 90.5,
+     "up": 17.1,
+     "fake_eps": 3,
+     "fake_n": 19,
+     "fake_worst": {
+      "y": "2008",
+      "more": -47.9
+     }
+    },
+    {
+     "k": "50일선 위 종가",
+     "eps": 4,
+     "on": 4,
+     "after": 11.0,
+     "up": 17.55,
+     "fake_eps": 3,
+     "fake_n": 19,
+     "fake_worst": {
+      "y": "2008",
+      "more": -48.2
+     }
+    }
+   ],
+   "stages": [
+    {
+     "lv": "out",
+     "label": "하락장 판정 풀림 → 현금 0% (다 다시 삼)",
+     "eps": 4,
+     "hit": 4,
+     "pos6": 4,
+     "neg6": 0,
+     "early": 0,
+     "worst_more": null,
+     "after": 109.0,
+     "up": 30.35,
+     "med_r6": 10.100000000000001,
+     "same_prev": 0
+    }
+   ],
+   "rule": "OFF",
+   "now": null,
+   "key": "sp500",
+   "name": "S&P500",
+   "from": "2000-01-03",
+   "to": "2026-11-06"
+  },
+  {
+   "episodes": [
+    {
+     "in": "2000-04-12",
+     "out": "2003-05-23",
+     "bottom": "2002-10-09",
+     "bottom_dd": -45.9,
+     "len": 780,
+     "sig": [
+      {
+       "fake": 11,
+       "fake_more": -71.9,
+       "on": "2002-10-23",
+       "after": 10,
+       "up": 18.5
+      },
+      {
+       "fake": 25,
+       "fake_more": -72.3,
+       "on": "2002-10-14",
+       "after": 3,
+       "up": 9.6
+      },
+      {
+       "fake": 21,
+       "fake_more": -73.8,
+       "on": "2003-05-09",
+       "after": 146,
+       "up": 36.4
+      },
+      {
+       "fake": 14,
+       "fake_more": -71.7,
+       "on": "2002-10-15",
+       "after": 4,
+       "up": 15.1
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2003-05-23",
+       "r6": 24.6,
+       "early": false,
+       "after": 156,
+       "up": 35.5,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2008-02-06",
+     "out": "2009-09-09",
+     "bottom": "2009-03-09",
+     "bottom_dd": -50.2,
+     "len": 401,
+     "sig": [
+      {
+       "fake": 5,
+       "fake_more": -45.8,
+       "on": "2009-03-23",
+       "after": 10,
+       "up": 22.6
+      },
+      {
+       "fake": 11,
+       "fake_more": -50.2,
+       "on": "2009-03-13",
+       "after": 4,
+       "up": 12.8
+      },
+      {
+       "fake": 6,
+       "fake_more": -50.2,
+       "on": null,
+       "after": null,
+       "up": null
+      },
+      {
+       "fake": 12,
+       "fake_more": -48.5,
+       "on": "2009-03-18",
+       "after": 7,
+       "up": 17.5
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2009-09-09",
+       "r6": 15.0,
+       "early": false,
+       "after": 128,
+       "up": 62.4,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2018-12-21",
+     "out": "2019-02-15",
+     "bottom": "2018-12-24",
+     "bottom_dd": -23.6,
+     "len": 37,
+     "sig": [
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2019-01-09",
+       "after": 10,
+       "up": 12.3
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2019-01-07",
+       "after": 8,
+       "up": 10.2
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2019-01-09",
+       "after": 10,
+       "up": 12.3
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2019-01-15",
+       "after": 14,
+       "up": 13.4
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2019-02-15",
+       "r6": 5.7,
+       "early": false,
+       "after": 36,
+       "up": 20.7,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2020-03-12",
+     "out": "2020-04-29",
+     "bottom": "2020-03-23",
+     "bottom_dd": -30.1,
+     "len": 33,
+     "sig": [
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2020-04-06",
+       "after": 10,
+       "up": 15.3
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2020-03-31",
+       "after": 6,
+       "up": 12.2
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": null,
+       "after": null,
+       "up": null
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2020-04-14",
+       "after": 15,
+       "up": 24.1
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2020-04-29",
+       "r6": 28.2,
+       "early": false,
+       "after": 26,
+       "up": 29.9,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2022-03-07",
+     "out": "2023-04-21",
+     "bottom": "2022-12-28",
+     "bottom_dd": -35.5,
+     "len": 283,
+     "sig": [
+      {
+       "fake": 4,
+       "fake_more": -28.9,
+       "on": "2023-01-12",
+       "after": 10,
+       "up": 7.7
+      },
+      {
+       "fake": 5,
+       "fake_more": -25.0,
+       "on": "2023-01-11",
+       "after": 9,
+       "up": 7.0
+      },
+      {
+       "fake": 5,
+       "fake_more": -28.9,
+       "on": "2023-01-12",
+       "after": 10,
+       "up": 7.7
+      },
+      {
+       "fake": 5,
+       "fake_more": -27.6,
+       "on": "2023-01-11",
+       "after": 9,
+       "up": 7.0
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2023-04-21",
+       "r6": 7.5,
+       "early": false,
+       "after": 78,
+       "up": 18.2,
+       "more": 0.0
+      }
+     }
+    },
+    {
+     "in": "2025-04-04",
+     "out": "2025-05-12",
+     "bottom": "2025-04-08",
+     "bottom_dd": -24.3,
+     "len": 25,
+     "sig": [
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2025-04-23",
+       "after": 10,
+       "up": 9.4
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2025-04-24",
+       "after": 11,
+       "up": 12.4
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": null,
+       "after": null,
+       "up": null
+      },
+      {
+       "fake": 0,
+       "fake_more": null,
+       "on": "2025-05-01",
+       "after": 16,
+       "up": 16.0
+      }
+     ],
+     "step": {
+      "out": {
+       "date": "2025-05-12",
+       "r6": 25.8,
+       "early": false,
+       "after": 23,
+       "up": 22.5,
+       "more": 0.0
+      }
+     }
+    }
+   ],
+   "sig": [
+    {
+     "k": "저점 다지기",
+     "eps": 6,
+     "on": 6,
+     "after": 10.0,
+     "up": 13.8,
+     "fake_eps": 3,
+     "fake_n": 20,
+     "fake_worst": {
+      "y": "2000",
+      "more": -71.9
+     }
+    },
+    {
+     "k": "20일선 회복",
+     "eps": 6,
+     "on": 6,
+     "after": 7.0,
+     "up": 11.2,
+     "fake_eps": 3,
+     "fake_n": 41,
+     "fake_worst": {
+      "y": "2000",
+      "more": -72.3
+     }
+    },
+    {
+     "k": "공포 진정 (VIX 20↓)",
+     "eps": 6,
+     "on": 3,
+     "after": 10,
+     "up": 12.3,
+     "fake_eps": 3,
+     "fake_n": 32,
+     "fake_worst": {
+      "y": "2000",
+      "more": -73.8
+     }
+    },
+    {
+     "k": "50일선 위 종가",
+     "eps": 6,
+     "on": 6,
+     "after": 11.5,
+     "up": 15.55,
+     "fake_eps": 3,
+     "fake_n": 31,
+     "fake_worst": {
+      "y": "2000",
+      "more": -71.7
+     }
+    }
+   ],
+   "stages": [
+    {
+     "lv": "out",
+     "label": "하락장 판정 풀림 → 현금 0% (다 다시 삼)",
+     "eps": 6,
+     "hit": 6,
+     "pos6": 6,
+     "neg6": 0,
+     "early": 0,
+     "worst_more": null,
+     "after": 57.0,
+     "up": 26.2,
+     "med_r6": 19.8,
+     "same_prev": 0
+    }
+   ],
+   "rule": "OFF",
+   "now": null,
+   "key": "nasdaq",
+   "name": "나스닥",
+   "from": "2000-01-03",
+   "to": "2026-11-06"
+  }
+ ]
+}
