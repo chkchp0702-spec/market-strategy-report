@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 10월 CPI 프리뷰(11/10 발표) — 「더 완만한 달」",
+   "url": "https://continuumeconomics.com/a/1883e5a0/preview-due-november-10-us-october-cpi-a-more-moderate-month",
+   "press": "Continuum Economics",
+   "at": "2026-11-10 00:40",
+   "why": "🐻 현금 해제·고금리 정점 가설 — 내일 CPI가 오늘 반등의 지속 여부를 가른다",
+   "summary": "10월 CPI는 9월보다 완만한 상승 예상. 유가 급락이 11월분부터 반영."
+  },
+  {
+   "title": "10월 CPI 예상치는 둔화, 그래도 12월 인상 가능성 높아",
+   "url": "https://www.morningstar.com/economy/october-cpi-forecasts-show-inflation-softening-december-rate-hike-still-looks-likely",
+   "press": "Morningstar",
+   "at": "2026-11-10 00:40",
+   "why": "美 10년 4.87%·12월 인상 확률 — 현금·단기채 칸, AI 차입 차환 비용과 연결",
+   "summary": "전망치는 물가 둔화를 가리키나 12월 연준 인상 시나리오는 유지. 수치 세부는 원문 확인."
+  },
+  {
    "title": "골드만삭스, 2027년 美 주식 발행 6천억 달러 전망 — 공급 쇼크",
    "url": "https://cryptobriefing.com/goldman-sachs-600-billion-equity-issuance-2027/",
    "press": "Crypto Briefing",
@@ -623,22 +639,6 @@
    "at": "2026-11-05 20:34",
    "why": "AI 차입 가설 — 민주당 스윕 뒤 데이터센터 반발 대응, 직접 건설보다 임차 쪽(공급자 차입 위험)",
    "summary": "선거 뒤 워싱턴 AI 논쟁 재구성·데이터센터 명칭 변경 계획 보도. 구체 숫자 미확인."
-  },
-  {
-   "title": "영란은행 11월 회의 — 3년 만의 첫 인상 여부(오늘 21:00 KST 발표)",
-   "url": "https://www.sovereignmagazine.com/article/bank-of-england-rate-rise-november-2026-mortgage",
-   "press": "Sovereign Magazine",
-   "at": "2026-11-05 20:34",
-   "why": "고금리 정점 가설(0.55) — 美 금리 하락과 유럽(BoE 인상·ECB 12월 인상론) 엇갈림",
-   "summary": "FT 「BoE 3년 만 첫 인상 예정」(피드 ft_mkt)·ECB 지그만 「12월 인상 가능성 상당」(bbg_econ). 결과 미확인."
-  },
-  {
-   "title": "Procore 3분기 호실적·가이던스 상향에 7.7% 급등",
-   "url": "https://www.itiger.com/news/1158853959",
-   "press": "Tiger Brokers(Stock Track)",
-   "at": "2026-11-05 19:40",
-   "why": "🎯 PEAD 11/4 신호 PCOR — 오늘 bet 20261105-19 근거",
-   "summary": "3분기 실적·연간 가이던스 상향 뒤 주가 +7.73%(기사 날짜 미확인). 피드: Citizens 목표가 91달러 상향."
   }
  ],
  "at": "2026-11-09 22:40"
