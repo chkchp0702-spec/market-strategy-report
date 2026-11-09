@@ -1,5 +1,5 @@
 {
- "at": "2026-11-09 20:40",
+ "at": "2026-11-09 21:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/1pXRjJTVFpoZjN2NG9qblVQMXhHUC1vV3JxaHkxbVJiVkhldEZISHlCdwoc5": {
@@ -62,20 +62,10 @@
    "why": "황 CEO 불륜 시인·이사회 독립 조사 → NVDA 프리마켓 −5% — AI 차입 가설(0.92)·나스닥 조정 판정, CRWV 11/10 실적 앞",
    "at": "2026-11-09 18:40"
   },
-  "n/s20261109hedgefundsdumptechstocksatoneoffastestpacesonrecord": {
-   "lv": 1,
-   "why": "헤지펀드 지난주 글로벌 기술주 기록적 속도 매도(데이터센터 정치 반발) — AI 차입 가설·🇺🇸 칸 기술 비중, 포지션 청산 뒤 반등 여지도",
-   "at": "2026-11-09 18:40"
-  },
   "HANAchina/71823": {
    "lv": 1,
    "why": "대만 10월 수출 967.6억$(+58.9% YoY) 역대 최고·ICT 견인 — AI 실수요 꺾이지 않음, 091160 하락장 바닥 관찰과 대조 근거",
    "at": "2026-11-09 18:40"
-  },
-  "n/sascompanyprobesclaimsceowasforeignintelligencetargettsrcrss": {
-   "lv": 1,
-   "why": "황 CEO 이슈가 불륜→중국 정보기관 표적 의혹으로 확대 — NVDA·AI 차입 가설(0.92)·🇺🇸 칸 기술주 위험",
-   "at": "2026-11-09 19:40"
   },
   "n/saysmorganstanleychiefstrategist2c1be13emodmw_rss_topstories": {
    "lv": 1,
@@ -91,6 +81,16 @@
    "lv": 1,
    "why": "AI 비상장 몸값 하락·자금조달 타격 — AI capex 자금줄 약화, 🇺🇸 기술 칸·AI 차입 가설",
    "at": "2026-11-09 20:40"
+  },
+  "kimu_nim/48447": {
+   "lv": 1,
+   "why": "브렌트 95.06(−3%)·美 선물 다우 +1% — 이란 호르무즈 통행료 철회 보도(미확인)·80억$ 해협 재개 거래 검토, 장부 brent_95(선 90) 접근·에너지 칸",
+   "at": "2026-11-09 21:40"
+  },
+  "n/httpswwwcnbccom20261109coreweavedebtcreditriskneocloudshtml": {
+   "lv": 1,
+   "why": "코어위브·네비우스 한 달 −50%·「둠 사이클」 크레딧 위험 — AI 차입 가설(0.92), CRWV 11/10 실적 직전",
+   "at": "2026-11-09 21:40"
   }
  }
 }

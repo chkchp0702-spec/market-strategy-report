@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "코어위브 채권, 부실채권처럼 거래 — AI 지출이 재무제표를 앞질러",
+   "url": "https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/",
+   "press": "investingLive",
+   "at": "2026-11-09 21:40",
+   "why": "AI 차입(크레딧) 가설 0.92 — 주식 아닌 채권 가격으로 확인하는 근거, CRWV 11/10 실적",
+   "summary": "코어위브 회사채가 부실 수준 수익률에서 거래 — AI 인프라 확장 자금이 하이일드 채권에 기대는 구조. 기사 날짜 미확인."
+  },
+  {
+   "title": "코어위브 2032년물 수익률 15% 근접 — 크레딧 데스크는 중간선거 뒤를 기다린다",
+   "url": "https://fourweekmba.com/ai-coreweave-debt-yields-15-as-credit-desks-wait-for-midterms/",
+   "press": "FourWeekMBA",
+   "at": "2026-11-09 21:40",
+   "why": "네오클라우드 크레딧 스트레스의 숫자 기준 — 15% 이탈 여부를 AI 차입 가설 확인 지표로",
+   "summary": "CRWV 2032년물 수익률 ~15%·주가 −16% 날 보도. 날짜 정확히 미확인(중간선거 앞)."
+  },
+  {
    "title": "AI 붐-버스트 논쟁: 오픈AI 자금조달 목표 축소·메타 크레딧 경고·현금흐름 대비 capex",
    "url": "https://fortune.com/2026/10/31/ai-boom-bust-openai-fundraising-target-meta-credit-warning-cash-flow-capex",
    "press": "Fortune",
@@ -623,22 +639,6 @@
    "at": "2026-11-05 17:40",
    "why": "한국 칩 −6% 투매와 대비 — 같은 AI 공급망 안에서 한국만 외국인 이탈이 몰렸는지 가늠(091160 vs 대만)",
    "summary": "FT 분석 기사(본문 수치 미확인). 같은 날 블룸버그 「블루웨이브가 한국 대형주를 가라앉히자 중국 증시 급등」."
-  },
-  {
-   "title": "닌텐도 스위치2 판매 41% 급감 — 가격 인상·메모리 대란 영향",
-   "url": "https://www.cnbc.com/2026/11/05/nintendo-earnings-switch-2-sales.html",
-   "press": "CNBC",
-   "at": "2026-11-05 16:40",
-   "why": "메모리 가격 상승이 소비 기기 수요를 깎기 시작 — 한국 메모리(091160) 실적의 수요 쪽 위험",
-   "summary": "스위치2 판매 −41%(CNBC 제목) · 블룸버그: 메모리 비용으로 이익 감소 · 세부 숫자 미확인"
-  },
-  {
-   "title": "BOE, 3년 만의 첫 금리 인상 앞둬 — 결정 가이드",
-   "url": "https://www.mpamag.com/uk/news/general/heres-what-to-expect-from-todays-bank-of-england-announcement/564265",
-   "press": "MPA / Bloomberg",
-   "at": "2026-11-05 16:40",
-   "why": "주요 중앙은행 인상 재개 여부 — 고금리 정점 가설·장기채 칸",
-   "summary": "블룸버그 「BOE Poised for First Rate Hike in Three Years」(11/5) · 결정 오늘 밤 · 폭 미확인"
   }
  ],
  "at": "2026-11-09 20:40"
