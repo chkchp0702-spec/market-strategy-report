@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "MS, 오라클 AI 클라우드 임대(2023년 계약) 단계적 종료 — 구형 엔비디아 칩 용량",
+   "url": "https://fourweekmba.com/ai-microsoft-said-to-wind-down-oracle-ai-rental-backlog-664b/",
+   "press": "FourWeekMBA(블룸버그·배런스 인용)",
+   "at": "2026-11-09 15:40",
+   "why": "AI 차입 가설 — 하이퍼스케일러가 외부·네오클라우드 용량을 줄이면 오라클·코어위브 등 차입형 AI 인프라 신용에 압력, CRWV 11/10 실적 앞",
+   "summary": "MS가 오라클에서 빌리던 AI 컴퓨팅 용량을 수개월간 줄였고 만료 뒤 갱신 안 함. 네오클라우드·외부 클라우드 계약 전반 재검토의 일부. 보도 뒤 오라클 약 −3%, 오라클 잔고 6,640억$."
+  },
+  {
+   "title": "WSJ: 앤트로픽 IPO 투자자들, 기술주 급락 뒤 기업가치 1.5조$로 하향 요구",
+   "url": "https://investinglive.com/stocks/wsj-anthropic-ipo-investors-push-for-lower-1-5-trillion-valuation-after-tech-selloff/",
+   "press": "investingLive(WSJ 인용)",
+   "at": "2026-11-09 15:40",
+   "why": "AI 자금조달 창구 위축 신호 — AI 차입 가설·AI 인프라 칸(반도체·광통신) 수요 기대 하향 재료",
+   "summary": "앤트로픽은 IPO 가치 2조$를 노렸으나 지난주 나스닥 −5%대 급락 뒤 투자자들이 1.5조$로 낮추길 요구. 일부는 1.5조$도 불확실하다고 봄(CNBC)."
+  },
+  {
    "title": "골드만삭스, 2026 금 목표 5,400→4,900달러 하향 — 매파 연준",
    "url": "https://www.mining.com/?p=1208966",
    "press": "Mining.com",
@@ -623,22 +639,6 @@
    "at": "2026-11-05 11:45",
    "why": "오늘 NextDC +43%(굿맨·디지털리얼티 지분) 앞의 흐름 — 데이터센터 자산 M&A 수요가 美 규제 공포와 반대로 움직임(AI 차입 가설 반대 근거)",
    "summary": "10/28 +10% 이어 11/5 지분 매입 소식에 +43%(CNBC) · 9월엔 한 달 −14%였음 — 자산가치 재평가 쪽"
-  },
-  {
-   "title": "노무라 글로벌 메모리 리포트 — 삼성·SK하이닉스 메모리 슈퍼사이클 2028년까지",
-   "url": "https://www.mt.co.kr/en/stock/2026/10/21/2026102110162736502",
-   "press": "머니투데이",
-   "at": "2026-11-05 10:40",
-   "why": "오늘 하닉 −10% 급락의 반대 근거 — 실적 사이클은 그대로라는 IB 시각(반도체 칸·091160 watch)",
-   "summary": "노무라 10/20 리포트: DRAM 공급 증가가 2028년까지 수요에 못 미침, 가격 고점 유지 전망. 11/5 텔레그램(kimu_nim/48155)도 같은 ASP 전망 재인용."
-  },
-  {
-   "title": "히노호사, 텍사스 신규 데이터센터 승인 중단 요구 — 입법 전까지 멈춤",
-   "url": "https://www.fox7austin.com/news/hinojosa-urges-gov-abbott-pause-new-data-centers-until-lawmakers-act",
-   "press": "FOX 7 Austin",
-   "at": "2026-11-05 09:45",
-   "why": "AI 차입 가설 — 주지사 당선자의 데이터센터 중단 공약 원문(텍사스 = 2028 신규 용량 ~30%), 오늘 삼전닉스 급락 재료",
-   "summary": "민주당 히노호사가 입법부가 규칙을 정할 때까지 신규 데이터센터 중단을 요구. 기사 날짜는 선거 전(미확인) — 당선 뒤 실행 여부가 관건."
   }
  ],
  "at": "2026-11-09 10:45"
