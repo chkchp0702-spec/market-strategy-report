@@ -17,11 +17,13 @@
      ② 20일선 회복 : 종가가 20일선 위 2일 연속
      ③ 공포 진정   : VIX 종가 20 아래
      ④ 수급·추세   : 🇰🇷 외국인 코스피 3일 연속 순매수 / 🇺🇸 종가 50일선 위
-  ─ 현금 권고 (그 시장 주식 몫 중 현금으로 둘 비율)
-     🟢 0% (포트 기본 규칙대로)
-     🟡 바닥 신호 0~1개 10% · 2개 5% · 3개↑ 0%
-     🐻 바닥 신호 0~1개 30% · 2개 20% · 3개 10% · 4개 0%
-     → 신호가 늘 때마다 3분의 1씩 다시 산다. 새 저점이 나오면 ①②가 꺼져 자동으로 현금이 다시 늘어난다.
+  ─ 현금 권고 (그 시장 주식 몫 중 현금으로 둘 비율) — 11/09 오후 사용자 「네 추천대로」로 시장마다 따로 (아래 「다시 사는 규칙」)
+     (처음 등록: 🟡 10→5→0 · 🐻 30→20→10→0, 신호 2·3·4개 — lab b1109_floor 에서 코스피 처음 다시 산 날 뒤 바닥이 더 남은 때 10번 중 8번 ·
+      1년에 19.5번 바뀜. 판 7개를 2012년 앞에서 고르고 뒤에서 확인: 코스피는 E 가 앞·뒤 모두 나음 / 미국은 F 가 앞에서만 나음 → 미국은 단순·덜 흔들림으로 F)
+     🇰🇷 코스피 = E 추세 확인 : 🐻 30% → ① 저점 다지기 + ④ 50일선 위 → 10% → 거기에 ② 20일선 회복까지 → 0%
+                               🟡 10% → ①+④ → 0%   (③ VIX 는 참고만 · ④ 외국인 순매수도 참고만 — 과거 검증은 50일선으로 했으므로)
+     🇺🇸 S&P500·나스닥 = F 판정만 : 🐻 30% · 🟡 10% 를 판정이 풀릴 때(고점 −10% 위 + 200일선 위)까지 유지 · 바닥 신호는 참고만
+     새 저점이 나오면 ①②④가 꺼져 E 는 자동으로 현금이 다시 늘어난다.
      🐻 판정 때 이미 −25% 넘게 빠졌으면 「바닥에서 팔지 말고 반등(20일선 근처) 때 나눠 덜기」를 같이 권한다.
 
   market/bear.json      : 앱 오늘 홈·시장 탭 카드, 아침 리포트, 두뇌가 읽음
@@ -54,12 +56,57 @@ MKTS = [  # key, 야후 코드, 이름, 나라, 장 마감(현지)
     ("nasdaq", "^IXIC", "나스닥", "us", (16, 15)),
 ]
 CORR, BEAR, EXIT = -0.10, -0.20, -0.10
-CASH = {"🟢": [0, 0, 0, 0, 0], "🟡": [10, 10, 5, 0, 0], "🐻": [30, 30, 20, 10, 0]}
+CASH = {"🟢": [0, 0, 0, 0, 0], "🟡": [10, 10, 5, 0, 0], "🐻": [30, 30, 20, 10, 0]}   # 처음 등록본(11/09 오전) — 지금은 RULE 로 셈
+MAXC = {"🐻": 30, "🟡": 10, "🟢": 0}
+RULE = {"kospi": "E", "sp500": "F", "nasdaq": "F"}   # 🌱 11/09 오후 사용자 「네 추천대로」 (lab b1109_floor)
+RULE_NM = {"E": "추세 확인 — 저점 다지기 + 50일선 위면 현금 10%, 20일선까지 회복하면 0%",
+           "F": "판정만 — 하락장이 풀릴 때(고점 −10% 위 + 200일선 위)까지 현금 유지 · 바닥 신호로 미리 안 삼"}
+USE = {"E": [True, True, False, True], "F": [False, False, False, False]}
+
+
+def rule_cash(rid, st, ons):
+    """ons = 바닥 신호 4개(④ = 50일선 위 종가) → 현금 %"""
+    if st == "🟢":
+        return 0
+    if rid == "F":
+        return MAXC[st]
+    if st == "🐻":
+        return 0 if (ons[0] and ons[1] and ons[3]) else 10 if (ons[0] and ons[3]) else 30
+    return 0 if (ons[0] and ons[3]) else 10
+
+
+def ladder(rid, st):
+    if st == "🟢":
+        return []
+    if rid == "F":
+        return [[MAXC[st], "지금 판정 동안"], [0, "판정 풀림 (고점 −10% 위 + 200일선 위)"]]
+    if st == "🐻":
+        return [[30, "①·④ 켜지기 전"], [10, "① 저점 다지기 + ④ 50일선 위"], [0, "①+④ + ② 20일선 회복"]]
+    return [[10, "①·④ 켜지기 전"], [0, "① 저점 다지기 + ④ 50일선 위"]]
+
+
+def apply_rule(r, key):
+    """judge() 결과에 시장별 다시 사기 규칙을 입힘 — 🇰🇷 ④는 과거 검증대로 50일선(외국인은 참고 글자로)"""
+    rid = RULE.get(key, "F")
+    ck = r["checks"]
+    if len(ck) == 4 and ck[3]["k"] != "50일선 위 종가":
+        m50 = r.get("m50")
+        ck[3] = {"k": "50일선 위 종가", "on": bool(m50 and r["close"] > m50),
+                 "d": (f"50일선 {m50:,.0f}" + f" · 지금 {r['close'] / m50 - 1:+.1%}" if m50 else "자료 부족") + (f" · 참고: 외국인 {ck[3]['d']}" if ck[3].get("d") else "")}
+    ons = [bool(c["on"]) for c in ck]
+    for c, u in zip(ck, USE[rid]):
+        c["use"] = u
+    r["rule"] = {"id": rid, "name": RULE_NM[rid]}
+    r["nuse"] = sum(USE[rid])
+    r["n"] = sum(1 for c in ck if c["use"] and c["on"]) if r["state"] != "🟢" else 0
+    r["cash"] = rule_cash(rid, r["state"], ons)
+    r["ladder"] = ladder(rid, r["state"])
+    return r
 RULES = {
     "판정": "낙폭(252일 최고 종가 대비) > −10% 🟢 정상 · −10~−20% 🟡 조정 · −20% 이하 🐻 하락장 (🐻 은 낙폭 −10% 위 + 200일선 위까지 유지)",
     "바닥 신호": "① 60일 저점 10거래일 안 깨짐 ② 20일선 위 2일 연속 ③ VIX 20 아래 ④ 🇰🇷 외국인 3일 연속 순매수 / 🇺🇸 50일선 위",
-    "현금": "🟢 0% · 🟡 10→5→0% · 🐻 30→20→10→0% (바닥 신호 2·3·4개)",
-    "등록": "2026-11-09 결과 보기 전",
+    "현금": "🇰🇷 코스피(E): 🐻 30% → ①+④ 10% → ①+②+④ 0% · 🟡 10% → ①+④ 0% / 🇺🇸 S&P·나스닥(F): 🐻 30% · 🟡 10% 를 판정 풀릴 때까지 (④ = 50일선 위)",
+    "등록": "2026-11-09 결과 보기 전 · 같은 날 오후 다시 사기 규칙만 시장별로 바꿈(lab b1109_floor · 사용자 확인)",
 }
 
 
@@ -129,18 +176,18 @@ def judge(closes, vix=None, foreign=None, kind="us", prev_bear=False, i=None):
 
 
 def advice(name, r):
-    st, n, cash = r["state"], r["n"], r["cash"]
+    st, cash, rid = r["state"], r["cash"], (r.get("rule") or {}).get("id", "F")
     if st == "🟢":
         return f"{name} 정상 — 현금 따로 늘릴 필요 없음 (포트 기본 규칙대로)"
     word = "하락장" if st == "🐻" else "조정"
-    if n <= 1:
-        s = f"{name} {word} — 현금 {cash}%까지 늘리기 권고 · 새로 사지 않기"
-        if r["late"]:
-            s += " · 단, 이미 크게 빠진 뒤라 투매 금지: 20일선 근처로 반등할 때 나눠 덜기"
-        return s
+    late = " · 단, 이미 크게 빠진 뒤라 투매 금지: 20일선 근처로 반등할 때 나눠 덜기" if r.get("late") else ""
+    if rid == "F":
+        return f"{name} {word} — 현금 {cash}%까지 늘리고 판정이 풀릴 때(고점 −10% 위 + 200일선 위)까지 유지 · 바닥 신호로 미리 다시 사지 않기" + late
+    if cash == MAXC[st]:
+        return f"{name} {word} — 현금 {cash}%까지 늘리기 권고 · 새로 사지 않기" + late + " · 다시 사는 조건: ① 저점 다지기 + ④ 50일선 위"
     if cash == 0:
-        return f"{name} 바닥 신호 {n}/4 — 덜어 둔 현금 전부 다시 투입 (기본 비중 복귀)"
-    return f"{name} 바닥 신호 {n}/4 — 현금 {cash}%로 줄이며 3분의 1씩 다시 사기"
+        return f"{name} 바닥 확인(①+②+④) — 덜어 둔 현금 전부 다시 투입 (기본 비중 복귀)"
+    return f"{name} 바닥 확인 1단계(① 저점 다지기 + ④ 50일선 위) — 현금 {cash}%로 줄이며 다시 사기 · ② 20일선 회복까지 켜지면 전부"
 
 
 # ───────────────────────── 🌱 바닥 신호 과거 성적표 (11/09 A11/9-1) ─────────────────────────
@@ -152,7 +199,7 @@ def _med(v):
     return v[k] if len(v) % 2 else (v[k - 1] + v[k]) / 2
 
 
-def sig_history(cl, vx, dates, start=252):
+def sig_history(cl, vx, dates, start=252, rid="E"):
     """과거 🐻 하락장마다 바닥 신호 4개가 언제 켜졌나 · 신호 n개째 처음 켜진 날 뒤 6개월.
        판정·신호는 judge() 그대로(과거엔 🇰🇷 ④ 외국인 자료가 없어 50일선 — bear_bt 와 같음).
        「가짜 신호」 = 하락장 안에서 켜졌는데 그 뒤 더 낮은 종가(그 하락장의 바닥)가 나온 것.
@@ -192,15 +239,19 @@ def sig_history(cl, vx, dates, start=252):
                          "on": dates[on] if on is not None else None,
                          "after": (on - b) if on is not None else None,
                          "up": round((cl[on] / cl[b] - 1) * 100, 1) if on is not None else None})
-        step = {}
-        for n in (2, 3, 4):
-            i = next((i for i in ds if rows[i][1] >= n), None)
+        step = {}   # 다시 사기 규칙의 단계마다 처음 닿은 날 (E: 현금 10% · 0% / F: 판정 풀린 날)
+        if rid == "F":
+            marks = {"out": ep["e"]} if ep["e"] is not None and ep["e"] < len(cl) else {"out": None}
+        else:
+            marks = {lv: next((i for i in ds if rule_cash(rid, "🐻", rows[i][0]) <= int(lv)), None) for lv in ("10", "0")}
+        for lv, i in marks.items():
             if i is None:
-                step[str(n)] = None
+                step[lv] = None
                 continue
             r6 = round((cl[i + H6] / cl[i] - 1) * 100, 1) if i + H6 < len(cl) else None
-            step[str(n)] = {"date": dates[i], "r6": r6, "early": i < b,
-                            "more": round((cl[b] / cl[i] - 1) * 100, 1) if i < b else 0.0}
+            step[lv] = {"date": dates[i], "r6": r6, "early": i < b, "after": i - b,
+                        "up": round((cl[i] / cl[b] - 1) * 100, 1),
+                        "more": round((cl[b] / cl[i] - 1) * 100, 1) if i < b else 0.0}
         hi = max(cl[max(0, b - 251):b + 1])
         out.append({"in": dates[ep["s"]], "out": dates[ep["e"]] if ep["e"] is not None else "진행 중",
                     "bottom": dates[b], "bottom_dd": round((cl[b] / hi - 1) * 100, 1),
@@ -216,20 +267,21 @@ def sig_history(cl, vx, dates, start=252):
                      "after": _med([s["after"] for s in tr]), "up": _med([s["up"] for s in tr]),
                      "fake_eps": len(fk), "fake_n": sum(x["sig"][k]["fake"] for x in done),
                      "fake_worst": worst and {"y": worst["in"][:4], "more": worst["sig"][k]["fake_more"]}})
-    steps = {}
-    for n in ("2", "3", "4"):
-        hit = [x for x in done if x["step"][n]]
-        r6 = [x for x in hit if x["step"][n]["r6"] is not None]
-        early = [x for x in hit if x["step"][n]["early"]]
-        wm = min(early, key=lambda x: x["step"][n]["more"]) if early else None
-        wr = min(r6, key=lambda x: x["step"][n]["r6"]) if r6 else None
-        steps[n] = {"eps": len(done), "hit": len(hit), "pos6": sum(x["step"][n]["r6"] > 0 for x in r6),
-                    "neg6": sum(x["step"][n]["r6"] <= 0 for x in r6), "early": len(early),
-                    "worst_more": wm and {"y": wm["in"][:4], "more": wm["step"][n]["more"]},
-                    "worst_r6": wr and {"y": wr["in"][:4], "r6": wr["step"][n]["r6"]},
-                    "med_r6": _med([x["step"][n]["r6"] for x in r6])}
+    LBL = {"10": "① 저점 다지기 + ④ 50일선 위 → 현금 10%", "0": "②까지 켜져 현금 0% (다 다시 삼)", "out": "하락장 판정 풀림 → 현금 0% (다 다시 삼)"}
+    steps = []
+    for lv in (("out",) if rid == "F" else ("10", "0")):
+        hit = [x for x in done if x["step"].get(lv)]
+        r6 = [x for x in hit if x["step"][lv]["r6"] is not None]
+        early = [x for x in hit if x["step"][lv]["early"]]
+        wm = min(early, key=lambda x: x["step"][lv]["more"]) if early else None
+        steps.append({"lv": lv, "label": LBL[lv], "eps": len(done), "hit": len(hit),
+                      "pos6": sum(x["step"][lv]["r6"] > 0 for x in r6), "neg6": sum(x["step"][lv]["r6"] <= 0 for x in r6),
+                      "early": len(early), "worst_more": wm and {"y": wm["in"][:4], "more": wm["step"][lv]["more"]},
+                      "after": _med([x["step"][lv]["after"] for x in hit]), "up": _med([x["step"][lv]["up"] for x in hit]),
+                      "med_r6": _med([x["step"][lv]["r6"] for x in r6]),
+                      "same_prev": sum(1 for x in hit if lv == "0" and x["step"].get("10") and x["step"]["10"]["date"] == x["step"][lv]["date"])})
     now = out[-1] if out and out[-1]["out"] == "진행 중" else None
-    return {"episodes": out, "sig": summ, "step": steps,
+    return {"episodes": out, "sig": summ, "stages": steps, "rule": rid,
             "now": now and {"in": now["in"], "len": now["len"], "bottom": now["bottom"],
                             "fake": [s["fake"] for s in now["sig"]]}}
 
@@ -240,9 +292,9 @@ def hist_for(key, nat):
     m = next((x for x in j.get("markets", []) if x.get("key") == key), None)
     if not m:
         return None
-    h = {"at": j.get("at"), "from": m.get("from"), "sig": m["sig"], "step": m["step"], "now": m.get("now")}
-    if nat == "kr":
-        h["note4"] = "④ 과거 셈은 외국인 자료가 없어 50일선 위 종가로 대신"
+    if m.get("rule") != RULE.get(key, "F") or "stages" not in m:   # 규칙이 바뀐 뒤 아직 다시 안 셈
+        return None
+    h = {"at": j.get("at"), "from": m.get("from"), "sig": m["sig"], "stages": m["stages"], "now": m.get("now"), "rule": m["rule"]}
     return h
 
 
@@ -333,6 +385,7 @@ def live(dry=False):
         for i in range(max(0, len(cl) - 252), len(cl) - 1):
             pb = judge(cl, vx, None, nat, pb, i)["state"] == "🐻"
         r = judge(cl, vx, ff if nat == "kr" else None, nat, pb)
+        apply_rule(r, key)
         r.update({"key": key, "name": name, "nat": nat, "asof": str(s.index[-1].date()), "advice": advice(name, r)})
         hh = hist_for(key, nat)
         if hh:
@@ -340,7 +393,7 @@ def live(dry=False):
         o = oldm.get(key)
         if o and r["state"] != "🟢":   # 🌱 새로 켜진 바닥 신호 (알림 본문 한 줄 · 앱 「🟢 켜짐」)
             oc = [bool(c.get("on")) for c in (o.get("checks") or [])]
-            r["fresh"] = [k for k, c in enumerate(r["checks"]) if c["on"] and k < len(oc) and not oc[k]]
+            r["fresh"] = [k for k, c in enumerate(r["checks"]) if c["on"] and c.get("use") and k < len(oc) and not oc[k]]
         if o and (o.get("state") != r["state"] or o.get("cash") != r["cash"]):
             changed.append((o, r))
         r["since"] = o.get("since", r["asof"]) if o and o.get("state") == r["state"] else r["asof"]
@@ -372,6 +425,7 @@ def live(dry=False):
             ln = sig_line(r.get("hist") or {}, k)
             if ln:
                 body += f"\n🌱 {r['checks'][k]['k']} 켜짐 — {ln}"
+        body += "\n다시 사는 규칙: " + r["rule"]["name"]
         if notify(t, body, dry):
             sent[r["key"]] = k
     if first:   # 처음 켠 날: 지금 상태를 한 번 알림 (🟢 아닌 시장만)
@@ -393,7 +447,7 @@ def backtest():
     px = load("1999-01-01")
     vix = px.get("vix")
     res = {"at": dt.datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "rules": RULES,
-           "note": "과거 검증 · 🇰🇷 ④는 외국인 대신 50일선 · 현금 연 2% · 비중 바꿀 때 0.1% · 배당 제외(가격지수)", "markets": []}
+           "note": "과거 검증 · 시장별 다시 사기 규칙(🇰🇷 E 추세 확인 · 🇺🇸 F 판정만) · ④ 50일선 · 현금 연 2% · 비중 바꿀 때 0.1% · 배당 제외(가격지수)", "markets": []}
     sigs = []
     for key, _, name, nat, _ in MKTS:
         s = px.get(key)
@@ -415,7 +469,7 @@ def backtest():
             j = judge(cl, vx, None, "us", pb, i)
             pb = j["state"] == "🐻"
             days_bear += pb
-            w = 1 - j["cash"] / 100
+            w = 1 - rule_cash(RULE.get(key, "F"), j["state"], [bool(c["on"]) for c in j["checks"]]) / 100
             if abs(w - w_prev) > 1e-9:
                 nav *= 1 - 0.001 * abs(w - w_prev)
                 switches += 1
@@ -428,7 +482,7 @@ def backtest():
                 cur = None
             w_prev = w
         try:
-            sh = sig_history(cl, vx, dates)
+            sh = sig_history(cl, vx, dates, rid=RULE.get(key, "F"))
             sh.update({"key": key, "name": name, "from": dates[252], "to": dates[-1]})
             sigs.append(sh)
         except Exception as e:
