@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "MS, 코어위브 일부 약정에서 발 빼(FT 보도) — 코어위브는 계약 취소 부인",
+   "url": "https://www.tipranks.com/news/the-fly/coreweave-denies-contract-cancellations-with-microsoft-reuters-reports",
+   "press": "TipRanks/The Fly",
+   "at": "2026-11-09 13:40",
+   "why": "11/10 CRWV 실적 앞 AI 인프라 차입 가설 직격 — 반도체·네오클라우드 반발 지속성 판단",
+   "summary": "FT: MS 가 코어위브 일부 약정 축소 · 로이터: 코어위브 취소 부인 · 피드: 코어위브·아이렌 동반 압박"
+  },
+  {
+   "title": "대만, 대만지수 2001년 이후 최악의 주 이후 공매도 제한·국안기금 가동",
+   "url": "https://www.newsbytesapp.com/news/business/taiwan-limits-short-selling-after-taiex-worst-week-since-2001/tldr",
+   "press": "NewsBytes",
+   "at": "2026-11-09 13:40",
+   "why": "정책 바닥 신호(대만·한국 동시) — 하락장 계기판 「정책 대응」 칸, 오늘 대만 +5~6% 반발의 배경",
+   "summary": "대만 금융당국 공매도 제한 · 약 150억$ 안정기금 가동 · 한국도 신용 규정 완화로 동반 대응(uanalyze)"
+  },
+  {
    "title": "중국 공장 물가 4년 만에 최고",
    "url": "https://www.newsbytesapp.com/news/business/china-factory-inflation-hits-4-year-high/story",
    "press": "NewsBytes",
@@ -623,22 +639,6 @@
    "at": "2026-11-05 08:35",
    "why": "열린 bet FISV(📈 PEAD 11/3) 근거 원문 — 진행 +3.4% 확인용",
    "summary": "회사 공시 원문. 세부 숫자는 이번 검토에서 미확인 — 다음 검토에서 매출·가이던스 대조."
-  },
-  {
-   "title": "텐센트, 오라클서 AI칩 10만 개 70억달러 임대(10/1 보도) — 11/4 취소 보도의 원계약",
-   "url": "https://www.trendforce.com/news/2026/10/01/news-tencent-reportedly-signs-7b-deal-to-lease-100000-ai-chips-from-oracle-in-s",
-   "press": "TrendForce",
-   "at": "2026-11-05 07:40",
-   "why": "AI 차입 가설 — 11/4 오라클 하락 원인(계약 취소)의 규모 확인용",
-   "summary": "10/1 보도: 텐센트가 동남아 데이터센터에서 오라클 AI칩 10만 개를 70억달러에 임대. 11/4 이 계약 취소 보도로 오라클 하락(yahoo 피드)."
-  },
-  {
-   "title": "브렌트 「이날이 모든 걸 바꾼다」 — 유가 급락 차트 점검",
-   "url": "https://stock3.com/news/oelpreis-brent-dieser-tag-wird-alles-aendern-17308655",
-   "press": "stock3",
-   "at": "2026-11-05 06:40",
-   "why": "에너지 칸 brent_95 조건 — 11/4 마감 95.03(−8.27%)로 95 바로 위, 조건 미발동 경계",
-   "summary": "독일 기술적 분석: 브렌트 급락일의 추세 전환 여부 점검(날짜 미확인). 우리 시세: 브렌트 95.03·WTI 88.48(−7.9%) 11/4 마감 무렵(latest)."
   }
  ],
  "at": "2026-11-09 10:45"
