@@ -1,0 +1,6050 @@
+{
+ "at": "2026-11-09 03:58",
+ "split": "2013-01-01",
+ "markets": [
+  {
+   "key": "kospi",
+   "name": "코스피",
+   "from": "2000-01-07",
+   "to": "2026-11-06",
+   "split": "2013-01-01",
+   "rows": [
+    {
+     "name": "DD t10/20 c10/30",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.16,
+      "mdd": -47.3,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.57,
+      "sw_y": 6.7,
+      "cash_avg": 9.7
+     },
+     "is": {
+      "cagr": 6.98,
+      "mdd": -47.3,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 0.96,
+      "sw_y": 6.5,
+      "cash_avg": 9.7
+     },
+     "oos": {
+      "cagr": 7.33,
+      "mdd": -39.4,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 0.19,
+      "sw_y": 6.8,
+      "cash_avg": 9.7
+     }
+    },
+    {
+     "name": "DD t10/20 c20/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.32,
+      "mdd": -41.8,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.73,
+      "sw_y": 6.7,
+      "cash_avg": 16.4
+     },
+     "is": {
+      "cagr": 7.4,
+      "mdd": -41.8,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.39,
+      "sw_y": 6.5,
+      "cash_avg": 16.4
+     },
+     "oos": {
+      "cagr": 7.25,
+      "mdd": -35.8,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 0.1,
+      "sw_y": 6.8,
+      "cash_avg": 16.4
+     }
+    },
+    {
+     "name": "DD t10/20 c30/70",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.34,
+      "mdd": -36.0,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.75,
+      "sw_y": 6.7,
+      "cash_avg": 23.2
+     },
+     "is": {
+      "cagr": 7.62,
+      "mdd": -36.0,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.6,
+      "sw_y": 6.5,
+      "cash_avg": 23.2
+     },
+     "oos": {
+      "cagr": 7.08,
+      "mdd": -32.1,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.06,
+      "sw_y": 6.8,
+      "cash_avg": 23.2
+     }
+    },
+    {
+     "name": "DD t10/20 c50/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.03,
+      "mdd": -30.2,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.43,
+      "sw_y": 6.7,
+      "cash_avg": 33.9
+     },
+     "is": {
+      "cagr": 7.59,
+      "mdd": -27.1,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.58,
+      "sw_y": 6.5,
+      "cash_avg": 33.9
+     },
+     "oos": {
+      "cagr": 6.5,
+      "mdd": -30.2,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.65,
+      "sw_y": 6.8,
+      "cash_avg": 33.9
+     }
+    },
+    {
+     "name": "DD t10/20 c0/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.52,
+      "mdd": -43.5,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.93,
+      "sw_y": 0.8,
+      "cash_avg": 14.4
+     },
+     "is": {
+      "cagr": 7.09,
+      "mdd": -43.5,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.08,
+      "sw_y": 0.9,
+      "cash_avg": 14.4
+     },
+     "oos": {
+      "cagr": 7.93,
+      "mdd": -38.4,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 0.78,
+      "sw_y": 0.7,
+      "cash_avg": 14.4
+     }
+    },
+    {
+     "name": "DD t10/20 c0/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.58,
+      "mdd": -33.7,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.98,
+      "sw_y": 0.8,
+      "cash_avg": 28.9
+     },
+     "is": {
+      "cagr": 6.87,
+      "mdd": -31.8,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 0.85,
+      "sw_y": 0.9,
+      "cash_avg": 28.9
+     },
+     "oos": {
+      "cagr": 8.25,
+      "mdd": -33.7,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 1.11,
+      "sw_y": 0.7,
+      "cash_avg": 28.9
+     }
+    },
+    {
+     "name": "DD t8/15 c10/30",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.12,
+      "mdd": -44.1,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.53,
+      "sw_y": 7.8,
+      "cash_avg": 11.8
+     },
+     "is": {
+      "cagr": 7.34,
+      "mdd": -44.1,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.33,
+      "sw_y": 8.1,
+      "cash_avg": 11.8
+     },
+     "oos": {
+      "cagr": 6.92,
+      "mdd": -37.7,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.23,
+      "sw_y": 7.5,
+      "cash_avg": 11.8
+     }
+    },
+    {
+     "name": "DD t8/15 c20/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.29,
+      "mdd": -37.4,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.69,
+      "sw_y": 7.8,
+      "cash_avg": 20.0
+     },
+     "is": {
+      "cagr": 7.88,
+      "mdd": -37.4,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.86,
+      "sw_y": 8.1,
+      "cash_avg": 20.0
+     },
+     "oos": {
+      "cagr": 6.73,
+      "mdd": -33.0,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.42,
+      "sw_y": 7.5,
+      "cash_avg": 20.0
+     }
+    },
+    {
+     "name": "DD t8/15 c30/70",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.28,
+      "mdd": -30.4,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.68,
+      "sw_y": 7.8,
+      "cash_avg": 28.2
+     },
+     "is": {
+      "cagr": 8.18,
+      "mdd": -30.1,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 2.16,
+      "sw_y": 8.1,
+      "cash_avg": 28.2
+     },
+     "oos": {
+      "cagr": 6.44,
+      "mdd": -30.4,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.71,
+      "sw_y": 7.5,
+      "cash_avg": 28.2
+     }
+    },
+    {
+     "name": "DD t8/15 c50/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.96,
+      "mdd": -30.2,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.37,
+      "sw_y": 7.8,
+      "cash_avg": 40.9
+     },
+     "is": {
+      "cagr": 8.07,
+      "mdd": -19.1,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 2.06,
+      "sw_y": 8.1,
+      "cash_avg": 40.9
+     },
+     "oos": {
+      "cagr": 5.92,
+      "mdd": -30.2,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -1.22,
+      "sw_y": 7.5,
+      "cash_avg": 40.9
+     }
+    },
+    {
+     "name": "DD t8/15 c0/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.19,
+      "mdd": -38.1,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.6,
+      "sw_y": 1.4,
+      "cash_avg": 18.3
+     },
+     "is": {
+      "cagr": 8.23,
+      "mdd": -38.1,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 2.22,
+      "sw_y": 1.3,
+      "cash_avg": 18.3
+     },
+     "oos": {
+      "cagr": 6.21,
+      "mdd": -35.0,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.93,
+      "sw_y": 1.6,
+      "cash_avg": 18.3
+     }
+    },
+    {
+     "name": "DD t8/15 c0/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.77,
+      "mdd": -35.4,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.18,
+      "sw_y": 1.4,
+      "cash_avg": 36.6
+     },
+     "is": {
+      "cagr": 9.0,
+      "mdd": -22.0,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 2.99,
+      "sw_y": 1.3,
+      "cash_avg": 36.6
+     },
+     "oos": {
+      "cagr": 4.71,
+      "mdd": -35.4,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -2.44,
+      "sw_y": 1.6,
+      "cash_avg": 36.6
+     }
+    },
+    {
+     "name": "DD t12/25 c10/30",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.22,
+      "mdd": -46.4,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.63,
+      "sw_y": 6.3,
+      "cash_avg": 7.0
+     },
+     "is": {
+      "cagr": 7.27,
+      "mdd": -46.4,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.25,
+      "sw_y": 4.6,
+      "cash_avg": 7.0
+     },
+     "oos": {
+      "cagr": 7.18,
+      "mdd": -40.9,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 0.04,
+      "sw_y": 8.0,
+      "cash_avg": 7.0
+     }
+    },
+    {
+     "name": "DD t12/25 c20/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.48,
+      "mdd": -40.3,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.88,
+      "sw_y": 6.3,
+      "cash_avg": 12.2
+     },
+     "is": {
+      "cagr": 7.99,
+      "mdd": -40.3,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.97,
+      "sw_y": 4.6,
+      "cash_avg": 12.2
+     },
+     "oos": {
+      "cagr": 7.0,
+      "mdd": -38.7,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.15,
+      "sw_y": 8.0,
+      "cash_avg": 12.2
+     }
+    },
+    {
+     "name": "DD t12/25 c30/70",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.6,
+      "mdd": -36.4,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 1.01,
+      "sw_y": 6.3,
+      "cash_avg": 17.4
+     },
+     "is": {
+      "cagr": 8.52,
+      "mdd": -33.6,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 2.5,
+      "sw_y": 4.6,
+      "cash_avg": 17.4
+     },
+     "oos": {
+      "cagr": 6.75,
+      "mdd": -36.4,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.4,
+      "sw_y": 8.0,
+      "cash_avg": 17.4
+     }
+    },
+    {
+     "name": "DD t12/25 c50/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.52,
+      "mdd": -34.0,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.92,
+      "sw_y": 6.3,
+      "cash_avg": 25.8
+     },
+     "is": {
+      "cagr": 9.1,
+      "mdd": -24.9,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 3.08,
+      "sw_y": 4.6,
+      "cash_avg": 25.8
+     },
+     "oos": {
+      "cagr": 6.04,
+      "mdd": -32.7,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -1.1,
+      "sw_y": 8.0,
+      "cash_avg": 25.8
+     }
+    },
+    {
+     "name": "DD t12/25 c0/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.56,
+      "mdd": -41.3,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.96,
+      "sw_y": 0.5,
+      "cash_avg": 9.5
+     },
+     "is": {
+      "cagr": 7.34,
+      "mdd": -41.3,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.32,
+      "sw_y": 0.6,
+      "cash_avg": 9.5
+     },
+     "oos": {
+      "cagr": 7.77,
+      "mdd": -39.9,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 0.62,
+      "sw_y": 0.4,
+      "cash_avg": 9.5
+     }
+    },
+    {
+     "name": "DD t12/25 c0/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.81,
+      "mdd": -36.7,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 1.21,
+      "sw_y": 0.5,
+      "cash_avg": 18.9
+     },
+     "is": {
+      "cagr": 7.56,
+      "mdd": -32.9,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.55,
+      "sw_y": 0.6,
+      "cash_avg": 18.9
+     },
+     "oos": {
+      "cagr": 8.04,
+      "mdd": -35.7,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 0.89,
+      "sw_y": 0.4,
+      "cash_avg": 18.9
+     }
+    },
+    {
+     "name": "DD t15/30 c10/30",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.93,
+      "mdd": -47.3,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.34,
+      "sw_y": 5.0,
+      "cash_avg": 5.8
+     },
+     "is": {
+      "cagr": 7.02,
+      "mdd": -47.3,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.0,
+      "sw_y": 5.9,
+      "cash_avg": 5.8
+     },
+     "oos": {
+      "cagr": 6.86,
+      "mdd": -42.7,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.29,
+      "sw_y": 4.2,
+      "cash_avg": 5.8
+     }
+    },
+    {
+     "name": "DD t15/30 c20/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.05,
+      "mdd": -41.8,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.45,
+      "sw_y": 5.0,
+      "cash_avg": 10.0
+     },
+     "is": {
+      "cagr": 7.49,
+      "mdd": -41.8,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.47,
+      "sw_y": 5.9,
+      "cash_avg": 10.0
+     },
+     "oos": {
+      "cagr": 6.63,
+      "mdd": -41.4,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.51,
+      "sw_y": 4.2,
+      "cash_avg": 10.0
+     }
+    },
+    {
+     "name": "DD t15/30 c30/70",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.05,
+      "mdd": -40.2,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.46,
+      "sw_y": 5.0,
+      "cash_avg": 14.2
+     },
+     "is": {
+      "cagr": 7.79,
+      "mdd": -35.8,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.78,
+      "sw_y": 5.9,
+      "cash_avg": 14.2
+     },
+     "oos": {
+      "cagr": 6.36,
+      "mdd": -40.2,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.78,
+      "sw_y": 4.2,
+      "cash_avg": 14.2
+     }
+    },
+    {
+     "name": "DD t15/30 c50/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.86,
+      "mdd": -37.6,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.26,
+      "sw_y": 5.0,
+      "cash_avg": 21.1
+     },
+     "is": {
+      "cagr": 7.9,
+      "mdd": -26.5,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.89,
+      "sw_y": 5.9,
+      "cash_avg": 21.1
+     },
+     "oos": {
+      "cagr": 5.88,
+      "mdd": -37.6,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -1.27,
+      "sw_y": 4.2,
+      "cash_avg": 21.1
+     }
+    },
+    {
+     "name": "DD t15/30 c0/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.94,
+      "mdd": -43.9,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.34,
+      "sw_y": 0.4,
+      "cash_avg": 7.8
+     },
+     "is": {
+      "cagr": 7.46,
+      "mdd": -43.7,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.44,
+      "sw_y": 0.5,
+      "cash_avg": 7.8
+     },
+     "oos": {
+      "cagr": 6.45,
+      "mdd": -43.9,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.7,
+      "sw_y": 0.4,
+      "cash_avg": 7.8
+     }
+    },
+    {
+     "name": "DD t15/30 c0/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.67,
+      "mdd": -43.9,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.08,
+      "sw_y": 0.4,
+      "cash_avg": 15.6
+     },
+     "is": {
+      "cagr": 7.94,
+      "mdd": -32.1,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.93,
+      "sw_y": 0.5,
+      "cash_avg": 15.6
+     },
+     "oos": {
+      "cagr": 5.49,
+      "mdd": -43.9,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -1.66,
+      "sw_y": 0.4,
+      "cash_avg": 15.6
+     }
+    },
+    {
+     "name": "DD t5/10 c10/30",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.24,
+      "mdd": -43.8,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.65,
+      "sw_y": 11.9,
+      "cash_avg": 15.7
+     },
+     "is": {
+      "cagr": 7.38,
+      "mdd": -43.8,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.36,
+      "sw_y": 9.9,
+      "cash_avg": 15.7
+     },
+     "oos": {
+      "cagr": 7.11,
+      "mdd": -36.2,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.03,
+      "sw_y": 13.8,
+      "cash_avg": 15.7
+     }
+    },
+    {
+     "name": "DD t5/10 c20/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.33,
+      "mdd": -36.9,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.73,
+      "sw_y": 11.9,
+      "cash_avg": 26.5
+     },
+     "is": {
+      "cagr": 7.85,
+      "mdd": -36.9,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.83,
+      "sw_y": 9.9,
+      "cash_avg": 26.5
+     },
+     "oos": {
+      "cagr": 6.84,
+      "mdd": -31.1,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.31,
+      "sw_y": 13.8,
+      "cash_avg": 26.5
+     }
+    },
+    {
+     "name": "DD t5/10 c30/70",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.22,
+      "mdd": -29.3,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.63,
+      "sw_y": 11.9,
+      "cash_avg": 37.4
+     },
+     "is": {
+      "cagr": 8.06,
+      "mdd": -29.3,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 2.04,
+      "sw_y": 9.9,
+      "cash_avg": 37.4
+     },
+     "oos": {
+      "cagr": 6.44,
+      "mdd": -26.5,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.71,
+      "sw_y": 13.8,
+      "cash_avg": 37.4
+     }
+    },
+    {
+     "name": "DD t5/10 c50/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.53,
+      "mdd": -24.1,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": -0.06,
+      "sw_y": 11.9,
+      "cash_avg": 54.2
+     },
+     "is": {
+      "cagr": 7.69,
+      "mdd": -20.6,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.68,
+      "sw_y": 9.9,
+      "cash_avg": 54.2
+     },
+     "oos": {
+      "cagr": 5.45,
+      "mdd": -21.8,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -1.7,
+      "sw_y": 13.8,
+      "cash_avg": 54.2
+     }
+    },
+    {
+     "name": "DD t5/10 c0/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.98,
+      "mdd": -37.5,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 1.39,
+      "sw_y": 1.5,
+      "cash_avg": 24.1
+     },
+     "is": {
+      "cagr": 8.58,
+      "mdd": -37.5,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 2.57,
+      "sw_y": 1.5,
+      "cash_avg": 24.1
+     },
+     "oos": {
+      "cagr": 7.42,
+      "mdd": -32.5,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 0.27,
+      "sw_y": 1.6,
+      "cash_avg": 24.1
+     }
+    },
+    {
+     "name": "DD t5/10 c0/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 8.21,
+      "mdd": -24.1,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 1.62,
+      "sw_y": 1.5,
+      "cash_avg": 48.2
+     },
+     "is": {
+      "cagr": 9.58,
+      "mdd": -21.8,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 3.56,
+      "sw_y": 1.5,
+      "cash_avg": 48.2
+     },
+     "oos": {
+      "cagr": 6.94,
+      "mdd": -24.1,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.21,
+      "sw_y": 1.6,
+      "cash_avg": 48.2
+     }
+    },
+    {
+     "name": "MA100 c50",
+     "fam": "MA",
+     "all": {
+      "cagr": 7.9,
+      "mdd": -41.0,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 1.3,
+      "sw_y": 11.6,
+      "cash_avg": 20.0
+     },
+     "is": {
+      "cagr": 7.95,
+      "mdd": -41.0,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.93,
+      "sw_y": 11.8,
+      "cash_avg": 20.0
+     },
+     "oos": {
+      "cagr": 7.85,
+      "mdd": -38.6,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 0.71,
+      "sw_y": 11.5,
+      "cash_avg": 20.0
+     }
+    },
+    {
+     "name": "MA100 c50 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 8.33,
+      "mdd": -42.1,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 1.73,
+      "sw_y": 3.2,
+      "cash_avg": 20.5
+     },
+     "is": {
+      "cagr": 7.62,
+      "mdd": -42.1,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.6,
+      "sw_y": 3.9,
+      "cash_avg": 20.5
+     },
+     "oos": {
+      "cagr": 9.0,
+      "mdd": -37.9,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 1.86,
+      "sw_y": 2.4,
+      "cash_avg": 20.5
+     }
+    },
+    {
+     "name": "MA100 c100",
+     "fam": "MA",
+     "all": {
+      "cagr": 8.24,
+      "mdd": -34.4,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 1.65,
+      "sw_y": 11.6,
+      "cash_avg": 40.0
+     },
+     "is": {
+      "cagr": 8.55,
+      "mdd": -30.8,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 2.53,
+      "sw_y": 11.8,
+      "cash_avg": 40.0
+     },
+     "oos": {
+      "cagr": 7.95,
+      "mdd": -34.4,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 0.8,
+      "sw_y": 11.5,
+      "cash_avg": 40.0
+     }
+    },
+    {
+     "name": "MA100 c100 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 9.12,
+      "mdd": -33.5,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 2.52,
+      "sw_y": 3.2,
+      "cash_avg": 41.0
+     },
+     "is": {
+      "cagr": 7.89,
+      "mdd": -33.5,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.87,
+      "sw_y": 3.9,
+      "cash_avg": 41.0
+     },
+     "oos": {
+      "cagr": 10.29,
+      "mdd": -32.8,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 3.14,
+      "sw_y": 2.4,
+      "cash_avg": 41.0
+     }
+    },
+    {
+     "name": "MA150 c50",
+     "fam": "MA",
+     "all": {
+      "cagr": 7.76,
+      "mdd": -43.8,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 1.17,
+      "sw_y": 9.0,
+      "cash_avg": 20.3
+     },
+     "is": {
+      "cagr": 8.76,
+      "mdd": -38.3,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 2.74,
+      "sw_y": 7.4,
+      "cash_avg": 20.3
+     },
+     "oos": {
+      "cagr": 6.83,
+      "mdd": -43.8,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.31,
+      "sw_y": 10.6,
+      "cash_avg": 20.3
+     }
+    },
+    {
+     "name": "MA150 c50 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 8.05,
+      "mdd": -40.4,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 1.46,
+      "sw_y": 2.4,
+      "cash_avg": 21.3
+     },
+     "is": {
+      "cagr": 8.92,
+      "mdd": -39.3,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 2.91,
+      "sw_y": 2.2,
+      "cash_avg": 21.3
+     },
+     "oos": {
+      "cagr": 7.23,
+      "mdd": -40.4,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 0.09,
+      "sw_y": 2.6,
+      "cash_avg": 21.3
+     }
+    },
+    {
+     "name": "MA150 c100",
+     "fam": "MA",
+     "all": {
+      "cagr": 7.99,
+      "mdd": -44.2,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 1.4,
+      "sw_y": 9.0,
+      "cash_avg": 40.7
+     },
+     "is": {
+      "cagr": 10.15,
+      "mdd": -24.7,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 4.13,
+      "sw_y": 7.4,
+      "cash_avg": 40.7
+     },
+     "oos": {
+      "cagr": 6.0,
+      "mdd": -44.2,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -1.14,
+      "sw_y": 10.6,
+      "cash_avg": 40.7
+     }
+    },
+    {
+     "name": "MA150 c100 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 8.58,
+      "mdd": -38.5,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 1.99,
+      "sw_y": 2.4,
+      "cash_avg": 42.7
+     },
+     "is": {
+      "cagr": 10.48,
+      "mdd": -22.4,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 4.46,
+      "sw_y": 2.2,
+      "cash_avg": 42.7
+     },
+     "oos": {
+      "cagr": 6.82,
+      "mdd": -38.5,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.33,
+      "sw_y": 2.6,
+      "cash_avg": 42.7
+     }
+    },
+    {
+     "name": "MA200 c50",
+     "fam": "MA",
+     "all": {
+      "cagr": 6.42,
+      "mdd": -43.5,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": -0.17,
+      "sw_y": 8.9,
+      "cash_avg": 19.8
+     },
+     "is": {
+      "cagr": 7.37,
+      "mdd": -38.8,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.35,
+      "sw_y": 6.7,
+      "cash_avg": 19.8
+     },
+     "oos": {
+      "cagr": 5.54,
+      "mdd": -43.5,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -1.61,
+      "sw_y": 10.9,
+      "cash_avg": 19.8
+     }
+    },
+    {
+     "name": "MA200 c50 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 6.78,
+      "mdd": -43.8,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.19,
+      "sw_y": 2.5,
+      "cash_avg": 20.3
+     },
+     "is": {
+      "cagr": 7.5,
+      "mdd": -38.8,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.48,
+      "sw_y": 2.4,
+      "cash_avg": 20.3
+     },
+     "oos": {
+      "cagr": 6.11,
+      "mdd": -43.8,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -1.03,
+      "sw_y": 2.6,
+      "cash_avg": 20.3
+     }
+    },
+    {
+     "name": "MA200 c100",
+     "fam": "MA",
+     "all": {
+      "cagr": 5.37,
+      "mdd": -44.7,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": -1.23,
+      "sw_y": 8.9,
+      "cash_avg": 39.6
+     },
+     "is": {
+      "cagr": 7.39,
+      "mdd": -30.1,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.37,
+      "sw_y": 6.7,
+      "cash_avg": 39.6
+     },
+     "oos": {
+      "cagr": 3.49,
+      "mdd": -43.3,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -3.65,
+      "sw_y": 10.9,
+      "cash_avg": 39.6
+     }
+    },
+    {
+     "name": "MA200 c100 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 6.08,
+      "mdd": -44.0,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": -0.51,
+      "sw_y": 2.5,
+      "cash_avg": 40.5
+     },
+     "is": {
+      "cagr": 7.64,
+      "mdd": -27.5,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.62,
+      "sw_y": 2.4,
+      "cash_avg": 40.5
+     },
+     "oos": {
+      "cagr": 4.63,
+      "mdd": -44.0,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -2.52,
+      "sw_y": 2.6,
+      "cash_avg": 40.5
+     }
+    },
+    {
+     "name": "MA250 c50",
+     "fam": "MA",
+     "all": {
+      "cagr": 6.26,
+      "mdd": -43.0,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": -0.33,
+      "sw_y": 7.7,
+      "cash_avg": 19.4
+     },
+     "is": {
+      "cagr": 6.05,
+      "mdd": -43.0,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 0.03,
+      "sw_y": 7.1,
+      "cash_avg": 19.4
+     },
+     "oos": {
+      "cagr": 6.47,
+      "mdd": -42.1,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.68,
+      "sw_y": 8.4,
+      "cash_avg": 19.4
+     }
+    },
+    {
+     "name": "MA250 c50 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 6.35,
+      "mdd": -41.7,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": -0.24,
+      "sw_y": 2.4,
+      "cash_avg": 19.9
+     },
+     "is": {
+      "cagr": 5.99,
+      "mdd": -39.6,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": -0.03,
+      "sw_y": 2.7,
+      "cash_avg": 19.9
+     },
+     "oos": {
+      "cagr": 6.69,
+      "mdd": -41.7,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.45,
+      "sw_y": 2.2,
+      "cash_avg": 19.9
+     }
+    },
+    {
+     "name": "MA250 c100",
+     "fam": "MA",
+     "all": {
+      "cagr": 5.11,
+      "mdd": -40.0,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": -1.48,
+      "sw_y": 7.7,
+      "cash_avg": 38.9
+     },
+     "is": {
+      "cagr": 4.82,
+      "mdd": -35.8,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": -1.2,
+      "sw_y": 7.1,
+      "cash_avg": 38.9
+     },
+     "oos": {
+      "cagr": 5.39,
+      "mdd": -40.0,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -1.75,
+      "sw_y": 8.4,
+      "cash_avg": 38.9
+     }
+    },
+    {
+     "name": "MA250 c100 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 5.29,
+      "mdd": -39.1,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": -1.31,
+      "sw_y": 2.4,
+      "cash_avg": 39.8
+     },
+     "is": {
+      "cagr": 4.71,
+      "mdd": -37.8,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": -1.31,
+      "sw_y": 2.7,
+      "cash_avg": 39.8
+     },
+     "oos": {
+      "cagr": 5.84,
+      "mdd": -39.1,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -1.31,
+      "sw_y": 2.2,
+      "cash_avg": 39.8
+     }
+    },
+    {
+     "name": "MOM 12개월 c50",
+     "fam": "MOM",
+     "all": {
+      "cagr": 6.71,
+      "mdd": -44.5,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.12,
+      "sw_y": 7.0,
+      "cash_avg": 17.8
+     },
+     "is": {
+      "cagr": 7.14,
+      "mdd": -38.3,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.12,
+      "sw_y": 5.3,
+      "cash_avg": 17.8
+     },
+     "oos": {
+      "cagr": 6.31,
+      "mdd": -44.5,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.84,
+      "sw_y": 8.6,
+      "cash_avg": 17.8
+     }
+    },
+    {
+     "name": "MOM 12개월 c100",
+     "fam": "MOM",
+     "all": {
+      "cagr": 6.15,
+      "mdd": -44.5,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": -0.44,
+      "sw_y": 7.0,
+      "cash_avg": 35.6
+     },
+     "is": {
+      "cagr": 7.25,
+      "mdd": -37.7,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.23,
+      "sw_y": 5.3,
+      "cash_avg": 35.6
+     },
+     "oos": {
+      "cagr": 5.13,
+      "mdd": -44.5,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -2.02,
+      "sw_y": 8.6,
+      "cash_avg": 35.6
+     }
+    },
+    {
+     "name": "MOM 6개월 c50",
+     "fam": "MOM",
+     "all": {
+      "cagr": 6.67,
+      "mdd": -41.7,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.07,
+      "sw_y": 9.2,
+      "cash_avg": 21.3
+     },
+     "is": {
+      "cagr": 7.92,
+      "mdd": -35.6,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.9,
+      "sw_y": 7.0,
+      "cash_avg": 21.3
+     },
+     "oos": {
+      "cagr": 5.5,
+      "mdd": -41.7,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -1.65,
+      "sw_y": 11.4,
+      "cash_avg": 21.3
+     }
+    },
+    {
+     "name": "MOM 6개월 c100",
+     "fam": "MOM",
+     "all": {
+      "cagr": 5.87,
+      "mdd": -41.5,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": -0.72,
+      "sw_y": 9.2,
+      "cash_avg": 42.7
+     },
+     "is": {
+      "cagr": 8.47,
+      "mdd": -26.6,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 2.45,
+      "sw_y": 7.0,
+      "cash_avg": 42.7
+     },
+     "oos": {
+      "cagr": 3.48,
+      "mdd": -39.1,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -3.67,
+      "sw_y": 11.4,
+      "cash_avg": 42.7
+     }
+    },
+    {
+     "name": "FAB 10개월 월말 c50",
+     "fam": "FAB",
+     "all": {
+      "cagr": 7.39,
+      "mdd": -42.3,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.79,
+      "sw_y": 1.9,
+      "cash_avg": 19.7
+     },
+     "is": {
+      "cagr": 6.92,
+      "mdd": -42.3,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 0.9,
+      "sw_y": 1.7,
+      "cash_avg": 19.7
+     },
+     "oos": {
+      "cagr": 7.83,
+      "mdd": -40.9,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 0.68,
+      "sw_y": 2.0,
+      "cash_avg": 19.7
+     }
+    },
+    {
+     "name": "FAB 10개월 월말 c100",
+     "fam": "FAB",
+     "all": {
+      "cagr": 7.37,
+      "mdd": -40.0,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.78,
+      "sw_y": 1.9,
+      "cash_avg": 39.4
+     },
+     "is": {
+      "cagr": 6.56,
+      "mdd": -28.6,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 0.55,
+      "sw_y": 1.7,
+      "cash_avg": 39.4
+     },
+     "oos": {
+      "cagr": 8.15,
+      "mdd": -40.0,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 1.0,
+      "sw_y": 2.0,
+      "cash_avg": 39.4
+     }
+    },
+    {
+     "name": "VOL 목표10%",
+     "fam": "VOL",
+     "all": {
+      "cagr": 4.01,
+      "mdd": -27.7,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": -2.59,
+      "sw_y": 153.0,
+      "cash_avg": 39.3
+     },
+     "is": {
+      "cagr": 5.51,
+      "mdd": -22.2,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": -0.5,
+      "sw_y": 161.1,
+      "cash_avg": 39.3
+     },
+     "oos": {
+      "cagr": 2.6,
+      "mdd": -27.7,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -4.54,
+      "sw_y": 145.4,
+      "cash_avg": 39.3
+     }
+    },
+    {
+     "name": "VOL 목표15%",
+     "fam": "VOL",
+     "all": {
+      "cagr": 5.24,
+      "mdd": -34.5,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": -1.35,
+      "sw_y": 108.8,
+      "cash_avg": 21.1
+     },
+     "is": {
+      "cagr": 6.17,
+      "mdd": -33.2,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 0.16,
+      "sw_y": 141.4,
+      "cash_avg": 21.1
+     },
+     "oos": {
+      "cagr": 4.37,
+      "mdd": -34.5,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -2.78,
+      "sw_y": 78.0,
+      "cash_avg": 21.1
+     }
+    },
+    {
+     "name": "VOL 목표20%",
+     "fam": "VOL",
+     "all": {
+      "cagr": 6.03,
+      "mdd": -42.6,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": -0.56,
+      "sw_y": 67.2,
+      "cash_avg": 11.9
+     },
+     "is": {
+      "cagr": 6.2,
+      "mdd": -42.6,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 0.18,
+      "sw_y": 103.3,
+      "cash_avg": 11.9
+     },
+     "oos": {
+      "cagr": 5.87,
+      "mdd": -36.7,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -1.27,
+      "sw_y": 33.0,
+      "cash_avg": 11.9
+     }
+    },
+    {
+     "name": "MIX DD10/20 c10/30 + MA200 c50",
+     "fam": "MIX",
+     "all": {
+      "cagr": 7.1,
+      "mdd": -38.9,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.51,
+      "sw_y": 5.7,
+      "cash_avg": 21.8
+     },
+     "is": {
+      "cagr": 7.34,
+      "mdd": -38.9,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.32,
+      "sw_y": 7.5,
+      "cash_avg": 21.8
+     },
+     "oos": {
+      "cagr": 6.87,
+      "mdd": -36.7,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.27,
+      "sw_y": 4.0,
+      "cash_avg": 21.8
+     }
+    },
+    {
+     "name": "MIX DD10/20 c10/30 + MA200 c100",
+     "fam": "MIX",
+     "all": {
+      "cagr": 6.4,
+      "mdd": -42.4,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": -0.2,
+      "sw_y": 5.7,
+      "cash_avg": 42.1
+     },
+     "is": {
+      "cagr": 7.48,
+      "mdd": -27.3,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.47,
+      "sw_y": 7.5,
+      "cash_avg": 42.1
+     },
+     "oos": {
+      "cagr": 5.38,
+      "mdd": -36.8,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -1.76,
+      "sw_y": 4.0,
+      "cash_avg": 42.1
+     }
+    },
+    {
+     "name": "MIX DD10/20 c10/30 + VOL15",
+     "fam": "MIX",
+     "all": {
+      "cagr": 5.38,
+      "mdd": -32.8,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": -1.21,
+      "sw_y": 98.3,
+      "cash_avg": 23.4
+     },
+     "is": {
+      "cagr": 6.05,
+      "mdd": -32.8,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 0.03,
+      "sw_y": 135.0,
+      "cash_avg": 23.4
+     },
+     "oos": {
+      "cagr": 4.75,
+      "mdd": -31.8,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -2.39,
+      "sw_y": 63.7,
+      "cash_avg": 23.4
+     }
+    },
+    {
+     "name": "MIX DD10/20 c30/70 + MA200 c50",
+     "fam": "MIX",
+     "all": {
+      "cagr": 7.15,
+      "mdd": -34.0,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.56,
+      "sw_y": 5.6,
+      "cash_avg": 29.0
+     },
+     "is": {
+      "cagr": 7.2,
+      "mdd": -33.8,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.18,
+      "sw_y": 7.1,
+      "cash_avg": 29.0
+     },
+     "oos": {
+      "cagr": 7.11,
+      "mdd": -28.8,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": -0.04,
+      "sw_y": 4.1,
+      "cash_avg": 29.0
+     }
+    },
+    {
+     "name": "DD t10/20 c10/30 E(코스피 틀)",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.32,
+      "mdd": -46.1,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.73,
+      "sw_y": 11.5,
+      "cash_avg": 6.5
+     },
+     "is": {
+      "cagr": 7.18,
+      "mdd": -46.1,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.16,
+      "sw_y": 11.9,
+      "cash_avg": 6.5
+     },
+     "oos": {
+      "cagr": 7.45,
+      "mdd": -39.9,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 0.31,
+      "sw_y": 11.1,
+      "cash_avg": 6.5
+     }
+    },
+    {
+     "name": "지금 규칙 (E)",
+     "fam": "NOW",
+     "all": {
+      "cagr": 7.32,
+      "mdd": -46.1,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.73,
+      "sw_y": 11.5,
+      "cash_avg": 6.5
+     },
+     "is": {
+      "cagr": 7.18,
+      "mdd": -46.1,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 1.16,
+      "sw_y": 11.9,
+      "cash_avg": 6.5
+     },
+     "oos": {
+      "cagr": 7.45,
+      "mdd": -39.9,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 0.31,
+      "sw_y": 11.1,
+      "cash_avg": 6.5
+     }
+    },
+    {
+     "name": "H 그냥 보유",
+     "fam": "H",
+     "all": {
+      "cagr": 6.59,
+      "mdd": -54.5,
+      "hold": 6.59,
+      "hold_mdd": -54.5,
+      "ex": 0.0,
+      "sw_y": 0.0,
+      "cash_avg": 0.0
+     },
+     "is": {
+      "cagr": 6.02,
+      "mdd": -54.5,
+      "hold": 6.02,
+      "hold_mdd": -54.5,
+      "ex": 0.0,
+      "sw_y": 0.0,
+      "cash_avg": 0.0
+     },
+     "oos": {
+      "cagr": 7.14,
+      "mdd": -44.5,
+      "hold": 7.14,
+      "hold_mdd": -44.5,
+      "ex": 0.0,
+      "sw_y": 0.0,
+      "cash_avg": 0.0
+     }
+    }
+   ],
+   "pick": {
+    "DD": {
+     "name": "DD t5/10 c0/100",
+     "is_ex": 3.56,
+     "oos_ex": -0.21,
+     "all_ex": 1.62,
+     "mdd": -24.1,
+     "sw_y": 1.5,
+     "fam_pos_is": 100,
+     "fam_pos_oos": 29,
+     "n": 31
+    },
+    "MA": {
+     "name": "MA150 c100 띠2%",
+     "is_ex": 4.46,
+     "oos_ex": -0.33,
+     "all_ex": 1.99,
+     "mdd": -38.5,
+     "sw_y": 2.4,
+     "fam_pos_is": 81,
+     "fam_pos_oos": 31,
+     "n": 16
+    },
+    "MOM": {
+     "name": "MOM 6개월 c100",
+     "is_ex": 2.45,
+     "oos_ex": -3.67,
+     "all_ex": -0.72,
+     "mdd": -41.5,
+     "sw_y": 9.2,
+     "fam_pos_is": 100,
+     "fam_pos_oos": 0,
+     "n": 4
+    },
+    "FAB": {
+     "name": "FAB 10개월 월말 c50",
+     "is_ex": 0.9,
+     "oos_ex": 0.68,
+     "all_ex": 0.79,
+     "mdd": -42.3,
+     "sw_y": 1.9,
+     "fam_pos_is": 100,
+     "fam_pos_oos": 100,
+     "n": 2
+    },
+    "VOL": {
+     "name": "VOL 목표20%",
+     "is_ex": 0.18,
+     "oos_ex": -1.27,
+     "all_ex": -0.56,
+     "mdd": -42.6,
+     "sw_y": 67.2,
+     "fam_pos_is": 67,
+     "fam_pos_oos": 0,
+     "n": 3
+    },
+    "MIX": {
+     "name": "MIX DD10/20 c10/30 + MA200 c100",
+     "is_ex": 1.47,
+     "oos_ex": -1.76,
+     "all_ex": -0.2,
+     "mdd": -42.4,
+     "sw_y": 5.7,
+     "fam_pos_is": 100,
+     "fam_pos_oos": 0,
+     "n": 4
+    },
+    "NOW": {
+     "name": "지금 규칙 (E)",
+     "is_ex": 1.16,
+     "oos_ex": 0.31,
+     "all_ex": 0.73,
+     "mdd": -46.1,
+     "sw_y": 11.5,
+     "fam_pos_is": 100,
+     "fam_pos_oos": 100,
+     "n": 1
+    }
+   },
+   "robust": [
+    "MA100 c100 띠2%",
+    "MA100 c50 띠2%",
+    "DD t12/25 c0/100",
+    "DD t10/20 c0/100",
+    "MA100 c100",
+    "DD t10/20 c0/50",
+    "MA100 c50",
+    "FAB 10개월 월말 c50",
+    "DD t12/25 c0/50",
+    "FAB 10개월 월말 c100"
+   ]
+  },
+  {
+   "key": "sp500",
+   "name": "S&P500",
+   "from": "2000-01-03",
+   "to": "2026-11-06",
+   "split": "2013-01-01",
+   "rows": [
+    {
+     "name": "DD t10/20 c10/30",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.47,
+      "mdd": -46.7,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.22,
+      "sw_y": 4.1,
+      "cash_avg": 5.5
+     },
+     "is": {
+      "cagr": 1.0,
+      "mdd": -46.7,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.15,
+      "sw_y": 4.2,
+      "cash_avg": 5.5
+     },
+     "oos": {
+      "cagr": 11.87,
+      "mdd": -30.7,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -0.75,
+      "sw_y": 4.1,
+      "cash_avg": 5.5
+     }
+    },
+    {
+     "name": "DD t10/20 c20/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.49,
+      "mdd": -39.3,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.24,
+      "sw_y": 4.1,
+      "cash_avg": 9.5
+     },
+     "is": {
+      "cagr": 1.6,
+      "mdd": -39.3,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.75,
+      "sw_y": 4.2,
+      "cash_avg": 9.5
+     },
+     "oos": {
+      "cagr": 11.29,
+      "mdd": -28.4,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.33,
+      "sw_y": 4.1,
+      "cash_avg": 9.5
+     }
+    },
+    {
+     "name": "DD t10/20 c30/70",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.43,
+      "mdd": -31.2,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.19,
+      "sw_y": 4.1,
+      "cash_avg": 13.4
+     },
+     "is": {
+      "cagr": 2.09,
+      "mdd": -31.2,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 2.24,
+      "sw_y": 4.2,
+      "cash_avg": 13.4
+     },
+     "oos": {
+      "cagr": 10.68,
+      "mdd": -26.0,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.94,
+      "sw_y": 4.1,
+      "cash_avg": 13.4
+     }
+    },
+    {
+     "name": "DD t10/20 c50/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.14,
+      "mdd": -24.0,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.1,
+      "sw_y": 4.1,
+      "cash_avg": 19.7
+     },
+     "is": {
+      "cagr": 2.54,
+      "mdd": -21.9,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 2.7,
+      "sw_y": 4.2,
+      "cash_avg": 19.7
+     },
+     "oos": {
+      "cagr": 9.63,
+      "mdd": -24.0,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -2.99,
+      "sw_y": 4.1,
+      "cash_avg": 19.7
+     }
+    },
+    {
+     "name": "DD t10/20 c0/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.7,
+      "mdd": -39.7,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.46,
+      "sw_y": 0.3,
+      "cash_avg": 8.0
+     },
+     "is": {
+      "cagr": 1.82,
+      "mdd": -39.7,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.98,
+      "sw_y": 0.3,
+      "cash_avg": 8.0
+     },
+     "oos": {
+      "cagr": 11.49,
+      "mdd": -30.2,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.13,
+      "sw_y": 0.3,
+      "cash_avg": 8.0
+     }
+    },
+    {
+     "name": "DD t10/20 c0/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.73,
+      "mdd": -27.9,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.48,
+      "sw_y": 0.3,
+      "cash_avg": 16.0
+     },
+     "is": {
+      "cagr": 3.17,
+      "mdd": -22.8,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 3.33,
+      "sw_y": 0.3,
+      "cash_avg": 16.0
+     },
+     "oos": {
+      "cagr": 10.17,
+      "mdd": -27.9,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -2.45,
+      "sw_y": 0.3,
+      "cash_avg": 16.0
+     }
+    },
+    {
+     "name": "DD t8/15 c10/30",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.16,
+      "mdd": -45.8,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.08,
+      "sw_y": 5.7,
+      "cash_avg": 7.1
+     },
+     "is": {
+      "cagr": 0.78,
+      "mdd": -45.8,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.94,
+      "sw_y": 4.7,
+      "cash_avg": 7.1
+     },
+     "oos": {
+      "cagr": 11.47,
+      "mdd": -29.0,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.16,
+      "sw_y": 6.7,
+      "cash_avg": 7.1
+     }
+    },
+    {
+     "name": "DD t8/15 c20/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.93,
+      "mdd": -37.6,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.31,
+      "sw_y": 5.7,
+      "cash_avg": 12.0
+     },
+     "is": {
+      "cagr": 1.24,
+      "mdd": -37.6,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.39,
+      "sw_y": 4.7,
+      "cash_avg": 12.0
+     },
+     "oos": {
+      "cagr": 10.53,
+      "mdd": -25.6,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -2.09,
+      "sw_y": 6.7,
+      "cash_avg": 12.0
+     }
+    },
+    {
+     "name": "DD t8/15 c30/70",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.61,
+      "mdd": -28.7,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.63,
+      "sw_y": 5.7,
+      "cash_avg": 16.9
+     },
+     "is": {
+      "cagr": 1.56,
+      "mdd": -28.7,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.72,
+      "sw_y": 4.7,
+      "cash_avg": 16.9
+     },
+     "oos": {
+      "cagr": 9.56,
+      "mdd": -22.2,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -3.07,
+      "sw_y": 6.7,
+      "cash_avg": 16.9
+     }
+    },
+    {
+     "name": "DD t8/15 c50/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 4.87,
+      "mdd": -23.8,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -1.38,
+      "sw_y": 5.7,
+      "cash_avg": 24.5
+     },
+     "is": {
+      "cagr": 1.78,
+      "mdd": -23.8,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.93,
+      "sw_y": 4.7,
+      "cash_avg": 24.5
+     },
+     "oos": {
+      "cagr": 7.85,
+      "mdd": -22.4,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -4.77,
+      "sw_y": 6.7,
+      "cash_avg": 24.5
+     }
+    },
+    {
+     "name": "DD t8/15 c0/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.3,
+      "mdd": -37.4,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.06,
+      "sw_y": 0.7,
+      "cash_avg": 11.0
+     },
+     "is": {
+      "cagr": 1.35,
+      "mdd": -37.4,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.5,
+      "sw_y": 0.8,
+      "cash_avg": 11.0
+     },
+     "oos": {
+      "cagr": 11.18,
+      "mdd": -26.4,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.45,
+      "sw_y": 0.6,
+      "cash_avg": 11.0
+     }
+    },
+    {
+     "name": "DD t8/15 c0/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.82,
+      "mdd": -26.7,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.42,
+      "sw_y": 0.7,
+      "cash_avg": 22.1
+     },
+     "is": {
+      "cagr": 2.08,
+      "mdd": -26.7,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 2.23,
+      "sw_y": 0.8,
+      "cash_avg": 22.1
+     },
+     "oos": {
+      "cagr": 9.46,
+      "mdd": -21.8,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -3.17,
+      "sw_y": 0.6,
+      "cash_avg": 22.1
+     }
+    },
+    {
+     "name": "DD t12/25 c10/30",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.11,
+      "mdd": -47.8,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.14,
+      "sw_y": 3.7,
+      "cash_avg": 4.5
+     },
+     "is": {
+      "cagr": 0.25,
+      "mdd": -47.8,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.4,
+      "sw_y": 5.2,
+      "cash_avg": 4.5
+     },
+     "oos": {
+      "cagr": 11.92,
+      "mdd": -30.6,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -0.71,
+      "sw_y": 2.3,
+      "cash_avg": 4.5
+     }
+    },
+    {
+     "name": "DD t12/25 c20/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.94,
+      "mdd": -42.0,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.31,
+      "sw_y": 3.7,
+      "cash_avg": 7.8
+     },
+     "is": {
+      "cagr": 0.4,
+      "mdd": -42.0,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.56,
+      "sw_y": 5.2,
+      "cash_avg": 7.8
+     },
+     "oos": {
+      "cagr": 11.41,
+      "mdd": -28.0,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.21,
+      "sw_y": 2.3,
+      "cash_avg": 7.8
+     }
+    },
+    {
+     "name": "DD t12/25 c30/70",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.7,
+      "mdd": -39.0,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.54,
+      "sw_y": 3.7,
+      "cash_avg": 11.1
+     },
+     "is": {
+      "cagr": 0.45,
+      "mdd": -39.0,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.61,
+      "sw_y": 5.2,
+      "cash_avg": 11.1
+     },
+     "oos": {
+      "cagr": 10.88,
+      "mdd": -25.5,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.75,
+      "sw_y": 2.3,
+      "cash_avg": 11.1
+     }
+    },
+    {
+     "name": "DD t12/25 c50/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.22,
+      "mdd": -34.0,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -1.03,
+      "sw_y": 3.7,
+      "cash_avg": 16.4
+     },
+     "is": {
+      "cagr": 0.34,
+      "mdd": -34.0,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.5,
+      "sw_y": 5.2,
+      "cash_avg": 16.4
+     },
+     "oos": {
+      "cagr": 10.01,
+      "mdd": -27.0,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -2.61,
+      "sw_y": 2.3,
+      "cash_avg": 16.4
+     }
+    },
+    {
+     "name": "DD t12/25 c0/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.9,
+      "mdd": -44.7,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.34,
+      "sw_y": 0.4,
+      "cash_avg": 6.3
+     },
+     "is": {
+      "cagr": 0.35,
+      "mdd": -44.7,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.5,
+      "sw_y": 0.5,
+      "cash_avg": 6.3
+     },
+     "oos": {
+      "cagr": 11.39,
+      "mdd": -30.2,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.23,
+      "sw_y": 0.3,
+      "cash_avg": 6.3
+     }
+    },
+    {
+     "name": "DD t12/25 c0/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.18,
+      "mdd": -41.1,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -1.06,
+      "sw_y": 0.4,
+      "cash_avg": 12.5
+     },
+     "is": {
+      "cagr": 0.26,
+      "mdd": -41.1,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.42,
+      "sw_y": 0.5,
+      "cash_avg": 12.5
+     },
+     "oos": {
+      "cagr": 10.02,
+      "mdd": -29.0,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -2.61,
+      "sw_y": 0.3,
+      "cash_avg": 12.5
+     }
+    },
+    {
+     "name": "DD t15/30 c10/30",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.8,
+      "mdd": -49.2,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.44,
+      "sw_y": 3.5,
+      "cash_avg": 3.3
+     },
+     "is": {
+      "cagr": -0.28,
+      "mdd": -49.2,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": -0.12,
+      "sw_y": 4.9,
+      "cash_avg": 3.3
+     },
+     "oos": {
+      "cagr": 11.85,
+      "mdd": -32.4,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -0.77,
+      "sw_y": 2.2,
+      "cash_avg": 3.3
+     }
+    },
+    {
+     "name": "DD t15/30 c20/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.45,
+      "mdd": -45.4,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.79,
+      "sw_y": 3.5,
+      "cash_avg": 5.7
+     },
+     "is": {
+      "cagr": -0.42,
+      "mdd": -45.4,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": -0.26,
+      "sw_y": 4.9,
+      "cash_avg": 5.7
+     },
+     "oos": {
+      "cagr": 11.27,
+      "mdd": -31.0,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.35,
+      "sw_y": 2.2,
+      "cash_avg": 5.7
+     }
+    },
+    {
+     "name": "DD t15/30 c30/70",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.05,
+      "mdd": -43.6,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -1.2,
+      "sw_y": 3.5,
+      "cash_avg": 8.2
+     },
+     "is": {
+      "cagr": -0.64,
+      "mdd": -43.6,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": -0.49,
+      "sw_y": 4.9,
+      "cash_avg": 8.2
+     },
+     "oos": {
+      "cagr": 10.68,
+      "mdd": -29.7,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.95,
+      "sw_y": 2.2,
+      "cash_avg": 8.2
+     }
+    },
+    {
+     "name": "DD t15/30 c50/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 4.33,
+      "mdd": -41.2,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -1.91,
+      "sw_y": 3.5,
+      "cash_avg": 12.3
+     },
+     "is": {
+      "cagr": -1.08,
+      "mdd": -41.2,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": -0.92,
+      "sw_y": 4.9,
+      "cash_avg": 12.3
+     },
+     "oos": {
+      "cagr": 9.68,
+      "mdd": -27.9,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -2.94,
+      "sw_y": 2.2,
+      "cash_avg": 12.3
+     }
+    },
+    {
+     "name": "DD t15/30 c0/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.44,
+      "mdd": -49.6,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.81,
+      "sw_y": 0.3,
+      "cash_avg": 4.2
+     },
+     "is": {
+      "cagr": -0.71,
+      "mdd": -49.6,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": -0.55,
+      "sw_y": 0.5,
+      "cash_avg": 4.2
+     },
+     "oos": {
+      "cagr": 11.55,
+      "mdd": -33.0,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.08,
+      "sw_y": 0.1,
+      "cash_avg": 4.2
+     }
+    },
+    {
+     "name": "DD t15/30 c0/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 4.36,
+      "mdd": -51.3,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -1.89,
+      "sw_y": 0.3,
+      "cash_avg": 8.4
+     },
+     "is": {
+      "cagr": -1.73,
+      "mdd": -51.3,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": -1.57,
+      "sw_y": 0.5,
+      "cash_avg": 8.4
+     },
+     "oos": {
+      "cagr": 10.41,
+      "mdd": -32.6,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -2.21,
+      "sw_y": 0.1,
+      "cash_avg": 8.4
+     }
+    },
+    {
+     "name": "DD t5/10 c10/30",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.92,
+      "mdd": -45.6,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.32,
+      "sw_y": 9.6,
+      "cash_avg": 9.3
+     },
+     "is": {
+      "cagr": 0.62,
+      "mdd": -45.6,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.78,
+      "sw_y": 10.4,
+      "cash_avg": 9.3
+     },
+     "oos": {
+      "cagr": 11.15,
+      "mdd": -27.2,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.47,
+      "sw_y": 8.9,
+      "cash_avg": 9.3
+     }
+    },
+    {
+     "name": "DD t5/10 c20/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.52,
+      "mdd": -37.5,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.73,
+      "sw_y": 9.6,
+      "cash_avg": 15.8
+     },
+     "is": {
+      "cagr": 0.86,
+      "mdd": -37.5,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.01,
+      "sw_y": 10.4,
+      "cash_avg": 15.8
+     },
+     "oos": {
+      "cagr": 10.08,
+      "mdd": -22.4,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -2.54,
+      "sw_y": 8.9,
+      "cash_avg": 15.8
+     }
+    },
+    {
+     "name": "DD t5/10 c30/70",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.01,
+      "mdd": -28.7,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -1.24,
+      "sw_y": 9.6,
+      "cash_avg": 22.3
+     },
+     "is": {
+      "cagr": 0.95,
+      "mdd": -28.7,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.11,
+      "sw_y": 10.4,
+      "cash_avg": 22.3
+     },
+     "oos": {
+      "cagr": 8.96,
+      "mdd": -20.0,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -3.66,
+      "sw_y": 8.9,
+      "cash_avg": 22.3
+     }
+    },
+    {
+     "name": "DD t5/10 c50/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 3.95,
+      "mdd": -22.2,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -2.29,
+      "sw_y": 9.6,
+      "cash_avg": 32.3
+     },
+     "is": {
+      "cagr": 0.65,
+      "mdd": -22.2,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.81,
+      "sw_y": 10.4,
+      "cash_avg": 32.3
+     },
+     "oos": {
+      "cagr": 7.14,
+      "mdd": -21.7,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -5.48,
+      "sw_y": 8.9,
+      "cash_avg": 32.3
+     }
+    },
+    {
+     "name": "DD t5/10 c0/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.88,
+      "mdd": -38.0,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.36,
+      "sw_y": 1.4,
+      "cash_avg": 14.2
+     },
+     "is": {
+      "cagr": 1.52,
+      "mdd": -38.0,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.67,
+      "sw_y": 1.1,
+      "cash_avg": 14.2
+     },
+     "oos": {
+      "cagr": 10.15,
+      "mdd": -23.2,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -2.47,
+      "sw_y": 1.7,
+      "cash_avg": 14.2
+     }
+    },
+    {
+     "name": "DD t5/10 c0/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 4.89,
+      "mdd": -24.0,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -1.36,
+      "sw_y": 1.4,
+      "cash_avg": 28.4
+     },
+     "is": {
+      "cagr": 2.33,
+      "mdd": -24.0,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 2.49,
+      "sw_y": 1.1,
+      "cash_avg": 28.4
+     },
+     "oos": {
+      "cagr": 7.34,
+      "mdd": -23.9,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -5.28,
+      "sw_y": 1.7,
+      "cash_avg": 28.4
+     }
+    },
+    {
+     "name": "MA100 c50",
+     "fam": "MA",
+     "all": {
+      "cagr": 4.63,
+      "mdd": -44.8,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -1.62,
+      "sw_y": 11.9,
+      "cash_avg": 15.2
+     },
+     "is": {
+      "cagr": -0.19,
+      "mdd": -44.8,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": -0.04,
+      "sw_y": 12.8,
+      "cash_avg": 15.2
+     },
+     "oos": {
+      "cagr": 9.37,
+      "mdd": -21.2,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -3.26,
+      "sw_y": 11.1,
+      "cash_avg": 15.2
+     }
+    },
+    {
+     "name": "MA100 c50 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 5.18,
+      "mdd": -43.2,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -1.07,
+      "sw_y": 3.3,
+      "cash_avg": 16.0
+     },
+     "is": {
+      "cagr": -0.2,
+      "mdd": -43.2,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": -0.04,
+      "sw_y": 4.0,
+      "cash_avg": 16.0
+     },
+     "oos": {
+      "cagr": 10.48,
+      "mdd": -23.2,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -2.14,
+      "sw_y": 2.7,
+      "cash_avg": 16.0
+     }
+    },
+    {
+     "name": "MA100 c100",
+     "fam": "MA",
+     "all": {
+      "cagr": 2.4,
+      "mdd": -49.5,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -3.84,
+      "sw_y": 11.9,
+      "cash_avg": 30.4
+     },
+     "is": {
+      "cagr": -1.07,
+      "mdd": -49.5,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": -0.92,
+      "sw_y": 12.8,
+      "cash_avg": 30.4
+     },
+     "oos": {
+      "cagr": 5.77,
+      "mdd": -25.9,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -6.85,
+      "sw_y": 11.1,
+      "cash_avg": 30.4
+     }
+    },
+    {
+     "name": "MA100 c100 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 3.48,
+      "mdd": -42.7,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -2.77,
+      "sw_y": 3.3,
+      "cash_avg": 31.9
+     },
+     "is": {
+      "cagr": -1.09,
+      "mdd": -42.7,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": -0.93,
+      "sw_y": 4.0,
+      "cash_avg": 31.9
+     },
+     "oos": {
+      "cagr": 7.95,
+      "mdd": -21.3,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -4.68,
+      "sw_y": 2.7,
+      "cash_avg": 31.9
+     }
+    },
+    {
+     "name": "MA150 c50",
+     "fam": "MA",
+     "all": {
+      "cagr": 4.81,
+      "mdd": -40.8,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -1.43,
+      "sw_y": 10.3,
+      "cash_avg": 14.5
+     },
+     "is": {
+      "cagr": -0.14,
+      "mdd": -40.8,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.01,
+      "sw_y": 12.0,
+      "cash_avg": 14.5
+     },
+     "oos": {
+      "cagr": 9.69,
+      "mdd": -24.6,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -2.94,
+      "sw_y": 8.6,
+      "cash_avg": 14.5
+     }
+    },
+    {
+     "name": "MA150 c50 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 6.0,
+      "mdd": -35.8,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.24,
+      "sw_y": 2.3,
+      "cash_avg": 14.5
+     },
+     "is": {
+      "cagr": 1.1,
+      "mdd": -35.8,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.26,
+      "sw_y": 2.6,
+      "cash_avg": 14.5
+     },
+     "oos": {
+      "cagr": 10.82,
+      "mdd": -23.2,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.8,
+      "sw_y": 2.0,
+      "cash_avg": 14.5
+     }
+    },
+    {
+     "name": "MA150 c100",
+     "fam": "MA",
+     "all": {
+      "cagr": 2.77,
+      "mdd": -34.7,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -3.48,
+      "sw_y": 10.3,
+      "cash_avg": 29.0
+     },
+     "is": {
+      "cagr": -0.98,
+      "mdd": -34.7,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": -0.83,
+      "sw_y": 12.0,
+      "cash_avg": 29.0
+     },
+     "oos": {
+      "cagr": 6.41,
+      "mdd": -28.0,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -6.21,
+      "sw_y": 8.6,
+      "cash_avg": 29.0
+     }
+    },
+    {
+     "name": "MA150 c100 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 5.12,
+      "mdd": -30.2,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -1.12,
+      "sw_y": 2.3,
+      "cash_avg": 29.0
+     },
+     "is": {
+      "cagr": 1.5,
+      "mdd": -30.2,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.66,
+      "sw_y": 2.6,
+      "cash_avg": 29.0
+     },
+     "oos": {
+      "cagr": 8.63,
+      "mdd": -23.6,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -3.99,
+      "sw_y": 2.0,
+      "cash_avg": 29.0
+     }
+    },
+    {
+     "name": "MA200 c50",
+     "fam": "MA",
+     "all": {
+      "cagr": 5.67,
+      "mdd": -37.2,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.57,
+      "sw_y": 7.2,
+      "cash_avg": 13.8
+     },
+     "is": {
+      "cagr": 0.68,
+      "mdd": -37.2,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.83,
+      "sw_y": 8.8,
+      "cash_avg": 13.8
+     },
+     "oos": {
+      "cagr": 10.59,
+      "mdd": -25.7,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -2.03,
+      "sw_y": 5.6,
+      "cash_avg": 13.8
+     }
+    },
+    {
+     "name": "MA200 c50 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 6.54,
+      "mdd": -37.1,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.3,
+      "sw_y": 1.9,
+      "cash_avg": 14.1
+     },
+     "is": {
+      "cagr": 1.95,
+      "mdd": -37.1,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 2.1,
+      "sw_y": 1.9,
+      "cash_avg": 14.1
+     },
+     "oos": {
+      "cagr": 11.04,
+      "mdd": -25.2,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.58,
+      "sw_y": 1.9,
+      "cash_avg": 14.1
+     }
+    },
+    {
+     "name": "MA200 c100",
+     "fam": "MA",
+     "all": {
+      "cagr": 4.47,
+      "mdd": -23.7,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -1.78,
+      "sw_y": 7.2,
+      "cash_avg": 27.7
+     },
+     "is": {
+      "cagr": 0.65,
+      "mdd": -23.7,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.81,
+      "sw_y": 8.8,
+      "cash_avg": 27.7
+     },
+     "oos": {
+      "cagr": 8.18,
+      "mdd": -19.8,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -4.44,
+      "sw_y": 5.6,
+      "cash_avg": 27.7
+     }
+    },
+    {
+     "name": "MA200 c100 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 6.2,
+      "mdd": -20.4,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.05,
+      "sw_y": 1.9,
+      "cash_avg": 28.3
+     },
+     "is": {
+      "cagr": 3.21,
+      "mdd": -19.5,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 3.37,
+      "sw_y": 1.9,
+      "cash_avg": 28.3
+     },
+     "oos": {
+      "cagr": 9.08,
+      "mdd": -20.4,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -3.54,
+      "sw_y": 1.9,
+      "cash_avg": 28.3
+     }
+    },
+    {
+     "name": "MA250 c50",
+     "fam": "MA",
+     "all": {
+      "cagr": 5.83,
+      "mdd": -36.9,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.41,
+      "sw_y": 6.3,
+      "cash_avg": 13.1
+     },
+     "is": {
+      "cagr": 0.8,
+      "mdd": -36.9,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.96,
+      "sw_y": 7.4,
+      "cash_avg": 13.1
+     },
+     "oos": {
+      "cagr": 10.78,
+      "mdd": -26.4,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.84,
+      "sw_y": 5.2,
+      "cash_avg": 13.1
+     }
+    },
+    {
+     "name": "MA250 c50 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 6.59,
+      "mdd": -36.0,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.35,
+      "sw_y": 1.3,
+      "cash_avg": 13.4
+     },
+     "is": {
+      "cagr": 2.09,
+      "mdd": -36.0,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 2.24,
+      "sw_y": 1.4,
+      "cash_avg": 13.4
+     },
+     "oos": {
+      "cagr": 10.99,
+      "mdd": -26.4,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.63,
+      "sw_y": 1.3,
+      "cash_avg": 13.4
+     }
+    },
+    {
+     "name": "MA250 c100",
+     "fam": "MA",
+     "all": {
+      "cagr": 4.8,
+      "mdd": -22.4,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -1.45,
+      "sw_y": 6.3,
+      "cash_avg": 26.3
+     },
+     "is": {
+      "cagr": 0.91,
+      "mdd": -22.4,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.07,
+      "sw_y": 7.4,
+      "cash_avg": 26.3
+     },
+     "oos": {
+      "cagr": 8.58,
+      "mdd": -19.9,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -4.04,
+      "sw_y": 5.2,
+      "cash_avg": 26.3
+     }
+    },
+    {
+     "name": "MA250 c100 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 6.32,
+      "mdd": -24.1,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.08,
+      "sw_y": 1.3,
+      "cash_avg": 26.8
+     },
+     "is": {
+      "cagr": 3.51,
+      "mdd": -24.1,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 3.67,
+      "sw_y": 1.4,
+      "cash_avg": 26.8
+     },
+     "oos": {
+      "cagr": 9.02,
+      "mdd": -21.9,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -3.6,
+      "sw_y": 1.3,
+      "cash_avg": 26.8
+     }
+    },
+    {
+     "name": "MOM 12개월 c50",
+     "fam": "MOM",
+     "all": {
+      "cagr": 6.52,
+      "mdd": -36.5,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.28,
+      "sw_y": 3.3,
+      "cash_avg": 12.0
+     },
+     "is": {
+      "cagr": 1.74,
+      "mdd": -36.5,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.9,
+      "sw_y": 3.4,
+      "cash_avg": 12.0
+     },
+     "oos": {
+      "cagr": 11.21,
+      "mdd": -26.5,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.41,
+      "sw_y": 3.2,
+      "cash_avg": 12.0
+     }
+    },
+    {
+     "name": "MOM 12개월 c100",
+     "fam": "MOM",
+     "all": {
+      "cagr": 6.25,
+      "mdd": -25.8,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.01,
+      "sw_y": 3.3,
+      "cash_avg": 24.1
+     },
+     "is": {
+      "cagr": 2.91,
+      "mdd": -25.8,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 3.06,
+      "sw_y": 3.4,
+      "cash_avg": 24.1
+     },
+     "oos": {
+      "cagr": 9.49,
+      "mdd": -22.1,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -3.13,
+      "sw_y": 3.2,
+      "cash_avg": 24.1
+     }
+    },
+    {
+     "name": "MOM 6개월 c50",
+     "fam": "MOM",
+     "all": {
+      "cagr": 6.25,
+      "mdd": -36.3,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.01,
+      "sw_y": 6.6,
+      "cash_avg": 14.6
+     },
+     "is": {
+      "cagr": 1.73,
+      "mdd": -36.3,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.88,
+      "sw_y": 6.3,
+      "cash_avg": 14.6
+     },
+     "oos": {
+      "cagr": 10.68,
+      "mdd": -23.3,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.94,
+      "sw_y": 6.9,
+      "cash_avg": 14.6
+     }
+    },
+    {
+     "name": "MOM 6개월 c100",
+     "fam": "MOM",
+     "all": {
+      "cagr": 5.62,
+      "mdd": -26.9,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.62,
+      "sw_y": 6.6,
+      "cash_avg": 29.1
+     },
+     "is": {
+      "cagr": 2.78,
+      "mdd": -26.9,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 2.94,
+      "sw_y": 6.3,
+      "cash_avg": 29.1
+     },
+     "oos": {
+      "cagr": 8.36,
+      "mdd": -19.4,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -4.26,
+      "sw_y": 6.9,
+      "cash_avg": 29.1
+     }
+    },
+    {
+     "name": "FAB 10개월 월말 c50",
+     "fam": "FAB",
+     "all": {
+      "cagr": 7.12,
+      "mdd": -33.6,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.88,
+      "sw_y": 1.3,
+      "cash_avg": 13.5
+     },
+     "is": {
+      "cagr": 3.68,
+      "mdd": -33.6,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 3.83,
+      "sw_y": 0.8,
+      "cash_avg": 13.5
+     },
+     "oos": {
+      "cagr": 10.46,
+      "mdd": -23.5,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -2.16,
+      "sw_y": 1.7,
+      "cash_avg": 13.5
+     }
+    },
+    {
+     "name": "FAB 10개월 월말 c100",
+     "fam": "FAB",
+     "all": {
+      "cagr": 7.41,
+      "mdd": -25.3,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 1.16,
+      "sw_y": 1.3,
+      "cash_avg": 26.9
+     },
+     "is": {
+      "cagr": 6.8,
+      "mdd": -17.9,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 6.95,
+      "sw_y": 0.8,
+      "cash_avg": 26.9
+     },
+     "oos": {
+      "cagr": 7.98,
+      "mdd": -25.3,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -4.64,
+      "sw_y": 1.7,
+      "cash_avg": 26.9
+     }
+    },
+    {
+     "name": "VOL 목표10%",
+     "fam": "VOL",
+     "all": {
+      "cagr": 4.59,
+      "mdd": -35.4,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -1.66,
+      "sw_y": 133.0,
+      "cash_avg": 28.0
+     },
+     "is": {
+      "cagr": 0.68,
+      "mdd": -35.4,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.83,
+      "sw_y": 143.4,
+      "cash_avg": 28.0
+     },
+     "oos": {
+      "cagr": 8.39,
+      "mdd": -12.7,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -4.23,
+      "sw_y": 123.2,
+      "cash_avg": 28.0
+     }
+    },
+    {
+     "name": "VOL 목표15%",
+     "fam": "VOL",
+     "all": {
+      "cagr": 5.46,
+      "mdd": -47.1,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.79,
+      "sw_y": 78.9,
+      "cash_avg": 12.7
+     },
+     "is": {
+      "cagr": 0.01,
+      "mdd": -47.1,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.16,
+      "sw_y": 100.1,
+      "cash_avg": 12.7
+     },
+     "oos": {
+      "cagr": 10.83,
+      "mdd": -19.3,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.79,
+      "sw_y": 58.9,
+      "cash_avg": 12.7
+     }
+    },
+    {
+     "name": "VOL 목표20%",
+     "fam": "VOL",
+     "all": {
+      "cagr": 5.94,
+      "mdd": -50.8,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.31,
+      "sw_y": 45.9,
+      "cash_avg": 6.1
+     },
+     "is": {
+      "cagr": 0.02,
+      "mdd": -50.8,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.18,
+      "sw_y": 63.0,
+      "cash_avg": 6.1
+     },
+     "oos": {
+      "cagr": 11.8,
+      "mdd": -22.6,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -0.82,
+      "sw_y": 29.8,
+      "cash_avg": 6.1
+     }
+    },
+    {
+     "name": "MIX DD10/20 c10/30 + MA200 c50",
+     "fam": "MIX",
+     "all": {
+      "cagr": 6.37,
+      "mdd": -37.1,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.13,
+      "sw_y": 2.6,
+      "cash_avg": 14.8
+     },
+     "is": {
+      "cagr": 1.67,
+      "mdd": -37.1,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.83,
+      "sw_y": 2.3,
+      "cash_avg": 14.8
+     },
+     "oos": {
+      "cagr": 10.97,
+      "mdd": -25.1,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.65,
+      "sw_y": 2.9,
+      "cash_avg": 14.8
+     }
+    },
+    {
+     "name": "MIX DD10/20 c10/30 + MA200 c100",
+     "fam": "MIX",
+     "all": {
+      "cagr": 6.03,
+      "mdd": -20.5,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.22,
+      "sw_y": 2.6,
+      "cash_avg": 28.9
+     },
+     "is": {
+      "cagr": 2.94,
+      "mdd": -17.6,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 3.09,
+      "sw_y": 2.3,
+      "cash_avg": 28.9
+     },
+     "oos": {
+      "cagr": 9.01,
+      "mdd": -20.5,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -3.61,
+      "sw_y": 2.9,
+      "cash_avg": 28.9
+     }
+    },
+    {
+     "name": "MIX DD10/20 c10/30 + VOL15",
+     "fam": "MIX",
+     "all": {
+      "cagr": 5.84,
+      "mdd": -41.4,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": -0.41,
+      "sw_y": 67.0,
+      "cash_avg": 13.8
+     },
+     "is": {
+      "cagr": 0.77,
+      "mdd": -41.4,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.93,
+      "sw_y": 80.7,
+      "cash_avg": 13.8
+     },
+     "oos": {
+      "cagr": 10.83,
+      "mdd": -18.9,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -1.8,
+      "sw_y": 54.2,
+      "cash_avg": 13.8
+     }
+    },
+    {
+     "name": "MIX DD10/20 c30/70 + MA200 c50",
+     "fam": "MIX",
+     "all": {
+      "cagr": 6.28,
+      "mdd": -29.1,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.04,
+      "sw_y": 2.6,
+      "cash_avg": 18.5
+     },
+     "is": {
+      "cagr": 2.04,
+      "mdd": -29.1,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 2.2,
+      "sw_y": 2.2,
+      "cash_avg": 18.5
+     },
+     "oos": {
+      "cagr": 10.42,
+      "mdd": -23.3,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -2.2,
+      "sw_y": 3.0,
+      "cash_avg": 18.5
+     }
+    },
+    {
+     "name": "DD t10/20 c10/30 E(코스피 틀)",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.25,
+      "mdd": -50.3,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.01,
+      "sw_y": 7.6,
+      "cash_avg": 3.5
+     },
+     "is": {
+      "cagr": 0.65,
+      "mdd": -50.3,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.81,
+      "sw_y": 9.9,
+      "cash_avg": 3.5
+     },
+     "oos": {
+      "cagr": 11.79,
+      "mdd": -30.7,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -0.83,
+      "sw_y": 5.4,
+      "cash_avg": 3.5
+     }
+    },
+    {
+     "name": "지금 규칙 (F)",
+     "fam": "NOW",
+     "all": {
+      "cagr": 6.47,
+      "mdd": -46.7,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.22,
+      "sw_y": 4.1,
+      "cash_avg": 5.5
+     },
+     "is": {
+      "cagr": 1.0,
+      "mdd": -46.7,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 1.15,
+      "sw_y": 4.2,
+      "cash_avg": 5.5
+     },
+     "oos": {
+      "cagr": 11.87,
+      "mdd": -30.7,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": -0.75,
+      "sw_y": 4.1,
+      "cash_avg": 5.5
+     }
+    },
+    {
+     "name": "H 그냥 보유",
+     "fam": "H",
+     "all": {
+      "cagr": 6.25,
+      "mdd": -56.8,
+      "hold": 6.25,
+      "hold_mdd": -56.8,
+      "ex": 0.0,
+      "sw_y": 0.0,
+      "cash_avg": 0.0
+     },
+     "is": {
+      "cagr": -0.16,
+      "mdd": -56.8,
+      "hold": -0.16,
+      "hold_mdd": -56.8,
+      "ex": 0.0,
+      "sw_y": 0.0,
+      "cash_avg": 0.0
+     },
+     "oos": {
+      "cagr": 12.62,
+      "mdd": -33.9,
+      "hold": 12.62,
+      "hold_mdd": -33.9,
+      "ex": 0.0,
+      "sw_y": 0.0,
+      "cash_avg": 0.0
+     }
+    }
+   ],
+   "pick": {
+    "DD": {
+     "name": "DD t10/20 c0/100",
+     "is_ex": 3.33,
+     "oos_ex": -2.45,
+     "all_ex": 0.48,
+     "mdd": -27.9,
+     "sw_y": 0.3,
+     "fam_pos_is": 81,
+     "fam_pos_oos": 0,
+     "n": 31
+    },
+    "MA": {
+     "name": "MA250 c100 띠2%",
+     "is_ex": 3.67,
+     "oos_ex": -3.6,
+     "all_ex": 0.08,
+     "mdd": -24.1,
+     "sw_y": 1.3,
+     "fam_pos_is": 69,
+     "fam_pos_oos": 0,
+     "n": 16
+    },
+    "MOM": {
+     "name": "MOM 12개월 c100",
+     "is_ex": 3.06,
+     "oos_ex": -3.13,
+     "all_ex": 0.01,
+     "mdd": -25.8,
+     "sw_y": 3.3,
+     "fam_pos_is": 100,
+     "fam_pos_oos": 0,
+     "n": 4
+    },
+    "FAB": {
+     "name": "FAB 10개월 월말 c100",
+     "is_ex": 6.95,
+     "oos_ex": -4.64,
+     "all_ex": 1.16,
+     "mdd": -25.3,
+     "sw_y": 1.3,
+     "fam_pos_is": 100,
+     "fam_pos_oos": 0,
+     "n": 2
+    },
+    "VOL": {
+     "name": "VOL 목표10%",
+     "is_ex": 0.83,
+     "oos_ex": -4.23,
+     "all_ex": -1.66,
+     "mdd": -35.4,
+     "sw_y": 133.0,
+     "fam_pos_is": 100,
+     "fam_pos_oos": 0,
+     "n": 3
+    },
+    "MIX": {
+     "name": "MIX DD10/20 c10/30 + MA200 c100",
+     "is_ex": 3.09,
+     "oos_ex": -3.61,
+     "all_ex": -0.22,
+     "mdd": -20.5,
+     "sw_y": 2.6,
+     "fam_pos_is": 100,
+     "fam_pos_oos": 0,
+     "n": 4
+    },
+    "NOW": {
+     "name": "지금 규칙 (F)",
+     "is_ex": 1.15,
+     "oos_ex": -0.75,
+     "all_ex": 0.22,
+     "mdd": -46.7,
+     "sw_y": 4.1,
+     "fam_pos_is": 100,
+     "fam_pos_oos": 0,
+     "n": 1
+    }
+   },
+   "robust": []
+  },
+  {
+   "key": "nasdaq",
+   "name": "나스닥",
+   "from": "2000-01-03",
+   "to": "2026-11-06",
+   "split": "2013-01-01",
+   "rows": [
+    {
+     "name": "DD t10/20 c10/30",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.84,
+      "mdd": -65.8,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.96,
+      "sw_y": 5.0,
+      "cash_avg": 7.6
+     },
+     "is": {
+      "cagr": 0.43,
+      "mdd": -65.8,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 2.81,
+      "sw_y": 5.4,
+      "cash_avg": 7.6
+     },
+     "oos": {
+      "cagr": 15.3,
+      "mdd": -30.3,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.08,
+      "sw_y": 4.7,
+      "cash_avg": 7.6
+     }
+    },
+    {
+     "name": "DD t10/20 c20/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 8.23,
+      "mdd": -55.2,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.35,
+      "sw_y": 5.0,
+      "cash_avg": 12.9
+     },
+     "is": {
+      "cagr": 1.94,
+      "mdd": -55.2,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 4.33,
+      "sw_y": 5.4,
+      "cash_avg": 12.9
+     },
+     "oos": {
+      "cagr": 14.49,
+      "mdd": -26.4,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.89,
+      "sw_y": 4.7,
+      "cash_avg": 12.9
+     }
+    },
+    {
+     "name": "DD t10/20 c30/70",
+     "fam": "DD",
+     "all": {
+      "cagr": 8.47,
+      "mdd": -42.2,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.59,
+      "sw_y": 5.0,
+      "cash_avg": 18.2
+     },
+     "is": {
+      "cagr": 3.24,
+      "mdd": -42.2,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 5.63,
+      "sw_y": 5.4,
+      "cash_avg": 18.2
+     },
+     "oos": {
+      "cagr": 13.62,
+      "mdd": -24.9,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -2.76,
+      "sw_y": 4.7,
+      "cash_avg": 18.2
+     }
+    },
+    {
+     "name": "DD t10/20 c50/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 8.42,
+      "mdd": -25.0,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.53,
+      "sw_y": 5.0,
+      "cash_avg": 26.5
+     },
+     "is": {
+      "cagr": 4.57,
+      "mdd": -22.0,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 6.95,
+      "sw_y": 5.4,
+      "cash_avg": 26.5
+     },
+     "oos": {
+      "cagr": 12.16,
+      "mdd": -25.0,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -4.22,
+      "sw_y": 4.7,
+      "cash_avg": 26.5
+     }
+    },
+    {
+     "name": "DD t10/20 c0/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 8.61,
+      "mdd": -56.0,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.73,
+      "sw_y": 0.4,
+      "cash_avg": 11.5
+     },
+     "is": {
+      "cagr": 2.59,
+      "mdd": -56.0,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 4.98,
+      "sw_y": 0.3,
+      "cash_avg": 11.5
+     },
+     "oos": {
+      "cagr": 14.58,
+      "mdd": -28.1,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.8,
+      "sw_y": 0.6,
+      "cash_avg": 11.5
+     }
+    },
+    {
+     "name": "DD t10/20 c0/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 9.41,
+      "mdd": -29.1,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 2.53,
+      "sw_y": 0.4,
+      "cash_avg": 23.1
+     },
+     "is": {
+      "cagr": 6.3,
+      "mdd": -25.4,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 8.68,
+      "sw_y": 0.3,
+      "cash_avg": 23.1
+     },
+     "oos": {
+      "cagr": 12.42,
+      "mdd": -29.1,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -3.96,
+      "sw_y": 0.6,
+      "cash_avg": 23.1
+     }
+    },
+    {
+     "name": "DD t8/15 c10/30",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.66,
+      "mdd": -64.8,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.77,
+      "sw_y": 7.9,
+      "cash_avg": 9.1
+     },
+     "is": {
+      "cagr": -0.08,
+      "mdd": -64.8,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 2.31,
+      "sw_y": 8.3,
+      "cash_avg": 9.1
+     },
+     "oos": {
+      "cagr": 15.46,
+      "mdd": -29.2,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -0.92,
+      "sw_y": 7.5,
+      "cash_avg": 9.1
+     }
+    },
+    {
+     "name": "DD t8/15 c20/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.87,
+      "mdd": -52.9,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.99,
+      "sw_y": 7.9,
+      "cash_avg": 15.4
+     },
+     "is": {
+      "cagr": 1.09,
+      "mdd": -52.9,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 3.48,
+      "sw_y": 8.3,
+      "cash_avg": 15.4
+     },
+     "oos": {
+      "cagr": 14.65,
+      "mdd": -24.2,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.72,
+      "sw_y": 7.5,
+      "cash_avg": 15.4
+     }
+    },
+    {
+     "name": "DD t8/15 c30/70",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.92,
+      "mdd": -38.2,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.04,
+      "sw_y": 7.9,
+      "cash_avg": 21.7
+     },
+     "is": {
+      "cagr": 2.01,
+      "mdd": -38.2,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 4.4,
+      "sw_y": 8.3,
+      "cash_avg": 21.7
+     },
+     "oos": {
+      "cagr": 13.78,
+      "mdd": -19.2,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -2.6,
+      "sw_y": 7.5,
+      "cash_avg": 21.7
+     }
+    },
+    {
+     "name": "DD t8/15 c50/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.52,
+      "mdd": -23.6,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.64,
+      "sw_y": 7.9,
+      "cash_avg": 31.5
+     },
+     "is": {
+      "cagr": 2.78,
+      "mdd": -23.6,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 5.17,
+      "sw_y": 8.3,
+      "cash_avg": 31.5
+     },
+     "oos": {
+      "cagr": 12.17,
+      "mdd": -22.2,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -4.21,
+      "sw_y": 7.5,
+      "cash_avg": 31.5
+     }
+    },
+    {
+     "name": "DD t8/15 c0/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 8.39,
+      "mdd": -53.3,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.51,
+      "sw_y": 0.8,
+      "cash_avg": 13.8
+     },
+     "is": {
+      "cagr": 1.57,
+      "mdd": -53.3,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 3.96,
+      "sw_y": 0.9,
+      "cash_avg": 13.8
+     },
+     "oos": {
+      "cagr": 15.21,
+      "mdd": -25.2,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.17,
+      "sw_y": 0.7,
+      "cash_avg": 13.8
+     }
+    },
+    {
+     "name": "DD t8/15 c0/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 8.87,
+      "mdd": -25.7,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.99,
+      "sw_y": 0.8,
+      "cash_avg": 27.7
+     },
+     "is": {
+      "cagr": 4.05,
+      "mdd": -25.7,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 6.44,
+      "sw_y": 0.9,
+      "cash_avg": 27.7
+     },
+     "oos": {
+      "cagr": 13.59,
+      "mdd": -21.2,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -2.79,
+      "sw_y": 0.7,
+      "cash_avg": 27.7
+     }
+    },
+    {
+     "name": "DD t12/25 c10/30",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.9,
+      "mdd": -65.9,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.02,
+      "sw_y": 4.9,
+      "cash_avg": 6.4
+     },
+     "is": {
+      "cagr": 0.15,
+      "mdd": -65.9,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 2.53,
+      "sw_y": 5.6,
+      "cash_avg": 6.4
+     },
+     "oos": {
+      "cagr": 15.73,
+      "mdd": -32.5,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -0.65,
+      "sw_y": 4.3,
+      "cash_avg": 6.4
+     }
+    },
+    {
+     "name": "DD t12/25 c20/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 8.32,
+      "mdd": -55.5,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.43,
+      "sw_y": 4.9,
+      "cash_avg": 11.0
+     },
+     "is": {
+      "cagr": 1.47,
+      "mdd": -55.5,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 3.86,
+      "sw_y": 5.6,
+      "cash_avg": 11.0
+     },
+     "oos": {
+      "cagr": 15.15,
+      "mdd": -29.8,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.22,
+      "sw_y": 4.3,
+      "cash_avg": 11.0
+     }
+    },
+    {
+     "name": "DD t12/25 c30/70",
+     "fam": "DD",
+     "all": {
+      "cagr": 8.59,
+      "mdd": -42.8,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.7,
+      "sw_y": 4.9,
+      "cash_avg": 15.5
+     },
+     "is": {
+      "cagr": 2.59,
+      "mdd": -42.8,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 4.97,
+      "sw_y": 5.6,
+      "cash_avg": 15.5
+     },
+     "oos": {
+      "cagr": 14.53,
+      "mdd": -27.3,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.85,
+      "sw_y": 4.3,
+      "cash_avg": 15.5
+     }
+    },
+    {
+     "name": "DD t12/25 c50/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 8.56,
+      "mdd": -25.1,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.68,
+      "sw_y": 4.9,
+      "cash_avg": 22.7
+     },
+     "is": {
+      "cagr": 3.65,
+      "mdd": -23.6,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 6.04,
+      "sw_y": 5.6,
+      "cash_avg": 22.7
+     },
+     "oos": {
+      "cagr": 13.37,
+      "mdd": -25.1,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -3.0,
+      "sw_y": 4.3,
+      "cash_avg": 22.7
+     }
+    },
+    {
+     "name": "DD t12/25 c0/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 8.91,
+      "mdd": -56.0,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 2.03,
+      "sw_y": 0.3,
+      "cash_avg": 9.4
+     },
+     "is": {
+      "cagr": 2.18,
+      "mdd": -56.0,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 4.56,
+      "sw_y": 0.3,
+      "cash_avg": 9.4
+     },
+     "oos": {
+      "cagr": 15.62,
+      "mdd": -31.2,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -0.75,
+      "sw_y": 0.3,
+      "cash_avg": 9.4
+     }
+    },
+    {
+     "name": "DD t12/25 c0/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 10.11,
+      "mdd": -29.9,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 3.23,
+      "sw_y": 0.3,
+      "cash_avg": 18.9
+     },
+     "is": {
+      "cagr": 5.52,
+      "mdd": -26.7,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 7.9,
+      "sw_y": 0.3,
+      "cash_avg": 18.9
+     },
+     "oos": {
+      "cagr": 14.6,
+      "mdd": -29.9,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.77,
+      "sw_y": 0.3,
+      "cash_avg": 18.9
+     }
+    },
+    {
+     "name": "DD t15/30 c10/30",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.94,
+      "mdd": -66.8,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.06,
+      "sw_y": 2.4,
+      "cash_avg": 5.8
+     },
+     "is": {
+      "cagr": 0.11,
+      "mdd": -66.8,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 2.5,
+      "sw_y": 3.2,
+      "cash_avg": 5.8
+     },
+     "oos": {
+      "cagr": 15.84,
+      "mdd": -33.7,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -0.54,
+      "sw_y": 1.6,
+      "cash_avg": 5.8
+     }
+    },
+    {
+     "name": "DD t15/30 c20/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 8.53,
+      "mdd": -57.2,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.64,
+      "sw_y": 2.4,
+      "cash_avg": 9.8
+     },
+     "is": {
+      "cagr": 1.56,
+      "mdd": -57.2,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 3.95,
+      "sw_y": 3.2,
+      "cash_avg": 9.8
+     },
+     "oos": {
+      "cagr": 15.5,
+      "mdd": -31.7,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -0.88,
+      "sw_y": 1.6,
+      "cash_avg": 9.8
+     }
+    },
+    {
+     "name": "DD t15/30 c30/70",
+     "fam": "DD",
+     "all": {
+      "cagr": 8.98,
+      "mdd": -45.7,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 2.1,
+      "sw_y": 2.4,
+      "cash_avg": 13.9
+     },
+     "is": {
+      "cagr": 2.8,
+      "mdd": -45.7,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 5.19,
+      "sw_y": 3.2,
+      "cash_avg": 13.9
+     },
+     "oos": {
+      "cagr": 15.12,
+      "mdd": -29.9,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.26,
+      "sw_y": 1.6,
+      "cash_avg": 13.9
+     }
+    },
+    {
+     "name": "DD t15/30 c50/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 9.46,
+      "mdd": -28.1,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 2.57,
+      "sw_y": 2.4,
+      "cash_avg": 20.1
+     },
+     "is": {
+      "cagr": 4.27,
+      "mdd": -27.9,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 6.66,
+      "sw_y": 3.2,
+      "cash_avg": 20.1
+     },
+     "oos": {
+      "cagr": 14.55,
+      "mdd": -28.1,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.82,
+      "sw_y": 1.6,
+      "cash_avg": 20.1
+     }
+    },
+    {
+     "name": "DD t15/30 c0/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 8.33,
+      "mdd": -58.7,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.45,
+      "sw_y": 0.3,
+      "cash_avg": 9.0
+     },
+     "is": {
+      "cagr": 1.5,
+      "mdd": -58.7,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 3.89,
+      "sw_y": 0.3,
+      "cash_avg": 9.0
+     },
+     "oos": {
+      "cagr": 15.15,
+      "mdd": -33.8,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.23,
+      "sw_y": 0.3,
+      "cash_avg": 9.0
+     }
+    },
+    {
+     "name": "DD t15/30 c0/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 9.02,
+      "mdd": -34.3,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 2.14,
+      "sw_y": 0.3,
+      "cash_avg": 18.0
+     },
+     "is": {
+      "cagr": 4.19,
+      "mdd": -34.3,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 6.58,
+      "sw_y": 0.3,
+      "cash_avg": 18.0
+     },
+     "oos": {
+      "cagr": 13.76,
+      "mdd": -33.3,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -2.62,
+      "sw_y": 0.3,
+      "cash_avg": 18.0
+     }
+    },
+    {
+     "name": "DD t5/10 c10/30",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.93,
+      "mdd": -64.4,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.05,
+      "sw_y": 11.6,
+      "cash_avg": 12.0
+     },
+     "is": {
+      "cagr": -0.56,
+      "mdd": -64.4,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 1.83,
+      "sw_y": 9.9,
+      "cash_avg": 12.0
+     },
+     "oos": {
+      "cagr": 14.46,
+      "mdd": -28.7,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.92,
+      "sw_y": 13.1,
+      "cash_avg": 12.0
+     }
+    },
+    {
+     "name": "DD t5/10 c20/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.69,
+      "mdd": -52.3,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": -0.19,
+      "sw_y": 11.6,
+      "cash_avg": 20.3
+     },
+     "is": {
+      "cagr": 0.36,
+      "mdd": -52.3,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 2.75,
+      "sw_y": 9.9,
+      "cash_avg": 20.3
+     },
+     "oos": {
+      "cagr": 12.99,
+      "mdd": -23.5,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -3.38,
+      "sw_y": 13.1,
+      "cash_avg": 20.3
+     }
+    },
+    {
+     "name": "DD t5/10 c30/70",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.27,
+      "mdd": -37.3,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": -0.62,
+      "sw_y": 11.6,
+      "cash_avg": 28.6
+     },
+     "is": {
+      "cagr": 1.01,
+      "mdd": -37.3,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 3.4,
+      "sw_y": 9.9,
+      "cash_avg": 28.6
+     },
+     "oos": {
+      "cagr": 11.44,
+      "mdd": -18.4,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -4.93,
+      "sw_y": 13.1,
+      "cash_avg": 28.6
+     }
+    },
+    {
+     "name": "DD t5/10 c50/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.22,
+      "mdd": -23.8,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": -1.66,
+      "sw_y": 11.6,
+      "cash_avg": 41.6
+     },
+     "is": {
+      "cagr": 1.49,
+      "mdd": -23.8,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 3.88,
+      "sw_y": 9.9,
+      "cash_avg": 41.6
+     },
+     "oos": {
+      "cagr": 8.84,
+      "mdd": -20.3,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -7.53,
+      "sw_y": 13.1,
+      "cash_avg": 41.6
+     }
+    },
+    {
+     "name": "DD t5/10 c0/50",
+     "fam": "DD",
+     "all": {
+      "cagr": 6.86,
+      "mdd": -52.0,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": -0.02,
+      "sw_y": 2.1,
+      "cash_avg": 18.2
+     },
+     "is": {
+      "cagr": 0.25,
+      "mdd": -52.0,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 2.64,
+      "sw_y": 2.2,
+      "cash_avg": 18.2
+     },
+     "oos": {
+      "cagr": 13.45,
+      "mdd": -23.0,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -2.92,
+      "sw_y": 2.1,
+      "cash_avg": 18.2
+     }
+    },
+    {
+     "name": "DD t5/10 c0/100",
+     "fam": "DD",
+     "all": {
+      "cagr": 5.68,
+      "mdd": -27.0,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": -1.21,
+      "sw_y": 2.1,
+      "cash_avg": 36.4
+     },
+     "is": {
+      "cagr": 1.26,
+      "mdd": -27.0,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 3.64,
+      "sw_y": 2.2,
+      "cash_avg": 36.4
+     },
+     "oos": {
+      "cagr": 10.0,
+      "mdd": -24.8,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -6.38,
+      "sw_y": 2.1,
+      "cash_avg": 36.4
+     }
+    },
+    {
+     "name": "MA100 c50",
+     "fam": "MA",
+     "all": {
+      "cagr": 7.02,
+      "mdd": -61.5,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.14,
+      "sw_y": 10.8,
+      "cash_avg": 16.1
+     },
+     "is": {
+      "cagr": 0.32,
+      "mdd": -61.5,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 2.71,
+      "sw_y": 12.1,
+      "cash_avg": 16.1
+     },
+     "oos": {
+      "cagr": 13.71,
+      "mdd": -25.0,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -2.67,
+      "sw_y": 9.5,
+      "cash_avg": 16.1
+     }
+    },
+    {
+     "name": "MA100 c50 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 6.51,
+      "mdd": -65.2,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": -0.37,
+      "sw_y": 3.9,
+      "cash_avg": 16.1
+     },
+     "is": {
+      "cagr": -0.83,
+      "mdd": -65.2,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 1.56,
+      "sw_y": 4.9,
+      "cash_avg": 16.1
+     },
+     "oos": {
+      "cagr": 13.88,
+      "mdd": -26.4,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -2.49,
+      "sw_y": 3.0,
+      "cash_avg": 16.1
+     }
+    },
+    {
+     "name": "MA100 c100",
+     "fam": "MA",
+     "all": {
+      "cagr": 6.08,
+      "mdd": -45.9,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": -0.8,
+      "sw_y": 10.8,
+      "cash_avg": 32.3
+     },
+     "is": {
+      "cagr": 1.59,
+      "mdd": -45.9,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 3.97,
+      "sw_y": 12.1,
+      "cash_avg": 32.3
+     },
+     "oos": {
+      "cagr": 10.48,
+      "mdd": -24.4,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -5.9,
+      "sw_y": 9.5,
+      "cash_avg": 32.3
+     }
+    },
+    {
+     "name": "MA100 c100 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 5.09,
+      "mdd": -55.6,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": -1.8,
+      "sw_y": 3.9,
+      "cash_avg": 32.1
+     },
+     "is": {
+      "cagr": -0.71,
+      "mdd": -55.6,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 1.68,
+      "sw_y": 4.9,
+      "cash_avg": 32.1
+     },
+     "oos": {
+      "cagr": 10.83,
+      "mdd": -18.3,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -5.55,
+      "sw_y": 3.0,
+      "cash_avg": 32.1
+     }
+    },
+    {
+     "name": "MA150 c50",
+     "fam": "MA",
+     "all": {
+      "cagr": 6.19,
+      "mdd": -66.2,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": -0.7,
+      "sw_y": 10.2,
+      "cash_avg": 14.8
+     },
+     "is": {
+      "cagr": -2.27,
+      "mdd": -66.2,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 0.12,
+      "sw_y": 14.2,
+      "cash_avg": 14.8
+     },
+     "oos": {
+      "cagr": 14.78,
+      "mdd": -24.3,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.6,
+      "sw_y": 6.4,
+      "cash_avg": 14.8
+     }
+    },
+    {
+     "name": "MA150 c50 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 7.13,
+      "mdd": -63.5,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.25,
+      "sw_y": 2.8,
+      "cash_avg": 15.0
+     },
+     "is": {
+      "cagr": -1.08,
+      "mdd": -63.5,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 1.31,
+      "sw_y": 3.9,
+      "cash_avg": 15.0
+     },
+     "oos": {
+      "cagr": 15.45,
+      "mdd": -24.9,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -0.92,
+      "sw_y": 1.8,
+      "cash_avg": 15.0
+     }
+    },
+    {
+     "name": "MA150 c100",
+     "fam": "MA",
+     "all": {
+      "cagr": 4.46,
+      "mdd": -59.5,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": -2.42,
+      "sw_y": 10.2,
+      "cash_avg": 29.7
+     },
+     "is": {
+      "cagr": -3.59,
+      "mdd": -59.5,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": -1.2,
+      "sw_y": 14.2,
+      "cash_avg": 29.7
+     },
+     "oos": {
+      "cagr": 12.63,
+      "mdd": -23.2,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -3.75,
+      "sw_y": 6.4,
+      "cash_avg": 29.7
+     }
+    },
+    {
+     "name": "MA150 c100 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 6.34,
+      "mdd": -53.4,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": -0.54,
+      "sw_y": 2.8,
+      "cash_avg": 30.0
+     },
+     "is": {
+      "cagr": -1.23,
+      "mdd": -53.4,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 1.16,
+      "sw_y": 3.9,
+      "cash_avg": 30.0
+     },
+     "oos": {
+      "cagr": 13.98,
+      "mdd": -20.5,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -2.4,
+      "sw_y": 1.8,
+      "cash_avg": 30.0
+     }
+    },
+    {
+     "name": "MA200 c50",
+     "fam": "MA",
+     "all": {
+      "cagr": 7.5,
+      "mdd": -63.4,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.62,
+      "sw_y": 6.7,
+      "cash_avg": 14.5
+     },
+     "is": {
+      "cagr": -0.4,
+      "mdd": -63.4,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 1.99,
+      "sw_y": 9.1,
+      "cash_avg": 14.5
+     },
+     "oos": {
+      "cagr": 15.48,
+      "mdd": -24.3,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -0.9,
+      "sw_y": 4.4,
+      "cash_avg": 14.5
+     }
+    },
+    {
+     "name": "MA200 c50 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 7.45,
+      "mdd": -66.2,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.57,
+      "sw_y": 2.1,
+      "cash_avg": 14.8
+     },
+     "is": {
+      "cagr": -0.1,
+      "mdd": -66.2,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 2.29,
+      "sw_y": 2.5,
+      "cash_avg": 14.8
+     },
+     "oos": {
+      "cagr": 15.05,
+      "mdd": -24.3,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.33,
+      "sw_y": 1.8,
+      "cash_avg": 14.8
+     }
+    },
+    {
+     "name": "MA200 c100",
+     "fam": "MA",
+     "all": {
+      "cagr": 7.1,
+      "mdd": -47.4,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.21,
+      "sw_y": 6.7,
+      "cash_avg": 29.0
+     },
+     "is": {
+      "cagr": 0.17,
+      "mdd": -47.4,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 2.56,
+      "sw_y": 9.1,
+      "cash_avg": 29.0
+     },
+     "oos": {
+      "cagr": 14.03,
+      "mdd": -23.0,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -2.35,
+      "sw_y": 4.4,
+      "cash_avg": 29.0
+     }
+    },
+    {
+     "name": "MA200 c100 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 7.0,
+      "mdd": -57.2,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.12,
+      "sw_y": 2.1,
+      "cash_avg": 29.6
+     },
+     "is": {
+      "cagr": 0.79,
+      "mdd": -57.2,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 3.18,
+      "sw_y": 2.5,
+      "cash_avg": 29.6
+     },
+     "oos": {
+      "cagr": 13.18,
+      "mdd": -22.6,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -3.2,
+      "sw_y": 1.8,
+      "cash_avg": 29.6
+     }
+    },
+    {
+     "name": "MA250 c50",
+     "fam": "MA",
+     "all": {
+      "cagr": 7.32,
+      "mdd": -60.6,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.44,
+      "sw_y": 5.6,
+      "cash_avg": 14.1
+     },
+     "is": {
+      "cagr": 0.17,
+      "mdd": -60.6,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 2.56,
+      "sw_y": 6.5,
+      "cash_avg": 14.1
+     },
+     "oos": {
+      "cagr": 14.48,
+      "mdd": -26.2,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.9,
+      "sw_y": 4.7,
+      "cash_avg": 14.1
+     }
+    },
+    {
+     "name": "MA250 c50 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 8.2,
+      "mdd": -59.5,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.32,
+      "sw_y": 1.6,
+      "cash_avg": 14.5
+     },
+     "is": {
+      "cagr": 1.28,
+      "mdd": -59.5,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 3.67,
+      "sw_y": 1.7,
+      "cash_avg": 14.5
+     },
+     "oos": {
+      "cagr": 15.12,
+      "mdd": -24.3,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.26,
+      "sw_y": 1.6,
+      "cash_avg": 14.5
+     }
+    },
+    {
+     "name": "MA250 c100",
+     "fam": "MA",
+     "all": {
+      "cagr": 6.77,
+      "mdd": -38.0,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": -0.11,
+      "sw_y": 5.6,
+      "cash_avg": 28.2
+     },
+     "is": {
+      "cagr": 1.37,
+      "mdd": -38.0,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 3.76,
+      "sw_y": 6.5,
+      "cash_avg": 28.2
+     },
+     "oos": {
+      "cagr": 12.09,
+      "mdd": -25.4,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -4.29,
+      "sw_y": 4.7,
+      "cash_avg": 28.2
+     }
+    },
+    {
+     "name": "MA250 c100 띠2%",
+     "fam": "MA",
+     "all": {
+      "cagr": 8.53,
+      "mdd": -37.4,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.65,
+      "sw_y": 1.6,
+      "cash_avg": 29.0
+     },
+     "is": {
+      "cagr": 3.63,
+      "mdd": -37.4,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 6.01,
+      "sw_y": 1.7,
+      "cash_avg": 29.0
+     },
+     "oos": {
+      "cagr": 13.34,
+      "mdd": -21.4,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -3.04,
+      "sw_y": 1.6,
+      "cash_avg": 29.0
+     }
+    },
+    {
+     "name": "MOM 12개월 c50",
+     "fam": "MOM",
+     "all": {
+      "cagr": 6.94,
+      "mdd": -61.0,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.06,
+      "sw_y": 4.0,
+      "cash_avg": 12.4
+     },
+     "is": {
+      "cagr": 0.58,
+      "mdd": -61.0,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 2.97,
+      "sw_y": 4.2,
+      "cash_avg": 12.4
+     },
+     "oos": {
+      "cagr": 13.27,
+      "mdd": -32.9,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -3.11,
+      "sw_y": 3.9,
+      "cash_avg": 12.4
+     }
+    },
+    {
+     "name": "MOM 12개월 c100",
+     "fam": "MOM",
+     "all": {
+      "cagr": 6.19,
+      "mdd": -41.8,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": -0.69,
+      "sw_y": 4.0,
+      "cash_avg": 24.7
+     },
+     "is": {
+      "cagr": 2.39,
+      "mdd": -40.1,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 4.78,
+      "sw_y": 4.2,
+      "cash_avg": 24.7
+     },
+     "oos": {
+      "cagr": 9.88,
+      "mdd": -41.8,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -6.5,
+      "sw_y": 3.9,
+      "cash_avg": 24.7
+     }
+    },
+    {
+     "name": "MOM 6개월 c50",
+     "fam": "MOM",
+     "all": {
+      "cagr": 7.58,
+      "mdd": -61.5,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.7,
+      "sw_y": 6.1,
+      "cash_avg": 15.1
+     },
+     "is": {
+      "cagr": -0.32,
+      "mdd": -61.5,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 2.07,
+      "sw_y": 8.0,
+      "cash_avg": 15.1
+     },
+     "oos": {
+      "cagr": 15.56,
+      "mdd": -26.2,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -0.81,
+      "sw_y": 4.3,
+      "cash_avg": 15.1
+     }
+    },
+    {
+     "name": "MOM 6개월 c100",
+     "fam": "MOM",
+     "all": {
+      "cagr": 7.29,
+      "mdd": -47.0,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.41,
+      "sw_y": 6.1,
+      "cash_avg": 30.1
+     },
+     "is": {
+      "cagr": 0.39,
+      "mdd": -47.0,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 2.77,
+      "sw_y": 8.0,
+      "cash_avg": 30.1
+     },
+     "oos": {
+      "cagr": 14.2,
+      "mdd": -23.0,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -2.18,
+      "sw_y": 4.3,
+      "cash_avg": 30.1
+     }
+    },
+    {
+     "name": "FAB 10개월 월말 c50",
+     "fam": "FAB",
+     "all": {
+      "cagr": 7.44,
+      "mdd": -64.8,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.56,
+      "sw_y": 1.5,
+      "cash_avg": 14.1
+     },
+     "is": {
+      "cagr": -0.1,
+      "mdd": -64.8,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 2.29,
+      "sw_y": 1.9,
+      "cash_avg": 14.1
+     },
+     "oos": {
+      "cagr": 15.04,
+      "mdd": -30.1,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.34,
+      "sw_y": 1.2,
+      "cash_avg": 14.1
+     }
+    },
+    {
+     "name": "FAB 10개월 월말 c100",
+     "fam": "FAB",
+     "all": {
+      "cagr": 7.12,
+      "mdd": -49.7,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.24,
+      "sw_y": 1.5,
+      "cash_avg": 28.2
+     },
+     "is": {
+      "cagr": 0.89,
+      "mdd": -49.7,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 3.27,
+      "sw_y": 1.9,
+      "cash_avg": 28.2
+     },
+     "oos": {
+      "cagr": 13.32,
+      "mdd": -30.1,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -3.05,
+      "sw_y": 1.2,
+      "cash_avg": 28.2
+     }
+    },
+    {
+     "name": "VOL 목표10%",
+     "fam": "VOL",
+     "all": {
+      "cagr": 6.05,
+      "mdd": -32.9,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": -0.83,
+      "sw_y": 155.6,
+      "cash_avg": 40.9
+     },
+     "is": {
+      "cagr": 2.33,
+      "mdd": -32.9,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 4.72,
+      "sw_y": 161.6,
+      "cash_avg": 40.9
+     },
+     "oos": {
+      "cagr": 9.66,
+      "mdd": -15.2,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -6.72,
+      "sw_y": 149.9,
+      "cash_avg": 40.9
+     }
+    },
+    {
+     "name": "VOL 목표15%",
+     "fam": "VOL",
+     "all": {
+      "cagr": 7.72,
+      "mdd": -47.2,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.84,
+      "sw_y": 112.4,
+      "cash_avg": 22.3
+     },
+     "is": {
+      "cagr": 2.18,
+      "mdd": -47.2,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 4.56,
+      "sw_y": 127.5,
+      "cash_avg": 22.3
+     },
+     "oos": {
+      "cagr": 13.19,
+      "mdd": -22.4,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -3.19,
+      "sw_y": 98.2,
+      "cash_avg": 22.3
+     }
+    },
+    {
+     "name": "VOL 목표20%",
+     "fam": "VOL",
+     "all": {
+      "cagr": 8.23,
+      "mdd": -58.3,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.34,
+      "sw_y": 76.7,
+      "cash_avg": 12.5
+     },
+     "is": {
+      "cagr": 1.51,
+      "mdd": -58.3,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 3.89,
+      "sw_y": 96.5,
+      "cash_avg": 12.5
+     },
+     "oos": {
+      "cagr": 14.93,
+      "mdd": -28.6,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.44,
+      "sw_y": 58.1,
+      "cash_avg": 12.5
+     }
+    },
+    {
+     "name": "MIX DD10/20 c10/30 + MA200 c50",
+     "fam": "MIX",
+     "all": {
+      "cagr": 7.81,
+      "mdd": -60.0,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.93,
+      "sw_y": 4.2,
+      "cash_avg": 16.2
+     },
+     "is": {
+      "cagr": 0.73,
+      "mdd": -60.0,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 3.12,
+      "sw_y": 4.7,
+      "cash_avg": 16.2
+     },
+     "oos": {
+      "cagr": 14.9,
+      "mdd": -24.2,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.47,
+      "sw_y": 3.8,
+      "cash_avg": 16.2
+     }
+    },
+    {
+     "name": "MIX DD10/20 c10/30 + MA200 c100",
+     "fam": "MIX",
+     "all": {
+      "cagr": 7.36,
+      "mdd": -47.7,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.48,
+      "sw_y": 4.2,
+      "cash_avg": 31.0
+     },
+     "is": {
+      "cagr": 1.62,
+      "mdd": -47.7,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 4.01,
+      "sw_y": 4.7,
+      "cash_avg": 31.0
+     },
+     "oos": {
+      "cagr": 13.04,
+      "mdd": -21.4,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -3.34,
+      "sw_y": 3.8,
+      "cash_avg": 31.0
+     }
+    },
+    {
+     "name": "MIX DD10/20 c10/30 + VOL15",
+     "fam": "MIX",
+     "all": {
+      "cagr": 7.8,
+      "mdd": -47.1,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.92,
+      "sw_y": 108.3,
+      "cash_avg": 22.5
+     },
+     "is": {
+      "cagr": 2.33,
+      "mdd": -47.1,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 4.72,
+      "sw_y": 121.3,
+      "cash_avg": 22.5
+     },
+     "oos": {
+      "cagr": 13.19,
+      "mdd": -22.4,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -3.18,
+      "sw_y": 96.1,
+      "cash_avg": 22.5
+     }
+    },
+    {
+     "name": "MIX DD10/20 c30/70 + MA200 c50",
+     "fam": "MIX",
+     "all": {
+      "cagr": 8.32,
+      "mdd": -42.2,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 1.44,
+      "sw_y": 3.7,
+      "cash_avg": 21.8
+     },
+     "is": {
+      "cagr": 2.81,
+      "mdd": -42.2,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 5.2,
+      "sw_y": 3.6,
+      "cash_avg": 21.8
+     },
+     "oos": {
+      "cagr": 13.76,
+      "mdd": -23.4,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -2.62,
+      "sw_y": 3.8,
+      "cash_avg": 21.8
+     }
+    },
+    {
+     "name": "DD t10/20 c10/30 E(코스피 틀)",
+     "fam": "DD",
+     "all": {
+      "cagr": 7.56,
+      "mdd": -69.2,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.68,
+      "sw_y": 9.4,
+      "cash_avg": 4.9
+     },
+     "is": {
+      "cagr": -0.3,
+      "mdd": -69.2,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 2.09,
+      "sw_y": 13.2,
+      "cash_avg": 4.9
+     },
+     "oos": {
+      "cagr": 15.49,
+      "mdd": -32.1,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -0.88,
+      "sw_y": 5.9,
+      "cash_avg": 4.9
+     }
+    },
+    {
+     "name": "지금 규칙 (F)",
+     "fam": "NOW",
+     "all": {
+      "cagr": 7.84,
+      "mdd": -65.8,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.96,
+      "sw_y": 5.0,
+      "cash_avg": 7.6
+     },
+     "is": {
+      "cagr": 0.43,
+      "mdd": -65.8,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 2.81,
+      "sw_y": 5.4,
+      "cash_avg": 7.6
+     },
+     "oos": {
+      "cagr": 15.3,
+      "mdd": -30.3,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": -1.08,
+      "sw_y": 4.7,
+      "cash_avg": 7.6
+     }
+    },
+    {
+     "name": "H 그냥 보유",
+     "fam": "H",
+     "all": {
+      "cagr": 6.88,
+      "mdd": -77.9,
+      "hold": 6.88,
+      "hold_mdd": -77.9,
+      "ex": 0.0,
+      "sw_y": 0.0,
+      "cash_avg": 0.0
+     },
+     "is": {
+      "cagr": -2.39,
+      "mdd": -77.9,
+      "hold": -2.39,
+      "hold_mdd": -77.9,
+      "ex": 0.0,
+      "sw_y": 0.0,
+      "cash_avg": 0.0
+     },
+     "oos": {
+      "cagr": 16.38,
+      "mdd": -36.4,
+      "hold": 16.38,
+      "hold_mdd": -36.4,
+      "ex": 0.0,
+      "sw_y": 0.0,
+      "cash_avg": 0.0
+     }
+    }
+   ],
+   "pick": {
+    "DD": {
+     "name": "DD t10/20 c0/100",
+     "is_ex": 8.68,
+     "oos_ex": -3.96,
+     "all_ex": 2.53,
+     "mdd": -29.1,
+     "sw_y": 0.4,
+     "fam_pos_is": 100,
+     "fam_pos_oos": 0,
+     "n": 31
+    },
+    "MA": {
+     "name": "MA250 c100 띠2%",
+     "is_ex": 6.01,
+     "oos_ex": -3.04,
+     "all_ex": 1.65,
+     "mdd": -37.4,
+     "sw_y": 1.6,
+     "fam_pos_is": 94,
+     "fam_pos_oos": 0,
+     "n": 16
+    },
+    "MOM": {
+     "name": "MOM 12개월 c100",
+     "is_ex": 4.78,
+     "oos_ex": -6.5,
+     "all_ex": -0.69,
+     "mdd": -41.8,
+     "sw_y": 4.0,
+     "fam_pos_is": 100,
+     "fam_pos_oos": 0,
+     "n": 4
+    },
+    "FAB": {
+     "name": "FAB 10개월 월말 c100",
+     "is_ex": 3.27,
+     "oos_ex": -3.05,
+     "all_ex": 0.24,
+     "mdd": -49.7,
+     "sw_y": 1.5,
+     "fam_pos_is": 100,
+     "fam_pos_oos": 0,
+     "n": 2
+    },
+    "VOL": {
+     "name": "VOL 목표10%",
+     "is_ex": 4.72,
+     "oos_ex": -6.72,
+     "all_ex": -0.83,
+     "mdd": -32.9,
+     "sw_y": 155.6,
+     "fam_pos_is": 100,
+     "fam_pos_oos": 0,
+     "n": 3
+    },
+    "MIX": {
+     "name": "MIX DD10/20 c30/70 + MA200 c50",
+     "is_ex": 5.2,
+     "oos_ex": -2.62,
+     "all_ex": 1.44,
+     "mdd": -42.2,
+     "sw_y": 3.7,
+     "fam_pos_is": 100,
+     "fam_pos_oos": 0,
+     "n": 4
+    },
+    "NOW": {
+     "name": "지금 규칙 (F)",
+     "is_ex": 2.81,
+     "oos_ex": -1.08,
+     "all_ex": 0.96,
+     "mdd": -65.8,
+     "sw_y": 5.0,
+     "fam_pos_is": 100,
+     "fam_pos_oos": 0,
+     "n": 1
+    }
+   },
+   "robust": []
+  }
+ ]
+}
