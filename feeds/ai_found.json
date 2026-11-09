@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "리치먼드 연은 바킨 「통화정책 방향은 분명, 속도가 문제」",
+   "url": "https://www.newsquawk.com/headlines/feds-barkin-says-the-direction-of-travel-for-monetary-policy-is-straightforward-but-the-question-is-the-pace",
+   "press": "Newsquawk",
+   "at": "2026-11-10 02:40",
+   "why": "고금리 정점 가설 — 굴스비에 이어 연준 인사 매파 기조(점진 인상) 재확인, CPI 하루 전",
+   "summary": "바킨: 방향(긴축)은 분명하나 속도는 신중하게. 11/5엔 「인플레가 최대 위험, 점진 인상 여전히 선택지」."
+  },
+  {
+   "title": "모건스탠리 윌슨 「조정 거의 끝, S&P 8,500」",
+   "url": "https://www.webull.com/news/15781581357556736",
+   "press": "Webull/Benzinga",
+   "at": "2026-11-10 02:40",
+   "why": "🐻 현금 해제 판단 — 대표 전략가의 「조정 막바지」 판단, 골드만 PB 헤지펀드 청산 막바지 보도와 같은 방향",
+   "summary": "윌슨, 시장 조정이 거의 끝났다고 보고 S&P 500 8,500 제시(작성일 미확인 — 피드 yahoo 11/9 「2027 대담한 콜」과 같은 맥락)."
+  },
+  {
    "title": "골드만 PB: 헤지펀드, 美 기술주 노출 기록적 속도로 축소",
    "url": "https://www.hedgeweek.com/hedge-funds-slash-us-technology-exposure-as-ai-trade-unwind-accelerates-says-goldman-sachs/",
    "press": "Hedgeweek",
@@ -623,22 +639,6 @@
    "at": "2026-11-05 22:40",
    "why": "반도체 칸·091160·AI 차입 가설 — 민주당 스윕 뒤 데이터센터 증설 둔화 우려가 칩주 이틀째 매도로",
    "summary": "민주당 상·하원 장악 뒤 AI 칩·데이터센터주 매도가 아시아(코스피 −6%)에서 美 프리마켓으로 이어짐. 하이퍼스케일러는 상대 강세(K자)."
-  },
-  {
-   "title": "선물 엇갈림 — 「블루웨이브 칩 청산」 이틀째, 유가 반등, BoE 인상",
-   "url": "https://www.zerohedge.com/markets/futures-split-blue-wave-chip-purge-enters-day-two-oil-rebounds-boe-hikes",
-   "press": "ZeroHedge",
-   "at": "2026-11-05 22:40",
-   "why": "에너지 칸 조건 brent_95·반도체 칸 — 유가 반등과 칩 매도 지속이 같은 아침에",
-   "summary": "다우 선물 강세·나스닥 선물 약세(피드 기준 −0.6%). 브렌트 96$대 반등(HANAchina/71605). BoE 4.00% 인상."
-  },
-  {
-   "title": "다우 1,500포인트 급등, 올해 최고의 날 — 민주당 의회 장악 뒤 S&P·나스닥도 상승",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-midterm-elections-earnings-140752043.html",
-   "press": "Yahoo Finance",
-   "at": "2026-11-05 21:45",
-   "why": "중간선거 뒤 첫날 미국 반응 — SPY 11/4 +1.65%, 🐻 하락장 판정 watch와 바로 이어짐",
-   "summary": "다우 약 +1,500p(올해 최고 하루), 정치 불확실성 해소 랠리. 칩·데이터센터는 예외로 약세."
   }
  ],
  "at": "2026-11-10 01:40"
