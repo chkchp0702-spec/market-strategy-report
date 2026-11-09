@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "골드만삭스, 2027년 美 주식 발행 6천억 달러 전망 — 공급 쇼크",
+   "url": "https://cryptobriefing.com/goldman-sachs-600-billion-equity-issuance-2027/",
+   "press": "Crypto Briefing",
+   "at": "2026-11-09 23:40",
+   "why": "앤트로픽·스페이스X·오픈AI 상장 물량이 수급을 누른다 — AI 차입 가설(0.92)·나스닥 칸 반등 속도 점검",
+   "summary": "골드만 2027년 美 주식 발행 약 6,000억$ 전망(기사 날짜 미확인). 피드(GS.US)는 「2000년 이후 최대 공급 쇼크」로 요약."
+  },
+  {
+   "title": "골드만 「AI 거래 흔들리자 소외된 지역이 이길 차례」",
+   "url": "https://www.devdiscourse.com/article/business/4000471-india-outperforms-global-markets-in-october-as-investors-rotate-away-from-ai-stocks-goldman-sachs",
+   "press": "Devdiscourse",
+   "at": "2026-11-09 23:40",
+   "why": "AI 쏠림 청산 시 비AI 지역(인도 등) 상대강세 — 해외 칸 분산 근거",
+   "summary": "골드만: 10월 인도가 AI주 이탈 순환매로 글로벌 대비 강세. 같은 날 MarketWatch 「소외 지역 아웃퍼폼」 기사(피드)와 같은 흐름(지역 명시는 미확인)."
+  },
+  {
    "title": "월가 전략가들 「S&P 500 조정, 끝에 가까워졌다」 (RBC·JP모건·모건스탠리)",
    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-strategists-p-500-131059916.html?.tsrc=rss",
    "press": "Investing.com via Yahoo",
@@ -623,22 +639,6 @@
    "at": "2026-11-05 19:40",
    "why": "🎯 PEAD 11/4 신호 PCOR — 오늘 bet 20261105-19 근거",
    "summary": "3분기 실적·연간 가이던스 상향 뒤 주가 +7.73%(기사 날짜 미확인). 피드: Citizens 목표가 91달러 상향."
-  },
-  {
-   "title": "Mizuho, Procore 목표가 75→85달러 상향",
-   "url": "https://www.tipranks.com/news/the-fly/procore-price-target-raised-to-85-from-75-at-mizuho",
-   "press": "TipRanks/The Fly",
-   "at": "2026-11-05 19:40",
-   "why": "PCOR 실적 뒤 목표가 상향 연쇄 여부 확인",
-   "summary": "Mizuho 목표가 85달러(날짜 미확인)."
-  },
-  {
-   "title": "마이크로소프트, Nscale 계약 철회 — 350억$ IPO 위험",
-   "url": "https://computing.co.uk/news/2026/ai/microsoft-exits-nscale-deal-ipo-at-risk",
-   "press": "Computing",
-   "at": "2026-11-05 18:40",
-   "why": "AI 차입 가설(0.92) — 하이퍼스케일러가 네오클라우드 임대를 줄이기 시작: 공급 측 차입 위험이 임차인보다 큼",
-   "summary": "MS가 영국 에식스 DC 임대(약 30억$) 철회, 이어 텍사스 약 500MW 증설 옵션도 포기(하나중국 요약). Nscale 상반기 순손실 10억$, 계약 잔고 1,030억$."
   }
  ],
  "at": "2026-11-09 22:40"
