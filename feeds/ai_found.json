@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "골드만삭스, 2026 금 목표 5,400→4,900달러 하향 — 매파 연준",
+   "url": "https://www.mining.com/?p=1208966",
+   "press": "Mining.com",
+   "at": "2026-11-09 14:40",
+   "why": "금 칸·gold_test — IB 목표 하향, 금리 인상 경로가 금의 역풍",
+   "summary": "골드만 2026년 말 금 목표 온스당 4,900달러(종전 5,400). 연준 매파 전환이 이유, 장기 강세 시각은 유지. 발표일 금 −1.5%(XTB)."
+  },
+  {
+   "title": "이란 종전 협상 지속에 유가 1% 넘게 하락",
+   "url": "https://www.nst.com.my/amp/business/economy/2026/11/1568718/oil-slips-more-1-cent-talks-continue-ending-iran-war",
+   "press": "New Straits Times",
+   "at": "2026-11-09 14:40",
+   "why": "에너지 칸 brent_95 조건 — 봉쇄 재확인과 상충하는 종전 협상 재료",
+   "summary": "이란 전쟁 종식 협상 지속 보도에 유가 1%↑ 하락. 브렌트 95 종가 하회 여부는 미확인."
+  },
+  {
    "title": "MS, 코어위브 일부 약정에서 발 빼(FT 보도) — 코어위브는 계약 취소 부인",
    "url": "https://www.tipranks.com/news/the-fly/coreweave-denies-contract-cancellations-with-microsoft-reuters-reports",
    "press": "TipRanks/The Fly",
@@ -623,22 +639,6 @@
    "at": "2026-11-05 09:45",
    "why": "AI 차입 가설 — 주지사 당선자의 데이터센터 중단 공약 원문(텍사스 = 2028 신규 용량 ~30%), 오늘 삼전닉스 급락 재료",
    "summary": "민주당 히노호사가 입법부가 규칙을 정할 때까지 신규 데이터센터 중단을 요구. 기사 날짜는 선거 전(미확인) — 당선 뒤 실행 여부가 관건."
-  },
-  {
-   "title": "코스피 2% 하락, 美 반도체 약세에 삼성·SK하이닉스 급락",
-   "url": "https://www.pulse.bot/asia-stocks/news/kospi-slides-2-as-samsung-and-sk-hynix-tumble-on-us-semiconductor-weakness-aec3e1b2-1653-4087-96aa-f0c072f3a29b/",
-   "press": "pulse.bot",
-   "at": "2026-11-05 09:45",
-   "why": "반도체(HBM) 칸·한국 반도체 ETF(091160) — 美 지수 랠리와 한국 반도체 괴리",
-   "summary": "코스피 −2%대, 삼성·하이닉스 동반 급락. 기사 날짜 미확인 — 오늘 피드(머니투데이: 코스피 −2.3%·하닉 −6%대)와 같은 흐름."
-  },
-  {
-   "title": "Fiserv 3분기(FY2026) 실적 발표 8-K 원문",
-   "url": "https://www.sec.gov/Archives/edgar/data/0000798354/000079835426000039/fisvq326earningsrelease.htm",
-   "press": "SEC EDGAR",
-   "at": "2026-11-05 08:35",
-   "why": "열린 bet FISV(📈 PEAD 11/3) 근거 원문 — 진행 +3.4% 확인용",
-   "summary": "회사 공시 원문. 세부 숫자는 이번 검토에서 미확인 — 다음 검토에서 매출·가이던스 대조."
   }
  ],
  "at": "2026-11-09 10:45"
