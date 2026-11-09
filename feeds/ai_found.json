@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 하원 3개 위원회장, 젠슨 황에 「메가스피드 첩보 연루」 비공개 브리핑 요구",
+   "url": "https://thenextweb.com/news/house-chairs-jensen-huang-briefing-megaspeed",
+   "press": "The Next Web",
+   "at": "2026-11-10 07:40",
+   "why": "NVDA 스캔들이 사생활→수출통제·의회 조사로 번지는 경로 — 반도체 칸·AI 대장주 분화(SOX↑·NVDA↓) 지속 여부",
+   "summary": "공화당 하원 위원장들이 메가스피드(싱가포르) 칩 밀수·中 정보기관 연계 의혹 관련 황 CEO 비공개 브리핑 요구. 11/9 NVDA −4.3%, SOX +6.9%로 대장주만 빠진 반등."
+  },
+  {
+   "title": "GOP 하원 지도부, 엔비디아 황 CEO 비공개 청문 요청",
+   "url": "https://implicator.ai/gop-leaders-three-house-committees-ask-jensen-huang-closed",
+   "press": "Implicator",
+   "at": "2026-11-10 07:40",
+   "why": "민주당(제프리스)에 이어 공화당도 요구 — 초당적 압박이면 대중 칩 규제 강화 재료",
+   "summary": "3개 위원회 공동 요청. 앞서 하원 민주당 대표는 대중 칩 제한 강화 요구(investing_en)."
+  },
+  {
    "title": "다우 600p↑ — 유가 하락, 엔비디아만 급락",
    "url": "https://qz.com/dow-jumps-600-points-oil-slides-nvidia-stock-110926",
    "press": "Quartz",
@@ -623,22 +639,6 @@
    "at": "2026-11-06 01:40",
    "why": "AI 차입 가설(0.92) — AI 차입 기업 크레딧 스프레드가 주식보다 먼저 벌어짐",
    "summary": "스페이스X 채권 AI 우려로 약 200bp 가산(10/26). 11/5 블룸버그 「스페이스X 부도위험 신고점」(피드)으로 이어짐."
-  },
-  {
-   "title": "민주당 스윕 뒤 나스닥 5% 급락 — AMD·테슬라·엔비디아·비트코인 동반 하락",
-   "url": "https://www.trendingtopics.eu/ai-stocks-and-cryptocurrencies-crash-hard-after-democrats-midterm-win/",
-   "press": "Trending Topics",
-   "at": "2026-11-06 01:40",
-   "why": "반도체 칸·091160 — 위험자산 전반(코인 포함) 동반 청산, 레버리지(SOXL) 쏠림 청산 위험",
-   "summary": "나스닥100 장중 −5%, AMD −13%·NVDA −7%·INTC −8%(yahoo 피드). 블룸버그 「나스닥100 1.8조$ 손실 위기」."
-  },
-  {
-   "title": "「고약한」 칩 매도가 나스닥을 조정 구간으로 밀어 넣다",
-   "url": "https://www.cityam.com/chip-stocks-push-nasdaq-into-correction/",
-   "press": "City AM",
-   "at": "2026-11-06 00:35",
-   "why": "🐻 하락장 판정·반도체 칸 — 美 지수도 기술주 중심 조정 진입 확인",
-   "summary": "칩주 매도 사흘째가 나스닥을 고점 대비 −10% 조정 구간으로. 장중 나스닥 −3.8%·S&P −2.2%·VIX 23(CNBC 10:19 EST)."
   }
  ],
  "at": "2026-11-10 01:40"
