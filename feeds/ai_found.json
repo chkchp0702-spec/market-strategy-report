@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "골드만 「美 국채·글로벌 10년물 금리 방향 전환 조건 갖춰져」",
+   "url": "https://www.cnbc.com/2026/11/09/goldman-treasury-yields-bonds.html",
+   "press": "CNBC",
+   "at": "2026-11-09 17:19",
+   "why": "고금리 정점 가설(0.45)·채권 칸 중장기채 전환 여부 — 美 10년 4.85% 근처",
+   "summary": "골드만, 美·글로벌 10년물 금리 흐름 전환의 재료가 갖춰졌다고 평가(세부 수치 미확인). 美 10년 4.849%(11/9 아시아장)·30년 5.254%, 연준 12월 인상 베팅 80% 속 CPI 대기."
+  },
+  {
+   "title": "젠슨 황 혼외 관계 시인 뒤 엔비디아 신규 숏 910만 달러",
+   "url": "https://www.thestreet.com/crypto/markets/traders-open-9-1-million-in-nvidia-shorts-as-ceo-admits-to-affair",
+   "press": "TheStreet",
+   "at": "2026-11-09 17:00",
+   "why": "NVDA 전저점 이탈·이사회 조사 — AI 차입 가설·SOXX/091160 관찰과 이어짐",
+   "summary": "상위 25개 포지션 중 3개 계정이 일요일 약 910만 달러 NVDA 신규 숏. 중국 관영매체는 간첩 연루 의혹 일축, 미·중 관계 악화 경고."
+  },
+  {
    "title": "MS, 오라클 AI 클라우드 임대(2023년 계약) 단계적 종료 — 구형 엔비디아 칩 용량",
    "url": "https://fourweekmba.com/ai-microsoft-said-to-wind-down-oracle-ai-rental-backlog-664b/",
    "press": "FourWeekMBA(블룸버그·배런스 인용)",
@@ -623,22 +639,6 @@
    "at": "2026-11-05 12:40",
    "why": "사이드카 이벤트 그림자 채점(091160·069500) 기준일 기록",
    "summary": "코스피 장중 −4%↑에 유가증권 매도 사이드카. latest 기준 삼성전자 −7%·SK하이닉스 −9.4%, 외국인 −1.8조(미확인 단위 억원 −17,983)."
-  },
-  {
-   "title": "코스피 8%대 폭락 — 연준 우려에 기술주 붕괴(6/8 선례)",
-   "url": "https://www.thestar.com.my/business/business-news/2026/06/08/south-korea039s-kospi-craters-over-8-as-fed-fears-spark-tech-rout",
-   "press": "The Star",
-   "at": "2026-11-05 12:40",
-   "why": "올해 코스피 급락일 선례 — 사이드카·급락 뒤 D+5 반등/추가 하락 표본 확보용",
-   "summary": "2026-06-08 코스피 −8%대, 연준 우려 기술주 투매. 6/23에도 약 −10%(Korea Times) — 올해 대형 급락일 표본."
-  },
-  {
-   "title": "NEXTDC 10% 급등 — 큰 소식이 매수 근거가 되나(10/28)",
-   "url": "https://www.fool.com.au/2026/10/28/up-10-does-todays-big-news-make-nextdc-shares-a-buy/",
-   "press": "Motley Fool AU",
-   "at": "2026-11-05 11:45",
-   "why": "오늘 NextDC +43%(굿맨·디지털리얼티 지분) 앞의 흐름 — 데이터센터 자산 M&A 수요가 美 규제 공포와 반대로 움직임(AI 차입 가설 반대 근거)",
-   "summary": "10/28 +10% 이어 11/5 지분 매입 소식에 +43%(CNBC) · 9월엔 한 달 −14%였음 — 자산가치 재평가 쪽"
   }
  ],
  "at": "2026-11-09 10:45"
