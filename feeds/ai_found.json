@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "헤지펀드, 글로벌 기술주를 기록적 속도로 매도",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-09/hedge-funds-dump-tech-stocks-at-one-of-fastest-paces-on-record",
+   "press": "Bloomberg",
+   "at": "2026-11-09 17:58",
+   "why": "AI 차입 가설(0.92)·🇺🇸 칸 — 데이터센터 정치 반발이 AI 트레이드 재평가 촉발",
+   "summary": "지난주 헤지펀드가 글로벌 기술주를 사상 최고 수준 속도로 매도. 정치권 반대로 데이터센터 구축이 막힐 수 있다는 우려가 계기(세부 수치 미확인)."
+  },
+  {
+   "title": "엔비디아 −5%: 황 CEO와 中 스파이 의혹 인물 관계에 이사회 독립 조사",
+   "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+   "press": "CNBC",
+   "at": "2026-11-09 18:14",
+   "why": "AI 반도체 키맨 위험 — 나스닥 조정·SOXX, 11/10 CRWV 실적 앞 심리",
+   "summary": "황 CEO가 「외국 정보기관 공작」 표적이었다는 보도 뒤 이사회 독립 조사 착수, 황은 불륜 시인. NVDA 프리마켓 약 −5%. 반면 TSMC·하이닉스·삼성 등 아시아 칩주는 상승(investing 피드)."
+  },
+  {
+   "title": "호주 NextDC, 계약 없는 데이터센터 프로젝트 중단",
+   "url": "https://www.investing.com/news/stock-market-news/nextdc-pauses-uncontracted-projects-after-australian-data-centre-woes-5010826",
+   "press": "Investing.com",
+   "at": "2026-11-09 18:24",
+   "why": "AI 차입 가설 — MS·소프트뱅크 네오클라우드 재검토에 이어 공급자 쪽 투자 축소 확산",
+   "summary": "NextDC가 수요 불확실성으로 미계약 프로젝트 진행을 멈춤. 하이퍼스케일러 외부 용량 재검토 흐름과 같은 방향."
+  },
+  {
    "title": "골드만 「美 국채·글로벌 10년물 금리 방향 전환 조건 갖춰져」",
    "url": "https://www.cnbc.com/2026/11/09/goldman-treasury-yields-bonds.html",
    "press": "CNBC",
@@ -615,30 +639,6 @@
    "at": "2026-11-05 13:45",
    "why": "AI 차입 가설·반도체 칸 — 美 DC 규제가 한쪽 정당 이슈가 아니라는 근거, 한국 반도체 급락(오늘 하닉 −9%대)의 배경",
    "summary": "중간선거 뒤 데이터센터 반발이 양당으로 확산. 2027 증설은 대부분 착공 단계라 「확정」, 2028 계획이 변수(피드 HANAchina/71583 요약). 게재일 미확인."
-  },
-  {
-   "title": "중간선거 「일시 중단」 공약이 2028년 데이터센터 30GW를 덮는다",
-   "url": "https://fourweekmba.com/ai-midterm-pause-pledges-cover-30-gw-of-2028-data-centers/",
-   "press": "FourWeekMBA",
-   "at": "2026-11-05 13:45",
-   "why": "반도체·AI 소프트웨어 칸 — 규제 노출 규모(GW) 숫자, 2028 수요 위험 크기 가늠",
-   "summary": "당선인들의 DC 중단·규제 공약 지역에 2028년 예정 약 30GW 해당(제목 기준). 연합: 주지사 당선인 36명 중 34명 「DC 규제」 입장(yna 11/5). 세부 수치 미확인."
-  },
-  {
-   "title": "오라클, 주식·채권 동시 발행 — AI 투자 자금 조달에 주가 −7%",
-   "url": "https://www.tikr.com/blog/oracle-sinks-7-on-20-billion-stock-and-bond-sale-to-fund-ai-buildout",
-   "press": "TIKR",
-   "at": "2026-11-05 13:45",
-   "why": "가설 「AI 차입이 약한 고리」(0.92) 직격 — 하이퍼스케일러가 채권만으론 부족해 주식 희석까지",
-   "summary": "주식 100억$+채권 100억$ 동시 발행 신청, 발표일 주가 −7%(제목 기준). 피드 「Oracle Sells Cheap Stock As Its Debt Window Narrows」(11/5)와 같은 사건으로 보임 — 날짜 미확인."
-  },
-  {
-   "title": "코스피 장중 4%↑ 급락·매도 사이드카 발동(증권시장)",
-   "url": "https://ground.news/article/kospi-plunges-over-4-during-trading-sell-side-circuit-breaker-triggered-in-securities-market",
-   "press": "Ground News",
-   "at": "2026-11-05 12:40",
-   "why": "사이드카 이벤트 그림자 채점(091160·069500) 기준일 기록",
-   "summary": "코스피 장중 −4%↑에 유가증권 매도 사이드카. latest 기준 삼성전자 −7%·SK하이닉스 −9.4%, 외국인 −1.8조(미확인 단위 억원 −17,983)."
   }
  ],
  "at": "2026-11-09 10:45"
