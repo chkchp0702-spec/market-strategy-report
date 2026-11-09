@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "다우 600p↑ — 유가 하락, 엔비디아만 급락",
+   "url": "https://qz.com/dow-jumps-600-points-oil-slides-nvidia-stock-110926",
+   "press": "Quartz",
+   "at": "2026-11-10 04:40",
+   "why": "🐻 하락장 현금 해제 판단 — 지수 반등 vs AI 대장주 분화(AI 차입 가설)",
+   "summary": "11/9 美 정규장 S&P +2%대·다우 +600p, 유가 −4%대(이란 자제 신호), NVDA −6%대 황 CEO 조사 여파. 대장주 빼고 넓게 오른 반등"
+  },
+  {
+   "title": "골드만 「한국 AI주 매도 과도 — 강세 견해 유지」",
+   "url": "https://www.hl.co.uk/news/goldman-says-koreas-ai-stock-selloff-has-gone-too-far-doubles-down-on-bull-case",
+   "press": "Hargreaves Lansdown(로이터)",
+   "at": "2026-11-10 04:40",
+   "why": "🐻 코스피 현금 100% 의 반대 근거 — 091160 다시 사기 규칙 확인용",
+   "summary": "골드만, 한국 반도체 급락은 과도하다며 강세 유지(서울경제 「2배 가능」 보도와 같은 줄기). 숫자 세부는 원문 확인 필요"
+  },
+  {
    "title": "사우디 동서 송유관 메디나 구간 피격 — 에너지부 「운영 영향 없음」",
    "url": "https://newscord.org/article/saudi-energy-ministry-says-east-west-pipeline-in-madinah-targeted-operations-una--Story_20261109_7f9db0af",
    "press": "Newscord(10개 매체 비교)·TASS",
@@ -623,22 +639,6 @@
    "at": "2026-11-06 00:35",
    "why": "🐻 하락장 판정·반도체 칸 — 美 지수도 기술주 중심 조정 진입 확인",
    "summary": "칩주 매도 사흘째가 나스닥을 고점 대비 −10% 조정 구간으로. 장중 나스닥 −3.8%·S&P −2.2%·VIX 23(CNBC 10:19 EST)."
-  },
-  {
-   "title": "모건스탠리 윌슨 「조정 끝나기 전 마지막 한 번의 매도」",
-   "url": "https://investinglive.com/stock-market-update/morgan-stanley-s-wilson-sees-one-final-sell-off-before-us-stock-correction-ends/",
-   "press": "investingLive",
-   "at": "2026-11-06 00:35",
-   "why": "현금화 판단 — 투매 당일보다 「마지막 매도 뒤 풀리는 날」 기다리는 근거(날짜 미확인)",
-   "summary": "윌슨은 美 주식 조정이 끝나기 전 마지막 매도 구간을 예상. 게시 시점 미확인 — 이번 조정에 그대로 적용은 주의."
-  },
-  {
-   "title": "마벨, 루멘텀을 1,150억 달러 전액 주식으로 인수 — 공개 테크 M&A 사상 최대",
-   "url": "https://lightreading.com/ai-machine-learning/marvell-strikes-115b-deal-for-lumentum",
-   "press": "Light Reading",
-   "at": "2026-11-05 23:45",
-   "why": "광통신(LITE·COHR)·AI 인프라 — 칩 매도 이틀째에 나온 공급망 통합, AI 연결 수요 신호",
-   "summary": "마벨이 엔비디아가 투자한 루멘텀을 전액 주식 1,150억 달러에 인수 합의(SEC 8-K·425 제출). 광 연결·스케일업 공급을 한 회사로 묶는 구조."
   }
  ],
  "at": "2026-11-10 01:40"
