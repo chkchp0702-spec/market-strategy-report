@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "월가 전략가들 「S&P 500 조정, 끝에 가까워졌다」 (RBC·JP모건·모건스탠리)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-strategists-p-500-131059916.html?.tsrc=rss",
+   "press": "Investing.com via Yahoo",
+   "at": "2026-11-09 22:40",
+   "why": "🐻 현금 해제 타이밍·🇺🇸 SPY 칸 — IB 3곳 동시 바닥 콜, 계기판(VIX 20↓)과 대조",
+   "summary": "RBC·JP모건·모건스탠리가 고객 노트에서 최근 매도세가 막바지일 수 있다고 진단. 다만 2027년으로 갈수록 펀더멘털(이익)이 중요하다고 경고. 같은 날 씨티는 美 주식 중립 하향·유럽 상향."
+  },
+  {
+   "title": "메타, 선거일 460억$ 회사채 발행 — 2056년물 스프레드 4월 대비 90bp 확대",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5uRTFJcmVEXy04ZTJ5RUhMUU11WVExLWF3VzNSMVNvQ3NndU9uTWVlZkctRjRLV2VOZHFPbGJHMVZRX3k0eXNrc0p6REhKNnFMd1FsZGZVTm83R3p0YUh2Mms5TjZNMzhoY1JTblBOUUVyaWx1clE?oc=5",
+   "press": "BigGo Finance (Google News 월가 IB)",
+   "at": "2026-11-09 22:40",
+   "why": "AI 차입 가설 — 빅테크 장기채 스프레드가 넓어지는 숫자, 주가보다 크레딧이 먼저 신호",
+   "summary": "메타 460억$ 채권 발행(제목 기준, 본문 미확인). 2056년 만기 장기물 스프레드가 4월보다 90bp 넓어짐 — AI 설비 투자 자금 조달 비용 상승. 코어위브 채권 부실 수준과 같은 방향."
+  },
+  {
+   "title": "골드만삭스 「韓 반도체, 지금보다 주가 2배 오를 여력」",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBReWFLYmlBV0hGMFVhODNiUGh2OUpQcXU0Y1VNUFJtN2xkYU9rdWZ1bWYyYTk0YnVOVmtlN0pqek5obG9fNzBqNUR2a0hjZmVOZ3N3MWdtd29LZw?oc=5",
+   "press": "Google News 한국 섹터",
+   "at": "2026-11-09 22:40",
+   "why": "🐻 코스피 하락장 판정과 반대 근거 — 밸류 바닥론(골드만 「PBR=내년 이익 −70% 반영」 11/9 오전과 같은 축)",
+   "summary": "골드만, 한국 메모리 업체 주가 2배 상승 여력 유지(세부 목표가 미확인). 한국만 급락 뒤 반등 못 함(연합 「수급 공백」)과 대조 — 외국인 현물 복귀가 확인점."
+  },
+  {
    "title": "코어위브 채권, 부실채권처럼 거래 — AI 지출이 재무제표를 앞질러",
    "url": "https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/",
    "press": "investingLive",
@@ -615,31 +639,7 @@
    "at": "2026-11-05 18:40",
    "why": "AI 차입 가설(0.92) — 하이퍼스케일러가 네오클라우드 임대를 줄이기 시작: 공급 측 차입 위험이 임차인보다 큼",
    "summary": "MS가 영국 에식스 DC 임대(약 30억$) 철회, 이어 텍사스 약 500MW 증설 옵션도 포기(하나중국 요약). Nscale 상반기 순손실 10억$, 계약 잔고 1,030억$."
-  },
-  {
-   "title": "Nscale, 전력 지연에 MS 계약 잃어 — AI 증설 위협",
-   "url": "https://datacenterknowledge.com/build-design/microsoft-exits-nscale-data-center-deal-over-uk-power-delays",
-   "press": "Data Center Knowledge",
-   "at": "2026-11-05 18:40",
-   "why": "DC 증설 병목이 규제·전력 — 기존 DC 자산 희소성(DLR·EQIX) vs 신규 차입 증설 위험 페어 아이디어 근거",
-   "summary": "철회 사유로 영국 전력 연결 지연을 지목. 전력·인허가가 증설의 병목."
-  },
-  {
-   "title": "도요타 주가 17% 급등 — 美 하이브리드 수요 강세",
-   "url": "https://www.ft.com/content/4c40362a-8994-43e1-8000-68cd92cf7d51",
-   "press": "FT",
-   "at": "2026-11-05 17:40",
-   "why": "블루웨이브 로테이션(아시아 칩↓·자동차↑) 실적 근거 — 일본 수출주 관세 완화 랠리와 같은 방향",
-   "summary": "도요타 +17%(FT 제목). 6분기 만의 이익 증가·연간 전망 상향(investing 14:40 기사). 소니도 2분기 두 자릿수 이익 증가·연간 전망 상향(SA)."
-  },
-  {
-   "title": "대만 칩 메이커, 사상 가장 밝게 빛나다",
-   "url": "https://www.ft.com/content/55cfdc9f-e465-4969-b8a5-f0cc52f43550",
-   "press": "FT",
-   "at": "2026-11-05 17:40",
-   "why": "한국 칩 −6% 투매와 대비 — 같은 AI 공급망 안에서 한국만 외국인 이탈이 몰렸는지 가늠(091160 vs 대만)",
-   "summary": "FT 분석 기사(본문 수치 미확인). 같은 날 블룸버그 「블루웨이브가 한국 대형주를 가라앉히자 중국 증시 급등」."
   }
  ],
- "at": "2026-11-09 20:40"
+ "at": "2026-11-09 22:40"
 }

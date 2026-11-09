@@ -1,5 +1,5 @@
 {
- "at": "2026-11-09 21:40",
+ "at": "2026-11-09 22:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/1pXRjJTVFpoZjN2NG9qblVQMXhHUC1vV3JxaHkxbVJiVkhldEZISHlCdwoc5": {
@@ -27,11 +27,6 @@
    "why": "골드만 「코스피 반도체 2배 가능」 — 하락장 바닥 watch·091160 관찰과 이어짐(외국인 복귀 확인 전)",
    "at": "2026-11-09 13:40"
   },
-  "n/pTc3ZhWXdwREE5bGZXVUtWUXN0NTZ2cGlCWmxfbUpzbXF6bm83eDVTTHcoc5": {
-   "lv": 1,
-   "why": "MS 코어위브 계약 재검토 보도(코어위브 부인) — 11/10 CRWV 실적·AI 차입 가설 변곡",
-   "at": "2026-11-09 13:40"
-  },
   "kimu_nim/48427": {
    "lv": 1,
    "why": "엔비디아 야간 −4.5% 전저점 이탈 — AI 차입 가설·나스닥 조정 판정, CRWV 11/10 앞",
@@ -52,11 +47,6 @@
    "why": "씨티 美·글로벌 기술주 비중확대→중립, 유럽(영국 제외) 상향 — AI 차입 가설·나스닥 조정 국면과 같은 방향, 🇺🇸 칸 비중 판단",
    "at": "2026-11-09 17:40"
   },
-  "n/httpswwwcnbccom20261109goldmantreasuryyieldsbondshtml": {
-   "lv": 1,
-   "why": "골드만 「美·글로벌 10년물 방향 전환 조건 갖춰졌다」 — 고금리 정점 가설(0.45)·채권 칸 듀레이션 판단",
-   "at": "2026-11-09 17:40"
-  },
   "n/wcnbccom20261109nvidiajensenhuangchinesespyinvestigationhtml": {
    "lv": 1,
    "why": "황 CEO 불륜 시인·이사회 독립 조사 → NVDA 프리마켓 −5% — AI 차입 가설(0.92)·나스닥 조정 판정, CRWV 11/10 실적 앞",
@@ -72,11 +62,6 @@
    "why": "MS 윌슨 「美 조정 마지막 국면, 매수는 잠깐 기다려라」 — 🐻 현금 100% 해제 타이밍 판단 근거",
    "at": "2026-11-09 19:40"
   },
-  "n/sbanksinvestorsgrowwaryofaidebtspookedbymarketselloff5011246": {
-   "lv": 1,
-   "why": "AI 차입(0.92) 가설 직결 — 은행·투자자 AI 부채 경계, 빅테크 크레딧 스트레스 확대 근거",
-   "at": "2026-11-09 20:40"
-  },
   "n/penaiandanthropicvaluationsfallasaimarketrouthitsfundraising": {
    "lv": 1,
    "why": "AI 비상장 몸값 하락·자금조달 타격 — AI capex 자금줄 약화, 🇺🇸 기술 칸·AI 차입 가설",
@@ -91,6 +76,16 @@
    "lv": 1,
    "why": "코어위브·네비우스 한 달 −50%·「둠 사이클」 크레딧 위험 — AI 차입 가설(0.92), CRWV 11/10 실적 직전",
    "at": "2026-11-09 21:40"
+  },
+  "n/hKNnFMd1FsZGZVTm83R3p0YUh2Mms5TjZNMzhoY1JTblBOUUVyaWx1clEoc5": {
+   "lv": 1,
+   "why": "AI 차입 가설(0.92) — 메타 2056년물 스프레드 4월 대비 +90bp, 빅테크 크레딧 가격으로 확인되는 첫 숫자",
+   "at": "2026-11-09 22:40"
+  },
+  "n/sstocksarticleswallstreetstrategistsp500131059916htmltsrcrss": {
+   "lv": 1,
+   "why": "🐻 현금 해제 타이밍 — RBC·JPM·MS 동시에 「S&P 조정 막바지」, 단 계기판 풀림 신호 전엔 참고만",
+   "at": "2026-11-09 22:40"
   }
  }
 }
