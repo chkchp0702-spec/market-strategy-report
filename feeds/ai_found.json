@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "AI 붐-버스트 논쟁: 오픈AI 자금조달 목표 축소·메타 크레딧 경고·현금흐름 대비 capex",
+   "url": "https://fortune.com/2026/10/31/ai-boom-bust-openai-fundraising-target-meta-credit-warning-cash-flow-capex",
+   "press": "Fortune",
+   "at": "2026-11-09 20:40",
+   "why": "AI 차입 가설(0.92) — 오늘 「OpenAI·Anthropic 몸값 하락」(Bloomberg)·「은행 AI 부채 경계」(Reuters)로 이어지는 흐름",
+   "summary": "10/31 기사: 오픈AI 자금조달 목표 하향, 메타 회사채에 크레딧 경고, 빅테크 capex가 영업현금흐름을 잠식한다는 분석(세부 숫자는 원문 확인)"
+  },
+  {
+   "title": "중국 공장출고가(PPI) 5.0% — 4년여 만에 최고, CPI는 0.9%로 격차 확대",
+   "url": "https://investinglive.com/news/china-factory-inflation-hits-5-fastest-in-over-four-years-as-cpi-lags-at-0-9/",
+   "press": "investingLive",
+   "at": "2026-11-09 20:40",
+   "why": "오늘 Caixin 「10월 PPI 4년 최고」와 같은 흐름 — 원자재·수입물가 경로로 韓 금리(한은 인상 전망)·고금리 정점 가설(0.45) 점검",
+   "summary": "9월 PPI +5.0%(4년여 최고)·CPI +0.9% — 중하류 기업 마진 압박. 10월 수치는 Caixin 피드 제목만 확인(숫자 미확인)"
+  },
+  {
    "title": "모건스탠리 윌슨: 美 조정 끝나기 전 마지막 한 번의 매도 — 3가지 촉매 뒤 S&P 7,150 부근 바닥, 이후 8,000",
    "url": "https://investinglive.com/stock-market-update/roadmap-morgan-stanley-sees-three-catalysts-ending-the-correction-to-~7150-then-s-p-500-to-8-000/",
    "press": "investingLive",
@@ -623,23 +639,7 @@
    "at": "2026-11-05 16:40",
    "why": "주요 중앙은행 인상 재개 여부 — 고금리 정점 가설·장기채 칸",
    "summary": "블룸버그 「BOE Poised for First Rate Hike in Three Years」(11/5) · 결정 오늘 밤 · 폭 미확인"
-  },
-  {
-   "title": "대만 가권지수 TSMC 하락 연장·외국인 매도에 4만5천 아래 마감",
-   "url": "https://www.kotakneo.com/news/global-markets/taiwan-weighted-index-falls-as-tsmc-shares-and-foreign-investor-selling-weigh-on-market",
-   "press": "Kotak Neo",
-   "at": "2026-11-05 15:40",
-   "why": "아시아 칩 동반 투매 — 한국 반도체 칸(091160)과 같은 외국인 매도 흐름 확인",
-   "summary": "11/5 대만 가권 −3.28%(investing_en 피드) · 기사 날짜 미확인"
-  },
-  {
-   "title": "MS, 영국 Nscale 수십억 달러 AI 계약 거절 — 텍사스 DC 계약 2배 확대 옵션 포기",
-   "url": "https://www.ft.com/content/668e6ef8-88a1-4bef-8664-8f495baf09f8",
-   "press": "Financial Times",
-   "at": "2026-11-05 14:40",
-   "why": "AI 차입 가설 — 빅테크가 네오클라우드 증설 물량을 덜 받는다 = 차입 DC 수요 신호 약화(10/18 영국 DC 철수에 이은 두 번째)",
-   "summary": "IPO 앞둔 Nscale 에 새 타격. MS 가 텍사스 데이터센터 계약을 두 배 넘게 늘릴 옵션을 행사하지 않음(FT). 10/18 영국 DC 철수 보도(Telegraph)에 이어 연속."
   }
  ],
- "at": "2026-11-09 10:45"
+ "at": "2026-11-09 20:40"
 }
