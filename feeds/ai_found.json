@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "모건스탠리 윌슨: 美 조정 끝나기 전 마지막 한 번의 매도 — 3가지 촉매 뒤 S&P 7,150 부근 바닥, 이후 8,000",
+   "url": "https://investinglive.com/stock-market-update/roadmap-morgan-stanley-sees-three-catalysts-ending-the-correction-to-~7150-then-s-p-500-to-8-000/",
+   "press": "investingLive",
+   "at": "2026-11-09 19:40",
+   "why": "🐻 현금 100% 해제 타이밍 — 「마지막 국면」 콜이 오늘 MarketWatch 기사와 같은 맥락(게시일 미확인)",
+   "summary": "윌슨 「조정 막바지, 마지막 매도 뒤 반등」·바닥 ~7,150·연말 목표 8,000 유지. 올해 3/30·10/19에도 「막바지」 콜 — 게시일 미확인"
+  },
+  {
+   "title": "엔비디아 황 CEO: 메가스피드는 칩을 중국으로 빼돌리지 않았고 관계는 「정상적」",
+   "url": "https://www.newsquawk.com/headlines/nvidia-nvda-ceo-huang-says-megaspeed-did-not-divert-chips-to-china-and-ties-to-firm-under-spying-probe-were-normal",
+   "press": "Newsquawk",
+   "at": "2026-11-09 19:40",
+   "why": "NVDA 키맨 위험의 범위 — 개인 스캔들이 수출통제·스파이 조사로 번지는지(AI 차입 가설·🇺🇸 칸)",
+   "summary": "황 「메가스피드 GPU 전수 확인, 중국 전용 없음」. 하원 의장들 비공개 브리핑 요구 보도도 — 게시일 미확인"
+  },
+  {
    "title": "헤지펀드, 글로벌 기술주를 기록적 속도로 매도",
    "url": "https://www.bloomberg.com/news/articles/2026-11-09/hedge-funds-dump-tech-stocks-at-one-of-fastest-paces-on-record",
    "press": "Bloomberg",
@@ -623,22 +639,6 @@
    "at": "2026-11-05 14:40",
    "why": "AI 차입 가설 — 빅테크가 네오클라우드 증설 물량을 덜 받는다 = 차입 DC 수요 신호 약화(10/18 영국 DC 철수에 이은 두 번째)",
    "summary": "IPO 앞둔 Nscale 에 새 타격. MS 가 텍사스 데이터센터 계약을 두 배 넘게 늘릴 옵션을 행사하지 않음(FT). 10/18 영국 DC 철수 보도(Telegraph)에 이어 연속."
-  },
-  {
-   "title": "SemiAnalysis: 2027년 DC 50GW 는 정책 충격에서 보호, 2028년 신규 62.2GW 중 90%↑ 미착공·승인 지연 위험 — 텍사스가 최대 변수",
-   "url": "https://t.me/kimu_nim/48179",
-   "press": "김현석 텔레그램(SemiAnalysis 요약)",
-   "at": "2026-11-05 14:40",
-   "why": "한국 반도체 급락의 근거(데이터센터 규제)는 2028년 이야기 — 2027년 수요는 거의 확정, 공포와 실적 시차",
-   "summary": "2027년 약 50GW 생산능력은 물리적으로 정책 충격에서 거의 보호. 2028년 신규 62.2GW 의 90% 이상이 미착공. 텍사스 결과가 최대 변수."
-  },
-  {
-   "title": "세미애널리시스: 데이터센터 반발, 초당적으로 번진다",
-   "url": "https://newsletter.semianalysis.com/p/the-datacenter-backlash-goes-bipartisan",
-   "press": "SemiAnalysis",
-   "at": "2026-11-05 13:45",
-   "why": "AI 차입 가설·반도체 칸 — 美 DC 규제가 한쪽 정당 이슈가 아니라는 근거, 한국 반도체 급락(오늘 하닉 −9%대)의 배경",
-   "summary": "중간선거 뒤 데이터센터 반발이 양당으로 확산. 2027 증설은 대부분 착공 단계라 「확정」, 2028 계획이 변수(피드 HANAchina/71583 요약). 게재일 미확인."
   }
  ],
  "at": "2026-11-09 10:45"
