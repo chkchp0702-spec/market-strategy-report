@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "월러 「12월 인상 지지 — 50bp도 테이블 위에」",
+   "url": "https://seekingalpha.com/news/4669588-waller-backs-december-rate-hike-says-50-basis-point-move-may-be-on-the-table",
+   "press": "Seeking Alpha",
+   "at": "2026-11-11 01:45",
+   "why": "12/9 FOMC 분수령 가설(0.55)·미국채 나눠 사기 시점·현금/단기채 칸 — 비둘기로 꼽히던 월러가 빅스텝 언급",
+   "summary": "10월 CPI 근원이 월러의 50bp 조건(근원 예상 상회)에 걸림. 같은 날 로건 댈러스 연은 「최소 두 번 더·속도 높일 수도」(블룸버그), 나겔 「ECB 12월 인상 꽤 분명」 — 글로벌 동시 매파."
+  },
+  {
+   "title": "뜨거운 물가 보고서로 연준 12월 인상 궤도",
+   "url": "https://www.americanbanker.com/news/hot-inflation-report-puts-fed-on-track-for-december-rate-hike",
+   "press": "American Banker",
+   "at": "2026-11-11 01:45",
+   "why": "금융 칸(8%)·AI 차입 가설 — 인상이 조달 비용·신용(NY연은 3분기 연체율 소폭↑)으로 번지는지",
+   "summary": "CPI 전월 +0.4%·근원 +0.3%로 12월 인상이 기본 시나리오로. 미 2년 4.75%(+0.21%p)·10년 4.996%(CNBC 11:30 EST)."
+  },
+  {
    "title": "미국 데이터센터 속 중국산 부품 — 트럼프가 왜 금지하려 하나",
    "url": "https://www.newsweek.com/the-chinese-parts-in-us-data-centers-and-why-trump-wants-to-ban-them-12288018",
    "press": "Newsweek",
@@ -623,23 +639,7 @@
    "at": "2026-11-09 03:40",
    "why": "위험 회피 regime 의 역발상 근거 — 지수·ETF 칸 비중 판단",
    "summary": "골드만 패닉지수 9.57(10점 만점) 극단 구간. 과거 이 구간 뒤 단기 반등이 잦았다는 해석 — 구체 통계는 원문 확인 필요(미확인)."
-  },
-  {
-   "title": "美 하원 3개 위원회, 젠슨 황에 「중국 스파이 연루 의혹」 비공개 브리핑 요구",
-   "url": "https://axios.com/2026/11/05/jensen-huang-nvidia-congress-china",
-   "press": "Axios",
-   "at": "2026-11-09 03:40",
-   "why": "AI 반도체 대장 규제 헤드라인 위험 — AI 차입·기술주 약세 가설과 이어짐",
-   "summary": "공화당 위원장들이 엔비디아 CEO 에 비공개 브리핑 요구(11/5). CNBC 11/8 초당적 압박 재보도 — 주가 영향은 월요일 개장 전 미확인."
-  },
-  {
-   "title": "후티, 리야드 아람코 시설 타격 주장 — 예멘 교전 확대",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Claim-Strike-on-Aramco-Facility-in-Riyadh-as-Yemen-Fighting-Escalates.html",
-   "press": "OilPrice",
-   "at": "2026-11-09 02:40",
-   "why": "브렌트·에너지 칸 — 월요일 XLE·USO 시가 갭, brent_95 조건 근접",
-   "summary": "후티가 리야드 아람코 시설·금융지구 타격 주장(블룸버그도 '이례적 리야드 금융허브 타격' 보도). 유가 반응 숫자는 선물 개장(08:00 KST) 전이라 미확인."
   }
  ],
- "at": "2026-11-10 17:40"
+ "at": "2026-11-11 01:45"
 }
