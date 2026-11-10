@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "모건스탠리 「美 증시 조정 막바지」",
+   "url": "https://www.kitco.com/news/off-the-wire/2026-11-02/us-market-correction-nearing-end-morgan-stanley-strategists-say",
+   "press": "Kitco/Reuters",
+   "at": "2026-11-10 09:40",
+   "why": "S&P·나스닥 칸 — 11/10 「경기민감주 비중 확대」 보도의 원 발언, 다시 사기 판단 참고",
+   "summary": "윌슨팀 11/2: 대형주 다수 약 10% 조정, 조정이 끝나가는 국면. 금리가 마지막 변수(세부 숫자 미확인)."
+  },
+  {
    "title": "사우디 동서 송유관 메디나 인근 피격 — OPEC 산유량은 전쟁 전 90%까지 회복",
    "url": "https://mlq.ai/news/saudi-arabias-east-west-oil-pipeline-is-attacked-near-medina-as-opec-output-recovers-to-90-of-pre-war-levels/",
    "press": "mlq.ai",
@@ -631,14 +639,6 @@
    "at": "2026-11-06 02:40",
    "why": "🐻 하락장 판정 watch·반도체 칸 — 선거 재료가 「AI 데이터센터 지연」 공포로 바뀐 경로 정리",
    "summary": "나스닥 조정(고점 −10%) 진입, 칩·AI 인프라주 주도 매도. 선거 결과보다 데이터센터 인허가·전력 반발이 핵심 재료로 부각."
-  },
-  {
-   "title": "AI·반도체주 주도 매도에 나스닥 조정 향해",
-   "url": "https://yournews.com/2026/11/05/7254236/nasdaq-heads-for-correction-as-ai-and-chip-stocks-lead/",
-   "press": "YourNews",
-   "at": "2026-11-06 02:40",
-   "why": "반도체 칸·091160 — 美 칩 매도 이틀째, 한국 반도체 다음 장 갭 위험",
-   "summary": "latest 12:23 EST 기준 S&P 7,423(−3.46%)·나스닥 24,550(−4.61%)·VIX 24.7(+49%)·엔비디아 −7.5%·마이크론 −12.8%."
   }
  ],
  "at": "2026-11-10 08:40"
