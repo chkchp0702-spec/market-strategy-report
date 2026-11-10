@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11 03:45",
+ "at": "2026-11-11 04:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "kwusa/61714": {
@@ -11,11 +11,6 @@
    "lv": 1,
    "why": "앤트로픽 IPO 가치 2조→1.5조$ 하향설 — AI 자본조달 창구 위축, AI 차입 가설 +1",
    "at": "2026-11-09 15:40"
-  },
-  "n/kwdmVZSUVTdEJ5RXZ1R28wRXc0RnZuN09mT2tlSnVjTC1sdXJmZEMxc1Eoc5": {
-   "lv": 1,
-   "why": "골드만 「2027년 2000년 이후 최대 주식 공급 충격」 — 🫧 버블 경보판·앤스로픽 상장 주간 가설과 이어짐",
-   "at": "2026-11-11 03:45"
   },
   "n/swwwftcomcontent45dce79e275843f2a06c3c56db392f39syn25a6b1a61": {
    "lv": 1,
@@ -41,21 +36,6 @@
    "lv": 1,
    "why": "논지 「12/9 FOMC 분수령」·AI 차입 — 월러 12월 인상 지지·50bp 가능, 오늘 밤 CPI 민감도↑",
    "at": "2026-11-10 18:40"
-  },
-  "n/dchipexportcontrolsamidhuangscandaltheinformation93CH5013845": {
-   "lv": 1,
-   "why": "NVDA 키맨→정책 위험으로 번짐 — 수출 통제 강화 보도(The Information)·하원 11/18 브리핑: AI 대장주 단독 악재, 반도체 칸·AI 차입 가설",
-   "at": "2026-11-10 19:45"
-  },
-  "n/g5eVMxekI1RVpzcjFWM3ZfZG1LRFVuNWljbFFyMEc0R1l2RzB0TEExQlEoc5": {
-   "lv": 1,
-   "why": "장부 조건 brent_95(선 90) — 사우디 유조선 美 조율 하 호르무즈 통과: 공급 걱정↓, 오늘 종가 90↓ 쪽 근거·XLE 대기 bet",
-   "at": "2026-11-10 19:45"
-  },
-  "n/httpswwwbloombergcomnewsvideos20261110thepulse11102026video": {
-   "lv": 1,
-   "why": "엔비디아 단독 위험 근거 +1 — 법무책임자 AI칩 밀수 조사 개입 보도(블룸버그) · 11/17 실적 · AI 안 갈림 가설",
-   "at": "2026-11-10 20:40"
   },
   "n/ccom20261110anthropicsetspricerangeof70to78inupcomingipohtml": {
    "lv": 1,
@@ -87,40 +67,15 @@
    "why": "JPM이 소프트웨어 대출을 대폭 할인해 넘기려 함 — 「다음 약한 고리는 AI·기술 차입」 가설(0.92)의 신용 쪽 직접 증거",
    "at": "2026-11-11 00:45"
   },
-  "n/ksarticlesmicronnvidialamresearchremoved150737839htmltsrcrss": {
+  "n/idiahitsmostextremesellinglevelsince2019191532559htmltsrcrss": {
    "lv": 1,
-   "why": "BofA 최선호 목록에서 NVDA·MU·LRCX 제외 — 반도체 기대치 하향, 코스피 반도체 반등(11/10 +4.4%) 지속성과 직결",
-   "at": "2026-11-11 00:45"
+   "why": "엔비디아 2019년 이후 가장 극단적 매도·반도체 시총 5조 달러 증발 — 🧠 「AI 안에서도 갈린다」·SMH 대결 판정선(11/13)·한국 반도체(091160) 반등 지속성과 직결",
+   "at": "2026-11-11 04:45"
   },
-  "n/tLTURFTnVHcnFkWTB4OTZROVRsdnhrdXJHZzJ2RmJCWUtydDh6V3NXZHcoc5": {
+  "n/8utm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
    "lv": 1,
-   "why": "월러 「12월 0.5%p 인상도 고려」 — 🧠 12/9 FOMC 2018 분수령 가설·현금/단기채 칸·10년 5% 감시선과 직결",
-   "at": "2026-11-11 01:45"
-  },
-  "n/5UVnBfekl4cWl4b251NndtbHQ2eFhsSjNHS1FLV2I2cXJCVWh3UmxBQzIoc5": {
-   "lv": 1,
-   "why": "모건스탠리 삼성전자 30.9만·하이닉스 160만 목표 하향 — 🐻 코스피 반등 지속성·한국 반도체(091160) 판단, 같은 밤 엔비디아 −5.5%",
-   "at": "2026-11-11 01:45"
-  },
-  "n/icrosofttopsnvidiasmarketcapforfirsttimesincejune20255016363": {
-   "lv": 1,
-   "why": "「AI 안에서도 갈린다」 가설(0.6) 직접 증거 — 현금 도는 MS가 엔비디아 시총 추월(2025년 6월 이후 처음), 대장주 교체·QQQ 안 자금 이동",
-   "at": "2026-11-11 02:45"
-  },
-  "n/pSkNCeXRQVEJMaDBITjVHVF9wbWJ3dWlzd0J3X1JMUlB5ckVudW04MVNzoc5": {
-   "lv": 1,
-   "why": "美 물가 3개월 연율 5.7%·주거비·서비스 확산 — 12/9 FOMC 분수령·빅스텝 확률, 「일시적」 반론을 약하게 함",
-   "at": "2026-11-11 02:45"
-  },
-  "n/2ZpZjZ4U3kzM1FGQVUxV3RkbmM0Rm9mTFlfWVgwM1Jjd25sd0RBa0Npawoc5": {
-   "lv": 1,
-   "why": "美 10년 5% 돌파(입찰 5.02% 수요 약함) — 「고금리 정점 통과」 가설 깨짐 조건·us10y_band20·현금 칸과 직결",
-   "at": "2026-11-11 03:45"
-  },
-  "n/outm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
-   "lv": 1,
-   "why": "MS가 앤스로픽 오피스 도구에 급락 — 「현금 도는 AI(MS)」 가설의 첫 반례, AI 소프트웨어 칸 점검",
-   "at": "2026-11-11 03:45"
+   "why": "BofA 메모리 슈퍼사이클 2028년까지 — 「칩/메모리 상류가 이긴다」 가설 근거·삼성전자·하이닉스(외국인 반도체 비중 축소) 반대 증거",
+   "at": "2026-11-11 04:45"
   }
  }
 }
