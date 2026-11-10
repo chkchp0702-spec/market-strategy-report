@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "미 10월 CPI, 두 달 급등 뒤 둔화 예상 — 예상 전월비 +0.3%·근원 +0.2%, 12개월 수치는 미발표",
+   "url": "https://www.business-standard.com/world-news/us-inflation-set-to-cool-in-october-after-two-months-of-sharp-increases-126110800246_1.html",
+   "press": "Business Standard(로이터)",
+   "at": "2026-11-10 19:45",
+   "why": "오늘 밤 22:30 CPI 기준선 — 12/9 FOMC 분수령 가설·고금리 정점 가설·현금 해제 판단",
+   "summary": "헤드라인 전월비 예상 +0.3%(9월 +0.6%, 4월 이후 최대) · 근원 +0.2%(3개월 최저 예상) · BLS 2025년 10월 미발표 탓에 10월 전년비 수치 없음"
+  },
+  {
+   "title": "엔비디아 이사회, 젠슨 황 CEO 조사 착수 — 하원 공화당 위원장 3명 11/18 비공개 브리핑 요구",
+   "url": "https://unusualwhales.com/news/nvidia-investigation-huang-foreign-intelligence",
+   "press": "Unusual Whales",
+   "at": "2026-11-10 19:45",
+   "why": "AI 대장주 단독 악재 — 반도체 칸·AI 차입 가설, 11/17 실적 직후 11/18 브리핑 일정 겹침",
+   "summary": "독립이사 위원회·외부 변호인 조사 · 이사회 「안보·기밀 유출 근거 없음, CEO 지지」 · 상대방 회사는 수출통제 칩 대량 구매처 · 11/18 하원 브리핑 제안"
+  },
+  {
    "title": "브렌트유, 8월 이후 처음 배럴당 90달러 아래로",
    "url": "https://www.bloomberg.com/news/articles/2026-11-10/brent-crude-falls-below-90-a-barrel-for-first-time-since-august",
    "press": "Bloomberg",
@@ -623,22 +639,6 @@
    "at": "2026-11-08 22:45",
    "why": "이번 주 CPI가 12월 인상 여부 결정 — 현금·단기채 칸·고금리 가설 점검",
    "summary": "S&P 500 2025년 4월 이후 최악의 주(TheStreet). 이번 주 CPI·PPI 발표, 기술주 변동성 지속."
-  },
-  {
-   "title": "10월 고용 예상 상회 — 12월 연준 인상 확률 상승",
-   "url": "https://www.investmentnews.com/fixed-income/october-jobs-report-beats-forecasts-lifting-december-fed-hike-odds/268915",
-   "press": "InvestmentNews",
-   "at": "2026-11-08 22:45",
-   "why": "인상 확률 70%대 → 美 10년 4.86% — 중장기채·금리 민감주 가설에 역풍",
-   "summary": "10월 비농업 16.5만 서프라이즈. 12월 인상 확률 76% 안팎(kimu_nim), 1월 97%."
-  },
-  {
-   "title": "앤트로픽, 데이터센터용 가스 발전 34억 달러 계약",
-   "url": "https://www.techradar.com/pro/anthropic-says-it-will-be-burning-lots-of-natural-gas-to-feed-the-ai-boom",
-   "press": "TechRadar(FT 인용)",
-   "at": "2026-11-08 22:45",
-   "why": "AI 전력 수요가 가스 발전으로 — 에너지 칸·전력 인프라 수요 근거, DC 지연 뉴스와 대비",
-   "summary": "FT 보도 34억 달러 가스 발전 계약. MS 재검토·오픈AI 계속 투자로 DC 전략 엇갈림(머니투데이)."
   }
  ],
  "at": "2026-11-10 17:40"
