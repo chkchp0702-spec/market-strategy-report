@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 10월 CPI 미리보기: IB 14곳 「에너지가 헤드라인 3.6%로 끌어올림, 코어는 월 0.2% 근처」",
+   "url": "https://investinglive.com/news/us-cpi-preview-14-investment-bank-forecasters-see-energy-lifting-headline-to-3-6-core-held-near-0-2/",
+   "press": "investingLive",
+   "at": "2026-11-10 14:40",
+   "why": "오늘 밤 CPI — 🐻 현금 해제·10년 5% 가설의 분기점: 코어가 0.2% 넘으면 매파(굴스비·연준 데일리) 쪽",
+   "summary": "IB 14곳 전망 취합: 헤드라인 전년비 3.6%(에너지 영향), 코어 월간 0.2% 안팎. 세부 숫자는 원문 확인."
+  },
+  {
+   "title": "MUFG: 美 CPI 3.6% 전망 — 금리 인상 기대를 살리려면 코어가 놀라야",
+   "url": "https://investinglive.com/news/mufg-us-cpi-seen-at-3-6-core-must-surprise-to-revive-an-october-fed-hike/",
+   "press": "investingLive",
+   "at": "2026-11-10 14:40",
+   "why": "코어 서프라이즈 여부가 금리 경로 — 고금리 정점 가설(conf 0.45)·채권 칸과 직결",
+   "summary": "MUFG 헤드라인 3.6% 예상. 인상 기대 재점화는 코어 상회가 필요하다는 판단."
+  },
+  {
    "title": "트럼프 「엔비디아 CEO 겨냥 중국 첩보 의혹 면밀히 보고 있다」",
    "url": "https://arynews.tv/trump-us-looking-closely-report-nvidia-ceo-target-china-spy-plot",
    "press": "ARY News",
@@ -623,22 +639,6 @@
    "at": "2026-11-06 10:40",
    "why": "AI 차입 가설(0.92)·반도체 칸 — 대만 가권 장초 −8%까지 번져 아시아 AI 공급망 전체 디레버리징",
    "summary": "나스닥 투매 여파로 아시아 반도체 일제히 급락. 대만 가권 장 초반 8% 하락(HANAchina/71633). 中 10년 국채 1.58% 사상 최저(안전자산 쏠림)."
-  },
-  {
-   "title": "코스피 8% 급락에 서킷브레이커 — 3개월 만 최저권",
-   "url": "https://finance.yahoo.com/markets/world-indices/articles/kospi-hits-near-3-month-050357728.html",
-   "press": "Yahoo Finance",
-   "at": "2026-11-06 09:45",
-   "why": "🐻 현금화 watch·반도체 칸 — 美 SOX −12% 충격이 한국 지수 매매중단까지 번짐",
-   "summary": "코스피 장중 8%대 하락으로 5,000선 붕괴·서킷브레이커 발동(20분 매매중단). 삼전 −9%·하닉 −11%대(연합 속보). 코스닥 이틀 연속 매도 사이드카."
-  },
-  {
-   "title": "아시아 증시, 코스피 매매중단 속 기술주 투매 — 중국은 상대 강세",
-   "url": "https://finance.yahoo.com/markets/world-indices/articles/asia-stocks-mixed-chip-rout-042442281.html",
-   "press": "Yahoo Finance/Investing.com",
-   "at": "2026-11-06 09:45",
-   "why": "아시아 비중 — 반도체 국가(한·일·대만) vs 중국 분화, 집중 ETF 국가 선택에 참고",
-   "summary": "칩 투매로 코스피 매매중단, 일본도 하락. 중국 본토는 상대적으로 선방(게재 시각 미확인)."
   }
  ],
  "at": "2026-11-10 12:40"
