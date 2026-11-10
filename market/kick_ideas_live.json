@@ -1,204 +1,94 @@
 {
-"at": "2026-11-07 11:01",
+"at": "2026-11-10 13:11",
 "signals": [
 {
 "src": "pead",
-"code": "ADMA",
-"name": "ADMA Biologics Inc",
+"code": "DCTH",
+"name": "Delcath Systems, Inc.",
 "mkt": "US",
-"d": "2026-11-05",
-"vr": 4.9,
-"gap": 14.6,
-"px": 13.21,
-"score": 24.6
+"d": "2026-11-09",
+"vr": 9.9,
+"gap": 24.4,
+"px": 20.27,
+"score": 30.0
 },
 {
 "src": "pead",
-"code": "APP",
-"name": "Applovin Corporation",
+"code": "GFR",
+"name": "Greenfire Resources Ltd. Common Shares",
 "mkt": "US",
-"d": "2026-11-05",
-"vr": 4.7,
-"gap": 28.7,
-"px": 356.1,
-"score": 23.3
+"d": "2026-11-09",
+"vr": 7.9,
+"gap": 38.0,
+"px": 7.73,
+"score": 30.0
 },
 {
 "src": "pead",
-"code": "ARDT",
-"name": "Ardent Health, Inc. Common Stock",
+"code": "OMH",
+"name": "Ohmyhome Limited - Class A Ordinary Shares",
 "mkt": "US",
-"d": "2026-11-05",
-"vr": 5.4,
-"gap": 12.8,
-"px": 15.9,
-"score": 27.2
+"d": "2026-11-09",
+"vr": 12.9,
+"gap": 191.3,
+"px": 25.84,
+"score": 30.0
 },
 {
 "src": "pead",
-"code": "BSY",
-"name": "Bentley Systems, Incorporated",
+"code": "SGRY",
+"name": "Surgery Partners, Inc.",
 "mkt": "US",
-"d": "2026-11-05",
-"vr": 3.9,
-"gap": 4.2,
-"px": 44.94,
-"score": 19.5
+"d": "2026-11-09",
+"vr": 4.4,
+"gap": 11.3,
+"px": 26.45,
+"score": 21.9
 },
 {
 "src": "pead",
-"code": "CARS",
-"name": "Cars.com Inc. Common Stock",
+"code": "TIC",
+"name": "TIC Solutions, Inc. Common Stock",
 "mkt": "US",
-"d": "2026-11-05",
-"vr": 3.1,
-"gap": 5.1,
-"px": 13.56,
-"score": 15.6
-},
-{
-"src": "pead",
-"code": "COLD",
-"name": "Americold Realty Trust, Inc. Common Stock",
-"mkt": "US",
-"d": "2026-11-05",
-"vr": 3.3,
-"gap": 4.0,
-"px": 15.81,
-"score": 16.6
-},
-{
-"src": "pead",
-"code": "CYRX",
-"name": "CryoPort, Inc.",
-"mkt": "US",
-"d": "2026-11-06",
-"vr": 3.3,
-"gap": 9.0,
-"px": 19.1,
-"score": 16.3
-},
-{
-"src": "pead",
-"code": "EPAM",
-"name": "EPAM Systems, Inc. Common Stock",
-"mkt": "US",
-"d": "2026-11-05",
-"vr": 3.3,
-"gap": 13.7,
-"px": 165.7,
-"score": 16.6
-},
-{
-"src": "pead",
-"code": "FWONA",
-"name": "Liberty Media Corporation - Series A Common Stock",
-"mkt": "US",
-"d": "2026-11-05",
-"vr": 4.2,
-"gap": 7.7,
-"px": 99.72,
-"score": 20.8
-},
-{
-"src": "pead",
-"code": "MGNI",
-"name": "Magnite, Inc.",
-"mkt": "US",
-"d": "2026-11-05",
-"vr": 4.5,
-"gap": 13.0,
-"px": 27.52,
-"score": 22.6
-},
-{
-"src": "pead",
-"code": "PLMR",
-"name": "Palomar Holdings, Inc. - Common stock",
-"mkt": "US",
-"d": "2026-11-05",
-"vr": 3.0,
+"d": "2026-11-09",
+"vr": 5.0,
 "gap": 4.1,
-"px": 155.67,
-"score": 15.2
+"px": 11.29,
+"score": 24.8
 },
 {
 "src": "pead",
-"code": "PTLO",
-"name": "Portillo's Inc.",
+"code": "VIR",
+"name": "Vir Biotechnology, Inc.",
 "mkt": "US",
-"d": "2026-11-05",
-"vr": 5.3,
-"gap": 10.8,
-"px": 7.02,
-"score": 26.5
-},
-{
-"src": "pead",
-"code": "SEZL",
-"name": "Sezzle Inc.",
-"mkt": "US",
-"d": "2026-11-05",
-"vr": 4.0,
-"gap": 26.4,
-"px": 155.0,
-"score": 19.9
-},
-{
-"src": "pead",
-"code": "U",
-"name": "Unity Software Inc. Common Stock",
-"mkt": "US",
-"d": "2026-11-05",
-"vr": 5.1,
-"gap": 13.2,
-"px": 48.8,
-"score": 25.6
-},
-{
-"src": "pead",
-"code": "VERX",
-"name": "Vertex, Inc.",
-"mkt": "US",
-"d": "2026-11-05",
-"vr": 3.6,
-"gap": 14.4,
-"px": 17.59,
-"score": 18.0
-},
-{
-"src": "pead",
-"code": "XERS",
-"name": "Xeris Biopharma Holdings, Inc.",
-"mkt": "US",
-"d": "2026-11-05",
-"vr": 4.9,
-"gap": 19.6,
-"px": 13.08,
-"score": 24.6
+"d": "2026-11-09",
+"vr": 3.5,
+"gap": 7.7,
+"px": 13.645,
+"score": 17.4
 }
 ],
 "state": {
 "index_KR": {
 "sym": "^KS11",
 "above200": false,
-"d": "2026-11-06"
+"d": "2026-11-10"
 },
-"scanned_KR": 2612,
-"us_source": "US.json 전 종목 5940 + ETF 4929 (2026-11-01)",
+"scanned_KR": 2613,
+"us_source": "US.json 전 종목 5934 + ETF 4936 (2026-11-08)",
 "index_US": {
 "sym": "^GSPC",
 "above200": true,
-"d": "2026-11-06"
+"d": "2026-11-09"
 },
-"scanned_US": 9140,
+"scanned_US": 9145,
 "dip": {
 "sym": "QQQ",
-"d": "2026-11-06",
-"close": 656.1,
-"ma200": 679.79,
-"ma5": 672.29,
-"rsi2": 32.1,
+"d": "2026-11-09",
+"close": 679.35,
+"ma200": 680.09,
+"ma5": 671.95,
+"rsi2": 70.7,
 "th": 5.0,
 "signal": false
 },
@@ -208,102 +98,80 @@
 "GLD": {
 "on": false,
 "since": "2026-03-23",
-"close": 372.52,
+"close": 379.53,
 "hi": 429.42,
 "lo": 354.67,
-"d": "2026-11-06"
+"d": "2026-11-09"
 },
 "USO": {
 "on": true,
 "since": "2026-09-10",
-"close": 148.41,
+"close": 142.66,
 "hi": 171.82,
-"lo": 127.48,
-"d": "2026-11-06"
+"lo": 128.0,
+"d": "2026-11-09"
 },
 "TLT": {
 "on": false,
 "since": null,
-"close": 81.92,
-"hi": 86.78,
+"close": 81.96,
+"hi": 86.44,
 "lo": 76.43,
-"d": "2026-11-06"
+"d": "2026-11-09"
 },
 "UUP": {
 "on": true,
 "since": "2026-03-12",
-"close": 29.13,
+"close": 28.97,
 "hi": 29.25,
 "lo": 27.92,
-"d": "2026-11-06"
+"d": "2026-11-09"
 },
 "SPY": {
 "on": false,
 "since": "2026-11-05",
-"close": 735.29,
+"close": 752.69,
 "hi": 781.62,
 "lo": 732.71,
-"d": "2026-11-06"
+"d": "2026-11-09"
 },
 "QQQ": {
 "on": false,
 "since": "2026-10-30",
-"close": 656.1,
+"close": 679.35,
 "hi": 762.86,
 "lo": 647.05,
-"d": "2026-11-06"
+"d": "2026-11-09"
 },
 "EFA": {
 "on": false,
 "since": "2026-11-06",
-"close": 101.89,
+"close": 104.96,
 "hi": 108.89,
-"lo": 102.0,
-"d": "2026-11-06"
+"lo": 101.27,
+"d": "2026-11-09"
 },
 "EEM": {
 "on": false,
 "since": "2026-07-29",
-"close": 59.33,
+"close": 61.03,
 "hi": 71.57,
 "lo": 58.0,
-"d": "2026-11-06"
+"d": "2026-11-09"
 },
 "DBC": {
 "on": true,
 "since": "2026-09-01",
-"close": 31.54,
+"close": 30.98,
 "hi": 34.14,
-"lo": 30.54,
-"d": "2026-11-06"
+"lo": 30.69,
+"d": "2026-11-09"
 }
 }
 }
 },
 "errors": [],
 "log": [
-{
-"src": "nh52",
-"code": "HUM",
-"name": "HUM",
-"mkt": "US",
-"d": "2026-10-09",
-"vr": 4.2,
-"gap": 16.4,
-"px": 431.87,
-"score": 21.2
-},
-{
-"src": "pead",
-"code": "HUM",
-"name": "HUM",
-"mkt": "US",
-"d": "2026-10-09",
-"vr": 4.2,
-"gap": 16.4,
-"px": 431.87,
-"score": 21.2
-},
 {
 "src": "dip",
 "code": "QQQ",
@@ -1180,6 +1048,72 @@
 "gap": 9.0,
 "px": 19.1,
 "score": 16.3
+},
+{
+"src": "pead",
+"code": "DCTH",
+"name": "Delcath Systems, Inc.",
+"mkt": "US",
+"d": "2026-11-09",
+"vr": 9.9,
+"gap": 24.4,
+"px": 20.27,
+"score": 30.0
+},
+{
+"src": "pead",
+"code": "GFR",
+"name": "Greenfire Resources Ltd. Common Shares",
+"mkt": "US",
+"d": "2026-11-09",
+"vr": 7.9,
+"gap": 38.0,
+"px": 7.73,
+"score": 30.0
+},
+{
+"src": "pead",
+"code": "OMH",
+"name": "Ohmyhome Limited - Class A Ordinary Shares",
+"mkt": "US",
+"d": "2026-11-09",
+"vr": 12.9,
+"gap": 191.3,
+"px": 25.84,
+"score": 30.0
+},
+{
+"src": "pead",
+"code": "SGRY",
+"name": "Surgery Partners, Inc.",
+"mkt": "US",
+"d": "2026-11-09",
+"vr": 4.4,
+"gap": 11.3,
+"px": 26.45,
+"score": 21.9
+},
+{
+"src": "pead",
+"code": "TIC",
+"name": "TIC Solutions, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-09",
+"vr": 5.0,
+"gap": 4.1,
+"px": 11.29,
+"score": 24.8
+},
+{
+"src": "pead",
+"code": "VIR",
+"name": "Vir Biotechnology, Inc.",
+"mkt": "US",
+"d": "2026-11-09",
+"vr": 3.5,
+"gap": 7.7,
+"px": 13.645,
+"score": 17.4
 }
 ]
 }
