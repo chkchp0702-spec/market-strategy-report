@@ -6506,6 +6506,17 @@
 "src": "ins",
 "score": 67.2,
 "note": "기회형 내부자 3명 · 225천 달러 (10일 안 공시)"
+},
+"DHR|2026-11-10": {
+"code": "DHR",
+"name": "Danaher Corporation Common Stock",
+"mkt": "US",
+"d": "2026-11-10",
+"src": "cup_eye",
+"score": 49.0,
+"lv": 220.89,
+"max20": 4.3,
+"id60": -0.167
 }
 },
 "sent": [
