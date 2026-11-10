@@ -28,7 +28,7 @@
      새 저점이 나오면 ①②④가 꺼져 E 는 자동으로 현금이 다시 늘어난다.
      🐻 판정 때 이미 −25% 넘게 빠졌으면 「바닥에서 팔지 말고 반등(20일선 근처) 때 나눠 덜기」를 같이 권한다.
 
-  market/bear.json      : 앱 오늘 홈·시장 탭 카드, 아침 리포트, 두뇌가 읽음
+  market/bear.json      : 앱 오늘 홈·시장 탭 카드, 아침 리포트, 두뇌가 읽음 (🐻 시장엔 rebounds — 11/10 A11/10-1 이번 하락장 +3% 반등 날 · 20거래일 안 저점 재돌파 기록)
   market/bear_log.json  : 판정·신호 수가 바뀐 날 기록 (나중에 채점)
   market/bear_bt.json   : --bt — 2000년부터 규칙대로 했다면 vs 그냥 들고 있기 (코스피·S&P·나스닥)
   알림: 판정이나 현금 권고가 바뀐 날 한 번 ntfy(chkchp-ch-report).
@@ -332,6 +332,39 @@ def sig_line(h, k):
         return ""
 
 
+REB_UP, REB_D, REB_MIN = 0.03, 20, 3   # 📨 11/10 A11/10-1 이번 하락장 반등 날 기록: +3% 넘게 오른 날 · 그 뒤 20거래일 · 3번 미만이면 앱이 안 띄움
+
+
+def rebounds(cl, dates, i0, up=REB_UP, nd=REB_D):
+    """이번 🐻 하락장(i0 = 시작 인덱스)부터 오늘까지 종가 +up 넘게 오른 날마다:
+       그날까지 하락장 저점(종가)을 그 뒤 nd 거래일 안에 다시 깼나 → broke / held / open(아직 nd일 안 지남·안 깸)
+       순수 함수 — 판정·규칙과 무관한 「기록」"""
+    pts, n = [], len(cl)
+    for i in range(max(i0, 1), n):
+        r1 = cl[i] / cl[i - 1] - 1
+        if r1 < up:
+            continue
+        lo = min(cl[i0:i + 1])
+        after = cl[i + 1:i + 1 + nd]
+        br = next((k + 1 for k, x in enumerate(after) if x < lo), None)
+        if br is not None:
+            out = "broke"
+        elif len(after) >= nd:
+            out = "held"
+        else:
+            out = "open"
+        p = {"d": dates[i], "r1": round(r1 * 100, 1), "c": round(cl[i], 2), "lo": round(lo, 2), "out": out, "left": max(0, nd - len(after)) if out == "open" else 0}
+        if br is not None:
+            p["bd"] = br                                   # 며칠 만에 깼나
+        if len(after) >= nd:
+            p["r20"] = round((after[nd - 1] / cl[i] - 1) * 100, 1)   # 20거래일 뒤 종가 (그날 종가 대비)
+        pts.append(p)
+    cnt = {k: sum(p["out"] == k for p in pts) for k in ("broke", "held", "open")}
+    return {"from": dates[i0], "up": round(up * 100), "nd": nd, "min": REB_MIN, "n": len(pts), **cnt,
+            "last": pts[-1]["d"] if pts else None, "pts": pts,
+            "note": "이번 하락장 안의 기록 · 규칙은 그대로 · 종가 기준 · 매수·매도 추천 아님"}
+
+
 # ───────────────────────── 시세 ─────────────────────────
 def complete(df, close_hm, tz):
     """장중(아직 안 끝난) 오늘 막대 버림"""
@@ -401,12 +434,24 @@ def live(dry=False):
         cl = [float(x) for x in s.tolist()]
         vx = aligned_vix(s, vix) if vix is not None else None
         # 🐻 유지 판정: 지난 1년을 차례로 훑어 상태를 이어 감
-        pb = False
+        pb, b0 = False, None
         for i in range(max(0, len(cl) - 252), len(cl) - 1):
-            pb = judge(cl, vx, None, nat, pb, i)["state"] == "🐻"
+            nb = judge(cl, vx, None, nat, pb, i)["state"] == "🐻"
+            if nb and not pb:
+                b0 = i
+            pb = nb
         r = judge(cl, vx, ff if nat == "kr" else None, nat, pb)
+        if r["state"] != "🐻":
+            b0 = None
+        elif b0 is None or not pb:   # 오늘 막 🐻 이 됐거나 1년 내내 🐻 (앞 끝)
+            b0 = len(cl) - 1 if not pb else max(0, len(cl) - 252)
         apply_rule(r, key)
         r.update({"key": key, "name": name, "nat": nat, "asof": str(s.index[-1].date()), "advice": advice(name, r)})
+        if b0 is not None:   # 📨 11/10 A11/10-1 이번 하락장 반등 날 기록 (하락장일 때만)
+            try:
+                r["rebounds"] = rebounds(cl, [str(x.date()) for x in s.index], b0)
+            except Exception as e:
+                print("반등 기록 실패", key, e)
         hh = hist_for(key, nat)
         if hh:
             r["hist"] = hh
