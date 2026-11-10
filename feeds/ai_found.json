@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "씨티의 AI 여진 대비책: 채권과 소형주에 걸어라",
+   "url": "https://www-web.itiger.com/news/2612266338",
+   "press": "Tiger Brokers(블룸버그 인용)",
+   "at": "2026-11-10 15:40",
+   "why": "씨티 美 주식 중립 하향과 같은 줄기 — AI 쏠림에서 채권·소형주로 회전 제안, 고금리 정점 가설(중장기채)과 연결",
+   "summary": "씨티 전략가, AI 충격 이후 대형 기술주 대신 채권·소형주 비중 제안. 세부 수치는 원문 확인 필요(미확인)."
+  },
+  {
+   "title": "TSMC 3분기 총마진·설비투자 정리",
+   "url": "https://xenospectrum.com/en/tsmc-q3-2026-gross-margin-capex/",
+   "press": "XenoSpectrum",
+   "at": "2026-11-10 15:40",
+   "why": "오늘 TSMC 10월 매출 +60% 속보의 배경 — AI 파운드리 수요는 견조, 메모리 하향과 대비",
+   "summary": "TSMC 3분기 매출 약 467억$·총마진 66.4%(fourweekmba 인용). 10월 월매출 전년 대비 +60%(investing.com 피드)."
+  },
+  {
    "title": "美 10월 CPI 미리보기: IB 14곳 「에너지가 헤드라인 3.6%로 끌어올림, 코어는 월 0.2% 근처」",
    "url": "https://investinglive.com/news/us-cpi-preview-14-investment-bank-forecasters-see-energy-lifting-headline-to-3-6-core-held-near-0-2/",
    "press": "investingLive",
@@ -623,22 +639,6 @@
    "at": "2026-11-06 13:40",
    "why": "🗳️ 중간선거·🐻 하락장 판정 watch — 오늘 밤 10월 고용이 투매 이후 첫 변곡",
    "summary": "「2020 이후 최악의 투매, 숨을 곳 없다」(gn_bbg) 뒤 다우 선물 상승(gn_us_fed). 선물 수치는 미확인."
-  },
-  {
-   "title": "코스피 8% 급락 서킷브레이커·5,000 붕괴, 닛케이 −6% — 하닉·삼전 10%↑ 급락",
-   "url": "https://www.tradingkey.com/analysis/stocks/more/262287971-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-mu-sox-tradingkey",
-   "press": "TradingKey",
-   "at": "2026-11-06 10:40",
-   "why": "반도체 칸·091160 관찰 — 美 SOX 충격이 한·일 반도체 동시 투매로",
-   "summary": "코스피 8% 급락으로 1단계 서킷브레이커·5,000 하회, 닛케이 −6%. SK하이닉스·삼성전자 10% 넘게 하락, 소프트뱅크·키옥시아 동반 급락."
-  },
-  {
-   "title": "美 증시 투매에 아시아 반도체 급락 — 하이닉스·삼성·소프트뱅크·TSMC",
-   "url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
-   "press": "CNBC",
-   "at": "2026-11-06 10:40",
-   "why": "AI 차입 가설(0.92)·반도체 칸 — 대만 가권 장초 −8%까지 번져 아시아 AI 공급망 전체 디레버리징",
-   "summary": "나스닥 투매 여파로 아시아 반도체 일제히 급락. 대만 가권 장 초반 8% 하락(HANAchina/71633). 中 10년 국채 1.58% 사상 최저(안전자산 쏠림)."
   }
  ],
  "at": "2026-11-10 12:40"
