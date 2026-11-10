@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "미국 데이터센터 속 중국산 부품 — 트럼프가 왜 금지하려 하나",
+   "url": "https://www.newsweek.com/the-chinese-parts-in-us-data-centers-and-why-trump-wants-to-ban-them-12288018",
+   "press": "Newsweek",
+   "at": "2026-11-11 00:45",
+   "why": "MS가 「중국산 광트랜시버 금지가 미국 AI를 늦춘다」며 로비(로이터 11/10) — 데이터센터 원가↑ = AI 차입 부담 가설·전력/인프라 칸과 연결",
+   "summary": "미국 데이터센터 광트랜시버의 상당 부분이 중국산 — 금지되면 대체 공급 부족·원가 상승 우려. 수치는 원문 확인 필요(미확인)."
+  },
+  {
+   "title": "중국 광트랜시버 업체들, FCC 규칙 개정으로 미국 금지 일단 피해",
+   "url": "https://www.scmp.com/tech/big-tech/article/3367219/chinese-optical-transceiver-makers-dodge-us-ban-now-fcc-updates-rules",
+   "press": "SCMP",
+   "at": "2026-11-11 00:45",
+   "why": "트랜시버 금지 논쟁의 앞선 경과 — 금지 확정 여부가 미국 광통신주(COHR·LITE)와 하이퍼스케일러 원가 갈림길",
+   "summary": "FCC 규칙 개정에서 중국 광트랜시버 업체는 당장 금지 대상에서 빠짐(당시 기준). 이후 행정부 별도 금지안 초안 보도로 재점화."
+  },
+  {
    "title": "CPI 뒤 선물 하락·금리 급등",
    "url": "https://www.streetinsider.com/Market+Check/Futures+Decline%2C+Yields+Spike+Following+Hot+CPI+Data/18670080.html",
    "press": "StreetInsider",
@@ -623,30 +639,6 @@
    "at": "2026-11-09 02:40",
    "why": "브렌트·에너지 칸 — 월요일 XLE·USO 시가 갭, brent_95 조건 근접",
    "summary": "후티가 리야드 아람코 시설·금융지구 타격 주장(블룸버그도 '이례적 리야드 금융허브 타격' 보도). 유가 반응 숫자는 선물 개장(08:00 KST) 전이라 미확인."
-  },
-  {
-   "title": "유가 아닌 AI 붐이 실질금리를 구조적으로 끌어올린다",
-   "url": "https://www.pulse.bot/bonds/news/ai-boom-not-oil-shock-driving-real-yields-structurally-higher-a0c2ed67-9be3-492b-a86c-893d845e5449/",
-   "press": "Pulse (월가 전략 요약)",
-   "at": "2026-11-09 02:40",
-   "why": "AI 차입 가설·채권 칸 — 하이퍼스케일러 회사채 발행(메타 선거일 발행)이 장기물 공급 압력",
-   "summary": "월가 신호: 美 국채 금리 동력이 유가 충격에서 AI 설비투자 자금조달로 이동. 반론으로 PIMCO는 '경기 요인이 여전히 우선' 입장."
-  },
-  {
-   "title": "EPS 점검: 코어위브, AI 지출 물결 계속 탈 수 있나",
-   "url": "https://www.finanzen.net/nachricht/aktien/eps-watch-can-coreweave-keep-riding-the-ai-spending-wave-15243207",
-   "press": "finanzen.net",
-   "at": "2026-11-09 01:40",
-   "why": "「AI 차입(크레딧)」 가설(0.92)의 시험대 — 11/10 실적에서 차입·capex 가이던스가 AI 인프라 칸 방향을 가른다",
-   "summary": "코어위브 실적 미리보기 — AI 지출 지속성·부채 부담이 관건(세부 컨센서스 숫자 미확인)"
-  },
-  {
-   "title": "기술주 반등에도 S&P 500 주간 2025년 4월 뒤 최악",
-   "url": "https://pro.thestreet.com/market-commentary/tech-bounces-but-the-sp-500-still-has-its-worst-week-since-april-2025",
-   "press": "TheStreet",
-   "at": "2026-11-09 00:40",
-   "why": "위험 회피 국면 판정 — 금요일 반등이 추세 전환인지 CPI·코어위브 주간에 확인",
-   "summary": "금요일 나스닥 반등에도 S&P 주간 낙폭은 2025년 4월 뒤 최대"
   }
  ],
  "at": "2026-11-10 17:40"
