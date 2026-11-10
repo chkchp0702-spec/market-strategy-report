@@ -48,6 +48,9 @@ jobs:
           # 🌱 11/09 A11/9-1: 과거 검증(bear_bt + 바닥 신호 성적표 bear_sig_bt)을 먼저 → 판정(bear.json)이 그 성적표를 시장마다 hist 로 붙임
           if [ ! -f market/bear_bt.json ] || [ ! -f market/bear_sig_bt.json ] || { [ "$H" -ge 5 ] && [ "$H" -le 8 ]; }; then python -m src.bear_gate --bt || true; fi
           python -m src.bear_gate
+      - name: 🫧 버블 경보판 (11/10 · 전병서 11/11 경보표 — 신용·금리·유가·속살·순환/현금 도피 자동 + 손 칸 brain/bubble_manual.json)
+        continue-on-error: true
+        run: pip install -q yfinance pandas && python -m src.bubble_gate
       - name: 🌃 한국 종가→다음 시가 그림자 기록 (저녁 수집 때만, 10/22)
         continue-on-error: true
         run: |
