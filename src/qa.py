@@ -67,8 +67,8 @@ def export() -> bool:
         if (qa.get("items") or []):
             if str(d.get("date", "")) < str(cur.get("date", "")):
                 return False                      # 이미 더 새 것이 있음(장중에 손으로 다시 쓴 답)
-            if cur.get("date") == d.get("date") and str(cur.get("at", "")) > str(qa.get("at", "")):
-                return False
+            if cur.get("date") == d.get("date") and str(cur.get("at", "")) >= str(qa.get("at", "")):
+                return False                      # ⏱ 시황 두뇌가 매시간 더 새로 고친 답이 있으면 아침 답으로 덮지 않음
             obj = {"date": d.get("date"), "edition": d.get("edition_label"), "at": qa.get("at") or (d.get("date", "") + " 07:00"),
                    "basis": qa.get("basis") or d.get("basis"), "items": qa["items"]}
             out.write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
@@ -76,5 +76,20 @@ def export() -> bool:
     return False
 
 
+def check_file(p: str = "market/qa.json") -> int:
+    """⏱ 11/10 시황 두뇌가 매시간 고친 market/qa.json 검산 — python -m src.qa check"""
+    import datetime as dt
+    d = json.loads((ROOT / p).read_text(encoding="utf-8"))
+    kst = dt.datetime.now(dt.timezone(dt.timedelta(hours=9)))
+    bad = check({"date": max(START, kst.strftime("%Y-%m-%d")), "qa": d})
+    at = str(d.get("at", ""))
+    if at[:10] != kst.strftime("%Y-%m-%d"):
+        print(f"  ✗ at 이 오늘이 아님({at}) — 고친 시각(YYYY-MM-DD HH:MM)을 적으세요"); bad = 1
+    return bad
+
+
 if __name__ == "__main__":
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == "check":
+        sys.exit(check_file(*(sys.argv[2:3])))
     print("내보냄" if export() else "그대로")
