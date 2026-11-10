@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "모건스탠리 「블루 웨이브」 영향: 美 신규 데이터센터 20% 2029년으로, 칩 40% 2028년 전 전력 못 받을 수도",
+   "url": "https://wallstreetcn.com/articles/3785634",
+   "press": "월스트리트견문(모건스탠리 인용)",
+   "at": "2026-11-10 15:57",
+   "why": "AI 크레딧·capex 가설 + 반도체(091160) 다시 사기 판단 — 메모리 반등과 반대 방향 근거",
+   "summary": "약 5GW 용량이 2028→2029년으로 밀릴 수 있고 2026~28년 배치 칩의 최대 40%가 제때 전력 공급을 못 받을 위험. 전력 부족·정치 저항·비용 상승으로 자본이 동남아·인도로 이동, AI capex 사이클 장기화 가능."
+  },
+  {
+   "title": "소프트뱅크, 기술주 매도에 2분기 70억달러 순손실 전환",
+   "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
+   "press": "CNBC",
+   "at": "2026-11-10 15:54",
+   "why": "AI 차입 가설 — 최대 AI 투자자 손실, 美 데이터센터 비용 증가(블룸버그) · 오늘 밤 코어위브 실적과 같은 줄기",
+   "summary": "회계연도 2분기(7~9월) 약 70억달러 순손실. 블룸버그는 美 데이터센터 비용 증가를 원인으로 언급. 세부 항목은 원문 확인 필요."
+  },
+  {
    "title": "씨티의 AI 여진 대비책: 채권과 소형주에 걸어라",
    "url": "https://www-web.itiger.com/news/2612266338",
    "press": "Tiger Brokers(블룸버그 인용)",
@@ -623,23 +639,7 @@
    "at": "2026-11-06 14:40",
    "why": "반도체·AI 소프트웨어 칸 — 11/5 美 마감 정리, 고용 전 출발점",
    "summary": "S&P −4.36%(7,353)·나스닥 −5.52%·다우 −3.44%, VIX 28.18(+70%) (latest.json)."
-  },
-  {
-   "title": "대만 증시 사상 최대 낙폭, 한국 매매 중단 — AI 투매 가속",
-   "url": "https://asia.nikkei.com/business/markets/south-korean-exchange-halts-trading-as-ai-stock-sell-off-accelerates",
-   "press": "Nikkei Asia",
-   "at": "2026-11-06 13:40",
-   "why": "반도체 칸·091160 관찰 — 대만 가권 장중 약 9% 폭락이 사상 최대 낙폭으로 기록, 아시아 반도체 투매의 정점 여부",
-   "summary": "대만 가권 장중 한때 약 9% 하락(einfomax 상보 동일)·닛케이 장중 7%↓·코스피 CB. 세부 종가는 미확인."
-  },
-  {
-   "title": "Bloomberg 美 증시 라이브 11/6 — 고용 지표 앞 선물 반등",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-05/stock-market-today-dow-s-p-live-updates",
-   "press": "Bloomberg",
-   "at": "2026-11-06 13:40",
-   "why": "🗳️ 중간선거·🐻 하락장 판정 watch — 오늘 밤 10월 고용이 투매 이후 첫 변곡",
-   "summary": "「2020 이후 최악의 투매, 숨을 곳 없다」(gn_bbg) 뒤 다우 선물 상승(gn_us_fed). 선물 수치는 미확인."
   }
  ],
- "at": "2026-11-10 12:40"
+ "at": "2026-11-10 16:45"
 }
