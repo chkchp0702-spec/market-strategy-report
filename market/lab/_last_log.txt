@@ -1,74 +1,52 @@
-무리 크기 {'E': 24, 'S': 102}
-진단 E 5 5.0 {'hot_is': {'n': 21, 'avg': 5.02, 'win': 62, 'pf': np.float64(3.06)}, 'cold_is': {'n': 151, 'avg': 1.81, 'win': 46, 'pf': np.float64(2.1)}, 'hot_oos': {'n': 40, 'avg': 5.46, 'win': 52, 'pf': np.float64(3.41)}, 'cold_oos': {'n': 193, 'avg': 1.73, 'win': 46, 'pf': np.float64(1.72)}, 'hot_share_cand': 13.0}
-진단 E 5 8.0 {'hot_is': {'n': 7, 'avg': 5.75, 'win': 57, 'pf': np.float64(3.95)}, 'cold_is': {'n': 165, 'avg': 2.05, 'win': 47, 'pf': np.float64(2.18)}, 'hot_oos': {'n': 12, 'avg': 7.82, 'win': 67, 'pf': np.float64(4.53)}, 'cold_oos': {'n': 221, 'avg': 2.08, 'win': 46, 'pf': np.float64(1.87)}, 'hot_share_cand': 3.5}
-진단 E 10 5.0 {'hot_is': {'n': 42, 'avg': 2.84, 'win': 50, 'pf': np.float64(2.16)}, 'cold_is': {'n': 130, 'avg': 2.0, 'win': 47, 'pf': np.float64(2.31)}, 'hot_oos': {'n': 93, 'avg': 2.02, 'win': 44, 'pf': np.float64(1.67)}, 'cold_oos': {'n': 140, 'avg': 2.6, 'win': 49, 'pf': np.float64(2.34)}, 'hot_share_cand': 30.8}
-진단 E 10 8.0 {'hot_is': {'n': 8, 'avg': 1.54, 'win': 38, 'pf': np.float64(1.43)}, 'cold_is': {'n': 164, 'avg': 2.24, 'win': 48, 'pf': np.float64(2.35)}, 'hot_oos': {'n': 34, 'avg': 3.25, 'win': 47, 'pf': np.float64(2.07)}, 'cold_oos': {'n': 199, 'avg': 2.22, 'win': 47, 'pf': np.float64(1.99)}, 'hot_share_cand': 8.6}
-진단 E 21 5.0 {'hot_is': {'n': 92, 'avg': 2.1, 'win': 46, 'pf': np.float64(1.97)}, 'cold_is': {'n': 80, 'avg': 2.32, 'win': 50, 'pf': np.float64(2.84)}, 'hot_oos': {'n': 142, 'avg': 1.31, 'win': 42, 'pf': np.float64(1.47)}, 'cold_oos': {'n': 91, 'avg': 4.04, 'win': 55, 'pf': np.float64(3.38)}, 'hot_share_cand': 55.3}
-진단 E 21 8.0 {'hot_is': {'n': 43, 'avg': 3.07, 'win': 44, 'pf': np.float64(2.28)}, 'cold_is': {'n': 129, 'avg': 1.91, 'win': 49, 'pf': np.float64(2.25)}, 'hot_oos': {'n': 74, 'avg': 1.55, 'win': 38, 'pf': np.float64(1.49)}, 'cold_oos': {'n': 159, 'avg': 2.76, 'win': 51, 'pf': np.float64(2.38)}, 'hot_share_cand': 27.1}
-E 5 3.0 drop 0.83 13.84 -19.1 1.07 {'n': 200, 'avg': 2.04, 'win': 48, 'pf': np.float64(1.82)}
-E 5 3.0 back 0.82 13.94 -17.3 1.06 {'n': 250, 'avg': 1.81, 'win': 44, 'pf': np.float64(1.74)}
-E 5 5.0 drop 0.85 13.43 -19.1 1.04 {'n': 244, 'avg': 1.27, 'win': 45, 'pf': np.float64(1.49)}
-E 5 5.0 back 0.83 14.23 -17.2 1.09 {'n': 236, 'avg': 2.18, 'win': 46, 'pf': np.float64(1.93)}
-E 5 8.0 drop 0.82 14.21 -18.2 1.09 {'n': 226, 'avg': 2.22, 'win': 45, 'pf': np.float64(1.95)}
-E 5 8.0 back 0.85 14.36 -17.6 1.09 {'n': 235, 'avg': 2.35, 'win': 45, 'pf': np.float64(1.97)}
-E 5 12.0 drop 0.84 14.58 -17.6 1.11 {'n': 231, 'avg': 2.56, 'win': 47, 'pf': np.float64(2.12)}
-E 5 12.0 back 0.84 14.42 -17.6 1.1 {'n': 233, 'avg': 2.37, 'win': 47, 'pf': np.float64(2.0)}
-E 10 3.0 drop 0.83 13.31 -18.3 1.04 {'n': 175, 'avg': 1.66, 'win': 42, 'pf': np.float64(1.68)}
-E 10 3.0 back 0.82 14.1 -17.8 1.08 {'n': 235, 'avg': 2.08, 'win': 45, 'pf': np.float64(1.83)}
-E 10 5.0 drop 0.85 13.96 -17.5 1.07 {'n': 213, 'avg': 1.9, 'win': 48, 'pf': np.float64(1.87)}
-E 10 5.0 back 0.83 14.17 -17.0 1.08 {'n': 238, 'avg': 2.16, 'win': 45, 'pf': np.float64(1.89)}
-E 10 8.0 drop 0.83 13.75 -17.6 1.07 {'n': 246, 'avg': 1.58, 'win': 46, 'pf': np.float64(1.68)}
-E 10 8.0 back 0.83 14.13 -17.6 1.08 {'n': 249, 'avg': 1.98, 'win': 43, 'pf': np.float64(1.8)}
-E 10 12.0 drop 0.83 14.34 -17.2 1.09 {'n': 233, 'avg': 2.29, 'win': 46, 'pf': np.float64(1.93)}
-E 10 12.0 back 0.83 14.27 -17.6 1.09 {'n': 240, 'avg': 2.17, 'win': 45, 'pf': np.float64(1.89)}
-E 21 3.0 drop 0.79 13.87 -17.7 1.11 {'n': 143, 'avg': 2.56, 'win': 52, 'pf': np.float64(2.32)}
-E 21 3.0 back 0.85 14.01 -17.8 1.07 {'n': 237, 'avg': 1.99, 'win': 44, 'pf': np.float64(1.76)}
-E 21 5.0 drop 0.84 14.04 -17.7 1.09 {'n': 158, 'avg': 2.73, 'win': 49, 'pf': np.float64(2.23)}
-E 21 5.0 back 0.85 14.1 -17.8 1.07 {'n': 235, 'avg': 2.08, 'win': 45, 'pf': np.float64(1.83)}
-E 21 8.0 drop 0.82 13.85 -18.1 1.07 {'n': 208, 'avg': 1.88, 'win': 44, 'pf': np.float64(1.82)}
-E 21 8.0 back 0.83 14.32 -17.5 1.09 {'n': 238, 'avg': 2.26, 'win': 44, 'pf': np.float64(1.95)}
-E 21 12.0 drop 0.82 13.74 -19.0 1.06 {'n': 250, 'avg': 1.6, 'win': 46, 'pf': np.float64(1.66)}
-E 21 12.0 back 0.84 14.15 -17.0 1.08 {'n': 237, 'avg': 2.09, 'win': 46, 'pf': np.float64(1.87)}
-E 고른 5 8.0 back 0.85 {'cagr': np.float64(14.36), 'vol': np.float64(13.1), 'mdd': np.float64(-17.6), 'sharpe': np.float64(1.09), 'ex': np.float64(-0.33), 'win12': 44, 'beat_years': 5, 'years': 10, 'turn': 337} ➖ 애매 {'beat': False, 'mdd': True, 'sharpe': False} False
-  흔들기 기간 4일 14.46 -17.6 1.1 -0.23
-  흔들기 기간 6일 14.44 -17.6 1.1 -0.25
-  흔들기 급등 기준 +6.4% 14.39 -17.6 1.1 -0.31
-  흔들기 급등 기준 +9.6% 14.46 -17.6 1.1 -0.23
-  흔들기 방식 drop 14.21 -18.2 1.09 -0.48
-진단 S 5 5.0 {'hot_is': {'n': 94, 'avg': 1.77, 'win': 40, 'pf': np.float64(1.43)}, 'cold_is': {'n': 181, 'avg': 2.12, 'win': 45, 'pf': np.float64(1.8)}, 'hot_oos': {'n': 136, 'avg': 1.99, 'win': 41, 'pf': np.float64(1.54)}, 'cold_oos': {'n': 228, 'avg': 1.52, 'win': 40, 'pf': np.float64(1.49)}, 'hot_share_cand': 23.9}
-진단 S 5 8.0 {'hot_is': {'n': 46, 'avg': 0.54, 'win': 37, 'pf': np.float64(1.1)}, 'cold_is': {'n': 229, 'avg': 2.3, 'win': 45, 'pf': np.float64(1.83)}, 'hot_oos': {'n': 78, 'avg': 2.87, 'win': 45, 'pf': np.float64(1.84)}, 'cold_oos': {'n': 286, 'avg': 1.38, 'win': 39, 'pf': np.float64(1.42)}, 'hot_share_cand': 10.1}
-진단 S 10 5.0 {'hot_is': {'n': 128, 'avg': 1.03, 'win': 38, 'pf': np.float64(1.26)}, 'cold_is': {'n': 147, 'avg': 2.84, 'win': 48, 'pf': np.float64(2.14)}, 'hot_oos': {'n': 220, 'avg': 1.55, 'win': 39, 'pf': np.float64(1.45)}, 'cold_oos': {'n': 144, 'avg': 1.92, 'win': 42, 'pf': np.float64(1.62)}, 'hot_share_cand': 41.7}
-진단 S 10 8.0 {'hot_is': {'n': 73, 'avg': 0.3, 'win': 34, 'pf': np.float64(1.07)}, 'cold_is': {'n': 202, 'avg': 2.62, 'win': 47, 'pf': np.float64(1.99)}, 'hot_oos': {'n': 119, 'avg': 1.97, 'win': 43, 'pf': np.float64(1.57)}, 'cold_oos': {'n': 245, 'avg': 1.57, 'win': 39, 'pf': np.float64(1.48)}, 'hot_share_cand': 19.6}
-진단 S 21 5.0 {'hot_is': {'n': 204, 'avg': 1.37, 'win': 38, 'pf': np.float64(1.41)}, 'cold_is': {'n': 71, 'avg': 3.82, 'win': 58, 'pf': np.float64(2.5)}, 'hot_oos': {'n': 294, 'avg': 1.83, 'win': 40, 'pf': np.float64(1.55)}, 'cold_oos': {'n': 70, 'avg': 1.14, 'win': 40, 'pf': np.float64(1.34)}, 'hot_share_cand': 69.2}
-진단 S 21 8.0 {'hot_is': {'n': 138, 'avg': 1.32, 'win': 38, 'pf': np.float64(1.38)}, 'cold_is': {'n': 137, 'avg': 2.69, 'win': 49, 'pf': np.float64(1.96)}, 'hot_oos': {'n': 212, 'avg': 2.07, 'win': 40, 'pf': np.float64(1.61)}, 'cold_oos': {'n': 152, 'avg': 1.18, 'win': 41, 'pf': np.float64(1.37)}, 'hot_share_cand': 42.2}
-S 5 3.0 drop 0.87 12.8 -22.3 0.98 {'n': 310, 'avg': 0.63, 'win': 36, 'pf': np.float64(1.18)}
-S 5 3.0 back 0.82 12.93 -22.4 0.98 {'n': 309, 'avg': 0.77, 'win': 37, 'pf': np.float64(1.21)}
-S 5 5.0 drop 0.89 13.07 -21.6 0.98 {'n': 340, 'avg': 0.88, 'win': 38, 'pf': np.float64(1.25)}
-S 5 5.0 back 0.81 14.14 -19.9 1.06 {'n': 353, 'avg': 1.63, 'win': 42, 'pf': np.float64(1.48)}
-S 5 8.0 drop 0.93 13.17 -19.9 0.99 {'n': 309, 'avg': 0.88, 'win': 38, 'pf': np.float64(1.25)}
-S 5 8.0 back 0.85 13.36 -21.7 1.0 {'n': 327, 'avg': 0.98, 'win': 39, 'pf': np.float64(1.28)}
-S 5 12.0 drop 0.89 14.5 -19.8 1.07 {'n': 358, 'avg': 1.74, 'win': 42, 'pf': np.float64(1.54)}
-S 5 12.0 back 0.89 15.03 -19.9 1.09 {'n': 353, 'avg': 2.11, 'win': 43, 'pf': np.float64(1.67)}
-S 10 3.0 drop 0.86 12.51 -20.2 0.98 {'n': 271, 'avg': 0.36, 'win': 37, 'pf': np.float64(1.1)}
-S 10 3.0 back 0.81 14.15 -20.0 1.06 {'n': 320, 'avg': 1.64, 'win': 41, 'pf': np.float64(1.52)}
-S 10 5.0 drop 0.87 13.23 -20.4 1.01 {'n': 296, 'avg': 1.1, 'win': 39, 'pf': np.float64(1.32)}
-S 10 5.0 back 0.84 12.58 -19.4 0.95 {'n': 337, 'avg': 0.52, 'win': 38, 'pf': np.float64(1.15)}
-S 10 8.0 drop 0.89 13.61 -21.2 1.02 {'n': 324, 'avg': 1.26, 'win': 40, 'pf': np.float64(1.38)}
-S 10 8.0 back 0.87 13.9 -20.9 1.03 {'n': 337, 'avg': 1.44, 'win': 39, 'pf': np.float64(1.43)}
-S 10 12.0 drop 0.84 14.61 -21.1 1.08 {'n': 308, 'avg': 2.09, 'win': 42, 'pf': np.float64(1.62)}
-S 10 12.0 back 0.87 13.69 -21.3 1.01 {'n': 350, 'avg': 1.25, 'win': 37, 'pf': np.float64(1.35)}
-S 21 3.0 drop 0.86 14.29 -19.6 1.12 {'n': 243, 'avg': 2.18, 'win': 47, 'pf': np.float64(1.82)}
-S 21 3.0 back 0.78 13.92 -19.7 1.04 {'n': 326, 'avg': 1.48, 'win': 41, 'pf': np.float64(1.45)}
-S 21 5.0 drop 0.85 13.81 -18.9 1.06 {'n': 276, 'avg': 1.49, 'win': 40, 'pf': np.float64(1.51)}
-S 21 5.0 back 0.83 13.93 -20.2 1.05 {'n': 330, 'avg': 1.48, 'win': 42, 'pf': np.float64(1.46)}
-S 21 8.0 drop 0.89 13.0 -20.0 1.0 {'n': 314, 'avg': 0.76, 'win': 39, 'pf': np.float64(1.24)}
-S 21 8.0 back 0.91 13.43 -19.2 1.01 {'n': 345, 'avg': 1.08, 'win': 40, 'pf': np.float64(1.32)}
-S 21 12.0 drop 0.84 13.78 -19.5 1.04 {'n': 339, 'avg': 1.25, 'win': 40, 'pf': np.float64(1.38)}
-S 21 12.0 back 0.84 13.19 -18.8 0.99 {'n': 368, 'avg': 0.91, 'win': 39, 'pf': np.float64(1.26)}
-S 고른 5 8.0 drop 0.93 {'cagr': np.float64(13.17), 'vol': np.float64(13.5), 'mdd': np.float64(-19.9), 'sharpe': np.float64(0.99), 'ex': np.float64(-1.52), 'win12': 42, 'beat_years': 4, 'years': 10, 'turn': 391} ➖ 애매 {'beat': False, 'mdd': True, 'sharpe': False} False
-  흔들기 기간 4일 13.03 -18.8 0.97 -1.66
-  흔들기 기간 6일 13.09 -20.1 0.98 -1.61
-  흔들기 급등 기준 +6.4% 14.38 -19.8 1.07 -0.32
-  흔들기 급등 기준 +9.6% 12.75 -20.0 0.96 -1.95
-  흔들기 방식 back 13.36 -21.7 1.0 -1.34
-SPY {'cagr': np.float64(14.7), 'vol': np.float64(18.1), 'mdd': np.float64(-33.7), 'sharpe': np.float64(0.85), 'ex': np.float64(0.0), 'win12': 0, 'beat_years': 0, 'years': 10} 종합 ➖ 애매
+칸 c1 {'is': {'cagr': 1.84, 'vol': 5.5, 'mdd': -8.0, 'sh': 0.33}, 'oos': {'cagr': 5.54, 'vol': 4.98, 'mdd': -6.0, 'sh': 1.11}, 'turn': 201, 'inpos': 48.7}
+port_s1_c1 14.22 17.36 -16.0 12.9 13.2
+port_s0_c1 10.78 14.79 -15.9 13.0 13.2
+conc_s1_c1 14.78 18.13 -19.2 14.3 15.1
+칸 c0 {'is': {'cagr': 1.79, 'vol': 5.51, 'mdd': -8.0, 'sh': 0.33}, 'oos': {'cagr': 5.34, 'vol': 4.98, 'mdd': -6.1, 'sh': 1.07}, 'turn': 201, 'inpos': 48.7}
+port_s1_c0 14.17 17.27 -15.7 12.9 13.2
+port_s0_c0 10.72 14.7 -15.6 13.0 13.2
+conc_s1_c0 14.74 18.05 -19.2 14.3 15.1
+칸 o1 {'is': {'cagr': 1.92, 'vol': 5.51, 'mdd': -8.2, 'sh': 0.35}, 'oos': {'cagr': 5.61, 'vol': 4.96, 'mdd': -6.0, 'sh': 1.13}, 'turn': 201, 'inpos': 48.7}
+port_s1_o1 14.22 17.32 -16.0 12.9 13.2
+port_s0_o1 10.77 14.74 -15.9 13.0 13.2
+conc_s1_o1 14.78 18.1 -19.2 14.3 15.1
+칸 stop {'is': {'cagr': 2.06, 'vol': 5.39, 'mdd': -7.9, 'sh': 0.38}, 'oos': {'cagr': 5.16, 'vol': 4.91, 'mdd': -6.2, 'sh': 1.05}, 'turn': 229, 'inpos': 47.4}
+port_s1_stop 14.36 17.11 -15.8 12.9 13.2
+port_s0_stop 10.95 14.54 -15.7 13.0 13.2
+conc_s1_stop 14.96 18.0 -18.9 14.3 15.1
+칸 stopin {'is': {'cagr': 1.92, 'vol': 5.6, 'mdd': -7.7, 'sh': 0.34}, 'oos': {'cagr': 5.41, 'vol': 5.01, 'mdd': -6.1, 'sh': 1.08}, 'turn': 210, 'inpos': 50.5}
+port_s1_stopin 14.35 17.27 -16.4 12.9 13.3
+port_s0_stopin 10.9 14.69 -16.2 13.0 13.3
+conc_s1_stopin 14.92 18.04 -19.2 14.4 15.2
+칸 stopout {'is': {'cagr': 1.84, 'vol': 5.31, 'mdd': -8.2, 'sh': 0.35}, 'oos': {'cagr': 5.29, 'vol': 4.86, 'mdd': -6.2, 'sh': 1.09}, 'turn': 217, 'inpos': 45.8}
+port_s1_stopout 14.22 17.15 -15.5 12.9 13.2
+port_s0_stopout 10.82 14.59 -15.3 12.9 13.2
+conc_s1_stopout 14.82 18.06 -18.9 14.3 15.1
+칸 stop_slip10 {'is': {'cagr': 1.83, 'vol': 5.4, 'mdd': -8.0, 'sh': 0.34}, 'oos': {'cagr': 4.9, 'vol': 4.92, 'mdd': -6.2, 'sh': 0.99}, 'turn': 229, 'inpos': 47.4}
+port_s1_stop_slip10 14.33 17.07 -15.9 12.9 13.2
+port_s0_stop_slip10 10.92 14.5 -15.7 13.0 13.2
+conc_s1_stop_slip10 14.94 17.98 -18.9 14.3 15.1
+칸 stop_slip25 {'is': {'cagr': 1.49, 'vol': 5.42, 'mdd': -8.3, 'sh': 0.27}, 'oos': {'cagr': 4.51, 'vol': 4.94, 'mdd': -6.3, 'sh': 0.91}, 'turn': 229, 'inpos': 47.4}
+port_s1_stop_slip25 14.28 17.0 -15.9 12.9 13.2
+port_s0_stop_slip25 10.88 14.44 -15.8 13.0 13.2
+conc_s1_stop_slip25 14.9 17.94 -19.0 14.3 15.1
+칸 c1_cost10 {'is': {'cagr': 1.32, 'vol': 5.5, 'mdd': -8.4, 'sh': 0.24}, 'oos': {'cagr': 4.98, 'vol': 4.98, 'mdd': -6.0, 'sh': 1.0}, 'turn': 201, 'inpos': 48.7}
+port_s1_c1_cost10 14.14 17.28 -16.0 12.9 13.2
+칸 stop_cost10 {'is': {'cagr': 1.48, 'vol': 5.42, 'mdd': -8.3, 'sh': 0.27}, 'oos': {'cagr': 4.51, 'vol': 4.95, 'mdd': -6.3, 'sh': 0.91}, 'turn': 229, 'inpos': 47.4}
+port_s1_stop_cost10 14.28 17.0 -15.9 12.9 13.2
+칸 c1_80_50 {'is': {'cagr': 2.25, 'vol': 5.59, 'mdd': -7.3, 'sh': 0.4}, 'oos': {'cagr': 5.73, 'vol': 5.04, 'mdd': -6.0, 'sh': 1.14}, 'turn': 216, 'inpos': 51.1}
+port_s1_c1_80_50 14.45 17.38 -16.0 12.9 13.2
+칸 stop_80_50 {'is': {'cagr': 2.13, 'vol': 5.52, 'mdd': -7.6, 'sh': 0.39}, 'oos': {'cagr': 5.47, 'vol': 5.02, 'mdd': -6.0, 'sh': 1.09}, 'turn': 250, 'inpos': 50.3}
+port_s1_stop_80_50 14.43 17.1 -16.1 12.9 13.2
+칸 c1_120_50 {'is': {'cagr': 1.25, 'vol': 5.48, 'mdd': -9.4, 'sh': 0.23}, 'oos': {'cagr': 5.7, 'vol': 4.93, 'mdd': -6.0, 'sh': 1.16}, 'turn': 191, 'inpos': 46.1}
+port_s1_c1_120_50 14.05 17.32 -16.0 12.9 13.2
+칸 stop_120_50 {'is': {'cagr': 1.72, 'vol': 5.37, 'mdd': -8.6, 'sh': 0.32}, 'oos': {'cagr': 5.22, 'vol': 4.84, 'mdd': -6.2, 'sh': 1.08}, 'turn': 219, 'inpos': 45.0}
+port_s1_stop_120_50 14.23 17.09 -15.9 12.9 13.2
+칸 c1_100_40 {'is': {'cagr': 1.69, 'vol': 5.03, 'mdd': -6.2, 'sh': 0.34}, 'oos': {'cagr': 4.19, 'vol': 4.7, 'mdd': -6.1, 'sh': 0.89}, 'turn': 239, 'inpos': 44.3}
+port_s1_c1_100_40 14.19 17.09 -15.9 12.9 13.2
+칸 stop_100_40 {'is': {'cagr': 1.77, 'vol': 5.02, 'mdd': -5.5, 'sh': 0.35}, 'oos': {'cagr': 4.55, 'vol': 4.58, 'mdd': -5.7, 'sh': 0.99}, 'turn': 275, 'inpos': 43.5}
+port_s1_stop_100_40 14.45 17.17 -15.8 12.8 13.1
+칸 c1_100_60 {'is': {'cagr': 2.19, 'vol': 5.67, 'mdd': -8.2, 'sh': 0.39}, 'oos': {'cagr': 5.8, 'vol': 5.26, 'mdd': -6.1, 'sh': 1.1}, 'turn': 181, 'inpos': 51.7}
+port_s1_c1_100_60 14.28 17.4 -16.3 13.0 13.3
+칸 stop_100_60 {'is': {'cagr': 2.13, 'vol': 5.69, 'mdd': -9.2, 'sh': 0.37}, 'oos': {'cagr': 4.92, 'vol': 5.03, 'mdd': -6.6, 'sh': 0.98}, 'turn': 209, 'inpos': 50.2}
+port_s1_stop_100_60 14.41 16.99 -16.4 12.9 13.2
