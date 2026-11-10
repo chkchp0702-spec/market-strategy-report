@@ -112,7 +112,7 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
                                              + (f' 외 {len(kick_alloc["open"]) - 12}개' if len(kick_alloc["open"]) > 12 else ""),
                               "seen": f'누적 ⚡ 공격 포트 {st.get("kick", 0):+.2f}% · 💼 기본 {st.get("base", 0):+.2f}% · S&P {st.get("spy", 0):+.2f}%',
                               "verdict": "신호대로", "verdict_cls": "gd",
-                              "rule": "🐋 분기 보유 · −30% 정리 / 🧭 50일 저가 이탈 · ☕📈 손절·익절·보유기간"})
+                              "rule": "🐋 분기 보유 · −15% 손절 → 빈 자리 ☕ 컵 / 🧭 50일 저가 이탈 · ☕📈 손절·익절·보유기간"})
 
     css = (TPL / "base.css").read_text(encoding="utf-8")
     env = Environment(loader=FileSystemLoader(str(TPL)), autoescape=select_autoescape(default=False))

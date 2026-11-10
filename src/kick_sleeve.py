@@ -23,6 +23,9 @@
   · 규칙: 최신 13F 분기(분기 끝 +46일 = 공시 마감 뒤)의 큰 신규 포지션 중 바이오 전문 펀드만 산 것·ETF·미국 밖 티커를 빼고,
     여러 고래가 산 것 → 포트 비중 큰 것 순으로 최대 10종목을 같은 비중으로 사서 다음 분기 목록이 나올 때까지 들고 간다.
     한 종목이 −30% 면 그것만 현금으로(사고 대비). 킥 15% = ⚡ 돌파 9% + 🐋 고래 6% (kick_params 의 sleeve·whale_sleeve).
+  · 11/10 사용자 「−15% 손절로 잡고, 탈락한 자리에 새로운 컵 종목들이 들어오게」 → whale_stop_from 부터 손절 −15%(whale_stop2),
+    떨어져 나간 자리(그 전 −30% 로 비어 있던 자리 포함)는 그날 ☕ 컵 돌파 후보(눈 검사 통과 먼저·미국 먼저·점수 순, 돌파가 −3%~+12% 안에서 살아 있는 것)로 채움.
+    채운 컵도 그 자리 규칙(−15% 손절 · 다음 분기 교체까지 보유)을 따르고, 또 떨어지면 다음 컵으로 채움. 지난 날짜는 소급 안 함.
 """
 from __future__ import annotations
 import datetime as dt
@@ -46,13 +49,17 @@ _DEF = {"sleeve": 0.15, "slots": 5, "stop": -0.05, "take": 0.15, "time_d": 15, "
         "pri": {"focus": 40, "cup_eye": 25, "lead": 20, "cup": 10, "accum": 10, "whale": 8, "gap": 0}, "whale_bonus": 10, "off": [],
         "lead_min": 1.5, "lead_cor": 0.3, "adaptive": True,
         "gap_fill_exit": True, "cup_min_handle": 0, "cup_min_rs": 0, "cup_mkts": [], "gap_min": 0, "gap_max": 100, "gap_max_vol": 1000,
-        "whale_sleeve": 0.0, "whale_n": 10, "whale_stop": -0.30}
+        "whale_sleeve": 0.0, "whale_n": 10, "whale_stop": -0.30,
+        "whale_stop2": -0.15, "whale_stop_from": "2026-11-09", "whale_refill": "cup"}
 try:
     _P = {**_DEF, **json.loads(PARAMS.read_text(encoding="utf-8"))}
 except Exception:
     _P = dict(_DEF)
 SLEEVE, SLOTS = _P["sleeve"], _P["slots"]
 WS, WN, WSTOP = _P["whale_sleeve"], _P["whale_n"], _P["whale_stop"]
+WSTOP2, WSTOP_FROM, WREFILL = _P["whale_stop2"], _P["whale_stop_from"], _P.get("whale_refill")
+wstop_at = lambda d: WSTOP2 if d >= WSTOP_FROM else WSTOP          # 🐋 11/10: 그날부터 −15%, 그 전은 −30% (소급 없음)
+wstop_txt = lambda d: f"−{abs(wstop_at(d)) * 100:g}%"
 WHALE_RAW = "https://raw.githubusercontent.com/chkchp0702-spec/whale40/main/data/signals.json"
 BIO = {"EcoR1 Capital", "Baker Bros. Advisors", "BVF", "Perceptive Advisors", "Deep Track Capital", "Avoro Capital Advisors", "Vivo Capital",
        "OrbiMed Advisors", "RA Capital Management", "Cormorant Asset Management", "Rock Springs Capital", "Commodore Capital", "Logos Global Management",
@@ -926,8 +933,27 @@ def main() -> int:
         shadow_stat[k_] = {"n": len(rs), "avg": round(sum(rs) / len(rs), 2), "win": round(sum(1 for x in rs if x > 0) / len(rs) * 100),
                            "pf": round(g_ / l_, 2) if l_ > 0 else None, "tag": TAG.get(k_, "")}
 
-    # 🐋 고래 바스켓 — 분기마다 같은 비중으로 사서 다음 목록까지 들고 감 (−30% 사고 대비만)
-    wval, wbask, wq, wev, wsw = [1.0], [], None, [], []
+    # ☕ 고래 자리 채우기 후보 — 최근 15일 안에 기준가를 뚫은 컵(눈 검사 통과 먼저 · 미국 먼저 · 점수 순)
+    #    돌파가 살아 있어야 함: 지금 값이 기준가(lv)의 −3% ~ +12% 안 (실패한 돌파·너무 늦은 추격 빼기) · 돌파 칸에 이미 든 종목 빼기
+    def refill_cup(d, skip):
+        d15 = (dt.date.fromisoformat(d) - dt.timedelta(days=15)).isoformat()
+        held_ = {p["code"] for p in pos}
+        L_ = []
+        for c in cands:
+            if c["src"] not in ("cup", "cup_eye") or not (d15 <= c["d"] <= d) or c["code"] in skip or c["code"] in held_ or c["code"] not in CL:
+                continue
+            now_ = px(c["code"], d)
+            if not now_:
+                continue
+            lv_ = c.get("lv")
+            if lv_ and not (0.97 <= now_ / lv_ <= 1 + _P.get("cup_max_ext", 12) / 100):
+                continue
+            L_.append(c)
+        L_.sort(key=lambda c: (c["src"] != "cup_eye", c.get("mkt") != "US", -(c.get("score") or 0), c["d"]))
+        return L_[0] if L_ else None
+
+    # 🐋 고래 바스켓 — 분기마다 같은 비중으로 사서 다음 목록까지 들고 감 (whale_stop_from 전 −30% · 뒤 −15% 손절, 빈 자리는 ☕ 컵으로)
+    wval, wbask, wq, wev, wsw, wcut = [1.0], [], None, [], [], set()
     wv = 1.0
     for i, d in enumerate(D):
         cur = [x for x in WL if x[0] <= d]
@@ -942,7 +968,8 @@ def main() -> int:
                     FZ[q] = {"d0": d, "t": [r["t"] for r in pick], "why": "이 분기 처음 고른 종목 — 분기 동안 고정"}
             if pick:
                 old = {b["t"] for b in wbask}
-                wbask = [{**r, "d0": d, "entry": px(r["t"], d), "on": True, "exit": None} for r in pick]
+                wbask = [{**r, "d0": d, "entry": px(r["t"], d), "on": True, "exit": None, "m": 1.0, "kind": "고래"} for r in pick]
+                wcut = set()
                 wq = q
                 wsw.append(d)
                 wev.append({"d": d, "k": "고래 바스켓 교체" if old else "고래 바스켓 시작", "q": q, "in": [b["t"] for b in wbask if b["t"] not in old],
@@ -950,12 +977,23 @@ def main() -> int:
                 wbase = wv
         if wbask:
             parts = []
-            for b in wbask:
+            for j_, b in enumerate(wbask):
                 c = px(b["t"], d) or b["entry"]
-                if b["on"] and c / b["entry"] - 1 <= WSTOP:
+                if b["on"] and d > b["d0"] and c / b["entry"] - 1 <= wstop_at(d):
                     b["on"], b["exit"] = False, c
-                    wev.append({"d": d, "k": "고래 −30% 정리", "t": b["t"]})
-                parts.append((b["exit"] if not b["on"] else c) / b["entry"])
+                    wcut.add(b["t"])
+                    wev.append({"d": d, "k": f"{'고래' if b.get('kind') == '고래' else '☕ 컵(고래 자리)'} {wstop_txt(d)} 정리", "t": b["t"],
+                                "r": round((c / b["entry"] - 1) * 100, 1)})
+                # ☕ 11/10: 빈 자리는 그날 살아 있는 컵 돌파로 채움 (whale_stop_from 부터)
+                if not b["on"] and WREFILL == "cup" and d >= WSTOP_FROM:
+                    nb = refill_cup(d, {x["t"] for x in wbask if x["on"]} | wcut)
+                    if nb:
+                        m_ = b.get("m", 1.0) * b["exit"] / b["entry"]
+                        wbask[j_] = b = {"t": nb["code"], "name": nb.get("name"), "n": 0, "w": 0, "by": [], "d0": d, "entry": px(nb["code"], d), "on": True, "exit": None,
+                                         "m": m_, "kind": "컵", "src": nb["src"], "sig": nb["d"], "was": b["t"]}
+                        wev.append({"d": d, "k": "☕ 컵으로 자리 채움", "t": b["t"], "out": b["was"], "src": SRC_NAME.get(nb["src"], nb["src"])})
+                        c = b["entry"]
+                parts.append(b.get("m", 1.0) * (b["exit"] if not b["on"] else c) / b["entry"])
             wv = wbase * sum(parts) / len(parts)
         if i > 0:
             wval.append(wv)
@@ -1058,10 +1096,13 @@ def main() -> int:
     for b in wbask:
         if not b["on"]:
             continue
-        tags = ["🐋"] + sorted(recent_sig.get(b["t"], set()) - {"🐋", "🎯", "🔗"})
+        cupk = b.get("kind") == "컵"
+        tags = (["☕"] if cupk else ["🐋"]) + sorted(recent_sig.get(b["t"], set()) - {"🐋", "☕", "🎯", "🔗"})
         nowp = px(b["t"], last_d) or b["entry"]
-        hold.append({"code": b["t"], "name": b["t"], "tags": "".join(tags), "w": round(WSN * 100 / max(1, len(wbask)), 2), "r": round((nowp / b["entry"] - 1) * 100, 2),
-                     "d0": b["d0"], "entry": round(b["entry"], 4), "now": round(nowp, 4), "kind": "고래", "rule": "분기 보유 · −30%만 정리",
+        hold.append({"code": b["t"], "name": (b.get("name") or b["t"]) if cupk else b["t"], "tags": "".join(tags), "w": round(WSN * 100 / max(1, len(wbask)), 2),
+                     "r": round((nowp / b["entry"] - 1) * 100, 2), "d0": b["d0"], "entry": round(b["entry"], 4), "now": round(nowp, 4),
+                     "kind": "고래 자리 컵" if cupk else "고래",
+                     "rule": (f"🐋 {b['was']} 자리 · " if cupk else "") + f"분기 보유 · {wstop_txt(last_d)} 손절 → 빈 자리 ☕ 컵으로", "stop": round(b["entry"] * (1 + wstop_at(last_d)), 4),
                      "by": b["by"][:2], "half": False})
     hold.sort(key=lambda h: -h["r"])
     # 🙋 내 포트 (10/14 사용자 「킥 종목 중 체크한 것만 + S&P·나스닥 비중 직접」) — 앱이 계산하도록
@@ -1179,14 +1220,16 @@ def main() -> int:
         "whale": {"q": wq, "ret": round((wval[-1] - 1) * 100, 2), "line": [round((wsv.get(x, 1.0) - 1) * 100, 2) for x in pdates], "sleeve": WSN,
                   "rows": [{"t": b["t"], "n": b["n"], "w13f": b["w"], "by": b["by"], "d0": b["d0"], "entry": round(b["entry"], 4),
                             "now": round(px(b["t"], last_d) or b["entry"], 4), "r": round(((b["exit"] if not b["on"] else (px(b["t"], last_d) or b["entry"])) / b["entry"] - 1) * 100, 2),
-                            "on": b["on"], "w": round(WSN * 100 / max(1, len(wbask)), 2)} for b in wbask],
+                            "on": b["on"], "w": round(WSN * 100 / max(1, len(wbask)), 2), "kind": b.get("kind", "고래"), "was": b.get("was"),
+                            "stop": round(b["entry"] * (1 + wstop_at(last_d)), 4)} for b in wbask],
+                  "stop": wstop_at(last_d), "stop_from": WSTOP_FROM, "cut": sorted(wcut),
                   "events": wev[::-1][:10],
                   "why": "13F 큰 신규 포지션 같은 비중 바스켓은 바이오 펀드를 빼면 매 분기 S&P 를 이김(1개월 5/5 +2.8%p · 3개월 4/4 +3.9%p · 6개월 3/3 +10.0%p, 2025Q2~2026Q2). 하나씩은 반반이라 바스켓으로만, 큰 승자를 자르지 않게 분기 동안 들고 감."} if WS > 0 else None,
         "by_src": {SRC_NAME.get(k, k): v for k, v in ADAPT.items()},
         "src_names": SRC_NAME,
         "note": (f"🧪 {RF}부터 킥 포트 = 규칙을 적용한 기본 칸 {round((1 - SLEEVE - WS2) * 100)}% (① 국면 현금 ③ 강한 칸 기울이기 ④ 추세 브레이크) + 돌파 {round(SLEEVE * 100)}% + 🐋 고래 {round(WS2 * 100)}%. 💼 기본 포트(리포트 그대로)와 S&P500을 같이 놓고 이기는지 본다. " if last_d >= RF else "") +
                 f"⚡ 공격 포트 = 기본 포트에서 현금 {round((SLEEVE + WS) * 100)}%p 를 떼어 「성과가 확인된 신호」(🐋 고래 · ☕ 컵 · 📈 갭 · 🤫 매집 — 표본 20건↑·손익비 1.5↑)에만 담은 것. "
-                f"☕📈🤫 돌파는 확인된 순간 {round(SLEEVE / SLOTS * 100, 1)}%씩(−5% 손절 · +15% 절반 익절), 🐋 고래는 13F 큰 신규를 같은 비중으로 분기 동안(−30%만 정리). "
+                f"☕📈🤫 돌파는 확인된 순간 {round(SLEEVE / SLOTS * 100, 1)}%씩(−5% 손절 · +15% 절반 익절), 🐋 고래는 13F 큰 신규를 같은 비중으로 분기 동안({wstop_txt(last_d)} 손절 · 빈 자리는 ☕ 컵 돌파로 채움). "
                 "아직 확인 안 된 신호는 표본이 차면 저절로 들어온다. 10/9 이전은 같은 규칙으로 되짚은 계산. 현지 통화 기준·수수료 제외. 매수 추천 아님.",
     }
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
