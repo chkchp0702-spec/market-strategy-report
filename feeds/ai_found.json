@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "연준 데일리: 추가 긴축은 AI·관세·에너지 충격이 지속되는지에 달려",
+   "url": "https://investinglive.com/central-banks/fed-s-daly-more-tightening-depends-on-whether-ai-tariff-and-energy-shocks-persist/",
+   "press": "investingLive",
+   "at": "2026-11-10 10:45",
+   "why": "오늘 밤 10월 CPI 앞 연준 매파 톤 — 10년 5% 가설·현금 해제(CPI 월간 근원) 조건과 직결",
+   "summary": "데일리 총재, 인상 필요 여부는 AI 투자·관세·에너지발 물가 충격의 지속성에 달렸다고 언급. 피드(gn_us_fed)에는 「추가 인상 가능성 높다」 제목. 발언 정확한 날짜·문구 미확인."
+  },
+  {
+   "title": "엔비디아 주가 하락 이유 — 황 CEO 스캔들·메가스피드 조사",
+   "url": "https://www.barchart.com/story/news/35991549/why-nvidia-nvda-stock-is-falling-today",
+   "press": "Barchart",
+   "at": "2026-11-10 10:45",
+   "why": "NVDA 홀로 급락·S&P 급등 「역사적 분리」(bbg) — 반도체 반등이 대장주 없이 가능한지, 코스피 삼전·닉스 반등 지속성 점검",
+   "summary": "황 CEO 사생활·中 연계 의혹, 메가스피드 칩 우회 조사 보도로 NVDA 장중 −9%(gn_kr_global). The Information: 대중 수출 통제 강화 직면. 엔비디아는 우회 의혹 「조사·반박됨」 입장."
+  },
+  {
    "title": "모건스탠리 「美 증시 조정 막바지」",
    "url": "https://www.kitco.com/news/off-the-wire/2026-11-02/us-market-correction-nearing-end-morgan-stanley-strategists-say",
    "press": "Kitco/Reuters",
@@ -623,22 +639,6 @@
    "at": "2026-11-06 05:40",
    "why": "🐻 하락장 판정 watch — 나스닥 고점 대비 −10% 조정 진입 확인",
    "summary": "선거 뒤 칩주 투매로 나스닥 조정 영역 진입(Axios 11/5). 장중 나스닥 −5.1%·S&P −4.0%·VIX 26(latest 14:32 EST)."
-  },
-  {
-   "title": "스페이스X, 아폴로 주도 400억$ 차입으로 엔비디아 칩 구매 추진(FT) — 배경 기사",
-   "url": "https://investinglive.com/stocks/spacex-seeks-40-billion-in-debt-led-by-apollo-to-fund-nvidia-chip-order-ft-says/",
-   "press": "investingLive",
-   "at": "2026-11-06 04:40",
-   "why": "11/6 골드만·아폴로가 이 400억$ 거래를 다른 인수자에게 팔려 한다는 블룸버그 보도의 원래 구조 — AI 차입 가설(크레딧) 확인용",
-   "summary": "10/7 보도: 아폴로 주도 400억$ 차입, 그중 약 300억$는 투자등급 채권 구조(inside.com.tw 정리). 11/5 스페이스X 부도위험 신고점(bbg)과 겹쳐 대형 AI 차입의 소화 여부가 관건."
-  },
-  {
-   "title": "AI 공포가 민주당 스윕을 덮었다 — 나스닥 조정 진입",
-   "url": "https://www.thenationalnews.com/business/markets/2026/11/05/ai-fears-overtake-democratic-sweep-as-nasdaq-enters-correction-territory/",
-   "press": "The National",
-   "at": "2026-11-06 02:40",
-   "why": "🐻 하락장 판정 watch·반도체 칸 — 선거 재료가 「AI 데이터센터 지연」 공포로 바뀐 경로 정리",
-   "summary": "나스닥 조정(고점 −10%) 진입, 칩·AI 인프라주 주도 매도. 선거 결과보다 데이터센터 인허가·전력 반발이 핵심 재료로 부각."
   }
  ],
  "at": "2026-11-10 08:40"
