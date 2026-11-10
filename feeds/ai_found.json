@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "월러 연준 이사 「10월 CPI가 뜨거우면 12월 0.5%p 인상 고려해야」",
+   "url": "https://uk.investing.com/news/economy-news/feds-waller-says-larger-hike-should-be-considered-if-october-cpi-runs-hot-4971098",
+   "press": "Investing.com",
+   "at": "2026-11-10 22:45",
+   "why": "오늘 밤 근원 CPI +0.3%(예상 0.2%)로 조건이 걸림 — 12/9 FOMC 분수령 가설·미국채 단기물·🫧 신용 칸",
+   "summary": "월러: 12월 인상 지지, 근원 물가가 높게 나오면 50bp 고려. 발표 결과 헤드라인 +0.4%·근원 +0.3%로 둘 다 예상 +0.1%p 상회(김현석 텔레그램 22:30)."
+  },
+  {
+   "title": "2022년 이후 최대 인상이 이례적인 10월 CPI에 달렸다",
+   "url": "https://www.tipranks.com/news/feds-largest-rate-hike-since-2022-hinges-on-todays-unusual-october-inflation-report",
+   "press": "TipRanks",
+   "at": "2026-11-10 22:45",
+   "why": "1년 전 대비 숫자 없이 전월비만 나오는 CPI — 반응이 전월비에 몰림, 금리 민감주·장기채 칸",
+   "summary": "셧다운 여파로 10월 전년비 CPI 미발표. 전월비 근원이 50bp 인상 여부의 핵심 변수로 지목."
+  },
+  {
+   "title": "평화 협상 속 유가 4주 만의 최저 부근",
+   "url": "https://www.khaleejtimes.com/business/oil-prices-ease-to-nearly-four-week-low-amid-peace-talks",
+   "press": "Khaleej Times",
+   "at": "2026-11-10 22:45",
+   "why": "장부 brent_95(선 90) — 오늘 종가 90↓면 에너지 13→10, XLE 대기 bet",
+   "summary": "미·이란 협상 진전 기대로 브렌트 약세. 알아라비아는 우라늄 3.67% 제한·동결자금 해제 예비 합의 근접 보도."
+  },
+  {
    "title": "중국 10월 생산자물가 4년여 만 최고로 가속",
    "url": "https://tradingeconomics.com/china/producer-prices-change/news/591666",
    "press": "Trading Economics",
@@ -615,38 +639,6 @@
    "at": "2026-11-09 00:40",
    "why": "위험 회피 국면 판정 — 금요일 반등이 추세 전환인지 CPI·코어위브 주간에 확인",
    "summary": "금요일 나스닥 반등에도 S&P 주간 낙폭은 2025년 4월 뒤 최대"
-  },
-  {
-   "title": "BofA: 반도체 업종, 2027년 1분기 회복 가능 — 3가지 시나리오",
-   "url": "https://placera.se/telegram/advanced-micro-devices-bofa-halvledarsektorn-kan-aterhamta-sig-under-forsta-kvartalet-2027-20261106",
-   "press": "Placera(BofA 인용)",
-   "at": "2026-11-09 00:40",
-   "why": "반도체 칸·SMH — 「저점 매수 vs 대기」 판단 기준, 지금 바로 사지 말고 회복 시점은 내년 1분기로 본다는 IB 견해",
-   "summary": "BofA 반도체 3시나리오: 회복은 2027년 1분기 가능 · 단기 추가 하락 여지 열어 둠(세부 수치 미확인)"
-  },
-  {
-   "title": "민주당 승리, 美 데이터센터 확장 늦추고 국채금리 낮출 수 있다(로이터 인용)",
-   "url": "https://timesofoman.com/article/178808-democratic-victories-threaten-to-slow-us-data-centre-expansion-ease-bond-yields-report",
-   "press": "Times of Oman(Reuters)",
-   "at": "2026-11-08 23:40",
-   "why": "AI 차입 가설·고금리 정점 가설 동시 — 규제 리스크는 AI 인프라엔 악재, 장기채엔 호재로 갈라짐",
-   "summary": "중간선거 블루웨이브로 데이터센터 인허가·전력 규제 강화 관측 → AI 설비투자 속도 둔화 우려, 국채금리 하락 요인으로 거론."
-  },
-  {
-   "title": "모닝 비드: 시장, 「블루웨이브가 데이터센터를 삼킬까」 걱정",
-   "url": "https://www.globalbankingandfinance.com/morning-bid-markets-fret-blue-wave-drown-data-centres/",
-   "press": "Global Banking & Finance(Reuters Morning Bid)",
-   "at": "2026-11-08 23:40",
-   "why": "이번 주 코어위브(11/10)·CPI 앞 AI 인프라 심리 — SMH·091160.KS 방향 관찰",
-   "summary": "정책 리스크가 AI 데이터센터 붐의 새 변수로 부상. 세부 숫자 미확인."
-  },
-  {
-   "title": "월가 주간 전망 — 기술주 급락 속 美 물가 지표 대기",
-   "url": "https://www.kitco.com/news/off-the-wire/2026-11-06/wall-st-week-ahead-tech-swoon-roils-market-us-inflation-data-tap",
-   "press": "Reuters(Kitco)",
-   "at": "2026-11-08 22:45",
-   "why": "이번 주 CPI가 12월 인상 여부 결정 — 현금·단기채 칸·고금리 가설 점검",
-   "summary": "S&P 500 2025년 4월 이후 최악의 주(TheStreet). 이번 주 CPI·PPI 발표, 기술주 변동성 지속."
   }
  ],
  "at": "2026-11-10 17:40"
