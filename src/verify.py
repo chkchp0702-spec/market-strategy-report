@@ -60,6 +60,8 @@ def main() -> int:
     day = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
     dbad = duel_check(day, Path(sys.argv[1]))
     dbad = max(dbad, forecast_check(day, Path(sys.argv[1])))
+    from src import qa as _qa   # 💬 11/10 고객 질문 답 (RULES 1-N)
+    dbad = max(dbad, _qa.check(day))
     mp = ROOT / "market" / "latest.json"
     if not mp.exists():
         print("market/latest.json 없음 — 자동 수집치가 아직 없어 대조를 건너뜁니다 (출처 2개 이상으로 직접 확인).")

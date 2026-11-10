@@ -49,6 +49,11 @@ def norm(code: str) -> str:
 
 def main() -> int:
     now = dt.datetime.now(KST)
+    try:   # 💬 11/10 고객 질문 답 → market/qa.json (RULES 1-N)
+        from src import qa as _qa
+        _qa.export()
+    except Exception as e:
+        print("qa 내보내기 실패", e)
     P, K, F = rj(M / "port.json"), rj(M / "kick.json"), rj(M / "focus.json")
     CN = rj(M / "conc.json")        # 🎯 집중 포트 (10/11)
     B, BS, L = rj(ROOT / "brain" / "state.json"), rj(M / "bets_score.json"), rj(ROOT / "ledger" / "ledger.json")
