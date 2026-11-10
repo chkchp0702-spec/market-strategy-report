@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "마이크로소프트, 엔스케일 영국 데이터센터 계약서 빠져 — 350억 달러 상장 흔들",
+   "url": "https://computing.co.uk/news/2026/ai/microsoft-exits-nscale-deal-ipo-at-risk",
+   "press": "Computing",
+   "at": "2026-11-11 05:45",
+   "why": "「다음 약한 고리는 AI 차입」·「AI 안에서도 갈린다」 — 빚으로 짓는 네오클라우드 쪽 자금 조달 경색(🫧 신용 칸)",
+   "summary": "MS가 엔스케일 영국(러프턴) 사이트에서 철수 보도 · 텔레그래프 「350억$ 상장 연기 검토」(로이터 인용, 피드 11/11) · 투자자 역제시 160억~190억$ 보도도(aiweekly)"
+  },
+  {
+   "title": "엔스케일 350억 달러 상장, 노르웨이 건설 지연·바이트댄스 누락으로 흔들",
+   "url": "https://aiweekly.co/alerts/nscales-35b-ipo-shaken-by-norway-build-lag-bytedance-omission",
+   "press": "AI Weekly",
+   "at": "2026-11-11 05:45",
+   "why": "AI 인프라 상장 가격 결정 주간(앤스로픽 11/18)과 같은 시기 — 비상장 AI 인프라 밸류에이션 압박, QQQ·SMH 수급 관찰",
+   "summary": "건설 지연·고객 공시 누락 문제 제기 · 상장 일정 미확인(날짜 미확인)"
+  },
+  {
    "title": "반도체주 하락 5조 달러 육박 — 엔비디아 2019년 이후 가장 극단적 매도 수준",
    "url": "https://finance.yahoo.com/markets/article/chip-stocks-slide-nears-5-trillion-as-nvidia-hits-most-extreme-selling-level-since-2019-191532559.html",
    "press": "Yahoo Finance",
@@ -623,22 +639,6 @@
    "at": "2026-11-09 08:40",
    "why": "美 선물 첫 반응이 황 조사 악재를 흡수 — 월요일 「풀리는 날」 확인(VIX 하락 전환) 여부와 SPY·QQQ 재진입 판단",
    "summary": "일요일 밤 개장 美 지수 선물 반등, 이번 주 CPI·AI 실적이 방향 결정. 피드: 나스닥100 선물 장 초 낙폭 전부 회복·녹색 전환(kimu_nim/48365). 정확한 % 는 미확인."
-  },
-  {
-   "title": "엔비디아 「황 CEO 관련 칩 전용 의혹은 조사 뒤 근거 없음」 반박(CNBC 보도 인용)",
-   "url": "https://www.newsquawk.com/headlines/nvidia-nvda-responds-to-report-ceo-huang-was-target-of-chinese-asset-says-diversion-allegations-were-investigated-and-debunked-reports-cnbc",
-   "press": "Newsquawk",
-   "at": "2026-11-09 07:40",
-   "why": "황 키맨 악재가 「개인 스캔들」에 그치나 「수출 통제 위반」으로 번지나 — AI 반도체(SMH·091160) 월요일 갭 크기 결정",
-   "summary": "엔비디아는 中 정보 자산 표적 보도에 대해 칩 전용 의혹은 이미 조사해 근거 없다고 반박. 이사회 독립 조사는 진행. 주가 영향 숫자는 미확인."
-  },
-  {
-   "title": "IC 설계사, 파운드리 원가 상승에 26년 말~27년 초 5%~두 자릿수 가격 인상 검토(TrendForce)",
-   "url": "https://www.trendforce.com/news/2026/10/05/news-ic-designers-reportedly-eye-5-to-double-digit-price-hikes-in-late-2026-early-2027-as-foundry-costs-rise/",
-   "press": "TrendForce",
-   "at": "2026-11-09 07:40",
-   "why": "파운드리 가격 인상(TSMC 27년 1월·PSMC 10~20%, HANAchina/71766) — 반도체 급락 속 실적 쪽 버팀목, 반도체 ETF 반등 신호 붙을 때 근거",
-   "summary": "파운드리 원가 상승을 반영해 팹리스들이 5%~두 자릿수 인상 검토. PSMC 3Q 로직 평균가 QoQ +8~10%(HANAchina 인용)."
   }
  ],
  "at": "2026-11-11 02:45"
