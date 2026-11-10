@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "코어위브 시간외 +13% — AI 연산 수요로 매출 두 배 넘게, 연간 전망 상향",
+   "url": "https://stocktwits.com/news-articles/markets/equity/ai-compute-demand-has-pushed-core-weave-revenue-to-more-than-double/cZoNQHURJXn",
+   "press": "Stocktwits",
+   "at": "2026-11-11 07:40",
+   "why": "「AI 차입이 약한 고리」(0.92) 반례 — 수요는 강하고 경색은 조달 쪽 · CRWV·SMH·한국 반도체 아침 갭",
+   "summary": "3분기 매출 36.6억$(+168%, 하나 중국 텔레그램) · 연간 가이던스 상향 · 시간외 +13%(stocktwits, 정확한 마감 뒤 수치 미확인)"
+  },
+  {
+   "title": "美 10년 금리 5%로 질주 — CPI·월러 발언에 인상 기대",
+   "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
+   "press": "CNBC",
+   "at": "2026-11-11 07:40",
+   "why": "「고금리 정점」(0.35) 판정 — 종가 4.985%로 5% 아래 마감, 깨짐 선 미달 · 장기채 나눠 사기 시점",
+   "summary": "10년 4.9854%(+10.3bp)·2년 4.7335%(+17.2bp)·10Y-2Y 25bp로 축소(globalmktinsight 07:20) · FedWatch 12월 인상 확률 100%"
+  },
+  {
    "title": "마이크로소프트, 엔스케일 영국 데이터센터 계약서 빠져 — 350억 달러 상장 흔들",
    "url": "https://computing.co.uk/news/2026/ai/microsoft-exits-nscale-deal-ipo-at-risk",
    "press": "Computing",
@@ -623,22 +639,6 @@
    "at": "2026-11-09 09:40",
    "why": "AI 차입(크레딧) 가설 0.92 의 시험대 — 11/10 실적이 네오클라우드 채권·빅테크 스프레드 분리 여부를 가른다",
    "summary": "코어위브 지난 한 달 −45%. 11/10 3분기 실적 발표. 마진·부채 조달이 관건(원문)."
-  },
-  {
-   "title": "대만, AI 매도세 막으려 시장 안정 조치 가동(국가금융안정기금 개입·공매도 억제)",
-   "url": "https://www.siliconreport.com/taiwan-activates-market-stabilization-measures-to-stem-ai-selloff",
-   "press": "Silicon Report",
-   "at": "2026-11-09 08:40",
-   "why": "🐻 하락장 판정 watch — 한국(신용 담보 면제)에 이어 대만도 정책 바닥 조치, 아시아 반도체 강제 매도 정점 신호 후보",
-   "summary": "대만 당국이 국안기금 개입과 대차 매도 한도 축소·신용공매도 증거금 상향을 병행(HANAchina/71772: 10번째 개입, 과거 개입 1개월 뒤 상승 확률 약 77.7%). 세부 금액은 미확인."
-  },
-  {
-   "title": "「5조 달러 AI 폭락」 뒤 美 선물 반등 — CPI·실적 몰린 한 주",
-   "url": "https://tradezero.com/blog/stock-futures-jump-ahead-of-a-monster-week-after-a-usd5-trillion-ai-rout",
-   "press": "TradeZero",
-   "at": "2026-11-09 08:40",
-   "why": "美 선물 첫 반응이 황 조사 악재를 흡수 — 월요일 「풀리는 날」 확인(VIX 하락 전환) 여부와 SPY·QQQ 재진입 판단",
-   "summary": "일요일 밤 개장 美 지수 선물 반등, 이번 주 CPI·AI 실적이 방향 결정. 피드: 나스닥100 선물 장 초 낙폭 전부 회복·녹색 전환(kimu_nim/48365). 정확한 % 는 미확인."
   }
  ],
  "at": "2026-11-11 02:45"
