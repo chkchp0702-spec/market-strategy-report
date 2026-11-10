@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "TheStreet: 10월 CPI 뒤 나스닥 하락 — 엔비디아 −6%·GE버노바 −7%·퍼스트솔라 −6%",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026",
+   "press": "TheStreet",
+   "at": "2026-11-11 03:45",
+   "why": "금리 5% 위에서 AI·전력 장비 고평가주부터 매도 — ⚡ 공격 칸 「전력」 동점 후보 순서 재점검",
+   "summary": "12:37 ET S&P −0.83%. 하락 상위 스카이댄스 −7.8%·GE버노바 −7.1%·퍼스트솔라 −6.3%·엔비디아 −6.0%. 개장 때 러셀2000은 +3.15%."
+  },
+  {
+   "title": "CNBC: 마이크로소프트, 앤스로픽의 오피스 위협에 장중 급락",
+   "url": "https://cnbc.com/2026/11/10/stock-market-movers-live-updates.html",
+   "press": "CNBC",
+   "at": "2026-11-11 03:45",
+   "why": "「현금 도는 AI(MS)」 가설 반례 — AI 소프트웨어 칸·MS 시총 추월 하루 만의 반전",
+   "summary": "앤스로픽이 상장 앞두고 오피스용 AI 도구 공개 → MS 장중 급락(정확한 % 미확인). 같은 날 구글 100억·AMD 25억·TSMC 최대 10억 달러 앤스로픽 지분 투자 보도."
+  },
+  {
    "title": "앤스로픽 완전희석 1.4조 달러 상장 추진 — 11/18 가격 결정, 최대 904억 달러 조달",
    "url": "https://www.business-standard.com/world-news/anthropic-targets-1-4-tn-valuation-in-ipo-eyes-90-4-billion-fundraise-126111000700_1.html",
    "press": "Business Standard(블룸버그)",
@@ -623,22 +639,6 @@
    "at": "2026-11-09 06:40",
    "why": "AI 차입 가설(0.92)의 이번 주 시험대 — CRWV 채권·주가가 AI 인프라 신용 스트레스 바로미터",
    "summary": "데이터센터 지연으로 연간 매출 가이던스 하향 이력(itiger). 옵션 내재 변동 두 자릿수 %(tipranks, 정확 수치 날짜 미확인)."
-  },
-  {
-   "title": "BofA 하트넷 「민주당 스윕은 채권에 우호 — 4분기 역발상 채권 매수」",
-   "url": "https://cryptobriefing.com/hartnett-democratic-sweep-bonds-contrarian/",
-   "press": "Crypto Briefing",
-   "at": "2026-11-09 05:40",
-   "why": "고금리 정점 가설·채권 칸(단기채 vs 중장기채) — 재정지출 둔화 + AI 투자 감속이 장기금리 하락 쪽",
-   "summary": "하트넷은 민주당 의회 장악이 재정 지출을 묶어 국채에 유리하다고 봄. 선거 뒤 국채 랠리·10년 한 달 저점(investinglive)과 같은 방향."
-  },
-  {
-   "title": "트럼프, 이란 공격 재개 가능성 낮춰 — 「선거 뒤 공격 재개」 우려 진정",
-   "url": "https://www.al-monitor.com/originals/2026/11/trump-raises-doubts-about-renewed-attacks-iran",
-   "press": "Al-Monitor",
-   "at": "2026-11-09 04:40",
-   "why": "브렌트 95 장부 조건(에너지 칸)·월요일 유가 갭 방향 — 후티 리야드 타격과 상쇄",
-   "summary": "트럼프가 중간선거 뒤 대이란 공격 재개에 의문 제기. 11/8 CNN 보도로 「협상 진전 시 공격 안 할 듯」 재확인(Reuters 피드). 유가 반응 숫자는 선물 개장 전이라 미확인."
   }
  ],
  "at": "2026-11-11 02:45"
