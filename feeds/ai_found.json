@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "인피니언, AI 데이터센터 전력 반도체 수요로 연간 가이던스 상향",
+   "url": "https://au.marketscreener.com/news/infineon-raises-annual-guidance-driven-by-ai-demand-ce7f58dddc8df625",
+   "press": "MarketScreener(로이터)",
+   "at": "2026-11-10 17:40",
+   "why": "AI capex 「연기」(모건스탠리) 우려와 반대 숫자 — 반도체 칸·091160 다시 사기 판단에서 「전력 반도체」는 아직 수요가 강하다는 근거",
+   "summary": "인피니언이 AI 데이터센터 전력 솔루션 수요를 이유로 분기 매출 가이던스를 예상보다 높게 제시, 유럽 장 초반 급등(investing 피드 동일 보도). 메모리 이익 절벽 하향(MS)과 엇갈리는 AI 수요 신호."
+  },
+  {
    "title": "모건스탠리 「블루 웨이브」 영향: 美 신규 데이터센터 20% 2029년으로, 칩 40% 2028년 전 전력 못 받을 수도",
    "url": "https://wallstreetcn.com/articles/3785634",
    "press": "월스트리트견문(모건스탠리 인용)",
@@ -641,5 +649,5 @@
    "summary": "S&P −4.36%(7,353)·나스닥 −5.52%·다우 −3.44%, VIX 28.18(+70%) (latest.json)."
   }
  ],
- "at": "2026-11-10 16:45"
+ "at": "2026-11-10 17:40"
 }
