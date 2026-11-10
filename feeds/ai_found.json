@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "마이크로소프트, 엔비디아 −6% 속 시가총액 추월 — 2025년 6월 이후 처음",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-tops-nvidia-market-cap-193114512.html",
+   "press": "Yahoo Finance",
+   "at": "2026-11-11 08:45",
+   "why": "「AI 안에서도 갈린다」(0.6) — 현금 도는 MS vs 대장주 단독 위험 엔비디아 · 💬 3·5번",
+   "summary": "엔비디아 이틀 −10%대 하락으로 MS가 시총 2위 탈환 · CEO 의혹 조사로 엔비디아 시총 약 4,700억 달러 감소 위험 거론(ibtimes)"
+  },
+  {
+   "title": "Microsoft Overtakes Nvidia as Jensen Huang Affair Probe Threatens $470 Billion Market Value Loss",
+   "url": "https://www.ibtimes.co.uk/microsoft-overtakes-nvidia-amid-jensen-huang-reports-1831499",
+   "press": "IBTimes UK",
+   "at": "2026-11-11 08:45",
+   "why": "엔비디아 단일 위험(CEO 조사)이 AI 수요와 분리돼 값을 깎는 중 — 11/17 실적·11/18 하원 브리핑 전 SMH·한국 반도체 상대강도",
+   "summary": "CEO 조사로 엔비디아 시총 약 4,700억 달러 손실 위험 · MS 시총 약 4.03조 달러로 2위(미확인 수치 — 매체별 상이)"
+  },
+  {
    "title": "코어위브 시간외 +13% — AI 연산 수요로 매출 두 배 넘게, 연간 전망 상향",
    "url": "https://stocktwits.com/news-articles/markets/equity/ai-compute-demand-has-pushed-core-weave-revenue-to-more-than-double/cZoNQHURJXn",
    "press": "Stocktwits",
@@ -623,23 +639,7 @@
    "at": "2026-11-09 10:45",
    "why": "🐻 하락장 watch — 대만 +3%(40,903)·TOPIX +3%와 같은 흐름, 반발이 칩 단독인지 아시아 전반인지 확인용",
    "summary": "美 반도체 반등·트럼프 이란 공격 가능성 낮춤 발언으로 아시아 위험 선호 회복. 기사 날짜 미확인 — 피드 HANAchina/71780 숫자로 교차 확인."
-  },
-  {
-   "title": "10월 고용 호조로 12월 연준 인상 확률 약 80%",
-   "url": "https://www.bisnow.com/news/national/economy/80-likelihood-of-fed-rate-hike-following-job-gains-67292",
-   "press": "Bisnow",
-   "at": "2026-11-09 09:40",
-   "why": "이번 주 CPI 가 12월 인상을 굳히면 성장주·나스닥 조정 연장 — 고금리 정점 가설(0.45) 반대 근거",
-   "summary": "10월 비농업 +16.5만으로 예상 상회. 12월 인상 확률 약 80%로 반영(원문)."
-  },
-  {
-   "title": "코어위브 주가 한 달 −45% — 11/10 실적 앞두고 매수할 만한가",
-   "url": "https://www.morningstar.com/stocks/coreweave-shares-are-down-45-past-month-is-stock-buy-ahead-earnings",
-   "press": "Morningstar",
-   "at": "2026-11-09 09:40",
-   "why": "AI 차입(크레딧) 가설 0.92 의 시험대 — 11/10 실적이 네오클라우드 채권·빅테크 스프레드 분리 여부를 가른다",
-   "summary": "코어위브 지난 한 달 −45%. 11/10 3분기 실적 발표. 마진·부채 조달이 관건(원문)."
   }
  ],
- "at": "2026-11-11 02:45"
+ "at": "2026-11-11 08:50"
 }
