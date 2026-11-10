@@ -25,6 +25,14 @@ def check(day: dict) -> int:
     for m in MUST:
         if not re.search(m, qs):
             bad.append(f"「{m}」 갈래 질문이 없음")
+    bond = [it for it in items if re.search(r"채권|금리", str(it.get("q", "")))]
+    if bond:   # 🧾 11/10 사용자 「채권 금리는 한국 미국 브라질 다 대답해」
+        bt = json.dumps(bond[0], ensure_ascii=False)
+        for w, why in ((r"한국|국고채|🇰🇷", "한국 국고채"), (r"미국|미국채|🇺🇸", "미국채"), (r"브라질|헤알|🇧🇷", "브라질 국채")):
+            if not re.search(w, bt):
+                bad.append(f"채권 답에 {why} 금리가 없음 — 한국·미국·브라질 모두")
+        if re.search(r"브라질|헤알", bt) and not re.search(r"중개|요청", bt):
+            bad.append("채권 답 브라질 부분에 「중개 상품 — 고객 요청 시에만 안내·제안 가능」 문구가 없음")
     for n, it in enumerate(items, 1):
         q = it.get("q", f"{n}번")
         if len(str(it.get("a", ""))) < 25:
