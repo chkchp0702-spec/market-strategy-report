@@ -65,7 +65,14 @@ MAXC = {"🐻": 30, "🟡": 10, "🟢": 0}
 # 11/09 오후 2차 「코스피는 켜고 미국은 끄는걸로」(lab b1109_cash · 2012 앞에서 고르고 뒤에서 확인):
 #   🇰🇷 K100 = 🐻 하락장이면 주식 몫 전부 현금(100%) · 🟡 조정은 0% · 판정 풀릴 때(고점 −10% 위 + 200일선 위)까지 — 앞 +0.85 · 뒤 +1.11%p · 낙폭 −54.5→−33.7
 #   🇺🇸 OFF  = 현금 규칙 끔(2013 이후 판 60개 전부 보유에 짐) — 판정은 참고로만 보여 줌
-RULE = {"kospi": "K100", "kosdaq": "REF", "sp500": "B50", "nasdaq": "OFF"}
+RULE = {"kospi": "K100", "kosdaq": "C6", "sp500": "B50", "nasdaq": "OFF"}
+# 🏁 11/11 사용자 「각 시장의 최선을 다 백테스트 해서 수익률 제일 좋았던 방식을 채택해」 → src/best_bt.py (market/best_bt.json)
+#   들어가기 7 × 나오기 5 × 몫 2 × 피난처 + 지금 규칙·지금 규칙+겹치기 · 앞(~2012)·뒤(2013~) 둘 다 보유를 이긴 것 중 전체 연수익 1등
+#   🇰🇷 코스피 = 지금 규칙(K100+신용 경보) + 「버블 시계 4.5시 → 바닥 ①④ 까지 현금 100%」 · 연 9.66 → 10.66% · 낙폭 −28.7 → −25.8% (단, 2013 뒤만 보면 9.13 → 7.93%)
+#   🇰🇷 코스닥 = C6 「버블 시계 6시 → 신저가 뒤 바닥 신호 3개까지 현금 100%」 · 보유 −0.81 → 4.67% · 낙폭 −72.3 → −50.8%
+#   🇺🇸 S&P500 = B50 + 「신용 경보+200일선 아래 → 바닥 ①④ 까지 절반 중기국채」 · 9.20 → 9.41% · 낙폭 −42.0 → −40.1%
+#   🇺🇸 나스닥 = 211판 중 앞·뒤 모두 보유를 이긴 판 없음 → 그냥 들고 있기(OFF)
+BEST = {"kospi": (100, "🏁 버블 시계 4.5시"), "kosdaq": (100, "🏁 버블 시계 6시"), "sp500": (50, "🏁 신용 경보 + 200일선 아래")}
 # 🌱 11/11 사용자 「코스피나 코스닥도 바닥 신호 나오면 알려주고 비중 담게 하자」 → src/kr_floor_bt.py (market/kr_floor_bt.json)
 #   🐻 동안 신저가 뒤 바닥 신호(①④ · ①②④ · 3개 · 계단)로 먼저 다시 담는 판 5개 모두: 앞(~2012)은 K100 보다 +2.4~+6.3%p 좋았지만
 #   뒤(2013~)는 −2.2~−2.5%p 나빴고 최대 낙폭도 커짐(코스피 −33.7 → −63%) → 비중 자동 담기는 연결 안 함 · 바닥 신호는 새로 켜질 때마다 🌱 알림(참고)
@@ -86,10 +93,11 @@ RULE_NM = {"E": "추세 확인 — 저점 다지기 + 50일선 위면 현금 10%
            "F": "판정만 — 하락장이 풀릴 때(고점 −10% 위 + 200일선 위)까지 현금 유지 · 바닥 신호로 미리 안 삼",
            "K100": "하락장이면 주식 몫 전부 현금(100%) — 판정이 풀릴 때(고점 −10% 위 + 200일선 위)까지 · 조정(−10%)은 현금 안 늘림",
            "B50": "조정(고점 −10%)이면 주식 몫 절반을 채권형(중기국채)으로 — 신저가가 나온 뒤 바닥 신호 3개 이상 켜지면 다시 주식",
+           "C6": "버블 시계 6시가 되면 주식 몫 전부 현금 — 신저가가 나온 뒤 바닥 신호 3개 켜지면 다시 주식 (11/11 best_bt 1등)",
            "REF": "현금 규칙 없음(참고) — 판정과 바닥 신호만 보여 주고, 바닥 신호가 새로 켜지면 알림",
            "OFF": "현금 규칙 꺼 둠 — 2013년 이후엔 어떤 현금 규칙도 그냥 보유를 못 이김 · 판정은 참고로만"}
-USE = {"REF": [True, True, True, True], "B50": [True, True, True, True], "E": [True, True, False, True], "F": [False] * 4, "K100": [False] * 4, "OFF": [False] * 4}
-MAXR = {"REF": {"🐻": 0, "🟡": 0, "🟢": 0}, "B50": {"🐻": 0, "🟡": 0, "🟢": 0},   # B50 은 상태 기계라 live 에서 b50_walk 로 셈(--bt 표는 보유로 나옴 · 진짜 검증은 us_floor_bt.json)
+USE = {"C6": [True, True, True, True], "REF": [True, True, True, True], "B50": [True, True, True, True], "E": [True, True, False, True], "F": [False] * 4, "K100": [False] * 4, "OFF": [False] * 4}
+MAXR = {"C6": {"🐻": 0, "🟡": 0, "🟢": 0}, "REF": {"🐻": 0, "🟡": 0, "🟢": 0}, "B50": {"🐻": 0, "🟡": 0, "🟢": 0},   # B50 은 상태 기계라 live 에서 b50_walk 로 셈(--bt 표는 보유로 나옴 · 진짜 검증은 us_floor_bt.json)
         "K100": {"🐻": 100, "🟡": 0, "🟢": 0}, "OFF": {"🐻": 0, "🟡": 0, "🟢": 0}}
 
 
@@ -140,6 +148,8 @@ def b50_walk(cl, vx):
 
 
 def ladder(rid, st):
+    if rid == "C6":
+        return [[100, "버블 시계 6시 — 주식 몫 전부 현금"], [0, "신저가 뒤 바닥 신호 3개 · 또는 신저가 없이 −10% 위로"]]
     if rid == "REF":
         return []
     if rid == "B50":
@@ -247,6 +257,12 @@ def judge(closes, vix=None, foreign=None, kind="us", prev_bear=False, i=None):
 
 def advice(name, r):
     st, cash, rid = r["state"], r["cash"], (r.get("rule") or {}).get("id", "F")
+    if r.get("best_on"):
+        b = r["best"]
+        return (f"{name} {'하락장' if st == '🐻' else '조정' if st == '🟡' else '정상'} · {r['best_why']}({b.get('since') or ''}~) — 주식 몫 {r['cash']}% {r.get('to', '현금')}으로 · "
+                f"신저가 뒤 바닥 신호({'①④' if b.get('exit') == 'floor14' else '3개'})가 켜지면 다시 주식 · 지금 바닥 신호 {b.get('nb', 0)}/4")
+    if rid == "C6":
+        return f"{name} {'하락장' if st == '🐻' else '조정' if st == '🟡' else '정상'} — 주식 비중 그대로 (버블 시계 6시가 되면 전부 현금)"
     if rid == "REF":
         if st == "🟢":
             return f"{name} 정상 — 바닥 신호 볼 필요 없음"
@@ -522,6 +538,14 @@ def live(dry=False):
             r["cash"] = 50 if inn else 0
             r["to"] = "채권형"
             r["b50"] = {"on": inn, "since": str(s.index[i0].date()) if inn and i0 is not None else None, "seen": seen, "nb": nb}
+        bb_ = ((rj(PROXY, {}) or {}).get("best") or {}).get(key)
+        if key in BEST and bb_:
+            r["best"] = bb_
+            if bb_.get("on") and r["cash"] < BEST[key][0]:
+                r["cash"] = BEST[key][0]
+                r["best_on"] = True
+                r["best_why"] = BEST[key][1]
+                r["ladder"] = [[BEST[key][0], BEST[key][1] + " 켜짐"], [0, "신저가 뒤 바닥 신호 " + ("①④" if bb_.get("exit") == "floor14" else "3개") + " · 또는 신저가 없이 −10% 위로"]]
         if key in CLOCK_ON:
             bp = rj(PROXY, {}) or {}
             r["clock"] = {k_: bp.get(k_) for k_ in ("h", "h_kr", "kospi_on", "since", "kospi_below200", "asof_us")}

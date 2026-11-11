@@ -23,6 +23,7 @@
 from __future__ import annotations
 import datetime as dt
 import json
+import sys
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -258,7 +259,9 @@ def live():
     """🇰🇷 코스피 현금 규칙에 붙는 「🕰 대리 시계」 — 매시간(fetch.yml) · 🐻 계기판(bear_gate)이 읽음
        KC = K100 + (대리 시계 ≥ 3시 그리고 코스피 200일선 아래 → 주식 몫 전부 현금 · 시계 1.5시 아래거나 200일선 위로 + 3시 아래면 풀림)
        — 11/11 백테스트에서 2012년까지 고르고 2013년부터 확인: K100 보다 앞 +1.6 · 뒤 +1.0%p/년 · 최대 낙폭 −33.7 → −28.7%"""
-    px = load((dt.date.today() - dt.timedelta(days=900)).isoformat())
+    global SYMS
+    SYMS = SYMS + [x for x in ("^KQ11", "^VIX") if x not in SYMS]
+    px = load((dt.date.today() - dt.timedelta(days=1100)).isoformat())
     C = cells(px)
     hh, comps, hf = clock(C)   # hh = 순서 문 있는 옛 계산(코스피 KC 규칙이 검증된 신호 — 그대로 둠) · hf = 11/11 손질한 새 시계(다 더함)
     k = px.get("^KS11")
@@ -280,6 +283,29 @@ def live():
            "cells": {kk: (None if pd.isna(v) else float(v)) for kk, v in last.items()},
            "rule": "대리 시계 ≥ 3시(신용 단계 다 울음) + 코스피 200일선 아래 → 코스피 주식 몫 전부 현금 · 시계 1.5시 아래 또는 200일선 위 + 3시 아래면 풀림",
            "note": "앱 버블 시계와 달리 손 칸(FCF·CDS·규제) 없이 기계 칸으로만 — 과거 검증과 같은 시계"}
+    # 🏁 11/11 best_bt 채택 방식 (시장별 1등) — 매일 상태
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import best_bt as BB
+        hfree = hf
+        best = {}
+        for key, sym, e, x in (("kospi", "^KS11", "clock4.5", "floor14"), ("kosdaq", "^KQ11", "clock6", "floor3"), ("sp500", "^GSPC", "credit200", "floor14")):
+            s_ = px.get(sym)
+            if s_ is None or len(s_) < 300:
+                continue
+            ii = s_.index
+            f = BB.feats(s_, px["^VIX"], hfree.reindex(ii).ffill().fillna(0).values, comps["💳 신용"].reindex(ii).ffill().fillna(0).values)
+            on = BB.walk(f, e, x)
+            st = None
+            if on[-1]:
+                j = len(on) - 1
+                while j > 0 and on[j - 1]: j -= 1
+                st = str(ii[j].date())
+            best[key] = {"on": bool(on[-1]), "since": st, "ent": e, "exit": x, "h_free": float(hfree.reindex(ii).ffill().iloc[-1]),
+                         "cred": round(float(comps["💳 신용"].reindex(ii).ffill().iloc[-1]), 3), "nb": int(f["nb"][-1]), "low60_seen": None, "asof": str(ii[-1].date())}
+        out["best"] = best
+    except Exception as ex:
+        print("best 상태 실패", ex)
     LIVE.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print("대리 시계", out["h"], "코스피 켜짐", on, since)
     return 0
