@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11 14:45",
+ "at": "2026-11-11 15:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "kwusa/61717": {
@@ -7,40 +7,15 @@
    "why": "앤트로픽 IPO 가치 2조→1.5조$ 하향설 — AI 자본조달 창구 위축, AI 차입 가설 +1",
    "at": "2026-11-09 15:40"
   },
-  "n/swwwftcomcontent45dce79e275843f2a06c3c56db392f39syn25a6b1a61": {
-   "lv": 1,
-   "why": "사우디 동서 송유관 또 피격(메디나) — 당국 「운영 영향 없음」, 유가 하락 흐름 꺾을지가 🐻 현금 해제·CPI 경로와 이어짐",
-   "at": "2026-11-10 03:40"
-  },
   "n/swwwftcomcontentefe9653b6802485e8eae97fa2e6df770syn25a6b1a61": {
    "lv": 1,
    "why": "AI 차입·대장주 가설 — FT 「AI 강세장 끝났나 우려에 방어주로 자금 이동」: 반도체 칸 축소·🐻 현금 유지와 같은 방향, 오늘 밤 CPI 전 회전 신호",
    "at": "2026-11-10 14:40"
   },
-  "HANAchina/71895": {
-   "lv": 1,
-   "why": "AI 크레딧·capex 가설 — 모건스탠리 「美 신규 DC 20% 2029년 연기·칩 40% 전력 못 받음」, 반도체 반등의 반대 근거",
-   "at": "2026-11-10 16:45"
-  },
   "n/s20261110fedswallerbacksdecemberratehikesaysopentolargermove": {
    "lv": 1,
    "why": "논지 「12/9 FOMC 분수령」·AI 차입 — 월러 12월 인상 지지·50bp 가능, 오늘 밤 CPI 민감도↑",
    "at": "2026-11-10 18:40"
-  },
-  "n/ccom20261110anthropicsetspricerangeof70to78inupcomingipohtml": {
-   "lv": 1,
-   "why": "앤스로픽 공모가 70~78$·8.25억주 확정 — AI 자금 흡수·QQQ 공급 부담(👀 관찰, 「AI 안에서도 갈린다」 가설)",
-   "at": "2026-11-10 21:40"
-  },
-  "kimu_nim/48540": {
-   "lv": 2,
-   "why": "10월 CPI 예상 상회(전월비 +0.4% vs 0.3%·근원 +0.3% vs 0.2%) — 월러 「근원 높으면 12월 50bp 고려」 조건 충족: 12/9 FOMC 분수령·고금리 정점 가설·AI 차입 가설 직격",
-   "at": "2026-11-10 22:45"
-  },
-  "kimu_nim/48538": {
-   "lv": 1,
-   "why": "장부 brent_95(선 90)·XLE 대기 bet — 美·이란 우라늄 3.67% 제한·동결자금 해제 예비 합의 근접(알아라비아): 유가 추가 하락 쪽",
-   "at": "2026-11-10 22:45"
   },
   "n/1110coreweaveboostsannualforecasteasingconcernsaboutslowdown": {
    "lv": 1,
@@ -72,11 +47,6 @@
    "why": "🧠 「AI 차입이 약한 고리」(0.92) — 소프트뱅크 7~9월 순손실 1.1조엔·주가 −10% = 오픈AI·스타게이트 자금줄의 체력 · GEV 조달 조정과 이어짐",
    "at": "2026-11-11 10:45"
   },
-  "n/0261111hedgefundriskretreatlargestinadecadesaysmorganstanley": {
-   "lv": 1,
-   "why": "🧠 「12/9 FOMC 2018 분수령」 — 헤지펀드 위험 축소 10여 년 만 최대(MS 프라임) · 외국인 한국 매도의 배경",
-   "at": "2026-11-11 11:45"
-  },
   "HANAchina/71925": {
    "lv": 1,
    "why": "💬 8·9번 — 골드만 인상 3회(12월 25bp+27년 3월)·첫 인하 27년 12월 · 0.5%p 쏠림 아님",
@@ -92,16 +62,6 @@
    "why": "배런스 「12월 0.5%p 인상」 논거 — thesis 「12/9 FOMC 분수령」·💬 11번 인상 폭 질문 직결",
    "at": "2026-11-11 12:45"
   },
-  "n/httpswwwynacokrviewAKR20261111082500002": {
-   "lv": 1,
-   "why": "국고채 담합 과징금 역대 최대 1.6조·7곳 고발 — 국고채 시장 조성 위축·증권사 충당금 → 💬 12번 한국 국고채 금리(3년 장중 3.716%)",
-   "at": "2026-11-11 12:45"
-  },
-  "n/sasianaistocksriseascoreweavejumps13afterearningsbeat5017648": {
-   "lv": 1,
-   "why": "네오클라우드 실적 호조 → 「AI 차입이 약한 고리」 가설(0.92)의 단기 반대 근거 · 한국 반도체 +5.5% 동력",
-   "at": "2026-11-11 13:45"
-  },
   "n/rb2lBTFNKN2J1Uy1OYmRSczRoQmZsZlBtaHZPYzdnM1NSZTR5ODdsbEVVoc5": {
    "lv": 1,
    "why": "로이터 조사도 12월 인상 다수 — 「12/9 FOMC 분수령」 가설 근거",
@@ -112,10 +72,15 @@
    "why": "🫧 「AI 차입이 다음 약한 고리」 가설 직결 — 은행이 AI 대출 한도에 닿아 신용보험으로 위험을 넘김",
    "at": "2026-11-11 14:45"
   },
-  "n/m43YjRhYXB0a29LbllQYUFxNkY5WUZ1MlJ4U0tELVNTa3c3Vkl1YlJyOAoc5": {
+  "n/approves1blninvestmentinanthropicopenaisharesrise93CH5017730": {
    "lv": 1,
-   "why": "「현금이 스스로 도는 AI(MS)가 빚으로 짓는 곳을 이긴다」 가설 근거 — MS 시총이 엔비디아 추월",
-   "at": "2026-11-11 14:45"
+   "why": "TSM 대기 bet(11/11 시가)·☕ ins 신호 직결 — TSMC 이사회 앤스로픽·오픈AI 10억$ 투자 승인, 대만 가권 +3.11% 마감",
+   "at": "2026-11-11 15:45"
+  },
+  "n/zRDVxOWRFbm05ZEU3dFJoeklvaTljRXUtVk9iVWZ3QUI2U0JqRHQ3Q1Y3oc5": {
+   "lv": 1,
+   "why": "한은 11월 추가 인상 초읽기 — 💬 채권·예금 답(국고채 3년 3.716%)·국내 현금 칸 금리와 직결",
+   "at": "2026-11-11 15:45"
   }
  }
 }
