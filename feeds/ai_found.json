@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "「연준은 엉뚱한 물가와 싸운다」 — 전략가, 10월 CPI 뒤 0.5%p 인상은 '무모'하다고 경고",
+   "url": "https://www.benzinga.com/news/macro-notification/26/11/63132004/fed-is-fighting-the-wrong-inflation-strategist-warns-kevin-warsh-against-reckless-50-basis-point-rate-hike-after-hotter-than-expected-october-cpi",
+   "press": "Benzinga",
+   "at": "2026-11-12 01:45",
+   "why": "12/9 FOMC 분수령 가설의 반대 근거 — 0.5%p 인상 반대론이 커지는지가 「완화로 말 바꾸기」 신호",
+   "summary": "10월 CPI 상회 뒤 0.5%p 인상론에 맞서 '공급·관세 물가에 금리로 대응하는 건 무모' 주장. 시장은 12월 인상은 가격에 넣었고 폭이 쟁점."
+  },
+  {
+   "title": "10월 CPI 충격에 미 국채금리 급등 — 연준 긴축 베팅 되살아나",
+   "url": "https://www.investing.com/news/economy-news/us-treasury-yields-surge-as-hot-cpi-revives-fed-tightening-bets-93CH-5016707",
+   "press": "Investing.com",
+   "at": "2026-11-12 01:45",
+   "why": "美 10년 5% 감시선 — 11/11 휴장 뒤 오늘 밤 재개 때 5% 재돌파 여부가 반도체 반등의 확인 조건",
+   "summary": "CPI 상회로 2년·10년 금리 급등, 10년 장중 5% 돌파 후 4.985% 마감. 12월 인상 확률 사실상 100%."
+  },
+  {
    "title": "댈러스 연은 로건: 「최소 두 차례 더 0.25%p 인상 필요」",
    "url": "https://investinglive.com/central-banks/fed-s-logan-at-least-two-more-quarter-point-rate-hikes-needed/",
    "press": "investingLive",
@@ -623,22 +639,6 @@
    "at": "2026-11-10 02:40",
    "why": "🐻 현금 해제 판단 — 대표 전략가의 「조정 막바지」 판단, 골드만 PB 헤지펀드 청산 막바지 보도와 같은 방향",
    "summary": "윌슨, 시장 조정이 거의 끝났다고 보고 S&P 500 8,500 제시(작성일 미확인 — 피드 yahoo 11/9 「2027 대담한 콜」과 같은 맥락)."
-  },
-  {
-   "title": "골드만 PB: 헤지펀드, 美 기술주 노출 기록적 속도로 축소",
-   "url": "https://www.hedgeweek.com/hedge-funds-slash-us-technology-exposure-as-ai-trade-unwind-accelerates-says-goldman-sachs/",
-   "press": "Hedgeweek",
-   "at": "2026-11-10 01:40",
-   "why": "🇺🇸 기술·반도체 칸, AI 차입 가설 — 숏·청산이 쌓인 곳은 반등 탄력도 큼(포지션 바닥 신호 후보)",
-   "summary": "골드만 프라임 데이터상 헤지펀드가 美 기술주 노출을 사상 최고 수준 속도로 줄임. 지난주 나스닥 −6.4%와 겹침."
-  },
-  {
-   "title": "굴스비 시카고 연은 총재 「인플레 대응 실패 인정해야」",
-   "url": "https://www.fxstreet.com/news/feds-goolsbee-warns-hot-cpi-unacceptable-as-services-inflation-bites-202610141924",
-   "press": "FXStreet(이전 발언 맥락)·블룸버그 11/9",
-   "at": "2026-11-10 01:40",
-   "why": "고금리 정점 가설 — 11/10 CPI 앞 연준 매파 톤 유지, 금리 하락 기대 제한",
-   "summary": "굴스비 「서비스 물가 다시 상승」 경고(블룸버그 11/9 피드). 10월에도 「뜨거운 CPI 용납 못해」 발언."
   }
  ],
  "at": "2026-11-12 00:45"
