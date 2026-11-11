@@ -298,14 +298,14 @@ def live():
             onb = BB.walk(f, e, x)
             st = None
             if onb[-1]:
-                j = len(on) - 1
+                j = len(onb) - 1
                 while j > 0 and onb[j - 1]: j -= 1
                 st = str(ii[j].date())
             best[key] = {"on": bool(onb[-1]), "since": st, "ent": e, "exit": x, "h_free": float(hfree.reindex(ii).ffill().iloc[-1]),
                          "cred": round(float(comps["💳 신용"].reindex(ii).ffill().iloc[-1]), 3), "nb": int(f["nb"][-1]), "low60_seen": None, "asof": str(ii[-1].date())}
         out["best"] = best
     except Exception as ex:
-        print("best 상태 실패", ex)
+        import traceback; traceback.print_exc(); print("best 상태 실패", ex)
     LIVE.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print("대리 시계", out["h"], "코스피 켜짐", on, since)
     return 0

@@ -149,7 +149,7 @@ def b50_walk(cl, vx):
 
 def ladder(rid, st):
     if rid == "C6":
-        return [[100, "버블 시계 6시 — 주식 몫 전부 현금"], [0, "신저가 뒤 바닥 신호 3개 · 또는 신저가 없이 −10% 위로"]]
+        return [[100, "버블 시계 6시 — 주식 몫 전부 현금"], [0, "신저가 뒤 바닥 신호 3개 · 또는 신저가 없이 시계 4.5시 아래로"]]
     if rid == "REF":
         return []
     if rid == "B50":
@@ -545,7 +545,7 @@ def live(dry=False):
                 r["cash"] = BEST[key][0]
                 r["best_on"] = True
                 r["best_why"] = BEST[key][1]
-                r["ladder"] = [[BEST[key][0], BEST[key][1] + " 켜짐"], [0, "신저가 뒤 바닥 신호 " + ("①④" if bb_.get("exit") == "floor14" else "3개") + " · 또는 신저가 없이 −10% 위로"]]
+                r["ladder"] = [[BEST[key][0], BEST[key][1] + " 켜짐"], [0, "신저가 뒤 바닥 신호 " + ("①④" if bb_.get("exit") == "floor14" else "3개") + " · 또는 신저가 없이 신호 꺼짐"]]
         if key in CLOCK_ON:
             bp = rj(PROXY, {}) or {}
             r["clock"] = {k_: bp.get(k_) for k_ in ("h", "h_kr", "kospi_on", "since", "kospi_below200", "asof_us")}
