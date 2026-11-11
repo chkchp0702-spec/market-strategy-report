@@ -22,8 +22,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -q yfinance pandas numpy
-      - run: python src/bubble_bt.py
+      - run: python src/bubble_bt.py && python src/bubble_bt.py --live
       - name: 저장
         run: |
           git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
-          bash scripts/push.sh "bubble-bt $(TZ=Asia/Seoul date '+%F %H:%M')" market/bubble_bt.json
+          bash scripts/push.sh "bubble-bt $(TZ=Asia/Seoul date '+%F %H:%M')" market/bubble_bt.json market/bubble_proxy.json

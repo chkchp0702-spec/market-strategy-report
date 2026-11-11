@@ -42,13 +42,13 @@ CRISES = [("닷컴 2000~02", "1999-06-01", "2002-12-31"), ("금융위기 2007~09
           ("관세 2025", "2025-01-01", "2025-06-30"), ("지금 2026", "2026-06-01", "2026-12-31")]
 
 
-def load():
+def load(start="1997-01-01"):
     import yfinance as yf
     px = {}
     for s in SYMS:   # 하나씩(동시 받기는 야후 캐시 잠김으로 ^TNX 가 빠졌음)
         for _ in range(3):
             try:
-                d = yf.download(s, start="1997-01-01", auto_adjust=True, progress=False, threads=False)["Close"]
+                d = yf.download(s, start=start, auto_adjust=True, progress=False, threads=False)["Close"]
                 d = (d.iloc[:, 0] if hasattr(d, "columns") else d).dropna()
                 if len(d):
                     px[s] = d; break
@@ -250,5 +250,40 @@ def main():
     return 0
 
 
+LIVE = ROOT / "market" / "bubble_proxy.json"
+
+
+def live():
+    """🇰🇷 코스피 현금 규칙에 붙는 「🕰 대리 시계」 — 매시간(fetch.yml) · 🐻 계기판(bear_gate)이 읽음
+       KC = K100 + (대리 시계 ≥ 3시 그리고 코스피 200일선 아래 → 주식 몫 전부 현금 · 시계 1.5시 아래거나 200일선 위로 + 3시 아래면 풀림)
+       — 11/11 백테스트에서 2012년까지 고르고 2013년부터 확인: K100 보다 앞 +1.6 · 뒤 +1.0%p/년 · 최대 낙폭 −33.7 → −28.7%"""
+    px = load((dt.date.today() - dt.timedelta(days=900)).isoformat())
+    C = cells(px)
+    hh, comps, _ = clock(C)
+    k = px.get("^KS11")
+    if k is None or len(k) < 210:
+        print("코스피 시세 없음"); return 1
+    h2 = hh.reindex(k.index).ffill().fillna(0)
+    ma = k.rolling(200).mean()
+    on, since = False, None
+    for d in k.index[200:]:
+        c, a, h = float(k[d]), float(ma[d]), float(h2[d])
+        if not on and h >= 3 and c < a:
+            on, since = True, str(d.date())
+        elif on and (h < 1.5 or (c > a and h < 3)):
+            on, since = False, None
+    last = C.iloc[-1]
+    out = {"at": dt.datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "asof_us": str(hh.index[-1].date()), "asof_kr": str(k.index[-1].date()),
+           "h": float(hh.iloc[-1]), "h_kr": float(h2.iloc[-1]), "kospi_below200": bool(float(k.iloc[-1]) < float(ma.iloc[-1])),
+           "kospi_on": on, "since": since, "stages": {nm: round(float(v.iloc[-1]), 3) for nm, v in comps.items()},
+           "cells": {kk: (None if pd.isna(v) else float(v)) for kk, v in last.items()},
+           "rule": "대리 시계 ≥ 3시(신용 단계 다 울음) + 코스피 200일선 아래 → 코스피 주식 몫 전부 현금 · 시계 1.5시 아래 또는 200일선 위 + 3시 아래면 풀림",
+           "note": "앱 버블 시계와 달리 손 칸(FCF·CDS·규제) 없이 기계 칸으로만 — 과거 검증과 같은 시계"}
+    LIVE.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("대리 시계", out["h"], "코스피 켜짐", on, since)
+    return 0
+
+
 if __name__ == "__main__":
-    raise SystemExit(main())
+    import sys
+    raise SystemExit(live() if "--live" in sys.argv else main())
