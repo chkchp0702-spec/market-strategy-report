@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "알파벳, 첫 아시아 채권 — 홍콩·싱가포르 달러로 약 30억 달러 조달 검토",
+   "url": "https://www.newsbytesapp.com/news/business/google-parent-alphabet-eyes-3-billion-bond-sale-in-asia/story",
+   "press": "NewsBytes(블룸버그 인용)",
+   "at": "2026-11-11 18:45",
+   "why": "「AI 차입이 약한 고리」 가설 — 현금 많은 알파벳도 호주달러·엔화·아시아 통화로 빚을 늘림, 빅테크 채권 공급 부담",
+   "summary": "알파벳이 홍콩달러·싱가포르달러 표시 채권으로 약 30억 달러 조달 검토(소식통). 앞서 호주달러 첫 채권·엔화 채권 발행. 규모 등 세부는 미확정."
+  },
+  {
+   "title": "국고채 담합 과징금 철퇴 — 증권사 「충당금 폭탄」 우려",
+   "url": "https://www.newstomato.com/readnews.aspx?no=1309594",
+   "press": "뉴스토마토",
+   "at": "2026-11-11 18:45",
+   "why": "💬 채권 답·국고채 금리 — PD 제재가 국채 인수 여력·발행 시장에 부담, 증권주 실적 변수",
+   "summary": "공정위 국고채 PD 담합 제재 관련 증권사 충당금 우려(피드: 15개 PD 과징금 역대 최대 1.6조, 금투협 「국채 발행 차질·대외신인도 타격」). 업계 불복 소송 검토(매경)."
+  },
+  {
    "title": "오픈AI 연환산 매출 3분기 70% 넘게 늘어 약 700억 달러 — 기업 매출 두 배",
    "url": "https://www.newsquawk.com/headlines/openai-annualized-revenue-run-rate-grows-over-70-in-q3-nearly-usd-70bln-according-to-sources",
    "press": "Newsquawk",
@@ -623,22 +639,6 @@
    "at": "2026-11-09 20:40",
    "why": "오늘 Caixin 「10월 PPI 4년 최고」와 같은 흐름 — 원자재·수입물가 경로로 韓 금리(한은 인상 전망)·고금리 정점 가설(0.45) 점검",
    "summary": "9월 PPI +5.0%(4년여 최고)·CPI +0.9% — 중하류 기업 마진 압박. 10월 수치는 Caixin 피드 제목만 확인(숫자 미확인)"
-  },
-  {
-   "title": "모건스탠리 윌슨: 美 조정 끝나기 전 마지막 한 번의 매도 — 3가지 촉매 뒤 S&P 7,150 부근 바닥, 이후 8,000",
-   "url": "https://investinglive.com/stock-market-update/roadmap-morgan-stanley-sees-three-catalysts-ending-the-correction-to-~7150-then-s-p-500-to-8-000/",
-   "press": "investingLive",
-   "at": "2026-11-09 19:40",
-   "why": "🐻 현금 100% 해제 타이밍 — 「마지막 국면」 콜이 오늘 MarketWatch 기사와 같은 맥락(게시일 미확인)",
-   "summary": "윌슨 「조정 막바지, 마지막 매도 뒤 반등」·바닥 ~7,150·연말 목표 8,000 유지. 올해 3/30·10/19에도 「막바지」 콜 — 게시일 미확인"
-  },
-  {
-   "title": "엔비디아 황 CEO: 메가스피드는 칩을 중국으로 빼돌리지 않았고 관계는 「정상적」",
-   "url": "https://www.newsquawk.com/headlines/nvidia-nvda-ceo-huang-says-megaspeed-did-not-divert-chips-to-china-and-ties-to-firm-under-spying-probe-were-normal",
-   "press": "Newsquawk",
-   "at": "2026-11-09 19:40",
-   "why": "NVDA 키맨 위험의 범위 — 개인 스캔들이 수출통제·스파이 조사로 번지는지(AI 차입 가설·🇺🇸 칸)",
-   "summary": "황 「메가스피드 GPU 전수 확인, 중국 전용 없음」. 하원 의장들 비공개 브리핑 요구 보도도 — 게시일 미확인"
   }
  ],
  "at": "2026-11-11 15:45"
