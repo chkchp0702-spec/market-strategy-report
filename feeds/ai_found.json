@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "앤스로픽, 추수감사절 전 1.5조 달러 상장 강행 보도",
+   "url": "https://fourweekmba.com/ai-anthropic-said-to-press-on-with-1-5t-pre-thanksgiving-ipo/",
+   "press": "FourWeekMBA",
+   "at": "2026-11-12 06:45",
+   "why": "11/18~20 대형 상장 — AI 수급 흡수·상류(TSMC 지분) 재평가 · qa 11",
+   "summary": "주관사들이 공모 기업가치 최소 1.5조 달러 검토(FT 인용) · 앞서 2조 논의에서 낮춘 숫자 · 추수감사절 전 상장 일정 유지"
+  },
+  {
+   "title": "앤스로픽 투자자들, 상장 가치 2조→1.5조 달러 저울질",
+   "url": "https://fourweekmba.com/ai-anthropic-investors-weigh-1-5t-ipo-value-down-from-2t/",
+   "press": "FourWeekMBA",
+   "at": "2026-11-12 06:45",
+   "why": "AI 비상장 가치 눈높이 조정 — 🫧 버블 경보판 참고",
+   "summary": "기업가치 기대치 2조→1.5조 달러로 낮춰 논의 · 공모 규모·수요가 AI 위험선호 온도계"
+  },
+  {
    "title": "엔비디아, 모건스탠리 최선호주에서 교체 — AI 애널리스트 의견 5건",
    "url": "https://ng.investing.com/news/stock-market-news/5-big-analyst-ai-moves-nvidia-replaced-as-top-pick-pinterest-downgraded-2195960",
    "press": "Investing.com",
@@ -623,22 +639,6 @@
    "at": "2026-11-10 08:40",
    "why": "오늘 밤 10월 CPI 뒤 다음 달 에너지 물가 하향 근거 — 인플레 정점·금리 가설과 연결",
    "summary": "트럼프 「이란 분쟁 종식 쪽 모멘텀」 발언 뒤 유가 최대 7% 하락. 브렌트 92$대·WTI 86~87$(latest)."
-  },
-  {
-   "title": "美 하원 3개 위원회장, 젠슨 황에 「메가스피드 첩보 연루」 비공개 브리핑 요구",
-   "url": "https://thenextweb.com/news/house-chairs-jensen-huang-briefing-megaspeed",
-   "press": "The Next Web",
-   "at": "2026-11-10 07:40",
-   "why": "NVDA 스캔들이 사생활→수출통제·의회 조사로 번지는 경로 — 반도체 칸·AI 대장주 분화(SOX↑·NVDA↓) 지속 여부",
-   "summary": "공화당 하원 위원장들이 메가스피드(싱가포르) 칩 밀수·中 정보기관 연계 의혹 관련 황 CEO 비공개 브리핑 요구. 11/9 NVDA −4.3%, SOX +6.9%로 대장주만 빠진 반등."
-  },
-  {
-   "title": "GOP 하원 지도부, 엔비디아 황 CEO 비공개 청문 요청",
-   "url": "https://implicator.ai/gop-leaders-three-house-committees-ask-jensen-huang-closed",
-   "press": "Implicator",
-   "at": "2026-11-10 07:40",
-   "why": "민주당(제프리스)에 이어 공화당도 요구 — 초당적 압박이면 대중 칩 규제 강화 재료",
-   "summary": "3개 위원회 공동 요청. 앞서 하원 민주당 대표는 대중 칩 제한 강화 요구(investing_en)."
   }
  ],
  "at": "2026-11-12 05:45"
