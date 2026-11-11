@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "앤스로픽 나스닥 IPO 로드쇼 시작 — AI 밸류에이션 시험대",
+   "url": "https://www.roic.ai/news/anthropic-kicks-off-nasdaq-ipo-roadshow-as-ai-valuation-questions-loom-11-09-2026",
+   "press": "ROIC.ai",
+   "at": "2026-11-11 16:45",
+   "why": "11/18~20 상장 일정(답 10번)·「AI 차입」 가설 — 대형 AI 공모가 신용·수급을 빨아들이는지, 반대로 AI주에 불을 붙이는지(Axios)",
+   "summary": "CNBC 피드 기준 공모가 70~78달러·11/19 거래 시작 예정, 일본 물량 30~35억 달러(블룸버그, HANAchina/71949). 공모 규모·밸류 세부는 미확인."
+  },
+  {
    "title": "TSMC 이사회 결의 공시(Form 6-K) — 앤스로픽·오픈AI 지분 투자 승인",
    "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000797/tsm-boardx202611xx.htm",
    "press": "SEC EDGAR",
@@ -631,14 +639,6 @@
    "at": "2026-11-09 18:14",
    "why": "AI 반도체 키맨 위험 — 나스닥 조정·SOXX, 11/10 CRWV 실적 앞 심리",
    "summary": "황 CEO가 「외국 정보기관 공작」 표적이었다는 보도 뒤 이사회 독립 조사 착수, 황은 불륜 시인. NVDA 프리마켓 약 −5%. 반면 TSMC·하이닉스·삼성 등 아시아 칩주는 상승(investing 피드)."
-  },
-  {
-   "title": "호주 NextDC, 계약 없는 데이터센터 프로젝트 중단",
-   "url": "https://www.investing.com/news/stock-market-news/nextdc-pauses-uncontracted-projects-after-australian-data-centre-woes-5010826",
-   "press": "Investing.com",
-   "at": "2026-11-09 18:24",
-   "why": "AI 차입 가설 — MS·소프트뱅크 네오클라우드 재검토에 이어 공급자 쪽 투자 축소 확산",
-   "summary": "NextDC가 수요 불확실성으로 미계약 프로젝트 진행을 멈춤. 하이퍼스케일러 외부 용량 재검토 흐름과 같은 방향."
   }
  ],
  "at": "2026-11-11 15:45"
