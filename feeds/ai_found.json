@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "골드만, 또 뜨거운 물가에 2027년 3월 인상 추가 — 인상 3회 전망",
+   "url": "https://www.investing.com/news/economy-news/goldman-adds-march-rate-hike-to-fed-forecast-after-another-hot-inflation-read-4949189",
+   "press": "Investing.com",
+   "at": "2026-11-11 20:45",
+   "why": "🧠 「12/9 FOMC 분수령」·💬 12번 — 큰 곳 기본값은 0.5%p 한 번보다 0.25%p 여러 번",
+   "summary": "12월 25bp 인상 유지 + 2027년 3월 추가 → 인상 3회. 첫 인하 2027년 12월로 미룸. 10월 CPI 전월비 +0.4%·근원 +0.3%가 계기."
+  },
+  {
+   "title": "엔비디아 이사회, 젠슨 황 사생활·중국 스파이 의혹 조사에 와크텔 립턴 선임",
+   "url": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
+   "press": "CNBC",
+   "at": "2026-11-11 20:45",
+   "why": "11/17 엔비디아 실적·「AI 안에서도 갈린다」 — 대장주 고유 악재(지배구조)가 AI 전체 할인으로 번지는지가 TSM·상류 bet 의 엣지",
+   "summary": "이사회 독립 조사 착수(11/10). 11/9 엔비디아 −4%, 11/10 −6.1%로 올해 상승분 반납. 트럼프 「후임」 발언 메시지가 텔레그램에 돌지만 「연습)」 표시 글로 미확인."
+  },
+  {
    "title": "UBS 자산운용 「AI 빚의 그물」 — 차입 위험 과소평가",
    "url": "https://www.ubs.com/ch/en/assetmanagement/insights/investment-outlook/the-red-thread/trt-end-year-2026/articles/webs-of-ai-debt.html",
    "press": "UBS Asset Management",
@@ -623,23 +639,7 @@
    "at": "2026-11-09 22:40",
    "why": "AI 차입 가설 — 빅테크 장기채 스프레드가 넓어지는 숫자, 주가보다 크레딧이 먼저 신호",
    "summary": "메타 460억$ 채권 발행(제목 기준, 본문 미확인). 2056년 만기 장기물 스프레드가 4월보다 90bp 넓어짐 — AI 설비 투자 자금 조달 비용 상승. 코어위브 채권 부실 수준과 같은 방향."
-  },
-  {
-   "title": "골드만삭스 「韓 반도체, 지금보다 주가 2배 오를 여력」",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBReWFLYmlBV0hGMFVhODNiUGh2OUpQcXU0Y1VNUFJtN2xkYU9rdWZ1bWYyYTk0YnVOVmtlN0pqek5obG9fNzBqNUR2a0hjZmVOZ3N3MWdtd29LZw?oc=5",
-   "press": "Google News 한국 섹터",
-   "at": "2026-11-09 22:40",
-   "why": "🐻 코스피 하락장 판정과 반대 근거 — 밸류 바닥론(골드만 「PBR=내년 이익 −70% 반영」 11/9 오전과 같은 축)",
-   "summary": "골드만, 한국 메모리 업체 주가 2배 상승 여력 유지(세부 목표가 미확인). 한국만 급락 뒤 반등 못 함(연합 「수급 공백」)과 대조 — 외국인 현물 복귀가 확인점."
-  },
-  {
-   "title": "코어위브 채권, 부실채권처럼 거래 — AI 지출이 재무제표를 앞질러",
-   "url": "https://investinglive.com/stocks/coreweave-bonds-trade-like-distressed-debt-as-ai-spending-outpaces-balance-sheets/",
-   "press": "investingLive",
-   "at": "2026-11-09 21:40",
-   "why": "AI 차입(크레딧) 가설 0.92 — 주식 아닌 채권 가격으로 확인하는 근거, CRWV 11/10 실적",
-   "summary": "코어위브 회사채가 부실 수준 수익률에서 거래 — AI 인프라 확장 자금이 하이일드 채권에 기대는 구조. 기사 날짜 미확인."
   }
  ],
- "at": "2026-11-11 15:45"
+ "at": "2026-11-11 20:45"
 }
