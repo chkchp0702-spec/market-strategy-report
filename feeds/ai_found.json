@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "모건스탠리: 전 세계 주식 헤지펀드 위험 축소, 10여 년 만에 최대",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-11/hedge-fund-risk-retreat-largest-in-a-decade-says-morgan-stanley",
+   "press": "블룸버그",
+   "at": "2026-11-11 11:17",
+   "why": "🧠 「12/9 FOMC 2018 분수령」·🫧 신용 경보 — 외국인 한국 반도체 매도가 글로벌 디레버리징의 일부인지",
+   "summary": "MS 프라임 브로커 노트(11/10): 11월 첫 주까지 글로벌 주식 헤지펀드가 10여 년 만에 가장 가파르게 위험 축소 · 광범위한 포지션 청산(언와인드) 확산"
+  },
+  {
+   "title": "룰라 경제팀, 시장 달랠 재정 목표 이행안 다음 주까지 의회 제출 준비",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-11/lula-team-readies-brazil-fiscal-plan-in-bid-to-calm-market-jitters",
+   "press": "블룸버그",
+   "at": "2026-11-11 11:05",
+   "why": "💬 9번 🇧🇷 브라질 국채 — 재정 걱정 진정 여부(헤알/원 250원·10년 14%대 조건)",
+   "summary": "재정 목표 이행 방안을 다음 주까지 의회에 · 브라질 10년 15.23%(11/10, brl_live)·Trading Economics 15.19% 부근 · 세부 내용 미확인"
+  },
+  {
    "title": "코어위브, 26억 달러 AI 대출 — 가산금리 넓어져(SOFR+5.5%대, 네비우스의 약 3배)",
    "url": "https://theenergymag.com/news/2026-08-11/coreweave-ai-2-6-billion-wider-spread/",
    "press": "The Energy Mag",
@@ -623,23 +639,7 @@
    "at": "2026-11-09 13:40",
    "why": "11/10 CRWV 실적 앞 AI 인프라 차입 가설 직격 — 반도체·네오클라우드 반발 지속성 판단",
    "summary": "FT: MS 가 코어위브 일부 약정 축소 · 로이터: 코어위브 취소 부인 · 피드: 코어위브·아이렌 동반 압박"
-  },
-  {
-   "title": "대만, 대만지수 2001년 이후 최악의 주 이후 공매도 제한·국안기금 가동",
-   "url": "https://www.newsbytesapp.com/news/business/taiwan-limits-short-selling-after-taiex-worst-week-since-2001/tldr",
-   "press": "NewsBytes",
-   "at": "2026-11-09 13:40",
-   "why": "정책 바닥 신호(대만·한국 동시) — 하락장 계기판 「정책 대응」 칸, 오늘 대만 +5~6% 반발의 배경",
-   "summary": "대만 금융당국 공매도 제한 · 약 150억$ 안정기금 가동 · 한국도 신용 규정 완화로 동반 대응(uanalyze)"
-  },
-  {
-   "title": "중국 공장 물가 4년 만에 최고",
-   "url": "https://www.newsbytesapp.com/news/business/china-factory-inflation-hits-4-year-high/story",
-   "press": "NewsBytes",
-   "at": "2026-11-09 12:40",
-   "why": "고금리 정점 가설·美 CPI 주간 — 중국발 수입물가 상승이 연준 인상 전망을 받칠 수 있음",
-   "summary": "중국 10월 생산자물가(PPI) 전년비 4년여 만에 최고(국내 보도 5.7%). 유가·미국-이란 갈등이 원인, 소비자물가는 상대적으로 낮음."
   }
  ],
- "at": "2026-11-11 10:45"
+ "at": "2026-11-11 11:45"
 }
