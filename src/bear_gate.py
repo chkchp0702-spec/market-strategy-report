@@ -64,7 +64,12 @@ MAXC = {"🐻": 30, "🟡": 10, "🟢": 0}
 # 11/09 오후 2차 「코스피는 켜고 미국은 끄는걸로」(lab b1109_cash · 2012 앞에서 고르고 뒤에서 확인):
 #   🇰🇷 K100 = 🐻 하락장이면 주식 몫 전부 현금(100%) · 🟡 조정은 0% · 판정 풀릴 때(고점 −10% 위 + 200일선 위)까지 — 앞 +0.85 · 뒤 +1.11%p · 낙폭 −54.5→−33.7
 #   🇺🇸 OFF  = 현금 규칙 끔(2013 이후 판 60개 전부 보유에 짐) — 판정은 참고로만 보여 줌
-RULE = {"kospi": "K100", "sp500": "OFF", "nasdaq": "OFF"}
+RULE = {"kospi": "K100", "sp500": "B50", "nasdaq": "OFF"}
+# 🛡 11/11 사용자 「네 추천대로 진행해」(us_floor_bt — 사용자 제안: 경고 신호에 채권형 → 바닥 신호에 다시 주식):
+#   🇺🇸 S&P500 B50 = 1년 고점 −10%(조정) 이하면 주식 몫 절반을 채권형(중기국채)으로 · 그 뒤 60일 신저가가 한 번 나오고 바닥 신호 3개 이상이면 다시 주식
+#                    (신저가 없이 −10% 위로 올라오면 그냥 복귀 · 복귀 뒤 −10% 아래에서 60일 신저가가 또 나오면 다시 절반)
+#   180판 중 합격 8개가 전부 이 묶음 — 앞(~2012) +0.9 · 뒤(2013~) +0.1%p/년 · 최대 낙폭 −55.2 → −42.0% (2013 뒤 −33.7 → −21.9%) · 1년 3.4번
+#   🇺🇸 나스닥 = 180판 모두 탈락 → OFF 유지
 # 🕰 11/11 사용자 「다 해」(버블 시계 백테스트 → 결과 좋으면 연결): 🇰🇷 코스피만 K100 위에 「대리 버블 시계」를 얹음 (KC)
 #   대리 시계 ≥ 3시(신용 단계 다 울음) + 코스피 200일선 아래 → 주식 몫 전부 현금 · 시계 1.5시 아래 또는 200일선 위 + 3시 아래면 풀림
 #   2012년까지 고르고 2013년부터 확인: K100 대비 앞 +1.6 · 뒤 +1.0%p/년 · 최대 낙폭 −33.7 → −28.7% (src/bubble_bt.py · market/bubble_bt.json)
@@ -74,9 +79,11 @@ PROXY = M / "bubble_proxy.json"
 RULE_NM = {"E": "추세 확인 — 저점 다지기 + 50일선 위면 현금 10%, 20일선까지 회복하면 0%",
            "F": "판정만 — 하락장이 풀릴 때(고점 −10% 위 + 200일선 위)까지 현금 유지 · 바닥 신호로 미리 안 삼",
            "K100": "하락장이면 주식 몫 전부 현금(100%) — 판정이 풀릴 때(고점 −10% 위 + 200일선 위)까지 · 조정(−10%)은 현금 안 늘림",
+           "B50": "조정(고점 −10%)이면 주식 몫 절반을 채권형(중기국채)으로 — 신저가가 나온 뒤 바닥 신호 3개 이상 켜지면 다시 주식",
            "OFF": "현금 규칙 꺼 둠 — 2013년 이후엔 어떤 현금 규칙도 그냥 보유를 못 이김 · 판정은 참고로만"}
-USE = {"E": [True, True, False, True], "F": [False] * 4, "K100": [False] * 4, "OFF": [False] * 4}
-MAXR = {"K100": {"🐻": 100, "🟡": 0, "🟢": 0}, "OFF": {"🐻": 0, "🟡": 0, "🟢": 0}}
+USE = {"B50": [True, True, True, True], "E": [True, True, False, True], "F": [False] * 4, "K100": [False] * 4, "OFF": [False] * 4}
+MAXR = {"B50": {"🐻": 0, "🟡": 0, "🟢": 0},   # B50 은 상태 기계라 live 에서 b50_walk 로 셈(--bt 표는 보유로 나옴 · 진짜 검증은 us_floor_bt.json)
+        "K100": {"🐻": 100, "🟡": 0, "🟢": 0}, "OFF": {"🐻": 0, "🟡": 0, "🟢": 0}}
 
 
 def rule_cash(rid, st, ons):
@@ -92,7 +99,42 @@ def rule_cash(rid, st, ons):
     return 0 if (ons[0] and ons[3]) else 10
 
 
+def b50_walk(cl, vx):
+    """us_floor_bt 의 states() 와 같은 걸음 — 전체 종가를 처음부터 훑어 오늘 B50 이 채권형 절반인지
+       → (in?, 들어간 날 index, 신저가 봤나?, 바닥 신호 수)"""
+    n = len(cl); inn = False; armed = True; seen = False; byb = False; i0 = None; nb = 0
+    for i in range(260, n):
+        c = cl[i]
+        hi = max(cl[max(0, i - 251):i + 1]); dd = c / hi - 1
+        w = cl[max(0, i - 59):i + 1]; lo = min(w)
+        low60 = c <= lo
+        since = len(w) - 1 - w.index(lo)
+        m20, m20p, m50 = sma(cl, 20, i), sma(cl, 20, i - 1), sma(cl, 50, i)
+        b1 = since > 10
+        b2 = m20 is not None and m20p is not None and c > m20 and cl[i - 1] > m20p
+        b3 = bool(vx and vx[i] is not None and vx[i] < 20)
+        b4 = m50 is not None and c > m50
+        nb = b1 + b2 + b3 + b4
+        eo = eh = dd <= -0.10
+        if not inn:
+            if eo and armed:
+                inn, seen, armed, byb, i0 = True, low60, False, False, i
+            elif byb and low60 and eh:
+                inn, seen, byb, i0 = True, True, False, i
+            if not eh:
+                armed, byb = True, False
+        else:
+            seen = seen or low60
+            if seen and nb >= 3:
+                inn, byb = False, True
+            elif not seen and not eh:
+                inn, armed = False, True
+    return inn, i0, seen, nb
+
+
 def ladder(rid, st):
+    if rid == "B50":
+        return [[50, "조정(고점 −10%) — 주식 몫 절반 채권형"], [0, "신저가 뒤 바닥 신호 3개 이상 · 또는 신저가 없이 −10% 위로"]]
     if st == "🟢" or rid == "OFF":
         return []
     if rid == "K100":
@@ -124,7 +166,7 @@ def apply_rule(r, key):
 RULES = {
     "판정": "낙폭(252일 최고 종가 대비) > −10% 🟢 정상 · −10~−20% 🟡 조정 · −20% 이하 🐻 하락장 (🐻 은 낙폭 −10% 위 + 200일선 위까지 유지)",
     "바닥 신호": "① 60일 저점 10거래일 안 깨짐 ② 20일선 위 2일 연속 ③ VIX 20 아래 ④ 🇰🇷 외국인 3일 연속 순매수 / 🇺🇸 50일선 위",
-    "현금": "🇰🇷 코스피: 🐻 하락장이면 주식 몫 전부 현금(100%) · 판정 풀릴 때까지 · 🟡 조정 0% · 🕰 신용 경보(기계 신용 칸 다 울음)+200일선 아래여도 전부 현금(11/11) / 🇺🇸 S&P·나스닥: 현금 규칙 꺼 둠(판정은 참고) — 11/09 사용자 · lab b1109_cash",
+    "현금": "🇰🇷 코스피: 🐻 하락장이면 주식 몫 전부 현금(100%) · 판정 풀릴 때까지 · 🟡 조정 0% · 🕰 신용 경보(기계 신용 칸 다 울음)+200일선 아래여도 전부 현금(11/11) / 🇺🇸 S&P500: 조정(−10%)이면 주식 몫 절반 채권형 → 신저가 뒤 바닥 신호 3개 이상이면 복귀(11/11 사용자 · us_floor_bt) / 🇺🇸 나스닥: 현금 규칙 꺼 둠(판정은 참고) — 11/09 사용자 · lab b1109_cash",
     "등록": "2026-11-09 결과 보기 전 · 같은 날 오후 다시 사기 규칙만 시장별로 바꿈(lab b1109_floor · 사용자 확인)",
 }
 
@@ -196,6 +238,12 @@ def judge(closes, vix=None, foreign=None, kind="us", prev_bear=False, i=None):
 
 def advice(name, r):
     st, cash, rid = r["state"], r["cash"], (r.get("rule") or {}).get("id", "F")
+    if rid == "B50":
+        b = r.get("b50") or {}
+        if cash:
+            return (f"{name} 조정 — 주식 몫 절반을 채권형(중기국채)으로 · " +
+                    (f"신저가 나옴 → 바닥 신호 {b.get('nb', 0)}/4 · 3개 켜지면 다시 주식" if b.get("seen") else "−10% 위로 올라오거나, 신저가 뒤 바닥 신호 3개가 켜지면 다시 주식"))
+        return f"{name} {'정상' if st == '🟢' else '조정 끝 신호'} — 주식 비중 그대로 (고점 −10% 아래면 절반을 채권형으로)"
     if r.get("clock_cash") and st != "🐻":
         return (f"{name} {'조정' if st == '🟡' else '정상'}이지만 🕰 신용 경보(하이일드 채권 칸이 다 울음) + 200일선 아래 — "
                 "주식 몫 전부 현금 · 신용 칸이 조용해지거나 200일선 위로 올라서면 다시 삼")
@@ -455,6 +503,11 @@ def live(dry=False):
         elif b0 is None or not pb:   # 오늘 막 🐻 이 됐거나 1년 내내 🐻 (앞 끝)
             b0 = len(cl) - 1 if not pb else max(0, len(cl) - 252)
         apply_rule(r, key)
+        if RULE.get(key) == "B50":
+            inn, i0, seen, nb = b50_walk(cl, vx)
+            r["cash"] = 50 if inn else 0
+            r["to"] = "채권형"
+            r["b50"] = {"on": inn, "since": str(s.index[i0].date()) if inn and i0 is not None else None, "seen": seen, "nb": nb}
         if key in CLOCK_ON:
             bp = rj(PROXY, {}) or {}
             r["clock"] = {k_: bp.get(k_) for k_ in ("h", "h_kr", "kospi_on", "since", "kospi_below200", "asof_us")}
@@ -501,7 +554,7 @@ def live(dry=False):
         k = f"{r['key']}:{r['asof']}:{r['state']}:{r['cash']}"
         if sent.get(r["key"]) == k:
             continue
-        t = f"{r['state']} {r['name']} — 현금 {o.get('cash')}% → {r['cash']}%"
+        t = f"{r['state']} {r['name']} — {r.get('to', '현금')} {o.get('cash')}% → {r['cash']}%"
         body = r["advice"] + f"\n낙폭 {r['dd']:+.1f}% · 바닥 신호 {r['n']}/4"
         for k in (r.get("fresh") or []):
             ln = sig_line(r.get("hist") or {}, k)
