@@ -231,6 +231,7 @@ def main():
     mo = hh.resample("ME").max()
     res["monthly"] = [[str(d.date())[:7], float(v)] for d, v in mo.items()]
     res["free_now"] = float(hf.iloc[-1])
+    res["free_dist"] = {str(T): round(float((hf[hf.index >= start] >= T).mean() * 100), 1) for T in (4.5, 6, 7.5, 9)}
     res["free_crises"] = [{"name": nm, "max": float(hf[(hf.index >= pd.Timestamp(lo)) & (hf.index <= pd.Timestamp(hi))].max())} for nm, lo, hi in CRISES]
     OUT.write_text(json.dumps(res, ensure_ascii=False, indent=1, default=lambda o: o.item() if hasattr(o, "item") else str(o)), encoding="utf-8")
     print("지금 대리 시계", res["now"]["h"], res["now"]["cells"])
@@ -259,7 +260,7 @@ def live():
        — 11/11 백테스트에서 2012년까지 고르고 2013년부터 확인: K100 보다 앞 +1.6 · 뒤 +1.0%p/년 · 최대 낙폭 −33.7 → −28.7%"""
     px = load((dt.date.today() - dt.timedelta(days=900)).isoformat())
     C = cells(px)
-    hh, comps, _ = clock(C)
+    hh, comps, hf = clock(C)   # hh = 순서 문 있는 옛 계산(코스피 KC 규칙이 검증된 신호 — 그대로 둠) · hf = 11/11 손질한 새 시계(다 더함)
     k = px.get("^KS11")
     if k is None or len(k) < 210:
         print("코스피 시세 없음"); return 1
@@ -274,7 +275,7 @@ def live():
             on, since = False, None
     last = C.iloc[-1]
     out = {"at": dt.datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "asof_us": str(hh.index[-1].date()), "asof_kr": str(k.index[-1].date()),
-           "h": float(hh.iloc[-1]), "h_kr": float(h2.iloc[-1]), "kospi_below200": bool(float(k.iloc[-1]) < float(ma.iloc[-1])),
+           "h": float(hh.iloc[-1]), "h_kr": float(h2.iloc[-1]), "h_free": float(hf.iloc[-1]), "kospi_below200": bool(float(k.iloc[-1]) < float(ma.iloc[-1])),
            "kospi_on": on, "since": since, "stages": {nm: round(float(v.iloc[-1]), 3) for nm, v in comps.items()},
            "cells": {kk: (None if pd.isna(v) else float(v)) for kk, v in last.items()},
            "rule": "대리 시계 ≥ 3시(신용 단계 다 울음) + 코스피 200일선 아래 → 코스피 주식 몫 전부 현금 · 시계 1.5시 아래 또는 200일선 위 + 3시 아래면 풀림",
