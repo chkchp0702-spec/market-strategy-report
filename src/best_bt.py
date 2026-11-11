@@ -44,7 +44,7 @@ def feats(s, vix, h, cred):
     v = vix.reindex(s.index).ffill().values
     b1 = f["since"] > 10; b2 = (c > f["m20"]) & (np.roll(c, 1) > np.roll(f["m20"], 1)); b3 = v < 20; b4 = c > f["m50"]
     f["nb"] = b1.astype(int) + b2 + b3 + b4; f["b14"] = b1 & b4
-    f["h"] = h; f["cred"] = cred
+    f["h"] = h; f["cred"] = cred; f["hg"] = None
     return f
 
 
@@ -52,7 +52,7 @@ def entry(f, e):
     c, dd, m200, h, cr = f["c"], f["dd"], f["m200"], f["h"], f["cred"]
     below = c < m200
     if e.startswith("dd"):
-        t = -int(e[2:]) / 100; return dd <= t, dd <= t + 0.05
+        t = -int(e[2:]) / 100; return dd <= t, dd <= -0.10   # us_floor_bt 와 같게: 들어간 뒤 「버팀」은 고점 −10% 아래
     if e == "ma200":
         return below, below
     if e.startswith("clock"):
@@ -69,11 +69,11 @@ def walk(f, e, x):
         if not inn:
             if on_[i] and armed:
                 inn, seen, armed, byb = True, bool(low60[i]), False, False
-            elif byb and low60[i] and dd[i] <= -0.10:
+            elif byb and low60[i] and hold[i]:
                 inn, seen, byb = True, True, False
             if not hold[i]:
                 armed = True
-            if rel:
+            if not hold[i]:
                 byb = False
         else:
             seen = seen or bool(low60[i])
@@ -85,7 +85,7 @@ def walk(f, e, x):
                 out = not hold[i]
             else:
                 bot = nb[i] >= 3 if x == "floor3" else b14[i]
-                out = (seen and bot) or (not seen and rel)
+                out = (seen and bot) or (not seen and not hold[i])   # us_floor_bt states() 와 같은 걸음
                 if out and seen and bot:
                     byb = True
             if out:
@@ -116,13 +116,13 @@ def current(key, f, cl_kr_clock=None):
         return np.zeros(n), "cash"
     if key == "sp500":
         return walk(f, "dd10", "floor3").astype(float) * 0.5, "bond"
-    a = np.zeros(n); bear = False; kc = False; h = f["cred"]
+    a = np.zeros(n); bear = False; kc = False; h = f["hg"]   # KC 는 순서 문 있는 옛 대리 시계(시간) 로 검증됨
     for i in range(1, n):
         if not bear and dd[i] <= -0.20: bear = True
         elif bear and dd[i] > -0.10 and c[i] > m200[i]: bear = False
         below = c[i] < m200[i]
-        if not kc and h[i] >= 0.999 and below: kc = True   # KC: 대리 시계 ≥3시 = 신용 단계 다 울음(점수 1)
-        elif kc and (h[i] < 0.5 or (not below and h[i] < 0.999)): kc = False   # 1.5시 아래 = 신용 점수 ½ 아래
+        if not kc and h[i] >= 3 and below: kc = True
+        elif kc and (h[i] < 1.5 or (not below and h[i] < 3)): kc = False
         a[i] = 1.0 if (bear or kc) else 0.0
     return a, "cash"
 
@@ -144,6 +144,7 @@ def main():
         h = hf.reindex(idx).ffill().fillna(0).values
         cred = comps["💳 신용"].reindex(idx).ffill().fillna(0).values
         f = feats(s, vix, h, cred)
+        f["hg"] = hh.reindex(idx).ffill().fillna(0).values
         m0 = idx >= start
         rb = s.pct_change().fillna(0).values
         if nat == "us":
