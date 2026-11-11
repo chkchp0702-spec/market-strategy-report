@@ -54,6 +54,7 @@ APP = "https://chkchp0702-spec.github.io/daily-app/"
 
 MKTS = [  # key, 야후 코드, 이름, 나라, 장 마감(현지)
     ("kospi", "^KS11", "코스피", "kr", (15, 40)),
+    ("kosdaq", "^KQ11", "코스닥", "kr", (15, 40)),   # 🌱 11/11 사용자 「코스피나 코스닥도 바닥 신호 나오면 알려주고」 — 판정·바닥 신호·알림 (현금 규칙은 참고)
     ("sp500", "^GSPC", "S&P500", "us", (16, 15)),
     ("nasdaq", "^IXIC", "나스닥", "us", (16, 15)),
 ]
@@ -64,7 +65,11 @@ MAXC = {"🐻": 30, "🟡": 10, "🟢": 0}
 # 11/09 오후 2차 「코스피는 켜고 미국은 끄는걸로」(lab b1109_cash · 2012 앞에서 고르고 뒤에서 확인):
 #   🇰🇷 K100 = 🐻 하락장이면 주식 몫 전부 현금(100%) · 🟡 조정은 0% · 판정 풀릴 때(고점 −10% 위 + 200일선 위)까지 — 앞 +0.85 · 뒤 +1.11%p · 낙폭 −54.5→−33.7
 #   🇺🇸 OFF  = 현금 규칙 끔(2013 이후 판 60개 전부 보유에 짐) — 판정은 참고로만 보여 줌
-RULE = {"kospi": "K100", "sp500": "B50", "nasdaq": "OFF"}
+RULE = {"kospi": "K100", "kosdaq": "REF", "sp500": "B50", "nasdaq": "OFF"}
+# 🌱 11/11 사용자 「코스피나 코스닥도 바닥 신호 나오면 알려주고 비중 담게 하자」 → src/kr_floor_bt.py (market/kr_floor_bt.json)
+#   🐻 동안 신저가 뒤 바닥 신호(①④ · ①②④ · 3개 · 계단)로 먼저 다시 담는 판 5개 모두: 앞(~2012)은 K100 보다 +2.4~+6.3%p 좋았지만
+#   뒤(2013~)는 −2.2~−2.5%p 나빴고 최대 낙폭도 커짐(코스피 −33.7 → −63%) → 비중 자동 담기는 연결 안 함 · 바닥 신호는 새로 켜질 때마다 🌱 알림(참고)
+#   코스닥 = 판정·바닥 신호·알림만(REF) · 현금 규칙은 참고(K100 을 코스닥에 쓰면 연 −1.0% vs 보유 −0.8% · 낙폭 −44.9 vs −72.3%)
 # 🛡 11/11 사용자 「네 추천대로 진행해」(us_floor_bt — 사용자 제안: 경고 신호에 채권형 → 바닥 신호에 다시 주식):
 #   🇺🇸 S&P500 B50 = 1년 고점 −10%(조정) 이하면 주식 몫 절반을 채권형(중기국채)으로 · 그 뒤 60일 신저가가 한 번 나오고 바닥 신호 3개 이상이면 다시 주식
 #                    (신저가 없이 −10% 위로 올라오면 그냥 복귀 · 복귀 뒤 −10% 아래에서 60일 신저가가 또 나오면 다시 절반)
@@ -80,9 +85,10 @@ RULE_NM = {"E": "추세 확인 — 저점 다지기 + 50일선 위면 현금 10%
            "F": "판정만 — 하락장이 풀릴 때(고점 −10% 위 + 200일선 위)까지 현금 유지 · 바닥 신호로 미리 안 삼",
            "K100": "하락장이면 주식 몫 전부 현금(100%) — 판정이 풀릴 때(고점 −10% 위 + 200일선 위)까지 · 조정(−10%)은 현금 안 늘림",
            "B50": "조정(고점 −10%)이면 주식 몫 절반을 채권형(중기국채)으로 — 신저가가 나온 뒤 바닥 신호 3개 이상 켜지면 다시 주식",
+           "REF": "현금 규칙 없음(참고) — 판정과 바닥 신호만 보여 주고, 바닥 신호가 새로 켜지면 알림",
            "OFF": "현금 규칙 꺼 둠 — 2013년 이후엔 어떤 현금 규칙도 그냥 보유를 못 이김 · 판정은 참고로만"}
-USE = {"B50": [True, True, True, True], "E": [True, True, False, True], "F": [False] * 4, "K100": [False] * 4, "OFF": [False] * 4}
-MAXR = {"B50": {"🐻": 0, "🟡": 0, "🟢": 0},   # B50 은 상태 기계라 live 에서 b50_walk 로 셈(--bt 표는 보유로 나옴 · 진짜 검증은 us_floor_bt.json)
+USE = {"REF": [True, True, True, True], "B50": [True, True, True, True], "E": [True, True, False, True], "F": [False] * 4, "K100": [False] * 4, "OFF": [False] * 4}
+MAXR = {"REF": {"🐻": 0, "🟡": 0, "🟢": 0}, "B50": {"🐻": 0, "🟡": 0, "🟢": 0},   # B50 은 상태 기계라 live 에서 b50_walk 로 셈(--bt 표는 보유로 나옴 · 진짜 검증은 us_floor_bt.json)
         "K100": {"🐻": 100, "🟡": 0, "🟢": 0}, "OFF": {"🐻": 0, "🟡": 0, "🟢": 0}}
 
 
@@ -133,6 +139,8 @@ def b50_walk(cl, vx):
 
 
 def ladder(rid, st):
+    if rid == "REF":
+        return []
     if rid == "B50":
         return [[50, "조정(고점 −10%) — 주식 몫 절반 채권형"], [0, "신저가 뒤 바닥 신호 3개 이상 · 또는 신저가 없이 −10% 위로"]]
     if st == "🟢" or rid == "OFF":
@@ -166,7 +174,7 @@ def apply_rule(r, key):
 RULES = {
     "판정": "낙폭(252일 최고 종가 대비) > −10% 🟢 정상 · −10~−20% 🟡 조정 · −20% 이하 🐻 하락장 (🐻 은 낙폭 −10% 위 + 200일선 위까지 유지)",
     "바닥 신호": "① 60일 저점 10거래일 안 깨짐 ② 20일선 위 2일 연속 ③ VIX 20 아래 ④ 🇰🇷 외국인 3일 연속 순매수 / 🇺🇸 50일선 위",
-    "현금": "🇰🇷 코스피: 🐻 하락장이면 주식 몫 전부 현금(100%) · 판정 풀릴 때까지 · 🟡 조정 0% · 🕰 신용 경보(기계 신용 칸 다 울음)+200일선 아래여도 전부 현금(11/11) / 🇺🇸 S&P500: 조정(−10%)이면 주식 몫 절반 채권형 → 신저가 뒤 바닥 신호 3개 이상이면 복귀(11/11 사용자 · us_floor_bt) / 🇺🇸 나스닥: 현금 규칙 꺼 둠(판정은 참고) — 11/09 사용자 · lab b1109_cash",
+    "현금": "🇰🇷 코스닥: 판정·바닥 신호·알림만(현금 규칙 참고) / 🇰🇷 코스피: 🐻 하락장이면 주식 몫 전부 현금(100%) · 판정 풀릴 때까지 · 🟡 조정 0% · 🕰 신용 경보(기계 신용 칸 다 울음)+200일선 아래여도 전부 현금(11/11) / 🇺🇸 S&P500: 조정(−10%)이면 주식 몫 절반 채권형 → 신저가 뒤 바닥 신호 3개 이상이면 복귀(11/11 사용자 · us_floor_bt) / 🇺🇸 나스닥: 현금 규칙 꺼 둠(판정은 참고) — 11/09 사용자 · lab b1109_cash",
     "등록": "2026-11-09 결과 보기 전 · 같은 날 오후 다시 사기 규칙만 시장별로 바꿈(lab b1109_floor · 사용자 확인)",
 }
 
@@ -238,6 +246,11 @@ def judge(closes, vix=None, foreign=None, kind="us", prev_bear=False, i=None):
 
 def advice(name, r):
     st, cash, rid = r["state"], r["cash"], (r.get("rule") or {}).get("id", "F")
+    if rid == "REF":
+        if st == "🟢":
+            return f"{name} 정상 — 바닥 신호 볼 필요 없음"
+        return (f"{name} {'하락장' if st == '🐻' else '조정'} — 바닥 신호 {sum(1 for c in r['checks'] if c['on'])}/4 · 새로 켜지면 알려 드려요 · "
+                "과거엔 바닥 신호로 일찍 다시 담으면 2013년 뒤 연 2%p 넘게 손해 → 담더라도 나눠서 조금씩")
     if rid == "B50":
         b = r.get("b50") or {}
         if cash:
@@ -497,7 +510,7 @@ def live(dry=False):
             if nb and not pb:
                 b0 = i
             pb = nb
-        r = judge(cl, vx, ff if nat == "kr" else None, nat, pb)
+        r = judge(cl, vx, ff if key == "kospi" else None, nat, pb)
         if r["state"] != "🐻":
             b0 = None
         elif b0 is None or not pb:   # 오늘 막 🐻 이 됐거나 1년 내내 🐻 (앞 끝)
@@ -563,6 +576,24 @@ def live(dry=False):
         body += "\n다시 사는 규칙: " + r["rule"]["name"]
         if notify(t, body, dry):
             sent[r["key"]] = k
+    # 🌱 11/11 한국 바닥 신호 알림 — 코스피·코스닥이 🟡·🐻 일 때 바닥 신호가 새로 켜지면 (비중 규칙과 따로 · 하루 한 번)
+    for r in mk:
+        if r["nat"] != "kr" or r["state"] == "🟢":
+            continue
+        o = oldm.get(r["key"]) or {}
+        oc = [bool(c.get("on")) for c in (o.get("checks") or [])]
+        new = [k for k, c in enumerate(r["checks"]) if c["on"] and (k >= len(oc) or not oc[k])] if oc else []
+        if not new:
+            continue
+        nb = sum(1 for c in r["checks"] if c["on"])
+        fk = f"{r['asof']}:" + "".join("1" if c["on"] else "0" for c in r["checks"])
+        if sent.get(r["key"] + "_floor") == fk:
+            continue
+        t = f"🌱 {r['name']} 바닥 신호 {nb}/4 — " + " · ".join(r["checks"][k]["k"] for k in new) + " 켜짐"
+        body = (f"{r['state']} 낙폭 {r['dd']:+.1f}% · " + " / ".join(("🟢 " if c["on"] else "⚪ ") + c["k"] for c in r["checks"]) +
+                "\n지금 규칙: " + r["rule"]["name"] + "\n참고: 과거엔 바닥 신호로 일찍 다시 담으면 2013년 뒤 연 2%p 넘게 손해 — 담더라도 나눠서 조금씩 · 매수 추천 아님")
+        if notify(t, body, dry):
+            sent[r["key"] + "_floor"] = fk
     if first:   # 처음 켠 날: 지금 상태를 한 번 알림 (🟢 아닌 시장만)
         bad = [r for r in mk if r["state"] != "🟢"]
         if bad and notify("🐻 하락장 계기판 시작 — " + " · ".join(f"{r['state']}{r['name']}" for r in bad),
