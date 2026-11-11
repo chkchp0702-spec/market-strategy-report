@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아 CEO 조사, 실적 앞 지배구조 위험 키워 — 주가 하락",
+   "url": "https://beinsure.com/news/nvidia-nvda-stock-forecast-shares-fall-as-ceo-investigation-raises-governance-risks-ahead-of-earnings/",
+   "press": "Beinsure",
+   "at": "2026-11-12 02:45",
+   "why": "11/17 엔비디아 실적 앞 「CEO 한 사람 위험」 — 💬 2번·「AI 안에서 갈린다」 가설, 칩 상류(TSM bet)와 분리되는지",
+   "summary": "이사회가 젠슨 황 CEO 관련 외부 조사 착수 뒤 지배구조 위험이 실적 앞 변수로 부각. 11/11 밤 증권사 하향에도 주가는 +4.5% 반등(02:34, daily-app)."
+  },
+  {
+   "title": "엔비디아, 젠슨 황 조사로 「결정적 시험대」 — 칩주 변동성 키워",
+   "url": "https://www.scmp.com/tech/big-tech/article/3373825/nvidia-faces-defining-test-jensen-huang-probe-adds-chip-stock-turbulence",
+   "press": "SCMP",
+   "at": "2026-11-12 02:45",
+   "why": "중국 시각 — 엔비디아 중국 판매·조사 변수가 아시아 반도체(삼성·하이닉스·TSMC)에 번지는지",
+   "summary": "젠슨 황 조사가 칩주 전반 변동성을 키웠다는 분석. 같은 날 SOXX는 +8.0%로 상류 칩은 오히려 강세(02:34)."
+  },
+  {
    "title": "「연준은 엉뚱한 물가와 싸운다」 — 전략가, 10월 CPI 뒤 0.5%p 인상은 '무모'하다고 경고",
    "url": "https://www.benzinga.com/news/macro-notification/26/11/63132004/fed-is-fighting-the-wrong-inflation-strategist-warns-kevin-warsh-against-reckless-50-basis-point-rate-hike-after-hotter-than-expected-october-cpi",
    "press": "Benzinga",
@@ -623,22 +639,6 @@
    "at": "2026-11-10 03:40",
    "why": "송유관 피격에도 유가가 내린 이유 — 지정학 프리미엄 축소가 오늘 美 반등의 주연",
    "summary": "11/9 유가 약 5% 하락(브렌트 94$ 부근), 트럼프 이란 대응 자제 시사. 피격 뉴스보다 외교 신호가 컸다."
-  },
-  {
-   "title": "리치먼드 연은 바킨 「통화정책 방향은 분명, 속도가 문제」",
-   "url": "https://www.newsquawk.com/headlines/feds-barkin-says-the-direction-of-travel-for-monetary-policy-is-straightforward-but-the-question-is-the-pace",
-   "press": "Newsquawk",
-   "at": "2026-11-10 02:40",
-   "why": "고금리 정점 가설 — 굴스비에 이어 연준 인사 매파 기조(점진 인상) 재확인, CPI 하루 전",
-   "summary": "바킨: 방향(긴축)은 분명하나 속도는 신중하게. 11/5엔 「인플레가 최대 위험, 점진 인상 여전히 선택지」."
-  },
-  {
-   "title": "모건스탠리 윌슨 「조정 거의 끝, S&P 8,500」",
-   "url": "https://www.webull.com/news/15781581357556736",
-   "press": "Webull/Benzinga",
-   "at": "2026-11-10 02:40",
-   "why": "🐻 현금 해제 판단 — 대표 전략가의 「조정 막바지」 판단, 골드만 PB 헤지펀드 청산 막바지 보도와 같은 방향",
-   "summary": "윌슨, 시장 조정이 거의 끝났다고 보고 S&P 500 8,500 제시(작성일 미확인 — 피드 yahoo 11/9 「2027 대담한 콜」과 같은 맥락)."
   }
  ],
  "at": "2026-11-12 00:45"
