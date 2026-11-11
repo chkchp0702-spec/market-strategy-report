@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "한국 10월 수출 1,153억 달러 — 반도체 사상 최대 판매",
+   "url": "https://www.koreatimes.co.kr/economy/20261101/koreas-monthly-exports-hit-1153-bil-in-oct-on-record-chip-sales",
+   "press": "Korea Times",
+   "at": "2026-11-11 09:45",
+   "why": "코스피 하락장 판정·외국인 반도체 매도와 정반대 숫자 — 11/1~10 수출 +111.9%(연합) 와 이어서 보는 바닥 근거",
+   "summary": "10월 수출 1,153억 달러로 역대 2위, 반도체가 사상 최대 판매 견인. 11월 1~10일 수출 335억 달러(+111.9%, 일평균 +97.7%) — 반도체 단가 상승이 실적으로 확인되는 중."
+  },
+  {
+   "title": "앤스로픽, 나스닥 상장 신청 — 종목 코드 ANT",
+   "url": "https://investinglive.com/news/anthropic-files-for-ipo-on-nasdaq-will-use-the-symbol-ant/",
+   "press": "investingLive",
+   "at": "2026-11-11 09:45",
+   "why": "🫧 버블 경보판 「상장 창」·AI 차입 가설 — 11/19 상장(공모가 70~78달러), 조달 규모가 10월 기대보다 30~40% 줄어든 게 시장 체온",
+   "summary": "나스닥 상장·코드 ANT. 국내 보도(11/11)로는 11/19 상장·공모가 70~78달러·약 86조원 조달 추진, 대표주관 골드만은 2026~30 매출 연평균 +90% 추정."
+  },
+  {
    "title": "마이크로소프트, 엔비디아 −6% 속 시가총액 추월 — 2025년 6월 이후 처음",
    "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-tops-nvidia-market-cap-193114512.html",
    "press": "Yahoo Finance",
@@ -623,23 +639,7 @@
    "at": "2026-11-09 11:40",
    "why": "브렌트 95 장부 조건(에너지 13→10) — 11/9 「철의 문」 봉쇄 전면 시행 재확인, 오전 「공격 안 할 듯」과 상충",
    "summary": "미군의 이란 항만 봉쇄가 장기화될 수 있다는 트럼프 발언. 봉쇄는 4월 이후 지속 중(기사 날짜 미확인). 유가 상방 위험 요인."
-  },
-  {
-   "title": "코어위브, 3분기 실적 발표일 공지(11/10 장 마감 뒤)",
-   "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
-   "press": "CoreWeave IR",
-   "at": "2026-11-09 10:45",
-   "why": "AI 차입 가설(0.92)·나스닥 조정 watch의 이번 주 변곡 — 네오클라우드 신용 판정일",
-   "summary": "공식 IR 공지 — 11/10(美) 장 마감 후 실적·컨퍼런스콜. 주가 한 달 −45%(Morningstar) 상태에서 맞는 첫 시험대."
-  },
-  {
-   "title": "아시아 반발 — 칩 반등·일본 연기금 자금 기대·이란 위험 완화",
-   "url": "https://investinglive.com/stock-market-update/asia-rallies-on-chip-rebound-and-japan-pension-flow-hopes-as-iran-risk-fades/",
-   "press": "investingLive",
-   "at": "2026-11-09 10:45",
-   "why": "🐻 하락장 watch — 대만 +3%(40,903)·TOPIX +3%와 같은 흐름, 반발이 칩 단독인지 아시아 전반인지 확인용",
-   "summary": "美 반도체 반등·트럼프 이란 공격 가능성 낮춤 발언으로 아시아 위험 선호 회복. 기사 날짜 미확인 — 피드 HANAchina/71780 숫자로 교차 확인."
   }
  ],
- "at": "2026-11-11 08:50"
+ "at": "2026-11-11 09:45"
 }
