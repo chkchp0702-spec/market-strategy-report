@@ -1,16 +1,11 @@
 {
- "at": "2026-11-12 04:45",
+ "at": "2026-11-12 05:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/s20261110fedswallerbacksdecemberratehikesaysopentolargermove": {
    "lv": 1,
    "why": "논지 「12/9 FOMC 분수령」·AI 차입 — 월러 12월 인상 지지·50bp 가능, 오늘 밤 CPI 민감도↑",
    "at": "2026-11-10 18:40"
-  },
-  "n/1110coreweaveboostsannualforecasteasingconcernsaboutslowdown": {
-   "lv": 1,
-   "why": "🧠 「AI 차입이 약한 고리」(0.92) 반례 — 네오클라우드 실적 가이던스 상향, 엔스케일 상장 연기와 대비 · CRWV·SMH",
-   "at": "2026-11-11 06:45"
   },
   "kwusa/61751": {
    "lv": 1,
@@ -71,6 +66,21 @@
    "lv": 1,
    "why": "사모신용 큰손 식스스트리트 CEO 「AI 경쟁 투기적 행동」 — 막스에 이어 신용 쪽 경고 · AI 차입 가설",
    "at": "2026-11-12 04:45"
+  },
+  "n/httpwwwedailycokrnewsnewspathaspnewsid01649846645645064": {
+   "lv": 1,
+   "why": "마이크론 +12.8% 817.8달러(한 달 −21% 뒤 되사기) — 오늘 SK하이닉스·삼성 시초가·qa 3번",
+   "at": "2026-11-12 05:45"
+  },
+  "HANAchina/71979": {
+   "lv": 1,
+   "why": "밴스 부통령 이란 직접 회담 검토 — 브렌트 하락 재료 · XLE 내림 bet·brent_95 조건",
+   "at": "2026-11-12 05:45"
+  },
+  "n/JzbFNHUkg4QzNmOEFvNk0tLWpHeFpzNVpLdlYxOHpNMmJRTUp6ZzBxS2Moc5": {
+   "lv": 1,
+   "why": "달러 19개월 최고(연준 인상 베팅) — 원/달러·엔 159엔·「12/9 FOMC」 가설",
+   "at": "2026-11-12 05:45"
   }
  }
 }

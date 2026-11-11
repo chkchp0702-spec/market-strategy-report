@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "엔비디아, 모건스탠리 최선호주에서 교체 — AI 애널리스트 의견 5건",
+   "url": "https://ng.investing.com/news/stock-market-news/5-big-analyst-ai-moves-nvidia-replaced-as-top-pick-pinterest-downgraded-2195960",
+   "press": "Investing.com",
+   "at": "2026-11-12 05:45",
+   "why": "엔비디아 하향 몰린 날 SOXX +6%대 — 「악재 소진」 판단·11/17 실적 앞 TSM bet·「AI 안에서 갈린다」",
+   "summary": "모건스탠리가 엔비디아를 최선호 목록에서 교체(피드 gn_kr_global: 베어드 「중립」 하향과 같은 날). 세부 목표가는 미확인."
+  },
+  {
    "title": "공매도사 컬퍼, 6개월 전 이미 젠슨 황-앨리스 황 관계를 지목",
    "url": "https://officechai.com/ai/how-short-seller-culper-research-had-highlighted-jensen-huangs-uncomfortably-close-relationship-with-alice-huang-6-months-before-their-affair-was-revealed/",
    "press": "OfficeChai",
@@ -631,15 +639,7 @@
    "at": "2026-11-10 07:40",
    "why": "민주당(제프리스)에 이어 공화당도 요구 — 초당적 압박이면 대중 칩 규제 강화 재료",
    "summary": "3개 위원회 공동 요청. 앞서 하원 민주당 대표는 대중 칩 제한 강화 요구(investing_en)."
-  },
-  {
-   "title": "다우 600p↑ — 유가 하락, 엔비디아만 급락",
-   "url": "https://qz.com/dow-jumps-600-points-oil-slides-nvidia-stock-110926",
-   "press": "Quartz",
-   "at": "2026-11-10 04:40",
-   "why": "🐻 하락장 현금 해제 판단 — 지수 반등 vs AI 대장주 분화(AI 차입 가설)",
-   "summary": "11/9 美 정규장 S&P +2%대·다우 +600p, 유가 −4%대(이란 자제 신호), NVDA −6%대 황 CEO 조사 여파. 대장주 빼고 넓게 오른 반등"
   }
  ],
- "at": "2026-11-12 03:45"
+ "at": "2026-11-12 05:45"
 }
