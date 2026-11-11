@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [src/bubble_bt.py, src/us_shield_bt.py, src/us_floor_bt.py, .github/workflows/bubble-bt.yml]
+    paths: [src/bubble_bt.py, src/us_shield_bt.py, src/us_floor_bt.py, src/kr_floor_bt.py, .github/workflows/bubble-bt.yml]
   schedule:
     - cron: "40 22 * * 6"   # KST 일 07:40
 permissions:
@@ -25,7 +25,8 @@ jobs:
       - run: python src/bubble_bt.py && python src/bubble_bt.py --live
       - run: python src/us_shield_bt.py
       - run: python src/us_floor_bt.py
+      - run: python src/kr_floor_bt.py
       - name: 저장
         run: |
           git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
-          bash scripts/push.sh "bubble-bt $(TZ=Asia/Seoul date '+%F %H:%M')" market/bubble_bt.json market/bubble_proxy.json market/us_shield_bt.json market/us_floor_bt.json
+          bash scripts/push.sh "bubble-bt $(TZ=Asia/Seoul date '+%F %H:%M')" market/bubble_bt.json market/bubble_proxy.json market/us_shield_bt.json market/us_floor_bt.json market/kr_floor_bt.json
