@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12 06:45",
+ "at": "2026-11-12 08:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "n/s20261110fedswallerbacksdecemberratehikesaysopentolargermove": {
@@ -91,6 +91,21 @@
    "lv": 1,
    "why": "코어위브 CEO 주식 매도 중단 — 🫧 AI 차입 가설·네오클라우드 신뢰 회복 신호 · qa 3",
    "at": "2026-11-12 06:45"
+  },
+  "n/R6eHhyNXJLVXF6cldFbnhHMXcydFMzTGhzVnhWN2RQX2d0X1N4QVZvdUUoc5": {
+   "lv": 2,
+   "why": "엔비디아 이사회 「젠슨 황 해임 준비」(WSJ) — 시간외 −8~9%·오늘 한국 반도체(하닉·삼성·091160) 개장 직격 · 반도체 칸·qa 3·「AI 안에서 갈린다」 가설",
+   "at": "2026-11-12 08:45"
+  },
+  "n/s20261111coreweaveplanstoraiseatleast4billioninhighgradeloan": {
+   "lv": 1,
+   "why": "코어위브 40억$ 투자등급 대출 추진(블룸버그) — 빚으로 짓는 네오클라우드가 우량 등급으로 조달 = 🫧 신용 경보 반대 근거 · AI 차입 가설 breaks 점검",
+   "at": "2026-11-12 08:45"
+  },
+  "n/krocktcptobbonassetqualitywoesandstrategicuncertainty5019978": {
+   "lv": 1,
+   "why": "피치, 블랙록 TCP(사모대출 BDC) BB−로 강등 — 「자산 질 악화」 = 사모신용 균열 · 🫧 신용 경보·AI 차입 가설",
+   "at": "2026-11-12 08:45"
   }
  }
 }
