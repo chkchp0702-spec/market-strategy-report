@@ -1,4 +1,4 @@
-"""💬 고객이 이렇게 물으면 — 오늘 시황으로 쓴 답 10개 (11/10 사용자: 「답변이 영 시원치 않다 · 지금 네 시황을 반영해서 PB나 고객 모두 우와 할 정도로 늘 답해」)
+"""💬 고객이 이렇게 물으면 — 오늘 시황으로 쓴 답 20개 (11/11 사용자 「질문 갯수를 20개까지 늘리고」 · 처음 11/10 은 10개) (11/10 사용자: 「답변이 영 시원치 않다 · 지금 네 시황을 반영해서 PB나 고객 모두 우와 할 정도로 늘 답해」)
   · 아침 리포트 세션이 data/YYYY-MM-DD.json 의 "qa" 에 직접 쓴다 (RULES 1-N) — 틀에 숫자만 끼운 답이 아니라 그날 리포트의 킥·집중·대결·계기판·수급을 녹인 답
   · check(day): 검산 (src/verify.py 가 부름) — 빠졌거나 빈약하면 실패
   · export(): 가장 최근 data 파일의 qa → market/qa.json (앱 daily-app mine.js 가 읽음 · src/home.py 가 매번 부름)
@@ -11,20 +11,37 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 START = "2026-11-11"          # 이 날부터 필수
 MUST = ["팔", "사도", "외국인", "미국", "바닥|저점|언제", "현금", "채권|금리", "환율|달러"]   # 꼭 있어야 하는 질문 갈래(질문 글에 이 말이 들어감)
+START20 = "2026-11-12"        # 🙌 11/11 사용자 「질문 20개까지」 — 아침 리포트는 이 날부터 20개(시황 두뇌가 고치는 market/qa.json 은 11/11 부터)
+MUST20 = ["뭐가 세|주도|어디로 가", "손실|물렸|물타기", "일본|중국|홍콩", "지켜봐|일정|중요한 날", r"(?<![현예적자])금(?= |은|을|값)", "유가|원유|기름", "ELS", "연금|IRP", "예금|만기", "적립|매달"]
+GROUPS = {"주식", "금리", "상품"}   # 앱 갈래 칩 — 📈 주식 · 💱 금리·환율(금·유가 포함) · 🧺 상품·연금
+LONG = 320                    # 근거 한 줄이 이보다 길면 알림만(실패 아님) — 매시간 고칠 때 덧붙이지 말고 바꿔 쓰기
 
 
-def check(day: dict) -> int:
+def check(day: dict, full: bool | None = None) -> int:
     if str(day.get("date", "")) < START:
         return 0
     qa = day.get("qa") or {}
     items = qa.get("items") or []
     bad = []
-    if len(items) < 9:
-        bad.append(f"질문이 {len(items)}개 — 9~10개 필요")
+    if full is None:
+        full = str(day.get("date", "")) >= START20
+    need = 19 if full else 9
+    if len(items) < need:
+        bad.append(f"질문이 {len(items)}개 — {'20개(적어도 19개)' if full else '9~10개'} 필요")
     qs = " / ".join(str(i.get("q", "")) for i in items)
-    for m in MUST:
+    for m in MUST + (MUST20 if full else []):
         if not re.search(m, qs):
             bad.append(f"「{m}」 갈래 질문이 없음")
+    if full:
+        for g in sorted(GROUPS):
+            if not any(i.get("g") == g for i in items):
+                bad.append(f"갈래 g=「{g}」 인 질문이 없음 — 모든 질문에 g(주식·금리·상품)를 적으세요")
+        nog = [str(i.get("q", ""))[:14] for i in items if i.get("g") not in GROUPS]
+        if nog:
+            bad.append(f"g(주식·금리·상품)가 없는 질문 {len(nog)}개: {' / '.join(nog[:4])}")
+    long_ = [(str(i.get("q", ""))[:12], len(str(p.get("t", "")))) for i in items for p in (i.get("pts") or []) if len(str(p.get("t", ""))) > LONG]
+    if long_:
+        print(f"  ⚠ 근거 한 줄이 {LONG}자 넘는 것 {len(long_)}개(가장 긴 것 {max(n for _, n in long_)}자 · {long_[0][0]}…) — 휴대폰 한 화면이 넘어요. 새 숫자는 덧붙이지 말고 옛 문장을 바꿔 쓰세요.")
     bond = [it for it in items if re.search(r"채권|금리", str(it.get("q", "")))]
     if bond:   # 🧾 11/10 사용자 「채권 금리는 한국 미국 브라질 다 대답해」
         bt = json.dumps(bond[0], ensure_ascii=False)
@@ -89,7 +106,7 @@ def check_file(p: str = "market/qa.json") -> int:
     import datetime as dt
     d = json.loads((ROOT / p).read_text(encoding="utf-8"))
     kst = dt.datetime.now(dt.timezone(dt.timedelta(hours=9)))
-    bad = check({"date": max(START, kst.strftime("%Y-%m-%d")), "qa": d})
+    bad = check({"date": max(START, kst.strftime("%Y-%m-%d")), "qa": d}, full=True)
     at = str(d.get("at", ""))
     if at[:10] != kst.strftime("%Y-%m-%d"):
         print(f"  ✗ at 이 오늘이 아님({at}) — 고친 시각(YYYY-MM-DD HH:MM)을 적으세요"); bad = 1
