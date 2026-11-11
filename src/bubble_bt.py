@@ -295,13 +295,13 @@ def live():
                 continue
             ii = s_.index
             f = BB.feats(s_, px["^VIX"], hfree.reindex(ii).ffill().fillna(0).values, comps["💳 신용"].reindex(ii).ffill().fillna(0).values)
-            on = BB.walk(f, e, x)
+            onb = BB.walk(f, e, x)
             st = None
-            if on[-1]:
+            if onb[-1]:
                 j = len(on) - 1
-                while j > 0 and on[j - 1]: j -= 1
+                while j > 0 and onb[j - 1]: j -= 1
                 st = str(ii[j].date())
-            best[key] = {"on": bool(on[-1]), "since": st, "ent": e, "exit": x, "h_free": float(hfree.reindex(ii).ffill().iloc[-1]),
+            best[key] = {"on": bool(onb[-1]), "since": st, "ent": e, "exit": x, "h_free": float(hfree.reindex(ii).ffill().iloc[-1]),
                          "cred": round(float(comps["💳 신용"].reindex(ii).ffill().iloc[-1]), 3), "nb": int(f["nb"][-1]), "low60_seen": None, "asof": str(ii[-1].date())}
         out["best"] = best
     except Exception as ex:
