@@ -1,0 +1,29 @@
+name: bubble-bt
+# 🕰 버블 시계 과거 재현 백테스트 (src/bubble_bt.py) — 수동 · 스크립트가 바뀌어 push 될 때 · 매주 일요일 아침
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [src/bubble_bt.py, .github/workflows/bubble-bt.yml]
+  schedule:
+    - cron: "40 22 * * 6"   # KST 일 07:40
+permissions:
+  contents: write
+concurrency:
+  group: push-${{ github.repository }}-${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  bt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yfinance pandas numpy
+      - run: python src/bubble_bt.py
+      - name: 저장
+        run: |
+          git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
+          bash scripts/push.sh "bubble-bt $(TZ=Asia/Seoul date '+%F %H:%M')" market/bubble_bt.json
