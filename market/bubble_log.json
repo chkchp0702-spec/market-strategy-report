@@ -100,5 +100,22 @@
 "breadth": "🟢",
 "flow": "🔴"
 }
+},
+{
+"at": "2026-11-11 23:58",
+"head": "🫧 버블 경보 🔴4 · 🟠4 · 🟢3 · 신용 경보 켜짐",
+"states": {
+"fcf": "🔴",
+"bonds": "🔴",
+"cds": "🔴",
+"credit": "🟠",
+"rate": "🟠",
+"policy": "🟠",
+"geo": "🟠",
+"buffer": "🟢",
+"recession": "🟢",
+"breadth": "🟢",
+"flow": "🔴"
+}
 }
 ]
