@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "우크라 드론, 러시아 발트해 우스트루가 원유 선적대·저장탱크 손상",
+   "url": "https://www.newsquawk.com/headlines/ukrainian-drones-damaged-oil-loading-stands-crude-oil-and-petroleum-products-reservoirs-at-russias-port-of-ust-luga",
+   "press": "Newsquawk",
+   "at": "2026-11-11 14:45",
+   "why": "🛢️ brent_95 조건(에너지 13→10) — 브렌트 90 근처에서 공급 차질 반등 재료",
+   "summary": "블룸버그 11/11 「우스트루가 항 드론 공격 화재·3명 부상」(피드) · 발트해 터미널 차질 시 하루 최대 150만 배럴 수출 위협(과거 블룸버그 추정) · 이번 차질 규모는 미확인"
+  },
+  {
+   "title": "ABA 데이터뱅크: AI 관련 신용위험 상승",
+   "url": "https://bankingjournal.aba.com/2026/10/aba-databank-ai-credit-risk-is-rising/",
+   "press": "ABA Banking Journal",
+   "at": "2026-11-11 14:45",
+   "why": "🫧 신용 경보 — FT 「은행, AI 대출 한도 닿아 신용보험으로」와 같은 방향",
+   "summary": "미국 은행권 자료로 AI 관련 신용위험이 커진다는 분석(10월) · 세부 숫자는 원문 확인 필요(미확인)"
+  },
+  {
    "title": "인피니언, AI 데이터센터 수요에 연간 가이던스 상향",
    "url": "https://www.marketscreener.com/news/chip-maker-infineon-lifts-guidance-as-ai-boom-gains-strength-update-ce7f58dddc89f123",
    "press": "MarketScreener(다우존스)",
@@ -623,23 +639,7 @@
    "at": "2026-11-09 17:19",
    "why": "고금리 정점 가설(0.45)·채권 칸 중장기채 전환 여부 — 美 10년 4.85% 근처",
    "summary": "골드만, 美·글로벌 10년물 금리 흐름 전환의 재료가 갖춰졌다고 평가(세부 수치 미확인). 美 10년 4.849%(11/9 아시아장)·30년 5.254%, 연준 12월 인상 베팅 80% 속 CPI 대기."
-  },
-  {
-   "title": "젠슨 황 혼외 관계 시인 뒤 엔비디아 신규 숏 910만 달러",
-   "url": "https://www.thestreet.com/crypto/markets/traders-open-9-1-million-in-nvidia-shorts-as-ceo-admits-to-affair",
-   "press": "TheStreet",
-   "at": "2026-11-09 17:00",
-   "why": "NVDA 전저점 이탈·이사회 조사 — AI 차입 가설·SOXX/091160 관찰과 이어짐",
-   "summary": "상위 25개 포지션 중 3개 계정이 일요일 약 910만 달러 NVDA 신규 숏. 중국 관영매체는 간첩 연루 의혹 일축, 미·중 관계 악화 경고."
-  },
-  {
-   "title": "MS, 오라클 AI 클라우드 임대(2023년 계약) 단계적 종료 — 구형 엔비디아 칩 용량",
-   "url": "https://fourweekmba.com/ai-microsoft-said-to-wind-down-oracle-ai-rental-backlog-664b/",
-   "press": "FourWeekMBA(블룸버그·배런스 인용)",
-   "at": "2026-11-09 15:40",
-   "why": "AI 차입 가설 — 하이퍼스케일러가 외부·네오클라우드 용량을 줄이면 오라클·코어위브 등 차입형 AI 인프라 신용에 압력, CRWV 11/10 실적 앞",
-   "summary": "MS가 오라클에서 빌리던 AI 컴퓨팅 용량을 수개월간 줄였고 만료 뒤 갱신 안 함. 네오클라우드·외부 클라우드 계약 전반 재검토의 일부. 보도 뒤 오라클 약 −3%, 오라클 잔고 6,640억$."
   }
  ],
- "at": "2026-11-11 11:45"
+ "at": "2026-11-11 14:45"
 }
