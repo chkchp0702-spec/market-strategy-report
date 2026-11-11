@@ -13,6 +13,8 @@
      F-3개      : 같은 걸음 · 4개 중 3개 이상
      S-계단     : ①④ → 주식 50% · ①②④ → 100% (신저가 또 나오면 다시 0%)
      S-계단3    : ①④ → 50% · 3개 이상 → 100%
+     첫발-신호-n : (11/11 2차 · 사용자 「첫발 규칙 ㄱㄱ」 — 위 판들 결과를 본 뒤 등록) 신저가 뒤 신호(①④ · ①②④ · 3개)가 켜지면 주식 n%(10·20·30)만 먼저 ·
+                   나머지는 K100 대로 판정 풀릴 때 · 🐻 안에서 신저가가 또 나오면 다시 0%  — 9판이라 「몇 판이 합격」으로 읽기
   ─ 합격: 앞(~2012)·뒤(2013~) 둘 다 K100 보다 연수익이 높고, 최대 낙폭이 K100 보다 5%p 넘게 나빠지지 않음
   결과: market/kr_floor_bt.json · 매수·매도 추천 아님.
 """
@@ -71,6 +73,11 @@ def weights(cl, vix, mode):
                     cur = max(cur, 1.0 if (b1 and b2 and b4) else 0.5 if (b1 and b4) else cur)
                 elif mode == "S-계단3":
                     cur = max(cur, 1.0 if nb >= 3 else 0.5 if (b1 and b4) else cur)
+                elif mode.startswith("첫발-"):
+                    _, sg, pc = mode.split("-")
+                    hit = (b1 and b4) if sg == "①④" else (b1 and b2 and b4) if sg == "①②④" else nb >= 3
+                    if hit:
+                        cur = max(cur, int(pc) / 100)
         w[i] = cur
     return w
 
@@ -106,7 +113,7 @@ def episodes(s, w):
 def main():
     vix = load("^VIX")
     res = {"at": dt.datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "rules": __doc__.split("결과 보기 전 등록한 것")[1].split("결과:")[0].strip(), "markets": []}
-    MODES = ["K100", "F-①④", "F-①②④", "F-3개", "S-계단", "S-계단3"]
+    MODES = ["K100", "F-①④", "F-①②④", "F-3개", "S-계단", "S-계단3"] + [f"첫발-{g}-{p}" for g in ("①④", "①②④", "3개") for p in (10, 20, 30)]
     for key, sym, name in (("kospi", "^KS11", "코스피"), ("kosdaq", "^KQ11", "코스닥")):
         s = load(sym)
         if s is None:
@@ -126,7 +133,7 @@ def main():
         print("\n==", name, s.index[0].date(), "~", s.index[-1].date())
         for md in MODES:
             r = rows[md]
-            print(f"{md:>8} | 앞 {r['front']['cagr']:>6} 낙폭 {r['front']['mdd']:>6} | 뒤 {r['back']['cagr']:>6} 낙폭 {r['back']['mdd']:>6} | 전체 {r['full']['cagr']} 낙폭 {r['full']['mdd']} (보유 {r['full']['hold_cagr']} / {r['full']['hold_mdd']}) · 1년 {r['full']['sw_y']}번"
+            print(f"{md:>12} | 앞 {r['front']['cagr']:>6} 낙폭 {r['front']['mdd']:>6} | 뒤 {r['back']['cagr']:>6} 낙폭 {r['back']['mdd']:>6} | 전체 {r['full']['cagr']} 낙폭 {r['full']['mdd']} (보유 {r['full']['hold_cagr']} / {r['full']['hold_mdd']}) · 1년 {r['full']['sw_y']}번"
                   + (f" | K100 대비 앞 {r['d_front']:+.2f} 뒤 {r['d_back']:+.2f} {'✅' if r['ok'] else ''}" if md != "K100" else "") + f" · 지금 주식 {r['now']:.0%}")
     OUT.write_text(json.dumps(res, ensure_ascii=False, indent=1, default=float), encoding="utf-8")
     return 0
