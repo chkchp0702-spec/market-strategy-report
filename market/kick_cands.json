@@ -6571,6 +6571,62 @@
 "src": "ins",
 "score": 68.6,
 "note": "기회형 내부자 3명 · 355천 달러 (10일 안 공시)"
+},
+"WST|2026-11-11": {
+"code": "WST",
+"name": "West Pharmaceutical Services, Inc. Com",
+"mkt": "US",
+"d": "2026-11-11",
+"src": "cup_eye",
+"score": 55.2,
+"lv": 383.09,
+"max20": 3.3,
+"id60": -0.1
+},
+"ANF|2026-11-11|e": {
+"code": "ANF",
+"name": "Abercrombie & Fitch Company Common Sto",
+"mkt": "US",
+"d": "2026-11-11",
+"src": "earn",
+"score": 76.6,
+"lv": 119.92
+},
+"HNST|2026-11-11|e": {
+"code": "HNST",
+"name": "The Honest Company, Inc. - Common Stoc",
+"mkt": "US",
+"d": "2026-11-11",
+"src": "earn",
+"score": 75.2,
+"lv": 4.12
+},
+"DGX|2026-11-11|e": {
+"code": "DGX",
+"name": "Quest Diagnostics Incorporated Common ",
+"mkt": "US",
+"d": "2026-11-11",
+"src": "earn",
+"score": 67.0,
+"lv": 219.2
+},
+"HALO|2026-11-11|e": {
+"code": "HALO",
+"name": "Halozyme Therapeutics, Inc. - Common S",
+"mkt": "US",
+"d": "2026-11-11",
+"src": "earn",
+"score": 61.2,
+"lv": 86.0
+},
+"CSTL|2026-11-11|e": {
+"code": "CSTL",
+"name": "Castle Biosciences, Inc. - Common stoc",
+"mkt": "US",
+"d": "2026-11-11",
+"src": "earn",
+"score": 50.0,
+"lv": 27.13
 }
 },
 "sent": [
