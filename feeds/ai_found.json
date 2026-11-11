@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "엔비디아, 6월 청문회 거절 — 민주당 2027년 상임위원장 확보로 감독 강화 예고",
+   "url": "https://fourweekmba.com/ai-nvidia-declined-a-june-hearing-democrats-win-2027-gavels/",
+   "press": "FourWeekMBA",
+   "at": "2026-11-12 03:45",
+   "why": "중간선거 블루웨이브 뒤 빅테크·AI 칩 수출 감독이 내년 더 세질 수 있음 — 「AI 안에서 갈린다」 가설의 정책 리스크",
+   "summary": "엔비디아는 6월 청문회 출석을 거절한 전력. 2027년 민주당이 하원 상임위를 맡으면 AI 칩 수출·감독 입법(AI Overwatch Act 등)이 다시 올라올 수 있음."
+  },
+  {
    "title": "엔비디아 CEO 조사, 실적 앞 지배구조 위험 키워 — 주가 하락",
    "url": "https://beinsure.com/news/nvidia-nvda-stock-forecast-shares-fall-as-ceo-investigation-raises-governance-risks-ahead-of-earnings/",
    "press": "Beinsure",
@@ -631,15 +639,7 @@
    "at": "2026-11-10 03:40",
    "why": "유가 하락이 반등장 동력 — 송유관 리스크 재점화 시 CPI·🐻 현금 해제 조건에 직결",
    "summary": "11/9 사우디 동서 송유관 메디나 지역 피격, 당국은 운영 차질 없다고 발표. 9월 피격 땐 수주 중단·브렌트 107$↑ 전례."
-  },
-  {
-   "title": "유가 5% 가까이 급락 — 트럼프 이란 자제 신호",
-   "url": "https://www.koreatimes.co.kr/world/20261110/oil-falls-almost-5-as-trump-signals-restraint-on-iran",
-   "press": "Korea Times",
-   "at": "2026-11-10 03:40",
-   "why": "송유관 피격에도 유가가 내린 이유 — 지정학 프리미엄 축소가 오늘 美 반등의 주연",
-   "summary": "11/9 유가 약 5% 하락(브렌트 94$ 부근), 트럼프 이란 대응 자제 시사. 피격 뉴스보다 외교 신호가 컸다."
   }
  ],
- "at": "2026-11-12 00:45"
+ "at": "2026-11-12 03:45"
 }
