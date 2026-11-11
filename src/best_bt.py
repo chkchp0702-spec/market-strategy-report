@@ -90,6 +90,8 @@ def walk(f, e, x):
                     byb = True
             if out:
                 inn = False
+                if not hold[i]:
+                    armed = True   # us_floor_bt 처럼 나온 날 바로 다시 들어갈 수 있게(빠뜨려서 하루 늦게 장전되던 버그)
         a[i] = inn
     return a
 
