@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "국채 발행 당사자는 잘했다는데 공정위는 담합 과징금 — 국고채 담합 쟁점",
+   "url": "https://news.bizwatch.co.kr/article/market/2026/11/03/0021",
+   "press": "비즈워치",
+   "at": "2026-11-11 12:45",
+   "why": "오늘 과징금 1.6조·7곳 고발 확정의 배경 — 국고채 전문딜러 입찰 위축 시 장기물 금리 상승 압력(💬 12·18번)",
+   "summary": "11/3 기사: 기재부는 딜러 정보 교환이 시장 조성이라는 입장, 공정위는 담합으로 봄 · 8월 심의 때 최대 15조 과징금 거론(MTN) → 11/11 1.6조로 확정(연합)"
+  },
+  {
+   "title": "12월 연준 인상을 멈출 수 있는 것은 무엇인가",
+   "url": "https://investinglive.com/education/what-could-stop-the-fed-raising-rates-in-december/",
+   "press": "investingLive",
+   "at": "2026-11-11 12:45",
+   "why": "12/9 FOMC 분수령 thesis의 반대 갈래 점검 — PPI(11/13)·고용 약세가 브레이크 조건",
+   "summary": "인상 경로를 바꿀 변수 정리(물가 둔화·고용 급랭·신용 사고) · 게시 날짜 미확인"
+  },
+  {
    "title": "모건스탠리: 전 세계 주식 헤지펀드 위험 축소, 10여 년 만에 최대",
    "url": "https://www.bloomberg.com/news/articles/2026-11-11/hedge-fund-risk-retreat-largest-in-a-decade-says-morgan-stanley",
    "press": "블룸버그",
@@ -623,22 +639,6 @@
    "at": "2026-11-09 14:40",
    "why": "금 칸·gold_test — IB 목표 하향, 금리 인상 경로가 금의 역풍",
    "summary": "골드만 2026년 말 금 목표 온스당 4,900달러(종전 5,400). 연준 매파 전환이 이유, 장기 강세 시각은 유지. 발표일 금 −1.5%(XTB)."
-  },
-  {
-   "title": "이란 종전 협상 지속에 유가 1% 넘게 하락",
-   "url": "https://www.nst.com.my/amp/business/economy/2026/11/1568718/oil-slips-more-1-cent-talks-continue-ending-iran-war",
-   "press": "New Straits Times",
-   "at": "2026-11-09 14:40",
-   "why": "에너지 칸 brent_95 조건 — 봉쇄 재확인과 상충하는 종전 협상 재료",
-   "summary": "이란 전쟁 종식 협상 지속 보도에 유가 1%↑ 하락. 브렌트 95 종가 하회 여부는 미확인."
-  },
-  {
-   "title": "MS, 코어위브 일부 약정에서 발 빼(FT 보도) — 코어위브는 계약 취소 부인",
-   "url": "https://www.tipranks.com/news/the-fly/coreweave-denies-contract-cancellations-with-microsoft-reuters-reports",
-   "press": "TipRanks/The Fly",
-   "at": "2026-11-09 13:40",
-   "why": "11/10 CRWV 실적 앞 AI 인프라 차입 가설 직격 — 반도체·네오클라우드 반발 지속성 판단",
-   "summary": "FT: MS 가 코어위브 일부 약정 축소 · 로이터: 코어위브 취소 부인 · 피드: 코어위브·아이렌 동반 압박"
   }
  ],
  "at": "2026-11-11 11:45"
