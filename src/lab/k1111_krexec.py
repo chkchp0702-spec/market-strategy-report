@@ -61,7 +61,7 @@ def run2(C, ON, ID, reg, idx, sc, sig, fs, G, Rd, mode, cost, band=0.05, tax=0.0
             V[k] += dlt; tv += abs(dlt)
         tv = tv / 2 / N
         c = tv * cost * N
-        for k in V:   # 비용은 비례로 빼고 단가도 같이 줄임(비용 = 손실로 처리되지 않게 근사)
+        for k in V:   # 비용은 비례로 뺌 · 단가는 그대로(= 비용이 사실상 필요경비로 공제되는 근사)
             V[k] -= c * (V[k] / N)
         return tv
 
