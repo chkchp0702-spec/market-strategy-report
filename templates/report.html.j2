@@ -54,7 +54,7 @@
   <p>{{ (L.title or (S.notes[0] if S.notes else "자료 없음")) | safe }}</p>
   {% if L.so %}<div class="kick"><b>🎯 그래서</b> {{ L.so | safe }}</div>{% endif %}
  </div>
- <div class="box pale" style="margin-bottom:8px;padding:7px 10px"><h3 style="margin-bottom:3px">① 돈의 길 — 5개 시장 (1주 지수 + 1달 + 오른 종목 비율)</h3>
+ <div class="box pale" style="margin-bottom:5px;padding:6px 10px"><h3 style="margin-bottom:2px">① 돈의 길 — 5개 시장 (1주 지수 + 1달 + 오른 종목 비율)</h3>
   <table class="fc"><tr>{% for c in (FO.countries or []) %}<td style="width:20%;vertical-align:top;{{ 'background:#fff3dc;' if loop.first else '' }}">
    <b>{{ c.flag }} {{ c.name }}</b>{% if c.label %} <span class="tag {{ 'r' if loop.first else 'b' }}">{{ c.label }}</span>{% endif %}<br>
    <span class="src">{{ c.ix }} 1주 </span>{{ pc(c.chg5) }} <span class="src">1달</span> {{ pc(c.chg20) }}<br>
@@ -84,13 +84,13 @@
  {% endfor %}
  </div>
  {% set SC = FO.score or {} %}
- <div class="box pale" style="margin-top:8px"><h3>🧊 돈이 빠지는 곳 · 🇰🇷 한국 연결</h3>
+ <div class="box pale" style="margin-top:5px"><h3>🧊 돈이 빠지는 곳 · 🇰🇷 한국 연결</h3>
   <ul class="b">
   {% for a in (FO.avoid or [])[:2] %}<li>🧊 <b>{{ a.name }}</b> ({{ a.sym }}) 5일 {{ pc(a.r5) }} · 20일 {{ pc(a.r20) }}</li>{% endfor %}
   {% for k in (L.korea or [])[:1] %}<li style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">{{ k | safe }}</li>{% endfor %}
   </ul></div>
  {% if SC.bad or (d.edition == 'WK' and SC.week) %}
- <div class="box" style="margin-top:4px;border-color:#f0c6c2;background:#fdf1ef"><h3>{% if SC.bad %}⚠️ 집중 성적이 나빠요 — 최근 5번 중 3번 이상 S&amp;P에 짐{% else %}🗓️ 이번 주 집중 회고 — 고른 테마 5거래일 뒤 vs S&amp;P{% endif %}</h3>
+ <div class="box" style="margin-top:3px;padding-top:5px;padding-bottom:5px;border-color:#f0c6c2;background:#fdf1ef"><h3>{% if SC.bad %}⚠️ 집중 성적이 나빠요 — 최근 5번 중 3번 이상 S&amp;P에 짐{% else %}🗓️ 이번 주 집중 회고 — 고른 테마 5거래일 뒤 vs S&amp;P{% endif %}</h3>
   <table>{% for e in SC.week[:3] %}<tr><td>{{ e.asof[5:] }}</td><td><b>{{ e.name }}</b></td><td>{{ pc(e.res) }}</td><td>S&amp;P {{ pc(e.spy_res) }}</td><td class="src">{{ e.lesson }}</td></tr>{% endfor %}</table></div>
  {% else %}
  <div class="note" style="margin-top:5px">📒 집중 성적 {% if SC.n %}<b>{{ SC.hit }}/{{ SC.n }}</b> (5거래일 뒤 S&amp;P 대비 평균 {{ pc(SC.avg_ex) }}){% else %}— 10/7부터 기록, 5거래일 뒤부터 채점{% endif %}</div>
