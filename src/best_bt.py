@@ -184,10 +184,33 @@ def main():
             return {"cagr": round(float((nav ** (1 / y) - 1) * 100), 2), "mdd": round(float(mn * 100), 1), "hold_cagr": round(float((bh ** (1 / y) - 1) * 100), 2), "hold_mdd": round(float(mb * 100), 1), "sw_y": round(sw / y, 1)}
         cur = {"front": simw(mf), "back": simw(mb), "full": simw(m0)}
         hold = {"cagr": rows[0]["full"]["hold_cagr"], "mdd": rows[0]["full"]["hold_mdd"], "front": rows[0]["front"]["hold_cagr"], "back": rows[0]["back"]["hold_cagr"]}
+        # 지금 규칙도 후보 · 지금 규칙 + 각 방식 겹치기(둘 중 더 많이 뺀 쪽) — 같은 기준으로 겨룸
+        def simarr(warr, ra_, m):
+            rb_, ra2, w_ = rb[m], ra_[m], warr[m]; nav = bh = pn = pb = 1.0; mn = mb = 0.0; wp = 0.0; sw = 0
+            for i in range(1, len(rb_)):
+                nav *= 1 + (1 - wp) * rb_[i] + wp * ra2[i]; bh *= 1 + rb_[i]
+                pn, pb = max(pn, nav), max(pb, bh); mn, mb = min(mn, nav / pn - 1), min(mb, bh / pb - 1)
+                if w_[i] != wp: nav *= 1 - 0.001 * abs(w_[i] - wp); sw += 1
+                wp = w_[i]
+            y = (len(rb_) - 1) / 252
+            return {"cagr": round(float((nav ** (1 / y) - 1) * 100), 2), "mdd": round(float(mn * 100), 1), "hold_cagr": round(float((bh ** (1 / y) - 1) * 100), 2), "hold_mdd": round(float(mb * 100), 1), "sw_y": round(sw / y, 1)}
+        if cw.any():
+            rows.append({"id": "current", "ent": "current", "exit": "current", "alt": ca, "frac": 1.0, "front": cur["front"], "back": cur["back"], "full": cur["full"],
+                         "cand": bool(cur["front"]["cagr"] > cur["front"]["hold_cagr"] and cur["back"]["cagr"] > cur["back"]["hold_cagr"]), "now_on": bool(cw[-1] > 0)})
+            for e in ENT:
+                for x in EXT:
+                    on = walk(f, e, x)
+                    for frac in (0.5, 1.0):
+                        if ca not in alts: continue
+                        wc = np.maximum(cw, on * frac)
+                        F, B, A = simarr(wc, alts[ca], mf), simarr(wc, alts[ca], mb), simarr(wc, alts[ca], m0)
+                        rows.append({"id": f"current+{e}|{x}|{ca}|{int(frac*100)}", "ent": "current+" + e, "exit": x, "alt": ca, "frac": frac, "front": F, "back": B, "full": A,
+                                     "cand": bool(F["cagr"] > F["hold_cagr"] and B["cagr"] > B["hold_cagr"]), "now_on": bool(wc[-1] > 0)})
         cands = sorted([r for r in rows if r["cand"]], key=lambda r: -r["full"]["cagr"])
         best = cands[0] if cands else None
         top = sorted(rows, key=lambda r: -r["full"]["cagr"])[:10]
         res["markets"].append({"key": key, "name": name, "n": len(rows), "n_cand": len(cands), "hold": hold, "current": cur, "best": best, "cands": cands[:15], "top_full": top})
+        NM.update({"current": "지금 규칙", **{"current+" + k: "지금 규칙+" + v for k, v in list(NM.items()) if not k.startswith("current")}})
         P = lambda r: f"{NM[r['ent']]:>14} → {NM[r['exit']]:<8} {NM[r['alt']]:<4} {int(r['frac']*100):>3}% | 전체 {r['full']['cagr']:>6} 낙폭 {r['full']['mdd']:>6} | 앞 {r['front']['cagr']:>6}(보유 {r['front']['hold_cagr']}) 뒤 {r['back']['cagr']:>6}(보유 {r['back']['hold_cagr']}) · 1년 {r['full']['sw_y']}번 · 지금 {'켜짐' if r['now_on'] else '꺼짐'} {'✅' if r['cand'] else ''}"
         print(f"\n== {name} 판 {len(rows)} · 후보(앞·뒤 모두 보유 이김) {len(cands)} · 보유 전체 {hold['cagr']} 낙폭 {hold['mdd']} (앞 {hold['front']} 뒤 {hold['back']})")
         print(f"   지금 규칙: 전체 {cur['full']['cagr']} 낙폭 {cur['full']['mdd']} | 앞 {cur['front']['cagr']} 뒤 {cur['back']['cagr']} · 1년 {cur['full']['sw_y']}번")
