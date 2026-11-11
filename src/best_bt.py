@@ -162,6 +162,13 @@ def main():
                         F, B, A = sim(rb, ra, on, frac, mf), sim(rb, ra, on, frac, mb), sim(rb, ra, on, frac, m0)
                         rows.append({"id": f"{e}|{x}|{an}|{int(frac*100)}", "ent": e, "exit": x, "alt": an, "frac": frac, "front": F, "back": B, "full": A,
                                      "cand": bool(F["cagr"] > F["hold_cagr"] and B["cagr"] > B["hold_cagr"]), "now_on": bool(on[-1])})
+        if key == "sp500":   # 점검: us_floor_bt states() 와 같은지
+            from us_floor_bt import states as _st
+            w1 = walk(f, "dd10", "floor3"); dd_ = f["dd"] <= -0.10
+            w2 = _st(dd_, dd_, f["nb"] >= 3, f["low60"])
+            diff = np.where(w1 != w2)[0]
+            print("점검 B50 걸음 다른 날", len(diff), [str(idx[i].date()) for i in diff[:5]], "켜진 날", int(w1[m0].sum()), int(w2[m0].sum()))
+            print("점검 sim", sim(rb, alts["bond"], w2, 0.5, m0), sim(rb, alts["bond"], w1, 0.5, m0))
         cw, ca = current(key, f)
         ra = alts[ca]
         def simw(m):   # 비중 배열(0~1) 그대로
