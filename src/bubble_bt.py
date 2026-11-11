@@ -142,7 +142,7 @@ def run(cl, hh, T, cpct, confirm=False, lo=None, hi=None, k100=False):
         nw = min(1 - cpct / 100 if on else 1.0, 0.0 if bear else 1.0)
         if nw != w:
             nav *= 1 - 0.001 * abs(nw - w); sw += 1
-        w = nw; cd += on
+        w = nw; cd += nw < 1
     yrs = max((len(c) - 1) / 252, 1e-9)
     return {"cagr": round((nav ** (1 / yrs) - 1) * 100, 2), "mdd": round(mn * 100, 1),
             "hold_cagr": round((bh ** (1 / yrs) - 1) * 100, 2), "hold_mdd": round(mb * 100, 1),
