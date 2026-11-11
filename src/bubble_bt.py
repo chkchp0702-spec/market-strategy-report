@@ -44,13 +44,18 @@ CRISES = [("닷컴 2000~02", "1999-06-01", "2002-12-31"), ("금융위기 2007~09
 
 def load():
     import yfinance as yf
-    df = yf.download(SYMS, start="1997-01-01", auto_adjust=True, progress=False, group_by="ticker", threads=True)
     px = {}
-    for s in SYMS:
-        try:
-            px[s] = df[s]["Close"].dropna()
-        except Exception as e:
-            print("시세 실패", s, e)
+    for s in SYMS:   # 하나씩(동시 받기는 야후 캐시 잠김으로 ^TNX 가 빠졌음)
+        for _ in range(3):
+            try:
+                d = yf.download(s, start="1997-01-01", auto_adjust=True, progress=False, threads=False)["Close"]
+                d = (d.iloc[:, 0] if hasattr(d, "columns") else d).dropna()
+                if len(d):
+                    px[s] = d; break
+            except Exception as e:
+                print("시세 재시도", s, e)
+        if s not in px:
+            print("시세 실패", s)
     return px
 
 
@@ -186,17 +191,17 @@ def main():
                     f = run(cl, h2, T, c, confirm)
                     grid.append({"T": T, "c": c, "confirm": confirm, "front": a, "back": b, "full": f,
                                  "edge_front": round(a["cagr"] - a["hold_cagr"], 2), "edge_back": round(b["cagr"] - b["hold_cagr"], 2),
-                                 "ok": a["cagr"] > a["hold_cagr"] and b["cagr"] > b["hold_cagr"]})
+                                 "ok": bool(a["cagr"] > a["hold_cagr"] and b["cagr"] > b["hold_cagr"])})
         best = max(grid, key=lambda g: g["edge_front"])   # 앞에서 고른 판
         res["markets"].append({"key": key, "name": name, "grid": grid,
                                "pick": {"T": best["T"], "c": best["c"], "confirm": best["confirm"],
                                         "edge_front": best["edge_front"], "edge_back": best["edge_back"], "ok": best["ok"],
                                         "full": best["full"]},
-                               "n_ok": sum(g["ok"] for g in grid)})
+                               "n_ok": int(sum(g["ok"] for g in grid))})
     # 시계 흐름(월말) — 앱 그림용
     mo = hh.resample("ME").max()
     res["monthly"] = [[str(d.date())[:7], float(v)] for d, v in mo.items()]
-    OUT.write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
+    OUT.write_text(json.dumps(res, ensure_ascii=False, indent=1, default=lambda o: o.item() if hasattr(o, "item") else str(o)), encoding="utf-8")
     print("지금 대리 시계", res["now"]["h"], res["now"]["cells"])
     print("시계 분포 ≥T 날 비율", res["dist"])
     for c in res["crises"]:
