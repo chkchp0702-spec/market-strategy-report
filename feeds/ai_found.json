@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "UBS 자산운용 「AI 빚의 그물」 — 차입 위험 과소평가",
+   "url": "https://www.ubs.com/ch/en/assetmanagement/insights/investment-outlook/the-red-thread/trt-end-year-2026/articles/webs-of-ai-debt.html",
+   "press": "UBS Asset Management",
+   "at": "2026-11-11 19:45",
+   "why": "🫧 「다음 약한 고리는 AI 차입」 가설(0.92)·버블 경보판 신용 칸 — 오늘 AI 되사기 반등의 반대 근거",
+   "summary": "소냐 라우드(UBS AM 공동 투자책임자, 11/11 블룸버그 TV): AI 투자 붐이 주식 이야기에서 빚 중심 대차대조표 이야기로 바뀜. 공·사모 빚과 지분이 얽힌 그물 위험을 시장이 과소평가."
+  },
+  {
+   "title": "JP모건 「미·이란 합의 시 브렌트 70달러 중반 가능」 — 공급 과잉 거래 재등장",
+   "url": "https://wallstreetcn.com/articles/3785726",
+   "press": "월스트리트CN(JP모건 보고서)",
+   "at": "2026-11-11 19:45",
+   "why": "XLE 내림 bet(열림 62.03)·장부 brent_95(에너지 13→10) — 하방 목표 근거",
+   "summary": "트럼프 행정부 남은 협상 기간 약 3주로 봄. 긴장 완화 가능성이 더 높고 합의 시 브렌트 70달러 중반. 구리·알루미늄도 공급 회복 압박. 브렌트 17:53 91.79(+0.33%)."
+  },
+  {
+   "title": "미 증시 장 전 AI 거래 회복 — 코어위브 +17%·엔비디아 +4%·메모리·광통신 상승",
+   "url": "https://wallstreetcn.com/articles/3785732",
+   "press": "월스트리트CN",
+   "at": "2026-11-11 19:45",
+   "why": "TSM 대기 bet(오늘 밤 시가)·「AI 안에서도 갈린다」 가설 — 수요 숫자(코어위브 가이던스 상향)가 가격을 되돌림",
+   "summary": "코어위브 3분기 매출 상회·연간 가이던스 상향에 장 전 +17%. SK하이닉스·샌디스크 약 +7%, 코히어런트 +9%·크레도·루멘텀 +8%. 나스닥100 선물 +1.6%·S&P +0.7%·다우 +0.2%."
+  },
+  {
    "title": "알파벳, 첫 아시아 채권 — 홍콩·싱가포르 달러로 약 30억 달러 조달 검토",
    "url": "https://www.newsbytesapp.com/news/business/google-parent-alphabet-eyes-3-billion-bond-sale-in-asia/story",
    "press": "NewsBytes(블룸버그 인용)",
@@ -615,30 +639,6 @@
    "at": "2026-11-09 21:40",
    "why": "AI 차입(크레딧) 가설 0.92 — 주식 아닌 채권 가격으로 확인하는 근거, CRWV 11/10 실적",
    "summary": "코어위브 회사채가 부실 수준 수익률에서 거래 — AI 인프라 확장 자금이 하이일드 채권에 기대는 구조. 기사 날짜 미확인."
-  },
-  {
-   "title": "코어위브 2032년물 수익률 15% 근접 — 크레딧 데스크는 중간선거 뒤를 기다린다",
-   "url": "https://fourweekmba.com/ai-coreweave-debt-yields-15-as-credit-desks-wait-for-midterms/",
-   "press": "FourWeekMBA",
-   "at": "2026-11-09 21:40",
-   "why": "네오클라우드 크레딧 스트레스의 숫자 기준 — 15% 이탈 여부를 AI 차입 가설 확인 지표로",
-   "summary": "CRWV 2032년물 수익률 ~15%·주가 −16% 날 보도. 날짜 정확히 미확인(중간선거 앞)."
-  },
-  {
-   "title": "AI 붐-버스트 논쟁: 오픈AI 자금조달 목표 축소·메타 크레딧 경고·현금흐름 대비 capex",
-   "url": "https://fortune.com/2026/10/31/ai-boom-bust-openai-fundraising-target-meta-credit-warning-cash-flow-capex",
-   "press": "Fortune",
-   "at": "2026-11-09 20:40",
-   "why": "AI 차입 가설(0.92) — 오늘 「OpenAI·Anthropic 몸값 하락」(Bloomberg)·「은행 AI 부채 경계」(Reuters)로 이어지는 흐름",
-   "summary": "10/31 기사: 오픈AI 자금조달 목표 하향, 메타 회사채에 크레딧 경고, 빅테크 capex가 영업현금흐름을 잠식한다는 분석(세부 숫자는 원문 확인)"
-  },
-  {
-   "title": "중국 공장출고가(PPI) 5.0% — 4년여 만에 최고, CPI는 0.9%로 격차 확대",
-   "url": "https://investinglive.com/news/china-factory-inflation-hits-5-fastest-in-over-four-years-as-cpi-lags-at-0-9/",
-   "press": "investingLive",
-   "at": "2026-11-09 20:40",
-   "why": "오늘 Caixin 「10월 PPI 4년 최고」와 같은 흐름 — 원자재·수입물가 경로로 韓 금리(한은 인상 전망)·고금리 정점 가설(0.45) 점검",
-   "summary": "9월 PPI +5.0%(4년여 최고)·CPI +0.9% — 중하류 기업 마진 압박. 10월 수치는 Caixin 피드 제목만 확인(숫자 미확인)"
   }
  ],
  "at": "2026-11-11 15:45"
