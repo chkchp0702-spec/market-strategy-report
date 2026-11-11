@@ -111,16 +111,18 @@ def clock(C):
         comps[nm] = comp
         h = h + np.where(go, 3 * comp, 0)
         go = go & (comp >= 0.75)
-    return (np.round(h * 2) / 2).astype(float), comps
+    free = sum(3 * comps[nm] for nm, _ in STAGES)   # 비교용: 순서 문(¾) 없이 네 단계 그냥 더하기 (결과 본 뒤 추가한 판 — 「사후」 꼬리표)
+    return (np.round(h * 2) / 2).astype(float), comps, (np.round(free * 2) / 2).astype(float)
 
 
-def run(cl, hh, T, cpct, confirm=False, lo=None, hi=None):
+def run(cl, hh, T, cpct, confirm=False, lo=None, hi=None, k100=False):
     """다음 날 비중 · 현금 연 2% · 바꿀 때 0.1% → (cagr, mdd, 바꾼 횟수/년, 현금 날 비율)"""
     ma = cl.rolling(200).mean()
     d = cl.index
     m = (d >= (lo or d[0])) & (d < (hi or d[-1] + pd.Timedelta(days=1)))
     c, h, a = cl[m].values, hh[m].values, ma[m].values
-    nav, bh, pn, pb, mn, mb, w, sw, cd, on = 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0, 0, False
+    pk252 = cl.rolling(252, min_periods=1).max()[m].values
+    nav, bh, pn, pb, mn, mb, w, sw, cd, on, bear = 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0, 0, False, False
     for i in range(1, len(c)):
         r1 = c[i] / c[i - 1] - 1
         nav *= 1 + w * r1 + (1 - w) * 0.02 / 252
@@ -131,7 +133,13 @@ def run(cl, hh, T, cpct, confirm=False, lo=None, hi=None):
             on = True
         elif on and (h[i] < T - 1.5 or (confirm and a[i] == a[i] and c[i] > a[i] and h[i] < T)):
             on = False
-        nw = 1 - cpct / 100 if on else 1.0
+        if k100:   # 🐻 계기판 코스피 K100: 고점 −20% → 전부 현금 · 고점 −10% 위 + 200일선 위면 풀림
+            ddk = c[i] / pk252[i] - 1
+            if not bear and ddk <= -0.20:
+                bear = True
+            elif bear and ddk > -0.10 and a[i] == a[i] and c[i] > a[i]:
+                bear = False
+        nw = min(1 - cpct / 100 if on else 1.0, 0.0 if bear else 1.0)
         if nw != w:
             nav *= 1 - 0.001 * abs(nw - w); sw += 1
         w = nw; cd += on
@@ -164,7 +172,7 @@ def first_reach(hh, cl, lo, hi):
 def main():
     px = load()
     C = cells(px)
-    hh, comps = clock(C)
+    hh, comps, hf = clock(C)
     start = C.dropna(subset=["credit", "breadth", "flow"]).index[0]
     hh = hh[hh.index >= start]
     res = {"at": dt.datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "from": str(start.date()), "to": str(hh.index[-1].date()),
@@ -192,15 +200,38 @@ def main():
                     grid.append({"T": T, "c": c, "confirm": confirm, "front": a, "back": b, "full": f,
                                  "edge_front": round(a["cagr"] - a["hold_cagr"], 2), "edge_back": round(b["cagr"] - b["hold_cagr"], 2),
                                  "ok": bool(a["cagr"] > a["hold_cagr"] and b["cagr"] > b["hold_cagr"])})
+        free = []
+        hf2 = hf.reindex(cl.index).ffill().fillna(0)
+        for T in TS + [10.5]:
+            for c in CS:
+                a = run(cl, hf2, T, c, False, hi=pd.Timestamp(SPLIT)); b = run(cl, hf2, T, c, False, lo=pd.Timestamp(SPLIT))
+                free.append({"T": T, "c": c, "edge_front": round(a["cagr"] - a["hold_cagr"], 2), "edge_back": round(b["cagr"] - b["hold_cagr"], 2),
+                             "ok": bool(a["cagr"] > a["hold_cagr"] and b["cagr"] > b["hold_cagr"]), "full": run(cl, hf2, T, c, False)})
+        combo = None
+        if key == "kospi":   # 지금 코스피 현금 규칙(K100)에 시계를 더하면 나아지나
+            base = {"front": run(cl, h2, 99, 0, hi=pd.Timestamp(SPLIT), k100=True), "back": run(cl, h2, 99, 0, lo=pd.Timestamp(SPLIT), k100=True), "full": run(cl, h2, 99, 0, k100=True)}
+            plus = []
+            for T in TS:
+                for c in CS:
+                    for cf in (False, True):
+                        fa = run(cl, h2, T, c, cf, hi=pd.Timestamp(SPLIT), k100=True); fb = run(cl, h2, T, c, cf, lo=pd.Timestamp(SPLIT), k100=True)
+                        plus.append({"T": T, "c": c, "confirm": cf, "d_front": round(fa["cagr"] - base["front"]["cagr"], 2), "d_back": round(fb["cagr"] - base["back"]["cagr"], 2),
+                                     "full": run(cl, h2, T, c, cf, k100=True)})
+            bp = max(plus, key=lambda g: g["d_front"])
+            combo = {"k100": base, "best_plus": bp, "ok": bool(bp["d_front"] > 0 and bp["d_back"] > 0), "n_ok": int(sum(g["d_front"] > 0 and g["d_back"] > 0 for g in plus))}
         best = max(grid, key=lambda g: g["edge_front"])   # 앞에서 고른 판
         res["markets"].append({"key": key, "name": name, "grid": grid,
                                "pick": {"T": best["T"], "c": best["c"], "confirm": best["confirm"],
                                         "edge_front": best["edge_front"], "edge_back": best["edge_back"], "ok": best["ok"],
                                         "full": best["full"]},
-                               "n_ok": int(sum(g["ok"] for g in grid))})
+                               "n_ok": int(sum(g["ok"] for g in grid)),
+                               "free": {"n_ok": int(sum(g["ok"] for g in free)), "pick": max(free, key=lambda g: g["edge_front"]), "grid": free},
+                               "combo_k100": combo})
     # 시계 흐름(월말) — 앱 그림용
     mo = hh.resample("ME").max()
     res["monthly"] = [[str(d.date())[:7], float(v)] for d, v in mo.items()]
+    res["free_now"] = float(hf.iloc[-1])
+    res["free_crises"] = [{"name": nm, "max": float(hf[(hf.index >= pd.Timestamp(lo)) & (hf.index <= pd.Timestamp(hi))].max())} for nm, lo, hi in CRISES]
     OUT.write_text(json.dumps(res, ensure_ascii=False, indent=1, default=lambda o: o.item() if hasattr(o, "item") else str(o)), encoding="utf-8")
     print("지금 대리 시계", res["now"]["h"], res["now"]["cells"])
     print("시계 분포 ≥T 날 비율", res["dist"])
@@ -208,6 +239,14 @@ def main():
         print(c)
     for m in res["markets"]:
         print(m["name"], "앞에서 고른 판", m["pick"], "앞·뒤 둘 다 이긴 판", m["n_ok"], "/", len(m["grid"]))
+        print(m["name"], "순서 문 없는 시계", m["free"]["n_ok"], m["free"]["pick"])
+        if m["combo_k100"]:
+            print(m["name"], "K100 + 시계", json.dumps(m["combo_k100"], default=float, ensure_ascii=False)[:900])
+    print("순서 문 없는 시계 분포", {str(T): round(float((hf[hf.index >= start] >= T).mean() * 100), 1) for T in TS + [10.5]})
+    for nm, lo, hi in CRISES:
+        s_ = hf[(hf.index >= pd.Timestamp(lo)) & (hf.index <= pd.Timestamp(hi))]
+        if len(s_):
+            print("순서 문 없는 시계", nm, "최고", float(s_.max()), str(s_.idxmax().date()))
     return 0
 
 
