@@ -1,16 +1,53 @@
-conc BASE {'is': {'cagr': np.float64(14.69), 'vol': np.float64(14.3), 'mdd': np.float64(-16.7), 'sharpe': np.float64(1.03), 'ex': np.float64(5.66), 'win12': 65, 'beat_years': 7, 'years': 9, 'turn': 1015}, 'oos': {'cagr': np.float64(17.79), 'vol': np.float64(15.1), 'mdd': np.float64(-19.2), 'sharpe': np.float64(1.17), 'ex': np.float64(3.05), 'win12': 72, 'beat_years': 7, 'years': 10, 'turn': 1105}} | 재현 차이 {'is': {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0}, 'oos': {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0}}
-conc R RAW {'is': {'cagr': -0.97, 'mdd': -0.6, 'sharpe': -0.07, 'vol': 0.2}, 'oos': {'cagr': 0.73, 'mdd': 2.4, 'sharpe': 0.04, 'vol': 0.0}} | MATCH 18.7 {'is': {'cagr': -1.2, 'mdd': 0.1, 'sharpe': -0.07, 'vol': 0.0}, 'oos': {'cagr': 0.17, 'mdd': 2.5, 'sharpe': 0.03, 'vol': -0.4}}
-conc V RAW {'is': {'cagr': -0.05, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0}, 'oos': {'cagr': -0.14, 'mdd': 0.6, 'sharpe': 0.0, 'vol': -0.2}} | MATCH 21.45 {'is': {'cagr': -0.06, 'mdd': 0.1, 'sharpe': 0.0, 'vol': 0.0}, 'oos': {'cagr': -0.23, 'mdd': 0.8, 'sharpe': 0.0, 'vol': -0.2}}
-conc RV RAW {'is': {'cagr': -1.04, 'mdd': -0.7, 'sharpe': -0.07, 'vol': 0.2}, 'oos': {'cagr': 0.53, 'mdd': 2.4, 'sharpe': 0.03, 'vol': -0.2}} | MATCH 20.08 {'is': {'cagr': -1.16, 'mdd': -0.3, 'sharpe': -0.07, 'vol': 0.0}, 'oos': {'cagr': 0.23, 'mdd': 2.6, 'sharpe': 0.03, 'vol': -0.4}}
-conc SHAKE V L160 {'raw': {'is': {'cagr': -0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0}, 'oos': {'cagr': -0.04, 'mdd': 1.3, 'sharpe': 0.01, 'vol': -0.1}}, 'm': {'is': {'cagr': -0.02, 'mdd': 0.1, 'sharpe': 0.0, 'vol': 0.0}, 'oos': {'cagr': -0.13, 'mdd': 1.6, 'sharpe': 0.01, 'vol': -0.2}}, 'tgt': 21.45}
-conc SHAKE V L240 {'raw': {'is': {'cagr': -0.04, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0}, 'oos': {'cagr': -0.07, 'mdd': 0.6, 'sharpe': 0.0, 'vol': -0.2}}, 'm': {'is': {'cagr': -0.16, 'mdd': -0.1, 'sharpe': -0.01, 'vol': 0.0}, 'oos': {'cagr': -0.01, 'mdd': 0.2, 'sharpe': 0.0, 'vol': -0.1}}, 'tgt': 22.83}
-conc SHAKE V n16 {'raw': {'is': {'cagr': 0.02, 'mdd': 0.1, 'sharpe': 0.0, 'vol': 0.0}, 'oos': {'cagr': 0.21, 'mdd': 1.0, 'sharpe': 0.02, 'vol': -0.1}}, 'm': {'is': {'cagr': -0.03, 'mdd': 0.1, 'sharpe': 0.0, 'vol': 0.0}, 'oos': {'cagr': 0.18, 'mdd': 1.7, 'sharpe': 0.02, 'vol': -0.2}}, 'tgt': 21.45}
-conc SHAKE V n24 {'raw': {'is': {'cagr': -0.06, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0}, 'oos': {'cagr': 0.14, 'mdd': 1.4, 'sharpe': 0.02, 'vol': -0.2}}, 'm': {'is': {'cagr': -0.08, 'mdd': 0.1, 'sharpe': 0.0, 'vol': 0.0}, 'oos': {'cagr': 0.01, 'mdd': 1.6, 'sharpe': 0.01, 'vol': -0.2}}, 'tgt': 21.45}
-port BASE {'is': {'cagr': np.float64(14.24), 'vol': np.float64(12.9), 'mdd': np.float64(-14.2), 'sharpe': np.float64(1.1), 'ex': np.float64(5.21), 'win12': 57, 'beat_years': 6, 'years': 9, 'turn': 1059}, 'oos': {'cagr': np.float64(17.12), 'vol': np.float64(13.2), 'mdd': np.float64(-15.3), 'sharpe': np.float64(1.27), 'ex': np.float64(2.37), 'win12': 71, 'beat_years': 6, 'years': 10, 'turn': 1132}} | 재현 차이 {'is': {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0}, 'oos': {'cagr': 0.0, 'mdd': 0.0, 'sharpe': 0.0, 'vol': 0.0}}
-port R RAW {'is': {'cagr': -0.57, 'mdd': -0.2, 'sharpe': -0.05, 'vol': 0.1}, 'oos': {'cagr': 0.4, 'mdd': 0.0, 'sharpe': 0.03, 'vol': 0.0}} | MATCH 14.62 {'is': {'cagr': -0.71, 'mdd': 0.1, 'sharpe': -0.05, 'vol': 0.0}, 'oos': {'cagr': 0.3, 'mdd': 0.1, 'sharpe': 0.03, 'vol': -0.2}}
-port V RAW {'is': {'cagr': -0.16, 'mdd': 0.2, 'sharpe': -0.01, 'vol': -0.1}, 'oos': {'cagr': -0.05, 'mdd': 0.3, 'sharpe': 0.02, 'vol': -0.3}} | MATCH 15.33 {'is': {'cagr': -0.03, 'mdd': 0.0, 'sharpe': -0.01, 'vol': 0.0}, 'oos': {'cagr': 0.03, 'mdd': 0.2, 'sharpe': 0.01, 'vol': -0.2}}
-port RV RAW {'is': {'cagr': -0.73, 'mdd': -0.1, 'sharpe': -0.05, 'vol': 0.0}, 'oos': {'cagr': 0.29, 'mdd': 0.3, 'sharpe': 0.04, 'vol': -0.3}} | MATCH 15.09 {'is': {'cagr': -0.68, 'mdd': -0.2, 'sharpe': -0.05, 'vol': 0.0}, 'oos': {'cagr': 0.31, 'mdd': 0.3, 'sharpe': 0.04, 'vol': -0.3}}
-port SHAKE V L160 {'raw': {'is': {'cagr': -0.19, 'mdd': 0.2, 'sharpe': 0.0, 'vol': -0.1}, 'oos': {'cagr': -0.11, 'mdd': 0.2, 'sharpe': 0.02, 'vol': -0.3}}, 'm': {'is': {'cagr': -0.02, 'mdd': -0.2, 'sharpe': 0.0, 'vol': 0.0}, 'oos': {'cagr': 0.06, 'mdd': 0.0, 'sharpe': 0.02, 'vol': -0.1}}, 'tgt': 15.56}
-port SHAKE V L240 {'raw': {'is': {'cagr': -0.08, 'mdd': 0.2, 'sharpe': 0.0, 'vol': -0.1}, 'oos': {'cagr': -0.06, 'mdd': 0.3, 'sharpe': 0.02, 'vol': -0.3}}, 'm': {'is': {'cagr': 0.04, 'mdd': -0.2, 'sharpe': 0.0, 'vol': 0.0}, 'oos': {'cagr': 0.11, 'mdd': 0.1, 'sharpe': 0.01, 'vol': -0.1}}, 'tgt': 15.56}
-port SHAKE V n16 {'raw': {'is': {'cagr': 0.02, 'mdd': -0.1, 'sharpe': 0.01, 'vol': -0.1}, 'oos': {'cagr': -0.2, 'mdd': 0.5, 'sharpe': 0.01, 'vol': -0.3}}, 'm': {'is': {'cagr': 0.15, 'mdd': -0.1, 'sharpe': 0.01, 'vol': 0.0}, 'oos': {'cagr': -0.02, 'mdd': 0.0, 'sharpe': 0.0, 'vol': -0.1}}, 'tgt': 15.56}
-port SHAKE V n24 {'raw': {'is': {'cagr': -0.05, 'mdd': 0.0, 'sharpe': 0.01, 'vol': -0.1}, 'oos': {'cagr': -0.16, 'mdd': 0.3, 'sharpe': 0.02, 'vol': -0.2}}, 'm': {'is': {'cagr': -0.02, 'mdd': 0.0, 'sharpe': 0.01, 'vol': 0.0}, 'oos': {'cagr': -0.11, 'mdd': 0.3, 'sharpe': 0.02, 'vol': -0.2}}, 'tgt': 15.09}
+재현 {'port': 0.009486, 'conc': 0.011019}
+port_noflow_t0 10.78 14.29 -15.2 242 0.0
+port_now_t0 10.95 14.38 -16.0 1134 0.0
+port_loc_t0 14.44 16.92 -16.2 1122 0.0
+port_krB_t0 13.96 15.65 -16.3 969 0.0
+port_krA_t0 13.72 15.85 -15.6 1120 0.0
+port_noflow_t154 9.41 12.22 -16.9 242 1.019
+port_now_t154 9.18 12.04 -18.8 1134 1.138
+port_loc_t154 12.26 14.2 -17.4 1122 1.798
+port_krB_t154 11.88 13.09 -18.4 969 1.584
+port_krA_t154 11.61 13.31 -16.2 1120 1.555
+port_noflow_t220 8.82 11.32 -17.8 242 1.35
+port_now_t220 8.42 11.04 -20.2 1134 1.486
+port_loc_t220 11.32 13.03 -19.0 1122 2.302
+port_krB_t220 10.99 11.99 -20.0 969 2.041
+port_krA_t220 10.71 12.22 -17.6 1120 2.004
+port_noflow_c7 10.85 14.37 -15.2 242 0.0
+port_loc_c7 14.81 17.31 -16.1 1122 0.0
+port_krB_c7 14.27 15.99 -16.3 969 0.0
+port_noflow_c25 10.42 13.88 -15.3 242 0.0
+port_loc_c25 12.64 14.96 -16.3 1122 0.0
+port_krB_c25 12.39 13.99 -16.5 969 0.0
+port_krB_th0.3 14.3 16.15 -16.3 969 0.0
+port_krA_th0.3 13.82 15.88 -15.4 1121 0.0
+port_krB_th0.7 13.62 15.17 -16.4 969 0.0
+port_krA_th0.7 13.63 15.82 -15.9 1121 0.0
+port_noflow_kB 10.83 14.23 -15.6 232 0.0
+conc_noflow_t0 11.36 15.41 -20.8 169 0.0
+conc_now_t0 11.29 15.0 -19.4 1109 0.0
+conc_loc_t0 14.96 17.86 -18.7 1099 0.0
+conc_krB_t0 14.5 16.59 -19.9 931 0.0
+conc_krA_t0 14.29 17.02 -18.2 1098 0.0
+conc_noflow_t154 10.0 13.38 -23.3 169 1.058
+conc_now_t154 9.44 12.45 -22.4 1109 1.281
+conc_loc_t154 12.74 14.9 -21.6 1099 2.085
+conc_krB_t154 12.33 13.8 -22.7 931 1.819
+conc_krA_t154 12.06 14.2 -21.1 1098 1.842
+conc_noflow_t220 9.42 12.5 -24.6 169 1.404
+conc_now_t220 8.64 11.35 -23.7 1109 1.662
+conc_loc_t220 11.78 13.62 -22.9 1099 2.653
+conc_krB_t220 11.39 12.6 -23.9 931 2.327
+conc_krA_t220 11.1 12.98 -22.3 1098 2.35
+conc_noflow_c7 11.4 15.47 -20.7 169 0.0
+conc_loc_c7 15.31 18.25 -18.5 1099 0.0
+conc_krB_c7 14.8 16.91 -19.6 931 0.0
+conc_noflow_c25 11.11 15.12 -21.3 169 0.0
+conc_loc_c25 13.23 15.93 -20.1 1099 0.0
+conc_krB_c25 13.01 14.98 -21.0 931 0.0
+conc_krB_th0.3 14.8 17.11 -19.6 931 0.0
+conc_krA_th0.3 14.43 16.92 -18.2 1098 0.0
+conc_krB_th0.7 14.21 16.08 -20.1 931 0.0
+conc_krA_th0.7 14.15 17.12 -18.2 1098 0.0
+conc_noflow_kB 11.34 15.57 -20.4 164 0.0
