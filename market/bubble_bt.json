@@ -1,0 +1,3459 @@
+{
+ "at": "2026-11-11 16:07",
+ "from": "1999-01-22",
+ "to": "2026-11-10",
+ "rules": "(바꾸려면 이 글과 bubble_bt.json rules 를 같이 고친다)\n  ─ 시계 계산 = 앱과 같음: 칸 점수 🔴1 · 🟠½ · 🟢0 → 단계 점수 = 칸 평균 · 단계마다 3시간 · 앞 단계가 ¾ 넘어야 다음 단계\n  ─ 손 칸(빅테크 FCF·회사채 발행·AI CDS·규제)은 과거 자료가 없어 기계 칸으로만 다시 만든 「대리 시계」:\n     💳 신용   ① 하이일드÷국채 = 뱅가드 하이일드(VWEHX) ÷ 중기국채(VFITX) — 앱의 HYG/IEF 와 같은 규칙(20일 −1.5%↓ 또는 60일 −3%↓ 🔴 · 20일 −0.5%↓ 🟠)\n               ② 하이일드 펀드 1년 고점 대비 −5%↓ 🔴 · −2%↓ 🟠 (앱의 회사채·CDS 칸 대신)\n     📈 금리   ③ 10년물 5% 위 5일 연속 🔴 · 4.75%↑ 🟠 (앱과 같음)   ④ 유가 브렌트(없으면 WTI) 100$ 🔴 · 90$ 🟠 (앱과 같음)\n     🧊 속살   ⑤ 동일가중 S&P(RSP · 2003년 전엔 NYSE 종합 ^NYA) 1년 고점 −15% 🔴 · −8% 🟠\n               ⑥ 방어 3종 − 기술 20일 +3%p 🟠 · 나스닥100 하루 −5%↓ + 방어주도 하락 + 신용 20일 하락이 최근 20일 안에 🔴 (앱과 같음)\n     🛟 완충   ⑦ 장단기 금리차(10년 − 3개월) 1년 안에 뒤집혔다가 지금 +0.5%p 넘게 다시 벌어짐 🔴 · 지금 뒤집힘 🟠 (경기침체 칸 대신)\n               ⑧ 3개월 금리가 6개월 새 1%p 넘게 내렸는데(급히 내림) S&P 가 200일선 아래 🔴 · 200일선 아래만 🟠 (반등 완충 칸 대신)\n  ─ 매매: 그날 종가로 시계 → 다음 날 비중 · 시계 ≥ T 면 주식 몫의 c% 를 현금 · 시계가 T − 1.5시간 아래로 내려오면 다시 다 삼\n          T ∈ {3, 4.5, 6, 7.5, 9} · c ∈ {50, 100} · 추가로 「T 넘고 + 지수가 200일선 아래일 때만」(확인형) 판\n          현금 연 2% · 비중 바꿀 때 0.1% · 가격지수(배당 제외) — 🐻 계기판 백테스트와 같은 조건\n  ─ 고르는 법: 2012년까지(앞)에서 고르고 2013년부터(뒤)에서 확인 — 앞·뒤 둘 다 보유를 이겨야 「검증됨」\n  ─ 시장: S&P500 · 나스닥 · 코스피(미국 버블 신호를 한국에 쓰면?)",
+ "now": {
+  "h": 0.0,
+  "cells": {
+   "credit": 0.0,
+   "hydd": 0.0,
+   "rate": 0.5,
+   "oil": 0.5,
+   "breadth": 0.0,
+   "flow": 1.0,
+   "curve": 0.0,
+   "buffer": 0.0
+  }
+ },
+ "dist": {
+  "3": 11.5,
+  "4.5": 1.4,
+  "6": 0.0,
+  "7.5": 0.0,
+  "9": 0.0
+ },
+ "markets": [
+  {
+   "key": "sp500",
+   "name": "S&P500",
+   "grid": [
+    {
+     "T": 3,
+     "c": 50,
+     "confirm": false,
+     "front": {
+      "cagr": 2.94,
+      "mdd": -43.2,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 2.2,
+      "cash_pct": 23.9
+     },
+     "back": {
+      "cagr": 12.07,
+      "mdd": -26.4,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 1.4,
+      "cash_pct": 10.5
+     },
+     "full": {
+      "cagr": 7.49,
+      "mdd": -43.2,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 1.8,
+      "cash_pct": 17.2
+     },
+     "edge_front": 1.84,
+     "edge_back": -0.5,
+     "ok": false
+    },
+    {
+     "T": 3,
+     "c": 100,
+     "confirm": false,
+     "front": {
+      "cagr": 4.13,
+      "mdd": -40.3,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 2.2,
+      "cash_pct": 23.9
+     },
+     "back": {
+      "cagr": 11.27,
+      "mdd": -21.8,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 1.4,
+      "cash_pct": 10.5
+     },
+     "full": {
+      "cagr": 7.73,
+      "mdd": -40.3,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 1.8,
+      "cash_pct": 17.2
+     },
+     "edge_front": 3.03,
+     "edge_back": -1.3,
+     "ok": false
+    },
+    {
+     "T": 4.5,
+     "c": 50,
+     "confirm": false,
+     "front": {
+      "cagr": 2.32,
+      "mdd": -48.5,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 0.6,
+      "cash_pct": 6.6
+     },
+     "back": {
+      "cagr": 12.37,
+      "mdd": -33.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 1.0,
+      "cash_pct": 1.4
+     },
+     "full": {
+      "cagr": 7.31,
+      "mdd": -48.5,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 0.8,
+      "cash_pct": 4.0
+     },
+     "edge_front": 1.22,
+     "edge_back": -0.2,
+     "ok": false
+    },
+    {
+     "T": 4.5,
+     "c": 100,
+     "confirm": false,
+     "front": {
+      "cagr": 3.21,
+      "mdd": -47.0,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 0.6,
+      "cash_pct": 6.6
+     },
+     "back": {
+      "cagr": 12.15,
+      "mdd": -33.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 1.0,
+      "cash_pct": 1.4
+     },
+     "full": {
+      "cagr": 7.67,
+      "mdd": -47.0,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 0.8,
+      "cash_pct": 4.0
+     },
+     "edge_front": 2.11,
+     "edge_back": -0.42,
+     "ok": false
+    },
+    {
+     "T": 6,
+     "c": 50,
+     "confirm": false,
+     "front": {
+      "cagr": 1.1,
+      "mdd": -56.8,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 12.58,
+      "mdd": -33.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 0.3,
+      "cash_pct": 0.1
+     },
+     "full": {
+      "cagr": 6.76,
+      "mdd": -56.8,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 0.1,
+      "cash_pct": 0.1
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.01,
+     "ok": false
+    },
+    {
+     "T": 6,
+     "c": 100,
+     "confirm": false,
+     "front": {
+      "cagr": 1.1,
+      "mdd": -56.8,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 12.59,
+      "mdd": -33.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 0.3,
+      "cash_pct": 0.1
+     },
+     "full": {
+      "cagr": 6.77,
+      "mdd": -56.8,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 0.1,
+      "cash_pct": 0.1
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.02,
+     "ok": false
+    },
+    {
+     "T": 7.5,
+     "c": 50,
+     "confirm": false,
+     "front": {
+      "cagr": 1.1,
+      "mdd": -56.8,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 12.57,
+      "mdd": -33.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 6.76,
+      "mdd": -56.8,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 7.5,
+     "c": 100,
+     "confirm": false,
+     "front": {
+      "cagr": 1.1,
+      "mdd": -56.8,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 12.57,
+      "mdd": -33.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 6.76,
+      "mdd": -56.8,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 9,
+     "c": 50,
+     "confirm": false,
+     "front": {
+      "cagr": 1.1,
+      "mdd": -56.8,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 12.57,
+      "mdd": -33.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 6.76,
+      "mdd": -56.8,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 9,
+     "c": 100,
+     "confirm": false,
+     "front": {
+      "cagr": 1.1,
+      "mdd": -56.8,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 12.57,
+      "mdd": -33.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 6.76,
+      "mdd": -56.8,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 3,
+     "c": 50,
+     "confirm": true,
+     "front": {
+      "cagr": 2.58,
+      "mdd": -44.1,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 1.9,
+      "cash_pct": 20.3
+     },
+     "back": {
+      "cagr": 11.99,
+      "mdd": -26.4,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 0.9,
+      "cash_pct": 8.6
+     },
+     "full": {
+      "cagr": 7.26,
+      "mdd": -44.1,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 1.4,
+      "cash_pct": 14.4
+     },
+     "edge_front": 1.48,
+     "edge_back": -0.58,
+     "ok": false
+    },
+    {
+     "T": 3,
+     "c": 100,
+     "confirm": true,
+     "front": {
+      "cagr": 3.44,
+      "mdd": -41.7,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 1.9,
+      "cash_pct": 20.3
+     },
+     "back": {
+      "cagr": 11.13,
+      "mdd": -19.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 0.9,
+      "cash_pct": 8.6
+     },
+     "full": {
+      "cagr": 7.3,
+      "mdd": -41.7,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 1.4,
+      "cash_pct": 14.4
+     },
+     "edge_front": 2.34,
+     "edge_back": -1.44,
+     "ok": false
+    },
+    {
+     "T": 4.5,
+     "c": 50,
+     "confirm": true,
+     "front": {
+      "cagr": 2.32,
+      "mdd": -48.5,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 0.6,
+      "cash_pct": 6.6
+     },
+     "back": {
+      "cagr": 12.41,
+      "mdd": -33.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 0.6,
+      "cash_pct": 1.2
+     },
+     "full": {
+      "cagr": 7.33,
+      "mdd": -48.5,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 0.6,
+      "cash_pct": 3.9
+     },
+     "edge_front": 1.22,
+     "edge_back": -0.16,
+     "ok": false
+    },
+    {
+     "T": 4.5,
+     "c": 100,
+     "confirm": true,
+     "front": {
+      "cagr": 3.21,
+      "mdd": -47.0,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 0.6,
+      "cash_pct": 6.6
+     },
+     "back": {
+      "cagr": 12.23,
+      "mdd": -33.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 0.6,
+      "cash_pct": 1.2
+     },
+     "full": {
+      "cagr": 7.71,
+      "mdd": -47.0,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 0.6,
+      "cash_pct": 3.9
+     },
+     "edge_front": 2.11,
+     "edge_back": -0.34,
+     "ok": false
+    },
+    {
+     "T": 6,
+     "c": 50,
+     "confirm": true,
+     "front": {
+      "cagr": 1.1,
+      "mdd": -56.8,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 12.57,
+      "mdd": -33.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 6.76,
+      "mdd": -56.8,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 6,
+     "c": 100,
+     "confirm": true,
+     "front": {
+      "cagr": 1.1,
+      "mdd": -56.8,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 12.57,
+      "mdd": -33.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 6.76,
+      "mdd": -56.8,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 7.5,
+     "c": 50,
+     "confirm": true,
+     "front": {
+      "cagr": 1.1,
+      "mdd": -56.8,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 12.57,
+      "mdd": -33.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 6.76,
+      "mdd": -56.8,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 7.5,
+     "c": 100,
+     "confirm": true,
+     "front": {
+      "cagr": 1.1,
+      "mdd": -56.8,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 12.57,
+      "mdd": -33.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 6.76,
+      "mdd": -56.8,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 9,
+     "c": 50,
+     "confirm": true,
+     "front": {
+      "cagr": 1.1,
+      "mdd": -56.8,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 12.57,
+      "mdd": -33.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 6.76,
+      "mdd": -56.8,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 9,
+     "c": 100,
+     "confirm": true,
+     "front": {
+      "cagr": 1.1,
+      "mdd": -56.8,
+      "hold_cagr": 1.1,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 12.57,
+      "mdd": -33.9,
+      "hold_cagr": 12.57,
+      "hold_mdd": -33.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 6.76,
+      "mdd": -56.8,
+      "hold_cagr": 6.76,
+      "hold_mdd": -56.8,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    }
+   ],
+   "pick": {
+    "T": 3,
+    "c": 100,
+    "confirm": false,
+    "edge_front": 3.03,
+    "edge_back": -1.3,
+    "ok": false,
+    "full": {
+     "cagr": 7.73,
+     "mdd": -40.3,
+     "hold_cagr": 6.76,
+     "hold_mdd": -56.8,
+     "sw_y": 1.8,
+     "cash_pct": 17.2
+    }
+   },
+   "n_ok": 0
+  },
+  {
+   "key": "nasdaq",
+   "name": "나스닥",
+   "grid": [
+    {
+     "T": 3,
+     "c": 50,
+     "confirm": false,
+     "front": {
+      "cagr": 5.45,
+      "mdd": -63.5,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 2.2,
+      "cash_pct": 23.9
+     },
+     "back": {
+      "cagr": 15.88,
+      "mdd": -29.3,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 1.4,
+      "cash_pct": 10.5
+     },
+     "full": {
+      "cagr": 10.65,
+      "mdd": -63.5,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 1.8,
+      "cash_pct": 17.2
+     },
+     "edge_front": 3.6,
+     "edge_back": -0.4,
+     "ok": false
+    },
+    {
+     "T": 3,
+     "c": 100,
+     "confirm": false,
+     "front": {
+      "cagr": 8.01,
+      "mdd": -54.6,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 2.2,
+      "cash_pct": 23.9
+     },
+     "back": {
+      "cagr": 15.1,
+      "mdd": -24.3,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 1.4,
+      "cash_pct": 10.5
+     },
+     "full": {
+      "cagr": 11.61,
+      "mdd": -54.6,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 1.8,
+      "cash_pct": 17.2
+     },
+     "edge_front": 6.16,
+     "edge_back": -1.18,
+     "ok": false
+    },
+    {
+     "T": 4.5,
+     "c": 50,
+     "confirm": false,
+     "front": {
+      "cagr": 3.67,
+      "mdd": -75.6,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 0.6,
+      "cash_pct": 6.6
+     },
+     "back": {
+      "cagr": 16.06,
+      "mdd": -37.6,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 1.0,
+      "cash_pct": 1.4
+     },
+     "full": {
+      "cagr": 9.79,
+      "mdd": -75.6,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 0.8,
+      "cash_pct": 4.0
+     },
+     "edge_front": 1.82,
+     "edge_back": -0.22,
+     "ok": false
+    },
+    {
+     "T": 4.5,
+     "c": 100,
+     "confirm": false,
+     "front": {
+      "cagr": 5.05,
+      "mdd": -73.5,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 0.6,
+      "cash_pct": 6.6
+     },
+     "back": {
+      "cagr": 15.8,
+      "mdd": -39.2,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 1.0,
+      "cash_pct": 1.4
+     },
+     "full": {
+      "cagr": 10.39,
+      "mdd": -73.5,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 0.8,
+      "cash_pct": 4.0
+     },
+     "edge_front": 3.2,
+     "edge_back": -0.48,
+     "ok": false
+    },
+    {
+     "T": 6,
+     "c": 50,
+     "confirm": false,
+     "front": {
+      "cagr": 1.85,
+      "mdd": -77.9,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 16.31,
+      "mdd": -36.4,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 0.3,
+      "cash_pct": 0.1
+     },
+     "full": {
+      "cagr": 8.93,
+      "mdd": -77.9,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 0.1,
+      "cash_pct": 0.1
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.03,
+     "ok": false
+    },
+    {
+     "T": 6,
+     "c": 100,
+     "confirm": false,
+     "front": {
+      "cagr": 1.85,
+      "mdd": -77.9,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 16.33,
+      "mdd": -36.4,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 0.3,
+      "cash_pct": 0.1
+     },
+     "full": {
+      "cagr": 8.94,
+      "mdd": -77.9,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 0.1,
+      "cash_pct": 0.1
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.05,
+     "ok": false
+    },
+    {
+     "T": 7.5,
+     "c": 50,
+     "confirm": false,
+     "front": {
+      "cagr": 1.85,
+      "mdd": -77.9,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 16.28,
+      "mdd": -36.4,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.92,
+      "mdd": -77.9,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 7.5,
+     "c": 100,
+     "confirm": false,
+     "front": {
+      "cagr": 1.85,
+      "mdd": -77.9,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 16.28,
+      "mdd": -36.4,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.92,
+      "mdd": -77.9,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 9,
+     "c": 50,
+     "confirm": false,
+     "front": {
+      "cagr": 1.85,
+      "mdd": -77.9,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 16.28,
+      "mdd": -36.4,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.92,
+      "mdd": -77.9,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 9,
+     "c": 100,
+     "confirm": false,
+     "front": {
+      "cagr": 1.85,
+      "mdd": -77.9,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 16.28,
+      "mdd": -36.4,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.92,
+      "mdd": -77.9,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 3,
+     "c": 50,
+     "confirm": true,
+     "front": {
+      "cagr": 4.4,
+      "mdd": -68.2,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 1.9,
+      "cash_pct": 19.2
+     },
+     "back": {
+      "cagr": 15.58,
+      "mdd": -29.3,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 1.0,
+      "cash_pct": 9.3
+     },
+     "full": {
+      "cagr": 9.95,
+      "mdd": -68.2,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 1.4,
+      "cash_pct": 14.2
+     },
+     "edge_front": 2.55,
+     "edge_back": -0.7,
+     "ok": false
+    },
+    {
+     "T": 3,
+     "c": 100,
+     "confirm": true,
+     "front": {
+      "cagr": 6.01,
+      "mdd": -61.5,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 1.9,
+      "cash_pct": 19.2
+     },
+     "back": {
+      "cagr": 14.51,
+      "mdd": -24.3,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 1.0,
+      "cash_pct": 9.3
+     },
+     "full": {
+      "cagr": 10.28,
+      "mdd": -61.5,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 1.4,
+      "cash_pct": 14.2
+     },
+     "edge_front": 4.16,
+     "edge_back": -1.77,
+     "ok": false
+    },
+    {
+     "T": 4.5,
+     "c": 50,
+     "confirm": true,
+     "front": {
+      "cagr": 3.56,
+      "mdd": -75.6,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 0.7,
+      "cash_pct": 6.5
+     },
+     "back": {
+      "cagr": 16.12,
+      "mdd": -37.6,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 0.6,
+      "cash_pct": 1.2
+     },
+     "full": {
+      "cagr": 9.76,
+      "mdd": -75.6,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 0.6,
+      "cash_pct": 3.8
+     },
+     "edge_front": 1.71,
+     "edge_back": -0.16,
+     "ok": false
+    },
+    {
+     "T": 4.5,
+     "c": 100,
+     "confirm": true,
+     "front": {
+      "cagr": 4.83,
+      "mdd": -73.5,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 0.7,
+      "cash_pct": 6.5
+     },
+     "back": {
+      "cagr": 15.9,
+      "mdd": -39.2,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 0.6,
+      "cash_pct": 1.2
+     },
+     "full": {
+      "cagr": 10.33,
+      "mdd": -73.5,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 0.6,
+      "cash_pct": 3.8
+     },
+     "edge_front": 2.98,
+     "edge_back": -0.38,
+     "ok": false
+    },
+    {
+     "T": 6,
+     "c": 50,
+     "confirm": true,
+     "front": {
+      "cagr": 1.85,
+      "mdd": -77.9,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 16.28,
+      "mdd": -36.4,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.92,
+      "mdd": -77.9,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 6,
+     "c": 100,
+     "confirm": true,
+     "front": {
+      "cagr": 1.85,
+      "mdd": -77.9,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 16.28,
+      "mdd": -36.4,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.92,
+      "mdd": -77.9,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 7.5,
+     "c": 50,
+     "confirm": true,
+     "front": {
+      "cagr": 1.85,
+      "mdd": -77.9,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 16.28,
+      "mdd": -36.4,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.92,
+      "mdd": -77.9,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 7.5,
+     "c": 100,
+     "confirm": true,
+     "front": {
+      "cagr": 1.85,
+      "mdd": -77.9,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 16.28,
+      "mdd": -36.4,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.92,
+      "mdd": -77.9,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 9,
+     "c": 50,
+     "confirm": true,
+     "front": {
+      "cagr": 1.85,
+      "mdd": -77.9,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 16.28,
+      "mdd": -36.4,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.92,
+      "mdd": -77.9,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 9,
+     "c": 100,
+     "confirm": true,
+     "front": {
+      "cagr": 1.85,
+      "mdd": -77.9,
+      "hold_cagr": 1.85,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 16.28,
+      "mdd": -36.4,
+      "hold_cagr": 16.28,
+      "hold_mdd": -36.4,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.92,
+      "mdd": -77.9,
+      "hold_cagr": 8.92,
+      "hold_mdd": -77.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    }
+   ],
+   "pick": {
+    "T": 3,
+    "c": 100,
+    "confirm": false,
+    "edge_front": 6.16,
+    "edge_back": -1.18,
+    "ok": false,
+    "full": {
+     "cagr": 11.61,
+     "mdd": -54.6,
+     "hold_cagr": 8.92,
+     "hold_mdd": -77.9,
+     "sw_y": 1.8,
+     "cash_pct": 17.2
+    }
+   },
+   "n_ok": 0
+  },
+  {
+   "key": "kospi",
+   "name": "코스피",
+   "grid": [
+    {
+     "T": 3,
+     "c": 50,
+     "confirm": false,
+     "front": {
+      "cagr": 11.29,
+      "mdd": -45.6,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 2.2,
+      "cash_pct": 23.9
+     },
+     "back": {
+      "cagr": 7.94,
+      "mdd": -44.8,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 1.5,
+      "cash_pct": 10.5
+     },
+     "full": {
+      "cagr": 9.69,
+      "mdd": -45.6,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 1.8,
+      "cash_pct": 17.2
+     },
+     "edge_front": 1.42,
+     "edge_back": 0.45,
+     "ok": true
+    },
+    {
+     "T": 3,
+     "c": 100,
+     "confirm": false,
+     "front": {
+      "cagr": 11.78,
+      "mdd": -42.2,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 2.2,
+      "cash_pct": 23.9
+     },
+     "back": {
+      "cagr": 8.21,
+      "mdd": -44.8,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 1.5,
+      "cash_pct": 10.5
+     },
+     "full": {
+      "cagr": 10.06,
+      "mdd": -44.8,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 1.8,
+      "cash_pct": 17.2
+     },
+     "edge_front": 1.91,
+     "edge_back": 0.72,
+     "ok": true
+    },
+    {
+     "T": 4.5,
+     "c": 50,
+     "confirm": false,
+     "front": {
+      "cagr": 10.77,
+      "mdd": -56.0,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 0.6,
+      "cash_pct": 6.5
+     },
+     "back": {
+      "cagr": 7.36,
+      "mdd": -44.2,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 1.0,
+      "cash_pct": 1.4
+     },
+     "full": {
+      "cagr": 9.13,
+      "mdd": -56.0,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 0.8,
+      "cash_pct": 4.0
+     },
+     "edge_front": 0.9,
+     "edge_back": -0.13,
+     "ok": false
+    },
+    {
+     "T": 4.5,
+     "c": 100,
+     "confirm": false,
+     "front": {
+      "cagr": 11.3,
+      "mdd": -56.5,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 0.6,
+      "cash_pct": 6.5
+     },
+     "back": {
+      "cagr": 7.21,
+      "mdd": -43.9,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 1.0,
+      "cash_pct": 1.4
+     },
+     "full": {
+      "cagr": 9.32,
+      "mdd": -56.5,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 0.8,
+      "cash_pct": 4.0
+     },
+     "edge_front": 1.43,
+     "edge_back": -0.28,
+     "ok": false
+    },
+    {
+     "T": 6,
+     "c": 50,
+     "confirm": false,
+     "front": {
+      "cagr": 9.87,
+      "mdd": -55.7,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 7.59,
+      "mdd": -44.2,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 0.3,
+      "cash_pct": 0.1
+     },
+     "full": {
+      "cagr": 8.8,
+      "mdd": -55.7,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 0.1,
+      "cash_pct": 0.1
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.1,
+     "ok": false
+    },
+    {
+     "T": 6,
+     "c": 100,
+     "confirm": false,
+     "front": {
+      "cagr": 9.87,
+      "mdd": -55.7,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 7.7,
+      "mdd": -43.9,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 0.3,
+      "cash_pct": 0.1
+     },
+     "full": {
+      "cagr": 8.85,
+      "mdd": -55.7,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 0.1,
+      "cash_pct": 0.1
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.21,
+     "ok": false
+    },
+    {
+     "T": 7.5,
+     "c": 50,
+     "confirm": false,
+     "front": {
+      "cagr": 9.87,
+      "mdd": -55.7,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 7.49,
+      "mdd": -44.9,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.75,
+      "mdd": -55.7,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 7.5,
+     "c": 100,
+     "confirm": false,
+     "front": {
+      "cagr": 9.87,
+      "mdd": -55.7,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 7.49,
+      "mdd": -44.9,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.75,
+      "mdd": -55.7,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 9,
+     "c": 50,
+     "confirm": false,
+     "front": {
+      "cagr": 9.87,
+      "mdd": -55.7,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 7.49,
+      "mdd": -44.9,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.75,
+      "mdd": -55.7,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 9,
+     "c": 100,
+     "confirm": false,
+     "front": {
+      "cagr": 9.87,
+      "mdd": -55.7,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 7.49,
+      "mdd": -44.9,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.75,
+      "mdd": -55.7,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 3,
+     "c": 50,
+     "confirm": true,
+     "front": {
+      "cagr": 11.92,
+      "mdd": -45.8,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 1.8,
+      "cash_pct": 17.1
+     },
+     "back": {
+      "cagr": 8.07,
+      "mdd": -44.8,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 1.3,
+      "cash_pct": 10.3
+     },
+     "full": {
+      "cagr": 10.06,
+      "mdd": -45.8,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 1.5,
+      "cash_pct": 13.7
+     },
+     "edge_front": 2.05,
+     "edge_back": 0.58,
+     "ok": true
+    },
+    {
+     "T": 3,
+     "c": 100,
+     "confirm": true,
+     "front": {
+      "cagr": 13.2,
+      "mdd": -44.6,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 1.8,
+      "cash_pct": 17.1
+     },
+     "back": {
+      "cagr": 8.47,
+      "mdd": -44.8,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 1.3,
+      "cash_pct": 10.3
+     },
+     "full": {
+      "cagr": 10.9,
+      "mdd": -44.8,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 1.5,
+      "cash_pct": 13.7
+     },
+     "edge_front": 3.33,
+     "edge_back": 0.98,
+     "ok": true
+    },
+    {
+     "T": 4.5,
+     "c": 50,
+     "confirm": true,
+     "front": {
+      "cagr": 10.77,
+      "mdd": -56.0,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 0.6,
+      "cash_pct": 6.5
+     },
+     "back": {
+      "cagr": 7.36,
+      "mdd": -44.2,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 1.0,
+      "cash_pct": 1.4
+     },
+     "full": {
+      "cagr": 9.13,
+      "mdd": -56.0,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 0.8,
+      "cash_pct": 4.0
+     },
+     "edge_front": 0.9,
+     "edge_back": -0.13,
+     "ok": false
+    },
+    {
+     "T": 4.5,
+     "c": 100,
+     "confirm": true,
+     "front": {
+      "cagr": 11.3,
+      "mdd": -56.5,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 0.6,
+      "cash_pct": 6.5
+     },
+     "back": {
+      "cagr": 7.21,
+      "mdd": -43.9,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 1.0,
+      "cash_pct": 1.4
+     },
+     "full": {
+      "cagr": 9.32,
+      "mdd": -56.5,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 0.8,
+      "cash_pct": 4.0
+     },
+     "edge_front": 1.43,
+     "edge_back": -0.28,
+     "ok": false
+    },
+    {
+     "T": 6,
+     "c": 50,
+     "confirm": true,
+     "front": {
+      "cagr": 9.87,
+      "mdd": -55.7,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 7.59,
+      "mdd": -44.2,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 0.3,
+      "cash_pct": 0.1
+     },
+     "full": {
+      "cagr": 8.8,
+      "mdd": -55.7,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 0.1,
+      "cash_pct": 0.1
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.1,
+     "ok": false
+    },
+    {
+     "T": 6,
+     "c": 100,
+     "confirm": true,
+     "front": {
+      "cagr": 9.87,
+      "mdd": -55.7,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 7.7,
+      "mdd": -43.9,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 0.3,
+      "cash_pct": 0.1
+     },
+     "full": {
+      "cagr": 8.85,
+      "mdd": -55.7,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 0.1,
+      "cash_pct": 0.1
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.21,
+     "ok": false
+    },
+    {
+     "T": 7.5,
+     "c": 50,
+     "confirm": true,
+     "front": {
+      "cagr": 9.87,
+      "mdd": -55.7,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 7.49,
+      "mdd": -44.9,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.75,
+      "mdd": -55.7,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 7.5,
+     "c": 100,
+     "confirm": true,
+     "front": {
+      "cagr": 9.87,
+      "mdd": -55.7,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 7.49,
+      "mdd": -44.9,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.75,
+      "mdd": -55.7,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 9,
+     "c": 50,
+     "confirm": true,
+     "front": {
+      "cagr": 9.87,
+      "mdd": -55.7,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 7.49,
+      "mdd": -44.9,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.75,
+      "mdd": -55.7,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    },
+    {
+     "T": 9,
+     "c": 100,
+     "confirm": true,
+     "front": {
+      "cagr": 9.87,
+      "mdd": -55.7,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "back": {
+      "cagr": 7.49,
+      "mdd": -44.9,
+      "hold_cagr": 7.49,
+      "hold_mdd": -44.9,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "full": {
+      "cagr": 8.75,
+      "mdd": -55.7,
+      "hold_cagr": 8.75,
+      "hold_mdd": -55.7,
+      "sw_y": 0.0,
+      "cash_pct": 0.0
+     },
+     "edge_front": 0.0,
+     "edge_back": 0.0,
+     "ok": false
+    }
+   ],
+   "pick": {
+    "T": 3,
+    "c": 100,
+    "confirm": true,
+    "edge_front": 3.33,
+    "edge_back": 0.98,
+    "ok": true,
+    "full": {
+     "cagr": 10.9,
+     "mdd": -44.8,
+     "hold_cagr": 8.75,
+     "hold_mdd": -55.7,
+     "sw_y": 1.5,
+     "cash_pct": 13.7
+    }
+   },
+   "n_ok": 4
+  }
+ ],
+ "crises": [
+  {
+   "name": "닷컴 2000~02",
+   "max": 4.5,
+   "max_d": "2000-11-17",
+   "trough": {
+    "d": "2002-10-09",
+    "dd": -45.9
+   },
+   "3": {
+    "d": "1999-08-19",
+    "dd": -6.7,
+    "then": -41.3
+   }
+  },
+  {
+   "name": "금융위기 2007~09",
+   "max": 4.5,
+   "max_d": "2008-03-12",
+   "trough": {
+    "d": "2009-03-09",
+    "dd": -56.8
+   },
+   "3": {
+    "d": "2007-06-26",
+    "dd": -3.0,
+    "then": -54.7
+   }
+  },
+  {
+   "name": "유럽 2011",
+   "max": 4.5,
+   "max_d": "2011-08-11",
+   "trough": {
+    "d": "2011-10-03",
+    "dd": -19.4
+   },
+   "3": {
+    "d": "2011-06-23",
+    "dd": -5.9,
+    "then": -14.4
+   }
+  },
+  {
+   "name": "코로나 2020",
+   "max": 3.0,
+   "max_d": "2020-03-09",
+   "trough": {
+    "d": "2020-03-23",
+    "dd": -33.9
+   },
+   "3": {
+    "d": "2020-03-09",
+    "dd": -18.9,
+    "then": -18.5
+   }
+  },
+  {
+   "name": "긴축 2022",
+   "max": 4.5,
+   "max_d": "2022-03-10",
+   "trough": {
+    "d": "2022-10-12",
+    "dd": -25.4
+   },
+   "3": {
+    "d": "2022-02-11",
+    "dd": -7.9,
+    "then": -19.0
+   }
+  },
+  {
+   "name": "관세 2025",
+   "max": 2.0,
+   "max_d": "2025-04-07",
+   "trough": {
+    "d": "2025-04-08",
+    "dd": -18.9
+   }
+  },
+  {
+   "name": "지금 2026",
+   "max": 6.0,
+   "max_d": "2026-10-16",
+   "trough": {
+    "d": "2026-06-10",
+    "dd": -4.5
+   },
+   "3": {
+    "d": "2026-10-16",
+    "dd": -2.0,
+    "then": -4.0
+   },
+   "6": {
+    "d": "2026-10-16",
+    "dd": -2.0,
+    "then": -4.0
+   }
+  }
+ ],
+ "monthly": [
+  [
+   "1999-01",
+   0.0
+  ],
+  [
+   "1999-02",
+   0.0
+  ],
+  [
+   "1999-03",
+   1.0
+  ],
+  [
+   "1999-04",
+   0.0
+  ],
+  [
+   "1999-05",
+   1.0
+  ],
+  [
+   "1999-06",
+   1.5
+  ],
+  [
+   "1999-07",
+   1.0
+  ],
+  [
+   "1999-08",
+   4.0
+  ],
+  [
+   "1999-09",
+   1.5
+  ],
+  [
+   "1999-10",
+   1.0
+  ],
+  [
+   "1999-11",
+   1.0
+  ],
+  [
+   "1999-12",
+   0.0
+  ],
+  [
+   "2000-01",
+   1.0
+  ],
+  [
+   "2000-02",
+   1.0
+  ],
+  [
+   "2000-03",
+   4.0
+  ],
+  [
+   "2000-04",
+   4.0
+  ],
+  [
+   "2000-05",
+   1.5
+  ],
+  [
+   "2000-06",
+   1.5
+  ],
+  [
+   "2000-07",
+   1.0
+  ],
+  [
+   "2000-08",
+   1.0
+  ],
+  [
+   "2000-09",
+   4.0
+  ],
+  [
+   "2000-10",
+   4.0
+  ],
+  [
+   "2000-11",
+   4.5
+  ],
+  [
+   "2000-12",
+   4.5
+  ],
+  [
+   "2001-01",
+   3.0
+  ],
+  [
+   "2001-02",
+   1.0
+  ],
+  [
+   "2001-03",
+   3.0
+  ],
+  [
+   "2001-04",
+   4.0
+  ],
+  [
+   "2001-05",
+   0.0
+  ],
+  [
+   "2001-06",
+   4.0
+  ],
+  [
+   "2001-07",
+   4.0
+  ],
+  [
+   "2001-08",
+   4.0
+  ],
+  [
+   "2001-09",
+   3.0
+  ],
+  [
+   "2001-10",
+   3.0
+  ],
+  [
+   "2001-11",
+   3.0
+  ],
+  [
+   "2001-12",
+   2.0
+  ],
+  [
+   "2002-01",
+   1.5
+  ],
+  [
+   "2002-02",
+   3.0
+  ],
+  [
+   "2002-03",
+   3.0
+  ],
+  [
+   "2002-04",
+   1.0
+  ],
+  [
+   "2002-05",
+   1.5
+  ],
+  [
+   "2002-06",
+   3.0
+  ],
+  [
+   "2002-07",
+   3.0
+  ],
+  [
+   "2002-08",
+   3.0
+  ],
+  [
+   "2002-09",
+   3.0
+  ],
+  [
+   "2002-10",
+   3.0
+  ],
+  [
+   "2002-11",
+   1.5
+  ],
+  [
+   "2002-12",
+   2.0
+  ],
+  [
+   "2003-01",
+   1.0
+  ],
+  [
+   "2003-02",
+   1.5
+  ],
+  [
+   "2003-03",
+   1.0
+  ],
+  [
+   "2003-04",
+   0.0
+  ],
+  [
+   "2003-05",
+   1.5
+  ],
+  [
+   "2003-06",
+   1.5
+  ],
+  [
+   "2003-07",
+   0.0
+  ],
+  [
+   "2003-08",
+   2.0
+  ],
+  [
+   "2003-09",
+   1.5
+  ],
+  [
+   "2003-10",
+   1.5
+  ],
+  [
+   "2003-11",
+   0.0
+  ],
+  [
+   "2003-12",
+   0.0
+  ],
+  [
+   "2004-01",
+   0.0
+  ],
+  [
+   "2004-02",
+   1.5
+  ],
+  [
+   "2004-03",
+   1.0
+  ],
+  [
+   "2004-04",
+   0.0
+  ],
+  [
+   "2004-05",
+   2.0
+  ],
+  [
+   "2004-06",
+   1.5
+  ],
+  [
+   "2004-07",
+   0.0
+  ],
+  [
+   "2004-08",
+   1.0
+  ],
+  [
+   "2004-09",
+   0.0
+  ],
+  [
+   "2004-10",
+   0.0
+  ],
+  [
+   "2004-11",
+   0.0
+  ],
+  [
+   "2004-12",
+   0.0
+  ],
+  [
+   "2005-01",
+   1.0
+  ],
+  [
+   "2005-02",
+   1.0
+  ],
+  [
+   "2005-03",
+   2.0
+  ],
+  [
+   "2005-04",
+   2.0
+  ],
+  [
+   "2005-05",
+   2.0
+  ],
+  [
+   "2005-06",
+   1.5
+  ],
+  [
+   "2005-07",
+   0.0
+  ],
+  [
+   "2005-08",
+   1.0
+  ],
+  [
+   "2005-09",
+   1.5
+  ],
+  [
+   "2005-10",
+   1.0
+  ],
+  [
+   "2005-11",
+   0.0
+  ],
+  [
+   "2005-12",
+   0.0
+  ],
+  [
+   "2006-01",
+   0.0
+  ],
+  [
+   "2006-02",
+   0.0
+  ],
+  [
+   "2006-03",
+   0.0
+  ],
+  [
+   "2006-04",
+   0.0
+  ],
+  [
+   "2006-05",
+   1.0
+  ],
+  [
+   "2006-06",
+   1.5
+  ],
+  [
+   "2006-07",
+   1.0
+  ],
+  [
+   "2006-08",
+   1.0
+  ],
+  [
+   "2006-09",
+   0.0
+  ],
+  [
+   "2006-10",
+   0.0
+  ],
+  [
+   "2006-11",
+   0.0
+  ],
+  [
+   "2006-12",
+   1.0
+  ],
+  [
+   "2007-01",
+   0.0
+  ],
+  [
+   "2007-02",
+   1.0
+  ],
+  [
+   "2007-03",
+   1.5
+  ],
+  [
+   "2007-04",
+   0.0
+  ],
+  [
+   "2007-05",
+   0.0
+  ],
+  [
+   "2007-06",
+   4.0
+  ],
+  [
+   "2007-07",
+   4.0
+  ],
+  [
+   "2007-08",
+   4.0
+  ],
+  [
+   "2007-09",
+   2.0
+  ],
+  [
+   "2007-10",
+   1.5
+  ],
+  [
+   "2007-11",
+   3.0
+  ],
+  [
+   "2007-12",
+   3.0
+  ],
+  [
+   "2008-01",
+   3.0
+  ],
+  [
+   "2008-02",
+   4.0
+  ],
+  [
+   "2008-03",
+   4.5
+  ],
+  [
+   "2008-04",
+   4.0
+  ],
+  [
+   "2008-05",
+   0.0
+  ],
+  [
+   "2008-06",
+   4.0
+  ],
+  [
+   "2008-07",
+   4.5
+  ],
+  [
+   "2008-08",
+   4.5
+  ],
+  [
+   "2008-09",
+   4.5
+  ],
+  [
+   "2008-10",
+   4.0
+  ],
+  [
+   "2008-11",
+   3.0
+  ],
+  [
+   "2008-12",
+   3.0
+  ],
+  [
+   "2009-01",
+   3.0
+  ],
+  [
+   "2009-02",
+   3.0
+  ],
+  [
+   "2009-03",
+   3.0
+  ],
+  [
+   "2009-04",
+   1.5
+  ],
+  [
+   "2009-05",
+   1.5
+  ],
+  [
+   "2009-06",
+   1.5
+  ],
+  [
+   "2009-07",
+   2.0
+  ],
+  [
+   "2009-08",
+   1.0
+  ],
+  [
+   "2009-09",
+   1.5
+  ],
+  [
+   "2009-10",
+   0.0
+  ],
+  [
+   "2009-11",
+   1.5
+  ],
+  [
+   "2009-12",
+   1.0
+  ],
+  [
+   "2010-01",
+   1.0
+  ],
+  [
+   "2010-02",
+   2.0
+  ],
+  [
+   "2010-03",
+   0.0
+  ],
+  [
+   "2010-04",
+   0.0
+  ],
+  [
+   "2010-05",
+   2.0
+  ],
+  [
+   "2010-06",
+   2.0
+  ],
+  [
+   "2010-07",
+   1.5
+  ],
+  [
+   "2010-08",
+   1.5
+  ],
+  [
+   "2010-09",
+   1.0
+  ],
+  [
+   "2010-10",
+   0.0
+  ],
+  [
+   "2010-11",
+   1.5
+  ],
+  [
+   "2010-12",
+   1.0
+  ],
+  [
+   "2011-01",
+   0.0
+  ],
+  [
+   "2011-02",
+   0.0
+  ],
+  [
+   "2011-03",
+   1.5
+  ],
+  [
+   "2011-04",
+   0.0
+  ],
+  [
+   "2011-05",
+   1.5
+  ],
+  [
+   "2011-06",
+   4.0
+  ],
+  [
+   "2011-07",
+   1.5
+  ],
+  [
+   "2011-08",
+   4.5
+  ],
+  [
+   "2011-09",
+   4.5
+  ],
+  [
+   "2011-10",
+   4.5
+  ],
+  [
+   "2011-11",
+   4.0
+  ],
+  [
+   "2011-12",
+   1.0
+  ],
+  [
+   "2012-01",
+   0.0
+  ],
+  [
+   "2012-02",
+   0.0
+  ],
+  [
+   "2012-03",
+   1.0
+  ],
+  [
+   "2012-04",
+   1.5
+  ],
+  [
+   "2012-05",
+   4.0
+  ],
+  [
+   "2012-06",
+   3.0
+  ],
+  [
+   "2012-07",
+   0.0
+  ],
+  [
+   "2012-08",
+   0.0
+  ],
+  [
+   "2012-09",
+   0.0
+  ],
+  [
+   "2012-10",
+   0.0
+  ],
+  [
+   "2012-11",
+   1.5
+  ],
+  [
+   "2012-12",
+   0.0
+  ],
+  [
+   "2013-01",
+   0.0
+  ],
+  [
+   "2013-02",
+   1.0
+  ],
+  [
+   "2013-03",
+   1.0
+  ],
+  [
+   "2013-04",
+   1.0
+  ],
+  [
+   "2013-05",
+   0.0
+  ],
+  [
+   "2013-06",
+   4.5
+  ],
+  [
+   "2013-07",
+   1.5
+  ],
+  [
+   "2013-08",
+   1.5
+  ],
+  [
+   "2013-09",
+   1.0
+  ],
+  [
+   "2013-10",
+   1.5
+  ],
+  [
+   "2013-11",
+   0.0
+  ],
+  [
+   "2013-12",
+   0.0
+  ],
+  [
+   "2014-01",
+   1.0
+  ],
+  [
+   "2014-02",
+   1.0
+  ],
+  [
+   "2014-03",
+   0.0
+  ],
+  [
+   "2014-04",
+   0.0
+  ],
+  [
+   "2014-05",
+   1.0
+  ],
+  [
+   "2014-06",
+   0.0
+  ],
+  [
+   "2014-07",
+   1.0
+  ],
+  [
+   "2014-08",
+   1.5
+  ],
+  [
+   "2014-09",
+   3.0
+  ],
+  [
+   "2014-10",
+   2.0
+  ],
+  [
+   "2014-11",
+   1.0
+  ],
+  [
+   "2014-12",
+   2.0
+  ],
+  [
+   "2015-01",
+   1.5
+  ],
+  [
+   "2015-02",
+   1.5
+  ],
+  [
+   "2015-03",
+   1.5
+  ],
+  [
+   "2015-04",
+   1.5
+  ],
+  [
+   "2015-05",
+   0.0
+  ],
+  [
+   "2015-06",
+   1.0
+  ],
+  [
+   "2015-07",
+   2.0
+  ],
+  [
+   "2015-08",
+   2.0
+  ],
+  [
+   "2015-09",
+   2.0
+  ],
+  [
+   "2015-10",
+   2.0
+  ],
+  [
+   "2015-11",
+   1.5
+  ],
+  [
+   "2015-12",
+   3.0
+  ],
+  [
+   "2016-01",
+   3.0
+  ],
+  [
+   "2016-02",
+   3.0
+  ],
+  [
+   "2016-03",
+   2.0
+  ],
+  [
+   "2016-04",
+   1.5
+  ],
+  [
+   "2016-05",
+   0.0
+  ],
+  [
+   "2016-06",
+   1.5
+  ],
+  [
+   "2016-07",
+   1.0
+  ],
+  [
+   "2016-08",
+   0.0
+  ],
+  [
+   "2016-09",
+   0.0
+  ],
+  [
+   "2016-10",
+   0.0
+  ],
+  [
+   "2016-11",
+   1.0
+  ],
+  [
+   "2016-12",
+   0.0
+  ],
+  [
+   "2017-01",
+   0.0
+  ],
+  [
+   "2017-02",
+   0.0
+  ],
+  [
+   "2017-03",
+   1.5
+  ],
+  [
+   "2017-04",
+   1.0
+  ],
+  [
+   "2017-05",
+   0.0
+  ],
+  [
+   "2017-06",
+   0.0
+  ],
+  [
+   "2017-07",
+   0.0
+  ],
+  [
+   "2017-08",
+   1.0
+  ],
+  [
+   "2017-09",
+   1.0
+  ],
+  [
+   "2017-10",
+   0.0
+  ],
+  [
+   "2017-11",
+   1.5
+  ],
+  [
+   "2017-12",
+   0.0
+  ],
+  [
+   "2018-01",
+   0.0
+  ],
+  [
+   "2018-02",
+   1.5
+  ],
+  [
+   "2018-03",
+   1.5
+  ],
+  [
+   "2018-04",
+   1.5
+  ],
+  [
+   "2018-05",
+   2.0
+  ],
+  [
+   "2018-06",
+   1.0
+  ],
+  [
+   "2018-07",
+   1.0
+  ],
+  [
+   "2018-08",
+   0.0
+  ],
+  [
+   "2018-09",
+   0.0
+  ],
+  [
+   "2018-10",
+   2.0
+  ],
+  [
+   "2018-11",
+   2.0
+  ],
+  [
+   "2018-12",
+   3.0
+  ],
+  [
+   "2019-01",
+   2.0
+  ],
+  [
+   "2019-02",
+   0.0
+  ],
+  [
+   "2019-03",
+   1.0
+  ],
+  [
+   "2019-04",
+   0.0
+  ],
+  [
+   "2019-05",
+   1.5
+  ],
+  [
+   "2019-06",
+   1.5
+  ],
+  [
+   "2019-07",
+   0.0
+  ],
+  [
+   "2019-08",
+   1.5
+  ],
+  [
+   "2019-09",
+   0.0
+  ],
+  [
+   "2019-10",
+   1.5
+  ],
+  [
+   "2019-11",
+   0.0
+  ],
+  [
+   "2019-12",
+   0.0
+  ],
+  [
+   "2020-01",
+   1.5
+  ],
+  [
+   "2020-02",
+   1.5
+  ],
+  [
+   "2020-03",
+   3.0
+  ],
+  [
+   "2020-04",
+   3.0
+  ],
+  [
+   "2020-05",
+   3.0
+  ],
+  [
+   "2020-06",
+   2.0
+  ],
+  [
+   "2020-07",
+   2.0
+  ],
+  [
+   "2020-08",
+   0.0
+  ],
+  [
+   "2020-09",
+   1.5
+  ],
+  [
+   "2020-10",
+   1.0
+  ],
+  [
+   "2020-11",
+   0.0
+  ],
+  [
+   "2020-12",
+   0.0
+  ],
+  [
+   "2021-01",
+   0.0
+  ],
+  [
+   "2021-02",
+   0.0
+  ],
+  [
+   "2021-03",
+   1.0
+  ],
+  [
+   "2021-04",
+   0.0
+  ],
+  [
+   "2021-05",
+   1.0
+  ],
+  [
+   "2021-06",
+   0.0
+  ],
+  [
+   "2021-07",
+   1.0
+  ],
+  [
+   "2021-08",
+   1.0
+  ],
+  [
+   "2021-09",
+   0.0
+  ],
+  [
+   "2021-10",
+   0.0
+  ],
+  [
+   "2021-11",
+   2.0
+  ],
+  [
+   "2021-12",
+   1.0
+  ],
+  [
+   "2022-01",
+   1.5
+  ],
+  [
+   "2022-02",
+   3.0
+  ],
+  [
+   "2022-03",
+   4.5
+  ],
+  [
+   "2022-04",
+   4.0
+  ],
+  [
+   "2022-05",
+   4.5
+  ],
+  [
+   "2022-06",
+   4.5
+  ],
+  [
+   "2022-07",
+   4.5
+  ],
+  [
+   "2022-08",
+   3.0
+  ],
+  [
+   "2022-09",
+   4.0
+  ],
+  [
+   "2022-10",
+   3.0
+  ],
+  [
+   "2022-11",
+   1.5
+  ],
+  [
+   "2022-12",
+   1.5
+  ],
+  [
+   "2023-01",
+   1.5
+  ],
+  [
+   "2023-02",
+   1.5
+  ],
+  [
+   "2023-03",
+   2.0
+  ],
+  [
+   "2023-04",
+   1.5
+  ],
+  [
+   "2023-05",
+   1.5
+  ],
+  [
+   "2023-06",
+   0.0
+  ],
+  [
+   "2023-07",
+   0.0
+  ],
+  [
+   "2023-08",
+   0.0
+  ],
+  [
+   "2023-09",
+   1.0
+  ],
+  [
+   "2023-10",
+   1.5
+  ],
+  [
+   "2023-11",
+   0.0
+  ],
+  [
+   "2023-12",
+   0.0
+  ],
+  [
+   "2024-01",
+   0.0
+  ],
+  [
+   "2024-02",
+   0.0
+  ],
+  [
+   "2024-03",
+   0.0
+  ],
+  [
+   "2024-04",
+   0.0
+  ],
+  [
+   "2024-05",
+   0.0
+  ],
+  [
+   "2024-06",
+   1.0
+  ],
+  [
+   "2024-07",
+   1.0
+  ],
+  [
+   "2024-08",
+   1.5
+  ],
+  [
+   "2024-09",
+   0.0
+  ],
+  [
+   "2024-10",
+   0.0
+  ],
+  [
+   "2024-11",
+   0.0
+  ],
+  [
+   "2024-12",
+   0.0
+  ],
+  [
+   "2025-01",
+   0.0
+  ],
+  [
+   "2025-02",
+   1.0
+  ],
+  [
+   "2025-03",
+   1.5
+  ],
+  [
+   "2025-04",
+   2.0
+  ],
+  [
+   "2025-05",
+   0.0
+  ],
+  [
+   "2025-06",
+   0.0
+  ],
+  [
+   "2025-07",
+   0.0
+  ],
+  [
+   "2025-08",
+   1.0
+  ],
+  [
+   "2025-09",
+   1.0
+  ],
+  [
+   "2025-10",
+   1.0
+  ],
+  [
+   "2025-11",
+   1.0
+  ],
+  [
+   "2025-12",
+   0.0
+  ],
+  [
+   "2026-01",
+   0.0
+  ],
+  [
+   "2026-02",
+   1.0
+  ],
+  [
+   "2026-03",
+   1.0
+  ],
+  [
+   "2026-04",
+   0.0
+  ],
+  [
+   "2026-05",
+   0.0
+  ],
+  [
+   "2026-06",
+   0.0
+  ],
+  [
+   "2026-07",
+   0.0
+  ],
+  [
+   "2026-08",
+   0.0
+  ],
+  [
+   "2026-09",
+   1.0
+  ],
+  [
+   "2026-10",
+   6.0
+  ],
+  [
+   "2026-11",
+   1.5
+  ]
+ ]
+}
