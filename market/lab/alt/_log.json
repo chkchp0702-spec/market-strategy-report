@@ -1,0 +1,315 @@
+{
+ "at": "2026-11-12T01:39",
+ "log": {
+  "px": {
+   "rows": 10920,
+   "cols": [
+    "^KS11",
+    "^KQ11",
+    "^N225",
+    "000001.SS",
+    "399001.SZ",
+    "^HSI",
+    "^HSCE",
+    "^GSPC",
+    "^IXIC",
+    "^VIX",
+    "^TNX",
+    "^IRX",
+    "^SOX",
+    "RSP",
+    "VWEHX",
+    "VFITX",
+    "VUSTX",
+    "VBMFX",
+    "BZ=F",
+    "CL=F",
+    "GC=F",
+    "HG=F",
+    "DX-Y.NYB",
+    "KRW=X",
+    "JPY=X",
+    "CNY=X",
+    "HKD=X",
+    "XLP",
+    "XLV",
+    "XLU",
+    "XLK",
+    "^NDX",
+    "^NYA",
+    "SPY",
+    "QQQ",
+    "EWY",
+    "EWJ",
+    "FXI",
+    "000300.SS",
+    "^KS200"
+   ]
+  },
+  "kr_fund": {
+   "err": "ReadTimeout: HTTPSConnectionPool(host='data.krx.co.kr', port=443): Read timed out. (read timeout=40)"
+  },
+  "kr_fund_pykrx": {
+   "err": "IndexError: index 0 is out of bounds for axis 0 with size 0"
+  },
+  "kr_deposit": {
+   "err": "HTTPError: 404 Client Error: 404 for url: https://m.stock.naver.com/api/domestic/market/trendDeposit?page=1&pageSize=60"
+  },
+  "kr_investor": {
+   "rows": 5154,
+   "cols": [
+    "date",
+    "mk",
+    "individualStraightPurchasePrice",
+    "foreignStraightPurchasePrice",
+    "institutionStraightPurchasePrice",
+    "details"
+   ],
+   "first": "2016-05-13",
+   "last": "2026-11-12"
+  },
+  "us_multpl": {
+   "rows": 3743,
+   "cols": [
+    "date",
+    "cape",
+    "pe",
+    "divy",
+    "pb",
+    "ey"
+   ],
+   "first": "1871-01-01",
+   "last": "2026-11-30"
+  },
+  "us_margin": {
+   "err": "HTTPError: 403 Client Error: Forbidden for url: https://www.finra.org/sites/default/files/margin-statistics.xlsx"
+  },
+  "us_fred": {
+   "err": "RuntimeError: FRED 전부 실패"
+  },
+  "us_aaii": {
+   "rows": 2051,
+   "cols": [
+    "date",
+    "bull",
+    "neutral",
+    "bear"
+   ],
+   "first": "1987-06-26",
+   "last": "2026-11-05"
+  },
+  "jp_nikkei_val": {
+   "rows": 14,
+   "cols": [
+    "date",
+    "kind",
+    "加重平均(倍)",
+    "指数ベース(倍)"
+   ],
+   "first": "2026.11.02",
+   "last": "2026.11.11"
+  },
+  "cn_pe_sh": {
+   "rows": 336,
+   "cols": [
+    "日期",
+    "指数",
+    "平均市盈率"
+   ],
+   "first": "1999-01-29",
+   "last": "2026-11-11"
+  },
+  "cn_pe_sz": {
+   "rows": 348,
+   "cols": [
+    "日期",
+    "指数",
+    "平均市盈率"
+   ],
+   "first": "1997-12-31",
+   "last": "2026-11-11"
+  },
+  "cn_pb_sh": {
+   "rows": 263,
+   "cols": [
+    "日期",
+    "指数",
+    "市净率",
+    "等权市净率",
+    "市净率中位数"
+   ],
+   "first": "2005-01-31",
+   "last": "2026-11-11"
+  },
+  "cn_pe_all": {
+   "rows": 263,
+   "cols": [
+    "date",
+    "middlePETTM",
+    "averagePETTM",
+    "middlePELYR",
+    "averagePELYR",
+    "close",
+    "quantileInAllHistoryMiddlePeTtm",
+    "quantileInRecent10YearsMiddlePeTtm",
+    "quantileInAllHistoryAveragePeTtm",
+    "quantileInRecent10YearsAveragePeTtm",
+    "quantileInAllHistoryMiddlePeLyr",
+    "quantileInRecent10YearsMiddlePeLyr"
+   ],
+   "first": "2005-01-31",
+   "last": "2026-11-11"
+  },
+  "cn_pb_all": {
+   "rows": 263,
+   "cols": [
+    "date",
+    "middlePB",
+    "equalWeightAveragePB",
+    "close",
+    "quantileInAllHistoryMiddlePB",
+    "quantileInRecent10YearsMiddlePB",
+    "quantileInAllHistoryEqualWeightAveragePB",
+    "quantileInRecent10YearsEqualWeightAveragePB"
+   ],
+   "first": "2005-01-31",
+   "last": "2026-11-11"
+  },
+  "cn_ebs": {
+   "rows": 5241,
+   "cols": [
+    "日期",
+    "沪深300指数",
+    "股债利差",
+    "股债利差均线"
+   ],
+   "first": "2005-04-08",
+   "last": "2026-11-11"
+  },
+  "cn_buffett": {
+   "rows": 5244,
+   "cols": [
+    "日期",
+    "收盘价",
+    "总市值",
+    "GDP"
+   ],
+   "first": "2005-04-08",
+   "last": "2026-11-11"
+  },
+  "cn_margin_sse": {
+   "rows": 2000,
+   "cols": [
+    "信用交易日期",
+    "融资余额",
+    "融资买入额",
+    "融券余量",
+    "融券余量金额",
+    "融券卖出量",
+    "融资融券余额"
+   ],
+   "first": "20180810",
+   "last": "20261111"
+  },
+  "cn_margin_macro": {
+   "rows": 4027,
+   "cols": [
+    "日期",
+    "融资买入额",
+    "融资余额",
+    "融券卖出量",
+    "融券余量",
+    "融券余额",
+    "融资融券余额"
+   ],
+   "first": "2010-03-31",
+   "last": "2026-11-05"
+  },
+  "cn_north": {
+   "rows": 2787,
+   "cols": [
+    "日期",
+    "当日成交净买额",
+    "买入成交额",
+    "卖出成交额",
+    "历史累计净买额",
+    "当日资金流入",
+    "当日余额",
+    "持股市值",
+    "领涨股",
+    "领涨股-涨跌幅",
+    "沪深300",
+    "沪深300-涨跌幅"
+   ],
+   "first": "2014-11-17",
+   "last": "2026-11-11"
+  },
+  "hk_south": {
+   "rows": 2749,
+   "cols": [
+    "日期",
+    "当日成交净买额",
+    "买入成交额",
+    "卖出成交额",
+    "历史累计净买额",
+    "当日资金流入",
+    "当日余额",
+    "持股市值",
+    "领涨股",
+    "领涨股-涨跌幅",
+    "沪深300",
+    "沪深300-涨跌幅"
+   ],
+   "first": "2014-11-17",
+   "last": "2026-11-11"
+  },
+  "cn_csi300_pe": {
+   "rows": 260,
+   "cols": [
+    "日期",
+    "指数",
+    "等权静态市盈率",
+    "静态市盈率",
+    "静态市盈率中位数",
+    "等权滚动市盈率",
+    "滚动市盈率",
+    "滚动市盈率中位数"
+   ],
+   "first": "2005-04-29",
+   "last": "2026-11-11"
+  },
+  "cn_csi300_pb": {
+   "rows": 260,
+   "cols": [
+    "日期",
+    "指数",
+    "市净率",
+    "等权市净率",
+    "市净率中位数"
+   ],
+   "first": "2005-04-29",
+   "last": "2026-11-11"
+  },
+  "hk_hsi_val": {
+   "err": "RuntimeError: 빈 표"
+  },
+  "cn_newacct": {
+   "rows": 101,
+   "cols": [
+    "数据日期",
+    "新增投资者-数量",
+    "新增投资者-环比",
+    "新增投资者-同比",
+    "期末投资者-总量",
+    "期末投资者-A股账户",
+    "期末投资者-B股账户",
+    "沪深总市值",
+    "沪深户均市值",
+    "上证指数-收盘",
+    "上证指数-涨跌幅"
+   ],
+   "first": "2015-04",
+   "last": "2023-08"
+  }
+ }
+}
