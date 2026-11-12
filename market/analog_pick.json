@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12 13:05",
+ "at": "2026-11-12 13:09",
  "cash2": 4.1,
  "markets": [
   {
@@ -198,22 +198,22 @@
    "key": "hscei",
    "name": "항셍 H주",
    "nat": "hk",
-   "k": "half200",
-   "rule": "절반 지금 + 절반은 200일선 회복 때",
+   "k": "lump",
+   "rule": "지금 다 삼",
    "ok": true,
-   "staged": true,
+   "staged": false,
    "anchor": "2026-11-12",
    "asof": "2026-11-12",
-   "stock": 50,
-   "cash": 50,
-   "next": "200일선(8,466) 위로 올라오면 나머지 절반도 주식",
+   "stock": 100,
+   "cash": 0,
+   "next": "그대로 보유",
    "loo": {
     "med": 33.0,
     "worst": -53.5,
     "beat_cash": 8,
     "n": 12
    },
-   "y2_med": 35.5,
+   "y2_med": 35.9,
    "y2_worst": -53.1,
    "beat_cash": 9,
    "n": 12,

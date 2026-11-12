@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T03:56",
+ "at": "2026-11-12T04:09",
  "log": {
   "px": {
    "rows": 10920,
@@ -240,7 +240,18 @@
    "last": "2026-11-11"
   },
   "cn_margin_sse": {
-   "err": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   "rows": 2000,
+   "cols": [
+    "信用交易日期",
+    "融资余额",
+    "融资买入额",
+    "融券余量",
+    "融券余量金额",
+    "融券卖出量",
+    "融资融券余额"
+   ],
+   "first": "20180810",
+   "last": "20261111"
   },
   "cn_margin_macro": {
    "rows": 4027,
