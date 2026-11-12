@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12 22:45",
+ "at": "2026-11-12 23:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "kwusa/61751": {
@@ -71,6 +71,21 @@
    "lv": 1,
    "why": "엔비디아 부도위험(CDS) 사상 최고 근접 — 「AI 차입이 다음 약한 고리」 가설·🫧 신용 경보 직결",
    "at": "2026-11-12 22:45"
+  },
+  "n/httpswwwcnbccom20261112nvidiajensenhuangceoliveupdateshtml": {
+   "lv": 2,
+   "why": "젠슨 황 엔비디아 CEO 즉시 사임 확정·크레스 CFO 임시 CEO — 정규장 NVDA −10.3%(23:34)·qa 3 flip 조건 절반 충족(SOXX −2.2%로 아직 「대장주 단독」) · 반도체 칸·「AI 안에서 갈린다」·「AI 차입」 가설",
+   "at": "2026-11-12 23:45"
+  },
+  "n/dupgradedbecauseitwillbenefitfromnvidiasleadershipvacuumhtml": {
+   "lv": 1,
+   "why": "윌리엄블레어 AMD 상향 「엔비디아 리더십 공백 수혜」 — 대장주 단독 vs 업종 이탈 판정, 2·3위 반사이익 아이디어(ideas 21:45)",
+   "at": "2026-11-12 23:45"
+  },
+  "n/261112nebiussharesdroponneocloudsdisappointingrevenueoutlook": {
+   "lv": 1,
+   "why": "네비우스 매출 +571%에도 전망 실망 −13% · 코어위브 동반 하락 — 「빚으로 짓는 네오클라우드가 약하다」(AI 안에서 갈린다) 가설 직결",
+   "at": "2026-11-12 23:45"
   }
  }
 }

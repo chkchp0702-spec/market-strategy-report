@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "젠슨 황 엔비디아 CEO 사임, 콜레트 크레스 임시 CEO — 라이브",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+   "press": "CNBC",
+   "at": "2026-11-12 23:45",
+   "why": "반도체 칸·qa 3·9 flip 조건 — 대장주 단독 vs 현금 도피 판정의 출발점",
+   "summary": "황 CEO 즉시 사임(CEO·사장·이사직), 크레스 CFO 임시 CEO. 정규장 개장 직후 NVDA 155.78(−10.3%)·SOXX −2.2%(daily-app 23:34)."
+  },
+  {
+   "title": "AMD, 엔비디아 「리더십 공백」 수혜로 투자의견 상향(윌리엄블레어)",
+   "url": "https://www.cnbc.com/2026/11/12/amd-upgraded-because-it-will-benefit-from-nvidias-leadership-vacuum.html",
+   "press": "CNBC",
+   "at": "2026-11-12 23:45",
+   "why": "대장주 사건 때 2·3위로 돈이 가는지 — 「AI 안에서 갈린다」·ideas 21:45 검증 표본",
+   "summary": "윌리엄블레어가 AMD 상향, 엔비디아 경영 공백 기간 고객 이탈 수혜 기대. 장전 AMD·AVGO +2%대(트레이딩키 21:45)."
+  },
+  {
+   "title": "네비우스, 매출 급증에도 전망 실망에 급락 — 네오클라우드 동반 약세",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-12/nebius-shares-drop-on-neocloud-s-disappointing-revenue-outlook",
+   "press": "블룸버그",
+   "at": "2026-11-12 23:45",
+   "why": "「빚으로 짓는 곳(네오클라우드)이 약하다」 가설·🫧 신용 경보판",
+   "summary": "연간 매출 전망 실망에 장 초반 약 −10%(블룸버그)·한국 보도 −13%(매출 +571%에도 투자비 폭증 실망). 배런스 「황 사태가 코어위브 등 다른 AI 종목에 부담」."
+  },
+  {
    "title": "엔비디아 리더십 위기에 美 선물 하락·AI 매매 압박",
    "url": "https://www.marketscreener.com/news/nvidia-leadership-crisis-drags-on-u-s-stock-futures-pressures-ai-trade-update-ce785ed8da8afe27",
    "press": "다우존스(마켓스크리너)",
@@ -615,31 +639,7 @@
    "at": "2026-11-11 00:45",
    "why": "MS가 「중국산 광트랜시버 금지가 미국 AI를 늦춘다」며 로비(로이터 11/10) — 데이터센터 원가↑ = AI 차입 부담 가설·전력/인프라 칸과 연결",
    "summary": "미국 데이터센터 광트랜시버의 상당 부분이 중국산 — 금지되면 대체 공급 부족·원가 상승 우려. 수치는 원문 확인 필요(미확인)."
-  },
-  {
-   "title": "중국 광트랜시버 업체들, FCC 규칙 개정으로 미국 금지 일단 피해",
-   "url": "https://www.scmp.com/tech/big-tech/article/3367219/chinese-optical-transceiver-makers-dodge-us-ban-now-fcc-updates-rules",
-   "press": "SCMP",
-   "at": "2026-11-11 00:45",
-   "why": "트랜시버 금지 논쟁의 앞선 경과 — 금지 확정 여부가 미국 광통신주(COHR·LITE)와 하이퍼스케일러 원가 갈림길",
-   "summary": "FCC 규칙 개정에서 중국 광트랜시버 업체는 당장 금지 대상에서 빠짐(당시 기준). 이후 행정부 별도 금지안 초안 보도로 재점화."
-  },
-  {
-   "title": "CPI 뒤 선물 하락·금리 급등",
-   "url": "https://www.streetinsider.com/Market+Check/Futures+Decline%2C+Yields+Spike+Following+Hot+CPI+Data/18670080.html",
-   "press": "StreetInsider",
-   "at": "2026-11-10 23:45",
-   "why": "12/9 FOMC 분수령·고금리 정점 가설 — 2년물이 10년물보다 더 뛰는 매파형 반응",
-   "summary": "10월 CPI 예상 상회 뒤 미 선물 하락·국채 금리 급등(제목 기준). 같은 시각 우리 수집: 2년 4.689%(+14bp)·10년 4.954%(+9bp)·나스닥100 선물 −1.0%(23:23)."
-  },
-  {
-   "title": "월러 연준 이사 「10월 CPI가 뜨거우면 12월 0.5%p 인상 고려해야」",
-   "url": "https://uk.investing.com/news/economy-news/feds-waller-says-larger-hike-should-be-considered-if-october-cpi-runs-hot-4971098",
-   "press": "Investing.com",
-   "at": "2026-11-10 22:45",
-   "why": "오늘 밤 근원 CPI +0.3%(예상 0.2%)로 조건이 걸림 — 12/9 FOMC 분수령 가설·미국채 단기물·🫧 신용 칸",
-   "summary": "월러: 12월 인상 지지, 근원 물가가 높게 나오면 50bp 고려. 발표 결과 헤드라인 +0.4%·근원 +0.3%로 둘 다 예상 +0.1%p 상회(김현석 텔레그램 22:30)."
   }
  ],
- "at": "2026-11-12 20:45"
+ "at": "2026-11-12 23:45"
 }
