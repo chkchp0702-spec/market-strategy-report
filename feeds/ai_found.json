@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아 리더십 위기에 美 선물 하락·AI 매매 압박",
+   "url": "https://www.marketscreener.com/news/nvidia-leadership-crisis-drags-on-u-s-stock-futures-pressures-ai-trade-update-ce785ed8da8afe27",
+   "press": "다우존스(마켓스크리너)",
+   "at": "2026-11-12 22:45",
+   "why": "오늘 밤 NVDA 정규장 — 「대장주 단독」 vs 「현금 도피」 판정, 반도체 칸·qa 3·9",
+   "summary": "이사회 거취 결정 대기 속 나스닥100 선물 약세. 22:33 나스닥100 선물 −1.29%·S&P500 −0.68%·다우 −0.29%(daily-app 프리마켓)."
+  },
+  {
+   "title": "美 선물 하락 — 엔비디아 급락, 트럼프 「이란과 합의 필요 없다」",
+   "url": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html",
+   "press": "CNBC",
+   "at": "2026-11-12 22:45",
+   "why": "유가 협상 기대 후퇴 → XLE 내림 bet·장부 brent_95·qa 19",
+   "summary": "트럼프 발언 뒤 유가 반등, 22:33 브렌트 93.72(+1.03%)·WTI 87.11·금 −1.77%(daily-app)."
+  },
+  {
    "title": "엔비디아 장전 −7%대, AMD·브로드컴은 +2% 넘게 — 「고객사 칩 구매 분산」 해석",
    "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262302368-nvidia-amd-broadcom-huang-ceo-chip-procurement-diversification-tradingkey",
    "press": "TradingKey",
@@ -623,22 +639,6 @@
    "at": "2026-11-10 22:45",
    "why": "오늘 밤 근원 CPI +0.3%(예상 0.2%)로 조건이 걸림 — 12/9 FOMC 분수령 가설·미국채 단기물·🫧 신용 칸",
    "summary": "월러: 12월 인상 지지, 근원 물가가 높게 나오면 50bp 고려. 발표 결과 헤드라인 +0.4%·근원 +0.3%로 둘 다 예상 +0.1%p 상회(김현석 텔레그램 22:30)."
-  },
-  {
-   "title": "2022년 이후 최대 인상이 이례적인 10월 CPI에 달렸다",
-   "url": "https://www.tipranks.com/news/feds-largest-rate-hike-since-2022-hinges-on-todays-unusual-october-inflation-report",
-   "press": "TipRanks",
-   "at": "2026-11-10 22:45",
-   "why": "1년 전 대비 숫자 없이 전월비만 나오는 CPI — 반응이 전월비에 몰림, 금리 민감주·장기채 칸",
-   "summary": "셧다운 여파로 10월 전년비 CPI 미발표. 전월비 근원이 50bp 인상 여부의 핵심 변수로 지목."
-  },
-  {
-   "title": "평화 협상 속 유가 4주 만의 최저 부근",
-   "url": "https://www.khaleejtimes.com/business/oil-prices-ease-to-nearly-four-week-low-amid-peace-talks",
-   "press": "Khaleej Times",
-   "at": "2026-11-10 22:45",
-   "why": "장부 brent_95(선 90) — 오늘 종가 90↓면 에너지 13→10, XLE 대기 bet",
-   "summary": "미·이란 협상 진전 기대로 브렌트 약세. 알아라비아는 우라늄 3.67% 제한·동결자금 해제 예비 합의 근접 보도."
   }
  ],
  "at": "2026-11-12 20:45"

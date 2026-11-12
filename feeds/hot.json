@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12 21:45",
+ "at": "2026-11-12 22:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "kwusa/61751": {
@@ -42,11 +42,6 @@
    "why": "유가 협상 기대로 또 1달러↓ — 브렌트 90 선(brent_95)·XLE 내림 bet 쪽 근거",
    "at": "2026-11-12 12:45"
   },
-  "n/0dXpna196WEc4RGdjSTdlRTRfZDNHVzVGWjRjZnVuQkw3S1FlYTVrbjBnoc5": {
-   "lv": 1,
-   "why": "美 장기채 휴장 뒤 오름세 재개·위험 심리 냉각 — 10년 5% watch·「고금리 정점」 가설·qa 연준/채권",
-   "at": "2026-11-12 14:45"
-  },
   "HANAchina/72009": {
    "lv": 1,
    "why": "「AI 안에서 갈린다」 가설 직격 — 번스타인 북미 DC 586GW 중 믿을 건 199GW(34%), 빅4가 그 76%·네오클라우드는 실현률 낮음",
@@ -62,15 +57,20 @@
    "why": "美 AI 칩 수출 통제 싱가포르·동남아로 확대 — NVDA 사람 위험에 규제 겹침, 🫧 버블 경보판·091160·「AI 안에서 갈린다」",
    "at": "2026-11-12 18:45"
   },
-  "n/remountsonnvidiasjensenhuangamidreportsofsecondaffairtsrcrss": {
-   "lv": 1,
-   "why": "황 CEO 「두 번째 관계」 보도로 해임 압박 확대 — NVDA 프리마켓 −6~8.6%(CNBC·벤징가), 오늘 밤 정규장·반도체 칸·qa 3·9",
-   "at": "2026-11-12 19:45"
-  },
   "n/5JejNRZnhkUFlzekNmLURSbUVmcXhmclZyMGoyWmNFWFlfdnNRUzRkOVEoc5": {
    "lv": 1,
    "why": "로젠버그 「10월 CPI가 0.5%p 인상을 정당화 못 해」 — 12/9 FOMC 분수령 가설·qa 7(빅스텝 걱정) 반대 근거",
    "at": "2026-11-12 21:45"
+  },
+  "n/ticles20261112oiljumpsaftertrumpsaysusdoesntneeddealwithiran": {
+   "lv": 1,
+   "why": "트럼프 「이란과 합의 필요 없다」 → 유가 반등(브렌트 93.7 +1.0%) — 협상 기대 꺾임, XLE 내림 bet 불리·brent_95 선 90에서 멀어짐·qa 19",
+   "at": "2026-11-12 22:45"
+  },
+  "n/0261112nvidiadefaultrisknearsrecordhighasboardweighsceosfate": {
+   "lv": 1,
+   "why": "엔비디아 부도위험(CDS) 사상 최고 근접 — 「AI 차입이 다음 약한 고리」 가설·🫧 신용 경보 직결",
+   "at": "2026-11-12 22:45"
   }
  }
 }
