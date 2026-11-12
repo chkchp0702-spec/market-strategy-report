@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아 이사회, 황 CEO 거취 결정 회의 — 리더십 위기 심화",
+   "url": "https://www.koreatimes.co.kr/world/20261112/nvidia-board-meets-to-decide-ceo-huangs-future-as-leadership-crisis-deepens",
+   "press": "Korea Times",
+   "at": "2026-11-12 11:45",
+   "why": "🫧 경보판 「대장주 단독 vs 현금 도피」 판정 · 💬 Q3 반도체 답",
+   "summary": "이사회가 11/12(미국시간) 황 CEO 거취 논의 · 차기 CEO 절차 착수 보도 · 결과에 따라 오늘 밤 NVDA·SOXX 방향"
+  },
+  {
+   "title": "미 주가지수 선물, 엔비디아 혼란 심화에 하락 — Markets Wrap",
+   "url": "https://www.swissinfo.ch/eng/us-stock-futures-fall-as-nvidia-turmoil-deepens:-markets-wrap/92367440",
+   "press": "Bloomberg(swissinfo)",
+   "at": "2026-11-12 11:45",
+   "why": "오늘 밤 미국장 출발 톤 — S&P 정상 판정·나스닥 조정 칸",
+   "summary": "엔비디아 경영 혼란에 미 지수 선물 약세 · 코어위브 강세와 엇갈림"
+  },
+  {
    "title": "삼성전자, 온양사업장에 56조원 — HBM 팹 5개 라인 구축",
    "url": "https://biz.heraldcorp.com/article/10796110",
    "press": "헤럴드경제",
@@ -623,22 +639,6 @@
    "at": "2026-11-10 13:40",
    "why": "NVDA 키맨 리스크 — 반도체 칸·AI 차입 가설, 분리 반등 그림자(10:40 아이디어) 관찰 대상",
    "summary": "NYT 보도(미 정보당국, 중국 측 인물-황 CEO 연결) 뒤 트럼프가 직접 조사 언급 · 일부 매체는 트럼프가 황을 옹호했다고도 보도(엇갈림)"
-  },
-  {
-   "title": "모건스탠리, 삼성·SK하이닉스 메모리 「밸류에이션 함정」 경고",
-   "url": "https://www.kucoin.com/blog/samsung-sk-hynix-valuation-trap",
-   "press": "KuCoin 블로그(MS 리포트 요약)",
-   "at": "2026-11-10 12:40",
-   "why": "🐻 코스피 다시 사기·091160 — 장기 마진 가정 하향이면 반도체 반등은 숏커버 성격일 수 있음",
-   "summary": "MS 숀킴 메모: 29~35년 D램 OPM 가정 하이닉스 60→32%, 삼성 60→39%(텔레그램 kimu_nim 11/10). 블로그 게시일·세부 목표가는 미확인"
-  },
-  {
-   "title": "美 CPI: 에너지가 헤드라인을 끌어올릴 전망 — 근원은 억제될까",
-   "url": "https://investinglive.com/news/us-cpi-energy-prices-expected-to-lift-headline-inflation-will-core-stay-contained/",
-   "press": "investingLive",
-   "at": "2026-11-10 11:40",
-   "why": "오늘 밤 10월 CPI(월간만) — 🐻 현금 해제 조건 「CPI 월간 근원」·고금리 정점 가설 판정",
-   "summary": "에너지 가격이 헤드라인을 올리고 근원이 억제되는지가 관건이라는 미리보기. 세부 예상치 숫자는 미확인"
   }
  ],
  "at": "2026-11-12 05:45"
