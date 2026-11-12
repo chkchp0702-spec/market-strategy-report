@@ -139,6 +139,19 @@ def build(px):
         f20 = forced.rolling(20, min_periods=10).mean(); pf_ = epct(f20 / dep.reindex(f20.index).ffill(), 1260)
         add(KR, "kr_forced", "반대매매 급증(예탁금 대비 20일 평균 · 과거 상위 5% = 투매)", "B", (pf_ >= 0.95).astype(float).where(pf_.notna()), lag=2)
         add(KR, "kr_forced_w", "반대매매 늘어남(과거 상위 20%)", "W", (pf_ >= 0.8).astype(float).where(pf_.notna()), lag=2)
+    Kf = rd("kr_fund")   # 🔑 KRX 지수 PER·PBR·배당수익률 (2000~ · 그날 장 마감 뒤 값 → 하루 늦게)
+    if Kf is not None:
+        for mk in KR:
+            d = Kf[Kf["idx"] == mk]
+            for col, nm, hi_side in (("per", "PER", "W"), ("pbr", "PBR", "W"), ("div", "배당수익률", "B")):
+                v = pd.to_numeric(d[col], errors="coerce").replace(0, np.nan).dropna()
+                if len(v) < 1500: continue
+                p = epct(v, 750); flag = f"{'코스피' if mk == 'kospi' else '코스닥'} {nm}"
+                hi, lo = (p >= 0.8).astype(float).where(p.notna()), (p <= 0.2).astype(float).where(p.notna())
+                if col == "div":   # 배당수익률은 높을수록 쌈
+                    add([mk], f"kr_{col}_hi", f"🔑 {flag} 높음(쌈 · 과거 상위 20%)", "B", hi, lag=1); add([mk], f"kr_{col}_lo", f"🔑 {flag} 낮음(비쌈 · 과거 하위 20%)", "W", lo, lag=1)
+                else:
+                    add([mk], f"kr_{col}_hi", f"🔑 {flag} 비쌈(과거 상위 20%)", "W", hi, lag=1); add([mk], f"kr_{col}_lo", f"🔑 {flag} 쌈(과거 하위 20%)", "B", lo, lag=1)
     # 🇨🇳
     def cn_val(file, col, key, nm, mks, minp=60):
         d = rd(file)

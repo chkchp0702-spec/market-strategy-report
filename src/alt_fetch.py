@@ -190,6 +190,12 @@ def nikkei_hist():
     df = pd.concat(fr); df.insert(0, "date", df.pop(df.columns[1]).astype(str)); df = df.drop_duplicates().sort_values(["kind", "date"]); save("jp_nikkei_val", df)
 
 
+def krx_from_app():
+    """🔑 KRX 지수 PER·PBR·배당 — 비밀값이 daily-app 저장소에 있어 그쪽(krx-fund.yml 평일 07:20)이 받은 것을 가져옴"""
+    t = get("https://raw.githubusercontent.com/chkchp0702-spec/daily-app/main/archive/x/kr_fund.csv").text
+    df = pd.read_csv(io.StringIO(t)); save("kr_fund", df)
+
+
 # ───────── 🇺🇸
 def multpl():
     fr = None
@@ -286,7 +292,7 @@ def main():
     run("px", px_panel)
     if os.environ.get("KRX_ID"):   # KRX 지수 PER·PBR 은 로그인 필요 — 비밀값(KRX_ID·KRX_PW)이 이 저장소에 있을 때만
         run("kr_fund_pykrx", pykrx_fund)
-    run("kr_investor", daum_investor)
+    run("kr_investor", daum_investor); run("kr_fund", krx_from_app)
     run("kr_kofia_funds", kofia_funds); run("kr_kofia_credit", kofia_credit); run("kr_deposit2", naver_deposit2)   # 닛케이 PER·PBR 과거 달은 받을 길이 없어 뺌(이번 달만 나옴)
     run("us_multpl", multpl); run("us_margin", finra_margin); run("us_fred", fred); run("us_aaii", aaii)
     ak_try("cn_pe_sh", lambda ak: ak.stock_market_pe_lg(symbol="上证"))
