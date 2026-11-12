@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12 12:10",
+ "at": "2026-11-12 12:17",
  "rules": "─ 「비싸다/싸다」는 그날까지 자기 과거 대비 순위(확장 백분위 · 5년치 쌓인 뒤부터) — 미래 값 안 봄 · 월 자료는 한 달 늦게 · 미국 자료는 아시아에 하루 늦게\n  ─ 경고 신호 → 「6개월 안 −10%」「1년 안 −20%」 · 싸다/바닥 신호 → 「1년 뒤 플러스」「6개월 좋은 매수 자리」(모든 날 · 고점 −20% 아래인 날 따로)\n  ─ 통과(✅): 자료 기간을 반으로 잘라 앞·뒤 둘 다 평소보다 1.15배 넘거나 +8%p 넘고, 켜진 날 150일↑ · 따로 떨어진 때 5번↑",
  "targets": {
   "down": "6개월 안 −10%",
@@ -15,7 +15,7 @@
    "asof": "2026-11-12",
    "dd": -40.4,
    "x5": {
-    "gap": 63.0,
+    "gap": 62.9,
     "pct": 92
    },
    "signals": [
@@ -1035,6 +1035,339 @@
       }
      },
      "good": []
+    },
+    {
+     "k": "kr_per_hi",
+     "name": "🔑 코스피 PER 비쌈(과거 상위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 9,
+       "n": 4233,
+       "from": "2009-03-02",
+       "share": 20.7,
+       "p_on": 24,
+       "base": 30,
+       "lift": 0.79,
+       "a": [
+        6,
+        17
+       ],
+       "b": [
+        29,
+        43
+       ],
+       "episodes": 19,
+       "r12_on": 13.0,
+       "r12_base": 12.2,
+       "good": false,
+       "anti": true
+      },
+      "crash": {
+       "years": 8,
+       "n": 4107,
+       "from": "2009-03-02",
+       "share": 18.5,
+       "p_on": 13,
+       "base": 15,
+       "lift": 0.87,
+       "a": [
+        0,
+        5
+       ],
+       "b": [
+        18,
+        25
+       ],
+       "episodes": 17,
+       "r12_on": 13.0,
+       "r12_base": 12.2,
+       "good": false,
+       "anti": true
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_per_lo",
+     "name": "🔑 코스피 PER 쌈(과거 하위 20%)",
+     "side": "B",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 6,
+       "n": 4107,
+       "from": "2009-03-02",
+       "share": 11.0,
+       "p_on": 54,
+       "base": 63,
+       "lift": 0.86,
+       "a": null,
+       "b": [
+        51,
+        57
+       ],
+       "episodes": 7,
+       "r12_on": 0.5,
+       "r12_base": 12.2,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 311,
+       "on": 207
+      },
+      "good": {
+       "years": 6,
+       "n": 4233,
+       "from": "2009-03-02",
+       "share": 10.7,
+       "p_on": 37,
+       "base": 55,
+       "lift": 0.68,
+       "a": null,
+       "b": [
+        33,
+        45
+       ],
+       "episodes": 7,
+       "r12_on": 0.5,
+       "r12_base": 12.2,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 311,
+       "on": 207
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_pbr_hi",
+     "name": "🔑 코스피 PBR 비쌈(과거 상위 20%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 5,
+       "n": 3901,
+       "from": "2010-06-24",
+       "share": 7.0,
+       "p_on": 40,
+       "base": 32,
+       "lift": 1.24,
+       "a": [
+        46,
+        21
+       ],
+       "b": [
+        37,
+        43
+       ],
+       "episodes": 15,
+       "r12_on": -9.9,
+       "r12_base": 11.3,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "thin": true,
+       "n": 3775,
+       "on": 148
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_pbr_lo",
+     "name": "🔑 코스피 PBR 쌈(과거 하위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 11,
+       "n": 3775,
+       "from": "2010-06-24",
+       "share": 36.7,
+       "p_on": 84,
+       "base": 59,
+       "lift": 1.42,
+       "a": [
+        100,
+        56
+       ],
+       "b": [
+        81,
+        62
+       ],
+       "episodes": 31,
+       "r12_on": 26.4,
+       "r12_base": 11.3,
+       "good": true,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 232,
+       "on": 165
+      },
+      "good": {
+       "years": 11,
+       "n": 3901,
+       "from": "2010-06-24",
+       "share": 35.5,
+       "p_on": 64,
+       "base": 52,
+       "lift": 1.23,
+       "a": [
+        97,
+        55
+       ],
+       "b": [
+        56,
+        48
+       ],
+       "episodes": 31,
+       "r12_on": 26.4,
+       "r12_base": 11.3,
+       "good": true,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 232,
+       "on": 165
+      }
+     },
+     "good": [
+      "up12",
+      "good"
+     ]
+    },
+    {
+     "k": "kr_div_hi",
+     "name": "🔑 코스피 배당수익률 높음(쌈 · 과거 상위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 8,
+       "n": 4159,
+       "from": "2008-12-11",
+       "share": 10.2,
+       "p_on": 96,
+       "base": 63,
+       "lift": 1.52,
+       "a": [
+        100,
+        68
+       ],
+       "b": [
+        95,
+        58
+       ],
+       "episodes": 19,
+       "r12_on": 40.4,
+       "r12_base": 12.6,
+       "good": true,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 363,
+       "on": 178
+      },
+      "good": {
+       "years": 8,
+       "n": 4285,
+       "from": "2008-12-11",
+       "share": 9.9,
+       "p_on": 65,
+       "base": 55,
+       "lift": 1.2,
+       "a": [
+        59,
+        63
+       ],
+       "b": [
+        67,
+        46
+       ],
+       "episodes": 19,
+       "r12_on": 40.4,
+       "r12_base": 12.6,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 363,
+       "on": 178
+      }
+     },
+     "good": [
+      "up12"
+     ]
+    },
+    {
+     "k": "kr_div_lo",
+     "name": "🔑 코스피 배당수익률 낮음(비쌈 · 과거 하위 20%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 8,
+       "n": 4285,
+       "from": "2008-12-11",
+       "share": 24.4,
+       "p_on": 16,
+       "base": 30,
+       "lift": 0.53,
+       "a": [
+        15,
+        19
+       ],
+       "b": [
+        33,
+        42
+       ],
+       "episodes": 13,
+       "r12_on": 5.0,
+       "r12_base": 12.6,
+       "good": false,
+       "anti": true
+      },
+      "crash": {
+       "years": 6,
+       "n": 4159,
+       "from": "2008-12-11",
+       "share": 23.1,
+       "p_on": 8,
+       "base": 15,
+       "lift": 0.55,
+       "a": [
+        8,
+        5
+       ],
+       "b": null,
+       "episodes": 12,
+       "r12_on": 5.0,
+       "r12_base": 12.6,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
     }
    ]
   },
@@ -1045,7 +1378,7 @@
    "asof": "2026-11-12",
    "dd": -42.7,
    "x5": {
-    "gap": -17.1,
+    "gap": -17.2,
     "pct": 8
    },
    "signals": [
@@ -2081,6 +2414,322 @@
       }
      },
      "good": []
+    },
+    {
+     "k": "kr_per_hi",
+     "name": "🔑 코스닥 PER 비쌈(과거 상위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 11,
+       "n": 4812,
+       "from": "2006-10-25",
+       "share": 27.4,
+       "p_on": 53,
+       "base": 50,
+       "lift": 1.06,
+       "a": [
+        57,
+        47
+       ],
+       "b": [
+        50,
+        54
+       ],
+       "episodes": 13,
+       "r12_on": 2.9,
+       "r12_base": 4.2,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 10,
+       "n": 4686,
+       "from": "2006-10-25",
+       "share": 25.5,
+       "p_on": 47,
+       "base": 32,
+       "lift": 1.47,
+       "a": [
+        54,
+        19
+       ],
+       "b": [
+        38,
+        44
+       ],
+       "episodes": 13,
+       "r12_on": 2.9,
+       "r12_base": 4.2,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_per_lo",
+     "name": "🔑 코스닥 PER 쌈(과거 하위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 5,
+       "n": 4686,
+       "from": "2006-10-25",
+       "share": 13.4,
+       "p_on": 61,
+       "base": 52,
+       "lift": 1.17,
+       "a": [
+        44,
+        55
+       ],
+       "b": [
+        91,
+        50
+       ],
+       "episodes": 5,
+       "r12_on": 4.3,
+       "r12_base": 4.2,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 3,
+       "n": 809,
+       "from": "2006-10-25",
+       "share": 24.5,
+       "p_on": 98,
+       "base": 73,
+       "lift": 1.35,
+       "a": null,
+       "b": [
+        100,
+        90
+       ],
+       "episodes": 2,
+       "r12_on": 14.1,
+       "r12_base": 17.3,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 5,
+       "n": 4812,
+       "from": "2006-10-25",
+       "share": 13.0,
+       "p_on": 39,
+       "base": 43,
+       "lift": 0.91,
+       "a": [
+        30,
+        44
+       ],
+       "b": [
+        56,
+        42
+       ],
+       "episodes": 5,
+       "r12_on": 4.3,
+       "r12_base": 4.2,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 3,
+       "n": 809,
+       "from": "2006-10-25",
+       "share": 24.5,
+       "p_on": 57,
+       "base": 47,
+       "lift": 1.22,
+       "a": null,
+       "b": [
+        55,
+        51
+       ],
+       "episodes": 2,
+       "r12_on": 14.1,
+       "r12_base": 17.3,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_pbr_hi",
+     "name": "🔑 코스닥 PBR 비쌈(과거 상위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 11,
+       "n": 3942,
+       "from": "2010-04-26",
+       "share": 35.7,
+       "p_on": 58,
+       "base": 48,
+       "lift": 1.2,
+       "a": [
+        49,
+        37
+       ],
+       "b": [
+        67,
+        59
+       ],
+       "episodes": 20,
+       "r12_on": -4.3,
+       "r12_base": 6.1,
+       "good": true,
+       "anti": false
+      },
+      "crash": {
+       "years": 9,
+       "n": 3816,
+       "from": "2010-04-26",
+       "share": 34.2,
+       "p_on": 36,
+       "base": 30,
+       "lift": 1.2,
+       "a": [
+        5,
+        7
+       ],
+       "b": [
+        66,
+        53
+       ],
+       "episodes": 16,
+       "r12_on": -4.3,
+       "r12_base": 6.1,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": [
+      "down"
+     ]
+    },
+    {
+     "k": "kr_pbr_lo",
+     "name": "🔑 코스닥 PBR 쌈(과거 하위 20%)",
+     "side": "B",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "thin": true,
+       "n": 3816,
+       "on": 120
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 453,
+       "on": 24
+      },
+      "good": {
+       "thin": true,
+       "n": 3942,
+       "on": 120
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 453,
+       "on": 24
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_div_hi",
+     "name": "🔑 코스닥 배당수익률 높음(쌈 · 과거 상위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "thin": true,
+       "n": 4815,
+       "on": 96
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 900,
+       "on": 69
+      },
+      "good": {
+       "thin": true,
+       "n": 4941,
+       "on": 96
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 900,
+       "on": 69
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_div_lo",
+     "name": "🔑 코스닥 배당수익률 낮음(비쌈 · 과거 하위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 21,
+       "n": 4941,
+       "from": "2006-04-14",
+       "share": 70.2,
+       "p_on": 54,
+       "base": 50,
+       "lift": 1.07,
+       "a": [
+        51,
+        45
+       ],
+       "b": [
+        56,
+        54
+       ],
+       "episodes": 31,
+       "r12_on": -1.9,
+       "r12_base": 4.9,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 20,
+       "n": 4815,
+       "from": "2006-04-14",
+       "share": 69.4,
+       "p_on": 35,
+       "base": 31,
+       "lift": 1.13,
+       "a": [
+        23,
+        20
+       ],
+       "b": [
+        48,
+        43
+       ],
+       "episodes": 31,
+       "r12_on": -1.9,
+       "r12_base": 4.9,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
     }
    ]
   },
@@ -2557,7 +3206,7 @@
    "dd": -13.0,
    "x5": {
     "gap": 8.6,
-    "pct": 61
+    "pct": 62
    },
    "signals": [
     {
@@ -3753,7 +4402,7 @@
    "asof": "2026-11-12",
    "dd": -30.2,
    "x5": {
-    "gap": -2.1,
+    "gap": -2.2,
     "pct": 47
    },
    "signals": [
@@ -4972,9 +5621,9 @@
    "name": "항셍",
    "nat": "hk",
    "asof": "2026-11-12",
-   "dd": -14.1,
+   "dd": -13.9,
    "x5": {
-    "gap": 12.0,
+    "gap": 12.3,
     "pct": 52
    },
    "signals": [
@@ -5914,9 +6563,9 @@
    "name": "항셍 H주",
    "nat": "hk",
    "asof": "2026-11-12",
-   "dd": -16.0,
+   "dd": -15.8,
    "x5": {
-    "gap": 8.2,
+    "gap": 8.5,
     "pct": 64
    },
    "signals": [
@@ -8117,6 +8766,6 @@
    ]
   }
  ],
- "n_tested": 128,
- "n_good": 26
+ "n_tested": 140,
+ "n_good": 29
 }
