@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12 13:45",
+ "at": "2026-11-12 14:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "kwusa/61751": {
@@ -16,16 +16,6 @@
    "lv": 1,
    "why": "🐻 코스피 하락장 · 「다시 사는 조건」 — 11/13 금융위 자본시장 간담회(코스닥 활성화), 이틀 사이드카 반등의 정책 재료 · 금감원은 부양책 소문 부인(edaily) — 답 10번",
    "at": "2026-11-11 17:45"
-  },
-  "HANAchina/71961": {
-   "lv": 1,
-   "why": "TSM 대기 bet(오늘 밤 미국 시가)·「AI 안에서도 갈린다」 — 장 전 코어위브 +17%·엔비디아 +4%·메모리·광통신 일제 상승, 나스닥100 선물 +1.6%",
-   "at": "2026-11-11 19:45"
-  },
-  "HANAchina/71960": {
-   "lv": 1,
-   "why": "XLE 내림 bet(열림)·장부 brent_95 — JP모건 「미·이란 합의 시 브렌트 70달러 중반, 협상 시한 약 3주」",
-   "at": "2026-11-11 19:45"
   },
   "HANAchina/71971": {
    "lv": 1,
@@ -45,11 +35,6 @@
   "n/R6eHhyNXJLVXF6cldFbnhHMXcydFMzTGhzVnhWN2RQX2d0X1N4QVZvdUUoc5": {
    "lv": 2,
    "why": "엔비디아 이사회 「젠슨 황 해임 준비」(WSJ) — 시간외 −8~9%·오늘 한국 반도체(하닉·삼성·091160) 개장 직격 · 반도체 칸·qa 3·「AI 안에서 갈린다」 가설",
-   "at": "2026-11-12 08:45"
-  },
-  "n/s20261111coreweaveplanstoraiseatleast4billioninhighgradeloan": {
-   "lv": 1,
-   "why": "코어위브 40억$ 투자등급 대출 추진(블룸버그) — 빚으로 짓는 네오클라우드가 우량 등급으로 조달 = 🫧 신용 경보 반대 근거 · AI 차입 가설 breaks 점검",
    "at": "2026-11-12 08:45"
   },
   "egzion/6465": {
@@ -72,19 +57,9 @@
    "why": "대통령 「삼성전자 HBM 6조 이어 약 40조 첨단 장비 투자 계획」 — 한국 반도체·장비(091160) 수요 재료 · 엔비디아 쇼크 날 삼성 +2.2% 버팀 근거 · qa 3",
    "at": "2026-11-12 10:45"
   },
-  "n/nBHbTlwVlFSTTFvRWRVMWFQcVBPM0tQSWlodU1SYWNkSzJXMXRERm53UQoc5": {
-   "lv": 1,
-   "why": "BofA 「12월 뒤 1월도 인상」 vs 골드만 「3월」 — 12/9 FOMC 가설·고금리 정점 가설·qa 12 · 달러 19개월 최고와 같은 줄기",
-   "at": "2026-11-12 10:45"
-  },
   "kimu_nim/48712": {
    "lv": 1,
    "why": "NVDA 번스타인 중립 하향·목표 400→200$ — 「대장주 단독」 vs 「현금 도피」 판정, 🫧 경보판·Q3",
-   "at": "2026-11-12 11:45"
-  },
-  "n/JcTZKSzlra2ZZX2tKSEZiWXdkSUxnMmxxZzIzSDhJdkpZeVFXaElxTy11oc5": {
-   "lv": 1,
-   "why": "소프트뱅크 美 데이터센터 비용으로 70억$ 손실 — 가설 「빚으로 짓는 쪽이 진다」·🫧 AI 차입 신용 경보",
    "at": "2026-11-12 11:45"
   },
   "n/5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQncoc5": {
@@ -97,15 +72,20 @@
    "why": "외국인 10월 주식 순유출 9개월째·채권은 넉 달 만에 매수 — 「한국 떠남」 아닌 「주식→채권」, 🐻 외국인 3일 판정과 이어짐",
    "at": "2026-11-12 12:45"
   },
-  "n/zingruletoblockchinasremoteaichipaccesstheinformation5020288": {
-   "lv": 1,
-   "why": "AI 칩 중국 원격 접속 차단 규칙 마무리(The Information) — 엔비디아 CEO 리스크에 규제 겹침, 🫧 버블 경보·「AI 안에서 갈린다」 가설·반도체 ETF 칸",
-   "at": "2026-11-12 13:45"
-  },
   "n/MxLWlZV2Y3QWdhXzctN0pMc0ktTF9QVEFHQ2JQdHJ6T0RHeGZ5bVNOekUoc5": {
    "lv": 1,
    "why": "골드만 연준 전망 변경(인플레 심화) — 12/9 FOMC 분수령 가설·美 10년 5% watch",
    "at": "2026-11-12 13:45"
+  },
+  "n/0dXpna196WEc4RGdjSTdlRTRfZDNHVzVGWjRjZnVuQkw3S1FlYTVrbjBnoc5": {
+   "lv": 1,
+   "why": "美 장기채 휴장 뒤 오름세 재개·위험 심리 냉각 — 10년 5% watch·「고금리 정점」 가설·qa 연준/채권",
+   "at": "2026-11-12 14:45"
+  },
+  "n/ceguidanceforhongkongsingaporebondsalestermsheetshows5020243": {
+   "lv": 1,
+   "why": "알파벳 첫 홍콩·싱가포르 채권에 주문 약 50억$ — 빅테크 조달 흥행 = 🫧 AI 차입 신용 경보 반대 근거",
+   "at": "2026-11-12 14:45"
   }
  }
 }
