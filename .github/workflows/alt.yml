@@ -8,7 +8,7 @@ on:
         default: ""
   push:
     branches: [main]
-    paths: [.github/workflows/alt.yml, src/alt_bt.py, src/rule_bt.py]
+    paths: [.github/workflows/alt.yml, src/alt_bt.py, src/rule_bt.py, src/analog_bt.py]
   schedule:
     - cron: "40 22 * * 0-4"   # KST 월~금 07:40
 permissions:
@@ -32,8 +32,9 @@ jobs:
           KRX_PW: ${{ secrets.KRX_PW }}
       - run: python src/alt_bt.py
       - run: pip install -q yfinance && python src/rule_bt.py
+      - run: python src/analog_bt.py
       - name: 저장
         run: |
           git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
           git add -A market/lab/alt
-          bash scripts/push.sh "alt-data $(TZ=Asia/Seoul date '+%F %H:%M')" market/lab/alt market/alt.json market/rule_bt.json market/rule_overlay.json
+          bash scripts/push.sh "alt-data $(TZ=Asia/Seoul date '+%F %H:%M')" market/lab/alt market/alt.json market/rule_bt.json market/rule_overlay.json market/analog.json
