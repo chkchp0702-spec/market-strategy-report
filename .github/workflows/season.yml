@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [src/season_bt.py, .github/workflows/season.yml]
+    paths: [src/season_bt.py, src/prob_bt.py, .github/workflows/season.yml]
   schedule:
     - cron: "20 22 * * 0-4"   # KST 월~금 07:20 (미국 마감 뒤)
     - cron: "50 7 * * 1-5"    # KST 월~금 16:50 (아시아 마감 뒤)
@@ -24,7 +24,8 @@ jobs:
           python-version: "3.12"
       - run: pip install -q yfinance pandas numpy
       - run: python src/season_bt.py
+      - run: python src/prob_bt.py
       - name: 저장
         run: |
           git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
-          bash scripts/push.sh "season $(TZ=Asia/Seoul date '+%F %H:%M')" market/season.json
+          bash scripts/push.sh "season $(TZ=Asia/Seoul date '+%F %H:%M')" market/season.json market/prob.json
