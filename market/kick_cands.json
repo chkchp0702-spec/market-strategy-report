@@ -6659,6 +6659,26 @@
 "d": "2026-11-11",
 "src": "pead",
 "score": 67.0
+},
+"M|2026-11-12": {
+"code": "M",
+"name": "Macy's Inc Common Stock",
+"mkt": "US",
+"d": "2026-11-12",
+"src": "cup",
+"score": 67.3,
+"lv": 25.09,
+"max20": 8.1,
+"id60": 0.083
+},
+"MEDP|2026-11-12|e": {
+"code": "MEDP",
+"name": "Medpace Holdings, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-11-12",
+"src": "earn",
+"score": 58.6,
+"lv": 567.91
 }
 },
 "sent": [
