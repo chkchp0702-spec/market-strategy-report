@@ -32,6 +32,7 @@ def save(name, df):
 def run(name, fn):
     if ONLY and name not in ONLY:
         return
+    print("──", name)
     try:
         fn()
     except Exception as e:
@@ -124,6 +125,62 @@ def daum_investor():
     df = pd.concat(fr); df.insert(0, "date", df.pop("date").astype(str).str[:10]); df = df.sort_values(["mk", "date"]); save("kr_investor", df)
 
 
+def kofia_funds():
+    """금융투자협회 통계(freesis) 증시자금추이 — 투자자예탁금 · 신용융자 잔고 (일별 · 1998~)"""
+    body = {"dmSearch": {"tmpV40": "1000000", "tmpV41": "1", "tmpV1": "D", "tmpV45": "19980101", "tmpV46": dt.date.today().strftime("%Y%m%d"), "OBJ_NM": "STATSCU0100000060BO"}}
+    r = requests.post("https://freesis.kofia.or.kr/meta/getMetaDataList.do", json=body, headers={**UA, "Content-Type": "application/json", "Referer": "https://freesis.kofia.or.kr/stat/FreeSIS.do?parentDivId=MSIS10000000000000&serviceId=STATSCU0100000060"}, timeout=60)
+    print("kofia", r.status_code, r.text[:300])
+    j = r.json(); L = j.get("ds1") or next((v for v in j.values() if isinstance(v, list)), [])
+    df = pd.DataFrame(L); df.insert(0, "date", df.pop("TMPV1").astype(str)); save("kr_kofia_funds", df.sort_values("date"))
+
+
+def naver_deposit2():
+    out = []
+    for host in ("https://finance.naver.com", "https://stock.naver.com", "https://m.stock.naver.com"):
+        for q in ("?page=1&pageSize=60", "?page=1", ""):
+            try:
+                r = requests.get(host + "/api/domestic/market/trendDeposit" + q, headers={**UA, "Referer": "https://finance.naver.com/sise/sise_deposit.naver"}, timeout=20)
+                print("naver", host, q, r.status_code, r.text[:160].replace("\n", " "))
+                if r.status_code == 200 and "creditLoan" in r.text:
+                    base = host + "/api/domestic/market/trendDeposit"; rows = []; seen = set()
+                    for pg in range(1, 400):
+                        t = requests.get(f"{base}?page={pg}&pageSize=60", headers={**UA, "Referer": "https://finance.naver.com/sise/sise_deposit.naver"}, timeout=20)
+                        if t.status_code != 200: break
+                        txt = t.text; j = t.json()
+                        def find(o):
+                            if isinstance(o, list) and o and isinstance(o[0], dict) and "creditLoan" in o[0]: return o
+                            for v in (o.values() if isinstance(o, dict) else o if isinstance(o, list) else []):
+                                f = find(v)
+                                if f: return f
+                        L = find(j) or []; new = 0
+                        for x in L:
+                            k = json.dumps(x, sort_keys=True)
+                            if k not in seen: seen.add(k); rows.append(x); new += 1
+                        if not new: break
+                        time.sleep(0.1)
+                    df = pd.DataFrame(rows); dc = next(c for c in df.columns if "date" in c.lower() or c.lower() in ("bizdate", "dt"))
+                    df.insert(0, "date", df.pop(dc).astype(str)); save("kr_deposit", df.sort_values("date")); return
+            except Exception as e:
+                print("naver 예외", host, q, str(e)[:100])
+    raise RuntimeError("네이버 예탁금 전부 실패")
+
+
+def nikkei_hist():
+    fr = []; ok = 0
+    for kind in ("per", "pbr"):
+        for y in range(2005, dt.date.today().year + 1):
+            for m in range(1, 13):
+                if (y, m) > (dt.date.today().year, dt.date.today().month): break
+                try:
+                    r = get(f"https://indexes.nikkei.co.jp/nkave/archives/data?list={kind}&year={y}&month={m}", headers={"Referer": "https://indexes.nikkei.co.jp/nkave/archives/data"}, timeout=20)
+                    t = pd.read_html(io.StringIO(r.text))[0]; t.insert(0, "kind", kind); fr.append(t); ok += 1
+                except Exception as e:
+                    if y == 2005 and m == 1: print("nikkei hist", kind, y, m, str(e)[:100])
+                time.sleep(0.05)
+    if not fr: raise RuntimeError("닛케이 과거 표 없음")
+    df = pd.concat(fr); df.insert(0, "date", df.pop(df.columns[1]).astype(str)); df = df.drop_duplicates().sort_values(["kind", "date"]); save("jp_nikkei_val", df)
+
+
 # ───────── 🇺🇸
 def multpl():
     fr = None
@@ -185,6 +242,7 @@ def nikkei_val():
 
 # ───────── 🇨🇳 🇭🇰 (akshare)
 def ak_try(name, call):
+    if ONLY and name not in ONLY: return
     def f():
         import akshare as ak
         df = call(ak)
@@ -218,6 +276,7 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     run("px", px_panel)
     run("kr_fund", krx_fund); run("kr_fund_pykrx", pykrx_fund); run("kr_deposit", naver_deposit); run("kr_investor", daum_investor)
+    run("kr_kofia_funds", kofia_funds); run("kr_deposit2", naver_deposit2); run("jp_nikkei_hist", nikkei_hist)
     run("us_multpl", multpl); run("us_margin", finra_margin); run("us_fred", fred); run("us_aaii", aaii)
     run("jp_nikkei_val", nikkei_val)
     ak_try("cn_pe_sh", lambda ak: ak.stock_market_pe_lg(symbol="上证"))
@@ -235,6 +294,7 @@ def main():
     ak_try("cn_csi300_pb", lambda ak: ak.stock_index_pb_lg(symbol="沪深300"))
     ak_try("hk_hsi_val", lambda ak: ak.stock_hk_index_value_name_em() if hasattr(ak, "stock_hk_index_value_name_em") else None)
     ak_try("cn_newacct", lambda ak: ak.stock_account_statistics_em())
+    if ONLY: print("요약:", LOG); return 0
     (OUT / "_log.json").write_text(json.dumps({"at": dt.datetime.now().isoformat()[:16], "log": LOG}, ensure_ascii=False, indent=1), encoding="utf-8")
     print("\n요약:", json.dumps({k: (v.get("rows") or v.get("err", "")[:60]) for k, v in LOG.items()}, ensure_ascii=False))
     return 0
