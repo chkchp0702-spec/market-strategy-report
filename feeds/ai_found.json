@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "데일리 샌프란시스코 연은 총재 「인플레 너무 오래 — 추가 인상 필요할 가능성이 더 크다」",
+   "url": "https://www.mpamag.com/us/mortgage-industry/industry-trends/feds-daly-signals-more-rate-hikes/596733",
+   "press": "MPA",
+   "at": "2026-11-13 04:45",
+   "why": "2027 투표권자까지 인상 쪽 — 12/9 FOMC 분수령 가설·채권 나눠 사기 칸",
+   "summary": "데일리 「추가 인상이 필요할 가능성이 그렇지 않을 가능성보다 크다, 다만 서두르지 않는다」(뉴스퀵). 같은 날 JP모건 버로 「12월 인상은 이미 가격에 반영」(블룸버그)."
+  },
+  {
+   "title": "美 기존주택 판매, 2010년 이후 최저로 추락",
+   "url": "https://www.nationalmortgagenews.com/articles/existing-home-sales-slide-further-still-lowest-since-2010",
+   "press": "National Mortgage News",
+   "at": "2026-11-13 04:45",
+   "why": "10년 5%대 금리가 주택 실물을 누름 — 「고금리 정점」 가설·주택·금리 민감주",
+   "summary": "10월 기존주택 판매 2010년 이후 최저(FT·WSJ 「16년 최저」). 모기지 금리 급등 영향."
+  },
+  {
+   "title": "엔비디아 장중 −14% 뒤 낙폭 절반 회복, 10년 5.07%·브로드컴 +5.3%·코어위브 −9%",
+   "url": "https://www.pbs.org/newshour/economy/sharp-swings-for-nvidia-and-oil-prices-weigh-on-wall-street",
+   "press": "AP/PBS",
+   "at": "2026-11-13 04:45",
+   "why": "「대장주 단독 · 업종 갈아타기」 판정 근거 — 닷컴 3막·AI 안 갈림 가설",
+   "summary": "11/12 오전 S&P −0.4%·나스닥 −0.6%, NVDA −6.1%·AVGO +5.3%·MU −4.9%·CRWV −9%, 브렌트 93.79(+1.1%), 10년 5.07%(화 4.98%)."
+  },
+  {
    "title": "월가, 엔비디아 −13% 출발·유가 급등락 흡수하며 장 초반 낙폭 지워",
    "url": "https://www.bnnbloomberg.ca/markets/2026/11/12/nvidia-shares-plunge-13-at-open-after-ceo-jensen-huang-resigns/",
    "press": "BNN Bloomberg(AP)",
@@ -615,30 +639,6 @@
    "at": "2026-11-11 07:40",
    "why": "「AI 차입이 약한 고리」(0.92) 반례 — 수요는 강하고 경색은 조달 쪽 · CRWV·SMH·한국 반도체 아침 갭",
    "summary": "3분기 매출 36.6억$(+168%, 하나 중국 텔레그램) · 연간 가이던스 상향 · 시간외 +13%(stocktwits, 정확한 마감 뒤 수치 미확인)"
-  },
-  {
-   "title": "美 10년 금리 5%로 질주 — CPI·월러 발언에 인상 기대",
-   "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
-   "press": "CNBC",
-   "at": "2026-11-11 07:40",
-   "why": "「고금리 정점」(0.35) 판정 — 종가 4.985%로 5% 아래 마감, 깨짐 선 미달 · 장기채 나눠 사기 시점",
-   "summary": "10년 4.9854%(+10.3bp)·2년 4.7335%(+17.2bp)·10Y-2Y 25bp로 축소(globalmktinsight 07:20) · FedWatch 12월 인상 확률 100%"
-  },
-  {
-   "title": "마이크로소프트, 엔스케일 영국 데이터센터 계약서 빠져 — 350억 달러 상장 흔들",
-   "url": "https://computing.co.uk/news/2026/ai/microsoft-exits-nscale-deal-ipo-at-risk",
-   "press": "Computing",
-   "at": "2026-11-11 05:45",
-   "why": "「다음 약한 고리는 AI 차입」·「AI 안에서도 갈린다」 — 빚으로 짓는 네오클라우드 쪽 자금 조달 경색(🫧 신용 칸)",
-   "summary": "MS가 엔스케일 영국(러프턴) 사이트에서 철수 보도 · 텔레그래프 「350억$ 상장 연기 검토」(로이터 인용, 피드 11/11) · 투자자 역제시 160억~190억$ 보도도(aiweekly)"
-  },
-  {
-   "title": "엔스케일 350억 달러 상장, 노르웨이 건설 지연·바이트댄스 누락으로 흔들",
-   "url": "https://aiweekly.co/alerts/nscales-35b-ipo-shaken-by-norway-build-lag-bytedance-omission",
-   "press": "AI Weekly",
-   "at": "2026-11-11 05:45",
-   "why": "AI 인프라 상장 가격 결정 주간(앤스로픽 11/18)과 같은 시기 — 비상장 AI 인프라 밸류에이션 압박, QQQ·SMH 수급 관찰",
-   "summary": "건설 지연·고객 공시 누락 문제 제기 · 상장 일정 미확인(날짜 미확인)"
   }
  ],
  "at": "2026-11-13 01:45"
