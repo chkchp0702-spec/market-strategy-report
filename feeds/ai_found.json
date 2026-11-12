@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "월가, 엔비디아 주가·유가 큰 출렁임 흡수하고 안정",
+   "url": "https://www.sooleader.com/michigan-news-ap/wall-street-steadies-after-absorbing-big-swings-for-nvidias-stock-and-oil-prices-13008049",
+   "press": "AP",
+   "at": "2026-11-13 01:45",
+   "why": "S&P 「정상」 판정 유지 근거 · 유가(brent_95 선) 출렁임 함께",
+   "summary": "엔비디아 급락·유가 급등락에도 미국 지수 안정 — 세부 숫자는 원문 확인(미확인)."
+  },
+  {
    "title": "월가 하락 출발 전망 — 엔비디아 폭풍 지속, 美 국채 금리 5% 언저리",
    "url": "https://www.kitco.com/news/off-the-wire/2026-11-12/wall-street-set-dip-nvidia-storm-continues-treasury-yields-bob-5",
    "press": "Kitco(로이터 전재)",
@@ -631,15 +639,7 @@
    "at": "2026-11-11 02:45",
    "why": "「AI 안에서도 갈린다」·AI 차입 가설 — 엔비디아 실적(11/17) 다음 날 나스닥에 1천억 달러 안팎 공급, QQQ·AI 대형주 수급 부담",
    "summary": "공모가 70~78달러·8.01억 주(+구주 0.24억), 기본 644억 + AMD·브로드컴·구글·마이크론·MS·엔비디아·TSMC 사모 260억 = 최대 904억 달러, 티커 ANT. 3분기 매출 약 170억 달러(전년 14억)·영업손실 5.67억(2분기 흑자 9.74억)."
-  },
-  {
-   "title": "앤스로픽, 1조 달러 넘는 가치로 상장 조건 제시",
-   "url": "https://axios.com/2026/11/10/anthropic-ipo-terms",
-   "press": "Axios",
-   "at": "2026-11-11 02:45",
-   "why": "AI 자금 흡수 — 오픈AI도 1.25조 달러로 자금 조달 중, 대형 AI 상장 물량이 연말 나스닥 수급 변수",
-   "summary": "공모가 상단 기준 시가총액 약 1조 달러, 완전희석 1.4조 달러. 가격 결정 11/18(수)."
   }
  ],
- "at": "2026-11-13 00:45"
+ "at": "2026-11-13 01:45"
 }
