@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "번스타인: 발표된 미국 데이터센터 용량 중 실제 지어질 것은 약 35%",
+   "url": "https://runtimewire.com/article/bernstein-data-center-pipeline-credibility",
+   "press": "Runtime Wire",
+   "at": "2026-11-12 15:45",
+   "why": "「AI 안에서 갈린다」 가설 — 빅테크 자체 건설은 믿을 만, 네오클라우드·신생 계획은 「PPT 용량」 → 전력·장비 수요 추정치 하향 위험",
+   "summary": "북미 8,858개 프로젝트 개별 조사 · 발표 586GW 중 신뢰 199GW(34%) · 신뢰 용량의 76%가 아마존·구글·MS·메타(텔레그램 HANAchina 11/12 요약 포함)"
+  },
+  {
    "title": "美, 중국의 AI 칩 원격 접속(클라우드 임대) 차단 규칙 마무리 단계",
    "url": "https://www.gearlive.com/news/article/us-rule-china-remote-access-ai-chips-report",
    "press": "Gear Live(The Information 인용)",
@@ -623,22 +631,6 @@
    "at": "2026-11-10 15:40",
    "why": "씨티 美 주식 중립 하향과 같은 줄기 — AI 쏠림에서 채권·소형주로 회전 제안, 고금리 정점 가설(중장기채)과 연결",
    "summary": "씨티 전략가, AI 충격 이후 대형 기술주 대신 채권·소형주 비중 제안. 세부 수치는 원문 확인 필요(미확인)."
-  },
-  {
-   "title": "TSMC 3분기 총마진·설비투자 정리",
-   "url": "https://xenospectrum.com/en/tsmc-q3-2026-gross-margin-capex/",
-   "press": "XenoSpectrum",
-   "at": "2026-11-10 15:40",
-   "why": "오늘 TSMC 10월 매출 +60% 속보의 배경 — AI 파운드리 수요는 견조, 메모리 하향과 대비",
-   "summary": "TSMC 3분기 매출 약 467억$·총마진 66.4%(fourweekmba 인용). 10월 월매출 전년 대비 +60%(investing.com 피드)."
-  },
-  {
-   "title": "美 10월 CPI 미리보기: IB 14곳 「에너지가 헤드라인 3.6%로 끌어올림, 코어는 월 0.2% 근처」",
-   "url": "https://investinglive.com/news/us-cpi-preview-14-investment-bank-forecasters-see-energy-lifting-headline-to-3-6-core-held-near-0-2/",
-   "press": "investingLive",
-   "at": "2026-11-10 14:40",
-   "why": "오늘 밤 CPI — 🐻 현금 해제·10년 5% 가설의 분기점: 코어가 0.2% 넘으면 매파(굴스비·연준 데일리) 쪽",
-   "summary": "IB 14곳 전망 취합: 헤드라인 전년비 3.6%(에너지 영향), 코어 월간 0.2% 안팎. 세부 숫자는 원문 확인."
   }
  ],
  "at": "2026-11-12 13:45"
