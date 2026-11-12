@@ -297,7 +297,12 @@ def main():
             if len(d) < 800: continue
             t2, b2 = sig_table(d.assign(mk=mk_), keys, tg, names)
             per[mk_] = {"base": b2, "top": [{k: x[k] for k in ("k", "name", "share", "p_on", "lift", "lift_a", "lift_b", "episodes")} for x in t2 if not x.get("thin") and x["lift_a"] and x["lift_b"] and x["lift_a"] >= 1.15 and x["lift_b"] >= 1.15][:5]}
-        T = {"title": title, "side": side, "base": base, "n": int(len(D)), "from": str(D.date.min().date()), "signals": tb, "good": good, "ladder_good": lad,
+        # 지수별 계단: 「믿을 만」 신호가 몇 개 켜졌을 때 그 지수에서 실제 빈도 (표본 150일 미만이면 전체 지수 계단으로)
+        mkl = {}
+        for mk_, d in D.groupby("mk"):
+            c_ = d[good].sum(axis=1) if good else pd.Series(0, index=d.index)
+            mkl[mk_] = {int(k): {"p": round(float(d.loc[c_ == k, tg].mean()) * 100), "n": int((c_ == k).sum()), "ep": runs(c_ == k)} for k in sorted(c_.unique()) if (c_ == k).sum() >= 150}
+        T = {"title": title, "side": side, "mk_ladder": mkl, "base": base, "n": int(len(D)), "from": str(D.date.min().date()), "signals": tb, "good": good, "ladder_good": lad,
              "oos_ladder": calib(D, Pl, tg), "oos_logit": calib(D, Pm, tg), "oos_gb": calib(D, Pg, tg) if Pg is not None else None, "per_market": per}
         res["targets"][tg] = T; fits[tg] = (D, good, lad, logit_fit(D[keys].values, D[tg].values), keys)
         print(f"\n== {title} · 평소 {base}% · 표본 {len(D)}일")
@@ -323,10 +328,11 @@ def main():
             on = [k for k in good if (r[k] if r[k] == r[k] else 0) > 0.5]
             x = np.nan_to_num(r[keys].values.astype(float))
             pm = res["targets"][tg]["per_market"].get(key) or {}
-            o["t"][tg] = {"on": on, "n": len(on), "of": len(good), "p": lad_p(lad, len(on)), "p_model": round(float(logit_pred(w, x[None, :])[0]) * 100), "base": res["targets"][tg]["base"], "base_mk": pm.get("base"),
+            ml = (res["targets"][tg]["mk_ladder"].get(key) or {}).get(len(on))
+            o["t"][tg] = {"on": on, "n": len(on), "of": len(good), "p": lad_p(lad, len(on)), "p_mk": ml["p"] if ml else None, "p_mk_ep": ml["ep"] if ml else None, "p_model": round(float(logit_pred(w, x[None, :])[0]) * 100), "base": res["targets"][tg]["base"], "base_mk": pm.get("base"),
                           "own_on": [t_["k"] for t_ in (pm.get("top") or []) if (r[t_["k"]] if r[t_["k"]] == r[t_["k"]] else 0) > 0.5]}
         now.append(o)
-        print(f"지금 {name} (고점 {o['dd']}%):", " | ".join(f"{tg}: 믿을 만 {v['n']}/{v['of']}개 → {v['p']}% (모형 {v['p_model']}% · 평소 {v['base']}% · 이 지수 평소 {v['base_mk']}%) 켜짐 {v['on']} 자기신호 {v['own_on']}" for tg, v in o["t"].items()))
+        print(f"지금 {name} (고점 {o['dd']}%):", " | ".join(f"{tg}: 믿을 만 {v['n']}/{v['of']}개 → 이 지수 {v['p_mk']}%({v['p_mk_ep']}번) 전체 {v['p']}% (모형 {v['p_model']}% · 평소 {v['base']}% · 이 지수 평소 {v['base_mk']}%) 켜짐 {v['on']} 자기신호 {v['own_on']}" for tg, v in o["t"].items()))
     res["now"] = now
     OUT.write_text(json.dumps(res, ensure_ascii=False, indent=1, default=float), encoding="utf-8")
     return 0
