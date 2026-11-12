@@ -1,0 +1,8126 @@
+{
+ "at": "2026-11-12 10:54",
+ "rules": "─ 「비싸다/싸다」는 그날까지 자기 과거 대비 순위(확장 백분위 · 5년치 쌓인 뒤부터) — 미래 값 안 봄 · 월 자료는 한 달 늦게 · 미국 자료는 아시아에 하루 늦게\n─ 경고 신호 → 「6개월 안 −10%」「1년 안 −20%」 · 싸다/바닥 신호 → 「1년 뒤 플러스」「6개월 좋은 매수 자리」(모든 날 · 고점 −20% 아래인 날 따로)\n─ 통과(✅): 자료 기간을 반으로 잘라 앞·뒤 둘 다 평소보다 1.15배 넘거나 +8%p 넘고, 켜진 날 150일↑ · 따로 떨어진 때 5번↑",
+ "targets": {
+  "down": "6개월 안 −10%",
+  "crash": "1년 안 −20%",
+  "up12": "1년 뒤 플러스",
+  "good": "6개월 좋은 매수 자리"
+ },
+ "markets": [
+  {
+   "key": "kospi",
+   "name": "코스피",
+   "nat": "kr",
+   "asof": "2026-11-12",
+   "dd": -41.2,
+   "x5": {
+    "gap": 60.8,
+    "pct": 92
+   },
+   "signals": [
+    {
+     "k": "x_hi5",
+     "name": "5년 평균선보다 많이 위(자기 과거 상위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 5,
+       "n": 5079,
+       "from": "2005-09-26",
+       "share": 8.3,
+       "p_on": 49,
+       "base": 33,
+       "lift": 1.46,
+       "a": [
+        57,
+        31
+       ],
+       "b": [
+        25,
+        35
+       ],
+       "episodes": 12,
+       "r12_on": -4.6,
+       "r12_base": 11.5,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 4,
+       "n": 4953,
+       "from": "2005-09-26",
+       "share": 6.4,
+       "p_on": 28,
+       "base": 19,
+       "lift": 1.51,
+       "a": [
+        28,
+        16
+       ],
+       "b": null,
+       "episodes": 8,
+       "r12_on": -4.6,
+       "r12_base": 11.5,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "x_lo5",
+     "name": "5년 평균선보다 많이 아래(자기 과거 하위 15%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 12,
+       "n": 4953,
+       "from": "2005-09-26",
+       "share": 12.6,
+       "p_on": 97,
+       "base": 63,
+       "lift": 1.54,
+       "a": [
+        97,
+        62
+       ],
+       "b": [
+        97,
+        63
+       ],
+       "episodes": 48,
+       "r12_on": 33.0,
+       "r12_base": 11.5,
+       "good": true,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 495,
+       "on": 241
+      },
+      "good": {
+       "years": 12,
+       "n": 5079,
+       "from": "2005-09-26",
+       "share": 12.3,
+       "p_on": 76,
+       "base": 53,
+       "lift": 1.43,
+       "a": [
+        71,
+        53
+       ],
+       "b": [
+        77,
+        54
+       ],
+       "episodes": 48,
+       "r12_on": 33.0,
+       "r12_base": 11.5,
+       "good": true,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 495,
+       "on": 241
+      }
+     },
+     "good": [
+      "up12",
+      "good"
+     ]
+    },
+    {
+     "k": "g_cape_hi",
+     "name": "🇺🇸 CAPE 비쌈(과거 상위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 21,
+       "n": 7237,
+       "from": "1996-12-11",
+       "share": 44.9,
+       "p_on": 53,
+       "base": 40,
+       "lift": 1.33,
+       "a": [
+        69,
+        49
+       ],
+       "b": [
+        41,
+        31
+       ],
+       "episodes": 13,
+       "r12_on": 16.0,
+       "r12_base": 13.7,
+       "good": true,
+       "anti": false
+      },
+      "crash": {
+       "years": 20,
+       "n": 7111,
+       "from": "1996-12-11",
+       "share": 43.9,
+       "p_on": 43,
+       "base": 27,
+       "lift": 1.58,
+       "a": [
+        61,
+        38
+       ],
+       "b": [
+        28,
+        16
+       ],
+       "episodes": 13,
+       "r12_on": 16.0,
+       "r12_base": 13.7,
+       "good": true,
+       "anti": false
+      }
+     },
+     "good": [
+      "down",
+      "crash"
+     ]
+    },
+    {
+     "k": "g_aaii_fear",
+     "name": "🇺🇸 개인 심리 겁먹음(낙관−비관 4주 −15%p↓)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 16,
+       "n": 7111,
+       "from": "1996-12-11",
+       "share": 9.0,
+       "p_on": 75,
+       "base": 64,
+       "lift": 1.19,
+       "a": [
+        64,
+        67
+       ],
+       "b": [
+        82,
+        60
+       ],
+       "episodes": 31,
+       "r12_on": 28.5,
+       "r12_base": 13.7,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 9,
+       "n": 1418,
+       "from": "1997-09-29",
+       "share": 20.3,
+       "p_on": 78,
+       "base": 81,
+       "lift": 0.96,
+       "a": null,
+       "b": [
+        79,
+        89
+       ],
+       "episodes": 13,
+       "r12_on": 16.4,
+       "r12_base": 34.4,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 17,
+       "n": 7237,
+       "from": "1996-12-11",
+       "share": 9.0,
+       "p_on": 51,
+       "base": 50,
+       "lift": 1.03,
+       "a": [
+        39,
+        48
+       ],
+       "b": [
+        58,
+        51
+       ],
+       "episodes": 32,
+       "r12_on": 28.5,
+       "r12_base": 13.7,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 9,
+       "n": 1418,
+       "from": "1997-09-29",
+       "share": 20.3,
+       "p_on": 44,
+       "base": 37,
+       "lift": 1.19,
+       "a": null,
+       "b": [
+        46,
+        51
+       ],
+       "episodes": 13,
+       "r12_on": 16.4,
+       "r12_base": 34.4,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "fx_up",
+     "name": "원화 약세(달러/원 3개월 +5%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 21,
+       "n": 5473,
+       "from": "2004-02-26",
+       "share": 12.7,
+       "p_on": 30,
+       "base": 32,
+       "lift": 0.92,
+       "a": [
+        40,
+        28
+       ],
+       "b": [
+        20,
+        36
+       ],
+       "episodes": 102,
+       "r12_on": 16.9,
+       "r12_base": 13.1,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 20,
+       "n": 5347,
+       "from": "2004-02-26",
+       "share": 12.4,
+       "p_on": 17,
+       "base": 18,
+       "lift": 0.96,
+       "a": [
+        30,
+        16
+       ],
+       "b": [
+        5,
+        19
+       ],
+       "episodes": 98,
+       "r12_on": 16.9,
+       "r12_base": 13.1,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "fx_dn",
+     "name": "원화 강세(달러/원 3개월 −4%)",
+     "side": "B",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 20,
+       "n": 5347,
+       "from": "2004-02-26",
+       "share": 14.6,
+       "p_on": 77,
+       "base": 66,
+       "lift": 1.18,
+       "a": [
+        73,
+        71
+       ],
+       "b": [
+        84,
+        61
+       ],
+       "episodes": 115,
+       "r12_on": 20.1,
+       "r12_base": 13.1,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 522,
+       "on": 69
+      },
+      "good": {
+       "years": 20,
+       "n": 5473,
+       "from": "2004-02-26",
+       "share": 14.3,
+       "p_on": 69,
+       "base": 55,
+       "lift": 1.24,
+       "a": [
+        63,
+        60
+       ],
+       "b": [
+        79,
+        51
+       ],
+       "episodes": 115,
+       "r12_on": 20.1,
+       "r12_base": 13.1,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 522,
+       "on": 69
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_for_sell",
+     "name": "외국인 20일 순매도 심함(과거 하위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 6,
+       "n": 1483,
+       "from": "2020-04-16",
+       "share": 23.6,
+       "p_on": 42,
+       "base": 37,
+       "lift": 1.13,
+       "a": [
+        68,
+        41
+       ],
+       "b": [
+        26,
+        33
+       ],
+       "episodes": 14,
+       "r12_on": 57.6,
+       "r12_base": 25.0,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 5,
+       "n": 1357,
+       "from": "2020-04-16",
+       "share": 18.3,
+       "p_on": 26,
+       "base": 16,
+       "lift": 1.64,
+       "a": [
+        48,
+        31
+       ],
+       "b": [
+        0,
+        0
+       ],
+       "episodes": 11,
+       "r12_on": 57.6,
+       "r12_base": 25.0,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_ind_buy",
+     "name": "개인 20일 순매수 몰림(과거 상위 10%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 5,
+       "n": 1483,
+       "from": "2020-04-16",
+       "share": 18.5,
+       "p_on": 36,
+       "base": 37,
+       "lift": 0.96,
+       "a": [
+        37,
+        41
+       ],
+       "b": null,
+       "episodes": 16,
+       "r12_on": 7.2,
+       "r12_base": 25.0,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 4,
+       "n": 1357,
+       "from": "2020-04-16",
+       "share": 17.5,
+       "p_on": 26,
+       "base": 16,
+       "lift": 1.66,
+       "a": [
+        26,
+        31
+       ],
+       "b": null,
+       "episodes": 12,
+       "r12_on": 7.2,
+       "r12_base": 25.0,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_for_buy",
+     "name": "외국인 20일 순매수 강함(과거 상위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 6,
+       "n": 1357,
+       "from": "2020-04-16",
+       "share": 35.3,
+       "p_on": 72,
+       "base": 66,
+       "lift": 1.1,
+       "a": [
+        68,
+        48
+       ],
+       "b": [
+        74,
+        83
+       ],
+       "episodes": 17,
+       "r12_on": 14.6,
+       "r12_base": 25.0,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 158,
+       "on": 68
+      },
+      "good": {
+       "years": 6,
+       "n": 1483,
+       "from": "2020-04-16",
+       "share": 32.8,
+       "p_on": 53,
+       "base": 54,
+       "lift": 0.99,
+       "a": [
+        61,
+        50
+       ],
+       "b": [
+        47,
+        58
+       ],
+       "episodes": 17,
+       "r12_on": 14.6,
+       "r12_base": 25.0,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 158,
+       "on": 68
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_for_turn",
+     "name": "외국인 심한 매도 뒤 20일 순매수로 돌아섬",
+     "side": "B",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 6,
+       "n": 1357,
+       "from": "2020-04-16",
+       "share": 33.0,
+       "p_on": 51,
+       "base": 66,
+       "lift": 0.78,
+       "a": [
+        46,
+        48
+       ],
+       "b": [
+        61,
+        83
+       ],
+       "episodes": 6,
+       "r12_on": 13.5,
+       "r12_base": 25.0,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 158,
+       "on": 85
+      },
+      "good": {
+       "years": 6,
+       "n": 1483,
+       "from": "2020-04-16",
+       "share": 30.4,
+       "p_on": 50,
+       "base": 54,
+       "lift": 0.93,
+       "a": [
+        37,
+        50
+       ],
+       "b": [
+        73,
+        58
+       ],
+       "episodes": 6,
+       "r12_on": 13.5,
+       "r12_base": 25.0,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 158,
+       "on": 85
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_credit_hi",
+     "name": "신용잔고÷예탁금 높음(빚투 과열 · 과거 상위 10%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 5,
+       "n": 5799,
+       "from": "2002-10-29",
+       "share": 11.5,
+       "p_on": 58,
+       "base": 32,
+       "lift": 1.78,
+       "a": [
+        58,
+        31
+       ],
+       "b": null,
+       "episodes": 18,
+       "r12_on": -9.7,
+       "r12_base": 13.6,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 5,
+       "n": 5673,
+       "from": "2002-10-29",
+       "share": 11.7,
+       "p_on": 55,
+       "base": 17,
+       "lift": 3.14,
+       "a": [
+        55,
+        17
+       ],
+       "b": null,
+       "episodes": 18,
+       "r12_on": -9.7,
+       "r12_base": 13.6,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_credit_surge",
+     "name": "신용잔고 60일 새 +15%(빚투 급증)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 24,
+       "n": 6805,
+       "from": "1998-09-18",
+       "share": 25.5,
+       "p_on": 29,
+       "base": 38,
+       "lift": 0.76,
+       "a": [
+        30,
+        45
+       ],
+       "b": [
+        27,
+        31
+       ],
+       "episodes": 53,
+       "r12_on": 15.8,
+       "r12_base": 13.0,
+       "good": false,
+       "anti": true
+      },
+      "crash": {
+       "years": 23,
+       "n": 6679,
+       "from": "1998-09-18",
+       "share": 24.1,
+       "p_on": 15,
+       "base": 23,
+       "lift": 0.63,
+       "a": [
+        21,
+        31
+       ],
+       "b": [
+        3,
+        15
+       ],
+       "episodes": 52,
+       "r12_on": 15.8,
+       "r12_base": 13.0,
+       "good": false,
+       "anti": true
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_credit_flush",
+     "name": "신용잔고 1년 고점보다 −20%(빚 털림)",
+     "side": "B",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 22,
+       "n": 6630,
+       "from": "1998-11-30",
+       "share": 37.8,
+       "p_on": 71,
+       "base": 65,
+       "lift": 1.1,
+       "a": [
+        67,
+        68
+       ],
+       "b": [
+        78,
+        61
+       ],
+       "episodes": 30,
+       "r12_on": 10.9,
+       "r12_base": 12.0,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 13,
+       "n": 1136,
+       "from": "1998-11-30",
+       "share": 91.4,
+       "p_on": 81,
+       "base": 80,
+       "lift": 1.01,
+       "a": [
+        73,
+        73
+       ],
+       "b": [
+        90,
+        88
+       ],
+       "episodes": 11,
+       "r12_on": 19.9,
+       "r12_base": 19.9,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 22,
+       "n": 6756,
+       "from": "1998-11-30",
+       "share": 37.1,
+       "p_on": 45,
+       "base": 51,
+       "lift": 0.88,
+       "a": [
+        42,
+        50
+       ],
+       "b": [
+        52,
+        52
+       ],
+       "episodes": 30,
+       "r12_on": 10.9,
+       "r12_base": 12.0,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 13,
+       "n": 1136,
+       "from": "1998-11-30",
+       "share": 91.4,
+       "p_on": 37,
+       "base": 38,
+       "lift": 0.97,
+       "a": [
+        16,
+        17
+       ],
+       "b": [
+        60,
+        60
+       ],
+       "episodes": 11,
+       "r12_on": 19.9,
+       "r12_base": 19.9,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_dep_surge",
+     "name": "예탁금 60일 새 +20%(대기 자금 몰림)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 23,
+       "n": 6817,
+       "from": "1998-09-02",
+       "share": 12.7,
+       "p_on": 31,
+       "base": 38,
+       "lift": 0.81,
+       "a": [
+        31,
+        45
+       ],
+       "b": [
+        30,
+        31
+       ],
+       "episodes": 109,
+       "r12_on": 28.8,
+       "r12_base": 13.3,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 22,
+       "n": 6691,
+       "from": "1998-09-02",
+       "share": 11.8,
+       "p_on": 17,
+       "base": 23,
+       "lift": 0.75,
+       "a": [
+        21,
+        31
+       ],
+       "b": [
+        10,
+        15
+       ],
+       "episodes": 101,
+       "r12_on": 28.8,
+       "r12_base": 13.3,
+       "good": false,
+       "anti": true
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_dep_drop",
+     "name": "예탁금 1년 고점보다 −20%(개인 자금 떠남)",
+     "side": "B",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 24,
+       "n": 6641,
+       "from": "1998-11-13",
+       "share": 29.4,
+       "p_on": 68,
+       "base": 65,
+       "lift": 1.06,
+       "a": [
+        68,
+        68
+       ],
+       "b": [
+        68,
+        61
+       ],
+       "episodes": 155,
+       "r12_on": 9.4,
+       "r12_base": 12.2,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 11,
+       "n": 1145,
+       "from": "1998-11-13",
+       "share": 62.0,
+       "p_on": 76,
+       "base": 80,
+       "lift": 0.95,
+       "a": [
+        73,
+        73
+       ],
+       "b": [
+        80,
+        88
+       ],
+       "episodes": 29,
+       "r12_on": 14.3,
+       "r12_base": 20.7,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 24,
+       "n": 6767,
+       "from": "1998-11-13",
+       "share": 28.9,
+       "p_on": 45,
+       "base": 51,
+       "lift": 0.89,
+       "a": [
+        44,
+        50
+       ],
+       "b": [
+        48,
+        52
+       ],
+       "episodes": 155,
+       "r12_on": 9.4,
+       "r12_base": 12.2,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 11,
+       "n": 1145,
+       "from": "1998-11-13",
+       "share": 62.0,
+       "p_on": 28,
+       "base": 39,
+       "lift": 0.72,
+       "a": [
+        15,
+        17
+       ],
+       "b": [
+        43,
+        60
+       ],
+       "episodes": 29,
+       "r12_on": 14.3,
+       "r12_base": 20.7,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_forced",
+     "name": "반대매매 급증(예탁금 대비 20일 평균 · 과거 상위 5% = 투매)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "thin": true,
+       "n": 3546,
+       "on": 21
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 232,
+       "on": 0
+      },
+      "good": {
+       "thin": true,
+       "n": 3672,
+       "on": 21
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 232,
+       "on": 0
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_forced_w",
+     "name": "반대매매 늘어남(과거 상위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "thin": true,
+       "n": 3672,
+       "on": 128
+      },
+      "crash": {
+       "thin": true,
+       "n": 3546,
+       "on": 128
+      }
+     },
+     "good": []
+    }
+   ]
+  },
+  {
+   "key": "kosdaq",
+   "name": "코스닥",
+   "nat": "kr",
+   "asof": "2026-11-12",
+   "dd": -43.2,
+   "x5": {
+    "gap": -18.0,
+    "pct": 7
+   },
+   "signals": [
+    {
+     "k": "x_hi5",
+     "name": "5년 평균선보다 많이 위(자기 과거 상위 10%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 6,
+       "n": 4140,
+       "from": "2009-07-13",
+       "share": 10.5,
+       "p_on": 68,
+       "base": 49,
+       "lift": 1.39,
+       "a": [
+        82,
+        39
+       ],
+       "b": [
+        64,
+        59
+       ],
+       "episodes": 25,
+       "r12_on": -12.1,
+       "r12_base": 5.8,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 5,
+       "n": 4014,
+       "from": "2009-07-13",
+       "share": 9.8,
+       "p_on": 53,
+       "base": 29,
+       "lift": 1.85,
+       "a": [
+        11,
+        6
+       ],
+       "b": [
+        67,
+        51
+       ],
+       "episodes": 17,
+       "r12_on": -12.1,
+       "r12_base": 5.8,
+       "good": true,
+       "anti": false
+      }
+     },
+     "good": [
+      "crash"
+     ]
+    },
+    {
+     "k": "x_lo5",
+     "name": "5년 평균선보다 많이 아래(자기 과거 하위 15%)",
+     "side": "B",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 7,
+       "n": 4014,
+       "from": "2009-07-13",
+       "share": 4.7,
+       "p_on": 100,
+       "base": 54,
+       "lift": 1.85,
+       "a": null,
+       "b": [
+        100,
+        47
+       ],
+       "episodes": 20,
+       "r12_on": 43.9,
+       "r12_base": 5.8,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 453,
+       "on": 162
+      },
+      "good": {
+       "years": 7,
+       "n": 4140,
+       "from": "2009-07-13",
+       "share": 4.5,
+       "p_on": 78,
+       "base": 44,
+       "lift": 1.77,
+       "a": null,
+       "b": [
+        77,
+        36
+       ],
+       "episodes": 20,
+       "r12_on": 43.9,
+       "r12_base": 5.8,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 453,
+       "on": 162
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "g_cape_hi",
+     "name": "🇺🇸 CAPE 비쌈(과거 상위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 17,
+       "n": 6298,
+       "from": "2000-10-16",
+       "share": 36.7,
+       "p_on": 62,
+       "base": 53,
+       "lift": 1.17,
+       "a": [
+        84,
+        58
+       ],
+       "b": [
+        57,
+        48
+       ],
+       "episodes": 13,
+       "r12_on": 0.7,
+       "r12_base": 4.2,
+       "good": true,
+       "anti": false
+      },
+      "crash": {
+       "years": 16,
+       "n": 6172,
+       "from": "2000-10-16",
+       "share": 35.4,
+       "p_on": 62,
+       "base": 38,
+       "lift": 1.63,
+       "a": [
+        95,
+        42
+       ],
+       "b": [
+        53,
+        34
+       ],
+       "episodes": 13,
+       "r12_on": 0.7,
+       "r12_base": 4.2,
+       "good": true,
+       "anti": false
+      }
+     },
+     "good": [
+      "down",
+      "crash"
+     ]
+    },
+    {
+     "k": "g_aaii_fear",
+     "name": "🇺🇸 개인 심리 겁먹음(낙관−비관 4주 −15%p↓)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 16,
+       "n": 6172,
+       "from": "2000-10-16",
+       "share": 10.4,
+       "p_on": 66,
+       "base": 51,
+       "lift": 1.31,
+       "a": [
+        57,
+        48
+       ],
+       "b": [
+        72,
+        54
+       ],
+       "episodes": 31,
+       "r12_on": 13.7,
+       "r12_base": 4.2,
+       "good": true,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 11,
+       "n": 1472,
+       "from": "2001-03-13",
+       "share": 25.1,
+       "p_on": 74,
+       "base": 63,
+       "lift": 1.17,
+       "a": [
+        42,
+        50
+       ],
+       "b": [
+        84,
+        76
+       ],
+       "episodes": 19,
+       "r12_on": 14.7,
+       "r12_base": 15.3,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 17,
+       "n": 6298,
+       "from": "2000-10-16",
+       "share": 10.3,
+       "p_on": 48,
+       "base": 41,
+       "lift": 1.16,
+       "a": [
+        44,
+        37
+       ],
+       "b": [
+        50,
+        46
+       ],
+       "episodes": 32,
+       "r12_on": 13.7,
+       "r12_base": 4.2,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 11,
+       "n": 1472,
+       "from": "2001-03-13",
+       "share": 25.1,
+       "p_on": 46,
+       "base": 47,
+       "lift": 0.99,
+       "a": [
+        34,
+        46
+       ],
+       "b": [
+        50,
+        48
+       ],
+       "episodes": 19,
+       "r12_on": 14.7,
+       "r12_base": 15.3,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": [
+      "up12"
+     ]
+    },
+    {
+     "k": "fx_up",
+     "name": "원화 약세(달러/원 3개월 +5%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 21,
+       "n": 5474,
+       "from": "2004-02-26",
+       "share": 12.7,
+       "p_on": 45,
+       "base": 49,
+       "lift": 0.92,
+       "a": [
+        40,
+        43
+       ],
+       "b": [
+        50,
+        55
+       ],
+       "episodes": 102,
+       "r12_on": 14.4,
+       "r12_base": 7.0,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 20,
+       "n": 5348,
+       "from": "2004-02-26",
+       "share": 12.4,
+       "p_on": 23,
+       "base": 30,
+       "lift": 0.77,
+       "a": [
+        31,
+        21
+       ],
+       "b": [
+        17,
+        39
+       ],
+       "episodes": 98,
+       "r12_on": 14.4,
+       "r12_base": 7.0,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "fx_dn",
+     "name": "원화 강세(달러/원 3개월 −4%)",
+     "side": "B",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 20,
+       "n": 5348,
+       "from": "2004-02-26",
+       "share": 14.6,
+       "p_on": 61,
+       "base": 56,
+       "lift": 1.09,
+       "a": [
+        60,
+        63
+       ],
+       "b": [
+        61,
+        48
+       ],
+       "episodes": 115,
+       "r12_on": 12.3,
+       "r12_base": 7.0,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 1074,
+       "on": 108
+      },
+      "good": {
+       "years": 20,
+       "n": 5474,
+       "from": "2004-02-26",
+       "share": 14.3,
+       "p_on": 58,
+       "base": 45,
+       "lift": 1.27,
+       "a": [
+        54,
+        50
+       ],
+       "b": [
+        63,
+        40
+       ],
+       "episodes": 115,
+       "r12_on": 12.3,
+       "r12_base": 7.0,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 1074,
+       "on": 108
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_for_sell",
+     "name": "외국인 20일 순매도 심함(과거 하위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 6,
+       "n": 1322,
+       "from": "2020-12-09",
+       "share": 17.8,
+       "p_on": 57,
+       "base": 57,
+       "lift": 0.99,
+       "a": [
+        72,
+        59
+       ],
+       "b": [
+        33,
+        54
+       ],
+       "episodes": 25,
+       "r12_on": -2.6,
+       "r12_base": 1.2,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 5,
+       "n": 1196,
+       "from": "2020-12-09",
+       "share": 18.6,
+       "p_on": 57,
+       "base": 44,
+       "lift": 1.3,
+       "a": [
+        61,
+        43
+       ],
+       "b": [
+        50,
+        44
+       ],
+       "episodes": 22,
+       "r12_on": -2.6,
+       "r12_base": 1.2,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_ind_buy",
+     "name": "개인 20일 순매수 몰림(과거 상위 10%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 7,
+       "n": 1322,
+       "from": "2020-12-09",
+       "share": 13.2,
+       "p_on": 62,
+       "base": 57,
+       "lift": 1.09,
+       "a": [
+        60,
+        59
+       ],
+       "b": null,
+       "episodes": 15,
+       "r12_on": -5.4,
+       "r12_base": 1.2,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 5,
+       "n": 1196,
+       "from": "2020-12-09",
+       "share": 13.5,
+       "p_on": 50,
+       "base": 44,
+       "lift": 1.15,
+       "a": [
+        47,
+        43
+       ],
+       "b": null,
+       "episodes": 11,
+       "r12_on": -5.4,
+       "r12_base": 1.2,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_for_buy",
+     "name": "외국인 20일 순매수 강함(과거 상위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 5,
+       "n": 1196,
+       "from": "2020-12-09",
+       "share": 21.0,
+       "p_on": 26,
+       "base": 43,
+       "lift": 0.61,
+       "a": [
+        25,
+        40
+       ],
+       "b": [
+        27,
+        45
+       ],
+       "episodes": 23,
+       "r12_on": -12.4,
+       "r12_base": 1.2,
+       "good": false,
+       "anti": true
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 263,
+       "on": 6
+      },
+      "good": {
+       "years": 6,
+       "n": 1322,
+       "from": "2020-12-09",
+       "share": 22.1,
+       "p_on": 23,
+       "base": 38,
+       "lift": 0.62,
+       "a": [
+        30,
+        35
+       ],
+       "b": [
+        17,
+        40
+       ],
+       "episodes": 24,
+       "r12_on": -12.4,
+       "r12_base": 1.2,
+       "good": false,
+       "anti": true
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 263,
+       "on": 6
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_for_turn",
+     "name": "외국인 심한 매도 뒤 20일 순매수로 돌아섬",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 5,
+       "n": 1196,
+       "from": "2020-12-09",
+       "share": 46.7,
+       "p_on": 35,
+       "base": 43,
+       "lift": 0.82,
+       "a": [
+        40,
+        40
+       ],
+       "b": [
+        32,
+        45
+       ],
+       "episodes": 7,
+       "r12_on": -7.1,
+       "r12_base": 1.2,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 263,
+       "on": 51
+      },
+      "good": {
+       "years": 6,
+       "n": 1322,
+       "from": "2020-12-09",
+       "share": 50.2,
+       "p_on": 36,
+       "base": 38,
+       "lift": 0.96,
+       "a": [
+        33,
+        35
+       ],
+       "b": [
+        38,
+        40
+       ],
+       "episodes": 9,
+       "r12_on": -7.1,
+       "r12_base": 1.2,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 263,
+       "on": 51
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_credit_hi",
+     "name": "신용잔고÷예탁금 높음(빚투 과열 · 과거 상위 10%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 16,
+       "n": 4675,
+       "from": "2007-05-14",
+       "share": 46.4,
+       "p_on": 52,
+       "base": 52,
+       "lift": 1.0,
+       "a": [
+        48,
+        51
+       ],
+       "b": [
+        58,
+        52
+       ],
+       "episodes": 124,
+       "r12_on": 0.6,
+       "r12_base": 4.1,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 16,
+       "n": 4549,
+       "from": "2007-05-14",
+       "share": 47.7,
+       "p_on": 30,
+       "base": 33,
+       "lift": 0.93,
+       "a": [
+        17,
+        20
+       ],
+       "b": [
+        54,
+        45
+       ],
+       "episodes": 124,
+       "r12_on": 0.6,
+       "r12_base": 4.1,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_credit_surge",
+     "name": "신용잔고 60일 새 +15%(빚투 급증)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 22,
+       "n": 5868,
+       "from": "2002-07-22",
+       "share": 25.4,
+       "p_on": 48,
+       "base": 51,
+       "lift": 0.95,
+       "a": [
+        50,
+        51
+       ],
+       "b": [
+        44,
+        51
+       ],
+       "episodes": 47,
+       "r12_on": 5.1,
+       "r12_base": 5.8,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 22,
+       "n": 5742,
+       "from": "2002-07-22",
+       "share": 25.9,
+       "p_on": 25,
+       "base": 34,
+       "lift": 0.74,
+       "a": [
+        25,
+        31
+       ],
+       "b": [
+        24,
+        36
+       ],
+       "episodes": 45,
+       "r12_on": 5.1,
+       "r12_base": 5.8,
+       "good": false,
+       "anti": true
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_credit_flush",
+     "name": "신용잔고 1년 고점보다 −20%(빚 털림)",
+     "side": "B",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 19,
+       "n": 5683,
+       "from": "2002-10-16",
+       "share": 25.2,
+       "p_on": 70,
+       "base": 54,
+       "lift": 1.31,
+       "a": [
+        69,
+        56
+       ],
+       "b": [
+        73,
+        51
+       ],
+       "episodes": 31,
+       "r12_on": 15.4,
+       "r12_base": 6.0,
+       "good": true,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 15,
+       "n": 1267,
+       "from": "2002-10-16",
+       "share": 73.8,
+       "p_on": 78,
+       "base": 72,
+       "lift": 1.09,
+       "a": [
+        67,
+        56
+       ],
+       "b": [
+        87,
+        87
+       ],
+       "episodes": 18,
+       "r12_on": 25.1,
+       "r12_base": 20.1,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 19,
+       "n": 5809,
+       "from": "2002-10-16",
+       "share": 24.7,
+       "p_on": 51,
+       "base": 44,
+       "lift": 1.16,
+       "a": [
+        46,
+        43
+       ],
+       "b": [
+        59,
+        44
+       ],
+       "episodes": 31,
+       "r12_on": 15.4,
+       "r12_base": 6.0,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 15,
+       "n": 1267,
+       "from": "2002-10-16",
+       "share": 73.8,
+       "p_on": 58,
+       "base": 50,
+       "lift": 1.15,
+       "a": [
+        52,
+        46
+       ],
+       "b": [
+        63,
+        55
+       ],
+       "episodes": 18,
+       "r12_on": 25.1,
+       "r12_base": 20.1,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": [
+      "up12"
+     ]
+    },
+    {
+     "k": "kr_dep_surge",
+     "name": "예탁금 60일 새 +20%(대기 자금 몰림)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 20,
+       "n": 6298,
+       "from": "2000-10-16",
+       "share": 10.9,
+       "p_on": 49,
+       "base": 53,
+       "lift": 0.92,
+       "a": [
+        51,
+        58
+       ],
+       "b": [
+        46,
+        48
+       ],
+       "episodes": 89,
+       "r12_on": 6.6,
+       "r12_base": 4.2,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 19,
+       "n": 6172,
+       "from": "2000-10-16",
+       "share": 9.9,
+       "p_on": 29,
+       "base": 38,
+       "lift": 0.75,
+       "a": [
+        33,
+        42
+       ],
+       "b": [
+        21,
+        34
+       ],
+       "episodes": 81,
+       "r12_on": 6.6,
+       "r12_base": 4.2,
+       "good": false,
+       "anti": true
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_dep_drop",
+     "name": "예탁금 1년 고점보다 −20%(개인 자금 떠남)",
+     "side": "B",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 23,
+       "n": 6172,
+       "from": "2000-10-16",
+       "share": 28.8,
+       "p_on": 64,
+       "base": 51,
+       "lift": 1.26,
+       "a": [
+        58,
+        48
+       ],
+       "b": [
+        75,
+        54
+       ],
+       "episodes": 137,
+       "r12_on": 8.6,
+       "r12_base": 4.2,
+       "good": true,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 12,
+       "n": 1472,
+       "from": "2001-03-13",
+       "share": 61.3,
+       "p_on": 61,
+       "base": 63,
+       "lift": 0.96,
+       "a": [
+        59,
+        50
+       ],
+       "b": [
+        62,
+        76
+       ],
+       "episodes": 42,
+       "r12_on": 12.3,
+       "r12_base": 15.3,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 23,
+       "n": 6298,
+       "from": "2000-10-16",
+       "share": 28.3,
+       "p_on": 46,
+       "base": 41,
+       "lift": 1.13,
+       "a": [
+        40,
+        37
+       ],
+       "b": [
+        59,
+        46
+       ],
+       "episodes": 137,
+       "r12_on": 8.6,
+       "r12_base": 4.2,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 12,
+       "n": 1472,
+       "from": "2001-03-13",
+       "share": 61.3,
+       "p_on": 39,
+       "base": 47,
+       "lift": 0.84,
+       "a": [
+        43,
+        46
+       ],
+       "b": [
+        35,
+        48
+       ],
+       "episodes": 42,
+       "r12_on": 12.3,
+       "r12_base": 15.3,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": [
+      "up12"
+     ]
+    },
+    {
+     "k": "kr_forced",
+     "name": "반대매매 급증(예탁금 대비 20일 평균 · 과거 상위 5% = 투매)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "thin": true,
+       "n": 3547,
+       "on": 21
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 453,
+       "on": 4
+      },
+      "good": {
+       "thin": true,
+       "n": 3673,
+       "on": 21
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 453,
+       "on": 4
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "kr_forced_w",
+     "name": "반대매매 늘어남(과거 상위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "thin": true,
+       "n": 3673,
+       "on": 128
+      },
+      "crash": {
+       "thin": true,
+       "n": 3547,
+       "on": 128
+      }
+     },
+     "good": []
+    }
+   ]
+  },
+  {
+   "key": "nikkei",
+   "name": "닛케이225",
+   "nat": "jp",
+   "asof": "2026-11-12",
+   "dd": -15.2,
+   "x5": {
+    "gap": 58.7,
+    "pct": 95
+   },
+   "signals": [
+    {
+     "k": "x_hi5",
+     "name": "5년 평균선보다 많이 위(자기 과거 상위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 10,
+       "n": 7995,
+       "from": "1993-09-29",
+       "share": 9.4,
+       "p_on": 51,
+       "base": 42,
+       "lift": 1.2,
+       "a": [
+        62,
+        52
+       ],
+       "b": [
+        47,
+        33
+       ],
+       "episodes": 47,
+       "r12_on": -3.3,
+       "r12_base": 6.2,
+       "good": true,
+       "anti": false
+      },
+      "crash": {
+       "years": 9,
+       "n": 7869,
+       "from": "1993-09-29",
+       "share": 8.0,
+       "p_on": 41,
+       "base": 29,
+       "lift": 1.43,
+       "a": [
+        34,
+        42
+       ],
+       "b": [
+        45,
+        15
+       ],
+       "episodes": 47,
+       "r12_on": -3.3,
+       "r12_base": 6.2,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": [
+      "down"
+     ]
+    },
+    {
+     "k": "x_lo5",
+     "name": "5년 평균선보다 많이 아래(자기 과거 하위 15%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 11,
+       "n": 7869,
+       "from": "1993-09-29",
+       "share": 8.9,
+       "p_on": 59,
+       "base": 57,
+       "lift": 1.04,
+       "a": [
+        60,
+        44
+       ],
+       "b": null,
+       "episodes": 40,
+       "r12_on": 9.6,
+       "r12_base": 6.2,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 11,
+       "n": 1613,
+       "from": "1993-11-26",
+       "share": 40.1,
+       "p_on": 61,
+       "base": 51,
+       "lift": 1.2,
+       "a": [
+        16,
+        34
+       ],
+       "b": [
+        96,
+        68
+       ],
+       "episodes": 32,
+       "r12_on": 10.3,
+       "r12_base": 2.5,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 11,
+       "n": 7995,
+       "from": "1993-09-29",
+       "share": 8.8,
+       "p_on": 39,
+       "base": 48,
+       "lift": 0.8,
+       "a": [
+        37,
+        39
+       ],
+       "b": null,
+       "episodes": 40,
+       "r12_on": 9.6,
+       "r12_base": 6.2,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 11,
+       "n": 1613,
+       "from": "1993-11-26",
+       "share": 40.1,
+       "p_on": 40,
+       "base": 36,
+       "lift": 1.1,
+       "a": [
+        33,
+        26
+       ],
+       "b": [
+        45,
+        47
+       ],
+       "episodes": 32,
+       "r12_on": 10.3,
+       "r12_base": 2.5,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "g_cape_hi",
+     "name": "🇺🇸 CAPE 비쌈(과거 상위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 23,
+       "n": 10153,
+       "from": "1985-01-02",
+       "share": 36.3,
+       "p_on": 45,
+       "base": 42,
+       "lift": 1.08,
+       "a": [
+        57,
+        46
+       ],
+       "b": [
+        34,
+        38
+       ],
+       "episodes": 14,
+       "r12_on": 1.8,
+       "r12_base": 6.7,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 22,
+       "n": 10027,
+       "from": "1985-01-02",
+       "share": 35.5,
+       "p_on": 36,
+       "base": 29,
+       "lift": 1.24,
+       "a": [
+        52,
+        37
+       ],
+       "b": [
+        20,
+        21
+       ],
+       "episodes": 14,
+       "r12_on": 1.8,
+       "r12_base": 6.7,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "g_aaii_fear",
+     "name": "🇺🇸 개인 심리 겁먹음(낙관−비관 4주 −15%p↓)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 22,
+       "n": 9377,
+       "from": "1987-08-17",
+       "share": 9.0,
+       "p_on": 71,
+       "base": 56,
+       "lift": 1.28,
+       "a": [
+        53,
+        48
+       ],
+       "b": [
+        80,
+        63
+       ],
+       "episodes": 40,
+       "r12_on": 13.4,
+       "r12_base": 4.9,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 10,
+       "n": 2179,
+       "from": "1987-11-11",
+       "share": 16.4,
+       "p_on": 49,
+       "base": 49,
+       "lift": 0.99,
+       "a": [
+        43,
+        48
+       ],
+       "b": [
+        53,
+        50
+       ],
+       "episodes": 18,
+       "r12_on": 2.3,
+       "r12_base": 1.1,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 23,
+       "n": 9503,
+       "from": "1987-08-17",
+       "share": 9.0,
+       "p_on": 58,
+       "base": 48,
+       "lift": 1.22,
+       "a": [
+        46,
+        43
+       ],
+       "b": [
+        64,
+        52
+       ],
+       "episodes": 41,
+       "r12_on": 13.4,
+       "r12_base": 4.9,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 10,
+       "n": 2179,
+       "from": "1987-11-11",
+       "share": 16.4,
+       "p_on": 43,
+       "base": 36,
+       "lift": 1.21,
+       "a": [
+        48,
+        32
+       ],
+       "b": [
+        40,
+        39
+       ],
+       "episodes": 18,
+       "r12_on": 2.3,
+       "r12_base": 1.1,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "fx_up",
+     "name": "엔화 약세(달러/엔 3개월 +5%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "up12": {
+       "years": 26,
+       "n": 7043,
+       "from": "1997-02-04",
+       "share": 16.4,
+       "p_on": 65,
+       "base": 59,
+       "lift": 1.1,
+       "a": [
+        40,
+        43
+       ],
+       "b": [
+        87,
+        75
+       ],
+       "episodes": 99,
+       "r12_on": 7.8,
+       "r12_base": 7.0,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 7,
+       "n": 1484,
+       "from": "1997-02-06",
+       "share": 24.5,
+       "p_on": 35,
+       "base": 48,
+       "lift": 0.73,
+       "a": [
+        28,
+        29
+       ],
+       "b": [
+        60,
+        66
+       ],
+       "episodes": 29,
+       "r12_on": -4.6,
+       "r12_base": 0.2,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 27,
+       "n": 7169,
+       "from": "1997-02-04",
+       "share": 16.4,
+       "p_on": 49,
+       "base": 50,
+       "lift": 1.0,
+       "a": [
+        31,
+        38
+       ],
+       "b": [
+        64,
+        61
+       ],
+       "episodes": 107,
+       "r12_on": 7.8,
+       "r12_base": 7.0,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 7,
+       "n": 1484,
+       "from": "1997-02-06",
+       "share": 24.5,
+       "p_on": 23,
+       "base": 34,
+       "lift": 0.68,
+       "a": [
+        14,
+        17
+       ],
+       "b": [
+        58,
+        51
+       ],
+       "episodes": 29,
+       "r12_on": -4.6,
+       "r12_base": 0.2,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "fx_dn",
+     "name": "엔화 강세(달러/엔 3개월 −5%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-12",
+     "t": {
+      "down": {
+       "years": 24,
+       "n": 7169,
+       "from": "1997-02-04",
+       "share": 13.7,
+       "p_on": 41,
+       "base": 42,
+       "lift": 0.98,
+       "a": [
+        50,
+        55
+       ],
+       "b": [
+        18,
+        29
+       ],
+       "episodes": 108,
+       "r12_on": 6.7,
+       "r12_base": 7.0,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 24,
+       "n": 7043,
+       "from": "1997-02-04",
+       "share": 14.0,
+       "p_on": 26,
+       "base": 27,
+       "lift": 0.94,
+       "a": [
+        35,
+        40
+       ],
+       "b": [
+        3,
+        15
+       ],
+       "episodes": 108,
+       "r12_on": 6.7,
+       "r12_base": 7.0,
+       "good": false,
+       "anti": true
+      }
+     },
+     "good": []
+    }
+   ]
+  },
+  {
+   "key": "shanghai",
+   "name": "상해종합",
+   "nat": "cn",
+   "asof": "2026-11-10",
+   "dd": -13.6,
+   "x5": {
+    "gap": 7.8,
+    "pct": 60
+   },
+   "signals": [
+    {
+     "k": "x_hi5",
+     "name": "5년 평균선보다 많이 위(자기 과거 상위 10%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 4,
+       "n": 4827,
+       "from": "2006-06-20",
+       "share": 8.1,
+       "p_on": 50,
+       "base": 39,
+       "lift": 1.31,
+       "a": [
+        50,
+        48
+       ],
+       "b": null,
+       "episodes": 4,
+       "r12_on": 15.1,
+       "r12_base": 8.3,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 4,
+       "n": 4701,
+       "from": "2006-06-20",
+       "share": 8.4,
+       "p_on": 59,
+       "base": 24,
+       "lift": 2.49,
+       "a": [
+        59,
+        38
+       ],
+       "b": null,
+       "episodes": 4,
+       "r12_on": 15.1,
+       "r12_base": 8.3,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "x_lo5",
+     "name": "5년 평균선보다 많이 아래(자기 과거 하위 15%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 4,
+       "n": 4701,
+       "from": "2006-06-20",
+       "share": 6.6,
+       "p_on": 40,
+       "base": 51,
+       "lift": 0.78,
+       "a": [
+        40,
+        43
+       ],
+       "b": null,
+       "episodes": 10,
+       "r12_on": -0.2,
+       "r12_base": 8.3,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 3,
+       "n": 1088,
+       "from": "2007-11-27",
+       "share": 18.8,
+       "p_on": 30,
+       "base": 59,
+       "lift": 0.51,
+       "a": [
+        41,
+        57
+       ],
+       "b": [
+        19,
+        62
+       ],
+       "episodes": 5,
+       "r12_on": -0.2,
+       "r12_base": 5.5,
+       "good": false,
+       "anti": true
+      },
+      "good": {
+       "years": 4,
+       "n": 4827,
+       "from": "2006-06-20",
+       "share": 6.4,
+       "p_on": 42,
+       "base": 48,
+       "lift": 0.87,
+       "a": [
+        42,
+        43
+       ],
+       "b": null,
+       "episodes": 10,
+       "r12_on": -0.2,
+       "r12_base": 8.3,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 3,
+       "n": 1088,
+       "from": "2007-11-27",
+       "share": 18.8,
+       "p_on": 33,
+       "base": 52,
+       "lift": 0.63,
+       "a": [
+        24,
+        46
+       ],
+       "b": [
+        42,
+        58
+       ],
+       "episodes": 5,
+       "r12_on": -0.2,
+       "r12_base": 5.5,
+       "good": false,
+       "anti": true
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "g_cape_hi",
+     "name": "🇺🇸 CAPE 비쌈(과거 상위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 20,
+       "n": 6985,
+       "from": "1997-07-02",
+       "share": 44.1,
+       "p_on": 38,
+       "base": 42,
+       "lift": 0.91,
+       "a": [
+        50,
+        52
+       ],
+       "b": [
+        31,
+        33
+       ],
+       "episodes": 13,
+       "r12_on": 4.4,
+       "r12_base": 10.1,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 19,
+       "n": 6859,
+       "from": "1997-07-02",
+       "share": 43.1,
+       "p_on": 21,
+       "base": 26,
+       "lift": 0.82,
+       "a": [
+        31,
+        40
+       ],
+       "b": [
+        14,
+        12
+       ],
+       "episodes": 13,
+       "r12_on": 4.4,
+       "r12_base": 10.1,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "g_aaii_fear",
+     "name": "🇺🇸 개인 심리 겁먹음(낙관−비관 4주 −15%p↓)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 16,
+       "n": 6859,
+       "from": "1997-07-02",
+       "share": 9.1,
+       "p_on": 59,
+       "base": 51,
+       "lift": 1.15,
+       "a": [
+        61,
+        47
+       ],
+       "b": [
+        58,
+        56
+       ],
+       "episodes": 31,
+       "r12_on": 10.2,
+       "r12_base": 10.1,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 9,
+       "n": 1676,
+       "from": "1998-08-17",
+       "share": 11.5,
+       "p_on": 69,
+       "base": 55,
+       "lift": 1.25,
+       "a": [
+        55,
+        52
+       ],
+       "b": [
+        93,
+        59
+       ],
+       "episodes": 13,
+       "r12_on": 11.6,
+       "r12_base": 7.7,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 17,
+       "n": 6985,
+       "from": "1997-07-02",
+       "share": 9.1,
+       "p_on": 48,
+       "base": 46,
+       "lift": 1.05,
+       "a": [
+        29,
+        41
+       ],
+       "b": [
+        60,
+        51
+       ],
+       "episodes": 32,
+       "r12_on": 10.2,
+       "r12_base": 10.1,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 9,
+       "n": 1676,
+       "from": "1998-08-17",
+       "share": 11.5,
+       "p_on": 41,
+       "base": 46,
+       "lift": 0.89,
+       "a": [
+        8,
+        32
+       ],
+       "b": [
+        95,
+        60
+       ],
+       "episodes": 13,
+       "r12_on": 11.6,
+       "r12_base": 7.7,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "fx_up",
+     "name": "위안 약세(달러/위안 3개월 +2%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 12,
+       "n": 5908,
+       "from": "2001-12-14",
+       "share": 12.3,
+       "p_on": 36,
+       "base": 41,
+       "lift": 0.87,
+       "a": null,
+       "b": [
+        35,
+        31
+       ],
+       "episodes": 53,
+       "r12_on": 11.4,
+       "r12_base": 10.4,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 12,
+       "n": 5782,
+       "from": "2001-12-14",
+       "share": 12.5,
+       "p_on": 4,
+       "base": 25,
+       "lift": 0.15,
+       "a": null,
+       "b": [
+        4,
+        14
+       ],
+       "episodes": 53,
+       "r12_on": 11.4,
+       "r12_base": 10.4,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "fx_dn",
+     "name": "위안 강세(달러/위안 3개월 −2%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 16,
+       "n": 5782,
+       "from": "2001-12-14",
+       "share": 12.0,
+       "p_on": 46,
+       "base": 50,
+       "lift": 0.91,
+       "a": [
+        37,
+        42
+       ],
+       "b": [
+        52,
+        59
+       ],
+       "episodes": 59,
+       "r12_on": -3.9,
+       "r12_base": 10.4,
+       "good": false,
+       "anti": true
+      },
+      "up12_deep": {
+       "years": 6,
+       "n": 1577,
+       "from": "2001-12-14",
+       "share": 11.9,
+       "p_on": 48,
+       "base": 56,
+       "lift": 0.86,
+       "a": [
+        41,
+        55
+       ],
+       "b": null,
+       "episodes": 10,
+       "r12_on": -4.7,
+       "r12_base": 7.0,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 17,
+       "n": 5908,
+       "from": "2001-12-14",
+       "share": 12.7,
+       "p_on": 40,
+       "base": 46,
+       "lift": 0.85,
+       "a": [
+        28,
+        39
+       ],
+       "b": [
+        46,
+        54
+       ],
+       "episodes": 64,
+       "r12_on": -3.9,
+       "r12_base": 10.4,
+       "good": false,
+       "anti": true
+      },
+      "good_deep": {
+       "years": 6,
+       "n": 1577,
+       "from": "2001-12-14",
+       "share": 11.9,
+       "p_on": 31,
+       "base": 46,
+       "lift": 0.68,
+       "a": [
+        20,
+        34
+       ],
+       "b": null,
+       "episodes": 10,
+       "r12_on": -4.7,
+       "r12_base": 7.0,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_pe_hi",
+     "name": "🇨🇳 상해 PER 비쌈(과거 상위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "thin": true,
+       "n": 5419,
+       "on": 143
+      },
+      "crash": {
+       "thin": true,
+       "n": 5293,
+       "on": 143
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_pe_lo",
+     "name": "🇨🇳 상해 PER 쌈(과거 하위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 17,
+       "n": 5293,
+       "from": "2004-01-02",
+       "share": 52.9,
+       "p_on": 67,
+       "base": 52,
+       "lift": 1.3,
+       "a": [
+        64,
+        49
+       ],
+       "b": [
+        72,
+        55
+       ],
+       "episodes": 12,
+       "r12_on": 26.8,
+       "r12_base": 11.6,
+       "good": true,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 12,
+       "n": 1391,
+       "from": "2004-06-25",
+       "share": 76.1,
+       "p_on": 68,
+       "base": 59,
+       "lift": 1.16,
+       "a": [
+        74,
+        64
+       ],
+       "b": [
+        62,
+        54
+       ],
+       "episodes": 7,
+       "r12_on": 15.1,
+       "r12_base": 8.4,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 17,
+       "n": 5419,
+       "from": "2004-01-02",
+       "share": 51.7,
+       "p_on": 54,
+       "base": 48,
+       "lift": 1.14,
+       "a": [
+        54,
+        45
+       ],
+       "b": [
+        55,
+        50
+       ],
+       "episodes": 12,
+       "r12_on": 26.8,
+       "r12_base": 11.6,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 12,
+       "n": 1391,
+       "from": "2004-06-25",
+       "share": 76.1,
+       "p_on": 56,
+       "base": 48,
+       "lift": 1.17,
+       "a": [
+        49,
+        42
+       ],
+       "b": [
+        64,
+        54
+       ],
+       "episodes": 7,
+       "r12_on": 15.1,
+       "r12_base": 8.4,
+       "good": true,
+       "anti": false
+      }
+     },
+     "good": [
+      "up12",
+      "good_deep"
+     ]
+    },
+    {
+     "k": "cn_pb_hi",
+     "name": "🇨🇳 상해 PBR 비쌈(과거 상위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "thin": true,
+       "n": 3961,
+       "on": 0
+      },
+      "crash": {
+       "thin": true,
+       "n": 3835,
+       "on": 0
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_pb_lo",
+     "name": "🇨🇳 상해 PBR 쌈(과거 하위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 12,
+       "n": 3835,
+       "from": "2010-01-04",
+       "share": 57.3,
+       "p_on": 70,
+       "base": 52,
+       "lift": 1.36,
+       "a": [
+        66,
+        44
+       ],
+       "b": [
+        73,
+        59
+       ],
+       "episodes": 7,
+       "r12_on": 13.8,
+       "r12_base": 4.4,
+       "good": true,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 744,
+       "on": 439
+      },
+      "good": {
+       "years": 12,
+       "n": 3961,
+       "from": "2010-01-04",
+       "share": 55.5,
+       "p_on": 55,
+       "base": 48,
+       "lift": 1.14,
+       "a": [
+        56,
+        44
+       ],
+       "b": [
+        54,
+        51
+       ],
+       "episodes": 7,
+       "r12_on": 13.8,
+       "r12_base": 4.4,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 744,
+       "on": 439
+      }
+     },
+     "good": [
+      "up12"
+     ]
+    },
+    {
+     "k": "cn_pbm_hi",
+     "name": "🇨🇳 A주 PBR 가운데값 비쌈(과거 상위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 3,
+       "n": 3961,
+       "from": "2010-01-04",
+       "share": 7.6,
+       "p_on": 79,
+       "base": 37,
+       "lift": 2.15,
+       "a": [
+        79,
+        41
+       ],
+       "b": null,
+       "episodes": 6,
+       "r12_on": -14.8,
+       "r12_base": 4.4,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 3,
+       "n": 3835,
+       "from": "2010-01-04",
+       "share": 7.8,
+       "p_on": 79,
+       "base": 18,
+       "lift": 4.51,
+       "a": [
+        79,
+        27
+       ],
+       "b": null,
+       "episodes": 6,
+       "r12_on": -14.8,
+       "r12_base": 4.4,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_pbm_lo",
+     "name": "🇨🇳 A주 PBR 가운데값 쌈(과거 하위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 5,
+       "n": 3835,
+       "from": "2010-01-04",
+       "share": 10.3,
+       "p_on": 96,
+       "base": 52,
+       "lift": 1.87,
+       "a": null,
+       "b": [
+        99,
+        59
+       ],
+       "episodes": 6,
+       "r12_on": 14.5,
+       "r12_base": 4.4,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 744,
+       "on": 113
+      },
+      "good": {
+       "years": 5,
+       "n": 3961,
+       "from": "2010-01-04",
+       "share": 10.0,
+       "p_on": 57,
+       "base": 48,
+       "lift": 1.19,
+       "a": null,
+       "b": [
+        59,
+        51
+       ],
+       "episodes": 6,
+       "r12_on": 14.5,
+       "r12_base": 4.4,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 744,
+       "on": 113
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_ebs_lo",
+     "name": "🇨🇳 주식−채권 금리차 낮음(주식 비쌈 · 하위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "thin": true,
+       "n": 4115,
+       "on": 0
+      },
+      "crash": {
+       "thin": true,
+       "n": 3989,
+       "on": 0
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_ebs_hi",
+     "name": "🇨🇳 주식−채권 금리차 높음(주식 쌈 · 상위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 12,
+       "n": 3989,
+       "from": "2009-05-20",
+       "share": 39.1,
+       "p_on": 64,
+       "base": 50,
+       "lift": 1.28,
+       "a": [
+        58,
+        43
+       ],
+       "b": [
+        71,
+        57
+       ],
+       "episodes": 40,
+       "r12_on": 15.3,
+       "r12_base": 3.9,
+       "good": true,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 7,
+       "n": 761,
+       "from": "2009-05-20",
+       "share": 37.5,
+       "p_on": 46,
+       "base": 56,
+       "lift": 0.83,
+       "a": [
+        25,
+        30
+       ],
+       "b": [
+        100,
+        82
+       ],
+       "episodes": 11,
+       "r12_on": 0.6,
+       "r12_base": 1.1,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 12,
+       "n": 4115,
+       "from": "2009-05-20",
+       "share": 37.9,
+       "p_on": 54,
+       "base": 48,
+       "lift": 1.13,
+       "a": [
+        47,
+        46
+       ],
+       "b": [
+        62,
+        49
+       ],
+       "episodes": 40,
+       "r12_on": 15.3,
+       "r12_base": 3.9,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 7,
+       "n": 761,
+       "from": "2009-05-20",
+       "share": 37.5,
+       "p_on": 48,
+       "base": 56,
+       "lift": 0.85,
+       "a": [
+        28,
+        42
+       ],
+       "b": [
+        100,
+        71
+       ],
+       "episodes": 11,
+       "r12_on": 0.6,
+       "r12_base": 1.1,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": [
+      "up12"
+     ]
+    },
+    {
+     "k": "cn_buf_hi",
+     "name": "🇨🇳 시가총액÷GDP 높음(상위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 9,
+       "n": 4115,
+       "from": "2009-05-20",
+       "share": 18.0,
+       "p_on": 37,
+       "base": 37,
+       "lift": 1.0,
+       "a": [
+        71,
+        40
+       ],
+       "b": [
+        22,
+        34
+       ],
+       "episodes": 25,
+       "r12_on": -11.8,
+       "r12_base": 3.9,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 8,
+       "n": 3989,
+       "from": "2009-05-20",
+       "share": 15.4,
+       "p_on": 44,
+       "base": 19,
+       "lift": 2.25,
+       "a": [
+        87,
+        28
+       ],
+       "b": [
+        26,
+        11
+       ],
+       "episodes": 25,
+       "r12_on": -11.8,
+       "r12_base": 3.9,
+       "good": true,
+       "anti": false
+      }
+     },
+     "good": [
+      "crash"
+     ]
+    },
+    {
+     "k": "cn_buf_lo",
+     "name": "🇨🇳 시가총액÷GDP 낮음(하위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "thin": true,
+       "n": 3989,
+       "on": 37
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 761,
+       "on": 0
+      },
+      "good": {
+       "thin": true,
+       "n": 4115,
+       "on": 37
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 761,
+       "on": 0
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_mg_surge",
+     "name": "🇨🇳 융자잔고 60일 새 +25%(빚투 급증)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 9,
+       "n": 3659,
+       "from": "2011-04-08",
+       "share": 20.0,
+       "p_on": 53,
+       "base": 35,
+       "lift": 1.5,
+       "a": [
+        64,
+        43
+       ],
+       "b": [
+        10,
+        28
+       ],
+       "episodes": 13,
+       "r12_on": -2.2,
+       "r12_base": 5.5,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 9,
+       "n": 3533,
+       "from": "2011-04-08",
+       "share": 20.6,
+       "p_on": 21,
+       "base": 14,
+       "lift": 1.5,
+       "a": [
+        27,
+        26
+       ],
+       "b": [
+        0,
+        2
+       ],
+       "episodes": 12,
+       "r12_on": -2.2,
+       "r12_base": 5.5,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_mg_flush",
+     "name": "🇨🇳 융자잔고 1년 고점보다 −20%(빚 털림)",
+     "side": "B",
+     "now": true,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 5,
+       "n": 3474,
+       "from": "2011-07-04",
+       "share": 14.2,
+       "p_on": 75,
+       "base": 55,
+       "lift": 1.36,
+       "a": [
+        67,
+        48
+       ],
+       "b": [
+        98,
+        62
+       ],
+       "episodes": 2,
+       "r12_on": 4.8,
+       "r12_base": 5.9,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 650,
+       "on": 397
+      },
+      "good": {
+       "years": 5,
+       "n": 3600,
+       "from": "2011-07-04",
+       "share": 13.7,
+       "p_on": 64,
+       "base": 50,
+       "lift": 1.3,
+       "a": [
+        60,
+        46
+       ],
+       "b": [
+        95,
+        53
+       ],
+       "episodes": 2,
+       "r12_on": 4.8,
+       "r12_base": 5.9,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 650,
+       "on": 397
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_north_buy",
+     "name": "🇨🇳 북향(외국인) 자금 20일 순매수 강함(상위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 8,
+       "n": 2111,
+       "from": "2017-02-15",
+       "share": 34.7,
+       "p_on": 49,
+       "base": 55,
+       "lift": 0.89,
+       "a": [
+        58,
+        58
+       ],
+       "b": [
+        18,
+        53
+       ],
+       "episodes": 47,
+       "r12_on": 0.5,
+       "r12_base": 3.2,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 159,
+       "on": 87
+      },
+      "good": {
+       "years": 8,
+       "n": 2237,
+       "from": "2017-02-15",
+       "share": 32.7,
+       "p_on": 47,
+       "base": 51,
+       "lift": 0.92,
+       "a": [
+        53,
+        56
+       ],
+       "b": [
+        23,
+        46
+       ],
+       "episodes": 47,
+       "r12_on": 0.5,
+       "r12_base": 3.2,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 159,
+       "on": 87
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_north_sell",
+     "name": "🇨🇳 북향(외국인) 자금 20일 순매도 심함(하위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 9,
+       "n": 2237,
+       "from": "2017-02-15",
+       "share": 32.0,
+       "p_on": 18,
+       "base": 31,
+       "lift": 0.58,
+       "a": [
+        16,
+        26
+       ],
+       "b": [
+        18,
+        37
+       ],
+       "episodes": 31,
+       "r12_on": 12.2,
+       "r12_base": 3.2,
+       "good": false,
+       "anti": true
+      },
+      "crash": {
+       "years": 8,
+       "n": 2111,
+       "from": "2017-02-15",
+       "share": 27.9,
+       "p_on": 0,
+       "base": 10,
+       "lift": 0.02,
+       "a": [
+        1,
+        18
+       ],
+       "b": [
+        0,
+        3
+       ],
+       "episodes": 31,
+       "r12_on": 12.2,
+       "r12_base": 3.2,
+       "good": false,
+       "anti": true
+      }
+     },
+     "good": []
+    }
+   ]
+  },
+  {
+   "key": "shenzhen",
+   "name": "심천성분",
+   "nat": "cn",
+   "asof": "2026-11-10",
+   "dd": -31.3,
+   "x5": {
+    "gap": -3.8,
+    "pct": 44
+   },
+   "signals": [
+    {
+     "k": "x_hi5",
+     "name": "5년 평균선보다 많이 위(자기 과거 상위 10%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 3,
+       "n": 4794,
+       "from": "2006-08-04",
+       "share": 7.5,
+       "p_on": 35,
+       "base": 50,
+       "lift": 0.69,
+       "a": [
+        35,
+        56
+       ],
+       "b": null,
+       "episodes": 2,
+       "r12_on": 72.5,
+       "r12_base": 11.2,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 3,
+       "n": 4668,
+       "from": "2006-08-04",
+       "share": 7.7,
+       "p_on": 44,
+       "base": 39,
+       "lift": 1.13,
+       "a": [
+        44,
+        50
+       ],
+       "b": null,
+       "episodes": 2,
+       "r12_on": 72.5,
+       "r12_base": 11.2,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "x_lo5",
+     "name": "5년 평균선보다 많이 아래(자기 과거 하위 15%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 9,
+       "n": 4668,
+       "from": "2006-08-04",
+       "share": 13.0,
+       "p_on": 81,
+       "base": 50,
+       "lift": 1.64,
+       "a": [
+        69,
+        43
+       ],
+       "b": [
+        100,
+        56
+       ],
+       "episodes": 39,
+       "r12_on": 32.4,
+       "r12_base": 11.2,
+       "good": true,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 8,
+       "n": 1587,
+       "from": "2007-11-28",
+       "share": 30.2,
+       "p_on": 85,
+       "base": 61,
+       "lift": 1.4,
+       "a": [
+        71,
+        62
+       ],
+       "b": [
+        100,
+        59
+       ],
+       "episodes": 21,
+       "r12_on": 33.2,
+       "r12_base": 16.1,
+       "good": true,
+       "anti": false
+      },
+      "good": {
+       "years": 9,
+       "n": 4794,
+       "from": "2006-08-04",
+       "share": 12.6,
+       "p_on": 59,
+       "base": 42,
+       "lift": 1.41,
+       "a": [
+        59,
+        39
+       ],
+       "b": [
+        58,
+        44
+       ],
+       "episodes": 39,
+       "r12_on": 32.4,
+       "r12_base": 11.2,
+       "good": true,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 8,
+       "n": 1587,
+       "from": "2007-11-28",
+       "share": 30.2,
+       "p_on": 63,
+       "base": 43,
+       "lift": 1.44,
+       "a": [
+        61,
+        45
+       ],
+       "b": [
+        64,
+        42
+       ],
+       "episodes": 21,
+       "r12_on": 33.2,
+       "r12_base": 16.1,
+       "good": true,
+       "anti": false
+      }
+     },
+     "good": [
+      "up12",
+      "up12_deep",
+      "good",
+      "good_deep"
+     ]
+    },
+    {
+     "k": "g_cape_hi",
+     "name": "🇺🇸 CAPE 비쌈(과거 상위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 20,
+       "n": 6952,
+       "from": "1997-08-22",
+       "share": 43.8,
+       "p_on": 53,
+       "base": 52,
+       "lift": 1.01,
+       "a": [
+        66,
+        56
+       ],
+       "b": [
+        44,
+        48
+       ],
+       "episodes": 13,
+       "r12_on": 3.0,
+       "r12_base": 13.0,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 19,
+       "n": 6826,
+       "from": "1997-08-22",
+       "share": 42.7,
+       "p_on": 41,
+       "base": 40,
+       "lift": 1.04,
+       "a": [
+        58,
+        48
+       ],
+       "b": [
+        30,
+        31
+       ],
+       "episodes": 13,
+       "r12_on": 3.0,
+       "r12_base": 13.0,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "g_aaii_fear",
+     "name": "🇺🇸 개인 심리 겁먹음(낙관−비관 4주 −15%p↓)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 16,
+       "n": 6826,
+       "from": "1997-08-22",
+       "share": 9.2,
+       "p_on": 53,
+       "base": 51,
+       "lift": 1.04,
+       "a": [
+        67,
+        50
+       ],
+       "b": [
+        44,
+        51
+       ],
+       "episodes": 31,
+       "r12_on": 17.5,
+       "r12_base": 13.0,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 10,
+       "n": 2405,
+       "from": "1998-06-30",
+       "share": 11.8,
+       "p_on": 49,
+       "base": 62,
+       "lift": 0.78,
+       "a": [
+        76,
+        70
+       ],
+       "b": [
+        22,
+        54
+       ],
+       "episodes": 15,
+       "r12_on": 14.1,
+       "r12_base": 16.9,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 17,
+       "n": 6952,
+       "from": "1997-08-22",
+       "share": 9.2,
+       "p_on": 42,
+       "base": 39,
+       "lift": 1.08,
+       "a": [
+        35,
+        35
+       ],
+       "b": [
+        46,
+        42
+       ],
+       "episodes": 32,
+       "r12_on": 17.5,
+       "r12_base": 13.0,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 10,
+       "n": 2405,
+       "from": "1998-06-30",
+       "share": 11.8,
+       "p_on": 41,
+       "base": 38,
+       "lift": 1.08,
+       "a": [
+        34,
+        35
+       ],
+       "b": [
+        49,
+        41
+       ],
+       "episodes": 15,
+       "r12_on": 14.1,
+       "r12_base": 16.9,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "fx_up",
+     "name": "위안 약세(달러/위안 3개월 +2%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 12,
+       "n": 5909,
+       "from": "2001-12-14",
+       "share": 12.3,
+       "p_on": 47,
+       "base": 49,
+       "lift": 0.96,
+       "a": null,
+       "b": [
+        47,
+        44
+       ],
+       "episodes": 53,
+       "r12_on": 13.0,
+       "r12_base": 15.7,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 12,
+       "n": 5783,
+       "from": "2001-12-14",
+       "share": 12.5,
+       "p_on": 20,
+       "base": 36,
+       "lift": 0.57,
+       "a": null,
+       "b": [
+        20,
+        29
+       ],
+       "episodes": 53,
+       "r12_on": 13.0,
+       "r12_base": 15.7,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "fx_dn",
+     "name": "위안 강세(달러/위안 3개월 −2%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 16,
+       "n": 5783,
+       "from": "2001-12-14",
+       "share": 12.0,
+       "p_on": 47,
+       "base": 51,
+       "lift": 0.92,
+       "a": [
+        36,
+        46
+       ],
+       "b": [
+        54,
+        57
+       ],
+       "episodes": 59,
+       "r12_on": -2.2,
+       "r12_base": 15.7,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 8,
+       "n": 2027,
+       "from": "2001-12-14",
+       "share": 9.9,
+       "p_on": 58,
+       "base": 59,
+       "lift": 0.97,
+       "a": [
+        38,
+        58
+       ],
+       "b": [
+        82,
+        61
+       ],
+       "episodes": 21,
+       "r12_on": 8.4,
+       "r12_base": 15.9,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 17,
+       "n": 5909,
+       "from": "2001-12-14",
+       "share": 12.6,
+       "p_on": 31,
+       "base": 42,
+       "lift": 0.74,
+       "a": [
+        14,
+        37
+       ],
+       "b": [
+        40,
+        47
+       ],
+       "episodes": 64,
+       "r12_on": -2.2,
+       "r12_base": 15.7,
+       "good": false,
+       "anti": true
+      },
+      "good_deep": {
+       "years": 8,
+       "n": 2027,
+       "from": "2001-12-14",
+       "share": 9.9,
+       "p_on": 26,
+       "base": 42,
+       "lift": 0.64,
+       "a": [
+        5,
+        37
+       ],
+       "b": [
+        52,
+        46
+       ],
+       "episodes": 21,
+       "r12_on": 8.4,
+       "r12_base": 15.9,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_pe_hi",
+     "name": "🇨🇳 심천 PER 비쌈(과거 상위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 4,
+       "n": 5682,
+       "from": "2002-12-02",
+       "share": 6.9,
+       "p_on": 83,
+       "base": 49,
+       "lift": 1.69,
+       "a": [
+        73,
+        52
+       ],
+       "b": [
+        95,
+        45
+       ],
+       "episodes": 3,
+       "r12_on": -34.3,
+       "r12_base": 16.3,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 4,
+       "n": 5556,
+       "from": "2002-12-02",
+       "share": 7.1,
+       "p_on": 88,
+       "base": 36,
+       "lift": 2.45,
+       "a": [
+        91,
+        41
+       ],
+       "b": [
+        85,
+        31
+       ],
+       "episodes": 3,
+       "r12_on": -34.3,
+       "r12_base": 16.3,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_pe_lo",
+     "name": "🇨🇳 심천 PER 쌈(과거 하위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 13,
+       "n": 5556,
+       "from": "2002-12-02",
+       "share": 32.6,
+       "p_on": 67,
+       "base": 52,
+       "lift": 1.29,
+       "a": [
+        61,
+        48
+       ],
+       "b": [
+        75,
+        55
+       ],
+       "episodes": 11,
+       "r12_on": 40.0,
+       "r12_base": 16.3,
+       "good": true,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 11,
+       "n": 1865,
+       "from": "2002-12-02",
+       "share": 56.1,
+       "p_on": 66,
+       "base": 60,
+       "lift": 1.1,
+       "a": [
+        61,
+        58
+       ],
+       "b": [
+        74,
+        63
+       ],
+       "episodes": 7,
+       "r12_on": 23.3,
+       "r12_base": 17.3,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 13,
+       "n": 5682,
+       "from": "2002-12-02",
+       "share": 31.9,
+       "p_on": 43,
+       "base": 43,
+       "lift": 1.01,
+       "a": [
+        42,
+        41
+       ],
+       "b": [
+        45,
+        45
+       ],
+       "episodes": 11,
+       "r12_on": 40.0,
+       "r12_base": 16.3,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 11,
+       "n": 1865,
+       "from": "2002-12-02",
+       "share": 56.1,
+       "p_on": 41,
+       "base": 43,
+       "lift": 0.95,
+       "a": [
+        37,
+        40
+       ],
+       "b": [
+        46,
+        46
+       ],
+       "episodes": 7,
+       "r12_on": 23.3,
+       "r12_base": 17.3,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": [
+      "up12"
+     ]
+    },
+    {
+     "k": "cn_pbm_hi",
+     "name": "🇨🇳 A주 PBR 가운데값 비쌈(과거 상위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 3,
+       "n": 3961,
+       "from": "2010-01-04",
+       "share": 7.6,
+       "p_on": 83,
+       "base": 51,
+       "lift": 1.63,
+       "a": [
+        83,
+        54
+       ],
+       "b": null,
+       "episodes": 6,
+       "r12_on": -14.3,
+       "r12_base": 4.3,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 3,
+       "n": 3835,
+       "from": "2010-01-04",
+       "share": 7.8,
+       "p_on": 82,
+       "base": 36,
+       "lift": 2.27,
+       "a": [
+        82,
+        42
+       ],
+       "b": null,
+       "episodes": 6,
+       "r12_on": -14.3,
+       "r12_base": 4.3,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_pbm_lo",
+     "name": "🇨🇳 A주 PBR 가운데값 쌈(과거 하위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 5,
+       "n": 3835,
+       "from": "2010-01-04",
+       "share": 10.3,
+       "p_on": 91,
+       "base": 49,
+       "lift": 1.86,
+       "a": null,
+       "b": [
+        95,
+        57
+       ],
+       "episodes": 6,
+       "r12_on": 26.3,
+       "r12_base": 4.3,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 5,
+       "n": 1278,
+       "from": "2010-04-29",
+       "share": 19.6,
+       "p_on": 91,
+       "base": 57,
+       "lift": 1.6,
+       "a": null,
+       "b": [
+        93,
+        67
+       ],
+       "episodes": 4,
+       "r12_on": 27.7,
+       "r12_base": 10.6,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 5,
+       "n": 3961,
+       "from": "2010-01-04",
+       "share": 10.0,
+       "p_on": 56,
+       "base": 40,
+       "lift": 1.4,
+       "a": null,
+       "b": [
+        58,
+        43
+       ],
+       "episodes": 6,
+       "r12_on": 26.3,
+       "r12_base": 4.3,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 5,
+       "n": 1278,
+       "from": "2010-04-29",
+       "share": 19.6,
+       "p_on": 61,
+       "base": 43,
+       "lift": 1.42,
+       "a": null,
+       "b": [
+        62,
+        49
+       ],
+       "episodes": 4,
+       "r12_on": 27.7,
+       "r12_base": 10.6,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_ebs_lo",
+     "name": "🇨🇳 주식−채권 금리차 낮음(주식 비쌈 · 하위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "thin": true,
+       "n": 4115,
+       "on": 0
+      },
+      "crash": {
+       "thin": true,
+       "n": 3989,
+       "on": 0
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_ebs_hi",
+     "name": "🇨🇳 주식−채권 금리차 높음(주식 쌈 · 상위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 12,
+       "n": 3989,
+       "from": "2009-05-20",
+       "share": 39.1,
+       "p_on": 54,
+       "base": 48,
+       "lift": 1.13,
+       "a": [
+        44,
+        41
+       ],
+       "b": [
+        65,
+        54
+       ],
+       "episodes": 40,
+       "r12_on": 13.2,
+       "r12_base": 3.9,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 10,
+       "n": 1289,
+       "from": "2009-05-20",
+       "share": 60.0,
+       "p_on": 56,
+       "base": 57,
+       "lift": 0.98,
+       "a": [
+        47,
+        47
+       ],
+       "b": [
+        66,
+        67
+       ],
+       "episodes": 17,
+       "r12_on": 15.3,
+       "r12_base": 10.6,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 12,
+       "n": 4115,
+       "from": "2009-05-20",
+       "share": 37.9,
+       "p_on": 37,
+       "base": 40,
+       "lift": 0.93,
+       "a": [
+        36,
+        38
+       ],
+       "b": [
+        39,
+        42
+       ],
+       "episodes": 40,
+       "r12_on": 13.2,
+       "r12_base": 3.9,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 10,
+       "n": 1289,
+       "from": "2009-05-20",
+       "share": 60.0,
+       "p_on": 45,
+       "base": 44,
+       "lift": 1.03,
+       "a": [
+        41,
+        39
+       ],
+       "b": [
+        49,
+        48
+       ],
+       "episodes": 17,
+       "r12_on": 15.3,
+       "r12_base": 10.6,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_buf_hi",
+     "name": "🇨🇳 시가총액÷GDP 높음(상위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 9,
+       "n": 4115,
+       "from": "2009-05-20",
+       "share": 18.0,
+       "p_on": 51,
+       "base": 51,
+       "lift": 0.99,
+       "a": [
+        87,
+        53
+       ],
+       "b": [
+        35,
+        49
+       ],
+       "episodes": 25,
+       "r12_on": -16.9,
+       "r12_base": 3.9,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 8,
+       "n": 3989,
+       "from": "2009-05-20",
+       "share": 15.4,
+       "p_on": 69,
+       "base": 38,
+       "lift": 1.82,
+       "a": [
+        88,
+        42
+       ],
+       "b": [
+        61,
+        33
+       ],
+       "episodes": 25,
+       "r12_on": -16.9,
+       "r12_base": 3.9,
+       "good": true,
+       "anti": false
+      }
+     },
+     "good": [
+      "crash"
+     ]
+    },
+    {
+     "k": "cn_buf_lo",
+     "name": "🇨🇳 시가총액÷GDP 낮음(하위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "thin": true,
+       "n": 3989,
+       "on": 37
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 1289,
+       "on": 36
+      },
+      "good": {
+       "thin": true,
+       "n": 4115,
+       "on": 37
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 1289,
+       "on": 36
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_mg_surge",
+     "name": "🇨🇳 융자잔고 60일 새 +25%(빚투 급증)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 9,
+       "n": 3658,
+       "from": "2011-04-08",
+       "share": 20.1,
+       "p_on": 67,
+       "base": 50,
+       "lift": 1.33,
+       "a": [
+        76,
+        57
+       ],
+       "b": [
+        32,
+        44
+       ],
+       "episodes": 13,
+       "r12_on": -5.1,
+       "r12_base": 5.2,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 9,
+       "n": 3532,
+       "from": "2011-04-08",
+       "share": 20.6,
+       "p_on": 50,
+       "base": 34,
+       "lift": 1.49,
+       "a": [
+        63,
+        43
+       ],
+       "b": [
+        0,
+        25
+       ],
+       "episodes": 12,
+       "r12_on": -5.1,
+       "r12_base": 5.2,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_mg_flush",
+     "name": "🇨🇳 융자잔고 1년 고점보다 −20%(빚 털림)",
+     "side": "B",
+     "now": true,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 5,
+       "n": 3473,
+       "from": "2011-07-04",
+       "share": 14.2,
+       "p_on": 66,
+       "base": 50,
+       "lift": 1.32,
+       "a": [
+        55,
+        39
+       ],
+       "b": [
+        100,
+        61
+       ],
+       "episodes": 2,
+       "r12_on": 6.7,
+       "r12_base": 5.6,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 5,
+       "n": 1193,
+       "from": "2011-09-05",
+       "share": 35.1,
+       "p_on": 62,
+       "base": 55,
+       "lift": 1.13,
+       "a": [
+        40,
+        44
+       ],
+       "b": [
+        78,
+        65
+       ],
+       "episodes": 2,
+       "r12_on": 7.1,
+       "r12_base": 10.4,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 5,
+       "n": 3599,
+       "from": "2011-07-04",
+       "share": 13.7,
+       "p_on": 43,
+       "base": 41,
+       "lift": 1.04,
+       "a": [
+        36,
+        36
+       ],
+       "b": [
+        95,
+        46
+       ],
+       "episodes": 2,
+       "r12_on": 6.7,
+       "r12_base": 5.6,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 5,
+       "n": 1193,
+       "from": "2011-09-05",
+       "share": 35.1,
+       "p_on": 48,
+       "base": 41,
+       "lift": 1.18,
+       "a": [
+        26,
+        36
+       ],
+       "b": [
+        65,
+        46
+       ],
+       "episodes": 2,
+       "r12_on": 7.1,
+       "r12_base": 10.4,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_north_buy",
+     "name": "🇨🇳 북향(외국인) 자금 20일 순매수 강함(상위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 8,
+       "n": 2109,
+       "from": "2017-02-15",
+       "share": 34.6,
+       "p_on": 51,
+       "base": 54,
+       "lift": 0.93,
+       "a": [
+        60,
+        63
+       ],
+       "b": [
+        15,
+        46
+       ],
+       "episodes": 47,
+       "r12_on": 4.0,
+       "r12_base": 6.0,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 475,
+       "on": 143
+      },
+      "good": {
+       "years": 8,
+       "n": 2235,
+       "from": "2017-02-15",
+       "share": 32.7,
+       "p_on": 50,
+       "base": 45,
+       "lift": 1.12,
+       "a": [
+        62,
+        59
+       ],
+       "b": [
+        3,
+        30
+       ],
+       "episodes": 47,
+       "r12_on": 4.0,
+       "r12_base": 6.0,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 475,
+       "on": 143
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_north_sell",
+     "name": "🇨🇳 북향(외국인) 자금 20일 순매도 심함(하위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 9,
+       "n": 2235,
+       "from": "2017-02-15",
+       "share": 32.0,
+       "p_on": 37,
+       "base": 46,
+       "lift": 0.8,
+       "a": [
+        19,
+        34
+       ],
+       "b": [
+        41,
+        58
+       ],
+       "episodes": 31,
+       "r12_on": 20.6,
+       "r12_base": 6.0,
+       "good": false,
+       "anti": true
+      },
+      "crash": {
+       "years": 8,
+       "n": 2109,
+       "from": "2017-02-15",
+       "share": 27.9,
+       "p_on": 9,
+       "base": 31,
+       "lift": 0.29,
+       "a": [
+        1,
+        28
+       ],
+       "b": [
+        11,
+        35
+       ],
+       "episodes": 31,
+       "r12_on": 20.6,
+       "r12_base": 6.0,
+       "good": false,
+       "anti": true
+      }
+     },
+     "good": []
+    }
+   ]
+  },
+  {
+   "key": "hsi",
+   "name": "항셍",
+   "nat": "hk",
+   "asof": "2026-11-10",
+   "dd": -12.2,
+   "x5": {
+    "gap": 14.6,
+    "pct": 57
+   },
+   "signals": [
+    {
+     "k": "x_hi5",
+     "name": "5년 평균선보다 많이 위(자기 과거 상위 10%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "thin": true,
+       "n": 7553,
+       "on": 63
+      },
+      "crash": {
+       "thin": true,
+       "n": 7427,
+       "on": 63
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "x_lo5",
+     "name": "5년 평균선보다 많이 아래(자기 과거 하위 15%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 18,
+       "n": 7427,
+       "from": "1995-09-15",
+       "share": 27.1,
+       "p_on": 58,
+       "base": 58,
+       "lift": 1.01,
+       "a": [
+        63,
+        65
+       ],
+       "b": [
+        53,
+        51
+       ],
+       "episodes": 45,
+       "r12_on": 15.5,
+       "r12_base": 5.9,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 17,
+       "n": 1886,
+       "from": "1997-10-20",
+       "share": 74.3,
+       "p_on": 57,
+       "base": 58,
+       "lift": 0.98,
+       "a": [
+        53,
+        45
+       ],
+       "b": [
+        61,
+        71
+       ],
+       "episodes": 25,
+       "r12_on": 15.2,
+       "r12_base": 10.7,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 18,
+       "n": 7553,
+       "from": "1995-09-15",
+       "share": 26.6,
+       "p_on": 37,
+       "base": 47,
+       "lift": 0.79,
+       "a": [
+        32,
+        50
+       ],
+       "b": [
+        43,
+        45
+       ],
+       "episodes": 45,
+       "r12_on": 15.5,
+       "r12_base": 5.9,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 17,
+       "n": 1886,
+       "from": "1997-10-20",
+       "share": 74.3,
+       "p_on": 36,
+       "base": 37,
+       "lift": 0.98,
+       "a": [
+        27,
+        23
+       ],
+       "b": [
+        46,
+        51
+       ],
+       "episodes": 25,
+       "r12_on": 15.2,
+       "r12_base": 10.7,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "g_cape_hi",
+     "name": "🇺🇸 CAPE 비쌈(과거 상위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 23,
+       "n": 9711,
+       "from": "1986-12-31",
+       "share": 38.0,
+       "p_on": 52,
+       "base": 43,
+       "lift": 1.21,
+       "a": [
+        55,
+        40
+       ],
+       "b": [
+        48,
+        46
+       ],
+       "episodes": 14,
+       "r12_on": 2.9,
+       "r12_base": 8.9,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 22,
+       "n": 9585,
+       "from": "1986-12-31",
+       "share": 37.2,
+       "p_on": 42,
+       "base": 31,
+       "lift": 1.36,
+       "a": [
+        50,
+        32
+       ],
+       "b": [
+        34,
+        30
+       ],
+       "episodes": 14,
+       "r12_on": 2.9,
+       "r12_base": 8.9,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "g_aaii_fear",
+     "name": "🇺🇸 개인 심리 겁먹음(낙관−비관 4주 −15%p↓)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 23,
+       "n": 9430,
+       "from": "1987-08-17",
+       "share": 9.1,
+       "p_on": 66,
+       "base": 63,
+       "lift": 1.05,
+       "a": [
+        97,
+        71
+       ],
+       "b": [
+        50,
+        54
+       ],
+       "episodes": 40,
+       "r12_on": 12.5,
+       "r12_base": 9.2,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 12,
+       "n": 2449,
+       "from": "1987-10-26",
+       "share": 16.0,
+       "p_on": 47,
+       "base": 62,
+       "lift": 0.75,
+       "a": null,
+       "b": [
+        42,
+        67
+       ],
+       "episodes": 21,
+       "r12_on": 6.4,
+       "r12_base": 11.6,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 24,
+       "n": 9556,
+       "from": "1987-08-17",
+       "share": 9.1,
+       "p_on": 48,
+       "base": 51,
+       "lift": 0.95,
+       "a": [
+        74,
+        57
+       ],
+       "b": [
+        36,
+        45
+       ],
+       "episodes": 41,
+       "r12_on": 12.5,
+       "r12_base": 9.2,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 12,
+       "n": 2449,
+       "from": "1987-10-26",
+       "share": 16.0,
+       "p_on": 30,
+       "base": 41,
+       "lift": 0.73,
+       "a": null,
+       "b": [
+        26,
+        44
+       ],
+       "episodes": 21,
+       "r12_on": 6.4,
+       "r12_base": 11.6,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "fx_up",
+     "name": "위안 약세(달러/위안 3개월 +2%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 12,
+       "n": 6011,
+       "from": "2001-12-14",
+       "share": 12.2,
+       "p_on": 52,
+       "base": 42,
+       "lift": 1.23,
+       "a": null,
+       "b": [
+        52,
+        47
+       ],
+       "episodes": 53,
+       "r12_on": 5.4,
+       "r12_base": 6.1,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 12,
+       "n": 5885,
+       "from": "2001-12-14",
+       "share": 12.4,
+       "p_on": 30,
+       "base": 26,
+       "lift": 1.14,
+       "a": null,
+       "b": [
+        30,
+        31
+       ],
+       "episodes": 53,
+       "r12_on": 5.4,
+       "r12_base": 6.1,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "fx_dn",
+     "name": "위안 강세(달러/위안 3개월 −2%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 16,
+       "n": 5885,
+       "from": "2001-12-14",
+       "share": 12.0,
+       "p_on": 33,
+       "base": 61,
+       "lift": 0.55,
+       "a": [
+        28,
+        73
+       ],
+       "b": [
+        36,
+        48
+       ],
+       "episodes": 58,
+       "r12_on": -8.6,
+       "r12_base": 6.1,
+       "good": false,
+       "anti": true
+      },
+      "up12_deep": {
+       "years": 7,
+       "n": 1403,
+       "from": "2001-12-14",
+       "share": 11.5,
+       "p_on": 27,
+       "base": 64,
+       "lift": 0.41,
+       "a": [
+        1,
+        67
+       ],
+       "b": null,
+       "episodes": 17,
+       "r12_on": -16.0,
+       "r12_base": 10.5,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 17,
+       "n": 6011,
+       "from": "2001-12-14",
+       "share": 12.7,
+       "p_on": 39,
+       "base": 49,
+       "lift": 0.79,
+       "a": [
+        28,
+        52
+       ],
+       "b": [
+        44,
+        46
+       ],
+       "episodes": 63,
+       "r12_on": -8.6,
+       "r12_base": 6.1,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 7,
+       "n": 1403,
+       "from": "2001-12-14",
+       "share": 11.5,
+       "p_on": 20,
+       "base": 41,
+       "lift": 0.5,
+       "a": [
+        2,
+        36
+       ],
+       "b": null,
+       "episodes": 17,
+       "r12_on": -16.0,
+       "r12_base": 10.5,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "hkd_weak",
+     "name": "홍콩달러 약세 한계선 근처(7.84↑ · 돈이 빠져나감)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 6,
+       "n": 6116,
+       "from": "2001-07-16",
+       "share": 8.9,
+       "p_on": 72,
+       "base": 42,
+       "lift": 1.7,
+       "a": null,
+       "b": [
+        72,
+        46
+       ],
+       "episodes": 22,
+       "r12_on": -6.4,
+       "r12_base": 5.8,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 6,
+       "n": 5990,
+       "from": "2001-07-16",
+       "share": 9.0,
+       "p_on": 47,
+       "base": 27,
+       "lift": 1.74,
+       "a": null,
+       "b": [
+        47,
+        31
+       ],
+       "episodes": 22,
+       "r12_on": -6.4,
+       "r12_base": 5.8,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_pe_hi",
+     "name": "🇨🇳 상해 PER 비쌈(과거 상위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "thin": true,
+       "n": 5506,
+       "on": 147
+      },
+      "crash": {
+       "thin": true,
+       "n": 5380,
+       "on": 147
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_pe_lo",
+     "name": "🇨🇳 상해 PER 쌈(과거 하위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 17,
+       "n": 5380,
+       "from": "2004-01-02",
+       "share": 52.7,
+       "p_on": 70,
+       "base": 60,
+       "lift": 1.17,
+       "a": [
+        81,
+        73
+       ],
+       "b": [
+        51,
+        47
+       ],
+       "episodes": 12,
+       "r12_on": 12.1,
+       "r12_base": 5.5,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 11,
+       "n": 1185,
+       "from": "2004-05-17",
+       "share": 65.7,
+       "p_on": 78,
+       "base": 66,
+       "lift": 1.18,
+       "a": [
+        87,
+        75
+       ],
+       "b": [
+        69,
+        56
+       ],
+       "episodes": 6,
+       "r12_on": 19.1,
+       "r12_base": 9.8,
+       "good": true,
+       "anti": false
+      },
+      "good": {
+       "years": 17,
+       "n": 5506,
+       "from": "2004-01-02",
+       "share": 51.5,
+       "p_on": 60,
+       "base": 50,
+       "lift": 1.19,
+       "a": [
+        67,
+        57
+       ],
+       "b": [
+        47,
+        44
+       ],
+       "episodes": 12,
+       "r12_on": 12.1,
+       "r12_base": 5.5,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 11,
+       "n": 1185,
+       "from": "2004-05-17",
+       "share": 65.7,
+       "p_on": 51,
+       "base": 42,
+       "lift": 1.24,
+       "a": [
+        47,
+        38
+       ],
+       "b": [
+        56,
+        46
+       ],
+       "episodes": 6,
+       "r12_on": 19.1,
+       "r12_base": 9.8,
+       "good": true,
+       "anti": false
+      }
+     },
+     "good": [
+      "up12_deep",
+      "good_deep"
+     ]
+    },
+    {
+     "k": "cn_pb_hi",
+     "name": "🇨🇳 상해 PBR 비쌈(과거 상위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "thin": true,
+       "n": 4023,
+       "on": 0
+      },
+      "crash": {
+       "thin": true,
+       "n": 3897,
+       "on": 0
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_pb_lo",
+     "name": "🇨🇳 상해 PBR 쌈(과거 하위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 12,
+       "n": 3897,
+       "from": "2010-01-04",
+       "share": 57.2,
+       "p_on": 63,
+       "base": 52,
+       "lift": 1.21,
+       "a": [
+        78,
+        64
+       ],
+       "b": [
+        53,
+        40
+       ],
+       "episodes": 7,
+       "r12_on": 7.5,
+       "r12_base": 2.6,
+       "good": true,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 9,
+       "n": 833,
+       "from": "2011-08-09",
+       "share": 72.4,
+       "p_on": 71,
+       "base": 68,
+       "lift": 1.05,
+       "a": [
+        98,
+        94
+       ],
+       "b": [
+        49,
+        41
+       ],
+       "episodes": 5,
+       "r12_on": 11.3,
+       "r12_base": 8.1,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 12,
+       "n": 4023,
+       "from": "2010-01-04",
+       "share": 55.4,
+       "p_on": 52,
+       "base": 46,
+       "lift": 1.12,
+       "a": [
+        64,
+        57
+       ],
+       "b": [
+        43,
+        36
+       ],
+       "episodes": 7,
+       "r12_on": 7.5,
+       "r12_base": 2.6,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 9,
+       "n": 833,
+       "from": "2011-08-09",
+       "share": 72.4,
+       "p_on": 58,
+       "base": 47,
+       "lift": 1.23,
+       "a": [
+        93,
+        69
+       ],
+       "b": [
+        31,
+        25
+       ],
+       "episodes": 5,
+       "r12_on": 11.3,
+       "r12_base": 8.1,
+       "good": true,
+       "anti": false
+      }
+     },
+     "good": [
+      "up12",
+      "good_deep"
+     ]
+    },
+    {
+     "k": "cn_ebs_lo",
+     "name": "🇨🇳 주식−채권 금리차 낮음(주식 비쌈 · 하위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "thin": true,
+       "n": 4180,
+       "on": 0
+      },
+      "crash": {
+       "thin": true,
+       "n": 4054,
+       "on": 0
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_ebs_hi",
+     "name": "🇨🇳 주식−채권 금리차 높음(주식 쌈 · 상위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 12,
+       "n": 4054,
+       "from": "2009-05-20",
+       "share": 39.0,
+       "p_on": 72,
+       "base": 54,
+       "lift": 1.32,
+       "a": [
+        77,
+        69
+       ],
+       "b": [
+        66,
+        39
+       ],
+       "episodes": 40,
+       "r12_on": 9.9,
+       "r12_base": 2.7,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 9,
+       "n": 872,
+       "from": "2009-05-20",
+       "share": 54.7,
+       "p_on": 74,
+       "base": 69,
+       "lift": 1.07,
+       "a": [
+        96,
+        97
+       ],
+       "b": [
+        60,
+        41
+       ],
+       "episodes": 15,
+       "r12_on": 12.1,
+       "r12_base": 8.3,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 12,
+       "n": 4180,
+       "from": "2009-05-20",
+       "share": 37.9,
+       "p_on": 55,
+       "base": 46,
+       "lift": 1.2,
+       "a": [
+        57,
+        57
+       ],
+       "b": [
+        54,
+        36
+       ],
+       "episodes": 40,
+       "r12_on": 9.9,
+       "r12_base": 2.7,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 9,
+       "n": 872,
+       "from": "2009-05-20",
+       "share": 54.7,
+       "p_on": 54,
+       "base": 49,
+       "lift": 1.09,
+       "a": [
+        78,
+        72
+       ],
+       "b": [
+        38,
+        26
+       ],
+       "episodes": 15,
+       "r12_on": 12.1,
+       "r12_base": 8.3,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "hk_south_buy",
+     "name": "🇭🇰 남향(본토) 자금 20일 순매수 강함(상위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 9,
+       "n": 2134,
+       "from": "2017-03-01",
+       "share": 43.3,
+       "p_on": 55,
+       "base": 42,
+       "lift": 1.3,
+       "a": [
+        43,
+        38
+       ],
+       "b": [
+        67,
+        47
+       ],
+       "episodes": 35,
+       "r12_on": 5.3,
+       "r12_base": 0.8,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 521,
+       "on": 140
+      },
+      "good": {
+       "years": 10,
+       "n": 2260,
+       "from": "2017-03-01",
+       "share": 43.8,
+       "p_on": 53,
+       "base": 41,
+       "lift": 1.3,
+       "a": [
+        52,
+        45
+       ],
+       "b": [
+        54,
+        37
+       ],
+       "episodes": 41,
+       "r12_on": 5.3,
+       "r12_base": 0.8,
+       "good": true,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 521,
+       "on": 140
+      }
+     },
+     "good": [
+      "good"
+     ]
+    },
+    {
+     "k": "hk_south_sell",
+     "name": "🇭🇰 남향(본토) 자금 20일 순매도 심함(하위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 6,
+       "n": 2260,
+       "from": "2017-03-01",
+       "share": 9.5,
+       "p_on": 86,
+       "base": 52,
+       "lift": 1.66,
+       "a": [
+        85,
+        48
+       ],
+       "b": null,
+       "episodes": 14,
+       "r12_on": -12.9,
+       "r12_base": 0.8,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 6,
+       "n": 2134,
+       "from": "2017-03-01",
+       "share": 10.0,
+       "p_on": 54,
+       "base": 36,
+       "lift": 1.52,
+       "a": [
+        24,
+        29
+       ],
+       "b": [
+        98,
+        42
+       ],
+       "episodes": 14,
+       "r12_on": -12.9,
+       "r12_base": 0.8,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    }
+   ]
+  },
+  {
+   "key": "hscei",
+   "name": "항셍 H주",
+   "nat": "hk",
+   "asof": "2026-11-10",
+   "dd": -13.9,
+   "x5": {
+    "gap": 10.9,
+    "pct": 67
+   },
+   "signals": [
+    {
+     "k": "x_hi5",
+     "name": "5년 평균선보다 많이 위(자기 과거 상위 10%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 7,
+       "n": 5935,
+       "from": "2002-04-12",
+       "share": 16.0,
+       "p_on": 40,
+       "base": 46,
+       "lift": 0.87,
+       "a": [
+        40,
+        44
+       ],
+       "b": null,
+       "episodes": 26,
+       "r12_on": 32.9,
+       "r12_base": 11.4,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 7,
+       "n": 5809,
+       "from": "2002-04-12",
+       "share": 16.4,
+       "p_on": 21,
+       "base": 31,
+       "lift": 0.67,
+       "a": [
+        21,
+        26
+       ],
+       "b": null,
+       "episodes": 26,
+       "r12_on": 32.9,
+       "r12_base": 11.4,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "x_lo5",
+     "name": "5년 평균선보다 많이 아래(자기 과거 하위 15%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 3,
+       "n": 5809,
+       "from": "2002-04-12",
+       "share": 6.7,
+       "p_on": 49,
+       "base": 56,
+       "lift": 0.87,
+       "a": null,
+       "b": [
+        49,
+        43
+       ],
+       "episodes": 25,
+       "r12_on": 8.4,
+       "r12_base": 11.4,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 3,
+       "n": 1605,
+       "from": "2002-10-07",
+       "share": 19.2,
+       "p_on": 48,
+       "base": 55,
+       "lift": 0.88,
+       "a": null,
+       "b": [
+        48,
+        47
+       ],
+       "episodes": 9,
+       "r12_on": 7.2,
+       "r12_base": 6.3,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 3,
+       "n": 5935,
+       "from": "2002-04-12",
+       "share": 6.6,
+       "p_on": 25,
+       "base": 48,
+       "lift": 0.52,
+       "a": null,
+       "b": [
+        25,
+        45
+       ],
+       "episodes": 25,
+       "r12_on": 8.4,
+       "r12_base": 11.4,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 3,
+       "n": 1605,
+       "from": "2002-10-07",
+       "share": 19.2,
+       "p_on": 23,
+       "base": 39,
+       "lift": 0.58,
+       "a": null,
+       "b": [
+        23,
+        38
+       ],
+       "episodes": 9,
+       "r12_on": 7.2,
+       "r12_base": 6.3,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "g_cape_hi",
+     "name": "🇺🇸 CAPE 비쌈(과거 상위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 23,
+       "n": 8093,
+       "from": "1993-07-15",
+       "share": 45.7,
+       "p_on": 57,
+       "base": 51,
+       "lift": 1.11,
+       "a": [
+        64,
+        52
+       ],
+       "b": [
+        49,
+        49
+       ],
+       "episodes": 14,
+       "r12_on": -1.7,
+       "r12_base": 6.8,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 22,
+       "n": 7967,
+       "from": "1993-07-15",
+       "share": 44.8,
+       "p_on": 46,
+       "base": 39,
+       "lift": 1.16,
+       "a": [
+        54,
+        43
+       ],
+       "b": [
+        37,
+        36
+       ],
+       "episodes": 14,
+       "r12_on": -1.7,
+       "r12_base": 6.8,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "g_aaii_fear",
+     "name": "🇺🇸 개인 심리 겁먹음(낙관−비관 4주 −15%p↓)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 19,
+       "n": 7967,
+       "from": "1993-07-15",
+       "share": 8.1,
+       "p_on": 46,
+       "base": 53,
+       "lift": 0.87,
+       "a": [
+        64,
+        61
+       ],
+       "b": [
+        35,
+        44
+       ],
+       "episodes": 33,
+       "r12_on": 10.4,
+       "r12_base": 6.8,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 12,
+       "n": 3119,
+       "from": "1994-01-13",
+       "share": 11.7,
+       "p_on": 41,
+       "base": 52,
+       "lift": 0.79,
+       "a": null,
+       "b": [
+        41,
+        53
+       ],
+       "episodes": 19,
+       "r12_on": 4.7,
+       "r12_base": 2.5,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 20,
+       "n": 8093,
+       "from": "1993-07-15",
+       "share": 8.1,
+       "p_on": 40,
+       "base": 43,
+       "lift": 0.93,
+       "a": [
+        44,
+        44
+       ],
+       "b": [
+        38,
+        43
+       ],
+       "episodes": 34,
+       "r12_on": 10.4,
+       "r12_base": 6.8,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 12,
+       "n": 3119,
+       "from": "1994-01-13",
+       "share": 11.7,
+       "p_on": 26,
+       "base": 34,
+       "lift": 0.76,
+       "a": null,
+       "b": [
+        26,
+        39
+       ],
+       "episodes": 19,
+       "r12_on": 4.7,
+       "r12_base": 2.5,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "fx_up",
+     "name": "위안 약세(달러/위안 3개월 +2%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 12,
+       "n": 6011,
+       "from": "2001-12-14",
+       "share": 12.2,
+       "p_on": 45,
+       "base": 46,
+       "lift": 0.98,
+       "a": null,
+       "b": [
+        45,
+        48
+       ],
+       "episodes": 53,
+       "r12_on": 5.6,
+       "r12_base": 11.4,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 12,
+       "n": 5885,
+       "from": "2001-12-14",
+       "share": 12.4,
+       "p_on": 35,
+       "base": 31,
+       "lift": 1.15,
+       "a": null,
+       "b": [
+        35,
+        36
+       ],
+       "episodes": 53,
+       "r12_on": 5.6,
+       "r12_base": 11.4,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "fx_dn",
+     "name": "위안 강세(달러/위안 3개월 −2%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 16,
+       "n": 5885,
+       "from": "2001-12-14",
+       "share": 12.0,
+       "p_on": 23,
+       "base": 56,
+       "lift": 0.41,
+       "a": [
+        26,
+        70
+       ],
+       "b": [
+        21,
+        43
+       ],
+       "episodes": 58,
+       "r12_on": -8.3,
+       "r12_base": 11.4,
+       "good": false,
+       "anti": true
+      },
+      "up12_deep": {
+       "years": 8,
+       "n": 1664,
+       "from": "2001-12-14",
+       "share": 12.9,
+       "p_on": 23,
+       "base": 56,
+       "lift": 0.4,
+       "a": [
+        3,
+        67
+       ],
+       "b": [
+        68,
+        45
+       ],
+       "episodes": 20,
+       "r12_on": -14.9,
+       "r12_base": 6.6,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 17,
+       "n": 6011,
+       "from": "2001-12-14",
+       "share": 12.7,
+       "p_on": 33,
+       "base": 48,
+       "lift": 0.7,
+       "a": [
+        22,
+        50
+       ],
+       "b": [
+        40,
+        45
+       ],
+       "episodes": 63,
+       "r12_on": -8.3,
+       "r12_base": 11.4,
+       "good": false,
+       "anti": true
+      },
+      "good_deep": {
+       "years": 8,
+       "n": 1664,
+       "from": "2001-12-14",
+       "share": 12.9,
+       "p_on": 15,
+       "base": 40,
+       "lift": 0.38,
+       "a": [
+        2,
+        44
+       ],
+       "b": [
+        46,
+        36
+       ],
+       "episodes": 20,
+       "r12_on": -14.9,
+       "r12_base": 6.6,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "hkd_weak",
+     "name": "홍콩달러 약세 한계선 근처(7.84↑ · 돈이 빠져나감)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 6,
+       "n": 6116,
+       "from": "2001-07-16",
+       "share": 8.9,
+       "p_on": 65,
+       "base": 46,
+       "lift": 1.42,
+       "a": null,
+       "b": [
+        65,
+        48
+       ],
+       "episodes": 22,
+       "r12_on": -6.6,
+       "r12_base": 11.3,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 6,
+       "n": 5990,
+       "from": "2001-07-16",
+       "share": 9.0,
+       "p_on": 44,
+       "base": 31,
+       "lift": 1.46,
+       "a": null,
+       "b": [
+        45,
+        36
+       ],
+       "episodes": 22,
+       "r12_on": -6.6,
+       "r12_base": 11.3,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_pe_hi",
+     "name": "🇨🇳 상해 PER 비쌈(과거 상위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "thin": true,
+       "n": 5506,
+       "on": 147
+      },
+      "crash": {
+       "thin": true,
+       "n": 5380,
+       "on": 147
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_pe_lo",
+     "name": "🇨🇳 상해 PER 쌈(과거 하위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 17,
+       "n": 5380,
+       "from": "2004-01-02",
+       "share": 52.7,
+       "p_on": 66,
+       "base": 52,
+       "lift": 1.26,
+       "a": [
+        74,
+        64
+       ],
+       "b": [
+        52,
+        41
+       ],
+       "episodes": 12,
+       "r12_on": 18.0,
+       "r12_base": 7.1,
+       "good": true,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 15,
+       "n": 1599,
+       "from": "2004-04-21",
+       "share": 64.9,
+       "p_on": 72,
+       "base": 55,
+       "lift": 1.32,
+       "a": [
+        81,
+        62
+       ],
+       "b": [
+        62,
+        47
+       ],
+       "episodes": 9,
+       "r12_on": 17.1,
+       "r12_base": 5.9,
+       "good": true,
+       "anti": false
+      },
+      "good": {
+       "years": 17,
+       "n": 5506,
+       "from": "2004-01-02",
+       "share": 51.5,
+       "p_on": 57,
+       "base": 46,
+       "lift": 1.23,
+       "a": [
+        62,
+        50
+       ],
+       "b": [
+        47,
+        42
+       ],
+       "episodes": 12,
+       "r12_on": 18.0,
+       "r12_base": 7.1,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 15,
+       "n": 1599,
+       "from": "2004-04-21",
+       "share": 64.9,
+       "p_on": 54,
+       "base": 39,
+       "lift": 1.38,
+       "a": [
+        55,
+        41
+       ],
+       "b": [
+        53,
+        38
+       ],
+       "episodes": 9,
+       "r12_on": 17.1,
+       "r12_base": 5.9,
+       "good": true,
+       "anti": false
+      }
+     },
+     "good": [
+      "up12",
+      "up12_deep",
+      "good_deep"
+     ]
+    },
+    {
+     "k": "cn_pb_hi",
+     "name": "🇨🇳 상해 PBR 비쌈(과거 상위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "thin": true,
+       "n": 4023,
+       "on": 0
+      },
+      "crash": {
+       "thin": true,
+       "n": 3897,
+       "on": 0
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_pb_lo",
+     "name": "🇨🇳 상해 PBR 쌈(과거 하위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 12,
+       "n": 3897,
+       "from": "2010-01-04",
+       "share": 57.2,
+       "p_on": 56,
+       "base": 44,
+       "lift": 1.28,
+       "a": [
+        64,
+        53
+       ],
+       "b": [
+        51,
+        35
+       ],
+       "episodes": 7,
+       "r12_on": 6.7,
+       "r12_base": -0.4,
+       "good": true,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 12,
+       "n": 1149,
+       "from": "2010-02-08",
+       "share": 68.9,
+       "p_on": 64,
+       "base": 51,
+       "lift": 1.26,
+       "a": [
+        79,
+        64
+       ],
+       "b": [
+        50,
+        37
+       ],
+       "episodes": 6,
+       "r12_on": 7.8,
+       "r12_base": 2.0,
+       "good": true,
+       "anti": false
+      },
+      "good": {
+       "years": 12,
+       "n": 4023,
+       "from": "2010-01-04",
+       "share": 55.4,
+       "p_on": 50,
+       "base": 43,
+       "lift": 1.16,
+       "a": [
+        59,
+        52
+       ],
+       "b": [
+        44,
+        34
+       ],
+       "episodes": 7,
+       "r12_on": 6.7,
+       "r12_base": -0.4,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 12,
+       "n": 1149,
+       "from": "2010-02-08",
+       "share": 68.9,
+       "p_on": 51,
+       "base": 38,
+       "lift": 1.34,
+       "a": [
+        72,
+        52
+       ],
+       "b": [
+        33,
+        25
+       ],
+       "episodes": 6,
+       "r12_on": 7.8,
+       "r12_base": 2.0,
+       "good": true,
+       "anti": false
+      }
+     },
+     "good": [
+      "up12",
+      "up12_deep",
+      "good_deep"
+     ]
+    },
+    {
+     "k": "cn_ebs_lo",
+     "name": "🇨🇳 주식−채권 금리차 낮음(주식 비쌈 · 하위 20%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "thin": true,
+       "n": 4180,
+       "on": 0
+      },
+      "crash": {
+       "thin": true,
+       "n": 4054,
+       "on": 0
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "cn_ebs_hi",
+     "name": "🇨🇳 주식−채권 금리차 높음(주식 쌈 · 상위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 12,
+       "n": 4054,
+       "from": "2009-05-20",
+       "share": 39.0,
+       "p_on": 61,
+       "base": 45,
+       "lift": 1.37,
+       "a": [
+        59,
+        56
+       ],
+       "b": [
+        63,
+        34
+       ],
+       "episodes": 40,
+       "r12_on": 8.9,
+       "r12_base": -0.2,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 12,
+       "n": 1168,
+       "from": "2009-05-20",
+       "share": 51.7,
+       "p_on": 65,
+       "base": 51,
+       "lift": 1.27,
+       "a": [
+        73,
+        66
+       ],
+       "b": [
+        59,
+        37
+       ],
+       "episodes": 17,
+       "r12_on": 8.5,
+       "r12_base": 2.1,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 12,
+       "n": 4180,
+       "from": "2009-05-20",
+       "share": 37.9,
+       "p_on": 50,
+       "base": 43,
+       "lift": 1.16,
+       "a": [
+        51,
+        52
+       ],
+       "b": [
+        49,
+        34
+       ],
+       "episodes": 40,
+       "r12_on": 8.9,
+       "r12_base": -0.2,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 12,
+       "n": 1168,
+       "from": "2009-05-20",
+       "share": 51.7,
+       "p_on": 44,
+       "base": 39,
+       "lift": 1.13,
+       "a": [
+        55,
+        53
+       ],
+       "b": [
+        35,
+        26
+       ],
+       "episodes": 17,
+       "r12_on": 8.5,
+       "r12_base": 2.1,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "hk_south_buy",
+     "name": "🇭🇰 남향(본토) 자금 20일 순매수 강함(상위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-10",
+     "t": {
+      "up12": {
+       "years": 9,
+       "n": 2134,
+       "from": "2017-03-01",
+       "share": 43.3,
+       "p_on": 43,
+       "base": 37,
+       "lift": 1.17,
+       "a": [
+        30,
+        31
+       ],
+       "b": [
+        56,
+        43
+       ],
+       "episodes": 35,
+       "r12_on": 1.5,
+       "r12_base": -1.1,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 627,
+       "on": 111
+      },
+      "good": {
+       "years": 10,
+       "n": 2260,
+       "from": "2017-03-01",
+       "share": 43.8,
+       "p_on": 46,
+       "base": 39,
+       "lift": 1.19,
+       "a": [
+        47,
+        46
+       ],
+       "b": [
+        46,
+        32
+       ],
+       "episodes": 41,
+       "r12_on": 1.5,
+       "r12_base": -1.1,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 627,
+       "on": 111
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "hk_south_sell",
+     "name": "🇭🇰 남향(본토) 자금 20일 순매도 심함(하위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-10",
+     "t": {
+      "down": {
+       "years": 6,
+       "n": 2260,
+       "from": "2017-03-01",
+       "share": 9.5,
+       "p_on": 72,
+       "base": 53,
+       "lift": 1.35,
+       "a": [
+        69,
+        45
+       ],
+       "b": null,
+       "episodes": 14,
+       "r12_on": -14.8,
+       "r12_base": -1.1,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 6,
+       "n": 2134,
+       "from": "2017-03-01",
+       "share": 10.0,
+       "p_on": 50,
+       "base": 38,
+       "lift": 1.29,
+       "a": [
+        17,
+        31
+       ],
+       "b": [
+        98,
+        46
+       ],
+       "episodes": 14,
+       "r12_on": -14.8,
+       "r12_base": -1.1,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    }
+   ]
+  },
+  {
+   "key": "sp500",
+   "name": "S&P500",
+   "nat": "us",
+   "asof": "2026-11-11",
+   "dd": -2.6,
+   "x5": {
+    "gap": 41.3,
+    "pct": 83
+   },
+   "signals": [
+    {
+     "k": "x_hi5",
+     "name": "5년 평균선보다 많이 위(자기 과거 상위 10%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "down": {
+       "years": 7,
+       "n": 8263,
+       "from": "1993-07-16",
+       "share": 12.2,
+       "p_on": 16,
+       "base": 24,
+       "lift": 0.67,
+       "a": [
+        13,
+        26
+       ],
+       "b": [
+        32,
+        22
+       ],
+       "episodes": 34,
+       "r12_on": 18.3,
+       "r12_base": 10.3,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 7,
+       "n": 8137,
+       "from": "1993-07-16",
+       "share": 12.4,
+       "p_on": 5,
+       "base": 15,
+       "lift": 0.32,
+       "a": [
+        0,
+        22
+       ],
+       "b": [
+        38,
+        8
+       ],
+       "episodes": 34,
+       "r12_on": 18.3,
+       "r12_base": 10.3,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "x_lo5",
+     "name": "5년 평균선보다 많이 아래(자기 과거 하위 15%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "up12": {
+       "years": 11,
+       "n": 8137,
+       "from": "1993-07-16",
+       "share": 17.3,
+       "p_on": 75,
+       "base": 79,
+       "lift": 0.95,
+       "a": [
+        71,
+        71
+       ],
+       "b": [
+        100,
+        87
+       ],
+       "episodes": 42,
+       "r12_on": 9.3,
+       "r12_base": 10.3,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 655,
+       "on": 581
+      },
+      "good": {
+       "years": 11,
+       "n": 8263,
+       "from": "1993-07-16",
+       "share": 17.1,
+       "p_on": 55,
+       "base": 69,
+       "lift": 0.81,
+       "a": [
+        53,
+        63
+       ],
+       "b": [
+        74,
+        74
+       ],
+       "episodes": 42,
+       "r12_on": 9.3,
+       "r12_base": 10.3,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 655,
+       "on": 581
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "us_cape_hi",
+     "name": "🇺🇸 CAPE(10년 평균 이익 대비 주가) 비쌈(과거 상위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-11",
+     "t": {
+      "down": {
+       "years": 23,
+       "n": 10421,
+       "from": "1985-01-02",
+       "share": 36.3,
+       "p_on": 29,
+       "base": 21,
+       "lift": 1.38,
+       "a": [
+        32,
+        18
+       ],
+       "b": [
+        26,
+        24
+       ],
+       "episodes": 14,
+       "r12_on": 9.1,
+       "r12_base": 10.6,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 22,
+       "n": 10295,
+       "from": "1985-01-02",
+       "share": 35.5,
+       "p_on": 23,
+       "base": 13,
+       "lift": 1.69,
+       "a": [
+        29,
+        14
+       ],
+       "b": [
+        16,
+        13
+       ],
+       "episodes": 14,
+       "r12_on": 9.1,
+       "r12_base": 10.6,
+       "good": true,
+       "anti": false
+      }
+     },
+     "good": [
+      "crash"
+     ]
+    },
+    {
+     "k": "us_cape_lo",
+     "name": "🇺🇸 CAPE(10년 평균 이익 대비 주가) 쌈(과거 하위 30%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "up12": {
+       "years": 2,
+       "n": 10295,
+       "from": "1985-01-02",
+       "share": 2.4,
+       "p_on": 100,
+       "base": 80,
+       "lift": 1.25,
+       "a": [
+        100,
+        79
+       ],
+       "b": null,
+       "episodes": 2,
+       "r12_on": 28.3,
+       "r12_base": 10.6,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 837,
+       "on": 21
+      },
+      "good": {
+       "years": 2,
+       "n": 10421,
+       "from": "1985-01-02",
+       "share": 2.4,
+       "p_on": 100,
+       "base": 71,
+       "lift": 1.41,
+       "a": [
+        100,
+        72
+       ],
+       "b": null,
+       "episodes": 2,
+       "r12_on": 28.3,
+       "r12_base": 10.6,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 837,
+       "on": 21
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "us_pe_hi",
+     "name": "🇺🇸 PER 비쌈(과거 상위 10%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "down": {
+       "years": 20,
+       "n": 10421,
+       "from": "1985-01-02",
+       "share": 35.1,
+       "p_on": 31,
+       "base": 21,
+       "lift": 1.45,
+       "a": [
+        32,
+        18
+       ],
+       "b": [
+        28,
+        24
+       ],
+       "episodes": 12,
+       "r12_on": 7.8,
+       "r12_base": 10.6,
+       "good": true,
+       "anti": false
+      },
+      "crash": {
+       "years": 19,
+       "n": 10295,
+       "from": "1985-01-02",
+       "share": 34.8,
+       "p_on": 24,
+       "base": 13,
+       "lift": 1.76,
+       "a": [
+        27,
+        14
+       ],
+       "b": [
+        15,
+        13
+       ],
+       "episodes": 12,
+       "r12_on": 7.8,
+       "r12_base": 10.6,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": [
+      "down"
+     ]
+    },
+    {
+     "k": "us_pe_lo",
+     "name": "🇺🇸 PER 쌈(과거 하위 30%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "up12": {
+       "thin": true,
+       "n": 10295,
+       "on": 22
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 837,
+       "on": 0
+      },
+      "good": {
+       "thin": true,
+       "n": 10421,
+       "on": 22
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 837,
+       "on": 0
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "us_erp_lo",
+     "name": "🇺🇸 주식 이익수익률 − 국채 금리가 낮음(하위 10%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "down": {
+       "years": 8,
+       "n": 9146,
+       "from": "1990-01-18",
+       "share": 2.8,
+       "p_on": 15,
+       "base": 23,
+       "lift": 0.67,
+       "a": [
+        17,
+        20
+       ],
+       "b": null,
+       "episodes": 33,
+       "r12_on": 1.7,
+       "r12_base": 10.2,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 8,
+       "n": 9020,
+       "from": "1990-01-18",
+       "share": 2.9,
+       "p_on": 17,
+       "base": 13,
+       "lift": 1.28,
+       "a": [
+        19,
+        13
+       ],
+       "b": null,
+       "episodes": 33,
+       "r12_on": 1.7,
+       "r12_base": 10.2,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "us_erp_hi",
+     "name": "🇺🇸 주식 이익수익률 − 국채 금리가 높음(상위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "up12": {
+       "years": 27,
+       "n": 9020,
+       "from": "1990-01-18",
+       "share": 47.4,
+       "p_on": 82,
+       "base": 81,
+       "lift": 1.01,
+       "a": [
+        84,
+        78
+       ],
+       "b": [
+        80,
+        83
+       ],
+       "episodes": 47,
+       "r12_on": 9.8,
+       "r12_base": 10.2,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 655,
+       "on": 222
+      },
+      "good": {
+       "years": 27,
+       "n": 9146,
+       "from": "1990-01-18",
+       "share": 46.7,
+       "p_on": 72,
+       "base": 70,
+       "lift": 1.03,
+       "a": [
+        74,
+        68
+       ],
+       "b": [
+        70,
+        71
+       ],
+       "episodes": 47,
+       "r12_on": 9.8,
+       "r12_base": 10.2,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 655,
+       "on": 222
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "us_aaii_euph",
+     "name": "🇺🇸 개인 심리 들뜸(낙관−비관 4주 +25%p↑)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "down": {
+       "years": 26,
+       "n": 9759,
+       "from": "1987-08-17",
+       "share": 10.4,
+       "p_on": 22,
+       "base": 22,
+       "lift": 1.03,
+       "a": [
+        26,
+        17
+       ],
+       "b": [
+        1,
+        26
+       ],
+       "episodes": 52,
+       "r12_on": 4.4,
+       "r12_base": 10.3,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 26,
+       "n": 9633,
+       "from": "1987-08-17",
+       "share": 10.6,
+       "p_on": 22,
+       "base": 13,
+       "lift": 1.67,
+       "a": [
+        25,
+        12
+       ],
+       "b": [
+        0,
+        14
+       ],
+       "episodes": 52,
+       "r12_on": 4.4,
+       "r12_base": 10.3,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "us_aaii_fear",
+     "name": "🇺🇸 개인 심리 겁먹음(낙관−비관 4주 −15%p↓)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "up12": {
+       "years": 23,
+       "n": 9633,
+       "from": "1987-08-17",
+       "share": 9.1,
+       "p_on": 82,
+       "base": 80,
+       "lift": 1.02,
+       "a": [
+        99,
+        81
+       ],
+       "b": [
+        74,
+        80
+       ],
+       "episodes": 40,
+       "r12_on": 14.1,
+       "r12_base": 10.3,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 7,
+       "n": 837,
+       "from": "1987-10-19",
+       "share": 22.5,
+       "p_on": 90,
+       "base": 82,
+       "lift": 1.1,
+       "a": null,
+       "b": [
+        89,
+        93
+       ],
+       "episodes": 9,
+       "r12_on": 22.9,
+       "r12_base": 15.5,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 24,
+       "n": 9759,
+       "from": "1987-08-17",
+       "share": 9.1,
+       "p_on": 67,
+       "base": 70,
+       "lift": 0.96,
+       "a": [
+        88,
+        72
+       ],
+       "b": [
+        57,
+        69
+       ],
+       "episodes": 41,
+       "r12_on": 14.1,
+       "r12_base": 10.3,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 7,
+       "n": 837,
+       "from": "1987-10-19",
+       "share": 22.5,
+       "p_on": 65,
+       "base": 59,
+       "lift": 1.11,
+       "a": null,
+       "b": [
+        67,
+        64
+       ],
+       "episodes": 9,
+       "r12_on": 22.9,
+       "r12_base": 15.5,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    }
+   ]
+  },
+  {
+   "key": "nasdaq",
+   "name": "나스닥",
+   "nat": "us",
+   "asof": "2026-11-11",
+   "dd": -7.7,
+   "x5": {
+    "gap": 47.0,
+    "pct": 74
+   },
+   "signals": [
+    {
+     "k": "x_hi5",
+     "name": "5년 평균선보다 많이 위(자기 과거 상위 10%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "down": {
+       "years": 11,
+       "n": 8263,
+       "from": "1993-07-16",
+       "share": 18.1,
+       "p_on": 35,
+       "base": 32,
+       "lift": 1.09,
+       "a": [
+        37,
+        38
+       ],
+       "b": [
+        26,
+        26
+       ],
+       "episodes": 55,
+       "r12_on": 12.3,
+       "r12_base": 14.5,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 11,
+       "n": 8137,
+       "from": "1993-07-16",
+       "share": 18.4,
+       "p_on": 27,
+       "base": 18,
+       "lift": 1.49,
+       "a": [
+        24,
+        26
+       ],
+       "b": [
+        39,
+        10
+       ],
+       "episodes": 55,
+       "r12_on": 12.3,
+       "r12_base": 14.5,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "x_lo5",
+     "name": "5년 평균선보다 많이 아래(자기 과거 하위 15%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "up12": {
+       "years": 7,
+       "n": 8137,
+       "from": "1993-07-16",
+       "share": 12.0,
+       "p_on": 65,
+       "base": 78,
+       "lift": 0.83,
+       "a": [
+        65,
+        69
+       ],
+       "b": null,
+       "episodes": 15,
+       "r12_on": 12.0,
+       "r12_base": 14.5,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 6,
+       "n": 1229,
+       "from": "1998-08-31",
+       "share": 58.9,
+       "p_on": 56,
+       "base": 54,
+       "lift": 1.02,
+       "a": [
+        24,
+        19
+       ],
+       "b": [
+        100,
+        90
+       ],
+       "episodes": 7,
+       "r12_on": 12.8,
+       "r12_base": 7.2,
+       "good": true,
+       "anti": false
+      },
+      "good": {
+       "years": 7,
+       "n": 8263,
+       "from": "1993-07-16",
+       "share": 11.8,
+       "p_on": 47,
+       "base": 62,
+       "lift": 0.75,
+       "a": [
+        47,
+        56
+       ],
+       "b": null,
+       "episodes": 15,
+       "r12_on": 12.0,
+       "r12_base": 14.5,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 6,
+       "n": 1229,
+       "from": "1998-08-31",
+       "share": 58.9,
+       "p_on": 33,
+       "base": 34,
+       "lift": 0.96,
+       "a": [
+        12,
+        11
+       ],
+       "b": [
+        62,
+        58
+       ],
+       "episodes": 7,
+       "r12_on": 12.8,
+       "r12_base": 7.2,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": [
+      "up12_deep"
+     ]
+    },
+    {
+     "k": "us_cape_hi",
+     "name": "🇺🇸 CAPE(10년 평균 이익 대비 주가) 비쌈(과거 상위 10%)",
+     "side": "W",
+     "now": true,
+     "asof": "2026-11-11",
+     "t": {
+      "down": {
+       "years": 23,
+       "n": 10421,
+       "from": "1985-01-02",
+       "share": 36.3,
+       "p_on": 41,
+       "base": 30,
+       "lift": 1.37,
+       "a": [
+        49,
+        31
+       ],
+       "b": [
+        33,
+        29
+       ],
+       "episodes": 14,
+       "r12_on": 12.7,
+       "r12_base": 14.2,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 22,
+       "n": 10295,
+       "from": "1985-01-02",
+       "share": 35.5,
+       "p_on": 31,
+       "base": 19,
+       "lift": 1.69,
+       "a": [
+        40,
+        23
+       ],
+       "b": [
+        22,
+        14
+       ],
+       "episodes": 14,
+       "r12_on": 12.7,
+       "r12_base": 14.2,
+       "good": true,
+       "anti": false
+      }
+     },
+     "good": [
+      "crash"
+     ]
+    },
+    {
+     "k": "us_cape_lo",
+     "name": "🇺🇸 CAPE(10년 평균 이익 대비 주가) 쌈(과거 하위 30%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "up12": {
+       "years": 2,
+       "n": 10295,
+       "from": "1985-01-02",
+       "share": 2.4,
+       "p_on": 100,
+       "base": 79,
+       "lift": 1.27,
+       "a": [
+        100,
+        77
+       ],
+       "b": null,
+       "episodes": 2,
+       "r12_on": 30.0,
+       "r12_base": 14.2,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 1424,
+       "on": 21
+      },
+      "good": {
+       "years": 2,
+       "n": 10421,
+       "from": "1985-01-02",
+       "share": 2.4,
+       "p_on": 98,
+       "base": 64,
+       "lift": 1.53,
+       "a": [
+        98,
+        63
+       ],
+       "b": null,
+       "episodes": 2,
+       "r12_on": 30.0,
+       "r12_base": 14.2,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 1424,
+       "on": 21
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "us_pe_hi",
+     "name": "🇺🇸 PER 비쌈(과거 상위 10%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "down": {
+       "years": 20,
+       "n": 10421,
+       "from": "1985-01-02",
+       "share": 35.1,
+       "p_on": 41,
+       "base": 30,
+       "lift": 1.36,
+       "a": [
+        43,
+        31
+       ],
+       "b": [
+        35,
+        29
+       ],
+       "episodes": 12,
+       "r12_on": 13.6,
+       "r12_base": 14.2,
+       "good": true,
+       "anti": false
+      },
+      "crash": {
+       "years": 19,
+       "n": 10295,
+       "from": "1985-01-02",
+       "share": 34.8,
+       "p_on": 30,
+       "base": 19,
+       "lift": 1.64,
+       "a": [
+        35,
+        23
+       ],
+       "b": [
+        18,
+        14
+       ],
+       "episodes": 12,
+       "r12_on": 13.6,
+       "r12_base": 14.2,
+       "good": true,
+       "anti": false
+      }
+     },
+     "good": [
+      "down",
+      "crash"
+     ]
+    },
+    {
+     "k": "us_pe_lo",
+     "name": "🇺🇸 PER 쌈(과거 하위 30%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "up12": {
+       "thin": true,
+       "n": 10295,
+       "on": 22
+      },
+      "up12_deep": {
+       "thin": true,
+       "n": 1424,
+       "on": 0
+      },
+      "good": {
+       "thin": true,
+       "n": 10421,
+       "on": 22
+      },
+      "good_deep": {
+       "thin": true,
+       "n": 1424,
+       "on": 0
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "us_erp_lo",
+     "name": "🇺🇸 주식 이익수익률 − 국채 금리가 낮음(하위 10%)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "down": {
+       "years": 8,
+       "n": 9146,
+       "from": "1990-01-18",
+       "share": 2.8,
+       "p_on": 52,
+       "base": 31,
+       "lift": 1.66,
+       "a": [
+        57,
+        34
+       ],
+       "b": null,
+       "episodes": 33,
+       "r12_on": 0.7,
+       "r12_base": 15.1,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 8,
+       "n": 9020,
+       "from": "1990-01-18",
+       "share": 2.9,
+       "p_on": 35,
+       "base": 18,
+       "lift": 1.94,
+       "a": [
+        38,
+        21
+       ],
+       "b": null,
+       "episodes": 33,
+       "r12_on": 0.7,
+       "r12_base": 15.1,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "us_erp_hi",
+     "name": "🇺🇸 주식 이익수익률 − 국채 금리가 높음(상위 20%)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "up12": {
+       "years": 27,
+       "n": 9020,
+       "from": "1990-01-18",
+       "share": 47.4,
+       "p_on": 81,
+       "base": 80,
+       "lift": 1.01,
+       "a": [
+        79,
+        76
+       ],
+       "b": [
+        82,
+        84
+       ],
+       "episodes": 47,
+       "r12_on": 14.3,
+       "r12_base": 15.1,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 9,
+       "n": 1332,
+       "from": "1990-08-21",
+       "share": 19.2,
+       "p_on": 89,
+       "base": 58,
+       "lift": 1.53,
+       "a": null,
+       "b": [
+        88,
+        91
+       ],
+       "episodes": 15,
+       "r12_on": 40.7,
+       "r12_base": 10.6,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 27,
+       "n": 9146,
+       "from": "1990-01-18",
+       "share": 46.7,
+       "p_on": 68,
+       "base": 63,
+       "lift": 1.07,
+       "a": [
+        69,
+        60
+       ],
+       "b": [
+        67,
+        67
+       ],
+       "episodes": 47,
+       "r12_on": 14.3,
+       "r12_base": 15.1,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 9,
+       "n": 1332,
+       "from": "1990-08-21",
+       "share": 19.2,
+       "p_on": 65,
+       "base": 38,
+       "lift": 1.72,
+       "a": null,
+       "b": [
+        64,
+        57
+       ],
+       "episodes": 15,
+       "r12_on": 40.7,
+       "r12_base": 10.6,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "us_aaii_euph",
+     "name": "🇺🇸 개인 심리 들뜸(낙관−비관 4주 +25%p↑)",
+     "side": "W",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "down": {
+       "years": 26,
+       "n": 9759,
+       "from": "1987-08-17",
+       "share": 10.4,
+       "p_on": 39,
+       "base": 31,
+       "lift": 1.27,
+       "a": [
+        45,
+        32
+       ],
+       "b": [
+        0,
+        29
+       ],
+       "episodes": 52,
+       "r12_on": 1.8,
+       "r12_base": 14.4,
+       "good": false,
+       "anti": false
+      },
+      "crash": {
+       "years": 26,
+       "n": 9633,
+       "from": "1987-08-17",
+       "share": 10.6,
+       "p_on": 29,
+       "base": 18,
+       "lift": 1.6,
+       "a": [
+        34,
+        22
+       ],
+       "b": [
+        0,
+        15
+       ],
+       "episodes": 52,
+       "r12_on": 1.8,
+       "r12_base": 14.4,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    },
+    {
+     "k": "us_aaii_fear",
+     "name": "🇺🇸 개인 심리 겁먹음(낙관−비관 4주 −15%p↓)",
+     "side": "B",
+     "now": false,
+     "asof": "2026-11-11",
+     "t": {
+      "up12": {
+       "years": 23,
+       "n": 9633,
+       "from": "1987-08-17",
+       "share": 9.1,
+       "p_on": 83,
+       "base": 79,
+       "lift": 1.05,
+       "a": [
+        100,
+        79
+       ],
+       "b": [
+        75,
+        80
+       ],
+       "episodes": 40,
+       "r12_on": 24.2,
+       "r12_base": 14.4,
+       "good": false,
+       "anti": false
+      },
+      "up12_deep": {
+       "years": 11,
+       "n": 1424,
+       "from": "1987-10-19",
+       "share": 28.5,
+       "p_on": 89,
+       "base": 61,
+       "lift": 1.47,
+       "a": [
+        100,
+        30
+       ],
+       "b": [
+        86,
+        91
+       ],
+       "episodes": 17,
+       "r12_on": 31.7,
+       "r12_base": 11.0,
+       "good": false,
+       "anti": false
+      },
+      "good": {
+       "years": 24,
+       "n": 9759,
+       "from": "1987-08-17",
+       "share": 9.1,
+       "p_on": 63,
+       "base": 64,
+       "lift": 0.99,
+       "a": [
+        79,
+        62
+       ],
+       "b": [
+        56,
+        66
+       ],
+       "episodes": 41,
+       "r12_on": 24.2,
+       "r12_base": 14.4,
+       "good": false,
+       "anti": false
+      },
+      "good_deep": {
+       "years": 11,
+       "n": 1424,
+       "from": "1987-10-19",
+       "share": 28.5,
+       "p_on": 56,
+       "base": 41,
+       "lift": 1.37,
+       "a": [
+        78,
+        29
+       ],
+       "b": [
+        50,
+        53
+       ],
+       "episodes": 17,
+       "r12_on": 31.7,
+       "r12_base": 11.0,
+       "good": false,
+       "anti": false
+      }
+     },
+     "good": []
+    }
+   ]
+  }
+ ],
+ "n_tested": 128,
+ "n_good": 25
+}

@@ -1,5 +1,5 @@
 name: alt-data
-# 🧰 나라별 「시세 말고 다른 자료」 받기 (src/alt_fetch.py → market/lab/alt/) — 수동 · 스크립트 바뀔 때 · 매주 토요일
+# 🧰 나라별 「시세 말고 다른 자료」 받기(src/alt_fetch.py → market/lab/alt/) + 검증(src/alt_bt.py → market/alt.json) — 수동 · 평일 아침
 on:
   workflow_dispatch:
     inputs:
@@ -8,9 +8,9 @@ on:
         default: ""
   push:
     branches: [main]
-    paths: [.github/workflows/alt.yml]
+    paths: [.github/workflows/alt.yml, src/alt_bt.py]
   schedule:
-    - cron: "10 21 * * 5"   # KST 토 06:10
+    - cron: "40 22 * * 0-4"   # KST 월~금 07:40
 permissions:
   contents: write
 concurrency:
@@ -30,8 +30,9 @@ jobs:
         env:
           KRX_ID: ${{ secrets.KRX_ID }}
           KRX_PW: ${{ secrets.KRX_PW }}
+      - run: python src/alt_bt.py
       - name: 저장
         run: |
           git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
           git add -A market/lab/alt
-          bash scripts/push.sh "alt-data $(TZ=Asia/Seoul date '+%F %H:%M')" market/lab/alt
+          bash scripts/push.sh "alt-data $(TZ=Asia/Seoul date '+%F %H:%M')" market/lab/alt market/alt.json
