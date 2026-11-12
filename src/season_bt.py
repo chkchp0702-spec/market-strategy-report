@@ -184,7 +184,8 @@ def one(key, sym, name, nat, s):
 MN = {"hold": "그냥 들고 있기", "ma10": "10개월선 위면 주식 · 아래면 현금", "ma10h": "10개월선 아래면 절반만 현금", "mom12": "1년 전보다 높으면 주식 · 아니면 현금",
       "step2": "신호 2개 계단 (0·50·100)", "step3": "신호 3개 계단 (0·33·67·100)", "ddl": "고점 −10% 절반 · −20% 전부 현금", "floor": "하락장엔 현금 → 바닥 신호마다 3분의 1씩 담기",
       "deep": "10개월선 + 많이 싸면 절반은 들기", "hal": "11~4월 주식 · 5~10월엔 절반만", "hal0": "11~4월 주식 · 5~10월엔 현금",
-      "halma": "11~4월 주식 · 5~10월엔 10개월선 위일 때만 절반", "halma2": "11~4월 주식 · 5~10월엔 10개월선 위일 때만 주식", "season": "계절표 (월말)"}
+      "halma": "11~4월 주식 · 5~10월엔 10개월선 위일 때만 절반", "halma2": "11~4월 주식 · 5~10월엔 10개월선 위일 때만 주식",
+      "bear": "하락장(고점 −20%)이면 현금 · 풀리면 주식", "halbear": "11~4월이고 하락장이 아닐 때만 주식", "halbear2": "달력·하락장 판정 — 둘 다 좋으면 100 · 하나만 50 · 둘 다 나쁘면 0", "season": "계절표 (월말)"}
 
 
 def to_daily(sig_m, idx):
@@ -219,7 +220,7 @@ def methods(s, st, lr, stp, first):
     low60 = (s <= s.rolling(60, min_periods=20).min()).values
     since = s.rolling(60, min_periods=20).apply(lambda w: len(w) - 1 - int(np.argmin(w)), raw=True).values
     a20 = c > m20
-    w1 = np.ones(n); w2 = np.ones(n); cur1 = 1.0; bear = False; cur2 = 1.0
+    w1 = np.ones(n); w2 = np.ones(n); w3 = np.ones(n); cur1 = 1.0; bear = False; cur2 = 1.0; bear3 = False
     for i in range(1, n):
         if m200[i] != m200[i]:
             continue
@@ -237,8 +238,15 @@ def methods(s, st, lr, stp, first):
                 cur2 = max(cur2, t)
             if c[i] > m200[i] and dd[i] > -0.10:
                 bear, cur2 = False, 1.0
-        w1[i], w2[i] = cur1, cur2
+        # bear (어제 🐻 계기판 코스피 K100 과 같은 판정): −20% 면 전부 현금 · −10% 위 + 200일선 위면 풀림
+        if not bear3 and dd[i] <= -0.20: bear3 = True
+        elif bear3 and dd[i] > -0.10 and c[i] > m200[i]: bear3 = False
+        w1[i], w2[i], w3[i] = cur1, cur2, 0.0 if bear3 else 1.0
     W["ddl"] = np.roll(w1, 1); W["ddl"][0] = 1; W["floor"] = np.roll(w2, 1); W["floor"][0] = 1
+    # 4차(11/12 · 달력은 「지금 주식」, 어제 하락장 규칙은 「지금 현금」 으로 엇갈려서 — 둘을 겹쳐 봄)
+    W["bear"] = np.roll(w3, 1); W["bear"][0] = 1
+    W["halbear"] = np.minimum(W["hal0"], W["bear"])          # 둘 다 좋을 때만 주식
+    W["halbear2"] = (W["hal0"] + W["bear"]) / 2               # 둘 다 좋으면 100 · 하나만 50 · 둘 다 나쁘면 0
     # 월말 계절표(걸어가며)
     stm = pd.Series(st, index=idx).groupby([idx.year, idx.month]).last()
     sm = to_daily(stm.astype(float), idx).astype(int)   # 그날 걸리는 월말 계절
