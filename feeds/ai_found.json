@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "채권 금리, 2022년 이후 최대 급등 — 연준 추가 인상 기대 확산",
+   "url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195",
+   "press": "MarketWatch",
+   "at": "2026-11-13 07:45",
+   "why": "고금리 정점 가설 역풍 · 12/9 FOMC 분수령 · 해외 포트 채권형 칸",
+   "summary": "워시 의장의 조용한 소통 방식이 금리 변동성을 키웠다는 지적. 10년 5.1%대 마감(재무부 11/12 5.10%)."
+  },
+  {
+   "title": "앤스로픽 IPO, 약 6배 초과 청약",
+   "url": "https://www.iposcoop.com/?p=39729",
+   "press": "Bloomberg(보도)·IPO Scoop(공모 조건)",
+   "at": "2026-11-13 07:45",
+   "why": "AI 심리 시험대 — 엔비디아 CEO 사임에도 공모 수요 강함, 11/17 엔비디아 실적 뒤 상장",
+   "summary": "블룸버그 「공모 약 6배 초과 청약」(11/12). 공모 조건은 IPO Scoop 기준 약 610억 달러 규모."
+  },
+  {
    "title": "美 증시 엔비디아 하락에 약세 마감 — S&P −0.35%·10년 5.125%·브렌트 96.10",
    "url": "https://www.tipranks.com/news/u-s-market-ends-lower-as-nvidias-stock-falls",
    "press": "TipRanks",
@@ -623,22 +639,6 @@
    "at": "2026-11-11 10:45",
    "why": "AI 안에서도 갈린다 — 「계약(현금흐름)이 붙은 빚」은 투자등급, 붙지 않은 빚은 비싸짐 → 네오클라우드 중 수요 확인된 쪽만 남는 근거",
    "summary": "3/31 메타 계약을 담보로 85억 달러 GPU 대출, 투자등급 · 같은 회사도 담보 유무로 금리가 크게 갈림"
-  },
-  {
-   "title": "한국 10월 수출 1,153억 달러 — 반도체 사상 최대 판매",
-   "url": "https://www.koreatimes.co.kr/economy/20261101/koreas-monthly-exports-hit-1153-bil-in-oct-on-record-chip-sales",
-   "press": "Korea Times",
-   "at": "2026-11-11 09:45",
-   "why": "코스피 하락장 판정·외국인 반도체 매도와 정반대 숫자 — 11/1~10 수출 +111.9%(연합) 와 이어서 보는 바닥 근거",
-   "summary": "10월 수출 1,153억 달러로 역대 2위, 반도체가 사상 최대 판매 견인. 11월 1~10일 수출 335억 달러(+111.9%, 일평균 +97.7%) — 반도체 단가 상승이 실적으로 확인되는 중."
-  },
-  {
-   "title": "앤스로픽, 나스닥 상장 신청 — 종목 코드 ANT",
-   "url": "https://investinglive.com/news/anthropic-files-for-ipo-on-nasdaq-will-use-the-symbol-ant/",
-   "press": "investingLive",
-   "at": "2026-11-11 09:45",
-   "why": "🫧 버블 경보판 「상장 창」·AI 차입 가설 — 11/19 상장(공모가 70~78달러), 조달 규모가 10월 기대보다 30~40% 줄어든 게 시장 체온",
-   "summary": "나스닥 상장·코드 ANT. 국내 보도(11/11)로는 11/19 상장·공모가 70~78달러·약 86조원 조달 추진, 대표주관 골드만은 2026~30 매출 연평균 +90% 추정."
   }
  ],
  "at": "2026-11-13 01:45"
