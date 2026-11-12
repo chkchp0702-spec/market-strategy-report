@@ -190,7 +190,7 @@ def apply_rule(r, key):
 RULES = {
     "판정": "낙폭(252일 최고 종가 대비) > −10% 🟢 정상 · −10~−20% 🟡 조정 · −20% 이하 🐻 하락장 (🐻 은 낙폭 −10% 위 + 200일선 위까지 유지)",
     "바닥 신호": "① 60일 저점 10거래일 안 깨짐 ② 20일선 위 2일 연속 ③ VIX 20 아래 ④ 🇰🇷 외국인 3일 연속 순매수 / 🇺🇸 50일선 위",
-    "현금": "🇰🇷 코스닥: 판정·바닥 신호·알림만(현금 규칙 참고) / 🇰🇷 코스피: 🐻 하락장이면 주식 몫 전부 현금(100%) · 판정 풀릴 때까지 · 🟡 조정 0% · 🕰 신용 경보(기계 신용 칸 다 울음)+200일선 아래여도 전부 현금(11/11) / 🇺🇸 S&P500: 조정(−10%)이면 주식 몫 절반 채권형 → 신저가 뒤 바닥 신호 3개 이상이면 복귀(11/11 사용자 · us_floor_bt) / 🇺🇸 나스닥: 현금 규칙 꺼 둠(판정은 참고) — 11/09 사용자 · lab b1109_cash",
+    "현금": "🔁 11/12부터 닮은 장 규칙 — 지금 장과 닮았던 과거 12번에서 2년 뒤 가장 나았던 방식이 시장마다 주식 몫을 정함(markets[].analog · more[]) · 예전 규칙 값은 cash_old",
     "등록": "2026-11-09 결과 보기 전 · 같은 날 오후 다시 사기 규칙만 시장별로 바꿈(lab b1109_floor · 사용자 확인)",
 }
 
@@ -531,7 +531,7 @@ def apply_analog(r, key, name):
         r["best_on"] = False; r["clock_cash"] = False; r.pop("overlay_on", None)
         c2 = 0 if ap["k"] in ("half200", "third", "dca6", "dca12", "dip") else (max(0, r["cash"] - 33) if ap["k"] == "floor" and r["cash"] else 100 - r["cash"])
         r["ladder"] = [[r["cash"], "🔁 지금"], [c2, "다음: " + nx]] if c2 != r["cash"] else [[r["cash"], "🔁 지금 · " + nx]]
-        r["rule"]["name"] = "🔁 닮은 장 규칙 — " + ap["rule"] + " (예전: " + r["rule"]["name"] + ")"
+        r["rule"]["old"] = r["rule"]["name"]; r["rule"]["name"] = "🔁 닮은 장 규칙 — " + ap["rule"]
         r["advice"] = (f"{name} 🔁 닮은 장 규칙 — {ap['rule']} · 지금 주식 {stock}% · {r.get('to', '현금')} {r['cash']}% · 다음: {nx}"
                        + (f" (예전 규칙이면 {r.get('to', '현금')} {r['cash_old']}%)" if r["cash_old"] is not None and r["cash_old"] != r["cash"] else ""))
     return r
