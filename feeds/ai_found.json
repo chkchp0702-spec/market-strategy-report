@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "뉴스퀵 美 개장 전 — 엔비디아 이사회 오늘 회의, 일부 이사 크레스 CFO 임시 CEO 선호(세마포)",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---12th-november-2026",
+   "press": "Newsquawk",
+   "at": "2026-11-12 20:45",
+   "why": "NVDA 이사회 당일 — 정규장 −10%↓ 여부가 qa 3·9 flip · 091160·SOXX 판정",
+   "summary": "19:55 KST 기준 NVDA 장전 약 −5.5%, NQ −0.7%·ES −0.3%·YM +0.1%, 美 10년 4.99%, DXY 102.82. 백악관 「이사회 결정에 개입 안 함」(WaPo). 오늘 밤 실업수당·기존주택판매·연준 인사 5명·시스코/AMAT 실적."
+  },
+  {
+   "title": "브렌트 92달러 아래로 — WSJ 「밴스 부통령, 이란 인사 만날 수도」 vs 호르무즈 유조선 2척 폭발(IRGC)",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---12th-november-2026#oil",
+   "press": "Newsquawk",
+   "at": "2026-11-12 20:45",
+   "why": "XLE 내림 bet·장부 brent_95 조건·qa 19 — 협상 헤드라인이 공급 사고보다 셌다",
+   "summary": "브렌트 1월물 장중 93.94 → 92 바로 아래(−0.8%), WTI −0.8%(19:55 KST). 밴스-이란 회동 가능성(WSJ)이 에너지를 눌렀고, IRGC 는 호르무즈에서 유조선 2척 폭발을 전함."
+  },
+  {
    "title": "엔비디아, 황 CEO 거취 기다리며 6% 하락 — 두 번째 관계 보도(CNBC 11/12)",
    "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
    "press": "CNBC",
@@ -623,23 +639,7 @@
    "at": "2026-11-10 19:45",
    "why": "오늘 밤 22:30 CPI 기준선 — 12/9 FOMC 분수령 가설·고금리 정점 가설·현금 해제 판단",
    "summary": "헤드라인 전월비 예상 +0.3%(9월 +0.6%, 4월 이후 최대) · 근원 +0.2%(3개월 최저 예상) · BLS 2025년 10월 미발표 탓에 10월 전년비 수치 없음"
-  },
-  {
-   "title": "엔비디아 이사회, 젠슨 황 CEO 조사 착수 — 하원 공화당 위원장 3명 11/18 비공개 브리핑 요구",
-   "url": "https://unusualwhales.com/news/nvidia-investigation-huang-foreign-intelligence",
-   "press": "Unusual Whales",
-   "at": "2026-11-10 19:45",
-   "why": "AI 대장주 단독 악재 — 반도체 칸·AI 차입 가설, 11/17 실적 직후 11/18 브리핑 일정 겹침",
-   "summary": "독립이사 위원회·외부 변호인 조사 · 이사회 「안보·기밀 유출 근거 없음, CEO 지지」 · 상대방 회사는 수출통제 칩 대량 구매처 · 11/18 하원 브리핑 제안"
-  },
-  {
-   "title": "브렌트유, 8월 이후 처음 배럴당 90달러 아래로",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-10/brent-crude-falls-below-90-a-barrel-for-first-time-since-august",
-   "press": "Bloomberg",
-   "at": "2026-11-10 17:57",
-   "why": "장부 조건 brent_95(선 90) — 종가 90↓ 확정 시 에너지 칸 13→10",
-   "summary": "트럼프 「이란 추가 공습 불필요」 발언 뒤 브렌트 90달러 하회(8월 이후 처음). 17:53 선물 90.69(−2.0%)·WTI 85.05. 루비오 「돌파구 임박 아냐」는 반대 재료."
   }
  ],
- "at": "2026-11-12 18:45"
+ "at": "2026-11-12 20:45"
 }
