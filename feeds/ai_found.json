@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "월가 하락 출발 전망 — 엔비디아 폭풍 지속, 美 국채 금리 5% 언저리",
+   "url": "https://www.kitco.com/news/off-the-wire/2026-11-12/wall-street-set-dip-nvidia-storm-continues-treasury-yields-bob-5",
+   "press": "Kitco(로이터 전재)",
+   "at": "2026-11-13 00:45",
+   "why": "🫧 신용 경보·「고금리 정점」 가설 — 10년 5% 문턱과 엔비디아 사건이 같은 날 겹침",
+   "summary": "11/12 美 개장 전 — 엔비디아 사태 지속에 지수 선물 약세, 10년 국채 금리가 5% 안팎에서 오르내림(세부 숫자 미확인)."
+  },
+  {
+   "title": "트럼프 「이란 합의 필요 없다」 뒤 美 10년 금리 5% 돌파·유가 상승",
+   "url": "https://mlq.ai/news/10-year-treasury-yield-tops-5-and-oil-rises-after-trump-says-the-us-doesnt-need-an-iran-deal/",
+   "press": "MLQ.ai",
+   "at": "2026-11-13 00:45",
+   "why": "열린 XLE 내림 bet·🛢️ 브렌트 95 조건·美 10년 5% 관찰과 바로 이어짐",
+   "summary": "트럼프 발언 뒤 유가 반등과 함께 10년물이 5%를 넘음 — 금리·유가 동반 상승은 인상 기대를 키우는 조합(정확한 수치 미확인)."
+  },
+  {
+   "title": "모닝 킥스타트: 금리 상승·엔비디아 핵심 지지선 이탈",
+   "url": "https://investinglive.com/technical-analysis/morning-kickstart-yields-climb-as-nvidia-slides-below-key-support-usd-mixed/",
+   "press": "investingLive",
+   "at": "2026-11-13 00:45",
+   "why": "NVDA 기술적 지지선 이탈 vs SOXX 상대 강세 — 「대장주 단독」 판정 근거",
+   "summary": "금리 상승 속 엔비디아가 핵심 지지선 아래로, 달러는 혼조. 정규장에선 개장 −13%대 뒤 00:14 −6.9%(161.76, daily-app)로 낙폭 절반 회복."
+  },
+  {
    "title": "젠슨 황 엔비디아 CEO 사임, 콜레트 크레스 임시 CEO — 라이브",
    "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
    "press": "CNBC",
@@ -615,31 +639,7 @@
    "at": "2026-11-11 02:45",
    "why": "AI 자금 흡수 — 오픈AI도 1.25조 달러로 자금 조달 중, 대형 AI 상장 물량이 연말 나스닥 수급 변수",
    "summary": "공모가 상단 기준 시가총액 약 1조 달러, 완전희석 1.4조 달러. 가격 결정 11/18(수)."
-  },
-  {
-   "title": "월러 「12월 인상 지지 — 50bp도 테이블 위에」",
-   "url": "https://seekingalpha.com/news/4669588-waller-backs-december-rate-hike-says-50-basis-point-move-may-be-on-the-table",
-   "press": "Seeking Alpha",
-   "at": "2026-11-11 01:45",
-   "why": "12/9 FOMC 분수령 가설(0.55)·미국채 나눠 사기 시점·현금/단기채 칸 — 비둘기로 꼽히던 월러가 빅스텝 언급",
-   "summary": "10월 CPI 근원이 월러의 50bp 조건(근원 예상 상회)에 걸림. 같은 날 로건 댈러스 연은 「최소 두 번 더·속도 높일 수도」(블룸버그), 나겔 「ECB 12월 인상 꽤 분명」 — 글로벌 동시 매파."
-  },
-  {
-   "title": "뜨거운 물가 보고서로 연준 12월 인상 궤도",
-   "url": "https://www.americanbanker.com/news/hot-inflation-report-puts-fed-on-track-for-december-rate-hike",
-   "press": "American Banker",
-   "at": "2026-11-11 01:45",
-   "why": "금융 칸(8%)·AI 차입 가설 — 인상이 조달 비용·신용(NY연은 3분기 연체율 소폭↑)으로 번지는지",
-   "summary": "CPI 전월 +0.4%·근원 +0.3%로 12월 인상이 기본 시나리오로. 미 2년 4.75%(+0.21%p)·10년 4.996%(CNBC 11:30 EST)."
-  },
-  {
-   "title": "미국 데이터센터 속 중국산 부품 — 트럼프가 왜 금지하려 하나",
-   "url": "https://www.newsweek.com/the-chinese-parts-in-us-data-centers-and-why-trump-wants-to-ban-them-12288018",
-   "press": "Newsweek",
-   "at": "2026-11-11 00:45",
-   "why": "MS가 「중국산 광트랜시버 금지가 미국 AI를 늦춘다」며 로비(로이터 11/10) — 데이터센터 원가↑ = AI 차입 부담 가설·전력/인프라 칸과 연결",
-   "summary": "미국 데이터센터 광트랜시버의 상당 부분이 중국산 — 금지되면 대체 공급 부족·원가 상승 우려. 수치는 원문 확인 필요(미확인)."
   }
  ],
- "at": "2026-11-12 23:45"
+ "at": "2026-11-13 00:45"
 }
