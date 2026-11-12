@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아, 황 CEO 거취 기다리며 6% 하락 — 두 번째 관계 보도(CNBC 11/12)",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+   "press": "CNBC",
+   "at": "2026-11-12 19:45",
+   "why": "해임 압박이 커지는 쪽 — 오늘 밤 NVDA 정규장·SOXX·091160·qa 3·9 「대장주 단독 vs 현금 도피」 판정",
+   "summary": "NVDA 장전 약 −6%. 이사회 황 CEO 축출 검토 보도에 두 번째 부적절한 관계 보도가 더해져 거취 불확실성 확대."
+  },
+  {
+   "title": "엔비디아 프리마켓 −8.61%(벤징가 11/12)",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63173709/nvidia-shares-fall-premarket-jensen-huang-affair-report",
+   "press": "Benzinga",
+   "at": "2026-11-12 19:45",
+   "why": "11/11 종가 173.85달러 대비 장전 낙폭 — flip 기준(NVDA 정규장 −10%↓)과 거리 확인",
+   "summary": "황 CEO 관련 보도로 장전 −8.61%. 정규장 −10%↓ + SOXX −5%↓ 이면 qa 3 flip 발동."
+  },
+  {
    "title": "Saxo 마켓 퀵테이크 — 엔비디아 비틀거림이 심리 누름(11/12)",
    "url": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---nvidia-stumble-weighs-on-sentiment---12-november-2026-12112026",
    "press": "Saxo",
@@ -623,22 +639,6 @@
    "at": "2026-11-10 17:57",
    "why": "장부 조건 brent_95(선 90) — 종가 90↓ 확정 시 에너지 칸 13→10",
    "summary": "트럼프 「이란 추가 공습 불필요」 발언 뒤 브렌트 90달러 하회(8월 이후 처음). 17:53 선물 90.69(−2.0%)·WTI 85.05. 루비오 「돌파구 임박 아냐」는 반대 재료."
-  },
-  {
-   "title": "월러 연준 이사 「12월 인상 지지·물가 가속 시 0.5%p도」",
-   "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
-   "press": "CNBC",
-   "at": "2026-11-10 18:00",
-   "why": "논지 「12/9 FOMC 2018년식 분수령」 conf 근거 — 인상 쪽 무게, AI 차입·크레딧 부담",
-   "summary": "월러가 12월 인상에 기운다며 인플레 데이터에 따라 빅스텝(50bp) 지지 가능. 같은 날 BLS는 10월 12개월 CPI·근원 미발표 예고(블룸버그) — 오늘 밤 전월비만 나옴."
-  },
-  {
-   "title": "인피니언, AI 데이터센터 전력 반도체 수요로 연간 가이던스 상향",
-   "url": "https://au.marketscreener.com/news/infineon-raises-annual-guidance-driven-by-ai-demand-ce7f58dddc8df625",
-   "press": "MarketScreener(로이터)",
-   "at": "2026-11-10 17:40",
-   "why": "AI capex 「연기」(모건스탠리) 우려와 반대 숫자 — 반도체 칸·091160 다시 사기 판단에서 「전력 반도체」는 아직 수요가 강하다는 근거",
-   "summary": "인피니언이 AI 데이터센터 전력 솔루션 수요를 이유로 분기 매출 가이던스를 예상보다 높게 제시, 유럽 장 초반 급등(investing 피드 동일 보도). 메모리 이익 절벽 하향(MS)과 엇갈리는 AI 수요 신호."
   }
  ],
  "at": "2026-11-12 18:45"
