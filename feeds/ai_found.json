@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "美, 중국의 AI 칩 원격 접속(클라우드 임대) 차단 규칙 마무리 단계",
+   "url": "https://www.gearlive.com/news/article/us-rule-china-remote-access-ai-chips-report",
+   "press": "Gear Live(The Information 인용)",
+   "at": "2026-11-12 13:45",
+   "why": "엔비디아 CEO 거취 불확실성 위에 수요 쪽 규제 — 반도체 ETF 칸·「AI 안에서 갈린다」 가설",
+   "summary": "상무부가 중국 기업의 해외 클라우드 경유 첨단 AI 칩 사용을 막는 규칙을 마무리 중(The Information 보도, 세부 일정 미확인) · 같은 날 민주당 상원의원들은 엔비디아 수출 기록 보존 요구(로이터)"
+  },
+  {
    "title": "브렌트, 이란 평화 협상 기대에 하락",
    "url": "https://tradingeconomics.com/commodity/brent-crude-oil/news/598323",
    "press": "Trading Economics",
@@ -631,15 +639,7 @@
    "at": "2026-11-10 14:40",
    "why": "오늘 밤 CPI — 🐻 현금 해제·10년 5% 가설의 분기점: 코어가 0.2% 넘으면 매파(굴스비·연준 데일리) 쪽",
    "summary": "IB 14곳 전망 취합: 헤드라인 전년비 3.6%(에너지 영향), 코어 월간 0.2% 안팎. 세부 숫자는 원문 확인."
-  },
-  {
-   "title": "MUFG: 美 CPI 3.6% 전망 — 금리 인상 기대를 살리려면 코어가 놀라야",
-   "url": "https://investinglive.com/news/mufg-us-cpi-seen-at-3-6-core-must-surprise-to-revive-an-october-fed-hike/",
-   "press": "investingLive",
-   "at": "2026-11-10 14:40",
-   "why": "코어 서프라이즈 여부가 금리 경로 — 고금리 정점 가설(conf 0.45)·채권 칸과 직결",
-   "summary": "MUFG 헤드라인 3.6% 예상. 인상 기대 재점화는 코어 상회가 필요하다는 판단."
   }
  ],
- "at": "2026-11-12 05:45"
+ "at": "2026-11-12 13:45"
 }
