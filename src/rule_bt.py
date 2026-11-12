@@ -30,6 +30,8 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "market" / "rule_bt.json"
 LIVE = ROOT / "market" / "rule_overlay.json"
 SPLIT = pd.Timestamp("2013-01-01")
+# 11/12 사용자 「수익을 선택」 — 낙폭 기준(5%p)에 걸려도 수익이 앞·뒤 둘 다 나은 판을 쓰는 시장 (그 판이 계속 앞·뒤 둘 다 이기면 유지)
+PREFER_RET = {"kospi"}
 MK = [("kospi", "^KS11", "^KS11", "코스피"), ("kosdaq", "^KQ11", "^KQ11", "코스닥"), ("sp500", "^GSPC", "SPY", "S&P500"), ("nasdaq", "^IXIC", "QQQ", "나스닥")]
 
 
@@ -93,6 +95,8 @@ def main():
         R = {k: {"name": v[0], **score(v[1])} for k, v in vs.items()}
         B0 = R["base"]
         def okk(r): return r["a"]["cagr"] > B0["a"]["cagr"] and r["b"]["cagr"] > B0["b"]["cagr"] and r["full"]["mdd"] >= B0["full"]["mdd"] - 5
+        if key in PREFER_RET:
+            okk = lambda r: r["a"]["cagr"] > B0["a"]["cagr"] and r["b"]["cagr"] > B0["b"]["cagr"]
         bw = max([k for k in R if k.startswith("W:") and okk(R[k])], key=lambda k: R[k]["full"]["cagr"], default=None)
         bbk = max([k for k in R if k.startswith("B:") and okk(R[k])], key=lambda k: R[k]["full"]["cagr"], default=None)
         if bw and bbk:   # 겹치기
@@ -100,6 +104,8 @@ def main():
             onw = sig[kw][2].fillna(0).values > 0.5; onb = sig[kb][2].fillna(0).values > 0.5
             arr = np.maximum(base, onw * fr); arr = np.where(onb, 0.0 if mode == "0" else np.minimum(arr, 0.5), arr)
             R[f"WB:{kw}:{fr}|{kb}:{mode}"] = {"name": R[bw]["name"] + " + " + R[bbk]["name"], **score(mkw(arr))}
+        if key in PREFER_RET:
+            okk = lambda r: r["a"]["cagr"] > B0["a"]["cagr"] and r["b"]["cagr"] > B0["b"]["cagr"]
         cands = sorted([k for k in R if k != "base" and okk(R[k])], key=lambda k: -R[k]["full"]["cagr"])
         pick = cands[0] if cands else "base"
         # 지금 켜졌나 (오늘 종가)

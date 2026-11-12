@@ -563,8 +563,6 @@ def live(dry=False):
                     if r["cash"] < fr:
                         r["cash"] = fr; r["overlay_on"] = pt["name"]
                         r["ladder"] = [[fr, "🧩 " + pt["name"]], [0, "그 신호가 꺼지면"]]
-                elif pt.get("side") == "B" and r["cash"] > 0:
-                    r["cash"] = 0 if pt.get("arg") == "0" else min(r["cash"], 50); r["overlay_on"] = pt["name"]
         if key in CLOCK_ON:
             bp = rj(PROXY, {}) or {}
             r["clock"] = {k_: bp.get(k_) for k_ in ("h", "h_kr", "kospi_on", "since", "kospi_below200", "asof_us")}
@@ -573,6 +571,11 @@ def live(dry=False):
                 r["clock_cash"] = True
                 r["ladder"] = [[100, "🕰 신용 경보(기계 신용 칸 다 울음) + 200일선 아래"], [0, "신용 칸이 조용해짐 · 또는 200일선 위로"]]
             r["rule"]["name"] += " · 🕰 신용 경보(기계 신용 칸 다 울음) + 200일선 아래여도 전부 현금"
+        # 🌱 바닥 얹기(현금 풀기)는 모든 현금 규칙 뒤에 — 11/12 사용자 「수익을 선택」: 코스피 「5년 평균선보다 많이 아래면 현금 풀고 주식」 (낙폭 기준 넘어도 채택)
+        for pt in (ov.get("parts") or []) if ov.get("pick", "base") != "base" else []:
+            if pt.get("side") == "B" and pt.get("on") and r["cash"] > 0:
+                r["cash"] = 0 if pt.get("arg") == "0" else min(r["cash"], 50); r["overlay_on"] = pt["name"]; r["best_on"] = False; r["clock_cash"] = False
+                r["ladder"] = [[r["cash"], "🧩 " + pt["name"] + " — 현금 풀기"], [100, "그 신호가 꺼지고 하락장·경보면 다시 현금"]]
         r.update({"key": key, "name": name, "nat": nat, "asof": str(s.index[-1].date()), "advice": advice(name, r)})
         if b0 is not None:   # 📨 11/10 A11/10-1 이번 하락장 반등 날 기록 (하락장일 때만)
             try:
