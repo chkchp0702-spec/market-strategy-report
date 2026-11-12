@@ -245,8 +245,9 @@ def methods(s, st, lr, stp, first):
     W["ddl"] = np.roll(w1, 1); W["ddl"][0] = 1; W["floor"] = np.roll(w2, 1); W["floor"][0] = 1
     # 4차(11/12 · 달력은 「지금 주식」, 어제 하락장 규칙은 「지금 현금」 으로 엇갈려서 — 둘을 겹쳐 봄)
     W["bear"] = np.roll(w3, 1); W["bear"][0] = 1
-    W["halbear"] = np.minimum(W["hal0"], W["bear"])          # 둘 다 좋을 때만 주식
-    W["halbear2"] = (W["hal0"] + W["bear"]) / 2               # 둘 다 좋으면 100 · 하나만 50 · 둘 다 나쁘면 0
+    # 11/12 사용자 「실제 달력 부분은 빼자」 → 달력 방식(hal·hal0·halma·halma2·halbear·halbear2)은 겨루지 않음 · 주가 흐름 방식만
+    for k in ("hal", "hal0", "halma", "halma2"):
+        W.pop(k, None)
     # 월말 계절표(걸어가며)
     stm = pd.Series(st, index=idx).groupby([idx.year, idx.month]).last()
     sm = to_daily(stm.astype(float), idx).astype(int)   # 그날 걸리는 월말 계절
