@@ -1,12 +1,7 @@
 {
- "at": "2026-11-12 09:45",
+ "at": "2026-11-12 10:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
-  "n/s20261110fedswallerbacksdecemberratehikesaysopentolargermove": {
-   "lv": 1,
-   "why": "논지 「12/9 FOMC 분수령」·AI 차입 — 월러 12월 인상 지지·50bp 가능, 오늘 밤 CPI 민감도↑",
-   "at": "2026-11-10 18:40"
-  },
   "kwusa/61751": {
    "lv": 1,
    "why": "🧠 「AI 차입」·「AI 안에서도 갈린다」 — 소프트뱅크 발전설비 조달 조정 37억$ 비용 = AI 인프라 지출 축소 첫 숫자 · GEV 장중 −10% · 전력 칸",
@@ -16,11 +11,6 @@
    "lv": 1,
    "why": "🫧 「상장 창」·AI 차입 가설 — 앤스로픽 기업가치 1.5조 달러↑로 상향 검토(FT) = 1시간 전 「조달 30~40% 축소」 보도와 반대, 수요는 뜨겁고 공급 물량은 커짐 · 11/18 가격 결정 · QQQ·SMH",
    "at": "2026-11-11 10:45"
-  },
-  "HANAchina/71950": {
-   "lv": 1,
-   "why": "「AI 안에서도 갈린다」·「AI 차입」 가설 — 모건스탠리, 민주 스윕 뒤 데이터센터 지연으로 2028 공급망 공백·아시아 칩/구형 메모리 일괄 하향 = 오늘 한국 반도체 +5.7% 반등의 반대 근거",
-   "at": "2026-11-11 16:45"
   },
   "sunstudy1111/139258": {
    "lv": 1,
@@ -42,55 +32,15 @@
    "why": "💬 3·5번·🧠 「AI 안에서 갈린다」 — 모건스탠리 최선호주 제외·베어드 중립(목표 500→200$), 엔비디아 사람 위험이 의견 하향으로 번짐",
    "at": "2026-11-11 21:45"
   },
-  "n/httpwwwedailycokrnewsnewspathaspnewsid01262806645645064": {
-   "lv": 1,
-   "why": "🧠 「12/9 FOMC 분수령」·💬 11번 — 골드만 메리클 「12월 뒤 3월에도 0.25%p 추가 인상」, 인상 경로가 길어짐",
-   "at": "2026-11-12 02:45"
-  },
-  "n/lk3R0dCcHhOdjZwcmg3cjJpY3NXWEhfdkl6Xy1FcVl0Vkp3SnUwQVRtdwoc5": {
-   "lv": 1,
-   "why": "엔비디아 CEO 리스크가 의회로 — 11/18(실적 다음 날) 브리핑 요구 · TSM bet·「AI 안에서 갈린다」 가설",
-   "at": "2026-11-12 03:45"
-  },
   "n/wwwcnbccom20261111nvidiajensenhuangaifinancialsystemriskhtml": {
    "lv": 1,
    "why": "엔비디아 중심 AI 금융 고리(투자·외상) 점검 — 「AI 차입이 다음 약한 고리」 가설 근거",
    "at": "2026-11-12 03:45"
   },
-  "n/0261111credittradersfumeas1billionutzloancrumbleswithinweeks": {
-   "lv": 1,
-   "why": "레버리지론 10억$가 몇 주 만에 무너짐 — 주가 반등 밤에도 신용은 약함 · 🫧 신용 경보·AI 차입 가설",
-   "at": "2026-11-12 04:45"
-  },
-  "n/UtEbUVQZGlFN0lBdmE0TDIyZ1BsNFNRWnY1Z3dnSUcybWZpTE9fT0hwNAoc5": {
-   "lv": 1,
-   "why": "사모신용 큰손 식스스트리트 CEO 「AI 경쟁 투기적 행동」 — 막스에 이어 신용 쪽 경고 · AI 차입 가설",
-   "at": "2026-11-12 04:45"
-  },
-  "n/httpwwwedailycokrnewsnewspathaspnewsid01649846645645064": {
-   "lv": 1,
-   "why": "마이크론 +12.8% 817.8달러(한 달 −21% 뒤 되사기) — 오늘 SK하이닉스·삼성 시초가·qa 3번",
-   "at": "2026-11-12 05:45"
-  },
   "HANAchina/71979": {
    "lv": 1,
    "why": "밴스 부통령 이란 직접 회담 검토 — 브렌트 하락 재료 · XLE 내림 bet·brent_95 조건",
    "at": "2026-11-12 05:45"
-  },
-  "n/JzbFNHUkg4QzNmOEFvNk0tLWpHeFpzNVpLdlYxOHpNMmJRTUp6ZzBxS2Moc5": {
-   "lv": 1,
-   "why": "달러 19개월 최고(연준 인상 베팅) — 원/달러·엔 159엔·「12/9 FOMC」 가설",
-   "at": "2026-11-12 05:45"
-  },
-  "n/nthropicbankersmullraisingipovaluationtomin15tft432SI5019795": {
-   "lv": 1,
-   "why": "앤스로픽 공모가치 1.5조 상향 검토(FT) — 11/18~20 상장이 시장 돈을 끌어가는 일정 · qa 5·11",
-   "at": "2026-11-12 06:45"
-  },
-  "n/httpwwwedailycokrnewsnewspathaspnewsid01771206645645064": {
-   "lv": 1,
-   "why": "코어위브 CEO 주식 매도 중단 — 🫧 AI 차입 가설·네오클라우드 신뢰 회복 신호 · qa 3",
-   "at": "2026-11-12 06:45"
   },
   "n/R6eHhyNXJLVXF6cldFbnhHMXcydFMzTGhzVnhWN2RQX2d0X1N4QVZvdUUoc5": {
    "lv": 2,
@@ -100,11 +50,6 @@
   "n/s20261111coreweaveplanstoraiseatleast4billioninhighgradeloan": {
    "lv": 1,
    "why": "코어위브 40억$ 투자등급 대출 추진(블룸버그) — 빚으로 짓는 네오클라우드가 우량 등급으로 조달 = 🫧 신용 경보 반대 근거 · AI 차입 가설 breaks 점검",
-   "at": "2026-11-12 08:45"
-  },
-  "n/krocktcptobbonassetqualitywoesandstrategicuncertainty5019978": {
-   "lv": 1,
-   "why": "피치, 블랙록 TCP(사모대출 BDC) BB−로 강등 — 「자산 질 악화」 = 사모신용 균열 · 🫧 신용 경보·AI 차입 가설",
    "at": "2026-11-12 08:45"
   },
   "egzion/6465": {
@@ -121,6 +66,16 @@
    "lv": 1,
    "why": "11/1~10 반도체 수출 +331% 역대 최대 — 「AI 수요는 멀쩡, 사람 위험」 해석 근거 · 091160·외국인 반도체 되사기 판단",
    "at": "2026-11-12 09:45"
+  },
+  "kimu_nim/48707": {
+   "lv": 1,
+   "why": "대통령 「삼성전자 HBM 6조 이어 약 40조 첨단 장비 투자 계획」 — 한국 반도체·장비(091160) 수요 재료 · 엔비디아 쇼크 날 삼성 +2.2% 버팀 근거 · qa 3",
+   "at": "2026-11-12 10:45"
+  },
+  "n/nBHbTlwVlFSTTFvRWRVMWFQcVBPM0tQSWlodU1SYWNkSzJXMXRERm53UQoc5": {
+   "lv": 1,
+   "why": "BofA 「12월 뒤 1월도 인상」 vs 골드만 「3월」 — 12/9 FOMC 가설·고금리 정점 가설·qa 12 · 달러 19개월 최고와 같은 줄기",
+   "at": "2026-11-12 10:45"
   }
  }
 }
