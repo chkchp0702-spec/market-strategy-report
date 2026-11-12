@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아, 이사회 조사 착수 뒤 8% 급락 — 실적 9일 앞",
+   "url": "https://www.tikr.com/blog/nvidia-sinks-8-as-board-probes-reports-huang-was-target-of-a-foreign-intelligence-effort",
+   "press": "TIKR",
+   "at": "2026-11-12 09:45",
+   "why": "반도체 칸·091160 · 11/17 실적 앞 경영 공백 — 「사람 위험」이 실적 이벤트와 겹침 · qa 3·11",
+   "summary": "11/9 이사회 독립 조사 착수 → 11/11 장 뒤 WSJ 해임 준비 보도로 시간외 −8~9% · 실적 발표 약 9일 전"
+  },
+  {
+   "title": "엔비디아 이사회 성명 — 독립 조사",
+   "url": "https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/",
+   "press": "NVIDIA IR",
+   "at": "2026-11-12 09:45",
+   "why": "1차 자료 — 해임 보도와 회사 공식 입장 구분용 · 오늘 이사회 발표 대조",
+   "summary": "이사회 명의 공식 성명(11/9 무렵) · 해임 여부는 아직 회사 발표 없음(미확인)"
+  },
+  {
    "title": "엔비디아 이사회, 젠슨 황 CEO 해임 준비 — 시간외 9% 넘게 급락",
    "url": "https://en.bloomingbit.io/feed/news/124238",
    "press": "Bloomingbit(WSJ 인용)",
@@ -623,22 +639,6 @@
    "at": "2026-11-10 11:40",
    "why": "AI 차입·공급 가설 — 최대 693억$(로이터) 초대형 IPO가 상장 전후 AI 대형주 수급을 흡수할 수 있음",
    "summary": "로드쇼 11/9 주간 시작 가능, 추수감사절 전 데뷔. 로이터는 조달 규모 최대 693억 달러 보도(피드)"
-  },
-  {
-   "title": "연준 데일리: 추가 긴축은 AI·관세·에너지 충격이 지속되는지에 달려",
-   "url": "https://investinglive.com/central-banks/fed-s-daly-more-tightening-depends-on-whether-ai-tariff-and-energy-shocks-persist/",
-   "press": "investingLive",
-   "at": "2026-11-10 10:45",
-   "why": "오늘 밤 10월 CPI 앞 연준 매파 톤 — 10년 5% 가설·현금 해제(CPI 월간 근원) 조건과 직결",
-   "summary": "데일리 총재, 인상 필요 여부는 AI 투자·관세·에너지발 물가 충격의 지속성에 달렸다고 언급. 피드(gn_us_fed)에는 「추가 인상 가능성 높다」 제목. 발언 정확한 날짜·문구 미확인."
-  },
-  {
-   "title": "엔비디아 주가 하락 이유 — 황 CEO 스캔들·메가스피드 조사",
-   "url": "https://www.barchart.com/story/news/35991549/why-nvidia-nvda-stock-is-falling-today",
-   "press": "Barchart",
-   "at": "2026-11-10 10:45",
-   "why": "NVDA 홀로 급락·S&P 급등 「역사적 분리」(bbg) — 반도체 반등이 대장주 없이 가능한지, 코스피 삼전·닉스 반등 지속성 점검",
-   "summary": "황 CEO 사생활·中 연계 의혹, 메가스피드 칩 우회 조사 보도로 NVDA 장중 −9%(gn_kr_global). The Information: 대중 수출 통제 강화 직면. 엔비디아는 우회 의혹 「조사·반박됨」 입장."
   }
  ],
  "at": "2026-11-12 05:45"
