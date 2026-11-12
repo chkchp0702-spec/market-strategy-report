@@ -6627,6 +6627,38 @@
 "src": "earn",
 "score": 50.0,
 "lv": 27.13
+},
+"FOSL|2026-11-11|pead": {
+"code": "FOSL",
+"name": "Fossil Group, Inc.",
+"mkt": "US",
+"d": "2026-11-11",
+"src": "pead",
+"score": 80.0
+},
+"REZI|2026-11-11|pead": {
+"code": "REZI",
+"name": "Resideo Technologies, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-11",
+"src": "pead",
+"score": 69.8
+},
+"RSKD|2026-11-11|pead": {
+"code": "RSKD",
+"name": "Riskified Ltd. Class A Ordinary Shares",
+"mkt": "US",
+"d": "2026-11-11",
+"src": "pead",
+"score": 73.5
+},
+"SONO|2026-11-11|pead": {
+"code": "SONO",
+"name": "Sonos, Inc.",
+"mkt": "US",
+"d": "2026-11-11",
+"src": "pead",
+"score": 67.0
 }
 },
 "sent": [
