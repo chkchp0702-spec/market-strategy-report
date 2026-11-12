@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12 12:56",
+ "at": "2026-11-12 13:01",
  "cash2": 4.1,
  "markets": [
   {
@@ -25,12 +25,12 @@
    "y2_worst": -20.7,
    "beat_cash": 8,
    "n": 12,
-   "lump_med": -3.6,
+   "lump_med": -0.4,
    "lump_worst": -63.9,
    "fwd": {
-    "more10": 11,
+    "more10": 10,
     "more_med": -33.9,
-    "y1_up": 4,
+    "y1_up": 5,
     "n": 12
    }
   },
@@ -80,12 +80,12 @@
    "cash": 100,
    "next": "바닥 신호가 켜질 때마다 3분의 1씩 주식",
    "loo": {
-    "med": 36.1,
+    "med": 36.2,
     "worst": 6.6,
     "beat_cash": 12,
     "n": 12
    },
-   "y2_med": 31.4,
+   "y2_med": 31.5,
    "y2_worst": 6.6,
    "beat_cash": 12,
    "n": 12,
@@ -93,7 +93,7 @@
    "lump_worst": -24.4,
    "fwd": {
     "more10": 5,
-    "more_med": -6.9,
+    "more_med": -6.3,
     "y1_up": 8,
     "n": 12
    }
@@ -182,11 +182,11 @@
     "n": 12
    },
    "y2_med": 13.8,
-   "y2_worst": -22.6,
+   "y2_worst": -22.5,
    "beat_cash": 7,
    "n": 12,
    "lump_med": 3.6,
-   "lump_worst": -34.3,
+   "lump_worst": -32.7,
    "fwd": {
     "more10": 8,
     "more_med": -24.1,
