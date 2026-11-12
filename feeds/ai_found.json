@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아 장전 −7%대, AMD·브로드컴은 +2% 넘게 — 「고객사 칩 구매 분산」 해석",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262302368-nvidia-amd-broadcom-huang-ceo-chip-procurement-diversification-tradingkey",
+   "press": "TradingKey",
+   "at": "2026-11-12 21:45",
+   "why": "NVDA 사람 위험이 업종 전체 할인이 아니라 2·3위로 돈 이동인지 — 반도체 칸·ideas 19:45(경쟁사 상대수익)·qa 3·9",
+   "summary": "NVDA 장전 −7% 넘게 하락, AMD·AVGO 각각 +2% 넘게 상승. 황 CEO 거취 불확실성이 고객사의 칩 구매 다변화를 부를 수 있다는 분석."
+  },
+  {
+   "title": "AMD·브로드컴, 엔비디아에서 돈이 옮겨가며 상승",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63177290/amd-broadcom-stocks-gain-as-investors-rotate-away-from-nvidia-whats-going-on",
+   "press": "Benzinga",
+   "at": "2026-11-12 21:45",
+   "why": "「대장주 단독」 판정 근거 +1 — SOXX 전체 붕괴가 아니라 업종 안 갈아타기",
+   "summary": "엔비디아 이사회 해임 준비 보도 뒤 투자자들이 AMD·브로드컴으로 이동. 이사회는 외부 업체를 고용해 후임 물색(야후 헤드라인)."
+  },
+  {
    "title": "뉴스퀵 美 개장 전 — 엔비디아 이사회 오늘 회의, 일부 이사 크레스 CFO 임시 CEO 선호(세마포)",
    "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---12th-november-2026",
    "press": "Newsquawk",
@@ -623,22 +639,6 @@
    "at": "2026-11-10 22:45",
    "why": "장부 brent_95(선 90) — 오늘 종가 90↓면 에너지 13→10, XLE 대기 bet",
    "summary": "미·이란 협상 진전 기대로 브렌트 약세. 알아라비아는 우라늄 3.67% 제한·동결자금 해제 예비 합의 근접 보도."
-  },
-  {
-   "title": "중국 10월 생산자물가 4년여 만 최고로 가속",
-   "url": "https://tradingeconomics.com/china/producer-prices-change/news/591666",
-   "press": "Trading Economics",
-   "at": "2026-11-10 20:40",
-   "why": "CPI 앞 물가 압력 재료 — 美 금리 위쪽·「12/9 FOMC 분수령」 가설, 채권 답(9번)",
-   "summary": "중국 PPI 상승률이 4년여 만 최고로 가속(WSJ도 같은 보도). 9월 PPI는 +5.0%였음(technews). 원자재·수입 물가를 통해 美·韓 물가 압력 쪽."
-  },
-  {
-   "title": "미 10월 CPI, 두 달 급등 뒤 둔화 예상 — 예상 전월비 +0.3%·근원 +0.2%, 12개월 수치는 미발표",
-   "url": "https://www.business-standard.com/world-news/us-inflation-set-to-cool-in-october-after-two-months-of-sharp-increases-126110800246_1.html",
-   "press": "Business Standard(로이터)",
-   "at": "2026-11-10 19:45",
-   "why": "오늘 밤 22:30 CPI 기준선 — 12/9 FOMC 분수령 가설·고금리 정점 가설·현금 해제 판단",
-   "summary": "헤드라인 전월비 예상 +0.3%(9월 +0.6%, 4월 이후 최대) · 근원 +0.2%(3개월 최저 예상) · BLS 2025년 10월 미발표 탓에 10월 전년비 수치 없음"
   }
  ],
  "at": "2026-11-12 20:45"
