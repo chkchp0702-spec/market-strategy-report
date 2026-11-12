@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "브렌트, 이란 평화 협상 기대에 하락",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil/news/598323",
+   "press": "Trading Economics",
+   "at": "2026-11-12 12:45",
+   "why": "장부 brent_95(선 90)·XLE 내림 bet — 협상 기대가 유가를 계속 누름",
+   "summary": "브렌트 91.85달러(−0.98%, 04:02 BST CNBC)·WTI 85.69 · 로이터 「이란·우크라 평화 협상 기대에 1달러 넘게 하락」 · 90 종가 하회 시 에너지 13→10"
+  },
+  {
    "title": "엔비디아 이사회, 황 CEO 거취 결정 회의 — 리더십 위기 심화",
    "url": "https://www.koreatimes.co.kr/world/20261112/nvidia-board-meets-to-decide-ceo-huangs-future-as-leadership-crisis-deepens",
    "press": "Korea Times",
@@ -631,14 +639,6 @@
    "at": "2026-11-10 14:40",
    "why": "코어 서프라이즈 여부가 금리 경로 — 고금리 정점 가설(conf 0.45)·채권 칸과 직결",
    "summary": "MUFG 헤드라인 3.6% 예상. 인상 기대 재점화는 코어 상회가 필요하다는 판단."
-  },
-  {
-   "title": "트럼프 「엔비디아 CEO 겨냥 중국 첩보 의혹 면밀히 보고 있다」",
-   "url": "https://arynews.tv/trump-us-looking-closely-report-nvidia-ceo-target-china-spy-plot",
-   "press": "ARY News",
-   "at": "2026-11-10 13:40",
-   "why": "NVDA 키맨 리스크 — 반도체 칸·AI 차입 가설, 분리 반등 그림자(10:40 아이디어) 관찰 대상",
-   "summary": "NYT 보도(미 정보당국, 중국 측 인물-황 CEO 연결) 뒤 트럼프가 직접 조사 언급 · 일부 매체는 트럼프가 황을 옹호했다고도 보도(엇갈림)"
   }
  ],
  "at": "2026-11-12 05:45"
