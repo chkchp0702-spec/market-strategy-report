@@ -166,12 +166,12 @@ def adopt(res, S):
         rows = M["rules"]; key = M["key"]; s = S[key]; L = {r_["k"]: r_ for r_ in rows}
         k = choose(rows); lo = loo(rows); ok = lo["med"] > CASH2
         staged = False
-        if k == "lump" and M["now"]["dd"] <= -10:   # 11/12 조정(−10%) 이상이면 한 번에 다 사지 않고 단계적으로
-            k = "half200"; staged = True
         o = old.get(key) or {}
         top3 = [r_["k"] for r_ in rows[:3]]
         if o.get("k") and o.get("ok") and ok and o["k"] in L and (o["k"] in top3 or (o.get("staged") and "lump" in top3)):
             k = o["k"]; staged = bool(o.get("staged"))
+        if k == "lump" and M["now"]["dd"] <= -10:   # 11/12 조정(−10%) 이상이면 한 번에 다 사지 않고 단계적으로 (이어 쓰기 뒤에 봄)
+            k = "half200"; staged = True
         anchor = o.get("anchor") if o.get("k") == k and o.get("anchor") else str(s.index[-1].date())
         w, nx = weight_now(k, s, anchor)
         r_ = L[k]
