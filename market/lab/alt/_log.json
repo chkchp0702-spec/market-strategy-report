@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T01:39",
+ "at": "2026-11-12T01:52",
  "log": {
   "px": {
    "rows": 10920,
@@ -53,7 +53,23 @@
    "err": "IndexError: index 0 is out of bounds for axis 0 with size 0"
   },
   "kr_deposit": {
-   "err": "HTTPError: 404 Client Error: 404 for url: https://m.stock.naver.com/api/domestic/market/trendDeposit?page=1&pageSize=60"
+   "rows": 60,
+   "cols": [
+    "date",
+    "customerDeposit",
+    "customerDepositDiff",
+    "customerDepositDiffAbs",
+    "creditLoan",
+    "creditLoanDiff",
+    "creditLoanDiffAbs",
+    "beneficiaryCertificateStock",
+    "beneficiaryCertificateStockDiff",
+    "beneficiaryCertificateStockDiffAbs",
+    "beneficiaryCertificateBond",
+    "beneficiaryCertificateBondDiff"
+   ],
+   "first": "20260812",
+   "last": "20261110"
   },
   "kr_investor": {
    "rows": 5154,
@@ -67,6 +83,31 @@
    ],
    "first": "2016-05-13",
    "last": "2026-11-12"
+  },
+  "kr_kofia_funds": {
+   "rows": 7234,
+   "cols": [
+    "date",
+    "TMPV2",
+    "TMPV3",
+    "TMPV4",
+    "TMPV5",
+    "TMPV6",
+    "TMPV7"
+   ],
+   "first": "19980618",
+   "last": "20261110"
+  },
+  "jp_nikkei_val": {
+   "rows": 14,
+   "cols": [
+    "date",
+    "kind",
+    "加重平均(倍)",
+    "指数ベース(倍)"
+   ],
+   "first": "2026.11.02",
+   "last": "2026.11.11"
   },
   "us_multpl": {
    "rows": 3743,
@@ -97,17 +138,6 @@
    ],
    "first": "1987-06-26",
    "last": "2026-11-05"
-  },
-  "jp_nikkei_val": {
-   "rows": 14,
-   "cols": [
-    "date",
-    "kind",
-    "加重平均(倍)",
-    "指数ベース(倍)"
-   ],
-   "first": "2026.11.02",
-   "last": "2026.11.11"
   },
   "cn_pe_sh": {
    "rows": 336,
