@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아, 황 CEO 관계 조사 — AI 업계가 파장 저울질",
+   "url": "https://datacenterknowledge.com/data-center-chips/nvidia-probes-huang-ties-as-ai-industry-weighs-the-fallout",
+   "press": "Data Center Knowledge",
+   "at": "2026-11-12 16:45",
+   "why": "엔비디아 경영 공백이 AI 인프라 고객·공급망에 주는 파장 — 「대장주 단독 vs 현금 도피」 판정·091160·SOXX",
+   "summary": "이사회 독립 조사·후임 물색 보도 정리. 데이터센터 고객 쪽 영향 관점."
+  },
+  {
+   "title": "젠슨 황 스캔들과 엔비디아 AI 붐 뒤의 360억 달러 사업",
+   "url": "https://www.exchange4media.com/marketing-news/the-jensen-huang-affair-and-the-36-billion-business-behind-nvidias-ai-boom-160052.html",
+   "press": "exchange4media",
+   "at": "2026-11-12 16:45",
+   "why": "싱가포르(메가스피드) 매출 비공개 의혹과 연결 — 규제·중국 칩 위험이 사람 위험에 겹치는지, 🫧 경보판 규제 칸",
+   "summary": "제목 기준 360억 달러 규모 사업(싱가포르 경유 매출) 조명. 세부 숫자 미확인."
+  },
+  {
    "title": "번스타인: 발표된 미국 데이터센터 용량 중 실제 지어질 것은 약 35%",
    "url": "https://runtimewire.com/article/bernstein-data-center-pipeline-credibility",
    "press": "Runtime Wire",
@@ -623,14 +639,6 @@
    "at": "2026-11-10 15:54",
    "why": "AI 차입 가설 — 최대 AI 투자자 손실, 美 데이터센터 비용 증가(블룸버그) · 오늘 밤 코어위브 실적과 같은 줄기",
    "summary": "회계연도 2분기(7~9월) 약 70억달러 순손실. 블룸버그는 美 데이터센터 비용 증가를 원인으로 언급. 세부 항목은 원문 확인 필요."
-  },
-  {
-   "title": "씨티의 AI 여진 대비책: 채권과 소형주에 걸어라",
-   "url": "https://www-web.itiger.com/news/2612266338",
-   "press": "Tiger Brokers(블룸버그 인용)",
-   "at": "2026-11-10 15:40",
-   "why": "씨티 美 주식 중립 하향과 같은 줄기 — AI 쏠림에서 채권·소형주로 회전 제안, 고금리 정점 가설(중장기채)과 연결",
-   "summary": "씨티 전략가, AI 충격 이후 대형 기술주 대신 채권·소형주 비중 제안. 세부 수치는 원문 확인 필요(미확인)."
   }
  ],
  "at": "2026-11-12 13:45"
