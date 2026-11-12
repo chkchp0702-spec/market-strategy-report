@@ -1,0 +1,30 @@
+name: season
+# 🧭 시장 계절 시계 (src/season_bt.py → market/season.json) — 5개국 지수 계절·확률·권장 비중 · 평일 아침·한국 장 마감 뒤
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [src/season_bt.py, .github/workflows/season.yml]
+  schedule:
+    - cron: "20 22 * * 0-4"   # KST 월~금 07:20 (미국 마감 뒤)
+    - cron: "50 7 * * 1-5"    # KST 월~금 16:50 (아시아 마감 뒤)
+permissions:
+  contents: write
+concurrency:
+  group: push-${{ github.repository }}-${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  season:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q yfinance pandas numpy
+      - run: python src/season_bt.py
+      - name: 저장
+        run: |
+          git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
+          bash scripts/push.sh "season $(TZ=Asia/Seoul date '+%F %H:%M')" market/season.json
