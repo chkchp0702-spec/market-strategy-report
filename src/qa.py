@@ -1,4 +1,4 @@
-"""💬 고객이 이렇게 물으면 — 오늘 시황으로 쓴 답 20개 (11/11 사용자 「질문 갯수를 20개까지 늘리고」 · 처음 11/10 은 10개) (11/10 사용자: 「답변이 영 시원치 않다 · 지금 네 시황을 반영해서 PB나 고객 모두 우와 할 정도로 늘 답해」)
+"""💬 고객이 이렇게 물으면 — 오늘 시황으로 쓴 답 25개 = 기본 20 + 🔥 이슈 5 (11/12 사용자 「이슈 질문을 5개로 하고 총 25개」) · 그 전 20개 (11/11 사용자 「질문 갯수를 20개까지 늘리고」 · 처음 11/10 은 10개) (11/10 사용자: 「답변이 영 시원치 않다 · 지금 네 시황을 반영해서 PB나 고객 모두 우와 할 정도로 늘 답해」)
   · 아침 리포트 세션이 data/YYYY-MM-DD.json 의 "qa" 에 직접 쓴다 (RULES 1-N) — 틀에 숫자만 끼운 답이 아니라 그날 리포트의 킥·집중·대결·계기판·수급을 녹인 답
   · check(day): 검산 (src/verify.py 가 부름) — 빠졌거나 빈약하면 실패
   · export(): 가장 최근 data 파일의 qa → market/qa.json (앱 daily-app mine.js 가 읽음 · src/home.py 가 매번 부름)
@@ -12,12 +12,15 @@ ROOT = Path(__file__).resolve().parent.parent
 START = "2026-11-11"          # 이 날부터 필수
 MUST = ["팔", "사도", "외국인", "미국", "바닥|저점|언제", "현금", "채권|금리", "환율|달러"]   # 꼭 있어야 하는 질문 갈래(질문 글에 이 말이 들어감)
 START20 = "2026-11-12"        # 🙌 11/11 사용자 「질문 20개까지」 — 아침 리포트는 이 날부터 20개(시황 두뇌가 고치는 market/qa.json 은 11/11 부터)
+START25 = "2026-11-13"        # 🔥 11/12 사용자 「이슈 질문을 5개로 하고 총 25개의 질문이 되도록」 — 아침 리포트는 11/13 부터 25개(기본 20 + 이슈 5) · 시황 두뇌가 고치는 market/qa.json 은 11/12 오후부터
+MUST25 = ["배당", "세금|절세"]   # 기본 20개에 새로 들어간 두 갈래
+HOT = 5                       # 🔥 이슈 질문 수 — "hot": true · 그날 뉴스·화제로 매번 갈아 끼움
 MUST20 = ["뭐가 세|주도|어디로 가", "손실|물렸|물타기", "일본|중국|홍콩", "지켜봐|일정|중요한 날", r"(?<![현예적자])금(?= |은|을|값)", "유가|원유|기름", "ELS", "연금|IRP", "예금|만기", "적립|매달"]
 GROUPS = {"주식", "금리", "상품"}   # 앱 갈래 칩 — 📈 주식 · 💱 금리·환율(금·유가 포함) · 🧺 상품·연금
 LONG = 320                    # 근거 한 줄이 이보다 길면 알림만(실패 아님) — 매시간 고칠 때 덧붙이지 말고 바꿔 쓰기
 
 
-def check(day: dict, full: bool | None = None) -> int:
+def check(day: dict, full: bool | None = None, f25: bool | None = None) -> int:
     if str(day.get("date", "")) < START:
         return 0
     qa = day.get("qa") or {}
@@ -25,11 +28,17 @@ def check(day: dict, full: bool | None = None) -> int:
     bad = []
     if full is None:
         full = str(day.get("date", "")) >= START20
-    need = 19 if full else 9
+    if f25 is None:
+        f25 = str(day.get("date", "")) >= START25
+    need = 24 if f25 else 19 if full else 9
     if len(items) < need:
-        bad.append(f"질문이 {len(items)}개 — {'20개(적어도 19개)' if full else '9~10개'} 필요")
+        bad.append(f"질문이 {len(items)}개 — {'25개(기본 20 + 🔥 이슈 5 · 적어도 24개)' if f25 else '20개(적어도 19개)' if full else '9~10개'} 필요")
+    if f25:
+        hot = [i for i in items if i.get("hot")]
+        if len(hot) < HOT:
+            bad.append(f"🔥 이슈 질문(\"hot\": true)이 {len(hot)}개 — {HOT}개 필요 (그날 뉴스·화제 · 기본 20개와 겹치지 않게)")
     qs = " / ".join(str(i.get("q", "")) for i in items)
-    for m in MUST + (MUST20 if full else []):
+    for m in MUST + (MUST20 if full else []) + (MUST25 if f25 else []):
         if not re.search(m, qs):
             bad.append(f"「{m}」 갈래 질문이 없음")
     if full:
@@ -106,7 +115,7 @@ def check_file(p: str = "market/qa.json") -> int:
     import datetime as dt
     d = json.loads((ROOT / p).read_text(encoding="utf-8"))
     kst = dt.datetime.now(dt.timezone(dt.timedelta(hours=9)))
-    bad = check({"date": max(START, kst.strftime("%Y-%m-%d")), "qa": d}, full=True)
+    bad = check({"date": max(START, kst.strftime("%Y-%m-%d")), "qa": d}, full=True, f25=kst.strftime("%Y-%m-%d %H:%M") >= "2026-11-12 14:00")
     at = str(d.get("at", ""))
     if at[:10] != kst.strftime("%Y-%m-%d"):
         print(f"  ✗ at 이 오늘이 아님({at}) — 고친 시각(YYYY-MM-DD HH:MM)을 적으세요"); bad = 1
