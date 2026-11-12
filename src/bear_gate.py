@@ -513,6 +513,33 @@ def notify(title, body, dry=False):
 
 
 # ───────────────────────── 지금 판정 ─────────────────────────
+def rule_change(o, r, sent, dry=False):
+    """🔁 고른 방식(analog.k)이 바뀌거나 · 닮은 장 규칙이 처음 생기거나 없어지면 알림 · 🇺🇸 200일선 아래로 내려가 기본 포트 규칙과 엇갈리기 시작하면 알림 (하루 한 번)"""
+    if not o:
+        return
+    oa, na = o.get("analog") or {}, r.get("analog") or {}
+    key = r["key"]
+    if oa.get("k") != na.get("k") and (oa or na):
+        k = f"{key}:rule:{na.get('k')}:{r['asof']}"
+        if sent.get(key + "_rule") != k:
+            t = f"🔁 {r['name']} 규칙이 바뀜 — " + (oa.get("rule") or "정하지 않음") + " → " + (na.get("rule") or "정하지 않음")
+            b = (f"지금 주식 {na.get('stock')}% · 다음: {na.get('next', '')}" if na else "닮은 장에서 통하는 방식이 없어짐 — 나눠 사기만 참고") + \
+                f"\n(예전 방식이면 주식 {oa.get('stock', '–')}%) · 닮은 때가 바뀌면 고르는 방식도 바뀜 — 앱 🔁 닮은 장 카드에서 이유 확인"
+            if notify(t, b, dry):
+                sent[key + "_rule"] = k
+    if key in ("sp500", "nasdaq") and r.get("m200") and o.get("close") and o.get("m200"):
+        below, was = r["close"] < r["m200"], o["close"] < o["m200"]
+        if below != was:
+            k = f"{key}:m200:{below}:{r['asof']}"
+            if sent.get(key + "_m200") != k:
+                t = (f"⚠ {r['name']} 200일선 아래로 — 두 규칙이 엇갈리기 시작" if below else f"✅ {r['name']} 200일선 위로 복귀 — 두 규칙 다시 같은 말")
+                b = (f"종가 {r['close']:,.0f} < 200일선 {r['m200']:,.0f}. 💼 기본 포트는 3일 이어지면 주식을 줄이고(현금·단기채 26% · 금 11%), 🔁 닮은 장 규칙은 아직 주식 {na.get('stock', '–')}%예요 — 포트는 200일선 규칙이 먼저."
+                     if below else f"종가 {r['close']:,.0f} > 200일선 {r['m200']:,.0f}. 기본 포트와 닮은 장 규칙이 다시 같은 쪽이에요.")
+                if notify(t, b, dry):
+                    sent[key + "_m200"] = k
+
+
+
 def apply_analog(r, key, name):
     """🔁 11/12 사용자 「1번」 — 닮은 장 백테스트에서 고른 방식이 현금 몫을 정함 (src/analog_bt.py adopt · 하나 빼고 고르기 통과한 시장만 · 예전 규칙은 cash_old 로 남김)"""
     ap = next((x for x in (rj(ANALOG, {}) or {}).get("markets", []) if x.get("key") == key and x.get("ok")), None)
@@ -570,6 +597,8 @@ def more_markets(old, dry=False, px=None):
             r = {k: r.get(k) for k in ("key", "name", "nat", "asof", "state", "dd", "close", "m50", "m200", "cash", "advice", "analog")}
             o = oldm.get(key)
             r["since"] = o.get("since", r["asof"]) if o and o.get("state") == r["state"] else r["asof"]
+            if o:
+                rule_change(o, r, sent, dry)
             k = f"{key}:{r['asof']}:{r['state']}:{r['cash']}"
             if o and (o.get("state") != r["state"] or o.get("cash") != r["cash"]) and sent.get(key) != k:
                 t = f"{r['state']} {name} — " + (f"주식 {100 - o['cash']}% → {100 - r['cash']}%" if o.get("cash") is not None and r["cash"] is not None else f"{o.get('state')} → {r['state']}")
@@ -661,6 +690,7 @@ def live(dry=False):
         if o and r["state"] != "🟢":   # 🌱 새로 켜진 바닥 신호 (알림 본문 한 줄 · 앱 「🟢 켜짐」)
             oc = [bool(c.get("on")) for c in (o.get("checks") or [])]
             r["fresh"] = [k for k, c in enumerate(r["checks"]) if c["on"] and c.get("use") and k < len(oc) and not oc[k]]
+        rule_change(o, r, old.get("sent") or {}, dry)   # 🔁 11/12 사용자 「규칙이 바뀌기 시작하면 내게 꼭 알려줘」
         if o and (o.get("state") != r["state"] or o.get("cash") != r["cash"]):
             changed.append((o, r))
         r["since"] = o.get("since", r["asof"]) if o and o.get("state") == r["state"] else r["asof"]
