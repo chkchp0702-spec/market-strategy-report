@@ -1,5 +1,5 @@
 {
- "at": "2026-11-12T01:52",
+ "at": "2026-11-12T02:02",
  "log": {
   "px": {
    "rows": 10920,
@@ -46,31 +46,6 @@
     "^KS200"
    ]
   },
-  "kr_fund": {
-   "err": "ReadTimeout: HTTPSConnectionPool(host='data.krx.co.kr', port=443): Read timed out. (read timeout=40)"
-  },
-  "kr_fund_pykrx": {
-   "err": "IndexError: index 0 is out of bounds for axis 0 with size 0"
-  },
-  "kr_deposit": {
-   "rows": 60,
-   "cols": [
-    "date",
-    "customerDeposit",
-    "customerDepositDiff",
-    "customerDepositDiffAbs",
-    "creditLoan",
-    "creditLoanDiff",
-    "creditLoanDiffAbs",
-    "beneficiaryCertificateStock",
-    "beneficiaryCertificateStockDiff",
-    "beneficiaryCertificateStockDiffAbs",
-    "beneficiaryCertificateBond",
-    "beneficiaryCertificateBondDiff"
-   ],
-   "first": "20260812",
-   "last": "20261110"
-  },
   "kr_investor": {
    "rows": 5154,
    "cols": [
@@ -98,16 +73,40 @@
    "first": "19980618",
    "last": "20261110"
   },
-  "jp_nikkei_val": {
-   "rows": 14,
+  "kr_kofia_credit": {
+   "rows": 7235,
    "cols": [
     "date",
-    "kind",
-    "加重平均(倍)",
-    "指数ベース(倍)"
+    "TMPV2",
+    "TMPV3",
+    "TMPV4",
+    "TMPV5",
+    "TMPV6",
+    "TMPV7",
+    "TMPV8",
+    "TMPV9"
    ],
-   "first": "2026.11.02",
-   "last": "2026.11.11"
+   "first": "19980130",
+   "last": "20261110"
+  },
+  "kr_deposit": {
+   "rows": 60,
+   "cols": [
+    "date",
+    "customerDeposit",
+    "customerDepositDiff",
+    "customerDepositDiffAbs",
+    "creditLoan",
+    "creditLoanDiff",
+    "creditLoanDiffAbs",
+    "beneficiaryCertificateStock",
+    "beneficiaryCertificateStockDiff",
+    "beneficiaryCertificateStockDiffAbs",
+    "beneficiaryCertificateBond",
+    "beneficiaryCertificateBondDiff"
+   ],
+   "first": "20260812",
+   "last": "20261110"
   },
   "us_multpl": {
    "rows": 3743,
