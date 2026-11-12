@@ -1,17 +1,17 @@
 {
- "at": "2026-11-12 23:23",
- "asof_us": "2026-11-11",
- "asof_kr": "2026-11-12",
+ "at": "2026-11-13 01:25",
+ "asof_us": "2026-11-12",
+ "asof_kr": "2026-11-11",
  "h": 0.0,
  "h_kr": 0.0,
- "h_free": 3.0,
+ "h_free": 2.0,
  "kospi_below200": true,
  "kospi_on": false,
  "since": null,
  "stages": {
   "💳 신용": 0.0,
   "📈 금리·유가": 0.5,
-  "🧊 주식 속살·현금 도피": 0.5,
+  "🧊 주식 속살·현금 도피": 0.25,
   "🛟 완충 꺼짐": 0.0
  },
  "cells": {
@@ -20,7 +20,7 @@
   "rate": 0.5,
   "oil": 0.5,
   "breadth": 0.0,
-  "flow": 1.0,
+  "flow": 0.5,
   "curve": 0.0,
   "buffer": 0.0
  },
@@ -36,7 +36,7 @@
    "cred": 0.0,
    "nb": 1,
    "low60_seen": null,
-   "asof": "2026-11-12"
+   "asof": "2026-11-11"
   },
   "kosdaq": {
    "on": true,
@@ -47,18 +47,18 @@
    "cred": 0.0,
    "nb": 1,
    "low60_seen": null,
-   "asof": "2026-11-12"
+   "asof": "2026-11-11"
   },
   "sp500": {
    "on": false,
    "since": null,
    "ent": "credit200",
    "exit": "floor14",
-   "h_free": 3.0,
+   "h_free": 2.0,
    "cred": 0.0,
    "nb": 1,
    "low60_seen": null,
-   "asof": "2026-11-11"
+   "asof": "2026-11-12"
   }
  }
 }
