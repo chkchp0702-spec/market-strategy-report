@@ -183,7 +183,8 @@ def one(key, sym, name, nat, s):
 #   고르기: 매년 1월 — 그 전날까지 최대 낙폭이 보유보다 나쁘지 않은 방식 중 연수익 1등(없으면 hold) · 첫 10년은 배우는 기간(hold)
 MN = {"hold": "그냥 들고 있기", "ma10": "10개월선 위면 주식 · 아래면 현금", "ma10h": "10개월선 아래면 절반만 현금", "mom12": "1년 전보다 높으면 주식 · 아니면 현금",
       "step2": "신호 2개 계단 (0·50·100)", "step3": "신호 3개 계단 (0·33·67·100)", "ddl": "고점 −10% 절반 · −20% 전부 현금", "floor": "하락장엔 현금 → 바닥 신호마다 3분의 1씩 담기",
-      "deep": "10개월선 + 많이 싸면 절반은 들기", "hal": "5~10월엔 절반만", "hal0": "5~10월엔 현금", "season": "계절표 (월말)"}
+      "deep": "10개월선 + 많이 싸면 절반은 들기", "hal": "11~4월 주식 · 5~10월엔 절반만", "hal0": "11~4월 주식 · 5~10월엔 현금",
+      "halma": "11~4월 주식 · 5~10월엔 10개월선 위일 때만 절반", "halma2": "11~4월 주식 · 5~10월엔 10개월선 위일 때만 주식", "season": "계절표 (월말)"}
 
 
 def to_daily(sig_m, idx):
@@ -204,11 +205,14 @@ def methods(s, st, lr, stp, first):
     b = (m / m.shift(12) > 1).astype(float).where(m.shift(12).notna(), 1.0)
     b6 = (m / m.shift(6) > 1).astype(float).where(m.shift(6).notna(), 1.0)
     dd3 = m / m.rolling(36, min_periods=12).max() - 1
-    mon = pd.Series([k[1] for k in m.index], index=m.index)
+    mon = pd.Series([k[1] % 12 + 1 for k in m.index], index=m.index)   # 월말에 정하는 건 「다음 달」 비중 (2차에선 한 달 밀려 있었음 — 고침)
+    win = mon.isin([11, 12, 1, 2, 3, 4]).astype(float)
     W = {"hold": np.ones(n), "ma10": to_daily(a, idx), "ma10h": to_daily(0.5 + 0.5 * a, idx), "mom12": to_daily(b, idx),
          "step2": to_daily((a + b) / 2, idx), "step3": to_daily(((a + b + b6) / 3).round(2), idx),
          "deep": to_daily(np.maximum(a, (dd3 <= -0.35).astype(float) * 0.5), idx),
-         "hal": to_daily(mon.isin([11, 12, 1, 2, 3, 4]).astype(float) * 0.5 + 0.5, idx), "hal0": to_daily(mon.isin([11, 12, 1, 2, 3, 4]).astype(float), idx)}
+         "hal": to_daily(win * 0.5 + 0.5, idx), "hal0": to_daily(win, idx),
+         # 3차(11/12 · 2차에서 달력이 한국·중국에서 통한 걸 보고 등록): 달력 + 추세
+         "halma": to_daily(np.maximum(win, a * 0.5), idx), "halma2": to_daily(np.maximum(win, a), idx)}
     # 날마다 방식
     m20, m50, m200 = (s.rolling(k).mean().values for k in (20, 50, 200))
     hi = s.rolling(252, min_periods=60).max().values; dd = c / hi - 1
@@ -294,6 +298,21 @@ def one2(o, s):
         for q in ("a", "b"):
             if x[q] is not None: x[q] = round(x[q], 2)
     o["methods"] = sorted(rows, key=lambda x: -x["cagr"])
+    # 달력: 달마다 평균·오른 비율 (앞·뒤 절반도)
+    mm = s.groupby([idx.year, idx.month]).last(); mr = mm.pct_change().dropna()
+    yrs = np.array([k[0] for k in mr.index]); mons = np.array([k[1] for k in mr.index]); v = mr.values
+    ymid = int(np.median(yrs))
+    cal = []
+    for k in range(1, 13):
+        x = v[mons == k]; xa = v[(mons == k) & (yrs <= ymid)]; xb = v[(mons == k) & (yrs > ymid)]
+        cal.append({"m": k, "avg": round(float(x.mean()) * 100, 2), "up": round(float((x > 0).mean()) * 100), "n": int(len(x)),
+                    "a": round(float(xa.mean()) * 100, 2) if len(xa) else None, "b": round(float(xb.mean()) * 100, 2) if len(xb) else None})
+    o["cal"] = cal
+    wv, sv = v[np.isin(mons, [11, 12, 1, 2, 3, 4])], v[~np.isin(mons, [11, 12, 1, 2, 3, 4])]
+    o["halves"] = {"winter": round(float(wv.mean()) * 600, 1), "summer": round(float(sv.mean()) * 600, 1), "ymid": ymid}
+    # 채택 후보: 앞·뒤 둘 다 보유를 이긴 방식 중 전체 연수익 1등 (없으면 hold)
+    ok = [x for x in o["methods"] if x["both"] and x["mdd"] >= o["meta"]["all"]["hold_mdd"]]
+    o["best"] = ok[0] if ok else next(x for x in o["methods"] if x["k"] == "hold")
     # 그림: 분기마다 (걸어가며 고른 것 vs 보유) 자산 곡선
     ch = np.abs(np.diff(wd, prepend=wd[0]))
     nav = np.cumprod(1 + (wd * r + (1 - wd) * CASH - COST * ch)[t0:]); bh = np.cumprod(1 + r[t0:])
@@ -320,6 +339,8 @@ def main():
         for nm, k in (("전체", "all"), ("앞", "a"), ("뒤", "b")):
             w = M[k]
             if w: print(f"   걸어가며 고르기 {nm} {w['from']}~{w['to']}: 연 {w['cagr']}% 낙폭 {w['mdd']}% | 보유 {w['hold_cagr']}% {w['hold_mdd']}% · 1년 {w['sw_y']}번")
+        print("   달력:", " ".join(f"{c['m']}월 {c['avg']:+.1f}({c['up']}%)" for c in o["cal"]), "| 11~4월 합", o["halves"]["winter"], "5~10월 합", o["halves"]["summer"])
+        print("   채택 후보:", o["best"]["k"], o["best"]["cagr"], o["best"]["mdd"], "지금", o["best"]["w_now"])
         for x in o["methods"]:
             print(f"     {x['k']:>6} 연 {x['cagr']:>6}% 낙폭 {x['mdd']:>6}% 1년 {x['sw_y']:>4}번 | 보유 대비 앞 {x['a']} 뒤 {x['b']} {'✅' if x['both'] else ''} · 지금 {x['w_now']}%")
     OUT.write_text(json.dumps(res, ensure_ascii=False, indent=1, default=float), encoding="utf-8")
