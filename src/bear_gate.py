@@ -89,6 +89,10 @@ BEST = {"kospi": (100, "🏁 버블 시계 4.5시"), "kosdaq": (100, "🏁 버�
 #   🇺🇸 은 시계 판 32개(순서 문 있는 20 · 없는 12) 모두 2013년 뒤에 보유에 짐 → 연결 안 함
 CLOCK_ON = {"kospi"}
 PROXY = M / "bubble_proxy.json"
+# 🧩 11/12 사용자 「규칙에 적용시켜」 → src/rule_bt.py 가 나라별 다른 자료 신호(alt_bt 통과)를 지금 규칙에 얹어 보고, 2012년까지·2013년부터 둘 다 나아진 것만 채택
+#   → market/rule_overlay.json (평일 아침 alt.yml) — 🚨 경고 얹기: 켜지면 주식 몫 n% 를 현금(채권형) · 🌱 바닥 얹기: 켜지면 현금을 풂
+#   11/12 첫 판: 코스닥만 채택 「🇺🇸 CAPE 비쌈(과거 상위 10%) → 주식 몫 50% 현금」 (연 3.95 → 4.91% · 최대 낙폭 −49.9 → −41.9%)
+OVERLAY = M / "rule_overlay.json"
 RULE_NM = {"E": "추세 확인 — 저점 다지기 + 50일선 위면 현금 10%, 20일선까지 회복하면 0%",
            "F": "판정만 — 하락장이 풀릴 때(고점 −10% 위 + 200일선 위)까지 현금 유지 · 바닥 신호로 미리 안 삼",
            "K100": "하락장이면 주식 몫 전부 현금(100%) — 판정이 풀릴 때(고점 −10% 위 + 200일선 위)까지 · 조정(−10%)은 현금 안 늘림",
@@ -257,6 +261,8 @@ def judge(closes, vix=None, foreign=None, kind="us", prev_bear=False, i=None):
 
 def advice(name, r):
     st, cash, rid = r["state"], r["cash"], (r.get("rule") or {}).get("id", "F")
+    if r.get("overlay_on") and not r.get("best_on"):
+        return f"{name} {'하락장' if st == '🐻' else '조정' if st == '🟡' else '정상'} · 🧩 {r['overlay_on']} — 주식 몫 {cash}% {r.get('to', '현금')}으로 · 그 신호가 꺼지면 다시 주식"
     if r.get("best_on"):
         b = r["best"]
         return (f"{name} {'하락장' if st == '🐻' else '조정' if st == '🟡' else '정상'} · {r['best_why']}({b.get('since') or ''}~) — 주식 몫 {r['cash']}% {r.get('to', '현금')}으로 · "
@@ -546,6 +552,19 @@ def live(dry=False):
                 r["best_on"] = True
                 r["best_why"] = BEST[key][1]
                 r["ladder"] = [[BEST[key][0], BEST[key][1] + " 켜짐"], [0, "신저가 뒤 바닥 신호 " + ("①④" if bb_.get("exit") == "floor14" else "3개") + " · 또는 신저가 없이 신호 꺼짐"]]
+        ov = ((rj(OVERLAY, {}) or {}).get("markets") or {}).get(key) or {}
+        if ov.get("pick", "base") != "base":
+            r["overlay"] = {"name": ov.get("name"), "parts": ov.get("parts"), "full": ov.get("full"), "base_full": ov.get("base_full")}
+            for pt in ov.get("parts") or []:
+                if not pt.get("on"):
+                    continue
+                if pt.get("side") == "W":
+                    fr = int(round(float(pt.get("arg") or 0) * 100))
+                    if r["cash"] < fr:
+                        r["cash"] = fr; r["overlay_on"] = pt["name"]
+                        r["ladder"] = [[fr, "🧩 " + pt["name"]], [0, "그 신호가 꺼지면"]]
+                elif pt.get("side") == "B" and r["cash"] > 0:
+                    r["cash"] = 0 if pt.get("arg") == "0" else min(r["cash"], 50); r["overlay_on"] = pt["name"]
         if key in CLOCK_ON:
             bp = rj(PROXY, {}) or {}
             r["clock"] = {k_: bp.get(k_) for k_ in ("h", "h_kr", "kospi_on", "since", "kospi_below200", "asof_us")}

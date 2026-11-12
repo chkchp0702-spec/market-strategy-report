@@ -1,0 +1,110 @@
+{
+ "at": "2026-11-12 11:06",
+ "markets": {
+  "kospi": {
+   "pick": "base",
+   "name": "지금 규칙 그대로",
+   "parts": [],
+   "to": "현금",
+   "full": {
+    "cagr": 9.81,
+    "mdd": -26.3,
+    "hold": 8.49,
+    "hold_mdd": -55.7,
+    "sw_y": 2.0
+   },
+   "base_full": {
+    "cagr": 9.81,
+    "mdd": -26.3,
+    "hold": 8.49,
+    "hold_mdd": -55.7,
+    "sw_y": 2.0
+   },
+   "a": 12.25,
+   "b": 7.25,
+   "base_a": 12.25,
+   "base_b": 7.25
+  },
+  "kosdaq": {
+   "pick": "W:g_cape_hi:0.5",
+   "name": "🚨 🇺🇸 CAPE 비쌈(과거 상위 10%) → 주식 몫 50% 현금",
+   "parts": [
+    {
+     "k": "g_cape_hi",
+     "name": "🇺🇸 CAPE 비쌈(과거 상위 10%)",
+     "side": "W",
+     "arg": "0.5",
+     "on": true,
+     "asof": "2026-11-12"
+    }
+   ],
+   "to": "현금",
+   "full": {
+    "cagr": 4.91,
+    "mdd": -41.9,
+    "hold": -0.81,
+    "hold_mdd": -72.3,
+    "sw_y": 2.1
+   },
+   "base_full": {
+    "cagr": 3.95,
+    "mdd": -49.9,
+    "hold": -0.81,
+    "hold_mdd": -72.3,
+    "sw_y": 1.3
+   },
+   "a": 4.42,
+   "b": 5.26,
+   "base_a": 4.34,
+   "base_b": 3.53
+  },
+  "sp500": {
+   "pick": "base",
+   "name": "지금 규칙 그대로",
+   "parts": [],
+   "to": "채권형",
+   "full": {
+    "cagr": 9.21,
+    "mdd": -36.9,
+    "hold": 8.58,
+    "hold_mdd": -55.2,
+    "sw_y": 3.7
+   },
+   "base_full": {
+    "cagr": 9.21,
+    "mdd": -36.9,
+    "hold": 8.58,
+    "hold_mdd": -55.2,
+    "sw_y": 3.7
+   },
+   "a": 4.89,
+   "b": 13.54,
+   "base_a": 4.89,
+   "base_b": 13.54
+  },
+  "nasdaq": {
+   "pick": "base",
+   "name": "지금 규칙 그대로",
+   "parts": [],
+   "to": "현금",
+   "full": {
+    "cagr": 10.48,
+    "mdd": -83.0,
+    "hold": 10.48,
+    "hold_mdd": -83.0,
+    "sw_y": 0.0
+   },
+   "base_full": {
+    "cagr": 10.48,
+    "mdd": -83.0,
+    "hold": 10.48,
+    "hold_mdd": -83.0,
+    "sw_y": 0.0
+   },
+   "a": 2.22,
+   "b": 19.11,
+   "base_a": 2.22,
+   "base_b": 19.11
+  }
+ }
+}
