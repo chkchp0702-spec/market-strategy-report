@@ -36,11 +36,16 @@ SPLIT = pd.Timestamp("2013-01-01")
 H = 126
 WN = {"w_b200": "200일선 아래", "w_dc": "데드크로스(50일선<200일선)", "w_dd10": "1년 고점보다 −10%↓", "w_hot": "과열(200일선보다 한참 위)", "w_mom12": "1년 전보다 낮음",
       "w_vol": "변동성 급증", "w_low60": "최근 10일 안 60일 신저가", "w_cred": "🇺🇸 신용 악화(하이일드 채권 약세)", "w_inv": "🇺🇸 장단기 금리 뒤집힘", "w_curve": "🇺🇸 뒤집혔던 금리차 다시 벌어짐",
-      "w_vix25": "VIX 25 위", "w_breadth": "🇺🇸 지수는 고점인데 평균 종목은 약함", "w_clock6": "버블 시계 6시↑", "w_rate": "🇺🇸 10년 금리 6개월 새 +1%p", "w_usbear": "S&P500 200일선 아래"}
+      "w_vix25": "VIX 25 위", "w_breadth": "🇺🇸 지수는 고점인데 평균 종목은 약함", "w_clock6": "버블 시계 6시↑", "w_rate": "🇺🇸 10년 금리 6개월 새 +1%p", "w_usbear": "S&P500 200일선 아래",
+      # 2차(11/12 · 1차 결과를 본 뒤 등록 — 1차: 믿을 만한 경고 2개뿐 · 바닥 0개 · 모형 AUC 0.51): 신호 넓히기 + 「갓 켜진」 신호 + 큰 하락(−20%)·1년 뒤 목표 + 지수별 표 + 나무 모형
+      "w_sox": "반도체 지수(SOX) 200일선 아래", "w_dxy": "달러 3개월 새 +5% 강세", "w_copper": "구리÷금 6개월 새 −10%", "w_oil": "유가 6개월 새 +40%", "w_hydd": "🇺🇸 하이일드 채권 고점보다 −5%",
+      "w_f200": "200일선 갓 깨짐(20일 안)", "w_fdd10": "고점 −10% 갓 넘음(20일 안)", "w_fdc": "데드크로스 갓 남(20일 안)"}
 BN = {"b_base": "저점 10일 넘게 안 깨짐 + 20일선 위", "b_a50": "50일선 위로", "b_a200": "200일선 위로", "b_thrust": "저점에서 10일 +8% 급반등", "b_ftd": "팔로스루 데이(저점 4~12일 뒤 +1.7%)",
       "b_vixcap": "VIX 40 찍고 30 아래로", "b_vix20": "VIX 20 아래", "b_credup": "🇺🇸 신용 회복(하이일드 채권 강세)", "b_cut": "🇺🇸 단기 금리 내리는 중(연준 인하)", "b_deep30": "1년 고점보다 −30% 넘게 쌈",
-      "b_rsi": "RSI 30 아래 찍고 40 회복", "b_hl": "저점이 높아짐", "b_usup": "S&P500 200일선 위", "b_mom3": "3개월 수익 플러스"}
+      "b_rsi": "RSI 30 아래 찍고 40 회복", "b_hl": "저점이 높아짐", "b_usup": "S&P500 200일선 위", "b_mom3": "3개월 수익 플러스",
+      "b_sox": "반도체 지수(SOX) 200일선 위", "b_dxydn": "달러 3개월 새 −3% 약세", "b_hyup": "🇺🇸 하이일드 채권 50일선 위", "b_f200": "200일선 갓 회복(20일 안)", "b_gc": "골든크로스(50일선>200일선)"}
 WK, BK = list(WN), list(BN)
+CORE = ["w_b200", "w_mom12", "w_vol", "w_cred", "w_inv", "w_vix25", "b_base", "b_rsi"]
 
 
 def globals_(px):
@@ -64,10 +69,20 @@ def globals_(px):
     m200 = g.rolling(200).mean()
     G["w_usbear"] = g < m200
     G["b_usup"] = g > m200
+    sox = A("^SOX"); sm = sox.rolling(200).mean()
+    G["w_sox"] = sox < sm; G["b_sox"] = sox > sm
+    dxy = A("DX-Y.NYB"); d63 = dxy.pct_change(63)
+    G["w_dxy"] = d63 >= 0.05; G["b_dxydn"] = d63 <= -0.03
+    cg = A("HG=F") / A("GC=F"); G["w_copper"] = cg.pct_change(126) <= -0.10
+    oil = A("CL=F"); G["w_oil"] = oil.pct_change(126) >= 0.40
+    hy = A("VWEHX"); G["w_hydd"] = hy / hy.rolling(252, min_periods=120).max() - 1 <= -0.05
+    G["b_hyup"] = hy > hy.rolling(50).mean()
+    for k, src in (("w_sox", sm), ("b_sox", sm), ("w_dxy", d63), ("b_dxydn", d63), ("w_copper", cg.shift(126)), ("w_oil", oil.shift(126))):
+        G[k] = G[k].astype(float).where(src.notna())
     C = bb.cells(px); _, _, hf = bb.clock(C)
     G["w_clock6"] = hf.reindex(idx) >= 6
     valid = pd.DataFrame({"cred": r.notna(), "vix": v.notna(), "eq": eq.notna() & eq.shift(60).notna(), "rate": t.notna() & irx.notna()}, index=idx)
-    return G.astype(float), valid
+    return G.astype(float).ffill(), valid
 
 
 def feats(s, G, us):
@@ -96,6 +111,9 @@ def feats(s, G, us):
     F["b_rsi"] = (rsi.rolling(20, min_periods=5).min() < 30) & (rsi > 40)
     F["b_hl"] = s.rolling(20).min() > s.shift(20).rolling(60, min_periods=30).min()
     F["b_mom3"] = s / s.shift(63) > 1
+    fresh = lambda st: st & (st.astype(float).rolling(20, min_periods=20).min() < 1)
+    F["w_f200"] = fresh(s < m200); F["w_fdd10"] = fresh(dd <= -0.10); F["w_fdc"] = fresh(m50 < m200)
+    F["b_f200"] = fresh(s > m200); F["b_gc"] = m50 > m200
     g = G.shift(0 if us else 1).reindex(idx, method="ffill")
     for k in g.columns:
         F[k] = g[k]
@@ -104,7 +122,10 @@ def feats(s, G, us):
     # 맞히려는 것
     fmin = pd.Series(c[::-1], index=idx[::-1]).rolling(H, min_periods=H).min()[::-1].shift(-1) / s - 1   # 앞으로 H일 최저
     fret = s.shift(-H) / s - 1
-    Y = pd.DataFrame({"down": (fmin <= -0.10).astype(float).where(fmin.notna()), "good": ((fret > 0) & (fmin > -0.10)).astype(float).where(fret.notna()),
+    H2 = 252
+    fmin2 = pd.Series(c[::-1], index=idx[::-1]).rolling(H2, min_periods=H2).min()[::-1].shift(-1) / s - 1
+    fret2 = s.shift(-H2) / s - 1
+    Y = pd.DataFrame({"crash": (fmin2 <= -0.20).astype(float).where(fmin2.notna()), "up12": (fret2 > 0).astype(float).where(fret2.notna()), "fret12": fret2, "down": (fmin <= -0.10).astype(float).where(fmin.notna()), "good": ((fret > 0) & (fmin > -0.10)).astype(float).where(fret.notna()),
                       "up": (fret > 0).astype(float).where(fret.notna()), "fret": fret, "dd": dd, "ok": ok})
     return F[WK + BK], Y
 
@@ -208,7 +229,7 @@ def calib(D, P, tgt, q=(0, .2, .4, .6, .8, 1.0)):
 
 
 def main():
-    extra = ["^VIX", "RSP"] + [m[1] for m in sb.MK]
+    extra = ["^VIX", "RSP", "^SOX", "DX-Y.NYB", "HG=F", "GC=F"] + [m[1] for m in sb.MK]
     bb.SYMS = bb.SYMS + [x for x in extra if x not in bb.SYMS]
     px = {}
     for s in bb.SYMS:
@@ -225,66 +246,89 @@ def main():
             continue
         F, Y = feats(s, G, nat == "us")
         d = pd.concat([F, Y], axis=1); d["mk"] = key; d["date"] = d.index
-        d = d[d["ok"] & F.notna().all(axis=1)]
+        d = d[d["ok"] & F[CORE].notna().all(axis=1)]
+        d[WK + BK] = d[WK + BK].fillna(0.0)
         last[key] = (name, nat, d.iloc[-1], str(d.index[-1].date()))
         rows.append(d)
     A = pd.concat(rows, ignore_index=True)
-    res = {"at": dt.datetime.now(bb.KST).strftime("%Y-%m-%d %H:%M"), "rules": __doc__.split("결과 보기 전 등록한 것")[1].split("결과:")[0].strip(), "horizon": H}
-    # ── 하락
-    Dn = A[A.down.notna()].reset_index(drop=True)
-    wt, wbase = sig_table(Dn, WK, "down", WN)
-    wgood = [x["k"] for x in wt if x.get("good")]
-    cw = Dn[WK].sum(axis=1); cwg = Dn[wgood].sum(axis=1) if wgood else cw * 0
-    Pw = walk(Dn, WK, "down")
-    res["warn"] = {"base": wbase, "signals": wt, "good": wgood, "ladder_all": ladder(Dn, cw, "down", [(0, 1), (2, 3), (4, 5), (6, 7), (8, 15)]),
-                   "ladder_good": ladder(Dn, cwg, "down", [(0, 0), (1, 1), (2, 2), (3, 3), (4, 15)]) if wgood else [], "model": calib(Dn, Pw, "down"), "n": int(len(Dn)),
-                   "from": str(Dn.date.min().date())}
-    # ── 바닥 (고점 −15% 아래인 날만)
-    Bt = A[A.good.notna() & (A.dd <= -0.15)].reset_index(drop=True)
-    bt, bbase = sig_table(Bt, BK, "good", BN)
-    bgood = [x["k"] for x in bt if x.get("good")]
-    cb = Bt[BK].sum(axis=1); cbg = Bt[bgood].sum(axis=1) if bgood else cb * 0
-    Pb = walk(Bt, BK, "good")
-    res["bottom"] = {"base": bbase, "base_up": round(float(Bt.up.mean()) * 100, 1), "signals": bt, "good": bgood, "ladder_all": ladder(Bt, cb, "good", [(0, 2), (3, 4), (5, 6), (7, 8), (9, 14)]),
-                     "ladder_good": ladder(Bt, cbg, "good", [(0, 0), (1, 1), (2, 2), (3, 3), (4, 14)]) if bgood else [], "model": calib(Bt, Pb, "good"), "n": int(len(Bt))}
-    # ── 지금
-    ww = logit_fit(Dn[WK].values, Dn["down"].values); wb = logit_fit(Bt[BK].values, Bt["good"].values)
-    res["warn"]["coef"] = {k: round(float(v), 2) for k, v in zip(WK, ww[1:])}; res["bottom"]["coef"] = {k: round(float(v), 2) for k, v in zip(BK, wb[1:])}
+    res = {"at": dt.datetime.now(bb.KST).strftime("%Y-%m-%d %H:%M"), "rules": __doc__.split("결과 보기 전 등록한 것")[1].split("결과:")[0].strip(), "wn": WN, "bn": BN, "targets": {}}
+    try:
+        from sklearn.ensemble import HistGradientBoostingClassifier as HGB
+    except Exception:
+        HGB = None
+    def walk_gb(D, keys, tgt):
+        if HGB is None: return None
+        P = pd.Series(np.nan, index=D.index)
+        for y in range(2006, int(D.date.dt.year.max()) + 1):
+            tr = D[D.date < pd.Timestamp(f"{y}-01-01") - pd.Timedelta(days=380 if tgt in ("crash", "up12") else 190)]; te = D[D.date.dt.year == y]
+            if len(tr) < 3000 or not len(te) or tr[tgt].nunique() < 2: continue
+            m = HGB(max_depth=3, max_iter=120, learning_rate=0.05, l2_regularization=1.0, random_state=0).fit(tr[keys].values, tr[tgt].values)
+            P.loc[te.index] = m.predict_proba(te[keys].values)[:, 1]
+        return P
+    TG = [("down", "경고 → 6개월 안 −10%", WK, WN, None, "down"), ("crash", "경고 → 1년 안 −20%(큰 하락)", WK, WN, None, "down"),
+          ("good", "바닥(고점 −20% 아래) → 6개월 좋은 매수 자리", BK, BN, -0.20, "up"), ("up12", "바닥(고점 −20% 아래) → 1년 뒤 플러스", BK, BN, -0.20, "up")]
+    fits = {}
+    for tg, title, keys, names, ddmax, side in TG:
+        D = A[A[tg].notna()]
+        if ddmax is not None: D = D[D.dd <= ddmax]
+        D = D.reset_index(drop=True)
+        tb, base = sig_table(D, keys, tg, names)
+        good = [x["k"] for x in tb if x.get("good")]
+        cg = D[good].sum(axis=1) if good else pd.Series(0, index=D.index)
+        ng = len(good)
+        edges = [(0, 0), (1, 1), (2, 2), (3, 4), (5, 99)] if ng >= 5 else [(k, k) for k in range(ng)] + [(ng, 99)] if ng else []
+        lad = ladder(D, cg, tg, edges) if good else []
+        # 걸어가며: 「믿을 만」 고르기까지 그 전 자료로 (해마다 다시 고르고 그 해 계단 확률을 그 전 자료로 계산) → 진짜 표본 밖 계단
+        Pl = pd.Series(np.nan, index=D.index)
+        for y in range(2008, int(D.date.dt.year.max()) + 1):
+            tr = D[D.date < pd.Timestamp(f"{y}-01-01") - pd.Timedelta(days=380 if tg in ("crash", "up12") else 190)]; te = D[D.date.dt.year == y]
+            if len(tr) < 5000 or not len(te): continue
+            mid = tr.date.iloc[len(tr) // 2] if False else tr.date.quantile(0.5)
+            a_, b_ = tr[tr.date < mid], tr[tr.date >= mid]
+            gk = [k for k in keys if (a_[k] > .5).sum() >= 100 and (b_[k] > .5).sum() >= 100 and a_.loc[a_[k] > .5, tg].mean() >= 1.15 * a_[tg].mean() and b_.loc[b_[k] > .5, tg].mean() >= 1.15 * b_[tg].mean()]
+            if not gk: Pl.loc[te.index] = float(tr[tg].mean()); continue
+            ctr, cte = tr[gk].sum(axis=1).clip(upper=4), te[gk].sum(axis=1).clip(upper=4)
+            mp = tr.groupby(ctr)[tg].mean(); cnt = tr.groupby(ctr)[tg].size()
+            Pl.loc[te.index] = cte.map(lambda c_: float(mp[c_]) if c_ in mp.index and cnt[c_] >= 150 else float(tr[tg].mean())).values
+        Pm = walk(D, keys, tg); Pg = walk_gb(D, keys, tg)
+        # 지수별 믿을 만한 신호
+        per = {}
+        for mk_, d in D.groupby("mk"):
+            if len(d) < 800: continue
+            t2, b2 = sig_table(d.assign(mk=mk_), keys, tg, names)
+            per[mk_] = {"base": b2, "top": [{k: x[k] for k in ("k", "name", "share", "p_on", "lift", "lift_a", "lift_b", "episodes")} for x in t2 if not x.get("thin") and x["lift_a"] and x["lift_b"] and x["lift_a"] >= 1.15 and x["lift_b"] >= 1.15][:5]}
+        T = {"title": title, "side": side, "base": base, "n": int(len(D)), "from": str(D.date.min().date()), "signals": tb, "good": good, "ladder_good": lad,
+             "oos_ladder": calib(D, Pl, tg), "oos_logit": calib(D, Pm, tg), "oos_gb": calib(D, Pg, tg) if Pg is not None else None, "per_market": per}
+        res["targets"][tg] = T; fits[tg] = (D, good, lad, logit_fit(D[keys].values, D[tg].values), keys)
+        print(f"\n== {title} · 평소 {base}% · 표본 {len(D)}일")
+        for x in tb:
+            if x.get("thin"): print(f"      {x['name']:<30} 표본 적음 {x['n']}"); continue
+            print(f"   {'✅' if x['good'] else '❌' if x['anti'] else '  '} {x['name']:<30} 켜진 날 {x['share']:>5}% | 켜짐 {x['p_on']:>3}% 꺼짐 {x['p_off']:>3}% · {x['lift']}배 (앞 {x['lift_a']} 뒤 {x['lift_b']}) · 지수 {x['mk_ok']}/{x['mk_n']} · {x['episodes']}번")
+        print("   믿을 만 계단:", " | ".join(f"{x['lo']}~{x['hi']}개: {x['p']}% (앞 {x['p_a']} 뒤 {x['p_b']} · {x['share']}%)" for x in lad))
+        for nm, k in (("계단(걸어가며)", "oos_ladder"), ("로지스틱", "oos_logit"), ("나무", "oos_gb")):
+            M = T[k]
+            if M: print(f"   {nm} {M['from']}~ AUC {M['auc']} · 브라이어 {M['brier_skill']} · 구간(예측,실제) {[(b['pred'], b['real']) for b in M['bins']]} · 지수별 {M['auc_by_market']}")
+        for mk_, v in per.items():
+            if v["top"]: print(f"   [{mk_}] 평소 {v['base']}% →", " · ".join(f"{x['name']} {x['p_on']}%({x['lift_a']}/{x['lift_b']}배·{x['episodes']}번)" for x in v["top"]))
     def lad_p(L, c):
         for x in L:
-            if x["lo"] <= c <= x["hi"]:
-                return x["p"]
+            if x["lo"] <= c <= x["hi"]: return x["p"]
         return None
     now = []
     for key, (name, nat, r, asof) in last.items():
-        mb = float(Dn.loc[Dn.mk == key, "down"].mean()) * 100
-        o = {"key": key, "name": name, "nat": nat, "asof": asof, "dd": round(float(r["dd"]) * 100, 1),
-             "warn_on": [k for k in WK if r[k] > 0.5], "warn_n": int(sum(r[k] > 0.5 for k in WK)), "warn_good_n": int(sum(r[k] > 0.5 for k in wgood)),
-             "p_down_model": round(float(logit_pred(ww, r[WK].values.astype(float)[None, :])[0]) * 100), "p_down_ladder": lad_p(res["warn"]["ladder_all"], int(sum(r[k] > 0.5 for k in WK))),
-             "p_down_good": lad_p(res["warn"]["ladder_good"], int(sum(r[k] > 0.5 for k in wgood))) if wgood else None, "base_down": round(mb)}
-        if r["dd"] <= -0.15:
-            sub = Bt[Bt.mk == key]
-            o.update({"in_dd": True, "bot_on": [k for k in BK if r[k] > 0.5], "bot_n": int(sum(r[k] > 0.5 for k in BK)), "bot_good_n": int(sum(r[k] > 0.5 for k in bgood)),
-                      "p_good_model": round(float(logit_pred(wb, r[BK].values.astype(float)[None, :])[0]) * 100), "p_good_ladder": lad_p(res["bottom"]["ladder_all"], int(sum(r[k] > 0.5 for k in BK))),
-                      "p_good_good": lad_p(res["bottom"]["ladder_good"], int(sum(r[k] > 0.5 for k in bgood))) if bgood else None,
-                      "base_good": round(float(sub.good.mean()) * 100) if len(sub) > 200 else None})
+        o = {"key": key, "name": name, "nat": nat, "asof": asof, "dd": round(float(r["dd"]) * 100, 1), "t": {}}
+        for tg, title, keys, names, ddmax, side in TG:
+            if ddmax is not None and not (r["dd"] <= ddmax): continue
+            D, good, lad, w, _ = fits[tg]
+            on = [k for k in good if (r[k] if r[k] == r[k] else 0) > 0.5]
+            x = np.nan_to_num(r[keys].values.astype(float))
+            pm = res["targets"][tg]["per_market"].get(key) or {}
+            o["t"][tg] = {"on": on, "n": len(on), "of": len(good), "p": lad_p(lad, len(on)), "p_model": round(float(logit_pred(w, x[None, :])[0]) * 100), "base": res["targets"][tg]["base"], "base_mk": pm.get("base"),
+                          "own_on": [t_["k"] for t_ in (pm.get("top") or []) if (r[t_["k"]] if r[t_["k"]] == r[t_["k"]] else 0) > 0.5]}
         now.append(o)
-    res["now"] = now; res["wn"] = WN; res["bn"] = BN
+        print(f"지금 {name} (고점 {o['dd']}%):", " | ".join(f"{tg}: 믿을 만 {v['n']}/{v['of']}개 → {v['p']}% (모형 {v['p_model']}% · 평소 {v['base']}% · 이 지수 평소 {v['base_mk']}%) 켜짐 {v['on']} 자기신호 {v['own_on']}" for tg, v in o["t"].items()))
+    res["now"] = now
     OUT.write_text(json.dumps(res, ensure_ascii=False, indent=1, default=float), encoding="utf-8")
-    # ── 출력
-    for nm, T in (("경고 → 6개월 안 −10%", res["warn"]), ("바닥(−15% 아래) → 좋은 매수 자리", res["bottom"])):
-        print(f"\n== {nm} · 평소 {T['base']}% · 표본 {T['n']}일")
-        for x in T["signals"]:
-            if x.get("thin"): print(f"   {x['name']:<28} 표본 적음 {x['n']}"); continue
-            print(f"   {'✅' if x['good'] else '❌' if x['anti'] else '  '} {x['name']:<30} 켜진 날 {x['share']:>5}% | 켜짐 {x['p_on']:>3}% 꺼짐 {x['p_off']:>3}% · {x['lift']}배 (앞 {x['lift_a']} 뒤 {x['lift_b']}) · 지수 {x['mk_ok']}/{x['mk_n']} · {x['episodes']}번 · 6개월 평균 {x['fret']}%")
-        for t in ("ladder_all", "ladder_good"):
-            print("  ", t, " | ".join(f"{x['lo']}~{x['hi']}개: {x['p']}% (앞 {x['p_a']} 뒤 {x['p_b']} · {x['share']}%)" for x in T[t]))
-        M = T["model"]
-        if M: print("   모형(걸어가며)", M["from"], "~ AUC", M["auc"], "· 브라이어", M["brier_skill"], "· 구간", [(b["pred"], b["real"]) for b in M["bins"]], "· 지수별", M["auc_by_market"])
-        print("   계수", T["coef"])
-    for o in now:
-        print(f"지금 {o['name']}: 고점 {o['dd']}% · 경고 {o['warn_n']}개(믿을 만 {o['warn_good_n']}) → 하락 확률 모형 {o['p_down_model']}% · 계단 {o['p_down_ladder']}% · 믿을 만 계단 {o['p_down_good']}% (평소 {o['base_down']}%)"
-              + (f" | 바닥 {o['bot_n']}개(믿을 만 {o['bot_good_n']}) → 좋은 자리 모형 {o['p_good_model']}% · 계단 {o['p_good_ladder']}% · 믿을 만 {o['p_good_good']}% (평소 {o['base_good']}%)" if o.get("in_dd") else ""))
     return 0
 
 

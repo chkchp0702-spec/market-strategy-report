@@ -22,7 +22,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -q yfinance pandas numpy
+      - run: pip install -q yfinance pandas numpy scikit-learn
       - run: python src/season_bt.py
       - run: python src/prob_bt.py
       - name: 저장
