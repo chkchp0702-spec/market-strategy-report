@@ -513,6 +513,76 @@ def notify(title, body, dry=False):
 
 
 # ───────────────────────── 지금 판정 ─────────────────────────
+def apply_analog(r, key, name):
+    """🔁 11/12 사용자 「1번」 — 닮은 장 백테스트에서 고른 방식이 현금 몫을 정함 (src/analog_bt.py adopt · 하나 빼고 고르기 통과한 시장만 · 예전 규칙은 cash_old 로 남김)"""
+    ap = next((x for x in (rj(ANALOG, {}) or {}).get("markets", []) if x.get("key") == key and x.get("ok")), None)
+    if not ap:
+        return r
+    if True:
+        stock, nx = ap["stock"], ap["next"]
+        lv = {"a50": r.get("m50"), "a200": r.get("m200")}.get(ap["k"])
+        if lv:   # 선 하나짜리는 방금 종가로 다시 봄 (닮은 장 계산은 하루 한 번)
+            stock = 100 if r["close"] > lv else 0
+            nx = f"{'50' if ap['k'] == 'a50' else '200'}일선({lv:,.0f}) " + ("아래로 내려가면 현금" if stock else "위로 올라오면 주식")
+        if ap["k"] == "half200" and r.get("m200") and r["close"] > r["m200"]:
+            stock, nx = 100, "그대로 보유"
+        r["cash_old"] = r["cash"]; r["cash"] = 100 - stock
+        r["analog"] = {**ap, "stock": stock, "cash": 100 - stock, "next": nx}
+        r["best_on"] = False; r["clock_cash"] = False; r.pop("overlay_on", None)
+        c2 = 0 if ap["k"] in ("half200", "third", "dca6", "dca12", "dip") else (max(0, r["cash"] - 33) if ap["k"] == "floor" and r["cash"] else 100 - r["cash"])
+        r["ladder"] = [[r["cash"], "🔁 지금"], [c2, "다음: " + nx]] if c2 != r["cash"] else [[r["cash"], "🔁 지금 · " + nx]]
+        r["rule"]["name"] = "🔁 닮은 장 규칙 — " + ap["rule"] + " (예전: " + r["rule"]["name"] + ")"
+        r["advice"] = (f"{name} 🔁 닮은 장 규칙 — {ap['rule']} · 지금 주식 {stock}% · {r.get('to', '현금')} {r['cash']}% · 다음: {nx}"
+                       + (f" (예전 규칙이면 {r.get('to', '현금')} {r['cash_old']}%)" if r["cash_old"] is not None and r["cash_old"] != r["cash"] else ""))
+    return r
+
+
+# 🌏 11/12 사용자 「ㅇㅇ」 — 일본·중국·홍콩도 판정·닮은 장 규칙·알림 (앱 다른 칸이 안 깨지게 markets 가 아니라 more 에 따로)
+MORE = [("nikkei", "^N225", "닛케이225", "jp", (15, 45)), ("shanghai", "000001.SS", "상해종합", "cn", (16, 15)), ("shenzhen", "399001.SZ", "심천성분", "cn", (16, 15)),
+        ("hsi", "^HSI", "항셍", "hk", (17, 15)), ("hscei", "^HSCE", "항셍 H주", "hk", (17, 15))]   # 장 마감 = 한국 시각
+
+
+def more_markets(old, dry=False, px=None):
+    import pandas as pd
+    oldm = {m["key"]: m for m in old.get("more", [])}
+    sent = old.get("sent") or {}
+    out = []
+    for key, sym, name, nat, hm in MORE:
+        try:
+            if px is not None:
+                s = px[sym].dropna()
+            else:
+                import yfinance as yf
+                s = yf.download(sym, start=(dt.date.today() - dt.timedelta(days=800)).isoformat(), auto_adjust=False, progress=False)["Close"]
+                s = (s.iloc[:, 0] if hasattr(s, "columns") else s).dropna()
+                s = complete(s, hm, KST)
+            s = s[s > 0].iloc[-520:]
+            cl = [float(x) for x in s.tolist()]
+            pb = False
+            for i in range(max(0, len(cl) - 252), len(cl) - 1):
+                pb = judge(cl, None, None, "us", pb, i)["state"] == "🐻"
+            j = judge(cl, None, None, "us", pb)
+            r = {k: j.get(k) for k in ("state", "dd", "hi", "close", "m50", "m200")}
+            r.update({"key": key, "name": name, "nat": nat, "asof": str(s.index[-1].date()), "cash": None, "rule": {"id": "REF", "name": "판정만"}, "ladder": []})
+            apply_analog(r, key, name)
+            if not r.get("analog"):
+                r["advice"] = f"{name} {r['state']} 고점보다 {r['dd']:+.1f}% — 닮은 장에서 통하는 방식이 없었음 · 한 번에 사지 말고 나눠 사기만 참고"
+            r = {k: r.get(k) for k in ("key", "name", "nat", "asof", "state", "dd", "close", "m50", "m200", "cash", "advice", "analog")}
+            o = oldm.get(key)
+            r["since"] = o.get("since", r["asof"]) if o and o.get("state") == r["state"] else r["asof"]
+            k = f"{key}:{r['asof']}:{r['state']}:{r['cash']}"
+            if o and (o.get("state") != r["state"] or o.get("cash") != r["cash"]) and sent.get(key) != k:
+                t = f"{r['state']} {name} — " + (f"주식 {100 - o['cash']}% → {100 - r['cash']}%" if o.get("cash") is not None and r["cash"] is not None else f"{o.get('state')} → {r['state']}")
+                if notify(t, r["advice"] + f"\n고점보다 {r['dd']:+.1f}%", dry):
+                    sent[key] = k
+            out.append(r)
+        except Exception as e:
+            print("🌏 실패", key, e)
+            if key in oldm:
+                out.append(oldm[key])
+    return out, sent
+
+
 def live(dry=False):
     start = (dt.date.today() - dt.timedelta(days=800)).isoformat()
     px = load(start)
@@ -578,24 +648,7 @@ def live(dry=False):
                 r["cash"] = 0 if pt.get("arg") == "0" else min(r["cash"], 50); r["overlay_on"] = pt["name"]; r["best_on"] = False; r["clock_cash"] = False
                 r["ladder"] = [[r["cash"], "🧩 " + pt["name"] + " — 현금 풀기"], [100, "그 신호가 꺼지고 하락장·경보면 다시 현금"]]
         r.update({"key": key, "name": name, "nat": nat, "asof": str(s.index[-1].date()), "advice": advice(name, r)})
-        # 🔁 11/12 사용자 「1번」 — 닮은 장 백테스트에서 고른 방식이 현금 몫을 정함 (src/analog_bt.py adopt · 하나 빼고 고르기 통과한 시장만 · 예전 규칙은 cash_old 로 남김)
-        ap = next((x for x in (rj(ANALOG, {}) or {}).get("markets", []) if x.get("key") == key and x.get("ok")), None)
-        if ap:
-            stock, nx = ap["stock"], ap["next"]
-            lv = {"a50": r.get("m50"), "a200": r.get("m200")}.get(ap["k"])
-            if lv:   # 선 하나짜리는 방금 종가로 다시 봄 (닮은 장 계산은 하루 한 번)
-                stock = 100 if r["close"] > lv else 0
-                nx = f"{'50' if ap['k'] == 'a50' else '200'}일선({lv:,.0f}) " + ("아래로 내려가면 현금" if stock else "위로 올라오면 주식")
-            if ap["k"] == "half200" and r.get("m200") and r["close"] > r["m200"]:
-                stock, nx = 100, "그대로 보유"
-            r["cash_old"] = r["cash"]; r["cash"] = 100 - stock
-            r["analog"] = {**ap, "stock": stock, "cash": 100 - stock, "next": nx}
-            r["best_on"] = False; r["clock_cash"] = False; r.pop("overlay_on", None)
-            c2 = 0 if ap["k"] in ("half200", "third", "dca6", "dca12", "dip") else (max(0, r["cash"] - 33) if ap["k"] == "floor" and r["cash"] else 100 - r["cash"])
-            r["ladder"] = [[r["cash"], "🔁 지금"], [c2, "다음: " + nx]] if c2 != r["cash"] else [[r["cash"], "🔁 지금 · " + nx]]
-            r["rule"]["name"] = "🔁 닮은 장 규칙 — " + ap["rule"] + " (예전: " + r["rule"]["name"] + ")"
-            r["advice"] = (f"{name} 🔁 닮은 장 규칙 — {ap['rule']} · 지금 주식 {stock}% · {r.get('to', '현금')} {r['cash']}% · 다음: {nx}"
-                           + (f" (예전 규칙이면 {r.get('to', '현금')} {r['cash_old']}%)" if r["cash_old"] != r["cash"] else ""))
+        apply_analog(r, key, name)
         if b0 is not None:   # 📨 11/10 A11/10-1 이번 하락장 반등 날 기록 (하락장일 때만)
             try:
                 r["rebounds"] = rebounds(cl, [str(x.date()) for x in s.index], b0)
@@ -667,6 +720,10 @@ def live(dry=False):
             for r in bad:
                 sent[r["key"]] = f"{r['key']}:{r['asof']}:{r['state']}:{r['cash']}"
     out["sent"] = sent
+    try:
+        out["more"], out["sent"] = more_markets({"more": old.get("more", []), "sent": sent}, dry)
+    except Exception as e:
+        print("🌏 more 실패", e); out["more"] = old.get("more", [])
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(json.dumps({k: out[k] for k in ("head", "lead")}, ensure_ascii=False))
     return 0
