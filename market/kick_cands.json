@@ -6707,5 +6707,26 @@
 "2026-11-05|팔기|LGND",
 "2026-11-06|팔기|PAGP"
 ],
-"whale": []
+"whale": [
+"AMAT",
+"AMD",
+"AVGO",
+"BKNG",
+"CDW",
+"CG",
+"CPNG",
+"EA",
+"FIGR",
+"GOOGL",
+"HPE",
+"META",
+"MU",
+"NCLH",
+"NVDA",
+"ORCL",
+"RVMD",
+"SPGI",
+"TSM",
+"ZYME"
+]
 }
