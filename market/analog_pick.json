@@ -1,0 +1,294 @@
+{
+ "at": "2026-11-12 12:47",
+ "cash2": 4.1,
+ "markets": [
+  {
+   "key": "kospi",
+   "name": "코스피",
+   "nat": "kr",
+   "k": "a50",
+   "rule": "50일선 위면 주식 · 아래면 현금",
+   "ok": true,
+   "staged": false,
+   "anchor": "2026-11-12",
+   "asof": "2026-11-12",
+   "stock": 0,
+   "cash": 100,
+   "next": "50일선(6,268) 위로 올라오면 주식",
+   "loo": {
+    "med": 12.8,
+    "worst": -20.0,
+    "beat_cash": 8,
+    "n": 12
+   },
+   "y2_med": 20.0,
+   "y2_worst": -20.0,
+   "beat_cash": 8,
+   "n": 12,
+   "lump_med": -3.6,
+   "lump_worst": -63.9,
+   "fwd": {
+    "more10": 11,
+    "more_med": -33.9,
+    "y1_up": 4,
+    "n": 12
+   }
+  },
+  {
+   "key": "kosdaq",
+   "name": "코스닥",
+   "nat": "kr",
+   "k": "half200",
+   "rule": "절반 지금 + 절반은 200일선 회복 때",
+   "ok": true,
+   "staged": true,
+   "anchor": "2026-11-12",
+   "asof": "2026-11-12",
+   "stock": 50,
+   "cash": 50,
+   "next": "200일선(961.1) 위로 올라오면 나머지 절반도 주식",
+   "loo": {
+    "med": 37.9,
+    "worst": -23.7,
+    "beat_cash": 11,
+    "n": 12
+   },
+   "y2_med": 33.9,
+   "y2_worst": -29.6,
+   "beat_cash": 11,
+   "n": 12,
+   "lump_med": 39.2,
+   "lump_worst": -23.7,
+   "fwd": {
+    "more10": 6,
+    "more_med": -10.9,
+    "y1_up": 11,
+    "n": 12
+   }
+  },
+  {
+   "key": "nikkei",
+   "name": "닛케이225",
+   "nat": "jp",
+   "k": "floor",
+   "rule": "하락장엔 현금 → 바닥 신호마다 3분의 1씩",
+   "ok": true,
+   "staged": false,
+   "anchor": "2026-11-12",
+   "asof": "2026-11-12",
+   "stock": 0,
+   "cash": 100,
+   "next": "바닥 신호가 켜질 때마다 3분의 1씩 주식",
+   "loo": {
+    "med": 34.5,
+    "worst": 6.6,
+    "beat_cash": 12,
+    "n": 12
+   },
+   "y2_med": 31.4,
+   "y2_worst": 6.6,
+   "beat_cash": 12,
+   "n": 12,
+   "lump_med": 25.5,
+   "lump_worst": -24.4,
+   "fwd": {
+    "more10": 5,
+    "more_med": -7.6,
+    "y1_up": 8,
+    "n": 12
+   }
+  },
+  {
+   "key": "shanghai",
+   "name": "상해종합",
+   "nat": "cn",
+   "k": "third",
+   "rule": "3분의 1씩(지금 · 50일선 위 · 200일선 위)",
+   "ok": true,
+   "staged": false,
+   "anchor": "2026-11-12",
+   "asof": "2026-11-12",
+   "stock": 33,
+   "cash": 67,
+   "next": "50일선(3,804) · 200일선(3,975) 위로 올라올 때마다 3분의 1씩 더",
+   "loo": {
+    "med": 12.6,
+    "worst": -30.7,
+    "beat_cash": 7,
+    "n": 12
+   },
+   "y2_med": 19.4,
+   "y2_worst": -37.0,
+   "beat_cash": 7,
+   "n": 12,
+   "lump_med": 16.2,
+   "lump_worst": -35.4,
+   "fwd": {
+    "more10": 9,
+    "more_med": -20.7,
+    "y1_up": 6,
+    "n": 12
+   }
+  },
+  {
+   "key": "shenzhen",
+   "name": "심천성분",
+   "nat": "cn",
+   "k": "half200",
+   "rule": "절반 지금 + 절반은 200일선 회복 때",
+   "ok": false,
+   "staged": true,
+   "anchor": "2026-11-12",
+   "asof": "2026-11-12",
+   "stock": 50,
+   "cash": 50,
+   "next": "200일선(14,108) 위로 올라오면 나머지 절반도 주식",
+   "loo": {
+    "med": 1.7,
+    "worst": -14.5,
+    "beat_cash": 2,
+    "n": 12
+   },
+   "y2_med": 1.8,
+   "y2_worst": -30.6,
+   "beat_cash": 5,
+   "n": 12,
+   "lump_med": 5.4,
+   "lump_worst": -41.4,
+   "fwd": {
+    "more10": 8,
+    "more_med": -17.0,
+    "y1_up": 8,
+    "n": 12
+   }
+  },
+  {
+   "key": "hsi",
+   "name": "항셍",
+   "nat": "hk",
+   "k": "dca12",
+   "rule": "12개월 나눠 사기",
+   "ok": false,
+   "staged": false,
+   "anchor": "2026-11-12",
+   "asof": "2026-11-12",
+   "stock": 8,
+   "cash": 92,
+   "next": "한 달(21거래일)마다 12분의 1씩 더 — 지금 1/12번째",
+   "loo": {
+    "med": -8.0,
+    "worst": -22.5,
+    "beat_cash": 5,
+    "n": 12
+   },
+   "y2_med": 13.8,
+   "y2_worst": -22.5,
+   "beat_cash": 7,
+   "n": 12,
+   "lump_med": -3.9,
+   "lump_worst": -32.7,
+   "fwd": {
+    "more10": 9,
+    "more_med": -29.9,
+    "y1_up": 4,
+    "n": 12
+   }
+  },
+  {
+   "key": "hscei",
+   "name": "항셍 H주",
+   "nat": "hk",
+   "k": "ma10",
+   "rule": "10개월선 위면 주식 · 아래면 현금",
+   "ok": true,
+   "staged": false,
+   "anchor": "2026-11-12",
+   "asof": "2026-11-12",
+   "stock": 0,
+   "cash": 100,
+   "next": "월말 종가가 10개월선 위면 주식",
+   "loo": {
+    "med": 11.7,
+    "worst": -53.1,
+    "beat_cash": 8,
+    "n": 12
+   },
+   "y2_med": 24.6,
+   "y2_worst": -15.4,
+   "beat_cash": 7,
+   "n": 12,
+   "lump_med": 21.8,
+   "lump_worst": -53.1,
+   "fwd": {
+    "more10": 8,
+    "more_med": -25.2,
+    "y1_up": 7,
+    "n": 12
+   }
+  },
+  {
+   "key": "sp500",
+   "name": "S&P500",
+   "nat": "us",
+   "k": "bear",
+   "rule": "하락장(−20%)이면 현금 · 풀리면 주식",
+   "ok": true,
+   "staged": false,
+   "anchor": "2026-11-11",
+   "asof": "2026-11-11",
+   "stock": 100,
+   "cash": 0,
+   "next": "고점 −20%(6,255) 아래로 내려가면 현금",
+   "loo": {
+    "med": 42.6,
+    "worst": 7.7,
+    "beat_cash": 12,
+    "n": 12
+   },
+   "y2_med": 42.6,
+   "y2_worst": 7.7,
+   "beat_cash": 12,
+   "n": 12,
+   "lump_med": 40.1,
+   "lump_worst": -2.3,
+   "fwd": {
+    "more10": 3,
+    "more_med": -3.2,
+    "y1_up": 11,
+    "n": 12
+   }
+  },
+  {
+   "key": "nasdaq",
+   "name": "나스닥",
+   "nat": "us",
+   "k": "floor",
+   "rule": "하락장엔 현금 → 바닥 신호마다 3분의 1씩",
+   "ok": true,
+   "staged": false,
+   "anchor": "2026-11-11",
+   "asof": "2026-11-11",
+   "stock": 100,
+   "cash": 0,
+   "next": "하락장(고점 −20%) 되면 현금",
+   "loo": {
+    "med": 20.2,
+    "worst": -16.6,
+    "beat_cash": 7,
+    "n": 12
+   },
+   "y2_med": 25.6,
+   "y2_worst": -16.6,
+   "beat_cash": 7,
+   "n": 12,
+   "lump_med": 25.6,
+   "lump_worst": -29.1,
+   "fwd": {
+    "more10": 7,
+    "more_med": -11.2,
+    "y1_up": 9,
+    "n": 12
+   }
+  }
+ ]
+}

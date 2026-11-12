@@ -94,6 +94,96 @@ def summarize(vals):
             "mdd_avg": f(md, np.mean), "mdd_worst": f(md, np.min)}
 
 
+# ───────── 🔁 규칙 채택 (11/12 사용자 「1번 · 미국 일본 중국도 다 같은 방식」) ─────────
+# 고르는 법(등록): 닮은 때 2년 수익의 가운데값이 가장 높은 방식.
+#   · 하나 빼고 고르기(닮은 때 11번으로 고르고 남은 1번에 적용 × 12)의 가운데값이 「계속 현금」(2년 약 4%)보다 낮으면 → 「통하는 방식 없음」(규칙 안 바꿈)
+#   · 고른 게 「지금 다 삼」인데 지금 하락장(고점 −20% 아래)이면 → 「절반 지금 + 절반은 200일선 회복 때」(사용자 「단계적으로」)
+#   · 한 번 고른 방식은 표에서 3등 안에 있는 동안 그대로(날마다 바뀌지 않게) · 닻(시작 날)도 그대로
+# ⚠ 이 고르는 법은 닮은 장 결과를 본 뒤에 정함 — 그래서 「하나 빼고 고르기」 숫자를 함께 적음
+PICK = ROOT / "market" / "analog_pick.json"
+CASH2 = round(((1 + sb.CASH) ** H2 - 1) * 100, 1)
+ANCH = ("lump", "cash", "dca6", "dca12", "dip", "half200", "third")
+
+
+def choose(rows, idx=None):
+    best = None
+    for r_ in rows:
+        v = np.array([np.nan if x is None else x for x in r_["each"]], float)
+        if idx is not None:
+            v = v[idx]
+        sc = float(np.nanmedian(v))
+        if best is None or sc > best[0]:
+            best = (sc, r_["k"])
+    return best[1]
+
+
+def loo(rows):
+    R = {r_["k"]: np.array([np.nan if x is None else x for x in r_["each"]], float) for r_ in rows}
+    n = len(R["lump"])
+    v = np.array([R[choose(rows, np.array([j for j in range(n) if j != i]))][i] for i in range(n)])
+    return {"med": round(float(np.nanmedian(v)), 1), "worst": round(float(np.nanmin(v)), 1), "beat_cash": int((v > CASH2).sum()), "n": n}
+
+
+def weight_now(k, s, anchor):
+    """오늘 종가로 정한 내일 주식 몫(0~1) + 다음에 바뀌는 조건 글자"""
+    c = s.values; m50 = float(s.rolling(50).mean().iloc[-1]); m200 = float(s.rolling(200).mean().iloc[-1]); hi = float(s.iloc[-252:].max())
+    f = lambda x: f"{x:,.0f}" if x >= 1000 else f"{x:,.1f}"
+    if k not in ANCH:
+        s2 = pd.concat([s, pd.Series([c[-1]], index=[s.index[-1] + pd.offsets.BDay(1)])])
+        w = float(policies(s2)[0][k][-1])
+        nx = {"a50": f"50일선({f(m50)}) " + ("아래로 내려가면 현금" if w else "위로 올라오면 주식"), "a200": f"200일선({f(m200)}) " + ("아래로 내려가면 현금" if w else "위로 올라오면 주식"),
+              "ma10": "월말 종가가 10개월선 " + ("아래면 현금" if w else "위면 주식"), "bear": (f"고점 −20%({f(hi * 0.8)}) 아래로 내려가면 현금" if w else "하락장 판정이 풀리면 주식"),
+              "floor": ("하락장(고점 −20%) 되면 현금" if w >= 1 else "바닥 신호가 켜질 때마다 3분의 1씩 주식"), "ddl": f"고점 −10%({f(hi * 0.9)}) 절반 · −20%({f(hi * 0.8)}) 전부 현금"}.get(k, RN[k])
+        return w, nx
+    i0 = s.index.get_indexer([pd.Timestamp(anchor)], method="nearest")[0]
+    cc = c[i0:]; L = len(cc)
+    a2 = float((cc > s.rolling(200).mean().values[i0:]).any()); a5 = float((cc > s.rolling(50).mean().values[i0:]).any())
+    rel = cc / cc[0] - 1
+    if k == "lump":
+        return 1.0, "그대로 보유"
+    if k == "cash":
+        return 0.0, "닮은 장 결과가 바뀔 때까지 현금"
+    if k in ("dca6", "dca12"):
+        mo = 6 if k == "dca6" else 12; w = min(1.0, ((L - 1) // 21 + 1) / mo)
+        return w, f"한 달(21거래일)마다 {mo}분의 1씩 더 — 지금 {min(mo, (L - 1) // 21 + 1)}/{mo}번째"
+    if k == "dip":
+        w = float(((rel <= -0.10).any() + (rel <= -0.20).any() + (rel <= -0.30).any()) / 3)
+        return w, f"시작한 날({anchor} · {f(cc[0])})보다 −10·−20·−30% 빠질 때마다 3분의 1씩"
+    if k == "half200":
+        return 0.5 + 0.5 * a2, ("그대로 보유" if a2 else f"200일선({f(m200)}) 위로 올라오면 나머지 절반도 주식")
+    w = 1 / 3 + a5 / 3 + a2 / 3
+    return w, ("그대로 보유" if a5 and a2 else "50일선(" + f(m50) + ") · 200일선(" + f(m200) + ") 위로 올라올 때마다 3분의 1씩 더")
+
+
+def adopt(res, S):
+    old = {}
+    try:
+        old = {m["key"]: m for m in json.loads(PICK.read_text(encoding="utf-8")).get("markets", [])}
+    except Exception:
+        pass
+    out = {"at": res["at"], "cash2": CASH2, "markets": []}; res["cash2"] = CASH2
+    for M in res["markets"]:
+        rows = M["rules"]; key = M["key"]; s = S[key]; L = {r_["k"]: r_ for r_ in rows}
+        k = choose(rows); lo = loo(rows); ok = lo["med"] > CASH2
+        staged = False
+        if k == "lump" and M["now"]["dd"] <= -20:
+            k = "half200"; staged = True
+        o = old.get(key) or {}
+        top3 = [r_["k"] for r_ in rows[:3]]
+        if o.get("k") and o.get("ok") and ok and o["k"] in L and (o["k"] in top3 or (o.get("staged") and "lump" in top3)):
+            k = o["k"]; staged = bool(o.get("staged"))
+        anchor = o.get("anchor") if o.get("k") == k and o.get("anchor") else str(s.index[-1].date())
+        w, nx = weight_now(k, s, anchor)
+        r_ = L[k]
+        P = {"key": key, "name": M["name"], "nat": M["nat"], "k": k, "rule": RN[k], "ok": bool(ok), "staged": staged, "anchor": anchor, "asof": str(s.index[-1].date()),
+             "stock": int(round(w * 100)), "cash": int(round((1 - w) * 100)), "next": nx, "loo": lo,
+             "y2_med": r_["y2_med"], "y2_worst": r_["y2_worst"], "beat_cash": r_["beat_cash"], "n": r_["n"], "lump_med": L["lump"]["y2_med"], "lump_worst": L["lump"]["y2_worst"],
+             "fwd": {x: M["fwd"][x] for x in ("more10", "more_med", "y1_up", "n")}}
+        M["pick"] = P; out["markets"].append(P)
+        print(f"🔁 {M['name']}: {RN[k]} → 주식 {P['stock']}% · {nx} | 하나 빼고 고르기 가운데 {lo['med']}% 최악 {lo['worst']}% 현금보다 {lo['beat_cash']}/{lo['n']} {'✅' if ok else '❌ 통하는 방식 없음'}")
+    PICK.write_text(json.dumps(out, ensure_ascii=False, indent=1, default=float), encoding="utf-8")
+
+
 def main():
     px0 = pd.read_csv(PX, index_col=0, parse_dates=True)
     S, Fz, Pol = {}, {}, {}
@@ -173,6 +263,7 @@ def main():
         M = one(tk, NA)
         M["sens"] = [one(tk, 8, True), one(tk, 20, True)]   # 닮은 때를 8번·20번으로 바꿔도 결론이 같은지
         res["markets"].append(M)
+    adopt(res, S)
     OUT.write_text(json.dumps(res, ensure_ascii=False, indent=1, default=float), encoding="utf-8")
     return 0
 

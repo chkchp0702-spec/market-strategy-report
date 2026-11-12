@@ -37,4 +37,4 @@ jobs:
         run: |
           git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
           git add -A market/lab/alt
-          bash scripts/push.sh "alt-data $(TZ=Asia/Seoul date '+%F %H:%M')" market/lab/alt market/alt.json market/rule_bt.json market/rule_overlay.json market/analog.json
+          bash scripts/push.sh "alt-data $(TZ=Asia/Seoul date '+%F %H:%M')" market/lab/alt market/alt.json market/rule_bt.json market/rule_overlay.json market/analog.json market/analog_pick.json
