@@ -31,6 +31,26 @@ OUT = ROOT / "reports"
 MARGIN_PX = 40  # 푸터 위 최소 여유
 
 
+FLAG = {"kr": "🇰🇷", "us": "🇺🇸", "jp": "🇯🇵", "cn": "🇨🇳", "hk": "🇭🇰"}
+ST_NM = {"🟢": "정상", "🟡": "조정", "🐻": "하락장"}
+
+
+def rules_now() -> dict:
+    """market/bear.json → 9개 시장 「지금 주식 몇 % · 다음에 바뀌는 때」 (닮은 장 규칙 · 없으면 정하지 않음)"""
+    try:
+        B = json.loads((ROOT / "market" / "bear.json").read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    rows = []
+    for m in (B.get("markets") or []) + (B.get("more") or []):
+        a = m.get("analog") or {}
+        rows.append({"flag": FLAG.get(m.get("nat"), ""), "name": m.get("name"), "state": m.get("state"), "st": ST_NM.get(m.get("state"), ""),
+                     "dd": m.get("dd"), "stock": a.get("stock") if a else None, "to": m.get("to") or "현금",
+                     "rule": a.get("rule") or "정하지 않음 — 닮은 장에서 통하는 방식 없음 · 나눠 사기만 참고",
+                     "next": a.get("next") or "", "chg": (m.get("cash_old") is not None and m.get("cash_old") != m.get("cash"))})
+    return {"at": B.get("at"), "rows": rows}
+
+
 def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: bool = False) -> Path:
     d = json.loads(day_path.read_text(encoding="utf-8"))
     led = L.load()
@@ -114,11 +134,12 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
                               "verdict": "신호대로", "verdict_cls": "gd",
                               "rule": "🐋 분기 보유 · −15% 손절 → 빈 자리 ☕ 컵 / 🧭 50일 저가 이탈 · ☕📈 손절·익절·보유기간"})
 
+    rules9 = rules_now()   # 🔁 11/12 사용자 「바뀐 내용이 아침 시황리포트에도」 — 하락장 계기판(bear.json)의 닮은 장 규칙 9개 시장
     css = (TPL / "base.css").read_text(encoding="utf-8")
     env = Environment(loader=FileSystemLoader(str(TPL)), autoescape=select_autoescape(default=False))
     ctx = dict(d=d, led=led, css=css, charts=charts, panel_rows=panel_rows, panel_groups=panel_groups,
                outside_rows=outside_rows, scorecard_total=scorecard_total, alloc_rows=alloc_rows, kick_alloc=kick_alloc, views_line=views_line,
-               panel_n=len(panel_rows), cal=cal, board=board, sec=sec, focus=focus)
+               panel_n=len(panel_rows), cal=cal, board=board, sec=sec, focus=focus, rules9=rules9)
 
     tag = f'{d["date"]}_{d["edition"]}'
     out = OUT / tag
@@ -142,7 +163,7 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
             for i, b, m in bad:
                 print(f"  !! page {i}: content bottom {b} vs footer {m} (여유 {m-b}px < {MARGIN_PX})", file=sys.stderr)
 
-    (out / "kakao.txt").write_text(kakao_text(d), encoding="utf-8")
+    (out / "kakao.txt").write_text(kakao_text(d, rules9), encoding="utf-8")
 
     if not ok and strict:
         print("빌드 실패: 넘침. data 파일의 글을 줄이거나 템플릿을 조정하세요.", file=sys.stderr)

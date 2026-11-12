@@ -48,6 +48,7 @@ ul.s li:before{content:"";position:absolute;left:0;top:8px;width:6px;height:6px;
  <div class="bar">{% for a in alloc_rows if a.pct > 0 %}<div style="width:{{ a.pct }}%;background:{{ '#c8372d' if a.kick else colors[loop.index0] }}">{% if a.pct >= 10 %}{{ a.name.split(' (')[0].split('·')[0] }} {{ a.pct }}{% elif a.pct >= 6 %}{{ a.name }}{% endif %}</div>{% endfor %}</div>
  <div style="font-size:8.8pt;color:var(--mute)">{% for a in alloc_rows if a.pct < 10 and a.pct > 0 %}{{ a.name }} {{ a.pct }} · {% endfor %}경우의 수: {% for sc in led.scenarios %}{{ sc.label | replace(' 경우','') | replace('되는','') | replace('가 ','') }} {{ sc.pct }}{% if not loop.last %} · {% endif %}{% endfor %}</div>
  <div style="font-size:8pt;color:#3d4756;margin-top:3px;line-height:1.35"><b>실제로 담는 것:</b> {{ s.instruments_line }} &nbsp;<span style="color:#d98a1a;font-weight:700">관찰:</span> {{ s.watch_line }}</div>
+ {% if rules9 and rules9.rows %}<div style="font-size:7.6pt;color:#3d4756;margin-top:2px;line-height:1.3;white-space:nowrap;overflow:hidden"><b>🔁 주식 몫:</b> {% for r in rules9.rows %}{{ r.flag }}{{ r.name|replace("225","")|replace("종합","")|replace("성분","")|replace("항셍 H주","H주") }} <b>{{ (r.stock|string) + '%' if r.stock is not none else '–' }}</b>{{ ' · ' if not loop.last }}{% endfor %}</div>{% endif %}
 
  <div class="cream2"><h2>볼 것 3개</h2><ul class="s">{% for c in d.checks %}<li>{{ c | safe }}</li>{% endfor %}</ul></div>
 

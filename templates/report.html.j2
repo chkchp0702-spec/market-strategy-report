@@ -184,6 +184,13 @@
    </div>
   </div>
  </div>
+ {% if rules9 and rules9.rows %}
+ <div class="box" style="margin-top:7px"><h3>🔁 시장별 지금 규칙 <span style="font-weight:500;font-size:7.4pt;color:var(--mute)">지금 장과 닮았던 때에서 2년 뒤 가장 나았던 방식 · {{ (rules9.at or '')[5:16] }} 종가 판정 · 매수·매도 추천 아님</span></h3>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:3px 10px;font-size:7.2pt;line-height:1.3">
+  {% for r in rules9.rows %}<div style="border-top:1px solid var(--line);padding-top:2px"><b>{{ r.flag }} {{ r.name }} · 주식 {{ (r.stock|string) + '%' if r.stock is not none else '–' }}</b> <span style="color:var(--mute)">{{ r.state }}{{ '%+.0f' % r.dd if r.dd is not none else '' }}%</span><br>{{ r.rule }}{% if r.next %} → <span style="color:var(--mute)">{{ r.next }}</span>{% endif %}</div>{% endfor %}
+  </div>
+ </div>
+ {% endif %}
  <div class="foot"><span>{{ foot }}</span><span>5 / 6</span></div>
 </section>
 

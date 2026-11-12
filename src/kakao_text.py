@@ -3,7 +3,7 @@ from __future__ import annotations
 import re
 
 
-def kakao_text(d: dict) -> str:
+def kakao_text(d: dict, rules9: dict | None = None) -> str:
     y, m, dd = d["date"].split("-")
     lines = [f"[시황 {int(m)}/{int(dd)} {d['edition_label']}]"]
     k = d.get("kick") or {}
@@ -26,6 +26,9 @@ def kakao_text(d: dict) -> str:
             lines.append("🎯 집중: " + " | ".join(parts) + (f" · 돈 들어오는 나라 {c0.get('flag', '')}{c0.get('name', '')}" if c0.get("label") else ""))
     except Exception:
         pass
+    R = (rules9 or {}).get("rows") or []
+    if R:   # 🔁 11/12 닮은 장 규칙 — 시장별 지금 주식 몫
+        lines.append("🔁 지금 규칙(주식 몫): " + " · ".join(f"{r['flag']}{r['name']} {str(r['stock']) + '%' if r['stock'] is not None else '–'}" for r in R))
     lines += d["kakao"]["lines"]
     lines.append("※ 정보 제공 목적이며 투자 권유가 아닙니다.")
     return "\n".join(lines) + "\n"
