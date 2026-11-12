@@ -236,9 +236,34 @@ def main() -> int:
     return 0
 
 
+_IDS = None
+
+
+def _idname(t):
+    """🔧 11/12: 장부 조건 영어 이름(foreign_return 2/3 등)이 화면에 그대로 나오던 것 → 「외국인 복귀 2/3」 (건강검진 #sigmore)"""
+    global _IDS
+    import re
+    if _IDS is None:
+        _IDS = {}
+        def walk(o):
+            if isinstance(o, dict):
+                i, c = o.get("id"), o.get("cond")
+                if isinstance(i, str) and isinstance(c, str) and re.fullmatch(r"[a-z][a-z0-9]*_[a-z0-9_]+", i):
+                    nm = re.split(r" = | \(|\(", c)[0].strip()
+                    _IDS[i] = nm if len(nm) <= 16 else nm[:15] + "…"
+                for v in o.values(): walk(v)
+            elif isinstance(o, list):
+                for v in o: walk(v)
+        try: walk(rj(ROOT / "ledger" / "ledger.json", {}))
+        except Exception: pass
+    if not _IDS or "_" not in t: return t
+    return re.sub(r"\b(" + "|".join(map(re.escape, _IDS)) + r")\b", lambda m: _IDS[m.group(1)], t)
+
+
 def _txt(x, n=90):
     import re
     t = re.sub(r"<[^>]+>", "", str(x or "")).replace("&amp;", "&").strip()
+    t = _idname(t)
     return t if len(t) <= n else t[:n - 1] + "…"
 
 
