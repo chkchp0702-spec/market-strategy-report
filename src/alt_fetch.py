@@ -134,6 +134,15 @@ def kofia_funds():
     df = pd.DataFrame(L); df.insert(0, "date", df.pop("TMPV1").astype(str)); save("kr_kofia_funds", df.sort_values("date"))
 
 
+def kofia_credit():
+    """금융투자협회 신용공여 잔고 추이 — 신용거래융자(전체·유가증권·코스닥) 등 (일별)"""
+    body = {"dmSearch": {"tmpV40": "1000000", "tmpV41": "1", "tmpV1": "D", "tmpV45": "19980101", "tmpV46": dt.date.today().strftime("%Y%m%d"), "OBJ_NM": "STATSCU0100000070BO"}}
+    r = requests.post("https://freesis.kofia.or.kr/meta/getMetaDataList.do", json=body, headers={**UA, "Content-Type": "application/json", "Referer": "https://freesis.kofia.or.kr/stat/FreeSIS.do?parentDivId=MSIS10000000000000&serviceId=STATSCU0100000070"}, timeout=60)
+    print("kofia credit", r.status_code, r.text[:400])
+    j = r.json(); L = j.get("ds1") or next((v for v in j.values() if isinstance(v, list)), [])
+    df = pd.DataFrame(L); df.insert(0, "date", df.pop("TMPV1").astype(str)); save("kr_kofia_credit", df.sort_values("date"))
+
+
 def naver_deposit2():
     out = []
     for host in ("https://finance.naver.com", "https://stock.naver.com", "https://m.stock.naver.com"):
@@ -275,10 +284,11 @@ def px_panel():
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     run("px", px_panel)
-    run("kr_fund", krx_fund); run("kr_fund_pykrx", pykrx_fund); run("kr_deposit", naver_deposit); run("kr_investor", daum_investor)
-    run("kr_kofia_funds", kofia_funds); run("kr_deposit2", naver_deposit2); run("jp_nikkei_hist", nikkei_hist)
+    if os.environ.get("KRX_ID"):   # KRX 지수 PER·PBR 은 로그인 필요 — 비밀값(KRX_ID·KRX_PW)이 이 저장소에 있을 때만
+        run("kr_fund_pykrx", pykrx_fund)
+    run("kr_investor", daum_investor)
+    run("kr_kofia_funds", kofia_funds); run("kr_kofia_credit", kofia_credit); run("kr_deposit2", naver_deposit2)   # 닛케이 PER·PBR 과거 달은 받을 길이 없어 뺌(이번 달만 나옴)
     run("us_multpl", multpl); run("us_margin", finra_margin); run("us_fred", fred); run("us_aaii", aaii)
-    run("jp_nikkei_val", nikkei_val)
     ak_try("cn_pe_sh", lambda ak: ak.stock_market_pe_lg(symbol="上证"))
     ak_try("cn_pe_sz", lambda ak: ak.stock_market_pe_lg(symbol="深证"))
     ak_try("cn_pb_sh", lambda ak: ak.stock_market_pb_lg(symbol="上证"))
