@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "엔, 개입 경계에 다시 오름 — 160엔 돌파 뒤 되돌림",
+   "url": "https://www.tastyfx.com/news/yen-climbs-again-as-intervention-fears-bite/",
+   "press": "tastyfx",
+   "at": "2026-11-13 02:45",
+   "why": "엔 160 = 日 개입선 · 엔 캐리 되감기면 원/달러·아시아 반도체 흔들림 — 💬 17번 환율 답과 이어짐",
+   "summary": "달러/엔 160 돌파 직후 개입 경계로 엔 반등. 일본은 앞서 하루 500억 달러 사상 최대 개입(WSJ 11/8 보도) 전례."
+  },
+  {
+   "title": "굴스비 「AI 데이터센터 붐은 옛날식 수요 과열」 — 인플레 위험 경고",
+   "url": "https://247wallst.com/investing/2026/11/10/feds-goolsbee-says-ai-data-centers-look-like-old-fashioned-overheating/",
+   "press": "24/7 Wall St.",
+   "at": "2026-11-13 02:45",
+   "why": "비둘기 쪽이던 굴스비까지 과열 경고 — 12/9 FOMC 인상 폭(0.25 vs 0.5) 가설과 10년 5% 압력에 직결",
+   "summary": "시카고 연은 굴스비: 서비스 물가 상승, AI 데이터센터 투자 = 수요 과열. 11/12 밤 「뜨거운 물가는 우연 아님」 추가 발언(피드)."
+  },
+  {
+   "title": "월가 혼조 — 엔비디아 다시 낙폭 키워",
+   "url": "https://bizneworleans.com/wall-street-is-mixed-as-nvidia-gets-back-to-falling/",
+   "press": "AP(Biz New Orleans)",
+   "at": "2026-11-13 02:45",
+   "why": "오후 들어 지수 플러스 전환이 꺾임 — 「대장주 단독」 vs 「현금 도피」 판정의 마감 증거",
+   "summary": "엔비디아 장중 낙폭 회복 뒤 다시 하락, 지수 혼조. daily-app 02:14 NVDA −5.2%·SOXX −0.3%."
+  },
+  {
    "title": "월가, 엔비디아 주가·유가 큰 출렁임 흡수하고 안정",
    "url": "https://www.sooleader.com/michigan-news-ap/wall-street-steadies-after-absorbing-big-swings-for-nvidias-stock-and-oil-prices-13008049",
    "press": "AP",
@@ -615,30 +639,6 @@
    "at": "2026-11-11 04:14",
    "why": "한국 반도체(삼성전자·SK하이닉스·091160)·마이크론 — 외국인 20일 반도체 매도와 반대되는 IB 판단, 골드만 「마이크론 너무 싸다」·모건스탠리 「北美 반도체 구간 하단」과 같은 방향",
    "summary": "BofA 메모리 업황 상승 주기 2028년까지 연장 전망(제목 기준, 세부 숫자 미확인). 같은 시간 골드만 「마이크론 무시하기엔 너무 싼 수준」(이데일리)·모건스탠리 「北美 반도체 조정 뒤 구간 하단 — 매수 기회」(야후 홍콩)."
-  },
-  {
-   "title": "TheStreet: 10월 CPI 뒤 나스닥 하락 — 엔비디아 −6%·GE버노바 −7%·퍼스트솔라 −6%",
-   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026",
-   "press": "TheStreet",
-   "at": "2026-11-11 03:45",
-   "why": "금리 5% 위에서 AI·전력 장비 고평가주부터 매도 — ⚡ 공격 칸 「전력」 동점 후보 순서 재점검",
-   "summary": "12:37 ET S&P −0.83%. 하락 상위 스카이댄스 −7.8%·GE버노바 −7.1%·퍼스트솔라 −6.3%·엔비디아 −6.0%. 개장 때 러셀2000은 +3.15%."
-  },
-  {
-   "title": "CNBC: 마이크로소프트, 앤스로픽의 오피스 위협에 장중 급락",
-   "url": "https://cnbc.com/2026/11/10/stock-market-movers-live-updates.html",
-   "press": "CNBC",
-   "at": "2026-11-11 03:45",
-   "why": "「현금 도는 AI(MS)」 가설 반례 — AI 소프트웨어 칸·MS 시총 추월 하루 만의 반전",
-   "summary": "앤스로픽이 상장 앞두고 오피스용 AI 도구 공개 → MS 장중 급락(정확한 % 미확인). 같은 날 구글 100억·AMD 25억·TSMC 최대 10억 달러 앤스로픽 지분 투자 보도."
-  },
-  {
-   "title": "앤스로픽 완전희석 1.4조 달러 상장 추진 — 11/18 가격 결정, 최대 904억 달러 조달",
-   "url": "https://www.business-standard.com/world-news/anthropic-targets-1-4-tn-valuation-in-ipo-eyes-90-4-billion-fundraise-126111000700_1.html",
-   "press": "Business Standard(블룸버그)",
-   "at": "2026-11-11 02:45",
-   "why": "「AI 안에서도 갈린다」·AI 차입 가설 — 엔비디아 실적(11/17) 다음 날 나스닥에 1천억 달러 안팎 공급, QQQ·AI 대형주 수급 부담",
-   "summary": "공모가 70~78달러·8.01억 주(+구주 0.24억), 기본 644억 + AMD·브로드컴·구글·마이크론·MS·엔비디아·TSMC 사모 260억 = 최대 904억 달러, 티커 ANT. 3분기 매출 약 170억 달러(전년 14억)·영업손실 5.67억(2분기 흑자 9.74억)."
   }
  ],
  "at": "2026-11-13 01:45"
