@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아 스파이 의혹, 대중 AI 칩 수출 규제 입법에 불 붙일 듯",
+   "url": "https://www.thestar.com.my/news/world/2026/11/10/nvidia-spy-allegations-likely-to-spur-laws-totighten-china039s-access-to-ai-chips",
+   "press": "로이터(더스타 전재)",
+   "at": "2026-11-13 08:45",
+   "why": "황 사임 뒤 규제 리스크가 남는다 — 반도체 칸·091160·「AI 안에서 갈린다」(NVDA 중국 매출)",
+   "summary": "황 관련 의혹이 의회의 대중 칩 접근 제한 입법(국방수권법 등)을 밀어줄 것이라는 보도. 11/13 인베스팅 「의회 합의 형성」으로 이어짐."
+  },
+  {
+   "title": "엔비디아 스파이 스캔들, 대중 칩 수출 논쟁 키워",
+   "url": "https://www.aljazeera.com/economy/2026/11/10/nvidia-spy-scandal-fuels-debate-over-chip-exports-to-china",
+   "press": "알자지라",
+   "at": "2026-11-13 08:45",
+   "why": "규제 강화면 AMD·브로드컴 「대체 수혜」도 중국 매출에선 같이 막힘 — 갈아타기 bet 근거 점검용",
+   "summary": "스캔들이 H200 등 대중 판매 허가 논쟁을 다시 키움. 상원 초당파 서한 「수출 허가 중단」 요구 흐름과 연결."
+  },
+  {
    "title": "채권 금리, 2022년 이후 최대 급등 — 연준 추가 인상 기대 확산",
    "url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195",
    "press": "MarketWatch",
@@ -623,22 +639,6 @@
    "at": "2026-11-11 11:05",
    "why": "💬 9번 🇧🇷 브라질 국채 — 재정 걱정 진정 여부(헤알/원 250원·10년 14%대 조건)",
    "summary": "재정 목표 이행 방안을 다음 주까지 의회에 · 브라질 10년 15.23%(11/10, brl_live)·Trading Economics 15.19% 부근 · 세부 내용 미확인"
-  },
-  {
-   "title": "코어위브, 26억 달러 AI 대출 — 가산금리 넓어져(SOFR+5.5%대, 네비우스의 약 3배)",
-   "url": "https://theenergymag.com/news/2026-08-11/coreweave-ai-2-6-billion-wider-spread/",
-   "press": "The Energy Mag",
-   "at": "2026-11-11 10:45",
-   "why": "🧠 「AI 차입」 가설·🫧 신용 칸 — 코어위브가 이번엔 칩 담보 빚+고객 선급금으로 조달(FT 11/11), 앞선 대출 금리가 이미 넓어졌던 배경",
-   "summary": "8월 26억 달러 대출 가산금리가 이전보다 넓어짐(dealroom: SOFR+5.5, 네비우스의 3배) · 11/11 FT 「칩 담보 수십억 달러 빚」 = 무담보 회사채 대신 담보·선급금으로 방식 전환"
-  },
-  {
-   "title": "코어위브, 메타 계약 담보 GPU 대출 85억 달러 — 투자등급",
-   "url": "https://www.bloomberg.com/news/articles/2026-03-31/coreweave-crwv-raises-8-5-billion-gpu-loan-backed-by-meta-deal",
-   "press": "Bloomberg",
-   "at": "2026-11-11 10:45",
-   "why": "AI 안에서도 갈린다 — 「계약(현금흐름)이 붙은 빚」은 투자등급, 붙지 않은 빚은 비싸짐 → 네오클라우드 중 수요 확인된 쪽만 남는 근거",
-   "summary": "3/31 메타 계약을 담보로 85억 달러 GPU 대출, 투자등급 · 같은 회사도 담보 유무로 금리가 크게 갈림"
   }
  ],
  "at": "2026-11-13 01:45"
