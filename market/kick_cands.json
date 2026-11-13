@@ -6762,6 +6762,15 @@
 "lv": 21.19,
 "max20": 11.9,
 "id60": 0.0
+},
+"KOF|2026-11-13": {
+"code": "KOF",
+"name": "Coca Cola Femsa S.A.B. de C.V.  Americ",
+"mkt": "US",
+"d": "2026-11-13",
+"src": "accum",
+"score": 48.0,
+"lv": 122.14
 }
 },
 "sent": [
