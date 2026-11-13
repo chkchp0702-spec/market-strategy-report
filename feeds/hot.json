@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13 13:45",
+ "at": "2026-11-13 14:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "kwusa/61751": {
@@ -37,11 +37,6 @@
    "why": "데일리(2027 투표권) 「추가 인상 더 필요할 듯」 + JP모건 「12월 인상 이미 반영」 — 12/9 FOMC 분수령 가설·10년 5% 칸",
    "at": "2026-11-13 04:45"
   },
-  "n/swwwftcomcontent1e08661e1db04ff7823677254bb05790syn25a6b1a61": {
-   "lv": 1,
-   "why": "美 기존주택 판매 2010년 이후 최저 — 10년 5%대 금리가 실물(주택)을 누르기 시작, 「고금리 정점」 가설·금리 민감주 칸",
-   "at": "2026-11-13 04:45"
-  },
   "n/ectationsgrowformorefedratehikesd0a4f195modmw_rss_topstories": {
    "lv": 1,
    "why": "채권 금리 2022년 이후 최대 급등·추가 인상 기대 — 「고금리 정점」 가설 역풍·12/9 분수령",
@@ -52,11 +47,6 @@
    "why": "앤스로픽 공모 약 6배 초과 청약 — 엔비디아 쇼크에도 AI 수요 유지, 11/18~20 상장 시험대",
    "at": "2026-11-13 07:45"
   },
-  "n/ngressdevelopingconsensusonlimitingchipexportstochina5022288": {
-   "lv": 1,
-   "why": "美 의회 대중 엔비디아 칩 규제 합의 진전 — 황 사임 뒤 「사람+규제」 겹침, 091160·반도체 칸·「AI 안에서 갈린다」 가설",
-   "at": "2026-11-13 08:45"
-  },
   "n/20261112samsungisintalkstoacquiredatacentercoolingfirmmodine": {
    "lv": 1,
    "why": "AI 갈림 가설 — 삼성이 「현금으로 도는 데이터센터 인프라(냉각)」로 확장, 메타 커스텀 HBM과 함께 엔비디아 단일 의존 줄이기",
@@ -65,11 +55,6 @@
   "n/s20261113newworldsuspendstradingasinvestorswatchfornextsteps": {
    "lv": 1,
    "why": "홍콩 부동산 대형사 이유 없는 거래정지 — H주 50% 규칙·「약한 고리는 차입(크레딧)」 가설과 직결",
-   "at": "2026-11-13 10:45"
-  },
-  "n/NfOGY1ZVhRZnluTDZmcmR1ZHYwNndMQUkyZXhkQVVaX2s3MzJCOFRPdVUoc5": {
-   "lv": 1,
-   "why": "대통령 주재 자본시장·코스닥 개편 간담회 — 코스닥 50% 규칙·한국 하락장 반등의 정책 재료",
    "at": "2026-11-13 10:45"
   },
   "HANAchina/72062": {
@@ -96,6 +81,16 @@
    "lv": 1,
    "why": "엔비디아 지원 네오클라우드 Nscale 「앤스로픽 계약 이행에 추가 자금 필요」(FT) — 황 퇴진으로 엔비디아 보증 불투명, 「AI 차입이 약한 고리」 가설 직격",
    "at": "2026-11-13 13:45"
+  },
+  "n/JJSXZVM2szTGUwbExKcWZXN1I4elJxaW1PUjkxMU4xa05BckhfOElYM0woc5": {
+   "lv": 1,
+   "why": "🐻 코스피 — 대통령 간담회 직후 하락 전환·외국인 팔자, 「아침 반등→오후 반납」 재현(신호판 20일선 멀어짐)",
+   "at": "2026-11-13 14:40"
+  },
+  "n/lNBdm9fWDFNNVpDMUFVb0hGSUVOYUE3Ui1USTRSX2w3T0dCWXZiTmpiMAoc5": {
+   "lv": 1,
+   "why": "엔비디아 사태가 의회 청문으로 — 황·러트닉 증언 요구, 11/17 실적 앞 규제 재료(AI 차입·K자 가설)",
+   "at": "2026-11-13 14:40"
   }
  }
 }

@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "금, 4,000달러 아래로 — 달러 강세·연준 인상 베팅 확대",
+   "url": "https://www.thestandard.com.hk/finance/article/335535/Gold-drops-below-key-US4000-level-as-dollar-firms-rate-hike-bets-rise",
+   "press": "The Standard(HK)",
+   "at": "2026-11-13 14:40",
+   "why": "포트 금 5% 칸 — 금리 오를 땐 금도 피난처가 못 된다(💬 피난처·금 질문 근거)",
+   "summary": "달러 강세·인상 베팅에 금 4,000달러 하회. 美 10년 5.1%·12월 인상 확률 100% 국면에서 금·장기채 동반 약세."
+  },
+  {
+   "title": "Nscale, 손실 늘린 상장 신고서 수정 — 엔비디아 연계 네오클라우드 변동성",
+   "url": "https://seekingalpha.com/news",
+   "press": "Seeking Alpha",
+   "at": "2026-11-13 14:40",
+   "why": "가설 「AI 차입이 약한 고리」 — 네오클라우드 자금 공백이 서류로 재확인, 앤스로픽 6배 청약과 대비(K자)",
+   "summary": "Nscale이 S-1을 고치며 손실 폭을 넓혀 공시. 전날 FT 「앤스로픽 계약 이행에 추가 자금 필요」에 이어."
+  },
+  {
    "title": "Nscale S-1: 앤스로픽 446억 달러 계약 이행 자금 아직 미확보",
    "url": "https://www.thestack.technology/nscales-s-1-shows-it-still-needs-financing-for-44-6b-anthropic-deal/",
    "press": "The Stack",
@@ -623,22 +639,6 @@
    "at": "2026-11-11 18:45",
    "why": "💬 채권 답·국고채 금리 — PD 제재가 국채 인수 여력·발행 시장에 부담, 증권주 실적 변수",
    "summary": "공정위 국고채 PD 담합 제재 관련 증권사 충당금 우려(피드: 15개 PD 과징금 역대 최대 1.6조, 금투협 「국채 발행 차질·대외신인도 타격」). 업계 불복 소송 검토(매경)."
-  },
-  {
-   "title": "오픈AI 연환산 매출 3분기 70% 넘게 늘어 약 700억 달러 — 기업 매출 두 배",
-   "url": "https://www.newsquawk.com/headlines/openai-annualized-revenue-run-rate-grows-over-70-in-q3-nearly-usd-70bln-according-to-sources",
-   "press": "Newsquawk",
-   "at": "2026-11-11 17:45",
-   "why": "「AI 안에서도 갈린다」 가설·TSM 대기 bet — 최종 수요(모델 회사 매출)가 아직 가속, 엔비디아 실적(11/17) 앞 AI 수요 걱정을 더는 숫자",
-   "summary": "소식통 인용: 오픈AI 연환산 매출 3분기 +70%↑·약 700억 달러, 기업 매출 두 배. 피드엔 블룸버그 「3분기 매출 약 100억 달러·50% 가까이 증가」."
-  },
-  {
-   "title": "골드만삭스: 미국 지수, 3조 달러 IPO 파이프라인 감당 가능한가",
-   "url": "https://www.hellenicshippingnews.com/are-us-indices-prepared-for-a-3-trillion-ipo-pipeline-goldman-weighs-in/",
-   "press": "Hellenic Shipping News(골드만 인용)",
-   "at": "2026-11-11 17:45",
-   "why": "앤스로픽 11/18~20 상장(답 10번) · 「AI 차입」 가설 — 주식 공급 급증(골드만 「2027년 2000년 이후 최대 공급 충격」 피드 11/09)이 수급을 빨아들이는지",
-   "summary": "골드만, 대형 IPO 파이프라인 약 3조 달러 — 자사주 매입이 흡수할 수 있는지가 관건. 날짜는 미확인(기사 게시일 확인 필요)."
   }
  ],
  "at": "2026-11-13 01:45"
