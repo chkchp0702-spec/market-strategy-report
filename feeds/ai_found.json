@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "미국채, 물가 불안에 「해방의 날」 이후 최악의 주간",
+   "url": "https://asreport.americanbanker.com/articles/us-bonds-see-worst-week-since-liberation-day-on-inflation-angst",
+   "press": "American Banker(블룸버그 전재)",
+   "at": "2026-11-13 21:45",
+   "why": "美 10년 5%대 고착 여부 — 「고금리 정점」 가설·💬 채권 답",
+   "summary": "물가 불안으로 미국채가 4월 관세 충격 이후 최악의 주간 흐름(게시일 미확인 — FT 11/13 같은 제목 기사와 대조)."
+  },
+  {
+   "title": "윌리엄스 뉴욕 연은 총재 「물가 낮추려면 할 일 더 남았다」",
+   "url": "https://www.americanbanker.com/articles/feds-williams-says-more-work-needed-to-lower-inflation",
+   "press": "American Banker",
+   "at": "2026-11-13 21:45",
+   "why": "연준 3인자까지 매파 — 12/9 인상 폭(「12/9 2018 경로」 가설)",
+   "summary": "윌리엄스: 물가 「너무 높다」, 할 일 남아(블룸버그 11/13 「Far Too High」 보도와 같은 발언으로 보임 · 게시일 미확인)."
+  },
+  {
    "title": "골드만삭스 「월러 매파 발언 뒤 연준 두 번 더 인상 가능성」",
    "url": "https://stocktwits.com/news-articles/markets/equity/two-more-fed-rate-hikes-likely-after-governor-waller-s-hawkish-remarks-goldman-sachs/cZD6eKGRBVe",
    "press": "Stocktwits",
@@ -623,22 +639,6 @@
    "at": "2026-11-11 23:45",
    "why": "미국 지수 ETF 칸·TSM bet — 채권 현물 휴장일 주식만 열린 AI 반등, 금리 판정은 내일로 미뤄짐",
    "summary": "엔비디아 반등 주도로 3대 지수 상승 출발 · 10년물 5% 근처 · 재향군인의 날 채권시장 휴장(주식 정상)"
-  },
-  {
-   "title": "코어위브, 전망 상향·수요 강세에 상승 — 애널리스트 강세 유지",
-   "url": "https://seekingalpha.com/news/4631385-coreweave-rises-after-raised-outlook-demand-keeps-analysts-bullish",
-   "press": "Seeking Alpha",
-   "at": "2026-11-11 23:45",
-   "why": "AI 차입 가설 반례·「AI 안에서 갈린다」 — 빚으로 짓는 네오클라우드가 가이던스로 버팀, 상류(MU·TSM·AVGO)로 파급",
-   "summary": "연간 전망 상향 뒤 급등 · 수요 강세로 애널리스트 강세 유지 · 미국 개장 직후 +14.5%(55.81$, daily-app 23:33)"
-  },
-  {
-   "title": "TSMC 10월 매출 — 전월비 +14.7%·전년비 약 +60% (SEC 6-K 공시)",
-   "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000796/tsm-revenue20261110.htm",
-   "press": "SEC / TSMC",
-   "at": "2026-11-11 21:45",
-   "why": "⚡ TSM 대기 bet·🧠 「AI 안에서 갈린다」 — 엔비디아가 사람 위험으로 빠져도 상류 공급사 숫자는 가속",
-   "summary": "10월 매출 전월비 +14.7%·전년비 +59%대(TIKR 정리). 엔비디아 하향 연쇄와 같은 날 「AI 둔화 아직 없음」 숫자."
   }
  ],
  "at": "2026-11-13 17:45"
