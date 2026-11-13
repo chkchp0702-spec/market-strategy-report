@@ -1,12 +1,51 @@
-{"date": "2026-11-13", "read": 816, "items": [
- {"id": "globalmktinsight/7897", "why": "1쪽 코스피·코스닥 마감·옵션 만기 · 3쪽 한국 칸"},
- {"id": "globalmktinsight/7896", "why": "⚔️ 대결 오른쪽 근거(번스타인·베어드 하향) · 💬 엔비디아 답"},
- {"id": "HANAchina/72027", "why": "⚔️ 대결 왼쪽 — 마이클 버리 「단기 절호의 기회」"},
- {"id": "HANAchina/72031", "why": "3쪽 대만 가권 −2.63% (엔비디아 충격 먼저 반영)"},
- {"id": "HANAchina/72009", "why": "반대 의견 ③ 번스타인 데이터센터 586→199GW — 🧭 전력 11 점검"},
- {"id": "pokara61/224474738993", "why": "발언 칸 — 「수요 아닌 신뢰 쇼크」, 🧭 반도체 2를 11/17까지 그대로 둔 근거"},
- {"id": "kimu_nim/48777", "why": "킥 보강 — 「시작은 금리, 앞으로도 금리가 키」"},
- {"id": "n/20261112fedsdalysaysmoreratehikeslikelyneededtocoolinflation", "why": "⚡ 킥·발언 칸 — 데일리 「추가 인상」"},
- {"id": "n/0261112bofatradersseeshortsellerspileintoratesensitivestocks", "why": "발언 칸 — 금리 민감주 공매도, 🧭 전력 11 점검"},
- {"id": "n/httpswwwcnbccom20261112ciscocscoq12027earningshtml", "why": "발언 칸 — 시스코 AI 인프라 매출 두 배, 🧭 광통신 3 유지"}],
- "skip": "황 사임 중복 속보 약 120 · 해외 소형주 실적·내부자 매매 약 300 · 국내 정치·사회 뉴스 약 150 · 개인 의견·광고 약 60 · 오늘 이야기와 무관 나머지"}
+{
+ "date": "2026-11-14",
+ "read": 781,
+ "items": [
+  {
+   "id": "globalmktinsight/7907",
+   "why": "1쪽 코스피·코스닥 마감·외국인·기관 매도 · 3쪽 한국 칸(은행 +3.8%)"
+  },
+  {
+   "id": "n/httpswwwcnbccom20261113faagroundstophtml",
+   "why": "2쪽 🎯 항공 「이게 깨지면」·예고② SPY>JETS · 💬 이슈 질문"
+  },
+  {
+   "id": "n/httpswwwcnbccom20261112stockmarkettodayliveupdateshtml",
+   "why": "⚡ 킥 — 나스닥 −0.91%지만 주간 「8월 이후 최고」"
+  },
+  {
+   "id": "HANAchina/72079",
+   "why": "🎯 focus.why JETS — 유조선 운임 고점 대비 −61%"
+  },
+  {
+   "id": "HANAchina/72080",
+   "why": "4쪽 발언 — 대만 가권 +1.35%·주간 +10%·ASIC 진영"
+  },
+  {
+   "id": "kimu_nim/48898",
+   "why": "🧭 에너지 15 검토 기각 근거 — IEA 4분기 공급 과잉"
+  },
+  {
+   "id": "HANAchina/72089",
+   "why": "4쪽 발언 — 굴스비 「할 일 남아」 · 시나리오 A 60 유지"
+  },
+  {
+   "id": "HANAchina/72097",
+   "why": "4쪽 발언 — 베선트 「에너지 충격에 인상 말라」"
+  },
+  {
+   "id": "pokara61/224476205214",
+   "why": "반대 의견 ② 「사라진 건 CEO지 AI 수요 아님」 · 예고① 틀리면 바꿀 것"
+  },
+  {
+   "id": "james_lee_advisors/224475831452",
+   "why": "패널 31번 기록 — CCC→B등급 신용 전이·LTA"
+  },
+  {
+   "id": "n/GMtYUVJSkJVdWVNc2xYNGZFaGtqU3pZNW9JZGVlaTZNSjZTSktxU3dROAoc5",
+   "why": "⚔️ 대결 왼쪽 — 골드만 S&P 8,700 · 반대 의견 ①"
+  }
+ ],
+ "skip": "해외 개별 실적·SEC 공시 약 250 · 엔비디아 사임 후속 중복 약 120 · 한국 개별 실적 속보(kimu_nim) 약 60 · 링크만 있는 글 약 40 · 오늘 이야기와 무관(사회·부동산·광고) 약 300"
+}
