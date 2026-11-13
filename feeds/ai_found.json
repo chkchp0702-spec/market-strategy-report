@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "美 증시 — 엔비디아 우려 속 나스닥 선물 약세, 앤스로픽 상장 주목(로이터)",
+   "url": "https://www.devdiscourse.com/article/international/4004505-us-stocks-nasdaq-futures-slip-with-nvidia-woes-anthropic-ipo-in-focus",
+   "press": "Devdiscourse(로이터 전재)",
+   "at": "2026-11-14 07:45",
+   "why": "다음 주 두 시험대(11/17 엔비디아 실적·11/18~20 앤스로픽 상장) — 「닷컴 3막」·「AI 안에서도 갈린다」 가설 확인 일정",
+   "summary": "엔비디아 CEO 퇴진 여파로 나스닥 선물 약세 · 앤스로픽 상장이 AI 심리 시험대 · 원문 게시 시각 미확인"
+  },
+  {
    "title": "美 FAA, 「이례적 상황·안전」 이유로 전국 항공기 이륙 중단",
    "url": "https://www.axios.com/2026/11/13/faa-nationwide-ground-stop",
    "press": "Axios",
@@ -641,5 +649,5 @@
    "summary": "WSJ 보도 인용 · 이르면 이사회 회의 임박 보도(kimu_nim 텔레그램) · 정규장 상승분 반납"
   }
  ],
- "at": "2026-11-14 00:45"
+ "at": "2026-11-14 07:45"
 }
