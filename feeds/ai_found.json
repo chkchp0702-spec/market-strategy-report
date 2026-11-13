@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "美 FAA, 「이례적 상황·안전」 이유로 전국 항공기 이륙 중단",
+   "url": "https://www.axios.com/2026/11/13/faa-nationwide-ground-stop",
+   "press": "Axios",
+   "at": "2026-11-14 06:45",
+   "why": "장 마감 뒤 돌발 — 원인 미확인, 월요일 항공·여행주와 위험 심리 확인용",
+   "summary": "11/13 저녁 FAA 전국 지상 대기(ground stop) 명령 · 원인 미확인 · 우리 칸에 항공 노출 없음"
+  },
+  {
    "title": "골드만 「2027 S&P500 EPS 415달러 — 다만 좁은 주도주가 위험」",
    "url": "https://investinglive.com/stock-market-update/goldman-sachs-sees-s-p-500-earnings-at-415-in-2027-but-warns-narrow-leadership-is-a-risk/",
    "press": "investingLive",
@@ -631,14 +639,6 @@
    "at": "2026-11-12 08:45",
    "why": "미국 대표 매체 확인 — 반도체 칸·🎯 상류 가설의 대장주 단독 위험",
    "summary": "WSJ 보도 인용 · 이르면 이사회 회의 임박 보도(kimu_nim 텔레그램) · 정규장 상승분 반납"
-  },
-  {
-   "title": "앤스로픽, 추수감사절 전 1.5조 달러 상장 강행 보도",
-   "url": "https://fourweekmba.com/ai-anthropic-said-to-press-on-with-1-5t-pre-thanksgiving-ipo/",
-   "press": "FourWeekMBA",
-   "at": "2026-11-12 06:45",
-   "why": "11/18~20 대형 상장 — AI 수급 흡수·상류(TSMC 지분) 재평가 · qa 11",
-   "summary": "주관사들이 공모 기업가치 최소 1.5조 달러 검토(FT 인용) · 앞서 2조 논의에서 낮춘 숫자 · 추수감사절 전 상장 일정 유지"
   }
  ],
  "at": "2026-11-14 00:45"
