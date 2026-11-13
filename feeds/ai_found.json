@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "美 의원들, 엔비디아 논란 속 국방수권법에 대중 칩 수출 통제 강화 추진",
+   "url": "https://www.scmp.com/tech/tech-war/article/3373940/us-lawmakers-push-tougher-china-export-controls-defence-bill-amid-nvidia-scrutiny",
+   "press": "SCMP",
+   "at": "2026-11-13 17:45",
+   "why": "中 AI주·H주 50% 칸 급락의 원인 — 규제가 법으로 굳으면 메모리 물량은 美 고객으로 재배정(삼성·SK eSSD)",
+   "summary": "의회가 국방수권법(NDAA)에 대중 AI칩 수출 통제 강화 조항을 넣는 방안 추진. 11/13 中 즈푸AI −10%·화훙반도체 −6%(하나중국), eSSD 中 주문 축소분은 美로(지디넷)."
+  },
+  {
    "title": "뉴욕연은 윌리엄스 「채권 금리 상승은 강한 경제 신호」·추가 인상 시사",
    "url": "https://www.investmentnews.com/fixed-income/feds-williams-sees-another-rate-hike-as-treasury-rout-deepens/268342",
    "press": "InvestmentNews",
@@ -623,23 +631,7 @@
    "at": "2026-11-11 20:45",
    "why": "🧠 「12/9 FOMC 분수령」·💬 12번 — 큰 곳 기본값은 0.5%p 한 번보다 0.25%p 여러 번",
    "summary": "12월 25bp 인상 유지 + 2027년 3월 추가 → 인상 3회. 첫 인하 2027년 12월로 미룸. 10월 CPI 전월비 +0.4%·근원 +0.3%가 계기."
-  },
-  {
-   "title": "엔비디아 이사회, 젠슨 황 사생활·중국 스파이 의혹 조사에 와크텔 립턴 선임",
-   "url": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
-   "press": "CNBC",
-   "at": "2026-11-11 20:45",
-   "why": "11/17 엔비디아 실적·「AI 안에서도 갈린다」 — 대장주 고유 악재(지배구조)가 AI 전체 할인으로 번지는지가 TSM·상류 bet 의 엣지",
-   "summary": "이사회 독립 조사 착수(11/10). 11/9 엔비디아 −4%, 11/10 −6.1%로 올해 상승분 반납. 트럼프 「후임」 발언 메시지가 텔레그램에 돌지만 「연습)」 표시 글로 미확인."
-  },
-  {
-   "title": "UBS 자산운용 「AI 빚의 그물」 — 차입 위험 과소평가",
-   "url": "https://www.ubs.com/ch/en/assetmanagement/insights/investment-outlook/the-red-thread/trt-end-year-2026/articles/webs-of-ai-debt.html",
-   "press": "UBS Asset Management",
-   "at": "2026-11-11 19:45",
-   "why": "🫧 「다음 약한 고리는 AI 차입」 가설(0.92)·버블 경보판 신용 칸 — 오늘 AI 되사기 반등의 반대 근거",
-   "summary": "소냐 라우드(UBS AM 공동 투자책임자, 11/11 블룸버그 TV): AI 투자 붐이 주식 이야기에서 빚 중심 대차대조표 이야기로 바뀜. 공·사모 빚과 지분이 얽힌 그물 위험을 시장이 과소평가."
   }
  ],
- "at": "2026-11-13 01:45"
+ "at": "2026-11-13 17:45"
 }
