@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "골드만 「2027 S&P500 EPS 415달러 — 다만 좁은 주도주가 위험」",
+   "url": "https://investinglive.com/stock-market-update/goldman-sachs-sees-s-p-500-earnings-at-415-in-2027-but-warns-narrow-leadership-is-a-risk/",
+   "press": "investingLive",
+   "at": "2026-11-14 04:40",
+   "why": "가설 「AI 안에서도 갈린다」·「닷컴 3막」 — 엔비디아 사태로 소수 대형주 쏠림 위험이 실제로 드러난 날",
+   "summary": "골드만 2027 S&P500 주당순이익 415달러 전망 · 주도주가 좁은 것을 위험으로 지목(제목 기준, 세부 숫자는 원문 확인 · 미확인)"
+  },
+  {
+   "title": "S&P 이익 증가율 11%로 둔화 — 방어주가 피난처로",
+   "url": "https://www.webull.com/news/15775181418015744",
+   "press": "Webull",
+   "at": "2026-11-14 04:40",
+   "why": "11/13 밤 반도체→음식료·보험 「업종 갈아타기」와 같은 흐름 — 💬 「돈 어디로」 답 근거",
+   "summary": "골드만 「꼭지 맞히려 하지 말라」·EPS 증가율 11%로 둔화 전망 · 방어주로 돈 이동(제목 기준 · 세부 미확인)"
+  },
+  {
    "title": "AI 빚, 민주당 의회 장악 앞두고 압박 — 로이터 분석",
    "url": "https://www.kitco.com/news/off-the-wire/2026-11-10/ai-debt-faces-pressure-democrats-prepare-take-over-congress",
    "press": "Reuters(Kitco 전재)",
@@ -623,30 +639,6 @@
    "at": "2026-11-12 06:45",
    "why": "11/18~20 대형 상장 — AI 수급 흡수·상류(TSMC 지분) 재평가 · qa 11",
    "summary": "주관사들이 공모 기업가치 최소 1.5조 달러 검토(FT 인용) · 앞서 2조 논의에서 낮춘 숫자 · 추수감사절 전 상장 일정 유지"
-  },
-  {
-   "title": "앤스로픽 투자자들, 상장 가치 2조→1.5조 달러 저울질",
-   "url": "https://fourweekmba.com/ai-anthropic-investors-weigh-1-5t-ipo-value-down-from-2t/",
-   "press": "FourWeekMBA",
-   "at": "2026-11-12 06:45",
-   "why": "AI 비상장 가치 눈높이 조정 — 🫧 버블 경보판 참고",
-   "summary": "기업가치 기대치 2조→1.5조 달러로 낮춰 논의 · 공모 규모·수요가 AI 위험선호 온도계"
-  },
-  {
-   "title": "엔비디아, 모건스탠리 최선호주에서 교체 — AI 애널리스트 의견 5건",
-   "url": "https://ng.investing.com/news/stock-market-news/5-big-analyst-ai-moves-nvidia-replaced-as-top-pick-pinterest-downgraded-2195960",
-   "press": "Investing.com",
-   "at": "2026-11-12 05:45",
-   "why": "엔비디아 하향 몰린 날 SOXX +6%대 — 「악재 소진」 판단·11/17 실적 앞 TSM bet·「AI 안에서 갈린다」",
-   "summary": "모건스탠리가 엔비디아를 최선호 목록에서 교체(피드 gn_kr_global: 베어드 「중립」 하향과 같은 날). 세부 목표가는 미확인."
-  },
-  {
-   "title": "공매도사 컬퍼, 6개월 전 이미 젠슨 황-앨리스 황 관계를 지목",
-   "url": "https://officechai.com/ai/how-short-seller-culper-research-had-highlighted-jensen-huangs-uncomfortably-close-relationship-with-alice-huang-6-months-before-their-affair-was-revealed/",
-   "press": "OfficeChai",
-   "at": "2026-11-12 04:45",
-   "why": "엔비디아 CEO 위험이 「새 악재」가 아니라 5월부터 알려진 이야기 — 반등이 악재 소진인지 판단 · TSM bet·「AI 안에서 갈린다」",
-   "summary": "컬퍼 리서치 5월 공매도 보고서가 황 CEO와 중국 사업가 관계·중국 우회 매출 20%를 지적. 11/9 보도 뒤 시총 약 2,700억$ 증발(ynet)."
   }
  ],
  "at": "2026-11-14 00:45"
