@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "골드만삭스 「월러 매파 발언 뒤 연준 두 번 더 인상 가능성」",
+   "url": "https://stocktwits.com/news-articles/markets/equity/two-more-fed-rate-hikes-likely-after-governor-waller-s-hawkish-remarks-goldman-sachs/cZD6eKGRBVe",
+   "press": "Stocktwits",
+   "at": "2026-11-13 19:45",
+   "why": "12/9 FOMC 분수령 가설·10년 5% 칸 — 골드만 인상 경로(오늘 SA 「두 번 더 뒤 인하」와 같은 줄기)",
+   "summary": "골드만이 월러 이사 발언 뒤 추가 인상 2회 가능성을 제시. 게시일 미확인 — 오늘 SA 보도와 교차 확인용."
+  },
+  {
+   "title": "마이클 버리 vs 엔비디아 — 엔비디아가 투자한 네비우스 공매도",
+   "url": "https://www.barchart.com/story/news/3760864/michael-burry-vs-nvidia-what-to-know-as-burry-bets-against-nvidia-backed-nebius-stock",
+   "press": "Barchart",
+   "at": "2026-11-13 19:45",
+   "why": "「AI 차입이 약한 고리」 가설 — 네오클라우드 끝단(오늘 네비우스 17%↓·버리 칩 과잉 경고)의 배경",
+   "summary": "버리가 엔비디아 투자를 받은 네비우스에 약세 베팅. 오늘 야후 「버리 옳았다, 네비우스 17%↓」로 이어짐. 원문 게시일 미확인."
+  },
+  {
    "title": "유가, 트럼프가 밴스를 이란 외교에서 빼자 상승폭 유지",
    "url": "https://uk.investing.com/news/commodities-news/oil-prices-hold-gains-as-trump-sidelines-vance-from-iran-diplomacy-4979343",
    "press": "Investing.com",
@@ -623,22 +639,6 @@
    "at": "2026-11-11 21:45",
    "why": "⚡ TSM 대기 bet·🧠 「AI 안에서 갈린다」 — 엔비디아가 사람 위험으로 빠져도 상류 공급사 숫자는 가속",
    "summary": "10월 매출 전월비 +14.7%·전년비 +59%대(TIKR 정리). 엔비디아 하향 연쇄와 같은 날 「AI 둔화 아직 없음」 숫자."
-  },
-  {
-   "title": "베어드, 엔비디아 중립 하향·목표가 500→200달러 / 모건스탠리 최선호주 제외",
-   "url": "https://www.cnbc.com/2026/11/11/nvidia-baird-downgrade-ceo-ai-capex.html",
-   "press": "CNBC",
-   "at": "2026-11-11 21:45",
-   "why": "💬 3·5번 — CEO 위험이 의견 하향으로 번짐, 이틀 시총 −4,300억$(야후)",
-   "summary": "베어드: CEO 황 우려·AI 투자 불확실성으로 중립. 모건스탠리는 비중확대 유지하되 최선호주 제외(하나중국). 이사회는 와크텔 로펌으로 조사."
-  },
-  {
-   "title": "BofA 「10월 CPI, 12월 0.5%p 인상의 문을 열었다」",
-   "url": "https://www.investing.com/news/stock-market-news/bofa-says-the-october-cpi-report-opens-the-door-to-a-50bp-december-hike-5018493",
-   "press": "Investing.com",
-   "at": "2026-11-11 21:45",
-   "why": "🧠 「12/9 FOMC 분수령」·💬 12번 — 골드만 로빈 브룩스는 「0.5%p 안 한다」, 큰 곳끼리 갈림",
-   "summary": "BofA가 12월 50bp 가능성 언급. 같은 날 골드만은 25bp 유지+27년 3월 추가(3회). 국채 선물 하락 지속(블룸버그)."
   }
  ],
  "at": "2026-11-13 17:45"
