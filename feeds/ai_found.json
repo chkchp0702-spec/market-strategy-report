@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "뉴욕증시, 초반 상승 반납 — 엔비디아 혼란에 기술주 하락",
+   "url": "https://www.investing.com/news/stock-market-news/wall-st-gives-up-early-gains-as-tech-stocks-slide-on-nvidia-turmoil-5026063",
+   "press": "Reuters(Investing.com)",
+   "at": "2026-11-14 00:45",
+   "why": "PPI 뒤 선물 상승이 정규장에서 꺾임 — 반도체 칸·버블 경보 「현금 도피」 점검",
+   "summary": "PPI 뒤 오른 출발을 반납, 기술주 약세. daily-app 00:14 기준 엔비디아 160.55(−3.4%)·SOXX 146.94(−5.2%)."
+  },
+  {
+   "title": "주식시장 실시간: 도매물가 상승 속 S&P500·나스닥 하락 전환, 엔비디아 약세",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
+   "press": "Yahoo Finance",
+   "at": "2026-11-14 00:45",
+   "why": "PPI 전년비 6.5%는 「예상 하회」지만 2022년 이후 최고 — 금리 부담이 지수 반등을 눌렀는지",
+   "summary": "S&P500·나스닥 장 초반 하락 전환(제목 기준). 10월 PPI 전월비 +0.3%·전년비 6.5%(4년 만 최고, 피드 종합). 정확한 지수 수치는 미확인."
+  },
+  {
+   "title": "스노우플레이크, 12/2 3분기 실적 발표",
+   "url": "https://www.snowflake.com/en/news/press-releases/fy27-q3-earnings-date-announcement/",
+   "press": "Snowflake",
+   "at": "2026-11-14 00:45",
+   "why": "🐋 고래 신호(11/13) 종목 — 실적 19일 전 대량 매수, 데이터 인프라(가설 「AI 갈림」)",
+   "summary": "FY27 3분기 실적 12/2(화) 발표. 고래 신호는 10/22·11/13 두 번째. 지금은 👀 관찰만."
+  },
+  {
    "title": "美 생산자물가 10월 전년비 6.5%로 0.2%p 올라",
    "url": "https://www.washingtonexaminer.com/policy/finance-and-economy/4802085/producer-prices-rose-october/",
    "press": "Washington Examiner",
@@ -591,55 +615,7 @@
    "at": "2026-11-12 04:45",
    "why": "WSJ 「세계 경제 AI 붕괴에 취약」과 같은 결 — AI 투자가 성장의 큰 몫이라 꺾이면 경기까지 · 🫧 버블 경보판·닷컴 3막 가설",
    "summary": "AI 설비 투자가 미국 성장 기여의 큰 몫 — 투자 둔화 시 침체 위험(BIS 6월 경고와 같은 논지)."
-  },
-  {
-   "title": "엔비디아, 6월 청문회 거절 — 민주당 2027년 상임위원장 확보로 감독 강화 예고",
-   "url": "https://fourweekmba.com/ai-nvidia-declined-a-june-hearing-democrats-win-2027-gavels/",
-   "press": "FourWeekMBA",
-   "at": "2026-11-12 03:45",
-   "why": "중간선거 블루웨이브 뒤 빅테크·AI 칩 수출 감독이 내년 더 세질 수 있음 — 「AI 안에서 갈린다」 가설의 정책 리스크",
-   "summary": "엔비디아는 6월 청문회 출석을 거절한 전력. 2027년 민주당이 하원 상임위를 맡으면 AI 칩 수출·감독 입법(AI Overwatch Act 등)이 다시 올라올 수 있음."
-  },
-  {
-   "title": "엔비디아 CEO 조사, 실적 앞 지배구조 위험 키워 — 주가 하락",
-   "url": "https://beinsure.com/news/nvidia-nvda-stock-forecast-shares-fall-as-ceo-investigation-raises-governance-risks-ahead-of-earnings/",
-   "press": "Beinsure",
-   "at": "2026-11-12 02:45",
-   "why": "11/17 엔비디아 실적 앞 「CEO 한 사람 위험」 — 💬 2번·「AI 안에서 갈린다」 가설, 칩 상류(TSM bet)와 분리되는지",
-   "summary": "이사회가 젠슨 황 CEO 관련 외부 조사 착수 뒤 지배구조 위험이 실적 앞 변수로 부각. 11/11 밤 증권사 하향에도 주가는 +4.5% 반등(02:34, daily-app)."
-  },
-  {
-   "title": "엔비디아, 젠슨 황 조사로 「결정적 시험대」 — 칩주 변동성 키워",
-   "url": "https://www.scmp.com/tech/big-tech/article/3373825/nvidia-faces-defining-test-jensen-huang-probe-adds-chip-stock-turbulence",
-   "press": "SCMP",
-   "at": "2026-11-12 02:45",
-   "why": "중국 시각 — 엔비디아 중국 판매·조사 변수가 아시아 반도체(삼성·하이닉스·TSMC)에 번지는지",
-   "summary": "젠슨 황 조사가 칩주 전반 변동성을 키웠다는 분석. 같은 날 SOXX는 +8.0%로 상류 칩은 오히려 강세(02:34)."
-  },
-  {
-   "title": "「연준은 엉뚱한 물가와 싸운다」 — 전략가, 10월 CPI 뒤 0.5%p 인상은 '무모'하다고 경고",
-   "url": "https://www.benzinga.com/news/macro-notification/26/11/63132004/fed-is-fighting-the-wrong-inflation-strategist-warns-kevin-warsh-against-reckless-50-basis-point-rate-hike-after-hotter-than-expected-october-cpi",
-   "press": "Benzinga",
-   "at": "2026-11-12 01:45",
-   "why": "12/9 FOMC 분수령 가설의 반대 근거 — 0.5%p 인상 반대론이 커지는지가 「완화로 말 바꾸기」 신호",
-   "summary": "10월 CPI 상회 뒤 0.5%p 인상론에 맞서 '공급·관세 물가에 금리로 대응하는 건 무모' 주장. 시장은 12월 인상은 가격에 넣었고 폭이 쟁점."
-  },
-  {
-   "title": "10월 CPI 충격에 미 국채금리 급등 — 연준 긴축 베팅 되살아나",
-   "url": "https://www.investing.com/news/economy-news/us-treasury-yields-surge-as-hot-cpi-revives-fed-tightening-bets-93CH-5016707",
-   "press": "Investing.com",
-   "at": "2026-11-12 01:45",
-   "why": "美 10년 5% 감시선 — 11/11 휴장 뒤 오늘 밤 재개 때 5% 재돌파 여부가 반도체 반등의 확인 조건",
-   "summary": "CPI 상회로 2년·10년 금리 급등, 10년 장중 5% 돌파 후 4.985% 마감. 12월 인상 확률 사실상 100%."
-  },
-  {
-   "title": "댈러스 연은 로건: 「최소 두 차례 더 0.25%p 인상 필요」",
-   "url": "https://investinglive.com/central-banks/fed-s-logan-at-least-two-more-quarter-point-rate-hikes-needed/",
-   "press": "investingLive",
-   "at": "2026-11-12 00:45",
-   "why": "🧠 12/9 FOMC 분수령 가설·💬 11번 — 2026 투표권자 매파가 인상 경로를 다시 못박음, 10년 5% 재돌파 위험",
-   "summary": "로건 총재 「물가 안정 회복엔 최소 두 번 더 0.25%p 인상」 · 연합인포맥스 11/12 「겨울엔 속도 높일 수도」 · 11/11 채권 휴장으로 금리 재가격은 오늘 밤"
   }
  ],
- "at": "2026-11-13 17:45"
+ "at": "2026-11-14 00:45"
 }
