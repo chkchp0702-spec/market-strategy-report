@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "유가, 트럼프가 밴스를 이란 외교에서 빼자 상승폭 유지",
+   "url": "https://uk.investing.com/news/commodities-news/oil-prices-hold-gains-as-trump-sidelines-vance-from-iran-diplomacy-4979343",
+   "press": "Investing.com",
+   "at": "2026-11-13 18:45",
+   "why": "협상 기대 꺾임 → 브렌트 95 위 재진입, brent_95 선(90)에서 멀어짐 · 유가 답(18번)",
+   "summary": "트럼프 「이란과 합의 필요 없다·밴스는 미국 일에 집중」 뒤 유가 상승폭 유지. 같은 날 IEA는 걸프 수출 회복으로 공급 과잉 전환 진단(블룸버그·FT) — 재료가 엇갈림."
+  },
+  {
+   "title": "브렌트, 트럼프 「이란 합의 필요 없다」에 한때 96달러",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Briefly-Hits-94-After-Trump-Says-US-Has-No-Need-for-Iran-Deal.html",
+   "press": "OilPrice.com",
+   "at": "2026-11-13 18:45",
+   "why": "에너지 칸 축소 선(85·90)과 거리 — 협상 재료가 사라지면 유가 하방은 IEA 과잉 숫자뿐",
+   "summary": "브렌트 한때 96달러(제목 기준) · 사우디 시설 공격 보도 겹침(Free Press Journal) · 정확한 종가 미확인."
+  },
+  {
    "title": "美 의원들, 엔비디아 논란 속 국방수권법에 대중 칩 수출 통제 강화 추진",
    "url": "https://www.scmp.com/tech/tech-war/article/3373940/us-lawmakers-push-tougher-china-export-controls-defence-bill-amid-nvidia-scrutiny",
    "press": "SCMP",
@@ -623,14 +639,6 @@
    "at": "2026-11-11 21:45",
    "why": "🧠 「12/9 FOMC 분수령」·💬 12번 — 골드만 로빈 브룩스는 「0.5%p 안 한다」, 큰 곳끼리 갈림",
    "summary": "BofA가 12월 50bp 가능성 언급. 같은 날 골드만은 25bp 유지+27년 3월 추가(3회). 국채 선물 하락 지속(블룸버그)."
-  },
-  {
-   "title": "골드만, 또 뜨거운 물가에 2027년 3월 인상 추가 — 인상 3회 전망",
-   "url": "https://www.investing.com/news/economy-news/goldman-adds-march-rate-hike-to-fed-forecast-after-another-hot-inflation-read-4949189",
-   "press": "Investing.com",
-   "at": "2026-11-11 20:45",
-   "why": "🧠 「12/9 FOMC 분수령」·💬 12번 — 큰 곳 기본값은 0.5%p 한 번보다 0.25%p 여러 번",
-   "summary": "12월 25bp 인상 유지 + 2027년 3월 추가 → 인상 3회. 첫 인하 2027년 12월로 미룸. 10월 CPI 전월비 +0.4%·근원 +0.3%가 계기."
   }
  ],
  "at": "2026-11-13 17:45"

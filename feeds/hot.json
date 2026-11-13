@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13 17:45",
+ "at": "2026-11-13 18:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "kwusa/61751": {
@@ -21,11 +21,6 @@
    "lv": 1,
    "why": "KB 이은택 2027 전략 — 「남은 카드는 인플레」·장기 국채·우량 중단기 크레딧 선호 · 「고금리 정점」·「12/9 FOMC」 가설",
    "at": "2026-11-12 09:00"
-  },
-  "n/httpswwwcnbccom20261112nvidiajensenhuangceoliveupdateshtml": {
-   "lv": 2,
-   "why": "젠슨 황 엔비디아 CEO 즉시 사임 확정·크레스 CFO 임시 CEO — 정규장 NVDA −10.3%(23:34)·qa 3 flip 조건 절반 충족(SOXX −2.2%로 아직 「대장주 단독」) · 반도체 칸·「AI 안에서 갈린다」·「AI 차입」 가설",
-   "at": "2026-11-12 23:45"
   },
   "globalmktinsight/7898": {
    "lv": 1,
@@ -52,11 +47,6 @@
    "why": "AI 갈림 가설 — 삼성이 「현금으로 도는 데이터센터 인프라(냉각)」로 확장, 메타 커스텀 HBM과 함께 엔비디아 단일 의존 줄이기",
    "at": "2026-11-13 09:45"
   },
-  "n/s20261113newworldsuspendstradingasinvestorswatchfornextsteps": {
-   "lv": 1,
-   "why": "홍콩 부동산 대형사 이유 없는 거래정지 — H주 50% 규칙·「약한 고리는 차입(크레딧)」 가설과 직결",
-   "at": "2026-11-13 10:45"
-  },
   "HANAchina/72062": {
    "lv": 1,
    "why": "엔비디아 두 달 1,400억$ 투자·신용보증 속도 줄일 전망 — 엔비디아 돈에 기대던 네오클라우드 자금줄 좁아짐(🧠 「AI 차입이 약한 고리」 가설 직격)",
@@ -67,20 +57,10 @@
    "why": "이란 「호르무즈 인근 도시 공격」 보도에 WTI +2%대·브렌트 95달러대 — 유가 재상승은 12/9 FOMC 인상 셈법(2018 경로 가설)과 💬 유가 답에 직결",
    "at": "2026-11-13 11:45"
   },
-  "kimu_nim/48850": {
-   "lv": 1,
-   "why": "코스피 외국인 장중 순매도 전환(11:57 잠정 −589억) — 「외국인 나흘째」 조건·💬 8번 답과 직결, 지수 +2.5%→+0.3%",
-   "at": "2026-11-13 12:45"
-  },
   "HANAchina/72066": {
    "lv": 1,
    "why": "美 상무부 말레이·태국 등 7개국 AI칩 원격사용 차단 규정 11월 중 — 엔비디아·서버 공급망, 「AI 안에서 갈린다」 가설",
    "at": "2026-11-13 12:45"
-  },
-  "n/swwwftcomcontent8d5a8642d0a1458daaa4c1e7d344fe47syn25a6b1a61": {
-   "lv": 1,
-   "why": "엔비디아 지원 네오클라우드 Nscale 「앤스로픽 계약 이행에 추가 자금 필요」(FT) — 황 퇴진으로 엔비디아 보증 불투명, 「AI 차입이 약한 고리」 가설 직격",
-   "at": "2026-11-13 13:45"
   },
   "n/JJSXZVM2szTGUwbExKcWZXN1I4elJxaW1PUjkxMU4xa05BckhfOElYM0woc5": {
    "lv": 1,
@@ -90,11 +70,6 @@
   "n/pT0ZZeE44SmpWVGs1djZtZWdoUGdGN3U0SlItT0FEUHk3TlE3ZUtwZFNZoc5": {
    "lv": 1,
    "why": "美 10년 5.14% — 「고금리 정점」 가설(5.05% 위 이틀이면 접기) 깨짐 직전",
-   "at": "2026-11-13 16:45"
-  },
-  "n/ySGx1UTU0VHZnWDhoMGpsOTJEOUlFZUFKbXQwM2tYZVpOeFRSaGVfQVp6oc5": {
-   "lv": 1,
-   "why": "외국인 사흘 사자 뒤 약 7천억 팔자 전환 — 🐻 코스피 바닥 신호판 「외국인 귀환」이 반짝으로",
    "at": "2026-11-13 16:45"
   },
   "n/MwYVFJWXg4VjdUZjVaY2FhZC1EWHRRLXJmeFVvbnZCZDduR1kzNGVMNUEoc5": {
@@ -107,10 +82,15 @@
    "why": "데일리 샌프란 연은 「추가 긴축 필요·시장발 금융여건 긴축 환영」 — 주가 하락을 연준이 반긴다는 말, 12/9 FOMC 분수령(2018 경로) 가설·10년 5% 칸",
    "at": "2026-11-13 17:45"
   },
-  "n/ngressdevelopingconsensusonlimitingchipexportstochina5022288": {
+  "n/es20261113globaloilmarketswingstosurplusongulfexportsieasays": {
    "lv": 1,
-   "why": "美 의회 대중 엔비디아 칩 수출 제한 합의 진전 — 中 AI주 급락·H주 50% 칸, 「AI 안에서 갈린다」 가설(메모리 eSSD 美로 재배정)",
-   "at": "2026-11-13 17:45"
+   "why": "IEA 「이란 전쟁 뒤 첫 공급 과잉」 — 브렌트 95 반등과 반대 숫자, brent_95(에너지 13→10) 선·유가 답",
+   "at": "2026-11-13 18:45"
+  },
+  "n/ThNVWsxa1dOOHBZSXVMdjVubGNYd0lOWFg3cUM3enR4U25BWjJIWmtXSQoc5": {
+   "lv": 1,
+   "why": "코어위브 우량등급 대출 40억$ — 「AI 차입이 약한 고리」 가설의 반대 근거(신용시장 아직 열림)",
+   "at": "2026-11-13 18:45"
   }
  }
 }
