@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 상무부, 중국의 AI칩 원격 사용(클라우드 임대) 차단 규정 초안",
+   "url": "https://aiweekly.co/alerts/commerce-drafts-rule-to-shut-chinas-remote-ai-chip-access",
+   "press": "AI Weekly",
+   "at": "2026-11-13 12:45",
+   "why": "엔비디아 임시 CEO 체제 첫 악재 후보 — 동남아 데이터센터·대만 서버 업체 수요, 「AI 안에서 갈린다」 가설",
+   "summary": "말레이시아·싱가포르·태국 등 데이터센터를 통한 중국 업체의 선진 AI칩 원격 사용 차단 추진. 대만경제일보는 이르면 11월 중 발표 가능성(하나중국 72066). 발표 날짜·범위는 미확인."
+  },
+  {
+   "title": "미 2년물 금리 2026년 고점 근접 — 글로벌 채권 매도 확산",
+   "url": "https://www.itiger.com/news/1172692964",
+   "press": "Tiger Brokers(다우존스)",
+   "at": "2026-11-13 12:45",
+   "why": "12/9 FOMC 인상 폭 베팅 — 💬 7번(연준)·16번(채권)·「고금리 정점 통과」 가설 반대 근거",
+   "summary": "연준 인상 베팅 확대로 2년물이 4년 만의 최대 폭 상승(구글뉴스 11/13), 일본 10년 2.86%까지 동반 상승. 연준 인사 「최근 물가 지표 거의 심란한 수준」(구글뉴스). 정확한 2년물 수치는 미확인."
+  },
+  {
    "title": "엔비디아 8-K: CEO 교체 공시(콜레트 크레스 임시 CEO)",
    "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
    "press": "SEC",
@@ -623,22 +639,6 @@
    "at": "2026-11-11 15:45",
    "why": "TSM 대기 bet(11/11 미국 시가)의 새 재료 — 파운드리가 AI 모델 회사 지분까지 가져가는 「현금 도는 삽 장수」 가설",
    "summary": "11월 이사회 결의 공시. 인베스팅 보도 기준 앤스로픽·오픈AI에 약 10억 달러 투자 승인, 대만 가권 +3.11%·TSMC 급등 마감. 세부 금액 배분은 공시 원문 확인 필요(미확인)."
-  },
-  {
-   "title": "우크라 드론, 러시아 발트해 우스트루가 원유 선적대·저장탱크 손상",
-   "url": "https://www.newsquawk.com/headlines/ukrainian-drones-damaged-oil-loading-stands-crude-oil-and-petroleum-products-reservoirs-at-russias-port-of-ust-luga",
-   "press": "Newsquawk",
-   "at": "2026-11-11 14:45",
-   "why": "🛢️ brent_95 조건(에너지 13→10) — 브렌트 90 근처에서 공급 차질 반등 재료",
-   "summary": "블룸버그 11/11 「우스트루가 항 드론 공격 화재·3명 부상」(피드) · 발트해 터미널 차질 시 하루 최대 150만 배럴 수출 위협(과거 블룸버그 추정) · 이번 차질 규모는 미확인"
-  },
-  {
-   "title": "ABA 데이터뱅크: AI 관련 신용위험 상승",
-   "url": "https://bankingjournal.aba.com/2026/10/aba-databank-ai-credit-risk-is-rising/",
-   "press": "ABA Banking Journal",
-   "at": "2026-11-11 14:45",
-   "why": "🫧 신용 경보 — FT 「은행, AI 대출 한도 닿아 신용보험으로」와 같은 방향",
-   "summary": "미국 은행권 자료로 AI 관련 신용위험이 커진다는 분석(10월) · 세부 숫자는 원문 확인 필요(미확인)"
   }
  ],
  "at": "2026-11-13 01:45"
