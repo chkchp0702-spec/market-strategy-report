@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "코스피 3% 가까이 급등 — 엔비디아 CEO 퇴진 뒤 아시아 칩주 반등",
+   "url": "https://mlq.ai/news/kospi-jumps-nearly-3-as-asian-chip-stocks-rebound-after-nvidias-ceo-exit/",
+   "press": "MLQ",
+   "at": "2026-11-13 10:45",
+   "why": "🐻 코스피 하락장 중 20일선(5,571) 시험 — 「AI 안에서 갈린다」(칩·메모리 상류 강세) 근거",
+   "summary": "코스피 장중 +3% 근접, 삼성전자·SK하이닉스 +3%대. 엔비디아 −4% 다음 날 아시아 메모리·장비주는 반등."
+  },
+  {
+   "title": "코스피 +3%·키옥시아 +5%·삼성·하이닉스 +3% — 한·일 칩주 동반 반등",
+   "url": "https://www.tradingkey.com/analysis/stocks/more/262303508-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-amd-avgo-tradingkey",
+   "press": "TradingKey",
+   "at": "2026-11-13 10:45",
+   "why": "닛케이(일본 0%·바닥 신호 대기)와 한국 반도체 ETF 관찰 — 메모리 상류가 엔비디아 사람 문제와 분리되는지",
+   "summary": "키옥시아 +5% 넘게, 삼성·하이닉스 +3%대, AMD·AVGO 대체 수혜 해석. 닛케이 한때 +900엔."
+  },
+  {
    "title": "아시아 증시, 기술주 급락 뒤 일부 회복",
    "url": "https://www.marketscreener.com/news/asia-stocks-recover-some-ground-after-tech-rout-update-ce785cdad98cf026",
    "press": "MarketScreener(다우존스)",
@@ -623,22 +639,6 @@
    "at": "2026-11-11 13:45",
    "why": "오늘 로이터 새 조사(12월 한 번 더 인상)의 앞 조사 — 한 달째 인상 컨센서스 유지, 12/9 FOMC 가설",
    "summary": "10/20 조사: 거의 모든 이코노미스트가 10월 동결·12월 인상 예상 · 11/11 새 조사도 「12월 한 번 더」(피드 reuters 제목) — 0.5%p 비중은 미확인"
-  },
-  {
-   "title": "국채 발행 당사자는 잘했다는데 공정위는 담합 과징금 — 국고채 담합 쟁점",
-   "url": "https://news.bizwatch.co.kr/article/market/2026/11/03/0021",
-   "press": "비즈워치",
-   "at": "2026-11-11 12:45",
-   "why": "오늘 과징금 1.6조·7곳 고발 확정의 배경 — 국고채 전문딜러 입찰 위축 시 장기물 금리 상승 압력(💬 12·18번)",
-   "summary": "11/3 기사: 기재부는 딜러 정보 교환이 시장 조성이라는 입장, 공정위는 담합으로 봄 · 8월 심의 때 최대 15조 과징금 거론(MTN) → 11/11 1.6조로 확정(연합)"
-  },
-  {
-   "title": "12월 연준 인상을 멈출 수 있는 것은 무엇인가",
-   "url": "https://investinglive.com/education/what-could-stop-the-fed-raising-rates-in-december/",
-   "press": "investingLive",
-   "at": "2026-11-11 12:45",
-   "why": "12/9 FOMC 분수령 thesis의 반대 갈래 점검 — PPI(11/13)·고용 약세가 브레이크 조건",
-   "summary": "인상 경로를 바꿀 변수 정리(물가 둔화·고용 급랭·신용 사고) · 게시 날짜 미확인"
   }
  ],
  "at": "2026-11-13 01:45"
