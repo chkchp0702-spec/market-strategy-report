@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "아시아 증시, 기술주 급락 뒤 일부 회복",
+   "url": "https://www.marketscreener.com/news/asia-stocks-recover-some-ground-after-tech-rout-update-ce785cdad98cf026",
+   "press": "MarketScreener(다우존스)",
+   "at": "2026-11-13 09:45",
+   "why": "🐻 코스피·🇯🇵 닛케이 — 엔비디아 CEO 퇴진 충격 뒤 아시아 반등 흐름, 한국 +2% 출발과 같은 방향",
+   "summary": "엔비디아발 기술주 매도 뒤 아시아 주요 지수 일부 회복 · 한국 코스피 개장 +2.05%(5,452)·09:33 +2.39%(daily-app)"
+  },
+  {
+   "title": "美 선물, 엔비디아 CEO 퇴진 충격 뒤 소폭 상승 — 실시간",
+   "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html",
+   "press": "CNBC",
+   "at": "2026-11-13 09:45",
+   "why": "🟢 S&P·🟡 나스닥 칸 — 오늘 밤 PPI 앞 선물 보합, 「현금 도피」 아님 근거",
+   "summary": "S&P500 선물 7,642(+0.02%)·나스닥100 선물 +0.24%(daily-app 09:34) · 11/12 마감 S&P −0.35%·나스닥 −0.39%"
+  },
+  {
    "title": "엔비디아 스파이 의혹, 대중 AI 칩 수출 규제 입법에 불 붙일 듯",
    "url": "https://www.thestar.com.my/news/world/2026/11/10/nvidia-spy-allegations-likely-to-spur-laws-totighten-china039s-access-to-ai-chips",
    "press": "로이터(더스타 전재)",
@@ -623,22 +639,6 @@
    "at": "2026-11-11 12:45",
    "why": "12/9 FOMC 분수령 thesis의 반대 갈래 점검 — PPI(11/13)·고용 약세가 브레이크 조건",
    "summary": "인상 경로를 바꿀 변수 정리(물가 둔화·고용 급랭·신용 사고) · 게시 날짜 미확인"
-  },
-  {
-   "title": "모건스탠리: 전 세계 주식 헤지펀드 위험 축소, 10여 년 만에 최대",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-11/hedge-fund-risk-retreat-largest-in-a-decade-says-morgan-stanley",
-   "press": "블룸버그",
-   "at": "2026-11-11 11:17",
-   "why": "🧠 「12/9 FOMC 2018 분수령」·🫧 신용 경보 — 외국인 한국 반도체 매도가 글로벌 디레버리징의 일부인지",
-   "summary": "MS 프라임 브로커 노트(11/10): 11월 첫 주까지 글로벌 주식 헤지펀드가 10여 년 만에 가장 가파르게 위험 축소 · 광범위한 포지션 청산(언와인드) 확산"
-  },
-  {
-   "title": "룰라 경제팀, 시장 달랠 재정 목표 이행안 다음 주까지 의회 제출 준비",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-11/lula-team-readies-brazil-fiscal-plan-in-bid-to-calm-market-jitters",
-   "press": "블룸버그",
-   "at": "2026-11-11 11:05",
-   "why": "💬 9번 🇧🇷 브라질 국채 — 재정 걱정 진정 여부(헤알/원 250원·10년 14%대 조건)",
-   "summary": "재정 목표 이행 방안을 다음 주까지 의회에 · 브라질 10년 15.23%(11/10, brl_live)·Trading Economics 15.19% 부근 · 세부 내용 미확인"
   }
  ],
  "at": "2026-11-13 01:45"
