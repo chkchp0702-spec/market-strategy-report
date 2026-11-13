@@ -1,5 +1,5 @@
 {
- "at": "2026-11-14 07:45",
+ "at": "2026-11-14 08:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "kwusa/61751": {
@@ -11,11 +11,6 @@
    "lv": 1,
    "why": "엔비디아 중심 AI 금융 고리(투자·외상) 점검 — 「AI 차입이 다음 약한 고리」 가설 근거",
    "at": "2026-11-12 03:45"
-  },
-  "n/R6eHhyNXJLVXF6cldFbnhHMXcydFMzTGhzVnhWN2RQX2d0X1N4QVZvdUUoc5": {
-   "lv": 2,
-   "why": "엔비디아 이사회 「젠슨 황 해임 준비」(WSJ) — 시간외 −8~9%·오늘 한국 반도체(하닉·삼성·091160) 개장 직격 · 반도체 칸·qa 3·「AI 안에서 갈린다」 가설",
-   "at": "2026-11-12 08:45"
   },
   "egzion/6465": {
    "lv": 1,
@@ -32,11 +27,6 @@
    "why": "엔비디아 두 달 1,400억$ 투자·신용보증 속도 줄일 전망 — 엔비디아 돈에 기대던 네오클라우드 자금줄 좁아짐(🧠 「AI 차입이 약한 고리」 가설 직격)",
    "at": "2026-11-13 11:45"
   },
-  "n/VSTE1ma0RXRWpFeHJELWtqakxDYWFyVHlneDM5S1U3cjhTWWpyMXBGaksoc5": {
-   "lv": 1,
-   "why": "이란 「호르무즈 인근 도시 공격」 보도에 WTI +2%대·브렌트 95달러대 — 유가 재상승은 12/9 FOMC 인상 셈법(2018 경로 가설)과 💬 유가 답에 직결",
-   "at": "2026-11-13 11:45"
-  },
   "HANAchina/72066": {
    "lv": 1,
    "why": "美 상무부 말레이·태국 등 7개국 AI칩 원격사용 차단 규정 11월 중 — 엔비디아·서버 공급망, 「AI 안에서 갈린다」 가설",
@@ -46,11 +36,6 @@
    "lv": 1,
    "why": "🐻 코스피 — 대통령 간담회 직후 하락 전환·외국인 팔자, 「아침 반등→오후 반납」 재현(신호판 20일선 멀어짐)",
    "at": "2026-11-13 14:40"
-  },
-  "n/drVTkzak1PSVFKWkg4VTVKcFEwVUJhZG1OUDVwRzhwbWthZU9LaXdDXzIoc5": {
-   "lv": 1,
-   "why": "데일리 샌프란 연은 「추가 긴축 필요·시장발 금융여건 긴축 환영」 — 주가 하락을 연준이 반긴다는 말, 12/9 FOMC 분수령(2018 경로) 가설·10년 5% 칸",
-   "at": "2026-11-13 17:45"
   },
   "n/swwwftcomcontent7bebace2dc87410aae29ffd9f3176defsyn25a6b1a61": {
    "lv": 1,
@@ -72,45 +57,10 @@
    "why": "SOXX 장중 −5.2%·엔비디아 −3.4%(00:14) — 버블 경보 「현금 도피」 첫 조건(반도체 −5%↓) 닿음 · 반도체 칸 7%",
    "at": "2026-11-14 00:45"
   },
-  "n/EpwZ2NUVWc5YkRzNXBDZlJiTjR0dGZ1SHN1cUxRUi1VMnVSbHd6alFTUQoc5": {
-   "lv": 1,
-   "why": "BofA 12월에 이어 1월 인상 추가(3연속) — 가설 「12/9 2018 경로」·💬 금리 답",
-   "at": "2026-11-14 00:45"
-  },
-  "n/ticles20261113fedscollinssaysinflationfighttrumpshousingwoes": {
-   "lv": 1,
-   "why": "콜린스 「추가 인상 곧」 — 「12/9 2018 경로」 가설·美 10년 5.05% 이틀째 watch",
-   "at": "2026-11-14 01:35"
-  },
-  "n/etsoverdatacenterdelayscoreweavetumbles11nvidiafalls4tsrcrss": {
-   "lv": 1,
-   "why": "네비우스 −13%·코어위브 −11% — 「AI 차입이 약한 고리」 가설·🫧 신용 경보",
-   "at": "2026-11-14 01:35"
-  },
-  "n/amdtumbles11broadcomandintelslide6aschiprallyreversestsrcrss": {
-   "lv": 1,
-   "why": "AMD −11%·브로드컴·인텔 −6% — 반도체 칸 7%, 단 음식료·보험 상승이라 「현금 도피」 아닌 「업종 갈아타기」",
-   "at": "2026-11-14 02:40"
-  },
-  "n/wsnewsletters20261113theotherwaytheaibuildoutpushesupusrates": {
-   "lv": 1,
-   "why": "블룸버그 「AI 설비 투자가 美 금리를 밀어 올리는 또 다른 길」 — 가설 「AI 차입 약한 고리」·「고금리 정점」 직결",
-   "at": "2026-11-14 04:40"
-  },
   "n/113fedsettoraiseinterestratesnextmonthasdebatemovestojanuary": {
    "lv": 1,
    "why": "12/9 인상 기정사실 → 논쟁 1월로 — 「12/9 2018 분수령」 가설·10년 5% 줄",
    "at": "2026-11-14 05:45"
-  },
-  "n/0261113jpmorganseesaispreedrivingrecord2027ushighgradesupply": {
-   "lv": 1,
-   "why": "JPM 2027 美 우량 회사채 2.1조$ 사상 최대(AI 설비) — 「AI 차입이 약한 고리」 0.9 가설 근거",
-   "at": "2026-11-14 05:45"
-  },
-  "n/pswwwcnbccom20261113airisksfinancialsystemfederalreservehtml": {
-   "lv": 1,
-   "why": "연준 금융안정 보고서 「AI 위험이 금융 시스템 최대 위협」 — 「AI 차입이 약한 고리」 0.9 가설 공식 근거",
-   "at": "2026-11-14 06:45"
   },
   "n/icles20261113blackstonesqtsiscuttingaidebtsalebymorethanhalf": {
    "lv": 1,

@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "삼성전자 인수 협상 보도에 모딘 주가 2020년 이후 하루 최대 상승",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/modine-shares-gain-most-in-six-years-after-samsung-buyout-talks",
+   "press": "Bloomberg",
+   "at": "2026-11-14 08:45",
+   "why": "「AI 안에서도 갈린다」 가설 — 현금 많은 삼성이 데이터센터 냉각(삽 장수)을 사러 감 · 💬 2번 답(삼성전자)",
+   "summary": "데이터센터 냉각 업체 모딘(MOD)이 삼성전자 인수 협상 보도 뒤 2020년 이후 하루 최대 상승. 삼성은 2025년 독일 플렉트그룹(약 15억 유로) 인수에 이어 냉각 사업 확장."
+  },
+  {
+   "title": "BofA 하트넷 「美 10년 4.5% 아래·유가 70달러까지는 위험 회피 유지」",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYTVsNzB5eFhkZzROd1d4dW5xbUJGa01ZXy1JYkpNMjdhcl9iSGNTd19GX3B3M0VDUXUtM2lyNF9FYXZLTGRGMlA5SFZpZ3paUXRmV2dvSTBGcFR5VEV6RTI5alU5SWJRakFZZ3g0WGFsbzc0a1JXcmR3YVRmOXJuZ29HV1dhREN0MXRfc3hKNA?oc=5",
+   "press": "Yahoo Finance",
+   "at": "2026-11-14 08:45",
+   "why": "「12/9 2018 분수령」·美 10년 5% watch — 위험 선호 복귀 조건 두 숫자(10년 4.5%·유가 70)",
+   "summary": "하트넷은 美 10년물 4.5% 하회·유가 70달러 도달 전까지 위험 회피를 권고. 지금 10년 5.1% 안팎·브렌트 90달러대라 두 조건 모두 멀다."
+  },
+  {
    "title": "美 증시 — 엔비디아 우려 속 나스닥 선물 약세, 앤스로픽 상장 주목(로이터)",
    "url": "https://www.devdiscourse.com/article/international/4004505-us-stocks-nasdaq-futures-slip-with-nvidia-woes-anthropic-ipo-in-focus",
    "press": "Devdiscourse(로이터 전재)",
@@ -623,30 +639,6 @@
    "at": "2026-11-12 09:45",
    "why": "1차 자료 — 해임 보도와 회사 공식 입장 구분용 · 오늘 이사회 발표 대조",
    "summary": "이사회 명의 공식 성명(11/9 무렵) · 해임 여부는 아직 회사 발표 없음(미확인)"
-  },
-  {
-   "title": "엔비디아 이사회, 젠슨 황 CEO 해임 준비 — 시간외 9% 넘게 급락",
-   "url": "https://en.bloomingbit.io/feed/news/124238",
-   "press": "Bloomingbit(WSJ 인용)",
-   "at": "2026-11-12 08:45",
-   "why": "반도체 칸·오늘 한국 개장(하닉·삼성·091160) 갭다운 위험 · 11/17 실적 앞 경영 공백 · qa 3·5·11",
-   "summary": "WSJ 「이사회가 황 CEO 축출 준비」 보도 뒤 시간외 −9%↑ · 11/11 정규장은 173.7달러(+2.9%) 마감 · 후속 NYT 「사내 임원과 관계」 보도"
-  },
-  {
-   "title": "NYT 「젠슨 황, 보고 라인 임원과 관계」 — 엔비디아 시간외 하락 확대",
-   "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
-   "press": "CNBC",
-   "at": "2026-11-12 08:45",
-   "why": "11/9 이사회 조사(스파이 의혹)에 두 번째 의혹 — 경영 공백 장기화 위험 · qa 3",
-   "summary": "11/9 이사회 독립 조사 착수 → 11/11 NYT 두 번째 관계 보도 → WSJ 해임 준비 보도 순 · 실적 11/17·하원 브리핑 요구 11/18"
-  },
-  {
-   "title": "엔비디아 주가, 이사회 해임 준비 보도에 급락",
-   "url": "https://www.cbsnews.com/news/nvidia-stock-dives-report-board-prepares-oust-jensen-huang/",
-   "press": "CBS News",
-   "at": "2026-11-12 08:45",
-   "why": "미국 대표 매체 확인 — 반도체 칸·🎯 상류 가설의 대장주 단독 위험",
-   "summary": "WSJ 보도 인용 · 이르면 이사회 회의 임박 보도(kimu_nim 텔레그램) · 정규장 상승분 반납"
   }
  ],
  "at": "2026-11-14 07:45"
