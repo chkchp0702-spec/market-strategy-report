@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "美 생산자물가 10월 전년비 6.5%로 0.2%p 올라",
+   "url": "https://www.washingtonexaminer.com/policy/finance-and-economy/4802085/producer-prices-rose-october/",
+   "press": "Washington Examiner",
+   "at": "2026-11-13 22:45",
+   "why": "PPI 전년비 숫자 — 💬 금리·채권 답",
+   "summary": "10월 PPI 전년비 6.5%(9월 6.3%). 사전 예상은 6.6%·전월비 +0.4%·근원 +0.3%(다우존스, StockTitan) — 전년비는 예상보다 0.1%p 낮음. 전월비·근원은 미확인."
+  },
+  {
    "title": "미국채, 물가 불안에 「해방의 날」 이후 최악의 주간",
    "url": "https://asreport.americanbanker.com/articles/us-bonds-see-worst-week-since-liberation-day-on-inflation-angst",
    "press": "American Banker(블룸버그 전재)",
@@ -631,14 +639,6 @@
    "at": "2026-11-12 00:45",
    "why": "🧠 12/9 FOMC 분수령 가설·💬 11번 — 2026 투표권자 매파가 인상 경로를 다시 못박음, 10년 5% 재돌파 위험",
    "summary": "로건 총재 「물가 안정 회복엔 최소 두 번 더 0.25%p 인상」 · 연합인포맥스 11/12 「겨울엔 속도 높일 수도」 · 11/11 채권 휴장으로 금리 재가격은 오늘 밤"
-  },
-  {
-   "title": "오늘 증시: 엔비디아 회복에 다우·S&P500·나스닥 상승, 10년물 5% 근처(재향군인의 날)",
-   "url": "https://sg.finance.yahoo.com/news/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html",
-   "press": "Yahoo Finance",
-   "at": "2026-11-11 23:45",
-   "why": "미국 지수 ETF 칸·TSM bet — 채권 현물 휴장일 주식만 열린 AI 반등, 금리 판정은 내일로 미뤄짐",
-   "summary": "엔비디아 반등 주도로 3대 지수 상승 출발 · 10년물 5% 근처 · 재향군인의 날 채권시장 휴장(주식 정상)"
   }
  ],
  "at": "2026-11-13 17:45"
