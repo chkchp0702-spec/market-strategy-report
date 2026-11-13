@@ -28,7 +28,8 @@
      새 저점이 나오면 ①②④가 꺼져 E 는 자동으로 현금이 다시 늘어난다.
      🐻 판정 때 이미 −25% 넘게 빠졌으면 「바닥에서 팔지 말고 반등(20일선 근처) 때 나눠 덜기」를 같이 권한다.
 
-  market/bear.json      : 앱 오늘 홈·시장 탭 카드, 아침 리포트, 두뇌가 읽음 (🐻 시장엔 rebounds — 11/10 A11/10-1 이번 하락장 +3% 반등 날 · 20거래일 안 저점 재돌파 기록)
+  market/bear.json      : 앱 오늘 홈·시장 탭 카드, 아침 리포트, 두뇌가 읽음 (🐻 시장엔 rebounds — 11/10 A11/10-1 이번 하락장 +3% 반등 날 · 20거래일 안 저점 재돌파 기록
+                          · 시장마다 meet — 11/13 A11/13-1 「선이 내려오는 날」: 규칙 기준선(50일선·200일선)이 오늘 종가 그대로일 때 며칠 뒤 닿나 + 최근 60일 가격·선)
   market/bear_log.json  : 판정·신호 수가 바뀐 날 기록 (나중에 채점)
   market/bear_bt.json   : --bt — 2000년부터 규칙대로 했다면 vs 그냥 들고 있기 (코스피·S&P·나스닥)
   알림: 판정이나 현금 권고가 바뀐 날 한 번 ntfy(chkchp-ch-report).
@@ -459,6 +460,53 @@ def rebounds(cl, dates, i0, up=REB_UP, nd=REB_D):
             "note": "이번 하락장 안의 기록 · 규칙은 그대로 · 종가 기준 · 매수·매도 추천 아님"}
 
 
+def _wd(d, k):
+    """d(YYYY-MM-DD)에서 평일로 k일 뒤 (휴장일은 안 셈 → 앱은 「약」으로 적음)"""
+    x = dt.date.fromisoformat(d)
+    while k > 0:
+        x += dt.timedelta(days=1)
+        if x.weekday() < 5:
+            k -= 1
+    return x.isoformat()
+
+
+def meet_lines(cl, dates, r, keep=60, cap=130):
+    """📏 11/13 A11/13-1 「선이 내려오는 날」 — 규칙의 기준선(50일선·200일선)은 옛 종가가 하루씩 빠지며 스스로 움직이므로,
+       「가격이 오늘 종가 그대로면 며칠 뒤 선이 가격에 닿나」를 산수로 센다(예측 아님 · 가격이 움직이면 당겨지거나 밀림).
+       닮은 장 규칙(analog.k)이 가리키는 선만: a50→50일선 · a200/half200/ma10/deep→200일선 · third→둘 다 · bear/floor→고점 −20% 선(움직이지 않음 · 거리만)
+       🇺🇸 는 💼 기본 포트 200일선 규칙이 먼저라 200일선도 같이. 순수 함수 — 판정·규칙엔 손대지 않음(그리기용)."""
+    ap = r.get("analog") or {}
+    k = ap.get("k")
+    lines = {"a50": ["m50"], "a200": ["m200"], "half200": ["m200"], "ma10": ["m200"], "deep": ["m200"], "third": ["m50", "m200"]}.get(k, [])
+    if r.get("key") in ("sp500", "nasdaq") and "m200" not in lines:
+        lines.append("m200")
+    out, n_ = [], len(cl)
+    P = cl[-1]
+    for ln in lines:
+        n = 50 if ln == "m50" else 200
+        if n_ < n + 5:
+            continue
+        ma_now = sum(cl[-n:]) / n
+        above = P > ma_now
+        days, proj = None, []
+        for j in range(1, min(n, cap) + 1):   # j일 뒤 선 = (남은 옛 종가 합 + j × 오늘 종가) / n
+            m = (sum(cl[n_ - n + j:]) + j * P) / n
+            proj.append(round(m, 1))
+            if (m >= P) if above else (m <= P):
+                days = j
+                break
+        hist = [[round(cl[i], 1), round(sum(cl[i - n + 1:i + 1]) / n, 1)] for i in range(n_ - min(keep, n_ - n), n_)]
+        slope = round((ma_now - sum(cl[-n - 5:-5]) / n) / 5, 1)   # 최근 5거래일 하루 평균 몇 p 움직였나
+        out.append({"k": ln, "n": n, "lv": round(ma_now, 1), "px": round(P, 1), "need": round((ma_now / P - 1) * 100, 1), "above": above,
+                    "days": days, "date": _wd(dates[-1], days) if days else None, "slope": slope, "hist": hist, "proj": proj if days else proj[:cap],
+                    "note": "오늘 종가 그대로일 때 선이 닿는 날 · 산수(예측 아님) · 휴장일 안 셈 · 닿음 ≠ 사기(규칙 조건은 종가 기준 그대로)"})
+    if k in ("bear", "floor") and r.get("hi"):   # 「하락장(고점 −20%)이면 현금」 쪽 — 선이 아니라 값 하나
+        lv = float(r["hi"]) * 0.8
+        out.append({"k": "dd20", "lv": round(lv, 1), "px": round(P, 1), "need": round((lv / P - 1) * 100, 1), "above": P > lv, "days": None, "date": None,
+                    "note": "고점 −20% 선은 움직이지 않음 · 거리만"})
+    return {"asof": dates[-1], "lines": out}
+
+
 # ───────────────────────── 시세 ─────────────────────────
 def complete(df, close_hm, tz):
     """장중(아직 안 끝난) 오늘 막대 버림"""
@@ -594,7 +642,11 @@ def more_markets(old, dry=False, px=None):
             apply_analog(r, key, name)
             if not r.get("analog"):
                 r["advice"] = f"{name} {r['state']} 고점보다 {r['dd']:+.1f}% — 닮은 장에서 통하는 방식이 없었음 · 한 번에 사지 말고 나눠 사기만 참고"
-            r = {k: r.get(k) for k in ("key", "name", "nat", "asof", "state", "dd", "close", "m50", "m200", "cash", "advice", "analog")}
+            try:   # 📏 11/13 A11/13-1
+                r["meet"] = meet_lines(cl, [str(x.date()) for x in s.index], r)
+            except Exception as e:
+                print("📏 meet 실패", key, e)
+            r = {k: r.get(k) for k in ("key", "name", "nat", "asof", "state", "dd", "close", "m50", "m200", "cash", "advice", "analog", "meet")}
             o = oldm.get(key)
             r["since"] = o.get("since", r["asof"]) if o and o.get("state") == r["state"] else r["asof"]
             if o:
@@ -678,6 +730,10 @@ def live(dry=False):
                 r["ladder"] = [[r["cash"], "🧩 " + pt["name"] + " — 현금 풀기"], [100, "그 신호가 꺼지고 하락장·경보면 다시 현금"]]
         r.update({"key": key, "name": name, "nat": nat, "asof": str(s.index[-1].date()), "advice": advice(name, r)})
         apply_analog(r, key, name)
+        try:   # 📏 11/13 A11/13-1 선이 내려오는 날 (그리기용 · 규칙엔 영향 없음)
+            r["meet"] = meet_lines(cl, [str(x.date()) for x in s.index], r)
+        except Exception as e:
+            print("📏 meet 실패", key, e)
         if b0 is not None:   # 📨 11/10 A11/10-1 이번 하락장 반등 날 기록 (하락장일 때만)
             try:
                 r["rebounds"] = rebounds(cl, [str(x.date()) for x in s.index], b0)
