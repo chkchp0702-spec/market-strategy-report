@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "비트코인 50주 이동평균 이탈 — 24시간 롱 청산 10억 달러 넘어",
+   "url": "https://theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102",
+   "press": "The Block",
+   "at": "2026-11-13 15:45",
+   "why": "🫧 버블 경보판 현금 도피 — 코인이 11/9 50주선을 깬 뒤 11/13 6.8만 달러대(연합)로 하락 가속, 금리 압박이 위험자산 끝단부터",
+   "summary": "11/9 비트코인 50주 이동평균 아래로 · 24시간 롱 청산 10억 달러↑ · 11/13 연합 「6만8천달러대 급락·2조원 청산」으로 이어짐"
+  },
+  {
+   "title": "[11/12 마감] 젠슨 황 스캔들에 반도체·금융 약세 — 코스피 5,342.73",
+   "url": "https://kr.investing.com/news/stock-market-news/article-2172100",
+   "press": "인포스탁데일리(인베스팅)",
+   "at": "2026-11-13 15:45",
+   "why": "🐻 코스피 신호판 기준값 — 11/13 장중 5,297(−0.85%, 15:23)과 비교할 전일 종가",
+   "summary": "11/12 코스피 5,342.73(−0.61%) · 옵션 만기·젠슨 황 해임설 · 장중 165p 진폭"
+  },
+  {
    "title": "금, 4,000달러 아래로 — 달러 강세·연준 인상 베팅 확대",
    "url": "https://www.thestandard.com.hk/finance/article/335535/Gold-drops-below-key-US4000-level-as-dollar-firms-rate-hike-bets-rise",
    "press": "The Standard(HK)",
@@ -623,22 +639,6 @@
    "at": "2026-11-11 19:45",
    "why": "TSM 대기 bet(오늘 밤 시가)·「AI 안에서도 갈린다」 가설 — 수요 숫자(코어위브 가이던스 상향)가 가격을 되돌림",
    "summary": "코어위브 3분기 매출 상회·연간 가이던스 상향에 장 전 +17%. SK하이닉스·샌디스크 약 +7%, 코히어런트 +9%·크레도·루멘텀 +8%. 나스닥100 선물 +1.6%·S&P +0.7%·다우 +0.2%."
-  },
-  {
-   "title": "알파벳, 첫 아시아 채권 — 홍콩·싱가포르 달러로 약 30억 달러 조달 검토",
-   "url": "https://www.newsbytesapp.com/news/business/google-parent-alphabet-eyes-3-billion-bond-sale-in-asia/story",
-   "press": "NewsBytes(블룸버그 인용)",
-   "at": "2026-11-11 18:45",
-   "why": "「AI 차입이 약한 고리」 가설 — 현금 많은 알파벳도 호주달러·엔화·아시아 통화로 빚을 늘림, 빅테크 채권 공급 부담",
-   "summary": "알파벳이 홍콩달러·싱가포르달러 표시 채권으로 약 30억 달러 조달 검토(소식통). 앞서 호주달러 첫 채권·엔화 채권 발행. 규모 등 세부는 미확정."
-  },
-  {
-   "title": "국고채 담합 과징금 철퇴 — 증권사 「충당금 폭탄」 우려",
-   "url": "https://www.newstomato.com/readnews.aspx?no=1309594",
-   "press": "뉴스토마토",
-   "at": "2026-11-11 18:45",
-   "why": "💬 채권 답·국고채 금리 — PD 제재가 국채 인수 여력·발행 시장에 부담, 증권주 실적 변수",
-   "summary": "공정위 국고채 PD 담합 제재 관련 증권사 충당금 우려(피드: 15개 PD 과징금 역대 최대 1.6조, 금투협 「국채 발행 차질·대외신인도 타격」). 업계 불복 소송 검토(매경)."
   }
  ],
  "at": "2026-11-13 01:45"
