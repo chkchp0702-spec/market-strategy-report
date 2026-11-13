@@ -1,5 +1,5 @@
 {
- "at": "2026-11-13 10:58",
+ "at": "2026-11-13 12:00",
  "cash2": 4.1,
  "markets": [
   {
@@ -14,7 +14,7 @@
    "asof": "2026-11-13",
    "stock": 0,
    "cash": 100,
-   "next": "50일선(6,269) 위로 올라오면 주식",
+   "next": "50일선(6,238) 위로 올라오면 주식",
    "loo": {
     "med": 12.8,
     "worst": -20.0,
@@ -25,11 +25,11 @@
    "y2_worst": -20.0,
    "beat_cash": 8,
    "n": 12,
-   "lump_med": -5.6,
+   "lump_med": -3.6,
    "lump_worst": -63.9,
    "fwd": {
     "more10": 11,
-    "more_med": -34.6,
+    "more_med": -33.9,
     "y1_up": 4,
     "n": 12
    }
@@ -46,23 +46,23 @@
    "asof": "2026-11-13",
    "stock": 50,
    "cash": 50,
-   "next": "200일선(961.2) 위로 올라오면 나머지 절반도 주식",
+   "next": "200일선(959.8) 위로 올라오면 나머지 절반도 주식",
    "loo": {
-    "med": 45.8,
-    "worst": -25.9,
+    "med": 59.5,
+    "worst": -23.7,
     "beat_cash": 11,
     "n": 12
    },
-   "y2_med": 33.9,
-   "y2_worst": -30.7,
+   "y2_med": 40.1,
+   "y2_worst": -29.6,
    "beat_cash": 11,
    "n": 12,
-   "lump_med": 39.2,
-   "lump_worst": -25.9,
+   "lump_med": 52.4,
+   "lump_worst": -23.7,
    "fwd": {
-    "more10": 6,
-    "more_med": -10.9,
-    "y1_up": 11,
+    "more10": 5,
+    "more_med": -8.9,
+    "y1_up": 12,
     "n": 12
    }
   },
@@ -86,8 +86,8 @@
     "n": 12
    },
    "y2_med": 29.4,
-   "y2_worst": 3.9,
-   "beat_cash": 11,
+   "y2_worst": -3.8,
+   "beat_cash": 10,
    "n": 12,
    "lump_med": 25.5,
    "lump_worst": -24.4,
@@ -110,19 +110,19 @@
    "asof": "2026-11-13",
    "stock": 33,
    "cash": 67,
-   "next": "50일선(3,803) · 200일선(3,975) 위로 올라올 때마다 3분의 1씩 더",
+   "next": "50일선(3,797) · 200일선(3,973) 위로 올라올 때마다 3분의 1씩 더",
    "loo": {
-    "med": 12.6,
-    "worst": -30.1,
-    "beat_cash": 7,
+    "med": 14.8,
+    "worst": -36.1,
+    "beat_cash": 8,
     "n": 12
    },
    "y2_med": 19.4,
-   "y2_worst": -34.7,
+   "y2_worst": -36.1,
    "beat_cash": 7,
    "n": 12,
    "lump_med": 16.2,
-   "lump_worst": -32.6,
+   "lump_worst": -34.2,
    "fwd": {
     "more10": 9,
     "more_med": -20.7,
@@ -134,31 +134,31 @@
    "key": "shenzhen",
    "name": "심천성분",
    "nat": "cn",
-   "k": "mom12",
-   "rule": "1년 전보다 높으면 주식",
+   "k": "a50",
+   "rule": "50일선 위면 주식 · 아래면 현금",
    "ok": false,
    "staged": false,
    "anchor": "2026-11-13",
    "asof": "2026-11-13",
    "stock": 0,
    "cash": 100,
-   "next": "1년 전보다 높으면 주식",
+   "next": "50일선(12,469) 위로 올라오면 주식",
    "loo": {
-    "med": 0.6,
+    "med": 0.2,
     "worst": -40.0,
-    "beat_cash": 6,
+    "beat_cash": 1,
     "n": 12
    },
-   "y2_med": 4.8,
-   "y2_worst": -11.5,
+   "y2_med": 6.1,
+   "y2_worst": -14.5,
    "beat_cash": 6,
    "n": 12,
-   "lump_med": 2.4,
+   "lump_med": 3.1,
    "lump_worst": -40.0,
    "fwd": {
     "more10": 8,
-    "more_med": -17.6,
-    "y1_up": 7,
+    "more_med": -15.6,
+    "y1_up": 8,
     "n": 12
    }
   },
@@ -181,15 +181,15 @@
     "beat_cash": 5,
     "n": 12
    },
-   "y2_med": 14.3,
-   "y2_worst": -22.5,
+   "y2_med": 14.2,
+   "y2_worst": -23.8,
    "beat_cash": 7,
    "n": 12,
-   "lump_med": -3.8,
+   "lump_med": -3.1,
    "lump_worst": -32.7,
    "fwd": {
     "more10": 9,
-    "more_med": -29.9,
+    "more_med": -27.2,
     "y1_up": 4,
     "n": 12
    }
@@ -206,7 +206,7 @@
    "asof": "2026-11-13",
    "stock": 50,
    "cash": 50,
-   "next": "200일선(8,466) 위로 올라오면 나머지 절반도 주식",
+   "next": "200일선(8,461) 위로 올라오면 나머지 절반도 주식",
    "loo": {
     "med": 12.1,
     "worst": -53.1,
