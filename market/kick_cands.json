@@ -6688,6 +6688,14 @@
 "src": "focus",
 "score": 70,
 "theme": "방산·우주"
+},
+"SNOW|2026-11-13|whale": {
+"code": "SNOW",
+"name": "SNOW",
+"mkt": "US",
+"d": "2026-11-13",
+"src": "whale",
+"score": 40
 }
 },
 "sent": [
@@ -6708,25 +6716,26 @@
 "2026-11-06|팔기|PAGP"
 ],
 "whale": [
-"AMAT",
 "AMD",
 "AVGO",
 "BKNG",
 "CDW",
-"CG",
 "CPNG",
 "EA",
 "FIGR",
+"GDS",
 "GOOGL",
-"HPE",
+"GPN",
+"INSM",
 "META",
-"MU",
 "NCLH",
+"NEM",
 "NVDA",
 "ORCL",
-"RVMD",
+"RLAY",
+"SNOW",
 "SPGI",
-"TSM",
+"STOK",
 "ZYME"
 ]
 }
