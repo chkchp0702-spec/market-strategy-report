@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "「엔비디아, 황 후임으로 Arm CEO 르네 하스 거론」 보도",
+   "url": "https://goldesel.de/aktien/news/arm-holdings-adr-aktie-berichte-nennen-rene-haas-als-moglichen-huang-nachfolger",
+   "press": "Goldesel(독일)",
+   "at": "2026-11-14 20:45",
+   "why": "11/17 엔비디아 실적 앞 후임 CEO 윤곽 — 💬 2번 답 「회복」 조건·SOXX·한국 반도체 월요일 방향",
+   "summary": "여러 보도가 Arm 르네 하스를 젠슨 황 후임 후보로 지목(로이터 전재 「직원들은 황 복귀 요구」). 이사회 결정은 미확인."
+  },
+  {
+   "title": "美 10년물 5.167% — 채권 매도 깊어지고 연준 더 매파로",
+   "url": "https://primexbt.com/news/us-10-year-treasury-yield-hits-5-167-as-bond-rout-deepens-and-fed-turns-more-haw",
+   "press": "PrimeXBT News",
+   "at": "2026-11-14 20:45",
+   "why": "「12/9 2018식 분수령」 가설·10년 5% watch — 블룸버그 「채권 매도 안 끝났다」와 같은 방향",
+   "summary": "PPI 뒤 10년물 장중 5.167%까지(기사 제목). 블룸버그 헤드라인도 「급등 한 주 뒤 투자자들 채권 매도 끝나지 않았다 경고」. 종가는 미확인."
+  },
+  {
    "title": "모닝스타 「엔비디아 실적에서 볼 것 — 스파이 스캔들·데이터센터 우려가 중심」",
    "url": "https://www.morningstar.com/stocks/what-watch-nvidia-earnings-spy-scandal-data-center-concerns-take-center-stage",
    "press": "Morningstar",
@@ -623,22 +639,6 @@
    "at": "2026-11-12 20:45",
    "why": "XLE 내림 bet·장부 brent_95 조건·qa 19 — 협상 헤드라인이 공급 사고보다 셌다",
    "summary": "브렌트 1월물 장중 93.94 → 92 바로 아래(−0.8%), WTI −0.8%(19:55 KST). 밴스-이란 회동 가능성(WSJ)이 에너지를 눌렀고, IRGC 는 호르무즈에서 유조선 2척 폭발을 전함."
-  },
-  {
-   "title": "엔비디아, 황 CEO 거취 기다리며 6% 하락 — 두 번째 관계 보도(CNBC 11/12)",
-   "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
-   "press": "CNBC",
-   "at": "2026-11-12 19:45",
-   "why": "해임 압박이 커지는 쪽 — 오늘 밤 NVDA 정규장·SOXX·091160·qa 3·9 「대장주 단독 vs 현금 도피」 판정",
-   "summary": "NVDA 장전 약 −6%. 이사회 황 CEO 축출 검토 보도에 두 번째 부적절한 관계 보도가 더해져 거취 불확실성 확대."
-  },
-  {
-   "title": "엔비디아 프리마켓 −8.61%(벤징가 11/12)",
-   "url": "https://www.benzinga.com/markets/equities/26/11/63173709/nvidia-shares-fall-premarket-jensen-huang-affair-report",
-   "press": "Benzinga",
-   "at": "2026-11-12 19:45",
-   "why": "11/11 종가 173.85달러 대비 장전 낙폭 — flip 기준(NVDA 정규장 −10%↓)과 거리 확인",
-   "summary": "황 CEO 관련 보도로 장전 −8.61%. 정규장 −10%↓ + SOXX −5%↓ 이면 qa 3 flip 발동."
   }
  ],
  "at": "2026-11-14 19:45"
