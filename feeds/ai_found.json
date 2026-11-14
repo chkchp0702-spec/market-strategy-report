@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "시카고 연은 「은행의 AI 꼬리 위험」",
+   "url": "https://chicagofed.org/publications/chicago-fed-insights/2026/ai-tail-risk-for-banks",
+   "press": "시카고 연은",
+   "at": "2026-11-14 23:45",
+   "why": "🫧 「AI 차입이 약한 고리」 가설 — 은행 쪽으로 번지는 경로를 연준 계열이 직접 짚음(주말 「대형은행 AI 관련 약 1조 달러」 보도와 같은 방향)",
+   "summary": "AI 붐이 꺾일 때 은행 대출·익스포저의 꼬리 위험을 다룬 연은 글(2026, 게시일·세부 숫자 미확인). 같은 주말 「대형은행 AI 관련 약 1조 달러 묶여 — 붐 꺾이면?」(BeInCrypto) 보도."
+  },
+  {
    "title": "엔비디아 싱가포르 최대 고객 「메가스피드」 — 지금까지 알려진 것",
    "url": "https://fourweekmba.com/ai-what-we-know-about-megaspeed-the-nvidia-buyer-in-the-probe/",
    "press": "FourWeekMBA",
@@ -631,22 +639,6 @@
    "at": "2026-11-12 21:45",
    "why": "「대장주 단독」 판정 근거 +1 — SOXX 전체 붕괴가 아니라 업종 안 갈아타기",
    "summary": "엔비디아 이사회 해임 준비 보도 뒤 투자자들이 AMD·브로드컴으로 이동. 이사회는 외부 업체를 고용해 후임 물색(야후 헤드라인)."
-  },
-  {
-   "title": "뉴스퀵 美 개장 전 — 엔비디아 이사회 오늘 회의, 일부 이사 크레스 CFO 임시 CEO 선호(세마포)",
-   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---12th-november-2026",
-   "press": "Newsquawk",
-   "at": "2026-11-12 20:45",
-   "why": "NVDA 이사회 당일 — 정규장 −10%↓ 여부가 qa 3·9 flip · 091160·SOXX 판정",
-   "summary": "19:55 KST 기준 NVDA 장전 약 −5.5%, NQ −0.7%·ES −0.3%·YM +0.1%, 美 10년 4.99%, DXY 102.82. 백악관 「이사회 결정에 개입 안 함」(WaPo). 오늘 밤 실업수당·기존주택판매·연준 인사 5명·시스코/AMAT 실적."
-  },
-  {
-   "title": "브렌트 92달러 아래로 — WSJ 「밴스 부통령, 이란 인사 만날 수도」 vs 호르무즈 유조선 2척 폭발(IRGC)",
-   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---12th-november-2026#oil",
-   "press": "Newsquawk",
-   "at": "2026-11-12 20:45",
-   "why": "XLE 내림 bet·장부 brent_95 조건·qa 19 — 협상 헤드라인이 공급 사고보다 셌다",
-   "summary": "브렌트 1월물 장중 93.94 → 92 바로 아래(−0.8%), WTI −0.8%(19:55 KST). 밴스-이란 회동 가능성(WSJ)이 에너지를 눌렀고, IRGC 는 호르무즈에서 유조선 2척 폭발을 전함."
   }
  ],
  "at": "2026-11-14 19:45"
