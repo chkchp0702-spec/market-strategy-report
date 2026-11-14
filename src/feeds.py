@@ -38,6 +38,7 @@ SOURCES = [
     ("tg", "meritz_research", "메리츠증권 리서치", "메리츠 리서치센터"),
 ]
 # 🌐 미리 정한 피드 밖의 뉴스·전략·경제 글 (10/10 사용자: "피드에 없는 뉴스·자료·전략·경제·주식 글도 다 검색해서 넣어")
+KO_SITES = {"hankyung.com"}
 GN = "https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={gl}:{lang}"
 import urllib.parse as _up
 NEWS = [
@@ -48,8 +49,8 @@ NEWS = [
     ("gn_kr_strat", "뉴스 · 증권사 전략·리포트", "구글 뉴스 검색", GN.format(q=_up.quote("증권사+전략+OR+목표주가+OR+리포트+OR+투자전략+when:1d", safe="+:"), hl="ko", gl="KR", lang="ko")),
     ("gn_us_mkt", "News · US markets", "Google News", GN.format(q="stock+market+OR+S%26P+500+OR+Nasdaq+OR+Treasury+yields+when:1d", hl="en-US", gl="US", lang="en")),
     ("gn_us_fed", "News · Fed·macro", "Google News", GN.format(q="Federal+Reserve+OR+inflation+OR+jobs+report+OR+earnings+when:1d", hl="en-US", gl="US", lang="en")),
-    ("hankyung", "한국경제 증권", "언론사 RSS", "https://www.hankyung.com/feed/finance"),
-    ("mk", "매일경제 증권", "언론사 RSS", "https://www.mk.co.kr/rss/50200011/"),
+    ("hankyung", "한국경제 증권", "언론사 RSS", "https://www.hankyung.com/feed/finance", "hankyung.com"),   # 🔧 11/14 RSS 하루 종일 실패(건강검진) → 구글뉴스 대체
+    ("mk", "매일경제 증권", "언론사 RSS", "https://www.mk.co.kr/rss/50200011/", "mk.co.kr"),
     ("cnbc", "CNBC Markets", "언론사 RSS", "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258"),
     ("yahoo", "Yahoo Finance", "언론사 RSS", "https://feeds.finance.yahoo.com/rss/2.0/headline?s=%5EGSPC,%5EIXIC,%5EDJI,NVDA,AAPL&region=US&lang=en-US"),
     ("cnbc_top", "CNBC Top News", "언론사 RSS", "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"),
@@ -347,8 +348,9 @@ def main() -> int:
             got = []
         if not got and alt:                               # RSS 가 막히면 구글뉴스 site: 로 대신
             try:
-                got = rss(GN.format(q=f"site:{alt}+when:{7 if sid in SLOW else 1}d", hl="ko" if alt.endswith(".kr") else "en-US",
-                                    gl="KR" if alt.endswith(".kr") else "US", lang="ko" if alt.endswith(".kr") else "en"), 20)
+                _ko = alt.endswith(".kr") or alt in KO_SITES       # 🔧 11/14 .com 한국 언론(한국경제)도 한국어 구글뉴스로
+                got = rss(GN.format(q=f"site:{alt}+when:{7 if sid in SLOW else 1}d", hl="ko" if _ko else "en-US",
+                                    gl="KR" if _ko else "US", lang="ko" if _ko else "en"), 20)
                 ok = True; who = who + " → 구글뉴스로 대신"
             except Exception as e:
                 DEBUG.append(f"news {sid} 대체도 실패 {str(e)[:60]}")
