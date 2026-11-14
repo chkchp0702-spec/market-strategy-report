@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "모닝스타 「젠슨 황 퇴진, AI 업계 거래·자금 조달 늦출 수 있다」",
+   "url": "https://stocktwits.com/news-articles/markets/equity/a-jensen-huang-exit-from-nvidia-could-slow-ai-dealmaking-financing-across-the-industry-morningstar-warns/cNGuhlUR97w",
+   "press": "Stocktwits(모닝스타 인용)",
+   "at": "2026-11-14 14:45",
+   "why": "🫧 「다음 약한 고리는 AI 차입」 가설 — 엔비디아 출자·보증에 기대던 네오클라우드 자금줄 확인",
+   "summary": "모닝스타: 황 CEO는 AI 생태계 투자·거래의 중심 — 퇴진 시 업계 딜·파이낸싱 지연 우려. 11/13 네비우스 −13%·코어위브 −11%와 같은 방향."
+  },
+  {
+   "title": "미·중·러 첫 3자 정상회담 논의 — 서울경제 「19일 개최」 보도",
+   "url": "https://stockanalysis.com/news/trump-putin-xi-trilateral-meeting-talks/",
+   "press": "StockAnalysis·서울경제",
+   "at": "2026-11-14 14:45",
+   "why": "관세·칩 수출 규제·유가(brent_95 조건)와 이어지는 다음 주 일정 — 💬 15번 답",
+   "summary": "트럼프-푸틴-시진핑 첫 3자 회담 논의(스톡애널리시스). 서울경제 11/14 「19일 개최」 보도 — 확정·의제 미확인."
+  },
+  {
    "title": "앤스로픽 공모, 70~78달러 밴드에 수 배 초과 청약 — 중국 주문은 거절",
    "url": "https://stockanalysis.com/news/anthropic-ipo-multiple-times-oversubscribed/",
    "press": "Bloomberg(stockanalysis 전재)",
@@ -623,47 +639,7 @@
    "at": "2026-11-12 18:45",
    "why": "「대장주 단독 vs 현금 도피」 판정 — 기술주만 눌리고 방어·유럽은 최고면 갈아타기(닷컴 3막 가설)",
    "summary": "DAX·FTSE 선물 개장 전 +0.7%, 유럽 지수 사상 최고 경신. 실적 견조·방어주 비중이 NVDA 변동성 상쇄."
-  },
-  {
-   "title": "엔비디아, 황 CEO 관계 조사 — AI 업계가 파장 저울질",
-   "url": "https://datacenterknowledge.com/data-center-chips/nvidia-probes-huang-ties-as-ai-industry-weighs-the-fallout",
-   "press": "Data Center Knowledge",
-   "at": "2026-11-12 16:45",
-   "why": "엔비디아 경영 공백이 AI 인프라 고객·공급망에 주는 파장 — 「대장주 단독 vs 현금 도피」 판정·091160·SOXX",
-   "summary": "이사회 독립 조사·후임 물색 보도 정리. 데이터센터 고객 쪽 영향 관점."
-  },
-  {
-   "title": "젠슨 황 스캔들과 엔비디아 AI 붐 뒤의 360억 달러 사업",
-   "url": "https://www.exchange4media.com/marketing-news/the-jensen-huang-affair-and-the-36-billion-business-behind-nvidias-ai-boom-160052.html",
-   "press": "exchange4media",
-   "at": "2026-11-12 16:45",
-   "why": "싱가포르(메가스피드) 매출 비공개 의혹과 연결 — 규제·중국 칩 위험이 사람 위험에 겹치는지, 🫧 경보판 규제 칸",
-   "summary": "제목 기준 360억 달러 규모 사업(싱가포르 경유 매출) 조명. 세부 숫자 미확인."
-  },
-  {
-   "title": "번스타인: 발표된 미국 데이터센터 용량 중 실제 지어질 것은 약 35%",
-   "url": "https://runtimewire.com/article/bernstein-data-center-pipeline-credibility",
-   "press": "Runtime Wire",
-   "at": "2026-11-12 15:45",
-   "why": "「AI 안에서 갈린다」 가설 — 빅테크 자체 건설은 믿을 만, 네오클라우드·신생 계획은 「PPT 용량」 → 전력·장비 수요 추정치 하향 위험",
-   "summary": "북미 8,858개 프로젝트 개별 조사 · 발표 586GW 중 신뢰 199GW(34%) · 신뢰 용량의 76%가 아마존·구글·MS·메타(텔레그램 HANAchina 11/12 요약 포함)"
-  },
-  {
-   "title": "美, 중국의 AI 칩 원격 접속(클라우드 임대) 차단 규칙 마무리 단계",
-   "url": "https://www.gearlive.com/news/article/us-rule-china-remote-access-ai-chips-report",
-   "press": "Gear Live(The Information 인용)",
-   "at": "2026-11-12 13:45",
-   "why": "엔비디아 CEO 거취 불확실성 위에 수요 쪽 규제 — 반도체 ETF 칸·「AI 안에서 갈린다」 가설",
-   "summary": "상무부가 중국 기업의 해외 클라우드 경유 첨단 AI 칩 사용을 막는 규칙을 마무리 중(The Information 보도, 세부 일정 미확인) · 같은 날 민주당 상원의원들은 엔비디아 수출 기록 보존 요구(로이터)"
-  },
-  {
-   "title": "브렌트, 이란 평화 협상 기대에 하락",
-   "url": "https://tradingeconomics.com/commodity/brent-crude-oil/news/598323",
-   "press": "Trading Economics",
-   "at": "2026-11-12 12:45",
-   "why": "장부 brent_95(선 90)·XLE 내림 bet — 협상 기대가 유가를 계속 누름",
-   "summary": "브렌트 91.85달러(−0.98%, 04:02 BST CNBC)·WTI 85.69 · 로이터 「이란·우크라 평화 협상 기대에 1달러 넘게 하락」 · 90 종가 하회 시 에너지 13→10"
   }
  ],
- "at": "2026-11-14 12:45"
+ "at": "2026-11-14 14:45"
 }
