@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "모닝스타 「엔비디아 실적에서 볼 것 — 스파이 스캔들·데이터센터 우려가 중심」",
+   "url": "https://www.morningstar.com/stocks/what-watch-nvidia-earnings-spy-scandal-data-center-concerns-take-center-stage",
+   "press": "Morningstar",
+   "at": "2026-11-14 19:45",
+   "why": "11/17 엔비디아 실적(임시 CEO 첫 발표) — 🫧 AI 차입·AI 갈림 가설과 SOXX·한국 반도체 월요일 이후 방향",
+   "summary": "모닝스타 프리뷰: 실적 숫자보다 황 퇴진·중국 밀수 의혹(스파이 스캔들)과 데이터센터 수요 우려가 관전 포인트. 다음 분기 매출 전망 약 1,080억 달러 안팎이 거론(tech-insider 제목, 세부 미확인)."
+  },
+  {
+   "title": "앤스로픽 상장 공모가 70~78달러·로드쇼 시작 — 기업가치 약 1.4조 달러",
+   "url": "https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx?type=ipo",
+   "press": "RTTNews",
+   "at": "2026-11-14 19:45",
+   "why": "11/18~20 앤스로픽 상장 — AI 심리 시험대이자 시장 자금 흡수(수급) 변수, 나스닥 🟡 조정 판정과 이어짐",
+   "summary": "주당 70~78달러 밴드로 로드쇼 시작(RTTNews). 상단 기준 기업가치 약 1.4조 달러(INDmoney), 260억 달러 사모 배정 병행 보도(letsdatascience, 미확인)."
+  },
+  {
    "title": "모닝스타 「젠슨 황 퇴진, AI 업계 거래·자금 조달 늦출 수 있다」",
    "url": "https://stocktwits.com/news-articles/markets/equity/a-jensen-huang-exit-from-nvidia-could-slow-ai-dealmaking-financing-across-the-industry-morningstar-warns/cNGuhlUR97w",
    "press": "Stocktwits(모닝스타 인용)",
@@ -623,23 +639,7 @@
    "at": "2026-11-12 19:45",
    "why": "11/11 종가 173.85달러 대비 장전 낙폭 — flip 기준(NVDA 정규장 −10%↓)과 거리 확인",
    "summary": "황 CEO 관련 보도로 장전 −8.61%. 정규장 −10%↓ + SOXX −5%↓ 이면 qa 3 flip 발동."
-  },
-  {
-   "title": "Saxo 마켓 퀵테이크 — 엔비디아 비틀거림이 심리 누름(11/12)",
-   "url": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---nvidia-stumble-weighs-on-sentiment---12-november-2026-12112026",
-   "press": "Saxo",
-   "at": "2026-11-12 18:45",
-   "why": "美 10년 5% 문턱·엔 160·유로 17개월 저점 — 「고금리 정점」 가설·원/달러·채권 질문(16번)",
-   "summary": "S&P +1.3%·NQ100 +2.3% 마감 뒤 NVDA 시간외 −8~9%. 美 2년 4.77%·10년 약 4.99%, 달러/엔 159.94·유로 1.1065, 금 3,970달러 지지 시험, VIX 17.46. 오늘 밤 실업수당·30년물 입찰·연준 6명 연설·AMAT·시스코 실적."
-  },
-  {
-   "title": "유럽 증시, 엔비디아 충격에도 방어주 구성 덕에 사상 최고",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-fall-reports-board-075137690.html",
-   "press": "Investing.com/Yahoo",
-   "at": "2026-11-12 18:45",
-   "why": "「대장주 단독 vs 현금 도피」 판정 — 기술주만 눌리고 방어·유럽은 최고면 갈아타기(닷컴 3막 가설)",
-   "summary": "DAX·FTSE 선물 개장 전 +0.7%, 유럽 지수 사상 최고 경신. 실적 견조·방어주 비중이 NVDA 변동성 상쇄."
   }
  ],
- "at": "2026-11-14 14:45"
+ "at": "2026-11-14 19:45"
 }
