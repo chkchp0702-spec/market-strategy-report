@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "실리콘밸리, 젠슨 황 지지 — 「창업자를 복귀시켜라」 청원",
+   "url": "https://cryptobriefing.com/silicon-valley-backs-nvidia-ceo-jensen-huang/",
+   "press": "Crypto Briefing",
+   "at": "2026-11-14 11:45",
+   "why": "엔비디아 후임·복귀 변수 — 11/17 실적 전 반도체(SOXX)·한국 메모리 심리",
+   "summary": "머스크 등 실리콘밸리 인사들이 황 복귀 청원에 서명(하나중국 텔레그램 전달). 이사회 공식 반응은 아직 없음(미확인)."
+  },
+  {
+   "title": "트럼프, 시진핑과 회담서 엔비디아 스파이 문제 안 꺼낼 듯 — 미 당국자",
+   "url": "https://www.ft.com/content/6034dd16-8c7d-4b3e-bc4e-942a6c8529dd",
+   "press": "FT",
+   "at": "2026-11-14 11:45",
+   "why": "황 사임 배경(중국 연관 조사)의 정치 확대 리스크 축소 — 엔비디아·SOXX",
+   "summary": "미·중 정상회담 의제에서 엔비디아 관련 스파이 사건 제외 방침(FT·인베스팅 동시 보도). 수출 규제 논의 여부는 미확인."
+  },
+  {
    "title": "월러 연준 이사 「12월 최소 0.25%p 인상 지지」",
    "url": "https://www.thestandard.com.hk/finance/article/348068/Feds-Waller-plans-to-support-at-least-a-quarter-point-rate-hike-in-December",
    "press": "더스탠더드(로이터)",
@@ -623,22 +639,6 @@
    "at": "2026-11-12 12:45",
    "why": "장부 brent_95(선 90)·XLE 내림 bet — 협상 기대가 유가를 계속 누름",
    "summary": "브렌트 91.85달러(−0.98%, 04:02 BST CNBC)·WTI 85.69 · 로이터 「이란·우크라 평화 협상 기대에 1달러 넘게 하락」 · 90 종가 하회 시 에너지 13→10"
-  },
-  {
-   "title": "엔비디아 이사회, 황 CEO 거취 결정 회의 — 리더십 위기 심화",
-   "url": "https://www.koreatimes.co.kr/world/20261112/nvidia-board-meets-to-decide-ceo-huangs-future-as-leadership-crisis-deepens",
-   "press": "Korea Times",
-   "at": "2026-11-12 11:45",
-   "why": "🫧 경보판 「대장주 단독 vs 현금 도피」 판정 · 💬 Q3 반도체 답",
-   "summary": "이사회가 11/12(미국시간) 황 CEO 거취 논의 · 차기 CEO 절차 착수 보도 · 결과에 따라 오늘 밤 NVDA·SOXX 방향"
-  },
-  {
-   "title": "미 주가지수 선물, 엔비디아 혼란 심화에 하락 — Markets Wrap",
-   "url": "https://www.swissinfo.ch/eng/us-stock-futures-fall-as-nvidia-turmoil-deepens:-markets-wrap/92367440",
-   "press": "Bloomberg(swissinfo)",
-   "at": "2026-11-12 11:45",
-   "why": "오늘 밤 미국장 출발 톤 — S&P 정상 판정·나스닥 조정 칸",
-   "summary": "엔비디아 경영 혼란에 미 지수 선물 약세 · 코어위브 강세와 엇갈림"
   }
  ],
  "at": "2026-11-14 10:45"
