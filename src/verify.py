@@ -176,8 +176,12 @@ def forecast_check(day: dict, path: Path) -> int:
                 olds.append([_keytoks(c) for c in json.loads(p.read_text(encoding="utf-8")).get("checks", [])])
             except Exception:
                 olds.append([])
+        # 보류로 이어 낸 예고(아직 날짜가 안 옴 — 주말·휴장)는 예외: 규칙 3 「보류는 그대로 이어 낸다」가 먼저 (11/16 주말 넘김)
+        held = [_keytoks(g.get("title", "")) for g in (day.get("yesterday_grades") or []) if g.get("cls") == "hold"]
         for i, c in enumerate(checks):
             k = _keytoks(c)
+            if any(k and h and len(h - k) <= len(h) / 2 for h in held):
+                continue
             if k and all(any(k == o for o in day_old) for day_old in olds):
                 msgs.append(f"예고 {i + 1} 「{re.sub(r'<[^>]+>', '', c)[:40]}」 — 사흘 연속 같은 예고. 새 문제를 내세요"); bad += 1
     print("\n🎯 예고 규칙: " + ("통과" if not bad else f"{bad}건"))
