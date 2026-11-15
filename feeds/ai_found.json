@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "엔비디아, 황의 관계 조사 — AI 업계가 파장을 따진다",
+   "url": "https://datacenterknowledge.com/data-center-chips/nvidia-probes-huang-ties-as-ai-industry-weighs-the-fallout",
+   "press": "Data Center Knowledge",
+   "at": "2026-11-16 05:45",
+   "why": "11/17 임시 CEO 첫 실적 앞 — 황 복귀 논의(FT)와 이사회 조사가 동시에 진행, 반도체 칸·AI 차입 가설",
+   "summary": "이사회 조사가 진행 중인 가운데 데이터센터 업계는 공급 일정·고객 관계 영향을 점검. 세부 숫자는 미확인."
+  },
+  {
    "title": "연준 슈미드, 매파 합창에 합류 — 「금리 방향은 인상」",
    "url": "https://www.morningstar.com/news/dow-jones/2026111010580/feds-schmid-joins-hawkish-chorus-on-rate-direction",
    "press": "모닝스타(다우존스)",
@@ -641,5 +649,5 @@
    "summary": "달러/엔 160 돌파 직후 개입 경계로 엔 반등. 일본은 앞서 하루 500억 달러 사상 최대 개입(WSJ 11/8 보도) 전례."
   }
  ],
- "at": "2026-11-16 03:45"
+ "at": "2026-11-16 05:45"
 }
