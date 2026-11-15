@@ -1,17 +1,17 @@
 {
- "at": "2026-11-11 17:15",
+ "at": "2026-11-15 11:07",
  "rules": "─ 시장: 🇰🇷 코스피(^KS11) · 코스닥(^KQ11) — 가격지수 · 현금 연 2% / 🇺🇸 S&P500(SPY) · 나스닥100(QQQ) — 배당 포함 · 현금 = 3개월 국채\n     바꿀 때 0.1% · 그날 종가 신호 → 다음 날 비중 · 1999~ (대리 버블 시계가 생기는 날부터)\n  ─ 방식 = 들어가기 × 나오기 × 옮기는 몫 × 피난처\n     들어가기: 고점 −10% · −15% · −20% · 200일선 아래 · 버블 시계 4.5시 · 6시(순서 문 없는 대리 시계) · 신용 경보+200일선 아래\n     나오기  : 판정 풀림(고점 −10% 위 + 200일선 위) · 바닥 신호 3개(신저가 뒤) · 바닥 ①④(신저가 뒤) · 200일선 위로 · 들어가기 신호 꺼짐\n               (바닥 신호로 나오는 판: 신저가 없이 판정 풀림이 먼저 오면 그때 나옴 · 나온 뒤 −10% 아래에서 신저가가 또 나오면 다시 들어감)\n     옮기는 몫: 50% · 100%     피난처: 현금 · (🇺🇸만) 중기국채(VFITX)\n     + 그냥 들고 있기 · 지금 규칙(코스피 K100+신용 경보 / S&P500 B50 / 나스닥 OFF / 코스닥 REF)\n  ─ 고르는 법 (사용자 기준 「수익률 제일 좋았던」 + 우연 거르기)\n     ① 앞(~2012)·뒤(2013~) 둘 다 그냥 들고 있기보다 연수익이 높은 방식만 후보\n     ② 후보 중 전체 기간 연수익 1등을 채택 · 후보가 없으면 「그냥 들고 있기」가 그 시장의 최선",
  "markets": [
   {
    "key": "kospi",
    "name": "코스피",
    "n": 141,
-   "n_cand": 42,
+   "n_cand": 43,
    "hold": {
-    "cagr": 8.75,
+    "cagr": 8.68,
     "mdd": -55.7,
     "front": 9.87,
-    "back": 7.49
+    "back": 7.36
    },
    "current": {
     "front": {
@@ -22,16 +22,16 @@
      "sw_y": 1.3
     },
     "back": {
-     "cagr": 9.13,
+     "cagr": 9.12,
      "mdd": -26.9,
-     "hold_cagr": 7.49,
+     "hold_cagr": 7.36,
      "hold_mdd": -44.9,
      "sw_y": 1.1
     },
     "full": {
      "cagr": 9.66,
      "mdd": -28.7,
-     "hold_cagr": 8.75,
+     "hold_cagr": 8.68,
      "hold_mdd": -55.7,
      "sw_y": 1.2
     }
@@ -50,16 +50,16 @@
      "sw_y": 2.0
     },
     "back": {
-     "cagr": 7.93,
+     "cagr": 7.92,
      "mdd": -25.8,
-     "hold_cagr": 7.49,
+     "hold_cagr": 7.36,
      "hold_mdd": -44.9,
      "sw_y": 2.0
     },
     "full": {
      "cagr": 10.66,
      "mdd": -25.8,
-     "hold_cagr": 8.75,
+     "hold_cagr": 8.68,
      "hold_mdd": -55.7,
      "sw_y": 2.0
     },
@@ -81,16 +81,16 @@
       "sw_y": 2.0
      },
      "back": {
-      "cagr": 7.93,
+      "cagr": 7.92,
       "mdd": -25.8,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 2.0
      },
      "full": {
       "cagr": 10.66,
       "mdd": -25.8,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 2.0
      },
@@ -111,21 +111,21 @@
       "sw_y": 2.9
      },
      "back": {
-      "cagr": 7.63,
+      "cagr": 7.54,
       "mdd": -38.6,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
-      "sw_y": 2.6
+      "sw_y": 2.7
      },
      "full": {
-      "cagr": 10.57,
+      "cagr": 10.52,
       "mdd": -48.3,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 2.8
      },
      "cand": true,
-     "now_on": true
+     "now_on": false
     },
     {
      "id": "current+clock4.5|floor3|cash|100",
@@ -143,14 +143,14 @@
      "back": {
       "cagr": 8.16,
       "mdd": -25.8,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 2.0
      },
      "full": {
       "cagr": 10.49,
       "mdd": -25.8,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 2.1
      },
@@ -173,14 +173,14 @@
      "back": {
       "cagr": 8.56,
       "mdd": -24.6,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 2.2
      },
      "full": {
-      "cagr": 10.22,
+      "cagr": 10.21,
       "mdd": -25.8,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 2.3
      },
@@ -203,14 +203,14 @@
      "back": {
       "cagr": 8.75,
       "mdd": -26.1,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 2.0
      },
      "full": {
       "cagr": 10.17,
       "mdd": -26.1,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 2.0
      },
@@ -233,46 +233,16 @@
      "back": {
       "cagr": 8.68,
       "mdd": -24.6,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 2.2
      },
      "full": {
       "cagr": 10.13,
       "mdd": -25.8,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 2.4
-     },
-     "cand": true,
-     "now_on": true
-    },
-    {
-     "id": "clock4.5|off|cash|50",
-     "ent": "clock4.5",
-     "exit": "off",
-     "alt": "cash",
-     "frac": 0.5,
-     "front": {
-      "cagr": 12.23,
-      "mdd": -49.6,
-      "hold_cagr": 9.87,
-      "hold_mdd": -55.7,
-      "sw_y": 2.9
-     },
-     "back": {
-      "cagr": 7.72,
-      "mdd": -38.6,
-      "hold_cagr": 7.49,
-      "hold_mdd": -44.9,
-      "sw_y": 2.6
-     },
-     "full": {
-      "cagr": 10.04,
-      "mdd": -49.6,
-      "hold_cagr": 8.75,
-      "hold_mdd": -55.7,
-      "sw_y": 2.8
      },
      "cand": true,
      "now_on": true
@@ -291,16 +261,16 @@
       "sw_y": 2.0
      },
      "back": {
-      "cagr": 9.51,
+      "cagr": 9.5,
       "mdd": -26.9,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 1.3
      },
      "full": {
-      "cagr": 10.01,
+      "cagr": 10.0,
       "mdd": -28.7,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 1.7
      },
@@ -323,19 +293,49 @@
      "back": {
       "cagr": 8.97,
       "mdd": -26.5,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 2.2
      },
      "full": {
       "cagr": 9.99,
       "mdd": -26.5,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 2.4
      },
      "cand": true,
      "now_on": true
+    },
+    {
+     "id": "clock4.5|off|cash|50",
+     "ent": "clock4.5",
+     "exit": "off",
+     "alt": "cash",
+     "frac": 0.5,
+     "front": {
+      "cagr": 12.23,
+      "mdd": -49.6,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 2.9
+     },
+     "back": {
+      "cagr": 7.61,
+      "mdd": -38.6,
+      "hold_cagr": 7.36,
+      "hold_mdd": -44.9,
+      "sw_y": 2.7
+     },
+     "full": {
+      "cagr": 9.98,
+      "mdd": -49.6,
+      "hold_cagr": 8.68,
+      "hold_mdd": -55.7,
+      "sw_y": 2.8
+     },
+     "cand": true,
+     "now_on": false
     },
     {
      "id": "current+clock6|floor14|cash|100",
@@ -351,16 +351,16 @@
       "sw_y": 1.6
      },
      "back": {
-      "cagr": 9.58,
+      "cagr": 9.57,
       "mdd": -26.9,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 1.3
      },
      "full": {
       "cagr": 9.98,
       "mdd": -28.7,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 1.4
      },
@@ -381,16 +381,16 @@
       "sw_y": 2.3
      },
      "back": {
-      "cagr": 9.51,
+      "cagr": 9.5,
       "mdd": -26.9,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 1.3
      },
      "full": {
-      "cagr": 9.91,
+      "cagr": 9.9,
       "mdd": -28.7,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 1.8
      },
@@ -413,46 +413,16 @@
      "back": {
       "cagr": 7.51,
       "mdd": -39.1,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 1.4
      },
      "full": {
-      "cagr": 9.9,
+      "cagr": 9.89,
       "mdd": -39.1,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 1.4
-     },
-     "cand": true,
-     "now_on": true
-    },
-    {
-     "id": "clock4.5|floor3|cash|50",
-     "ent": "clock4.5",
-     "exit": "floor3",
-     "alt": "cash",
-     "frac": 0.5,
-     "front": {
-      "cagr": 12.0,
-      "mdd": -56.0,
-      "hold_cagr": 9.87,
-      "hold_mdd": -55.7,
-      "sw_y": 3.2
-     },
-     "back": {
-      "cagr": 7.56,
-      "mdd": -38.6,
-      "hold_cagr": 7.49,
-      "hold_mdd": -44.9,
-      "sw_y": 2.7
-     },
-     "full": {
-      "cagr": 9.84,
-      "mdd": -56.0,
-      "hold_cagr": 8.75,
-      "hold_mdd": -55.7,
-      "sw_y": 3.0
      },
      "cand": true,
      "now_on": true
@@ -473,14 +443,14 @@
      "back": {
       "cagr": 9.32,
       "mdd": -26.9,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 1.4
      },
      "full": {
       "cagr": 9.84,
       "mdd": -28.7,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 1.8
      },
@@ -501,18 +471,48 @@
       "sw_y": 1.8
      },
      "back": {
-      "cagr": 9.36,
+      "cagr": 9.35,
       "mdd": -26.9,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 1.3
      },
      "full": {
       "cagr": 9.84,
       "mdd": -28.7,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 1.5
+     },
+     "cand": true,
+     "now_on": true
+    },
+    {
+     "id": "clock4.5|floor3|cash|50",
+     "ent": "clock4.5",
+     "exit": "floor3",
+     "alt": "cash",
+     "frac": 0.5,
+     "front": {
+      "cagr": 12.0,
+      "mdd": -56.0,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 3.2
+     },
+     "back": {
+      "cagr": 7.49,
+      "mdd": -38.6,
+      "hold_cagr": 7.36,
+      "hold_mdd": -44.9,
+      "sw_y": 2.7
+     },
+     "full": {
+      "cagr": 9.8,
+      "mdd": -56.0,
+      "hold_cagr": 8.68,
+      "hold_mdd": -55.7,
+      "sw_y": 3.0
      },
      "cand": true,
      "now_on": true
@@ -533,16 +533,16 @@
       "sw_y": 2.0
      },
      "back": {
-      "cagr": 7.93,
+      "cagr": 7.92,
       "mdd": -25.8,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 2.0
      },
      "full": {
       "cagr": 10.66,
       "mdd": -25.8,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 2.0
      },
@@ -563,21 +563,21 @@
       "sw_y": 2.9
      },
      "back": {
-      "cagr": 7.63,
+      "cagr": 7.54,
       "mdd": -38.6,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
-      "sw_y": 2.6
+      "sw_y": 2.7
      },
      "full": {
-      "cagr": 10.57,
+      "cagr": 10.52,
       "mdd": -48.3,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 2.8
      },
      "cand": true,
-     "now_on": true
+     "now_on": false
     },
     {
      "id": "current+clock4.5|floor3|cash|100",
@@ -595,14 +595,14 @@
      "back": {
       "cagr": 8.16,
       "mdd": -25.8,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 2.0
      },
      "full": {
       "cagr": 10.49,
       "mdd": -25.8,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 2.1
      },
@@ -625,14 +625,14 @@
      "back": {
       "cagr": 7.02,
       "mdd": -38.6,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 2.6
      },
      "full": {
-      "cagr": 10.48,
+      "cagr": 10.47,
       "mdd": -57.7,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 2.8
      },
@@ -653,18 +653,48 @@
       "sw_y": 3.2
      },
      "back": {
-      "cagr": 7.34,
+      "cagr": 7.33,
       "mdd": -38.6,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 2.7
      },
      "full": {
       "cagr": 10.31,
       "mdd": -57.7,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 3.0
+     },
+     "cand": false,
+     "now_on": true
+    },
+    {
+     "id": "credit200|ma200up|cash|100",
+     "ent": "credit200",
+     "exit": "ma200up",
+     "alt": "cash",
+     "frac": 1.0,
+     "front": {
+      "cagr": 13.31,
+      "mdd": -31.5,
+      "hold_cagr": 9.87,
+      "hold_mdd": -55.7,
+      "sw_y": 2.2
+     },
+     "back": {
+      "cagr": 7.01,
+      "mdd": -39.1,
+      "hold_cagr": 7.36,
+      "hold_mdd": -44.9,
+      "sw_y": 2.0
+     },
+     "full": {
+      "cagr": 10.21,
+      "mdd": -39.1,
+      "hold_cagr": 8.68,
+      "hold_mdd": -55.7,
+      "sw_y": 2.1
      },
      "cand": false,
      "now_on": true
@@ -685,48 +715,18 @@
      "back": {
       "cagr": 8.56,
       "mdd": -24.6,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 2.2
      },
      "full": {
-      "cagr": 10.22,
+      "cagr": 10.21,
       "mdd": -25.8,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 2.3
      },
      "cand": true,
-     "now_on": true
-    },
-    {
-     "id": "credit200|ma200up|cash|100",
-     "ent": "credit200",
-     "exit": "ma200up",
-     "alt": "cash",
-     "frac": 1.0,
-     "front": {
-      "cagr": 13.31,
-      "mdd": -31.5,
-      "hold_cagr": 9.87,
-      "hold_mdd": -55.7,
-      "sw_y": 2.2
-     },
-     "back": {
-      "cagr": 7.02,
-      "mdd": -39.1,
-      "hold_cagr": 7.49,
-      "hold_mdd": -44.9,
-      "sw_y": 2.0
-     },
-     "full": {
-      "cagr": 10.21,
-      "mdd": -39.1,
-      "hold_cagr": 8.75,
-      "hold_mdd": -55.7,
-      "sw_y": 2.1
-     },
-     "cand": false,
      "now_on": true
     },
     {
@@ -745,14 +745,14 @@
      "back": {
       "cagr": 8.75,
       "mdd": -26.1,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 2.0
      },
      "full": {
       "cagr": 10.17,
       "mdd": -26.1,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 2.0
      },
@@ -775,14 +775,14 @@
      "back": {
       "cagr": 8.68,
       "mdd": -24.6,
-      "hold_cagr": 7.49,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
       "sw_y": 2.2
      },
      "full": {
       "cagr": 10.13,
       "mdd": -25.8,
-      "hold_cagr": 8.75,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
       "sw_y": 2.4
      },
@@ -790,31 +790,31 @@
      "now_on": true
     },
     {
-     "id": "clock4.5|off|cash|50",
-     "ent": "clock4.5",
-     "exit": "off",
+     "id": "current+clock6|release|cash|100",
+     "ent": "current+clock6",
+     "exit": "release",
      "alt": "cash",
-     "frac": 0.5,
+     "frac": 1.0,
      "front": {
-      "cagr": 12.23,
-      "mdd": -49.6,
+      "cagr": 10.37,
+      "mdd": -28.7,
       "hold_cagr": 9.87,
       "hold_mdd": -55.7,
-      "sw_y": 2.9
+      "sw_y": 2.0
      },
      "back": {
-      "cagr": 7.72,
-      "mdd": -38.6,
-      "hold_cagr": 7.49,
+      "cagr": 9.5,
+      "mdd": -26.9,
+      "hold_cagr": 7.36,
       "hold_mdd": -44.9,
-      "sw_y": 2.6
+      "sw_y": 1.3
      },
      "full": {
-      "cagr": 10.04,
-      "mdd": -49.6,
-      "hold_cagr": 8.75,
+      "cagr": 10.0,
+      "mdd": -28.7,
+      "hold_cagr": 8.68,
       "hold_mdd": -55.7,
-      "sw_y": 2.8
+      "sw_y": 1.7
      },
      "cand": true,
      "now_on": true
@@ -825,12 +825,12 @@
    "key": "kosdaq",
    "name": "코스닥",
    "n": 70,
-   "n_cand": 15,
+   "n_cand": 16,
    "hold": {
-    "cagr": -0.81,
+    "cagr": -0.84,
     "mdd": -72.3,
     "front": -4.54,
-    "back": 2.56
+    "back": 2.5
    },
    "current": {
     "front": {
@@ -841,16 +841,16 @@
      "sw_y": 0.0
     },
     "back": {
-     "cagr": 2.56,
+     "cagr": 2.5,
      "mdd": -53.8,
-     "hold_cagr": 2.56,
+     "hold_cagr": 2.5,
      "hold_mdd": -53.8,
      "sw_y": 0.0
     },
     "full": {
-     "cagr": -0.81,
+     "cagr": -0.84,
      "mdd": -72.3,
-     "hold_cagr": -0.81,
+     "hold_cagr": -0.84,
      "hold_mdd": -72.3,
      "sw_y": 0.0
     }
@@ -871,14 +871,14 @@
     "back": {
      "cagr": 4.38,
      "mdd": -47.4,
-     "hold_cagr": 2.56,
+     "hold_cagr": 2.5,
      "hold_mdd": -53.8,
      "sw_y": 1.1
     },
     "full": {
      "cagr": 4.67,
      "mdd": -50.8,
-     "hold_cagr": -0.81,
+     "hold_cagr": -0.84,
      "hold_mdd": -72.3,
      "sw_y": 1.3
     },
@@ -902,14 +902,14 @@
      "back": {
       "cagr": 4.38,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 1.1
      },
      "full": {
       "cagr": 4.67,
       "mdd": -50.8,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 1.3
      },
@@ -932,14 +932,14 @@
      "back": {
       "cagr": 4.38,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 1.1
      },
      "full": {
       "cagr": 4.67,
       "mdd": -50.8,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 1.3
      },
@@ -962,14 +962,14 @@
      "back": {
       "cagr": 3.59,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 0.8
      },
      "full": {
       "cagr": 3.08,
       "mdd": -54.5,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 1.2
      },
@@ -990,16 +990,16 @@
       "sw_y": 1.8
      },
      "back": {
-      "cagr": 3.37,
+      "cagr": 3.31,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 1.2
      },
      "full": {
-      "cagr": 2.68,
+      "cagr": 2.65,
       "mdd": -55.7,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 1.5
      },
@@ -1020,16 +1020,16 @@
       "sw_y": 1.5
      },
      "back": {
-      "cagr": 3.6,
+      "cagr": 3.57,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 1.1
      },
      "full": {
-      "cagr": 2.19,
+      "cagr": 2.17,
       "mdd": -58.5,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 1.3
      },
@@ -1050,16 +1050,16 @@
       "sw_y": 1.5
      },
      "back": {
-      "cagr": 3.6,
+      "cagr": 3.57,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 1.1
      },
      "full": {
-      "cagr": 2.19,
+      "cagr": 2.17,
       "mdd": -58.5,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 1.3
      },
@@ -1080,16 +1080,16 @@
       "sw_y": 2.3
      },
      "back": {
-      "cagr": 3.01,
+      "cagr": 2.95,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 1.9
      },
      "full": {
-      "cagr": 1.53,
+      "cagr": 1.5,
       "mdd": -52.9,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 2.1
      },
@@ -1110,16 +1110,16 @@
       "sw_y": 1.7
      },
      "back": {
-      "cagr": 3.23,
+      "cagr": 3.2,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 0.8
      },
      "full": {
-      "cagr": 1.49,
+      "cagr": 1.47,
       "mdd": -59.8,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 1.2
      },
@@ -1140,16 +1140,16 @@
       "sw_y": 1.8
      },
      "back": {
-      "cagr": 3.09,
+      "cagr": 3.03,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 1.2
      },
      "full": {
-      "cagr": 1.23,
+      "cagr": 1.2,
       "mdd": -59.4,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 1.5
      },
@@ -1172,14 +1172,14 @@
      "back": {
       "cagr": 3.01,
       "mdd": -29.7,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 9.1
      },
      "full": {
       "cagr": 0.68,
       "mdd": -50.7,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 9.1
      },
@@ -1202,14 +1202,14 @@
      "back": {
       "cagr": 3.01,
       "mdd": -29.7,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 9.1
      },
      "full": {
       "cagr": 0.68,
       "mdd": -50.7,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 9.1
      },
@@ -1230,16 +1230,16 @@
       "sw_y": 2.3
      },
      "back": {
-      "cagr": 2.97,
+      "cagr": 2.91,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 1.9
      },
      "full": {
-      "cagr": 0.64,
+      "cagr": 0.61,
       "mdd": -59.3,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 2.1
      },
@@ -1260,16 +1260,16 @@
       "sw_y": 9.1
      },
      "back": {
-      "cagr": 3.27,
+      "cagr": 3.24,
       "mdd": -40.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 9.1
      },
      "full": {
-      "cagr": 0.46,
+      "cagr": 0.44,
       "mdd": -51.6,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 9.1
      },
@@ -1290,16 +1290,16 @@
       "sw_y": 9.1
      },
      "back": {
-      "cagr": 3.27,
+      "cagr": 3.24,
       "mdd": -40.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 9.1
      },
      "full": {
-      "cagr": 0.46,
+      "cagr": 0.44,
       "mdd": -51.6,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 9.1
      },
@@ -1320,16 +1320,16 @@
       "sw_y": 5.9
      },
      "back": {
-      "cagr": 3.06,
+      "cagr": 3.03,
       "mdd": -37.9,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 6.3
      },
      "full": {
-      "cagr": -0.15,
+      "cagr": -0.17,
       "mdd": -49.6,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 6.2
      },
@@ -1354,14 +1354,14 @@
      "back": {
       "cagr": 0.46,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 2.6
      },
      "full": {
       "cagr": 5.41,
       "mdd": -47.4,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 2.4
      },
@@ -1384,14 +1384,14 @@
      "back": {
       "cagr": 0.32,
       "mdd": -48.8,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 2.7
      },
      "full": {
       "cagr": 5.32,
       "mdd": -48.8,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 2.5
      },
@@ -1414,14 +1414,14 @@
      "back": {
       "cagr": 4.38,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 1.1
      },
      "full": {
       "cagr": 4.67,
       "mdd": -50.8,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 1.3
      },
@@ -1444,14 +1444,14 @@
      "back": {
       "cagr": 4.38,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 1.1
      },
      "full": {
       "cagr": 4.67,
       "mdd": -50.8,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 1.3
      },
@@ -1472,21 +1472,21 @@
       "sw_y": 2.5
      },
      "back": {
-      "cagr": 1.08,
+      "cagr": 1.11,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
-      "sw_y": 2.6
+      "sw_y": 2.7
      },
      "full": {
-      "cagr": 4.16,
+      "cagr": 4.17,
       "mdd": -47.4,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 2.6
      },
      "cand": false,
-     "now_on": true
+     "now_on": false
     },
     {
      "id": "clock6|ma200up|cash|100",
@@ -1504,14 +1504,14 @@
      "back": {
       "cagr": 3.59,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 0.8
      },
      "full": {
       "cagr": 3.08,
       "mdd": -54.5,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 1.2
      },
@@ -1532,16 +1532,16 @@
       "sw_y": 1.8
      },
      "back": {
-      "cagr": 3.37,
+      "cagr": 3.31,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 1.2
      },
      "full": {
-      "cagr": 2.68,
+      "cagr": 2.65,
       "mdd": -55.7,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 1.5
      },
@@ -1562,16 +1562,16 @@
       "sw_y": 2.2
      },
      "back": {
-      "cagr": 1.71,
+      "cagr": 1.68,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 2.6
      },
      "full": {
-      "cagr": 2.64,
+      "cagr": 2.63,
       "mdd": -52.6,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 2.4
      },
@@ -1592,16 +1592,16 @@
       "sw_y": 2.2
      },
      "back": {
-      "cagr": 1.64,
+      "cagr": 1.61,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 2.7
      },
      "full": {
-      "cagr": 2.6,
+      "cagr": 2.58,
       "mdd": -52.6,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 2.5
      },
@@ -1622,16 +1622,16 @@
       "sw_y": 1.5
      },
      "back": {
-      "cagr": 3.6,
+      "cagr": 3.57,
       "mdd": -47.4,
-      "hold_cagr": 2.56,
+      "hold_cagr": 2.5,
       "hold_mdd": -53.8,
       "sw_y": 1.1
      },
      "full": {
-      "cagr": 2.19,
+      "cagr": 2.17,
       "mdd": -58.5,
-      "hold_cagr": -0.81,
+      "hold_cagr": -0.84,
       "hold_mdd": -72.3,
       "sw_y": 1.3
      },
@@ -1646,10 +1646,10 @@
    "n": 211,
    "n_cand": 11,
    "hold": {
-    "cagr": 8.61,
+    "cagr": 8.63,
     "mdd": -55.2,
     "front": 2.9,
-    "back": 14.47
+    "back": 14.51
    },
    "current": {
     "front": {
@@ -1660,16 +1660,16 @@
      "sw_y": 4.7
     },
     "back": {
-     "cagr": 14.57,
+     "cagr": 14.6,
      "mdd": -21.9,
-     "hold_cagr": 14.47,
+     "hold_cagr": 14.51,
      "hold_mdd": -33.7,
      "sw_y": 2.2
     },
     "full": {
-     "cagr": 9.2,
+     "cagr": 9.22,
      "mdd": -42.0,
-     "hold_cagr": 8.61,
+     "hold_cagr": 8.63,
      "hold_mdd": -55.2,
      "sw_y": 3.5
     }
@@ -1688,16 +1688,16 @@
      "sw_y": 5.2
     },
     "back": {
-     "cagr": 14.54,
+     "cagr": 14.57,
      "mdd": -21.9,
-     "hold_cagr": 14.47,
+     "hold_cagr": 14.51,
      "hold_mdd": -33.7,
      "sw_y": 2.7
     },
     "full": {
-     "cagr": 9.41,
+     "cagr": 9.43,
      "mdd": -40.1,
-     "hold_cagr": 8.61,
+     "hold_cagr": 8.63,
      "hold_mdd": -55.2,
      "sw_y": 4.0
     },
@@ -1719,16 +1719,16 @@
       "sw_y": 5.2
      },
      "back": {
-      "cagr": 14.54,
+      "cagr": 14.57,
       "mdd": -21.9,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
       "sw_y": 2.7
      },
      "full": {
-      "cagr": 9.41,
+      "cagr": 9.43,
       "mdd": -40.1,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 4.0
      },
@@ -1749,18 +1749,48 @@
       "sw_y": 5.2
      },
      "back": {
-      "cagr": 14.5,
+      "cagr": 14.54,
       "mdd": -21.9,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
       "sw_y": 3.0
      },
      "full": {
-      "cagr": 9.4,
+      "cagr": 9.42,
       "mdd": -40.1,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 4.1
+     },
+     "cand": true,
+     "now_on": false
+    },
+    {
+     "id": "current+dd15|floor14|bond|50",
+     "ent": "current+dd15",
+     "exit": "floor14",
+     "alt": "bond",
+     "frac": 0.5,
+     "front": {
+      "cagr": 4.13,
+      "mdd": -42.0,
+      "hold_cagr": 2.9,
+      "hold_mdd": -55.2,
+      "sw_y": 4.6
+     },
+     "back": {
+      "cagr": 14.54,
+      "mdd": -21.9,
+      "hold_cagr": 14.51,
+      "hold_mdd": -33.7,
+      "sw_y": 2.2
+     },
+     "full": {
+      "cagr": 9.3,
+      "mdd": -42.0,
+      "hold_cagr": 8.63,
+      "hold_mdd": -55.2,
+      "sw_y": 3.4
      },
      "cand": true,
      "now_on": false
@@ -1779,51 +1809,21 @@
       "sw_y": 5.2
      },
      "back": {
-      "cagr": 14.65,
+      "cagr": 14.62,
       "mdd": -21.9,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
       "sw_y": 2.4
      },
      "full": {
-      "cagr": 9.29,
+      "cagr": 9.28,
       "mdd": -42.1,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 3.8
      },
      "cand": true,
      "now_on": true
-    },
-    {
-     "id": "current+dd15|floor14|bond|50",
-     "ent": "current+dd15",
-     "exit": "floor14",
-     "alt": "bond",
-     "frac": 0.5,
-     "front": {
-      "cagr": 4.13,
-      "mdd": -42.0,
-      "hold_cagr": 2.9,
-      "hold_mdd": -55.2,
-      "sw_y": 4.6
-     },
-     "back": {
-      "cagr": 14.5,
-      "mdd": -21.9,
-      "hold_cagr": 14.47,
-      "hold_mdd": -33.7,
-      "sw_y": 2.2
-     },
-     "full": {
-      "cagr": 9.28,
-      "mdd": -42.0,
-      "hold_cagr": 8.61,
-      "hold_mdd": -55.2,
-      "sw_y": 3.4
-     },
-     "cand": true,
-     "now_on": false
     },
     {
      "id": "current+clock6|floor14|bond|50",
@@ -1839,16 +1839,16 @@
       "sw_y": 5.2
      },
      "back": {
-      "cagr": 14.57,
+      "cagr": 14.54,
       "mdd": -21.9,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
       "sw_y": 2.4
      },
      "full": {
-      "cagr": 9.25,
+      "cagr": 9.24,
       "mdd": -42.1,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 3.8
      },
@@ -1869,16 +1869,16 @@
       "sw_y": 4.7
      },
      "back": {
-      "cagr": 14.57,
+      "cagr": 14.6,
       "mdd": -21.9,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
       "sw_y": 2.2
      },
      "full": {
-      "cagr": 9.2,
+      "cagr": 9.22,
       "mdd": -42.0,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 3.5
      },
@@ -1899,16 +1899,16 @@
       "sw_y": 4.7
      },
      "back": {
-      "cagr": 14.57,
+      "cagr": 14.6,
       "mdd": -21.9,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
       "sw_y": 2.2
      },
      "full": {
-      "cagr": 9.2,
+      "cagr": 9.22,
       "mdd": -42.0,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 3.5
      },
@@ -1929,16 +1929,16 @@
       "sw_y": 4.7
      },
      "back": {
-      "cagr": 14.57,
+      "cagr": 14.6,
       "mdd": -21.9,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
       "sw_y": 2.2
      },
      "full": {
-      "cagr": 9.2,
+      "cagr": 9.22,
       "mdd": -42.0,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 3.5
      },
@@ -1959,16 +1959,16 @@
       "sw_y": 4.7
      },
      "back": {
-      "cagr": 14.57,
+      "cagr": 14.6,
       "mdd": -21.9,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
       "sw_y": 2.2
      },
      "full": {
-      "cagr": 9.2,
+      "cagr": 9.22,
       "mdd": -42.0,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 3.5
      },
@@ -1989,16 +1989,16 @@
       "sw_y": 4.7
      },
      "back": {
-      "cagr": 14.57,
+      "cagr": 14.6,
       "mdd": -21.9,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
       "sw_y": 2.2
      },
      "full": {
-      "cagr": 9.2,
+      "cagr": 9.22,
       "mdd": -42.0,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 3.5
      },
@@ -2019,16 +2019,16 @@
       "sw_y": 4.7
      },
      "back": {
-      "cagr": 14.57,
+      "cagr": 14.6,
       "mdd": -21.9,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
       "sw_y": 2.2
      },
      "full": {
-      "cagr": 9.2,
+      "cagr": 9.22,
       "mdd": -42.0,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 3.5
      },
@@ -2051,16 +2051,16 @@
       "sw_y": 3.8
      },
      "back": {
-      "cagr": 12.54,
+      "cagr": 12.58,
       "mdd": -25.2,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
       "sw_y": 3.0
      },
      "full": {
-      "cagr": 11.2,
+      "cagr": 11.22,
       "mdd": -25.2,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 3.4
      },
@@ -2081,16 +2081,16 @@
       "sw_y": 1.6
      },
      "back": {
-      "cagr": 11.73,
+      "cagr": 11.77,
       "mdd": -28.8,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
       "sw_y": 1.2
      },
      "full": {
-      "cagr": 10.59,
+      "cagr": 10.6,
       "mdd": -28.8,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 1.4
      },
@@ -2111,18 +2111,48 @@
       "sw_y": 3.3
      },
      "back": {
-      "cagr": 14.06,
+      "cagr": 14.09,
       "mdd": -21.9,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
       "sw_y": 2.5
      },
      "full": {
-      "cagr": 10.49,
+      "cagr": 10.51,
       "mdd": -30.4,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 2.9
+     },
+     "cand": false,
+     "now_on": false
+    },
+    {
+     "id": "clock6|off|bond|50",
+     "ent": "clock6",
+     "exit": "off",
+     "alt": "bond",
+     "frac": 0.5,
+     "front": {
+      "cagr": 6.44,
+      "mdd": -33.9,
+      "hold_cagr": 2.9,
+      "hold_mdd": -55.2,
+      "sw_y": 1.6
+     },
+     "back": {
+      "cagr": 13.27,
+      "mdd": -26.3,
+      "hold_cagr": 14.51,
+      "hold_mdd": -33.7,
+      "sw_y": 1.2
+     },
+     "full": {
+      "cagr": 9.89,
+      "mdd": -33.9,
+      "hold_cagr": 8.63,
+      "hold_mdd": -55.2,
+      "sw_y": 1.4
      },
      "cand": false,
      "now_on": false
@@ -2141,48 +2171,18 @@
       "sw_y": 4.2
      },
      "back": {
-      "cagr": 11.01,
+      "cagr": 10.9,
       "mdd": -19.8,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
-      "sw_y": 3.4
+      "sw_y": 3.5
      },
      "full": {
-      "cagr": 9.9,
+      "cagr": 9.85,
       "mdd": -19.8,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 3.8
-     },
-     "cand": false,
-     "now_on": true
-    },
-    {
-     "id": "clock6|off|bond|50",
-     "ent": "clock6",
-     "exit": "off",
-     "alt": "bond",
-     "frac": 0.5,
-     "front": {
-      "cagr": 6.44,
-      "mdd": -33.9,
-      "hold_cagr": 2.9,
-      "hold_mdd": -55.2,
-      "sw_y": 1.6
-     },
-     "back": {
-      "cagr": 13.24,
-      "mdd": -26.3,
-      "hold_cagr": 14.47,
-      "hold_mdd": -33.7,
-      "sw_y": 1.2
-     },
-     "full": {
-      "cagr": 9.87,
-      "mdd": -33.9,
-      "hold_cagr": 8.61,
-      "hold_mdd": -55.2,
-      "sw_y": 1.4
      },
      "cand": false,
      "now_on": false
@@ -2201,21 +2201,21 @@
       "sw_y": 3.4
      },
      "back": {
-      "cagr": 13.04,
+      "cagr": 13.01,
       "mdd": -21.9,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
-      "sw_y": 3.1
+      "sw_y": 3.2
      },
      "full": {
-      "cagr": 9.84,
+      "cagr": 9.83,
       "mdd": -28.5,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 3.3
      },
      "cand": false,
-     "now_on": true
+     "now_on": false
     },
     {
      "id": "current+dd20|ma200up|bond|100",
@@ -2231,18 +2231,18 @@
       "sw_y": 4.3
      },
      "back": {
-      "cagr": 12.42,
+      "cagr": 12.45,
       "mdd": -29.3,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
       "sw_y": 2.4
      },
      "full": {
-      "cagr": 9.79,
+      "cagr": 9.81,
       "mdd": -29.3,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
-      "sw_y": 3.4
+      "sw_y": 3.3
      },
      "cand": false,
      "now_on": false
@@ -2261,16 +2261,16 @@
       "sw_y": 1.6
      },
      "back": {
-      "cagr": 12.2,
+      "cagr": 12.24,
       "mdd": -23.8,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
       "sw_y": 1.2
      },
      "full": {
-      "cagr": 9.77,
+      "cagr": 9.79,
       "mdd": -32.4,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 1.4
      },
@@ -2291,16 +2291,16 @@
       "sw_y": 4.0
      },
      "back": {
-      "cagr": 14.0,
+      "cagr": 14.03,
       "mdd": -22.5,
-      "hold_cagr": 14.47,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
       "sw_y": 2.2
      },
      "full": {
-      "cagr": 9.71,
+      "cagr": 9.73,
       "mdd": -34.2,
-      "hold_cagr": 8.61,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
       "sw_y": 3.1
      },
@@ -2308,34 +2308,34 @@
      "now_on": false
     },
     {
-     "id": "clock4.5|off|bond|100",
-     "ent": "clock4.5",
+     "id": "current+credit200|off|bond|50",
+     "ent": "current+credit200",
      "exit": "off",
      "alt": "bond",
-     "frac": 1.0,
+     "frac": 0.5,
      "front": {
-      "cagr": 7.94,
-      "mdd": -22.3,
+      "cagr": 5.03,
+      "mdd": -34.2,
       "hold_cagr": 2.9,
       "hold_mdd": -55.2,
-      "sw_y": 2.9
+      "sw_y": 5.2
      },
      "back": {
-      "cagr": 10.79,
-      "mdd": -19.8,
-      "hold_cagr": 14.47,
+      "cagr": 13.9,
+      "mdd": -22.6,
+      "hold_cagr": 14.51,
       "hold_mdd": -33.7,
-      "sw_y": 2.5
+      "sw_y": 3.2
      },
      "full": {
-      "cagr": 9.45,
-      "mdd": -22.3,
-      "hold_cagr": 8.61,
+      "cagr": 9.46,
+      "mdd": -34.2,
+      "hold_cagr": 8.63,
       "hold_mdd": -55.2,
-      "sw_y": 2.7
+      "sw_y": 4.2
      },
      "cand": false,
-     "now_on": true
+     "now_on": false
     }
    ]
   },
@@ -2345,10 +2345,10 @@
    "n": 140,
    "n_cand": 0,
    "hold": {
-    "cagr": 10.48,
+    "cagr": 10.51,
     "mdd": -83.0,
     "front": 2.22,
-    "back": 19.12
+    "back": 19.17
    },
    "current": {
     "front": {
@@ -2359,16 +2359,16 @@
      "sw_y": 0.0
     },
     "back": {
-     "cagr": 19.12,
+     "cagr": 19.17,
      "mdd": -35.1,
-     "hold_cagr": 19.12,
+     "hold_cagr": 19.17,
      "hold_mdd": -35.1,
      "sw_y": 0.0
     },
     "full": {
-     "cagr": 10.48,
+     "cagr": 10.51,
      "mdd": -83.0,
-     "hold_cagr": 10.48,
+     "hold_cagr": 10.51,
      "hold_mdd": -83.0,
      "sw_y": 0.0
     }
@@ -2390,16 +2390,16 @@
       "sw_y": 0.4
      },
      "back": {
-      "cagr": 13.85,
+      "cagr": 13.9,
       "mdd": -37.8,
-      "hold_cagr": 19.12,
+      "hold_cagr": 19.17,
       "hold_mdd": -35.1,
       "sw_y": 0.7
      },
      "full": {
-      "cagr": 14.08,
+      "cagr": 14.11,
       "mdd": -37.8,
-      "hold_cagr": 10.48,
+      "hold_cagr": 10.51,
       "hold_mdd": -83.0,
       "sw_y": 0.6
      },
@@ -2420,16 +2420,16 @@
       "sw_y": 1.3
      },
      "back": {
-      "cagr": 15.54,
+      "cagr": 15.59,
       "mdd": -33.6,
-      "hold_cagr": 19.12,
+      "hold_cagr": 19.17,
       "hold_mdd": -35.1,
       "sw_y": 1.0
      },
      "full": {
-      "cagr": 13.91,
+      "cagr": 13.93,
       "mdd": -33.6,
-      "hold_cagr": 10.48,
+      "hold_cagr": 10.51,
       "hold_mdd": -83.0,
       "sw_y": 1.2
      },
@@ -2450,16 +2450,16 @@
       "sw_y": 0.4
      },
      "back": {
-      "cagr": 13.18,
+      "cagr": 13.22,
       "mdd": -38.7,
-      "hold_cagr": 19.12,
+      "hold_cagr": 19.17,
       "hold_mdd": -35.1,
       "sw_y": 0.7
      },
      "full": {
-      "cagr": 13.74,
+      "cagr": 13.77,
       "mdd": -38.7,
-      "hold_cagr": 10.48,
+      "hold_cagr": 10.51,
       "hold_mdd": -83.0,
       "sw_y": 0.6
      },
@@ -2480,16 +2480,16 @@
       "sw_y": 1.6
      },
      "back": {
-      "cagr": 15.68,
+      "cagr": 15.73,
       "mdd": -40.4,
-      "hold_cagr": 19.12,
+      "hold_cagr": 19.17,
       "hold_mdd": -35.1,
       "sw_y": 1.2
      },
      "full": {
-      "cagr": 13.61,
+      "cagr": 13.63,
       "mdd": -60.6,
-      "hold_cagr": 10.48,
+      "hold_cagr": 10.51,
       "hold_mdd": -83.0,
       "sw_y": 1.4
      },
@@ -2510,16 +2510,16 @@
       "sw_y": 2.2
      },
      "back": {
-      "cagr": 14.37,
+      "cagr": 14.42,
       "mdd": -33.8,
-      "hold_cagr": 19.12,
+      "hold_cagr": 19.17,
       "hold_mdd": -35.1,
       "sw_y": 1.6
      },
      "full": {
-      "cagr": 13.47,
+      "cagr": 13.5,
       "mdd": -36.5,
-      "hold_cagr": 10.48,
+      "hold_cagr": 10.51,
       "hold_mdd": -83.0,
       "sw_y": 1.9
      },
@@ -2540,16 +2540,16 @@
       "sw_y": 1.2
      },
      "back": {
-      "cagr": 14.46,
+      "cagr": 14.51,
       "mdd": -34.6,
-      "hold_cagr": 19.12,
+      "hold_cagr": 19.17,
       "hold_mdd": -35.1,
       "sw_y": 1.0
      },
      "full": {
-      "cagr": 13.4,
+      "cagr": 13.43,
       "mdd": -34.6,
-      "hold_cagr": 10.48,
+      "hold_cagr": 10.51,
       "hold_mdd": -83.0,
       "sw_y": 1.1
      },
@@ -2570,16 +2570,16 @@
       "sw_y": 3.0
      },
      "back": {
-      "cagr": 15.02,
+      "cagr": 15.07,
       "mdd": -33.8,
-      "hold_cagr": 19.12,
+      "hold_cagr": 19.17,
       "hold_mdd": -35.1,
       "sw_y": 1.9
      },
      "full": {
-      "cagr": 13.05,
+      "cagr": 13.07,
       "mdd": -36.5,
-      "hold_cagr": 10.48,
+      "hold_cagr": 10.51,
       "hold_mdd": -83.0,
       "sw_y": 2.5
      },
@@ -2600,16 +2600,16 @@
       "sw_y": 0.4
      },
      "back": {
-      "cagr": 14.16,
+      "cagr": 14.21,
       "mdd": -31.7,
-      "hold_cagr": 19.12,
+      "hold_cagr": 19.17,
       "hold_mdd": -35.1,
       "sw_y": 0.7
      },
      "full": {
-      "cagr": 13.02,
+      "cagr": 13.04,
       "mdd": -31.7,
-      "hold_cagr": 10.48,
+      "hold_cagr": 10.51,
       "hold_mdd": -83.0,
       "sw_y": 0.6
      },
@@ -2630,16 +2630,16 @@
       "sw_y": 1.0
      },
      "back": {
-      "cagr": 14.16,
+      "cagr": 14.21,
       "mdd": -38.7,
-      "hold_cagr": 19.12,
+      "hold_cagr": 19.17,
       "hold_mdd": -35.1,
       "sw_y": 1.0
      },
      "full": {
-      "cagr": 12.99,
+      "cagr": 13.01,
       "mdd": -52.6,
-      "hold_cagr": 10.48,
+      "hold_cagr": 10.51,
       "hold_mdd": -83.0,
       "sw_y": 1.0
      },
@@ -2660,16 +2660,16 @@
       "sw_y": 0.4
      },
      "back": {
-      "cagr": 16.64,
+      "cagr": 16.69,
       "mdd": -35.8,
-      "hold_cagr": 19.12,
+      "hold_cagr": 19.17,
       "hold_mdd": -35.1,
       "sw_y": 0.7
      },
      "full": {
-      "cagr": 12.88,
+      "cagr": 12.91,
       "mdd": -53.6,
-      "hold_cagr": 10.48,
+      "hold_cagr": 10.51,
       "hold_mdd": -83.0,
       "sw_y": 0.6
      },
