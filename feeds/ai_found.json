@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "세레브라스 3분기 — 클라우드·서비스 매출 급증 뒤 주가 반응 엇갈림",
+   "url": "https://parameter.io/cerebras-cbrs-stock-tumbles-12-even-as-cloud-and-services-revenue-jumps-281/",
+   "press": "Parameter",
+   "at": "2026-11-16 06:45",
+   "why": "엔비디아 실적(11/17) 전날 AI 추론 칩 경쟁사 실적 — 「현금 도는 상류」 가설과 반도체 칸 기대치 가늠",
+   "summary": "클라우드·서비스 매출 +281% 보도에도 주가 −12% 제목(발표 분기·날짜 미확인). WSJ 11/16 제목은 「3분기 클라우드 매출 급증으로 전망 상향」 — 세부 숫자 미확인."
+  },
+  {
    "title": "엔비디아, 황의 관계 조사 — AI 업계가 파장을 따진다",
    "url": "https://datacenterknowledge.com/data-center-chips/nvidia-probes-huang-ties-as-ai-industry-weighs-the-fallout",
    "press": "Data Center Knowledge",
@@ -631,22 +639,6 @@
    "at": "2026-11-13 03:36",
    "why": "「대장주 단독 충격」 가설 — 지수는 NVDA 경영 공백을 흡수 중, 🟢 S&P 정상 판정 유지 근거",
    "summary": "엔비디아 황 사임으로 개장 −13% → 지수는 초반 손실을 지움. 나스닥100도 NVDA −5%에도 플러스 전환(구글뉴스). 압력은 금리(10년 5% 위)."
-  },
-  {
-   "title": "연준 2027년 FOMC 일정 개편 — 금리 결정 회의 8→7회(10월은 전략 회의)",
-   "url": "https://gulfnews.com/business/economy/fewer-fed-rate-votes-more-debate-fomc-calendar-reset-1.500727856",
-   "press": "Gulf News",
-   "at": "2026-11-13 03:36",
-   "why": "12/9 FOMC 분수령 가설 — 워시 의장 체제의 「가이던스 축소」, 회의당 결정 무게가 커져 금리 변동성↑",
-   "summary": "연준이 11/12 2027년 잠정 일정 수정 발표 — 10월 회의는 금리 표결 없음. 2028년엔 6회. 클리블랜드 해맥 「작은 폭으로 꾸준히 인상」과 같은 날."
-  },
-  {
-   "title": "엔, 개입 경계에 다시 오름 — 160엔 돌파 뒤 되돌림",
-   "url": "https://www.tastyfx.com/news/yen-climbs-again-as-intervention-fears-bite/",
-   "press": "tastyfx",
-   "at": "2026-11-13 02:45",
-   "why": "엔 160 = 日 개입선 · 엔 캐리 되감기면 원/달러·아시아 반도체 흔들림 — 💬 17번 환율 답과 이어짐",
-   "summary": "달러/엔 160 돌파 직후 개입 경계로 엔 반등. 일본은 앞서 하루 500억 달러 사상 최대 개입(WSJ 11/8 보도) 전례."
   }
  ],
  "at": "2026-11-16 05:45"
