@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "삼성SDI, 미국서 수조원대 ESS 배터리 수주…LFP 시장 공략 본격화",
+   "url": "https://n.news.naver.com/mnews/article/001/0016442965",
+   "press": "연합뉴스",
+   "at": "2026-11-16 08:15",
+   "why": "AI 데이터센터발 ESS 수요 = 「현금 도는 상류(전력)」 가설 근거 · 코스피 2차전지 칸 — 개별주는 👻, 표현은 ETF로",
+   "summary": "美에서 ESS용 LFP 배터리 수조원대 수주(머니투데이·연합 속보 제목). 금액·고객사 세부는 미확인. 앞서 25/12 2조원대·26/3 1.5조원 수주에 이은 美 ESS 연속 수주."
+  },
+  {
+   "title": "굴스비 시카고 연은 「끈질긴 물가가 더 공격적 인상 부를 수도 — 2%로 가는 길 아님」",
+   "url": "https://investinglive.com/central-banks/fed-policymaker-goolsbee-warns-strong-demand-may-be-fueling-us-inflation-as-rate-hike-outlook-hardens/",
+   "press": "investingLive",
+   "at": "2026-11-16 08:15",
+   "why": "12/9 FOMC 분수령(0.55) — 비둘기 쪽까지 인상 쪽, 「0.25%p 여러 번」 그림 강화 · 美 10년 5%대 지속",
+   "summary": "굴스비 「강한 수요가 물가를 밀어 올리는 중일 수 있다 · 인상 전망 굳어짐」. 12월 인상 확률 86.8% 거론(구글뉴스 제목, 세부 미확인)."
+  },
+  {
    "title": "UBS, 브렌트 연말 110달러 전망 — 걸프 물량 전쟁 전 수준 회복 못 함",
    "url": "https://oilprice.com/Latest-Energy-News/World-News/UBS-Sees-110-Brent-by-Year-End-as-Gulf-Flows-Stay-Below-Prewar-Levels.html",
    "press": "OilPrice",
@@ -623,22 +639,6 @@
    "at": "2026-11-13 04:45",
    "why": "2027 투표권자까지 인상 쪽 — 12/9 FOMC 분수령 가설·채권 나눠 사기 칸",
    "summary": "데일리 「추가 인상이 필요할 가능성이 그렇지 않을 가능성보다 크다, 다만 서두르지 않는다」(뉴스퀵). 같은 날 JP모건 버로 「12월 인상은 이미 가격에 반영」(블룸버그)."
-  },
-  {
-   "title": "美 기존주택 판매, 2010년 이후 최저로 추락",
-   "url": "https://www.nationalmortgagenews.com/articles/existing-home-sales-slide-further-still-lowest-since-2010",
-   "press": "National Mortgage News",
-   "at": "2026-11-13 04:45",
-   "why": "10년 5%대 금리가 주택 실물을 누름 — 「고금리 정점」 가설·주택·금리 민감주",
-   "summary": "10월 기존주택 판매 2010년 이후 최저(FT·WSJ 「16년 최저」). 모기지 금리 급등 영향."
-  },
-  {
-   "title": "엔비디아 장중 −14% 뒤 낙폭 절반 회복, 10년 5.07%·브로드컴 +5.3%·코어위브 −9%",
-   "url": "https://www.pbs.org/newshour/economy/sharp-swings-for-nvidia-and-oil-prices-weigh-on-wall-street",
-   "press": "AP/PBS",
-   "at": "2026-11-13 04:45",
-   "why": "「대장주 단독 · 업종 갈아타기」 판정 근거 — 닷컴 3막·AI 안 갈림 가설",
-   "summary": "11/12 오전 S&P −0.4%·나스닥 −0.6%, NVDA −6.1%·AVGO +5.3%·MU −4.9%·CRWV −9%, 브렌트 93.79(+1.1%), 10년 5.07%(화 4.98%)."
   }
  ],
  "at": "2026-11-16 05:45"
