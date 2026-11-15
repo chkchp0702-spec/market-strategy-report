@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "마이클 버리, 반도체 ETF 풋 25% 차익 실현 — 「여전히 매우 약세」",
+   "url": "https://247wallst.com/investing/2026/11/06/michael-burry-sold-25-of-his-chip-puts-and-says-hes-still-very-bearish/",
+   "press": "24/7 Wall St.",
+   "at": "2026-11-16 03:45",
+   "why": "11/16 홍콩 매체 「버리 나스닥·반도체 숏 확대」 제목과 엇갈림 — 11/6 기준 풋 일부 정리, 엔비디아 실적 앞 반도체 칸 「반등 추격 금지」 판단의 참고",
+   "summary": "11/5~6 버리가 반도체 ETF 풋 포지션 25%를 정리했지만 약세 시각은 유지. 11/16 홍콩 보도의 「숏 확대」는 시점·규모 미확인."
+  },
+  {
    "title": "엔비디아 황 조사 착수 — 한국 칩 업체들 충격 대비",
    "url": "https://www.koreajoongangdaily.com/business/as-nvidia-begins-huang-probe-korean-chipmakers-brace-for-impact/12965338",
    "press": "코리아중앙데일리",
@@ -641,5 +649,5 @@
    "summary": "엔비디아 장중 낙폭 회복 뒤 다시 하락, 지수 혼조. daily-app 02:14 NVDA −5.2%·SOXX −0.3%."
   }
  ],
- "at": "2026-11-15 22:45"
+ "at": "2026-11-16 03:45"
 }
