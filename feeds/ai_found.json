@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "엔비디아 황 조사 착수 — 한국 칩 업체들 충격 대비",
+   "url": "https://www.koreajoongangdaily.com/business/as-nvidia-begins-huang-probe-korean-chipmakers-brace-for-impact/12965338",
+   "press": "코리아중앙데일리",
+   "at": "2026-11-16 02:45",
+   "why": "삼성전자·SK하이닉스 HBM 공급 일정과 수출 규제 위험 — 월요일 한국 반도체 개장·코스피 하락장 판정과 이어짐",
+   "summary": "엔비디아 내부 조사 착수 뒤 한국 메모리 업체 영향 점검 기사. 세부 숫자는 원문 미확인."
+  },
+  {
    "title": "WSJ: 스페이스X, 텍사스·애리조나 데이터센터에 740억달러 넘게 투자 계획",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRHBDbl83ZEF3NVVUcjdrMG9mczZ2UGdtRWNpbWxiOVo3aHNodU03Z0RsRU8wSFZZZlBNQV83V09DOWVlendGdjliM0xvT0twMjhqbkIyZEZva21DZDhLOEtFQ3lha1NLM2J6Q01EWTNET3ZxNFlieWRHX29CRl9HVDByY05qLWNyU2NQcDhPcGxEeFlEUzFWM3hYVEtzRk9LbklfQ3JLaF9lYkZhenB3R3dB?oc=5",
    "press": "WSJ",
@@ -631,14 +639,6 @@
    "at": "2026-11-13 02:45",
    "why": "오후 들어 지수 플러스 전환이 꺾임 — 「대장주 단독」 vs 「현금 도피」 판정의 마감 증거",
    "summary": "엔비디아 장중 낙폭 회복 뒤 다시 하락, 지수 혼조. daily-app 02:14 NVDA −5.2%·SOXX −0.3%."
-  },
-  {
-   "title": "월가, 엔비디아 주가·유가 큰 출렁임 흡수하고 안정",
-   "url": "https://www.sooleader.com/michigan-news-ap/wall-street-steadies-after-absorbing-big-swings-for-nvidias-stock-and-oil-prices-13008049",
-   "press": "AP",
-   "at": "2026-11-13 01:45",
-   "why": "S&P 「정상」 판정 유지 근거 · 유가(brent_95 선) 출렁임 함께",
-   "summary": "엔비디아 급락·유가 급등락에도 미국 지수 안정 — 세부 숫자는 원문 확인(미확인)."
   }
  ],
  "at": "2026-11-15 22:45"
