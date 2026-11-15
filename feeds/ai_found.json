@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "이란, 바레인 美 공군기지 공격 주장 — 바레인 「여러 발 요격」, 몇 달 만의 전국 경보",
+   "url": "https://france24.com/en/middle-east/20261115-iran-claims-attack-on-us-military-airbase-in-bahrain",
+   "press": "France 24",
+   "at": "2026-11-15 22:45",
+   "why": "주말 「새 도발 없으면 이란 공격 중단 검토」(로이터) 전제가 흔들림 — 월요일 브렌트·장부 brent_95·에너지 칸·항공주",
+   "summary": "11/15 이란이 바레인 美 기지 공격을 발표, 바레인군은 공중 공격 여러 발을 목표 도달 전 요격(CNBC·France24) · 블룸버그 「이란, 美와 합의 길은 열려 있다」 반복 · 같은 날 이란 의회 「호르무즈 항로 연안국 2곳과 합의」(타스님)"
+  },
+  {
+   "title": "바레인, 몇 달 만에 첫 전국 경보 — 이란 「美 헬기 주둔 기지 공격」",
+   "url": "https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/",
+   "press": "The National",
+   "at": "2026-11-15 22:45",
+   "why": "걸프 확전 여부 — 유가 「협상 기대 vs 무산」 축, 💬 18번 유가 답의 첫 근거",
+   "summary": "바레인 전국 경보는 몇 달 만에 처음 · 美 헬기 주둔 기지 대상(이란 주장) · 피해 규모 미확인"
+  },
+  {
    "title": "마이크로소프트, 오라클 AI 클라우드 임대 계약(2023년) 정리 — 구형 엔비디아 칩 기반",
    "url": "https://thenextweb.com/news/microsoft-winds-down-oracle-ai-cloud-capacity-deal",
    "press": "The Next Web(블룸버그 보도 인용)",
@@ -623,23 +639,7 @@
    "at": "2026-11-13 00:45",
    "why": "NVDA 기술적 지지선 이탈 vs SOXX 상대 강세 — 「대장주 단독」 판정 근거",
    "summary": "금리 상승 속 엔비디아가 핵심 지지선 아래로, 달러는 혼조. 정규장에선 개장 −13%대 뒤 00:14 −6.9%(161.76, daily-app)로 낙폭 절반 회복."
-  },
-  {
-   "title": "젠슨 황 엔비디아 CEO 사임, 콜레트 크레스 임시 CEO — 라이브",
-   "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
-   "press": "CNBC",
-   "at": "2026-11-12 23:45",
-   "why": "반도체 칸·qa 3·9 flip 조건 — 대장주 단독 vs 현금 도피 판정의 출발점",
-   "summary": "황 CEO 즉시 사임(CEO·사장·이사직), 크레스 CFO 임시 CEO. 정규장 개장 직후 NVDA 155.78(−10.3%)·SOXX −2.2%(daily-app 23:34)."
-  },
-  {
-   "title": "AMD, 엔비디아 「리더십 공백」 수혜로 투자의견 상향(윌리엄블레어)",
-   "url": "https://www.cnbc.com/2026/11/12/amd-upgraded-because-it-will-benefit-from-nvidias-leadership-vacuum.html",
-   "press": "CNBC",
-   "at": "2026-11-12 23:45",
-   "why": "대장주 사건 때 2·3위로 돈이 가는지 — 「AI 안에서 갈린다」·ideas 21:45 검증 표본",
-   "summary": "윌리엄블레어가 AMD 상향, 엔비디아 경영 공백 기간 고객 이탈 수혜 기대. 장전 AMD·AVGO +2%대(트레이딩키 21:45)."
   }
  ],
- "at": "2026-11-15 11:40"
+ "at": "2026-11-15 22:45"
 }
