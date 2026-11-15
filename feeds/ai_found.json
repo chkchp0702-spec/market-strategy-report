@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "연준 슈미드, 매파 합창에 합류 — 「금리 방향은 인상」",
+   "url": "https://www.morningstar.com/news/dow-jones/2026111010580/feds-schmid-joins-hawkish-chorus-on-rate-direction",
+   "press": "모닝스타(다우존스)",
+   "at": "2026-11-16 04:45",
+   "why": "12/9 FOMC 분수령 가설 — 11/15 「할 일 남았다」 재확인으로 지역 연은 총재 매파 쪽 일주일째, 11/18 의사록 앞",
+   "summary": "슈미드 캔자스시티 연은 총재가 11/10 인상 쪽 목소리에 합류, 11/15 「물가를 끌어내리려면 할 일이 남았다」(블룸버그·CNBC 제목) 재확인."
+  },
+  {
    "title": "마이클 버리, 반도체 ETF 풋 25% 차익 실현 — 「여전히 매우 약세」",
    "url": "https://247wallst.com/investing/2026/11/06/michael-burry-sold-25-of-his-chip-puts-and-says-hes-still-very-bearish/",
    "press": "24/7 Wall St.",
@@ -631,22 +639,6 @@
    "at": "2026-11-13 02:45",
    "why": "엔 160 = 日 개입선 · 엔 캐리 되감기면 원/달러·아시아 반도체 흔들림 — 💬 17번 환율 답과 이어짐",
    "summary": "달러/엔 160 돌파 직후 개입 경계로 엔 반등. 일본은 앞서 하루 500억 달러 사상 최대 개입(WSJ 11/8 보도) 전례."
-  },
-  {
-   "title": "굴스비 「AI 데이터센터 붐은 옛날식 수요 과열」 — 인플레 위험 경고",
-   "url": "https://247wallst.com/investing/2026/11/10/feds-goolsbee-says-ai-data-centers-look-like-old-fashioned-overheating/",
-   "press": "24/7 Wall St.",
-   "at": "2026-11-13 02:45",
-   "why": "비둘기 쪽이던 굴스비까지 과열 경고 — 12/9 FOMC 인상 폭(0.25 vs 0.5) 가설과 10년 5% 압력에 직결",
-   "summary": "시카고 연은 굴스비: 서비스 물가 상승, AI 데이터센터 투자 = 수요 과열. 11/12 밤 「뜨거운 물가는 우연 아님」 추가 발언(피드)."
-  },
-  {
-   "title": "월가 혼조 — 엔비디아 다시 낙폭 키워",
-   "url": "https://bizneworleans.com/wall-street-is-mixed-as-nvidia-gets-back-to-falling/",
-   "press": "AP(Biz New Orleans)",
-   "at": "2026-11-13 02:45",
-   "why": "오후 들어 지수 플러스 전환이 꺾임 — 「대장주 단독」 vs 「현금 도피」 판정의 마감 증거",
-   "summary": "엔비디아 장중 낙폭 회복 뒤 다시 하락, 지수 혼조. daily-app 02:14 NVDA −5.2%·SOXX −0.3%."
   }
  ],
  "at": "2026-11-16 03:45"
