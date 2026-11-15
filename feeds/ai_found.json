@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "WSJ: 스페이스X, 텍사스·애리조나 데이터센터에 740억달러 넘게 투자 계획",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRHBDbl83ZEF3NVVUcjdrMG9mczZ2UGdtRWNpbWxiOVo3aHNodU03Z0RsRU8wSFZZZlBNQV83V09DOWVlendGdjliM0xvT0twMjhqbkIyZEZva21DZDhLOEtFQ3lha1NLM2J6Q01EWTNET3ZxNFlieWRHX29CRl9HVDByY05qLWNyU2NQcDhPcGxEeFlEUzFWM3hYVEtzRk9LbklfQ3JLaF9lYkZhenB3R3dB?oc=5",
+   "press": "WSJ",
+   "at": "2026-11-16 01:45",
+   "why": "황 퇴진·네비우스 하향 속에도 현금 많은 쪽 AI 설비는 커진다 — 「상류·전력이 빚으로 짓는 곳을 이긴다」 가설, 전력·냉각 칸",
+   "summary": "WSJ 11/15 제목 「스페이스X 텍사스·애리조나 데이터센터 740억달러↑」. 애리조나 코치스 카운티 6GW 캠퍼스는 11/10 지역 보도(KJZZ·Baxtel)로 확인, 740억 세부 내역은 원문 미확인."
+  },
+  {
    "title": "스쿠프: 베선트, 상황실서 러트닉과 충돌 — 메가스피드·엔비디아 칩 중국 우회 방치 놓고",
    "url": "https://axios.com/2026/11/11/bessent-lutnick-megaspeed-nvidia-china-chips",
    "press": "Axios",
@@ -631,14 +639,6 @@
    "at": "2026-11-13 01:45",
    "why": "S&P 「정상」 판정 유지 근거 · 유가(brent_95 선) 출렁임 함께",
    "summary": "엔비디아 급락·유가 급등락에도 미국 지수 안정 — 세부 숫자는 원문 확인(미확인)."
-  },
-  {
-   "title": "월가 하락 출발 전망 — 엔비디아 폭풍 지속, 美 국채 금리 5% 언저리",
-   "url": "https://www.kitco.com/news/off-the-wire/2026-11-12/wall-street-set-dip-nvidia-storm-continues-treasury-yields-bob-5",
-   "press": "Kitco(로이터 전재)",
-   "at": "2026-11-13 00:45",
-   "why": "🫧 신용 경보·「고금리 정점」 가설 — 10년 5% 문턱과 엔비디아 사건이 같은 날 겹침",
-   "summary": "11/12 美 개장 전 — 엔비디아 사태 지속에 지수 선물 약세, 10년 국채 금리가 5% 안팎에서 오르내림(세부 숫자 미확인)."
   }
  ],
  "at": "2026-11-15 22:45"
