@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "UBS, 브렌트 연말 110달러 전망 — 걸프 물량 전쟁 전 수준 회복 못 함",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/UBS-Sees-110-Brent-by-Year-End-as-Gulf-Flows-Stay-Below-Prewar-Levels.html",
+   "press": "OilPrice",
+   "at": "2026-11-16 07:45",
+   "why": "11/16 국내 재보도(인베스팅)는 10/27~28 UBS 상향의 재탕 — 새 전망 아님, 에너지 칸·brent_95 판단 때 「새 뉴스」로 세지 않기",
+   "summary": "UBS 10/27~28 브렌트 연말 전망 110달러로 상향(roic.ai 10/27·10/28 보도). 근거: 걸프 물량 전쟁 전 수준 미달·운임·공급 완충 부족. 브렌트 11/13 96.08(qa 18)."
+  },
+  {
    "title": "세레브라스 3분기 — 클라우드·서비스 매출 급증 뒤 주가 반응 엇갈림",
    "url": "https://parameter.io/cerebras-cbrs-stock-tumbles-12-even-as-cloud-and-services-revenue-jumps-281/",
    "press": "Parameter",
@@ -631,14 +639,6 @@
    "at": "2026-11-13 04:45",
    "why": "「대장주 단독 · 업종 갈아타기」 판정 근거 — 닷컴 3막·AI 안 갈림 가설",
    "summary": "11/12 오전 S&P −0.4%·나스닥 −0.6%, NVDA −6.1%·AVGO +5.3%·MU −4.9%·CRWV −9%, 브렌트 93.79(+1.1%), 10년 5.07%(화 4.98%)."
-  },
-  {
-   "title": "월가, 엔비디아 −13% 출발·유가 급등락 흡수하며 장 초반 낙폭 지워",
-   "url": "https://www.bnnbloomberg.ca/markets/2026/11/12/nvidia-shares-plunge-13-at-open-after-ceo-jensen-huang-resigns/",
-   "press": "BNN Bloomberg(AP)",
-   "at": "2026-11-13 03:36",
-   "why": "「대장주 단독 충격」 가설 — 지수는 NVDA 경영 공백을 흡수 중, 🟢 S&P 정상 판정 유지 근거",
-   "summary": "엔비디아 황 사임으로 개장 −13% → 지수는 초반 손실을 지움. 나스닥100도 NVDA −5%에도 플러스 전환(구글뉴스). 압력은 금리(10년 5% 위)."
   }
  ],
  "at": "2026-11-16 05:45"
