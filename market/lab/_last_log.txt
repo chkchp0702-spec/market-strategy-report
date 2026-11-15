@@ -1,58 +1,122 @@
-발표일 146 거래일 아님 []
-지금 0.84 {'cagr': np.float64(14.46), 'vol': np.float64(13.1), 'mdd': np.float64(-17.6), 'sharpe': np.float64(1.1), 'ex': np.float64(-0.34), 'win12': 43, 'beat_years': 5, 'years': 10, 'turn': 336}
-0.1 t SPY cash {'n': 146, 'avg_moved': 2.5} 0.85 14.52 -17.1 1.1 -0.27
-0.1 t SPY cashgld {'n': 146, 'avg_moved': 5.6} 0.85 14.4 -17.0 1.09 -0.4
-0.1 t QQQ cash {'n': 146, 'avg_moved': 2.5} 0.85 14.59 -16.7 1.11 -0.21
-0.1 t QQQ cashgld {'n': 146, 'avg_moved': 5.6} 0.85 14.52 -16.6 1.1 -0.28
-0.1 pre2 SPY cash {'n': 146, 'avg_moved': 2.8} 0.85 14.55 -17.1 1.1 -0.25
-0.1 pre2 SPY cashgld {'n': 146, 'avg_moved': 5.8} 0.85 14.45 -17.1 1.1 -0.35
-0.1 pre2 QQQ cash {'n': 146, 'avg_moved': 2.8} 0.85 14.64 -16.7 1.11 -0.16
-0.1 pre2 QQQ cashgld {'n': 146, 'avg_moved': 5.8} 0.85 14.58 -16.7 1.1 -0.22
-0.1 post SPY cash {'n': 146, 'avg_moved': 2.5} 0.84 14.39 -17.5 1.09 -0.41
-0.1 post SPY cashgld {'n': 146, 'avg_moved': 5.6} 0.84 14.26 -17.5 1.08 -0.54
-0.1 post QQQ cash {'n': 146, 'avg_moved': 2.5} 0.84 14.41 -17.5 1.09 -0.39
-0.1 post QQQ cashgld {'n': 146, 'avg_moved': 5.6} 0.85 14.35 -17.5 1.09 -0.45
-0.2 t SPY cash {'n': 146, 'avg_moved': 4.8} 0.87 14.6 -16.5 1.11 -0.2
-0.2 t SPY cashgld {'n': 146, 'avg_moved': 8.0} 0.86 14.48 -16.5 1.1 -0.32
-0.2 t QQQ cash {'n': 146, 'avg_moved': 4.8} 0.86 14.71 -15.9 1.11 -0.09
-0.2 t QQQ cashgld {'n': 146, 'avg_moved': 8.0} 0.86 14.64 -15.9 1.11 -0.16
-0.2 pre2 SPY cash {'n': 146, 'avg_moved': 5.0} 0.85 14.65 -16.6 1.11 -0.15
-0.2 pre2 SPY cashgld {'n': 146, 'avg_moved': 8.2} 0.85 14.55 -16.5 1.1 -0.24
-0.2 pre2 QQQ cash {'n': 146, 'avg_moved': 5.0} 0.85 14.8 -15.9 1.12 0.0
-0.2 pre2 QQQ cashgld {'n': 146, 'avg_moved': 8.2} 0.85 14.77 -15.9 1.11 -0.03
-0.2 post SPY cash {'n': 146, 'avg_moved': 4.8} 0.83 14.33 -17.8 1.08 -0.47
-0.2 post SPY cashgld {'n': 146, 'avg_moved': 8.0} 0.84 14.2 -17.7 1.07 -0.6
-0.2 post QQQ cash {'n': 146, 'avg_moved': 4.8} 0.84 14.33 -18.0 1.08 -0.47
-0.2 post QQQ cashgld {'n': 146, 'avg_moved': 8.0} 0.85 14.28 -18.1 1.08 -0.51
-0.3 t SPY cash {'n': 146, 'avg_moved': 6.6} 0.88 14.65 -16.0 1.11 -0.15
-0.3 t SPY cashgld {'n': 146, 'avg_moved': 10.0} 0.87 14.54 -15.9 1.1 -0.26
-0.3 t QQQ cash {'n': 146, 'avg_moved': 6.6} 0.87 14.8 -15.9 1.12 0.0
-0.3 t QQQ cashgld {'n': 146, 'avg_moved': 10.0} 0.87 14.74 -15.9 1.11 -0.06
-0.3 pre2 SPY cash {'n': 146, 'avg_moved': 6.8} 0.86 14.71 -16.1 1.11 -0.09
-0.3 pre2 SPY cashgld {'n': 146, 'avg_moved': 10.3} 0.85 14.63 -16.1 1.1 -0.17
-0.3 pre2 QQQ cash {'n': 146, 'avg_moved': 6.8} 0.86 14.89 -15.9 1.12 0.1
-0.3 pre2 QQQ cashgld {'n': 146, 'avg_moved': 10.3} 0.86 14.89 -15.9 1.11 0.09
-0.3 post SPY cash {'n': 146, 'avg_moved': 6.6} 0.83 14.25 -18.3 1.08 -0.55
-0.3 post SPY cashgld {'n': 146, 'avg_moved': 10.0} 0.83 14.14 -18.3 1.07 -0.66
-0.3 post QQQ cash {'n': 146, 'avg_moved': 6.6} 0.84 14.24 -18.7 1.07 -0.56
-0.3 post QQQ cashgld {'n': 146, 'avg_moved': 10.0} 0.84 14.2 -18.7 1.07 -0.59
-1.0 t SPY cash {'n': 146, 'avg_moved': 8.1} 0.89 14.7 -15.9 1.11 -0.09
-1.0 t SPY cashgld {'n': 146, 'avg_moved': 13.1} 0.89 14.62 -15.9 1.1 -0.18
-1.0 t QQQ cash {'n': 146, 'avg_moved': 8.1} 0.88 14.88 -15.9 1.12 0.08
-1.0 t QQQ cashgld {'n': 146, 'avg_moved': 13.1} 0.89 14.89 -15.9 1.11 0.09
-1.0 pre2 SPY cash {'n': 146, 'avg_moved': 8.4} 0.88 14.77 -15.9 1.11 -0.03
-1.0 pre2 SPY cashgld {'n': 146, 'avg_moved': 13.4} 0.86 14.68 -15.9 1.1 -0.12
-1.0 pre2 QQQ cash {'n': 146, 'avg_moved': 8.4} 0.88 14.99 -15.9 1.12 0.19
-1.0 pre2 QQQ cashgld {'n': 146, 'avg_moved': 13.4} 0.86 14.99 -15.9 1.11 0.2
-1.0 post SPY cash {'n': 146, 'avg_moved': 8.1} 0.83 14.15 -19.0 1.07 -0.65
-1.0 post SPY cashgld {'n': 146, 'avg_moved': 13.1} 0.81 13.98 -19.7 1.05 -0.82
-1.0 post QQQ cash {'n': 146, 'avg_moved': 8.1} 0.84 14.13 -19.6 1.06 -0.67
-1.0 post QQQ cashgld {'n': 146, 'avg_moved': 13.1} 0.83 14.04 -20.4 1.04 -0.76
-   크기 80% {'n': 146, 'avg_moved': 13.1} 14.62 -15.9 1.1 -0.18
-   크기 120% {'n': 146, 'avg_moved': 13.1} 14.62 -15.9 1.1 -0.18
-   자산 QQQ {'n': 146, 'avg_moved': 13.1} 14.89 -15.9 1.11 0.09
-   비용 0.2% {'n': 146, 'avg_moved': 13.1} 14.39 -16.4 1.09 -0.41
-   가짜 날짜 -10거래일 {'n': 146, 'avg_moved': 14.2} 14.49 -17.5 1.1 -0.31
-   가짜 날짜 +10거래일 {'n': 146, 'avg_moved': 14.4} 14.18 -19.6 1.07 -0.62
-이벤트 {"t": {"is_SPY": {"n": 68, "avg_bp": 43.0, "win": 60.3, "t": 2.72}, "is_QQQ": {"n": 68, "avg_bp": 44.0, "win": 61.8, "t": 2.77}, "oos_SPY": {"n": 78, "avg_bp": 3.8, "win": 46.2, "t": 0.3}, "oos_QQQ": {"n": 78, "avg_bp": 23.1, "win": 57.7, "t": 1.35}, "is_allday_SPY_bp": 4.3, "oos_allday_SPY_bp": 5.2}, "pre2": {"is_SPY": {"n": 68, "avg_bp": 49.8, "win": 63.2, "t": 2.06}, "is_QQQ": {"n": 68, "avg_bp": 54.9, "win": 66.2, "t": 2.31}, "oos_SPY": {"n": 78, "avg_bp": 12.1, "win": 55.1, "t": 0.72}, "oos_QQQ": {"n": 78, "avg_bp": 34.2, "win": 57.7, "t": 1.5}, "is_allday_SPY_bp": 8.7, "oos_allday_SPY_bp": 10.5}, "post": {"is_SPY": {"n": 68, "avg_bp": 16.6, "win": 58.8, "t": 0.73}, "is_QQQ": {"n": 68, "avg_bp": 23.9, "win": 57.4, "t": 0.96}, "oos_SPY": {"n": 78, "avg_bp": -8.4, "win": 51.3, "t": -0.45}, "oos_QQQ": {"n": 78, "avg_bp": 11.3, "win": 55.1, "t": 0.46}, "is_allday_SPY_bp": 8.7, "oos_allday_SPY_bp": 10.5}}
-고른 1.0 t SPY cashgld 0.89 {'cagr': np.float64(14.62), 'vol': np.float64(13.2), 'mdd': np.float64(-15.9), 'sharpe': np.float64(1.1), 'ex': np.float64(-0.18), 'win12': 42, 'beat_years': 5, 'years': 10, 'turn': 538} ➖ 애매 {'beat': False, 'mdd': True, 'sharpe': False} False
+무리 크기 {'E': 24, 'S': 102}
+E 지금 0.001 {'cagr': np.float64(14.46), 'vol': np.float64(13.1), 'mdd': np.float64(-17.6), 'sharpe': np.float64(1.1), 'ex': np.float64(-0.34), 'win12': 43, 'beat_years': 5, 'years': 10, 'turn': 336}
+E 지금 0.002 {'cagr': np.float64(14.08), 'vol': np.float64(13.1), 'mdd': np.float64(-18.0), 'sharpe': np.float64(1.07), 'ex': np.float64(-0.72), 'win12': 40, 'beat_years': 5, 'years': 10, 'turn': 336}
+E 지금 0.003 {'cagr': np.float64(13.69), 'vol': np.float64(13.1), 'mdd': np.float64(-18.3), 'sharpe': np.float64(1.05), 'ex': np.float64(-1.11), 'win12': 38, 'beat_years': 5, 'years': 10, 'turn': 336}
+E None both 0.15 True 0.82 14.08 -18.0 1.07 336
+E None both 0.15 False 0.84 13.95 -19.1 1.06 272
+E None both None True 0.81 14.77 -22.5 1.02 154
+E None both None False 0.86 14.88 -22.1 1.03 154
+E 0.05 replace 0.15 True 0.77 12.53 -18.6 0.99 436
+E 0.05 replace 0.15 False 0.76 12.6 -18.5 1.0 344
+E 0.05 replace None True 0.78 12.46 -19.4 0.98 399
+E 0.05 replace None False 0.75 12.89 -19.3 1.02 314
+E 0.05 both 0.15 True 0.77 12.53 -18.6 0.99 436
+E 0.05 both 0.15 False 0.76 12.6 -18.5 1.0 344
+E 0.05 both None True 0.78 12.46 -19.4 0.98 399
+E 0.05 both None False 0.75 12.89 -19.3 1.02 314
+E 0.08 replace 0.15 True 0.8 13.43 -18.4 1.04 363
+E 0.08 replace 0.15 False 0.81 13.4 -19.0 1.04 279
+E 0.08 replace None True 0.8 13.19 -18.0 1.02 315
+E 0.08 replace None False 0.83 13.57 -18.1 1.04 242
+E 0.08 both 0.15 True 0.79 13.06 -18.4 1.02 380
+E 0.08 both 0.15 False 0.8 13.07 -18.7 1.02 290
+E 0.08 both None True 0.8 13.02 -18.0 1.01 315
+E 0.08 both None False 0.81 13.45 -17.4 1.04 248
+E 0.1 replace 0.15 True 0.81 13.85 -18.2 1.06 342
+E 0.1 replace 0.15 False 0.85 14.33 -17.9 1.08 263
+E 0.1 replace None True 0.83 13.76 -17.3 1.05 264
+E 0.1 replace None False 0.83 13.89 -18.6 1.06 213
+E 0.1 both 0.15 True 0.83 13.45 -17.5 1.04 359
+E 0.1 both 0.15 False 0.85 13.96 -18.2 1.07 273
+E 0.1 both None True 0.83 13.33 -18.0 1.02 272
+E 0.1 both None False 0.84 13.94 -17.8 1.07 217
+E 0.12 replace 0.15 True 0.81 14.14 -17.9 1.07 324
+E 0.12 replace 0.15 False 0.83 14.04 -19.3 1.06 248
+E 0.12 replace None True 0.81 13.74 -19.0 1.03 234
+E 0.12 replace None False 0.82 13.88 -19.0 1.04 196
+E 0.12 both 0.15 True 0.83 13.81 -19.0 1.06 337
+E 0.12 both 0.15 False 0.82 14.2 -18.8 1.08 272
+E 0.12 both None True 0.82 13.66 -18.9 1.03 245
+E 0.12 both None False 0.83 13.87 -19.0 1.04 209
+E 0.15 replace 0.15 True 0.81 14.08 -17.5 1.05 298
+E 0.15 replace 0.15 False 0.84 13.94 -18.5 1.04 231
+E 0.15 replace None True 0.81 13.53 -18.7 0.98 216
+E 0.15 replace None False 0.81 13.97 -18.7 1.03 186
+E 0.15 both 0.15 True 0.82 14.06 -18.0 1.07 337
+E 0.15 both 0.15 False 0.84 13.98 -19.0 1.06 272
+E 0.15 both None True 0.8 13.43 -18.9 0.98 226
+E 0.15 both None False 0.83 13.64 -18.6 1.0 200
+E 0.2 replace 0.15 True 0.8 14.34 -17.4 1.06 290
+E 0.2 replace 0.15 False 0.82 14.57 -17.7 1.07 218
+E 0.2 replace None True 0.82 14.14 -19.3 1.02 180
+E 0.2 replace None False 0.83 14.17 -19.5 1.02 171
+E 0.2 both 0.15 True 0.82 14.08 -18.0 1.07 336
+E 0.2 both 0.15 False 0.84 13.95 -19.1 1.06 272
+E 0.2 both None True 0.8 14.12 -18.9 1.03 184
+E 0.2 both None False 0.86 14.28 -19.1 1.05 175
+E 고른 None both None False 0.86 {'cagr': np.float64(14.88), 'vol': np.float64(14.5), 'mdd': np.float64(-22.1), 'sharpe': np.float64(1.03), 'ex': np.float64(0.08), 'win12': 46, 'beat_years': 4, 'years': 10, 'turn': 154} ➖ 애매 {'beat': False, 'mdd': True, 'sharpe': False} False
+  흔들기 익절 +15% 13.95 -19.1 1.06 -0.85
+  흔들기 정체 정리 있음 14.77 -22.5 1.02 -0.03
+  비용 0.001 {'cagr': np.float64(15.06), 'vol': np.float64(14.5), 'mdd': np.float64(-21.9), 'sharpe': np.float64(1.04), 'ex': np.float64(0.26), 'win12': 49, 'beat_years': 4, 'years': 10, 'turn': 154} {'beat': False, 'mdd': True, 'sharpe': False}
+  비용 0.003 {'cagr': np.float64(14.7), 'vol': np.float64(14.5), 'mdd': np.float64(-22.3), 'sharpe': np.float64(1.02), 'ex': np.float64(-0.1), 'win12': 44, 'beat_years': 4, 'years': 10, 'turn': 154} {'beat': False, 'mdd': True, 'sharpe': False}
+S 지금 0.001 {'cagr': np.float64(14.44), 'vol': np.float64(13.7), 'mdd': np.float64(-20.8), 'sharpe': np.float64(1.06), 'ex': np.float64(-0.36), 'win12': 47, 'beat_years': 4, 'years': 10, 'turn': 434}
+S 지금 0.002 {'cagr': np.float64(13.94), 'vol': np.float64(13.7), 'mdd': np.float64(-21.2), 'sharpe': np.float64(1.02), 'ex': np.float64(-0.86), 'win12': 44, 'beat_years': 3, 'years': 10, 'turn': 434}
+S 지금 0.003 {'cagr': np.float64(13.44), 'vol': np.float64(13.7), 'mdd': np.float64(-21.5), 'sharpe': np.float64(0.99), 'ex': np.float64(-1.36), 'win12': 40, 'beat_years': 3, 'years': 10, 'turn': 433}
+S None both 0.15 True 0.83 13.94 -21.2 1.02 434
+S None both 0.15 False 0.82 13.24 -21.7 1.0 368
+S None both None True 0.95 14.75 -20.9 1.06 154
+S None both None False 0.95 14.75 -20.9 1.06 154
+S 0.05 replace 0.15 True 0.8 12.7 -18.7 0.96 597
+S 0.05 replace 0.15 False 0.82 12.81 -18.9 0.98 533
+S 0.05 replace None True 0.76 12.22 -18.5 0.93 541
+S 0.05 replace None False 0.79 12.92 -18.1 0.98 471
+S 0.05 both 0.15 True 0.8 12.7 -18.7 0.96 597
+S 0.05 both 0.15 False 0.82 12.81 -18.9 0.98 533
+S 0.05 both None True 0.76 12.22 -18.5 0.93 541
+S 0.05 both None False 0.79 12.92 -18.1 0.98 471
+S 0.08 replace 0.15 True 0.74 12.64 -19.7 0.94 489
+S 0.08 replace 0.15 False 0.84 13.16 -20.6 0.98 392
+S 0.08 replace None True 0.81 13.63 -20.5 1.01 391
+S 0.08 replace None False 0.86 13.13 -20.8 0.99 331
+S 0.08 both 0.15 True 0.75 13.33 -20.3 1.0 503
+S 0.08 both 0.15 False 0.85 13.4 -21.2 1.02 430
+S 0.08 both None True 0.79 14.41 -19.9 1.07 387
+S 0.08 both None False 0.87 14.24 -20.3 1.07 349
+S 0.1 replace 0.15 True 0.88 13.41 -21.2 0.99 439
+S 0.1 replace 0.15 False 0.85 14.48 -21.3 1.07 341
+S 0.1 replace None True 0.83 14.3 -21.2 1.04 321
+S 0.1 replace None False 0.85 14.44 -20.9 1.07 259
+S 0.1 both 0.15 True 0.87 13.68 -21.0 1.01 469
+S 0.1 both 0.15 False 0.83 13.63 -22.7 1.02 401
+S 0.1 both None True 0.81 14.47 -21.9 1.07 327
+S 0.1 both None False 0.86 14.1 -22.0 1.06 292
+S 0.12 replace 0.15 True 0.86 14.24 -22.7 1.04 413
+S 0.12 replace 0.15 False 0.87 14.91 -20.1 1.09 311
+S 0.12 replace None True 0.84 13.75 -21.9 1.01 274
+S 0.12 replace None False 0.85 14.27 -20.2 1.08 216
+S 0.12 both 0.15 True 0.86 13.45 -21.6 0.99 440
+S 0.12 both 0.15 False 0.83 13.39 -20.3 1.0 381
+S 0.12 both None True 0.84 13.36 -21.9 1.0 290
+S 0.12 both None False 0.88 14.12 -21.9 1.04 256
+S 0.15 replace 0.15 True 0.93 14.07 -19.9 1.03 376
+S 0.15 replace 0.15 False 0.9 14.54 -19.6 1.07 278
+S 0.15 replace None True 0.92 13.83 -20.8 1.03 230
+S 0.15 replace None False 0.88 13.74 -20.0 1.05 202
+S 0.15 both 0.15 True 0.82 14.06 -21.2 1.03 438
+S 0.15 both 0.15 False 0.83 14.51 -22.3 1.09 360
+S 0.15 both None True 0.89 13.64 -19.9 1.02 250
+S 0.15 both None False 0.9 13.86 -21.1 1.04 233
+S 0.2 replace 0.15 True 0.9 15.04 -18.8 1.09 342
+S 0.2 replace 0.15 False 0.89 16.95 -19.0 1.21 265
+S 0.2 replace None True 0.89 14.34 -21.3 1.03 200
+S 0.2 replace None False 0.92 13.95 -21.2 1.05 182
+S 0.2 both 0.15 True 0.83 13.94 -21.2 1.02 434
+S 0.2 both 0.15 False 0.82 13.24 -21.7 1.0 368
+S 0.2 both None True 0.88 13.62 -22.1 1.0 219
+S 0.2 both None False 0.89 13.62 -21.9 1.01 209
+S 고른 None both None True 0.95 {'cagr': np.float64(14.75), 'vol': np.float64(14.0), 'mdd': np.float64(-20.9), 'sharpe': np.float64(1.06), 'ex': np.float64(-0.05), 'win12': 54, 'beat_years': 6, 'years': 10, 'turn': 154} ➖ 애매 {'beat': False, 'mdd': True, 'sharpe': True} False
+  흔들기 익절 +15% 13.94 -21.2 1.02 -0.86
+  흔들기 정체 정리 없음 14.75 -20.9 1.06 -0.05
+  비용 0.001 {'cagr': np.float64(14.93), 'vol': np.float64(14.0), 'mdd': np.float64(-20.8), 'sharpe': np.float64(1.07), 'ex': np.float64(0.13), 'win12': 55, 'beat_years': 6, 'years': 10, 'turn': 154} {'beat': False, 'mdd': True, 'sharpe': True}
+  비용 0.003 {'cagr': np.float64(14.56), 'vol': np.float64(14.0), 'mdd': np.float64(-20.9), 'sharpe': np.float64(1.05), 'ex': np.float64(-0.23), 'win12': 52, 'beat_years': 6, 'years': 10, 'turn': 154} {'beat': False, 'mdd': True, 'sharpe': True}
+SPY {'cagr': np.float64(14.8), 'vol': np.float64(18.1), 'mdd': np.float64(-33.7), 'sharpe': np.float64(0.85), 'ex': np.float64(0.0), 'win12': 0, 'beat_years': 0, 'years': 10} 종합 ➖ 애매
