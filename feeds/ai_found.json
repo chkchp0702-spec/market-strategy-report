@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "스쿠프: 베선트, 상황실서 러트닉과 충돌 — 메가스피드·엔비디아 칩 중국 우회 방치 놓고",
+   "url": "https://axios.com/2026/11/11/bessent-lutnick-megaspeed-nvidia-china-chips",
+   "press": "Axios",
+   "at": "2026-11-16 00:45",
+   "why": "11/15 밤 베선트 「엔비디아 극적 쇄신 필요」(블룸버그 제목)의 배경 — 실적(11/17) 앞 정부의 수출 규제·지배구조 압박, 반도체 칸·AI 차입 가설",
+   "summary": "베선트 재무장관이 상황실 회의에서 러트닉 상무장관에게 메가스피드 등을 통한 엔비디아 칩 중국 우회 반입 대응 부족을 따짐(11/11 보도). 주말 블룸버그 「베선트, 황 퇴진 뒤 엔비디아 극적 쇄신 필요」 — 세부 숫자 미확인."
+  },
+  {
    "title": "BofA 하트넷: 강달러가 글로벌 유동성 충격 — 위험자산 진입은 내년 봄으로 연기",
    "url": "https://wallstreetcn.com/articles/3785968",
    "press": "월스트리트CN(BofA Flow Show 요약)",
@@ -631,22 +639,6 @@
    "at": "2026-11-13 00:45",
    "why": "🫧 신용 경보·「고금리 정점」 가설 — 10년 5% 문턱과 엔비디아 사건이 같은 날 겹침",
    "summary": "11/12 美 개장 전 — 엔비디아 사태 지속에 지수 선물 약세, 10년 국채 금리가 5% 안팎에서 오르내림(세부 숫자 미확인)."
-  },
-  {
-   "title": "트럼프 「이란 합의 필요 없다」 뒤 美 10년 금리 5% 돌파·유가 상승",
-   "url": "https://mlq.ai/news/10-year-treasury-yield-tops-5-and-oil-rises-after-trump-says-the-us-doesnt-need-an-iran-deal/",
-   "press": "MLQ.ai",
-   "at": "2026-11-13 00:45",
-   "why": "열린 XLE 내림 bet·🛢️ 브렌트 95 조건·美 10년 5% 관찰과 바로 이어짐",
-   "summary": "트럼프 발언 뒤 유가 반등과 함께 10년물이 5%를 넘음 — 금리·유가 동반 상승은 인상 기대를 키우는 조합(정확한 수치 미확인)."
-  },
-  {
-   "title": "모닝 킥스타트: 금리 상승·엔비디아 핵심 지지선 이탈",
-   "url": "https://investinglive.com/technical-analysis/morning-kickstart-yields-climb-as-nvidia-slides-below-key-support-usd-mixed/",
-   "press": "investingLive",
-   "at": "2026-11-13 00:45",
-   "why": "NVDA 기술적 지지선 이탈 vs SOXX 상대 강세 — 「대장주 단독」 판정 근거",
-   "summary": "금리 상승 속 엔비디아가 핵심 지지선 아래로, 달러는 혼조. 정규장에선 개장 −13%대 뒤 00:14 −6.9%(161.76, daily-app)로 낙폭 절반 회복."
   }
  ],
  "at": "2026-11-15 22:45"

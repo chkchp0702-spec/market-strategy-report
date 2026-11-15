@@ -1,16 +1,11 @@
 {
- "at": "2026-11-15 23:45",
+ "at": "2026-11-16 00:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "kwusa/61751": {
    "lv": 1,
    "why": "🧠 「AI 차입」·「AI 안에서도 갈린다」 — 소프트뱅크 발전설비 조달 조정 37억$ 비용 = AI 인프라 지출 축소 첫 숫자 · GEV 장중 −10% · 전력 칸",
    "at": "2026-11-11 07:45"
-  },
-  "n/wwwcnbccom20261111nvidiajensenhuangaifinancialsystemriskhtml": {
-   "lv": 1,
-   "why": "엔비디아 중심 AI 금융 고리(투자·외상) 점검 — 「AI 차입이 다음 약한 고리」 가설 근거",
-   "at": "2026-11-12 03:45"
   },
   "egzion/6465": {
    "lv": 1,
@@ -26,11 +21,6 @@
    "lv": 1,
    "why": "美 국채 「해방의 날」 이후 최악의 주간 — 「고금리 정점」·「12/9 2018 경로」 가설과 💬 채권 답 직결",
    "at": "2026-11-13 21:45"
-  },
-  "n/tenrareearthsexportsifusescalateschipcurbsovernvidiaanalysts": {
-   "lv": 1,
-   "why": "美 의회 칩 규제 → 中 희토류 보복 가능성 — 「AI 안에서도 갈린다」 가설·반도체 칸 위험",
-   "at": "2026-11-13 22:45"
   },
   "n/httpswwwcnbccom20261112stockmarkettodayliveupdateshtml": {
    "lv": 1,
@@ -87,10 +77,15 @@
    "why": "BofA 하트넷 「강달러가 유동성 충격 — 진입 조건 3개 모두 미충족, 달러 정점 2~3월·금리 인상 끝 4월 FOMC로 연기」 — 원/달러 watch·🐻 코스피 다시 사기 시점·💬 16번",
    "at": "2026-11-15 23:45"
   },
-  "n/WRwMDgyNDRNdERNbnRnZ2luY1JQSEJ2SUdWS1JEZFFoVVFldmVXWFRHMAoc5": {
+  "n/0261115bessentsaysnvidianeedsdramaticshakeupafterhuangouster": {
    "lv": 1,
-   "why": "네비우스 전망 하향·AI 건설 자금 조달 걱정 해명(WSJ) — 🧠 「AI 차입이 약한 고리」(0.9)·「빚으로 짓는 쪽이 진다」(0.6) 네오클라우드 직격",
-   "at": "2026-11-15 23:45"
+   "why": "베선트 재무장관 「엔비디아 극적 쇄신 필요」 — 11/17 실적 앞 정부 압박, 반도체 칸·AI 차입 가설",
+   "at": "2026-11-16 00:45"
+  },
+  "n/FyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzkoc5": {
+   "lv": 1,
+   "why": "바레인 공격 직후 리야드·동부주 미사일·드론 요격 — 월요일 브렌트 갭 위험, brent_95·에너지 칸",
+   "at": "2026-11-16 00:45"
   }
  }
 }
