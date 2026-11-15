@@ -1,5 +1,5 @@
 {
- "fetched_kst": "2026-11-15 06:26",
+ "fetched_kst": "2026-11-15 09:59",
  "items": {
   "sp500": {
    "value": 7561.67,
@@ -79,14 +79,14 @@
    "name": "미 2년 금리(선물)"
   },
   "usdkrw": {
-   "value": 1335.0,
-   "prev": 1335.0,
-   "change": 0.0,
-   "change_pct": 0.0,
-   "asof_utc": "2026-11-13T16:59:00.000-0500",
-   "asof_kst": "4:59 PM EST",
-   "market_state": "REG_MKT",
-   "src": "CNBC KRW=",
+   "value": 1336.2,
+   "prev": 1333.8,
+   "change": 2.4,
+   "change_pct": 0.18,
+   "asof_utc": "2026-11-14T03:30:48+00:00",
+   "asof_kst": "11/14 12:30",
+   "market_state": null,
+   "src": "Yahoo Finance KRW=X",
    "name": "달러/원"
   },
   "dxy": {
@@ -257,7 +257,6 @@
   "yahoo ^TNX": "HTTP Error 429: Too Many Requests",
   "yahoo ^TYX": "HTTP Error 429: Too Many Requests",
   "yahoo 2YY=F": "HTTP Error 429: Too Many Requests",
-  "yahoo KRW=X": "HTTP Error 429: Too Many Requests",
   "yahoo DX-Y.NYB": "HTTP Error 429: Too Many Requests",
   "yahoo CL=F": "HTTP Error 429: Too Many Requests",
   "yahoo BZ=F": "HTTP Error 429: Too Many Requests",
