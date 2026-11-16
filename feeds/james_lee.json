@@ -1,7 +1,15 @@
 {
- "fetched_kst": "2026-11-16 11:55",
- "new_since_last": [],
+ "fetched_kst": "2026-11-16 12:58",
+ "new_since_last": [
+  "https://blog.naver.com/james_lee_advisors/224478939614?fromRss=true&trackingCode=rss"
+ ],
  "posts": [
+  {
+   "title": "11월 16일의 기업분석 Letter - 기가비스 (420770)",
+   "link": "https://blog.naver.com/james_lee_advisors/224478939614?fromRss=true&trackingCode=rss",
+   "pubDate": "Mon, 16 Nov 2026 12:13:44 +0900",
+   "summary": "동사는 반도체 기판에서 미세한 불량을 찾아내고, 수리할 수 있는 불량은 고쳐주는 장비회사입니다. 주력 시장은 FC-BGA라는 고성능 패키지 기판인데 이 기판에는 매우 가는 금속 회로가 여러 층으로 들어가기 때문에 정밀한 검사와 수리가 필요합니다. 동사의 실적은 단순히 반도체 생산량 Q 증가와도 관련이 있지만 기판의 대면적화, 다층화, 미세화도 장비 수요와 고사양 제품 비중을 높이는 요인으로 작용합니다. 지금은 고객사들이 CAPA 증설에 나서고 있으면서 생산하는 제품의 난이도도 높아지고 있어 여러모로 동사에게 유리한 국면입니다. 최근 이비덴, 신코, 유니마이크론, 삼성전기 등 글로벌 8개 이상의 기판사들이 동시다발적으로 증......."
+  },
   {
    "title": "11월 13일의 거시경제 Letter",
    "link": "https://blog.naver.com/james_lee_advisors/224475831452?fromRss=true&trackingCode=rss",
@@ -295,12 +303,6 @@
    "link": "https://blog.naver.com/james_lee_advisors/224408575980?fromRss=true&trackingCode=rss",
    "pubDate": "Fri, 11 Sep 2026 18:28:58 +0900",
    "summary": "DeepSeek V4.1 Flash 뉴스가 시장에 좀 충격을 줬습니다. 딥시크는 등장할 때마다 놀라움을 주는데 이번에도 성능과 비용, 속도에서 상당히 우위를 보인 모델을 선보였고, 에이전트 업무에서 프론티어 모델 수준까지 올라왔다는 평가입니다. 문제는 장기 컨텍스트를 사용하는 AI 에이전트 구동 비용을 낮추기 위한 AI모델의 구조 변화가 있었는데, 이 부분에서 결과적으로 Global KV 캐시는 V4 Flash 대비 1/4로 축소됐고, SSD와 호스트 메모리에 보관되는 Persistent KV 캐시는 1/8로 줄었다는 부분입니다. 이를 시장에서 \"HBM 수요 1/4, SSD 수요 1/8로 감소\"로 해석하면서 조금 우려가 과장된 부분이 있었습니다. 하지만 이는 “AI ......."
-  },
-  {
-   "title": "9월 11일의 기업분석 Letter - 크라우드 스트라이크 (CRWD US)",
-   "link": "https://blog.naver.com/james_lee_advisors/224408377462?fromRss=true&trackingCode=rss",
-   "pubDate": "Fri, 11 Sep 2026 15:29:10 +0900",
-   "summary": "에이전틱 AI 가 확산되면서 같이 부각받고 있는, 글로벌 1위 클라우드 사이버보안 솔루션 기업인 크라우드 스트라이크입니다. 동사는 최근 실적발표를 통해 시장에서 제기되었던 '미토스 프리뷰 공개' 이후의 AI 사이버보안 수요 확대가 단순한 기대감이 아니며 실제 숫자로 확인되고 있음을 입증했습니다. 순신규 ARR이 전년 동기 대비 50% 가량 급증하며 시장 컨센서스를 크게 뛰어넘었는데, 이는 AI 에이전트 확산에 따른 새로운 솔루션인 AIDR의 폭발적 성장과 플랫폼 통합과 고객 지출 확대를 촉진하는 Falcon Flex 라이선스 모델의 정착 덕분입니다. 동사는 쉽게 말하면 기업용 보안 운영체제를 파는 업체입니다. '누가 무......."
   }
  ]
 }
