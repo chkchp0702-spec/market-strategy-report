@@ -13,8 +13,8 @@ jobs:
         run: |
           python - <<'P'
           import yfinance as yf, json
-          dates=["2017-07-03","2017-10-02","2018-01-02","2018-04-02","2021-10-01","2022-01-03","2022-04-01","2022-07-01","2023-04-03","2023-07-03","2023-10-02","2024-01-02","2024-04-01","2024-07-01","2024-10-01","2025-01-02","2025-04-01","2025-07-01","2025-10-01","2026-01-02","2026-04-01","2026-07-01"]
-          df=yf.download("TXN",start="2017-06-01",end="2026-11-17",auto_adjust=False,actions=False,progress=False)
+          dates=["2019-01-31","2020-01-31","2021-02-01","2022-01-31","2023-01-31","2024-01-31","2025-01-31","2026-01-13","2026-01-30","2026-05-20"]
+          df=yf.download("TXN",start="2019-01-01",end="2026-11-17",auto_adjust=False,actions=False,progress=False)
           df.columns=[c[0] if isinstance(c,tuple) else c for c in df.columns]
           out={"rows":{},"last":None,"series":[]}
           for d in dates:
