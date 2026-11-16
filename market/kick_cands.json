@@ -6851,6 +6851,78 @@
 "src": "cup",
 "score": 77.3,
 "lv": 13.67
+},
+"STN|2026-11-14|e": {
+"code": "STN",
+"name": "Stantec Inc Common Stock",
+"mkt": "US",
+"d": "2026-11-14",
+"src": "earn",
+"score": 82.0,
+"lv": 79.63
+},
+"DCTH|2026-11-14|e": {
+"code": "DCTH",
+"name": "Delcath Systems, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-11-14",
+"src": "earn",
+"score": 65.8,
+"lv": 17.42
+},
+"CPAY|2026-11-14|e": {
+"code": "CPAY",
+"name": "Corpay, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-14",
+"src": "earn",
+"score": 65.4,
+"lv": 427.46
+},
+"TREE|2026-11-14|e": {
+"code": "TREE",
+"name": "LendingTree, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-11-14",
+"src": "earn",
+"score": 55.2,
+"lv": 29.14
+},
+"SPT|2026-11-15|e": {
+"code": "SPT",
+"name": "Sprout Social, Inc - Class A Common St",
+"mkt": "US",
+"d": "2026-11-15",
+"src": "earn",
+"score": 67.8,
+"lv": 9.12
+},
+"DXCM|2026-11-15|e": {
+"code": "DXCM",
+"name": "DexCom, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-11-15",
+"src": "earn",
+"score": 62.4,
+"lv": 79.15
+},
+"HGTY|2026-11-15|e": {
+"code": "HGTY",
+"name": "Hagerty, Inc. Class A Common Stock",
+"mkt": "US",
+"d": "2026-11-15",
+"src": "earn",
+"score": 60.6,
+"lv": 12.57
+},
+"THC|2026-11-15|e": {
+"code": "THC",
+"name": "Tenet Healthcare Corporation Common St",
+"mkt": "US",
+"d": "2026-11-15",
+"src": "earn",
+"score": 49.8,
+"lv": 210.41
 }
 },
 "sent": [
