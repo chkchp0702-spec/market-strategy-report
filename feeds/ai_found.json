@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "엔비디아 GPU 단속, 중국 연계 동남아 데이터센터 직격",
+   "url": "https://www.pulse.bot/hardware/news/nvidia-gpu-crackdown-hits-china-linked-southeast-asia-data-centers-573966ec-05af-48e5-bbce-dd33d7ac4808/",
+   "press": "Pulse",
+   "at": "2026-11-17 08:50",
+   "why": "반도체 칸·SOXX — 美 상무부가 싱가포르·말레이시아·태국·인니·브라질 DC 칩 구매를 사안별 허가제로(블룸버그 11/17) = 엔비디아 실적 직전 판매 경로 축소",
+   "summary": "블룸버그: 원격접속 우회 차단, 재무부·NSC 지시 규정. 이 기사 날짜·숫자는 미확인 — 블룸버그 요약으로 확인."
+  },
+  {
    "title": "HSBC, 문제 생긴 뉴멕시코 데이터센터 대출 약 3억 달러를 큰 할인에 매각",
    "url": "https://www.bloomberg.com/news/articles/2026-11-16/hsbc-sold-300-million-troubled-data-center-loan-at-discount",
    "press": "Bloomberg",
@@ -631,14 +639,6 @@
    "at": "2026-11-14 10:45",
    "why": "「12/9 FOMC 2018년식 분수령」 가설·💬 7번 0.5%p 질문 — 인상 폭 논쟁의 하한선",
    "summary": "월러 이사가 12월 「최소 0.25%p」 인상을 지지한다고 밝힘. 골드만 브룩스는 「0.5%p는 하지 말아야」로 반대쪽. 시장은 12월 인상은 기정사실, 폭·1월 추가가 쟁점."
-  },
-  {
-   "title": "헤드헌터가 엔비디아 차기 CEO 물색 중(디인포메이션)",
-   "url": "https://www.thestandard.com.hk/finance/article/348055/Headhunters-may-be-hunting-for-Nvidias-next-successor-The-Information-reports",
-   "press": "더스탠더드(디인포메이션 인용)",
-   "at": "2026-11-14 10:45",
-   "why": "「AI 안에서도 갈린다」·11/17 엔비디아 실적 — 후임 공백이 길면 SOXX·하이닉스 변동성 연장",
-   "summary": "디인포메이션 「엔비디아 이사회가 외부 헤드헌터로 후임 물색」 보도. 일본 매체는 Arm 하스 CEO 접촉설(미확인). 크레스 임시 CEO 체제로 11/17 첫 실적."
   }
  ],
  "at": "2026-11-17 07:45"
