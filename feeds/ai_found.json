@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "모건스탠리, 일본 주식 비중확대로 상향 — TOPIX 22% 상승 여력",
+   "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-upgrades-japan-equities-to-overweight-sees-22-topix-upside-5028635",
+   "press": "Investing.com",
+   "at": "2026-11-16 17:40",
+   "why": "일본 닮은 장 칸(지금 0%·바닥 신호마다 1/3) — 닛케이 6만 엔 하회 날 나온 IB 역발상, 우리 규칙은 신호 전까지 대기",
+   "summary": "모건스탠리가 같은 날 글로벌 주식도 「최대 비중확대」로 전환. 닛케이는 11/16 −2.42%로 1주 만에 6만 엔 하회(닛케이)."
+  },
+  {
+   "title": "트럼프, 엔비디아·아마존·MS 등 AI 기업 「국가 대표 기업」 지위 검토(보도)",
+   "url": "https://seekingalpha.com/news/4672834-trump-eyes-national-champion-status-for-nvidia-amazon-microsoft-and-other-ai-firms---report",
+   "press": "Seeking Alpha",
+   "at": "2026-11-16 17:40",
+   "why": "11/17 엔비디아 실적·CEO 공백 앞 정책 지지 재료 — 반도체 칸 7%·SOXX 대결, 「AI 차입」 가설과 반대 방향 숫자",
+   "summary": "세부 내용은 미확인(제목 기준). 같은 날 「엔비디아 AI 연산 점유율 83%→39%」(서울경제) 보도로 경쟁 심화도 함께."
+  },
+  {
    "title": "WSJ: 앤트로픽, 기술주 매도에도 다음 주 나스닥 상장 추진(티커 ANT)",
    "url": "https://investinglive.com/stock-market-update/wsj-anthropic-targets-nasdaq-debut-next-week-under-ticker-ant-despite-tech-selloff/",
    "press": "investingLive(WSJ 인용)",
@@ -623,22 +639,6 @@
    "at": "2026-11-13 14:40",
    "why": "가설 「AI 차입이 약한 고리」 — 네오클라우드 자금 공백이 서류로 재확인, 앤스로픽 6배 청약과 대비(K자)",
    "summary": "Nscale이 S-1을 고치며 손실 폭을 넓혀 공시. 전날 FT 「앤스로픽 계약 이행에 추가 자금 필요」에 이어."
-  },
-  {
-   "title": "Nscale S-1: 앤스로픽 446억 달러 계약 이행 자금 아직 미확보",
-   "url": "https://www.thestack.technology/nscales-s-1-shows-it-still-needs-financing-for-44-6b-anthropic-deal/",
-   "press": "The Stack",
-   "at": "2026-11-13 13:45",
-   "why": "🧠 「AI 차입이 약한 고리」 가설 — 엔비디아 돈에 기대는 네오클라우드의 자금 공백, 황 퇴진 뒤 보증 불투명",
-   "summary": "상장 서류(S-1)에서 앤스로픽 계약(446억 달러) 이행에 추가 자금 조달이 필요하다고 밝힘 · 목표 기업가치 최대 350억 달러 · FT도 11/13 「Nscale, 추가 현금 필요 경고」 보도"
-  },
-  {
-   "title": "Nscale, 상장 전 35억 달러 조달 추진 — 엔비디아 20억·서드포인트 전환사채",
-   "url": "https://aiweekly.co/alerts/nscale-seeks-35b-pre-ipo-financing-with-2b-from-nvidia-third-point-leads-15b",
-   "press": "AI Weekly",
-   "at": "2026-11-13 13:45",
-   "why": "상장 전 자금 중 엔비디아 몫(20억 달러)이 크다 — 크레스 임시 CEO의 투자 축소가 현실화하면 첫 시험대",
-   "summary": "상장 전 조달 약 35억 달러 중 엔비디아 20억 달러 · 서드포인트 주도 전환사채 15억 달러 · 하나중국(72067)은 엔비디아의 Nscale 50억 달러+ 신용보증 협상도 불투명해졌다고 전함"
   }
  ],
  "at": "2026-11-16 14:40"
