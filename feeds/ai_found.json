@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "삼성·SK하이닉스·마이크론, 세 번째 D램 가격 담합 소송 직면",
+   "url": "https://www.tomshardware.com/pc-components/dram/samsung-sk-hynix-and-micron-face-a-third-dram-price-fixing-lawsuit",
+   "press": "Tom's Hardware",
+   "at": "2026-11-16 13:40",
+   "why": "11/16 한국 반도체 −6% 급락 때 텔레그램(kimu)이 지목한 재료 — 반도체 칸·하이닉스 ELS 질문과 연결",
+   "summary": "AI 수요로 D램 값이 급등한 가운데 3사가 공급을 조절해 값을 올렸다는 집단소송이 이어짐(세 번째). 배상 규모·법원 판단은 미확인."
+  },
+  {
    "title": "베선트 재무장관 「연준은 유가를 넘겨 봐야」 — 12월 0.25%p 인상 확률 92%",
    "url": "https://www.ctol.digital/news/bessent-fed-ai-productivity-oil-shock-hold/",
    "press": "CTOL (구글뉴스 제목 확인)",
@@ -631,14 +639,6 @@
    "at": "2026-11-13 09:45",
    "why": "🐻 코스피·🇯🇵 닛케이 — 엔비디아 CEO 퇴진 충격 뒤 아시아 반등 흐름, 한국 +2% 출발과 같은 방향",
    "summary": "엔비디아발 기술주 매도 뒤 아시아 주요 지수 일부 회복 · 한국 코스피 개장 +2.05%(5,452)·09:33 +2.39%(daily-app)"
-  },
-  {
-   "title": "美 선물, 엔비디아 CEO 퇴진 충격 뒤 소폭 상승 — 실시간",
-   "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html",
-   "press": "CNBC",
-   "at": "2026-11-13 09:45",
-   "why": "🟢 S&P·🟡 나스닥 칸 — 오늘 밤 PPI 앞 선물 보합, 「현금 도피」 아님 근거",
-   "summary": "S&P500 선물 7,642(+0.02%)·나스닥100 선물 +0.24%(daily-app 09:34) · 11/12 마감 S&P −0.35%·나스닥 −0.39%"
   }
  ],
  "at": "2026-11-16 12:40"
