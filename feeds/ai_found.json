@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "TSMC, 젠슨 황 퇴진 여파에 개장 전 4% 또 하락…수주잔고 우려",
+   "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03749046645646376",
+   "press": "이데일리",
+   "at": "2026-11-16 22:45",
+   "why": "엔비디아 실적(11/17) 하루 전 칩 공급망 동반 매도 — 한국 반도체(091160)·SOXX 대결",
+   "summary": "11/16 뉴욕 06:20 프리마켓 TSMC −4.05% 382.57달러 · 지난주 −3.88% · 엔비디아는 프리마켓 160달러 아래 · 나스닥100 선물 −1.43%(22:33)"
+  },
+  {
+   "title": "낸드 현물가격 하락을 어떻게 볼 것인가? — 붕괴 아닌 상승 감속",
+   "url": "https://m.blog.naver.com/pokara61/224479670705",
+   "press": "포카라 블로그",
+   "at": "2026-11-16 22:45",
+   "why": "키움·BofA 메모리 비관에 대한 반론 — 가설 「AI 안에서도 갈린다」 메모리 상류 쪽 판정",
+   "summary": "512Gb TLC 웨이퍼 현물 8월 21$→11월 중순 14.3$(약 −32%)지만 1년 전 6.5$의 2배 · 빠지는 곳은 스마트폰·PC·중국 모듈, AI 데이터센터용 기업 SSD는 상승 · 승부처는 2027년 1분기 계약가"
+  },
+  {
    "title": "S&P500·나스닥 선물 하락 — 엔비디아 실적·앤트로픽 상장 앞두고",
    "url": "https://kfgo.com/2026/11/16/sp-500-nasdaq-futures-slide-as-nvidia-earnings-anthropic-debut-loom/",
    "press": "로이터(KFGO)",
@@ -623,23 +639,7 @@
    "at": "2026-11-13 22:45",
    "why": "PPI 전년비 숫자 — 💬 금리·채권 답",
    "summary": "10월 PPI 전년비 6.5%(9월 6.3%). 사전 예상은 6.6%·전월비 +0.4%·근원 +0.3%(다우존스, StockTitan) — 전년비는 예상보다 0.1%p 낮음. 전월비·근원은 미확인."
-  },
-  {
-   "title": "미국채, 물가 불안에 「해방의 날」 이후 최악의 주간",
-   "url": "https://asreport.americanbanker.com/articles/us-bonds-see-worst-week-since-liberation-day-on-inflation-angst",
-   "press": "American Banker(블룸버그 전재)",
-   "at": "2026-11-13 21:45",
-   "why": "美 10년 5%대 고착 여부 — 「고금리 정점」 가설·💬 채권 답",
-   "summary": "물가 불안으로 미국채가 4월 관세 충격 이후 최악의 주간 흐름(게시일 미확인 — FT 11/13 같은 제목 기사와 대조)."
-  },
-  {
-   "title": "윌리엄스 뉴욕 연은 총재 「물가 낮추려면 할 일 더 남았다」",
-   "url": "https://www.americanbanker.com/articles/feds-williams-says-more-work-needed-to-lower-inflation",
-   "press": "American Banker",
-   "at": "2026-11-13 21:45",
-   "why": "연준 3인자까지 매파 — 12/9 인상 폭(「12/9 2018 경로」 가설)",
-   "summary": "윌리엄스: 물가 「너무 높다」, 할 일 남아(블룸버그 11/13 「Far Too High」 보도와 같은 발언으로 보임 · 게시일 미확인)."
   }
  ],
- "at": "2026-11-16 18:40"
+ "at": "2026-11-16 22:45"
 }
