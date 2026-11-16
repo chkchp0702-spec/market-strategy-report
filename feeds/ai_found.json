@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 상무부, 중국의 엔비디아 칩 원격 접근 차단 규칙",
+   "url": "https://cryptobriefing.com/commerce-department-blocks-china-remote-nvidia-access/",
+   "press": "Crypto Briefing",
+   "at": "2026-11-16 23:40",
+   "why": "엔비디아 실적(11/17) 전날 수출 규제 추가 — 가설 ④·Q2 엔비디아 답",
+   "summary": "제3국 클라우드로 중국이 첨단 AI 칩 연산력을 빌려 쓰던 우회로를 막는 조치(CNBC 동일 보도). 세부 숫자 미확인."
+  },
+  {
+   "title": "블랙록, 3,000억 달러 모델 포트 개편 — 주식 비중 늘리고 AI 베팅 유지",
+   "url": "https://www.itiger.com/news/1145387092",
+   "press": "Tiger(블룸버그 전재)",
+   "at": "2026-11-16 23:40",
+   "why": "칩 급락 날 대형 운용사는 주식 위험 확대 — 「업종 갈아타기」 vs 「현금 도피」 판정 근거",
+   "summary": "블룸버그 「BlackRock Shifts AI Bets, Adds Equity Risk」 동일 건. 비중 세부 숫자 미확인."
+  },
+  {
    "title": "TSMC, 젠슨 황 퇴진 여파에 개장 전 4% 또 하락…수주잔고 우려",
    "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03749046645646376",
    "press": "이데일리",
@@ -623,22 +639,6 @@
    "at": "2026-11-14 00:45",
    "why": "PPI 전년비 6.5%는 「예상 하회」지만 2022년 이후 최고 — 금리 부담이 지수 반등을 눌렀는지",
    "summary": "S&P500·나스닥 장 초반 하락 전환(제목 기준). 10월 PPI 전월비 +0.3%·전년비 6.5%(4년 만 최고, 피드 종합). 정확한 지수 수치는 미확인."
-  },
-  {
-   "title": "스노우플레이크, 12/2 3분기 실적 발표",
-   "url": "https://www.snowflake.com/en/news/press-releases/fy27-q3-earnings-date-announcement/",
-   "press": "Snowflake",
-   "at": "2026-11-14 00:45",
-   "why": "🐋 고래 신호(11/13) 종목 — 실적 19일 전 대량 매수, 데이터 인프라(가설 「AI 갈림」)",
-   "summary": "FY27 3분기 실적 12/2(화) 발표. 고래 신호는 10/22·11/13 두 번째. 지금은 👀 관찰만."
-  },
-  {
-   "title": "美 생산자물가 10월 전년비 6.5%로 0.2%p 올라",
-   "url": "https://www.washingtonexaminer.com/policy/finance-and-economy/4802085/producer-prices-rose-october/",
-   "press": "Washington Examiner",
-   "at": "2026-11-13 22:45",
-   "why": "PPI 전년비 숫자 — 💬 금리·채권 답",
-   "summary": "10월 PPI 전년비 6.5%(9월 6.3%). 사전 예상은 6.6%·전월비 +0.4%·근원 +0.3%(다우존스, StockTitan) — 전년비는 예상보다 0.1%p 낮음. 전월비·근원은 미확인."
   }
  ],
  "at": "2026-11-16 22:45"
