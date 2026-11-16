@@ -1,0 +1,31 @@
+name: tmp-txn-fmv
+on:
+  push:
+    branches: [tmp/txn-fmv]
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install -q yfinance pandas
+      - name: fetch
+        run: |
+          python - <<'P'
+          import yfinance as yf, json
+          dates=["2017-07-03","2017-10-02","2018-01-02","2018-04-02","2021-10-01","2022-01-03","2022-04-01","2022-07-01","2023-04-03","2023-07-03","2023-10-02","2024-01-02","2024-04-01","2024-07-01","2024-10-01","2025-01-02","2025-04-01","2025-07-01","2025-10-01","2026-01-02","2026-04-01","2026-07-01"]
+          df=yf.download("TXN",start="2017-06-01",end="2026-11-17",auto_adjust=False,actions=False,progress=False)
+          df.columns=[c[0] if isinstance(c,tuple) else c for c in df.columns]
+          out={"rows":{},"last":None,"series":[]}
+          for d in dates:
+              r=df.loc[d] if d in df.index.strftime("%Y-%m-%d") else None
+              if r is None: out["rows"][d]=None; continue
+              out["rows"][d]={k:round(float(r[k]),4) for k in ["Open","High","Low","Close","Adj Close"]}
+          m=df["Close"].resample("W-FRI").last().dropna()
+          out["series"]=[[i.strftime("%Y-%m-%d"),round(float(v),2)] for i,v in m.items()]
+          out["last"]=[df.index[-1].strftime("%Y-%m-%d"),round(float(df["Close"].iloc[-1]),2)]
+          json.dump(out,open("txn_fmv.json","w"),indent=1)
+          print(json.dumps(out["rows"],indent=1)); print(out["last"])
+          P
+      - uses: actions/upload-artifact@v4
+        with: {name: txn_fmv, path: txn_fmv.json}
