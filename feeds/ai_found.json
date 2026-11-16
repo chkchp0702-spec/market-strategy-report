@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "베선트 재무장관 「연준은 유가를 넘겨 봐야」 — 12월 0.25%p 인상 확률 92%",
+   "url": "https://www.ctol.digital/news/bessent-fed-ai-productivity-oil-shock-hold/",
+   "press": "CTOL (구글뉴스 제목 확인)",
+   "at": "2026-11-16 12:40",
+   "why": "「12/9 FOMC 2018식 분수령」 가설 — 인상은 거의 가격에 들어갔고 남은 변수는 폭·1월 추가",
+   "summary": "구글뉴스 제목: 12월 0.25%p 인상 확률 92% · 베선트 「에너지 충격은 근원 물가로 안 번진다 — 지나친 인상 경계」 · 세부 숫자 미확인"
+  },
+  {
+   "title": "인도 증시 반등 — AI 거래 되감기에 외국인 자금 복귀",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-15/india-stock-market-rebounds-as-ai-trade-unwinds-foreign-funds-return",
+   "press": "Bloomberg",
+   "at": "2026-11-16 12:40",
+   "why": "한국·대만·일본 AI 비중 → 인도 등 「AI 아닌 곳」으로 외국계 돈이 옮기는 그림 — 코스피 외국인 매도 해석과 직결",
+   "summary": "블룸버그: AI 거래가 풀리며 인도에 외국인 자금 복귀 · 항공우주주 「반AI 자금」 수혜(같은 날 별도 기사) · 같은 날 코스피 외국인 오전 약 −9,864억"
+  },
+  {
    "title": "중국 10월 산업생산·소매판매·투자 모두 예상 하회 — 경기 둔화 심화",
    "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
    "press": "CNBC",
@@ -623,23 +639,7 @@
    "at": "2026-11-13 09:45",
    "why": "🟢 S&P·🟡 나스닥 칸 — 오늘 밤 PPI 앞 선물 보합, 「현금 도피」 아님 근거",
    "summary": "S&P500 선물 7,642(+0.02%)·나스닥100 선물 +0.24%(daily-app 09:34) · 11/12 마감 S&P −0.35%·나스닥 −0.39%"
-  },
-  {
-   "title": "엔비디아 스파이 의혹, 대중 AI 칩 수출 규제 입법에 불 붙일 듯",
-   "url": "https://www.thestar.com.my/news/world/2026/11/10/nvidia-spy-allegations-likely-to-spur-laws-totighten-china039s-access-to-ai-chips",
-   "press": "로이터(더스타 전재)",
-   "at": "2026-11-13 08:45",
-   "why": "황 사임 뒤 규제 리스크가 남는다 — 반도체 칸·091160·「AI 안에서 갈린다」(NVDA 중국 매출)",
-   "summary": "황 관련 의혹이 의회의 대중 칩 접근 제한 입법(국방수권법 등)을 밀어줄 것이라는 보도. 11/13 인베스팅 「의회 합의 형성」으로 이어짐."
-  },
-  {
-   "title": "엔비디아 스파이 스캔들, 대중 칩 수출 논쟁 키워",
-   "url": "https://www.aljazeera.com/economy/2026/11/10/nvidia-spy-scandal-fuels-debate-over-chip-exports-to-china",
-   "press": "알자지라",
-   "at": "2026-11-13 08:45",
-   "why": "규제 강화면 AMD·브로드컴 「대체 수혜」도 중국 매출에선 같이 막힘 — 갈아타기 bet 근거 점검용",
-   "summary": "스캔들이 H200 등 대중 판매 허가 논쟁을 다시 키움. 상원 초당파 서한 「수출 허가 중단」 요구 흐름과 연결."
   }
  ],
- "at": "2026-11-16 10:40"
+ "at": "2026-11-16 12:40"
 }
