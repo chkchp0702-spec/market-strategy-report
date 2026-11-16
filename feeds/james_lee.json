@@ -1,7 +1,15 @@
 {
- "fetched_kst": "2026-11-16 15:01",
- "new_since_last": [],
+ "fetched_kst": "2026-11-16 15:54",
+ "new_since_last": [
+  "https://blog.naver.com/james_lee_advisors/224479186657?fromRss=true&trackingCode=rss"
+ ],
  "posts": [
+  {
+   "title": "11월 16일의 거시경제 Letter",
+   "link": "https://blog.naver.com/james_lee_advisors/224479186657?fromRss=true&trackingCode=rss",
+   "pubDate": "Mon, 16 Nov 2026 15:19:23 +0900",
+   "summary": "젠슨황 엔비디아 CEO 사임을 놓고, \"악재다\" or \"별 영향없다\" 등 다양한 의견이 나오고 있습니다. 대체로 낙관편향적인 증권가 보고서들은 별 영향이 없다는 식으로 분석하는 편입니다. 다만 현재 엔비디아 임시 CEO를 맡게 된 사람은 현직 CFO인 콜레트 크리스라는 인물인데, 엔비디아의 대규모 금융지원 정책을 반대했던 인물이라는 점에서 자금조달 순환체인에 문제가 생기는 것은 아니냐는 의혹이 제기되고 있습니다. 지난 실적발표 자리에서 크리스는 회사가 재무 지원을 제공할 것으로 예상하는 AI 연구소들의 수요가 다음 해 전체 사업의 약 4분의 1을 차지할 것이라고 밝힌 바 있습니다. 엔비디아의 고객 금융지원......."
+  },
   {
    "title": "11월 16일의 기업분석 Letter - 기가비스 (420770)",
    "link": "https://blog.naver.com/james_lee_advisors/224478939614?fromRss=true&trackingCode=rss",
@@ -295,12 +303,6 @@
    "link": "https://blog.naver.com/james_lee_advisors/224410974825?fromRss=true&trackingCode=rss",
    "pubDate": "Mon, 14 Sep 2026 11:09:12 +0900",
    "summary": "발전소의 설비를 전문적으로 설계 및 제작하는 비에이치아이 입니다. 배열회수보일러(HRSG)가 동사 매출이 핵심인데, 이는 가스터빈에서 배출되는 고온의 배기가스 폐열을 회수하여 증기를 생성하고, 이 증기로 스팀터빈을 구동시키는 복합화력발전소의 핵심 설비입니다. 최근 국내 및 중동 발전소 규모가 커지면서 프로젝트당 수주 금액이 확대되었고, 구매력 증가로 원가가 절감되고 고정비 부담이 완화되는 등 이익 레버리지 효과가 나오면서 수익성도 매우 좋아지고 있는 기업입니다. 최근 비에이치아이 HRSG 수주가 매우 좋았던 이유는 글로벌 발전시장이 예상보다 훨씬 강하게 가스발전으로 돌아섰기 때문입니다. 전력 수요가 갑자기 급증......."
-  },
-  {
-   "title": "9월 11일의 거시경제 Letter",
-   "link": "https://blog.naver.com/james_lee_advisors/224408575980?fromRss=true&trackingCode=rss",
-   "pubDate": "Fri, 11 Sep 2026 18:28:58 +0900",
-   "summary": "DeepSeek V4.1 Flash 뉴스가 시장에 좀 충격을 줬습니다. 딥시크는 등장할 때마다 놀라움을 주는데 이번에도 성능과 비용, 속도에서 상당히 우위를 보인 모델을 선보였고, 에이전트 업무에서 프론티어 모델 수준까지 올라왔다는 평가입니다. 문제는 장기 컨텍스트를 사용하는 AI 에이전트 구동 비용을 낮추기 위한 AI모델의 구조 변화가 있었는데, 이 부분에서 결과적으로 Global KV 캐시는 V4 Flash 대비 1/4로 축소됐고, SSD와 호스트 메모리에 보관되는 Persistent KV 캐시는 1/8로 줄었다는 부분입니다. 이를 시장에서 \"HBM 수요 1/4, SSD 수요 1/8로 감소\"로 해석하면서 조금 우려가 과장된 부분이 있었습니다. 하지만 이는 “AI ......."
   }
  ]
 }
