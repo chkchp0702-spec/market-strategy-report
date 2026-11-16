@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "S&P500·나스닥 선물 하락 — 엔비디아 실적·앤트로픽 상장 앞두고",
+   "url": "https://kfgo.com/2026/11/16/sp-500-nasdaq-futures-slide-as-nvidia-earnings-anthropic-debut-loom/",
+   "press": "로이터(KFGO)",
+   "at": "2026-11-16 21:45",
+   "why": "11/17 엔비디아 실적 하루 전 반도체 칸·나스닥 조정 판정 — 12월 인상 완전 반영·0.5%p 약 8%",
+   "summary": "뉴욕 05:08 S&P 선물 −0.36%·나스닥100 −0.97%·다우 +0.02%. 엔비디아 프리마켓 −2.2%(황 사임 뒤 최장 주간 하락). 12월 인상 완전 반영, 50bp 확률 약 8%(FedWatch) · 2년물 2bp↓."
+  },
+  {
+   "title": "엔비디아 첫 「황 이후」 실적과 앤트로픽 상장 — 이번 주 볼 것",
+   "url": "https://finance.yahoo.com/markets/article/nvidias-first-post-jensen-earnings-and-anthropics-ipo-what-to-watch-this-week-110000732.html",
+   "press": "야후 파이낸스",
+   "at": "2026-11-16 21:45",
+   "why": "이번 주 AI 랠리 시험대 일정 — 💬 5·14번, 반도체 칸",
+   "summary": "11/17 엔비디아 실적(크레스 CFO 첫 발표)·11/18 연준 의사록·주 후반 앤트로픽 상장이 AI 랠리를 시험. 세부 숫자는 원문 확인."
+  },
+  {
+   "title": "월요일 증시: AI 거래 갈림길 주간, 선물 보합권",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html",
+   "press": "야후 파이낸스 라이브",
+   "at": "2026-11-16 21:45",
+   "why": "미국장 실시간 — 유가·엔비디아 동시 확인, 💬 8·18번",
+   "summary": "다우·S&P·나스닥 선물 보합권, 엔비디아·유가가 초점(라이브 블로그 — 숫자는 원문 시각 기준)."
+  },
+  {
    "title": "키움 「메모리 27년 공급 과잉 진입 — 28년 D램 ASP −54%·낸드 −47%」 + BofA 「낸드 현물 10월 중하순 뒤 약 20%↓」",
    "url": "https://t.me/kimu_nim/49109",
    "press": "키움증권(김현석 텔레그램 전재)",
@@ -615,30 +639,6 @@
    "at": "2026-11-13 21:45",
    "why": "연준 3인자까지 매파 — 12/9 인상 폭(「12/9 2018 경로」 가설)",
    "summary": "윌리엄스: 물가 「너무 높다」, 할 일 남아(블룸버그 11/13 「Far Too High」 보도와 같은 발언으로 보임 · 게시일 미확인)."
-  },
-  {
-   "title": "골드만삭스 「월러 매파 발언 뒤 연준 두 번 더 인상 가능성」",
-   "url": "https://stocktwits.com/news-articles/markets/equity/two-more-fed-rate-hikes-likely-after-governor-waller-s-hawkish-remarks-goldman-sachs/cZD6eKGRBVe",
-   "press": "Stocktwits",
-   "at": "2026-11-13 19:45",
-   "why": "12/9 FOMC 분수령 가설·10년 5% 칸 — 골드만 인상 경로(오늘 SA 「두 번 더 뒤 인하」와 같은 줄기)",
-   "summary": "골드만이 월러 이사 발언 뒤 추가 인상 2회 가능성을 제시. 게시일 미확인 — 오늘 SA 보도와 교차 확인용."
-  },
-  {
-   "title": "마이클 버리 vs 엔비디아 — 엔비디아가 투자한 네비우스 공매도",
-   "url": "https://www.barchart.com/story/news/3760864/michael-burry-vs-nvidia-what-to-know-as-burry-bets-against-nvidia-backed-nebius-stock",
-   "press": "Barchart",
-   "at": "2026-11-13 19:45",
-   "why": "「AI 차입이 약한 고리」 가설 — 네오클라우드 끝단(오늘 네비우스 17%↓·버리 칩 과잉 경고)의 배경",
-   "summary": "버리가 엔비디아 투자를 받은 네비우스에 약세 베팅. 오늘 야후 「버리 옳았다, 네비우스 17%↓」로 이어짐. 원문 게시일 미확인."
-  },
-  {
-   "title": "유가, 트럼프가 밴스를 이란 외교에서 빼자 상승폭 유지",
-   "url": "https://uk.investing.com/news/commodities-news/oil-prices-hold-gains-as-trump-sidelines-vance-from-iran-diplomacy-4979343",
-   "press": "Investing.com",
-   "at": "2026-11-13 18:45",
-   "why": "협상 기대 꺾임 → 브렌트 95 위 재진입, brent_95 선(90)에서 멀어짐 · 유가 답(18번)",
-   "summary": "트럼프 「이란과 합의 필요 없다·밴스는 미국 일에 집중」 뒤 유가 상승폭 유지. 같은 날 IEA는 걸프 수출 회복으로 공급 과잉 전환 진단(블룸버그·FT) — 재료가 엇갈림."
   }
  ],
  "at": "2026-11-16 18:40"
