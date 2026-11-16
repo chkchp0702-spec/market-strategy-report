@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "키움 「메모리 27년 공급 과잉 진입 — 28년 D램 ASP −54%·낸드 −47%」 + BofA 「낸드 현물 10월 중하순 뒤 약 20%↓」",
+   "url": "https://t.me/kimu_nim/49109",
+   "press": "키움증권(김현석 텔레그램 전재)",
+   "at": "2026-11-16 20:45",
+   "why": "반도체 칸(7)·091160·💬 5번 — 「주가 먼저, 현물 다음, 애널리스트 추정 하향 마지막」 사이클 2단계 진입 주장",
+   "summary": "키움 박유악: D램 27년 하반기·낸드 27년 상반기 공급 과잉, 28년 ASP D램 −54%·낸드 −47%. BofA: 512Gb 낸드 웨이퍼 현물 14.3달러(1주 −12%·전 분기 −32%, kimu_nim/49110)."
+  },
+  {
+   "title": "미즈호, 엔비디아 목표가 250→220달러 — 「10월 고점 뒤 −32%·시총 약 2조 달러 증발 반영」",
+   "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03630966645646376",
+   "press": "이데일리",
+   "at": "2026-11-16 20:45",
+   "why": "11/17 엔비디아 실적 D-1 — HSBC·CLSA에 이은 세 번째 하향, 반도체 칸·💬 3번",
+   "summary": "목표가 250→220달러. 10월 고점 대비 약 −32%, 시총 약 2조 달러 감소 지적. 조정이 과열을 덜었다는 단서도 붙임(본문 일부)."
+  },
+  {
+   "title": "로이터 분석: AI 매도에 투자자들이 「진짜 AI 노출」 재기 바빠",
+   "url": "https://www.investing.com/news/stock-market-news/analysisai-selloff-has-investors-scrambling-to-measure-their-true-exposure-5028994",
+   "press": "Reuters(Investing.com)",
+   "at": "2026-11-16 20:45",
+   "why": "⚡ 공격·🎯 집중 고르는 순서(FCF+ 먼저) — 지수·섹터 ETF 안 숨은 AI 비중 점검 흐름",
+   "summary": "제목 기준: AI 주 급락 뒤 기관이 포트 내 간접 AI 노출(지수·인프라·전력)을 다시 계산. 본문 숫자 미확인."
+  },
+  {
    "title": "엔비디아 승계 계획, 11/17 실적 콜의 핵심 — 가이던스 1,080억 달러 거론",
    "url": "https://tech-insider.org/nvidia-succession-plan-earnings-call-nov-17-108-billion-guidance-2026/",
    "press": "Tech Insider",
@@ -615,30 +639,6 @@
    "at": "2026-11-13 18:45",
    "why": "협상 기대 꺾임 → 브렌트 95 위 재진입, brent_95 선(90)에서 멀어짐 · 유가 답(18번)",
    "summary": "트럼프 「이란과 합의 필요 없다·밴스는 미국 일에 집중」 뒤 유가 상승폭 유지. 같은 날 IEA는 걸프 수출 회복으로 공급 과잉 전환 진단(블룸버그·FT) — 재료가 엇갈림."
-  },
-  {
-   "title": "브렌트, 트럼프 「이란 합의 필요 없다」에 한때 96달러",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Briefly-Hits-94-After-Trump-Says-US-Has-No-Need-for-Iran-Deal.html",
-   "press": "OilPrice.com",
-   "at": "2026-11-13 18:45",
-   "why": "에너지 칸 축소 선(85·90)과 거리 — 협상 재료가 사라지면 유가 하방은 IEA 과잉 숫자뿐",
-   "summary": "브렌트 한때 96달러(제목 기준) · 사우디 시설 공격 보도 겹침(Free Press Journal) · 정확한 종가 미확인."
-  },
-  {
-   "title": "美 의원들, 엔비디아 논란 속 국방수권법에 대중 칩 수출 통제 강화 추진",
-   "url": "https://www.scmp.com/tech/tech-war/article/3373940/us-lawmakers-push-tougher-china-export-controls-defence-bill-amid-nvidia-scrutiny",
-   "press": "SCMP",
-   "at": "2026-11-13 17:45",
-   "why": "中 AI주·H주 50% 칸 급락의 원인 — 규제가 법으로 굳으면 메모리 물량은 美 고객으로 재배정(삼성·SK eSSD)",
-   "summary": "의회가 국방수권법(NDAA)에 대중 AI칩 수출 통제 강화 조항을 넣는 방안 추진. 11/13 中 즈푸AI −10%·화훙반도체 −6%(하나중국), eSSD 中 주문 축소분은 美로(지디넷)."
-  },
-  {
-   "title": "뉴욕연은 윌리엄스 「채권 금리 상승은 강한 경제 신호」·추가 인상 시사",
-   "url": "https://www.investmentnews.com/fixed-income/feds-williams-sees-another-rate-hike-as-treasury-rout-deepens/268342",
-   "press": "InvestmentNews",
-   "at": "2026-11-13 16:45",
-   "why": "「고금리 정점」 가설·12/9 FOMC 분수령 — 연준 핵심 인사가 금리 상승을 용인",
-   "summary": "윌리엄스 추가 인상 전망, 국채 매도 심화 · 피드(로이터 11/13) 「물가 너무 높다, 할 일 남아」와 같은 흐름 · 기사 게시 시각 미확인"
   }
  ],
  "at": "2026-11-16 18:40"
