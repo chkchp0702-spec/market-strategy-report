@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "IMF 게오르기에바 「세계 경제는 한 발로 서 있다」 — AI 기업 간 순환 금융 1조 달러 넘어",
+   "url": "https://www.cnbc.com/2026/11/16/imf-georgieva-warning-ai-circular-financing.html",
+   "press": "CNBC",
+   "at": "2026-11-16 18:14",
+   "why": "가설 ① AI 차입(크레딧) — 엔비디아 실적(11/17) 앞 「벤더 파이낸싱」 위험을 국제기구가 숫자로 짚음, 미국 칸·🫧 신용 칸",
+   "summary": "게오르기에바 총재: AI 기업 사이 순환 금융(투자↔구매 맞물림)이 1조 달러를 조금 넘었다. 같은 날 연준이 AI를 금융안정 1위 위험으로 꼽았다는 보도(iAfrica 전재)."
+  },
+  {
+   "title": "보우먼 연준 부의장 「AI가 기대에 못 미치면 주식 큰 조정 위험」",
+   "url": "https://www.fool.com/investing/2026/11/16/fed-governor-michelle-bowman-risk-of-large-correction-in-stocks-if-ai-doesn-t-pan-out/?.tsrc=rss",
+   "press": "Motley Fool(야후 전재)",
+   "at": "2026-11-16 17:30",
+   "why": "S&P·나스닥 칸 — 연준 수뇌부가 AI 실패를 주식 위험으로 직접 언급, 「현금 도피」 경보표 신용 칸과 같은 방향",
+   "summary": "보우먼: AI가 성과를 내지 못하면 주식과 경제에 위험, 연준이 주시 중. 도이체방크는 같은 날 「연준 3회 연속 인상」 전망(구글뉴스 제목)."
+  },
+  {
+   "title": "말레이시아 데이터센터 4.88억 달러 대출, 신디케이션 이례적 지연",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-16/asian-data-center-loan-syndication-is-delayed-in-rare-deal-pause",
+   "press": "Bloomberg",
+   "at": "2026-11-16 18:04",
+   "why": "가설 ① — 블랙스톤 QTS 채권 60% 축소(11/13)에 이어 아시아 DC 자금 조달도 멈칫, 빚으로 짓는 곳부터 흔들린다는 가설 근거 +1",
+   "summary": "사모펀드 액티스가 후원하는 말레이시아 데이터센터 사업의 4.88억 달러 대출이 다른 은행들에 마케팅 도중 지연(블룸버그 피드 요약)."
+  },
+  {
    "title": "모건스탠리, 일본 주식 비중확대로 상향 — TOPIX 22% 상승 여력",
    "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-upgrades-japan-equities-to-overweight-sees-22-topix-upside-5028635",
    "press": "Investing.com",
@@ -427,7 +451,7 @@
   {
    "title": "BofA 하트넷 「美 10년 4.5% 아래·유가 70달러까지는 위험 회피 유지」",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYTVsNzB5eFhkZzROd1d4dW5xbUJGa01ZXy1JYkpNMjdhcl9iSGNTd19GX3B3M0VDUXUtM2lyNF9FYXZLTGRGMlA5SFZpZ3paUXRmV2dvSTBGcFR5VEV6RTI5alU5SWJRakFZZ3g0WGFsbzc0a1JXcmR3YVRmOXJuZ29HV1dhREN0MXRfc3hKNA?oc=5",
-   "press": "Yahoo Finance",
+   "press": "Motley Fool(야후 전재)",
    "at": "2026-11-14 08:45",
    "why": "「12/9 2018 분수령」·美 10년 5% watch — 위험 선호 복귀 조건 두 숫자(10년 4.5%·유가 70)",
    "summary": "하트넷은 美 10년물 4.5% 하회·유가 70달러 도달 전까지 위험 회피를 권고. 지금 10년 5.1% 안팎·브렌트 90달러대라 두 조건 모두 멀다."
@@ -515,7 +539,7 @@
   {
    "title": "주식시장 실시간: 도매물가 상승 속 S&P500·나스닥 하락 전환, 엔비디아 약세",
    "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
-   "press": "Yahoo Finance",
+   "press": "Motley Fool(야후 전재)",
    "at": "2026-11-14 00:45",
    "why": "PPI 전년비 6.5%는 「예상 하회」지만 2022년 이후 최고 — 금리 부담이 지수 반등을 눌렀는지",
    "summary": "S&P500·나스닥 장 초반 하락 전환(제목 기준). 10월 PPI 전월비 +0.3%·전년비 6.5%(4년 만 최고, 피드 종합). 정확한 지수 수치는 미확인."
@@ -615,31 +639,7 @@
    "at": "2026-11-13 15:45",
    "why": "🫧 버블 경보판 현금 도피 — 코인이 11/9 50주선을 깬 뒤 11/13 6.8만 달러대(연합)로 하락 가속, 금리 압박이 위험자산 끝단부터",
    "summary": "11/9 비트코인 50주 이동평균 아래로 · 24시간 롱 청산 10억 달러↑ · 11/13 연합 「6만8천달러대 급락·2조원 청산」으로 이어짐"
-  },
-  {
-   "title": "[11/12 마감] 젠슨 황 스캔들에 반도체·금융 약세 — 코스피 5,342.73",
-   "url": "https://kr.investing.com/news/stock-market-news/article-2172100",
-   "press": "인포스탁데일리(인베스팅)",
-   "at": "2026-11-13 15:45",
-   "why": "🐻 코스피 신호판 기준값 — 11/13 장중 5,297(−0.85%, 15:23)과 비교할 전일 종가",
-   "summary": "11/12 코스피 5,342.73(−0.61%) · 옵션 만기·젠슨 황 해임설 · 장중 165p 진폭"
-  },
-  {
-   "title": "금, 4,000달러 아래로 — 달러 강세·연준 인상 베팅 확대",
-   "url": "https://www.thestandard.com.hk/finance/article/335535/Gold-drops-below-key-US4000-level-as-dollar-firms-rate-hike-bets-rise",
-   "press": "The Standard(HK)",
-   "at": "2026-11-13 14:40",
-   "why": "포트 금 5% 칸 — 금리 오를 땐 금도 피난처가 못 된다(💬 피난처·금 질문 근거)",
-   "summary": "달러 강세·인상 베팅에 금 4,000달러 하회. 美 10년 5.1%·12월 인상 확률 100% 국면에서 금·장기채 동반 약세."
-  },
-  {
-   "title": "Nscale, 손실 늘린 상장 신고서 수정 — 엔비디아 연계 네오클라우드 변동성",
-   "url": "https://seekingalpha.com/news",
-   "press": "Seeking Alpha",
-   "at": "2026-11-13 14:40",
-   "why": "가설 「AI 차입이 약한 고리」 — 네오클라우드 자금 공백이 서류로 재확인, 앤스로픽 6배 청약과 대비(K자)",
-   "summary": "Nscale이 S-1을 고치며 손실 폭을 넓혀 공시. 전날 FT 「앤스로픽 계약 이행에 추가 자금 필요」에 이어."
   }
  ],
- "at": "2026-11-16 14:40"
+ "at": "2026-11-16 18:40"
 }
