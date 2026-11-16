@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "WSJ: 앤트로픽, 기술주 매도에도 다음 주 나스닥 상장 추진(티커 ANT)",
+   "url": "https://investinglive.com/stock-market-update/wsj-anthropic-targets-nasdaq-debut-next-week-under-ticker-ant-despite-tech-selloff/",
+   "press": "investingLive(WSJ 인용)",
+   "at": "2026-11-16 16:40",
+   "why": "아시아 반도체 대형주 수급 공백(삼전닉스·091160.KS 관찰)과 직결 — 상장 뒤 되돌림 여부가 코스닥 2차 분할 시점 판단",
+   "summary": "하나증권 중국은 상장일 11/19로 전함. 기술주 약세에도 일정 유지 보도 — 공모 자금 마련 매도가 끝나는 시점이 관건(기사 날짜는 미확인)."
+  },
+  {
+   "title": "월가에서 아시아까지 기술주 매도 — 투자자 AI 위험 줄이기",
+   "url": "https://www.computing.co.uk/news/2026/tech-sell-off-as-investors-derisk-ai",
+   "press": "Computing",
+   "at": "2026-11-16 16:40",
+   "why": "「업종 갈아타기 vs 현금 도피」 가설 점검 — 방어주는 오르고 AI만 빠지는 구도인지",
+   "summary": "AI 관련주 중심 매도가 미국→아시아로 번졌다는 정리. 숫자 확인은 피드(대만 −6.03%·코스피 −3.59%)로."
+  },
+  {
    "title": "코스피, 190.03P 내린 5100.5 마감(3.59%↓)",
    "url": "https://view.asiae.co.kr/article/2026111615340792268",
    "press": "아시아경제",
@@ -623,38 +639,6 @@
    "at": "2026-11-13 13:45",
    "why": "상장 전 자금 중 엔비디아 몫(20억 달러)이 크다 — 크레스 임시 CEO의 투자 축소가 현실화하면 첫 시험대",
    "summary": "상장 전 조달 약 35억 달러 중 엔비디아 20억 달러 · 서드포인트 주도 전환사채 15억 달러 · 하나중국(72067)은 엔비디아의 Nscale 50억 달러+ 신용보증 협상도 불투명해졌다고 전함"
-  },
-  {
-   "title": "美 상무부, 중국의 AI칩 원격 사용(클라우드 임대) 차단 규정 초안",
-   "url": "https://aiweekly.co/alerts/commerce-drafts-rule-to-shut-chinas-remote-ai-chip-access",
-   "press": "AI Weekly",
-   "at": "2026-11-13 12:45",
-   "why": "엔비디아 임시 CEO 체제 첫 악재 후보 — 동남아 데이터센터·대만 서버 업체 수요, 「AI 안에서 갈린다」 가설",
-   "summary": "말레이시아·싱가포르·태국 등 데이터센터를 통한 중국 업체의 선진 AI칩 원격 사용 차단 추진. 대만경제일보는 이르면 11월 중 발표 가능성(하나중국 72066). 발표 날짜·범위는 미확인."
-  },
-  {
-   "title": "미 2년물 금리 2026년 고점 근접 — 글로벌 채권 매도 확산",
-   "url": "https://www.itiger.com/news/1172692964",
-   "press": "Tiger Brokers(다우존스)",
-   "at": "2026-11-13 12:45",
-   "why": "12/9 FOMC 인상 폭 베팅 — 💬 7번(연준)·16번(채권)·「고금리 정점 통과」 가설 반대 근거",
-   "summary": "연준 인상 베팅 확대로 2년물이 4년 만의 최대 폭 상승(구글뉴스 11/13), 일본 10년 2.86%까지 동반 상승. 연준 인사 「최근 물가 지표 거의 심란한 수준」(구글뉴스). 정확한 2년물 수치는 미확인."
-  },
-  {
-   "title": "엔비디아 8-K: CEO 교체 공시(콜레트 크레스 임시 CEO)",
-   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
-   "press": "SEC",
-   "at": "2026-11-13 11:45",
-   "why": "황 퇴진의 1차 공시 — 임시 CEO가 「황의 투자 베팅에 제동 걸던」 CFO라 엔비디아발 벤더 파이낸싱 축소 가능성(차입 가설·네오클라우드)",
-   "summary": "엔비디아 CEO 교체 8-K · 크레스 CFO가 임시 CEO(인베스팅 「황의 베팅에 이의 제기한 CFO」) · 업계는 두 달 1,400억$ 투자 속도 둔화 예상(하나중국 72062)"
-  },
-  {
-   "title": "엔비디아 CFO 크레스, 임시 CEO 후보로 거론됐던 배경",
-   "url": "https://www.cfodive.com/news/nvidia-cfo-viewed-some-as-possible-interim-ceo/874268/",
-   "press": "CFO Dive",
-   "at": "2026-11-13 11:45",
-   "why": "재무통 임시 CEO = 투자·보증 축소 쪽 무게 — 엔비디아 돈에 기대던 코어위브·네비우스 등 자금 조달에 부담",
-   "summary": "크레스는 2013년부터 CFO · 임시 CEO 선임(SEC 8-K) · 엔비디아 올해 두 달 1,400억$ 투자, 앤스로픽 IPO 100억$ 계획(하나중국 전언, 미확인)"
   }
  ],
  "at": "2026-11-16 14:40"
