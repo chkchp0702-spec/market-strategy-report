@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "BofA 하트넷 「위험 회피 유지 — 킹달러가 철거용 쇳덩이처럼 돌아왔다」",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOejEzQ2lvUjJwRG55U2dGSzRzTFNrU3dsRjBaWno2TDRfZU5kN0dJT1kxcXBNaDJwTHhNRGd3c3JTVUpQSGIxcHI5V0lkM2RtemlONkRsaGJ6bXBiM0pVQ2s0MmRXNmlQWVJGbGs1c2NheFgxOHQwNnh3X3BNQjI5X3pQeEI?oc=5",
+   "press": "구글뉴스(미국 시장)",
+   "at": "2026-11-16 14:40",
+   "why": "달러지수 작년 4월 이후 최고(103.46)와 같은 날 — 모건스탠리 「최대 비중확대」와 정반대, 「업종 갈아타기 vs 현금 도피」 가설 판단 재료",
+   "summary": "하트넷은 달러 정점·금리 하락 전엔 위험 회피를 유지한다는 입장(11/15 주간 노트 연장). 세부 숫자 미확인."
+  },
+  {
+   "title": "증시 덮친 「앤트로픽 수급 공포」…삼전·닉스 2차 매물 쏟아지나",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sMm42SEdYaEdrcVhOZjNJTzVfQ3pkT1V1WFVtVUNFRTdwdjFuZWNNMXBPUjhjVGFyOXZWc1oyUGpUWDc2blBCelA4X2l2Q002WnRNVDBIQXJmakJ1XzNCOW9wclFHc1FEVVp6cVBZNDdtd9IBdkFVX3lxTE5PRnZ5ZmVyU004alNQRlFsME9leGpKZ2dDQWZCU3Z1R29Qc3E3T0RsaDVrSjN1YUdrMWQ4LWlZY3RHWDMyYjFGaHhUS3V0MS0tLWp2bzFVZjdnS1M0c2RsVlRXQm5aSTRfZzJuOUUzQWNSVWY4VFE?oc=5",
+   "press": "구글뉴스(국내 시장)",
+   "at": "2026-11-16 14:40",
+   "why": "11/16 반도체 −7.6% 급락의 수급 해석 — 대형 공모(앤트로픽) 앞 AI 대형주 갈아타기 매도, 💬 5번·반도체 칸",
+   "summary": "14:33 하이닉스 −7.65%·삼성전자 −4.95%. 공모 청약 자금 마련 매도 규모는 미확인."
+  },
+  {
+   "title": "외국인 국내 증권자금 137억 달러 순유출…주식 유출 확대·채권은 순유입 전환",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkeFEtelB1UkVndG5kb3ZqYWFfV0xKNVMwM3dhdktVVEZEb0FGdE90czlqUkQ1RU9rNEdtZnRqLXZMZVJUQmx2bzhjaTVDZ0FFMXVr?oc=5",
+   "press": "구글뉴스(한은)",
+   "at": "2026-11-16 14:40",
+   "why": "외국인이 주식은 팔고 채권은 사는 중 — 「한국 이탈」이 아니라 「위험자산 줄이기」, 원화가 버티는 이유와 연결(💬 7·16번)",
+   "summary": "한은 10월 국제금융·외환시장 동향 기준 주식+채권 137억 달러 순유출, 채권은 순유입 전환(보도 제목 기준, 세부 미확인)."
+  },
+  {
    "title": "삼성·SK하이닉스·마이크론, 세 번째 D램 가격 담합 소송 직면",
    "url": "https://www.tomshardware.com/pc-components/dram/samsung-sk-hynix-and-micron-face-a-third-dram-price-fixing-lawsuit",
    "press": "Tom's Hardware",
@@ -615,31 +639,7 @@
    "at": "2026-11-13 11:45",
    "why": "재무통 임시 CEO = 투자·보증 축소 쪽 무게 — 엔비디아 돈에 기대던 코어위브·네비우스 등 자금 조달에 부담",
    "summary": "크레스는 2013년부터 CFO · 임시 CEO 선임(SEC 8-K) · 엔비디아 올해 두 달 1,400억$ 투자, 앤스로픽 IPO 100억$ 계획(하나중국 전언, 미확인)"
-  },
-  {
-   "title": "코스피 3% 가까이 급등 — 엔비디아 CEO 퇴진 뒤 아시아 칩주 반등",
-   "url": "https://mlq.ai/news/kospi-jumps-nearly-3-as-asian-chip-stocks-rebound-after-nvidias-ceo-exit/",
-   "press": "MLQ",
-   "at": "2026-11-13 10:45",
-   "why": "🐻 코스피 하락장 중 20일선(5,571) 시험 — 「AI 안에서 갈린다」(칩·메모리 상류 강세) 근거",
-   "summary": "코스피 장중 +3% 근접, 삼성전자·SK하이닉스 +3%대. 엔비디아 −4% 다음 날 아시아 메모리·장비주는 반등."
-  },
-  {
-   "title": "코스피 +3%·키옥시아 +5%·삼성·하이닉스 +3% — 한·일 칩주 동반 반등",
-   "url": "https://www.tradingkey.com/analysis/stocks/more/262303508-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-amd-avgo-tradingkey",
-   "press": "TradingKey",
-   "at": "2026-11-13 10:45",
-   "why": "닛케이(일본 0%·바닥 신호 대기)와 한국 반도체 ETF 관찰 — 메모리 상류가 엔비디아 사람 문제와 분리되는지",
-   "summary": "키옥시아 +5% 넘게, 삼성·하이닉스 +3%대, AMD·AVGO 대체 수혜 해석. 닛케이 한때 +900엔."
-  },
-  {
-   "title": "아시아 증시, 기술주 급락 뒤 일부 회복",
-   "url": "https://www.marketscreener.com/news/asia-stocks-recover-some-ground-after-tech-rout-update-ce785cdad98cf026",
-   "press": "MarketScreener(다우존스)",
-   "at": "2026-11-13 09:45",
-   "why": "🐻 코스피·🇯🇵 닛케이 — 엔비디아 CEO 퇴진 충격 뒤 아시아 반등 흐름, 한국 +2% 출발과 같은 방향",
-   "summary": "엔비디아발 기술주 매도 뒤 아시아 주요 지수 일부 회복 · 한국 코스피 개장 +2.05%(5,452)·09:33 +2.39%(daily-app)"
   }
  ],
- "at": "2026-11-16 12:40"
+ "at": "2026-11-16 14:40"
 }
