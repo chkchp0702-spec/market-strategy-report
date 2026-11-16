@@ -1,5 +1,5 @@
 {
- "at": "2026-11-17 00:40",
+ "at": "2026-11-17 01:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "kwusa/61751": {
@@ -57,11 +57,6 @@
    "why": "SemiAnalysis AI 컴퓨팅 수요 전망 하향·2028 설비투자 −30% 가까이(중국언론 전재) — 메모리 공급 과잉(키움)에 이은 수요 쪽 하향, 091160·가설 「AI 안에서도 갈린다」",
    "at": "2026-11-16 21:45"
   },
-  "n/W14RlBPRFFJcFFiN3R6em84MXdKT0w0amJpSDlRbnEyYmExQ3VDVGljdwoc5": {
-   "lv": 1,
-   "why": "IEA 「걸프 수출 회복으로 공급 과잉 복귀」 — 바레인 공격에도 브렌트 92.87$(−3.1%), 장부 조건 brent_95 아래·💬 18번",
-   "at": "2026-11-16 21:45"
-  },
   "n/httpswwwcnbccom20261116nvidiacommercechinalutnickhtml": {
    "lv": 1,
    "why": "美 상무부 제3국 우회 원격 컴퓨팅 차단 — 엔비디아 실적 전날 중국 매출 더 좁아짐(가설 ④·Q2)",
@@ -72,115 +67,20 @@
    "why": "비트코인 6.2만$ 청산 연쇄·MSTR −7.6% — 美 개장 1시간 S&P −1.25%·SOXX −5.0%와 동반, 🫧 「현금 도피」 판정·ideas 「비트코인 연저점 → 나스닥 D+1」",
    "at": "2026-11-17 00:40"
   },
-  "n/tpswwwcnbccom20261115bahrainirandroneattackstehranusbasehtml": {
-   "lv": 2,
-   "why": "이란 「바레인 美 기지 공격」 — 주말 트럼프 「새 도발 없으면 공격 중단」의 전제가 깨짐, 월요일 브렌트(장부 brent_95·에너지 칸)·💬 18번 유가",
-   "at": "2026-11-15 22:45"
-  },
-  "HANAchina/72168": {
-   "lv": 1,
-   "why": "BofA 하트넷 「강달러가 유동성 충격 — 진입 조건 3개 모두 미충족, 달러 정점 2~3월·금리 인상 끝 4월 FOMC로 연기」 — 원/달러 watch·🐻 코스피 다시 사기 시점·💬 16번",
-   "at": "2026-11-15 23:45"
-  },
-  "n/0261115bessentsaysnvidianeedsdramaticshakeupafterhuangouster": {
-   "lv": 1,
-   "why": "베선트 재무장관 「엔비디아 극적 쇄신 필요」 — 11/17 실적 앞 정부 압박, 반도체 칸·AI 차입 가설",
-   "at": "2026-11-16 00:45"
-  },
-  "n/20261115housechairmansayshuangagreestotestifybutnodatesetyet": {
-   "lv": 1,
-   "why": "엔비디아 실적(11/17) 앞 정치 리스크 — 황 의회 증언 동의(날짜 미정), 반도체 칸·🐻 나스닥 조정 판정과 이어짐",
-   "at": "2026-11-16 02:45"
-  },
-  "n/URhbTRzV0RjbXNuZjZSMUdBN2tNUFlFaGw1WHk4eFNvajhlOFBsYU9oZwoc5": {
-   "lv": 1,
-   "why": "삼성SDI 美 ESS LFP 수조원 수주 — 「AI 데이터센터 전력」 상류 테마(현금 도는 상류 0.6)와 코스피 2차전지 칸",
-   "at": "2026-11-16 08:45"
-  },
-  "n/0261116morganstanleymaxoverweightglobalstocksonintactaicycle": {
-   "lv": 1,
-   "why": "모건스탠리 글로벌 주식 「최대 비중확대」 — 「업종 갈아타기」 가설(0.5)·S&P 정상 판정 쪽 근거",
-   "at": "2026-11-16 11:40"
-  },
-  "kimu_nim/49051": {
-   "lv": 1,
-   "why": "반도체 −6% 급락의 또 다른 재료 — 美 D램 3사 가격 담합 소송(3번째) 지적 · 「AI 차입·신용」 다음 약한 고리 논점·반도체 칸 7%와 연결",
-   "at": "2026-11-16 13:40"
-  },
-  "n/2lYLWlDYV9uTHc4Y19hdnBDUE5NM2hWYTBMX081NTRZTjE1Y2NYQzQwdwoc5": {
-   "lv": 1,
-   "why": "닛케이 오후 6만 엔 하회·AI주 낙폭 확대 — 한국만이 아닌 아시아 AI 정리, 일본 닮은 장 칸 0% 유지 근거",
-   "at": "2026-11-16 13:40"
-  },
-  "n/V0MS0tLWp2bzFVZjdnS1M0c2RsVlRXQm5aSTRfZzJuOUUzQWNSVWY4VFEoc5": {
-   "lv": 1,
-   "why": "「앤트로픽 상장 수급 공포」 — 공모 자금 마련용 삼전·하닉 2차 매도 우려, 반도체 −7.6%·💬 5번(앤트로픽 상장)과 직결",
-   "at": "2026-11-16 14:40"
-  },
-  "n/Eb0FGdE90czlqUkQ1RU9rNEdtZnRqLXZMZVJUQmx2bzhjaTVDZ0FFMXVroc5": {
-   "lv": 1,
-   "why": "외국인 국내 증권자금 137억 달러 순유출 — 주식 유출 확대·채권은 순유입 전환, 코스피 0%·💬 7번 「AI 비중 줄이기」 근거",
-   "at": "2026-11-16 14:40"
-  },
-  "n/VBdFRrLW1OWFVLWkM5NngxenBfQ25fU3RJTDNuWGtUNFFhbkgyTzYxOUEoc5": {
-   "lv": 2,
-   "why": "코스피 −3.59% 5,100.5 마감·삼전 −5%·하닉 −7% — 하락장 계기판(주식 0%) 확인, 11/9 저점 5,019까지 1.6% · 💬 5·8·10번",
-   "at": "2026-11-16 15:40"
-  },
-  "n/staiwanstocksloweratcloseoftradetaiwanweighteddown5745028408": {
-   "lv": 1,
-   "why": "대만 가권 −5.74% 마감 — 한국만이 아닌 아시아 AI 칩 정리, 「업종 갈아타기」(0.5) vs 「현금 도피」 판정 근거",
-   "at": "2026-11-16 15:40"
-  },
-  "n/httpskrinvestingcomnewsanalystratingsarticle93CH2176772": {
-   "lv": 1,
-   "why": "CLSA 엔비디아 하향(경영진 교체 우려·목표 255달러) — 11/17 실적 앞 반도체 칸·SOX 대결",
-   "at": "2026-11-16 15:40"
-  },
-  "n/0tCOUt4SjJfUTJFLUhEYUtOb2hhSnBsYi1lOW1nVEpDbDZ1b2kxdFp1dwoc5": {
-   "lv": 1,
-   "why": "美 10년 5% 복귀 — 장부 watch 「美10년 5.00%」·12/9 FOMC 분수령 가설과 직결, 금리 오르며 기술주 하락이면 「현금 도피」 쪽 신호",
-   "at": "2026-11-16 16:40"
-  },
   "n/tutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
    "lv": 1,
    "why": "트럼프, 엔비디아·아마존·MS 등 AI 기업 「국가 대표 기업」 지정 검토 — 11/17 엔비디아 실적 앞 정책 지지, 반도체 칸·「AI 안에서도 갈린다」(0.6)",
    "at": "2026-11-16 17:40"
   },
-  "n/W04UXRzZ25velJqU2tUTEdxUHJTOFJfWnJ4NG1Fa0o3ajVDSW1neTFJQQoc5": {
+  "n/tm_mediumpartnerutm_campaignsubspartneryahoofinanceAItsrcrss": {
    "lv": 1,
-   "why": "가설 ① AI 차입(크레딧) — 연준이 AI를 금융안정 1위 위험으로·데이터센터 부채 급증, 🫧 버블 경보판 신용 칸",
-   "at": "2026-11-16 18:40"
+   "why": "엔비디아 실적(11/17) 전 CEO 공백 변수 — 황 복귀 캠페인에 트럼프 지지(야후). 한국 반도체·SOXX 실적 D+1 되돌림 관찰과 직결",
+   "at": "2026-11-17 01:45"
   },
-  "n/261116asiandatacenterloansyndicationisdelayedinraredealpause": {
+  "n/Mzd1Z4TUxQOElVaXc3OXhJT0piYWRlNkdNX1RLU0lJX0UxRENqLTNDS2coc5": {
    "lv": 1,
-   "why": "가설 ① — 말레이시아 데이터센터 4.88억$ 대출 신디케이션 지연(블랙스톤 QTS 축소에 이은 두 번째 DC 자금 차질)",
-   "at": "2026-11-16 18:40"
-  },
-  "n/tnewsjensenhuangmayreturnasnvidiachiefexecutivereport5028097": {
-   "lv": 1,
-   "why": "황 CEO 복귀 가능 보도 — 11/17 엔비디아 실적 앞 반도체 칸·💬 3번, 회복 쪽 재료(이사회 확인 전)",
-   "at": "2026-11-16 19:45"
-  },
-  "n/kJXSFdfT3FRWXRNdE5WUk1tZVFHN0RHM3BTYXZ3WHpKM2ZmT2ZBWmtSdwoc5": {
-   "lv": 1,
-   "why": "골드만 홍콩 「비중확대」 상향·A주 「중립」 하향 — 닮은 장 규칙 H주 50%·상해 33% 칸과 같은 방향",
-   "at": "2026-11-16 19:45"
-  },
-  "n/httpwwwedailycokrnewsnewspathaspnewsid03749046645646376": {
-   "lv": 1,
-   "why": "TSMC 프리마켓 −4.05%·엔비디아 160$ 아래 — 실적(11/17) 하루 전 칩 공급망 동반 매도, 091160·💬 2·8번·「업종 갈아타기 vs 현금 도피」",
-   "at": "2026-11-16 22:45"
-  },
-  "n/espiteevercores2500targetmicronandwesterndigitaldrop6tsrcrss": {
-   "lv": 1,
-   "why": "샌디스크 −7%·마이크론·WDC −6% — 메모리 상류도 같이 매도, 하이닉스 11/17 D+1 갈림길",
-   "at": "2026-11-16 23:40"
-  },
-  "n/his401ktocashthenwouldhavemisseda515rallyheresthemathtsrcrss": {
-   "lv": 1,
-   "why": "헤지펀드 레버리지 축소 속도 2020년 3월 이후 최대 — 강제 매도 끝무렵 신호 후보(🫧 현금 도피 판정)",
-   "at": "2026-11-16 23:40"
+   "why": "골드만 美 10년 내년 말 4.6% — 지금 5%대에서 「고금리 정점」 가설·현금·단기채 칸(us10y_band20)과 채권 답(15번) 근거",
+   "at": "2026-11-17 01:45"
   }
  }
 }

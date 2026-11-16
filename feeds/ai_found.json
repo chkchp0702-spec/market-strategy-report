@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 증시, 엔비디아 실적·고용 지표 앞두고 매도 재개 — 다우·S&P·나스닥 하락(라이브)",
+   "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-nasdaq-sp-500-wobble-as-investors-look-ahead-to-nvidia-earnings-jobs-report-011944169.html",
+   "press": "Yahoo Finance",
+   "at": "2026-11-17 01:45",
+   "why": "나스닥 칸(조정)·🫧 현금 도피 판정 — 실적 전날 매도 재개의 성격(갈아타기 vs 도피)",
+   "summary": "엔비디아 실적(11/17)·고용 지표 대기 속 매도 재개. daily-app 01:23 S&P 7,487(−0.99%)·나스닥 24,785.82(−1.39%)·SOXX −3.69%(00:33 −5.0%에서 되돌림), 방어주(외식·보험·생활용품) +1%대."
+  },
+  {
+   "title": "젠슨 황, 이사회 조사 속 엔비디아 회의 복귀 보도",
+   "url": "https://www.outlookindia.com/international/jensen-huang-nvidia-china-intelligence-operation-board-investigation-240000-chip-shipments-alice-huang",
+   "press": "Outlook India",
+   "at": "2026-11-17 01:45",
+   "why": "엔비디아 CEO 공백이 실적 D+1 반도체(SOXX·091160) 방향을 가르는 변수",
+   "summary": "황의 회의 복귀·이사회 조사 진행 보도(게재 날짜·세부 미확인). 같은 날 야후는 「트럼프 지지 속 황 복귀 캠페인 확산」 보도 — 이사회 공식 결정은 미확인."
+  },
+  {
    "title": "비트코인, 청산 연쇄로 6.2만 달러까지 밀린 뒤 소폭 반등",
    "url": "https://www.cnbc.com/2026/11/16/bitcoin-slides-to-62000-following-liquidation-cascade-then-rebounds-slightly.html",
    "press": "CNBC",
@@ -623,22 +639,6 @@
    "at": "2026-11-14 02:40",
    "why": "「닷컴 3막」 가설 — 시장 폭 약화 경고, 반면 오늘 밤 498종목 중 252 상승으로 폭은 반반",
    "summary": "더블라인 군드라크가 시장을 「속 빈 나무」로 표현 · 약세가 빅테크 밖으로 확산 중이라는 주장 · 세부 숫자는 원문 확인 필요(미확인)"
-  },
-  {
-   "title": "콜린스 보스턴 연은 총재 「추가 금리 인상 곧 적절」",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-collins-says-inflation-fight-trumps-housing-woes",
-   "press": "Bloomberg",
-   "at": "2026-11-14 01:35",
-   "why": "12/9 FOMC 인상 폭·「2018 경로」 가설 — 美 10년 5.05% 이틀째 판정",
-   "summary": "물가 압력이 넓어지고 있어 추가 인상이 곧 필요(블룸버그). PPI 뒤 10년 5.15%(구글뉴스)."
-  },
-  {
-   "title": "네비우스 −13%(베어드·BofA 목표가 하향), 코어위브 −11%",
-   "url": "https://247wallst.com/investing/2026/11/13/nebius-sinks-13-as-baird-and-bofa-slash-price-targets-over-data-center-delays-coreweave-tumbles-11-nvidia-falls-4/",
-   "press": "24/7 Wall St.(야후)",
-   "at": "2026-11-14 01:35",
-   "why": "빚으로 짓는 네오클라우드 — 「AI 차입이 약한 고리」 가설·🫧 신용 경보",
-   "summary": "데이터센터 지연으로 목표가 하향, 네비우스 111.34달러(−13%)·한 달 −46%. 코어위브 −11%, 엔비디아 −4%."
   }
  ],
  "at": "2026-11-16 22:45"
