@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "중국 10월 산업생산·소매판매·투자 모두 예상 하회 — 경기 둔화 심화",
+   "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
+   "press": "CNBC",
+   "at": "2026-11-16 11:40",
+   "why": "상해 33%·H주 50% 칸 — 지표 쇼크인데 홍콩은 +1% 가까이(부양 기대)",
+   "summary": "산업생산 +4.8%(예상 +5.3%) · 소매판매 +0.4%(예상 +0.8%) · 1~10월 고정투자 −8.1%(예상 −7.0%) · 부동산 개발투자 −21.6% (하나중국 정리)"
+  },
+  {
+   "title": "모건스탠리, 글로벌 주식 「최대 비중확대」 — AI 설비투자 사이클 유효",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-16/morgan-stanley-max-overweight-global-stocks-on-intact-ai-cycle",
+   "press": "Bloomberg",
+   "at": "2026-11-16 11:40",
+   "why": "엔비디아 실적 전 아시아 급락과 반대되는 IB 판단 — S&P 정상 판정·해외 ETF 칸 유지 근거",
+   "summary": "AI 설비투자 사이클이 내년까지 경기·이익 성장을 받친다며 글로벌 주식 최대 비중확대 권고"
+  },
+  {
+   "title": "HSBC, 엔비디아 목표가 반토막 — 「정식 CEO 올 때까지 고전」",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YdUdPNks5MDBUd1lBbDhzSUFKWF84Vkp1cjEtSlR5Y2ptOG5IaHpEODBNREl4c0FfS2RETW14WUprWWQyQ3NXaVY2YmtBbjlGXzBlcEc1N0x4eHdZVUlTY0pBTktyS1ptajRIc2I0NkI?oc=5",
+   "press": "연합인포맥스",
+   "at": "2026-11-16 11:40",
+   "why": "11/17 엔비디아 실적 직전 한국 반도체 −4% 배경 — 반도체 칸 2%·091160 관찰",
+   "summary": "젠슨 황 공백을 이유로 목표가 대폭 하향(세부 숫자 미확인) · 같은 날 황 복귀 검토 보도도 나옴"
+  },
+  {
    "title": "닛케이, 일본 3분기 GDP 깜짝 역성장 뒤 하락 출발 — 엔비디아 실적·앤스로픽 상장 주간 시작",
    "url": "https://mlq.ai/news/nikkei-opens-lower-after-japans-surprise-contraction-as-asia-starts-a-week-of-nvidia-results-and-the-anthropic-ipo/",
    "press": "MLQ.ai",
@@ -615,30 +639,6 @@
    "at": "2026-11-13 08:45",
    "why": "규제 강화면 AMD·브로드컴 「대체 수혜」도 중국 매출에선 같이 막힘 — 갈아타기 bet 근거 점검용",
    "summary": "스캔들이 H200 등 대중 판매 허가 논쟁을 다시 키움. 상원 초당파 서한 「수출 허가 중단」 요구 흐름과 연결."
-  },
-  {
-   "title": "채권 금리, 2022년 이후 최대 급등 — 연준 추가 인상 기대 확산",
-   "url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195",
-   "press": "MarketWatch",
-   "at": "2026-11-13 07:45",
-   "why": "고금리 정점 가설 역풍 · 12/9 FOMC 분수령 · 해외 포트 채권형 칸",
-   "summary": "워시 의장의 조용한 소통 방식이 금리 변동성을 키웠다는 지적. 10년 5.1%대 마감(재무부 11/12 5.10%)."
-  },
-  {
-   "title": "앤스로픽 IPO, 약 6배 초과 청약",
-   "url": "https://www.iposcoop.com/?p=39729",
-   "press": "Bloomberg(보도)·IPO Scoop(공모 조건)",
-   "at": "2026-11-13 07:45",
-   "why": "AI 심리 시험대 — 엔비디아 CEO 사임에도 공모 수요 강함, 11/17 엔비디아 실적 뒤 상장",
-   "summary": "블룸버그 「공모 약 6배 초과 청약」(11/12). 공모 조건은 IPO Scoop 기준 약 610억 달러 규모."
-  },
-  {
-   "title": "美 증시 엔비디아 하락에 약세 마감 — S&P −0.35%·10년 5.125%·브렌트 96.10",
-   "url": "https://www.tipranks.com/news/u-s-market-ends-lower-as-nvidias-stock-falls",
-   "press": "TipRanks",
-   "at": "2026-11-13 06:45",
-   "why": "지수는 대장주 단독 충격(−0.4%)에 그침 vs 10년·유가 동반 상승 — 12/9 분수령·고금리 가설 직결",
-   "summary": "S&P500 −0.35%·다우 −0.36%·나스닥 −0.39%, 엔비디아 −4%. 브렌트 +4% 96.10달러·WTI 89달러 안팎. 10년 5.125% 마감(수 주 만 최고)."
   }
  ],
  "at": "2026-11-16 10:40"
