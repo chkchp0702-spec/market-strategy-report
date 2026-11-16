@@ -1,8 +1,8 @@
 {
- "at": "2026-11-13T03:00",
+ "at": "2026-11-16T02:29",
  "log": {
   "px": {
-   "rows": 10921,
+   "rows": 10923,
    "cols": [
     "^KS11",
     "^KQ11",
@@ -47,7 +47,7 @@
    ]
   },
   "kr_investor": {
-   "rows": 5156,
+   "rows": 5158,
    "cols": [
     "date",
     "mk",
@@ -57,10 +57,10 @@
     "details"
    ],
    "first": "2016-05-13",
-   "last": "2026-11-13"
+   "last": "2026-11-16"
   },
   "kr_fund": {
-   "rows": 13242,
+   "rows": 13244,
    "cols": [
     "date",
     "idx",
@@ -70,10 +70,10 @@
     "div"
    ],
    "first": "2000-01-04",
-   "last": "2026-11-13"
+   "last": "2026-11-16"
   },
   "kr_kofia_funds": {
-   "rows": 7235,
+   "rows": 7236,
    "cols": [
     "date",
     "TMPV2",
@@ -84,10 +84,10 @@
     "TMPV7"
    ],
    "first": "19980618",
-   "last": "20261111"
+   "last": "20261112"
   },
   "kr_kofia_credit": {
-   "rows": 7236,
+   "rows": 7237,
    "cols": [
     "date",
     "TMPV2",
@@ -100,7 +100,7 @@
     "TMPV9"
    ],
    "first": "19980130",
-   "last": "20261111"
+   "last": "20261112"
   },
   "kr_deposit": {
    "rows": 60,
@@ -118,8 +118,8 @@
     "beneficiaryCertificateBond",
     "beneficiaryCertificateBondDiff"
    ],
-   "first": "20260813",
-   "last": "20261111"
+   "first": "20260814",
+   "last": "20261112"
   },
   "us_multpl": {
    "rows": 3743,
@@ -159,7 +159,7 @@
     "平均市盈率"
    ],
    "first": "1999-01-29",
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "cn_pe_sz": {
    "rows": 348,
@@ -169,7 +169,7 @@
     "平均市盈率"
    ],
    "first": "1997-12-31",
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "cn_pb_sh": {
    "rows": 263,
@@ -181,7 +181,7 @@
     "市净率中位数"
    ],
    "first": "2005-01-31",
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "cn_pe_all": {
    "rows": 263,
@@ -200,7 +200,7 @@
     "quantileInRecent10YearsMiddlePeLyr"
    ],
    "first": "2005-01-31",
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "cn_pb_all": {
    "rows": 263,
@@ -215,10 +215,10 @@
     "quantileInRecent10YearsEqualWeightAveragePB"
    ],
    "first": "2005-01-31",
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "cn_ebs": {
-   "rows": 5242,
+   "rows": 5243,
    "cols": [
     "日期",
     "沪深300指数",
@@ -226,10 +226,10 @@
     "股债利差均线"
    ],
    "first": "2005-04-08",
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "cn_buffett": {
-   "rows": 5245,
+   "rows": 5246,
    "cols": [
     "日期",
     "收盘价",
@@ -237,7 +237,7 @@
     "GDP"
    ],
    "first": "2005-04-08",
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "cn_margin_sse": {
    "rows": 2000,
@@ -250,25 +250,14 @@
     "融券卖出量",
     "融资融券余额"
    ],
-   "first": "20180813",
-   "last": "20261112"
+   "first": "20180814",
+   "last": "20261113"
   },
   "cn_margin_macro": {
-   "rows": 4027,
-   "cols": [
-    "日期",
-    "融资买入额",
-    "融资余额",
-    "融券卖出量",
-    "融券余量",
-    "融券余额",
-    "融资融券余额"
-   ],
-   "first": "2010-03-31",
-   "last": "2026-11-05"
+   "err": "AttributeError: macro_china_market_margin_sh 已在 1.20.48 更名为 stock_margin_sse_js，请改用 ak.stock_margin_sse_js；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_margin_sse_js\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
   },
   "cn_north": {
-   "rows": 2788,
+   "rows": 2789,
    "cols": [
     "日期",
     "当日成交净买额",
@@ -284,10 +273,10 @@
     "沪深300-涨跌幅"
    ],
    "first": "2014-11-17",
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "hk_south": {
-   "rows": 2750,
+   "rows": 2751,
    "cols": [
     "日期",
     "当日成交净买额",
@@ -303,7 +292,7 @@
     "沪深300-涨跌幅"
    ],
    "first": "2014-11-17",
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "cn_csi300_pe": {
    "rows": 260,
@@ -318,7 +307,7 @@
     "滚动市盈率中位数"
    ],
    "first": "2005-04-29",
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "cn_csi300_pb": {
    "rows": 260,
@@ -330,7 +319,7 @@
     "市净率中位数"
    ],
    "first": "2005-04-29",
-   "last": "2026-11-12"
+   "last": "2026-11-13"
   },
   "hk_hsi_val": {
    "err": "RuntimeError: 빈 표"
