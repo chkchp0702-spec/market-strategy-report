@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "HSBC, 문제 생긴 뉴멕시코 데이터센터 대출 약 3억 달러를 큰 할인에 매각",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-16/hsbc-sold-300-million-troubled-data-center-loan-at-discount",
+   "press": "Bloomberg",
+   "at": "2026-11-17 07:45",
+   "why": "가설 ①(AI 차입이 다음 약한 고리) — 은행이 DC 대출을 손해 보고 털기 시작 · 🫧 버블 경보판 신용 칸",
+   "summary": "HSBC가 뉴멕시코 데이터센터 건설 대출 중 약 3억 달러 몫을 큰 할인에 매각(블룸버그 11/16). 할인율은 미확인. 블랙스톤 QTS 채권 축소·말레이 DC 대출 지연에 이은 DC 자금 차질 세 번째."
+  },
+  {
+   "title": "정체불명 매도자, 중간선거 직후 데이터센터 대출 5억 달러 경매",
+   "url": "https://runtimewire.com/article/mystery-seller-500m-data-center-loans-stargate-cyrusone",
+   "press": "Runtime Wire",
+   "at": "2026-11-17 07:45",
+   "why": "가설 ① 근거 — DC 대출 2차 시장 매물 증가(스타게이트·사이러스원 관련)",
+   "summary": "약 5억 달러 규모 데이터센터 대출이 경매에 나옴(스타게이트·CyrusOne 관련 보도). 날짜·가격은 원문 기준, 세부 미확인."
+  },
+  {
    "title": "골드만삭스 「AI 매도는 청산이 아니라 업종 갈아타기」",
    "url": "https://cryptobriefing.com/goldman-sachs-ai-unwind-rotation-not-liquidation/",
    "press": "Crypto Briefing",
@@ -623,23 +639,7 @@
    "at": "2026-11-14 10:45",
    "why": "「AI 안에서도 갈린다」·11/17 엔비디아 실적 — 후임 공백이 길면 SOXX·하이닉스 변동성 연장",
    "summary": "디인포메이션 「엔비디아 이사회가 외부 헤드헌터로 후임 물색」 보도. 일본 매체는 Arm 하스 CEO 접촉설(미확인). 크레스 임시 CEO 체제로 11/17 첫 실적."
-  },
-  {
-   "title": "군드라크 「미국 주식은 속 빈 나무 — 겉은 고요, 속은 썩어 꺾일 준비」",
-   "url": "https://www.itiger.com/news/1152395762",
-   "press": "타이거브로커스(itiger)",
-   "at": "2026-11-14 09:45",
-   "why": "🫧 버블 경보판·「닷컴 3막」 가설 — 약세가 빅테크 밖으로 번지는지(폭 좁음) 반대 근거, 하트넷 위험 회피와 같은 쪽",
-   "summary": "더블라인 군드라크가 약세가 빅테크 밖으로 번지고 있다며 시장을 「속 빈 나무」로 비유. 골드만 S&P +14%(하이퍼스케일러 저평가) 전망과 정면으로 엇갈림."
-  },
-  {
-   "title": "삼성전자 인수 협상 보도에 모딘 주가 2020년 이후 하루 최대 상승",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/modine-shares-gain-most-in-six-years-after-samsung-buyout-talks",
-   "press": "Bloomberg",
-   "at": "2026-11-14 08:45",
-   "why": "「AI 안에서도 갈린다」 가설 — 현금 많은 삼성이 데이터센터 냉각(삽 장수)을 사러 감 · 💬 2번 답(삼성전자)",
-   "summary": "데이터센터 냉각 업체 모딘(MOD)이 삼성전자 인수 협상 보도 뒤 2020년 이후 하루 최대 상승. 삼성은 2025년 독일 플렉트그룹(약 15억 유로) 인수에 이어 냉각 사업 확장."
   }
  ],
- "at": "2026-11-17 04:40"
+ "at": "2026-11-17 07:45"
 }

@@ -1,5 +1,5 @@
 {
- "at": "2026-11-17 06:40",
+ "at": "2026-11-17 07:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "kwusa/61751": {
@@ -72,19 +72,9 @@
    "why": "워시 연준 의장 「AI 기대 못 미칠 수도」 — 🫧 신용 경보·가설 ① AI 빚·나스닥 칸(조정)",
    "at": "2026-11-17 02:40"
   },
-  "n/261116huangsousterfuelsdoubtsaboutnvidiassupportforneoclouds": {
-   "lv": 1,
-   "why": "가설 ①·④ — 황 퇴진이 엔비디아의 네오클라우드 뒷배(코어위브 등) 의문으로 번짐 = AI 빚 쪽 신용 칸 근거",
-   "at": "2026-11-17 03:45"
-  },
   "kimu_nim/49114": {
    "lv": 1,
    "why": "메모리 사이클 정점 가설 — SemiAnalysis 가속기 27년 −19%·28년 −28%·28년 HBM −30%(원문 미확인) → 하이닉스·반도체 칸·091160 직격",
-   "at": "2026-11-17 05:40"
-  },
-  "n/lKdFVQNjF2dllScnlUY3B4YzhscHUzM0tOZlB0VklHY1hBVEtxeExjYUEoc5": {
-   "lv": 1,
-   "why": "반대 근거 — 골드만 「美 기술주 매도 끝 무렵」 vs 버리 나스닥 숏 확대: 「업종 갈아타기 0.5」 가설 양쪽 근거",
    "at": "2026-11-17 05:40"
   },
   "n/g5a0VPX1BnVWdUU3UtVHM0M1owOHlaZWhqUHhackw4cGZINFdiLWJCRksoc5": {
@@ -92,10 +82,15 @@
    "why": "🫧 현금 도피 판정 — 필라델피아 반도체 −5%(3일째)로 반도체 조건은 닿음, 방어주 부호가 갈림 · 엔비디아 실적 11/18 아침",
    "at": "2026-11-17 06:40"
   },
-  "n/f4318d98b9fae6150d7fe4tyson2Cstarbucksleadthes26phtmltsrcrss": {
+  "n/es20261116hsbcsold300milliontroubleddatacenterloanatdiscount": {
    "lv": 1,
-   "why": "🫧 마감 방어주(타이슨·스타벅스)가 S&P·나스닥100 선두 — 「현금 도피」 아닌 「갈아타기」 판정 근거",
-   "at": "2026-11-17 06:40"
+   "why": "가설 ①(AI 차입) — 은행이 DC 대출을 할인 매각, 🫧 신용 칸 근거",
+   "at": "2026-11-17 07:45"
+  },
+  "n/hqUFdPM0VwVHhiNjlUZEdOdUJUSDFiUkltanVJVEdKWGlxVXFybTZsdEcoc5": {
+   "lv": 1,
+   "why": "에너지 칸 — WTI 3개월 최저(85.05), 브렌트 91.85로 축소 선 85에 다가감",
+   "at": "2026-11-17 07:45"
   }
  }
 }
