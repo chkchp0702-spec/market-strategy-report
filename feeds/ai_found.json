@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아 승계 계획, 11/17 실적 콜의 핵심 — 가이던스 1,080억 달러 거론",
+   "url": "https://tech-insider.org/nvidia-succession-plan-earnings-call-nov-17-108-billion-guidance-2026/",
+   "press": "Tech Insider",
+   "at": "2026-11-16 19:45",
+   "why": "11/17 엔비디아 실적 — 반도체 칸·💬 3번, 「임시 CEO 첫 실적」 갈림길",
+   "summary": "제목 기준: 실적 콜에서 승계 계획이 핵심 변수, 다음 분기 매출 가이던스 약 1,080억 달러 거론. 본문 숫자 미확인."
+  },
+  {
+   "title": "엔비디아 이사회는 젠슨 황에게 사로잡혀 있었나",
+   "url": "https://fortune.com/2026/11/11/nvidia-board-directors-jensen-huang-captive-board/",
+   "press": "Fortune",
+   "at": "2026-11-16 19:45",
+   "why": "황 복귀 보도(11/16 저녁)의 반대편 — 이사회 지배구조 논란, 복귀 시 규제·소송 리스크",
+   "summary": "이사회 독립성 문제 제기(11/11). 세부 숫자 미확인."
+  },
+  {
    "title": "IMF 게오르기에바 「세계 경제는 한 발로 서 있다」 — AI 기업 간 순환 금융 1조 달러 넘어",
    "url": "https://www.cnbc.com/2026/11/16/imf-georgieva-warning-ai-circular-financing.html",
    "press": "CNBC",
@@ -623,22 +639,6 @@
    "at": "2026-11-13 16:45",
    "why": "「고금리 정점」 가설·12/9 FOMC 분수령 — 연준 핵심 인사가 금리 상승을 용인",
    "summary": "윌리엄스 추가 인상 전망, 국채 매도 심화 · 피드(로이터 11/13) 「물가 너무 높다, 할 일 남아」와 같은 흐름 · 기사 게시 시각 미확인"
-  },
-  {
-   "title": "항셍 24,000 하회 출발 — 기술주 약세, 레노버 −6.6%",
-   "url": "https://www.itiger.com/news/1121172575",
-   "press": "Tiger Brokers",
-   "at": "2026-11-13 16:45",
-   "why": "H주 칸(닮은 장 50%) — 엔비디아 사태 뒤 美 칩 규제 강화 우려가 홍콩 기술주로 번짐",
-   "summary": "항셍 24,000 아래로 출발, 기술주가 끌어내림, 레노버 −6.6%(개장 기준) · 마감 무렵 홍콩 매체는 −300포인트·레노버 −8%·알리바바 −4% 보도(피드)"
-  },
-  {
-   "title": "비트코인 50주 이동평균 이탈 — 24시간 롱 청산 10억 달러 넘어",
-   "url": "https://theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102",
-   "press": "The Block",
-   "at": "2026-11-13 15:45",
-   "why": "🫧 버블 경보판 현금 도피 — 코인이 11/9 50주선을 깬 뒤 11/13 6.8만 달러대(연합)로 하락 가속, 금리 압박이 위험자산 끝단부터",
-   "summary": "11/9 비트코인 50주 이동평균 아래로 · 24시간 롱 청산 10억 달러↑ · 11/13 연합 「6만8천달러대 급락·2조원 청산」으로 이어짐"
   }
  ],
  "at": "2026-11-16 18:40"
