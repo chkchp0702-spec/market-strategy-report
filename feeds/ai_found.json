@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "워시 연준 의장 「AI는 경제에 중요하지만 기대에 못 미칠 수도」",
+   "url": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
+   "press": "CNBC",
+   "at": "2026-11-17 02:40",
+   "why": "🫧 신용 경보·가설 ① AI 빚 — 연준 수장이 AI 실망 위험을 공개 언급, 나스닥 칸(조정)",
+   "summary": "11/16 AI 토론회 발언. 같은 시각 daily-app 02:23 나스닥 24,639.97(−1.97%)·S&P 7,455.94(−1.40%) 장중 저점, SOXX −4.53%."
+  },
+  {
+   "title": "일라이 릴리가 엔비디아를 압도 — 비만약 거래가 다시 AI를 이긴다",
+   "url": "https://finance.yahoo.com/markets/article/eli-lilly-is-trouncing-nvidia--and-the-weight-loss-drug-trade-is-beating-ai-again-170530198.html",
+   "press": "Yahoo Finance",
+   "at": "2026-11-17 02:40",
+   "why": "가설 ② 「업종 갈아타기」(AI→방어·헬스케어) 근거 — 헬스케어 칸",
+   "summary": "daily-app 02:23 LLY +0.4%(1,449$)·제약 +0.32%(14↑3↓) vs NVDA −3.4%·반도체 −4.41%."
+  },
+  {
    "title": "美 증시, 엔비디아 실적·고용 지표 앞두고 매도 재개 — 다우·S&P·나스닥 하락(라이브)",
    "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-nasdaq-sp-500-wobble-as-investors-look-ahead-to-nvidia-earnings-jobs-report-011944169.html",
    "press": "Yahoo Finance",
@@ -623,22 +639,6 @@
    "at": "2026-11-14 03:40",
    "why": "가설 「다음 약한 고리는 AI 차입(크레딧)」 0.9 · 11/13 네비우스·코어위브 동반 급락과 이어짐",
    "summary": "11/10 로이터 분석 — 민주당 의회 전환이 AI 데이터센터 차입(회사채·사모 대출)에 규제·조사 부담을 더할 수 있다는 시각 · 세부 숫자는 원문 확인(미확인)"
-  },
-  {
-   "title": "AMD 11% 급락, 브로드컴·인텔 6% 하락 — 반도체 반등 되돌림",
-   "url": "https://247wallst.com/investing/2026/11/13/amd-tumbles-11-broadcom-and-intel-slide-6-as-chip-rally-reverses/",
-   "press": "247 Wall St.",
-   "at": "2026-11-14 02:40",
-   "why": "반도체 칸 7% · 🫧 현금 도피 첫 조건(반도체 −5%↓) — 같은 시각 방어주는 상승이라 「업종 갈아타기」 쪽",
-   "summary": "11/13 AMD −11%·브로드컴·인텔 −6% · daily-app 02:24 SOXX −5.0%·음식료 +1.1% · S&P500 −0.85%"
-  },
-  {
-   "title": "군드라크 「주식시장은 속 빈 나무 — 약세가 빅테크 밖으로 번진다」",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMmRXU1dBQlRlN2ZhNjhvUWVEVFlwa3VDcDQwRExpeUduUU9TM29yb0ZNS2tpWUJXa2RULThCNmh3eElON3JubzZwQ21KNGVhQ1dsalR0UV9vbFhTR09CdzBEb1NueDBjVzctc19aZnhLZUlMU2M2VzZ5enNtTENTYlNlYkRPbEJZT1pPQ1VjMkdmQTlrSGpKS1l3TUhjLVJ1M01lVUdoR21tMGVtMjBtVEN2djhXVjlpU3NKamlzem5WNktBUlkyLWExWUtETU5IbE91b3pxUlV3aWptdVE?oc=5",
-   "press": "구글뉴스(美 시장)",
-   "at": "2026-11-14 02:40",
-   "why": "「닷컴 3막」 가설 — 시장 폭 약화 경고, 반면 오늘 밤 498종목 중 252 상승으로 폭은 반반",
-   "summary": "더블라인 군드라크가 시장을 「속 빈 나무」로 표현 · 약세가 빅테크 밖으로 확산 중이라는 주장 · 세부 숫자는 원문 확인 필요(미확인)"
   }
  ],
  "at": "2026-11-16 22:45"
