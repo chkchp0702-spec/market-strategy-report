@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "골드만삭스 「AI 매도는 청산이 아니라 업종 갈아타기」",
+   "url": "https://cryptobriefing.com/goldman-sachs-ai-unwind-rotation-not-liquidation/",
+   "press": "Crypto Briefing",
+   "at": "2026-11-17 05:40",
+   "why": "「업종 갈아타기 vs 현금 도피」 가설(0.5) 판정 — 골드만은 갈아타기 쪽",
+   "summary": "골드만은 AI 매도를 포지션 회전으로 해석(날짜 미확인). 같은 날 피드에 골드만 「美 기술주 매도 끝 무렵일 수 있다」 보도."
+  },
+  {
+   "title": "마이클 버리, AI 숏 확대 — 반도체·나스닥 ETF 풋 추가",
+   "url": "https://www.kucoin.com/news/flash/michael-burry-expands-ai-short-bets-adds-semiconductors-and-nasdaq-etfs",
+   "press": "KuCoin News",
+   "at": "2026-11-17 05:40",
+   "why": "반도체 칸·SOXX — 「내년 반도체 하락」 쪽 대표 반대 목소리",
+   "summary": "버리가 반도체·나스닥 ETF 풋을 늘림(날짜 미확인). 연합인포맥스 11/17 「나스닥 약세 베팅 확대·내년 반도체 하락 전망」과 같은 흐름."
+  },
+  {
    "title": "앤스로픽, 610억 달러 공모 조건 확정 — 희망가 70~78달러·기업가치 약 1.2조 달러",
    "url": "https://www.renaissancecapital.com/IPO-Center/News/122657/anthropic-sets-terms-for-61-billion-ipo-targeting-a-1.2-trillion-market-cap",
    "press": "Renaissance Capital",
@@ -623,22 +639,6 @@
    "at": "2026-11-14 08:45",
    "why": "「AI 안에서도 갈린다」 가설 — 현금 많은 삼성이 데이터센터 냉각(삽 장수)을 사러 감 · 💬 2번 답(삼성전자)",
    "summary": "데이터센터 냉각 업체 모딘(MOD)이 삼성전자 인수 협상 보도 뒤 2020년 이후 하루 최대 상승. 삼성은 2025년 독일 플렉트그룹(약 15억 유로) 인수에 이어 냉각 사업 확장."
-  },
-  {
-   "title": "BofA 하트넷 「美 10년 4.5% 아래·유가 70달러까지는 위험 회피 유지」",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYTVsNzB5eFhkZzROd1d4dW5xbUJGa01ZXy1JYkpNMjdhcl9iSGNTd19GX3B3M0VDUXUtM2lyNF9FYXZLTGRGMlA5SFZpZ3paUXRmV2dvSTBGcFR5VEV6RTI5alU5SWJRakFZZ3g0WGFsbzc0a1JXcmR3YVRmOXJuZ29HV1dhREN0MXRfc3hKNA?oc=5",
-   "press": "Motley Fool(야후 전재)",
-   "at": "2026-11-14 08:45",
-   "why": "「12/9 2018 분수령」·美 10년 5% watch — 위험 선호 복귀 조건 두 숫자(10년 4.5%·유가 70)",
-   "summary": "하트넷은 美 10년물 4.5% 하회·유가 70달러 도달 전까지 위험 회피를 권고. 지금 10년 5.1% 안팎·브렌트 90달러대라 두 조건 모두 멀다."
-  },
-  {
-   "title": "美 증시 — 엔비디아 우려 속 나스닥 선물 약세, 앤스로픽 상장 주목(로이터)",
-   "url": "https://www.devdiscourse.com/article/international/4004505-us-stocks-nasdaq-futures-slip-with-nvidia-woes-anthropic-ipo-in-focus",
-   "press": "Devdiscourse(로이터 전재)",
-   "at": "2026-11-14 07:45",
-   "why": "다음 주 두 시험대(11/17 엔비디아 실적·11/18~20 앤스로픽 상장) — 「닷컴 3막」·「AI 안에서도 갈린다」 가설 확인 일정",
-   "summary": "엔비디아 CEO 퇴진 여파로 나스닥 선물 약세 · 앤스로픽 상장이 AI 심리 시험대 · 원문 게시 시각 미확인"
   }
  ],
  "at": "2026-11-17 04:40"
