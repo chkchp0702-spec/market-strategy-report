@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아, 클라우드 고객에 「중국 사업 49% 이하로」 — 임대 우회로 좁힌다",
+   "url": "https://www.tikr.com/blog/nvidia-tells-cloud-clients-to-cap-chinese-business-at-49-narrowing-the-rental-loophole",
+   "press": "TIKR",
+   "at": "2026-11-17 17:40",
+   "why": "엔비디아 실적(한국 11/18 아침) 직전 중국 매출 축소 변수 — 반도체 칸·🐋 NVDA 고래·가설 ④",
+   "summary": "GPU의 50% 넘게를 중국 기업에 빌려주는 데이터센터에는 판매 중단 · 美 상무부 원격 접근 규정과 같은 날 · 동남아 DC·네오클라우드 수요에 부담"
+  },
+  {
+   "title": "ING, 스타게이트 몫 포함 5억 달러 데이터센터 대출 매각 추진",
+   "url": "https://www.ibtimes.com/ing-sells-data-center-loans-stargate-debt-3809516",
+   "press": "IBTimes",
+   "at": "2026-11-17 17:40",
+   "why": "가설 ①(AI 차입 → 크레딧) — 은행이 DC 대출을 덜어내는 흐름, 🫧 신용 경보 칸",
+   "summary": "ING 약 5억 달러 DC 대출 묶음 매각(블룸버그 보도 인용) · 11/17 하나중국 「ING·소시에테제네랄 8억 달러 매물」로 확대 보도 · 은행권 AI 인프라 익스포저 축소"
+  },
+  {
    "title": "코스피 5,000 하회, 엔비디아 실적 앞두고 칩주 패닉 매도 — 삼성전자 −3%·소프트뱅크·키옥시아 −4%대",
    "url": "https://www.tradingkey.com/analysis/stocks/more/262307942-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-nvda-tradingkey",
    "press": "TradingKey",
@@ -623,22 +639,6 @@
    "at": "2026-11-14 23:45",
    "why": "🫧 「AI 차입이 약한 고리」 가설 — 은행 쪽으로 번지는 경로를 연준 계열이 직접 짚음(주말 「대형은행 AI 관련 약 1조 달러」 보도와 같은 방향)",
    "summary": "AI 붐이 꺾일 때 은행 대출·익스포저의 꼬리 위험을 다룬 연은 글(2026, 게시일·세부 숫자 미확인). 같은 주말 「대형은행 AI 관련 약 1조 달러 묶여 — 붐 꺾이면?」(BeInCrypto) 보도."
-  },
-  {
-   "title": "엔비디아 싱가포르 최대 고객 「메가스피드」 — 지금까지 알려진 것",
-   "url": "https://fourweekmba.com/ai-what-we-know-about-megaspeed-the-nvidia-buyer-in-the-probe/",
-   "press": "FourWeekMBA",
-   "at": "2026-11-14 22:45",
-   "why": "WSJ 「싱가포르 매출 사라져」 의혹의 배경 — 中 우회 판매 조사가 커지면 수출 규제 확대 → 반도체 칸·💬 2번 답 하방 꼬리",
-   "summary": "블룸버그 인용 메가스피드의 엔비디아 칩 수입 46억 달러↑ · 2024년 자산 3,300만→30억 달러 · 美 조사 1년 넘게 진행(법무부로 이관 보도)·엔티티 리스트엔 없음 · 싱가포르 경찰 조사 중, 회사는 부인(11/13 갱신)"
-  },
-  {
-   "title": "「엔비디아, 황 후임으로 Arm CEO 르네 하스 거론」 보도",
-   "url": "https://goldesel.de/aktien/news/arm-holdings-adr-aktie-berichte-nennen-rene-haas-als-moglichen-huang-nachfolger",
-   "press": "Goldesel(독일)",
-   "at": "2026-11-14 20:45",
-   "why": "11/17 엔비디아 실적 앞 후임 CEO 윤곽 — 💬 2번 답 「회복」 조건·SOXX·한국 반도체 월요일 방향",
-   "summary": "여러 보도가 Arm 르네 하스를 젠슨 황 후임 후보로 지목(로이터 전재 「직원들은 황 복귀 요구」). 이사회 결정은 미확인."
   }
  ],
  "at": "2026-11-17 13:45"
