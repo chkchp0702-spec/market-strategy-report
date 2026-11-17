@@ -6990,6 +6990,14 @@
 "src": "ins",
 "score": 66.8,
 "note": "기회형 내부자 3명 · 175천 달러 (10일 안 공시)"
+},
+"CGON|2026-11-16|pead": {
+"code": "CGON",
+"name": "CG Oncology, Inc. - Common stock",
+"mkt": "US",
+"d": "2026-11-16",
+"src": "pead",
+"score": 80.0
 }
 },
 "sent": [
