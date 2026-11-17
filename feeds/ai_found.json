@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "TSMC, 2027년부터 칩 가격 최대 10% 인상·CoWoS 최대 20% 검토(닛케이 보도 정리)",
+   "url": "https://aiweekly.co/alerts/tsmc-to-lift-chip-prices-up-to-10-from-2027-nikkei-reports",
+   "press": "AI Weekly(닛케이 인용)",
+   "at": "2026-11-17 15:40",
+   "why": "반도체 칸·가설 ④(현금 도는 칩 상류) — 오늘 공상시보 「10~20%↑ 통보」와 같은 방향, 메모리 하향 기사와 반대 근거",
+   "summary": "닛케이: TSMC가 2027년 첨단·성숙 공정 가격을 최대 10% 올릴 계획. 별도로 CoWoS 패키징 최대 20% 인상 검토(트렌드포스 10/27). 날짜 세부는 미확인."
+  },
+  {
    "title": "연준 매파적 동결이 한은 11월 인상 근거를 키운다(10/29)",
    "url": "https://www.koreatimes.co.kr/economy/20261029/feds-hawkish-hold-strengthens-case-for-boks-hike-in-november",
    "press": "Korea Times",
@@ -623,38 +631,6 @@
    "at": "2026-11-14 20:45",
    "why": "「12/9 2018식 분수령」 가설·10년 5% watch — 블룸버그 「채권 매도 안 끝났다」와 같은 방향",
    "summary": "PPI 뒤 10년물 장중 5.167%까지(기사 제목). 블룸버그 헤드라인도 「급등 한 주 뒤 투자자들 채권 매도 끝나지 않았다 경고」. 종가는 미확인."
-  },
-  {
-   "title": "모닝스타 「엔비디아 실적에서 볼 것 — 스파이 스캔들·데이터센터 우려가 중심」",
-   "url": "https://www.morningstar.com/stocks/what-watch-nvidia-earnings-spy-scandal-data-center-concerns-take-center-stage",
-   "press": "Morningstar",
-   "at": "2026-11-14 19:45",
-   "why": "11/17 엔비디아 실적(임시 CEO 첫 발표) — 🫧 AI 차입·AI 갈림 가설과 SOXX·한국 반도체 월요일 이후 방향",
-   "summary": "모닝스타 프리뷰: 실적 숫자보다 황 퇴진·중국 밀수 의혹(스파이 스캔들)과 데이터센터 수요 우려가 관전 포인트. 다음 분기 매출 전망 약 1,080억 달러 안팎이 거론(tech-insider 제목, 세부 미확인)."
-  },
-  {
-   "title": "앤스로픽 상장 공모가 70~78달러·로드쇼 시작 — 기업가치 약 1.4조 달러",
-   "url": "https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx?type=ipo",
-   "press": "RTTNews",
-   "at": "2026-11-14 19:45",
-   "why": "11/18~20 앤스로픽 상장 — AI 심리 시험대이자 시장 자금 흡수(수급) 변수, 나스닥 🟡 조정 판정과 이어짐",
-   "summary": "주당 70~78달러 밴드로 로드쇼 시작(RTTNews). 상단 기준 기업가치 약 1.4조 달러(INDmoney), 260억 달러 사모 배정 병행 보도(letsdatascience, 미확인)."
-  },
-  {
-   "title": "모닝스타 「젠슨 황 퇴진, AI 업계 거래·자금 조달 늦출 수 있다」",
-   "url": "https://stocktwits.com/news-articles/markets/equity/a-jensen-huang-exit-from-nvidia-could-slow-ai-dealmaking-financing-across-the-industry-morningstar-warns/cNGuhlUR97w",
-   "press": "Stocktwits(모닝스타 인용)",
-   "at": "2026-11-14 14:45",
-   "why": "🫧 「다음 약한 고리는 AI 차입」 가설 — 엔비디아 출자·보증에 기대던 네오클라우드 자금줄 확인",
-   "summary": "모닝스타: 황 CEO는 AI 생태계 투자·거래의 중심 — 퇴진 시 업계 딜·파이낸싱 지연 우려. 11/13 네비우스 −13%·코어위브 −11%와 같은 방향."
-  },
-  {
-   "title": "미·중·러 첫 3자 정상회담 논의 — 서울경제 「19일 개최」 보도",
-   "url": "https://stockanalysis.com/news/trump-putin-xi-trilateral-meeting-talks/",
-   "press": "StockAnalysis·서울경제",
-   "at": "2026-11-14 14:45",
-   "why": "관세·칩 수출 규제·유가(brent_95 조건)와 이어지는 다음 주 일정 — 💬 15번 답",
-   "summary": "트럼프-푸틴-시진핑 첫 3자 회담 논의(스톡애널리시스). 서울경제 11/14 「19일 개최」 보도 — 확정·의제 미확인."
   }
  ],
  "at": "2026-11-17 13:45"
