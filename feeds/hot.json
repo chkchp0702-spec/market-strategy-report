@@ -1,5 +1,5 @@
 {
- "at": "2026-11-17 19:40",
+ "at": "2026-11-17 20:35",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "egzion/6465": {
@@ -72,11 +72,6 @@
    "why": "엔비디아 실적 직전 中 AI 접근 법적 위험 경고 — 반도체 칸·🐋 NVDA 고래 신호·가설 ④와 직결",
    "at": "2026-11-17 16:45"
   },
-  "n/hnologyaiarticlesnvidiahaltchipsalesdata081754255htmltsrcrss": {
-   "lv": 1,
-   "why": "엔비디아 실적 직전 「中 기업에 GPU 절반 넘게 빌려주는 DC엔 판매 중단」 — 반도체 칸·🐋 NVDA 고래·가설 ④, 중국 매출 더 좁아짐",
-   "at": "2026-11-17 17:40"
-  },
   "n/RpUkttX3VQNXhPb3N3UGgtZmNjOS1BMGc4bmdnRXFZY2Y2bENMaGlBTnUoc5": {
    "lv": 1,
    "why": "모건스탠리 「코스피 1만 지속 가능·향후 5년 최고 스토리」 — 🐻 코스피 하락장 판정과 반대편 IB 의견(참고), 외국인 1.4조 매도일",
@@ -92,15 +87,20 @@
    "why": "씨티 「한은 11월 만장일치 25bp 인상」 — 코스피 하락장 중 금리 인상 = 🐻 코스피·채권 답(15번)·환율(16번) 직결",
    "at": "2026-11-17 18:40"
   },
-  "n/ewssamsungandapplenearlongtermdramsupplyagreement93CH5032106": {
-   "lv": 1,
-   "why": "가설 ④·「메모리 사이클 정점」 반대 근거 — 고객사가 장기 D램 물량부터 묶음(삼성·하이닉스 칸)",
-   "at": "2026-11-17 19:40"
-  },
   "n/2LU5TZG5yMEgxVlRycWdKWFBLY28wY3NxX2Q1YmZtQzBwT2IwWWhMOGxZoc5": {
    "lv": 1,
    "why": "모건스탠리 2027 S&P 목표 재설정(한경 8,700) — 기술주 급락 속 美 지수 「정상」 판정 쪽 반대 의견",
    "at": "2026-11-17 19:40"
+  },
+  "n/261117bofasurveyshowsinvestorscuttechexposurebymostsince2006": {
+   "lv": 1,
+   "why": "BofA 11월 FMS 기술주 비중 2006년 이후 최대 축소 — 포지셔닝 극단(역발상) · 가설 ②(갈아타기 vs 현금 도피)·나스닥 칸(조정)·ideas 10/13 FMS 필터",
+   "at": "2026-11-17 20:35"
+  },
+  "n/datacentercurbadvancesdespiteamazongooglemetalobbying5032280": {
+   "lv": 1,
+   "why": "트럼프 中 데이터센터 규제 아마존·구글·메타 로비에도 진전(로이터) — 엔비디아 실적 직전 반도체 칸·가설 ①(AI 빚)·🐋 NVDA",
+   "at": "2026-11-17 20:35"
   }
  }
 }

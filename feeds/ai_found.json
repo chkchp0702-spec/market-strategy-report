@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "BofA 11월 펀드매니저 설문 — 투자 심리 2월 이후 최고(XTB 정리)",
+   "url": "https://www.xtb.com/ae-en/market-analysis/news-and-research/what-do-institutional-investors-expect-bofa-fms-investor-sentiment-hits-its-highest-level-since-february",
+   "press": "XTB",
+   "at": "2026-11-17 20:35",
+   "why": "같은 날 블룸버그 「기술주 비중 2006년 이후 최대 축소」와 함께 보면 — 주식 전체는 낙관, 기술주만 덜어 냄 = 가설 ② 「업종 갈아타기」 쪽 근거, 나스닥 칸",
+   "summary": "BofA 11월 FMS: 투자 심리 2월 이후 최고(유럽 주식 낙관도 2월 이후 최고, 인베스팅 동일 보도) · 기술주 비중은 2006년 이후 최대 폭 축소(블룸버그 11/17) — 세부 숫자 미확인"
+  },
+  {
+   "title": "엔비디아 옵션, 실적 뒤 시총 약 3,350억~3,780억 달러 변동 반영",
+   "url": "https://fourweekmba.com/ai-nvidia-options-price-a-378b-swing-above-its-last-8-reports/",
+   "press": "FourWeekMBA",
+   "at": "2026-11-17 20:35",
+   "why": "엔비디아 실적(한국 11/18 아침) — 옵션이 지난 8번 실적 평균보다 큰 변동을 가격에 넣음 = 반도체 칸·🐋 NVDA 신호, 한국 반도체(💬 2·3·4번) 아침 변동 폭",
+   "summary": "로이터(인베스팅 11/17)는 실적 뒤 ±3,350억 달러 변동 반영 보도 · FourWeekMBA는 3,780억 달러로 최근 8번 실적보다 큼 — 기준 시점에 따라 숫자 차이"
+  },
+  {
    "title": "엔비디아 실적 미리보기 — 「황 이후 시대」 첫 시험대",
    "url": "https://www.forex.com/en/news-and-analysis/nvidia-earnings-preview-nvda-s-first-test-of-the-post-jenson-huang-era/",
    "press": "FOREX.com",
@@ -623,23 +639,7 @@
    "at": "2026-11-15 07:40",
    "why": "🫧 버블 경보 「현금 도피」 끝단 — 코인 급락이 네오클라우드·고베타 기술주로 번지는지(월요일 나스닥 칸)",
    "summary": "비트코인 6.5만 달러 아래로 주간 하락 연장 · 고점 대비 4개월 새 약 −50% · 美 물가·ETF 자금 유출이 배경으로 거론"
-  },
-  {
-   "title": "「미스터 IPO」 제이 리터, 앤스로픽 상장 기업가치 위험 경고",
-   "url": "https://www.thestreet.com/investing/anthropic-ipo-valuation-risk-1-trillion-ceiling-jay-ritter",
-   "press": "TheStreet",
-   "at": "2026-11-15 04:45",
-   "why": "11/18~20 앤스로픽 상장 = AI 심리 시험대(💬 5번·나스닥 조정 판정) — 1조 달러대 공모가 「천장」 논쟁",
-   "summary": "IPO 연구 권위자 제이 리터가 앤스로픽 공모 기업가치(밴드 상단 약 1.4조 달러) 위험을 지적. 공모가 70~78달러 로드쇼 진행 중(기존 보도)."
-  },
-  {
-   "title": "워시의 연준 개편 구상 — 금리 결정 횟수는 줄이고 숙의는 늘린다",
-   "url": "https://wjla.com/news/nation-world/kevin-warsh-floats-fewer-fed-meetings-to-reduce-market-dependence-federal-reserve-central-bank-interest-rate-decisions",
-   "press": "WJLA(ABC 계열)·WSJ 제목",
-   "at": "2026-11-15 04:45",
-   "why": "11/16 워시 토론회·12/9 FOMC 분수령 가설 — 회의 횟수 축소는 「한 번의 결정」 무게를 키움",
-   "summary": "WSJ 11/14 보도 제목 기준(본문 미확인). 워시가 연간 FOMC 회의 축소를 검토한다는 보도는 ABC 계열(wjla 등)에도 실림."
   }
  ],
- "at": "2026-11-17 13:45"
+ "at": "2026-11-17 20:35"
 }
