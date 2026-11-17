@@ -6998,6 +6998,24 @@
 "d": "2026-11-16",
 "src": "pead",
 "score": 80.0
+},
+"CAI|2026-11-17|e": {
+"code": "CAI",
+"name": "Caris Life Sciences, Inc. - Common Sto",
+"mkt": "US",
+"d": "2026-11-17",
+"src": "earn",
+"score": 60.2,
+"lv": 20.11
+},
+"ZBRA|2026-11-17|e": {
+"code": "ZBRA",
+"name": "Zebra Technologies Corporation - Class",
+"mkt": "US",
+"d": "2026-11-17",
+"src": "earn",
+"score": 60.2,
+"lv": 300.99
 }
 },
 "sent": [
