@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아 직원들, 이사회에 젠슨 황 복귀 요청 — 청원 15.5만 명 넘어",
+   "url": "https://fourweekmba.com/ai-huang-said-to-weigh-nvidia-comeback-as-petition-tops-155000/",
+   "press": "FourWeekMBA",
+   "at": "2026-11-18 04:40",
+   "why": "실적 직후 CEO 문제(황 복귀 vs 외부 하스)가 엔비디아·한국 반도체 갭 방향을 좌우",
+   "summary": "황 복귀 검토 보도 속 청원 15.5만 명↑ · 이사회는 외부 후보 탐색(WSJ) — 결정 미정"
+  },
+  {
+   "title": "엔비디아 52주 최저 터치에도 월가는 버텨",
+   "url": "https://www.wealthprofessional.ca/investments/equity-markets/wall-street-absorbs-the-hit-as-nvidia-touches-a-52-week-low/394013",
+   "press": "Wealth Professional",
+   "at": "2026-11-18 04:40",
+   "why": "칩 약세 속 지수 흡수 = 「업종 갈아타기」 가설 ② 근거",
+   "summary": "엔비디아 52주 최저 · 지수는 낙폭 제한 — 실적 직전 포지션 축소"
+  },
+  {
    "title": "엔비디아, Arm CEO 르네 하스에 차기 CEO 타진 — 직원들은 황 복귀 원해(보도 종합)",
    "url": "https://www.khaleejtimes.com/business/tech/nvidia-approaches-arm-ceo-haas",
    "press": "Khaleej Times(WSJ·FT 보도 종합)",
@@ -623,22 +639,6 @@
    "at": "2026-11-16 07:45",
    "why": "11/16 국내 재보도(인베스팅)는 10/27~28 UBS 상향의 재탕 — 새 전망 아님, 에너지 칸·brent_95 판단 때 「새 뉴스」로 세지 않기",
    "summary": "UBS 10/27~28 브렌트 연말 전망 110달러로 상향(roic.ai 10/27·10/28 보도). 근거: 걸프 물량 전쟁 전 수준 미달·운임·공급 완충 부족. 브렌트 11/13 96.08(qa 18)."
-  },
-  {
-   "title": "세레브라스 3분기 — 클라우드·서비스 매출 급증 뒤 주가 반응 엇갈림",
-   "url": "https://parameter.io/cerebras-cbrs-stock-tumbles-12-even-as-cloud-and-services-revenue-jumps-281/",
-   "press": "Parameter",
-   "at": "2026-11-16 06:45",
-   "why": "엔비디아 실적(11/17) 전날 AI 추론 칩 경쟁사 실적 — 「현금 도는 상류」 가설과 반도체 칸 기대치 가늠",
-   "summary": "클라우드·서비스 매출 +281% 보도에도 주가 −12% 제목(발표 분기·날짜 미확인). WSJ 11/16 제목은 「3분기 클라우드 매출 급증으로 전망 상향」 — 세부 숫자 미확인."
-  },
-  {
-   "title": "엔비디아, 황의 관계 조사 — AI 업계가 파장을 따진다",
-   "url": "https://datacenterknowledge.com/data-center-chips/nvidia-probes-huang-ties-as-ai-industry-weighs-the-fallout",
-   "press": "Data Center Knowledge",
-   "at": "2026-11-16 05:45",
-   "why": "11/17 임시 CEO 첫 실적 앞 — 황 복귀 논의(FT)와 이사회 조사가 동시에 진행, 반도체 칸·AI 차입 가설",
-   "summary": "이사회 조사가 진행 중인 가운데 데이터센터 업계는 공급 일정·고객 관계 영향을 점검. 세부 숫자는 미확인."
   }
  ],
  "at": "2026-11-18 00:35"
