@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아 이사회 의장 「젠슨 황 CEO 복귀 계획 없음」 — 실적 라이브",
+   "url": "https://www.nbcnews.com/business/business-news/live-blog/nvidia-stock-earnings-report-jensen-huang-rcna609804",
+   "press": "NBC News",
+   "at": "2026-11-18 07:45",
+   "why": "NVDA 🐋 고래 신호·💬 3번 — 실적 상회 뒤에도 CEO 공백 장기화",
+   "summary": "이사회 의장 「황 복귀 계획 없음」 · 실적 매출 1,158억$·가이던스 1,300억$ 상회 · 시간외 상승"
+  },
+  {
+   "title": "엔비디아 실적 1시간 전 옵션 내재 변동 ±8.5% — 최근 8번 평균의 두 배",
+   "url": "https://247wallst.com/investing/2026/11/17/nvidia-reports-in-about-an-hour-options-price-an-8-5-move-twice-what-the-stock-has-averaged-after-its-last-8-reports/",
+   "press": "24/7 Wall St.",
+   "at": "2026-11-18 07:45",
+   "why": "실제 시간외 +3%대는 내재 변동의 절반 아래 = 「안도」 수준 — 한국 반도체 갭 크기 판단 기준",
+   "summary": "옵션 내재 ±8.5%(최근 8회 평균의 2배) · 실제 시간외 +2.5~3%대"
+  },
+  {
    "title": "엔비디아 3분기(FY27) 매출 1,158억 달러·데이터센터 1,076억 — 다음 분기 1,300억 달러 전망, 시간외 약 +2%",
    "url": "https://www.trendingtopics.eu/nvidia-without-huang-115-8-billion-in-revenue-beats-all-expectations/",
    "press": "Trending Topics",
@@ -623,22 +639,6 @@
    "at": "2026-11-16 11:40",
    "why": "11/17 엔비디아 실적 직전 한국 반도체 −4% 배경 — 반도체 칸 2%·091160 관찰",
    "summary": "젠슨 황 공백을 이유로 목표가 대폭 하향(세부 숫자 미확인) · 같은 날 황 복귀 검토 보도도 나옴"
-  },
-  {
-   "title": "닛케이, 일본 3분기 GDP 깜짝 역성장 뒤 하락 출발 — 엔비디아 실적·앤스로픽 상장 주간 시작",
-   "url": "https://mlq.ai/news/nikkei-opens-lower-after-japans-surprise-contraction-as-asia-starts-a-week-of-nvidia-results-and-the-anthropic-ipo/",
-   "press": "MLQ.ai",
-   "at": "2026-11-16 10:40",
-   "why": "아시아 동반 약세(닛케이 −600엔대) — 한국 급락이 한국만의 일이 아님, 일본 칸(지금 0%) 유지 근거",
-   "summary": "일본 3분기 GDP 연율 −0.1%로 예상 하회 · 닛케이 하락 출발 · 이번 주 엔비디아 실적(11/17)·앤스로픽 상장이 아시아 기술주 분수령."
-  },
-  {
-   "title": "아시아 증시, 엔비디아 리더십 충격 속 기술주 반등 힘 잃고 하락",
-   "url": "https://www.investing.com/news/stock-market-news/asia-stocks-steady-as-chipmakers-rebound-after-nvidia-leadership-shock-5024055",
-   "press": "Investing.com",
-   "at": "2026-11-16 10:40",
-   "why": "황 사임 뒤 반도체 반등이 아시아에서 꺾임 — 코스닥 칸·반도체 칸 판단 재료",
-   "summary": "칩주 반등 시도 뒤 다시 약세 — 엔비디아 CEO 공백·실적 앞 관망(제목 기준, 세부 숫자 미확인)."
   }
  ],
  "at": "2026-11-18 00:35"
