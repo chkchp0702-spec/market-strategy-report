@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "앤스로픽 IPO 일정 — 11/18 공모가 확정, 11/19 첫 거래",
+   "url": "https://fourweekmba.com/ai-anthropics-ipo-day-by-day-pricing-18-nov-trading-19-nov/",
+   "press": "FourWeekMBA",
+   "at": "2026-11-18 08:45",
+   "why": "나스닥100 코어 칸 — 상장 15거래일 뒤 편입 수급·오늘 밤 공모가가 성장주 자금 흐름 신호(💬 5·14번)",
+   "summary": "공모가 확정 11/18, 나스닥 첫 거래 11/19 일정 정리. 희망가 70~78달러(CNBC 소식통 11/17 보도) 위 확정 여부가 관전점."
+  },
+  {
+   "title": "S&P500·나스닥 선물 상승 — 엔비디아·코어위브 프리마켓 주목",
+   "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-futures-rise-premarket-crwv-gpro-spcx-nvda-nlst-stocks-in-focus/cNGDlb9R9B7",
+   "press": "Stocktwits",
+   "at": "2026-11-18 08:45",
+   "why": "가설 ④ — 실적 상회 뒤 네오클라우드(코어위브) 동반 반등: 「빚으로 짓는 쪽」까지 같이 오르면 갈림 가설 시험대",
+   "summary": "엔비디아 실적 뒤 미국 지수 선물 상승 전환, 코어위브·엔비디아가 프리마켓 주목 종목(세부 숫자 미확인)."
+  },
+  {
    "title": "엔비디아 이사회 의장 「젠슨 황 CEO 복귀 계획 없음」 — 실적 라이브",
    "url": "https://www.nbcnews.com/business/business-news/live-blog/nvidia-stock-earnings-report-jensen-huang-rcna609804",
    "press": "NBC News",
@@ -623,23 +639,7 @@
    "at": "2026-11-16 11:40",
    "why": "상해 33%·H주 50% 칸 — 지표 쇼크인데 홍콩은 +1% 가까이(부양 기대)",
    "summary": "산업생산 +4.8%(예상 +5.3%) · 소매판매 +0.4%(예상 +0.8%) · 1~10월 고정투자 −8.1%(예상 −7.0%) · 부동산 개발투자 −21.6% (하나중국 정리)"
-  },
-  {
-   "title": "모건스탠리, 글로벌 주식 「최대 비중확대」 — AI 설비투자 사이클 유효",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-16/morgan-stanley-max-overweight-global-stocks-on-intact-ai-cycle",
-   "press": "Bloomberg",
-   "at": "2026-11-16 11:40",
-   "why": "엔비디아 실적 전 아시아 급락과 반대되는 IB 판단 — S&P 정상 판정·해외 ETF 칸 유지 근거",
-   "summary": "AI 설비투자 사이클이 내년까지 경기·이익 성장을 받친다며 글로벌 주식 최대 비중확대 권고"
-  },
-  {
-   "title": "HSBC, 엔비디아 목표가 반토막 — 「정식 CEO 올 때까지 고전」",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YdUdPNks5MDBUd1lBbDhzSUFKWF84Vkp1cjEtSlR5Y2ptOG5IaHpEODBNREl4c0FfS2RETW14WUprWWQyQ3NXaVY2YmtBbjlGXzBlcEc1N0x4eHdZVUlTY0pBTktyS1ptajRIc2I0NkI?oc=5",
-   "press": "연합인포맥스",
-   "at": "2026-11-16 11:40",
-   "why": "11/17 엔비디아 실적 직전 한국 반도체 −4% 배경 — 반도체 칸 2%·091160 관찰",
-   "summary": "젠슨 황 공백을 이유로 목표가 대폭 하향(세부 숫자 미확인) · 같은 날 황 복귀 검토 보도도 나옴"
   }
  ],
- "at": "2026-11-18 00:35"
+ "at": "2026-11-18 08:45"
 }
