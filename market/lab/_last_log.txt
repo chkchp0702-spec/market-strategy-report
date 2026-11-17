@@ -1,30 +1,209 @@
-base 앞 14.97 -16.3 | 뒤 17.66 -18.7 1.16 | h1 17.7 h2 14.6 -18.7 최악 -16.9
-NEW 앞 17.25 -19.8 | 뒤 21.5 -21.1 1.2 | h1 22.66 h2 16.56 -21.1 최악 -17.5
-base__s0 앞 11.3 -18.3 | 뒤 14.87 -19.4 0.99 | h1 13.17 h2 13.36 -19.4 최악 -17.1
-NEW__s0 앞 12.01 -23.0 | 뒤 16.19 -21.2 0.94 | h1 15.08 h2 13.6 -21.2 최악 -17.6
-NEW__s2 앞 17.51 -23.7 | 뒤 19.97 -21.9 1.12 | h1 20.52 h2 15.81 -21.9 최악 -16.4
-NEW__K4 앞 18.39 -18.2 | 뒤 19.28 -21.1 1.09 | h1 20.23 h2 15.59 -21.1 최악 -17.3
-NEW__K6 앞 17.46 -22.4 | 뒤 22.39 -22.1 1.23 | h1 24.06 h2 17.7 -22.1 최악 -17.4
-base__c25 앞 13.24 -16.5 | 뒤 15.75 -20.1 1.05 | h1 15.87 h2 12.76 -20.1 최악 -18.2
-NEW__c25 앞 14.47 -20.1 | 뒤 18.38 -23.2 1.05 | h1 19.67 h2 13.6 -23.2 최악 -19.3
-port_base 앞 14.45 -13.9 | 뒤 16.68 -16.2 1.25 | h1 16.43 h2 14.08 -16.2 최악 -11.4
-NEW__port 앞 16.26 -17.4 | 뒤 19.79 -18.0 1.3 | h1 20.16 h2 15.93 -18.0 최악 -9.9
-Q100_f06 앞 15.57 -17.8 | 뒤 19.92 -21.6 1.15 | h1 20.64 h2 15.43 -21.6 최악 -19.3
-NEW_B10 앞 18.68 -19.8 | 뒤 26.35 -22.0 1.4 | h1 31.77 h2 18.38 -22.0 최악 -17.6
-NEW_B15 앞 19.3 -19.8 | 뒤 28.42 -22.8 1.44 | h1 36.24 h2 18.76 -22.8 최악 -18.0
-NEW_B20 앞 19.94 -19.8 | 뒤 30.09 -23.5 1.45 | h1 40.64 h2 18.68 -23.5 최악 -18.3
-base_B10 앞 16.5 -16.3 | 뒤 23.07 -20.2 1.39 | h1 27.99 h2 16.38 -20.2 최악 -18.2
-base_B20 앞 17.89 -16.3 | 뒤 28.06 -23.0 1.47 | h1 38.67 h2 17.34 -23.0 최악 -18.6
-NEW_B20__w-20 앞 19.43 -19.8 | 뒤 28.84 -22.8 1.45 | h1 37.22 h2 18.8 -22.8 최악 -17.9
-NEW_B20__w+20 앞 20.46 -19.8 | 뒤 31.03 -23.2 1.44 | h1 42.81 h2 19.12 -23.2 최악 -17.7
-NEW_B20__c25 앞 17.07 -20.1 | 뒤 26.64 -25.5 1.31 | h1 37.08 h2 15.57 -25.5 최악 -20.1
-NEW_B20__s0 앞 14.85 -20.1 | 뒤 25.01 -22.2 1.24 | h1 34.88 h2 14.8 -22.2 최악 -19.2
-NEW_B20__port 앞 18.94 -17.4 | 뒤 25.66 -18.5 1.54 | h1 33.85 h2 17.26 -18.5 최악 -9.2
-NEW_X20 앞 16.97 -19.9 | 뒤 23.29 -21.6 1.21 | h1 24.16 h2 18.74 -21.6 최악 -16.0
-NEW_X33 앞 16.87 -19.7 | 뒤 24.59 -22.4 1.23 | h1 25.14 h2 20.47 -22.4 최악 -14.6
-NEW_X50 앞 16.42 -19.6 | 뒤 26.1 -22.8 1.23 | h1 26.15 h2 22.52 -22.8 최악 -13.6
-NEW_X20__w-20 앞 17.15 -19.7 | 뒤 23.02 -21.3 1.22 | h1 23.84 h2 18.46 -21.3 최악 -15.9
-NEW_X20__w+20 앞 17.01 -19.7 | 뒤 23.67 -21.8 1.22 | h1 24.47 h2 19.23 -21.8 최악 -15.7
-NEW_X20__c25 앞 14.17 -20.3 | 뒤 20.1 -21.9 1.07 | h1 21.12 h2 15.71 -21.9 최악 -17.9
-NEW_X20__port 앞 16.02 -17.2 | 뒤 21.37 -19.1 1.34 | h1 21.13 h2 18.25 -19.1 최악 -8.1
-NEW_B_X 앞 19.62 -19.9 | 뒤 31.56 -22.3 1.46 | h1 41.98 h2 20.48 -22.3 최악 -17.2
+날 수 {'cpi': 220, 'nfp': 220, 'macro': 440, 'all': 572}
+지금 0.84 {'cagr': np.float64(14.27), 'vol': np.float64(13.1), 'mdd': np.float64(-17.6), 'sharpe': np.float64(1.09), 'ex': np.float64(-0.26), 'win12': 43, 'beat_years': 5, 'years': 10, 'turn': 336}
+cpi 0.1 t SPY cash {'n': 220, 'days': 220, 'avg_moved': 3.2} 0.84 14.07 -18.5 1.07 -0.47
+cpi 0.1 t SPY cashgld {'n': 220, 'days': 220, 'avg_moved': 6.0} 0.84 13.99 -18.5 1.07 -0.55
+cpi 0.1 t QQQ cash {'n': 220, 'days': 220, 'avg_moved': 3.2} 0.84 14.11 -18.8 1.07 -0.42
+cpi 0.1 t QQQ cashgld {'n': 220, 'days': 220, 'avg_moved': 6.0} 0.84 14.1 -18.8 1.07 -0.44
+cpi 0.1 pre2 SPY cash {'n': 220, 'days': 440, 'avg_moved': 3.2} 0.83 14.39 -18.5 1.09 -0.14
+cpi 0.1 pre2 SPY cashgld {'n': 220, 'days': 440, 'avg_moved': 6.0} 0.83 14.29 -18.5 1.08 -0.25
+cpi 0.1 pre2 QQQ cash {'n': 220, 'days': 440, 'avg_moved': 3.2} 0.83 14.57 -18.7 1.1 0.03
+cpi 0.1 pre2 QQQ cashgld {'n': 220, 'days': 440, 'avg_moved': 6.0} 0.84 14.51 -18.7 1.09 -0.02
+cpi 0.1 post SPY cash {'n': 220, 'days': 440, 'avg_moved': 3.1} 0.82 13.99 -19.1 1.06 -0.55
+cpi 0.1 post SPY cashgld {'n': 220, 'days': 440, 'avg_moved': 6.0} 0.82 13.9 -19.2 1.05 -0.64
+cpi 0.1 post QQQ cash {'n': 220, 'days': 440, 'avg_moved': 3.1} 0.82 14.09 -19.6 1.07 -0.45
+cpi 0.1 post QQQ cashgld {'n': 220, 'days': 440, 'avg_moved': 6.0} 0.82 14.08 -19.7 1.06 -0.46
+cpi 0.2 t SPY cash {'n': 220, 'days': 220, 'avg_moved': 5.7} 0.83 13.85 -19.5 1.05 -0.69
+cpi 0.2 t SPY cashgld {'n': 220, 'days': 220, 'avg_moved': 8.8} 0.83 13.76 -19.5 1.05 -0.78
+cpi 0.2 t QQQ cash {'n': 220, 'days': 220, 'avg_moved': 5.7} 0.84 13.92 -20.0 1.06 -0.62
+cpi 0.2 t QQQ cashgld {'n': 220, 'days': 220, 'avg_moved': 8.8} 0.84 13.9 -20.0 1.05 -0.64
+cpi 0.2 pre2 SPY cash {'n': 220, 'days': 440, 'avg_moved': 5.7} 0.81 14.47 -19.5 1.08 -0.07
+cpi 0.2 pre2 SPY cashgld {'n': 220, 'days': 440, 'avg_moved': 8.8} 0.81 14.37 -19.5 1.08 -0.17
+cpi 0.2 pre2 QQQ cash {'n': 220, 'days': 440, 'avg_moved': 5.7} 0.82 14.76 -19.8 1.1 0.22
+cpi 0.2 pre2 QQQ cashgld {'n': 220, 'days': 440, 'avg_moved': 8.8} 0.83 14.73 -19.9 1.09 0.19
+cpi 0.2 post SPY cash {'n': 220, 'days': 440, 'avg_moved': 5.6} 0.79 13.71 -20.5 1.04 -0.83
+cpi 0.2 post SPY cashgld {'n': 220, 'days': 440, 'avg_moved': 8.7} 0.79 13.6 -20.6 1.03 -0.93
+cpi 0.2 post QQQ cash {'n': 220, 'days': 440, 'avg_moved': 5.6} 0.8 13.9 -21.5 1.05 -0.64
+cpi 0.2 post QQQ cashgld {'n': 220, 'days': 440, 'avg_moved': 8.7} 0.8 13.88 -21.6 1.04 -0.65
+cpi 0.3 t SPY cash {'n': 220, 'days': 220, 'avg_moved': 7.7} 0.83 13.67 -20.2 1.04 -0.87
+cpi 0.3 t SPY cashgld {'n': 220, 'days': 220, 'avg_moved': 11.1} 0.82 13.57 -20.3 1.03 -0.97
+cpi 0.3 t QQQ cash {'n': 220, 'days': 220, 'avg_moved': 7.7} 0.83 13.77 -21.0 1.04 -0.77
+cpi 0.3 t QQQ cashgld {'n': 220, 'days': 220, 'avg_moved': 11.1} 0.83 13.73 -21.1 1.04 -0.81
+cpi 0.3 pre2 SPY cash {'n': 220, 'days': 440, 'avg_moved': 7.6} 0.79 14.54 -20.2 1.08 0.0
+cpi 0.3 pre2 SPY cashgld {'n': 220, 'days': 440, 'avg_moved': 11.0} 0.79 14.43 -20.3 1.07 -0.1
+cpi 0.3 pre2 QQQ cash {'n': 220, 'days': 440, 'avg_moved': 7.6} 0.81 14.9 -20.7 1.09 0.36
+cpi 0.3 pre2 QQQ cashgld {'n': 220, 'days': 440, 'avg_moved': 11.0} 0.81 14.88 -20.9 1.09 0.34
+cpi 0.3 post SPY cash {'n': 220, 'days': 440, 'avg_moved': 7.6} 0.75 13.41 -21.7 1.01 -1.13
+cpi 0.3 post SPY cashgld {'n': 220, 'days': 440, 'avg_moved': 11.0} 0.76 13.31 -22.0 1.0 -1.23
+cpi 0.3 post QQQ cash {'n': 220, 'days': 440, 'avg_moved': 7.6} 0.77 13.67 -23.2 1.02 -0.87
+cpi 0.3 post QQQ cashgld {'n': 220, 'days': 440, 'avg_moved': 11.0} 0.78 13.66 -23.5 1.02 -0.88
+cpi 1.0 t SPY cash {'n': 220, 'days': 220, 'avg_moved': 9.3} 0.82 13.4 -21.0 1.01 -1.14
+cpi 1.0 t SPY cashgld {'n': 220, 'days': 220, 'avg_moved': 14.3} 0.81 13.04 -21.8 0.99 -1.5
+cpi 1.0 t QQQ cash {'n': 220, 'days': 220, 'avg_moved': 9.3} 0.82 13.53 -22.0 1.02 -1.01
+cpi 1.0 t QQQ cashgld {'n': 220, 'days': 220, 'avg_moved': 14.3} 0.82 13.25 -23.1 0.99 -1.29
+cpi 1.0 pre2 SPY cash {'n': 220, 'days': 440, 'avg_moved': 9.3} 0.76 14.52 -21.1 1.07 -0.01
+cpi 1.0 pre2 SPY cashgld {'n': 220, 'days': 440, 'avg_moved': 14.3} 0.74 14.37 -21.7 1.04 -0.17
+cpi 1.0 pre2 QQQ cash {'n': 220, 'days': 440, 'avg_moved': 9.3} 0.78 14.94 -21.8 1.08 0.4
+cpi 1.0 pre2 QQQ cashgld {'n': 220, 'days': 440, 'avg_moved': 14.3} 0.77 14.92 -22.5 1.07 0.39
+cpi 1.0 post SPY cash {'n': 220, 'days': 440, 'avg_moved': 9.3} 0.72 12.92 -23.0 0.97 -1.61
+cpi 1.0 post SPY cashgld {'n': 220, 'days': 440, 'avg_moved': 14.3} 0.68 12.52 -23.9 0.93 -2.01
+cpi 1.0 post QQQ cash {'n': 220, 'days': 440, 'avg_moved': 9.3} 0.74 13.23 -24.9 0.98 -1.31
+cpi 1.0 post QQQ cashgld {'n': 220, 'days': 440, 'avg_moved': 14.3} 0.71 12.97 -26.0 0.95 -1.57
+nfp 0.1 t SPY cash {'n': 220, 'days': 220, 'avg_moved': 2.9} 0.84 14.09 -18.3 1.07 -0.44
+nfp 0.1 t SPY cashgld {'n': 220, 'days': 220, 'avg_moved': 5.9} 0.83 14.12 -18.4 1.07 -0.42
+nfp 0.1 t QQQ cash {'n': 220, 'days': 220, 'avg_moved': 2.9} 0.83 13.99 -18.7 1.06 -0.55
+nfp 0.1 t QQQ cashgld {'n': 220, 'days': 220, 'avg_moved': 5.9} 0.82 14.02 -18.8 1.06 -0.52
+nfp 0.1 pre2 SPY cash {'n': 219, 'days': 438, 'avg_moved': 2.8} 0.82 14.06 -18.8 1.07 -0.48
+nfp 0.1 pre2 SPY cashgld {'n': 219, 'days': 438, 'avg_moved': 5.8} 0.81 14.05 -18.8 1.06 -0.49
+nfp 0.1 pre2 QQQ cash {'n': 219, 'days': 438, 'avg_moved': 2.8} 0.82 13.96 -19.3 1.06 -0.58
+nfp 0.1 pre2 QQQ cashgld {'n': 219, 'days': 438, 'avg_moved': 5.8} 0.81 13.94 -19.3 1.05 -0.59
+nfp 0.1 post SPY cash {'n': 220, 'days': 440, 'avg_moved': 3.0} 0.83 14.02 -19.0 1.06 -0.52
+nfp 0.1 post SPY cashgld {'n': 220, 'days': 440, 'avg_moved': 5.9} 0.82 14.0 -19.0 1.06 -0.54
+nfp 0.1 post QQQ cash {'n': 220, 'days': 440, 'avg_moved': 3.0} 0.83 13.89 -19.5 1.05 -0.64
+nfp 0.1 post QQQ cashgld {'n': 220, 'days': 440, 'avg_moved': 5.9} 0.81 13.91 -19.6 1.05 -0.63
+nfp 0.2 t SPY cash {'n': 220, 'days': 220, 'avg_moved': 5.3} 0.83 13.92 -19.0 1.06 -0.62
+nfp 0.2 t SPY cashgld {'n': 220, 'days': 220, 'avg_moved': 8.4} 0.82 13.95 -19.1 1.06 -0.59
+nfp 0.2 t QQQ cash {'n': 220, 'days': 220, 'avg_moved': 5.3} 0.82 13.71 -19.6 1.04 -0.83
+nfp 0.2 t QQQ cashgld {'n': 220, 'days': 220, 'avg_moved': 8.4} 0.81 13.75 -19.8 1.04 -0.78
+nfp 0.2 pre2 SPY cash {'n': 219, 'days': 438, 'avg_moved': 5.2} 0.8 13.81 -19.9 1.05 -0.73
+nfp 0.2 pre2 SPY cashgld {'n': 219, 'days': 438, 'avg_moved': 8.3} 0.79 13.82 -19.9 1.04 -0.72
+nfp 0.2 pre2 QQQ cash {'n': 219, 'days': 438, 'avg_moved': 5.2} 0.79 13.6 -20.8 1.03 -0.94
+nfp 0.2 pre2 QQQ cashgld {'n': 219, 'days': 438, 'avg_moved': 8.3} 0.79 13.61 -20.9 1.02 -0.93
+nfp 0.2 post SPY cash {'n': 220, 'days': 440, 'avg_moved': 5.5} 0.81 13.83 -20.3 1.04 -0.7
+nfp 0.2 post SPY cashgld {'n': 220, 'days': 440, 'avg_moved': 8.5} 0.8 13.8 -20.3 1.04 -0.74
+nfp 0.2 post QQQ cash {'n': 220, 'days': 440, 'avg_moved': 5.5} 0.81 13.63 -21.3 1.03 -0.91
+nfp 0.2 post QQQ cashgld {'n': 220, 'days': 440, 'avg_moved': 8.5} 0.8 13.62 -21.4 1.02 -0.92
+nfp 0.3 t SPY cash {'n': 220, 'days': 220, 'avg_moved': 7.2} 0.82 13.74 -19.7 1.04 -0.8
+nfp 0.3 t SPY cashgld {'n': 220, 'days': 220, 'avg_moved': 10.6} 0.82 13.75 -19.8 1.04 -0.78
+nfp 0.3 t QQQ cash {'n': 220, 'days': 220, 'avg_moved': 7.2} 0.81 13.43 -20.7 1.02 -1.1
+nfp 0.3 t QQQ cashgld {'n': 220, 'days': 220, 'avg_moved': 10.6} 0.8 13.46 -20.8 1.02 -1.08
+nfp 0.3 pre2 SPY cash {'n': 219, 'days': 438, 'avg_moved': 7.2} 0.78 13.54 -20.8 1.02 -1.0
+nfp 0.3 pre2 SPY cashgld {'n': 219, 'days': 438, 'avg_moved': 10.5} 0.77 13.55 -20.8 1.02 -0.99
+nfp 0.3 pre2 QQQ cash {'n': 219, 'days': 438, 'avg_moved': 7.2} 0.77 13.23 -22.0 1.0 -1.31
+nfp 0.3 pre2 QQQ cashgld {'n': 219, 'days': 438, 'avg_moved': 10.5} 0.76 13.24 -22.2 0.99 -1.3
+nfp 0.3 post SPY cash {'n': 220, 'days': 440, 'avg_moved': 7.5} 0.79 13.6 -21.6 1.02 -0.93
+nfp 0.3 post SPY cashgld {'n': 220, 'days': 440, 'avg_moved': 10.8} 0.78 13.59 -21.6 1.02 -0.95
+nfp 0.3 post QQQ cash {'n': 220, 'days': 440, 'avg_moved': 7.5} 0.79 13.33 -23.1 1.0 -1.21
+nfp 0.3 post QQQ cashgld {'n': 220, 'days': 440, 'avg_moved': 10.8} 0.78 13.33 -23.2 0.99 -1.21
+nfp 1.0 t SPY cash {'n': 220, 'days': 220, 'avg_moved': 9.0} 0.81 13.64 -20.4 1.03 -0.9
+nfp 1.0 t SPY cashgld {'n': 220, 'days': 220, 'avg_moved': 14.0} 0.8 13.51 -21.1 1.02 -1.03
+nfp 1.0 t QQQ cash {'n': 220, 'days': 220, 'avg_moved': 9.0} 0.8 13.26 -21.7 1.0 -1.27
+nfp 1.0 t QQQ cashgld {'n': 220, 'days': 220, 'avg_moved': 14.0} 0.77 13.08 -22.7 0.99 -1.46
+nfp 1.0 pre2 SPY cash {'n': 219, 'days': 438, 'avg_moved': 8.9} 0.75 13.42 -21.5 1.01 -1.12
+nfp 1.0 pre2 SPY cashgld {'n': 219, 'days': 438, 'avg_moved': 13.9} 0.72 13.17 -22.4 0.98 -1.37
+nfp 1.0 pre2 QQQ cash {'n': 219, 'days': 438, 'avg_moved': 8.9} 0.74 13.04 -23.1 0.98 -1.49
+nfp 1.0 pre2 QQQ cashgld {'n': 219, 'days': 438, 'avg_moved': 13.9} 0.71 12.71 -24.5 0.94 -1.83
+nfp 1.0 post SPY cash {'n': 220, 'days': 440, 'avg_moved': 9.3} 0.76 13.42 -23.0 1.0 -1.12
+nfp 1.0 post SPY cashgld {'n': 220, 'days': 440, 'avg_moved': 14.3} 0.73 13.23 -24.1 0.98 -1.31
+nfp 1.0 post QQQ cash {'n': 220, 'days': 440, 'avg_moved': 9.3} 0.77 13.08 -25.1 0.97 -1.46
+nfp 1.0 post QQQ cashgld {'n': 220, 'days': 440, 'avg_moved': 14.3} 0.73 12.85 -26.6 0.95 -1.69
+macro 0.1 t SPY cash {'n': 440, 'days': 440, 'avg_moved': 3.0} 0.83 13.89 -19.1 1.06 -0.65
+macro 0.1 t SPY cashgld {'n': 440, 'days': 440, 'avg_moved': 5.9} 0.82 13.84 -19.2 1.05 -0.7
+macro 0.1 t QQQ cash {'n': 440, 'days': 440, 'avg_moved': 3.0} 0.83 13.83 -19.7 1.05 -0.71
+macro 0.1 t QQQ cashgld {'n': 440, 'days': 440, 'avg_moved': 5.9} 0.82 13.85 -19.8 1.05 -0.69
+macro 0.1 pre2 SPY cash {'n': 439, 'days': 878, 'avg_moved': 3.0} 0.8 14.18 -19.5 1.07 -0.35
+macro 0.1 pre2 SPY cashgld {'n': 439, 'days': 878, 'avg_moved': 5.9} 0.8 14.07 -19.5 1.06 -0.46
+macro 0.1 pre2 QQQ cash {'n': 439, 'days': 878, 'avg_moved': 3.0} 0.81 14.26 -20.2 1.07 -0.28
+macro 0.1 pre2 QQQ cashgld {'n': 439, 'days': 878, 'avg_moved': 5.9} 0.81 14.2 -20.3 1.06 -0.34
+macro 0.1 post SPY cash {'n': 440, 'days': 880, 'avg_moved': 3.1} 0.8 13.74 -20.4 1.04 -0.79
+macro 0.1 post SPY cashgld {'n': 440, 'days': 880, 'avg_moved': 6.0} 0.79 13.64 -20.6 1.03 -0.89
+macro 0.1 post QQQ cash {'n': 440, 'days': 880, 'avg_moved': 3.1} 0.81 13.72 -21.5 1.03 -0.82
+macro 0.1 post QQQ cashgld {'n': 440, 'days': 880, 'avg_moved': 6.0} 0.8 13.73 -21.7 1.03 -0.81
+macro 0.2 t SPY cash {'n': 440, 'days': 440, 'avg_moved': 5.5} 0.82 13.49 -20.7 1.02 -1.05
+macro 0.2 t SPY cashgld {'n': 440, 'days': 440, 'avg_moved': 8.6} 0.81 13.44 -20.8 1.02 -1.1
+macro 0.2 t QQQ cash {'n': 440, 'days': 440, 'avg_moved': 5.5} 0.81 13.36 -21.8 1.01 -1.18
+macro 0.2 t QQQ cashgld {'n': 440, 'days': 440, 'avg_moved': 8.6} 0.81 13.38 -22.0 1.01 -1.15
+macro 0.2 pre2 SPY cash {'n': 439, 'days': 878, 'avg_moved': 5.5} 0.76 14.02 -21.6 1.04 -0.52
+macro 0.2 pre2 SPY cashgld {'n': 439, 'days': 878, 'avg_moved': 8.6} 0.76 13.94 -21.6 1.03 -0.6
+macro 0.2 pre2 QQQ cash {'n': 439, 'days': 878, 'avg_moved': 5.5} 0.77 14.09 -22.8 1.04 -0.45
+macro 0.2 pre2 QQQ cashgld {'n': 439, 'days': 878, 'avg_moved': 8.6} 0.77 14.09 -22.9 1.03 -0.45
+macro 0.2 post SPY cash {'n': 440, 'days': 880, 'avg_moved': 5.5} 0.75 13.28 -23.1 0.99 -1.26
+macro 0.2 post SPY cashgld {'n': 440, 'days': 880, 'avg_moved': 8.6} 0.75 13.15 -23.2 0.98 -1.38
+macro 0.2 post QQQ cash {'n': 440, 'days': 880, 'avg_moved': 5.5} 0.76 13.27 -25.0 0.99 -1.27
+macro 0.2 post QQQ cashgld {'n': 440, 'days': 880, 'avg_moved': 8.6} 0.76 13.25 -25.2 0.98 -1.28
+macro 0.3 t SPY cash {'n': 440, 'days': 440, 'avg_moved': 7.5} 0.81 13.14 -22.1 0.99 -1.4
+macro 0.3 t SPY cashgld {'n': 440, 'days': 440, 'avg_moved': 10.8} 0.8 13.05 -22.3 0.98 -1.49
+macro 0.3 t QQQ cash {'n': 440, 'days': 440, 'avg_moved': 7.5} 0.8 12.93 -23.8 0.97 -1.6
+macro 0.3 t QQQ cashgld {'n': 440, 'days': 440, 'avg_moved': 10.8} 0.79 12.92 -24.0 0.97 -1.62
+macro 0.3 pre2 SPY cash {'n': 439, 'days': 878, 'avg_moved': 7.4} 0.72 13.82 -23.2 1.01 -0.72
+macro 0.3 pre2 SPY cashgld {'n': 439, 'days': 878, 'avg_moved': 10.8} 0.72 13.73 -23.4 1.0 -0.8
+macro 0.3 pre2 QQQ cash {'n': 439, 'days': 878, 'avg_moved': 7.4} 0.74 13.86 -24.9 1.01 -0.68
+macro 0.3 pre2 QQQ cashgld {'n': 439, 'days': 878, 'avg_moved': 10.8} 0.73 13.86 -25.2 1.0 -0.68
+macro 0.3 post SPY cash {'n': 440, 'days': 880, 'avg_moved': 7.5} 0.7 12.76 -25.5 0.95 -1.78
+macro 0.3 post SPY cashgld {'n': 440, 'days': 880, 'avg_moved': 10.9} 0.7 12.65 -25.8 0.93 -1.89
+macro 0.3 post QQQ cash {'n': 440, 'days': 880, 'avg_moved': 7.5} 0.72 12.74 -28.3 0.94 -1.8
+macro 0.3 post QQQ cashgld {'n': 440, 'days': 880, 'avg_moved': 10.9} 0.71 12.75 -28.7 0.93 -1.79
+macro 1.0 t SPY cash {'n': 440, 'days': 440, 'avg_moved': 9.2} 0.79 12.77 -23.5 0.96 -1.77
+macro 1.0 t SPY cashgld {'n': 440, 'days': 440, 'avg_moved': 14.2} 0.76 12.28 -25.0 0.92 -2.26
+macro 1.0 t QQQ cash {'n': 440, 'days': 440, 'avg_moved': 9.2} 0.78 12.52 -25.8 0.94 -2.02
+macro 1.0 t QQQ cashgld {'n': 440, 'days': 440, 'avg_moved': 14.2} 0.75 12.06 -27.7 0.9 -2.48
+macro 1.0 pre2 SPY cash {'n': 439, 'days': 878, 'avg_moved': 9.1} 0.67 13.68 -24.8 0.99 -0.85
+macro 1.0 pre2 SPY cashgld {'n': 439, 'days': 878, 'avg_moved': 14.1} 0.63 13.29 -26.3 0.95 -1.25
+macro 1.0 pre2 QQQ cash {'n': 439, 'days': 878, 'avg_moved': 9.1} 0.69 13.72 -26.9 0.98 -0.82
+macro 1.0 pre2 QQQ cashgld {'n': 439, 'days': 878, 'avg_moved': 14.1} 0.64 13.38 -28.9 0.94 -1.15
+macro 1.0 post SPY cash {'n': 440, 'days': 880, 'avg_moved': 9.3} 0.65 12.1 -28.1 0.89 -2.44
+macro 1.0 post SPY cashgld {'n': 440, 'days': 880, 'avg_moved': 14.3} 0.59 11.53 -29.7 0.84 -3.01
+macro 1.0 post QQQ cash {'n': 440, 'days': 880, 'avg_moved': 9.3} 0.67 12.06 -31.7 0.88 -2.47
+macro 1.0 post QQQ cashgld {'n': 440, 'days': 880, 'avg_moved': 14.3} 0.62 11.59 -34.1 0.83 -2.95
+all 0.1 t SPY cash {'n': 572, 'days': 572, 'avg_moved': 2.9} 0.84 13.95 -18.5 1.06 -0.58
+all 0.1 t SPY cashgld {'n': 572, 'days': 572, 'avg_moved': 5.9} 0.83 13.81 -18.5 1.05 -0.73
+all 0.1 t QQQ cash {'n': 572, 'days': 572, 'avg_moved': 2.9} 0.83 13.96 -18.7 1.06 -0.58
+all 0.1 t QQQ cashgld {'n': 572, 'days': 572, 'avg_moved': 5.9} 0.82 13.92 -18.8 1.05 -0.62
+all 0.1 pre2 SPY cash {'n': 571, 'days': 1125, 'avg_moved': 2.9} 0.81 14.26 -19.0 1.07 -0.28
+all 0.1 pre2 SPY cashgld {'n': 571, 'days': 1125, 'avg_moved': 5.9} 0.8 14.08 -19.0 1.05 -0.46
+all 0.1 pre2 QQQ cash {'n': 571, 'days': 1125, 'avg_moved': 2.9} 0.81 14.41 -19.3 1.07 -0.13
+all 0.1 pre2 QQQ cashgld {'n': 571, 'days': 1125, 'avg_moved': 5.9} 0.81 14.3 -19.3 1.06 -0.24
+all 0.1 post SPY cash {'n': 572, 'days': 1127, 'avg_moved': 3.0} 0.8 13.71 -20.3 1.03 -0.83
+all 0.1 post SPY cashgld {'n': 572, 'days': 1127, 'avg_moved': 5.9} 0.79 13.54 -20.4 1.02 -1.0
+all 0.1 post QQQ cash {'n': 572, 'days': 1127, 'avg_moved': 3.0} 0.8 13.69 -21.3 1.03 -0.84
+all 0.1 post QQQ cashgld {'n': 572, 'days': 1127, 'avg_moved': 5.9} 0.8 13.69 -21.5 1.02 -0.85
+all 0.2 t SPY cash {'n': 572, 'days': 572, 'avg_moved': 5.3} 0.83 13.64 -19.6 1.03 -0.9
+all 0.2 t SPY cashgld {'n': 572, 'days': 572, 'avg_moved': 8.4} 0.82 13.48 -19.7 1.02 -1.05
+all 0.2 t QQQ cash {'n': 572, 'days': 572, 'avg_moved': 5.3} 0.82 13.61 -20.1 1.02 -0.93
+all 0.2 t QQQ cashgld {'n': 572, 'days': 572, 'avg_moved': 8.4} 0.82 13.58 -20.1 1.02 -0.96
+all 0.2 pre2 SPY cash {'n': 571, 'days': 1125, 'avg_moved': 5.3} 0.77 14.18 -20.5 1.05 -0.36
+all 0.2 pre2 SPY cashgld {'n': 571, 'days': 1125, 'avg_moved': 8.4} 0.77 14.04 -20.6 1.03 -0.49
+all 0.2 pre2 QQQ cash {'n': 571, 'days': 1125, 'avg_moved': 5.3} 0.78 14.38 -21.1 1.05 -0.15
+all 0.2 pre2 QQQ cashgld {'n': 571, 'days': 1125, 'avg_moved': 8.4} 0.78 14.36 -21.3 1.04 -0.18
+all 0.2 post SPY cash {'n': 572, 'days': 1127, 'avg_moved': 5.4} 0.74 13.21 -22.9 0.98 -1.33
+all 0.2 post SPY cashgld {'n': 572, 'days': 1127, 'avg_moved': 8.5} 0.74 13.02 -23.0 0.97 -1.52
+all 0.2 post QQQ cash {'n': 572, 'days': 1127, 'avg_moved': 5.4} 0.76 13.2 -24.9 0.97 -1.34
+all 0.2 post QQQ cashgld {'n': 572, 'days': 1127, 'avg_moved': 8.5} 0.76 13.18 -25.1 0.96 -1.36
+all 0.3 t SPY cash {'n': 572, 'days': 572, 'avg_moved': 7.2} 0.82 13.34 -20.6 1.0 -1.2
+all 0.3 t SPY cashgld {'n': 572, 'days': 572, 'avg_moved': 10.6} 0.81 13.16 -20.7 0.99 -1.37
+all 0.3 t QQQ cash {'n': 572, 'days': 572, 'avg_moved': 7.2} 0.81 13.28 -21.3 0.99 -1.26
+all 0.3 t QQQ cashgld {'n': 572, 'days': 572, 'avg_moved': 10.6} 0.8 13.22 -21.4 0.98 -1.32
+all 0.3 pre2 SPY cash {'n': 571, 'days': 1125, 'avg_moved': 7.2} 0.73 14.04 -21.7 1.02 -0.5
+all 0.3 pre2 SPY cashgld {'n': 571, 'days': 1125, 'avg_moved': 10.7} 0.72 13.92 -21.9 1.01 -0.62
+all 0.3 pre2 QQQ cash {'n': 571, 'days': 1125, 'avg_moved': 7.2} 0.74 14.24 -22.8 1.02 -0.3
+all 0.3 pre2 QQQ cashgld {'n': 571, 'days': 1125, 'avg_moved': 10.7} 0.74 14.24 -23.1 1.01 -0.3
+all 0.3 post SPY cash {'n': 572, 'days': 1127, 'avg_moved': 7.3} 0.69 12.63 -25.4 0.93 -1.91
+all 0.3 post SPY cashgld {'n': 572, 'days': 1127, 'avg_moved': 10.7} 0.69 12.47 -25.7 0.91 -2.06
+all 0.3 post QQQ cash {'n': 572, 'days': 1127, 'avg_moved': 7.3} 0.72 12.6 -28.4 0.92 -1.94
+all 0.3 post QQQ cashgld {'n': 572, 'days': 1127, 'avg_moved': 10.7} 0.72 12.61 -28.8 0.91 -1.93
+all 1.0 t SPY cash {'n': 572, 'days': 572, 'avg_moved': 8.9} 0.81 13.02 -21.7 0.97 -1.52
+all 1.0 t SPY cashgld {'n': 572, 'days': 572, 'avg_moved': 13.8} 0.78 12.47 -22.9 0.93 -2.07
+all 1.0 t QQQ cash {'n': 572, 'days': 572, 'avg_moved': 8.9} 0.8 12.94 -22.8 0.96 -1.6
+all 1.0 t QQQ cashgld {'n': 572, 'days': 572, 'avg_moved': 13.8} 0.77 12.5 -24.3 0.92 -2.03
+all 1.0 pre2 SPY cash {'n': 571, 'days': 1125, 'avg_moved': 8.9} 0.69 13.96 -23.0 1.0 -0.58
+all 1.0 pre2 SPY cashgld {'n': 571, 'days': 1125, 'avg_moved': 13.9} 0.64 13.54 -24.3 0.96 -1.0
+all 1.0 pre2 QQQ cash {'n': 571, 'days': 1125, 'avg_moved': 8.9} 0.71 14.17 -24.5 1.0 -0.36
+all 1.0 pre2 QQQ cashgld {'n': 571, 'days': 1125, 'avg_moved': 13.9} 0.66 13.87 -26.2 0.95 -0.66
+all 1.0 post SPY cash {'n': 572, 'days': 1127, 'avg_moved': 9.0} 0.63 11.88 -28.6 0.86 -2.66
+all 1.0 post SPY cashgld {'n': 572, 'days': 1127, 'avg_moved': 14.0} 0.58 11.22 -30.7 0.81 -3.31
+all 1.0 post QQQ cash {'n': 572, 'days': 1127, 'avg_moved': 9.0} 0.67 11.83 -32.5 0.85 -2.7
+all 1.0 post QQQ cashgld {'n': 572, 'days': 1127, 'avg_moved': 14.0} 0.62 11.33 -35.3 0.8 -3.21
+   크기 8% {'n': 220, 'days': 440, 'avg_moved': 5.4} 14.46 -18.5 1.09 -0.08
+   크기 12% {'n': 220, 'days': 440, 'avg_moved': 6.6} 14.56 -18.9 1.09 0.02
+   자산 SPY {'n': 220, 'days': 440, 'avg_moved': 6.0} 14.29 -18.5 1.08 -0.25
+   비용 0.2% {'n': 220, 'days': 440, 'avg_moved': 6.0} 14.35 -18.9 1.08 -0.19
+   창 t {'n': 220, 'days': 220, 'avg_moved': 6.0} 14.1 -18.8 1.07 -0.44
+   창 post {'n': 220, 'days': 440, 'avg_moved': 6.0} 14.08 -19.7 1.06 -0.46
+   날짜 묶음 nfp {'n': 219, 'days': 438, 'avg_moved': 5.8} 13.94 -19.3 1.05 -0.59
+   날짜 묶음 macro {'n': 439, 'days': 878, 'avg_moved': 5.9} 14.2 -20.3 1.06 -0.34
+   날짜 묶음 all {'n': 571, 'days': 1125, 'avg_moved': 5.9} 14.3 -19.3 1.06 -0.24
+   가짜 날짜 -10거래일 {'n': 219, 'days': 438, 'avg_moved': 5.8} 14.26 -18.1 1.08 -0.28
+   가짜 날짜 -5거래일 {'n': 220, 'days': 440, 'avg_moved': 6.0} 14.16 -18.0 1.07 -0.38
+   가짜 날짜 +5거래일 {'n': 220, 'days': 440, 'avg_moved': 6.0} 13.86 -18.2 1.05 -0.67
+   가짜 날짜 +10거래일 {'n': 219, 'days': 438, 'avg_moved': 5.8} 14.22 -17.0 1.07 -0.31
+이벤트 {"cpi": {"is_SPY": {"n": 102, "avg_bp": 12.1, "allday_bp": 4.3, "win": 55.9, "t_vs_allday": 0.58}, "is_QQQ": {"n": 102, "avg_bp": 17.5, "allday_bp": 5.8, "win": 56.9, "t_vs_allday": 0.84}, "oos_SPY": {"n": 118, "avg_bp": 3.0, "allday_bp": 5.1, "win": 55.9, "t_vs_allday": -0.18}, "oos_QQQ": {"n": 118, "avg_bp": 16.7, "allday_bp": 7.3, "win": 61.0, "t_vs_allday": 0.67}}, "nfp": {"is_SPY": {"n": 102, "avg_bp": 12.1, "allday_bp": 4.3, "win": 59.8, "t_vs_allday": 0.67}, "is_QQQ": {"n": 102, "avg_bp": 4.1, "allday_bp": 5.8, "win": 52.0, "t_vs_allday": -0.14}, "oos_SPY": {"n": 118, "avg_bp": 5.6, "allday_bp": 5.1, "win": 57.6, "t_vs_allday": 0.04}, "oos_QQQ": {"n": 118, "avg_bp": 1.1, "allday_bp": 7.3, "win": 57.6, "t_vs_allday": -0.42}}, "macro": {"is_SPY": {"n": 204, "avg_bp": 12.1, "allday_bp": 4.3, "win": 57.8, "t_vs_allday": 0.88}, "is_QQQ": {"n": 204, "avg_bp": 10.8, "allday_bp": 5.8, "win": 54.4, "t_vs_allday": 0.53}, "oos_SPY": {"n": 236, "avg_bp": 4.3, "allday_bp": 5.1, "win": 56.8, "t_vs_allday": -0.11}, "oos_QQQ": {"n": 236, "avg_bp": 8.9, "allday_bp": 7.3, "win": 59.3, "t_vs_allday": 0.16}}, "all": {"is_SPY": {"n": 264, "avg_bp": 16.3, "allday_bp": 4.3, "win": 57.6, "t_vs_allday": 1.56}, "is_QQQ": {"n": 264, "avg_bp": 16.1, "allday_bp": 5.8, "win": 55.3, "t_vs_allday": 1.25}, "oos_SPY": {"n": 308, "avg_bp": 3.9, "allday_bp": 5.1, "win": 54.2, "t_vs_allday": -0.19}, "oos_QQQ": {"n": 308, "avg_bp": 11.6, "allday_bp": 7.3, "win": 58.4, "t_vs_allday": 0.48}}}
+고른 ('cpi', 0.1, 'pre2', 'QQQ', 'cashgld') 0.84 {'cagr': np.float64(14.51), 'vol': np.float64(13.3), 'mdd': np.float64(-18.7), 'sharpe': np.float64(1.09), 'ex': np.float64(-0.02), 'win12': 44, 'beat_years': 5, 'years': 10, 'turn': 481} ➖ 애매 {'beat': False, 'mdd': True, 'sharpe': False} False
