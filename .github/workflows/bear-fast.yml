@@ -8,6 +8,8 @@ on:
     - cron: "25 7 * * 1-5"    # KST 16:25 중국 마감 뒤
     - cron: "25 8 * * 1-5"    # KST 17:25 홍콩 마감 뒤
     - cron: "25 21 * * 1-5"   # KST 화~토 06:25 미국 마감 뒤(겨울) · 여름엔 05:30 fetch 가 먼저 봄
+    - cron: "30 0,2,5 * * 1-5"   # KST 9:30·11:30·14:30 🔁 백테스트 회차
+
 permissions:
   contents: write
 concurrency:
