@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아, Arm CEO 르네 하스에 차기 CEO 타진 — 직원들은 황 복귀 원해(보도 종합)",
+   "url": "https://www.khaleejtimes.com/business/tech/nvidia-approaches-arm-ceo-haas",
+   "press": "Khaleej Times(WSJ·FT 보도 종합)",
+   "at": "2026-11-18 03:40",
+   "why": "NVDA 🐋 고래 신호·반도체 칸 — 실적 직전 지배구조 불확실성(외부 CEO vs 황 복귀)",
+   "summary": "이사회가 하이드릭&스트러글스로 CEO 후보 탐색, Arm CEO 하스와 접촉(WSJ). 직원들은 황 복귀 요구. 회사 공식 확인 전."
+  },
+  {
+   "title": "누가 젠슨 황을 잇나 — 엔비디아 정식 CEO 찾기 시작",
+   "url": "https://yourstory.com/2026/11/who-will-succeed-jensen-huang-race-to-find-permanent-chief-begins",
+   "press": "YourStory",
+   "at": "2026-11-18 03:40",
+   "why": "💬 2번 엔비디아 질문 — 후보군(내부·경쟁사·정치 추천) 정리",
+   "summary": "내부 인사·경쟁사 CEO·트럼프 측 추천까지 후보 거론(SCMP도 비슷한 분석). 확정 일정 미확인."
+  },
+  {
    "title": "나스닥·S&P500, 엔비디아 실적·앤스로픽 상장 앞두고 1% 넘게 하락(로이터)",
    "url": "https://www.marketscreener.com/news/nasdaq-s-p-500-fall-over-1-in-run-up-to-nvidia-results-anthropic-debut-ce785edfdd89fe26",
    "press": "Reuters/MarketScreener",
@@ -623,22 +639,6 @@
    "at": "2026-11-16 05:45",
    "why": "11/17 임시 CEO 첫 실적 앞 — 황 복귀 논의(FT)와 이사회 조사가 동시에 진행, 반도체 칸·AI 차입 가설",
    "summary": "이사회 조사가 진행 중인 가운데 데이터센터 업계는 공급 일정·고객 관계 영향을 점검. 세부 숫자는 미확인."
-  },
-  {
-   "title": "연준 슈미드, 매파 합창에 합류 — 「금리 방향은 인상」",
-   "url": "https://www.morningstar.com/news/dow-jones/2026111010580/feds-schmid-joins-hawkish-chorus-on-rate-direction",
-   "press": "모닝스타(다우존스)",
-   "at": "2026-11-16 04:45",
-   "why": "12/9 FOMC 분수령 가설 — 11/15 「할 일 남았다」 재확인으로 지역 연은 총재 매파 쪽 일주일째, 11/18 의사록 앞",
-   "summary": "슈미드 캔자스시티 연은 총재가 11/10 인상 쪽 목소리에 합류, 11/15 「물가를 끌어내리려면 할 일이 남았다」(블룸버그·CNBC 제목) 재확인."
-  },
-  {
-   "title": "마이클 버리, 반도체 ETF 풋 25% 차익 실현 — 「여전히 매우 약세」",
-   "url": "https://247wallst.com/investing/2026/11/06/michael-burry-sold-25-of-his-chip-puts-and-says-hes-still-very-bearish/",
-   "press": "24/7 Wall St.",
-   "at": "2026-11-16 03:45",
-   "why": "11/16 홍콩 매체 「버리 나스닥·반도체 숏 확대」 제목과 엇갈림 — 11/6 기준 풋 일부 정리, 엔비디아 실적 앞 반도체 칸 「반등 추격 금지」 판단의 참고",
-   "summary": "11/5~6 버리가 반도체 ETF 풋 포지션 25%를 정리했지만 약세 시각은 유지. 11/16 홍콩 보도의 「숏 확대」는 시점·규모 미확인."
   }
  ],
  "at": "2026-11-18 00:35"
