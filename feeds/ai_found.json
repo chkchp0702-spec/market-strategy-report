@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "나스닥·S&P500, 엔비디아 실적·앤스로픽 상장 앞두고 1% 넘게 하락(로이터)",
+   "url": "https://www.marketscreener.com/news/nasdaq-s-p-500-fall-over-1-in-run-up-to-nvidia-results-anthropic-debut-ce785edfdd89fe26",
+   "press": "Reuters/MarketScreener",
+   "at": "2026-11-18 02:45",
+   "why": "실적·대형 IPO 두 이벤트 직전 위험 회피 — 나스닥100 코어 칸·🐻 나스닥 「조정」 판정",
+   "summary": "11/17 美 장중 나스닥·S&P500 −1%↑, 소프트웨어 약세로 다우도 급락(IBD). 블룸버그 「위험 회피 매수로 국채 강세」."
+  },
+  {
+   "title": "나스닥100, 대형 IPO 15거래일 고속 편입 규칙 — 앤스로픽도 대상",
+   "url": "https://www.marketscreener.com/news/nasdaq-100-emergency-plan-to-integrate-private-giants-within-15-days-ce7e51dedb8fff26",
+   "press": "MarketScreener",
+   "at": "2026-11-18 02:45",
+   "why": "앤스로픽 편입 시 QQQ 등 추종 자금이 기존 구성 종목을 줄여야 함 — 편입일 전후 빅테크 수급 부담",
+   "summary": "나스닥이 초대형 신규 상장 종목을 15거래일 안에 나스닥100에 넣는 규칙 도입(스페이스X 선례). 마켓워치 11/17 「나스닥100 펀드는 15거래일 뒤 앤스로픽을 보유하게 된다」."
+  },
+  {
    "title": "젠슨 황 스캔들, 엔비디아 이사회 최대 시험대",
    "url": "https://news.bgov.com/banking-law/jensen-huang-scandal-gives-nvidias-board-its-biggest-test-yet",
    "press": "Bloomberg Government",
@@ -623,22 +639,6 @@
    "at": "2026-11-16 03:45",
    "why": "11/16 홍콩 매체 「버리 나스닥·반도체 숏 확대」 제목과 엇갈림 — 11/6 기준 풋 일부 정리, 엔비디아 실적 앞 반도체 칸 「반등 추격 금지」 판단의 참고",
    "summary": "11/5~6 버리가 반도체 ETF 풋 포지션 25%를 정리했지만 약세 시각은 유지. 11/16 홍콩 보도의 「숏 확대」는 시점·규모 미확인."
-  },
-  {
-   "title": "엔비디아 황 조사 착수 — 한국 칩 업체들 충격 대비",
-   "url": "https://www.koreajoongangdaily.com/business/as-nvidia-begins-huang-probe-korean-chipmakers-brace-for-impact/12965338",
-   "press": "코리아중앙데일리",
-   "at": "2026-11-16 02:45",
-   "why": "삼성전자·SK하이닉스 HBM 공급 일정과 수출 규제 위험 — 월요일 한국 반도체 개장·코스피 하락장 판정과 이어짐",
-   "summary": "엔비디아 내부 조사 착수 뒤 한국 메모리 업체 영향 점검 기사. 세부 숫자는 원문 미확인."
-  },
-  {
-   "title": "WSJ: 스페이스X, 텍사스·애리조나 데이터센터에 740억달러 넘게 투자 계획",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRHBDbl83ZEF3NVVUcjdrMG9mczZ2UGdtRWNpbWxiOVo3aHNodU03Z0RsRU8wSFZZZlBNQV83V09DOWVlendGdjliM0xvT0twMjhqbkIyZEZva21DZDhLOEtFQ3lha1NLM2J6Q01EWTNET3ZxNFlieWRHX29CRl9HVDByY05qLWNyU2NQcDhPcGxEeFlEUzFWM3hYVEtzRk9LbklfQ3JLaF9lYkZhenB3R3dB?oc=5",
-   "press": "WSJ",
-   "at": "2026-11-16 01:45",
-   "why": "황 퇴진·네비우스 하향 속에도 현금 많은 쪽 AI 설비는 커진다 — 「상류·전력이 빚으로 짓는 곳을 이긴다」 가설, 전력·냉각 칸",
-   "summary": "WSJ 11/15 제목 「스페이스X 텍사스·애리조나 데이터센터 740억달러↑」. 애리조나 코치스 카운티 6GW 캠퍼스는 11/10 지역 보도(KJZZ·Baxtel)로 확인, 740억 세부 내역은 원문 미확인."
   }
  ],
  "at": "2026-11-18 00:35"
