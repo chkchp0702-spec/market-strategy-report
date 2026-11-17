@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "아시아 증시, 일본 GDP 위축·엔비디아 실적 앞두고 하락",
+   "url": "https://noortrends.ae/en/asia-stocks-slip-as-japan-gdp-contracts-nvidia-earnings-keep-tech-on-edge/11/17/market-updates",
+   "press": "Noor Trends",
+   "at": "2026-11-17 10:40",
+   "why": "🐻 일본 칸(닛케이 주식 0%) — 3분기 GDP 위축 + 반도체 규제로 아시아 기술주 압박",
+   "summary": "11/17 아시아 하락 정리. 피드 기준 닛케이 장중 5만9천 엔 하회·어드반테스트 한때 −5.8%·대만 가권 39,807(−3%). 기사 내 숫자는 미확인."
+  },
+  {
    "title": "엔비디아 GPU 단속, 중국 연계 동남아 데이터센터 직격",
    "url": "https://www.pulse.bot/hardware/news/nvidia-gpu-crackdown-hits-china-linked-southeast-asia-data-centers-573966ec-05af-48e5-bbce-dd33d7ac4808/",
    "press": "Pulse",
@@ -631,15 +639,7 @@
    "at": "2026-11-14 11:45",
    "why": "황 사임 배경(중국 연관 조사)의 정치 확대 리스크 축소 — 엔비디아·SOXX",
    "summary": "미·중 정상회담 의제에서 엔비디아 관련 스파이 사건 제외 방침(FT·인베스팅 동시 보도). 수출 규제 논의 여부는 미확인."
-  },
-  {
-   "title": "월러 연준 이사 「12월 최소 0.25%p 인상 지지」",
-   "url": "https://www.thestandard.com.hk/finance/article/348068/Feds-Waller-plans-to-support-at-least-a-quarter-point-rate-hike-in-December",
-   "press": "더스탠더드(로이터)",
-   "at": "2026-11-14 10:45",
-   "why": "「12/9 FOMC 2018년식 분수령」 가설·💬 7번 0.5%p 질문 — 인상 폭 논쟁의 하한선",
-   "summary": "월러 이사가 12월 「최소 0.25%p」 인상을 지지한다고 밝힘. 골드만 브룩스는 「0.5%p는 하지 말아야」로 반대쪽. 시장은 12월 인상은 기정사실, 폭·1월 추가가 쟁점."
   }
  ],
- "at": "2026-11-17 07:45"
+ "at": "2026-11-17 10:40"
 }
