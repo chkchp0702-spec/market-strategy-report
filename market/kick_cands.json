@@ -6923,6 +6923,46 @@
 "src": "earn",
 "score": 49.8,
 "lv": 210.41
+},
+"SGI|2026-11-17|whale": {
+"code": "SGI",
+"name": "SGI",
+"mkt": "US",
+"d": "2026-11-17",
+"src": "whale",
+"score": 40
+},
+"BMY|2026-11-17|whale": {
+"code": "BMY",
+"name": "BMY",
+"mkt": "US",
+"d": "2026-11-17",
+"src": "whale",
+"score": 40
+},
+"MCHP|2026-11-17|whale": {
+"code": "MCHP",
+"name": "MCHP",
+"mkt": "US",
+"d": "2026-11-17",
+"src": "whale",
+"score": 40
+},
+"NVDA|2026-11-17|whale": {
+"code": "NVDA",
+"name": "NVDA",
+"mkt": "US",
+"d": "2026-11-17",
+"src": "whale",
+"score": 40
+},
+"HUM|2026-11-17|whale": {
+"code": "HUM",
+"name": "HUM",
+"mkt": "US",
+"d": "2026-11-17",
+"src": "whale",
+"score": 40
 }
 },
 "sent": [
@@ -6943,25 +6983,26 @@
 "2026-11-06|팔기|PAGP"
 ],
 "whale": [
+"AMAT",
 "AMD",
-"AVGO",
-"BKNG",
-"CDW",
-"CHTR",
-"CLF",
+"ASML",
+"BMY",
+"CLS",
+"CNC",
 "CPNG",
-"FISV",
 "GDS",
-"GOOGL",
-"GPN",
-"HPE",
+"HUM",
+"INTC",
+"MCHP",
 "META",
+"MU",
+"NVDA",
+"ONON",
 "ORCL",
 "RIG",
-"ROP",
-"RYTM",
 "SE",
-"SNOW",
-"SPGI"
+"SGI",
+"TSM",
+"ZBH"
 ]
 }
