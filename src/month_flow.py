@@ -14,6 +14,8 @@ import datetime as dt
 
 FLOW_FROM = "2026-10-29"     # 이 날(미국 거래일) 수익부터 반영
 K, TH, F = 5, 0.005, 0.60
+# ⚔️ 11/17 Q11/17-1 사용자 「1번 진행」: 🎯 만 옮기는 몫 0.6 → 1.0 (근거 market/lab/k1117_attack.json · 💼 는 0.6 그대로)
+F_CONC, F_CONC_FROM = 1.0, "2026-11-18"
 NAME = "🔄 월말 흐름(장기채)"
 BOND = "TLT"
 SIG_EQ, SIG_BD = "SPY", "IEF"
@@ -96,8 +98,9 @@ def state(C, cal, d1):
     return (1 if dr > TH else -1 if dr < -TH else 0), dr, left
 
 
-def apply(w: dict, sig: int, is_eq, is_side) -> dict:
-    """w: {칸: 비중%} → 월말 흐름 반영한 새 dict. is_eq(name) 주식 칸 · is_side(name) 금·추세·현금 칸"""
+def apply(w: dict, sig: int, is_eq, is_side, f=None) -> dict:
+    """w: {칸: 비중%} → 월말 흐름 반영한 새 dict. is_eq(name) 주식 칸 · is_side(name) 금·추세·현금 칸 · f 옮기는 몫(없으면 F)"""
+    F = globals()["F"] if f is None else f
     w = dict(w)
     if sig > 0:
         mv = 0.0
@@ -116,3 +119,40 @@ def apply(w: dict, sig: int, is_eq, is_side) -> dict:
             for k in eqk:
                 w[k] += mv * w[k] / tot
     return w
+
+
+def next_td(d):
+    """d 다음 미국 거래일(휴장일 규칙)"""
+    import pandas as pd
+    x = pd.Timestamp(d) + pd.Timedelta(days=1)
+    while not _is_td(x.date()):
+        x += pd.Timedelta(days=1)
+    return x
+
+
+def tonight(C, cal, n1, cur_sig, f=None, eq="주식 칸", side="금·추세 칸"):
+    """⏰ 11/17 Q11/6-3 사용자 「같이 진행」: 하루 먼저 알리기.
+    n1 = 다음 미국 거래일(오늘 밤 장). n1 의 다음 거래일(n2)에 쓸 신호는 n2 이틀 전 = 마지막 종가까지로 이미 정해짐
+    → 오늘 밤 n1 종가에 예약(LOC) 주문으로 맞춰 두면 장부(같은 종가 체결)와 같아짐(근거 market/lab/k1106_portexec2.json)"""
+    import pandas as pd
+    n1 = pd.Timestamp(n1)
+    cc = list(cal) + ([n1] if n1 not in set(cal) else [])
+    n2 = next_td(n1)
+    try:
+        sg, dr, left = state(C, cc, n2)
+    except Exception as e_:
+        print("🔄 오늘 밤 신호 계산 실패", e_)
+        sg, dr, left = 0, None, 99
+    pct = round((globals()["F"] if f is None else f) * 100)
+    act = sg != cur_sig
+    if not act:
+        txt = "🔄 오늘 밤 할 일 없음" + (" · 월말 흐름 그대로 유지" if sg else "")
+    elif sg > 0:
+        txt = f"🔄 오늘 밤 미국 종가 예약(LOC): {eq} {pct}% → 미국 장기채(TLT)"
+    elif sg < 0:
+        txt = f"🔄 오늘 밤 미국 종가 예약(LOC): {side} {pct}% → 주식 칸"
+    else:
+        txt = "🔄 오늘 밤 미국 종가 예약(LOC): 월말 흐름 끝 → 원래 비중으로 되돌리기"
+    return {"order_at": n1.strftime("%Y-%m-%d"), "for": n2.strftime("%Y-%m-%d"), "sig": sg, "cur": cur_sig, "act": bool(act),
+            "drift": round(dr * 100, 2) if dr is not None else None, "left": left, "text": txt,
+            "note": "Q11/6-3 — 쓰는 쏠림이 이틀 전 종가라 하루 먼저 알 수 있음 · 한국 아침에 보고 그날 밤 미국 장 마감 지정가(LOC)로 넣으면 장부와 같은 체결"}

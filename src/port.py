@@ -579,6 +579,7 @@ def main() -> int:
         "month_flow": (lambda st_: {"on": True, "from": MF.FLOW_FROM, "sig": st_[0], "drift": round(st_[1] * 100, 2) if st_[1] is not None else None,
                                     "left": st_[2], "window": st_[2] < MF.K, "k": MF.K, "th": MF.TH * 100, "f": MF.F,
                                     "pct": round(bw_now.get(MF.NAME, 0.0), 1), "for": nxt.strftime("%Y-%m-%d"),
+                                    "tonight": MF.tonight(C, CALL, nxt, st_[0], eq="주식 칸", side="금·추세 칸"),
                                     "note": "Q10/28-2 — 매달 마지막 5거래일, 60/40 펀드(SPY·IEF) 주식 비중이 ±0.5%p 넘게 쏠리면 펀드가 억지로 사고팔 쪽에 미리 섬(넘침 → 주식 칸 60% 장기채 · 모자람 → 금·추세 칸 60% 주식) · 근거 market/lab/k1028_rebalflow4.json · 💼·🎯(Q10/28-3) · 레버리지 없음"})(flow_state(nxt)),
         "asof": cal[-1].strftime("%Y-%m-%d"), "fx": round(fx, 1) if fx else None,
         "dates": series_d, "nav": [round((v - 1) * 100, 2) for v in nav],
@@ -609,6 +610,21 @@ def main() -> int:
     if old_asof and out["asof"] < old_asof and "--force" not in sys.argv:
         print(f"⚠ 새 계산 기준일 {out['asof']} < 기존 {old_asof} — 야후 시세 빠짐으로 보고 덮어쓰지 않음")
         return 0
+    # ⏰ 11/17 Q11/6-3: 월말 흐름은 하루 먼저 — 오늘 밤 미국 종가 예약(LOC) 주문이 필요하면 하루 한 번 알림
+    try:
+        _pt = ((json.loads(OUT.read_text(encoding="utf-8")).get("month_flow") or {}).get("tonight") or {})
+    except Exception:
+        _pt = {}
+    _tn = (out.get("month_flow") or {}).get("tonight") or {}
+    if _tn.get("act") and not (_pt.get("order_at") == _tn.get("order_at") and _pt.get("sig") == _tn.get("sig") and _pt.get("act")):
+        try:
+            import urllib.request
+            urllib.request.urlopen(urllib.request.Request("https://ntfy.sh/", data=json.dumps({
+                "topic": "chkchp-ch-report", "title": f"💼 오늘 밤({_tn['order_at'][5:]}) 종가 예약 주문", "message": _tn["text"] + "\n장 마감 지정가(LOC) · 앱 💼 포트에서 비중 확인",
+                "click": "https://chkchp0702-spec.github.io/daily-app/#port~pofollow", "tags": ["alarm_clock"]}).encode(),
+                headers={"Content-Type": "application/json"}), timeout=15).read()
+        except Exception as ex:
+            print("알림 실패", ex)
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"포트 {out['stat']['ret']:+.2f}% vs S&P {out['stat']['spy']:+.2f}% · {out['stat']['days']}거래일 · 빠진 시세 {miss}")
     return 0

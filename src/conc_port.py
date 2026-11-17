@@ -4,6 +4,9 @@
     · 오르는 시장 판정 = S&P500 이 200일선 위 (바뀐 상태가 3거래일 이어져야 인정 — 깜빡임 방지)
     · 🟢 상승장: S&P500 50% + 나스닥100 50% (주식 100%, 현금·금 0)
     · 🔴 아니면: S&P500 25% + 나스닥100 25% + 현금 50%
+    · ⚔️ 11/17 Q11/17-1(사용자 「1번 진행」): CORE_FROM 부터 코어를 나스닥100(QQQ) 100% 로(🟢 QQQ 100% · 🔴 QQQ 50% + 현금 50%) ·
+      🔄 월말 흐름 옮기는 몫 0.6 → 1.0 · 변동성 맞춤은 QQQ 20일 변동성으로 · 근거 market/lab/k1117_attack.json(예약 종가판 뒤 17.66 → 21.50 · 낙폭 −18.7 → −21.1)
+      ⏰ 같이 Q11/6-3: 월말 흐름은 하루 먼저(전날 한국 아침) 알리고 그날 밤 미국 종가 예약(LOC)으로 — conc.json month_flow.tonight
     · 레버리지 없음(10/11 사용자) · 판단은 그날 종가, 비중은 다음 거래일 종가부터 · 매주 + 판정 바뀐 날 비중 맞춤 · 사고판 양 × 0.1% 비용
   💼 기본 · ⚡ 킥 포트와 나란히 같은 날(START)부터 계산 → market/conc.json
 """
@@ -22,6 +25,9 @@ COST = 0.001
 STICK = 3
 ON = {"SPY": 0.5, "QQQ": 0.5}
 OFF = {"SPY": 0.25, "QQQ": 0.25, "BIL": 0.5}
+CORE_FROM = "2026-11-18"   # ⚔️ Q11/17-1 — 이 날(미국 거래일) 비중부터 · 소급 없음
+ON2 = {"SPY": 0.0, "QQQ": 1.0}
+OFF2 = {"SPY": 0.0, "QQQ": 0.5, "BIL": 0.5}
 INFO = {"SPY": {"name": "S&P500", "kr": {"code": "360750", "name": "TIGER 미국S&P500"}},
         "QQQ": {"name": "나스닥100", "kr": {"code": "133690", "name": "TIGER 미국나스닥100"}},
         "BIL": {"name": "현금·단기채", "us": "SGOV", "kr": {"code": "499660", "name": "TIGER CD금리"}}}
@@ -62,9 +68,14 @@ def main() -> int:
     sys.path.insert(0, str(ROOT))
     from src.rules7 import VOL_FROM, VOL_ROLES, held_scale_line
     VP = VOL_ROLES["conc"]
-    VL, HS = held_scale_line(C["SPY"], C["QQQ"], VP)
+    VL0, HS0 = held_scale_line(C["SPY"], C["QQQ"], VP)
+    VL2, HS2 = held_scale_line(C["QQQ"], C["QQQ"], VP)          # ⚔️ Q11/17-1 뒤: 코어가 QQQ 라 QQQ 20일 변동성
     act = lambda d: (d + pd.offsets.BDay(1)).strftime("%Y-%m-%d") >= VOL_FROM      # 그날 종가 판단이 쓰일 다음 거래일이 시작일 이후인가
-    sc_at = lambda d: (float(HS[HS.index <= d].iloc[-1]) if act(d) and len(HS[HS.index <= d]) else 1.0)
+    nw = lambda d: (d + pd.offsets.BDay(1)).strftime("%Y-%m-%d") >= CORE_FROM       # 그날 종가 판단이 새 코어(Q11/17-1) 날에 쓰이나
+    def sc_at(d):
+        HS = HS2 if nw(d) else HS0
+        return float(HS[HS.index <= d].iloc[-1]) if act(d) and len(HS[HS.index <= d]) else 1.0
+    VL = VL2 if nw(C.index[-1]) else VL0
 
     # 🧭 10/28 Q10/28-1: 현금 몫 → 자산 추세 칸 (src/trend_park.py · PARK_FROM 부터 · 소급 없음)
     from src import trend_park as TP
@@ -102,14 +113,14 @@ def main() -> int:
                 _MFS[k] = (0, None, 99)
         return _MFS[k]
 
-    def tw(up_, sc, park=False, fsig=0):
-        b_ = ON if up_ else OFF
+    def tw(up_, sc, park=False, fsig=0, new=False):
+        b_ = (ON2 if up_ else OFF2) if new else (ON if up_ else OFF)
         w_ = {"SPY": b_["SPY"] * sc, "QQQ": b_["QQQ"] * sc}
         w_["BIL"] = 1 - w_["SPY"] - w_["QQQ"]
         if park:
             w_["TRD"], w_["BIL"] = w_["BIL"], 0.0
         if fsig:
-            w_ = MF.apply(w_, fsig, lambda k: k in ("SPY", "QQQ"), lambda k: k in ("BIL", "TRD"))
+            w_ = MF.apply(w_, fsig, lambda k: k in ("SPY", "QQQ"), lambda k: k in ("BIL", "TRD"), f=MF.F_CONC if new else MF.F)
             w_["TLT"] = w_.pop(MF.NAME, 0.0)
         return w_
     ma200, ma50 = g.rolling(200).mean(), g.rolling(50).mean()
@@ -134,7 +145,8 @@ def main() -> int:
     last_sc = sc_at(p0)
     last_pk = pk(p0)
     last_fs = fl(p0)[0]
-    w = tw(last_up, last_sc, last_pk, last_fs)
+    last_nw = nw(p0)
+    w = tw(last_up, last_sc, last_pk, last_fs, last_nw)
     val, turn, wk = 1 - COST, 1.0, p0.isocalendar()[1]
     events = [{"d": cal[0].strftime("%Y-%m-%d"), "k": "시작", "up": last_up}]
     nav = []
@@ -149,8 +161,9 @@ def main() -> int:
         sc_now = sc_at(d)
         pk_now = pk(d)
         fs_now = fl(d)[0]
-        if up_now != last_up or d.isocalendar()[1] != wk or sc_now != last_sc or pk_now != last_pk or fs_now != last_fs:
-            nt = tw(up_now, sc_now, pk_now, fs_now)
+        nw_now = nw(d)
+        if up_now != last_up or d.isocalendar()[1] != wk or sc_now != last_sc or pk_now != last_pk or fs_now != last_fs or nw_now != last_nw:
+            nt = tw(up_now, sc_now, pk_now, fs_now, nw_now)
             t_ = sum(abs(nt.get(t, 0) - w.get(t, 0)) for t in A3)
             turn += t_; val *= 1 - t_ * COST; w = dict(nt)
             if up_now != last_up:
@@ -160,15 +173,25 @@ def main() -> int:
             if pk_now != last_pk:
                 events.append({"d": d.strftime("%Y-%m-%d"), "k": "🧭 현금 몫 → 자산 추세 칸 (Q10/28-1)", "up": up_now})
             if fs_now != last_fs:
-                events.append({"d": d.strftime("%Y-%m-%d"), "k": "🔄 월말 흐름 " + ("주식 60% → 장기채" if fs_now > 0 else "추세·현금 60% → 주식" if fs_now < 0 else "끝 · 제자리로") + " (Q10/28-3)", "up": up_now})
-            wk, last_up, last_sc, last_pk, last_fs = d.isocalendar()[1], up_now, sc_now, pk_now, fs_now
+                _fp = round((MF.F_CONC if nw_now else MF.F) * 100)
+                events.append({"d": d.strftime("%Y-%m-%d"), "k": "🔄 월말 흐름 " + (f"주식 {_fp}% → 장기채" if fs_now > 0 else f"추세·현금 {_fp}% → 주식" if fs_now < 0 else "끝 · 제자리로") + " (Q10/28-3)", "up": up_now})
+            if nw_now != last_nw:
+                events.append({"d": d.strftime("%Y-%m-%d"), "k": "⚔️ 코어 나스닥100 100% · 월말 흐름 몫 100% (Q11/17-1)", "up": up_now})
+            wk, last_up, last_sc, last_pk, last_fs, last_nw = d.isocalendar()[1], up_now, sc_now, pk_now, fs_now, nw_now
     spy = [round((float(C.loc[d, "SPY"]) / float(C.loc[p0, "SPY"]) - 1) * 100, 2) for d in cal]
     qqq = [round((float(C.loc[d, "QQQ"]) / float(C.loc[p0, "QQQ"]) - 1) * 100, 2) for d in cal]
 
     up = bool(reg.iloc[-1])
     sc_last = sc_at(C.index[-1])
     fst = fl(C.index[-1])
-    tgt = {t: x for t, x in tw(up, sc_last, pk(C.index[-1]), fst[0]).items() if x > 0.004}
+    NW = nw(C.index[-1])
+    FC = MF.F_CONC if NW else MF.F
+    tgt = {t: x for t, x in tw(up, sc_last, pk(C.index[-1]), fst[0], NW).items() if x > 0.004}
+    n1 = nday(C.index[-1])
+    TON = MF.tonight(C, CALL, n1, fst[0], f=MF.F_CONC if n1.strftime("%Y-%m-%d") >= CORE_FROM else MF.F, eq="주식 칸", side="추세·현금 칸")
+    if n1.strftime("%Y-%m-%d") < CORE_FROM <= TON["for"]:        # ⚔️ 코어 바꾸는 날 — 하루 먼저 알림(Q11/6-3 과 같은 방식)
+        TON["text"] = "⚔️ 오늘 밤 미국 종가 예약(LOC): S&P500 칸 전부 → 나스닥100 (🎯 코어 나스닥100 100% · Q11/17-1)" + (" · " + TON["text"] if TON["act"] else "")
+        TON["act"], TON["core"] = True, True
     if "TLT" in C:
         INFO["TLT"] = {"name": MF.NAME, "flow": True,
                        "items": [{"t": "TLT", "w": 1.0, "name": "미국 장기채", "px": round(float(C["TLT"].iloc[-1]), 2)}]}
@@ -180,7 +203,7 @@ def main() -> int:
                 "floor": round(VP["floor"] * 100), "eq_scale": round(sc_last * 100), "eq_w": round((tgt.get("SPY", 0) + tgt.get("QQQ", 0)) * 100, 1),
                 "raw_scale": round(min(1.0, max(VP["floor"], VP["target"] / 100 / vnow)) * 100), "band": 5, "from": VOL_FROM,
                 "asof": C.index[-1].strftime("%Y-%m-%d"),
-                "note": f"주식 × min(1, 목표 {VP['target']}% ÷ S&P½+나스닥½ {VP['lb']}일 변동성), 아래 한도 {round(VP['floor'] * 100)}% · 5%p 넘게 바뀔 때만 · 덜어낸 만큼 현금 · 레버리지 없음"}
+                "note": f"주식 × min(1, 목표 {VP['target']}% ÷ " + ("나스닥100" if NW else "S&P½+나스닥½") + f" {VP['lb']}일 변동성), 아래 한도 {round(VP['floor'] * 100)}% · 5%p 넘게 바뀔 때만 · 덜어낸 만큼 현금 · 레버리지 없음"}
     gap = float(g.iloc[-1] / ma200.iloc[-1] - 1) * 100
     P, K = rj(M / "port.json"), rj(M / "kick.json")
     BT = rj(M / "conc_bt.json")
@@ -198,9 +221,11 @@ def main() -> int:
     out = {
         "at": now.strftime("%Y-%m-%d %H:%M"), "start": START, "asof": cal[-1].strftime("%Y-%m-%d") if cal else None,
         "rule": {"title": "🎯 집중 포트", "judge": "S&P500 200일선 위 · 3거래일 확인",
-                 "on": "🟢 상승장 → S&P500 50% + 나스닥100 50% (주식 100%)", "off": "🔴 아니면 → S&P500 25% + 나스닥100 25% + 현금 50%",
+                 "on": "🟢 상승장 → " + ("나스닥100 100% (주식 100%)" if NW else "S&P500 50% + 나스닥100 50% (주식 100%)"),
+                 "off": "🔴 아니면 → " + ("나스닥100 50% + 현금 50%" if NW else "S&P500 25% + 나스닥100 25% + 현금 50%"),
+                 "core": f"⚔️ {CORE_FROM}부터 코어 나스닥100 100% · 월말 흐름 몫 100% (Q11/17-1 · 근거 lab k1117_attack: 2017~ 연 17.7 → 21.5% · 최대낙폭 −18.7 → −21.1%)",
                  "vol": f"🦴 변동성 맞춤(공격형, {VOL_FROM}부터): 주식 × min(1, {VP['target']}% ÷ {VP['lb']}일 변동성) · 아래 한도 {round(VP['floor'] * 100)}% → 덜어낸 만큼 " + ("🧭 자산 추세 칸" if pk(C.index[-1]) else "현금") + f" (현금 몫은 {TP.PARK_FROM}부터 🧭 자산 추세 9종 칸)",
-                 "flow": f"🔄 월말 흐름({MF.FLOW_FROM}부터 · Q10/28-3): 매달 마지막 {MF.K}거래일, 60/40 펀드(S&P·중기채) 주식 비중이 ±{MF.TH * 100:.1f}%p 넘게 쏠리면 넘침 → 주식 칸 {round(MF.F * 100)}% 미국 장기채(TLT) · 모자람 → 추세·현금 칸 {round(MF.F * 100)}% 주식",
+                 "flow": f"🔄 월말 흐름({MF.FLOW_FROM}부터 · Q10/28-3): 매달 마지막 {MF.K}거래일, 60/40 펀드(S&P·중기채) 주식 비중이 ±{MF.TH * 100:.1f}%p 넘게 쏠리면 넘침 → 주식 칸 {round(FC * 100)}% 미국 장기채(TLT) · 모자람 → 추세·현금 칸 {round(FC * 100)}% 주식 · ⏰ 하루 먼저 알림 → 그날 밤 미국 종가 예약(LOC) (Q11/6-3)",
                  "how": "판정은 그날 종가 · 다음 거래일부터 · 매주 + 판정 바뀐 날 비중 맞춤 · 사고판 양 × 0.1% 비용 · 레버리지 없음"},
         "regime": {"up": up, "since": since, "spx": round(float(g.iloc[-1]), 1), "ma200": round(float(ma200.iloc[-1]), 1),
                    "ma50": round(float(ma50.iloc[-1]), 1), "gap": round(gap, 1),
@@ -216,8 +241,8 @@ def main() -> int:
         "turn": round(turn * 100), "events": events[::-1][:10], "bt": bt, "vol_rule": vol_rule,
         "trend_park": {"on": pk(C.index[-1]), "from": TP.PARK_FROM, "rule": f"{TP.NIN}/{TP.NOUT}|{TP.WMODE}", "open": T_OPEN, "idle": round(T_IDLE, 3), "ok": TNAV is not None},
         "month_flow": {"on": True, "from": MF.FLOW_FROM, "sig": fst[0], "drift": round(fst[1] * 100, 2) if fst[1] is not None else None,
-                       "left": fst[2], "window": fst[2] < MF.K, "k": MF.K, "th": MF.TH * 100, "f": MF.F,
-                       "pct": round(tgt.get("TLT", 0.0) * 100, 1), "for": nday(C.index[-1]).strftime("%Y-%m-%d"),
+                       "left": fst[2], "window": fst[2] < MF.K, "k": MF.K, "th": MF.TH * 100, "f": FC,
+                       "pct": round(tgt.get("TLT", 0.0) * 100, 1), "for": nday(C.index[-1]).strftime("%Y-%m-%d"), "tonight": TON,
                        "note": "Q10/28-3 — 💼 와 같은 월말 흐름 규칙을 🎯 에도 · 근거 market/lab/k1028_qflow.json(🎯 2017~ 연 +2.34%p) · 레버리지 없음"},
         "note": "검증한 규칙을 그대로 따랐다면의 계산(비용 포함·달러 기준). 매수 추천 아님.",
     }
@@ -229,11 +254,22 @@ def main() -> int:
     if pu is not None and pu != up:
         try:
             import urllib.request
-            msg = ("🟢 오르는 시장으로 바뀜 — S&P500 50% + 나스닥100 50%로 주식 100%" if up
+            msg = (("🟢 오르는 시장으로 바뀜 — 나스닥100 100%로 주식 100%" if NW else "🟢 오르는 시장으로 바뀜 — S&P500 50% + 나스닥100 50%로 주식 100%") if up
                    else "🔴 오르는 시장이 아님 — 주식 절반으로 줄이고 현금 50%") + f"\nS&P {out['regime']['spx']} · 200일선 {gap:+.1f}%"
             urllib.request.urlopen(urllib.request.Request("https://ntfy.sh/", data=json.dumps({
                 "topic": "chkchp-ch-report", "title": "🎯 집중 포트 판정 바뀜", "message": msg,
                 "click": "https://chkchp0702-spec.github.io/daily-app/#port~poconc", "tags": ["dart"]}).encode(),
+                headers={"Content-Type": "application/json"}), timeout=15).read()
+        except Exception as ex:
+            print("알림 실패", ex)
+    # ⏰ Q11/6-3: 오늘 밤 월말 흐름 예약 주문이 필요하면 하루 한 번 알림
+    pt = ((prev_out.get("month_flow") or {}).get("tonight") or {})
+    if TON.get("act") and not (pt.get("order_at") == TON["order_at"] and pt.get("sig") == TON["sig"] and pt.get("act")):
+        try:
+            import urllib.request
+            urllib.request.urlopen(urllib.request.Request("https://ntfy.sh/", data=json.dumps({
+                "topic": "chkchp-ch-report", "title": f"🎯 오늘 밤({TON['order_at'][5:]}) 종가 예약 주문", "message": TON["text"] + "\n장 마감 지정가(LOC) · 앱 🎯 포트에서 비중 확인",
+                "click": "https://chkchp0702-spec.github.io/daily-app/#port~poconc", "tags": ["alarm_clock"]}).encode(),
                 headers={"Content-Type": "application/json"}), timeout=15).read()
         except Exception as ex:
             print("알림 실패", ex)
