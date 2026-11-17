@@ -1,27 +1,39 @@
 {
-"at": "2026-11-14 11:30",
-"signals": [],
+"at": "2026-11-17 13:37",
+"signals": [
+{
+"src": "pead",
+"code": "CGON",
+"name": "CG Oncology, Inc. - Common stock",
+"mkt": "US",
+"d": "2026-11-16",
+"vr": 9.1,
+"gap": 23.7,
+"px": 84.78,
+"score": 30.0
+}
+],
 "state": {
 "index_KR": {
 "sym": "^KS11",
 "above200": false,
-"d": "2026-11-13"
+"d": "2026-11-17"
 },
-"scanned_KR": 2613,
-"us_source": "US.json 전 종목 5934 + ETF 4936 (2026-11-08)",
+"scanned_KR": 2614,
+"us_source": "US.json 전 종목 5930 + ETF 4946 (2026-11-15)",
 "index_US": {
 "sym": "^GSPC",
 "above200": true,
-"d": "2026-11-13"
+"d": "2026-11-16"
 },
-"scanned_US": 9143,
+"scanned_US": 9146,
 "dip": {
 "sym": "QQQ",
-"d": "2026-11-13",
-"close": 679.89,
-"ma200": 681.2,
-"ma5": 682.51,
-"rsi2": 34.8,
+"d": "2026-11-16",
+"close": 661.75,
+"ma200": 681.41,
+"ma5": 678.99,
+"rsi2": 10.8,
 "th": 5.0,
 "signal": false
 },
@@ -31,18 +43,18 @@
 "GLD": {
 "on": false,
 "since": "2026-03-23",
-"close": 355.45,
+"close": 352.93,
 "hi": 429.42,
 "lo": 352.91,
-"d": "2026-11-13"
+"d": "2026-11-16"
 },
 "USO": {
 "on": true,
 "since": "2026-09-10",
-"close": 145.58,
+"close": 140.03,
 "hi": 171.82,
 "lo": 138.01,
-"d": "2026-11-13"
+"d": "2026-11-16"
 },
 "TLT": {
 "on": false,
@@ -50,92 +62,61 @@
 "close": 79.38,
 "hi": 86.07,
 "lo": 76.11,
-"d": "2026-11-13"
+"d": "2026-11-16"
 },
 "UUP": {
 "on": true,
 "since": "2026-03-12",
-"close": 29.5,
-"hi": 29.44,
+"close": 29.56,
+"hi": 29.5,
 "lo": 27.92,
-"d": "2026-11-13"
+"d": "2026-11-16"
 },
 "SPY": {
 "on": false,
 "since": "2026-11-05",
-"close": 754.37,
+"close": 739.95,
 "hi": 781.62,
 "lo": 732.71,
-"d": "2026-11-13"
+"d": "2026-11-16"
 },
 "QQQ": {
 "on": false,
 "since": "2026-10-30",
-"close": 679.89,
+"close": 661.75,
 "hi": 762.86,
 "lo": 647.05,
-"d": "2026-11-13"
+"d": "2026-11-16"
 },
 "EFA": {
 "on": false,
 "since": "2026-11-06",
-"close": 104.17,
+"close": 102.64,
 "hi": 108.89,
 "lo": 101.27,
-"d": "2026-11-13"
+"d": "2026-11-16"
 },
 "EEM": {
 "on": false,
 "since": "2026-07-29",
-"close": 60.92,
+"close": 58.89,
 "hi": 69.23,
 "lo": 58.0,
-"d": "2026-11-13"
+"d": "2026-11-16"
 },
 "DBC": {
-"on": true,
-"since": "2026-09-01",
-"close": 30.79,
+"on": false,
+"since": "2026-11-16",
+"close": 30.25,
 "hi": 34.14,
 "lo": 30.41,
-"d": "2026-11-13"
+"d": "2026-11-16"
 }
 }
 }
 },
 "errors": [],
 "log": [
-{
-"src": "dip",
-"code": "QQQ",
-"name": "QQQ",
-"mkt": "US",
-"d": "2026-10-15",
-"px": 728.0,
-"score": 0,
-"rsi2": 3.0
-},
-{
-"src": "pead",
-"code": "ERIC",
-"name": "Ericsson - American Depositary Shares each representing 1 underlying Class B sha",
-"mkt": "US",
-"d": "2026-10-15",
-"vr": 4.8,
-"gap": 11.2,
-"px": 10.71,
-"score": 24.0
-},
-{
-"src": "dip",
-"code": "QQQ",
-"name": "QQQ",
-"mkt": "US",
-"d": "2026-10-16",
-"px": 709.8,
-"score": 0,
-"rsi2": 0.6
-},
 {
 "src": "pead",
 "code": "CLF",
@@ -1081,6 +1062,17 @@
 "gap": 3.6,
 "px": 19.06,
 "score": 17.0
+},
+{
+"src": "pead",
+"code": "CGON",
+"name": "CG Oncology, Inc. - Common stock",
+"mkt": "US",
+"d": "2026-11-16",
+"vr": 9.1,
+"gap": 23.7,
+"px": 84.78,
+"score": 30.0
 }
 ]
 }
