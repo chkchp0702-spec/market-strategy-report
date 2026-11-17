@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아 3분기(FY27) 매출 1,158억 달러·데이터센터 1,076억 — 다음 분기 1,300억 달러 전망, 시간외 약 +2%",
+   "url": "https://www.trendingtopics.eu/nvidia-without-huang-115-8-billion-in-revenue-beats-all-expectations/",
+   "press": "Trending Topics",
+   "at": "2026-11-18 06:35",
+   "why": "임시 CEO 첫 실적이 숫자로는 상회 — 한국 반도체(하이닉스·삼성) 오늘 갭·가설 ④",
+   "summary": "매출 1,158억$(+103% YoY, 예상 약 1,090억)·데이터센터 1,076억$(예상 1,019억)·총마진 74.8%→다음 분기 71~72% · 가이던스 1,300억$±3%(예상 1,252억) · 정규장 155.46$(−0.44%) 뒤 시간외 약 +2%"
+  },
+  {
+   "title": "엔비디아 실적 예상 상회 — EPS 2.68달러 vs 2.48, 가이던스 컨센 상회",
+   "url": "https://www.tipranks.com/news/nvidia-stock-rises-after-earnings-smash-estimates",
+   "press": "TipRanks",
+   "at": "2026-11-18 06:35",
+   "why": "실적 숫자 두 번째 출처 — 중국 데이터센터 매출 0 가정",
+   "summary": "EPS 2.68$(예상 2.48) · 4분기 매출 1,300억$±3%(컨센 1,249억) · 총마진 71~72% 전망 · 시간외 상승(폭 미기재)"
+  },
+  {
    "title": "머디워터스, 엔비디아 공매도 공개 — 전직 임원의 중국 칩 밀수 사건 연루 가능성 제기",
    "url": "https://cryptobriefing.com/muddy-waters-nvidia-short-china-smuggling/",
    "press": "Crypto Briefing",
@@ -623,38 +639,6 @@
    "at": "2026-11-16 10:40",
    "why": "황 사임 뒤 반도체 반등이 아시아에서 꺾임 — 코스닥 칸·반도체 칸 판단 재료",
    "summary": "칩주 반등 시도 뒤 다시 약세 — 엔비디아 CEO 공백·실적 앞 관망(제목 기준, 세부 숫자 미확인)."
-  },
-  {
-   "title": "엔비디아 11/17 실적 — EPS 2.47달러 예상·옵션 내재 변동 약 ±4.5%",
-   "url": "https://tradestie.com/news/nvda-earnings-nov-17-247-eps-expected-45-implied-move-20261117/",
-   "press": "Tradestie",
-   "at": "2026-11-16 09:40",
-   "why": "실적 뒤 반도체 칸·SMH 20일선 판단 기준 — 내재 변동보다 크게 움직이면 「업종 갈아타기」 가설 시험",
-   "summary": "주가 178.67달러 기준 EPS 2.47달러 예상, 옵션 내재 변동 약 ±4.5%(제목 기준 · 2차 출처라 미확인 취급)."
-  },
-  {
-   "title": "삼성SDI, 미국서 수조원대 ESS 배터리 수주…LFP 시장 공략 본격화",
-   "url": "https://n.news.naver.com/mnews/article/001/0016442965",
-   "press": "연합뉴스",
-   "at": "2026-11-16 08:15",
-   "why": "AI 데이터센터발 ESS 수요 = 「현금 도는 상류(전력)」 가설 근거 · 코스피 2차전지 칸 — 개별주는 👻, 표현은 ETF로",
-   "summary": "美에서 ESS용 LFP 배터리 수조원대 수주(머니투데이·연합 속보 제목). 금액·고객사 세부는 미확인. 앞서 25/12 2조원대·26/3 1.5조원 수주에 이은 美 ESS 연속 수주."
-  },
-  {
-   "title": "굴스비 시카고 연은 「끈질긴 물가가 더 공격적 인상 부를 수도 — 2%로 가는 길 아님」",
-   "url": "https://investinglive.com/central-banks/fed-policymaker-goolsbee-warns-strong-demand-may-be-fueling-us-inflation-as-rate-hike-outlook-hardens/",
-   "press": "investingLive",
-   "at": "2026-11-16 08:15",
-   "why": "12/9 FOMC 분수령(0.55) — 비둘기 쪽까지 인상 쪽, 「0.25%p 여러 번」 그림 강화 · 美 10년 5%대 지속",
-   "summary": "굴스비 「강한 수요가 물가를 밀어 올리는 중일 수 있다 · 인상 전망 굳어짐」. 12월 인상 확률 86.8% 거론(구글뉴스 제목, 세부 미확인)."
-  },
-  {
-   "title": "UBS, 브렌트 연말 110달러 전망 — 걸프 물량 전쟁 전 수준 회복 못 함",
-   "url": "https://oilprice.com/Latest-Energy-News/World-News/UBS-Sees-110-Brent-by-Year-End-as-Gulf-Flows-Stay-Below-Prewar-Levels.html",
-   "press": "OilPrice",
-   "at": "2026-11-16 07:45",
-   "why": "11/16 국내 재보도(인베스팅)는 10/27~28 UBS 상향의 재탕 — 새 전망 아님, 에너지 칸·brent_95 판단 때 「새 뉴스」로 세지 않기",
-   "summary": "UBS 10/27~28 브렌트 연말 전망 110달러로 상향(roic.ai 10/27·10/28 보도). 근거: 걸프 물량 전쟁 전 수준 미달·운임·공급 완충 부족. 브렌트 11/13 96.08(qa 18)."
   }
  ],
  "at": "2026-11-18 00:35"
