@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "마이크론 「메모리 공급 부족, 2028년까지 더 빠듯해진다」",
+   "url": "https://www.computerworld.com/article/4229635/memory-squeeze-set-to-tighten-through-2028-micron-says-3.html",
+   "press": "Computerworld",
+   "at": "2026-11-19 07:50",
+   "why": "가설④(칩·메모리 상류가 빚으로 짓는 곳을 이긴다) · 한국 반도체 칸·💬 5번 근거",
+   "summary": "마이크론 경영진(TomorrowX Summit 11/18): 메모리 수급이 2026년보다 2027·2028년에 더 빠듯 · AI 데이터센터 수요가 공급 증설을 앞섬 · BofA 낸드 현물 하락 전망과 엇갈림(D램·HBM vs 낸드)"
+  },
+  {
+   "title": "마이크론 「메모리, 2027·2028년이 2026년보다 더 타이트」",
+   "url": "https://pasqualepillitteri.it/en/news/20862/micron-memory-tighter-2027-2028",
+   "press": "Pasquale Pillitteri",
+   "at": "2026-11-19 07:50",
+   "why": "SemiAnalysis 2028 HBM 수요 하향·키움 「27년 공급 과잉」과 반대 쪽 근거 — 메모리 사이클 논쟁 채점용",
+   "summary": "마이크론 발언 정리 — 2027·2028 공급 제약 심화 · 같은 날 SK하닉 ADR·마이크론은 하락(美 반도체지수 강보합)"
+  },
+  {
    "title": "월러 연준 이사 「12월 0.5%p 인상이 더 편하다 — 데이터는 지켜볼 것」",
    "url": "https://www.sharecast.com/news/international-economic/feds-waller-more-comfortable-with-50bp-december-rate-hike-but-watching-data--11432018.html",
    "press": "Sharecast",
@@ -623,22 +639,6 @@
    "at": "2026-11-17 10:40",
    "why": "🐻 일본 칸(닛케이 주식 0%) — 3분기 GDP 위축 + 반도체 규제로 아시아 기술주 압박",
    "summary": "11/17 아시아 하락 정리. 피드 기준 닛케이 장중 5만9천 엔 하회·어드반테스트 한때 −5.8%·대만 가권 39,807(−3%). 기사 내 숫자는 미확인."
-  },
-  {
-   "title": "엔비디아 GPU 단속, 중국 연계 동남아 데이터센터 직격",
-   "url": "https://www.pulse.bot/hardware/news/nvidia-gpu-crackdown-hits-china-linked-southeast-asia-data-centers-573966ec-05af-48e5-bbce-dd33d7ac4808/",
-   "press": "Pulse",
-   "at": "2026-11-17 08:50",
-   "why": "반도체 칸·SOXX — 美 상무부가 싱가포르·말레이시아·태국·인니·브라질 DC 칩 구매를 사안별 허가제로(블룸버그 11/17) = 엔비디아 실적 직전 판매 경로 축소",
-   "summary": "블룸버그: 원격접속 우회 차단, 재무부·NSC 지시 규정. 이 기사 날짜·숫자는 미확인 — 블룸버그 요약으로 확인."
-  },
-  {
-   "title": "HSBC, 문제 생긴 뉴멕시코 데이터센터 대출 약 3억 달러를 큰 할인에 매각",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-16/hsbc-sold-300-million-troubled-data-center-loan-at-discount",
-   "press": "Bloomberg",
-   "at": "2026-11-17 07:45",
-   "why": "가설 ①(AI 차입이 다음 약한 고리) — 은행이 DC 대출을 손해 보고 털기 시작 · 🫧 버블 경보판 신용 칸",
-   "summary": "HSBC가 뉴멕시코 데이터센터 건설 대출 중 약 3억 달러 몫을 큰 할인에 매각(블룸버그 11/16). 할인율은 미확인. 블랙스톤 QTS 채권 축소·말레이 DC 대출 지연에 이은 DC 자금 차질 세 번째."
   }
  ],
  "at": "2026-11-19 02:45"
