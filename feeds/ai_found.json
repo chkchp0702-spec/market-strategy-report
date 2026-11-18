@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "월러 연준 이사 「12월 0.5%p 인상이 더 편하다 — 데이터는 지켜볼 것」",
+   "url": "https://www.sharecast.com/news/international-economic/feds-waller-more-comfortable-with-50bp-december-rate-hike-but-watching-data--11432018.html",
+   "press": "Sharecast",
+   "at": "2026-11-19 06:45",
+   "why": "가설③ 12/9 FOMC 분수령 — 「폭」 꼬리, 💬 7번 답 근거",
+   "summary": "월러 이사 12월 50bp 인상 쪽에 더 무게(데이터 확인 조건) · 의사록 「거의 모든 위원 추가 인상」 직후 · 달러인덱스 103.8로 18개월 최고(Finviz)"
+  },
+  {
+   "title": "데일리 총재 긴축 지지에 연준 인상 베팅 굳어져 — 달러 강세",
+   "url": "https://stockwirex.com/?p=56167",
+   "press": "StockWireX",
+   "at": "2026-11-19 06:45",
+   "why": "가설③·환율 칸 — 매파 합창이 달러를 밀어 원/달러 1,330원대 반등 압력",
+   "summary": "데일리 샌프란 연은 총재 「추가 인상 필요」 · 인상 베팅 강화로 달러 상승 · 반면 2년 금리는 4.83%로 하락(구글뉴스) — 금리보다 성장 둔화 반영"
+  },
+  {
    "title": "엔비디아, 중국행 H200 생산 중단하고 베라 루빈에 집중",
    "url": "https://finance.yahoo.com/news/nvidia-halts-china-bound-h200-120248594.html",
    "press": "야후 파이낸스",
@@ -623,22 +639,6 @@
    "at": "2026-11-17 07:45",
    "why": "가설 ①(AI 차입이 다음 약한 고리) — 은행이 DC 대출을 손해 보고 털기 시작 · 🫧 버블 경보판 신용 칸",
    "summary": "HSBC가 뉴멕시코 데이터센터 건설 대출 중 약 3억 달러 몫을 큰 할인에 매각(블룸버그 11/16). 할인율은 미확인. 블랙스톤 QTS 채권 축소·말레이 DC 대출 지연에 이은 DC 자금 차질 세 번째."
-  },
-  {
-   "title": "정체불명 매도자, 중간선거 직후 데이터센터 대출 5억 달러 경매",
-   "url": "https://runtimewire.com/article/mystery-seller-500m-data-center-loans-stargate-cyrusone",
-   "press": "Runtime Wire",
-   "at": "2026-11-17 07:45",
-   "why": "가설 ① 근거 — DC 대출 2차 시장 매물 증가(스타게이트·사이러스원 관련)",
-   "summary": "약 5억 달러 규모 데이터센터 대출이 경매에 나옴(스타게이트·CyrusOne 관련 보도). 날짜·가격은 원문 기준, 세부 미확인."
-  },
-  {
-   "title": "골드만삭스 「AI 매도는 청산이 아니라 업종 갈아타기」",
-   "url": "https://cryptobriefing.com/goldman-sachs-ai-unwind-rotation-not-liquidation/",
-   "press": "Crypto Briefing",
-   "at": "2026-11-17 05:40",
-   "why": "「업종 갈아타기 vs 현금 도피」 가설(0.5) 판정 — 골드만은 갈아타기 쪽",
-   "summary": "골드만은 AI 매도를 포지션 회전으로 해석(날짜 미확인). 같은 날 피드에 골드만 「美 기술주 매도 끝 무렵일 수 있다」 보도."
   }
  ],
  "at": "2026-11-19 02:45"
