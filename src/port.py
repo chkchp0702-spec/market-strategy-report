@@ -24,6 +24,10 @@ LEDGER = ROOT / "ledger" / "ledger.json"
 LOG = ROOT / "market" / "port_log.json"
 OUT = ROOT / "market" / "port.json"
 START = "2026-10-02"        # 장부 집계 시작일 (첫 배분표)
+# ⚔️ 11/18 Q11/18-1(사용자 「1번 진행」): 💼 에도 Q11/17-1 — 코어 S&P500 칸 → 나스닥100(배분표 ledger.skeleton) · 월말 흐름 몫 0.6 → 1.0 ·
+#    변동성 맞춤은 나스닥100 20일 변동성으로 · 이 날(미국 거래일) 비중부터 · 소급 없음 · 근거 market/lab/k1118_portattack.json(뒤 16.64 → 19.78 · 낙폭 −16.2 → −18.0)
+PORT_CORE_FROM = "2026-11-18"
+PORT_FC = 1.0
 
 # 칸 이름에 이 말이 있으면 → 성적 계산·따라하기용 미국 상품 (없으면 instruments 에서 미국 티커를 읽음)
 US_PICK = [
@@ -288,7 +292,11 @@ def main() -> int:
     from src.rules7 import VOL_FROM, VOL_ROLES, held_scale_line, is_gold
     VP_BASE = dict(VOL_ROLES["base"])
     VP_KICK = {**VOL_ROLES["kick"], **(_kp.get("vol") or {})}
-    _vb, _hb = held_scale_line(C["SPY"], C["QQQ"], VP_BASE)
+    _vb0, _hb0 = held_scale_line(C["SPY"], C["QQQ"], VP_BASE)
+    _vb2, _hb2 = held_scale_line(C["QQQ"], C["QQQ"], VP_BASE)        # ⚔️ Q11/18-1 뒤: 코어가 나스닥100
+    _nw = pd.Series([(d + pd.offsets.BDay(1)).strftime("%Y-%m-%d") >= PORT_CORE_FROM for d in _hb0.index], index=_hb0.index)
+    _hb = _hb0.where(~_nw, _hb2.reindex(_hb0.index)).fillna(_hb0)
+    _vb = _vb0.where(~_nw.reindex(_vb0.index).fillna(False).astype(bool), _vb2.reindex(_vb0.index)).fillna(_vb0)
     _vk, _hk = held_scale_line(C["SPY"], C["QQQ"], VP_KICK)
 
     def scale_at(H, d0):
@@ -320,7 +328,8 @@ def main() -> int:
         sg_ = flow_state(d1)[0]
         if sg_:
             w = MF.apply(w, sg_, lambda k: not (is_cash(k) or is_gold(k) or k in (TP.NAME, MF.NAME)),
-                         lambda k: is_cash(k) or is_gold(k) or k == TP.NAME)
+                         lambda k: is_cash(k) or is_gold(k) or k == TP.NAME,
+                         f=PORT_FC if d1.strftime("%Y-%m-%d") >= PORT_CORE_FROM else None)
         return w
 
     def rules_on(e, d0, qds=None, vol=False):
@@ -558,7 +567,7 @@ def main() -> int:
         sc = scale_at(_hb, d0)
         if abs(sc - prev_sc) > 1e-9:
             vchg.append({"date": d1.strftime("%Y-%m-%d"), "why": f"🦴 변동성 맞춤(방어형): 주식 칸 {eq_base_b * prev_sc:.1f}→{eq_base_b * sc:.1f}% "
-                         f"(S&P½+나스닥½ {VP_BASE['lb']}일 변동성 {float(_vb[_vb.index <= d0].iloc[-1]) * 100:.1f}% · 목표 {VP_BASE['target']}%) — 나머지는 " + ("🧭 자산 추세 칸" if park_on(d1) else "현금·단기채")
+                         f"({'나스닥100' if d1.strftime('%Y-%m-%d') >= PORT_CORE_FROM else 'S&P½+나스닥½'} {VP_BASE['lb']}일 변동성 {float(_vb[_vb.index <= d0].iloc[-1]) * 100:.1f}% · 목표 {VP_BASE['target']}%) — 나머지는 " + ("🧭 자산 추세 칸" if park_on(d1) else "현금·단기채")
                          + (" · 다음 거래일부터" if i == len(cal) else ""), "vol": True})
         prev_sc = sc
     # 🔄 월말 흐름이 켜지고 꺼진 날
@@ -577,9 +586,9 @@ def main() -> int:
                                                  "open": T_OPEN, "idle": round(T_IDLE, 3), "ok": TNAV is not None,
                                                  "note": "Q10/28-1 — 💼 현금·단기채 칸(변동성 맞춤·국면으로 덜어낸 돈)을 SGOV 대신 🧭 자산 추세 9종(100일 고가 돌파·50일 저가 이탈·변동성 반비례) 칸에 둠 · 근거 market/lab/k1028_bundle.json · 레버리지 없음"},
         "month_flow": (lambda st_: {"on": True, "from": MF.FLOW_FROM, "sig": st_[0], "drift": round(st_[1] * 100, 2) if st_[1] is not None else None,
-                                    "left": st_[2], "window": st_[2] < MF.K, "k": MF.K, "th": MF.TH * 100, "f": MF.F,
+                                    "left": st_[2], "window": st_[2] < MF.K, "k": MF.K, "th": MF.TH * 100, "f": PORT_FC if nxt.strftime("%Y-%m-%d") >= PORT_CORE_FROM else MF.F,
                                     "pct": round(bw_now.get(MF.NAME, 0.0), 1), "for": nxt.strftime("%Y-%m-%d"),
-                                    "tonight": MF.tonight(C, CALL, nxt, st_[0], eq="주식 칸", side="금·추세 칸"),
+                                    "tonight": MF.tonight(C, CALL, nxt, st_[0], f=PORT_FC if MF.next_td(nxt).strftime("%Y-%m-%d") >= PORT_CORE_FROM else None, eq="주식 칸", side="금·추세 칸"),
                                     "note": "Q10/28-2 — 매달 마지막 5거래일, 60/40 펀드(SPY·IEF) 주식 비중이 ±0.5%p 넘게 쏠리면 펀드가 억지로 사고팔 쪽에 미리 섬(넘침 → 주식 칸 60% 장기채 · 모자람 → 금·추세 칸 60% 주식) · 근거 market/lab/k1028_rebalflow4.json · 💼·🎯(Q10/28-3) · 레버리지 없음"})(flow_state(nxt)),
         "asof": cal[-1].strftime("%Y-%m-%d"), "fx": round(fx, 1) if fx else None,
         "dates": series_d, "nav": [round((v - 1) * 100, 2) for v in nav],
