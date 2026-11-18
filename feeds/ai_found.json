@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "아시아 증시 — 닛케이 +1.4%, 항셍은 엔비디아 경영진 사태로 약세",
+   "url": "https://investinglive.com/stock-market-update/asian-stocks-steady-as-nikkei-gains-1-4-hang-seng-slips-on-nvidia-leadership-fallout/",
+   "press": "investingLive",
+   "at": "2026-11-18 09:40",
+   "why": "🎯 일본·홍콩 칸 — 엔비디아 실적 뒤 아시아 반응이 나라별로 갈림(한국·일본 반도체 반등 vs 홍콩 약세)",
+   "summary": "제목 기준: 닛케이 +1.4% · 항셍 하락 — 엔비디아 리더십 공백 여파. 세부 숫자 미확인."
+  },
+  {
+   "title": "엔비디아, 중국용 AI 칩 생산 중단",
+   "url": "https://www.newsbytesapp.com/news/business/nvidia-halts-production-of-ai-chips-for-china/tldr",
+   "press": "NewsBytes",
+   "at": "2026-11-18 09:40",
+   "why": "가설 ④ — 엔비디아 4분기 가이던스는 중국 제외, 판매 중단은 숫자보다 미·중 단절 신호(블룸버그 11/18 피드와 같은 사건)",
+   "summary": "엔비디아 임시 경영진이 美 승인에도 중국에 AI 칩을 보내지 않는다고 밝힘(블룸버그 피드). 생산 중단 세부 숫자 미확인."
+  },
+  {
    "title": "앤스로픽 IPO 일정 — 11/18 공모가 확정, 11/19 첫 거래",
    "url": "https://fourweekmba.com/ai-anthropics-ipo-day-by-day-pricing-18-nov-trading-19-nov/",
    "press": "FourWeekMBA",
@@ -623,23 +639,7 @@
    "at": "2026-11-16 12:40",
    "why": "「12/9 FOMC 2018식 분수령」 가설 — 인상은 거의 가격에 들어갔고 남은 변수는 폭·1월 추가",
    "summary": "구글뉴스 제목: 12월 0.25%p 인상 확률 92% · 베선트 「에너지 충격은 근원 물가로 안 번진다 — 지나친 인상 경계」 · 세부 숫자 미확인"
-  },
-  {
-   "title": "인도 증시 반등 — AI 거래 되감기에 외국인 자금 복귀",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-15/india-stock-market-rebounds-as-ai-trade-unwinds-foreign-funds-return",
-   "press": "Bloomberg",
-   "at": "2026-11-16 12:40",
-   "why": "한국·대만·일본 AI 비중 → 인도 등 「AI 아닌 곳」으로 외국계 돈이 옮기는 그림 — 코스피 외국인 매도 해석과 직결",
-   "summary": "블룸버그: AI 거래가 풀리며 인도에 외국인 자금 복귀 · 항공우주주 「반AI 자금」 수혜(같은 날 별도 기사) · 같은 날 코스피 외국인 오전 약 −9,864억"
-  },
-  {
-   "title": "중국 10월 산업생산·소매판매·투자 모두 예상 하회 — 경기 둔화 심화",
-   "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
-   "press": "CNBC",
-   "at": "2026-11-16 11:40",
-   "why": "상해 33%·H주 50% 칸 — 지표 쇼크인데 홍콩은 +1% 가까이(부양 기대)",
-   "summary": "산업생산 +4.8%(예상 +5.3%) · 소매판매 +0.4%(예상 +0.8%) · 1~10월 고정투자 −8.1%(예상 −7.0%) · 부동산 개발투자 −21.6% (하나중국 정리)"
   }
  ],
- "at": "2026-11-18 08:45"
+ "at": "2026-11-18 09:40"
 }
