@@ -1,5 +1,5 @@
 {
- "at": "2026-11-18 11:58",
+ "at": "2026-11-18 12:58",
  "cash2": 4.1,
  "markets": [
   {
@@ -60,8 +60,8 @@
    "lump_med": 67.8,
    "lump_worst": -27.5,
    "fwd": {
-    "more10": 5,
-    "more_med": -8.2,
+    "more10": 4,
+    "more_med": -5.7,
     "y1_up": 11,
     "n": 12
    }
@@ -78,7 +78,7 @@
    "asof": "2026-11-18",
    "stock": 50,
    "cash": 50,
-   "next": "200일선(62,218) 위로 올라오면 나머지 절반도 주식",
+   "next": "200일선(62,219) 위로 올라오면 나머지 절반도 주식",
    "loo": {
     "med": 29.0,
     "worst": -21.5,
@@ -92,8 +92,8 @@
    "lump_med": 32.1,
    "lump_worst": -21.5,
    "fwd": {
-    "more10": 6,
-    "more_med": -8.5,
+    "more10": 5,
+    "more_med": -4.6,
     "y1_up": 8,
     "n": 12
    }
@@ -183,7 +183,7 @@
    },
    "y2_med": 12.4,
    "y2_worst": -23.8,
-   "beat_cash": 8,
+   "beat_cash": 7,
    "n": 12,
    "lump_med": -5.6,
    "lump_worst": -31.1,
@@ -198,27 +198,27 @@
    "key": "hscei",
    "name": "항셍 H주",
    "nat": "hk",
-   "k": "ma10",
-   "rule": "10개월선 위면 주식 · 아래면 현금",
-   "ok": true,
+   "k": "floor",
+   "rule": "하락장엔 현금 → 바닥 신호마다 3분의 1씩",
+   "ok": false,
    "staged": false,
-   "anchor": "2026-11-16",
+   "anchor": "2026-11-18",
    "asof": "2026-11-18",
-   "stock": 0,
-   "cash": 100,
-   "next": "월말 종가가 10개월선 위면 주식",
+   "stock": 67,
+   "cash": 33,
+   "next": "바닥 신호가 켜질 때마다 3분의 1씩 주식",
    "loo": {
-    "med": 6.9,
-    "worst": -11.0,
-    "beat_cash": 7,
+    "med": 3.4,
+    "worst": -23.6,
+    "beat_cash": 6,
     "n": 12
    },
-   "y2_med": 11.9,
-   "y2_worst": -11.0,
+   "y2_med": 12.6,
+   "y2_worst": -23.6,
    "beat_cash": 7,
    "n": 12,
    "lump_med": 9.2,
-   "lump_worst": -52.9,
+   "lump_worst": -54.7,
    "fwd": {
     "more10": 8,
     "more_med": -25.1,
