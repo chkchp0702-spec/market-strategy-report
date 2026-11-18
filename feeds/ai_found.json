@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "월러 연준 이사, 12월 0.5%p 인상 열어 둬 — 근원 CPI 뜨거우면",
+   "url": "https://stockanalysis.com/news/fed-waller-december-rate-hike-half-point/",
+   "press": "StockAnalysis",
+   "at": "2026-11-18 22:45",
+   "why": "가설③ 12/9 FOMC — 인상 폭 꼬리 확대, 채권·금·신용 칸",
+   "summary": "월러 「12월 인상 지지·물가가 뜨거우면 0.5%p도 환영」 · 블룸버그 「0.5%p 고려해야」 · 발언 뒤 다우 선물 −0.13%·러셀 −0.44%(daily-app 22:33)"
+  },
+  {
+   "title": "美 이란 섬 타격 뒤 유가 반응 — 공격에도 브렌트 90달러 하회",
+   "url": "https://en.politis.com.cy/news/economy/1029490/oil-climbs-nearly-2-after-us-strikes-iranian-island-in-hormuz",
+   "press": "Politis",
+   "at": "2026-11-18 22:45",
+   "why": "에너지 칸·brent_95 조건 — 지정학 재료가 유가를 못 올리는 장 지속(날짜·섬 이름 원문 확인 필요)",
+   "summary": "美 호르무즈 섬 타격 보도(블룸버그 개장 영상 11/18) · 그런데 22:33 브렌트 89.93(−3.45%)·WTI 83.90(daily-app) · 금 −2.4%·구리 −4.2% 동반"
+  },
+  {
    "title": "BofA: 기관 투자자 기술주 후퇴, 2006년 이후 처음 보는 수준",
    "url": "https://www.thestreet.com/investing/bank-of-america-sees-a-tech-retreat-not-seen-since-2006",
    "press": "TheStreet",
@@ -623,22 +639,6 @@
    "at": "2026-11-16 23:40",
    "why": "칩 급락 날 대형 운용사는 주식 위험 확대 — 「업종 갈아타기」 vs 「현금 도피」 판정 근거",
    "summary": "블룸버그 「BlackRock Shifts AI Bets, Adds Equity Risk」 동일 건. 비중 세부 숫자 미확인."
-  },
-  {
-   "title": "TSMC, 젠슨 황 퇴진 여파에 개장 전 4% 또 하락…수주잔고 우려",
-   "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03749046645646376",
-   "press": "이데일리",
-   "at": "2026-11-16 22:45",
-   "why": "엔비디아 실적(11/17) 하루 전 칩 공급망 동반 매도 — 한국 반도체(091160)·SOXX 대결",
-   "summary": "11/16 뉴욕 06:20 프리마켓 TSMC −4.05% 382.57달러 · 지난주 −3.88% · 엔비디아는 프리마켓 160달러 아래 · 나스닥100 선물 −1.43%(22:33)"
-  },
-  {
-   "title": "낸드 현물가격 하락을 어떻게 볼 것인가? — 붕괴 아닌 상승 감속",
-   "url": "https://m.blog.naver.com/pokara61/224479670705",
-   "press": "포카라 블로그",
-   "at": "2026-11-16 22:45",
-   "why": "키움·BofA 메모리 비관에 대한 반론 — 가설 「AI 안에서도 갈린다」 메모리 상류 쪽 판정",
-   "summary": "512Gb TLC 웨이퍼 현물 8월 21$→11월 중순 14.3$(약 −32%)지만 1년 전 6.5$의 2배 · 빠지는 곳은 스마트폰·PC·중국 모듈, AI 데이터센터용 기업 SSD는 상승 · 승부처는 2027년 1분기 계약가"
   }
  ],
  "at": "2026-11-18 21:40"
