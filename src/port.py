@@ -190,6 +190,17 @@ def main() -> int:
         except Exception:
             pass
     miss = sorted(t for t in tick if t not in C)
+    # 🔧 11/18 자가 업그레이드: 야후가 한 번에 받을 때 가끔 한 종목(11/18 15:54 GLD)을 빼먹음 → 포트 −7.98 → −7.75 로 잠깐 틀림. 빠진 것만 한 번 더 받기
+    if miss:
+        for t in list(miss):
+            try:
+                s1 = yf.download(t, start=start, interval="1d", auto_adjust=True, progress=False)["Close"]
+                s1 = (s1.iloc[:, 0] if hasattr(s1, "columns") else s1).dropna()
+                if len(s1):
+                    C[t] = s1
+            except Exception:
+                pass
+        miss = sorted(t for t in tick if t not in C)
     # 미국 거래일 달력 (SPY 기준)
     days = [d for d in C["SPY"].index if d.strftime("%Y-%m-%d") >= START]
     base_i = list(C["SPY"].index).index(days[0]) - 1      # START 전날 종가 = 출발점
@@ -618,6 +629,15 @@ def main() -> int:
         old_asof = ""
     if old_asof and out["asof"] < old_asof and "--force" not in sys.argv:
         print(f"⚠ 새 계산 기준일 {out['asof']} < 기존 {old_asof} — 야후 시세 빠짐으로 보고 덮어쓰지 않음")
+        return 0
+    # 🔧 11/18: 지난 계산엔 있던 시세가 이번에 새로 빠졌으면(같은 기준일) 일시 빠짐 — 틀린 수익률로 덮어쓰지 않음
+    try:
+        _old = json.loads(OUT.read_text(encoding="utf-8"))
+        _new_miss = sorted(set(miss) - set(_old.get("miss") or []))
+    except Exception:
+        _old, _new_miss = {}, []
+    if _new_miss and _old.get("asof") == out["asof"] and "--force" not in sys.argv:
+        print(f"⚠ 새로 빠진 시세 {_new_miss} (기준일 {out['asof']} 같음) — 일시 빠짐으로 보고 덮어쓰지 않음")
         return 0
     # ⏰ 11/17 Q11/6-3: 월말 흐름은 하루 먼저 — 오늘 밤 미국 종가 예약(LOC) 주문이 필요하면 하루 한 번 알림
     try:
