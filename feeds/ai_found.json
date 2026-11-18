@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "연준 10월 의사록 — 위원들 추가 인상 예상, AI가 물가에 미칠 영향 걱정",
+   "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+   "press": "CNBC",
+   "at": "2026-11-19 04:50",
+   "why": "가설③ 12/9 FOMC 분수령 — 「몇 번·얼마나」 중 「여러 번」 쪽 확인 · 해외 포트 채권·달러 나눠 사기 근거",
+   "summary": "거의 모든 위원 추가 인상 예상(블룸버그 제목) · 일부는 12월 25bp 초과 인상 검토 가능(인베스팅) · AI 투자가 물가를 밀어 올릴 위험 언급(CNBC 제목)"
+  },
+  {
+   "title": "美 2년 금리 보합 — 트레이더들 월러 발언·연준 의사록 저울질",
+   "url": "https://www.cnbc.com/2026/11/18/treasury-yields-bonds-fed.html",
+   "press": "CNBC",
+   "at": "2026-11-19 04:50",
+   "why": "채권 질문(💬 15번)·가설③ — 의사록 앞뒤 단기 금리 반응 확인용",
+   "summary": "의사록 직전 국채 금리 1주 저점 근처(인베스팅) · 국채 사흘째 강세·유가 하락(블룸버그) · 2년물은 보합권"
+  },
+  {
    "title": "구리 값 수개월 최저 급락 — AI 데이터센터 베팅 철수",
    "url": "https://finance.yahoo.com/m/9233f114-c0ab-3c1a-bd8e-f0f03832cc80/copper-prices-plunge-to.html?.tsrc=rss",
    "press": "Yahoo Finance",
@@ -623,22 +639,6 @@
    "at": "2026-11-17 05:40",
    "why": "반도체 칸·SOXX — 「내년 반도체 하락」 쪽 대표 반대 목소리",
    "summary": "버리가 반도체·나스닥 ETF 풋을 늘림(날짜 미확인). 연합인포맥스 11/17 「나스닥 약세 베팅 확대·내년 반도체 하락 전망」과 같은 흐름."
-  },
-  {
-   "title": "앤스로픽, 610억 달러 공모 조건 확정 — 희망가 70~78달러·기업가치 약 1.2조 달러",
-   "url": "https://www.renaissancecapital.com/IPO-Center/News/122657/anthropic-sets-terms-for-61-billion-ipo-targeting-a-1.2-trillion-market-cap",
-   "press": "Renaissance Capital",
-   "at": "2026-11-17 04:40",
-   "why": "가설 ②(갈아타기·현금 도피)·④ — 역대 최대급 공모가 엔비디아 실적 바로 다음 날 가격 결정, AI 대형주 수급 공백",
-   "summary": "8억2,500만 주·약 610억 달러, 밴드 중간 완전희석 시총 약 1.2조 달러(전환사채 1,110억 달러 제외) · 나스닥 ANT · 260억 달러 사모 별도 · 가격 결정 11/16 주간(11/18 가격·11/19 거래 보도)"
-  },
-  {
-   "title": "뉴욕 연은 제조업지수 7.8로 급락(예상 16.7) · 상무부, 해외 데이터센터 원격 칩 접근 규제",
-   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-16-2026",
-   "press": "StockTitan",
-   "at": "2026-11-17 04:40",
-   "why": "「성장 걱정형 갈아타기」(경기민감 동반 하락)의 숫자 근거 · 반도체 칸·엔비디아 실적 전 규제 변수",
-   "summary": "11월 엠파이어스테이트 지수 −18p → 7.8(예상 16.7) · 마이크론 −6.4%·인텔 −6.0%(10:06 ET) · 엔비디아 실적 11/17 16:20 ET · 소매판매 11/17 08:30 ET"
   }
  ],
  "at": "2026-11-19 02:45"
