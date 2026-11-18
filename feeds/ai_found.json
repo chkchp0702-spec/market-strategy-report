@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "모닝스타, 엔비디아 적정가 19% 하향 — CEO 교체·혼란 반영",
+   "url": "https://www.morningstar.com/stocks/nvidia-we-cut-our-fair-value-estimate-given-firms-ceo-transition-turmoil",
+   "press": "Morningstar",
+   "at": "2026-11-19 08:45",
+   "why": "가설①·④ — 엔비디아 경영 공백이 AI 자금 조달(백스톱) 위축으로 번지는지 · 무디스 전망 하향과 같은 방향",
+   "summary": "CEO 교체·혼란을 이유로 적정가 −19% · 같은 날 무디스 신용 전망 긍정적→안정적(Aa1 유지) · 모닝스타는 「황 이탈이 AI 딜·자금 조달을 늦출 수 있다」고 경고"
+  },
+  {
+   "title": "소형주 「데드크로스」 — 증시 전체엔 무슨 뜻인가",
+   "url": "https://ca.finance.yahoo.com/m/2a887375-0a28-353a-a2c5-dc054503089e/ss_small-caps-just-entered-a.html",
+   "press": "MarketWatch(야후)",
+   "at": "2026-11-19 08:45",
+   "why": "가설②(현금 도피 vs 업종 갈아타기) — 소형주 추세 붕괴는 금리 압력 쪽, S&P 200일선 3일째 판정과 함께 볼 것",
+   "summary": "러셀2000 50일선이 200일선 아래로 · S&P 5일 연속 하락·200일선 아래 2일째와 겹침 · 12월 인상 우려에 변동금리 빚 많은 소형주가 먼저 맞음"
+  },
+  {
    "title": "마이크론 「메모리 공급 부족, 2028년까지 더 빠듯해진다」",
    "url": "https://www.computerworld.com/article/4229635/memory-squeeze-set-to-tighten-through-2028-micron-says-3.html",
    "press": "Computerworld",
@@ -623,23 +639,7 @@
    "at": "2026-11-17 12:40",
    "why": "가설 ④·반도체 칸 — 대가가 칩 하드웨어를 줄이고 소프트웨어·금으로 이동(3분기 말 기준이라 이미 지난 매매)",
    "summary": "Duquesne 3Q: AMD·SanDisk·Alphabet 전량 매도, TSMC −94%, SpaceX 20만 주↑·팔란티어 8만 주↑ 신규, 금광주 매수, 최대 보유는 Natera 29.2%(하나중국 72261)."
-  },
-  {
-   "title": "트럼프 행정부, 美 AI칩 「원격 접근」 겨냥 규정 — 중국 반도체주는 자립 기대에 급등",
-   "url": "https://digg.com/tech/ltrlu4m5",
-   "press": "Digg(원문 보도 묶음)",
-   "at": "2026-11-17 11:40",
-   "why": "반도체 칸·가설 ④ — 규제 당일 대만 −3%→강보합, 한국 하이닉스 보합, 中 화훙 +12%·SMIC +4%: 규제가 美 칩 수요보다 中 자립주에 먼저 반영",
-   "summary": "중국·마카오 본사 기업의 해외 DC 통한 첨단 AI칩 원격 사용을 허가 대상으로 묶음(하나중국 72253 세부). 같은 날 홍콩 화훙 +12%대·SMIC +4%대(구글뉴스 홍콩). 날짜·세부 숫자 원문 미확인."
-  },
-  {
-   "title": "아시아 증시, 일본 GDP 위축·엔비디아 실적 앞두고 하락",
-   "url": "https://noortrends.ae/en/asia-stocks-slip-as-japan-gdp-contracts-nvidia-earnings-keep-tech-on-edge/11/17/market-updates",
-   "press": "Noor Trends",
-   "at": "2026-11-17 10:40",
-   "why": "🐻 일본 칸(닛케이 주식 0%) — 3분기 GDP 위축 + 반도체 규제로 아시아 기술주 압박",
-   "summary": "11/17 아시아 하락 정리. 피드 기준 닛케이 장중 5만9천 엔 하회·어드반테스트 한때 −5.8%·대만 가권 39,807(−3%). 기사 내 숫자는 미확인."
   }
  ],
- "at": "2026-11-19 02:45"
+ "at": "2026-11-19 08:45"
 }
