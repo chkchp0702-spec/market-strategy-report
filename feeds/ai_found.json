@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "앤스로픽 공모가 수요일 확정·목요일 첫 거래 — 희망가 70~78달러",
+   "url": "https://aitoolsrecap.com/Blog/anthropic-ipo-prices-wednesday-trades-thursday",
+   "press": "AI Tools Recap",
+   "at": "2026-11-18 15:40",
+   "why": "💬6 앤스로픽 공모·AI 자금 이동 — 11/19 첫 거래가 AI 대형주 수급(엔비디아·소프트웨어)과 💬3·5에 영향",
+   "summary": "공모가는 11/18(수, 미국) 확정·11/19(목) 나스닥 첫 거래 일정 · 희망가 70~78달러(RTTNews) · 블룸버그 「희망가 상단 또는 위로 안내」(피드)."
+  },
+  {
+   "title": "이란군, 쿠웨이트의 미군 드론·미사일 기지 겨냥 — 걸프 공격 이어져",
+   "url": "https://www.cnbc.com/2026/11/18/trump-iran-war-hormuz-oil-.html",
+   "press": "CNBC",
+   "at": "2026-11-18 15:40",
+   "why": "🛢️ brent_95 조건(85↓ 에너지 축소)·💬19 — 공격 확대에도 유가 무반응이 이어지는지가 에너지 칸 판단",
+   "summary": "11/18 이란이 쿠웨이트 미군 시설 겨냥 발표·호르무즈 가스운반선 공격(인베스팅 피드) · 유가 숫자는 미확인(블룸버그 「보합」)."
+  },
+  {
    "title": "걸프 긴장 고조 — 이란이 쿠웨이트 타격, 미국은 호르무즈 인근 공습",
    "url": "https://www.ksl.com/article/51506116/gulf-tensions-escalate-as-iran-hits-kuwait-us-strikes-near-hormuz",
    "press": "KSL(AP)",
@@ -623,23 +639,7 @@
    "at": "2026-11-16 18:04",
    "why": "가설 ① — 블랙스톤 QTS 채권 60% 축소(11/13)에 이어 아시아 DC 자금 조달도 멈칫, 빚으로 짓는 곳부터 흔들린다는 가설 근거 +1",
    "summary": "사모펀드 액티스가 후원하는 말레이시아 데이터센터 사업의 4.88억 달러 대출이 다른 은행들에 마케팅 도중 지연(블룸버그 피드 요약)."
-  },
-  {
-   "title": "모건스탠리, 일본 주식 비중확대로 상향 — TOPIX 22% 상승 여력",
-   "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-upgrades-japan-equities-to-overweight-sees-22-topix-upside-5028635",
-   "press": "Investing.com",
-   "at": "2026-11-16 17:40",
-   "why": "일본 닮은 장 칸(지금 0%·바닥 신호마다 1/3) — 닛케이 6만 엔 하회 날 나온 IB 역발상, 우리 규칙은 신호 전까지 대기",
-   "summary": "모건스탠리가 같은 날 글로벌 주식도 「최대 비중확대」로 전환. 닛케이는 11/16 −2.42%로 1주 만에 6만 엔 하회(닛케이)."
-  },
-  {
-   "title": "트럼프, 엔비디아·아마존·MS 등 AI 기업 「국가 대표 기업」 지위 검토(보도)",
-   "url": "https://seekingalpha.com/news/4672834-trump-eyes-national-champion-status-for-nvidia-amazon-microsoft-and-other-ai-firms---report",
-   "press": "Seeking Alpha",
-   "at": "2026-11-16 17:40",
-   "why": "11/17 엔비디아 실적·CEO 공백 앞 정책 지지 재료 — 반도체 칸 7%·SOXX 대결, 「AI 차입」 가설과 반대 방향 숫자",
-   "summary": "세부 내용은 미확인(제목 기준). 같은 날 「엔비디아 AI 연산 점유율 83%→39%」(서울경제) 보도로 경쟁 심화도 함께."
   }
  ],
- "at": "2026-11-18 09:40"
+ "at": "2026-11-18 15:40"
 }
