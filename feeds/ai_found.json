@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "겐슬러 전 SEC 위원장 「엔비디아 조사 핵심은 황이 주주를 오도했는지 — AI 재평가 앞」",
+   "url": "https://stocktwits.com/news-articles/markets/equity/gary-gensler-says-key-question-in-nvidia-probe-is-whether-huang-misled-shareholders-sees-ai-repricing-ahead/cNGrO6sR9ev",
+   "press": "Stocktwits",
+   "at": "2026-11-18 11:40",
+   "why": "NVDA 🐋·💬 2번 — 실적 상회 뒤에도 SEC 조사(WSJ)가 갭 상단을 누르는 이유",
+   "summary": "WSJ 「SEC 엔비디아 공시 조사」 보도 뒤 겐슬러가 핵심 쟁점을 「주주 오도 여부」로 정리, AI 재평가를 예상. 보도 시점 정확히 미확인."
+  },
+  {
+   "title": "세마포 「美 법무부 여러 조사가 엔비디아로 번질 수 있다」(정부 관계자 2명)",
+   "url": "https://www.newsquawk.com/headlines/multiple-us-doj-probes-threaten-to-sweep-up-nvidia-nvda-reports-semafor-citing-two-admin-officials",
+   "press": "Newsquawk(세마포 인용)",
+   "at": "2026-11-18 11:40",
+   "why": "가설 ④·한국 반도체 갭 — 숫자 밖 규제 꼬리 위험, 오늘 한국 갭 전부 반납의 배경 재료",
+   "summary": "세마포가 행정부 관계자 2명을 인용해 법무부 복수 조사가 엔비디아를 휩쓸 수 있다고 보도. 보도 날짜 미확인."
+  },
+  {
    "title": "BIS, 중국 기업의 해외 AI 연산(원격 접속) 경로 차단",
    "url": "https://aiweekly.co/alerts/bis-closes-overseas-ai-compute-route-for-chinese-firms",
    "press": "AI Weekly",
@@ -623,22 +639,6 @@
    "at": "2026-11-16 14:40",
    "why": "달러지수 작년 4월 이후 최고(103.46)와 같은 날 — 모건스탠리 「최대 비중확대」와 정반대, 「업종 갈아타기 vs 현금 도피」 가설 판단 재료",
    "summary": "하트넷은 달러 정점·금리 하락 전엔 위험 회피를 유지한다는 입장(11/15 주간 노트 연장). 세부 숫자 미확인."
-  },
-  {
-   "title": "증시 덮친 「앤트로픽 수급 공포」…삼전·닉스 2차 매물 쏟아지나",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sMm42SEdYaEdrcVhOZjNJTzVfQ3pkT1V1WFVtVUNFRTdwdjFuZWNNMXBPUjhjVGFyOXZWc1oyUGpUWDc2blBCelA4X2l2Q002WnRNVDBIQXJmakJ1XzNCOW9wclFHc1FEVVp6cVBZNDdtd9IBdkFVX3lxTE5PRnZ5ZmVyU004alNQRlFsME9leGpKZ2dDQWZCU3Z1R29Qc3E3T0RsaDVrSjN1YUdrMWQ4LWlZY3RHWDMyYjFGaHhUS3V0MS0tLWp2bzFVZjdnS1M0c2RsVlRXQm5aSTRfZzJuOUUzQWNSVWY4VFE?oc=5",
-   "press": "구글뉴스(국내 시장)",
-   "at": "2026-11-16 14:40",
-   "why": "11/16 반도체 −7.6% 급락의 수급 해석 — 대형 공모(앤트로픽) 앞 AI 대형주 갈아타기 매도, 💬 5번·반도체 칸",
-   "summary": "14:33 하이닉스 −7.65%·삼성전자 −4.95%. 공모 청약 자금 마련 매도 규모는 미확인."
-  },
-  {
-   "title": "외국인 국내 증권자금 137억 달러 순유출…주식 유출 확대·채권은 순유입 전환",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkeFEtelB1UkVndG5kb3ZqYWFfV0xKNVMwM3dhdktVVEZEb0FGdE90czlqUkQ1RU9rNEdtZnRqLXZMZVJUQmx2bzhjaTVDZ0FFMXVr?oc=5",
-   "press": "구글뉴스(한은)",
-   "at": "2026-11-16 14:40",
-   "why": "외국인이 주식은 팔고 채권은 사는 중 — 「한국 이탈」이 아니라 「위험자산 줄이기」, 원화가 버티는 이유와 연결(💬 7·16번)",
-   "summary": "한은 10월 국제금융·외환시장 동향 기준 주식+채권 137억 달러 순유출, 채권은 순유입 전환(보도 제목 기준, 세부 미확인)."
   }
  ],
  "at": "2026-11-18 09:40"
