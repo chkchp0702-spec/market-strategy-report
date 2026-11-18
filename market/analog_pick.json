@@ -1,5 +1,5 @@
 {
- "at": "2026-11-19 01:36",
+ "at": "2026-11-19 02:21",
  "cash2": 4.1,
  "markets": [
   {
@@ -250,7 +250,7 @@
    "beat_cash": 12,
    "n": 12,
    "lump_med": 51.0,
-   "lump_worst": 12.5,
+   "lump_worst": 12.3,
    "fwd": {
     "more10": 4,
     "more_med": -6.5,
@@ -272,20 +272,20 @@
    "cash": 92,
    "next": "한 달(21거래일)마다 12분의 1씩 더 — 지금 1/12번째",
    "loo": {
-    "med": 19.9,
-    "worst": -38.9,
+    "med": 17.9,
+    "worst": -39.6,
     "beat_cash": 8,
     "n": 12
    },
-   "y2_med": 25.0,
-   "y2_worst": -28.7,
+   "y2_med": 23.0,
+   "y2_worst": -29.3,
    "beat_cash": 8,
    "n": 12,
-   "lump_med": 26.4,
-   "lump_worst": -38.9,
+   "lump_med": 23.6,
+   "lump_worst": -39.6,
    "fwd": {
-    "more10": 8,
-    "more_med": -16.1,
+    "more10": 9,
+    "more_med": -16.5,
     "y1_up": 8,
     "n": 12
    }
