@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "월가 혼조 — 엔비디아 다시 하락으로(AP)",
+   "url": "https://bizneworleans.com/wall-street-is-mixed-as-nvidia-gets-back-to-falling/",
+   "press": "AP(비즈뉴올리언스 전재)",
+   "at": "2026-11-19 01:45",
+   "why": "엔비디아 실적 상회에도 정규장 반납 — 가설④(빚으로 짓는 AI 할인)·내일 한국 반도체 되돌림 위험",
+   "summary": "엔비디아가 실적 뒤 상승분을 내주고 다시 하락, 지수는 혼조. 01:30 기준 엔비디아 −2.3%(151.83)·SOXX −1.0%·XLF −1.0%(daily-app)."
+  },
+  {
+   "title": "월러 「근원 CPI가 뜨거우면 12월 0.5%p 인상 필요할 수도」",
+   "url": "https://investinglive.com/central-banks/fed-s-waller-says-a-half-point-rate-hike-in-december-may-be-needed-if-core-cpi-comes-in-hot/",
+   "press": "InvestingLive",
+   "at": "2026-11-19 01:45",
+   "why": "12/9 FOMC 분수령 가설③ — 0.5%p는 무조건이 아니라 근원 CPI 조건부",
+   "summary": "월러 이사는 12월 인상을 지지하며 근원 CPI가 높게 나오면 0.5%p도 열어 둠. 시장 12월 인상 확률 95% 안팎."
+  },
+  {
    "title": "엔비디아, 실적 상회에도 정규장 초반 상승분 반납·마이너스 전환 — 코어위브 −5.4%",
    "url": "https://www.investing.com/news/earnings/nvidia-quarterly-results-beat-estimates-5033943",
    "press": "Investing.com",
@@ -623,22 +639,6 @@
    "at": "2026-11-17 02:40",
    "why": "가설 ② 「업종 갈아타기」(AI→방어·헬스케어) 근거 — 헬스케어 칸",
    "summary": "daily-app 02:23 LLY +0.4%(1,449$)·제약 +0.32%(14↑3↓) vs NVDA −3.4%·반도체 −4.41%."
-  },
-  {
-   "title": "美 증시, 엔비디아 실적·고용 지표 앞두고 매도 재개 — 다우·S&P·나스닥 하락(라이브)",
-   "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-nasdaq-sp-500-wobble-as-investors-look-ahead-to-nvidia-earnings-jobs-report-011944169.html",
-   "press": "Yahoo Finance",
-   "at": "2026-11-17 01:45",
-   "why": "나스닥 칸(조정)·🫧 현금 도피 판정 — 실적 전날 매도 재개의 성격(갈아타기 vs 도피)",
-   "summary": "엔비디아 실적(11/17)·고용 지표 대기 속 매도 재개. daily-app 01:23 S&P 7,487(−0.99%)·나스닥 24,785.82(−1.39%)·SOXX −3.69%(00:33 −5.0%에서 되돌림), 방어주(외식·보험·생활용품) +1%대."
-  },
-  {
-   "title": "젠슨 황, 이사회 조사 속 엔비디아 회의 복귀 보도",
-   "url": "https://www.outlookindia.com/international/jensen-huang-nvidia-china-intelligence-operation-board-investigation-240000-chip-shipments-alice-huang",
-   "press": "Outlook India",
-   "at": "2026-11-17 01:45",
-   "why": "엔비디아 CEO 공백이 실적 D+1 반도체(SOXX·091160) 방향을 가르는 변수",
-   "summary": "황의 회의 복귀·이사회 조사 진행 보도(게재 날짜·세부 미확인). 같은 날 야후는 「트럼프 지지 속 황 복귀 캠페인 확산」 보도 — 이사회 공식 결정은 미확인."
   }
  ],
  "at": "2026-11-18 21:40"
