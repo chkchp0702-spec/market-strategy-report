@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아 실적도 지수를 못 살렸다 — 다우 약 600pt 하락, 앤스로픽 상장 대기(야후)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-p-125812319.html",
+   "press": "야후 파이낸스",
+   "at": "2026-11-19 02:45",
+   "why": "S&P 장중 200일선 아래 2일째 — 해외 포트 「3일 아래면 현금 26%」 규칙 판정 칸",
+   "summary": "페이지 시세 S&P 7,313.87(−0.36%)·다우 50,293(−0.92%)·나스닥 24,296(−0.13%) · 10년 약 5.09% · 앤스로픽 11/19 나스닥 「ANT」 상장 예정."
+  },
+  {
+   "title": "오라클·엔비디아·알파벳·스페이스X CDS 사상 최고 — AI 부채 경계",
+   "url": "https://aiweekly.co/alerts/oracle-nvidia-alphabet-spacex-cds-hit-records-on-ai-debt",
+   "press": "AI Weekly",
+   "at": "2026-11-19 02:45",
+   "why": "가설①(AI 차입 크레딧 스트레스) 근거 — 🫧 버블 경보판 신용 칸",
+   "summary": "AI 대형주 신용부도스와프가 일제히 기록 수준. 야후 피드 「엔비디아 실적 뒤 오라클 CDS 사상 최대, 베테랑 트레이더 『약한 고리』」와 같은 흐름."
+  },
+  {
    "title": "월가 혼조 — 엔비디아 다시 하락으로(AP)",
    "url": "https://bizneworleans.com/wall-street-is-mixed-as-nvidia-gets-back-to-falling/",
    "press": "AP(비즈뉴올리언스 전재)",
@@ -623,23 +639,7 @@
    "at": "2026-11-17 03:45",
    "why": "💬 금 질문·포트 금 5% — 위험 회피 날에도 금이 방패 역할을 못 하는 이유(마진콜·인상 베팅)",
    "summary": "금이 1년 최저로 — 연준 인상 베팅이 원인, 다른 자산 손실을 메우려는 마진콜 매도가 낙폭 확대 · 11/16 밤 금 선물 3,869.9달러(−0.42%, CNBC) · 게시 날짜 미확인"
-  },
-  {
-   "title": "워시 연준 의장 「AI는 경제에 중요하지만 기대에 못 미칠 수도」",
-   "url": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
-   "press": "CNBC",
-   "at": "2026-11-17 02:40",
-   "why": "🫧 신용 경보·가설 ① AI 빚 — 연준 수장이 AI 실망 위험을 공개 언급, 나스닥 칸(조정)",
-   "summary": "11/16 AI 토론회 발언. 같은 시각 daily-app 02:23 나스닥 24,639.97(−1.97%)·S&P 7,455.94(−1.40%) 장중 저점, SOXX −4.53%."
-  },
-  {
-   "title": "일라이 릴리가 엔비디아를 압도 — 비만약 거래가 다시 AI를 이긴다",
-   "url": "https://finance.yahoo.com/markets/article/eli-lilly-is-trouncing-nvidia--and-the-weight-loss-drug-trade-is-beating-ai-again-170530198.html",
-   "press": "Yahoo Finance",
-   "at": "2026-11-17 02:40",
-   "why": "가설 ② 「업종 갈아타기」(AI→방어·헬스케어) 근거 — 헬스케어 칸",
-   "summary": "daily-app 02:23 LLY +0.4%(1,449$)·제약 +0.32%(14↑3↓) vs NVDA −3.4%·반도체 −4.41%."
   }
  ],
- "at": "2026-11-18 21:40"
+ "at": "2026-11-19 02:45"
 }
