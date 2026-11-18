@@ -23,8 +23,9 @@ A = math.sqrt(252) * 100
 
 def main():
     C = load()
-    px = ydl(["^IRX", "SPY", "QQQ", "GLD"] + TREND_U, start="2006-01-01")
+    px = ydl(["^IRX", "IEF", "SPY", "QQQ", "GLD"] + TREND_U, start="2006-01-01")
     irx = px.pop("^IRX")["close"]
+    C["IEF"] = px.pop("IEF")["close"].reindex(C.index).ffill()
     for k in ["SPY", "QQQ", "GLD"]:
         px.pop(k, None)
     C["TLT"] = px["TLT"]["close"].reindex(C.index).ffill()
