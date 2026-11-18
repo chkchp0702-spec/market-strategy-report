@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "구리 값 수개월 최저 급락 — AI 데이터센터 베팅 철수",
+   "url": "https://finance.yahoo.com/m/9233f114-c0ab-3c1a-bd8e-f0f03832cc80/copper-prices-plunge-to.html?.tsrc=rss",
+   "press": "Yahoo Finance",
+   "at": "2026-11-19 03:45",
+   "why": "가설①④ — AI 인프라 축소가 구리(전력·DC 수요)로 번짐 · 에너지·AI 하드웨어 칸 선행 신호",
+   "summary": "구리 수개월 최저 · 트레이더들이 데이터센터 관련 베팅을 거둬들이는 중(야후) · 드러켄밀러 구리 매도 전환(11/18)과 같은 방향"
+  },
+  {
+   "title": "다우 하락 — 연준 위원 「인상으로 충격 줘야」·로우스 전망 미달, 의사록 대기",
+   "url": "https://finance.yahoo.com/m/3b6d51d3-7bfb-3b08-a92e-3b70e9f0655b/stock-market-today%3A-dow-sinks.html?.tsrc=rss",
+   "press": "Yahoo Finance",
+   "at": "2026-11-19 03:45",
+   "why": "S&P 200일선 아래 이틀째 판정·가설③ — 매파 발언에 소비 실적 미달 겹침",
+   "summary": "다우 하락·월러 「충격 필요할 수도」 · 로우스 전망 미달 · 엔비디아 −2.05%(152.27, daily-app 03:34) · SOXX 보합 · 04:00 의사록"
+  },
+  {
    "title": "엔비디아 실적도 지수를 못 살렸다 — 다우 약 600pt 하락, 앤스로픽 상장 대기(야후)",
    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-p-125812319.html",
    "press": "야후 파이낸스",
@@ -623,22 +639,6 @@
    "at": "2026-11-17 04:40",
    "why": "「성장 걱정형 갈아타기」(경기민감 동반 하락)의 숫자 근거 · 반도체 칸·엔비디아 실적 전 규제 변수",
    "summary": "11월 엠파이어스테이트 지수 −18p → 7.8(예상 16.7) · 마이크론 −6.4%·인텔 −6.0%(10:06 ET) · 엔비디아 실적 11/17 16:20 ET · 소매판매 11/17 08:30 ET"
-  },
-  {
-   "title": "「코어위브 멀리하라」 — 황 스캔들로 엔비디아의 63억 달러 뒷배(백스톱)가 주목",
-   "url": "https://www.tikr.com/blog/stay-away-from-coreweave-huangs-scandal-puts-nvidias-6-3-billion-backstop-in-focus",
-   "press": "TIKR",
-   "at": "2026-11-17 03:45",
-   "why": "가설 ①(AI 차입 크레딧)·④(빚으로 짓는 곳이 진다) — 블룸버그 「황 퇴진, 엔비디아의 네오클라우드 지원 의문」과 같은 줄기",
-   "summary": "엔비디아가 코어위브 미사용 용량을 사 주기로 한 약 63억 달러 약정이 황 체제 이후에도 유지될지가 쟁점 · 게시 날짜 미확인"
-  },
-  {
-   "title": "금 1년 최저 — 연준 인상 베팅에 마진콜이 낙폭을 키웠다",
-   "url": "https://investinglive.com/commodities/gold-s-slide-to-one-year-low-margin-calls-amplified-a-fall-driven-by-fed-hike-bets/",
-   "press": "investingLive",
-   "at": "2026-11-17 03:45",
-   "why": "💬 금 질문·포트 금 5% — 위험 회피 날에도 금이 방패 역할을 못 하는 이유(마진콜·인상 베팅)",
-   "summary": "금이 1년 최저로 — 연준 인상 베팅이 원인, 다른 자산 손실을 메우려는 마진콜 매도가 낙폭 확대 · 11/16 밤 금 선물 3,869.9달러(−0.42%, CNBC) · 게시 날짜 미확인"
   }
  ],
  "at": "2026-11-19 02:45"
