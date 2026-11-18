@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아 임시 CEO 크레스, 첫 실적 콜에서 중국 질문 집중",
+   "url": "https://letsdatascience.com/news/nvidia-interim-ceo-kress-faces-china-questions-in-first-earn-02c66bfa",
+   "press": "Let's Data Science",
+   "at": "2026-11-18 19:40",
+   "why": "가설④(AI 안의 갈림)·NVDA 🐋 신호 — 중국 H200 공급 중단이 4분기 가이던스(중국 제외)에 어떻게 들어갔나",
+   "summary": "임시 CEO 크레스 첫 콜의 쟁점이 중국 판매 중단. 같은 날 하나중국 「투자·보증 엄격 평가, 네오클라우드 지원 축소」·MarketWatch 「10-Q 제출 보류」 보도. 세부 숫자 미확인."
+  },
+  {
+   "title": "CEO 퇴진 뒤 엔비디아 — 앞으로 볼 날짜 5개",
+   "url": "https://fourweekmba.com/ai-nvidia-after-the-ceo-exit-5-dates-ahead-results-in-5-days/",
+   "press": "FourWeekMBA",
+   "at": "2026-11-18 19:40",
+   "why": "엔비디아 지배구조 일정(새 CEO·의회 증언·SEC) — 실적 뒤 반등이 이어질지 가늠할 달력, 💬3·15",
+   "summary": "황 사임 뒤 엔비디아의 실적·이사회·규제 일정 정리. 오늘 프리마켓 +4% 가까이(CNBC, kimu 19:02)와 10-Q 보류가 동시에 나온 상황. 날짜별 세부는 원문 확인 필요."
+  },
+  {
    "title": "ECB 금융안정보고서 — AI 주가 붐, 급격한 재평가로 끝날 수 있다",
    "url": "https://www.euronews.com/2026/11/16/ecb-warns-ai-share-boom-could-end-in-abrupt-repricing",
    "press": "Euronews",
@@ -623,22 +639,6 @@
    "at": "2026-11-16 20:45",
    "why": "반도체 칸(7)·091160·💬 5번 — 「주가 먼저, 현물 다음, 애널리스트 추정 하향 마지막」 사이클 2단계 진입 주장",
    "summary": "키움 박유악: D램 27년 하반기·낸드 27년 상반기 공급 과잉, 28년 ASP D램 −54%·낸드 −47%. BofA: 512Gb 낸드 웨이퍼 현물 14.3달러(1주 −12%·전 분기 −32%, kimu_nim/49110)."
-  },
-  {
-   "title": "미즈호, 엔비디아 목표가 250→220달러 — 「10월 고점 뒤 −32%·시총 약 2조 달러 증발 반영」",
-   "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03630966645646376",
-   "press": "이데일리",
-   "at": "2026-11-16 20:45",
-   "why": "11/17 엔비디아 실적 D-1 — HSBC·CLSA에 이은 세 번째 하향, 반도체 칸·💬 3번",
-   "summary": "목표가 250→220달러. 10월 고점 대비 약 −32%, 시총 약 2조 달러 감소 지적. 조정이 과열을 덜었다는 단서도 붙임(본문 일부)."
-  },
-  {
-   "title": "로이터 분석: AI 매도에 투자자들이 「진짜 AI 노출」 재기 바빠",
-   "url": "https://www.investing.com/news/stock-market-news/analysisai-selloff-has-investors-scrambling-to-measure-their-true-exposure-5028994",
-   "press": "Reuters(Investing.com)",
-   "at": "2026-11-16 20:45",
-   "why": "⚡ 공격·🎯 집중 고르는 순서(FCF+ 먼저) — 지수·섹터 ETF 안 숨은 AI 비중 점검 흐름",
-   "summary": "제목 기준: AI 주 급락 뒤 기관이 포트 내 간접 AI 노출(지수·인프라·전력)을 다시 계산. 본문 숫자 미확인."
   }
  ],
  "at": "2026-11-18 17:45"
