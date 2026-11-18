@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "드러켄밀러 「시장 가시성 기억상 최저」 — 구리 매도·주식 중립·달러 소폭 매수",
+   "url": "https://longbridge.com/en/news/305883406",
+   "press": "Longbridge",
+   "at": "2026-11-18 23:45",
+   "why": "원자재 동반 급락·가설③ 매파 연준과 같은 방향 — 금·구리·에너지 칸, 방어 전환 근거",
+   "summary": "자본 보전이 수익보다 우선이라며 포지션 크게 축소 · 구리 숏, 주식 중립, 달러 소폭 롱 · 경제·통화정책 불확실성 매우 높다고 진단"
+  },
+  {
+   "title": "구리 13,019달러로 하락 — 사상 최고 대비 −10.9%",
+   "url": "https://fourweekmba.com/ai-copper-falls-to-13019-amid-ai-upheaval-10-9-below-record/",
+   "press": "FourWeekMBA",
+   "at": "2026-11-18 23:45",
+   "why": "AI 수요 의문 + 매파 연준에 구리 급락 — 가설① AI 투자 둔화의 원자재 쪽 신호",
+   "summary": "구리 13,019달러, 기록 대비 10.9% 아래 · AI 인프라 흔들림이 수요 기대를 깎는 중(날짜·숫자 원문 기준)"
+  },
+  {
    "title": "월러 연준 이사, 12월 0.5%p 인상 열어 둬 — 근원 CPI 뜨거우면",
    "url": "https://stockanalysis.com/news/fed-waller-december-rate-hike-half-point/",
    "press": "StockAnalysis",
@@ -623,22 +639,6 @@
    "at": "2026-11-17 00:40",
    "why": "칩 급락 날에도 대형 IB는 「업종 갈아타기·강세장 지속」 쪽 — S&P 정상 판정·가설 ② 근거",
    "summary": "윌슨 「2027년에도 강세장 지속 모멘텀」(CNBC). 앞서 글로벌 주식 「최대 비중확대」(로이터 11/16)·S&P 목표 8,700 보도(인베스팅 11/16). 세부 목표치는 원문 확인 필요."
-  },
-  {
-   "title": "美 상무부, 중국의 엔비디아 칩 원격 접근 차단 규칙",
-   "url": "https://cryptobriefing.com/commerce-department-blocks-china-remote-nvidia-access/",
-   "press": "Crypto Briefing",
-   "at": "2026-11-16 23:40",
-   "why": "엔비디아 실적(11/17) 전날 수출 규제 추가 — 가설 ④·Q2 엔비디아 답",
-   "summary": "제3국 클라우드로 중국이 첨단 AI 칩 연산력을 빌려 쓰던 우회로를 막는 조치(CNBC 동일 보도). 세부 숫자 미확인."
-  },
-  {
-   "title": "블랙록, 3,000억 달러 모델 포트 개편 — 주식 비중 늘리고 AI 베팅 유지",
-   "url": "https://www.itiger.com/news/1145387092",
-   "press": "Tiger(블룸버그 전재)",
-   "at": "2026-11-16 23:40",
-   "why": "칩 급락 날 대형 운용사는 주식 위험 확대 — 「업종 갈아타기」 vs 「현금 도피」 판정 근거",
-   "summary": "블룸버그 「BlackRock Shifts AI Bets, Adds Equity Risk」 동일 건. 비중 세부 숫자 미확인."
   }
  ],
  "at": "2026-11-18 21:40"
