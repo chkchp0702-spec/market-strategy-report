@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "ECB 금융안정보고서 — AI 주가 붐, 급격한 재평가로 끝날 수 있다",
+   "url": "https://www.euronews.com/2026/11/16/ecb-warns-ai-share-boom-could-end-in-abrupt-repricing",
+   "press": "Euronews",
+   "at": "2026-11-18 18:40",
+   "why": "🫧 버블 경보판 신용·밸류 칸 — 중앙은행이 AI 밸류·재정·지정학을 3대 위험으로 명시(가설① AI 크레딧)",
+   "summary": "ECB가 AI 관련 주식 집중·고평가가 급격한 재평가로 이어질 위험을 경고 · 비은행(헤지펀드) 레버리지가 국채 변동성 키운다는 경고도 함께(블룸버그 11/18)."
+  },
+  {
+   "title": "삼성·SK하이닉스·마이크론·샌디스크 AI 메모리 장기계약 58건",
+   "url": "https://fourweekmba.com/ai-samsung-sk-hynix-micron-sandisk-hold-58-ai-memory-deals/",
+   "press": "FourWeekMBA",
+   "at": "2026-11-18 18:40",
+   "why": "삼성 다년 D램 공급계약 임박 보도(야후 11/18)와 이어짐 — 메모리 사이클 정점론(SemiAnalysis) 반대 근거, 091160·MU",
+   "summary": "메모리 4사가 AI 고객과 장기 공급계약 58건 보유(정리 기사) · 다년 계약은 가격 하락기 물량 완충 — 단 낸드는 내년 2분기 하락(트렌드포스)."
+  },
+  {
    "title": "트렌드포스: HBM 공급 빠듯 2027년까지 — 내년 HBM 가격 전년비 +121% 전망",
    "url": "https://iconnect007.com/article/151778/hbm-supply-constraints-persist-2027-prices-seen-rising-121-yoy/151775/aep",
    "press": "I-Connect007(TrendForce)",
@@ -623,22 +639,6 @@
    "at": "2026-11-16 20:45",
    "why": "⚡ 공격·🎯 집중 고르는 순서(FCF+ 먼저) — 지수·섹터 ETF 안 숨은 AI 비중 점검 흐름",
    "summary": "제목 기준: AI 주 급락 뒤 기관이 포트 내 간접 AI 노출(지수·인프라·전력)을 다시 계산. 본문 숫자 미확인."
-  },
-  {
-   "title": "엔비디아 승계 계획, 11/17 실적 콜의 핵심 — 가이던스 1,080억 달러 거론",
-   "url": "https://tech-insider.org/nvidia-succession-plan-earnings-call-nov-17-108-billion-guidance-2026/",
-   "press": "Tech Insider",
-   "at": "2026-11-16 19:45",
-   "why": "11/17 엔비디아 실적 — 반도체 칸·💬 3번, 「임시 CEO 첫 실적」 갈림길",
-   "summary": "제목 기준: 실적 콜에서 승계 계획이 핵심 변수, 다음 분기 매출 가이던스 약 1,080억 달러 거론. 본문 숫자 미확인."
-  },
-  {
-   "title": "엔비디아 이사회는 젠슨 황에게 사로잡혀 있었나",
-   "url": "https://fortune.com/2026/11/11/nvidia-board-directors-jensen-huang-captive-board/",
-   "press": "Fortune",
-   "at": "2026-11-16 19:45",
-   "why": "황 복귀 보도(11/16 저녁)의 반대편 — 이사회 지배구조 논란, 복귀 시 규제·소송 리스크",
-   "summary": "이사회 독립성 문제 제기(11/11). 세부 숫자 미확인."
   }
  ],
  "at": "2026-11-18 17:45"
