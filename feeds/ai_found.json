@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아 이사회, 젠슨 황 CEO 복귀 배제 — 내부 조사에 집중",
+   "url": "https://aiweekly.co/alerts/nvidia-board-rules-out-huang-return-stays-focused-on-probe",
+   "press": "AI Weekly",
+   "at": "2026-11-18 20:40",
+   "why": "NVDA 🐋(11/17) 신호 · 가설④ — 실적은 통과했지만 리더십·조사 변수가 남아 갭 추격 대신 정규장 확인",
+   "summary": "이사회가 황 복귀를 검토하지 않고 조사에 집중(FT·CNBC 보도 인용). 직원 일부는 복귀 요구(CNBC). 세부 숫자 없음."
+  },
+  {
+   "title": "미 의회 위원회 「중국군, AI 역량 위해 엔비디아 첨단 칩 물색」",
+   "url": "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html",
+   "press": "CNBC",
+   "at": "2026-11-18 20:40",
+   "why": "NVDA·한국 반도체 — 중국 H200 중단에 이어 대중 수출 규제 강화 압력, 트럼프 「중국산 AI 사용 공개 규칙」 검토(로이터)와 같은 방향",
+   "summary": "의회 자문위원회 보고서: 중국군이 AI용 엔비디아 첨단 칩 확보 시도. 같은 날 트럼프 행정부가 미국 기업의 중국산 AI 모델 사용 공개 의무화 검토(로이터 단독)."
+  },
+  {
    "title": "엔비디아 임시 CEO 크레스, 첫 실적 콜에서 중국 질문 집중",
    "url": "https://letsdatascience.com/news/nvidia-interim-ceo-kress-faces-china-questions-in-first-earn-02c66bfa",
    "press": "Let's Data Science",
@@ -623,22 +639,6 @@
    "at": "2026-11-16 21:45",
    "why": "이번 주 AI 랠리 시험대 일정 — 💬 5·14번, 반도체 칸",
    "summary": "11/17 엔비디아 실적(크레스 CFO 첫 발표)·11/18 연준 의사록·주 후반 앤트로픽 상장이 AI 랠리를 시험. 세부 숫자는 원문 확인."
-  },
-  {
-   "title": "월요일 증시: AI 거래 갈림길 주간, 선물 보합권",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-16-dow-sp-500-nasdaq-nvidia-oil-091631084.html",
-   "press": "야후 파이낸스 라이브",
-   "at": "2026-11-16 21:45",
-   "why": "미국장 실시간 — 유가·엔비디아 동시 확인, 💬 8·18번",
-   "summary": "다우·S&P·나스닥 선물 보합권, 엔비디아·유가가 초점(라이브 블로그 — 숫자는 원문 시각 기준)."
-  },
-  {
-   "title": "키움 「메모리 27년 공급 과잉 진입 — 28년 D램 ASP −54%·낸드 −47%」 + BofA 「낸드 현물 10월 중하순 뒤 약 20%↓」",
-   "url": "https://t.me/kimu_nim/49109",
-   "press": "키움증권(김현석 텔레그램 전재)",
-   "at": "2026-11-16 20:45",
-   "why": "반도체 칸(7)·091160·💬 5번 — 「주가 먼저, 현물 다음, 애널리스트 추정 하향 마지막」 사이클 2단계 진입 주장",
-   "summary": "키움 박유악: D램 27년 하반기·낸드 27년 상반기 공급 과잉, 28년 ASP D램 −54%·낸드 −47%. BofA: 512Gb 낸드 웨이퍼 현물 14.3달러(1주 −12%·전 분기 −32%, kimu_nim/49110)."
   }
  ],
  "at": "2026-11-18 17:45"
