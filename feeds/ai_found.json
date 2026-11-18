@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "걸프 긴장 고조 — 이란이 쿠웨이트 타격, 미국은 호르무즈 인근 공습",
+   "url": "https://www.ksl.com/article/51506116/gulf-tensions-escalate-as-iran-hits-kuwait-us-strikes-near-hormuz",
+   "press": "KSL(AP)",
+   "at": "2026-11-18 14:45",
+   "why": "🛢️ 브렌트 95 장부 조건·에너지 칸·💬19 — 휴전 흔들림이 유가 하방(85 축소 선)을 막는 재료",
+   "summary": "이란군이 쿠웨이트 알리 알 살렘 기지의 美 드론·미사일 시설을 겨냥(CNBC 11/18). 미국은 호르무즈 인근 타격. 블룸버그는 유가 「보합(steadies)」 — 공격 뉴스만으로 못 오르는 장 지속, 브렌트 숫자는 미확인."
+  },
+  {
+   "title": "황의 퇴진과 미국 규제 — 중국 AI 연산력이 위태롭다",
+   "url": "https://asiatimes.com/2026/11/huangs-fall-us-curbs-put-chinas-ai-computing-in-peril/",
+   "press": "Asia Times",
+   "at": "2026-11-18 14:45",
+   "why": "엔비디아 임시 CEO 「중국에 첨단 칩 안 보냄」 — 4분기 1,300억$ 가이던스가 중국 제외라 숫자 영향은 작지만 中 보복(희토·광학) 위험 · 가설④",
+   "summary": "임시 CEO 크레스가 중국 첨단 반도체 수출 중단을 밝힘(블룸버그 11/18). 中 광학 수출 금지 추진 보도(gn_us_tech)와 겹쳐 공급망 보복 위험."
+  },
+  {
    "title": "골드만삭스, 연말 「산타 랠리」 반등 전망",
    "url": "https://www.tipranks.com/news/goldman-sachs-gs-forecasts-a-year-end-santa-claus-rally",
    "press": "TipRanks",
@@ -623,22 +639,6 @@
    "at": "2026-11-16 17:40",
    "why": "11/17 엔비디아 실적·CEO 공백 앞 정책 지지 재료 — 반도체 칸 7%·SOXX 대결, 「AI 차입」 가설과 반대 방향 숫자",
    "summary": "세부 내용은 미확인(제목 기준). 같은 날 「엔비디아 AI 연산 점유율 83%→39%」(서울경제) 보도로 경쟁 심화도 함께."
-  },
-  {
-   "title": "WSJ: 앤트로픽, 기술주 매도에도 다음 주 나스닥 상장 추진(티커 ANT)",
-   "url": "https://investinglive.com/stock-market-update/wsj-anthropic-targets-nasdaq-debut-next-week-under-ticker-ant-despite-tech-selloff/",
-   "press": "investingLive(WSJ 인용)",
-   "at": "2026-11-16 16:40",
-   "why": "아시아 반도체 대형주 수급 공백(삼전닉스·091160.KS 관찰)과 직결 — 상장 뒤 되돌림 여부가 코스닥 2차 분할 시점 판단",
-   "summary": "하나증권 중국은 상장일 11/19로 전함. 기술주 약세에도 일정 유지 보도 — 공모 자금 마련 매도가 끝나는 시점이 관건(기사 날짜는 미확인)."
-  },
-  {
-   "title": "월가에서 아시아까지 기술주 매도 — 투자자 AI 위험 줄이기",
-   "url": "https://www.computing.co.uk/news/2026/tech-sell-off-as-investors-derisk-ai",
-   "press": "Computing",
-   "at": "2026-11-16 16:40",
-   "why": "「업종 갈아타기 vs 현금 도피」 가설 점검 — 방어주는 오르고 AI만 빠지는 구도인지",
-   "summary": "AI 관련주 중심 매도가 미국→아시아로 번졌다는 정리. 숫자 확인은 피드(대만 −6.03%·코스피 −3.59%)로."
   }
  ],
  "at": "2026-11-18 09:40"
