@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 상무부, 中 기업에 AI 칩 87만9천 개 넘게 판매 승인 — 매스트 하원 외교위원장",
+   "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+   "press": "CNBC",
+   "at": "2026-11-20 06:40",
+   "why": "엔비디아·AMD 中 판매 정치 압박(하원 조사) — NVDA 🐋 신호(11/17)·AMD 공매도 보고서와 같은 「中 노출」 할인 축 · 가설④",
+   "summary": "매스트 의원 「상무부가 中 기업 대상 AI 칩 87.9만 개 이상 판매 승인」 · 같은 날 NVDA −3.29%(146.0$)·SOXX −2.71%(daily-app 05:58)"
+  },
+  {
+   "title": "코어위브 공동창업자, 급락한 자사 회사채에 3천만 달러 투자",
+   "url": "https://www.marketwatch.com/story/a-coreweave-co-founder-just-made-an-unconventional-30-million-wager-on-its-battered-bonds-5586b0e9",
+   "press": "MarketWatch",
+   "at": "2026-11-20 06:40",
+   "why": "가설①(AI 차입 크레딧) 반대 쪽 첫 내부자 신호 — 네오클라우드 채권 바닥 여부 · 🫧 신용 칸",
+   "summary": "브라이언 벤투로가 코어위브 회사채 3,000만$ 매수 · 엔비디아 6거래일 시총 6,110억$ 감소(마켓워치) 같은 날"
+  },
+  {
    "title": "美 증시 하락 — 매도는 칩 종목에 몰려(전 업종 확산 아님)",
    "url": "https://investinglive.com/stocks/us-stock-markets-slide-but-the-selling-is-localized-around-chip-names/",
    "press": "investingLive",
@@ -623,23 +639,7 @@
    "at": "2026-11-18 10:45",
    "why": "중국 보복 수단(희토류·장비·소프트웨어 금지)이 한국·대만 AI 상류 공급망으로 번지는지 — 반도체 갭 유지 여부와 연결",
    "summary": "제목 기준: 중국이 美 AI 칩 규제를 「패권주의」로 비판·대응 조치 예고. 원문 날짜·세부 미확인."
-  },
-  {
-   "title": "아시아 증시 — 닛케이 +1.4%, 항셍은 엔비디아 경영진 사태로 약세",
-   "url": "https://investinglive.com/stock-market-update/asian-stocks-steady-as-nikkei-gains-1-4-hang-seng-slips-on-nvidia-leadership-fallout/",
-   "press": "investingLive",
-   "at": "2026-11-18 09:40",
-   "why": "🎯 일본·홍콩 칸 — 엔비디아 실적 뒤 아시아 반응이 나라별로 갈림(한국·일본 반도체 반등 vs 홍콩 약세)",
-   "summary": "제목 기준: 닛케이 +1.4% · 항셍 하락 — 엔비디아 리더십 공백 여파. 세부 숫자 미확인."
-  },
-  {
-   "title": "엔비디아, 중국용 AI 칩 생산 중단",
-   "url": "https://www.newsbytesapp.com/news/business/nvidia-halts-production-of-ai-chips-for-china/tldr",
-   "press": "NewsBytes",
-   "at": "2026-11-18 09:40",
-   "why": "가설 ④ — 엔비디아 4분기 가이던스는 중국 제외, 판매 중단은 숫자보다 미·중 단절 신호(블룸버그 11/18 피드와 같은 사건)",
-   "summary": "엔비디아 임시 경영진이 美 승인에도 중국에 AI 칩을 보내지 않는다고 밝힘(블룸버그 피드). 생산 중단 세부 숫자 미확인."
   }
  ],
- "at": "2026-11-20 01:45"
+ "at": "2026-11-20 06:45"
 }
