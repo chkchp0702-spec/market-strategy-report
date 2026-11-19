@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20 01:19",
+ "at": "2026-11-20 01:40",
  "cash2": 4.1,
  "markets": [
   {
@@ -240,20 +240,20 @@
    "cash": 0,
    "next": "하락장(고점 −20%) 되면 현금",
    "loo": {
-    "med": 51.1,
+    "med": 43.9,
     "worst": 11.9,
     "beat_cash": 12,
     "n": 12
    },
-   "y2_med": 53.4,
+   "y2_med": 51.1,
    "y2_worst": 11.9,
    "beat_cash": 12,
    "n": 12,
-   "lump_med": 53.2,
-   "lump_worst": 12.5,
+   "lump_med": 51.0,
+   "lump_worst": 12.3,
    "fwd": {
     "more10": 4,
-    "more_med": -5.1,
+    "more_med": -6.5,
     "y1_up": 11,
     "n": 12
    }
@@ -278,7 +278,7 @@
     "n": 12
    },
    "y2_med": 23.2,
-   "y2_worst": -29.3,
+   "y2_worst": -41.2,
    "beat_cash": 8,
    "n": 12,
    "lump_med": 23.2,
