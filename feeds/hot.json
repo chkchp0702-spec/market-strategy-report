@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20 01:45",
+ "at": "2026-11-20 02:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7914": {
@@ -37,11 +37,6 @@
    "why": "금 칸(5%·S&P 200일선 3일 아래면 11%) — 의사록·월러 0.5%p 뒤 3,750$ 아래 올해 최저, 오늘 밤 S&P 3일째 판정과 겹침",
    "at": "2026-11-19 15:45"
   },
-  "n/NEbzc1MmxqRkYxNXdLbE5GY005djV4MGJ1R25LdWRxNUJxR3lrbHZSYUUoc5": {
-   "lv": 1,
-   "why": "H주 칸 50%(200일선 8,466 위면 나머지 절반) — 항셍 −1.95% 22,841 사흘째·텐센트 실적 뒤 −6.5% 2년 최저 = 아시아 AI 가설④ 근거",
-   "at": "2026-11-19 18:45"
-  },
   "kimu_nim/49683": {
    "lv": 1,
    "why": "한국 메모리·091160.KS — TSMC·삼성 中 고객 일부 출하 중단(FT), 내일 삼성전자 시가와 가설④(한국 메모리 따로 간다) 시험",
@@ -62,19 +57,9 @@
    "why": "🛢️ 브렌트 조건 — 트럼프 「이란 군사행동 불가피」에도 22:33 브렌트 −2.2%(무덤덤 장 판정)",
    "at": "2026-11-19 22:45"
   },
-  "n/261119iranintensifieshormuztankerattacksjustasoilpricesslide": {
-   "lv": 1,
-   "why": "🛢️ 브렌트 조건·에너지 칸 — 유가 하락 속 이란 호르무즈 유조선 공격 강화(블룸버그), 23:23 브렌트 90.55(−1.5%) 무덤덤 장 시험",
-   "at": "2026-11-19 23:40"
-  },
   "HANAchina/72432": {
    "lv": 1,
    "why": "가설④ 메모리 상류·091160.KS — 트렌드포스 「2027 낸드 공급 과잉·2분기부터 전 제품 가격 하락」, 오늘 밤 메모리 +4% 반등과 정반대",
-   "at": "2026-11-19 23:40"
-  },
-  "n/JJc2lPWmoydVJld09sOER4Rk4xRE9QbXpKSVMzNE9ldENzQWZWVGZGRlYoc5": {
-   "lv": 1,
-   "why": "NVDA 🐋 11/17 신호·가설① — 회사 「황 CEO 복귀 안 함」(WSJ), 21:40 복귀 의향 보도 정리 · 베선트 쇄신 압박",
    "at": "2026-11-19 23:40"
   },
   "n/UNHelpkbWw0RmRNeHg0WmxNTm0zcTVyalVNdDdxOThlX0lOVWFFeW9CWQoc5": {
@@ -87,15 +72,20 @@
    "why": "가설② 반대 근거 — 개장 초 기술 +2.87% vs 필수소비재 −2.03%·필라 반도체 +4.3% · S&P 200일선 사흘째 판정일",
    "at": "2026-11-20 00:45"
   },
-  "n/kVElkS3lwRF9LaGg4YzU5b0dsZXlveWxSNzhGYzJlZmRSRkhvUWZRTHB3oc5": {
-   "lv": 1,
-   "why": "🐋 NVDA 신호·가설④(AI 안에서 갈림) — 경영 공백에 SEC 공시 조사까지, 황 복귀 신호와 엇갈림",
-   "at": "2026-11-20 01:45"
-  },
   "n/kc0FLR0wxblBRSWVHZzQ5eDd5cU9BQTdVMzhwVVMzMUNaMWFab1AzRXUwoc5": {
    "lv": 1,
    "why": "🐻 S&P 200일선 사흘째 판정 — 개장 랠리가 유가·금리에 꺾여 01:20 7,305(200일선 7,344 아래)",
    "at": "2026-11-20 01:45"
+  },
+  "n/ativeafteranthropicvaluedatover2trillioninnasdaqdebut5039627": {
+   "lv": 1,
+   "why": "앤스로픽 첫 체결 뒤 나스닥 하락 전환 — S&P 200일선 사흘째(현금 26%) 판정 직결 · 수급 쏠림 가설",
+   "at": "2026-11-20 02:40"
+  },
+  "n/zWkI0MzJQU2VWVURmSVB6ZDZTemE4TW96aTMtRTcwQ1E3NlV4NUlSSm9Uoc5": {
+   "lv": 1,
+   "why": "하원 수출통제 별도 조사 — 🐋 NVDA 신호·가설④(AI 안에서 갈림) 악재 +1",
+   "at": "2026-11-20 02:40"
   }
  }
 }
