@@ -7260,6 +7260,14 @@
 "src": "ins",
 "score": 67.5,
 "note": "기회형 내부자 3명 · 253천 달러 (10일 안 공시)"
+},
+"BRBR|2026-11-18|pead": {
+"code": "BRBR",
+"name": "BellRing Brands, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-18",
+"src": "pead",
+"score": 69.7
 }
 },
 "sent": [
