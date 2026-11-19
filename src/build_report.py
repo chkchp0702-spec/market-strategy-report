@@ -134,12 +134,20 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
                               "verdict": "신호대로", "verdict_cls": "gd",
                               "rule": "🐋 분기 보유 · −15% 손절 → 빈 자리 ☕ 컵 / 🧭 50일 저가 이탈 · ☕📈 손절·익절·보유기간"})
 
+    # 🌅 11/19 아침판 30초 (src/morning.py) — 새 1·2쪽. 계산 실패해도 리포트는 나감(그땐 예전 6쪽)
+    try:
+        from .morning import build as morning_build
+        mo = morning_build(day_path)
+    except Exception as ex:
+        print("🌅 아침판 계산 실패 — 빼고 만듦:", ex, file=sys.stderr)
+        mo = None
+    npages = 8 if mo else 6
     rules9 = rules_now()   # 🔁 11/12 사용자 「바뀐 내용이 아침 시황리포트에도」 — 하락장 계기판(bear.json)의 닮은 장 규칙 9개 시장
     css = (TPL / "base.css").read_text(encoding="utf-8")
     env = Environment(loader=FileSystemLoader(str(TPL)), autoescape=select_autoescape(default=False))
     ctx = dict(d=d, led=led, css=css, charts=charts, panel_rows=panel_rows, panel_groups=panel_groups,
                outside_rows=outside_rows, scorecard_total=scorecard_total, alloc_rows=alloc_rows, kick_alloc=kick_alloc, views_line=views_line,
-               panel_n=len(panel_rows), cal=cal, board=board, sec=sec, focus=focus, rules9=rules9)
+               panel_n=len(panel_rows), cal=cal, board=board, sec=sec, focus=focus, rules9=rules9, mo=mo, npages=npages)
 
     tag = f'{d["date"]}_{d["edition"]}'
     out = OUT / tag
@@ -153,7 +161,7 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
     (out / f"{stem_s}.html").write_text(html_s, encoding="utf-8")
 
     ok = True
-    for stem, pages in ((stem_r, 6), (stem_s, 1)):   # 10/15: 전략가 패널 쪽 뺌 → 6쪽
+    for stem, pages in ((stem_r, npages), (stem_s, 1)):   # 10/15: 전략가 패널 쪽 뺌 → 6쪽 · 11/19 🌅 아침판 2쪽 앞에 → 8쪽
         pdf = out / f"{stem}.pdf"
         res = html_to_pdf(out / f"{stem}.html", pdf)
         bad = check_overflow(res, pages, MARGIN_PX)
@@ -163,7 +171,7 @@ def build(day_path: Path, commit: bool = False, strict: bool = True, rerank: boo
             for i, b, m in bad:
                 print(f"  !! page {i}: content bottom {b} vs footer {m} (여유 {m-b}px < {MARGIN_PX})", file=sys.stderr)
 
-    (out / "kakao.txt").write_text(kakao_text(d, rules9), encoding="utf-8")
+    (out / "kakao.txt").write_text(kakao_text(d, rules9, mo), encoding="utf-8")
 
     if not ok and strict:
         print("빌드 실패: 넘침. data 파일의 글을 줄이거나 템플릿을 조정하세요.", file=sys.stderr)

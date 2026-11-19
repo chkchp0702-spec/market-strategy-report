@@ -1,0 +1,166 @@
+{# 🌅 11/19 아침판 30초 — src/morning.py → market/morning.json (mo). 쪽 2장: ① 오늘 바꿀 것 ② 오늘 장 준비 #}
+{% macro pc(v, p=1) %}{% if v is none %}–{% else %}<span class="{{ 'up' if v >= 0 else 'dn' }}">{{ ('%+.' ~ p ~ 'f') % v }}%</span>{% endif %}{% endmacro %}
+{% macro hit(h) %}{% if h and h.n %}<span class="mo-hit {{ 'bad' if h.rate < 40 else ('ok' if h.rate >= 60 else '') }}">이 칸 조언 {{ (h.n * h.rate / 100) | round | int }}/{{ h.n }} 맞음</span>{% endif %}{% endmacro %}
+<style>
+.mo .chg{background:var(--navy);color:#fff;border-radius:10px;padding:9px 14px 10px;margin-bottom:9px}
+.mo .chg .h{font-size:8.5pt;color:#9fb0c8;font-weight:700}
+.mo .chg .big{font-size:15pt;font-weight:900;line-height:1.3;margin:1px 0 6px}
+.mo .chg .big em{font-style:normal;color:#ffc65c}
+.mo .chips{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
+.mo .chip{background:rgba(255,255,255,.1);border-radius:8px;padding:6px 9px;border-left:4px solid #9fb0c8}
+.mo .chip.big{border-left-color:#ff8a7a;background:rgba(255,138,122,.16)}.mo .chip.watch{border-left-color:#ffc65c;background:rgba(255,198,92,.13)}
+.mo .chip b{display:block;font-size:10.5pt;line-height:1.3}.mo .chip span{font-size:8pt;color:#c9d6ea;line-height:1.3;display:block;margin-top:1px}
+.mo .act{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:9px}
+.mo .col h3{font-size:10.5pt;font-weight:900;margin-bottom:4px;padding:3px 9px;border-radius:6px;color:#fff}
+.mo .col.u h3{background:var(--up)}.mo .col.d h3{background:var(--dn)}.mo .col.h h3{background:#6b7685}
+.mo .ac{border:1px solid var(--line);border-radius:8px;padding:6px 9px;margin-bottom:5px;background:#fff}
+.mo .ac.small{opacity:.78;border-style:dashed}
+.mo .ac .n{font-size:10.5pt;font-weight:900;color:var(--navy);line-height:1.25}
+.mo .ac .n i{font-style:normal;font-size:7.6pt;background:var(--navy);color:#fff;border-radius:4px;padding:0 5px;margin-left:4px;vertical-align:2px}
+.mo .ac .k{font-size:7.6pt;color:var(--mute);margin:1px 0 2px}
+.mo .ac .c{font-size:8.3pt;font-weight:800;color:#8a5a00}
+.mo .ac .w{font-size:8pt;color:#2b3442;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:1px}
+.mo .ac .f{font-size:7.6pt;color:#5a6472;line-height:1.3;margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mo .ac .f b{color:var(--up)}
+.mo .mo-hit{display:inline-block;font-size:7.2pt;font-weight:800;border-radius:4px;padding:0 5px;margin-top:3px;background:#e9edf3;color:#5a6472}
+.mo .mo-hit.bad{background:#fdecea;color:var(--up)}.mo .mo-hit.ok{background:#e6f4ec;color:var(--good)}
+.mo .ac.none{color:var(--mute);font-size:8.5pt;text-align:center;padding:10px 6px}
+.mo h2{font-size:11pt;font-weight:900;color:var(--navy);margin:0 0 4px}
+.mo h2 small{font-size:7.6pt;color:var(--mute);font-weight:500;margin-left:5px}
+.mo .fm{display:grid;grid-template-columns:1fr 1.15fr;gap:10px;margin-bottom:9px}
+.mo .ct{display:grid;grid-template-columns:repeat(5,1fr);gap:4px}
+.mo .ct div{border-radius:7px;padding:5px 4px;text-align:center;font-size:7.6pt;line-height:1.3;color:#2b3442;border:1px solid var(--line)}
+.mo .ct div b{display:block;font-size:9.5pt}
+.mo .ct div .v{font-size:12pt;font-weight:900}
+.mo .ct .in{background:#fdeeec;border-color:#f3c9c3}.mo .ct .mid{background:#f6f2e8}.mo .ct .out{background:#eaf0f9;border-color:#cbd9ee}
+.mo .kr{margin-top:5px;font-size:8pt;line-height:1.4;color:#2b3442}
+.mo .dv{font-size:8pt}
+.mo .dv .r{display:grid;grid-template-columns:96px 1fr 44px;align-items:center;gap:5px;margin-bottom:2px}
+.mo .dv .r .t{height:9px;position:relative;background:#f0f2f5;border-radius:3px}
+.mo .dv .r .t span{position:absolute;top:0;height:9px;border-radius:3px}
+.mo .dv .r .t:after{content:"";position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:#9aa3af}
+.mo .dv .r b{text-align:right}
+.mo .ps{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:6px}
+.mo .p{border:1px solid var(--line);border-radius:8px;padding:6px 9px;background:#fff}
+.mo .p .t{font-size:10.5pt;font-weight:900;color:var(--navy)}
+.mo .p .t span{float:right;font-size:8pt;font-weight:800;color:#8a5a00}
+.mo .p .bar{display:flex;height:16px;border-radius:4px;overflow:hidden;margin:4px 0 3px}
+.mo .p .bar div{color:#fff;font-size:7.6pt;font-weight:800;display:flex;align-items:center;justify-content:center;white-space:nowrap}
+.mo .p .l{font-size:7.6pt;color:#3d4756;line-height:1.35}
+.mo .tg .r{display:grid;grid-template-columns:1fr 112px 48px;gap:6px;align-items:center;padding:3px 0;border-bottom:1px dashed var(--line);font-size:8.2pt;line-height:1.3}
+.mo .tg .r .m{height:10px;background:#edf0f4;border-radius:5px;overflow:hidden}
+.mo .tg .r .m span{display:block;height:10px;border-radius:5px;background:#9aa6b4}
+.mo .tg .r.near .m span{background:var(--up)}
+.mo .tg .r.near b.d{color:var(--up)}
+.mo .tg .r .s{color:#5a6472;font-size:7.4pt}
+.mo .ov{display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px}
+.mo .ov .o{border:1px solid var(--line);border-radius:8px;padding:6px 9px}
+.mo .ov .o.dn{background:#f3f6fb}
+.mo .ov .o .h{font-size:9.6pt;font-weight:900;color:var(--navy)}
+.mo .ov .o table td{padding:1.5px 3px;font-size:8pt;border-bottom:1px solid #eef0f3}
+.mo .tm{display:flex;gap:6px;margin-top:6px}
+.mo .tm div{flex:1;background:var(--soft);border-radius:7px;padding:4px 8px;font-size:7.8pt;line-height:1.35}
+.mo .tm b{display:block;color:var(--navy);font-size:9pt}
+.mo .scb{display:grid;grid-template-columns:132px 1fr;gap:10px;align-items:center}
+.mo .scb .big{text-align:center;border-radius:10px;padding:7px 4px;background:var(--soft)}
+.mo .scb .big b{display:block;font-size:24pt;font-weight:900;line-height:1.1;color:var(--navy)}
+.mo .scb .big span{font-size:7.6pt;color:var(--mute)}
+.mo .bsym{display:grid;grid-template-columns:repeat(3,1fr);gap:3px 8px;font-size:8pt}
+.mo .bsym div{display:flex;justify-content:space-between;border-bottom:1px solid #eef0f3;padding:1px 0}
+.mo .cw{border:2px solid var(--warn);border-radius:9px;padding:7px 11px;background:#fffaf2}
+.mo .cw .q{font-size:10pt;font-weight:800;color:#2b3442;line-height:1.4;background:none;border:none;padding:0;margin:0}
+</style>
+
+{% set CH = mo.changes %}{% set AC = mo.actions %}{% set FM = mo.flowmap %}
+<!-- ===== 0-1 🌅 오늘 바꿀 것 (30초) ===== -->
+<section class="page mo">
+ <div class="hd"><h1>🌅 오늘 아침 30초</h1><div class="d"><b>{{ d.date.replace("-", ".") }} ({{ d.weekday }}) {{ d.edition_label }}</b> · 달라진 것 → 행동 → 돈의 흐름 → 성향별 처방</div></div>
+
+ <div class="chg"><div class="h">① 어제와 달라진 것{% if CH.prev_date %} · {{ CH.prev_date[5:].replace('-', '/') }} 대비{% endif %}</div>
+  <div class="big">{% if CH.none %}<em>오늘은 바꿀 것 없음</em> — 어제 배분 그대로{% else %}{{ CH.head }} — <em>{{ CH['items'][0].t }}</em>{% endif %}</div>
+  {% if CH['items'] %}<div class="chips">{% for c in CH['items'] %}<div class="chip {{ c.lv }}"><b>{{ c.ic }} {{ c.t }}</b><span>{{ c.s }}{% if c.lv == 'watch' %} · 오늘 밤 바뀔 수 있음{% endif %}</span></div>{% endfor %}</div>{% endif %}
+ </div>
+
+ <div class="act">
+ {% for key, cls, title in [('up', 'u', '② 늘릴 것'), ('down', 'd', '줄일 · 피할 것'), ('hold', 'h', '그대로 둘 것')] %}
+  <div class="col {{ cls }}"><h3>{{ title }}</h3>
+  {% for c in AC[key] %}
+   <div class="ac{{ ' small' if c.small }}"><div class="n">{{ c.name }} <i>{{ c.sym }}</i></div>
+    {% if (c.kr and c.kr != "—") or c.pct %}<div class="k">{% if c.kr and c.kr != "—" %}🇰🇷 {{ c.kr }}{% endif %}{% if c.pct %} · 지금 {{ c.pct }}%{% endif %}</div>{% endif %}
+    {% if c.chg %}<div class="c">{{ c.chg }}</div>{% elif c.dir == 'avoid' %}<div class="c" style="color:var(--dn)">새로 사지 않기</div>{% endif %}
+    <div class="w">{{ c.why }}</div>
+    {% if c.cond %}<div class="f"><b>틀리면</b> {{ c.cond }}</div>{% endif %}
+    {{ hit(c.hit) }}{% if c.small %} <span class="mo-hit bad">적중 낮음 → 작게</span>{% endif %}
+   </div>
+  {% else %}<div class="ac none">오늘은 없음</div>{% endfor %}
+  </div>
+ {% endfor %}
+ </div>
+
+ <h2>③ 돈의 흐름 지도 <small>{{ (FM.asof or '')[5:].replace('-', '/') }} 종가 · 나라 = 1주 지수 · 미국 섹터·테마 = 5일 S&amp;P500 대비</small></h2>
+ <div class="fm">
+  <div>
+   <div class="ct">{% for c in FM.countries %}<div class="{{ 'in' if c.label == '돈이 들어오는 곳' else ('out' if c.label == '빠지는 곳' else 'mid') }}"><b>{{ c.flag }} {{ c.name }}</b><span class="v">{{ pc(c.chg5) }}</span><br>하루 {{ pc(c.chg1) }}<br>{{ c.label or c.regime }}{% if c.hot %}<br><span style="color:#8a5a00">▲{{ c.hot[0] }}</span>{% endif %}</div>{% endfor %}</div>
+   <div class="kr"><b style="color:var(--up)">🇰🇷 어제 돈 들어간 업종</b> {% for x in FM.kr_in %}{{ x.name }} {{ pc(x.r1) }}{{ ' · ' if not loop.last }}{% endfor %}<br>
+   <b style="color:var(--dn)">🇰🇷 빠진 업종</b> {% for x in FM.kr_out %}{{ x.name }} {{ pc(x.r1) }}{{ ' · ' if not loop.last }}{% endfor %}</div>
+  </div>
+  <div class="dv">
+  {% set mx = ([FM['in'][0].rs5 | abs if FM['in'] else 1, FM.out[0].rs5 | abs if FM.out else 1] | max) or 1 %}
+  {% for r in FM['in'] + FM.out %}{% set w = (r.rs5 | abs) / mx * 50 %}
+   <div class="r"><span>{{ '🔥' if r.rs5 > 0 and loop.index <= 3 else ('🧊' if r.rs5 < 0 else '') }} {{ r.name }} <span class="src">{{ r.sym }}</span></span>
+    <div class="t"><span style="{% if r.rs5 >= 0 %}left:50%;background:var(--up);{% else %}right:50%;background:var(--dn);{% endif %}width:{{ '%.1f' % w }}%"></span></div><b class="{{ 'up' if r.rs5 >= 0 else 'dn' }}">{{ '%+.1f' % r.rs5 }}%p</b></div>
+  {% endfor %}
+  </div>
+ </div>
+
+ <h2>⑤ 성향별 처방전 <small>💼 기본 포트(성장형)에서 주식 몫만 성향대로 줄인 예시</small></h2>
+ <div class="ps">{% for p in mo.persona['items'] %}
+  <div class="p"><div class="t">{{ p.ic }} {{ p.k }}<span>{{ p.chg }}</span></div>
+   <div class="bar">{% for k, nm, col in [('stock','주식','#c8372d'), ('bond','채권','#2c5fa0'), ('gold','금','#b8892a'), ('cash','현금','#6b7685')] %}{% if p[k] > 0 %}<div style="width:{{ p[k] }}%;background:{{ col }}">{% if p[k] >= 9 %}{{ nm }} {{ p[k] }}{% endif %}</div>{% endif %}{% endfor %}</div>
+   <div class="l"><b>주식</b> {{ p.picks.stock }}<br><b>채권</b> {{ p.picks.bond }}{% if p.gold %} · <b>금</b> {{ p.gold }}%{% endif %}<br>{{ p.kr }}</div>
+  </div>{% endfor %}
+ </div>
+ <div class="note">{{ mo.persona.note }} · 「이 칸 조언 n/m」 = 지난 같은 칸 조언이 5거래일 뒤 맞은 횟수(2쪽)</div>
+ <div class="foot"><span>{{ foot }}</span><span>1 / {{ npages }}</span></div>
+</section>
+
+<!-- ===== 0-2 오늘 장 준비 — 조건 · 밤사이→한국 · 조언 성적 · 반론 ===== -->
+{% set SC = mo.score %}{% set OV = mo.overnight %}{% set CW = mo.counter %}
+<section class="page mo">
+ <div class="hd"><h1>오늘 장 준비</h1><div class="d">⑥ 이 선을 넘으면 → ⑧ 밤사이 미국 → 오늘 한국장 → ⑨ 우리 조언 성적 → ⑩ 우리가 틀렸다면</div></div>
+
+ <h2>⑥ 조건부 대응표 <small>막대가 찰수록 그 조건에 가까움 · 빨강 = 오늘 닿을 수 있음</small></h2>
+ <div class="box tg" style="margin-bottom:9px;padding:5px 11px">
+ {% for t in mo.triggers %}<div class="r{{ ' near' if t.near }}"><div><b>{{ t.signal }}</b><br><span class="s">→ {{ t.claim }}</span></div>
+  <div class="m"><span style="width:{{ ((t.fill or 0) * 100) | round | int }}%"></span></div><b class="d" style="text-align:right">{{ t.dist }}</b></div>{% endfor %}
+ </div>
+
+ <h2>⑧ 밤사이 미국 → 오늘 한국장 <small>{{ OV.rule }}</small></h2>
+ <div class="ov">
+ {% for x in (OV.up + OV.down)[:3] %}
+  <div class="o{{ ' dn' if x.r1 < 0 }}"><div class="h">{{ '🔥' if x.r1 > 0 else '🧊' }} 🇺🇸 {{ x.name }} <span class="src">{{ x.sym }}</span> {{ pc(x.r1, 2) }}</div>
+   <table>{% for k in x.kr %}<tr><td style="white-space:nowrap">🇰🇷 <b>{{ k.name[:8] }}</b> <span class="src">{{ k.code }}</span></td><td style="text-align:right;white-space:nowrap">{{ pc(k.r1) }} <span class="src">5일</span> {{ pc(k.r5, 0) }}</td></tr>{% endfor %}</table>
+  </div>
+ {% endfor %}
+ </div>
+ {% if OV.down and (OV.up | length) >= 3 %}<div class="note" style="margin-top:3px">🧊 약했던 곳: {% for x in OV.down %}{{ x.name }} {{ x.sym }} {{ '%+.1f' % x.r1 }}% → {% for k in x.kr[:2] %}{{ k.name }}{{ '·' if not loop.last }}{% endfor %}{{ ' / ' if not loop.last }}{% endfor %} — 오늘 약할 수 있음</div>{% endif %}
+ <div class="tm">{% for t in OV.times %}<div><b>{{ t.t }}</b>{{ t.what }}</div>{% endfor %}</div>
+ {% if OV.note %}<div class="note" style="margin-top:3px">{{ OV.note | safe }}</div>{% endif %}
+
+ <h2 style="margin-top:9px">⑨ 우리 조언 성적표 <small>{{ SC.rule }}</small></h2>
+ <div class="box scb" style="margin-bottom:9px">
+  <div class="big"><b>{{ SC.all.win }}/{{ SC.all.n }}</b><span>맞음 {{ SC.all.rate if SC.all.rate is not none else '–' }}% · 조언 1번 평균 {{ '%+.2f' % SC.all.edge if SC.all.edge is not none else '–' }}%p</span><br><span>늘리자 {{ SC.up.win }}/{{ SC.up.n }} · 줄이자 {{ SC.down.win }}/{{ SC.down.n }} · 채점 대기 {{ SC.pending }}</span></div>
+  <div>
+   <div class="bsym">{% for v in SC.by_list %}{% set s = v.sym %}<div><span>{{ v.name }} <span class="src">{{ s }}</span></span><b class="{{ 'up' if v.rate >= 60 else ('dn' if v.rate < 40 else '') }}">{{ v.win }}/{{ v.n }}</b></div>{% endfor %}</div>
+   <div class="note" style="margin-top:4px">{% if SC.weak %}⚠️ <b>{{ SC.weak | join(', ') }}</b> 칸은 조언 적중 40% 아래 → 이 칸을 바꾸자는 말은 <b>작게</b>(1쪽 점선 카드). {% endif %}{% if SC.strong %}✅ <b>{{ SC.strong | join(', ') }}</b> 칸 조언은 잘 맞음. {% endif %}최근: {% for r in SC.recent[:4] %}{{ r.date[5:].replace('-', '/') }} {{ r.name }} {{ '↑' if r.dir == 'up' else '↓' }} {{ '✓' if r.win else '✗' }}({{ '%+.1f' % r.ex }}%p){{ ' · ' if not loop.last }}{% endfor %}</div>
+  </div>
+ </div>
+
+ <h2>⑩ 우리가 틀렸다면 <small>{{ CW.note }}</small></h2>
+ <div class="cw">
+  <div class="q">🗣 {{ CW.claim }}</div>
+  {% if CW.watch %}<div style="margin-top:5px;font-size:8.6pt">📏 가장 가까운 「틀렸다」 신호: <b>{{ CW.watch.signal }}</b> → {{ CW.watch.claim }} 판단이 깨짐 · 남은 거리 <b class="up">{{ CW.watch.dist }}</b></div>{% endif %}
+  {% if CW.others %}<div class="note" style="margin-top:4px">다른 반론: {% for o in CW.others %}{{ o }}{{ ' / ' if not loop.last }}{% endfor %}</div>{% endif %}
+ </div>
+ <div class="foot"><span>{{ foot }}</span><span>2 / {{ npages }}</span></div>
+</section>

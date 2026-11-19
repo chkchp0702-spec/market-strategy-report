@@ -40,7 +40,10 @@ ul.s li:before{content:"";position:absolute;left:0;top:8px;width:6px;height:6px;
  <ul class="s">{% for l in s.three_lines %}<li>{{ l | safe }}</li>{% endfor %}</ul>
 
  <div style="margin-top:6px">
-  <div class="qq g"><div class="t">오늘의 1:1 대결</div><div class="b">{{ s.duel_line | safe }}</div></div>
+  {% if mo %}{% set A = mo.actions %}<div class="qq" style="border-left-color:#c8372d;background:#fdf1ef"><div class="t">🌅 오늘 바꿀 것 — {{ mo.changes.head }}{% if not mo.changes.none %}: {{ mo.changes['items'] | rejectattr('lv', 'equalto', 'watch') | map(attribute='t') | join(' · ') }}{% endif %}</div>
+   <div class="b"><b style="color:#c8372d">늘림</b> {% for c in A.up %}{{ c.name }} {{ c.sym }}{{ '(적중 낮음·작게)' if c.small }}{{ ', ' if not loop.last }}{% else %}없음{% endfor %} · <b style="color:#2c5fa0">줄임·피함</b> {% for c in A.down %}{{ c.name }} {{ c.sym }}{{ ', ' if not loop.last }}{% else %}없음{% endfor %} · <b>그대로</b> {% for c in A.hold %}{{ c.name }}{{ ', ' if not loop.last }}{% endfor %}<br>
+   <b>성향별 주식</b> {% for p in mo.persona['items'] %}{{ p.k }} {{ p.stock }}%{{ ' · ' if not loop.last }}{% endfor %} · <b>조언 성적</b> {{ mo.score.all.win }}/{{ mo.score.all.n }}{% for w in mo.changes['items'] if w.lv == 'watch' %} · ⏳ {{ w.t }}{% endfor %}</div></div>
+  {% else %}<div class="qq g"><div class="t">오늘의 1:1 대결</div><div class="b">{{ s.duel_line | safe }}</div></div>{% endif %}
  </div>
 
  <h2>내 포트폴리오</h2>
@@ -52,5 +55,5 @@ ul.s li:before{content:"";position:absolute;left:0;top:8px;width:6px;height:6px;
 
  <div class="cream2"><h2>볼 것 3개</h2><ul class="s">{% for c in d.checks %}<li>{{ c | safe }}</li>{% endfor %}</ul></div>
 
- <div class="sfoot">출처: {{ d.sources }} · 전체본 6쪽에 패널표·배분표·점검표<br>유의사항: 정보 제공 목적이며 투자자문이 아님 · 비중·확률·조건·채점은 작성자 판단 · 종목·ETF는 예시이며 매수 추천 아님 · 출처별로 다른 수치는 범위 표기 · 원금 손실 가능 · 투자 판단의 책임은 본인에게 있음</div>
+ <div class="sfoot">출처: {{ d.sources }} · 전체본 {{ npages }}쪽에 아침 30초·오늘 장 준비·배분표·점검표<br>유의사항: 정보 제공 목적이며 투자자문이 아님 · 비중·확률·조건·채점은 작성자 판단 · 종목·ETF는 예시이며 매수 추천 아님 · 출처별로 다른 수치는 범위 표기 · 원금 손실 가능 · 투자 판단의 책임은 본인에게 있음</div>
 </div></body></html>

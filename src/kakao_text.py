@@ -3,9 +3,18 @@ from __future__ import annotations
 import re
 
 
-def kakao_text(d: dict, rules9: dict | None = None) -> str:
+def kakao_text(d: dict, rules9: dict | None = None, mo: dict | None = None) -> str:
     y, m, dd = d["date"].split("-")
     lines = [f"[시황 {int(m)}/{int(dd)} {d['edition_label']}]"]
+    if mo:   # 🌅 11/19 아침판 — 맨 위에 「오늘 바꿀 것」
+        C, A = mo.get("changes") or {}, mo.get("actions") or {}
+        real = [i["t"] for i in C.get("items") or [] if i.get("lv") != "watch"]
+        lines.append("🌅 " + (C.get("head") or "") + (": " + " · ".join(real) if real else ""))
+        nm = lambda xs: ", ".join(f'{c["name"]} {c["sym"]}' for c in xs or []) or "없음"
+        lines.append(f'👉 늘림 {nm(A.get("up"))} / 줄임·피함 {nm(A.get("down"))} / 그대로 {", ".join(c["name"] for c in A.get("hold") or [])}')
+        w = [i["t"] for i in C.get("items") or [] if i.get("lv") == "watch"]
+        if w:
+            lines.append("⏳ 오늘 밤 바뀔 수 있음: " + " · ".join(w))
     k = d.get("kick") or {}
     if k and not k.get("none") and k.get("title"):
         lines.append("🔑 오늘의 핵심: " + re.sub(r"<[^>]+>", "", k["title"]) + (" → " + re.sub(r"<[^>]+>", "", k.get("so", "")) if k.get("so") else ""))

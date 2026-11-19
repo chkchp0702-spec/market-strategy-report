@@ -4,6 +4,8 @@
 </head><body>
 {% set foot = "시황리포트 · " ~ d.date.replace("-", ".") ~ " " ~ d.edition_label ~ " · 전체본" %}
 
+{% if mo %}{% include "morning.html.j2" %}{% endif %}
+
 <!-- ===== 1 오늘 한 눈에 ===== -->
 <section class="page">
  <div class="hd"><h1 style="word-break:keep-all;flex-shrink:0;margin-right:12px">오늘 <span style="white-space:nowrap">한 눈에</span></h1><div class="d">시황리포트 · <b>{{ d.date.replace("-", ".") }} ({{ d.weekday }}) {{ d.edition_label }}</b> · {{ d.basis }}</div></div>
@@ -40,7 +42,7 @@
    <ul class="b">{% for c in d.checks %}<li>{{ c | safe }}</li>{% endfor %}</ul>
   </div>
  </div>
- <div class="foot"><span>{{ foot }}</span><span>1 / 6</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>{{ 1 + (2 if mo else 0) }} / {{ npages }}</span></div>
 </section>
 
 <!-- ===== 2 🎯 오늘의 집중 (돈의 길 → 담는 법 → 행동, 10/7) ===== -->
@@ -96,7 +98,7 @@
  <div class="note" style="margin-top:5px">📒 집중 성적 {% if SC.n %}<b>{{ SC.hit }}/{{ SC.n }}</b> (5거래일 뒤 S&amp;P 대비 평균 {{ pc(SC.avg_ex) }}){% else %}— 10/7부터 기록, 5거래일 뒤부터 채점{% endif %}</div>
  {% endif %}
  <div class="note" style="margin-top:4px">단계 🌱초입=모아가기 · 🚀주도=눌림 매수 · 🔥과열=추격 금지 · 🍂꺾임=끝났나? / ★관심=테마+차트 자리 · 눌림 대기=5일 +15%↑ · 추격 금지=하루 +8%↑ · 자리=컵 기준가·갭 시가·20일선까지. 매수 권유 아님.</div>
- <div class="foot"><span>{{ foot }}</span><span>2 / 6</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>{{ 2 + (2 if mo else 0) }} / {{ npages }}</span></div>
 </section>
 
 <!-- ===== 2 무슨 일이 있었나 ===== -->
@@ -117,7 +119,7 @@
   <div class="box"><h3>{{ d.story.korea_title }}</h3><div class="story">{% for p in d.story.korea %}<p>{{ p | safe }}</p>{% endfor %}</div></div>
   <div class="box pale"><h3>반대 의견 — 같은 크기로</h3><ul class="b">{% for c in d.counter %}<li>{{ c | safe }}</li>{% endfor %}</ul></div>
  </div>
- <div class="foot"><span>{{ foot }}</span><span>3 / 6</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>{{ 3 + (2 if mo else 0) }} / {{ npages }}</span></div>
 </section>
 
 <!-- 3 전략가 패널: 10/15 사용자 "숫자가 바뀌는 게 거의 없어 재미없다" → 리포트에서 뺌. 발언·판정은 장부(ledger panel)와 data.panel_today 에 계속 기록 · 대시보드에서 볼 수 있음 -->
@@ -150,7 +152,7 @@
    <div class="note" style="margin-top:3px">누적 (10/2~): {{ scorecard_total }}{% if cal.n %} · {{ cal.line }}{% endif %}</div>
   </div>
  </div>
- <div class="foot"><span>{{ foot }}</span><span>4 / 6</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>{{ 4 + (2 if mo else 0) }} / {{ npages }}</span></div>
 </section>
 
 <!-- ===== 5 내 포트폴리오 ===== -->
@@ -191,7 +193,7 @@
   </div>
  </div>
  {% endif %}
- <div class="foot"><span>{{ foot }}</span><span>5 / 6</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>{{ 5 + (2 if mo else 0) }} / {{ npages }}</span></div>
 </section>
 
 <!-- ===== 6 앞으로 볼 것 ===== -->
@@ -215,6 +217,6 @@
  <div class="box" style="margin-top:7px"><h3>못 찾은 것 · 출처 · 유의사항</h3>
   <div class="note" style="font-size:7.1pt;line-height:1.4"><b>못 찾은 것:</b> {{ d.missing }}<br><b>출처:</b> {{ d.sources }} · 장부: ledger/ledger.json<br><b>유의사항</b> — 정보 제공 목적이며 투자자문이 아님. 비중·확률·조건·패널 채점은 모두 작성자의 판단이며 객관적 기준이 아님. 종목·ETF는 지수 대용의 예시이며 매수 추천이 아님. 출처별 수치가 다른 항목은 범위로 표기. 패널 "침묵"은 발언을 찾지 못한 것이지 입장이 없다는 뜻이 아님. 해외 자산은 환율에 따라 손익이 달라짐. 과거 성과는 미래 수익을 보장하지 않으며 원금 손실이 발생할 수 있음. 투자 판단과 결과의 책임은 투자자 본인에게 있음.</div>
  </div>
- <div class="foot"><span>{{ foot }}</span><span>6 / 6</span></div>
+ <div class="foot"><span>{{ foot }}</span><span>{{ 6 + (2 if mo else 0) }} / {{ npages }}</span></div>
 </section>
 </body></html>
