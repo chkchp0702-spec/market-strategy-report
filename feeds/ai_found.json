@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "한국, 사상 첫 연간 수출 1조달러 달성 임박→11/19 달성 — 반도체가 절반",
+   "url": "https://www.koreatimes.co.kr/economy/20261117/korea-set-to-achieve-1-tril-export-milestone-for-1st-time",
+   "press": "Korea Times",
+   "at": "2026-11-19 17:40",
+   "why": "코스피 오후 반전의 재료(수출 1조달러) — 한국 메모리 이익 바닥은 단단, 지수 판정은 50일선 규칙대로",
+   "summary": "11/17 보도: 1조달러 돌파 예정 · 11/19 관세청장 「수출 1조달러 달성」(연합) · 로이터 「세계 네 번째」"
+  },
+  {
+   "title": "베선트 「엔비디아 외부 CEO로 대대적 쇄신」 — 황 퇴진 뒤",
+   "url": "https://www.foxbusiness.com/business-leaders/bessent-calls-nvidia-leadership-shake-up-amid-china-chip-scandal-urges-outside-ceo",
+   "press": "Fox Business",
+   "at": "2026-11-19 17:40",
+   "why": "엔비디아 경영 공백·무디스 전망 하향과 겹친 정책 리스크 — 가설① 신용 칸·qa#2",
+   "summary": "재무장관이 외부 CEO 영입 요구·중국 불법 판매 의혹 제기(11/15~16) · 배런스 11/19 재보도"
+  },
+  {
    "title": "대만 금융감독위, 공매도 규제 추가 강화 — 2008년 이후 최대 월간 하락 앞두고",
    "url": "https://www.bloomberg.com/news/articles/2026-11-19/taiwan-tightens-short-selling-curbs-to-help-support-stock-market",
    "press": "블룸버그",
@@ -623,23 +639,7 @@
    "at": "2026-11-17 22:40",
    "why": "광통신 칸(LITE→MRVL·COHR) — 오늘 코히런트 +10%·루멘텀 +8% 장 전 급등의 배경, 중국 이노라이트·이옵텍 대체 수요가 美 공급사로",
    "summary": "美 당국이 중국산 광트랜시버 수입·사용 제한을 추진(원문 날짜 확인 필요). 피드: 코히런트 +10%·루멘텀 +8% 장 전(구글뉴스 11/17)·이데일리 「광기술주 개장 전↑」."
-  },
-  {
-   "title": "무살렘 세인트루이스 연은 총재 「내년 봄까지 여러 차례 인상 필요할 것」",
-   "url": "https://investinglive.com/central-banks/icymi-fed-s-musalem-says-more-rate-hikes-likely-needed-as-inflation-risks-stay-elevated/",
-   "press": "investingLive",
-   "at": "2026-11-17 22:40",
-   "why": "가설 ③ 12/9 FOMC — 「한 번 인상」이 아닌 「여러 번」 경로, 美 10년 5% 칸·성장주 부담",
-   "summary": "무살렘 「봄까지 여러 차례(several) 인상」(블룸버그 11/17 제목). 해맥 「더 크고 빠른 인상」에 이은 매파 발언. 숫자 경로는 원문 확인 필요."
-  },
-  {
-   "title": "다우 선물 소폭 상승 — 엔비디아 실적 앞두고 월가 4일 연속 하락 끊기 시도",
-   "url": "https://www.bizzbuzz.news/international/dow-futures-edge-higher-ahead-of-nvidia-earnings-wall-street-looks-to-break-4-day-slide-1378015",
-   "press": "BizzBuzz",
-   "at": "2026-11-17 21:40",
-   "why": "나스닥 칸·가설 ② — 실적 직전 매도 진정 여부, 피드 인베스팅 「선물 보합·기술주 매도 완화」와 같은 쪽",
-   "summary": "美 지수 선물 보합~소폭 상승, 4거래일 연속 하락 뒤 엔비디아 실적(장 마감 뒤) 대기. 세부 숫자는 원문 확인 필요(미확인)."
   }
  ],
- "at": "2026-11-19 16:45"
+ "at": "2026-11-19 17:40"
 }
