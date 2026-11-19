@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 은행주 하락 — KBW 은행지수, 약세 기술 신호(데드크로스) 근접",
+   "url": "https://tradersunion.com/news/stocks/show/4291330-us-bank-stocks-slide-kbw-index/",
+   "press": "Traders Union",
+   "at": "2026-11-20 07:45",
+   "why": "가설①(AI 차입 → 신용 스트레스) 확산 경로 — 은행주가 S&P 200일선 이탈과 같이 꺾이는지 · 🫧 신용 칸",
+   "summary": "KBW 은행지수가 50일선이 200일선을 밑도는 약세 신호에 근접(원문 날짜 미확인) · 이데일리 11/20 「美 은행주 4일새 6.6% 급락·데드크로스」와 같은 흐름"
+  },
+  {
+   "title": "월가, 2027년 S&P500 이익 증가율 35%→15%로 반토막 예상",
+   "url": "https://247wallst.com/investing/2026/10/03/wall-street-expects-sp-500-profit-growth-to-collapse-from-35-to-15-in-2027/",
+   "press": "24/7 Wall St.",
+   "at": "2026-11-20 07:45",
+   "why": "11/20 피드 「Wall Street sees earnings growth halving in 2027」의 숫자 배경 — 고점 −8% S&P의 밸류 부담 · 가설②",
+   "summary": "2026년 이익 증가 약 35% → 2027년 약 15% 컨센(10/3 기사) · 이익 둔화 + 금리 5%면 멀티플 방어 어려움"
+  },
+  {
    "title": "美 상무부, 中 기업에 AI 칩 87만9천 개 넘게 판매 승인 — 매스트 하원 외교위원장",
    "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
    "press": "CNBC",
@@ -623,22 +639,6 @@
    "at": "2026-11-18 11:40",
    "why": "가설 ④·한국 반도체 갭 — 숫자 밖 규제 꼬리 위험, 오늘 한국 갭 전부 반납의 배경 재료",
    "summary": "세마포가 행정부 관계자 2명을 인용해 법무부 복수 조사가 엔비디아를 휩쓸 수 있다고 보도. 보도 날짜 미확인."
-  },
-  {
-   "title": "BIS, 중국 기업의 해외 AI 연산(원격 접속) 경로 차단",
-   "url": "https://aiweekly.co/alerts/bis-closes-overseas-ai-compute-route-for-chinese-firms",
-   "press": "AI Weekly",
-   "at": "2026-11-18 10:45",
-   "why": "가설 ④ · 한국 반도체 — 美 규제가 칩 판매에서 「해외 데이터센터 원격 사용」까지 넓어짐, 중국 보복 경고(블룸버그)와 묶어 내일 APEC 미·중 정상회담 변수",
-   "summary": "제목 기준: 美 상무부 BIS가 중국 기업이 해외 데이터센터로 첨단 AI 칩을 쓰는 길을 막음. 세부 숫자·시행일 미확인."
-  },
-  {
-   "title": "중국, 美 「AI 패권주의」 비판하며 대응 조치 위협",
-   "url": "https://thenextweb.com/news/china-us-ai-hegemonism-countermeasures",
-   "press": "The Next Web",
-   "at": "2026-11-18 10:45",
-   "why": "중국 보복 수단(희토류·장비·소프트웨어 금지)이 한국·대만 AI 상류 공급망으로 번지는지 — 반도체 갭 유지 여부와 연결",
-   "summary": "제목 기준: 중국이 美 AI 칩 규제를 「패권주의」로 비판·대응 조치 예고. 원문 날짜·세부 미확인."
   }
  ],
  "at": "2026-11-20 06:45"
