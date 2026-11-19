@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "대만 가권 11/6 −4.5% 39,702 마감 — 4월 말 이후 최저, TSMC −4.7%",
+   "url": "https://tradingeconomics.com/taiwan/stock-market/news/598961",
+   "press": "Trading Economics",
+   "at": "2026-11-19 12:45",
+   "why": "가설④ 아시아 AI 하드웨어 — 오늘(11/19) 장중 38,500(−4.1%)으로 이 종가 저점 아래, 코스피 4,968 재시험과 같은 모양인지 기준선",
+   "summary": "11/6 대만 가권 39,702(−1,873p·−4.5%), 7일 연속 하락·주간 −12.2%. TSMC −4.7%·델타 −6.6%·훙하이 −4.5%. 11/9 공매도 제한·5천억 대만달러 안정기금 뒤 +4.9% 41,662 반등."
+  },
+  {
    "title": "FOMC 의사록 — 위원 다수가 2026년 추가 인상 지지",
    "url": "https://www.wealthprofessional.ca/news/industry-news/fed-minutes-show-most-officials-back-another-2026-rate-hike/393732",
    "press": "Wealth Professional",
@@ -631,14 +639,6 @@
    "at": "2026-11-17 16:45",
    "why": "「메모리 사이클 정점」 논쟁 — 가설 ④(상류 vs 빚으로 짓는 곳)·반도체 칸 판단 근거",
    "summary": "엔비디아 실적 전 AI 우려로 반도체 매도 집중 · 같은 날 하이닉스 7개월 만에 110만원 하회(연합)"
-  },
-  {
-   "title": "TSMC, 2027년부터 칩 가격 최대 10% 인상·CoWoS 최대 20% 검토(닛케이 보도 정리)",
-   "url": "https://aiweekly.co/alerts/tsmc-to-lift-chip-prices-up-to-10-from-2027-nikkei-reports",
-   "press": "AI Weekly(닛케이 인용)",
-   "at": "2026-11-17 15:40",
-   "why": "반도체 칸·가설 ④(현금 도는 칩 상류) — 오늘 공상시보 「10~20%↑ 통보」와 같은 방향, 메모리 하향 기사와 반대 근거",
-   "summary": "닛케이: TSMC가 2027년 첨단·성숙 공정 가격을 최대 10% 올릴 계획. 별도로 CoWoS 패키징 최대 20% 인상 검토(트렌드포스 10/27). 날짜 세부는 미확인."
   }
  ],
  "at": "2026-11-19 10:45"
