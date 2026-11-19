@@ -517,48 +517,51 @@ def complete(df, close_hm, tz):
 
 
 def fill_null_close(df, syms, back=5):
-    """🗓 11/19 「오늘의 결론」이 11/17 종가에 멈춘 원인 — 야후가 지난 일봉을 「시가는 있는데 종가만 빈 칸」으로 줄 때가 있음
-       (한국은 자정 넘어 다음 날 장 마감까지 · bear.json 기록: 11/18 15:55 → 11/18 확정, 00:15 → 다시 11/17).
-       종가 빈 칸을 버리면(dropna) 그 시장이 하루 전 판정으로 돌아감 → 최근 back 개 봉의 빈 종가를 같은 날 1시간 봉 마지막 값으로 채움.
-       (daily-app opdb/compass.fill_last_close 와 같은 처방 · 마지막 봉만이 아니라 최근 몇 봉까지)"""
+    """🗓 11/19 「오늘의 결론」이 11/17 종가에 멈춘 원인 — 야후 일봉에서 지난 거래일 봉이 통째로 빈 칸(시가·종가 모두 NaN)이거나 빠짐
+       (GitHub 진단: ^KS11 11/16 · 11/17 · [11/18 빈 칸] · 11/19 장중 / bear.json 기록: 11/18 15:55 확정 → 자정 뒤 00:15 다시 11/17).
+       종가 빈 칸을 버리면(dropna) 그 시장이 하루 전 판정으로 돌아감 → 같은 날 1시간 봉이 있으면(그날 장이 열렸다는 증거) 그 마지막 값으로 채움.
+       오늘 장중 봉을 넣어도 뒤의 complete() 가 마감 전이면 버림."""
     import pandas as pd
     import yfinance as yf
     multi = isinstance(df.columns, pd.MultiIndex)
-    need = {}
-    for s_ in syms:
-        try:
-            g = df[s_] if multi else df
-            tail = g.iloc[-back:]
-            ts = [t for t in tail.index if pd.notna(tail.loc[t, "Open"]) and pd.isna(tail.loc[t, "Close"])]
-            if ts:
-                need[s_] = ts
-        except Exception:
-            pass
-    if not need:
-        return 0
     try:
-        h = yf.download(list(need), period="7d", interval="1h", group_by="ticker", auto_adjust=False, threads=True, progress=False, ignore_tz=True)
+        h = yf.download(list(syms), period="7d", interval="1h", group_by="ticker", auto_adjust=False, threads=True, progress=False, ignore_tz=True)
     except Exception as e:
         print("빈 종가 채우기 실패", str(e)[:120])
         return 0
+    if h is None or not len(h):
+        return 0
     hm = isinstance(h.columns, pd.MultiIndex)
-    n = 0
-    for s_, tl in need.items():
+    tz = getattr(df.index, "tz", None)
+    n, got = 0, []
+    for s_ in syms:
         try:
             hc = (h[s_] if hm else h)["Close"].dropna()
+            g = df[s_] if multi else df
         except Exception:
             continue
-        for t in tl:
-            hv = hc[hc.index.normalize() == pd.Timestamp(t).tz_localize(None).normalize()]
-            if not len(hv):
+        if not len(hc):
+            continue
+        have = {str(t)[:10]: t for t in g.index}
+        tail = set(str(t)[:10] for t in g.index[-back:])
+        for d, grp in hc.groupby(hc.index.strftime("%Y-%m-%d")):
+            t = have.get(d)
+            if t is not None:
+                if d not in tail or pd.notna(g.loc[t, "Close"]):
+                    continue
+            elif d < min(tail):
                 continue
-            v = float(hv.iloc[-1])
-            for c in ("Close", "Adj Close"):
+            v = float(grp.iloc[-1])
+            if t is None:
+                t = pd.Timestamp(d).tz_localize(tz) if tz is not None else pd.Timestamp(d)
+            for c in ("Open", "High", "Low", "Close", "Adj Close"):
                 k = (s_, c) if multi else c
-                if k in df.columns:
-                    df.loc[t, k] = v
-            n += 1
-    print(f"🗓 빈 종가 채움 {n}칸 · {list(need)}")
+                if k in df.columns and (t not in df.index or pd.isna(df.loc[t, k])):
+                    df.loc[t, k] = float(grp.iloc[0]) if c == "Open" else v
+            n += 1; got.append(f"{s_} {d}")
+    if n:
+        df.sort_index(inplace=True)
+    print(f"🗓 빈 종가 채움 {n}칸 · {got}")
     return n
 
 
