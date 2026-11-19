@@ -1,5 +1,5 @@
 {
- "at": "2026-11-19 10:45",
+ "at": "2026-11-19 11:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7914": {
@@ -47,25 +47,20 @@
    "why": "가설④ AI 안 갈림 — 앤스로픽 공모가 83달러(희망가 상단 위) vs 같은 날 엔비디아 −2.95% = 돈이 새 AI 공모로 이동, 오늘 밤 첫 거래가 AI 심리 시험대",
    "at": "2026-11-19 06:45"
   },
-  "n/httpskrinvestingcomnewseconomynewsarticle2182589": {
-   "lv": 1,
-   "why": "NYT 트럼프 이란 새 공격 검토 — 브렌트 88.63(85 에너지 칸 축소 선 4% 위)·장부 brent 조건과 직결",
-   "at": "2026-11-19 09:45"
-  },
-  "kimu_nim/49566": {
-   "lv": 1,
-   "why": "12월 0.5%p 확률 2.4→8.0% — 가설③ 12/9 FOMC 2018년식 분수령 · watch 20% 선",
-   "at": "2026-11-19 09:45"
-  },
-  "n/httpskrinvestingcomnewsstockmarketnewsarticle2182611": {
-   "lv": 1,
-   "why": "반도체 칸·SK하이닉스 — 美 로펌 주가 급락 집단소송 조사, 외국인 매도 이유 하나 더(가설④ 메모리 상류)",
-   "at": "2026-11-19 10:45"
-  },
   "n/nNzFtcVBfWGJCRmdzcnNEU2ZSdFZlOUM4YnNuUGxfT3JKSF9YdUlHUUp3oc5": {
    "lv": 1,
    "why": "오늘 선전 美·中·러 3자 정상회담 — 관세·AI 칩·우크라이나, 한한령·유가 watch와 직결",
    "at": "2026-11-19 10:45"
+  },
+  "n/WFVXzh6b2Q4YTY2T1NjWHBOU3RQLTg2cFVkSldPSUx2VjhjM0p0OUZESQoc5": {
+   "lv": 1,
+   "why": "FOMC 의사록 「더 높은 금리 앞에」 — 가설③ 12/9 인상 쪽 근거, 신용 칸 금리 압력",
+   "at": "2026-11-19 11:40"
+  },
+  "n/OT1JSTEFURDNOQ005cWVaUG5ybmtyNWQyTW1QMG82SHhGQXNmb3VMTUtBoc5": {
+   "lv": 1,
+   "why": "美 해상 원유 환적까지 차단 — 에너지 칸·brent_95 조건(공급 쪽 재료, 유가 88~90 반응 볼 것)",
+   "at": "2026-11-19 11:40"
   }
  }
 }

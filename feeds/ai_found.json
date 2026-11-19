@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "FOMC 의사록 — 위원 다수가 2026년 추가 인상 지지",
+   "url": "https://www.wealthprofessional.ca/news/industry-news/fed-minutes-show-most-officials-back-another-2026-rate-hike/393732",
+   "press": "Wealth Professional",
+   "at": "2026-11-19 11:40",
+   "why": "가설③ 12/9 FOMC 분수령 — 인상 쪽 근거, 💼 채권·신용 칸 금리 압력",
+   "summary": "10월 동결 회의 의사록에서 다수 위원이 추가 인상이 필요할 수 있다고 봄. 월러 「0.5%p로 충격 줄 필요」 발언과 같은 방향. 그런데도 10년물은 하락(인베스팅 2182722) — 성장 걱정 쪽 해석."
+  },
+  {
+   "title": "美 이란 해상 봉쇄 강화 — 상선 8척 회항·1척 무력화",
+   "url": "https://gulfnews.com/world/mena/us-tightens-naval-blockade-on-iran-8-commercial-ships-redirected-1-vessel-disabled-1.500615877",
+   "press": "Gulf News",
+   "at": "2026-11-19 11:40",
+   "why": "에너지 칸·장부 조건 brent_95 — 공급 쪽 재료인데 유가는 88~90에서 무덤덤",
+   "summary": "美가 이란 원유 해상 환적까지 제한(로이터 11/19 피드)·봉쇄 강화. 이란 수출 「거의 0」 보도도(Gulf News). 브렌트 11/18 88.63(−4.84%) — 공격·봉쇄 뉴스에도 내리는 장이 계속되는지가 시험. 기사 게재일 원문 미확인."
+  },
+  {
    "title": "모건스탠리, 글로벌 주식 「최대 비중확대」·2027년 S&P500 목표 8,700",
    "url": "https://stockanalysis.com/news/morgan-stanley-maximum-overweight-global-stocks/",
    "press": "StockAnalysis",
@@ -623,22 +639,6 @@
    "at": "2026-11-17 15:40",
    "why": "반도체 칸·가설 ④(현금 도는 칩 상류) — 오늘 공상시보 「10~20%↑ 통보」와 같은 방향, 메모리 하향 기사와 반대 근거",
    "summary": "닛케이: TSMC가 2027년 첨단·성숙 공정 가격을 최대 10% 올릴 계획. 별도로 CoWoS 패키징 최대 20% 인상 검토(트렌드포스 10/27). 날짜 세부는 미확인."
-  },
-  {
-   "title": "연준 매파적 동결이 한은 11월 인상 근거를 키운다(10/29)",
-   "url": "https://www.koreatimes.co.kr/economy/20261029/feds-hawkish-hold-strengthens-case-for-boks-hike-in-november",
-   "press": "Korea Times",
-   "at": "2026-11-17 14:40",
-   "why": "🇰🇷 채권·국내 주식 — 한은 11월 인상 시나리오(오늘 씨티 「만장일치 25bp」 전망과 같은 쪽), 💬 15번 채권 답",
-   "summary": "10/29 기사: 연준 동결이 매파적이라 한은 11월 인상 가능성이 커졌다는 분석. 10/22 한은은 3% 동결하며 추가 인상 여지를 남김(Korea Times)."
-  },
-  {
-   "title": "한은 3% 동결, 추가 인상은 테이블 위에(10/22)",
-   "url": "https://www.koreatimes.co.kr/economy/20261022/bok-keeps-rate-steady-at-3-but-further-hikes-remain-on-table",
-   "press": "Korea Times",
-   "at": "2026-11-17 14:40",
-   "why": "🇰🇷 국고채 금리 — 지금 기준금리 3%, 11월 회의 인상 시 단기물 금리 부담",
-   "summary": "10/22 한은 기준금리 3.00% 동결, 추가 인상 가능성 열어 둠."
   }
  ],
  "at": "2026-11-19 10:45"
