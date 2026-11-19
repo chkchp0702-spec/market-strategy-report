@@ -516,10 +516,60 @@ def complete(df, close_hm, tz):
     return df
 
 
+def fill_null_close(df, syms, back=5):
+    """🗓 11/19 「오늘의 결론」이 11/17 종가에 멈춘 원인 — 야후가 지난 일봉을 「시가는 있는데 종가만 빈 칸」으로 줄 때가 있음
+       (한국은 자정 넘어 다음 날 장 마감까지 · bear.json 기록: 11/18 15:55 → 11/18 확정, 00:15 → 다시 11/17).
+       종가 빈 칸을 버리면(dropna) 그 시장이 하루 전 판정으로 돌아감 → 최근 back 개 봉의 빈 종가를 같은 날 1시간 봉 마지막 값으로 채움.
+       (daily-app opdb/compass.fill_last_close 와 같은 처방 · 마지막 봉만이 아니라 최근 몇 봉까지)"""
+    import pandas as pd
+    import yfinance as yf
+    multi = isinstance(df.columns, pd.MultiIndex)
+    need = {}
+    for s_ in syms:
+        try:
+            g = df[s_] if multi else df
+            tail = g.iloc[-back:]
+            ts = [t for t in tail.index if pd.notna(tail.loc[t, "Open"]) and pd.isna(tail.loc[t, "Close"])]
+            if ts:
+                need[s_] = ts
+        except Exception:
+            pass
+    if not need:
+        return 0
+    try:
+        h = yf.download(list(need), period="7d", interval="1h", group_by="ticker", auto_adjust=False, threads=True, progress=False, ignore_tz=True)
+    except Exception as e:
+        print("빈 종가 채우기 실패", str(e)[:120])
+        return 0
+    hm = isinstance(h.columns, pd.MultiIndex)
+    n = 0
+    for s_, tl in need.items():
+        try:
+            hc = (h[s_] if hm else h)["Close"].dropna()
+        except Exception:
+            continue
+        for t in tl:
+            hv = hc[hc.index.normalize() == pd.Timestamp(t).tz_localize(None).normalize()]
+            if not len(hv):
+                continue
+            v = float(hv.iloc[-1])
+            for c in ("Close", "Adj Close"):
+                k = (s_, c) if multi else c
+                if k in df.columns:
+                    df.loc[t, k] = v
+            n += 1
+    print(f"🗓 빈 종가 채움 {n}칸 · {list(need)}")
+    return n
+
+
 def load(start):
     import yfinance as yf
     syms = [m[1] for m in MKTS] + ["^VIX"]
     df = yf.download(syms, start=start, auto_adjust=False, progress=False, group_by="ticker", threads=True)
+    try:
+        fill_null_close(df, syms)
+    except Exception as e:
+        print("빈 종가 채우기 건너뜀", e)
     out = {}
     for key, sym, _, nat, hm in MKTS + [("vix", "^VIX", "VIX", "us", (16, 15))]:
         try:
@@ -628,10 +678,18 @@ def more_markets(old, dry=False, px=None):
                 s = px[sym].dropna()
             else:
                 import yfinance as yf
-                s = yf.download(sym, start=(dt.date.today() - dt.timedelta(days=800)).isoformat(), auto_adjust=False, progress=False)["Close"]
+                d_ = yf.download(sym, start=(dt.date.today() - dt.timedelta(days=800)).isoformat(), auto_adjust=False, progress=False, group_by="ticker")
+                try:
+                    fill_null_close(d_, [sym])
+                except Exception as e:
+                    print("빈 종가 채우기 건너뜀", sym, e)
+                s = d_[sym]["Close"] if isinstance(d_.columns, pd.MultiIndex) else d_["Close"]
                 s = (s.iloc[:, 0] if hasattr(s, "columns") else s).dropna()
                 s = complete(s, hm, KST)
             s = s[s > 0].iloc[-520:]
+            if key in oldm and str(oldm[key].get("asof") or "") > str(s.index[-1].date()):   # 🗓 11/19 안전망 — 지난번보다 이전 날짜로 돌아가지 않기
+                print("🗓 뒤로 안 감", key, oldm[key].get("asof"), "→ 받은 값", s.index[-1].date())
+                out.append(oldm[key]); continue
             cl = [float(x) for x in s.tolist()]
             pb = False
             for i in range(max(0, len(cl) - 252), len(cl) - 1):
@@ -676,6 +734,10 @@ def live(dry=False):
         s = px.get(key)
         if s is None or len(s) < 60:
             continue
+        o_ = oldm.get(key)
+        if o_ and str(o_.get("asof") or "") > str(s.index[-1].date()):   # 🗓 11/19 안전망 — 야후 빈 종가로 하루 전 판정으로 돌아가지 않기(지난 결과 유지)
+            print("🗓 뒤로 안 감", key, o_.get("asof"), "→ 받은 값", s.index[-1].date())
+            mk.append(o_); continue
         cl = [float(x) for x in s.tolist()]
         vx = aligned_vix(s, vix) if vix is not None else None
         # 🐻 유지 판정: 지난 1년을 차례로 훑어 상태를 이어 감
