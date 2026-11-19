@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "앤스로픽 장외 거래, 첫날 약 25% 상승 시사",
+   "url": "https://finance.yahoo.com/news/anthropic-futures-trading-suggests-25-leap-in-opening-day",
+   "press": "Yahoo/Benzinga",
+   "at": "2026-11-19 22:45",
+   "why": "오늘 밤 AI 심리 판정 — 나스닥100 선물 +2%·칩 장비 프리마켓 강세의 근원(가설④·NQ 칸)",
+   "summary": "공모가 83달러 대비 회색시장 약 +25% · 영국 개인 10만 명 이상 청약(FT) · 은행 수수료 약 5.5억$(블룸버그)"
+  },
+  {
+   "title": "트럼프 「이란 군사행동 불가피」…미·이스라엘 합동작전 임박 관측",
+   "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611190172&t=NN",
+   "press": "한국경제TV",
+   "at": "2026-11-19 22:45",
+   "why": "장부 조건 brent_95·에너지 칸 축소 선 85달러 — 공격 경고에도 원유가 내리는지",
+   "summary": "22시 속보 · 같은 시각 브렌트 89.9달러(−2.2%)·WTI 83.16(−0.1%)(daily-app 22:33) · 저녁 미·중·러 정제유 공급 확대 선언과 충돌"
+  },
+  {
    "title": "퇴진한 젠슨 황 「이사회가 요청하면 엔비디아 CEO로 복귀할 의향」 (WSJ 보도)",
    "url": "https://www.newsquawk.com/headlines/former-nvidia-nvda-ceo-huang-says-he-is-willing-to-return-as-ceo-if-directors-asked-him-to-do-so-wsj-reports",
    "press": "Newsquawk(WSJ 인용)",
@@ -623,22 +639,6 @@
    "at": "2026-11-18 04:40",
    "why": "실적 직후 CEO 문제(황 복귀 vs 외부 하스)가 엔비디아·한국 반도체 갭 방향을 좌우",
    "summary": "황 복귀 검토 보도 속 청원 15.5만 명↑ · 이사회는 외부 후보 탐색(WSJ) — 결정 미정"
-  },
-  {
-   "title": "엔비디아 52주 최저 터치에도 월가는 버텨",
-   "url": "https://www.wealthprofessional.ca/investments/equity-markets/wall-street-absorbs-the-hit-as-nvidia-touches-a-52-week-low/394013",
-   "press": "Wealth Professional",
-   "at": "2026-11-18 04:40",
-   "why": "칩 약세 속 지수 흡수 = 「업종 갈아타기」 가설 ② 근거",
-   "summary": "엔비디아 52주 최저 · 지수는 낙폭 제한 — 실적 직전 포지션 축소"
-  },
-  {
-   "title": "엔비디아, Arm CEO 르네 하스에 차기 CEO 타진 — 직원들은 황 복귀 원해(보도 종합)",
-   "url": "https://www.khaleejtimes.com/business/tech/nvidia-approaches-arm-ceo-haas",
-   "press": "Khaleej Times(WSJ·FT 보도 종합)",
-   "at": "2026-11-18 03:40",
-   "why": "NVDA 🐋 고래 신호·반도체 칸 — 실적 직전 지배구조 불확실성(외부 CEO vs 황 복귀)",
-   "summary": "이사회가 하이드릭&스트러글스로 CEO 후보 탐색, Arm CEO 하스와 접촉(WSJ). 직원들은 황 복귀 요구. 회사 공식 확인 전."
   }
  ],
  "at": "2026-11-19 17:40"
