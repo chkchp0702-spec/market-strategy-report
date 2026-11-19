@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "앤스로픽 IPO 라이브 — ANT 첫 거래일",
+   "url": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026",
+   "press": "StockTitan",
+   "at": "2026-11-19 23:40",
+   "why": "💬 6번·나스닥100 칸 — 첫 체결가 vs 공모가 83$, 메모리·칩주 동반 반등이 첫날 뒤에도 버티는지",
+   "summary": "11/19 나스닥 ANT 첫 거래 실시간 정리. 공모가 83$·약 810억$(로이터) · 장외 +25%(야후). 첫 체결 숫자는 이 시각 미확인."
+  },
+  {
+   "title": "시장은 평화에 걸지만 호르무즈 선박 공격은 계속된다",
+   "url": "https://www.bairdmaritime.com/security/markets-are-betting-on-peace-but-hormuz-ship-attacks-persist",
+   "press": "Baird Maritime",
+   "at": "2026-11-19 23:40",
+   "why": "🛢️ 브렌트 95 조건·에너지 칸 85 축소 선 — 공격 뉴스에도 원유가 못 오르는 「무덤덤 장」의 배경",
+   "summary": "美 봉쇄·이란 공격이 이어져도 유가는 평화 기대 쪽 · 블룸버그 11/19 「유가 하락 속 공격 강화」와 같은 방향. 기사 날짜·수치는 미확인."
+  },
+  {
    "title": "앤스로픽 장외 거래, 첫날 약 25% 상승 시사",
    "url": "https://finance.yahoo.com/news/anthropic-futures-trading-suggests-25-leap-in-opening-day",
    "press": "Yahoo/Benzinga",
@@ -623,23 +639,7 @@
    "at": "2026-11-18 05:50",
    "why": "실적 직전 공매도 리포트 — 엔비디아·한국 반도체 갭 방향 변수(가설 ④)",
    "summary": "머디워터스가 엔비디아 숏 포지션 공개·전직 임원 연루 의혹 제기(본문 확인 못 함, 제목 기준) · 인베스팅 영문도 같은 제목 보도"
-  },
-  {
-   "title": "美 증시 실적 앞두고 낙폭 확대 — S&P 7,331(−1.15%)·VIX 26",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html",
-   "press": "Yahoo Finance",
-   "at": "2026-11-18 05:50",
-   "why": "S&P500 200일선(7,328) 접촉 — 미국 칸·나스닥100 코어 적립 판단",
-   "summary": "13:03 ET 다우 50,839(−1.49%)·S&P 7,331(−1.15%)·나스닥 24,234(−1.13%)·VIX 25.99·10년 5.09% · NVDA 153.57(−1.65%), 실적 기대 매출 1,091.5억$·EPS 2.47$"
-  },
-  {
-   "title": "엔비디아 직원들, 이사회에 젠슨 황 복귀 요청 — 청원 15.5만 명 넘어",
-   "url": "https://fourweekmba.com/ai-huang-said-to-weigh-nvidia-comeback-as-petition-tops-155000/",
-   "press": "FourWeekMBA",
-   "at": "2026-11-18 04:40",
-   "why": "실적 직후 CEO 문제(황 복귀 vs 외부 하스)가 엔비디아·한국 반도체 갭 방향을 좌우",
-   "summary": "황 복귀 검토 보도 속 청원 15.5만 명↑ · 이사회는 외부 후보 탐색(WSJ) — 결정 미정"
   }
  ],
- "at": "2026-11-19 17:40"
+ "at": "2026-11-19 23:40"
 }
