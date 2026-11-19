@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 증시 하락 — 매도는 칩 종목에 몰려(전 업종 확산 아님)",
+   "url": "https://investinglive.com/stocks/us-stock-markets-slide-but-the-selling-is-localized-around-chip-names/",
+   "press": "investingLive",
+   "at": "2026-11-20 05:45",
+   "why": "🫧 「현금 도피」 판정 반대 근거 — 매도가 칩에 몰렸다는 시각 vs 「전 업종 매도·소비재 선두」(구글뉴스) · S&P 200일선 사흘째",
+   "summary": "칩 종목 중심 매도 · 05:32 SOXX −2.6%·엔비디아 −2.62%·메타 −3.18%·알파벳 −2.95%(daily-app)"
+  },
+  {
+   "title": "AMD, 공매도 보고서 「中 제재 기업에서 AMD 펌웨어」 의혹에 급락 — 회사 「미국 법 준수」",
+   "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
+   "press": "CNBC",
+   "at": "2026-11-20 05:45",
+   "why": "엔비디아(머디워터스·하원 조사)에 이어 AMD까지 공매도 보고서 — 칩 「규제·신뢰」 할인 확산, SOXX D+5 관찰",
+   "summary": "AMD 장중 약 −8%(이데일리) · 하원 위원회 中 AI칩 수출 라이선스 정보 공개(인베스팅) 같은 날"
+  },
+  {
    "title": "이번 주 10년 물가연동채(TIPS) 입찰 미리보기 — 실질금리 2.6%대 기대",
    "url": "https://tipswatch.com/2026/11/15/this-weeks-10-year-tips-auction-shows-a-lot-of-potential/",
    "press": "TIPSWatch",
@@ -623,22 +639,6 @@
    "at": "2026-11-18 09:40",
    "why": "가설 ④ — 엔비디아 4분기 가이던스는 중국 제외, 판매 중단은 숫자보다 미·중 단절 신호(블룸버그 11/18 피드와 같은 사건)",
    "summary": "엔비디아 임시 경영진이 美 승인에도 중국에 AI 칩을 보내지 않는다고 밝힘(블룸버그 피드). 생산 중단 세부 숫자 미확인."
-  },
-  {
-   "title": "앤스로픽 IPO 일정 — 11/18 공모가 확정, 11/19 첫 거래",
-   "url": "https://fourweekmba.com/ai-anthropics-ipo-day-by-day-pricing-18-nov-trading-19-nov/",
-   "press": "FourWeekMBA",
-   "at": "2026-11-18 08:45",
-   "why": "나스닥100 코어 칸 — 상장 15거래일 뒤 편입 수급·오늘 밤 공모가가 성장주 자금 흐름 신호(💬 5·14번)",
-   "summary": "공모가 확정 11/18, 나스닥 첫 거래 11/19 일정 정리. 희망가 70~78달러(CNBC 소식통 11/17 보도) 위 확정 여부가 관전점."
-  },
-  {
-   "title": "S&P500·나스닥 선물 상승 — 엔비디아·코어위브 프리마켓 주목",
-   "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-futures-rise-premarket-crwv-gpro-spcx-nvda-nlst-stocks-in-focus/cNGDlb9R9B7",
-   "press": "Stocktwits",
-   "at": "2026-11-18 08:45",
-   "why": "가설 ④ — 실적 상회 뒤 네오클라우드(코어위브) 동반 반등: 「빚으로 짓는 쪽」까지 같이 오르면 갈림 가설 시험대",
-   "summary": "엔비디아 실적 뒤 미국 지수 선물 상승 전환, 코어위브·엔비디아가 프리마켓 주목 종목(세부 숫자 미확인)."
   }
  ],
  "at": "2026-11-20 01:45"

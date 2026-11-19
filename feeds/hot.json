@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20 04:45",
+ "at": "2026-11-20 05:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7914": {
@@ -67,11 +67,6 @@
    "why": "🐻 S&P 200일선 사흘째 판정 — 개장 랠리가 유가·금리에 꺾여 01:20 7,305(200일선 7,344 아래)",
    "at": "2026-11-20 01:45"
   },
-  "n/lpUWxYZ3BSdnFUYjR1bjVKUUp5TGQ2WENmOWZ0bERDSU5QQnJRdnJHRmUoc5": {
-   "lv": 1,
-   "why": "앤스로픽 시초가 대비 −10% = 메가 IPO 「뉴스에 팔기」 · 가설②(AI→방어주)·SOXX 관찰",
-   "at": "2026-11-20 03:40"
-  },
   "n/TYyN2hWb1hWQzdUcWluZy1JLUhkT25hRkxnb3JtOUV1Nlptc3gzbkY4cgoc5": {
    "lv": 1,
    "why": "다우 5개월 만 5만 이탈·헬스케어·소비 매도 = 방어주 동반 하락 → 🫧 「현금 도피」 세 조건 중 하나 · S&P 200일선 사흘째",
@@ -82,15 +77,20 @@
    "why": "연준 위기 대응 자산매입 검토(헤드라인) = 가설①(AI 크레딧)·③(12/9 분수령) 백스톱 쪽 근거",
    "at": "2026-11-20 03:40"
   },
-  "n/Wg4RFFNMmpTRG4wSlJzVG9Fei1Pem8wTjRSQXAwSTAyYTJjZzRwM1JhZwoc5": {
+  "n/swwwftcomcontent69fd7870a2cf4e7588bca1c4036efdedsyn25a6b1a61": {
    "lv": 1,
-   "why": "10년 물가채 2002년 이후 최고 실질금리 — 가설③ 12/9 FOMC·美 10년 5% 이틀째 감시·장기채 나눠 사기 자리",
-   "at": "2026-11-20 04:45"
+   "why": "AMD −8% 공매도 보고서(中 제재 기업 펌웨어 의혹) — 엔비디아에 이어 칩 두 번째 「신뢰」 타격 · SOXX −2.6% · 가설④(AI 안 갈림)",
+   "at": "2026-11-20 05:45"
   },
-  "n/kutm_sourcefeed_news_allutm_mediumreferralfeed_item_typenews": {
+  "n/261119googletiedprepaidbonddealsdelayedduetolacklusterdemand": {
    "lv": 1,
-   "why": "데이터트렉: 올해 15대 기술 IPO 대부분 첫날 종가 아래 — ANT 첫날 고점 −14%와 같은 그림, 💡 메가 IPO 첫날 업종 아이디어 근거",
-   "at": "2026-11-20 04:45"
+   "why": "구글 연계 선불 에너지채 수요 부진에 연기(6월엔 「수요 폭주」) — 가설① AI 차입 크레딧 칸 근거 +1",
+   "at": "2026-11-20 05:45"
+  },
+  "n/swwwftcomcontent94379926211c4ca6a53af7e4df1a2675syn25a6b1a61": {
+   "lv": 1,
+   "why": "브라질 중앙은행 헤알 방어 개입(FT) — 헤알/원 225.9원(한 달 −14%) · 💬 15 채권 질문 브라질 칸",
+   "at": "2026-11-20 05:45"
   }
  }
 }
