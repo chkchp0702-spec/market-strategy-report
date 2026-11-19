@@ -1,5 +1,5 @@
 {
- "at": "2026-11-19 20:45",
+ "at": "2026-11-19 21:40",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7914": {
@@ -22,11 +22,6 @@
    "why": "한중 FTA 협정문엔 게임·드라마·여행이 명시, K팝 공연은 빠짐(에스엠 애프터마켓 상한가) — 💬12 한한령, 내일 시가→종가 시험에서 업종 갈림",
    "at": "2026-11-18 19:40"
   },
-  "n/httpswwwcnbccom20261118anthropicipoaiofferingpricehtml": {
-   "lv": 1,
-   "why": "앤스로픽 공모 규모 확대 검토(개인 청약 1,000억$ 육박) — 11/19 첫 거래·나스닥100 고속 편입 수급(💬 5번)",
-   "at": "2026-11-19 00:50"
-  },
   "n/s20261118fedminutesshowalmostallofficialsexpectmoreratehikes": {
    "lv": 1,
    "why": "가설③ 12/9 FOMC 분수령 — 10월 의사록 「거의 모든 위원 추가 인상 예상·일부 12월 0.25%p 초과 검토」+ AI가 물가 올릴 걱정(CNBC) · 💬 6·14번",
@@ -42,45 +37,15 @@
    "why": "가설④ 아시아 AI 하드웨어 따로 간다 — 대만 장중 38,500(−4.1%)로 11/6 종가 저점 39,702 아래 · 🐻 코스피 저점 4,968 재시험 위험",
    "at": "2026-11-19 12:45"
   },
-  "n/jg2Z1BHMEI3ZHI5T3FrRElQZ0YzSUFYM3VQV3BTSkozVU4xRFIyOE40WQoc5": {
-   "lv": 1,
-   "why": "가설③ 12/9 FOMC 폭 — 의사록 매파 뒤 윌리엄스가 0.5%p 「점보 인상」 경계 신호(블룸버그 제목) · 0.5%p 확률 8% 선",
-   "at": "2026-11-19 13:45"
-  },
   "n/XhMbWdKS0pkQkpuanJzeDQ2T1hlXzNXcDhMdzY3bVE5b3pQSUJaU3VvTgoc5": {
    "lv": 1,
    "why": "금 칸(5%·S&P 200일선 3일 아래면 11%) — 의사록·월러 0.5%p 뒤 3,750$ 아래 올해 최저, 오늘 밤 S&P 3일째 판정과 겹침",
    "at": "2026-11-19 15:45"
   },
-  "n/61119taiwantightensshortsellingcurbstohelpsupportstockmarket": {
-   "lv": 1,
-   "why": "대만 −4.6% 뒤 공매도 규제 강화 — 아시아 AI 하드웨어 가설·🐻 첫발 신호(정책 방어) 확인 줄",
-   "at": "2026-11-19 16:45"
-  },
-  "n/httpswwwynacokrviewAKR20261119139100008": {
-   "lv": 1,
-   "why": "코스피 5,137.89(+1.39%) 마감 — 종가 저점 4,968 위 반등 이틀째·🐻 50일선 6,139까지 −16%(코스피 판정 그대로)",
-   "at": "2026-11-19 17:40"
-  },
-  "n/es20261119hongkongfamilyofficeunwinds39billionofbetsaroundai": {
-   "lv": 1,
-   "why": "홍콩 패밀리오피스 AI 베팅 39억$ 청산 — 가설① AI 차입·가설④ 아시아 AI 하드웨어 약세 쪽 근거, 앤스로픽 첫날 수급과 대조",
-   "at": "2026-11-19 17:40"
-  },
   "n/NEbzc1MmxqRkYxNXdLbE5GY005djV4MGJ1R25LdWRxNUJxR3lrbHZSYUUoc5": {
    "lv": 1,
    "why": "H주 칸 50%(200일선 8,466 위면 나머지 절반) — 항셍 −1.95% 22,841 사흘째·텐센트 실적 뒤 −6.5% 2년 최저 = 아시아 AI 가설④ 근거",
    "at": "2026-11-19 18:45"
-  },
-  "n/mostofits10gwbuildrefyahoofinancetlnkyf261119pcg3qpw9tsrcrss": {
-   "lv": 1,
-   "why": "가설① AI 차입 — 「엔비디아 은행」(고객 금융) 축소·스페이스X 470억$ 칩 리스 = WSJ 5천억$ 미집행과 같은 줄",
-   "at": "2026-11-19 18:45"
-  },
-  "n/surgesonreportsofimpendingusmilitaryactionagainstiran5037953": {
-   "lv": 1,
-   "why": "🛢️ 브렌트 95 장부 조건·에너지 칸 85 축소 선 — 이란 군사행동 임박 보도에 가스 급등, 오늘 밤 유가가 따라오나",
-   "at": "2026-11-19 19:45"
   },
   "n/os20261119imfchieflittlebitmoreaicorrectiondebtriskrisevideo": {
    "lv": 1,
@@ -96,6 +61,16 @@
    "lv": 1,
    "why": "🛢️ 브렌트 조건·에너지 칸 — 미·중·러 평화 선언 「정제유 공급 확대」, 대이란 군사행동 보도와 맞불",
    "at": "2026-11-19 20:45"
+  },
+  "n/45NDltc2hKeEowZ3NtcHdsaUNvN2ttTTJXWUgzNkF3SGZUUjdFX1FiRHcoc5": {
+   "lv": 1,
+   "why": "가설① 엔비디아 경영 공백 — 퇴진한 황 「이사회가 요청하면 CEO 복귀」(WSJ) vs 이사회 「복귀 의도 없음」 · NVDA 🐋 고래 11/17 · 💬 3번",
+   "at": "2026-11-19 21:40"
+  },
+  "n/mxaRnN2SkU5QWJjVFRlZmtvN3dJM2p1UHN3bXFQU2RuR0lEUDVvVzB6VQoc5": {
+   "lv": 1,
+   "why": "가설③ 12/9 FOMC 폭 — 월러 12월 0.5%p 공식화(블룸버그)·JP모건 「내년까지 3차례 인상」·美 10년 5.09% · 💬 7·16번",
+   "at": "2026-11-19 21:40"
   }
  }
 }

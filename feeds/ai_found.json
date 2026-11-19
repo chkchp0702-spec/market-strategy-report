@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "퇴진한 젠슨 황 「이사회가 요청하면 엔비디아 CEO로 복귀할 의향」 (WSJ 보도)",
+   "url": "https://www.newsquawk.com/headlines/former-nvidia-nvda-ceo-huang-says-he-is-willing-to-return-as-ceo-if-directors-asked-him-to-do-so-wsj-reports",
+   "press": "Newsquawk(WSJ 인용)",
+   "at": "2026-11-19 21:40",
+   "why": "가설① 엔비디아 경영 공백·NVDA 🐋 고래 신호(11/17) — 이사회 「복귀 의도 없음」과 정면 충돌, 지배구조 변수",
+   "summary": "황 전 CEO가 이사회 요청 시 복귀 의향(WSJ). 이사회 의장은 11/17 「복귀 의도 없음」, 베선트는 외부 CEO 영입 요구(SCMP). 무디스 전망 하향·SEC 조사와 같은 줄."
+  },
+  {
+   "title": "젠슨 황, 사임 며칠 만에 엔비디아 복귀 검토 (FT 보도)",
+   "url": "https://investinglive.com/stocks/jensen-huang-weighs-nvidia-comeback-days-after-quitting-over-scandal-ft-reports/",
+   "press": "investingLive(FT 인용)",
+   "at": "2026-11-19 21:40",
+   "why": "엔비디아 CEO 공백 해소 여부 = AI 대형주 심리·💬 3번 답의 변수",
+   "summary": "FT: 황이 스캔들로 물러난 지 며칠 만에 복귀를 저울질. 측근들이 조사 결론 전 복귀 추진(보도). 결론 미확인."
+  },
+  {
    "title": "SEC, 황 퇴진 뒤 엔비디아 공시 민사 조사 착수 — 캘리포니아 검찰총장도 조치 검토",
    "url": "https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-eyes-action/269054",
    "press": "InvestmentNews",
@@ -623,22 +639,6 @@
    "at": "2026-11-18 03:40",
    "why": "NVDA 🐋 고래 신호·반도체 칸 — 실적 직전 지배구조 불확실성(외부 CEO vs 황 복귀)",
    "summary": "이사회가 하이드릭&스트러글스로 CEO 후보 탐색, Arm CEO 하스와 접촉(WSJ). 직원들은 황 복귀 요구. 회사 공식 확인 전."
-  },
-  {
-   "title": "누가 젠슨 황을 잇나 — 엔비디아 정식 CEO 찾기 시작",
-   "url": "https://yourstory.com/2026/11/who-will-succeed-jensen-huang-race-to-find-permanent-chief-begins",
-   "press": "YourStory",
-   "at": "2026-11-18 03:40",
-   "why": "💬 2번 엔비디아 질문 — 후보군(내부·경쟁사·정치 추천) 정리",
-   "summary": "내부 인사·경쟁사 CEO·트럼프 측 추천까지 후보 거론(SCMP도 비슷한 분석). 확정 일정 미확인."
-  },
-  {
-   "title": "나스닥·S&P500, 엔비디아 실적·앤스로픽 상장 앞두고 1% 넘게 하락(로이터)",
-   "url": "https://www.marketscreener.com/news/nasdaq-s-p-500-fall-over-1-in-run-up-to-nvidia-results-anthropic-debut-ce785edfdd89fe26",
-   "press": "Reuters/MarketScreener",
-   "at": "2026-11-18 02:45",
-   "why": "실적·대형 IPO 두 이벤트 직전 위험 회피 — 나스닥100 코어 칸·🐻 나스닥 「조정」 판정",
-   "summary": "11/17 美 장중 나스닥·S&P500 −1%↑, 소프트웨어 약세로 다우도 급락(IBD). 블룸버그 「위험 회피 매수로 국채 강세」."
   }
  ],
  "at": "2026-11-19 17:40"
