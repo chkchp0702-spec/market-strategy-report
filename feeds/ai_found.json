@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "연준 바 이사: 2% 물가 복귀 위해 추가 인상 필요할 가능성 높다",
+   "url": "https://investinglive.com/central-banks/fed-s-barr-further-rate-hikes-are-likely-needed-to-ensure-timely-return-to-2-inflation/",
+   "press": "investingLive",
+   "at": "2026-11-19 09:45",
+   "why": "가설③ 12/9 FOMC — 의사록 뒤 투표권 이사까지 인상 쪽, 0.5%p 확률 8%로 상승",
+   "summary": "바 이사(투표권) 「추가 인상 필요 가능성 높다」 · 12월 0.25%p 인상 확률 100%·0.5%p 2.4→8.0%(금리선물, 김우다 09:01) · 美 10년 선물은 강보합"
+  },
+  {
+   "title": "이란 전쟁 전환점 — 트럼프 더 넓은 공격 검토(호르무즈·핵시설)",
+   "url": "https://wjla.com/news/nation-world/iran-war-nears-turning-point-as-trump-weighs-broader-attack-strait-of-hormuz-nuclear-program-houthis-red-sea-middle-east-war",
+   "press": "WJLA(싱클레어)",
+   "at": "2026-11-19 09:45",
+   "why": "에너지 칸·장부 brent 조건 — 공격 뉴스에 무덤덤하던 유가가 반응하는지 확인",
+   "summary": "NYT 보도(트럼프 새 군사 공격 검토)와 같은 흐름 · 11/18 브렌트 88.63(−4.84%)·WTI 81.93 · 기사 날짜 미확인"
+  },
+  {
    "title": "모닝스타, 엔비디아 적정가 19% 하향 — CEO 교체·혼란 반영",
    "url": "https://www.morningstar.com/stocks/nvidia-we-cut-our-fair-value-estimate-given-firms-ceo-transition-turmoil",
    "press": "Morningstar",
@@ -623,22 +639,6 @@
    "at": "2026-11-17 13:45",
    "why": "가설 ①의 반대 근거 — 짓는 속도가 줄면 AI 연계 채권 발행이 줄어 신용 압박이 풀릴 수 있다는 채권 운용사 시각",
    "summary": "데이터센터 건설 둔화가 AI 관련 채권 발행을 줄여 그간 신용시장에 쏟아진 공급 압박을 덜 수 있음(핌코). 같은 날 골드만은 스프레드 확대 전망 — 크레딧 쪽 의견이 갈림."
-  },
-  {
-   "title": "바클레이즈 「대만 증시 급락 주범은 개인 강제 청산 — 더 이어질 수 있다」",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-17/barclays-says-forced-retail-liquidation-behind-taiwan-stock-rout",
-   "press": "블룸버그",
-   "at": "2026-11-17 12:40",
-   "why": "🐻 계기판 반등 통계 — 아시아 AI칩 하락이 실적보다 빚(신용) 정리 국면이라는 진단, 한국 반대매매 급증(11/10 5배)과 같은 결",
-   "summary": "11/16(월) 대만 급락의 주된 동인은 개인 투자자 강제 매도이며 추가 압박 가능(바클레이즈). 같은 날 대만 가권 −6.03%, 11/17 장중 −3.1% 뒤 강보합."
-  },
-  {
-   "title": "드러켄밀러 3분기 13F — AMD·샌디스크·알파벳 전량 매도, TSMC 94% 축소, SpaceX·팔란티어·금광주 매수",
-   "url": "https://wallstreetcn.com/articles/3786071",
-   "press": "월스트리트CN",
-   "at": "2026-11-17 12:40",
-   "why": "가설 ④·반도체 칸 — 대가가 칩 하드웨어를 줄이고 소프트웨어·금으로 이동(3분기 말 기준이라 이미 지난 매매)",
-   "summary": "Duquesne 3Q: AMD·SanDisk·Alphabet 전량 매도, TSMC −94%, SpaceX 20만 주↑·팔란티어 8만 주↑ 신규, 금광주 매수, 최대 보유는 Natera 29.2%(하나중국 72261)."
   }
  ],
  "at": "2026-11-19 08:45"

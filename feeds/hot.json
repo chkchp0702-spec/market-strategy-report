@@ -1,5 +1,5 @@
 {
- "at": "2026-11-19 08:45",
+ "at": "2026-11-19 09:45",
  "rule": "🔴 핵심 = 정말 큰 것만(하루 0~3개, 대부분 시간은 0개): 연준·한은 깜짝·지수 −3%↓ 급변·보유 칸/킥 종목 직격·핵심 가설을 뒤집는 숫자 / 🟡 주목 = 그다음 중요한 것만(시간당 0~3개) · 나머지는 표시 안 함",
  "items": {
   "globalmktinsight/7914": {
@@ -7,145 +7,55 @@
    "why": "코스피 외국인 확정 순매도 1조3,769억(KRX)·BofA 「美 10년 4.5% 아래까지 위험자산 회피」 — 💬 7번·12/9 FOMC 가설(0.55)",
    "at": "2026-11-16 17:40"
   },
-  "n/Mzd1Z4TUxQOElVaXc3OXhJT0piYWRlNkdNX1RLU0lJX0UxRENqLTNDS2coc5": {
-   "lv": 1,
-   "why": "골드만 美 10년 내년 말 4.6% — 지금 5%대에서 「고금리 정점」 가설·현금·단기채 칸(us10y_band20)과 채권 답(15번) 근거",
-   "at": "2026-11-17 01:45"
-  },
-  "n/ZranZwbjF1YUJCaWo1MjdsYjBDYXc3dFo0WS12cTJ0blFGampzd0xRVGcoc5": {
-   "lv": 1,
-   "why": "美 10년 5.1% 재진입 + 실적 직전 하락 — 「AI 빚」 신용 가설 ① 근거·S&P 200일선 7,328 근접",
-   "at": "2026-11-18 04:40"
-  },
   "globalmktinsight/7923": {
    "lv": 1,
    "why": "S&P500 3월 이후 첫 200일선 이탈·VIX 3월 이후 최고 — 🫧 버블 경보판·미국 판정 근접 신호(판정선은 −20%)",
    "at": "2026-11-18 05:50"
-  },
-  "n/9STy1YMlZTWHdMQjltajU5RXFiM2hjaVJqN280WFF3Nm1mUjFvcnpmZ2coc5": {
-   "lv": 1,
-   "why": "가설 ③ 12/9 FOMC — 윌리엄스 「빅스텝 반대·극적 조치 불필요」: 무살렘·해맥 매파와 갈림 = 0.5%p 꼬리 위험 축소(💬 9·15번)",
-   "at": "2026-11-18 07:45"
-  },
-  "HANAchina/72339": {
-   "lv": 1,
-   "why": "엔비디아 임시 CEO 「비투자등급 고객은 최종 사용자 먼저 확보」 — 가설① AI 크레딧(네오클라우드 백스톱 축소) 근거, 🫧 신용 칸",
-   "at": "2026-11-18 13:45"
   },
   "sunstudy1111/139472": {
    "lv": 1,
    "why": "💬11·🐻 코스닥 — 한중 FTA 서비스 타결 = 사실상 한한령 해제(장 마감 뒤 발표): 여행·화장품·게임·엔터 내일 시가 첫 시험",
    "at": "2026-11-18 16:40"
   },
-  "kimu_nim/49456": {
-   "lv": 1,
-   "why": "반도체 칸·가설④ — 트렌드포스 HBM4 내년 +100%↑ vs 낸드 2분기부터 하락: 메모리 안 갈림(HBM 빡빡·낸드 꺾임)",
-   "at": "2026-11-18 17:45"
-  },
   "HANAchina/72351": {
    "lv": 1,
    "why": "🫧 신용 칸·가설① AI 차입 — 골드만 AI 프로젝트 금융 5,450억$ 상향인데 핵심 보증자 엔비디아는 이탈 중",
    "at": "2026-11-18 17:45"
-  },
-  "kimu_nim/49467": {
-   "lv": 1,
-   "why": "엔비디아 10-Q 제출 보류(황 사임이 개인 처신 문제만이 아니라는 첫 공식 신호) — 실적 서프라이즈를 할인할 거버넌스 변수 · 💬3·NVDA 🐋 bet 보류 근거",
-   "at": "2026-11-18 19:40"
   },
   "pokara61/224482389771": {
    "lv": 1,
    "why": "한중 FTA 협정문엔 게임·드라마·여행이 명시, K팝 공연은 빠짐(에스엠 애프터마켓 상한가) — 💬12 한한령, 내일 시가→종가 시험에서 업종 갈림",
    "at": "2026-11-18 19:40"
   },
-  "n/s20261118creditchiefswarnoffearfactorasdebtrepricesallatonce": {
-   "lv": 1,
-   "why": "블룸버그: 크레딧 책임자들 「채권 전반이 한꺼번에 재가격 — 공포 요인」 경고 = 가설① AI 차입(크레딧)이 다음 약한 고리 근거 · 🫧 신용 경보 칸 · 💬9",
-   "at": "2026-11-18 20:40"
-  },
   "n/cles20261118fedswallersaysfedshouldconsiderhalfpointratehike": {
    "lv": 2,
    "why": "가설③ 12/9 FOMC 분수령 — 월러 「12월 0.5%p 고려」로 인상 폭 꼬리↑ · 금리·신용 칸 직격, 원자재 동반 급락",
    "at": "2026-11-18 22:45"
-  },
-  "kimu_nim/49481": {
-   "lv": 1,
-   "why": "구리 −4.35%·금 올해 최저·브렌트 90 하회 — 매파 연준+달러 강세에 원자재 일제 하락(에너지·금 칸)",
-   "at": "2026-11-18 22:45"
-  },
-  "n/httpswwwcnbccom20261118nvidiastockearningshtml": {
-   "lv": 1,
-   "why": "엔비디아 정규장 상승 반납·마이너스 전환 + 코어위브 −5% — 「실적 좋아도 빚으로 짓는 AI는 판다」 가설④·신용 칸 직결",
-   "at": "2026-11-19 00:50"
   },
   "n/httpswwwcnbccom20261118anthropicipoaiofferingpricehtml": {
    "lv": 1,
    "why": "앤스로픽 공모 규모 확대 검토(개인 청약 1,000억$ 육박) — 11/19 첫 거래·나스닥100 고속 편입 수급(💬 5번)",
    "at": "2026-11-19 00:50"
   },
-  "n/20261118creditselloffluresbargainhunterstostockpickersmarket": {
-   "lv": 1,
-   "why": "가설① AI 차입·크레딧 — 크레딧 매도에 저가 매수 유입 = 신용 칸 스트레스가 바닥 다지기인지 확인할 첫 신호",
-   "at": "2026-11-19 01:45"
-  },
-  "n/callsittheweaklinkrefyahoofinancetlnkyf261118h6mc737htsrcrss": {
-   "lv": 1,
-   "why": "오라클 CDS 엔비디아 실적 뒤 사상 최대 확대 — 가설①(AI 차입 크레딧)·가설④(빚으로 짓는 곳) 직격",
-   "at": "2026-11-19 02:45"
-  },
-  "n/HdTNHd1SmNYenlvMHRIWmp2Qllpd2E0WHFxUVlLV3BGN0I0NEhtTlpCdwoc5": {
-   "lv": 1,
-   "why": "한중 정상회담 FTA 서비스·투자 협상 타결 — 한한령 해제와 겹쳐 미디어·여행 시가 갭(관찰 칸·💬 12·15번)",
-   "at": "2026-11-19 02:45"
-  },
-  "n/3f114c0ab3c1abd8ef0f03832cc80copperpricesplungetohtmltsrcrss": {
-   "lv": 1,
-   "why": "가설①④ — 구리 급락 이유가 「AI 데이터센터 베팅 철수」: 빚으로 짓는 AI 축소가 원자재까지 번짐",
-   "at": "2026-11-19 03:45"
-  },
-  "n/ESHp0MmZBT3pEbHE1NExsbkhMTEVpRFVyMEFSLWVBeXhZSmExQlE5SW5Soc5": {
-   "lv": 1,
-   "why": "가설③ 12/9 FOMC 분수령 — 시장이 내년 9월까지 인상 0.8%p 반영, 「오래 높게」 쪽",
-   "at": "2026-11-19 03:45"
-  },
   "n/s20261118fedminutesshowalmostallofficialsexpectmoreratehikes": {
    "lv": 1,
    "why": "가설③ 12/9 FOMC 분수령 — 10월 의사록 「거의 모든 위원 추가 인상 예상·일부 12월 0.25%p 초과 검토」+ AI가 물가 올릴 걱정(CNBC) · 💬 6·14번",
    "at": "2026-11-19 04:50"
-  },
-  "n/klMeHhybGw3MWpGckxMZjlsY3RhbE82d21YN3gxLUxPZ2RZcGd4cDloMAoc5": {
-   "lv": 1,
-   "why": "가설① AI 차입 약한 고리 — 크레딧 책임자들 「빚 한꺼번에 재가격」 공포 경고 = 🫧 신용 칸 근거",
-   "at": "2026-11-19 05:40"
-  },
-  "n/autiousstanceonchinaafterhuangsdeparture194945165htmltsrcrss": {
-   "lv": 1,
-   "why": "반도체 칸·가설④ — 엔비디아 황 퇴진 뒤 중국 판매 더 보수적(H200) = 4분기 가이던스 중국 0 굳히기",
-   "at": "2026-11-19 05:40"
   },
   "n/comnewsarticles20261118anthropicissaidtopriceipoat83pershare": {
    "lv": 1,
    "why": "가설④ AI 안 갈림 — 앤스로픽 공모가 83달러(희망가 상단 위) vs 같은 날 엔비디아 −2.95% = 돈이 새 AI 공모로 이동, 오늘 밤 첫 거래가 AI 심리 시험대",
    "at": "2026-11-19 06:45"
   },
-  "n/liRVdXc3VvcW5VYXlWcU1OQU9DV1BpeGJwaXFfa3BKbE9QTWdvbU1uc0Uoc5": {
+  "n/httpskrinvestingcomnewseconomynewsarticle2182589": {
    "lv": 1,
-   "why": "가설③ 12/9 FOMC — 월러 「12월 0.5%p 인상 필요」 공개 발언, 의사록 직후 달러 19개월 최고 = 「폭」 꼬리 굵어짐",
-   "at": "2026-11-19 06:45"
+   "why": "NYT 트럼프 이란 새 공격 검토 — 브렌트 88.63(85 에너지 칸 축소 선 4% 위)·장부 brent 조건과 직결",
+   "at": "2026-11-19 09:45"
   },
-  "n/straintswillbeeventighterin2027microncto215815321htmltsrcrss": {
+  "kimu_nim/49566": {
    "lv": 1,
-   "why": "가설④ 칩/메모리 상류 — 마이크론 CTO 「2027년 메모리 공급 더 빠듯」 · 한국 반도체 칸(091160) · 💬 5번",
-   "at": "2026-11-19 07:50"
-  },
-  "n/sarticlesmoodylowersnvidiaratingsoutlook222901110htmltsrcrss": {
-   "lv": 1,
-   "why": "가설①(AI 차입·크레딧) — 엔비디아 신용 전망 하향(경영 공백) · 💬 3·9번",
-   "at": "2026-11-19 08:45"
-  },
-  "kimu_nim/49541": {
-   "lv": 1,
-   "why": "watch 한한령 — 청와대 「공연은 민감」 = 엔터 기대 일부 꺾임, 오늘 시가 갭 유지 판정 · 💬 4번",
-   "at": "2026-11-19 08:45"
+   "why": "12월 0.5%p 확률 2.4→8.0% — 가설③ 12/9 FOMC 2018년식 분수령 · watch 20% 선",
+   "at": "2026-11-19 09:45"
   }
  }
 }
