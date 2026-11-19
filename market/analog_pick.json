@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20 01:40",
+ "at": "2026-11-20 02:27",
  "cash2": 4.1,
  "markets": [
   {
@@ -240,21 +240,21 @@
    "cash": 0,
    "next": "하락장(고점 −20%) 되면 현금",
    "loo": {
-    "med": 43.9,
-    "worst": 11.9,
-    "beat_cash": 12,
+    "med": 42.5,
+    "worst": -22.0,
+    "beat_cash": 11,
     "n": 12
    },
    "y2_med": 51.1,
-   "y2_worst": 11.9,
-   "beat_cash": 12,
+   "y2_worst": -8.2,
+   "beat_cash": 11,
    "n": 12,
    "lump_med": 51.0,
-   "lump_worst": 12.3,
+   "lump_worst": -20.7,
    "fwd": {
     "more10": 4,
-    "more_med": -6.5,
-    "y1_up": 11,
+    "more_med": -7.3,
+    "y1_up": 9,
     "n": 12
    }
   },
@@ -262,30 +262,30 @@
    "key": "nasdaq",
    "name": "나스닥",
    "nat": "us",
-   "k": "dca12",
-   "rule": "12개월 나눠 사기",
+   "k": "half200",
+   "rule": "절반 지금 + 절반은 200일선 회복 때",
    "ok": true,
-   "staged": false,
-   "anchor": "2026-11-17",
+   "staged": true,
+   "anchor": "2026-11-19",
    "asof": "2026-11-19",
-   "stock": 8,
-   "cash": 92,
-   "next": "한 달(21거래일)마다 12분의 1씩 더 — 지금 1/12번째",
+   "stock": 50,
+   "cash": 50,
+   "next": "200일선(25,159) 위로 올라오면 나머지 절반도 주식",
    "loo": {
-    "med": 17.5,
-    "worst": -39.6,
+    "med": 19.9,
+    "worst": -38.9,
     "beat_cash": 8,
     "n": 12
    },
-   "y2_med": 23.2,
-   "y2_worst": -41.2,
+   "y2_med": 25.1,
+   "y2_worst": -40.5,
    "beat_cash": 8,
    "n": 12,
-   "lump_med": 23.2,
-   "lump_worst": -39.6,
+   "lump_med": 26.4,
+   "lump_worst": -38.9,
    "fwd": {
     "more10": 9,
-    "more_med": -17.0,
+    "more_med": -16.4,
     "y1_up": 8,
     "n": 12
    }
