@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "SEC, 황 퇴진 뒤 엔비디아 공시 민사 조사 착수 — 캘리포니아 검찰총장도 조치 검토",
+   "url": "https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-eyes-action/269054",
+   "press": "InvestmentNews",
+   "at": "2026-11-19 20:45",
+   "why": "가설① AI 차입·가설④ — 엔비디아 경영 공백이 규제 리스크로 번짐, 네오클라우드 백스톱 축소와 같은 방향",
+   "summary": "WSJ 단독 보도 이후 SEC가 황 CEO 퇴진 관련 투자자 공시를 들여다보는 중. 캘리포니아 검찰총장도 조치 검토. 엔비디아 7주 연속 주간 하락 중."
+  },
+  {
+   "title": "美 상무부 새 규정 뒤 TSMC·삼성, 중국 고객 일부 칩 출하 중단(FT)",
+   "url": "https://www.ft.com/content/d42dd235-7b0e-4651-a8d2-f7b7b4963a74",
+   "press": "FT",
+   "at": "2026-11-19 20:45",
+   "why": "한국 메모리·삼성전자·091160.KS — 中 매출 차질 변수, 내일 시가 반영",
+   "summary": "BIS 11/17 규정: 美 기술로 만든 첨단 칩의 中 최종 공급은 라이선스 필요·스마트폰 면제 폐지. 삼성 고객 바이두 쿤룬·바이트댄스, TSMC 샤오미·오포·비보. 스마트폰 칩은 결국 허가 가능성 높지만 지연 차질."
+  },
+  {
    "title": "유럽 가스 급등 — 美·이란 충돌 고조",
    "url": "https://tradingeconomics.com/commodity/eu-natural-gas/news/581441",
    "press": "Trading Economics",
@@ -623,22 +639,6 @@
    "at": "2026-11-18 02:45",
    "why": "실적·대형 IPO 두 이벤트 직전 위험 회피 — 나스닥100 코어 칸·🐻 나스닥 「조정」 판정",
    "summary": "11/17 美 장중 나스닥·S&P500 −1%↑, 소프트웨어 약세로 다우도 급락(IBD). 블룸버그 「위험 회피 매수로 국채 강세」."
-  },
-  {
-   "title": "나스닥100, 대형 IPO 15거래일 고속 편입 규칙 — 앤스로픽도 대상",
-   "url": "https://www.marketscreener.com/news/nasdaq-100-emergency-plan-to-integrate-private-giants-within-15-days-ce7e51dedb8fff26",
-   "press": "MarketScreener",
-   "at": "2026-11-18 02:45",
-   "why": "앤스로픽 편입 시 QQQ 등 추종 자금이 기존 구성 종목을 줄여야 함 — 편입일 전후 빅테크 수급 부담",
-   "summary": "나스닥이 초대형 신규 상장 종목을 15거래일 안에 나스닥100에 넣는 규칙 도입(스페이스X 선례). 마켓워치 11/17 「나스닥100 펀드는 15거래일 뒤 앤스로픽을 보유하게 된다」."
-  },
-  {
-   "title": "젠슨 황 스캔들, 엔비디아 이사회 최대 시험대",
-   "url": "https://news.bgov.com/banking-law/jensen-huang-scandal-gives-nvidias-board-its-biggest-test-yet",
-   "press": "Bloomberg Government",
-   "at": "2026-11-18 00:35",
-   "why": "NVDA 🐋 고래 신호·💬 3번 — 실적 직후 이사회 지배구조·수출통제 감독위가 주가 변수로 남는다",
-   "summary": "황 사임 뒤 첫 실적(11/17 장 마감 뒤)을 앞두고 이사회가 독립 조사·국가안보·수출통제 감독위 신설로 대응. 12/1 하원 외교위 출석 예정(CNBC). 세부 숫자 미확인."
   }
  ],
  "at": "2026-11-19 17:40"
