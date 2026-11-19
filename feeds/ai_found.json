@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "SEC, 젠슨 황 퇴진 뒤 엔비디아 공시 민사 조사(테크크런치)",
+   "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+   "press": "TechCrunch",
+   "at": "2026-11-20 08:40",
+   "why": "NVDA(🐋 신호 종목)·나스닥100 코어 — 11/19 캘리포니아 법무장관 소환장까지 규제 조사 3겹(SEC·주 법무·의회)",
+   "summary": "SEC가 황 CEO 퇴진과 관련해 엔비디아 공시를 민사 조사 중(WSJ 단독 인용). 11/19엔 캘리포니아 법무장관이 中 칩 밀반출·투자자 공시 관련 소환장 발부(CNBC). 주가 146.0$(−3.29%, 6거래일 시총 −6,110억$)."
+  },
+  {
+   "title": "S&P500: 옵션 만기와 변동성 급등, 금요일 출렁이는 출발 예고(인베스팅)",
+   "url": "https://www.investing.com/analysis/sp-500-options-expiry-and-surging-volatility-point-to-a-volatile-friday-open-200670550",
+   "press": "Investing.com",
+   "at": "2026-11-20 08:40",
+   "why": "오늘 밤(11/20 美) 월간 옵션 만기 — 딜러 숏감마면 하락·반등 모두 커짐 · 🔴 뼈대 전환 타이밍(분할)과 연결",
+   "summary": "VIX 24.56→28.44(+15.8%, 키움 김승혁·김우다 텔레그램 인용) · 11/20 만기 델타 중 콜 비중 약 35%로 평소(50~70%)보다 낮은 풋 쏠림 → 딜러 숏감마 환경. 만기 뒤 자동 반등은 이르다는 평."
+  },
+  {
    "title": "美 은행주 하락 — KBW 은행지수, 약세 기술 신호(데드크로스) 근접",
    "url": "https://tradersunion.com/news/stocks/show/4291330-us-bank-stocks-slide-kbw-index/",
    "press": "Traders Union",
@@ -623,23 +639,7 @@
    "at": "2026-11-18 12:40",
    "why": "공모 규모·밸류(최대 1.4조$ 보도)가 NVDA 🐋·SMH 수급과 겹침 — 첫 거래 날 AI 칩주 반응 확인용",
    "summary": "희망가 70~78$·몸값 최대 약 1.4조$(TNW 보도와 같은 수치). 일부 보도는 약 1조$ 목표(investingLive) — 수치 엇갈림."
-  },
-  {
-   "title": "겐슬러 전 SEC 위원장 「엔비디아 조사 핵심은 황이 주주를 오도했는지 — AI 재평가 앞」",
-   "url": "https://stocktwits.com/news-articles/markets/equity/gary-gensler-says-key-question-in-nvidia-probe-is-whether-huang-misled-shareholders-sees-ai-repricing-ahead/cNGrO6sR9ev",
-   "press": "Stocktwits",
-   "at": "2026-11-18 11:40",
-   "why": "NVDA 🐋·💬 2번 — 실적 상회 뒤에도 SEC 조사(WSJ)가 갭 상단을 누르는 이유",
-   "summary": "WSJ 「SEC 엔비디아 공시 조사」 보도 뒤 겐슬러가 핵심 쟁점을 「주주 오도 여부」로 정리, AI 재평가를 예상. 보도 시점 정확히 미확인."
-  },
-  {
-   "title": "세마포 「美 법무부 여러 조사가 엔비디아로 번질 수 있다」(정부 관계자 2명)",
-   "url": "https://www.newsquawk.com/headlines/multiple-us-doj-probes-threaten-to-sweep-up-nvidia-nvda-reports-semafor-citing-two-admin-officials",
-   "press": "Newsquawk(세마포 인용)",
-   "at": "2026-11-18 11:40",
-   "why": "가설 ④·한국 반도체 갭 — 숫자 밖 규제 꼬리 위험, 오늘 한국 갭 전부 반납의 배경 재료",
-   "summary": "세마포가 행정부 관계자 2명을 인용해 법무부 복수 조사가 엔비디아를 휩쓸 수 있다고 보도. 보도 날짜 미확인."
   }
  ],
- "at": "2026-11-20 06:45"
+ "at": "2026-11-20 08:40"
 }
