@@ -570,6 +570,12 @@ def load(start):
         fill_null_close(df, syms)
     except Exception as e:
         print("빈 종가 채우기 건너뜀", e)
+    try:   # 🗓 11/19 진단 한 줄 — 마지막 봉 4개(날짜·시가·종가)
+        for s_ in ("^KS11", "^GSPC"):
+            g = df[s_].iloc[-4:]
+            print("🗓 원자료", s_, [(str(t)[:16], None if g.loc[t, "Open"] != g.loc[t, "Open"] else round(float(g.loc[t, "Open"]), 1), None if g.loc[t, "Close"] != g.loc[t, "Close"] else round(float(g.loc[t, "Close"]), 1)) for t in g.index])
+    except Exception as e:
+        print("진단 실패", e)
     out = {}
     for key, sym, _, nat, hm in MKTS + [("vix", "^VIX", "VIX", "us", (16, 15))]:
         try:
