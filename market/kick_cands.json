@@ -7268,6 +7268,82 @@
 "d": "2026-11-18",
 "src": "pead",
 "score": 69.7
+},
+"CSL|2026-11-19": {
+"code": "CSL",
+"name": "Carlisle Companies Incorporated Common",
+"mkt": "US",
+"d": "2026-11-19",
+"src": "cup_eye",
+"score": 67.2,
+"lv": 395.17,
+"max20": 7.6,
+"id60": 0.067
+},
+"R|2026-11-19": {
+"code": "R",
+"name": "Ryder System, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-19",
+"src": "cup_eye",
+"score": 45.6,
+"lv": 287.29,
+"max20": 10.5,
+"id60": 0.033
+},
+"EL|2026-11-19|e": {
+"code": "EL",
+"name": "Estee Lauder Companies, Inc. (The) Com",
+"mkt": "US",
+"d": "2026-11-19",
+"src": "earn",
+"score": 79.6,
+"lv": 92.35
+},
+"HAS|2026-11-19|e": {
+"code": "HAS",
+"name": "Hasbro, Inc. - Common Stock",
+"mkt": "US",
+"d": "2026-11-19",
+"src": "earn",
+"score": 78.4,
+"lv": 100.05
+},
+"CACI|2026-11-19|e": {
+"code": "CACI",
+"name": "CACI International, Inc. Class A Commo",
+"mkt": "US",
+"d": "2026-11-19",
+"src": "earn",
+"score": 67.8,
+"lv": 549.51
+},
+"DOCS|2026-11-19|e": {
+"code": "DOCS",
+"name": "Doximity, Inc. Class A Common Stock",
+"mkt": "US",
+"d": "2026-11-19",
+"src": "earn",
+"score": 61.6,
+"lv": 23.57
+},
+"TEAM|2026-11-19|e": {
+"code": "TEAM",
+"name": "Atlassian Corporation  - Class A Commo",
+"mkt": "US",
+"d": "2026-11-19",
+"src": "earn",
+"score": 58.0,
+"lv": 113.55
+},
+"XERS|2026-11-19|e": {
+"code": "XERS",
+"name": "Xeris Biopharma Holdings, Inc. - Commo",
+"mkt": "US",
+"d": "2026-11-19",
+"src": "earn",
+"score": 43.2,
+"lv": 13.74
 }
 },
 "sent": [
