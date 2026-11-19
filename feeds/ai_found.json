@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "앤스로픽(ANT) 오늘 첫 거래 — 공모가 83$, 강세 104$·약세 78$ 시나리오",
+   "url": "https://financefeeds.com/anthropic-ant-stock-first-trade-today-after-83-ipo-bull-104-bear-78/",
+   "press": "FinanceFeeds",
+   "at": "2026-11-20 00:45",
+   "why": "💬 6번·나스닥100 칸 — 첫날 「뉴스에 팔기」 여부 가늠 기준선",
+   "summary": "공모가 83$ 확정 뒤 첫 거래일 정리. 강세 104$·약세 78$ 시나리오 제시. 첫 체결가는 이 시각 미확인."
+  },
+  {
+   "title": "오늘의 증시: 앤스로픽 IPO가 AI주 끌어올려 S&P·나스닥 상승",
+   "url": "https://coinpaper.com/36493/stock-market-today-sp-500-nasdaq-rise-as-anthropic-ipo-lifts-ai-stocks",
+   "press": "Coinpaper",
+   "at": "2026-11-20 00:45",
+   "why": "S&P 200일선 사흘째 판정일 — 개장 랠리가 마감까지 가는지(💬 9번)",
+   "summary": "11/19 개장 뒤 앤스로픽 기대에 S&P·나스닥 상승, AI·칩주 주도. 피드 기준 개장 초 S&P +0.77%·나스닥 +1.62%·필라 반도체 +4.3%."
+  },
+  {
    "title": "앤스로픽 IPO 라이브 — ANT 첫 거래일",
    "url": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026",
    "press": "StockTitan",
@@ -623,22 +639,6 @@
    "at": "2026-11-18 06:35",
    "why": "임시 CEO 첫 실적이 숫자로는 상회 — 한국 반도체(하이닉스·삼성) 오늘 갭·가설 ④",
    "summary": "매출 1,158억$(+103% YoY, 예상 약 1,090억)·데이터센터 1,076억$(예상 1,019억)·총마진 74.8%→다음 분기 71~72% · 가이던스 1,300억$±3%(예상 1,252억) · 정규장 155.46$(−0.44%) 뒤 시간외 약 +2%"
-  },
-  {
-   "title": "엔비디아 실적 예상 상회 — EPS 2.68달러 vs 2.48, 가이던스 컨센 상회",
-   "url": "https://www.tipranks.com/news/nvidia-stock-rises-after-earnings-smash-estimates",
-   "press": "TipRanks",
-   "at": "2026-11-18 06:35",
-   "why": "실적 숫자 두 번째 출처 — 중국 데이터센터 매출 0 가정",
-   "summary": "EPS 2.68$(예상 2.48) · 4분기 매출 1,300억$±3%(컨센 1,249억) · 총마진 71~72% 전망 · 시간외 상승(폭 미기재)"
-  },
-  {
-   "title": "머디워터스, 엔비디아 공매도 공개 — 전직 임원의 중국 칩 밀수 사건 연루 가능성 제기",
-   "url": "https://cryptobriefing.com/muddy-waters-nvidia-short-china-smuggling/",
-   "press": "Crypto Briefing",
-   "at": "2026-11-18 05:50",
-   "why": "실적 직전 공매도 리포트 — 엔비디아·한국 반도체 갭 방향 변수(가설 ④)",
-   "summary": "머디워터스가 엔비디아 숏 포지션 공개·전직 임원 연루 의혹 제기(본문 확인 못 함, 제목 기준) · 인베스팅 영문도 같은 제목 보도"
   }
  ],
  "at": "2026-11-19 23:40"
