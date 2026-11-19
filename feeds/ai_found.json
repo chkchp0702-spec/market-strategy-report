@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "모건스탠리, 글로벌 주식 「최대 비중확대」·2027년 S&P500 목표 8,700",
+   "url": "https://stockanalysis.com/news/morgan-stanley-maximum-overweight-global-stocks/",
+   "press": "StockAnalysis",
+   "at": "2026-11-19 10:45",
+   "why": "🟢 S&P 정상 판정·가설② 「갈아타기 vs 현금 도피」 — 대형 IB는 「조정 마지막 국면」 쪽",
+   "summary": "마이크 윌슨: 글로벌 주식 최대 비중확대, 2027 S&P 8,700(약 +15~19%)·AI 투자와 이익 성장 근거 · 같은 날 골드만은 2027 미국 이익 성장 11%로 둔화 전망(gn_us_ib)"
+  },
+  {
+   "title": "푸틴, APEC서 우크라이나 놓고 트럼프·시진핑 3자 회담 제안 — 키이우는 빠져",
+   "url": "https://investinglive.com/commodities/putin-floats-trump-xi-summit-on-ukraine-at-apec-leaving-kyiv-out-of-the-room/",
+   "press": "investingLive",
+   "at": "2026-11-19 10:45",
+   "why": "🛢️ brent 조건·원자재 — 오늘(11/19) 선전 3자 회담 결과가 유가·방산 방향을 바꿈",
+   "summary": "신화통신: 시진핑·트럼프·푸틴 11/19(목) 선전 회담 확인 · 의제 우크라이나·무역·AI · 오늘 한국 방산 −1.78%(한화에어로 −3.3%, daily-app 10:23)"
+  },
+  {
    "title": "연준 바 이사: 2% 물가 복귀 위해 추가 인상 필요할 가능성 높다",
    "url": "https://investinglive.com/central-banks/fed-s-barr-further-rate-hikes-are-likely-needed-to-ensure-timely-return-to-2-inflation/",
    "press": "investingLive",
@@ -623,23 +639,7 @@
    "at": "2026-11-17 14:40",
    "why": "🇰🇷 국고채 금리 — 지금 기준금리 3%, 11월 회의 인상 시 단기물 금리 부담",
    "summary": "10/22 한은 기준금리 3.00% 동결, 추가 인상 가능성 열어 둠."
-  },
-  {
-   "title": "골드만삭스 보고서 5개의 같은 결론 — 「AI 잔치는 막바지, 시장이 경제보다 취약」",
-   "url": "https://wallstreetcn.com/articles/3786075",
-   "press": "월스트리트견문(하나중국 전재)",
-   "at": "2026-11-17 13:45",
-   "why": "가설 ①(AI 차입·크레딧이 다음 약한 고리) 직접 근거 — 골드만이 AI 채권 발행 확대로 신용 스프레드 확대를 예상",
-   "summary": "AI는 美 GDP 성장의 21%만 기여했지만 S&P500 이익 증가의 62%·시총 상승분의 92%를 견인. 이익 증가율 36%→11% 둔화 전망, 엔화를 최적의 AI 헤지로 제시, 금 4,650달러·구리 15,600달러 전망."
-  },
-  {
-   "title": "핌코 「데이터센터 붐이 식으면 AI 채권 스프레드는 오히려 좁혀질 수 있다」",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-17/pimco-says-ai-bond-spreads-may-tighten-as-data-center-boom-slows",
-   "press": "블룸버그",
-   "at": "2026-11-17 13:45",
-   "why": "가설 ①의 반대 근거 — 짓는 속도가 줄면 AI 연계 채권 발행이 줄어 신용 압박이 풀릴 수 있다는 채권 운용사 시각",
-   "summary": "데이터센터 건설 둔화가 AI 관련 채권 발행을 줄여 그간 신용시장에 쏟아진 공급 압박을 덜 수 있음(핌코). 같은 날 골드만은 스프레드 확대 전망 — 크레딧 쪽 의견이 갈림."
   }
  ],
- "at": "2026-11-19 08:45"
+ "at": "2026-11-19 10:45"
 }
