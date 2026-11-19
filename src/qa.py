@@ -20,6 +20,49 @@ GROUPS = {"주식", "금리", "상품"}   # 앱 갈래 칩 — 📈 주식 · �
 LONG = 320                    # 근거 한 줄이 이보다 길면 알림만(실패 아님) — 매시간 고칠 때 덧붙이지 말고 바꿔 쓰기
 
 
+REL = r"다음 ?주|이번 ?주|내일|모레|오늘 밤|오늘밤|이번 주말|다음 달"
+
+
+def stale(day: dict, items: list) -> list:
+    """🗓 11/19 사용자 「앤트로픽 오늘 밤 상장인데 왜 다음 주라고 나오니」 — 날짜가 지난 말 막기.
+    ① 「다음 주」 뒤에 붙은 날짜(M/D)가 이미 이번 주 안이거나 지났으면 실패.
+    ② 「다음 주·내일·오늘 밤」 같은 상대 날짜가 든 질문을 어제 파일에서 글자 그대로 옮겨 왔으면 실패."""
+    import datetime as dt, os
+    out = []
+    try:
+        d0 = dt.date.fromisoformat(str(day.get("date", ""))[:10])
+    except ValueError:
+        return out
+    nxt_mon = d0 + dt.timedelta(days=7 - d0.weekday())
+    for it in items:
+        q = str(it.get("q", ""))[:20]
+        for f in ("q", "a", "flip", "watch"):
+            for m in re.finditer(r"다음 ?주[^/·|]{0,25}?(\d{1,2})/(\d{1,2})", str(it.get(f, ""))):
+                mo, da = int(m.group(1)), int(m.group(2))
+                try:
+                    t = dt.date(d0.year + (1 if mo < d0.month - 6 else 0), mo, da)
+                except ValueError:
+                    continue
+                if t < nxt_mon:
+                    out.append(f"{q}…: {f} 의 「{m.group(0)}」 — {mo}/{da} 는 다음 주가 아님(오늘 {d0.month}/{d0.day}) · 날짜에 맞게 고치세요")
+    prev = None
+    for k in range(1, 6):
+        p = f"data/{d0 - dt.timedelta(days=k)}.json"
+        if os.path.exists(p):
+            try:
+                prev = json.load(open(p, encoding="utf-8"))
+            except Exception:
+                prev = None
+            break
+    old = {str(i.get("q", "")) for i in ((prev or {}).get("qa") or {}).get("items") or []}
+    for it in items:
+        q = str(it.get("q", ""))
+        if q in old and re.search(REL, q):
+            w = re.search(REL, q).group(0)
+            out.append(f"{q[:20]}…: 질문에 「{w}」가 있는데 어제 질문을 그대로 옮김 — 오늘 날짜 기준으로 질문 글도 다시 쓰세요")
+    return out
+
+
 def check(day: dict, full: bool | None = None, f25: bool | None = None) -> int:
     if str(day.get("date", "")) < START:
         return 0
@@ -74,6 +117,7 @@ def check(day: dict, full: bool | None = None, f25: bool | None = None) -> int:
             bad.append(f"{q}: 「이 답이 바뀌는 조건」(flip)이 없음 — 숫자·선으로")
         if re.search(r"사세요|매수하세요|무조건|반드시 오|확실히 오", json.dumps(it, ensure_ascii=False)):
             bad.append(f"{q}: 매수 권유·단정 문구가 있음")
+    bad += stale(day, items)
     if bad:
         print("\n💬 고객 질문 답(qa) 검산 — RULES 1-N:")
         for b in bad[:14]:
