@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "엔비디아, 황 퇴진 뒤 SEC 조사 착수 — 캘리포니아 법무장관도 조치 검토",
+   "url": "https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-mulls-action/269054",
+   "press": "InvestmentNews",
+   "at": "2026-11-20 01:45",
+   "why": "🐋 NVDA 신호·가설④ — 경영 공백이 공시 조사로 번짐, 반도체 칸 변동성 꼬리",
+   "summary": "WSJ 단독 보도 인용: SEC가 황 CEO 퇴진 관련 엔비디아 공시를 조사. 캘리포니아 법무장관도 조치 검토. 같은 날 황은 「이사회가 원하면 복귀」 신호."
+  },
+  {
+   "title": "젠슨 황 「이사회가 요청하면 CEO 복귀」 — 사임 뒤 첫 입장",
+   "url": "https://stockanalysis.com/news/jensen-huang-ready-to-return-as-nvidia-ceo/",
+   "press": "StockAnalysis(AP)",
+   "at": "2026-11-20 01:45",
+   "why": "NVDA 경영 공백 해소 가능성 — SEC 조사와 반대 방향 재료, 🐋 NVDA bet 판단 보류 근거",
+   "summary": "황 전 CEO가 복귀 의사를 처음 밝힘. 이사회는 앞서 「복귀 고려 안 함」(CNBC). 엔비디아 01:20 +1.19%(152.76$)."
+  },
+  {
    "title": "앤스로픽(ANT) 오늘 첫 거래 — 공모가 83$, 강세 104$·약세 78$ 시나리오",
    "url": "https://financefeeds.com/anthropic-ant-stock-first-trade-today-after-83-ipo-bull-104-bear-78/",
    "press": "FinanceFeeds",
@@ -623,23 +639,7 @@
    "at": "2026-11-18 07:45",
    "why": "NVDA 🐋 고래 신호·💬 3번 — 실적 상회 뒤에도 CEO 공백 장기화",
    "summary": "이사회 의장 「황 복귀 계획 없음」 · 실적 매출 1,158억$·가이던스 1,300억$ 상회 · 시간외 상승"
-  },
-  {
-   "title": "엔비디아 실적 1시간 전 옵션 내재 변동 ±8.5% — 최근 8번 평균의 두 배",
-   "url": "https://247wallst.com/investing/2026/11/17/nvidia-reports-in-about-an-hour-options-price-an-8-5-move-twice-what-the-stock-has-averaged-after-its-last-8-reports/",
-   "press": "24/7 Wall St.",
-   "at": "2026-11-18 07:45",
-   "why": "실제 시간외 +3%대는 내재 변동의 절반 아래 = 「안도」 수준 — 한국 반도체 갭 크기 판단 기준",
-   "summary": "옵션 내재 ±8.5%(최근 8회 평균의 2배) · 실제 시간외 +2.5~3%대"
-  },
-  {
-   "title": "엔비디아 3분기(FY27) 매출 1,158억 달러·데이터센터 1,076억 — 다음 분기 1,300억 달러 전망, 시간외 약 +2%",
-   "url": "https://www.trendingtopics.eu/nvidia-without-huang-115-8-billion-in-revenue-beats-all-expectations/",
-   "press": "Trending Topics",
-   "at": "2026-11-18 06:35",
-   "why": "임시 CEO 첫 실적이 숫자로는 상회 — 한국 반도체(하이닉스·삼성) 오늘 갭·가설 ④",
-   "summary": "매출 1,158억$(+103% YoY, 예상 약 1,090억)·데이터센터 1,076억$(예상 1,019억)·총마진 74.8%→다음 분기 71~72% · 가이던스 1,300억$±3%(예상 1,252억) · 정규장 155.46$(−0.44%) 뒤 시간외 약 +2%"
   }
  ],
- "at": "2026-11-19 23:40"
+ "at": "2026-11-20 01:45"
 }
