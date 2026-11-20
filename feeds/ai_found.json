@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "캘리포니아 법무장관, 엔비디아에 조사 소환장 발부",
+   "url": "https://www.wsj.com/tech/california-attorney-general-issues-investigative-subpoena-to-nvidia",
+   "press": "WSJ",
+   "at": "2026-11-20 17:45",
+   "why": "🐋 NVDA 신호(11/24 155.46$ 판정)·반도체 칸 — SEC 조사에 이어 주 법무장관 소환장",
+   "summary": "캘리포니아 주 법무장관이 엔비디아에 조사 소환장 발부(WSJ 11/20). 11/17엔 「위험 신호(red flags)」 발언(블룸버그). 17:33 나스닥100 선물 −0.68%."
+  },
+  {
+   "title": "캘리포니아 법무장관 본타, 엔비디아·젠슨 황 조사 「위험 신호」 짚어",
+   "url": "https://stocktwits.com/news-articles/markets/equity/california-ag-rob-bonta-highlights-red-flags-in-his-investigation-into-nvidia-and-jensen-huang/cNbO44MR9hO",
+   "press": "Stocktwits",
+   "at": "2026-11-20 17:45",
+   "why": "NVDA 규제 악재가 연방(SEC)·주 두 갈래로 — 🐋 신호 실패 쪽 근거",
+   "summary": "본타 법무장관이 엔비디아 스캔들 관련 레드 플래그를 언급, 조사 진행. 소환장 발부로 이어짐(WSJ 11/20)."
+  },
+  {
    "title": "황, 엔비디아 복귀 의사 — WSJ 「SEC 조사」 보도",
    "url": "https://www.koreajoongangdaily.com/business/huang-pitches-nvidia-comeback-wsj-reports-sec-probing-the-chipmaker/12978169",
    "press": "코리아중앙데일리",
@@ -623,22 +639,6 @@
    "at": "2026-11-18 20:40",
    "why": "NVDA·한국 반도체 — 중국 H200 중단에 이어 대중 수출 규제 강화 압력, 트럼프 「중국산 AI 사용 공개 규칙」 검토(로이터)와 같은 방향",
    "summary": "의회 자문위원회 보고서: 중국군이 AI용 엔비디아 첨단 칩 확보 시도. 같은 날 트럼프 행정부가 미국 기업의 중국산 AI 모델 사용 공개 의무화 검토(로이터 단독)."
-  },
-  {
-   "title": "엔비디아 임시 CEO 크레스, 첫 실적 콜에서 중국 질문 집중",
-   "url": "https://letsdatascience.com/news/nvidia-interim-ceo-kress-faces-china-questions-in-first-earn-02c66bfa",
-   "press": "Let's Data Science",
-   "at": "2026-11-18 19:40",
-   "why": "가설④(AI 안의 갈림)·NVDA 🐋 신호 — 중국 H200 공급 중단이 4분기 가이던스(중국 제외)에 어떻게 들어갔나",
-   "summary": "임시 CEO 크레스 첫 콜의 쟁점이 중국 판매 중단. 같은 날 하나중국 「투자·보증 엄격 평가, 네오클라우드 지원 축소」·MarketWatch 「10-Q 제출 보류」 보도. 세부 숫자 미확인."
-  },
-  {
-   "title": "CEO 퇴진 뒤 엔비디아 — 앞으로 볼 날짜 5개",
-   "url": "https://fourweekmba.com/ai-nvidia-after-the-ceo-exit-5-dates-ahead-results-in-5-days/",
-   "press": "FourWeekMBA",
-   "at": "2026-11-18 19:40",
-   "why": "엔비디아 지배구조 일정(새 CEO·의회 증언·SEC) — 실적 뒤 반등이 이어질지 가늠할 달력, 💬3·15",
-   "summary": "황 사임 뒤 엔비디아의 실적·이사회·규제 일정 정리. 오늘 프리마켓 +4% 가까이(CNBC, kimu 19:02)와 10-Q 보류가 동시에 나온 상황. 날짜별 세부는 원문 확인 필요."
   }
  ],
  "at": "2026-11-20 10:40"
