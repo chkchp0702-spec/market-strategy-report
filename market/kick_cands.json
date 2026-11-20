@@ -7362,6 +7362,50 @@
 "src": "cup_eye",
 "score": 38.8,
 "lv": 1786.28
+},
+"TU|2026-11-19|pead": {
+"code": "TU",
+"name": "Telus Corporation Ordinary Shares",
+"mkt": "US",
+"d": "2026-11-19",
+"src": "pead",
+"score": 68.1
+},
+"OBK|2026-11-19|ins": {
+"code": "OBK",
+"name": "OBK",
+"mkt": "US",
+"d": "2026-11-19",
+"src": "ins",
+"score": 68.9,
+"note": "기회형 내부자 3명 · 386천 달러 (10일 안 공시)"
+},
+"TLSI|2026-11-19|ins": {
+"code": "TLSI",
+"name": "TLSI",
+"mkt": "US",
+"d": "2026-11-19",
+"src": "ins",
+"score": 67.9,
+"note": "기회형 내부자 3명 · 294천 달러 (10일 안 공시)"
+},
+"LCTX|2026-11-19|ins": {
+"code": "LCTX",
+"name": "LCTX",
+"mkt": "US",
+"d": "2026-11-19",
+"src": "ins",
+"score": 73.3,
+"note": "기회형 내부자 3명 · 828천 달러 (10일 안 공시)"
+},
+"SRTS|2026-11-19|ins": {
+"code": "SRTS",
+"name": "SRTS",
+"mkt": "US",
+"d": "2026-11-19",
+"src": "ins",
+"score": 67.6,
+"note": "기회형 내부자 3명 · 260천 달러 (10일 안 공시)"
 }
 },
 "sent": [
