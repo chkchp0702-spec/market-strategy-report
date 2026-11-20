@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "나스닥100 종목 10개 중 7개가 하락장(고점 −20%↓)",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63480090/nasdaq-100-stocks-bear-market-black-friday-nvidia-qqq",
+   "press": "Benzinga",
+   "at": "2026-11-21 07:45",
+   "why": "지수보다 종목 폭이 먼저 하락장 — 💼 나스닥100 코어·🐻 계기판 폭 지표, 바닥 신호(폭 반전) 기준점",
+   "summary": "11/20 검은 금요일 뒤 나스닥100 구성 종목 약 70%가 각자 고점 대비 −20% 아래 · QQQ·엔비디아가 낙폭 주도"
+  },
+  {
+   "title": "美 마감: S&P 조정 진입, 나스닥100 하락장 시험",
+   "url": "https://www.newsquawk.com/headlines/us-market-wrap-aggressive-equity-sell-off-sees-spx-enter-correction-and-ndx-test-bear-market",
+   "press": "Newsquawk",
+   "at": "2026-11-21 07:45",
+   "why": "NDX −20% 선 시험 — 💬 9번·🔴 뼈대 판정, 월요일 첫 방향 관전",
+   "summary": "공격적 매도로 S&P 고점 −10% 조정 진입 · 나스닥100은 하락장(−20%) 문턱 시험"
+  },
+  {
+   "title": "반도체 2001년 이후 최악의 주 — 나스닥100 하락장 근접",
+   "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html",
+   "press": "Yahoo Finance",
+   "at": "2026-11-21 07:45",
+   "why": "반도체 주간 낙폭 기록 — 삼성·하닉 월요일 시가, 091160 반도체 ETF 바닥 신호 대기",
+   "summary": "반도체 지수 주간 낙폭 2001년 이후 최대 · 나스닥100 하락장 근접"
+  },
+  {
    "title": "골드만 공포지수 13년 만의 기록 — 「역사적으로 반등 쪽」",
    "url": "https://www.mitrade.com/au/insights/stock-analysis/us-stocks/beincrypto-NAS-202611111013",
    "press": "Mitrade/BeInCrypto",
@@ -615,31 +639,7 @@
    "at": "2026-11-19 11:40",
    "why": "에너지 칸·장부 조건 brent_95 — 공급 쪽 재료인데 유가는 88~90에서 무덤덤",
    "summary": "美가 이란 원유 해상 환적까지 제한(로이터 11/19 피드)·봉쇄 강화. 이란 수출 「거의 0」 보도도(Gulf News). 브렌트 11/18 88.63(−4.84%) — 공격·봉쇄 뉴스에도 내리는 장이 계속되는지가 시험. 기사 게재일 원문 미확인."
-  },
-  {
-   "title": "모건스탠리, 글로벌 주식 「최대 비중확대」·2027년 S&P500 목표 8,700",
-   "url": "https://stockanalysis.com/news/morgan-stanley-maximum-overweight-global-stocks/",
-   "press": "StockAnalysis",
-   "at": "2026-11-19 10:45",
-   "why": "🟢 S&P 정상 판정·가설② 「갈아타기 vs 현금 도피」 — 대형 IB는 「조정 마지막 국면」 쪽",
-   "summary": "마이크 윌슨: 글로벌 주식 최대 비중확대, 2027 S&P 8,700(약 +15~19%)·AI 투자와 이익 성장 근거 · 같은 날 골드만은 2027 미국 이익 성장 11%로 둔화 전망(gn_us_ib)"
-  },
-  {
-   "title": "푸틴, APEC서 우크라이나 놓고 트럼프·시진핑 3자 회담 제안 — 키이우는 빠져",
-   "url": "https://investinglive.com/commodities/putin-floats-trump-xi-summit-on-ukraine-at-apec-leaving-kyiv-out-of-the-room/",
-   "press": "investingLive",
-   "at": "2026-11-19 10:45",
-   "why": "🛢️ brent 조건·원자재 — 오늘(11/19) 선전 3자 회담 결과가 유가·방산 방향을 바꿈",
-   "summary": "신화통신: 시진핑·트럼프·푸틴 11/19(목) 선전 회담 확인 · 의제 우크라이나·무역·AI · 오늘 한국 방산 −1.78%(한화에어로 −3.3%, daily-app 10:23)"
-  },
-  {
-   "title": "연준 바 이사: 2% 물가 복귀 위해 추가 인상 필요할 가능성 높다",
-   "url": "https://investinglive.com/central-banks/fed-s-barr-further-rate-hikes-are-likely-needed-to-ensure-timely-return-to-2-inflation/",
-   "press": "investingLive",
-   "at": "2026-11-19 09:45",
-   "why": "가설③ 12/9 FOMC — 의사록 뒤 투표권 이사까지 인상 쪽, 0.5%p 확률 8%로 상승",
-   "summary": "바 이사(투표권) 「추가 인상 필요 가능성 높다」 · 12월 0.25%p 인상 확률 100%·0.5%p 2.4→8.0%(금리선물, 김우다 09:01) · 美 10년 선물은 강보합"
   }
  ],
- "at": "2026-11-21 01:45"
+ "at": "2026-11-21 07:45"
 }
