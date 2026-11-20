@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美, 중국의 해외 데이터센터 우회로 막는 AI 칩 수출 통제 강화",
+   "url": "https://www.scmp.com/tech/article/3374639/us-tightens-ai-chip-export-curbs-close-chinas-overseas-data-centre-loophole",
+   "press": "SCMP",
+   "at": "2026-11-20 11:40",
+   "why": "TSMC 中 AI 칩 출하 조이기(인베스팅 11/20)의 배경 — 오늘 삼성 −6%·하닉 −6%·대만 −5% · 가설③ AI 안 갈림·💬 2번",
+   "summary": "美가 중국 기업의 해외 데이터센터를 통한 AI 칩 확보 경로를 막는 규정을 강화. 같은 날 TSMC가 中 AI 칩 통제를 더 조인다는 보도(로이터 인용)·상해 반도체 주도 하락 출발."
+  },
+  {
+   "title": "금, 연준 인상 다가오며 3년 연속 상승 끝날 듯",
+   "url": "https://www.scmp.com/business/commodities/article/3374547/gold-set-snap-blistering-run-three-year-gains-fed-rate-increase-looms",
+   "press": "SCMP",
+   "at": "2026-11-20 11:40",
+   "why": "💼 🔴 뼈대로 금 5→11% 늘리는 날 금이 주식과 같이 빠짐 — 나눠 채우기 근거 · 💬 17번",
+   "summary": "금리 인상 전망에 금이 3년 연속 상승을 멈출 전망. daily-app 기준 11/20 11:30 금 선물 3,538달러로 11/19 마감 3,650.8보다 약 3% 더 낮음(연중 최저 헤드라인)."
+  },
+  {
    "title": "소프트뱅크 16% 넘게 급락 — 앤스로픽 상장 뒤 아시아 기술주 AI 매도",
    "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
    "press": "CNBC",
@@ -623,22 +639,6 @@
    "at": "2026-11-18 15:40",
    "why": "🛢️ brent_95 조건(85↓ 에너지 축소)·💬19 — 공격 확대에도 유가 무반응이 이어지는지가 에너지 칸 판단",
    "summary": "11/18 이란이 쿠웨이트 미군 시설 겨냥 발표·호르무즈 가스운반선 공격(인베스팅 피드) · 유가 숫자는 미확인(블룸버그 「보합」)."
-  },
-  {
-   "title": "걸프 긴장 고조 — 이란이 쿠웨이트 타격, 미국은 호르무즈 인근 공습",
-   "url": "https://www.ksl.com/article/51506116/gulf-tensions-escalate-as-iran-hits-kuwait-us-strikes-near-hormuz",
-   "press": "KSL(AP)",
-   "at": "2026-11-18 14:45",
-   "why": "🛢️ 브렌트 95 장부 조건·에너지 칸·💬19 — 휴전 흔들림이 유가 하방(85 축소 선)을 막는 재료",
-   "summary": "이란군이 쿠웨이트 알리 알 살렘 기지의 美 드론·미사일 시설을 겨냥(CNBC 11/18). 미국은 호르무즈 인근 타격. 블룸버그는 유가 「보합(steadies)」 — 공격 뉴스만으로 못 오르는 장 지속, 브렌트 숫자는 미확인."
-  },
-  {
-   "title": "황의 퇴진과 미국 규제 — 중국 AI 연산력이 위태롭다",
-   "url": "https://asiatimes.com/2026/11/huangs-fall-us-curbs-put-chinas-ai-computing-in-peril/",
-   "press": "Asia Times",
-   "at": "2026-11-18 14:45",
-   "why": "엔비디아 임시 CEO 「중국에 첨단 칩 안 보냄」 — 4분기 1,300억$ 가이던스가 중국 제외라 숫자 영향은 작지만 中 보복(희토·광학) 위험 · 가설④",
-   "summary": "임시 CEO 크레스가 중국 첨단 반도체 수출 중단을 밝힘(블룸버그 11/18). 中 광학 수출 금지 추진 보도(gn_us_tech)와 겹쳐 공급망 보복 위험."
   }
  ],
  "at": "2026-11-20 10:40"
