@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "월러 연준 이사 「물가가 뜨거우면 12월 0.5%p 인상 환영」",
+   "url": "https://stockanalysis.com/news/fed-waller-december-rate-hike-half-point/",
+   "press": "스톡애널리시스",
+   "at": "2026-11-20 23:40",
+   "why": "가설 12/9 FOMC 분수령 — 0.5%p 쪽 목소리가 이사급에서 공개 · 💬 6번",
+   "summary": "월러 「12월 인상 지지, 물가가 뜨거우면 반 포인트도 환영」 · 머니투데이 11/20 「물가 잡으려면 충격 줘야」로 재보도 · 금리선물 0.5%p 확률 숫자는 이번 시간 미확인"
+  },
+  {
+   "title": "씨티 약세 지표, 2000년 이후 세 번뿐 — 며칠 안 발동 직전",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/rare-citi-signal-seen-just-141209545.html",
+   "press": "인베스팅(야후)",
+   "at": "2026-11-20 23:40",
+   "why": "🫧 버블 경보판·🔴 뼈대 — 반등을 「복귀 신호」로 착각하지 않게 하는 근거 · 💬 8번",
+   "summary": "씨티 퀀트팀 대형 약세 지표가 며칠 안 켜질 전망 · 2000년 이후 3번 켜졌고 매번 S&P500·나스닥100 큰 하락이 뒤따름 · 지표 이름·발동 조건은 원문 미확인"
+  },
+  {
    "title": "씨티, 거래 기록 오류로 위험자산 350억 달러 과소 계상 — 로이터 단독",
    "url": "https://www.investing.com/news/stock-market-news/exclusivecitiincorrectly-booked-trades-underestimatedrisky-assets-by-35-billion-sources-say-5040342",
    "press": "로이터(인베스팅)",
@@ -623,23 +639,7 @@
    "at": "2026-11-19 02:45",
    "why": "S&P 장중 200일선 아래 2일째 — 해외 포트 「3일 아래면 현금 26%」 규칙 판정 칸",
    "summary": "페이지 시세 S&P 7,313.87(−0.36%)·다우 50,293(−0.92%)·나스닥 24,296(−0.13%) · 10년 약 5.09% · 앤스로픽 11/19 나스닥 「ANT」 상장 예정."
-  },
-  {
-   "title": "오라클·엔비디아·알파벳·스페이스X CDS 사상 최고 — AI 부채 경계",
-   "url": "https://aiweekly.co/alerts/oracle-nvidia-alphabet-spacex-cds-hit-records-on-ai-debt",
-   "press": "AI Weekly",
-   "at": "2026-11-19 02:45",
-   "why": "가설①(AI 차입 크레딧 스트레스) 근거 — 🫧 버블 경보판 신용 칸",
-   "summary": "AI 대형주 신용부도스와프가 일제히 기록 수준. 야후 피드 「엔비디아 실적 뒤 오라클 CDS 사상 최대, 베테랑 트레이더 『약한 고리』」와 같은 흐름."
-  },
-  {
-   "title": "월가 혼조 — 엔비디아 다시 하락으로(AP)",
-   "url": "https://bizneworleans.com/wall-street-is-mixed-as-nvidia-gets-back-to-falling/",
-   "press": "AP(비즈뉴올리언스 전재)",
-   "at": "2026-11-19 01:45",
-   "why": "엔비디아 실적 상회에도 정규장 반납 — 가설④(빚으로 짓는 AI 할인)·내일 한국 반도체 되돌림 위험",
-   "summary": "엔비디아가 실적 뒤 상승분을 내주고 다시 하락, 지수는 혼조. 01:30 기준 엔비디아 −2.3%(151.83)·SOXX −1.0%·XLF −1.0%(daily-app)."
   }
  ],
- "at": "2026-11-20 21:45"
+ "at": "2026-11-20 23:40"
 }
