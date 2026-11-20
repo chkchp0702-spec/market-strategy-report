@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "나스닥100 선물 −1.6%, AMD 프리마켓 −7%·TSMC −4.2% — 대만 1991년 이후 최악의 주 뒤",
+   "url": "https://247wallst.com/investing/2026/11/20/amd-stock-drops-another-7-0-before-the-bell-and-taiwan-semiconductor-slides-4-2-as-nasdaq-futures-fall-1-6-after-asias-chip-selloff/",
+   "press": "24/7 Wall St.",
+   "at": "2026-11-20 21:45",
+   "why": "💼 🔴 뼈대(나스닥100 50%)·「아시아 단독 투매」 관찰 — 美 선물이 저녁보다 두 배로 깊어짐",
+   "summary": "나스닥100 선물 −1.6%·다우 선물 보합 · AMD 프리 −7.0%(공매도 보고서 이틀째)·TSM −4.2% · 대만 이번 주 1991년 이후 최악"
+  },
+  {
+   "title": "앤트로픽 상장에도 美 선물 하락 — AI 매도가 아시아·유럽으로 번져",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-20/us-stock-futures-fall-as-ai-selloff-spreads-to-asia-and-europe",
+   "press": "블룸버그",
+   "at": "2026-11-20 21:45",
+   "why": "AI 차입 가설·🫧 버블 경보판 — 매도가 지역·업종 밖으로 번지는지",
+   "summary": "美 주가 선물 하락, 앤트로픽 데뷔가 AI 불안을 잠재우지 못함 · 아시아·유럽 동반 약세 — 본문 세부 숫자 미확인"
+  },
+  {
+   "title": "씨티 「핵심 주식 신호 빨간불 직전 — 심리가 더 나빠지면 장기채가 답」",
+   "url": "https://www.marketwatch.com/story/citi-warns-a-key-stock-market-signal-is-close-to-flashing-red-5cbee1c3",
+   "press": "마켓워치",
+   "at": "2026-11-20 21:45",
+   "why": "🔴 뼈대 방패 칸(금 11%·현금 26%) — 금이 주식과 같이 빠지는 지금 장기채가 대안인지",
+   "summary": "씨티는 한 달 넘게 위험 회피 · 급락에도 위험자산을 늘릴 이유 없음 · 심리 악화 시 장기채 매수 권고 — 신호 이름·수치는 미확인"
+  },
+  {
    "title": "美 10년 금리 5% 위 이틀 더 — 2007년 연속 기록과 동률",
    "url": "https://247wallst.com/investing/2026/11/18/two-more-days-above-5-and-treasury-yields-tie-2007s-run/",
    "press": "24/7 Wall St.",
@@ -615,31 +639,7 @@
    "at": "2026-11-19 00:50",
    "why": "「실적 통과·주가는 판다」 확인 — NVDA 🐋 신호(11/17)에 bet 안 건 근거, 가설④(빚으로 짓는 곳 약세)",
    "summary": "매출 1,158억$(+103%)·4분기 가이던스 약 1,300억$·내년 성장 75%로 상향에도 개장 직후 마이너스(−1.3% 스냅샷) · 호퍼 중국 출하 중단·SEC 조사·CEO 공백이 짐 · CRWV −5.4%"
-  },
-  {
-   "title": "앤스로픽, 수요 몰려 공모 규모 확대 검토 — 개인 청약 1,000억 달러 육박",
-   "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
-   "press": "CNBC(앤스로픽 공모 확대 검토)",
-   "at": "2026-11-19 00:50",
-   "why": "앤스로픽 공모 확대 검토·개인 청약 1,000억$ 육박 — 11/19 첫 거래, 나스닥100 15거래일 고속 편입 때 빅테크 덜어 내기 수급",
-   "summary": "주관사들 공모 물량 확대 검토(CNBC 11/18) · 희망가 70~78$·8.25억 주·최대 644억$(블룸버그 11/12 6배 청약) · 가격 오늘 밤 확정"
-  },
-  {
-   "title": "드러켄밀러 「시장 가시성 기억상 최저」 — 구리 매도·주식 중립·달러 소폭 매수",
-   "url": "https://longbridge.com/en/news/305883406",
-   "press": "Longbridge",
-   "at": "2026-11-18 23:45",
-   "why": "원자재 동반 급락·가설③ 매파 연준과 같은 방향 — 금·구리·에너지 칸, 방어 전환 근거",
-   "summary": "자본 보전이 수익보다 우선이라며 포지션 크게 축소 · 구리 숏, 주식 중립, 달러 소폭 롱 · 경제·통화정책 불확실성 매우 높다고 진단"
-  },
-  {
-   "title": "구리 13,019달러로 하락 — 사상 최고 대비 −10.9%",
-   "url": "https://fourweekmba.com/ai-copper-falls-to-13019-amid-ai-upheaval-10-9-below-record/",
-   "press": "FourWeekMBA",
-   "at": "2026-11-18 23:45",
-   "why": "AI 수요 의문 + 매파 연준에 구리 급락 — 가설① AI 투자 둔화의 원자재 쪽 신호",
-   "summary": "구리 13,019달러, 기록 대비 10.9% 아래 · AI 인프라 흔들림이 수요 기대를 깎는 중(날짜·숫자 원문 기준)"
   }
  ],
- "at": "2026-11-20 10:40"
+ "at": "2026-11-20 21:45"
 }
