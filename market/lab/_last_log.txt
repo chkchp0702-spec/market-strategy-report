@@ -1,58 +1,92 @@
-무리 크기 {'E': 24, 'S': 102}
-E rel None 126 0.84 14.25 -17.6 1.09 {'n': 233, 'avg': 2.37, 'win': 47, 'pf': np.float64(2.0)} -13.89
-E rel None 252 0.84 14.25 -17.6 1.09 {'n': 233, 'avg': 2.37, 'win': 47, 'pf': np.float64(2.0)} -13.89
-E rel 0.2 126 0.82 13.69 -17.3 1.06 {'n': 229, 'avg': 1.84, 'win': 45, 'pf': np.float64(1.78)} -13.89
-E rel 0.2 252 0.81 13.37 -17.3 1.03 {'n': 212, 'avg': 1.63, 'win': 44, 'pf': np.float64(1.64)} -14.24
-E rel 0.33 126 0.83 13.43 -16.6 1.04 {'n': 217, 'avg': 1.53, 'win': 46, 'pf': np.float64(1.68)} -13.89
-E rel 0.33 252 0.84 13.96 -16.8 1.08 {'n': 197, 'avg': 2.3, 'win': 50, 'pf': np.float64(2.06)} -13.89
-E rel 0.5 126 0.83 13.4 -17.2 1.06 {'n': 186, 'avg': 1.62, 'win': 45, 'pf': np.float64(1.65)} -13.89
-E rel 0.5 252 0.84 13.29 -16.3 1.05 {'n': 169, 'avg': 1.65, 'win': 48, 'pf': np.float64(1.72)} -13.89
-E low None 126 0.83 13.78 -16.8 1.06 {'n': 246, 'avg': 1.86, 'win': 46, 'pf': np.float64(1.79)} -13.89
-E low None 252 0.85 13.78 -16.4 1.06 {'n': 219, 'avg': 2.02, 'win': 43, 'pf': np.float64(1.89)} -13.89
-E low 0.2 126 0.84 14.0 -16.3 1.09 {'n': 226, 'avg': 2.17, 'win': 49, 'pf': np.float64(1.99)} -13.89
-E low 0.2 252 0.83 13.83 -16.8 1.07 {'n': 192, 'avg': 2.35, 'win': 47, 'pf': np.float64(1.98)} -14.24
-E low 0.33 126 0.83 13.58 -16.7 1.06 {'n': 198, 'avg': 1.84, 'win': 48, 'pf': np.float64(1.83)} -13.89
-E low 0.33 252 0.85 13.42 -17.2 1.05 {'n': 198, 'avg': 1.63, 'win': 47, 'pf': np.float64(1.7)} -13.89
-E low 0.5 126 0.84 13.84 -17.1 1.1 {'n': 177, 'avg': 2.33, 'win': 49, 'pf': np.float64(2.03)} -13.89
-E low 0.5 252 0.85 13.23 -16.5 1.04 {'n': 167, 'avg': 1.56, 'win': 47, 'pf': np.float64(1.68)} -13.89
-E mix None 126 0.82 14.11 -17.4 1.08 {'n': 211, 'avg': 2.47, 'win': 46, 'pf': np.float64(2.14)} -13.89
-E mix None 252 0.85 14.04 -17.5 1.07 {'n': 207, 'avg': 2.4, 'win': 47, 'pf': np.float64(2.03)} -13.89
-E mix 0.2 126 0.82 14.25 -17.1 1.1 {'n': 229, 'avg': 2.43, 'win': 49, 'pf': np.float64(2.14)} -13.89
-E mix 0.2 252 0.82 13.8 -17.4 1.06 {'n': 206, 'avg': 2.16, 'win': 48, 'pf': np.float64(1.88)} -14.24
-E mix 0.33 126 0.83 13.46 -17.0 1.05 {'n': 216, 'avg': 1.59, 'win': 48, 'pf': np.float64(1.71)} -13.89
-E mix 0.33 252 0.84 13.65 -17.2 1.06 {'n': 196, 'avg': 1.99, 'win': 51, 'pf': np.float64(1.88)} -13.89
-E mix 0.5 126 0.84 13.7 -17.1 1.08 {'n': 178, 'avg': 2.14, 'win': 48, 'pf': np.float64(1.89)} -13.89
-E mix 0.5 252 0.85 12.98 -18.6 1.03 {'n': 165, 'avg': 1.24, 'win': 47, 'pf': np.float64(1.51)} -13.89
-E 고른 low None 252 0.85 {'cagr': np.float64(13.78), 'vol': np.float64(13.0), 'mdd': np.float64(-16.4), 'sharpe': np.float64(1.06), 'ex': np.float64(-0.73), 'win12': 44, 'beat_years': 5, 'years': 10, 'turn': 325} ➖ 애매 {'beat': False, 'mdd': True, 'sharpe': False} False
-  흔들기 하락 베타 202일 14.13 -16.4 1.08 -0.39
-  흔들기 하락 베타 302일 14.21 -16.4 1.08 -0.31
-  흔들기 위 20% 빼기 더하기 13.83 -16.8 1.07 -0.69
-S rel None 126 0.86 14.24 -20.8 1.04 {'n': 364, 'avg': 1.7, 'win': 40, 'pf': np.float64(1.51)} -17.9
-S rel None 252 0.86 14.24 -20.8 1.04 {'n': 364, 'avg': 1.7, 'win': 40, 'pf': np.float64(1.51)} -17.9
-S rel 0.2 126 0.82 13.89 -20.6 1.04 {'n': 326, 'avg': 1.53, 'win': 40, 'pf': np.float64(1.48)} -28.78
-S rel 0.2 252 0.82 13.81 -18.7 1.04 {'n': 312, 'avg': 1.44, 'win': 42, 'pf': np.float64(1.44)} -28.78
-S rel 0.33 126 0.83 13.23 -21.0 1.01 {'n': 300, 'avg': 0.98, 'win': 39, 'pf': np.float64(1.3)} -14.57
-S rel 0.33 252 0.86 13.9 -19.8 1.05 {'n': 300, 'avg': 1.69, 'win': 43, 'pf': np.float64(1.55)} -14.57
-S rel 0.5 126 0.88 13.08 -21.6 1.01 {'n': 318, 'avg': 1.05, 'win': 40, 'pf': np.float64(1.32)} -12.87
-S rel 0.5 252 0.87 12.8 -20.1 1.0 {'n': 294, 'avg': 0.77, 'win': 38, 'pf': np.float64(1.23)} -14.57
-S low None 126 0.9 13.32 -20.6 1.03 {'n': 311, 'avg': 1.12, 'win': 40, 'pf': np.float64(1.36)} -17.64
-S low None 252 0.83 13.23 -19.6 1.01 {'n': 306, 'avg': 1.04, 'win': 42, 'pf': np.float64(1.31)} -17.72
-S low 0.2 126 0.86 13.37 -20.5 1.04 {'n': 295, 'avg': 1.28, 'win': 41, 'pf': np.float64(1.41)} -21.91
-S low 0.2 252 0.83 13.37 -21.2 1.02 {'n': 302, 'avg': 1.25, 'win': 43, 'pf': np.float64(1.4)} -21.91
-S low 0.33 126 0.87 13.82 -20.5 1.07 {'n': 289, 'avg': 1.7, 'win': 41, 'pf': np.float64(1.58)} -21.91
-S low 0.33 252 0.86 13.72 -20.8 1.07 {'n': 294, 'avg': 1.55, 'win': 44, 'pf': np.float64(1.52)} -14.57
-S low 0.5 126 0.89 13.39 -21.1 1.04 {'n': 319, 'avg': 1.16, 'win': 39, 'pf': np.float64(1.4)} -21.91
-S low 0.5 252 0.84 13.77 -19.7 1.08 {'n': 297, 'avg': 1.55, 'win': 42, 'pf': np.float64(1.55)} -18.46
-S mix None 126 0.82 13.91 -21.7 1.05 {'n': 312, 'avg': 1.65, 'win': 40, 'pf': np.float64(1.5)} -18.9
-S mix None 252 0.83 13.51 -20.4 1.02 {'n': 321, 'avg': 1.18, 'win': 41, 'pf': np.float64(1.35)} -17.72
-S mix 0.2 126 0.89 13.52 -21.6 1.03 {'n': 302, 'avg': 1.4, 'win': 41, 'pf': np.float64(1.44)} -12.87
-S mix 0.2 252 0.88 13.37 -17.9 1.03 {'n': 265, 'avg': 1.25, 'win': 41, 'pf': np.float64(1.4)} -16.07
-S mix 0.33 126 0.89 13.64 -20.7 1.04 {'n': 274, 'avg': 1.57, 'win': 42, 'pf': np.float64(1.5)} -14.57
-S mix 0.33 252 0.83 14.15 -19.3 1.08 {'n': 289, 'avg': 1.97, 'win': 44, 'pf': np.float64(1.69)} -14.57
-S mix 0.5 126 0.88 12.28 -21.7 0.96 {'n': 291, 'avg': 0.41, 'win': 36, 'pf': np.float64(1.12)} -14.67
-S mix 0.5 252 0.86 13.88 -20.2 1.08 {'n': 279, 'avg': 1.71, 'win': 42, 'pf': np.float64(1.58)} -14.57
-S 고른 low None 126 0.9 {'cagr': np.float64(13.32), 'vol': np.float64(13.0), 'mdd': np.float64(-20.6), 'sharpe': np.float64(1.03), 'ex': np.float64(-1.2), 'win12': 43, 'beat_years': 5, 'years': 10, 'turn': 392} ➖ 애매 {'beat': False, 'mdd': True, 'sharpe': False} False
-  흔들기 하락 베타 101일 13.59 -20.7 1.04 -0.93
-  흔들기 하락 베타 151일 13.06 -20.9 1.01 -1.46
-  흔들기 위 20% 빼기 더하기 13.37 -20.5 1.04 -1.15
-SPY {'cagr': np.float64(14.52), 'vol': np.float64(18.1), 'mdd': np.float64(-33.7), 'sharpe': np.float64(0.84), 'ex': np.float64(0.0), 'win12': 0, 'beat_years': 0, 'years': 10} 종합 ➖ 애매
+pip nasdaq-100-ticker-history 1 ERROR: Could not find a version that satisfies the requirement nasdaq-100-ticker-history (from versions: none)
+ERROR: No matching distribution found for nasdaq-100-ticker-history
+
+import 실패 No module named 'nasdaq_100_ticker_history'
+pip git+https://github.com/sukhcs/n100tickers 0 
+구성 종목(2015~) 고유 207 야후 기호 204
+$ALXN: possibly delisted; no timezone found
+$ALTR: possibly delisted; no timezone found
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ANSS"}}}
+$ATVI: possibly delisted; no timezone found
+$ANSS: possibly delisted; no timezone found
+
+4 Failed downloads:
+['ALXN', 'ALTR', 'ATVI', 'ANSS']: possibly delisted; no timezone found
+$BRCM: possibly delisted; no timezone found
+$CERN: possibly delisted; no timezone found
+$CA: possibly delisted; no price data found  (1d 2013-06-01 -> 2026-11-19)
+$CELG: possibly delisted; no timezone found
+
+4 Failed downloads:
+['BRCM', 'CERN', 'CELG']: possibly delisted; no timezone found
+['CA']: possibly delisted; no price data found  (1d 2013-06-01 -> 2026-11-19)
+$CTRX: possibly delisted; no timezone found
+$CTXS: possibly delisted; no timezone found
+$DISH: possibly delisted; no timezone found
+$DISCA: possibly delisted; no timezone found
+$ENDP: possibly delisted; no timezone found
+$DISCK: possibly delisted; no timezone found
+$ESRX: possibly delisted; no timezone found
+$DTV: possibly delisted; no timezone found
+
+8 Failed downloads:
+['CTRX', 'CTXS', 'DISH', 'DISCA', 'ENDP', 'DISCK', 'ESRX', 'DTV']: possibly delisted; no timezone found
+$HOLX: possibly delisted; no timezone found
+$GMCR: possibly delisted; no timezone found
+
+2 Failed downloads:
+['HOLX', 'GMCR']: possibly delisted; no timezone found
+$LMCA: possibly delisted; no timezone found
+$LMCK: possibly delisted; no timezone found
+$LLTC: possibly delisted; no timezone found
+
+3 Failed downloads:
+['LMCA', 'LMCK', 'LLTC']: possibly delisted; no timezone found
+$MXIM: possibly delisted; no timezone found
+$MYL: possibly delisted; no timezone found
+
+2 Failed downloads:
+['MXIM', 'MYL']: possibly delisted; no timezone found
+$SIAL: possibly delisted; no timezone found
+$SGEN: possibly delisted; no timezone found
+$SRCL: possibly delisted; no timezone found
+$SHPG: possibly delisted; no timezone found
+$QRTEA: possibly delisted; no timezone found
+$SPLK: possibly delisted; no timezone found
+
+6 Failed downloads:
+['SIAL', 'SGEN', 'SRCL', 'SHPG', 'QRTEA', 'SPLK']: possibly delisted; no timezone found
+$WBA: possibly delisted; no timezone found
+$WFM: possibly delisted; no timezone found
+$VIAB: possibly delisted; no timezone found
+$XLNX: possibly delisted; no timezone found
+
+4 Failed downloads:
+['WBA', 'WFM', 'VIAB', 'XLNX']: possibly delisted; no timezone found
+$YHOO: possibly delisted; no timezone found
+
+1 Failed download:
+['YHOO']: possibly delisted; no timezone found
+가격 없음 36 ['ALTR', 'ALXN', 'ANSS', 'ATVI', 'BRCM', 'CA', 'CELG', 'CERN', 'CTRX', 'CTXS', 'DISCA', 'DISCK', 'DISH', 'DTV', 'EA', 'ENDP', 'ESRX', 'GMCR', 'HOLX', 'LLTC', 'LMCA', 'LMCK', 'MXIM', 'MYL', 'QRTEA', 'SGEN', 'SHPG', 'SIAL', 'SPLK', 'SRCL', 'VIAB', 'WBA', 'WBD', 'WFM', 'XLNX', 'YHOO']
+구성 종목-달 가격 없음 11.0 %
+NEW 앞 22.63 -16.2 | 뒤 16.37 -21.6 최악 -18.1 | 해 {2015: 5.4, 2016: 11.7, 2017: 34.0, 2018: 13.2, 2019: 36.5, 2020: 39.1, 2021: 28.5, 2022: -18.1, 2023: 46.1, 2024: 41.8, 2025: 13.2, 2026: -2.8}
+P_NEW 앞 20.29 -14.2 | 뒤 16.04 -18.0 최악 -10.9 | 해 {2015: 4.6, 2016: 11.0, 2017: 32.5, 2018: 13.2, 2019: 30.3, 2020: 33.2, 2021: 23.6, 2022: -10.9, 2023: 37.6, 2024: 36.7, 2025: 15.1, 2026: -0.7}
+NEW_c25 앞 19.47 -16.9 | 뒤 13.43 -23.7 최악 -19.9 | 해 {2015: 2.5, 2016: 9.3, 2017: 31.6, 2018: 10.0, 2019: 32.6, 2020: 34.8, 2021: 25.4, 2022: -19.9, 2023: 42.7, 2024: 38.4, 2025: 9.7, 2026: -5.0}
+M63_5 앞 35.45 -20.4 | 뒤 13.74 -43.0 최악 -7.2 | 해 {2015: 28.6, 2016: 25.5, 2017: 50.6, 2018: 14.1, 2019: 27.1, 2020: 75.0, 2021: 11.8, 2022: -7.2, 2023: 25.0, 2024: 10.6, 2025: -2.3, 2026: 53.2}
+M63_10 앞 30.27 -16.2 | 뒤 14.81 -35.5 최악 -6.8 | 해 {2015: 23.5, 2016: 28.6, 2017: 38.5, 2018: 13.3, 2019: 20.4, 2020: 62.7, 2021: 32.8, 2022: -6.8, 2023: 9.6, 2024: 21.4, 2025: 2.6, 2026: 34.0}
+M63_20 앞 28.54 -17.0 | 뒤 13.53 -30.2 최악 -12.6 | 해 {2015: 13.7, 2016: 18.4, 2017: 37.9, 2018: 14.5, 2019: 32.4, 2020: 60.1, 2021: 34.5, 2022: -12.6, 2023: 19.1, 2024: 19.0, 2025: 1.8, 2026: 22.9}
+M126_5 앞 42.89 -22.2 | 뒤 18.04 -41.6 최악 -9.0 | 해 {2015: 6.4, 2016: 54.6, 2017: 39.8, 2018: 19.6, 2019: 41.9, 2020: 117.6, 2021: 13.7, 2022: -9.0, 2023: 33.5, 2024: 12.5, 2025: 21.7, 2026: 42.6}
+M126_10 앞 32.57 -22.2 | 뒤 12.44 -45.3 최악 -10.3 | 해 {2015: 12.3, 2016: 29.2, 2017: 44.1, 2018: 9.7, 2019: 25.2, 2020: 89.0, 2021: 21.1, 2022: -10.3, 2023: 26.1, 2024: 29.1, 2025: 10.3, 2026: 3.0}
+M126_20 앞 29.35 -17.2 | 뒤 7.73 -35.3 최악 -9.5 | 해 {2015: 12.6, 2016: 24.5, 2017: 42.5, 2018: 17.9, 2019: 30.0, 2020: 52.8, 2021: 15.5, 2022: -9.5, 2023: 22.0, 2024: 23.0, 2025: 1.9, 2026: -3.2}
+M252_5 앞 32.31 -29.6 | 뒤 12.55 -54.8 최악 -19.5 | 해 {2015: 15.7, 2016: 33.5, 2017: 40.9, 2018: 3.2, 2019: 30.6, 2020: 82.5, 2021: 14.2, 2022: -19.5, 2023: 15.1, 2024: 54.2, 2025: 25.5, 2026: -0.1}
+M252_10 앞 30.25 -26.0 | 뒤 6.61 -51.5 최악 -17.9 | 해 {2015: 10.2, 2016: 23.8, 2017: 41.7, 2018: 14.4, 2019: 28.7, 2020: 71.4, 2021: 18.2, 2022: -17.9, 2023: 12.4, 2024: 41.8, 2025: -2.4, 2026: -2.9}
+M252_20 앞 24.9 -20.1 | 뒤 6.06 -40.6 최악 -15.7 | 해 {2015: 10.4, 2016: 13.8, 2017: 34.8, 2018: 13.1, 2019: 35.9, 2020: 45.7, 2021: 29.8, 2022: -15.7, 2023: 11.0, 2024: 27.7, 2025: -0.7, 2026: -8.2}
+앞 구간 1등 (126, 5)
+BEST_lb101 앞 44.75 -20.4 | 뒤 15.6 -40.7 최악 -9.2 | 해 {2015: 21.3, 2016: 58.5, 2017: 39.6, 2018: 10.2, 2019: 57.2, 2020: 97.5, 2021: 28.9, 2022: -9.2, 2023: 22.2, 2024: 7.6, 2025: 21.1, 2026: 29.7}
+BEST_lb151 앞 35.19 -27.5 | 뒤 10.3 -50.3 최악 -15.3 | 해 {2015: 14.8, 2016: 35.0, 2017: 27.5, 2018: 6.1, 2019: 42.4, 2020: 104.4, 2021: 23.8, 2022: -15.3, 2023: 3.7, 2024: 36.5, 2025: 12.6, 2026: 8.4}
+BEST_n4 앞 45.61 -21.6 | 뒤 21.16 -42.5 최악 -5.9 | 해 {2015: 4.9, 2016: 63.4, 2017: 33.6, 2018: 20.5, 2019: 49.6, 2020: 130.4, 2021: 16.7, 2022: -5.9, 2023: 30.4, 2024: 7.5, 2025: 35.1, 2026: 52.5}
+BEST_n6 앞 37.95 -22.5 | 뒤 12.93 -43.2 최악 -7.9 | 해 {2015: 3.9, 2016: 43.2, 2017: 47.1, 2018: 13.7, 2019: 40.2, 2020: 97.3, 2021: 13.6, 2022: -7.9, 2023: 32.7, 2024: 6.6, 2025: 9.4, 2026: 27.7}
+BEST_c25 앞 38.68 -23.1 | 뒤 14.54 -42.3 최악 -11.5 | 해 {2015: 2.9, 2016: 50.8, 2017: 36.6, 2018: 15.7, 2019: 37.6, 2020: 110.4, 2021: 10.6, 2022: -11.5, 2023: 29.8, 2024: 9.2, 2025: 17.4, 2026: 38.9}
+P_BEST 앞 37.07 -18.9 | 뒤 20.21 -36.7 최악 -0.6 | 해 {2015: 6.4, 2016: 49.2, 2017: 38.3, 2018: 19.3, 2019: 37.3, 2020: 84.0, 2021: 15.0, 2022: -0.6, 2023: 32.4, 2024: 9.5, 2025: 17.7, 2026: 54.0}
+BEST_MIX50 앞 32.8 -18.8 | 뒤 18.31 -30.9 최악 -13.4 | 해 {2015: 6.1, 2016: 31.8, 2017: 37.3, 2018: 16.7, 2019: 39.5, 2020: 75.2, 2021: 21.8, 2022: -13.4, 2023: 40.1, 2024: 27.1, 2025: 18.5, 2026: 20.9}
+P_BEST_MIX50 앞 28.72 -15.8 | 뒤 18.84 -27.8 최악 -5.7 | 해 {2015: 5.8, 2016: 29.0, 2017: 35.7, 2018: 16.4, 2019: 34.0, 2020: 57.2, 2021: 19.9, 2022: -5.7, 2023: 35.3, 2024: 22.8, 2025: 17.1, 2026: 25.7}
