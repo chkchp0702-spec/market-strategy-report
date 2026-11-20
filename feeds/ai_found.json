@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "소프트뱅크 16% 넘게 급락 — 앤스로픽 상장 뒤 아시아 기술주 AI 매도",
+   "url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
+   "press": "CNBC",
+   "at": "2026-11-20 10:40",
+   "why": "앤스로픽 상장 = AI 끝물 걱정이 아시아로 — 코스피 반도체·🐻 계기판·가설③(AI 안 갈림)",
+   "summary": "11/20 소프트뱅크 −16%↑ · 일본·한국 기술주 동반 급락 · 닛케이 장중 −2,800엔↑(일본 보도)"
+  },
+  {
+   "title": "신흥국 주식, AI 주도 기술주 하락에 약세장 진입 향해",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-20/emerging-market-stocks-set-for-bear-market-on-ai-led-tech-slide",
+   "press": "Bloomberg",
+   "at": "2026-11-20 10:40",
+   "why": "MSCI EM 6월 고점 −20% — 한국·대만 반도체 비중 큰 지수가 약세장 문턱 · 미국 밖 비중 한도(35%)·💬 13번",
+   "summary": "AI 매도·세계 금리 상승·무역 긴장이 원인(블룸버그) · 대만 가권 −4%·항셍테크 −3% 개장(하나중국 72458)"
+  },
+  {
    "title": "엔비디아, 중국向 H200 공급 중단",
    "url": "https://finance.yahoo.com/news/nvidia-pulls-plug-china-h200-111505059.html",
    "press": "Yahoo Finance",
@@ -623,31 +639,7 @@
    "at": "2026-11-18 14:45",
    "why": "엔비디아 임시 CEO 「중국에 첨단 칩 안 보냄」 — 4분기 1,300억$ 가이던스가 중국 제외라 숫자 영향은 작지만 中 보복(희토·광학) 위험 · 가설④",
    "summary": "임시 CEO 크레스가 중국 첨단 반도체 수출 중단을 밝힘(블룸버그 11/18). 中 광학 수출 금지 추진 보도(gn_us_tech)와 겹쳐 공급망 보복 위험."
-  },
-  {
-   "title": "골드만삭스, 연말 「산타 랠리」 반등 전망",
-   "url": "https://www.tipranks.com/news/goldman-sachs-gs-forecasts-a-year-end-santa-claus-rally",
-   "press": "TipRanks",
-   "at": "2026-11-18 13:45",
-   "why": "S&P 200일선 아래(7,340) 판정 중 IB 연말 반등 논리 — 🟢 S&P 칸·💬9 「참고」 의견",
-   "summary": "골드만이 연말 계절성 반등을 전망(제목 기준·세부 숫자 미확인). 피드 gn_us_ib 「Santa Claus Rally 2026」과 같은 흐름."
-  },
-  {
-   "title": "엔비디아 이사회 「황 복귀 없음」·SEC 조사 보도",
-   "url": "https://letsdatascience.com/news/nvidia-ceo-jensen-huang-resigns-cfo-colette-kress-named-inte-c5e83b05",
-   "press": "Let's Data Science",
-   "at": "2026-11-18 13:45",
-   "why": "NVDA 🐋(11/17)·SMH·한국 반도체 갭의 지배 변수 — 경영 공백·신용 엄격화가 AI 공급망 투자에 미치는 영향",
-   "summary": "황 사임 뒤 CFO 크레스 임시 CEO(보도). 로이터: 이사회 재고용 거부·WSJ SEC 조사, 블룸버그: 트럼프 복귀 지지·이사회 새 CEO 물색."
-  },
-  {
-   "title": "앤스로픽 희망가 70~78달러, 11/19 나스닥 상장",
-   "url": "https://abhs.in/blog/anthropic-ipo-ant-70-78-price-range-1-4-trillion-november-19-2026",
-   "press": "abhs.in",
-   "at": "2026-11-18 12:40",
-   "why": "공모 규모·밸류(최대 1.4조$ 보도)가 NVDA 🐋·SMH 수급과 겹침 — 첫 거래 날 AI 칩주 반응 확인용",
-   "summary": "희망가 70~78$·몸값 최대 약 1.4조$(TNW 보도와 같은 수치). 일부 보도는 약 1조$ 목표(investingLive) — 수치 엇갈림."
   }
  ],
- "at": "2026-11-20 08:40"
+ "at": "2026-11-20 10:40"
 }
