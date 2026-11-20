@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "나스닥 조정 영역 — AI·기술주에서 한발 물러서는 투자자",
+   "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-futures-dip-as-investors-step-back-from-ai-and-tech-with-nasdaq-in-correction-territory-nvda-aapl-uber-soxx-in-focus/cNGlIylR94A",
+   "press": "Stocktwits",
+   "at": "2026-11-21 02:45",
+   "why": "💼 나스닥100 코어 — 나스닥 고점 −10% 조정 진입, SOXX·엔비디아 중심",
+   "summary": "나스닥 조정 영역(고점 −10%↓) · AI·기술주 회피 · SOXX·NVDA 주목(세부 수치 원문 확인)"
+  },
+  {
    "title": "앤트로픽 후퇴에 AI 불안 확대 — 나스닥 약세 출발",
    "url": "https://www.marketscreener.com/news/nasdaq-set-for-lower-open-as-anthropic-retreat-deepens-ai-jitters-ce785ed3db8ff525",
    "press": "MarketScreener(로이터)",
@@ -631,14 +639,6 @@
    "at": "2026-11-19 06:45",
    "why": "가설③·환율 칸 — 매파 합창이 달러를 밀어 원/달러 1,330원대 반등 압력",
    "summary": "데일리 샌프란 연은 총재 「추가 인상 필요」 · 인상 베팅 강화로 달러 상승 · 반면 2년 금리는 4.83%로 하락(구글뉴스) — 금리보다 성장 둔화 반영"
-  },
-  {
-   "title": "엔비디아, 중국행 H200 생산 중단하고 베라 루빈에 집중",
-   "url": "https://finance.yahoo.com/news/nvidia-halts-china-bound-h200-120248594.html",
-   "press": "야후 파이낸스",
-   "at": "2026-11-19 05:40",
-   "why": "반도체 칸·가설④ — 중국 매출 0 전제 굳히기, 황 퇴진 뒤 중국 보수화와 같은 방향",
-   "summary": "엔비디아가 중국 수출용 H200 생산을 멈추고 베라 루빈으로 돌림(보도) · 11/19 05:34 NVDA 150.93(−2.91%) · 홍콩 기사 「엔비디아 대중 H200 판매 중단에 A주 연산력주 급등」 — 중국 자국 칩 수혜 쪽"
   }
  ],
  "at": "2026-11-21 01:45"
