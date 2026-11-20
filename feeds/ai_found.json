@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 규제가 동남아 AI 붐을 위협 — 말레이시아·태국 데이터센터 칩 수출 통제",
+   "url": "https://www.thestar.com.my/business/business-news/2026/11/16/american-curbs-threaten-south-east-asias-ai-boom",
+   "press": "The Star",
+   "at": "2026-11-21 05:45",
+   "why": "엔비디아 서버 협력사 동남아 출하 중단(닛케이)의 배경 — SOXX·대만 서버 ODM·한국 메모리 수요 칸",
+   "summary": "美 AI 칩 수출 규칙이 동남아 데이터센터 수요를 막을 수 있다는 분석(11/16). 11/20 닛케이는 엔비디아 서버 공급사들이 동남아 출하를 멈췄다고 보도 — 해외 DC 세금 경고와 같은 방향."
+  },
+  {
+   "title": "美 AI 칩 규제, 동남아 데이터센터 붐 위협 — 관련주 급락",
+   "url": "https://www.thestandard.com.hk/innovation/article/348740/US-AI-chip-curbs-threaten-Southeast-Asia-data-center-boom-shares-slump",
+   "press": "The Standard(HK)",
+   "at": "2026-11-21 05:45",
+   "why": "규제 세 겹(SEC·中·동남아)이 AI 하드웨어 수요 기대를 깎는 경로 — 가설③(현금 도는 곳 vs 빚으로 짓는 곳)",
+   "summary": "동남아 DC 관련주가 규제 우려로 급락. 정확한 낙폭 수치는 미확인."
+  },
+  {
    "title": "연준 폴슨 「점진적 추가 인상 지지」 — 더 빨리 올릴 세 가지 조건 제시",
    "url": "https://investinglive.com/central-banks/fed-s-paulson-backs-further-gradual-rate-hikes-names-three-triggers-for-faster-action/",
    "press": "investingLive",
@@ -623,22 +639,6 @@
    "at": "2026-11-19 09:45",
    "why": "에너지 칸·장부 brent 조건 — 공격 뉴스에 무덤덤하던 유가가 반응하는지 확인",
    "summary": "NYT 보도(트럼프 새 군사 공격 검토)와 같은 흐름 · 11/18 브렌트 88.63(−4.84%)·WTI 81.93 · 기사 날짜 미확인"
-  },
-  {
-   "title": "모닝스타, 엔비디아 적정가 19% 하향 — CEO 교체·혼란 반영",
-   "url": "https://www.morningstar.com/stocks/nvidia-we-cut-our-fair-value-estimate-given-firms-ceo-transition-turmoil",
-   "press": "Morningstar",
-   "at": "2026-11-19 08:45",
-   "why": "가설①·④ — 엔비디아 경영 공백이 AI 자금 조달(백스톱) 위축으로 번지는지 · 무디스 전망 하향과 같은 방향",
-   "summary": "CEO 교체·혼란을 이유로 적정가 −19% · 같은 날 무디스 신용 전망 긍정적→안정적(Aa1 유지) · 모닝스타는 「황 이탈이 AI 딜·자금 조달을 늦출 수 있다」고 경고"
-  },
-  {
-   "title": "소형주 「데드크로스」 — 증시 전체엔 무슨 뜻인가",
-   "url": "https://ca.finance.yahoo.com/m/2a887375-0a28-353a-a2c5-dc054503089e/ss_small-caps-just-entered-a.html",
-   "press": "MarketWatch(야후)",
-   "at": "2026-11-19 08:45",
-   "why": "가설②(현금 도피 vs 업종 갈아타기) — 소형주 추세 붕괴는 금리 압력 쪽, S&P 200일선 3일째 판정과 함께 볼 것",
-   "summary": "러셀2000 50일선이 200일선 아래로 · S&P 5일 연속 하락·200일선 아래 2일째와 겹침 · 12월 인상 우려에 변동금리 빚 많은 소형주가 먼저 맞음"
   }
  ],
  "at": "2026-11-21 01:45"
