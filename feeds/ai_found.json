@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "젠슨 황 「이사회가 원하면 엔비디아 CEO로 돌아가겠다」 — 사임 5일 만",
+   "url": "https://www.khaleejtimes.com/business/jensen-huang-says-willing-to-return-as-nvidia-ceo-5-days-after-exit",
+   "press": "Khaleej Times",
+   "at": "2026-11-20 14:40",
+   "why": "NVDA(🐋 11/17 신호) — CEO 공백·규제 리스크가 주가 할인 요인, 복귀 여부가 반도체 심리 변수 · 가설③",
+   "summary": "황 「복귀하면 영광」 발언 · 이사회 의장은 11/17 「복귀시킬 의도 없음」(WRDW) — 엇갈림, 결정 미확인"
+  },
+  {
+   "title": "소프트뱅크 14% 급락 — AI 주식 투매가 아시아 시장 강타",
+   "url": "https://www.kaohooninternational.com/?p=569330",
+   "press": "Kaohoon International",
+   "at": "2026-11-20 14:40",
+   "why": "AI 투자 지주사까지 급락 = 앤트로픽 상장 뒤 「AI 차입」 의심이 아시아로 · 가설① 크레딧 · 🐻 일본 칸",
+   "summary": "소프트뱅크 −14~15%(손 회장 「앤트로픽 투자 안 한 것 후회」 인베스팅) · 닛케이 14시 −2,900엔 · TSMC −5%"
+  },
+  {
    "title": "美 국채 랠리 — AI 매도에 안전자산 쏠림, 10년 금리 한 달 최저(제목 기준·날짜 미확인)",
    "url": "https://investinglive.com/news/some-good-news-treasuries-rally-as-ai-selloff-drives-flight-to-safety-10-year-yield-at-one-month-low/",
    "press": "investingLive",
@@ -623,22 +639,6 @@
    "at": "2026-11-18 18:40",
    "why": "삼성 다년 D램 공급계약 임박 보도(야후 11/18)와 이어짐 — 메모리 사이클 정점론(SemiAnalysis) 반대 근거, 091160·MU",
    "summary": "메모리 4사가 AI 고객과 장기 공급계약 58건 보유(정리 기사) · 다년 계약은 가격 하락기 물량 완충 — 단 낸드는 내년 2분기 하락(트렌드포스)."
-  },
-  {
-   "title": "트렌드포스: HBM 공급 빠듯 2027년까지 — 내년 HBM 가격 전년비 +121% 전망",
-   "url": "https://iconnect007.com/article/151778/hbm-supply-constraints-persist-2027-prices-seen-rising-121-yoy/151775/aep",
-   "press": "I-Connect007(TrendForce)",
-   "at": "2026-11-18 17:45",
-   "why": "반도체 칸·가설④ 메모리 상류 — HBM은 빡빡·낸드는 2분기 하락(11/18 트렌드포스 텔레그램 전재)으로 메모리 안 갈림",
-   "summary": "트렌드포스는 HBM 공급 제약이 2027년까지 이어져 HBM 가격이 전년비 +121% 오를 수 있다고 봄. 11/18 전재 기사는 HBM4 내년 +100%↑, 낸드는 내년 2분기부터 하락 전환."
-  },
-  {
-   "title": "마이크론, 자사주 매입 한도 350억 달러로 확대",
-   "url": "https://www.xtb.com/int/market-analysis/news-and-research/micron-expands-share-buybacks-to-35-billion",
-   "press": "XTB",
-   "at": "2026-11-18 16:40",
-   "why": "반도체 칸·가설④ 메모리 상류 — 12월 매입 창이 열리면 낸드 약세 구간 하방 받침(연합인포맥스 11/18)",
-   "summary": "10/13 이사회 승인 자사주 매입 한도 350억$ — 발표일 주가 −4%(뉴스에 팜). 연합인포맥스 11/18 「12월 빗장 풀려」."
   }
  ],
  "at": "2026-11-20 10:40"
