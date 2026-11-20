@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "오라클 「오픈AI 계약 자금 전액 확보」 — 자금 조달 우려 해명",
+   "url": "https://www.investing.com/news/stock-market-news/oracle-says-openai-contract-is-fully-funded-addresses-market-financing-scrutiny-5042772",
+   "press": "Investing.com",
+   "at": "2026-11-21 08:45",
+   "why": "가설① AI 차입(크레딧) 반대 근거 — 빚으로 짓는 쪽(오라클) 신용 걱정을 회사가 직접 진화",
+   "summary": "오라클이 오픈AI 계약 자금이 모두 확보됐다고 밝힘 · 구체 숫자 미확인 · 월요일 오라클 CDS·주가 반응이 검증"
+  },
+  {
+   "title": "美 10년물 금리 두 달 최저 근처 — 안전자산 수요",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/598729",
+   "press": "Trading Economics",
+   "at": "2026-11-21 08:45",
+   "why": "💼 단기채·채권 칸 · 💬 채권 질문 — 주식 급락에 국채 피난",
+   "summary": "AI 매도에 美 국채로 피난, 10년물 두 달 최저권(수치 미확인 — 원문 확인 필요)"
+  },
+  {
    "title": "나스닥100 종목 10개 중 7개가 하락장(고점 −20%↓)",
    "url": "https://www.benzinga.com/markets/equities/26/11/63480090/nasdaq-100-stocks-bear-market-black-friday-nvidia-qqq",
    "press": "Benzinga",
@@ -623,22 +639,6 @@
    "at": "2026-11-19 12:45",
    "why": "가설④ 아시아 AI 하드웨어 — 오늘(11/19) 장중 38,500(−4.1%)으로 이 종가 저점 아래, 코스피 4,968 재시험과 같은 모양인지 기준선",
    "summary": "11/6 대만 가권 39,702(−1,873p·−4.5%), 7일 연속 하락·주간 −12.2%. TSMC −4.7%·델타 −6.6%·훙하이 −4.5%. 11/9 공매도 제한·5천억 대만달러 안정기금 뒤 +4.9% 41,662 반등."
-  },
-  {
-   "title": "FOMC 의사록 — 위원 다수가 2026년 추가 인상 지지",
-   "url": "https://www.wealthprofessional.ca/news/industry-news/fed-minutes-show-most-officials-back-another-2026-rate-hike/393732",
-   "press": "Wealth Professional",
-   "at": "2026-11-19 11:40",
-   "why": "가설③ 12/9 FOMC 분수령 — 인상 쪽 근거, 💼 채권·신용 칸 금리 압력",
-   "summary": "10월 동결 회의 의사록에서 다수 위원이 추가 인상이 필요할 수 있다고 봄. 월러 「0.5%p로 충격 줄 필요」 발언과 같은 방향. 그런데도 10년물은 하락(인베스팅 2182722) — 성장 걱정 쪽 해석."
-  },
-  {
-   "title": "美 이란 해상 봉쇄 강화 — 상선 8척 회항·1척 무력화",
-   "url": "https://gulfnews.com/world/mena/us-tightens-naval-blockade-on-iran-8-commercial-ships-redirected-1-vessel-disabled-1.500615877",
-   "press": "Gulf News",
-   "at": "2026-11-19 11:40",
-   "why": "에너지 칸·장부 조건 brent_95 — 공급 쪽 재료인데 유가는 88~90에서 무덤덤",
-   "summary": "美가 이란 원유 해상 환적까지 제한(로이터 11/19 피드)·봉쇄 강화. 이란 수출 「거의 0」 보도도(Gulf News). 브렌트 11/18 88.63(−4.84%) — 공격·봉쇄 뉴스에도 내리는 장이 계속되는지가 시험. 기사 게재일 원문 미확인."
   }
  ],
  "at": "2026-11-21 07:45"
