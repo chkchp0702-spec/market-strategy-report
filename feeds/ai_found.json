@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "LME 구리 4개월 최저 — AI 매도세·중국 약세가 짓눌러",
+   "url": "https://news.metal.com/newscontent/HPSJFB5W7OIYMM4YPU4ZEOJU7MTVWGRUBNTCQ2A-lme-copper-hits-four-month-low-as-ai-selloff-and-china-weakness-weigh",
+   "press": "SMM(상하이메탈마켓)",
+   "at": "2026-11-20 12:45",
+   "why": "AI 투매가 원자재(구리·금)까지 번짐 = 「AI 설비투자 수요」 가설의 가격 쪽 반대 신호 · 블룸버그 「Copper Rout Deepens」(피드)와 같은 흐름",
+   "summary": "LME 구리 4개월 최저(SMM). 블룸버그도 「AI 매도세가 금속 시장 휩쓸어」. 같은 날 금은 14개월 최저·달러 19개월 최고(연합)."
+  },
+  {
+   "title": "후앙 없는 엔비디아 — AI 거래 멈칫이 금속에 주는 뜻",
+   "url": "https://oilprice.com/Metals/Commodities/Nvidia-Without-Huang-What-a-Pause-in-AI-Deals-Means-for-Metals.html",
+   "press": "OilPrice",
+   "at": "2026-11-20 12:45",
+   "why": "엔비디아 경영 공백→AI 딜 보류→구리·전력 금속 수요 기대 후퇴 경로 · NVDA 🐋(11/17)·가설③",
+   "summary": "엔비디아 리더십 공백이 AI 인프라 계약 속도를 늦출 수 있다는 분석 — 구리 등 금속 수요 기대 약화(숫자는 원문 확인 필요)."
+  },
+  {
    "title": "美, 중국의 해외 데이터센터 우회로 막는 AI 칩 수출 통제 강화",
    "url": "https://www.scmp.com/tech/article/3374639/us-tightens-ai-chip-export-curbs-close-chinas-overseas-data-centre-loophole",
    "press": "SCMP",
@@ -623,22 +639,6 @@
    "at": "2026-11-18 16:40",
    "why": "💬8·🟢 S&P 판정 — 7,250~7,350 지지 다섯 번째 시험, 200일선 7,328과 겹침(사흘 아래면 현금 26%)",
    "summary": "BTIG 수석 기술전략가: 지지선 반복 시험 → 이탈 확률↑, 소형주·나스닥·반도체 200일선 방어 어려울 수도. 하단 7,000 제시."
-  },
-  {
-   "title": "앤스로픽 공모가 수요일 확정·목요일 첫 거래 — 희망가 70~78달러",
-   "url": "https://aitoolsrecap.com/Blog/anthropic-ipo-prices-wednesday-trades-thursday",
-   "press": "AI Tools Recap",
-   "at": "2026-11-18 15:40",
-   "why": "💬6 앤스로픽 공모·AI 자금 이동 — 11/19 첫 거래가 AI 대형주 수급(엔비디아·소프트웨어)과 💬3·5에 영향",
-   "summary": "공모가는 11/18(수, 미국) 확정·11/19(목) 나스닥 첫 거래 일정 · 희망가 70~78달러(RTTNews) · 블룸버그 「희망가 상단 또는 위로 안내」(피드)."
-  },
-  {
-   "title": "이란군, 쿠웨이트의 미군 드론·미사일 기지 겨냥 — 걸프 공격 이어져",
-   "url": "https://www.cnbc.com/2026/11/18/trump-iran-war-hormuz-oil-.html",
-   "press": "CNBC",
-   "at": "2026-11-18 15:40",
-   "why": "🛢️ brent_95 조건(85↓ 에너지 축소)·💬19 — 공격 확대에도 유가 무반응이 이어지는지가 에너지 칸 판단",
-   "summary": "11/18 이란이 쿠웨이트 미군 시설 겨냥 발표·호르무즈 가스운반선 공격(인베스팅 피드) · 유가 숫자는 미확인(블룸버그 「보합」)."
   }
  ],
  "at": "2026-11-20 10:40"
