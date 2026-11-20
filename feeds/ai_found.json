@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "황, 엔비디아 복귀 의사 — WSJ 「SEC 조사」 보도",
+   "url": "https://www.koreajoongangdaily.com/business/huang-pitches-nvidia-comeback-wsj-reports-sec-probing-the-chipmaker/12978169",
+   "press": "코리아중앙데일리",
+   "at": "2026-11-20 16:40",
+   "why": "복귀 의사(호재)와 SEC 조사(악재)가 같은 날 — 오늘 밤 NVDA 정규장이 어느 쪽에 반응하나가 삼성·하닉 월요일 시가로 이어짐",
+   "summary": "황은 이사회가 원하면 복귀 의향, 같은 날 WSJ가 SEC 조사 보도. 이사회는 11/17 「복귀 의도 없음」."
+  },
+  {
    "title": "금·은 6시간 만에 시가총액 1조 달러 증발 — 연준 인상 베팅",
    "url": "https://beincrypto.com/gold-silver-lose-1-trillion-fed-rate-hike/",
    "press": "BeInCrypto",
@@ -631,14 +639,6 @@
    "at": "2026-11-18 19:40",
    "why": "엔비디아 지배구조 일정(새 CEO·의회 증언·SEC) — 실적 뒤 반등이 이어질지 가늠할 달력, 💬3·15",
    "summary": "황 사임 뒤 엔비디아의 실적·이사회·규제 일정 정리. 오늘 프리마켓 +4% 가까이(CNBC, kimu 19:02)와 10-Q 보류가 동시에 나온 상황. 날짜별 세부는 원문 확인 필요."
-  },
-  {
-   "title": "ECB 금융안정보고서 — AI 주가 붐, 급격한 재평가로 끝날 수 있다",
-   "url": "https://www.euronews.com/2026/11/16/ecb-warns-ai-share-boom-could-end-in-abrupt-repricing",
-   "press": "Euronews",
-   "at": "2026-11-18 18:40",
-   "why": "🫧 버블 경보판 신용·밸류 칸 — 중앙은행이 AI 밸류·재정·지정학을 3대 위험으로 명시(가설① AI 크레딧)",
-   "summary": "ECB가 AI 관련 주식 집중·고평가가 급격한 재평가로 이어질 위험을 경고 · 비은행(헤지펀드) 레버리지가 국채 변동성 키운다는 경고도 함께(블룸버그 11/18)."
   }
  ],
  "at": "2026-11-20 10:40"
