@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20 02:27",
+ "at": "2026-11-20 10:01",
  "cash2": 4.1,
  "markets": [
   {
@@ -11,10 +11,10 @@
    "ok": true,
    "staged": false,
    "anchor": "2026-11-12",
-   "asof": "2026-11-18",
+   "asof": "2026-11-20",
    "stock": 0,
    "cash": 100,
-   "next": "50일선(6,139) 위로 올라오면 주식",
+   "next": "50일선(6,104) 위로 올라오면 주식",
    "loo": {
     "med": 14.2,
     "worst": -42.6,
@@ -25,12 +25,12 @@
    "y2_worst": -21.3,
    "beat_cash": 9,
    "n": 12,
-   "lump_med": 4.7,
+   "lump_med": 8.3,
    "lump_worst": -63.9,
    "fwd": {
-    "more10": 10,
+    "more10": 9,
     "more_med": -28.0,
-    "y1_up": 6,
+    "y1_up": 7,
     "n": 12
    }
   },
@@ -43,21 +43,21 @@
    "ok": true,
    "staged": true,
    "anchor": "2026-11-12",
-   "asof": "2026-11-18",
+   "asof": "2026-11-20",
    "stock": 50,
    "cash": 50,
-   "next": "200일선(955.1) 위로 올라오면 나머지 절반도 주식",
+   "next": "200일선(953.4) 위로 올라오면 나머지 절반도 주식",
    "loo": {
-    "med": 58.0,
+    "med": 67.8,
     "worst": -27.5,
     "beat_cash": 10,
     "n": 12
    },
-   "y2_med": 48.0,
+   "y2_med": 53.8,
    "y2_worst": -26.3,
    "beat_cash": 10,
    "n": 12,
-   "lump_med": 58.0,
+   "lump_med": 67.8,
    "lump_worst": -27.5,
    "fwd": {
     "more10": 4,
@@ -75,25 +75,25 @@
    "ok": true,
    "staged": true,
    "anchor": "2026-11-19",
-   "asof": "2026-11-18",
+   "asof": "2026-11-20",
    "stock": 50,
    "cash": 50,
-   "next": "200일선(62,219) 위로 올라오면 나머지 절반도 주식",
+   "next": "200일선(62,234) 위로 올라오면 나머지 절반도 주식",
    "loo": {
-    "med": 28.7,
-    "worst": 10.8,
-    "beat_cash": 12,
+    "med": 45.7,
+    "worst": -18.1,
+    "beat_cash": 10,
     "n": 12
    },
-   "y2_med": 33.4,
-   "y2_worst": -6.4,
+   "y2_med": 38.5,
+   "y2_worst": -7.6,
    "beat_cash": 10,
    "n": 12,
-   "lump_med": 32.1,
-   "lump_worst": -21.5,
+   "lump_med": 44.7,
+   "lump_worst": -18.1,
    "fwd": {
-    "more10": 5,
-    "more_med": -4.6,
+    "more10": 6,
+    "more_med": -9.8,
     "y1_up": 8,
     "n": 12
    }
@@ -240,21 +240,21 @@
    "cash": 0,
    "next": "하락장(고점 −20%) 되면 현금",
    "loo": {
-    "med": 42.5,
-    "worst": -22.0,
-    "beat_cash": 11,
+    "med": 53.6,
+    "worst": -28.3,
+    "beat_cash": 10,
     "n": 12
    },
-   "y2_med": 51.1,
-   "y2_worst": -8.2,
-   "beat_cash": 11,
+   "y2_med": 53.6,
+   "y2_worst": -28.3,
+   "beat_cash": 10,
    "n": 12,
-   "lump_med": 51.0,
-   "lump_worst": -20.7,
+   "lump_med": 53.5,
+   "lump_worst": -28.6,
    "fwd": {
-    "more10": 4,
-    "more_med": -7.3,
-    "y1_up": 9,
+    "more10": 5,
+    "more_med": -8.9,
+    "y1_up": 8,
     "n": 12
    }
   },
@@ -270,23 +270,23 @@
    "asof": "2026-11-19",
    "stock": 50,
    "cash": 50,
-   "next": "200일선(25,159) 위로 올라오면 나머지 절반도 주식",
+   "next": "200일선(25,157) 위로 올라오면 나머지 절반도 주식",
    "loo": {
-    "med": 19.9,
-    "worst": -38.9,
-    "beat_cash": 8,
+    "med": 22.1,
+    "worst": -29.2,
+    "beat_cash": 7,
     "n": 12
    },
-   "y2_med": 25.1,
-   "y2_worst": -40.5,
-   "beat_cash": 8,
+   "y2_med": 11.8,
+   "y2_worst": -40.6,
+   "beat_cash": 7,
    "n": 12,
-   "lump_med": 26.4,
-   "lump_worst": -38.9,
+   "lump_med": 15.6,
+   "lump_worst": -41.1,
    "fwd": {
     "more10": 9,
-    "more_med": -16.4,
-    "y1_up": 8,
+    "more_med": -15.7,
+    "y1_up": 7,
     "n": 12
    }
   }
