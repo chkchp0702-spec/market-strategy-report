@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "AI주가 S&P500을 11/5 저점 쪽으로 다시 끌어내린다",
+   "url": "https://pro.thestreet.com/market-commentary/ai-stocks-drag-the-sp-500-back-toward-the-november-5th-lows",
+   "press": "TheStreet Pro",
+   "at": "2026-11-21 03:45",
+   "why": "🔴 뼈대·S&P 조정 — 11/5 저점이 다음 지지선인지(🐻 계기판 S&P −20% 6,255 전 단계)",
+   "summary": "11/20 AI 매도로 S&P가 11/5 저점 근처로 후퇴 · 세부 숫자는 원문(유료) 미확인"
+  },
+  {
+   "title": "골드만·아폴로, 스페이스X 400억$ AI 칩 빚 조각 판매 서둘러",
+   "url": "https://www.thewealthadvisor.com/article/goldman-and-apollo-race-sell-pieces-spacexs-40-billion-ai-deal",
+   "press": "The Wealth Advisor(블룸버그 전재)",
+   "at": "2026-11-21 03:45",
+   "why": "가설① AI 차입 — 은행이 GPU 빚을 장부에서 빨리 떼어내려는지(입찰 수요)가 신용 칸 시험대",
+   "summary": "10/26 아폴로 주도 400억$ GPU 리스(테크크런치) · 11/20 인베스팅 「아폴로·골드만 440억$ 주관」 · 블룸버그 11/20 스페이스X AI 칩 채권 금리 8%↑"
+  },
+  {
    "title": "나스닥 조정 영역 — AI·기술주에서 한발 물러서는 투자자",
    "url": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-futures-dip-as-investors-step-back-from-ai-and-tech-with-nasdaq-in-correction-territory-nvda-aapl-uber-soxx-in-focus/cNGlIylR94A",
    "press": "Stocktwits",
@@ -623,22 +639,6 @@
    "at": "2026-11-19 07:50",
    "why": "SemiAnalysis 2028 HBM 수요 하향·키움 「27년 공급 과잉」과 반대 쪽 근거 — 메모리 사이클 논쟁 채점용",
    "summary": "마이크론 발언 정리 — 2027·2028 공급 제약 심화 · 같은 날 SK하닉 ADR·마이크론은 하락(美 반도체지수 강보합)"
-  },
-  {
-   "title": "월러 연준 이사 「12월 0.5%p 인상이 더 편하다 — 데이터는 지켜볼 것」",
-   "url": "https://www.sharecast.com/news/international-economic/feds-waller-more-comfortable-with-50bp-december-rate-hike-but-watching-data--11432018.html",
-   "press": "Sharecast",
-   "at": "2026-11-19 06:45",
-   "why": "가설③ 12/9 FOMC 분수령 — 「폭」 꼬리, 💬 7번 답 근거",
-   "summary": "월러 이사 12월 50bp 인상 쪽에 더 무게(데이터 확인 조건) · 의사록 「거의 모든 위원 추가 인상」 직후 · 달러인덱스 103.8로 18개월 최고(Finviz)"
-  },
-  {
-   "title": "데일리 총재 긴축 지지에 연준 인상 베팅 굳어져 — 달러 강세",
-   "url": "https://stockwirex.com/?p=56167",
-   "press": "StockWireX",
-   "at": "2026-11-19 06:45",
-   "why": "가설③·환율 칸 — 매파 합창이 달러를 밀어 원/달러 1,330원대 반등 압력",
-   "summary": "데일리 샌프란 연은 총재 「추가 인상 필요」 · 인상 베팅 강화로 달러 상승 · 반면 2년 금리는 4.83%로 하락(구글뉴스) — 금리보다 성장 둔화 반영"
   }
  ],
  "at": "2026-11-21 01:45"
