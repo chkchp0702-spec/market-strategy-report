@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "JP모건·도이체 등 「연준 3번째 인상」을 전망에 추가",
+   "url": "https://www.fxstreet.com/analysis/us-fed-update-we-add-a-third-hike-to-our-fed-forecast-202611180511",
+   "press": "FXStreet",
+   "at": "2026-11-20 18:45",
+   "why": "12/9 FOMC 분수령 가설 — 「한 번 더」가 아니라 「연속 인상」 경로로 IB 컨센서스가 이동, 💼 현금 26% 칸의 단기채 금리 근거",
+   "summary": "11/18 IB 리서치가 연준 인상 전망을 3회로 늘림(12월·1월·3월). 연합 11/20 「JP모건 美 금리 3연속 인상 전망, IMF도 경고」로 국내 보도."
+  },
+  {
+   "title": "美 AI 칩 수출 규제에 중국 기술주 타격 — 자급 가속",
+   "url": "https://www.investing.com/news/stock-market-news/us-ai-chip-curbs-hit-china-tech-stocks-spur-selfsufficiency-push-5040932",
+   "press": "Investing.com",
+   "at": "2026-11-20 18:45",
+   "why": "항셍 1년 반 최저·고점 −19% 날 — H주 50% 칸, AMD·엔비디아 중국 매출 리스크와 이어짐",
+   "summary": "美 AI 칩 수출 규제 강화로 중국 기술주 급락, 중국은 칩 자급 추진 가속. 같은 날 항셍 −430p·주간 −1,226p, 남향자금 118억 HKD 순유입."
+  },
+  {
    "title": "캘리포니아 법무장관, 엔비디아에 조사 소환장 발부",
    "url": "https://www.wsj.com/tech/california-attorney-general-issues-investigative-subpoena-to-nvidia",
    "press": "WSJ",
@@ -623,22 +639,6 @@
    "at": "2026-11-18 21:40",
    "why": "포트 광통신 칸(LITE→MRVL) · 8/4 첫 보도 때 AAOI +17%·COHR +11% 뒤 되돌림 선례 — 이번은 「강행」 단계",
    "summary": "빅테크 반대에도 미국이 중국산 광트랜시버 수입 제한을 밀어붙인다는 보도에 미국 광부품주 급등(코히런트 +8%, AAOI +7%, 루멘텀 +4%). 8/4 초안 보도 때도 AAOI +17%·COHR +11%(247wallst)."
-  },
-  {
-   "title": "엔비디아 이사회, 젠슨 황 CEO 복귀 배제 — 내부 조사에 집중",
-   "url": "https://aiweekly.co/alerts/nvidia-board-rules-out-huang-return-stays-focused-on-probe",
-   "press": "AI Weekly",
-   "at": "2026-11-18 20:40",
-   "why": "NVDA 🐋(11/17) 신호 · 가설④ — 실적은 통과했지만 리더십·조사 변수가 남아 갭 추격 대신 정규장 확인",
-   "summary": "이사회가 황 복귀를 검토하지 않고 조사에 집중(FT·CNBC 보도 인용). 직원 일부는 복귀 요구(CNBC). 세부 숫자 없음."
-  },
-  {
-   "title": "미 의회 위원회 「중국군, AI 역량 위해 엔비디아 첨단 칩 물색」",
-   "url": "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html",
-   "press": "CNBC",
-   "at": "2026-11-18 20:40",
-   "why": "NVDA·한국 반도체 — 중국 H200 중단에 이어 대중 수출 규제 강화 압력, 트럼프 「중국산 AI 사용 공개 규칙」 검토(로이터)와 같은 방향",
-   "summary": "의회 자문위원회 보고서: 중국군이 AI용 엔비디아 첨단 칩 확보 시도. 같은 날 트럼프 행정부가 미국 기업의 중국산 AI 모델 사용 공개 의무화 검토(로이터 단독)."
   }
  ],
  "at": "2026-11-20 10:40"
