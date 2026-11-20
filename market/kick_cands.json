@@ -7406,6 +7406,55 @@
 "src": "ins",
 "score": 67.6,
 "note": "기회형 내부자 3명 · 260천 달러 (10일 안 공시)"
+},
+"MTN|2026-11-20": {
+"code": "MTN",
+"name": "Vail Resorts, Inc. Common Stock",
+"mkt": "US",
+"d": "2026-11-20",
+"src": "cup_eye",
+"score": 72.8,
+"lv": 153.13,
+"max20": 5.0,
+"id60": 0.0
+},
+"PG|2026-11-20": {
+"code": "PG",
+"name": "Procter & Gamble Company (The) Common ",
+"mkt": "US",
+"d": "2026-11-20",
+"src": "cup_eye",
+"score": 28.8,
+"lv": 167.02,
+"max20": 3.2,
+"id60": -0.1
+},
+"ACCO|2026-11-20|e": {
+"code": "ACCO",
+"name": "Acco Brands Corporation Common Stock",
+"mkt": "US",
+"d": "2026-11-20",
+"src": "earn",
+"score": 77.4,
+"lv": 4.74
+},
+"TM|2026-11-20|e": {
+"code": "TM",
+"name": "Toyota Motor Corporation Common Stock",
+"mkt": "US",
+"d": "2026-11-20",
+"src": "earn",
+"score": 68.4,
+"lv": 200.86
+},
+"PLMR|2026-11-20|e": {
+"code": "PLMR",
+"name": "Palomar Holdings, Inc. - Common stock",
+"mkt": "US",
+"d": "2026-11-20",
+"src": "earn",
+"score": 51.8,
+"lv": 147.62
 }
 },
 "sent": [
