@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "앤트로픽 상장 이틀째 프리마켓 −9.6% — 페이스북·우버도 2일째 −11%였다",
+   "url": "https://247wallst.com/investing/2026/11/20/anthropic-stock-falls-9-6-before-the-bell-on-its-second-day-of-trading-facebook-and-uber-both-fell-11-on-day-2-heres-what-happened-next/",
+   "press": "24/7 Wall St.",
+   "at": "2026-11-21 00:45",
+   "why": "초대형 IPO 2일째 급락의 과거 사례 — 💬 5번 앤트로픽 답·🫧 버블 경보판 IPO 공모가 회귀 관찰",
+   "summary": "앤트로픽 2일째 개장 전 −9.6%. 페이스북·우버도 상장 2일째 −11% 하락했던 전례 비교(이후 흐름은 원문)."
+  },
+  {
+   "title": "11/20 증시 라이브: 美 개장 뒤에도 반도체 하락 지속",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026",
+   "press": "StockTitan",
+   "at": "2026-11-21 00:45",
+   "why": "정규장에서도 반도체 집중 매도 — SOXX −6%·엔비디아 −5%(daily-app 00:24) · 🔴 뼈대 나스닥100 50% 칸·NVDA 🐋 11/17 신호",
+   "summary": "美 개장 후 칩주 하락 지속. daily-app 00:24 기준 SOXX −6.06%·NVDA −5.26%·ANET −8.6% vs GOOGL +2.3%."
+  },
+  {
    "title": "월러 연준 이사 「물가가 뜨거우면 12월 0.5%p 인상 환영」",
    "url": "https://stockanalysis.com/news/fed-waller-december-rate-hike-half-point/",
    "press": "스톡애널리시스",
@@ -623,22 +639,6 @@
    "at": "2026-11-19 03:45",
    "why": "가설①④ — AI 인프라 축소가 구리(전력·DC 수요)로 번짐 · 에너지·AI 하드웨어 칸 선행 신호",
    "summary": "구리 수개월 최저 · 트레이더들이 데이터센터 관련 베팅을 거둬들이는 중(야후) · 드러켄밀러 구리 매도 전환(11/18)과 같은 방향"
-  },
-  {
-   "title": "다우 하락 — 연준 위원 「인상으로 충격 줘야」·로우스 전망 미달, 의사록 대기",
-   "url": "https://finance.yahoo.com/m/3b6d51d3-7bfb-3b08-a92e-3b70e9f0655b/stock-market-today%3A-dow-sinks.html?.tsrc=rss",
-   "press": "Yahoo Finance",
-   "at": "2026-11-19 03:45",
-   "why": "S&P 200일선 아래 이틀째 판정·가설③ — 매파 발언에 소비 실적 미달 겹침",
-   "summary": "다우 하락·월러 「충격 필요할 수도」 · 로우스 전망 미달 · 엔비디아 −2.05%(152.27, daily-app 03:34) · SOXX 보합 · 04:00 의사록"
-  },
-  {
-   "title": "엔비디아 실적도 지수를 못 살렸다 — 다우 약 600pt 하락, 앤스로픽 상장 대기(야후)",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-p-125812319.html",
-   "press": "야후 파이낸스",
-   "at": "2026-11-19 02:45",
-   "why": "S&P 장중 200일선 아래 2일째 — 해외 포트 「3일 아래면 현금 26%」 규칙 판정 칸",
-   "summary": "페이지 시세 S&P 7,313.87(−0.36%)·다우 50,293(−0.92%)·나스닥 24,296(−0.13%) · 10년 약 5.09% · 앤스로픽 11/19 나스닥 「ANT」 상장 예정."
   }
  ],
  "at": "2026-11-20 23:40"
