@@ -60,6 +60,17 @@ def main() -> int:
     now = dt.datetime.now(KST)
     tick = ["^GSPC", "SPY", "QQQ", "BIL", "^KS11", "IEF", "TLT"]
     df = yf.download(tick, start="2024-06-01", interval="1d", auto_adjust=True, progress=False, group_by="ticker", threads=True)
+    # 🗓 11/20 야후 빈 종가 — 11/19 봉의 SPY·QQQ 종가가 비어 dropna 로 하루가 통째로 빠짐 → conc.json asof 11/18 · 🟢 그대로
+    #   (장부·홈은 🔴, 🌅 아침 카드 「바꿀 것 없음」으로 엇갈림). 🐻 계기판과 같은 채우기 · 미국 장 마감 전 오늘 봉은 새로 만들지 않음
+    try:
+        from src.bear_gate import fill_null_close
+        before = set(df.index)
+        fill_null_close(df, ["^GSPC", "SPY", "QQQ"])
+        et = dt.datetime.now(dt.timezone(dt.timedelta(hours=-5)))
+        for t in [t for t in df.index if t not in before and str(t)[:10] >= et.strftime("%Y-%m-%d") and et.hour * 60 + et.minute < 16 * 60 + 15]:
+            df = df.drop(index=t)
+    except Exception as e:
+        print("빈 종가 채우기 건너뜀", str(e)[:120])
     C = pd.DataFrame({t: df[t]["Close"] for t in tick if t in df.columns.get_level_values(0)})
     ks = C["^KS11"].dropna()
     C = C.drop(columns=["^KS11"]).dropna(subset=["^GSPC", "SPY", "QQQ"]).ffill()

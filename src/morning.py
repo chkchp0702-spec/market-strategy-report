@@ -179,7 +179,10 @@ def snapshot(d, led, bear, conc, focus):
         if c.get("label") == "돈이 들어오는 곳":
             top = c.get("name"); break
     th = [t.get("name") for t in (focus.get("themes") or [])[:2]]
-    return {"date": d.get("date"), "up": (conc.get("regime") or {}).get("up"), "skel": (led.get("skeleton") or {}).get("now"),
+    # 🗓 11/20 해외 판정은 장부 뼈대(skeleton.now)가 정본 — conc.json 이 야후 빈 종가로 하루 늦으면 🟢 그대로라 「바꿀 것 없음」이 나갔음
+    skel = (led.get("skeleton") or {}).get("now")
+    up = (skel == "up") if skel in ("up", "down") else (conc.get("regime") or {}).get("up")
+    return {"date": d.get("date"), "up": up, "skel": skel,
             "views": views, "mk": mk, "sc": {k: sc.get(k) for k in ("A", "B2", "C", "B")}, "money": top, "themes": th}
 
 
@@ -216,6 +219,8 @@ def diff(prev, now, d, moves, conc, bear):
                   "s": "S&P 보다 5·20일 강하고 3일 연속"})
     # 오늘 밤 바뀔 수 있는 것 (거리 1% 안)
     rg = conc.get("regime") or {}
+    if rg.get("up") is not None and now.get("up") is not None and rg["up"] != now["up"]:
+        rg = {}   # conc.json 이 장부보다 늦음(빈 종가) → 그 거리 숫자는 옛 값이라 안 씀
     if rg.get("gap") is not None and abs(rg["gap"]) < 1.5:
         side = "아래" if rg["gap"] < 0 else "위"
         C.append({"lv": "watch", "ic": "⏳", "t": f'S&P500 200일선 {side} {abs(rg["gap"]):.1f}%',
