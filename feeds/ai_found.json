@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "엔비디아, 중국向 H200 공급 중단",
+   "url": "https://finance.yahoo.com/news/nvidia-pulls-plug-china-h200-111505059.html",
+   "press": "Yahoo Finance",
+   "at": "2026-11-20 09:35",
+   "why": "NVDA(🐋 11/17)·한국 반도체 — 수출 허가 칩까지 中 출하가 끊기면 가설③(AI 안 갈림)의 「규제 할인」 확대",
+   "summary": "엔비디아가 허가받은 호퍼 계열(H200 포함) 中 출하 중단 보도(gn_us_tech 헤드라인과 같은 사건) · 같은 날 FT 「삼성·TSMC 일부 中 고객 첨단 칩 출하 중단」 · 오늘 코스피 반도체 소부장 −10~12%"
+  },
+  {
    "title": "SEC, 젠슨 황 퇴진 뒤 엔비디아 공시 민사 조사(테크크런치)",
    "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
    "press": "TechCrunch",
