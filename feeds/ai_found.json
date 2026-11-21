@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "CNBC 「트럼프 계좌, 엔비디아 주식 최대 9,750만 달러어치 거래」",
+   "url": "https://thenextweb.com/news/trump-nvidia-trades-97-5m-cnbc-huang-briefing",
+   "press": "The Next Web(CNBC 인용)",
+   "at": "2026-11-21 15:45",
+   "why": "엔비디아 규제·정치 위험 칸(가설①·NVDA 7주 −46%) — 서울경제 「젠슨 황 스캔들 전 대거 거래」와 같은 줄기, 수출 허가 정치화 위험",
+   "summary": "CNBC 분석: 트럼프 계좌의 엔비디아 거래 규모 최대 9,750만 달러(공시 구간 합) · 앞선 공시(9월 최대 26.5만 달러·5월 최대 500만 달러)보다 훨씬 큼 · 정확한 거래 날짜·손익은 미확인"
+  },
+  {
    "title": "美 상원, 에너지·송전 인허가 개편법 통과 — 데이터센터 전력 프로젝트 속도",
    "url": "https://www.planetizen.com/node/138849",
    "press": "Planetizen",
