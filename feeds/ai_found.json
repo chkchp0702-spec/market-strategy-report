@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 반도체 수출통제 확대 — 삼성전자, 中 AI 칩 출하 중단",
+   "url": "https://en.sedaily.com/society/2026/11/21/us-chip-export-curbs-widen-samsung-halts-ai-chip-shipments",
+   "press": "서울경제(영문)",
+   "at": "2026-11-21 11:45",
+   "why": "월요일 삼성·하이닉스 시가와 외국인 반도체 매도 — 코스피 0%·🧭 반도체 판정과 이어짐",
+   "summary": "美 새 수출규정 발효로 삼성전자가 일부 中 고객 AI 칩 출하를 멈춤 · TSMC도 동반 중단(FT 보도 후속) · 실적보다 규제·출하가 주가를 누르는 흐름 확인"
+  },
+  {
+   "title": "TSMC·삼성의 中 출하 중단, AI 너머까지 파장",
+   "url": "https://finance.yahoo.com/technology/articles/tsmc-samsungs-china-chip-pause-185414287.html",
+   "press": "야후 파이낸스",
+   "at": "2026-11-21 11:45",
+   "why": "출하 중단이 AI 가속기 밖(일반 칩)까지 번지면 대만·한국 수출 숫자에 닿음 — 가설③ AI 안 갈림·대만 최악의 주와 연결",
+   "summary": "中 고객 대상 일부 칩 출하 일시 중단 · 규정 적용 범위가 AI 칩보다 넓을 수 있다는 분석 · 세부 범위는 미확인"
+  },
+  {
    "title": "대만 가권지수 6개월 최저 마감·4주 연속 주간 하락",
    "url": "https://tradingeconomics.com/taiwan/stock-market/news/598961",
    "press": "Trading Economics",
@@ -623,22 +639,6 @@
    "at": "2026-11-19 15:45",
    "why": "금 칸 5% — 금리 인상 폭 논쟁(12/9)이 금을 누르는 경로, 오늘 3,750$ 아래로 연장",
    "summary": "11/16 강달러·인상 베팅에 1년여 만 최저 → 11/18 −3% 3,800 붕괴 → 11/19 PM 3,750 아래(Kitco PM). 슈로더는 연말 반등에 베팅."
-  },
-  {
-   "title": "월러 「0.5%p 인상 폭탄」 뒤 금 하락 — CPI 예상 상회 겹쳐",
-   "url": "https://investinglive.com/commodities/gold-dips-after-fed-s-waller-drops-the-50-bps-hike-bomb-and-us-cpi-comes-above-expectations/",
-   "press": "investingLive",
-   "at": "2026-11-19 15:45",
-   "why": "가설③ 12/9 FOMC 분수령 — 0.5%p 꼬리가 금·성장주를 함께 누르는 첫 경로",
-   "summary": "월러 「12월 0.5%p로 충격 줄 수도」 + CPI 상회 뒤 금 하락. 금리선물 0.5%p 확률은 8%(11/19 09:01)로 아직 꼬리."
-  },
-  {
-   "title": "마이크론, 12월 350억 달러 자사주매입 빗장 풀려…역대급",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9FZDJ0Z2FLNFhPYkNPcVA5NjYwR1pZVERma052RFpncUFUcHJCc0ZyUjBaUUh6Yy1kWG9Idm5RUncyOFpmSU5HZlV3b1k2X1E4V1c5MlFiYWY0MDdVZDVNWEZjbFNlTjBTdXducUNSMDU?oc=5",
-   "press": "연합인포맥스",
-   "at": "2026-11-19 14:45",
-   "why": "가설④(현금이 스스로 도는 메모리 상류) · 반도체 2% 칸 — 10/13 승인한 350억$ 매입이 12월(12/9 전후) 실행 창에 들어가 메모리 수급 받침",
-   "summary": "마이크론 이사회가 10/13 승인한 자사주 350억$(역대 최대) 매입이 12월부터 실행 가능해짐. 승인 당일 주가는 −4%(코인센트럴) — 매입 실행 구간 주가 반응이 관건."
   }
  ],
  "at": "2026-11-21 07:45"
