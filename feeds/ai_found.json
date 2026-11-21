@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "엔비디아, 위험한 AI 데이터센터 세입자 손실을 보험사에 떠넘기려 한다",
+   "url": "https://www.bisnow.com/news/national/data-center-capital-markets/nvidia-asks-insurers-to-shoulder-financing-risk-for-some-of-its-largest-customers",
+   "press": "Bisnow",
+   "at": "2026-11-21 16:45",
+   "why": "가설① AI 차입(크레딧) — 네오클라우드 대출 LTV 하향(하나중국 72513)과 같은 줄기, 엔비디아가 고객 신용위험을 떠안고 있다는 신호",
+   "summary": "엔비디아가 일부 대형 고객(네오클라우드 등) 데이터센터 금융 위험을 보험사로 분산하려 한다는 보도 · 세부 금액·날짜는 미확인"
+  },
+  {
    "title": "CNBC 「트럼프 계좌, 엔비디아 주식 최대 9,750만 달러어치 거래」",
    "url": "https://thenextweb.com/news/trump-nvidia-trades-97-5m-cnbc-huang-briefing",
    "press": "The Next Web(CNBC 인용)",
