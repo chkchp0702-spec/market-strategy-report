@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "손정의, SK하이닉스 1조 달러 인수 자금 월가와 타진 — 지금은 「적극 검토 안 함」",
+   "url": "https://www.theinformation.com/articles/softbanks-masayoshi-son-explored-1-trillion-moonshot-buyout-sk-hynix",
+   "press": "디인포메이션",
+   "at": "2026-11-21 12:45",
+   "why": "월요일 SK하이닉스 시가(👻 그림자)·091160.KS·🧭 반도체 판정 — 인수설 자체보다 「메모리에 판돈」 시각",
+   "summary": "손정의가 최근 월가 기관에 하닉 1조$ 인수 자금 조달을 타진 · 소프트뱅크 대변인 「더 이상 적극 검토하지 않음」 · 소프트뱅크 시총 약 1,090억$(FourWeekMBA) — 실현성 낮음"
+  },
+  {
+   "title": "골드만 「패닉지수 최대치 근처 — 그래도 매도는 더 간다」",
+   "url": "https://www.bloomberg.com/news/articles/2025-11-20/goldman-s-flood-sees-extreme-focus-on-hedging-driving-selloff",
+   "press": "블룸버그",
+   "at": "2026-11-21 12:45",
+   "why": "🔴 뼈대 유지·가설②(12/9 분수령) — 공포 극단 = 바로 바닥은 아니라는 IB 시각",
+   "summary": "골드만 트레이딩 데스크 패닉지수가 최대 근처 · 헤지 쏠림이 매도를 키움 · 「매도에 다리가 있다」(블룸버그 11/21 헤드라인, 본문 미확인)"
+  },
+  {
    "title": "美 반도체 수출통제 확대 — 삼성전자, 中 AI 칩 출하 중단",
    "url": "https://en.sedaily.com/society/2026/11/21/us-chip-export-curbs-widen-samsung-halts-ai-chip-shipments",
    "press": "서울경제(영문)",
@@ -623,22 +639,6 @@
    "at": "2026-11-19 16:45",
    "why": "가설 「아시아 AI 하드웨어 약세」·🐻 첫발 신호판 — 정책 방어(공매도 제한)가 바닥 근처에서 나오는 전형적 신호인지 대만 D+5로 확인",
    "summary": "대만 가권 11/19 −4.60% 마감(반도체·PCB 하한가, 야후) 뒤 FSC가 공매도 규제를 다시 조임. 11월은 2008년 이후 최대 월간 하락 경로(블룸버그)."
-  },
-  {
-   "title": "MMF 잔고 300조 육박 역대 최대 · 증시 대기자금 84조원대 연중 최저",
-   "url": "https://www.yna.co.kr/view/AKR20261119106400008",
-   "press": "연합뉴스",
-   "at": "2026-11-19 16:45",
-   "why": "코스피 🐻 판정(주식 0%)과 같은 방향 — 돈이 증시 밖 단기자금으로 피신, 예탁금 반등이 수급 바닥 확인 줄",
-   "summary": "MMF 300조원 육박(2006년 집계 이후 최대, 반도체 차익 자금도 유입). 투자자예탁금 85조원 밑으로 다시 연중 최저(구글뉴스 11/19)."
-  },
-  {
-   "title": "금값 1년여 만의 최저 — 강달러·연준 매파 베팅 쌓여",
-   "url": "https://www.kitco.com/news/off-the-wire/2026-11-16/gold-hits-over-one-year-low-resilient-dollar-hawkish-fed-bets-build",
-   "press": "Kitco(로이터)",
-   "at": "2026-11-19 15:45",
-   "why": "금 칸 5% — 금리 인상 폭 논쟁(12/9)이 금을 누르는 경로, 오늘 3,750$ 아래로 연장",
-   "summary": "11/16 강달러·인상 베팅에 1년여 만 최저 → 11/18 −3% 3,800 붕괴 → 11/19 PM 3,750 아래(Kitco PM). 슈로더는 연말 반등에 베팅."
   }
  ],
  "at": "2026-11-21 07:45"
