@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "美 상원, 에너지·송전 인허가 개편법 통과 — 데이터센터 전력 프로젝트 속도",
+   "url": "https://www.planetizen.com/node/138849",
+   "press": "Planetizen",
+   "at": "2026-11-21 14:45",
+   "why": "가설③ 「현금 도는 AI — 전력·데이터 인프라」 정책 순풍 · 빚으로 짓는 AI 매도 속 전력망 쪽 차별화 재료",
+   "summary": "상원이 에너지 인허가 개편법을 통과(액시오스 11/21 「Senate passes Trump-backed permitting bill」) · 데이터센터·송전 인허가 기간 단축이 핵심 · 하원 통과 여부 다음 확인"
+  },
+  {
+   "title": "中 군 연계 대학, 美 블랙리스트에도 엔비디아 H200 확보 — 기록 확인",
+   "url": "https://cybernews.com/tech/military-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist/",
+   "press": "Cybernews",
+   "at": "2026-11-21 14:45",
+   "why": "조선비즈 11/21 「엔비디아 中 군 연계 수출 추진」과 같은 줄기 — 엔비디아 규제·의회 조사 위험 확대, 💬 3번·🫧 정책 칸",
+   "summary": "PLA 연계 대학이 수출통제에도 H200을 확보했다는 문서 보도 · 의회·SEC 조사와 겹쳐 엔비디아 규제 리스크 확대 · 구체 수량 미확인"
+  },
+  {
    "title": "폴슨 필라델피아 연은 총재 「점진적 추가 인상 지지 — 더 빨리 올릴 세 가지 조건 제시」",
    "url": "https://investinglive.com/central-banks/fed-s-paulson-backs-further-gradual-rate-hikes-names-three-triggers-for-faster-action/",
    "press": "investingLive",
@@ -623,30 +639,6 @@
    "at": "2026-11-19 18:45",
    "why": "H주 50% 칸·🐻 more[] — 홍콩 기술주 약세가 AI 차입 걱정과 겹침, 200일선 8,466 판정 거리 확인용",
    "summary": "11/19 항셍 −453p(−1.95%) 22,841 사흘째 하락 · 텐센트 −6.5% 2년 최저·알리바바 10일 연속 하락 · 남향 자금 40억 홍콩달러 순유입(구글뉴스 홍콩)"
-  },
-  {
-   "title": "한국, 사상 첫 연간 수출 1조달러 달성 임박→11/19 달성 — 반도체가 절반",
-   "url": "https://www.koreatimes.co.kr/economy/20261117/korea-set-to-achieve-1-tril-export-milestone-for-1st-time",
-   "press": "Korea Times",
-   "at": "2026-11-19 17:40",
-   "why": "코스피 오후 반전의 재료(수출 1조달러) — 한국 메모리 이익 바닥은 단단, 지수 판정은 50일선 규칙대로",
-   "summary": "11/17 보도: 1조달러 돌파 예정 · 11/19 관세청장 「수출 1조달러 달성」(연합) · 로이터 「세계 네 번째」"
-  },
-  {
-   "title": "베선트 「엔비디아 외부 CEO로 대대적 쇄신」 — 황 퇴진 뒤",
-   "url": "https://www.foxbusiness.com/business-leaders/bessent-calls-nvidia-leadership-shake-up-amid-china-chip-scandal-urges-outside-ceo",
-   "press": "Fox Business",
-   "at": "2026-11-19 17:40",
-   "why": "엔비디아 경영 공백·무디스 전망 하향과 겹친 정책 리스크 — 가설① 신용 칸·qa#2",
-   "summary": "재무장관이 외부 CEO 영입 요구·중국 불법 판매 의혹 제기(11/15~16) · 배런스 11/19 재보도"
-  },
-  {
-   "title": "대만 금융감독위, 공매도 규제 추가 강화 — 2008년 이후 최대 월간 하락 앞두고",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-19/taiwan-tightens-short-selling-curbs-to-help-support-stock-market",
-   "press": "블룸버그",
-   "at": "2026-11-19 16:45",
-   "why": "가설 「아시아 AI 하드웨어 약세」·🐻 첫발 신호판 — 정책 방어(공매도 제한)가 바닥 근처에서 나오는 전형적 신호인지 대만 D+5로 확인",
-   "summary": "대만 가권 11/19 −4.60% 마감(반도체·PCB 하한가, 야후) 뒤 FSC가 공매도 규제를 다시 조임. 11월은 2008년 이후 최대 월간 하락 경로(블룸버그)."
   }
  ],
  "at": "2026-11-21 07:45"
