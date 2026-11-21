@@ -1,6 +1,30 @@
 {
  "items": [
   {
+   "title": "[뉴욕채권] 단기물 주도 초강세…美 기술주 패닉에 '내달 동결' 고개",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1jeDE2eHM4cldpZVNyb2Uxc3Zxc0NOVGc5M2V2cnd6SC1ZMUdIMU1KOFY5N2dWS21kSVFQTlZVcVBjcDlGMHJyMVZMSXp2RE5SeEdNMEpfeGRVVEdsYk1tQzlITW1BaGpUdDFwbzB0MUg?oc=5",
+   "press": "연합인포맥스",
+   "at": "2026-11-21 22:45",
+   "why": "12/9 FOMC 분수령 가설 — 「인상 거의 확실」이던 채권시장이 기술주 패닉 뒤 동결 쪽을 사기 시작(2018→2019 전환 경로의 첫 표지 후보)",
+   "summary": "11/20 뉴욕 채권 단기물 주도 강세 · 기술주 급락(나스닥 −5.3%)에 12월 동결 전망 고개 · 수치는 원문 미확인"
+  },
+  {
+   "title": "골드만삭스, 중국 H주 비중확대 상향…2027년 수익 성장 가속 전망",
+   "url": "https://kr.investing.com/news/economy-news/article-2186209",
+   "press": "인베스팅닷컴",
+   "at": "2026-11-21 22:45",
+   "why": "🐻 H주 0%(200일선 8,466 아래)와 반대 의견 — 남향자금 순매수와 함께 「닮은 장」 복귀 선 근처에서 볼 참고",
+   "summary": "골드만 H주 투자의견 비중확대로 상향 · 2027년 기업이익 성장 가속 전망 · 세부 숫자 미확인"
+  },
+  {
+   "title": "트럼프, 해외에 데이터센터 짓는 기업에 과세 위협",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY0lBOFpCc3ZDVDVFN1gyaXVvLTYzaWcyZmZuMWp5VDNUdEY2Sm9RNG5nRy1BcjM4OFhJVTNNQ1RnaEYwTmhQS2tzX0k1dXBLTWhnVjBjMXk1djI2ZS1GaUJUcWlKOVFTYlFvVWc3NGVwYjd3N1NlTGZRZUFJcC05MkszQUJFdTMzdzVqS0VtcTgwaWNPZWVIaGRUa3FQdkZHSDljVFlZQWtXSTktazNaaXRR?oc=5",
+   "press": "Bloomberg",
+   "at": "2026-11-21 22:45",
+   "why": "가설③ — 미국 안 전력·데이터 인프라 수요엔 순풍, 해외 데이터센터(중동·아시아) 투자 계획엔 역풍",
+   "summary": "블룸버그 11/21 · 해외 데이터센터 건설 기업 과세 위협 · 대상·세율 미확인"
+  },
+  {
    "title": "대만, 2001년 이후 최악의 주 뒤 월요일부터 공매도 제한",
    "url": "https://www.crowdfundinsider.com/?p=322433",
    "press": "Crowdfund Insider",
@@ -615,31 +639,7 @@
    "at": "2026-11-19 22:45",
    "why": "장부 조건 brent_95·에너지 칸 축소 선 85달러 — 공격 경고에도 원유가 내리는지",
    "summary": "22시 속보 · 같은 시각 브렌트 89.9달러(−2.2%)·WTI 83.16(−0.1%)(daily-app 22:33) · 저녁 미·중·러 정제유 공급 확대 선언과 충돌"
-  },
-  {
-   "title": "퇴진한 젠슨 황 「이사회가 요청하면 엔비디아 CEO로 복귀할 의향」 (WSJ 보도)",
-   "url": "https://www.newsquawk.com/headlines/former-nvidia-nvda-ceo-huang-says-he-is-willing-to-return-as-ceo-if-directors-asked-him-to-do-so-wsj-reports",
-   "press": "Newsquawk(WSJ 인용)",
-   "at": "2026-11-19 21:40",
-   "why": "가설① 엔비디아 경영 공백·NVDA 🐋 고래 신호(11/17) — 이사회 「복귀 의도 없음」과 정면 충돌, 지배구조 변수",
-   "summary": "황 전 CEO가 이사회 요청 시 복귀 의향(WSJ). 이사회 의장은 11/17 「복귀 의도 없음」, 베선트는 외부 CEO 영입 요구(SCMP). 무디스 전망 하향·SEC 조사와 같은 줄."
-  },
-  {
-   "title": "젠슨 황, 사임 며칠 만에 엔비디아 복귀 검토 (FT 보도)",
-   "url": "https://investinglive.com/stocks/jensen-huang-weighs-nvidia-comeback-days-after-quitting-over-scandal-ft-reports/",
-   "press": "investingLive(FT 인용)",
-   "at": "2026-11-19 21:40",
-   "why": "엔비디아 CEO 공백 해소 여부 = AI 대형주 심리·💬 3번 답의 변수",
-   "summary": "FT: 황이 스캔들로 물러난 지 며칠 만에 복귀를 저울질. 측근들이 조사 결론 전 복귀 추진(보도). 결론 미확인."
-  },
-  {
-   "title": "SEC, 황 퇴진 뒤 엔비디아 공시 민사 조사 착수 — 캘리포니아 검찰총장도 조치 검토",
-   "url": "https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-eyes-action/269054",
-   "press": "InvestmentNews",
-   "at": "2026-11-19 20:45",
-   "why": "가설① AI 차입·가설④ — 엔비디아 경영 공백이 규제 리스크로 번짐, 네오클라우드 백스톱 축소와 같은 방향",
-   "summary": "WSJ 단독 보도 이후 SEC가 황 CEO 퇴진 관련 투자자 공시를 들여다보는 중. 캘리포니아 검찰총장도 조치 검토. 엔비디아 7주 연속 주간 하락 중."
   }
  ],
- "at": "2026-11-21 07:45"
+ "at": "2026-11-21 22:45"
 }
