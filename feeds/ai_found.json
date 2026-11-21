@@ -1,6 +1,22 @@
 {
  "items": [
   {
+   "title": "대만 가권지수 6개월 최저 마감·4주 연속 주간 하락",
+   "url": "https://tradingeconomics.com/taiwan/stock-market/news/598961",
+   "press": "Trading Economics",
+   "at": "2026-11-21 10:45",
+   "why": "AI 매도가 대만(TSMC)까지 — 💼 반도체 칸·월요일 코스피 삼전닉스 첫 방향",
+   "summary": "TAIEX 6개월여 최저 종가·4주 연속 주간 하락 · 피드 헤드라인 「대만 증시 1990년 이후 최악의 주간」(구글뉴스 11/21)."
+  },
+  {
+   "title": "마이클 버리, 엔비디아·팔란티어 2026년 12월물 풋 매도 — 「위험을 줄이는 중」",
+   "url": "https://stocktwits.com/news-articles/markets/equity/michael-burry-sells-nvda-pltr-puts-trims-portfolio-risk/cZt7eYxRJzF",
+   "press": "Stocktwits",
+   "at": "2026-11-21 10:45",
+   "why": "대표 약세론자의 공매도 차익실현 — 💼 나스닥100 다시 담기·🐻 반등 통계 참고 신호",
+   "summary": "버리가 NVDA·PLTR 12월물 풋을 정리하며 위험 축소 · 월스트리트CN은 엔비디아·반도체 ETF 풋 「절반 축소」로 전함(HANAchina 72505) · 11/5엔 반도체 ETF 풋 25% 축소(247wallst)."
+  },
+  {
    "title": "비트코인, 11월 한 달 최대 −23% — 2022년 하락장과 비교 다시 나와",
    "url": "https://cryptobriefing.com/bitcoin-falls-23-november-2026-bear-market/",
    "press": "Crypto Briefing",
@@ -623,22 +639,6 @@
    "at": "2026-11-19 14:45",
    "why": "가설④(현금이 스스로 도는 메모리 상류) · 반도체 2% 칸 — 10/13 승인한 350억$ 매입이 12월(12/9 전후) 실행 창에 들어가 메모리 수급 받침",
    "summary": "마이크론 이사회가 10/13 승인한 자사주 350억$(역대 최대) 매입이 12월부터 실행 가능해짐. 승인 당일 주가는 −4%(코인센트럴) — 매입 실행 구간 주가 반응이 관건."
-  },
-  {
-   "title": "BofA 하트넷 「달러는 레킹볼 — 세계 유동성 압박, 위험자산 진입 시점은 내년 봄」",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZWWE3ZDZvTUNyVUQ5ODNXZDRxazJqVlg4OC13OF9YeTNfbnVlVUJWa3VFUDA0YV9tQkVKUm15SUg3aG50eExTNTR4NGNEX2xmUFZ4Z1RIMW54RmR4eGtuTXZOWUphaU1qRGNPNHozRngtanU4TVE?oc=5",
-   "press": "구글뉴스(BofA 하트넷)",
-   "at": "2026-11-19 14:45",
-   "why": "🐻 현금 비중·원/달러 질문 — 달러 19개월 고점이 아시아 유동성을 죄는 한 코스피 「50일선 넘으면 사기」 규칙 유지 근거",
-   "summary": "하트넷이 달러 강세를 세계 유동성의 「레킹볼」로 표현, 위험자산 진입 시점을 내년 봄으로 늦춤(11/15 「진입 조건 3개 미충족」의 연장)."
-  },
-  {
-   "title": "5천피 무너진 증시…'주식형 헤지펀드'도 3천400억원 자금 순유출",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05WDVncGVtU1NhNHRRcHZPVnRwajZ6cHRzVnFra0IwenRURXZDbUJEYm42V2hfRi1fUkx0WUF1dk1GaFR2aEVLS201THVFMjFHQjVodGM5TVVVMHFaSmRKSldUN0VrNTVqbXEzeHNZTHk?oc=5",
-   "press": "구글뉴스",
-   "at": "2026-11-19 14:45",
-   "why": "🐻 코스피 하락장 판정 — 외국인 레버리지 축소에 국내 주식형 헤지펀드 환매까지 겹친 매도 압력, 「저점 다지기」 판정 보조",
-   "summary": "코스피 5,000선 이탈 국면에서 국내 주식형 헤지펀드 약 3,400억 원 순유출. 외국인 매도(11/19 12:54 잠정 −3,343억)와 같은 방향."
   }
  ],
  "at": "2026-11-21 07:45"
